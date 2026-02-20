@@ -299,7 +299,9 @@ const BODY_READ_TIMEOUT = 30_000;
 async function readBodyWithLimit(req: Request, maxSize: number): Promise<string | null> {
   const clHeader = req.headers.get('content-length');
   const cl = parseInt(clHeader ?? '', 10);
-  if (!Number.isNaN(cl) && cl > maxSize) return null;
+  const hasContentLength = Number.isFinite(cl) && cl >= 0;
+  if (hasContentLength && cl > maxSize) return null;
+  if (hasContentLength && cl === 0) return '';
 
   const reader = req.body?.getReader();
   if (!reader) return '';
@@ -325,6 +327,12 @@ async function readBodyWithLimit(req: Request, maxSize: number): Promise<string 
         return null;
       }
       chunks.push(value);
+
+      // Some serverless runtimes occasionally stall waiting for stream "done"
+      // even when exactly Content-Length bytes are already read.
+      if (hasContentLength && totalSize >= cl) {
+        break;
+      }
     }
   } finally {
     try { reader.releaseLock(); } catch {}
@@ -435,7 +443,7 @@ app.post('/scan', async (c) => {
   try {
     body = await readBodyWithLimit(c.req.raw, MAX_BODY_SIZE);
   } catch {
-    console.log(`[scan ${reqId}] body read timeout after ${Date.now() - started}ms`);
+    console.log(`[scan ${reqId}] body read timeout after ${Date.now() - started}ms (content-length=${c.req.header('content-length') ?? 'unknown'})`);
     return c.text('Request body read timed out.\n', 408);
   }
   if (body === null) {
