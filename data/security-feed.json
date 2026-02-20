@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-02-20T19:20:24.345Z",
+  "fetchedAt": "2026-02-20T20:12:45.958Z",
   "entries": [
+    {
+      "title": "[url-parse] url-parse Incorrectly parses URLs that include an '@'",
+      "url": "https://github.com/advisories/GHSA-8v38-pw62-9cw2",
+      "date": "2026-02-20T19:56:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[url-parse] Authorization bypass in url-parse",
+      "url": "https://github.com/advisories/GHSA-rqff-837h-mm52",
+      "date": "2026-02-20T19:56:10.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[fickling] Fickling has a detection bypass via stdlib network-protocol constructors",
       "url": "https://github.com/advisories/GHSA-83pf-v6qq-pwmr",
@@ -124,20 +138,6 @@
       "date": "2026-02-19T20:29:19.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[dtale] D-Tale affected by Remote Code Execution through the /save-column-filter endpoint",
-      "url": "https://github.com/advisories/GHSA-c87c-78rc-vmv2",
-      "date": "2026-02-19T20:29:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[svelte] Svelte SSR attribute spreading includes inherited properties from prototype chain",
-      "url": "https://github.com/advisories/GHSA-crpf-4hrx-3jrp",
-      "date": "2026-02-19T20:28:50.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
