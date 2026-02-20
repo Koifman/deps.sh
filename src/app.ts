@@ -149,29 +149,29 @@ app.get('/', (c) => {
   deps.sh — supply chain risk scoring
 
   Usage:
-    curl deps.sh/npm/<package>       npm package
-    curl deps.sh/pip/<package>       PyPI package
-    curl deps.sh/cargo/<package>     crates.io package
-    curl deps.sh/<package>           defaults to npm
-    curl deps.sh/recent              high-risk packages (last scan)
-    curl deps.sh/feed                security advisories
-    curl deps.sh/incidents           supply chain incidents
-    curl deps.sh/transfers           ownership transfers
+    curl -L deps.sh/npm/<package>       npm package
+    curl -L deps.sh/pip/<package>       PyPI package
+    curl -L deps.sh/cargo/<package>     crates.io package
+    curl -L deps.sh/<package>           defaults to npm
+    curl -L deps.sh/recent              high-risk packages (last scan)
+    curl -L deps.sh/feed                security advisories
+    curl -L deps.sh/incidents           supply chain incidents
+    curl -L deps.sh/transfers           ownership transfers
 
   Lockfile scanning:
-    curl -X POST deps.sh/scan -d @package-lock.json
-    curl -X POST deps.sh/scan -d @requirements.txt
-    curl -X POST deps.sh/scan -d @Cargo.lock
+    curl -L -X POST deps.sh/scan -d @package-lock.json
+    curl -L -X POST deps.sh/scan -d @requirements.txt
+    curl -L -X POST deps.sh/scan -d @Cargo.lock
 
   Options:
     ?json                            JSON output
 
   Examples:
-    curl deps.sh/npm/lodash
-    curl deps.sh/pip/requests
-    curl deps.sh/cargo/serde
-    curl deps.sh/npm/lodash?json
-    curl deps.sh/recent
+    curl -L deps.sh/npm/lodash
+    curl -L deps.sh/pip/requests
+    curl -L deps.sh/cargo/serde
+    curl -L deps.sh/npm/lodash?json
+    curl -L deps.sh/recent
 
   Source: github.com/koifman/deps.sh
 `);
@@ -226,18 +226,18 @@ app.get('/', (c) => {
 <body>
 <div class="scanners">${scanners > 0 ? `<strong>${scanners}</strong> scanning now` : ''}</div>
 <h1>deps.sh</h1>
-<p>Supply chain risk scoring as a service. <a href="https://github.com/koifman/deps.sh">GitHub</a></p>
+<p>Supply chain risk scoring as a service. <a href="https://github.com/koifman/deps.sh">GitHub</a> · <a href="https://www.linkedin.com/in/koifman-daniel/">LinkedIn</a></p>
 <pre>
-curl deps.sh/npm/lodash          # npm package
-curl deps.sh/pip/requests        # PyPI package
-curl deps.sh/cargo/serde         # crates.io package
-curl deps.sh/lodash              # defaults to npm
-curl deps.sh/recent              # high-risk packages (last scan)
-curl deps.sh/feed                # security advisories
-curl deps.sh/incidents           # supply chain incidents
-curl deps.sh/transfers           # ownership transfers
-curl -X POST deps.sh/scan -d @package-lock.json  # lockfile scan
-curl deps.sh/npm/lodash?json     # JSON output
+curl -L deps.sh/npm/lodash          # npm package
+curl -L deps.sh/pip/requests        # PyPI package
+curl -L deps.sh/cargo/serde         # crates.io package
+curl -L deps.sh/lodash              # defaults to npm
+curl -L deps.sh/recent              # high-risk packages (last scan)
+curl -L deps.sh/feed                # security advisories
+curl -L deps.sh/incidents           # supply chain incidents
+curl -L deps.sh/transfers           # ownership transfers
+curl -L -X POST deps.sh/scan -d @package-lock.json  # lockfile scan
+curl -L deps.sh/npm/lodash?json     # JSON output
 </pre>
 <div class="columns">
 <div>
@@ -253,7 +253,6 @@ curl deps.sh/npm/lodash?json     # JSON output
 </ul>
 </div>
 </div>
-<p>Source: <a href="https://github.com/koifman/deps.sh">github.com/koifman/deps.sh</a></p>
 </body></html>`);
 });
 
@@ -402,7 +401,7 @@ app.post('/scan', async (c) => {
     return c.text('Request body too large (max 5MB).\n', 413);
   }
   if (!body.trim()) {
-    return c.text('Empty request body. Pipe a lockfile:\n  curl -X POST deps.sh/scan -d @package-lock.json\n', 400);
+    return c.text('Empty request body. Pipe a lockfile:\n  curl -L -X POST deps.sh/scan -d @package-lock.json\n', 400);
   }
 
   const { format, ecosystem, deps } = parseLockfile(body);

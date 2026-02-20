@@ -1,0 +1,144 @@
+{
+  "fetchedAt": "2026-02-20T09:19:15.763Z",
+  "entries": [
+    {
+      "title": "RUSTSEC-2026-0012: Unsoundness in keccak",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0012.html",
+      "date": "2026-02-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "[pannellum] Pannellum has a XSS vulnerability in hot spot attributes",
+      "url": "https://github.com/advisories/GHSA-8423-w5wx-h2r6",
+      "date": "2026-02-19T23:37:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langflow] Langflow affected by Remote Code Execution via validate_code() exec()",
+      "url": "https://github.com/advisories/GHSA-g22f-v6f7-2hrh",
+      "date": "2026-02-19T22:09:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw safeBins file-existence oracle information disclosure",
+      "url": "https://github.com/advisories/GHSA-6c9j-x93c-rw6j",
+      "date": "2026-02-19T22:06:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw safeBins stdin-only bypass via sort output and recursive grep flags",
+      "url": "https://github.com/advisories/GHSA-4685-c5cp-vp95",
+      "date": "2026-02-19T22:06:03.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[jspdf] jsPDF Affected by Client-Side/Server-Side Denial of Service via Malicious GIF Dimensions",
+      "url": "https://github.com/advisories/GHSA-67pg-wm7f-q7fj",
+      "date": "2026-02-19T20:58:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw has a path traversal in apply_patch could write/delete files outside the workspace",
+      "url": "https://github.com/advisories/GHSA-r5fq-947m-xm57",
+      "date": "2026-02-19T20:46:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flask] Flask session does not add `Vary: Cookie` header when accessed in some ways",
+      "url": "https://github.com/advisories/GHSA-68rp-wp8r-4726",
+      "date": "2026-02-19T20:45:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[werkzeug]  Werkzeug safe_join() allows Windows special device names",
+      "url": "https://github.com/advisories/GHSA-29vq-49wr-vm6x",
+      "date": "2026-02-19T20:32:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@feathersjs/authentication-oauth] Feathers exposes internal headers via unencrypted session cookie",
+      "url": "https://github.com/advisories/GHSA-9m9c-vpv5-9g85",
+      "date": "2026-02-19T20:32:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@feathersjs/authentication-oauth] Feathers has an origin validation bypass via prefix matching",
+      "url": "https://github.com/advisories/GHSA-mp4x-c34x-wv3x",
+      "date": "2026-02-19T20:32:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@feathersjs/authentication-oauth] Feathers has an open redirect in OAuth callback enables account takeover",
+      "url": "https://github.com/advisories/GHSA-ppf9-4ffw-hh4p",
+      "date": "2026-02-19T20:32:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@sveltejs/kit] CPU exhaustion in SvelteKit remote form deserialization (experimental only)",
+      "url": "https://github.com/advisories/GHSA-88qp-p4qg-rqm6",
+      "date": "2026-02-19T20:30:29.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@sveltejs/kit]  Memory exhaustion in SvelteKit remote form deserialization (experimental only)",
+      "url": "https://github.com/advisories/GHSA-vrhm-gvg7-fpcf",
+      "date": "2026-02-19T20:29:43.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[devalue] devalue affected by CPU and memory amplification from sparse arrays",
+      "url": "https://github.com/advisories/GHSA-33hq-fvwr-56pm",
+      "date": "2026-02-19T20:29:39.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[devalue] devalue `uneval`ed code can create objects with polluted prototypes when `eval`ed",
+      "url": "https://github.com/advisories/GHSA-8qm3-746x-r74r",
+      "date": "2026-02-19T20:29:19.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[dtale] D-Tale affected by Remote Code Execution through the /save-column-filter endpoint",
+      "url": "https://github.com/advisories/GHSA-c87c-78rc-vmv2",
+      "date": "2026-02-19T20:29:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[svelte] Svelte SSR attribute spreading includes inherited properties from prototype chain",
+      "url": "https://github.com/advisories/GHSA-crpf-4hrx-3jrp",
+      "date": "2026-02-19T20:28:50.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[swiper] Prototype pollution in swiper",
+      "url": "https://github.com/advisories/GHSA-hmx5-qpq5-p643",
+      "date": "2026-02-19T20:28:39.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[Nova] OpenStack Nova calls qemu-img without format restrictions for resize",
+      "url": "https://github.com/advisories/GHSA-m4f3-qp2w-gwh6",
+      "date": "2026-02-19T20:28:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    }
+  ]
+}

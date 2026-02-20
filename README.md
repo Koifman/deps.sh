@@ -3,7 +3,7 @@
 Supply chain risk scoring as a service.
 
 ```bash
-curl deps.sh/npm/lodash
+curl -L deps.sh/npm/lodash
 ```
 
 ```
@@ -25,25 +25,25 @@ curl deps.sh/npm/lodash
 
 ```bash
 # Score a package
-curl deps.sh/npm/lodash
-curl deps.sh/pip/requests
-curl deps.sh/cargo/serde
-curl deps.sh/lodash              # defaults to npm
+curl -L deps.sh/npm/lodash
+curl -L deps.sh/pip/requests
+curl -L deps.sh/cargo/serde
+curl -L deps.sh/lodash              # defaults to npm
 
 # Lockfile scanning
-curl -X POST deps.sh/scan -d @package-lock.json
-curl -X POST deps.sh/scan -d @requirements.txt
-curl -X POST deps.sh/scan -d @Cargo.lock
+curl -L -X POST deps.sh/scan -d @package-lock.json
+curl -L -X POST deps.sh/scan -d @requirements.txt
+curl -L -X POST deps.sh/scan -d @Cargo.lock
 
 # Feeds
-curl deps.sh/recent              # high-risk packages
-curl deps.sh/feed                # security advisories
-curl deps.sh/incidents           # supply chain incidents
-curl deps.sh/transfers           # ownership transfers
+curl -L deps.sh/recent              # high-risk packages
+curl -L deps.sh/feed                # security advisories
+curl -L deps.sh/incidents           # supply chain incidents
+curl -L deps.sh/transfers           # ownership transfers
 
 # JSON output
-curl deps.sh/npm/lodash?json
-curl -X POST deps.sh/scan?json -d @package-lock.json
+curl -L deps.sh/npm/lodash?json
+curl -L -X POST deps.sh/scan?json -d @package-lock.json
 ```
 
 ## How scoring works
@@ -119,7 +119,7 @@ All endpoints return terminal-formatted text by default. Append `?json` or send 
 Accepts `package-lock.json` (v1/v2/v3), `package.json`, `requirements.txt`, or `Cargo.lock`. Auto-detects format from content.
 
 ```bash
-cat package-lock.json | curl -s -X POST deps.sh/scan --data-binary @-
+cat package-lock.json | curl -sL -X POST deps.sh/scan --data-binary @-
 ```
 
 Limits: 5MB max body, 100 packages scored per request, 10 requests/min rate limit.
