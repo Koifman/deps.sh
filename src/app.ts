@@ -297,9 +297,18 @@ const BODY_READ_TIMEOUT = 10_000;
 
 /** Read request body with size + time limits. Throws on read timeout. */
 async function readBodyWithLimit(req: Request, maxSize: number): Promise<string | null> {
-  const cl = parseInt(req.headers.get('content-length') ?? '', 10);
-  if (cl > maxSize) return null;
+  const clHeader = req.headers.get('content-length');
+  const cl = parseInt(clHeader ?? '', 10);
+  if (!Number.isNaN(cl) && cl > maxSize) return null;
 
+  // If Content-Length is known, rely on it and avoid aggressive read timeout.
+  if (!Number.isNaN(cl)) {
+    const body = await req.text();
+    if (body.length > maxSize) return null;
+    return body;
+  }
+
+  // Unknown length (chunked) can stall on some runtimes; guard with timeout.
   let timer: ReturnType<typeof setTimeout> | undefined;
   try {
     const body = await Promise.race([
