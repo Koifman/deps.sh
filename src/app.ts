@@ -26,7 +26,7 @@ app.use('*', async (c, next) => {
   c.header('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
   // CSP only for HTML responses
   if (c.res.headers.get('content-type')?.includes('text/html')) {
-    c.header('Content-Security-Policy', "default-src 'none'; style-src 'unsafe-inline'; img-src https:; connect-src 'self'");
+    c.header('Content-Security-Policy', "default-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'unsafe-inline'; img-src https:; connect-src 'self'");
   }
 });
 
@@ -227,10 +227,6 @@ app.get('/', (c) => {
   window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
-<script>
-  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
-</script>
-<script defer src="/_vercel/speed-insights/script.js"></script>
 </head>
 <body>
 <div class="scanners">${scanners > 0 ? `<strong>${scanners}</strong> scanning now` : ''}</div>
@@ -262,6 +258,10 @@ curl -L deps.sh/npm/lodash?json     # JSON output
 </ul>
 </div>
 </div>
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/speed-insights/script.js"></script>
 </body></html>`);
 });
 
