@@ -222,7 +222,12 @@ app.get('/', (c) => {
   .feed-sev { font-size: 10px; font-weight: bold; padding: 1px 4px; border-radius: 3px; background: #161b22; }
   .feed-date { color: #484f58; font-size: 12px; }
   .feed-empty { color: #484f58; }
-</style></head>
+</style>
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
 <body>
 <div class="scanners">${scanners > 0 ? `<strong>${scanners}</strong> scanning now` : ''}</div>
 <h1>deps.sh</h1>

@@ -9,8 +9,9 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "hono": "^4.7.0",
-    "@hono/node-server": "^1.13.0"
+    "@hono/node-server": "^1.13.0",
+    "@vercel/analytics": "^1.6.1",
+    "hono": "^4.7.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
