@@ -1,4 +1,5 @@
 import type { PackageInfo, MaintainerInfo, EcosystemAdapter } from '../types';
+import { resilientFetch } from '../fetch.js';
 
 const REGISTRY_URL = 'https://registry.npmjs.org';
 const DOWNLOADS_URL = 'https://api.npmjs.org/downloads/point/last-week';
@@ -64,7 +65,7 @@ function detectOwnershipTransfer(versions: Record<string, NpmVersionData>, time:
 
 async function fetchDownloads(name: string, signal?: AbortSignal): Promise<number | null> {
   try {
-    const res = await fetch(`${DOWNLOADS_URL}/${encodeURIComponent(name)}`, { signal });
+    const res = await resilientFetch(`${DOWNLOADS_URL}/${encodeURIComponent(name)}`, { signal });
     if (!res.ok) return null;
     const data = (await res.json()) as NpmDownloadsResponse;
     return data.downloads ?? null;
@@ -74,7 +75,7 @@ async function fetchDownloads(name: string, signal?: AbortSignal): Promise<numbe
 }
 
 export async function fetchNpmPackage(name: string, signal?: AbortSignal): Promise<PackageInfo> {
-  const res = await fetch(`${REGISTRY_URL}/${encodeURIComponent(name)}`, { signal });
+  const res = await resilientFetch(`${REGISTRY_URL}/${encodeURIComponent(name)}`, { signal });
 
   if (res.status === 404) {
     throw new Error(`npm package not found: ${name}`);

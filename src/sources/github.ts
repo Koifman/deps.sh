@@ -1,4 +1,5 @@
 import type { GitHubInfo } from '../types.js';
+import { resilientFetch } from '../fetch.js';
 
 const GITHUB_API = 'https://api.github.com';
 
@@ -63,8 +64,8 @@ export async function fetchGitHubInfo(repoUrl: string, signal?: AbortSignal): Pr
   try {
     // Fetch repo metadata and contributor count in parallel
     const [repoRes, contribRes] = await Promise.all([
-      fetch(`${GITHUB_API}/repos/${owner}/${repo}`, { headers, signal }),
-      fetch(`${GITHUB_API}/repos/${owner}/${repo}/contributors?per_page=1&anon=true`, { headers, signal }),
+      resilientFetch(`${GITHUB_API}/repos/${owner}/${repo}`, { headers, signal }),
+      resilientFetch(`${GITHUB_API}/repos/${owner}/${repo}/contributors?per_page=1&anon=true`, { headers, signal }),
     ]);
 
     // Any non-OK response (403 rate limit, 404 not found, etc.) -> graceful null

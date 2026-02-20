@@ -384,10 +384,10 @@ async function mapConcurrent<T, R>(items: T[], fn: (item: T) => Promise<R>, limi
   return results;
 }
 
-const MAX_SCAN_PACKAGES = 100;
-const SCAN_CONCURRENCY = 5;
+const MAX_SCAN_PACKAGES = 500;
+const SCAN_CONCURRENCY = 10;
 const MAX_BODY_SIZE = 5 * 1024 * 1024; // 5MB
-const SCAN_TIMEOUT = 60_000; // 60 seconds
+const SCAN_TIMEOUT = 120_000; // 120 seconds (Vercel allows up to 300s)
 
 // Lockfile scanning
 app.post('/scan', async (c) => {

@@ -1,4 +1,5 @@
 import type { PackageInfo, MaintainerInfo, EcosystemAdapter } from '../types';
+import { resilientFetch } from '../fetch.js';
 
 const PYPI_URL = 'https://pypi.org/pypi';
 const PYPISTATS_URL = 'https://pypistats.org/api/packages';
@@ -121,7 +122,7 @@ function getLatestReleaseDate(releases: Record<string, PypiReleaseFile[]>, versi
 
 async function fetchDownloads(name: string, signal?: AbortSignal): Promise<number | null> {
   try {
-    const res = await fetch(`${PYPISTATS_URL}/${encodeURIComponent(name)}/recent?period=week`, { signal });
+    const res = await resilientFetch(`${PYPISTATS_URL}/${encodeURIComponent(name)}/recent?period=week`, { signal });
     if (!res.ok) return null;
     const data = (await res.json()) as PypiStatsResponse;
     return data.data?.last_week ?? null;
@@ -131,7 +132,7 @@ async function fetchDownloads(name: string, signal?: AbortSignal): Promise<numbe
 }
 
 export async function fetchPypiPackage(name: string, signal?: AbortSignal): Promise<PackageInfo> {
-  const res = await fetch(`${PYPI_URL}/${encodeURIComponent(name)}/json`, { signal });
+  const res = await resilientFetch(`${PYPI_URL}/${encodeURIComponent(name)}/json`, { signal });
 
   if (res.status === 404) {
     throw new Error(`PyPI package not found: ${name}`);

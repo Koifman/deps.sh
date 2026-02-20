@@ -1,4 +1,5 @@
 import type { Ecosystem, VulnInfo } from '../types.js';
+import { resilientFetch } from '../fetch.js';
 
 const ECOSYSTEM_MAP: Record<Ecosystem, string> = {
   npm: 'npm',
@@ -88,7 +89,7 @@ export async function fetchVulnerabilities(
   signal?: AbortSignal,
 ): Promise<VulnInfo[]> {
   try {
-    const res = await fetch('https://api.osv.dev/v1/query', {
+    const res = await resilientFetch('https://api.osv.dev/v1/query', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
