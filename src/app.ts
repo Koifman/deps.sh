@@ -293,7 +293,7 @@ function escHtml(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
-const BODY_READ_TIMEOUT = 10_000;
+const BODY_READ_TIMEOUT = 30_000;
 
 /** Read request body with size + time limits. Throws on read timeout. */
 async function readBodyWithLimit(req: Request, maxSize: number): Promise<string | null> {
@@ -301,27 +301,40 @@ async function readBodyWithLimit(req: Request, maxSize: number): Promise<string 
   const cl = parseInt(clHeader ?? '', 10);
   if (!Number.isNaN(cl) && cl > maxSize) return null;
 
-  // If Content-Length is known, rely on it and avoid aggressive read timeout.
-  if (!Number.isNaN(cl)) {
-    const body = await req.text();
-    if (body.length > maxSize) return null;
-    return body;
+  const reader = req.body?.getReader();
+  if (!reader) return '';
+
+  const chunks: Uint8Array[] = [];
+  let totalSize = 0;
+  const decoder = new TextDecoder();
+
+  try {
+    while (true) {
+      let timer: ReturnType<typeof setTimeout> | undefined;
+      const { done, value } = await Promise.race([
+        reader.read(),
+        new Promise<never>((_, reject) => {
+          timer = setTimeout(() => reject(new Error('body read timeout')), BODY_READ_TIMEOUT);
+        }),
+      ]);
+      if (timer) clearTimeout(timer);
+      if (done) break;
+      totalSize += value.byteLength;
+      if (totalSize > maxSize) {
+        try { await reader.cancel(); } catch {}
+        return null;
+      }
+      chunks.push(value);
+    }
+  } finally {
+    try { reader.releaseLock(); } catch {}
   }
 
-  // Unknown length (chunked) can stall on some runtimes; guard with timeout.
-  let timer: ReturnType<typeof setTimeout> | undefined;
-  try {
-    const body = await Promise.race([
-      req.text(),
-      new Promise<never>((_, reject) => {
-        timer = setTimeout(() => reject(new Error('body read timeout')), BODY_READ_TIMEOUT);
-      }),
-    ]);
-    if (body.length > maxSize) return null;
-    return body;
-  } finally {
-    if (timer) clearTimeout(timer);
+  let body = '';
+  for (let i = 0; i < chunks.length; i++) {
+    body += decoder.decode(chunks[i], { stream: i !== chunks.length - 1 });
   }
+  return body;
 }
 
 /** Only allow http/https URLs in HTML href attributes. Blocks javascript: and data: schemes. */
@@ -408,8 +421,13 @@ const SCAN_TIMEOUT = 45_000;
 
 // Lockfile scanning
 app.post('/scan', async (c) => {
+  const started = Date.now();
+  const reqId = c.req.header('cf-ray') ?? c.req.header('x-vercel-id') ?? 'scan';
+  console.log(`[scan ${reqId}] start`);
+
   const ip = clientIp(c);
   if (!checkScanRateLimit(ip)) {
+    console.log(`[scan ${reqId}] rate-limited in ${Date.now() - started}ms`);
     return c.text('Rate limit exceeded. Max 10 scans per minute.\n', 429);
   }
 
@@ -417,19 +435,25 @@ app.post('/scan', async (c) => {
   try {
     body = await readBodyWithLimit(c.req.raw, MAX_BODY_SIZE);
   } catch {
+    console.log(`[scan ${reqId}] body read timeout after ${Date.now() - started}ms`);
     return c.text('Request body read timed out.\n', 408);
   }
   if (body === null) {
+    console.log(`[scan ${reqId}] body too large after ${Date.now() - started}ms`);
     return c.text('Request body too large (max 5MB).\n', 413);
   }
   if (!body.trim()) {
+    console.log(`[scan ${reqId}] empty body after ${Date.now() - started}ms`);
     return c.text('Empty request body. Pipe a lockfile:\n  curl -L -X POST deps.sh/scan -d @package-lock.json\n', 400);
   }
+  console.log(`[scan ${reqId}] read body (${body.length} bytes) in ${Date.now() - started}ms`);
 
   const { format, ecosystem, deps } = parseLockfile(body);
   if (format === 'unknown' || deps.length === 0) {
+    console.log(`[scan ${reqId}] unknown format after ${Date.now() - started}ms`);
     return c.text('Could not detect lockfile format. Supported: package-lock.json, package.json, requirements.txt, Cargo.lock\n', 400);
   }
+  console.log(`[scan ${reqId}] parsed ${deps.length} deps (${format}) in ${Date.now() - started}ms`);
 
   const totalPackages = deps.length;
   const toScore = deps.slice(0, MAX_SCAN_PACKAGES);
@@ -498,6 +522,7 @@ app.post('/scan', async (c) => {
     summary,
     packages: scored,
   };
+  console.log(`[scan ${reqId}] scored ${scored.length}/${totalPackages} in ${Date.now() - started}ms`);
 
   const url = new URL(c.req.url);
   if (wantsJson(url, c.req.header('accept'))) {
