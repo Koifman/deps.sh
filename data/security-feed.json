@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-02-20T22:10:05.780Z",
+  "fetchedAt": "2026-02-20T23:12:56.404Z",
   "entries": [
+    {
+      "title": "[google-cloud-aiplatform] Google Cloud Vertex AI SDK affected by Stored Cross-Site Scripting (XSS)",
+      "url": "https://github.com/advisories/GHSA-qv8j-hgpc-vrq8",
+      "date": "2026-02-20T22:41:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[google-cloud-aiplatform] Google Cloud Vertex AI has a a vulnerability involving predictable bucket naming",
+      "url": "https://github.com/advisories/GHSA-wh2j-26j7-9728",
+      "date": "2026-02-20T22:41:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nemo-toolkit] NVIDIA NeMo Framework Deserializes Untrusted Data",
+      "url": "https://github.com/advisories/GHSA-hvjw-vp7g-39h5",
+      "date": "2026-02-20T22:37:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nemo-toolkit] NVIDIA NeMo Framework contains a vulnerability where malicious data could cause remote code execution",
+      "url": "https://github.com/advisories/GHSA-9379-mwvr-7wxx",
+      "date": "2026-02-20T22:37:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser has an entity encoding bypass via regex injection in DOCTYPE entity names",
+      "url": "https://github.com/advisories/GHSA-m7jm-9gc2-mpf2",
+      "date": "2026-02-20T22:19:56.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[openclaw] OpenClaw: ACP prompt-size checks missing in local stdio bridge could reduce responsiveness with very large inputs",
       "url": "https://github.com/advisories/GHSA-cxpw-2g23-2vgw",
@@ -93,13 +128,6 @@
       "severity": "LOW"
     },
     {
-      "title": "[fast-xml-parser] fast-xml-parser has an entity encoding bypass via regex injection in DOCTYPE entity names",
-      "url": "https://github.com/advisories/GHSA-m7jm-9gc2-mpf2",
-      "date": "2026-02-20T18:23:55.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
       "title": "RUSTSEC-2026-0016: Vulnerability in polymarkets-rs-clob-client",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0016.html",
       "date": "2026-02-20T12:00:00+00:00",
@@ -110,34 +138,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0012.html",
       "date": "2026-02-20T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[pannellum] Pannellum has a XSS vulnerability in hot spot attributes",
-      "url": "https://github.com/advisories/GHSA-8423-w5wx-h2r6",
-      "date": "2026-02-19T23:37:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langflow] Langflow affected by Remote Code Execution via validate_code() exec()",
-      "url": "https://github.com/advisories/GHSA-g22f-v6f7-2hrh",
-      "date": "2026-02-19T22:09:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw safeBins file-existence oracle information disclosure",
-      "url": "https://github.com/advisories/GHSA-6c9j-x93c-rw6j",
-      "date": "2026-02-19T22:06:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw safeBins stdin-only bypass via sort output and recursive grep flags",
-      "url": "https://github.com/advisories/GHSA-4685-c5cp-vp95",
-      "date": "2026-02-19T22:06:03.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
