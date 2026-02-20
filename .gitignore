@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.*
+
+# Vercel
+.vercel/
+
+# Scanner-generated data (runtime, not source)
+data/*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test artifacts
+test-lockfile.json
+
+# Logs
+*.log

@@ -1,0 +1,19 @@
+{
+  "name": "deps.sh",
+  "version": "1.0.0",
+  "description": "Supply chain risk scoring as a service",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/dev.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4.7.0",
+    "@hono/node-server": "^1.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
