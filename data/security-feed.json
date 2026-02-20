@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-02-20T21:09:54.209Z",
+  "fetchedAt": "2026-02-20T22:10:05.780Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw: ACP prompt-size checks missing in local stdio bridge could reduce responsiveness with very large inputs",
+      "url": "https://github.com/advisories/GHSA-cxpw-2g23-2vgw",
+      "date": "2026-02-20T21:52:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[bn.js] bn.js affected by an infinite loop",
+      "url": "https://github.com/advisories/GHSA-378v-28hj-76wf",
+      "date": "2026-02-20T21:18:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@sync-in/server] Sync-in Server has a stored cross-site scripting (XSS) vulnerability",
+      "url": "https://github.com/advisories/GHSA-9jmq-xgjm-p8c2",
+      "date": "2026-02-20T21:15:37.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ray] Ray dashboard DELETE endpoints allow unauthenticated browser-triggered DoS (Serve shutdown / job deletion)",
+      "url": "https://github.com/advisories/GHSA-q5fh-2hc8-f6rq",
+      "date": "2026-02-20T21:15:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lettermint] Lettermint Node.js SDK leaks email properties to unintended recipients when client instance is reused",
+      "url": "https://github.com/advisories/GHSA-49pc-8936-wvfp",
+      "date": "2026-02-20T21:14:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw hardened cron webhook delivery against SSRF",
+      "url": "https://github.com/advisories/GHSA-w45g-5746-x9fp",
+      "date": "2026-02-20T21:13:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Reject symlinks in local skill packaging script",
+      "url": "https://github.com/advisories/GHSA-r6h2-5gqq-v5v6",
+      "date": "2026-02-20T21:05:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[openclaw] OpenClaw Discord moderation authorization used untrusted sender identity in tool-driven flows",
       "url": "https://github.com/advisories/GHSA-wh94-p5m6-mr7j",
@@ -89,55 +138,6 @@
       "date": "2026-02-19T22:06:03.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw has a path traversal in apply_patch could write/delete files outside the workspace",
-      "url": "https://github.com/advisories/GHSA-r5fq-947m-xm57",
-      "date": "2026-02-19T20:46:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flask] Flask session does not add `Vary: Cookie` header when accessed in some ways",
-      "url": "https://github.com/advisories/GHSA-68rp-wp8r-4726",
-      "date": "2026-02-19T20:45:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[werkzeug]  Werkzeug safe_join() allows Windows special device names",
-      "url": "https://github.com/advisories/GHSA-29vq-49wr-vm6x",
-      "date": "2026-02-19T20:32:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@feathersjs/authentication-oauth] Feathers exposes internal headers via unencrypted session cookie",
-      "url": "https://github.com/advisories/GHSA-9m9c-vpv5-9g85",
-      "date": "2026-02-19T20:32:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@feathersjs/authentication-oauth] Feathers has an origin validation bypass via prefix matching",
-      "url": "https://github.com/advisories/GHSA-mp4x-c34x-wv3x",
-      "date": "2026-02-19T20:32:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@feathersjs/authentication-oauth] Feathers has an open redirect in OAuth callback enables account takeover",
-      "url": "https://github.com/advisories/GHSA-ppf9-4ffw-hh4p",
-      "date": "2026-02-19T20:32:16.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@sveltejs/kit] CPU exhaustion in SvelteKit remote form deserialization (experimental only)",
-      "url": "https://github.com/advisories/GHSA-88qp-p4qg-rqm6",
-      "date": "2026-02-19T20:30:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
