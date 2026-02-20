@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-02-20T18:21:25.934Z",
+  "fetchedAt": "2026-02-20T19:20:24.345Z",
   "entries": [
+    {
+      "title": "[fickling] Fickling has a detection bypass via stdlib network-protocol constructors",
+      "url": "https://github.com/advisories/GHSA-83pf-v6qq-pwmr",
+      "date": "2026-02-20T18:24:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser has an entity encoding bypass via regex injection in DOCTYPE entity names",
+      "url": "https://github.com/advisories/GHSA-m7jm-9gc2-mpf2",
+      "date": "2026-02-20T18:23:55.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0016: Vulnerability in polymarkets-rs-clob-client",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0016.html",
@@ -40,13 +54,6 @@
       "date": "2026-02-19T22:06:03.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[jspdf] jsPDF Affected by Client-Side/Server-Side Denial of Service via Malicious GIF Dimensions",
-      "url": "https://github.com/advisories/GHSA-67pg-wm7f-q7fj",
-      "date": "2026-02-19T20:58:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     },
     {
       "title": "[openclaw] OpenClaw has a path traversal in apply_patch could write/delete files outside the workspace",
@@ -131,13 +138,6 @@
       "date": "2026-02-19T20:28:50.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[swiper] Prototype pollution in swiper",
-      "url": "https://github.com/advisories/GHSA-hmx5-qpq5-p643",
-      "date": "2026-02-19T20:28:39.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
