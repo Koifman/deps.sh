@@ -226,7 +226,7 @@ app.get('/', (c) => {
 <body>
 <div class="scanners">${scanners > 0 ? `<strong>${scanners}</strong> scanning now` : ''}</div>
 <h1>deps.sh</h1>
-<p>Supply chain risk scoring as a service.</p>
+<p>Supply chain risk scoring as a service. <a href="https://github.com/koifman/deps.sh">GitHub</a></p>
 <pre>
 curl deps.sh/npm/lodash          # npm package
 curl deps.sh/pip/requests        # PyPI package
