@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-02-20T20:12:45.958Z",
+  "fetchedAt": "2026-02-20T21:09:54.209Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw Discord moderation authorization used untrusted sender identity in tool-driven flows",
+      "url": "https://github.com/advisories/GHSA-wh94-p5m6-mr7j",
+      "date": "2026-02-20T21:02:33.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[ajv] ajv has ReDoS when using `$data` option",
+      "url": "https://github.com/advisories/GHSA-2g4f-4pwh-qvx6",
+      "date": "2026-02-20T20:59:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ajv] ajv has ReDoS when using `$data` option",
+      "url": "https://github.com/advisories/GHSA-2g4f-4pwh-qvx6",
+      "date": "2026-02-20T20:59:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[url-parse] url-parse Incorrectly parses URLs that include an '@'",
       "url": "https://github.com/advisories/GHSA-8v38-pw62-9cw2",
@@ -117,27 +138,6 @@
       "date": "2026-02-19T20:30:29.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@sveltejs/kit]  Memory exhaustion in SvelteKit remote form deserialization (experimental only)",
-      "url": "https://github.com/advisories/GHSA-vrhm-gvg7-fpcf",
-      "date": "2026-02-19T20:29:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[devalue] devalue affected by CPU and memory amplification from sparse arrays",
-      "url": "https://github.com/advisories/GHSA-33hq-fvwr-56pm",
-      "date": "2026-02-19T20:29:39.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[devalue] devalue `uneval`ed code can create objects with polluted prototypes when `eval`ed",
-      "url": "https://github.com/advisories/GHSA-8qm3-746x-r74r",
-      "date": "2026-02-19T20:29:19.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
