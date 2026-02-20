@@ -155,4 +155,4 @@ api/
 
 ## License
 
-MIT
+APGL
