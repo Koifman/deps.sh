@@ -24,6 +24,10 @@ interface NpmDownloadsResponse {
   downloads: number;
 }
 
+interface FetchOptions {
+  includeDownloads?: boolean;
+}
+
 function parseRepoUrl(repository: NpmRegistryResponse['repository']): string | null {
   if (!repository) return null;
   const raw = typeof repository === 'string' ? repository : repository.url;
@@ -74,7 +78,7 @@ async function fetchDownloads(name: string, signal?: AbortSignal): Promise<numbe
   }
 }
 
-export async function fetchNpmPackage(name: string, signal?: AbortSignal): Promise<PackageInfo> {
+export async function fetchNpmPackage(name: string, signal?: AbortSignal, options?: FetchOptions): Promise<PackageInfo> {
   const res = await resilientFetch(`${REGISTRY_URL}/${encodeURIComponent(name)}`, { signal });
 
   if (res.status === 404) {
@@ -101,7 +105,8 @@ export async function fetchNpmPackage(name: string, signal?: AbortSignal): Promi
   const lastPublish = lastPublishStr ? new Date(lastPublishStr) : null;
 
   const deps = latestData.dependencies ?? {};
-  const weeklyDownloads = await fetchDownloads(name, signal);
+  const includeDownloads = options?.includeDownloads ?? true;
+  const weeklyDownloads = includeDownloads ? await fetchDownloads(name, signal) : null;
   const transfer = detectOwnershipTransfer(data.versions, data.time);
 
   return {

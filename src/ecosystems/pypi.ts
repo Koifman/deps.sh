@@ -30,6 +30,10 @@ interface PypiStatsResponse {
   };
 }
 
+interface FetchOptions {
+  includeDownloads?: boolean;
+}
+
 function parseMaintainers(info: PypiResponse['info']): MaintainerInfo[] {
   const maintainers: MaintainerInfo[] = [];
   const seen = new Set<string>();
@@ -131,7 +135,7 @@ async function fetchDownloads(name: string, signal?: AbortSignal): Promise<numbe
   }
 }
 
-export async function fetchPypiPackage(name: string, signal?: AbortSignal): Promise<PackageInfo> {
+export async function fetchPypiPackage(name: string, signal?: AbortSignal, options?: FetchOptions): Promise<PackageInfo> {
   const res = await resilientFetch(`${PYPI_URL}/${encodeURIComponent(name)}/json`, { signal });
 
   if (res.status === 404) {
@@ -147,7 +151,8 @@ export async function fetchPypiPackage(name: string, signal?: AbortSignal): Prom
   const maintainers = parseMaintainers(info);
   const lastPublish = getLatestReleaseDate(releases, info.version);
   const dependencies = info.requires_dist?.length ?? 0;
-  const weeklyDownloads = await fetchDownloads(name, signal);
+  const includeDownloads = options?.includeDownloads ?? true;
+  const weeklyDownloads = includeDownloads ? await fetchDownloads(name, signal) : null;
 
   return {
     name: info.name,

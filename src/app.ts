@@ -40,7 +40,17 @@ const ECOSYSTEM_MAP: Record<string, Ecosystem> = {
   crates: 'cargo',
 };
 
-const FETCHERS: Record<Ecosystem, (name: string, signal?: AbortSignal) => Promise<import('./types.js').PackageInfo>> = {
+interface PackageFetchOptions {
+  includeDownloads?: boolean;
+}
+
+interface ReportOptions {
+  signal?: AbortSignal;
+  includeGithub?: boolean;
+  includeDownloads?: boolean;
+}
+
+const FETCHERS: Record<Ecosystem, (name: string, signal?: AbortSignal, options?: PackageFetchOptions) => Promise<import('./types.js').PackageInfo>> = {
   npm: fetchNpmPackage,
   pypi: fetchPypiPackage,
   cargo: fetchCratesPackage,
@@ -123,18 +133,21 @@ function readDataFile<T>(filename: string, fallback: T): T {
   }
 }
 
-async function generateReport(ecosystem: Ecosystem, packageName: string, signal?: AbortSignal): Promise<RiskReport> {
-  const key = cacheKey(ecosystem, packageName);
+async function generateReport(ecosystem: Ecosystem, packageName: string, options?: ReportOptions): Promise<RiskReport> {
+  const mode = (options?.includeGithub === false || options?.includeDownloads === false) ? 'lean' : 'full';
+  const key = `${cacheKey(ecosystem, packageName)}:${mode}`;
   const cached = cacheGet<RiskReport>(key);
   if (cached) return cached;
 
   const fetcher = FETCHERS[ecosystem];
   const [pkg, vulns] = await Promise.all([
-    fetcher(packageName, signal),
-    fetchVulnerabilities(packageName, ecosystem, signal),
+    fetcher(packageName, options?.signal, { includeDownloads: options?.includeDownloads }),
+    fetchVulnerabilities(packageName, ecosystem, options?.signal),
   ]);
 
-  const github = pkg.repoUrl ? await fetchGitHubInfo(pkg.repoUrl, signal) : null;
+  const github = (options?.includeGithub ?? true) && pkg.repoUrl
+    ? await fetchGitHubInfo(pkg.repoUrl, options?.signal)
+    : null;
   const report = computeRiskReport(pkg, vulns, github);
 
   cacheSet(key, report);
@@ -280,40 +293,26 @@ function escHtml(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
-/** Read request body with streaming size limit. Returns null if body exceeds maxSize. */
+const BODY_READ_TIMEOUT = 10_000;
+
+/** Read request body with size + time limits. Throws on read timeout. */
 async function readBodyWithLimit(req: Request, maxSize: number): Promise<string | null> {
   const cl = parseInt(req.headers.get('content-length') ?? '', 10);
   if (cl > maxSize) return null;
 
-  const reader = req.body?.getReader();
-  if (!reader) return '';
-
-  const chunks: Uint8Array[] = [];
-  let totalSize = 0;
-
+  let timer: ReturnType<typeof setTimeout> | undefined;
   try {
-    while (true) {
-      const { done, value } = await reader.read();
-      if (done) break;
-      totalSize += value.byteLength;
-      if (totalSize > maxSize) {
-        reader.cancel();
-        return null;
-      }
-      chunks.push(value);
-    }
+    const body = await Promise.race([
+      req.text(),
+      new Promise<never>((_, reject) => {
+        timer = setTimeout(() => reject(new Error('body read timeout')), BODY_READ_TIMEOUT);
+      }),
+    ]);
+    if (body.length > maxSize) return null;
+    return body;
   } finally {
-    reader.releaseLock();
+    if (timer) clearTimeout(timer);
   }
-
-  const combined = new Uint8Array(totalSize);
-  let offset = 0;
-  for (const chunk of chunks) {
-    combined.set(chunk, offset);
-    offset += chunk.byteLength;
-  }
-
-  return new TextDecoder().decode(combined);
 }
 
 /** Only allow http/https URLs in HTML href attributes. Blocks javascript: and data: schemes. */
@@ -393,10 +392,10 @@ async function mapConcurrent<T, R>(items: T[], fn: (item: T) => Promise<R>, limi
   return results;
 }
 
-const MAX_SCAN_PACKAGES = 500;
-const SCAN_CONCURRENCY = 10;
+const MAX_SCAN_PACKAGES = 120;
+const SCAN_CONCURRENCY = 5;
 const MAX_BODY_SIZE = 5 * 1024 * 1024; // 5MB
-const SCAN_TIMEOUT = 120_000; // 120 seconds (Vercel allows up to 300s)
+const SCAN_TIMEOUT = 45_000;
 
 // Lockfile scanning
 app.post('/scan', async (c) => {
@@ -405,7 +404,12 @@ app.post('/scan', async (c) => {
     return c.text('Rate limit exceeded. Max 10 scans per minute.\n', 429);
   }
 
-  const body = await readBodyWithLimit(c.req.raw, MAX_BODY_SIZE);
+  let body: string | null = null;
+  try {
+    body = await readBodyWithLimit(c.req.raw, MAX_BODY_SIZE);
+  } catch {
+    return c.text('Request body read timed out.\n', 408);
+  }
   if (body === null) {
     return c.text('Request body too large (max 5MB).\n', 413);
   }
@@ -433,7 +437,11 @@ app.post('/scan', async (c) => {
     }
     try {
       const report = await Promise.race([
-        generateReport(dep.ecosystem, dep.name, timeout),
+        generateReport(dep.ecosystem, dep.name, {
+          signal: timeout,
+          includeGithub: false,
+          includeDownloads: false,
+        }),
         new Promise<never>((_, reject) => {
           if (timeout.aborted) { reject(new Error('timeout')); return; }
           timeout.addEventListener('abort', () => reject(new Error('timeout')), { once: true });
