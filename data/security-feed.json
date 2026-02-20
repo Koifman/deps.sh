@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-02-20T17:19:32.388Z",
+  "fetchedAt": "2026-02-20T18:21:25.934Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0016: Vulnerability in polymarkets-rs-clob-client",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0016.html",
+      "date": "2026-02-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0012: Unsoundness in keccak",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0012.html",
@@ -132,13 +138,6 @@
       "date": "2026-02-19T20:28:39.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[Nova] OpenStack Nova calls qemu-img without format restrictions for resize",
-      "url": "https://github.com/advisories/GHSA-m4f3-qp2w-gwh6",
-      "date": "2026-02-19T20:28:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
