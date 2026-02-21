@@ -1,11 +1,32 @@
 {
-  "fetchedAt": "2026-02-21T06:20:51.925Z",
+  "fetchedAt": "2026-02-21T07:17:31.531Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0017: Vulnerability in clob-sdk",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0017.html",
       "date": "2026-02-21T12:00:00+00:00",
       "ecosystem": "cargo"
+    },
+    {
+      "title": "[Nova] OpenStack Nova calls qemu-img without format restrictions for resize",
+      "url": "https://github.com/advisories/GHSA-m4f3-qp2w-gwh6",
+      "date": "2026-02-21T06:30:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Nova] OpenStack Nova calls qemu-img without format restrictions for resize",
+      "url": "https://github.com/advisories/GHSA-m4f3-qp2w-gwh6",
+      "date": "2026-02-21T06:30:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Nova] OpenStack Nova calls qemu-img without format restrictions for resize",
+      "url": "https://github.com/advisories/GHSA-m4f3-qp2w-gwh6",
+      "date": "2026-02-21T06:30:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     },
     {
       "title": "[google-cloud-aiplatform] Google Cloud Vertex AI SDK affected by Stored Cross-Site Scripting (XSS)",
@@ -118,26 +139,6 @@
       "date": "2026-02-20T19:56:18.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[url-parse] Authorization bypass in url-parse",
-      "url": "https://github.com/advisories/GHSA-rqff-837h-mm52",
-      "date": "2026-02-20T19:56:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fickling] Fickling has a detection bypass via stdlib network-protocol constructors",
-      "url": "https://github.com/advisories/GHSA-83pf-v6qq-pwmr",
-      "date": "2026-02-20T18:24:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "RUSTSEC-2026-0016: Vulnerability in polymarkets-rs-clob-client",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0016.html",
-      "date": "2026-02-20T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
