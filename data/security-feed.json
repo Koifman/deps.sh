@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-02-22T00:46:53.626Z",
+  "fetchedAt": "2026-02-22T01:40:02.226Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw: ACP prompt-size checks missing in local stdio bridge could reduce responsiveness with very large inputs",
+      "url": "https://github.com/advisories/GHSA-cxpw-2g23-2vgw",
+      "date": "2026-02-22T01:12:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0017: Vulnerability in clob-sdk",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0017.html",
@@ -62,13 +69,6 @@
       "date": "2026-02-20T22:19:56.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw: ACP prompt-size checks missing in local stdio bridge could reduce responsiveness with very large inputs",
-      "url": "https://github.com/advisories/GHSA-cxpw-2g23-2vgw",
-      "date": "2026-02-20T21:52:44.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     },
     {
       "title": "[bn.js] bn.js affected by an infinite loop",
