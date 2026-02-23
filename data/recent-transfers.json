@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-02-23T19:32:53.951Z",
+  "scannedAt": "2026-02-23T20:22:47.997Z",
   "count": 90,
   "packages": [
     {
@@ -264,8 +264,8 @@
       "currentOwner": "michaelficarra"
     },
     {
-      "name": "string.prototype.trimstart",
-      "version": "1.0.8",
+      "name": "string.prototype.trimend",
+      "version": "1.0.9",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
@@ -273,8 +273,8 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "string.prototype.trimend",
-      "version": "1.0.9",
+      "name": "string.prototype.trimstart",
+      "version": "1.0.8",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
@@ -516,7 +516,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/storage-js",
+      "name": "@supabase/supabase-js",
       "version": "2.97.0",
       "ecosystem": "npm",
       "score": 22,
@@ -525,7 +525,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/supabase-js",
+      "name": "@supabase/storage-js",
       "version": "2.97.0",
       "ecosystem": "npm",
       "score": 22,
@@ -561,15 +561,6 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "openid-client",
-      "version": "6.8.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "panva",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "css-blank-pseudo",
       "version": "8.0.1",
       "ecosystem": "npm",
@@ -577,6 +568,15 @@
       "level": "MODERATE",
       "previousOwner": "jonathantneal",
       "currentOwner": "romainmenke"
+    },
+    {
+      "name": "openid-client",
+      "version": "6.8.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "panva",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "remark-mdx",
