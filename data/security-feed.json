@@ -1,141 +1,143 @@
 {
-  "fetchedAt": "2026-02-23T22:21:45.826Z",
+  "fetchedAt": "2026-02-23T23:18:13.787Z",
   "entries": [
     {
-      "title": "[@astrojs/node] Astro has Full-Read SSRF in error rendering via Host: header injection",
-      "url": "https://github.com/advisories/GHSA-qq67-mvv5-fw3g",
-      "date": "2026-02-23T21:54:33.000Z",
+      "title": "[ajv] ajv has ReDoS when using `$data` option",
+      "url": "https://github.com/advisories/GHSA-2g4f-4pwh-qvx6",
+      "date": "2026-02-23T22:40:32.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0013: Vulnerability in pyo3",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0013.html",
-      "date": "2026-02-23T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[openclaw] OpenClaw: ACP prompt-size checks missing in local stdio bridge could reduce responsiveness with very large inputs",
-      "url": "https://github.com/advisories/GHSA-cxpw-2g23-2vgw",
-      "date": "2026-02-22T01:12:35.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0017: Vulnerability in clob-sdk",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0017.html",
-      "date": "2026-02-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[Nova] OpenStack Nova calls qemu-img without format restrictions for resize",
-      "url": "https://github.com/advisories/GHSA-m4f3-qp2w-gwh6",
-      "date": "2026-02-21T06:30:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Nova] OpenStack Nova calls qemu-img without format restrictions for resize",
-      "url": "https://github.com/advisories/GHSA-m4f3-qp2w-gwh6",
-      "date": "2026-02-21T06:30:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Nova] OpenStack Nova calls qemu-img without format restrictions for resize",
-      "url": "https://github.com/advisories/GHSA-m4f3-qp2w-gwh6",
-      "date": "2026-02-21T06:30:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[google-cloud-aiplatform] Google Cloud Vertex AI SDK affected by Stored Cross-Site Scripting (XSS)",
-      "url": "https://github.com/advisories/GHSA-qv8j-hgpc-vrq8",
-      "date": "2026-02-20T22:41:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[google-cloud-aiplatform] Google Cloud Vertex AI has a a vulnerability involving predictable bucket naming",
-      "url": "https://github.com/advisories/GHSA-wh2j-26j7-9728",
-      "date": "2026-02-20T22:41:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nemo-toolkit] NVIDIA NeMo Framework Deserializes Untrusted Data",
-      "url": "https://github.com/advisories/GHSA-hvjw-vp7g-39h5",
-      "date": "2026-02-20T22:37:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nemo-toolkit] NVIDIA NeMo Framework contains a vulnerability where malicious data could cause remote code execution",
-      "url": "https://github.com/advisories/GHSA-9379-mwvr-7wxx",
-      "date": "2026-02-20T22:37:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-xml-parser] fast-xml-parser has an entity encoding bypass via regex injection in DOCTYPE entity names",
-      "url": "https://github.com/advisories/GHSA-m7jm-9gc2-mpf2",
-      "date": "2026-02-20T22:19:56.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[bn.js] bn.js affected by an infinite loop",
-      "url": "https://github.com/advisories/GHSA-378v-28hj-76wf",
-      "date": "2026-02-20T21:18:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@sync-in/server] Sync-in Server has a stored cross-site scripting (XSS) vulnerability",
-      "url": "https://github.com/advisories/GHSA-9jmq-xgjm-p8c2",
-      "date": "2026-02-20T21:15:37.000Z",
+      "title": "[ajv] ajv has ReDoS when using `$data` option",
+      "url": "https://github.com/advisories/GHSA-2g4f-4pwh-qvx6",
+      "date": "2026-02-23T22:40:32.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
       "title": "[ray] Ray dashboard DELETE endpoints allow unauthenticated browser-triggered DoS (Serve shutdown / job deletion)",
       "url": "https://github.com/advisories/GHSA-q5fh-2hc8-f6rq",
-      "date": "2026-02-20T21:15:26.000Z",
+      "date": "2026-02-23T22:30:33.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
       "title": "[lettermint] Lettermint Node.js SDK leaks email properties to unintended recipients when client instance is reused",
       "url": "https://github.com/advisories/GHSA-49pc-8936-wvfp",
-      "date": "2026-02-20T21:14:51.000Z",
+      "date": "2026-02-23T22:30:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: ACP prompt-size checks missing in local stdio bridge could reduce responsiveness with very large inputs",
+      "url": "https://github.com/advisories/GHSA-cxpw-2g23-2vgw",
+      "date": "2026-02-23T22:30:11.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
       "title": "[openclaw] OpenClaw hardened cron webhook delivery against SSRF",
       "url": "https://github.com/advisories/GHSA-w45g-5746-x9fp",
-      "date": "2026-02-20T21:13:06.000Z",
+      "date": "2026-02-23T22:29:48.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
       "title": "[openclaw] OpenClaw: Reject symlinks in local skill packaging script",
       "url": "https://github.com/advisories/GHSA-r6h2-5gqq-v5v6",
-      "date": "2026-02-20T21:05:46.000Z",
+      "date": "2026-02-23T22:29:42.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
       "title": "[openclaw] OpenClaw Discord moderation authorization used untrusted sender identity in tool-driven flows",
       "url": "https://github.com/advisories/GHSA-wh94-p5m6-mr7j",
-      "date": "2026-02-20T21:02:33.000Z",
+      "date": "2026-02-23T22:29:16.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[ajv] ajv has ReDoS when using `$data` option",
-      "url": "https://github.com/advisories/GHSA-2g4f-4pwh-qvx6",
-      "date": "2026-02-20T20:59:14.000Z",
+      "title": "[flask] Flask session does not add `Vary: Cookie` header when accessed in some ways",
+      "url": "https://github.com/advisories/GHSA-68rp-wp8r-4726",
+      "date": "2026-02-23T22:28:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[pannellum] Pannellum has a XSS vulnerability in hot spot attributes",
+      "url": "https://github.com/advisories/GHSA-8423-w5wx-h2r6",
+      "date": "2026-02-23T22:27:55.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[werkzeug]  Werkzeug safe_join() allows Windows special device names",
+      "url": "https://github.com/advisories/GHSA-29vq-49wr-vm6x",
+      "date": "2026-02-23T22:27:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@feathersjs/authentication-oauth] Feathers exposes internal headers via unencrypted session cookie",
+      "url": "https://github.com/advisories/GHSA-9m9c-vpv5-9g85",
+      "date": "2026-02-23T22:26:50.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@feathersjs/authentication-oauth] Feathers has an origin validation bypass via prefix matching",
+      "url": "https://github.com/advisories/GHSA-mp4x-c34x-wv3x",
+      "date": "2026-02-23T22:26:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@feathersjs/authentication-oauth] Feathers has an open redirect in OAuth callback enables account takeover",
+      "url": "https://github.com/advisories/GHSA-ppf9-4ffw-hh4p",
+      "date": "2026-02-23T22:26:31.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dtale] D-Tale affected by Remote Code Execution through the /save-column-filter endpoint",
+      "url": "https://github.com/advisories/GHSA-c87c-78rc-vmv2",
+      "date": "2026-02-23T22:26:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fickling] Fickling has a detection bypass via stdlib network-protocol constructors",
+      "url": "https://github.com/advisories/GHSA-83pf-v6qq-pwmr",
+      "date": "2026-02-23T22:25:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[pypdf] pypdf possibly has long runtimes for malformed FlateDecode streams",
+      "url": "https://github.com/advisories/GHSA-9mvc-8737-8j8h",
+      "date": "2026-02-23T22:21:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[yt-dlp] yt-dlp: Arbitrary Command Injection when using the `--netrc-cmd` option",
+      "url": "https://github.com/advisories/GHSA-g3gw-q23r-pgqm",
+      "date": "2026-02-23T22:13:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ormar] ormar is vulnerable to SQL Injection through aggregate functions min() and max()",
+      "url": "https://github.com/advisories/GHSA-xxh2-68g9-8jqr",
+      "date": "2026-02-23T22:12:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@astrojs/node] Astro has Full-Read SSRF in error rendering via Host: header injection",
+      "url": "https://github.com/advisories/GHSA-qq67-mvv5-fw3g",
+      "date": "2026-02-23T21:54:33.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }

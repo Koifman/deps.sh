@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-02-23T22:24:34.933Z",
+  "scannedAt": "2026-02-23T23:21:04.313Z",
   "count": 89,
   "packages": [
     {
@@ -507,7 +507,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/realtime-js",
+      "name": "@supabase/storage-js",
       "version": "2.97.0",
       "ecosystem": "npm",
       "score": 22,
@@ -516,7 +516,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/storage-js",
+      "name": "@supabase/realtime-js",
       "version": "2.97.0",
       "ecosystem": "npm",
       "score": 22,
@@ -534,13 +534,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/core-lro",
-      "version": "3.3.1",
+      "name": "postcss-focus-visible",
+      "version": "11.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "azure-sdk",
-      "currentOwner": "microsoft1es"
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
     },
     {
       "name": "css-has-pseudo",
@@ -552,8 +552,17 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "postcss-focus-visible",
-      "version": "11.0.0",
+      "name": "@azure/core-lro",
+      "version": "3.3.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "azure-sdk",
+      "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -568,15 +577,6 @@
       "level": "MODERATE",
       "previousOwner": "panva",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
     },
     {
       "name": "remark-mdx",
@@ -642,15 +642,6 @@
       "currentOwner": "gingerbenw"
     },
     {
-      "name": "@vimeo/player",
-      "version": "2.30.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bdougherty",
-      "currentOwner": "vimeo-npmbot"
-    },
-    {
       "name": "oxfmt",
       "version": "0.35.0",
       "ecosystem": "npm",
@@ -658,6 +649,15 @@
       "level": "MODERATE",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@vimeo/player",
+      "version": "2.30.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bdougherty",
+      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "@lottiefiles/dotlottie-react",
