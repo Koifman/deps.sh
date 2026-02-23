@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-02-23T06:35:06.165Z",
+  "fetchedAt": "2026-02-23T07:31:12.890Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0013: Vulnerability in pyo3",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0013.html",
+      "date": "2026-02-23T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[openclaw] OpenClaw: ACP prompt-size checks missing in local stdio bridge could reduce responsiveness with very large inputs",
       "url": "https://github.com/advisories/GHSA-cxpw-2g23-2vgw",
@@ -130,13 +136,6 @@
       "title": "[ajv] ajv has ReDoS when using `$data` option",
       "url": "https://github.com/advisories/GHSA-2g4f-4pwh-qvx6",
       "date": "2026-02-20T20:59:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[url-parse] url-parse Incorrectly parses URLs that include an '@'",
-      "url": "https://github.com/advisories/GHSA-8v38-pw62-9cw2",
-      "date": "2026-02-20T19:56:18.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
