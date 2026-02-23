@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-02-23T21:23:09.928Z",
+  "fetchedAt": "2026-02-23T22:21:45.826Z",
   "entries": [
+    {
+      "title": "[@astrojs/node] Astro has Full-Read SSRF in error rendering via Host: header injection",
+      "url": "https://github.com/advisories/GHSA-qq67-mvv5-fw3g",
+      "date": "2026-02-23T21:54:33.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0013: Vulnerability in pyo3",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0013.html",
@@ -124,13 +131,6 @@
       "date": "2026-02-20T21:02:33.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[ajv] ajv has ReDoS when using `$data` option",
-      "url": "https://github.com/advisories/GHSA-2g4f-4pwh-qvx6",
-      "date": "2026-02-20T20:59:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     },
     {
       "title": "[ajv] ajv has ReDoS when using `$data` option",
