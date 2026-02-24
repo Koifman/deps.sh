@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-02-24T10:24:15.344Z",
+  "fetchedAt": "2026-02-24T11:21:59.557Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2025-0153: Unsoundness in hexchat",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0153.html",
+      "date": "2026-02-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[ajv] ajv has ReDoS when using `$data` option",
       "url": "https://github.com/advisories/GHSA-2g4f-4pwh-qvx6",
@@ -133,13 +139,6 @@
       "date": "2026-02-23T22:12:18.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[@astrojs/node] Astro has Full-Read SSRF in error rendering via Host: header injection",
-      "url": "https://github.com/advisories/GHSA-qq67-mvv5-fw3g",
-      "date": "2026-02-23T21:54:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
