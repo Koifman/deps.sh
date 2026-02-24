@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-02-24T19:26:59.867Z",
+  "fetchedAt": "2026-02-24T20:16:20.391Z",
   "entries": [
+    {
+      "title": "[nicegui] NiceGUI vulnerable to XSS via Code Injection during client-side element function execution",
+      "url": "https://github.com/advisories/GHSA-78qv-3mpx-9cqq",
+      "date": "2026-02-24T19:56:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[apache-airflow] Apache Airflow proxy credentials for various providers might leak in task logs",
       "url": "https://github.com/advisories/GHSA-7c2f-r6gc-h92h",
@@ -78,6 +85,24 @@
       "ecosystem": "cargo"
     },
     {
+      "title": "RUSTSEC-2026-0022: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0022.html",
+      "date": "2026-02-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0021: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0021.html",
+      "date": "2026-02-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0020: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0020.html",
+      "date": "2026-02-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
       "title": "RUSTSEC-2025-0153: Unsoundness in hexchat",
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0153.html",
       "date": "2026-02-24T12:00:00+00:00",
@@ -108,34 +133,6 @@
       "url": "https://github.com/advisories/GHSA-q5fh-2hc8-f6rq",
       "date": "2026-02-23T22:30:33.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lettermint] Lettermint Node.js SDK leaks email properties to unintended recipients when client instance is reused",
-      "url": "https://github.com/advisories/GHSA-49pc-8936-wvfp",
-      "date": "2026-02-23T22:30:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: ACP prompt-size checks missing in local stdio bridge could reduce responsiveness with very large inputs",
-      "url": "https://github.com/advisories/GHSA-cxpw-2g23-2vgw",
-      "date": "2026-02-23T22:30:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw hardened cron webhook delivery against SSRF",
-      "url": "https://github.com/advisories/GHSA-w45g-5746-x9fp",
-      "date": "2026-02-23T22:29:48.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Reject symlinks in local skill packaging script",
-      "url": "https://github.com/advisories/GHSA-r6h2-5gqq-v5v6",
-      "date": "2026-02-23T22:29:42.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
