@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-02-24T01:44:05.214Z",
+  "scannedAt": "2026-02-24T03:12:12.642Z",
   "count": 90,
   "packages": [
     {
@@ -300,6 +300,15 @@
       "currentOwner": "microsoft1es"
     },
     {
+      "name": "well-known-symbols",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "novemberborn",
+      "currentOwner": "ljharb"
+    },
+    {
       "name": "tslib",
       "version": "2.8.1",
       "ecosystem": "npm",
@@ -453,15 +462,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@applitools/execution-grid-tunnel",
-      "version": "4.0.0",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "ronikar_applitools",
-      "currentOwner": "ormeda"
-    },
-    {
       "name": "@babel/parser",
       "version": "7.29.0",
       "ecosystem": "npm",
@@ -534,8 +534,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.0",
+      "name": "postcss-focus-visible",
+      "version": "11.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -552,8 +552,17 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "postcss-focus-visible",
-      "version": "11.0.0",
+      "name": "css-has-pseudo",
+      "version": "8.0.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
+    },
+    {
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -568,15 +577,6 @@
       "level": "MODERATE",
       "previousOwner": "panva",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
     },
     {
       "name": "remark-mdx",
@@ -633,6 +633,15 @@
       "currentOwner": "chenfengyuan"
     },
     {
+      "name": "oxfmt",
+      "version": "0.35.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@bugsnag/js",
       "version": "8.8.1",
       "ecosystem": "npm",
@@ -649,15 +658,6 @@
       "level": "MODERATE",
       "previousOwner": "bdougherty",
       "currentOwner": "vimeo-npmbot"
-    },
-    {
-      "name": "oxfmt",
-      "version": "0.35.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@lottiefiles/dotlottie-react",
@@ -714,15 +714,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@fortawesome/react-fontawesome",
-      "version": "3.2.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "supercodepoet",
-      "currentOwner": "lordofbacon"
-    },
-    {
       "name": "@oxc-parser/binding-linux-x64-musl",
       "version": "0.115.0",
       "ecosystem": "npm",
@@ -732,16 +723,16 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
-      "version": "0.115.0",
+      "name": "@fortawesome/react-fontawesome",
+      "version": "3.2.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
+      "previousOwner": "supercodepoet",
+      "currentOwner": "lordofbacon"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-musl",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
       "version": "0.115.0",
       "ecosystem": "npm",
       "score": 20,
@@ -795,13 +786,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
+      "name": "@oxc-minify/binding-linux-x64-musl",
+      "version": "0.115.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@nevware21/ts-utils",
@@ -811,6 +802,15 @@
       "level": "LOW",
       "previousOwner": "nev21",
       "currentOwner": "nevware21bot"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     }
   ]
 }
