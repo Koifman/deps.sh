@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-02-24T15:27:18.564Z",
+  "fetchedAt": "2026-02-24T16:30:17.588Z",
   "entries": [
+    {
+      "title": "[yt-dlp] yt-dlp: Arbitrary Command Injection when using the `--netrc-cmd` option",
+      "url": "https://github.com/advisories/GHSA-g3gw-q23r-pgqm",
+      "date": "2026-02-24T16:08:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ormar] ormar is vulnerable to SQL Injection through aggregate functions min() and max()",
+      "url": "https://github.com/advisories/GHSA-xxh2-68g9-8jqr",
+      "date": "2026-02-24T16:08:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[llama-index-core] LlamaIndex Improper Handling of Exceptional Conditions vulnerability",
+      "url": "https://github.com/advisories/GHSA-j3wr-m6xh-64hg",
+      "date": "2026-02-24T16:08:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[isso] Isso affected by Stored XSS via comment website field",
+      "url": "https://github.com/advisories/GHSA-9fww-8cpr-q66r",
+      "date": "2026-02-24T16:03:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@oneuptime/common] OneUptime:: node:vm sandbox escape in probe allows any project member to achieve RCE",
+      "url": "https://github.com/advisories/GHSA-v264-xqh4-9xmm",
+      "date": "2026-02-24T16:00:57.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[bn.js] bn.js affected by an infinite loop",
       "url": "https://github.com/advisories/GHSA-378v-28hj-76wf",
@@ -104,41 +139,6 @@
       "date": "2026-02-23T22:27:39.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@feathersjs/authentication-oauth] Feathers exposes internal headers via unencrypted session cookie",
-      "url": "https://github.com/advisories/GHSA-9m9c-vpv5-9g85",
-      "date": "2026-02-23T22:26:50.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dtale] D-Tale affected by Remote Code Execution through the /save-column-filter endpoint",
-      "url": "https://github.com/advisories/GHSA-c87c-78rc-vmv2",
-      "date": "2026-02-23T22:26:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fickling] Fickling has a detection bypass via stdlib network-protocol constructors",
-      "url": "https://github.com/advisories/GHSA-83pf-v6qq-pwmr",
-      "date": "2026-02-23T22:25:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[pypdf] pypdf possibly has long runtimes for malformed FlateDecode streams",
-      "url": "https://github.com/advisories/GHSA-9mvc-8737-8j8h",
-      "date": "2026-02-23T22:21:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[yt-dlp] yt-dlp: Arbitrary Command Injection when using the `--netrc-cmd` option",
-      "url": "https://github.com/advisories/GHSA-g3gw-q23r-pgqm",
-      "date": "2026-02-23T22:13:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
