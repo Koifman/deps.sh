@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-02-24T21:16:42.531Z",
+  "fetchedAt": "2026-02-24T22:14:39.268Z",
   "entries": [
+    {
+      "title": "[fickling] Fickling: OBJ opcode call invisibility bypasses all safety checks",
+      "url": "https://github.com/advisories/GHSA-mxhj-88fx-4pcv",
+      "date": "2026-02-24T21:41:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[minimatch] minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
       "url": "https://github.com/advisories/GHSA-3ppc-4f35-3m26",
@@ -133,13 +140,6 @@
       "date": "2026-02-24T16:00:57.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[bn.js] bn.js affected by an infinite loop",
-      "url": "https://github.com/advisories/GHSA-378v-28hj-76wf",
-      "date": "2026-02-24T14:45:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
