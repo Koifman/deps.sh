@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-02-24T16:30:17.588Z",
+  "fetchedAt": "2026-02-24T17:28:58.133Z",
   "entries": [
+    {
+      "title": "[apache-airflow] Apache Airflow proxy credentials for various providers might leak in task logs",
+      "url": "https://github.com/advisories/GHSA-7c2f-r6gc-h92h",
+      "date": "2026-02-24T16:21:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow proxy credentials for various providers might leak in task logs",
+      "url": "https://github.com/advisories/GHSA-7c2f-r6gc-h92h",
+      "date": "2026-02-24T16:21:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[yt-dlp] yt-dlp: Arbitrary Command Injection when using the `--netrc-cmd` option",
       "url": "https://github.com/advisories/GHSA-g3gw-q23r-pgqm",
@@ -58,8 +72,20 @@
       "severity": "HIGH"
     },
     {
+      "title": "RUSTSEC-2026-0019: Vulnerability in tracing-check",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0019.html",
+      "date": "2026-02-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
       "title": "RUSTSEC-2025-0153: Unsoundness in hexchat",
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0153.html",
+      "date": "2026-02-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0018: Vulnerability in rpc-check",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0018.html",
       "date": "2026-02-24T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -110,34 +136,6 @@
       "url": "https://github.com/advisories/GHSA-r6h2-5gqq-v5v6",
       "date": "2026-02-23T22:29:42.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw Discord moderation authorization used untrusted sender identity in tool-driven flows",
-      "url": "https://github.com/advisories/GHSA-wh94-p5m6-mr7j",
-      "date": "2026-02-23T22:29:16.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[flask] Flask session does not add `Vary: Cookie` header when accessed in some ways",
-      "url": "https://github.com/advisories/GHSA-68rp-wp8r-4726",
-      "date": "2026-02-23T22:28:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[pannellum] Pannellum has a XSS vulnerability in hot spot attributes",
-      "url": "https://github.com/advisories/GHSA-8423-w5wx-h2r6",
-      "date": "2026-02-23T22:27:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[werkzeug]  Werkzeug safe_join() allows Windows special device names",
-      "url": "https://github.com/advisories/GHSA-29vq-49wr-vm6x",
-      "date": "2026-02-23T22:27:39.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
