@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-02-24T14:29:15.708Z",
+  "fetchedAt": "2026-02-24T15:27:18.564Z",
   "entries": [
+    {
+      "title": "[bn.js] bn.js affected by an infinite loop",
+      "url": "https://github.com/advisories/GHSA-378v-28hj-76wf",
+      "date": "2026-02-24T14:45:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[bn.js] bn.js affected by an infinite loop",
+      "url": "https://github.com/advisories/GHSA-378v-28hj-76wf",
+      "date": "2026-02-24T14:45:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next-mdx-remote] next-mdx-remote affected by arbitrary code execution in React server-side rendering of untrusted MDX content",
+      "url": "https://github.com/advisories/GHSA-g4xw-jxrg-5f6m",
+      "date": "2026-02-24T14:20:58.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2025-0153: Unsoundness in hexchat",
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0153.html",
@@ -92,20 +113,6 @@
       "severity": "HIGH"
     },
     {
-      "title": "[@feathersjs/authentication-oauth] Feathers has an origin validation bypass via prefix matching",
-      "url": "https://github.com/advisories/GHSA-mp4x-c34x-wv3x",
-      "date": "2026-02-23T22:26:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@feathersjs/authentication-oauth] Feathers has an open redirect in OAuth callback enables account takeover",
-      "url": "https://github.com/advisories/GHSA-ppf9-4ffw-hh4p",
-      "date": "2026-02-23T22:26:31.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
       "title": "[dtale] D-Tale affected by Remote Code Execution through the /save-column-filter endpoint",
       "url": "https://github.com/advisories/GHSA-c87c-78rc-vmv2",
       "date": "2026-02-23T22:26:11.000Z",
@@ -132,13 +139,6 @@
       "date": "2026-02-23T22:13:59.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[ormar] ormar is vulnerable to SQL Injection through aggregate functions min() and max()",
-      "url": "https://github.com/advisories/GHSA-xxh2-68g9-8jqr",
-      "date": "2026-02-23T22:12:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }

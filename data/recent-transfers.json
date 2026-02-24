@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-02-24T14:32:34.424Z",
-  "count": 89,
+  "scannedAt": "2026-02-24T15:30:19.816Z",
+  "count": 90,
   "packages": [
     {
       "name": "xmldom",
@@ -113,6 +113,15 @@
     {
       "name": "enzyme-adapter-utils",
       "version": "1.14.2",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "intelligibabble",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "enzyme-adapter-react-16",
+      "version": "1.15.8",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -633,15 +642,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@vimeo/player",
-      "version": "2.30.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bdougherty",
-      "currentOwner": "vimeo-npmbot"
-    },
-    {
       "name": "@bugsnag/js",
       "version": "8.8.1",
       "ecosystem": "npm",
@@ -649,6 +649,15 @@
       "level": "MODERATE",
       "previousOwner": "bengourley",
       "currentOwner": "gingerbenw"
+    },
+    {
+      "name": "@vimeo/player",
+      "version": "2.30.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bdougherty",
+      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "@lottiefiles/dotlottie-react",
@@ -687,7 +696,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-x64-gnu",
+      "name": "oxc-transform",
       "version": "0.115.0",
       "ecosystem": "npm",
       "score": 20,
@@ -696,7 +705,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
+      "name": "@oxc-parser/binding-linux-x64-gnu",
       "version": "0.115.0",
       "ecosystem": "npm",
       "score": 20,
