@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-02-25T12:27:18.350Z",
+  "scannedAt": "2026-02-25T13:39:33.916Z",
   "count": 90,
   "packages": [
     {
@@ -183,8 +183,8 @@
       "currentOwner": "msftapplicationinsights"
     },
     {
-      "name": "heimdalljs",
-      "version": "0.2.6",
+      "name": "heimdalljs-logger",
+      "version": "0.1.10",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -192,8 +192,8 @@
       "currentOwner": "stefanpenner"
     },
     {
-      "name": "heimdalljs-logger",
-      "version": "0.1.10",
+      "name": "heimdalljs",
+      "version": "0.2.6",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -534,15 +534,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
-    },
-    {
       "name": "@azure/core-lro",
       "version": "3.3.1",
       "ecosystem": "npm",
@@ -550,6 +541,15 @@
       "level": "MODERATE",
       "previousOwner": "azure-sdk",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "css-has-pseudo",
+      "version": "8.0.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
     },
     {
       "name": "postcss-focus-visible",
@@ -732,7 +732,7 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "@oxc-parser/binding-linux-x64-musl",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
       "version": "0.115.0",
       "ecosystem": "npm",
       "score": 20,
@@ -741,7 +741,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "name": "@oxc-parser/binding-linux-x64-musl",
       "version": "0.115.0",
       "ecosystem": "npm",
       "score": 20,
