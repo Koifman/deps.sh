@@ -1,6 +1,132 @@
 {
-  "fetchedAt": "2026-02-25T18:31:32.159Z",
+  "fetchedAt": "2026-02-25T19:27:39.922Z",
   "entries": [
+    {
+      "title": "[changedetection.io] changedetection.io is Vulnerable to SSRF via Watch URLs",
+      "url": "https://github.com/advisories/GHSA-3c45-4pj5-ch7m",
+      "date": "2026-02-25T19:08:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[changedetection.io] changedetection.io Vulnerable to Reflected XSS in RSS Single Watch Error Response",
+      "url": "https://github.com/advisories/GHSA-mw8m-398g-h89w",
+      "date": "2026-02-25T19:07:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[flask-reuploaded] Flask-Reuploaded vulnerable to Remote Code Execution via Server-Side Template Injection",
+      "url": "https://github.com/advisories/GHSA-65mp-fq8v-56jr",
+      "date": "2026-02-25T19:06:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[parse-dashboard] Parse Dashboard Has a Cache Key Collision that Leaks Master Key to Read-Only Sessions",
+      "url": "https://github.com/advisories/GHSA-jhp4-jvq3-w5xr",
+      "date": "2026-02-25T19:00:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-dashboard] Parse Dashboard is Missing CSRF Protection for its Agent Endpoint",
+      "url": "https://github.com/advisories/GHSA-3534-xp88-25rc",
+      "date": "2026-02-25T18:59:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-dashboard] Parse Dashboard is Missing Authorization for its Agent Endpoint",
+      "url": "https://github.com/advisories/GHSA-cvwj-6c9h-jg6v",
+      "date": "2026-02-25T18:59:45.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI Vulnerable to Stored Cross-site Scripting (XSS) through Custom Rule Function",
+      "url": "https://github.com/advisories/GHSA-rwj9-7j48-9f7q",
+      "date": "2026-02-25T18:58:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI Vulnerable to Stored Cross-site Scripting (XSS) through Custom Rule Function",
+      "url": "https://github.com/advisories/GHSA-rwj9-7j48-9f7q",
+      "date": "2026-02-25T18:58:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI Vulnerable to Stored Cross-site Scripting (XSS) through Custom Rule Function",
+      "url": "https://github.com/advisories/GHSA-rwj9-7j48-9f7q",
+      "date": "2026-02-25T18:58:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[budibase] Budibase: Remote Code Execution via Unsafe eval() in View Filter Map Function (Budibase Cloud)",
+      "url": "https://github.com/advisories/GHSA-rvhr-26g4-p2r8",
+      "date": "2026-02-25T18:57:40.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI has Username Enumeration via Login Error Message",
+      "url": "https://github.com/advisories/GHSA-38wq-6q2w-hcf9",
+      "date": "2026-02-25T18:53:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI has Username Enumeration via Login Error Message",
+      "url": "https://github.com/advisories/GHSA-38wq-6q2w-hcf9",
+      "date": "2026-02-25T18:53:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI has Username Enumeration via Login Error Message",
+      "url": "https://github.com/advisories/GHSA-38wq-6q2w-hcf9",
+      "date": "2026-02-25T18:53:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI has a Reflected Cross-site Scripting Vulnerability",
+      "url": "https://github.com/advisories/GHSA-h79m-5jjm-jm4q",
+      "date": "2026-02-25T18:53:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI has a Reflected Cross-site Scripting Vulnerability",
+      "url": "https://github.com/advisories/GHSA-h79m-5jjm-jm4q",
+      "date": "2026-02-25T18:53:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI has a Reflected Cross-site Scripting Vulnerability",
+      "url": "https://github.com/advisories/GHSA-h79m-5jjm-jm4q",
+      "date": "2026-02-25T18:53:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-dashboard] Parse Dashboard has incomplete authentication on AI Agent endpoint",
+      "url": "https://github.com/advisories/GHSA-qwc3-h9mg-4582",
+      "date": "2026-02-25T18:37:55.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@ensdomains/ens-contracts] ENS DNSSEC Oracle Vulnerable to RSA Signature Forgery via Missing PKCS#1 v1.5 Padding Validation",
+      "url": "https://github.com/advisories/GHSA-c6rr-7pmc-73wc",
+      "date": "2026-02-25T18:26:59.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[@astrojs/node] Astro is vulnerable to SSRF due to missing allowlist enforcement in remote image inferSize",
       "url": "https://github.com/advisories/GHSA-cj9f-h6r6-4cx2",
@@ -14,128 +140,6 @@
       "date": "2026-02-25T18:09:49.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[hono] Hono is Vulnerable to Authentication Bypass by IP Spoofing in AWS Lambda ALB conninfo",
-      "url": "https://github.com/advisories/GHSA-xh87-mx6m-69f3",
-      "date": "2026-02-25T18:02:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[datapizza-ai-core] datapizza-ai has unsafe deserialization via pickle.loads() in RedisCache",
-      "url": "https://github.com/advisories/GHSA-hg58-x52p-859c",
-      "date": "2026-02-25T17:58:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[datapizza-ai-core] datapizza-ai: Server-Side Template Injection in ChatPromptTemplate via Jinja2 Template Handler",
-      "url": "https://github.com/advisories/GHSA-q5xx-fxv3-xxqf",
-      "date": "2026-02-25T17:52:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@enclave-vm/core] @enclave-vm/core is vulnerable to Sandbox Escape",
-      "url": "https://github.com/advisories/GHSA-f229-3862-4942",
-      "date": "2026-02-25T17:26:24.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[pypdf] pypdf has a possible infinite loop when loading circular /Prev entries in cross-reference streams",
-      "url": "https://github.com/advisories/GHSA-2rw7-x74f-jg35",
-      "date": "2026-02-25T16:09:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[bugsink] Bugsink is vulnerable to Stored XSS via Pygments fallback in stacktrace rendering",
-      "url": "https://github.com/advisories/GHSA-vp6q-7m36-pq3w",
-      "date": "2026-02-25T16:06:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[repostat] repostat: Reflected Cross-Site Scripting (XSS) via repo prop in RepoCard",
-      "url": "https://github.com/advisories/GHSA-fm8c-6m29-rp6j",
-      "date": "2026-02-25T16:04:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow error reporting may expose full kwargs",
-      "url": "https://github.com/advisories/GHSA-gfw7-2v73-69wg",
-      "date": "2026-02-25T15:43:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow error reporting may expose full kwargs",
-      "url": "https://github.com/advisories/GHSA-gfw7-2v73-69wg",
-      "date": "2026-02-25T15:43:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fickling] Fickling has safety check bypass via REDUCE+BUILD opcode sequence",
-      "url": "https://github.com/advisories/GHSA-mhc9-48gj-9gp3",
-      "date": "2026-02-25T15:24:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@astrojs/node] Astro has Full-Read SSRF in error rendering via Host: header injection",
-      "url": "https://github.com/advisories/GHSA-qq67-mvv5-fw3g",
-      "date": "2026-02-25T12:45:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0023: Vulnerability in libcrux-ecdh",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0023.html",
-      "date": "2026-02-25T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0025: Vulnerability in libcrux-psq",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0025.html",
-      "date": "2026-02-25T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0024: Vulnerability in libcrux-psq",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0024.html",
-      "date": "2026-02-25T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0026: Vulnerability in libcrux-ed25519",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0026.html",
-      "date": "2026-02-25T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[fickling] Fickling: OBJ opcode call invisibility bypasses all safety checks",
-      "url": "https://github.com/advisories/GHSA-mxhj-88fx-4pcv",
-      "date": "2026-02-24T21:41:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[minimatch] minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
-      "url": "https://github.com/advisories/GHSA-3ppc-4f35-3m26",
-      "date": "2026-02-24T20:59:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[minimatch] minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
-      "url": "https://github.com/advisories/GHSA-3ppc-4f35-3m26",
-      "date": "2026-02-24T20:59:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
