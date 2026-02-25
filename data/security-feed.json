@@ -1,144 +1,144 @@
 {
-  "fetchedAt": "2026-02-25T22:13:30.597Z",
+  "fetchedAt": "2026-02-25T23:14:45.841Z",
   "entries": [
     {
-      "title": "[n8n] n8n has Arbitrary Command Execution via File Write and Git Operations",
-      "url": "https://github.com/advisories/GHSA-x2mw-7j39-93xq",
-      "date": "2026-02-25T21:54:22.000Z",
+      "title": "[parse-server] Parse Server: Account takeover via JWT algorithm confusion in Google auth adapter",
+      "url": "https://github.com/advisories/GHSA-4q3h-vp4r-prv2",
+      "date": "2026-02-25T23:00:50.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[n8n] n8n has Arbitrary Command Execution via File Write and Git Operations",
-      "url": "https://github.com/advisories/GHSA-x2mw-7j39-93xq",
-      "date": "2026-02-25T21:54:22.000Z",
+      "title": "[parse-server] Parse Server: Account takeover via JWT algorithm confusion in Google auth adapter",
+      "url": "https://github.com/advisories/GHSA-4q3h-vp4r-prv2",
+      "date": "2026-02-25T23:00:50.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[n8n] n8n has Potential Remote Code Execution via Merge Node",
-      "url": "https://github.com/advisories/GHSA-wxx7-mcgf-j869",
-      "date": "2026-02-25T21:23:31.000Z",
+      "title": "[@langchain/community] LangChain Community: redirect chaining can lead to SSRF bypass via RecursiveUrlLoader",
+      "url": "https://github.com/advisories/GHSA-mphv-75cg-56wg",
+      "date": "2026-02-25T22:59:49.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "MODERATE"
     },
     {
-      "title": "[n8n] n8n has Potential Remote Code Execution via Merge Node",
-      "url": "https://github.com/advisories/GHSA-wxx7-mcgf-j869",
-      "date": "2026-02-25T21:23:31.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "title": "[langgraph-checkpoint] LangGraph: BaseCache Deserialization of Untrusted Data may lead to Remote Code Execution",
+      "url": "https://github.com/advisories/GHSA-mhr3-j7m5-c7c9",
+      "date": "2026-02-25T22:59:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "[n8n] n8n has Potential Remote Code Execution via Merge Node",
-      "url": "https://github.com/advisories/GHSA-wxx7-mcgf-j869",
-      "date": "2026-02-25T21:23:31.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n has a Sandbox Escape in its JavaScript Task Runner",
-      "url": "https://github.com/advisories/GHSA-jjpj-p2wh-qf23",
-      "date": "2026-02-25T21:23:16.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n has a Sandbox Escape in its JavaScript Task Runner",
-      "url": "https://github.com/advisories/GHSA-jjpj-p2wh-qf23",
-      "date": "2026-02-25T21:23:16.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n has a Sandbox Escape in its JavaScript Task Runner",
-      "url": "https://github.com/advisories/GHSA-jjpj-p2wh-qf23",
-      "date": "2026-02-25T21:23:16.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n has Arbitrary File Read via Python Code Node Sandbox Escape",
-      "url": "https://github.com/advisories/GHSA-mmgg-m5j7-f83h",
-      "date": "2026-02-25T21:22:41.000Z",
+      "title": "[yapi-vendor] yapi disables TLS/SSL certificate validation via rejectUnauthorized: false in Axios HTTPS agent",
+      "url": "https://github.com/advisories/GHSA-663h-2vr3-ghrj",
+      "date": "2026-02-25T22:46:42.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[n8n] n8n has Arbitrary File Read via Python Code Node Sandbox Escape",
-      "url": "https://github.com/advisories/GHSA-mmgg-m5j7-f83h",
-      "date": "2026-02-25T21:22:41.000Z",
+      "title": "[@nguniversal/express-engine] Angular SSR is vulnerable to SSRF and Header Injection via request handling pipeline",
+      "url": "https://github.com/advisories/GHSA-x288-3778-4hhx",
+      "date": "2026-02-25T22:42:37.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@nguniversal/common] Angular SSR is vulnerable to SSRF and Header Injection via request handling pipeline",
+      "url": "https://github.com/advisories/GHSA-x288-3778-4hhx",
+      "date": "2026-02-25T22:42:37.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR is vulnerable to SSRF and Header Injection via request handling pipeline",
+      "url": "https://github.com/advisories/GHSA-x288-3778-4hhx",
+      "date": "2026-02-25T22:42:37.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR is vulnerable to SSRF and Header Injection via request handling pipeline",
+      "url": "https://github.com/advisories/GHSA-x288-3778-4hhx",
+      "date": "2026-02-25T22:42:37.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR is vulnerable to SSRF and Header Injection via request handling pipeline",
+      "url": "https://github.com/advisories/GHSA-x288-3778-4hhx",
+      "date": "2026-02-25T22:42:37.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR is vulnerable to SSRF and Header Injection via request handling pipeline",
+      "url": "https://github.com/advisories/GHSA-x288-3778-4hhx",
+      "date": "2026-02-25T22:42:37.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR has an Open Redirect via X-Forwarded-Prefix",
+      "url": "https://github.com/advisories/GHSA-xh43-g2fq-wjrj",
+      "date": "2026-02-25T22:41:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR has an Open Redirect via X-Forwarded-Prefix",
+      "url": "https://github.com/advisories/GHSA-xh43-g2fq-wjrj",
+      "date": "2026-02-25T22:41:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR has an Open Redirect via X-Forwarded-Prefix",
+      "url": "https://github.com/advisories/GHSA-xh43-g2fq-wjrj",
+      "date": "2026-02-25T22:41:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR has an Open Redirect via X-Forwarded-Prefix",
+      "url": "https://github.com/advisories/GHSA-xh43-g2fq-wjrj",
+      "date": "2026-02-25T22:41:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rollup] Rollup 4 has Arbitrary File Write via Path Traversal",
+      "url": "https://github.com/advisories/GHSA-mw96-cpmx-2vgc",
+      "date": "2026-02-25T22:37:27.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[n8n] n8n has Arbitrary File Read via Python Code Node Sandbox Escape",
-      "url": "https://github.com/advisories/GHSA-mmgg-m5j7-f83h",
-      "date": "2026-02-25T21:22:41.000Z",
+      "title": "[rollup] Rollup 4 has Arbitrary File Write via Path Traversal",
+      "url": "https://github.com/advisories/GHSA-mw96-cpmx-2vgc",
+      "date": "2026-02-25T22:37:27.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[n8n] n8n has Unauthenticated Expression Evaluation via Form Node",
-      "url": "https://github.com/advisories/GHSA-75g8-rv7v-32f7",
-      "date": "2026-02-25T21:21:37.000Z",
+      "title": "[rollup] Rollup 4 has Arbitrary File Write via Path Traversal",
+      "url": "https://github.com/advisories/GHSA-mw96-cpmx-2vgc",
+      "date": "2026-02-25T22:37:27.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[basic-ftp] Basic FTP has Path Traversal Vulnerability in its downloadToDir() method",
+      "url": "https://github.com/advisories/GHSA-5rq4-664w-9x2c",
+      "date": "2026-02-25T22:34:27.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[n8n] n8n has Unauthenticated Expression Evaluation via Form Node",
-      "url": "https://github.com/advisories/GHSA-75g8-rv7v-32f7",
-      "date": "2026-02-25T21:21:37.000Z",
+      "title": "[@astrojs/node] Astro has memory exhaustion DoS due to missing request body size limit in Server Actions",
+      "url": "https://github.com/advisories/GHSA-jm64-8m5q-4qh8",
+      "date": "2026-02-25T22:33:16.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n has Unauthenticated Expression Evaluation via Form Node",
-      "url": "https://github.com/advisories/GHSA-75g8-rv7v-32f7",
-      "date": "2026-02-25T21:21:37.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[nltk] NLTK has a Zip Slip Vulnerability",
-      "url": "https://github.com/advisories/GHSA-7p94-766c-hgjp",
-      "date": "2026-02-25T20:23:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[rucio-webui] Rucio WebUI has a Stored Cross-site Scripting (XSS) vulnerability its Identity Name",
-      "url": "https://github.com/advisories/GHSA-8wpv-6x3f-3rm5",
-      "date": "2026-02-25T19:41:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[rucio-webui] Rucio WebUI has a Stored Cross-site Scripting (XSS) vulnerability its Identity Name",
-      "url": "https://github.com/advisories/GHSA-8wpv-6x3f-3rm5",
-      "date": "2026-02-25T19:41:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[rucio-webui] Rucio WebUI has a Stored Cross-site Scripting (XSS) vulnerability its Identity Name",
-      "url": "https://github.com/advisories/GHSA-8wpv-6x3f-3rm5",
-      "date": "2026-02-25T19:41:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[rucio-webui] Rucio WebUI has a Stored Cross-site Scripting (XSS) Vulnerability in its Custom RSE Attribute",
-      "url": "https://github.com/advisories/GHSA-fq4f-4738-rqxm",
-      "date": "2026-02-25T19:37:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[rucio-webui] Rucio WebUI has a Stored Cross-site Scripting (XSS) Vulnerability in its Custom RSE Attribute",
-      "url": "https://github.com/advisories/GHSA-fq4f-4738-rqxm",
-      "date": "2026-02-25T19:37:27.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
