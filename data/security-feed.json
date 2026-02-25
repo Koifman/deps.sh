@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-02-25T17:28:42.606Z",
+  "fetchedAt": "2026-02-25T18:31:32.159Z",
   "entries": [
+    {
+      "title": "[@astrojs/node] Astro is vulnerable to SSRF due to missing allowlist enforcement in remote image inferSize",
+      "url": "https://github.com/advisories/GHSA-cj9f-h6r6-4cx2",
+      "date": "2026-02-25T18:11:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@oneuptime/common] OneUptime: OS Command Injection in Probe NetworkPathMonitor via unsanitized destination in traceroute exec()",
+      "url": "https://github.com/advisories/GHSA-jmhp-5558-qxh5",
+      "date": "2026-02-25T18:09:49.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[hono] Hono is Vulnerable to Authentication Bypass by IP Spoofing in AWS Lambda ALB conninfo",
+      "url": "https://github.com/advisories/GHSA-xh87-mx6m-69f3",
+      "date": "2026-02-25T18:02:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[datapizza-ai-core] datapizza-ai has unsafe deserialization via pickle.loads() in RedisCache",
+      "url": "https://github.com/advisories/GHSA-hg58-x52p-859c",
+      "date": "2026-02-25T17:58:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[datapizza-ai-core] datapizza-ai: Server-Side Template Injection in ChatPromptTemplate via Jinja2 Template Handler",
+      "url": "https://github.com/advisories/GHSA-q5xx-fxv3-xxqf",
+      "date": "2026-02-25T17:52:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@enclave-vm/core] @enclave-vm/core is vulnerable to Sandbox Escape",
+      "url": "https://github.com/advisories/GHSA-f229-3862-4942",
+      "date": "2026-02-25T17:26:24.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[pypdf] pypdf has a possible infinite loop when loading circular /Prev entries in cross-reference streams",
       "url": "https://github.com/advisories/GHSA-2rw7-x74f-jg35",
@@ -79,48 +121,6 @@
       "url": "https://github.com/advisories/GHSA-mxhj-88fx-4pcv",
       "date": "2026-02-24T21:41:34.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[minimatch] minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
-      "url": "https://github.com/advisories/GHSA-3ppc-4f35-3m26",
-      "date": "2026-02-24T20:59:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[minimatch] minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
-      "url": "https://github.com/advisories/GHSA-3ppc-4f35-3m26",
-      "date": "2026-02-24T20:59:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[minimatch] minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
-      "url": "https://github.com/advisories/GHSA-3ppc-4f35-3m26",
-      "date": "2026-02-24T20:59:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[minimatch] minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
-      "url": "https://github.com/advisories/GHSA-3ppc-4f35-3m26",
-      "date": "2026-02-24T20:59:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[minimatch] minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
-      "url": "https://github.com/advisories/GHSA-3ppc-4f35-3m26",
-      "date": "2026-02-24T20:59:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[minimatch] minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
-      "url": "https://github.com/advisories/GHSA-3ppc-4f35-3m26",
-      "date": "2026-02-24T20:59:58.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
