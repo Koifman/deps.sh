@@ -1,6 +1,83 @@
 {
-  "fetchedAt": "2026-02-25T19:27:39.922Z",
+  "fetchedAt": "2026-02-25T20:17:08.656Z",
   "entries": [
+    {
+      "title": "[rucio-webui] Rucio WebUI has a Stored Cross-site Scripting (XSS) vulnerability its Identity Name",
+      "url": "https://github.com/advisories/GHSA-8wpv-6x3f-3rm5",
+      "date": "2026-02-25T19:41:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI has a Stored Cross-site Scripting (XSS) vulnerability its Identity Name",
+      "url": "https://github.com/advisories/GHSA-8wpv-6x3f-3rm5",
+      "date": "2026-02-25T19:41:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI has a Stored Cross-site Scripting (XSS) vulnerability its Identity Name",
+      "url": "https://github.com/advisories/GHSA-8wpv-6x3f-3rm5",
+      "date": "2026-02-25T19:41:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI has a Stored Cross-site Scripting (XSS) Vulnerability in its Custom RSE Attribute",
+      "url": "https://github.com/advisories/GHSA-fq4f-4738-rqxm",
+      "date": "2026-02-25T19:37:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI has a Stored Cross-site Scripting (XSS) Vulnerability in its Custom RSE Attribute",
+      "url": "https://github.com/advisories/GHSA-fq4f-4738-rqxm",
+      "date": "2026-02-25T19:37:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI has a Stored Cross-site Scripting (XSS) Vulnerability in its Custom RSE Attribute",
+      "url": "https://github.com/advisories/GHSA-fq4f-4738-rqxm",
+      "date": "2026-02-25T19:37:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rucio-webui]  Rucio WebUI has Stored Cross-site Scripting (XSS) in RSE Metadata",
+      "url": "https://github.com/advisories/GHSA-h9fp-p2p9-873q",
+      "date": "2026-02-25T19:29:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rucio-webui]  Rucio WebUI has Stored Cross-site Scripting (XSS) in RSE Metadata",
+      "url": "https://github.com/advisories/GHSA-h9fp-p2p9-873q",
+      "date": "2026-02-25T19:29:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rucio-webui]  Rucio WebUI has Stored Cross-site Scripting (XSS) in RSE Metadata",
+      "url": "https://github.com/advisories/GHSA-h9fp-p2p9-873q",
+      "date": "2026-02-25T19:29:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow exposes sensitive information in its log files",
+      "url": "https://github.com/advisories/GHSA-8r55-rv5w-6pfm",
+      "date": "2026-02-25T19:21:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow vulnerable to Code Injection in the web-server context via LogTemplate table",
+      "url": "https://github.com/advisories/GHSA-r837-hpv7-pc2f",
+      "date": "2026-02-25T19:20:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[changedetection.io] changedetection.io is Vulnerable to SSRF via Watch URLs",
       "url": "https://github.com/advisories/GHSA-3c45-4pj5-ch7m",
@@ -63,83 +140,6 @@
       "date": "2026-02-25T18:58:22.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[budibase] Budibase: Remote Code Execution via Unsafe eval() in View Filter Map Function (Budibase Cloud)",
-      "url": "https://github.com/advisories/GHSA-rvhr-26g4-p2r8",
-      "date": "2026-02-25T18:57:40.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[rucio-webui] Rucio WebUI has Username Enumeration via Login Error Message",
-      "url": "https://github.com/advisories/GHSA-38wq-6q2w-hcf9",
-      "date": "2026-02-25T18:53:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[rucio-webui] Rucio WebUI has Username Enumeration via Login Error Message",
-      "url": "https://github.com/advisories/GHSA-38wq-6q2w-hcf9",
-      "date": "2026-02-25T18:53:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[rucio-webui] Rucio WebUI has Username Enumeration via Login Error Message",
-      "url": "https://github.com/advisories/GHSA-38wq-6q2w-hcf9",
-      "date": "2026-02-25T18:53:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[rucio-webui] Rucio WebUI has a Reflected Cross-site Scripting Vulnerability",
-      "url": "https://github.com/advisories/GHSA-h79m-5jjm-jm4q",
-      "date": "2026-02-25T18:53:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[rucio-webui] Rucio WebUI has a Reflected Cross-site Scripting Vulnerability",
-      "url": "https://github.com/advisories/GHSA-h79m-5jjm-jm4q",
-      "date": "2026-02-25T18:53:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[rucio-webui] Rucio WebUI has a Reflected Cross-site Scripting Vulnerability",
-      "url": "https://github.com/advisories/GHSA-h79m-5jjm-jm4q",
-      "date": "2026-02-25T18:53:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-dashboard] Parse Dashboard has incomplete authentication on AI Agent endpoint",
-      "url": "https://github.com/advisories/GHSA-qwc3-h9mg-4582",
-      "date": "2026-02-25T18:37:55.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@ensdomains/ens-contracts] ENS DNSSEC Oracle Vulnerable to RSA Signature Forgery via Missing PKCS#1 v1.5 Padding Validation",
-      "url": "https://github.com/advisories/GHSA-c6rr-7pmc-73wc",
-      "date": "2026-02-25T18:26:59.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@astrojs/node] Astro is vulnerable to SSRF due to missing allowlist enforcement in remote image inferSize",
-      "url": "https://github.com/advisories/GHSA-cj9f-h6r6-4cx2",
-      "date": "2026-02-25T18:11:48.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@oneuptime/common] OneUptime: OS Command Injection in Probe NetworkPathMonitor via unsanitized destination in traceroute exec()",
-      "url": "https://github.com/advisories/GHSA-jmhp-5558-qxh5",
-      "date": "2026-02-25T18:09:49.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
