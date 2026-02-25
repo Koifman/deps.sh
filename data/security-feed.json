@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-02-25T15:27:47.475Z",
+  "fetchedAt": "2026-02-25T16:33:11.666Z",
   "entries": [
+    {
+      "title": "[pypdf] pypdf has a possible infinite loop when loading circular /Prev entries in cross-reference streams",
+      "url": "https://github.com/advisories/GHSA-2rw7-x74f-jg35",
+      "date": "2026-02-25T16:09:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[bugsink] Bugsink is vulnerable to Stored XSS via Pygments fallback in stacktrace rendering",
+      "url": "https://github.com/advisories/GHSA-vp6q-7m36-pq3w",
+      "date": "2026-02-25T16:06:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[repostat] repostat: Reflected Cross-Site Scripting (XSS) via repo prop in RepoCard",
+      "url": "https://github.com/advisories/GHSA-fm8c-6m29-rp6j",
+      "date": "2026-02-25T16:04:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow error reporting may expose full kwargs",
+      "url": "https://github.com/advisories/GHSA-gfw7-2v73-69wg",
+      "date": "2026-02-25T15:43:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow error reporting may expose full kwargs",
+      "url": "https://github.com/advisories/GHSA-gfw7-2v73-69wg",
+      "date": "2026-02-25T15:43:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fickling] Fickling has safety check bypass via REDUCE+BUILD opcode sequence",
+      "url": "https://github.com/advisories/GHSA-mhc9-48gj-9gp3",
+      "date": "2026-02-25T15:24:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@astrojs/node] Astro has Full-Read SSRF in error rendering via Host: header injection",
       "url": "https://github.com/advisories/GHSA-qq67-mvv5-fw3g",
@@ -98,48 +140,6 @@
       "date": "2026-02-24T19:56:19.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow proxy credentials for various providers might leak in task logs",
-      "url": "https://github.com/advisories/GHSA-7c2f-r6gc-h92h",
-      "date": "2026-02-24T16:21:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow proxy credentials for various providers might leak in task logs",
-      "url": "https://github.com/advisories/GHSA-7c2f-r6gc-h92h",
-      "date": "2026-02-24T16:21:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[yt-dlp] yt-dlp: Arbitrary Command Injection when using the `--netrc-cmd` option",
-      "url": "https://github.com/advisories/GHSA-g3gw-q23r-pgqm",
-      "date": "2026-02-24T16:08:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ormar] ormar is vulnerable to SQL Injection through aggregate functions min() and max()",
-      "url": "https://github.com/advisories/GHSA-xxh2-68g9-8jqr",
-      "date": "2026-02-24T16:08:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[llama-index-core] LlamaIndex Improper Handling of Exceptional Conditions vulnerability",
-      "url": "https://github.com/advisories/GHSA-j3wr-m6xh-64hg",
-      "date": "2026-02-24T16:08:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[isso] Isso affected by Stored XSS via comment website field",
-      "url": "https://github.com/advisories/GHSA-9fww-8cpr-q66r",
-      "date": "2026-02-24T16:03:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
