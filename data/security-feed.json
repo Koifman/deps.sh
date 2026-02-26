@@ -1,144 +1,145 @@
 {
-  "fetchedAt": "2026-02-26T22:14:54.987Z",
+  "fetchedAt": "2026-02-26T23:14:04.623Z",
   "entries": [
     {
-      "title": "[bootstrap-multiselect] Bootstrap Multiselect Vulnerable to CSRF and Reflective XSS via Arbitrary POST Data",
-      "url": "https://github.com/advisories/GHSA-gv5r-9gxr-v74w",
-      "date": "2026-02-26T21:59:01.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pypdf] pypdf: Manipulated FlateDecode XFA streams can exhaust RAM",
-      "url": "https://github.com/advisories/GHSA-x7hp-r3qg-r3cj",
-      "date": "2026-02-26T19:55:35.000Z",
+      "title": "[richie] OpenFUN Richie Observable Timing Discrepancy in its sync_course_run_from_request function",
+      "url": "https://github.com/advisories/GHSA-xjhr-fm27-4hmx",
+      "date": "2026-02-26T22:50:20.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[dottie] dottie is vulnerable to Prototype Pollution bypass via non-first path segments in set() and transform()",
-      "url": "https://github.com/advisories/GHSA-r5mx-6wc6-7h9w",
-      "date": "2026-02-26T19:54:35.000Z",
+      "title": "[n8n] n8n has Webhook Forgery on Zendesk Trigger Node",
+      "url": "https://github.com/advisories/GHSA-38c7-23hj-2wgq",
+      "date": "2026-02-26T22:47:06.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[weblate] Weblate: Missing access control for the AddonViewSet API exposes all addon configurations",
-      "url": "https://github.com/advisories/GHSA-wppc-7cq7-cgfv",
-      "date": "2026-02-26T19:45:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Webhook Forgery on Github Webhook Trigger",
-      "url": "https://github.com/advisories/GHSA-mqpr-49jj-32rc",
-      "date": "2026-02-26T15:58:35.000Z",
+      "title": "[n8n] n8n has Webhook Forgery on Zendesk Trigger Node",
+      "url": "https://github.com/advisories/GHSA-38c7-23hj-2wgq",
+      "date": "2026-02-26T22:47:06.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[n8n] n8n: Webhook Forgery on Github Webhook Trigger",
-      "url": "https://github.com/advisories/GHSA-mqpr-49jj-32rc",
-      "date": "2026-02-26T15:58:35.000Z",
+      "title": "[n8n] n8n has a Guardrail Node Bypass",
+      "url": "https://github.com/advisories/GHSA-fvfv-ppw4-7h2w",
+      "date": "2026-02-26T22:46:43.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[n8n] n8n: SQL Injection in MySQL, PostgreSQL, and Microsoft SQL nodes",
-      "url": "https://github.com/advisories/GHSA-f3f2-mcxc-pwjx",
-      "date": "2026-02-26T15:56:31.000Z",
+      "title": "[n8n] n8n has an Authentication Bypass in its Chat Trigger Node",
+      "url": "https://github.com/advisories/GHSA-jh8h-6c9q-7gmw",
+      "date": "2026-02-26T22:45:43.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@frangoteam/fuxa] FUXA has JWT Authentication Bypass via HTTP Referer header spoofing",
-      "url": "https://github.com/advisories/GHSA-4r4r-4jp4-wwf9",
-      "date": "2026-02-26T15:45:41.000Z",
+      "title": "[n8n] n8n has an Authentication Bypass in its Chat Trigger Node",
+      "url": "https://github.com/advisories/GHSA-jh8h-6c9q-7gmw",
+      "date": "2026-02-26T22:45:43.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "MODERATE"
     },
     {
-      "title": "[apache-superset] Apache Superset: Read-Only Bypass via Improper Input Validation on PostgreSQL Connections",
-      "url": "https://github.com/advisories/GHSA-mwf2-qr4v-94h2",
-      "date": "2026-02-26T15:29:02.000Z",
-      "ecosystem": "pypi",
+      "title": "[n8n] n8n has an Authentication Bypass in its Chat Trigger Node",
+      "url": "https://github.com/advisories/GHSA-jh8h-6c9q-7gmw",
+      "date": "2026-02-26T22:45:43.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has an SSO Enforcement Bypass in its Self-Service Settings API",
+      "url": "https://github.com/advisories/GHSA-vjf3-2gpj-233v",
+      "date": "2026-02-26T22:45:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[koa] Koa has Host Header Injection via ctx.hostname",
+      "url": "https://github.com/advisories/GHSA-7gcc-r8m5-44qm",
+      "date": "2026-02-26T22:42:58.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[apache-superset] Apache Superset allows authenticated users to view sensitive data without explicit permissions",
-      "url": "https://github.com/advisories/GHSA-h294-8fxm-m2pj",
-      "date": "2026-02-26T15:28:48.000Z",
+      "title": "[koa] Koa has Host Header Injection via ctx.hostname",
+      "url": "https://github.com/advisories/GHSA-7gcc-r8m5-44qm",
+      "date": "2026-02-26T22:42:58.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[copyparty] Copyparty vulnerable to reflected XSS via setck parameter",
+      "url": "https://github.com/advisories/GHSA-62cr-6wp5-q43h",
+      "date": "2026-02-26T22:33:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser has stack overflow in XMLBuilder with preserveOrder",
+      "url": "https://github.com/advisories/GHSA-fj3w-jwp8-x2g3",
+      "date": "2026-02-26T22:33:12.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[svelte] Svelte: XSS via HTML Comment Injection in SSR Error Boundary Hydration Markers",
+      "url": "https://github.com/advisories/GHSA-qgvg-pr8v-6rr3",
+      "date": "2026-02-26T22:25:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[svelte] Svelte vulnerable to XSS during SSR with contenteditable `bind:innerText` and `bind:textContent`",
+      "url": "https://github.com/advisories/GHSA-phwv-c562-gvmh",
+      "date": "2026-02-26T22:24:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wger] wger: IDOR in nutritional_values endpoints exposes private dietary data via direct ORM lookup",
+      "url": "https://github.com/advisories/GHSA-g8gc-6c4h-jg86",
+      "date": "2026-02-26T22:15:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wger] wger: IDOR via user-unscoped cache keys on routine API actions exposes workout data",
+      "url": "https://github.com/advisories/GHSA-42cr-w2gr-m54q",
+      "date": "2026-02-26T22:15:31.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
     },
     {
-      "title": "[apache-superset] Apache Superset Improper Authorization allows low-privileged users to bypass access controls",
-      "url": "https://github.com/advisories/GHSA-3m2g-v7jf-7fxc",
-      "date": "2026-02-26T15:28:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-superset] Apache Superset allows privileged users to conduct error-based SQL Injection",
-      "url": "https://github.com/advisories/GHSA-gvxg-9hqx-f4rg",
-      "date": "2026-02-26T15:28:29.000Z",
+      "title": "[wger] wger: IDOR in RepetitionsConfig and MaxRepetitionsConfig API leak other users' workout data",
+      "url": "https://github.com/advisories/GHSA-xf68-8hjw-7mpm",
+      "date": "2026-02-26T22:13:15.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[apache-superset] Apache Superset: Incomplete DISALLOWED_SQL_FUNCTIONS default list for ClickHouse engine",
-      "url": "https://github.com/advisories/GHSA-48m2-v2r8-h23m",
-      "date": "2026-02-26T15:28:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[terriajs-server] TerriaJS-Server has a domain validation bypass vulnerability in its proxy allowlist",
-      "url": "https://github.com/advisories/GHSA-w789-49fc-v8hr",
-      "date": "2026-02-26T15:22:12.000Z",
+      "title": "[minimatch] minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+      "url": "https://github.com/advisories/GHSA-7r86-cg39-jmmj",
+      "date": "2026-02-26T22:10:20.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[psd-tools] psd-tools: Compression module has unguarded zlib decompression, missing dimension validation, and hardening gaps",
-      "url": "https://github.com/advisories/GHSA-24p2-j2jr-386w",
-      "date": "2026-02-26T15:20:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp-server-git] mcp-server-git : Path traversal in git_add allows staging files outside repository boundaries",
-      "url": "https://github.com/advisories/GHSA-vjqx-cfc4-9h6v",
-      "date": "2026-02-26T15:16:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[storybook] Storybook Dev Server is Vulnerable to WebSocket Hijacking",
-      "url": "https://github.com/advisories/GHSA-mjf5-7g4m-gx5w",
-      "date": "2026-02-26T15:16:11.000Z",
+      "title": "[minimatch] minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+      "url": "https://github.com/advisories/GHSA-7r86-cg39-jmmj",
+      "date": "2026-02-26T22:10:20.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[storybook] Storybook Dev Server is Vulnerable to WebSocket Hijacking",
-      "url": "https://github.com/advisories/GHSA-mjf5-7g4m-gx5w",
-      "date": "2026-02-26T15:16:11.000Z",
+      "title": "[minimatch] minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+      "url": "https://github.com/advisories/GHSA-7r86-cg39-jmmj",
+      "date": "2026-02-26T22:10:20.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[storybook] Storybook Dev Server is Vulnerable to WebSocket Hijacking",
-      "url": "https://github.com/advisories/GHSA-mjf5-7g4m-gx5w",
-      "date": "2026-02-26T15:16:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0027: Vulnerability in tracings",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0027.html",
-      "date": "2026-02-26T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
