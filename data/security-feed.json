@@ -1,6 +1,111 @@
 {
-  "fetchedAt": "2026-02-26T15:24:25.791Z",
+  "fetchedAt": "2026-02-26T16:26:12.282Z",
   "entries": [
+    {
+      "title": "[n8n] n8n: Webhook Forgery on Github Webhook Trigger",
+      "url": "https://github.com/advisories/GHSA-mqpr-49jj-32rc",
+      "date": "2026-02-26T15:58:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Webhook Forgery on Github Webhook Trigger",
+      "url": "https://github.com/advisories/GHSA-mqpr-49jj-32rc",
+      "date": "2026-02-26T15:58:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: SQL Injection in MySQL, PostgreSQL, and Microsoft SQL nodes",
+      "url": "https://github.com/advisories/GHSA-f3f2-mcxc-pwjx",
+      "date": "2026-02-26T15:56:31.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@frangoteam/fuxa] FUXA has JWT Authentication Bypass via HTTP Referer header spoofing",
+      "url": "https://github.com/advisories/GHSA-4r4r-4jp4-wwf9",
+      "date": "2026-02-26T15:45:41.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[apache-superset] Apache Superset: Read-Only Bypass via Improper Input Validation on PostgreSQL Connections",
+      "url": "https://github.com/advisories/GHSA-mwf2-qr4v-94h2",
+      "date": "2026-02-26T15:29:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-superset] Apache Superset allows authenticated users to view sensitive data without explicit permissions",
+      "url": "https://github.com/advisories/GHSA-h294-8fxm-m2pj",
+      "date": "2026-02-26T15:28:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[apache-superset] Apache Superset Improper Authorization allows low-privileged users to bypass access controls",
+      "url": "https://github.com/advisories/GHSA-3m2g-v7jf-7fxc",
+      "date": "2026-02-26T15:28:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-superset] Apache Superset allows privileged users to conduct error-based SQL Injection",
+      "url": "https://github.com/advisories/GHSA-gvxg-9hqx-f4rg",
+      "date": "2026-02-26T15:28:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-superset] Apache Superset: Incomplete DISALLOWED_SQL_FUNCTIONS default list for ClickHouse engine",
+      "url": "https://github.com/advisories/GHSA-48m2-v2r8-h23m",
+      "date": "2026-02-26T15:28:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[terriajs-server] TerriaJS-Server has a domain validation bypass vulnerability in its proxy allowlist",
+      "url": "https://github.com/advisories/GHSA-w789-49fc-v8hr",
+      "date": "2026-02-26T15:22:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[psd-tools] psd-tools: Compression module has unguarded zlib decompression, missing dimension validation, and hardening gaps",
+      "url": "https://github.com/advisories/GHSA-24p2-j2jr-386w",
+      "date": "2026-02-26T15:20:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp-server-git] mcp-server-git : Path traversal in git_add allows staging files outside repository boundaries",
+      "url": "https://github.com/advisories/GHSA-vjqx-cfc4-9h6v",
+      "date": "2026-02-26T15:16:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[storybook] Storybook Dev Server is Vulnerable to WebSocket Hijacking",
+      "url": "https://github.com/advisories/GHSA-mjf5-7g4m-gx5w",
+      "date": "2026-02-26T15:16:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[storybook] Storybook Dev Server is Vulnerable to WebSocket Hijacking",
+      "url": "https://github.com/advisories/GHSA-mjf5-7g4m-gx5w",
+      "date": "2026-02-26T15:16:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[storybook] Storybook Dev Server is Vulnerable to WebSocket Hijacking",
+      "url": "https://github.com/advisories/GHSA-mjf5-7g4m-gx5w",
+      "date": "2026-02-26T15:16:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2025-0153: Unsoundness in hexchat",
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0153.html",
@@ -34,111 +139,6 @@
       "date": "2026-02-25T22:59:14.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[yapi-vendor] yapi disables TLS/SSL certificate validation via rejectUnauthorized: false in Axios HTTPS agent",
-      "url": "https://github.com/advisories/GHSA-663h-2vr3-ghrj",
-      "date": "2026-02-25T22:46:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nguniversal/express-engine] Angular SSR is vulnerable to SSRF and Header Injection via request handling pipeline",
-      "url": "https://github.com/advisories/GHSA-x288-3778-4hhx",
-      "date": "2026-02-25T22:42:37.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@nguniversal/common] Angular SSR is vulnerable to SSRF and Header Injection via request handling pipeline",
-      "url": "https://github.com/advisories/GHSA-x288-3778-4hhx",
-      "date": "2026-02-25T22:42:37.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR is vulnerable to SSRF and Header Injection via request handling pipeline",
-      "url": "https://github.com/advisories/GHSA-x288-3778-4hhx",
-      "date": "2026-02-25T22:42:37.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR is vulnerable to SSRF and Header Injection via request handling pipeline",
-      "url": "https://github.com/advisories/GHSA-x288-3778-4hhx",
-      "date": "2026-02-25T22:42:37.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR is vulnerable to SSRF and Header Injection via request handling pipeline",
-      "url": "https://github.com/advisories/GHSA-x288-3778-4hhx",
-      "date": "2026-02-25T22:42:37.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR is vulnerable to SSRF and Header Injection via request handling pipeline",
-      "url": "https://github.com/advisories/GHSA-x288-3778-4hhx",
-      "date": "2026-02-25T22:42:37.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR has an Open Redirect via X-Forwarded-Prefix",
-      "url": "https://github.com/advisories/GHSA-xh43-g2fq-wjrj",
-      "date": "2026-02-25T22:41:58.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR has an Open Redirect via X-Forwarded-Prefix",
-      "url": "https://github.com/advisories/GHSA-xh43-g2fq-wjrj",
-      "date": "2026-02-25T22:41:58.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR has an Open Redirect via X-Forwarded-Prefix",
-      "url": "https://github.com/advisories/GHSA-xh43-g2fq-wjrj",
-      "date": "2026-02-25T22:41:58.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR has an Open Redirect via X-Forwarded-Prefix",
-      "url": "https://github.com/advisories/GHSA-xh43-g2fq-wjrj",
-      "date": "2026-02-25T22:41:58.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[rollup] Rollup 4 has Arbitrary File Write via Path Traversal",
-      "url": "https://github.com/advisories/GHSA-mw96-cpmx-2vgc",
-      "date": "2026-02-25T22:37:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[rollup] Rollup 4 has Arbitrary File Write via Path Traversal",
-      "url": "https://github.com/advisories/GHSA-mw96-cpmx-2vgc",
-      "date": "2026-02-25T22:37:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[rollup] Rollup 4 has Arbitrary File Write via Path Traversal",
-      "url": "https://github.com/advisories/GHSA-mw96-cpmx-2vgc",
-      "date": "2026-02-25T22:37:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[basic-ftp] Basic FTP has Path Traversal Vulnerability in its downloadToDir() method",
-      "url": "https://github.com/advisories/GHSA-5rq4-664w-9x2c",
-      "date": "2026-02-25T22:34:27.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
