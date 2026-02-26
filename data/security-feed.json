@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-02-26T19:22:25.973Z",
+  "fetchedAt": "2026-02-26T20:17:12.367Z",
   "entries": [
+    {
+      "title": "[pypdf] pypdf: Manipulated FlateDecode XFA streams can exhaust RAM",
+      "url": "https://github.com/advisories/GHSA-x7hp-r3qg-r3cj",
+      "date": "2026-02-26T19:55:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dottie] dottie is vulnerable to Prototype Pollution bypass via non-first path segments in set() and transform()",
+      "url": "https://github.com/advisories/GHSA-r5mx-6wc6-7h9w",
+      "date": "2026-02-26T19:54:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[weblate] Weblate: Missing access control for the AddonViewSet API exposes all addon configurations",
+      "url": "https://github.com/advisories/GHSA-wppc-7cq7-cgfv",
+      "date": "2026-02-26T19:45:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[n8n] n8n: Webhook Forgery on Github Webhook Trigger",
       "url": "https://github.com/advisories/GHSA-mqpr-49jj-32rc",
@@ -118,27 +139,6 @@
       "date": "2026-02-25T23:00:50.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[parse-server] Parse Server: Account takeover via JWT algorithm confusion in Google auth adapter",
-      "url": "https://github.com/advisories/GHSA-4q3h-vp4r-prv2",
-      "date": "2026-02-25T23:00:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@langchain/community] LangChain Community: redirect chaining can lead to SSRF bypass via RecursiveUrlLoader",
-      "url": "https://github.com/advisories/GHSA-mphv-75cg-56wg",
-      "date": "2026-02-25T22:59:49.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langgraph-checkpoint] LangGraph: BaseCache Deserialization of Untrusted Data may lead to Remote Code Execution",
-      "url": "https://github.com/advisories/GHSA-mhr3-j7m5-c7c9",
-      "date": "2026-02-25T22:59:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
