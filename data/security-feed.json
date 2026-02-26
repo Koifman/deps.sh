@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-02-26T21:16:52.631Z",
+  "fetchedAt": "2026-02-26T22:14:54.987Z",
   "entries": [
+    {
+      "title": "[bootstrap-multiselect] Bootstrap Multiselect Vulnerable to CSRF and Reflective XSS via Arbitrary POST Data",
+      "url": "https://github.com/advisories/GHSA-gv5r-9gxr-v74w",
+      "date": "2026-02-26T21:59:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[pypdf] pypdf: Manipulated FlateDecode XFA streams can exhaust RAM",
       "url": "https://github.com/advisories/GHSA-x7hp-r3qg-r3cj",
@@ -130,12 +137,6 @@
     {
       "title": "RUSTSEC-2026-0027: Vulnerability in tracings",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0027.html",
-      "date": "2026-02-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0028: Vulnerability in tracing_checks",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0028.html",
       "date": "2026-02-26T12:00:00+00:00",
       "ecosystem": "cargo"
     }
