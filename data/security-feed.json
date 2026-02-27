@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-02-27T09:21:17.910Z",
+  "fetchedAt": "2026-02-27T10:18:55.768Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0029: Unsoundness in hivex",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0029.html",
+      "date": "2026-02-27T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[richie] OpenFUN Richie Observable Timing Discrepancy in its sync_course_run_from_request function",
       "url": "https://github.com/advisories/GHSA-xjhr-fm27-4hmx",
@@ -119,13 +125,6 @@
       "date": "2026-02-26T22:13:15.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[minimatch] minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
-      "url": "https://github.com/advisories/GHSA-7r86-cg39-jmmj",
-      "date": "2026-02-26T22:10:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     },
     {
       "title": "[minimatch] minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
