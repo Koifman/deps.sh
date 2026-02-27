@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-02-27T22:09:26.775Z",
+  "fetchedAt": "2026-02-27T23:11:28.792Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw ACP client has permission auto-approval bypass via untrusted tool metadata",
+      "url": "https://github.com/advisories/GHSA-7jx5-9fjg-hp4m",
+      "date": "2026-02-27T22:08:37.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[wger] wger: IDOR in nutritional_values endpoints exposes private dietary data via direct ORM lookup",
       "url": "https://github.com/advisories/GHSA-g8gc-6c4h-jg86",
@@ -133,12 +140,6 @@
       "date": "2026-02-27T15:47:29.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0029: Unsoundness in hivex",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0029.html",
-      "date": "2026-02-27T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
