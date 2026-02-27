@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-02-27T16:18:04.198Z",
+  "fetchedAt": "2026-02-27T17:16:55.046Z",
   "entries": [
+    {
+      "title": "[fast-xml-parser] fast-xml-parser has an entity encoding bypass via regex injection in DOCTYPE entity names",
+      "url": "https://github.com/advisories/GHSA-m7jm-9gc2-mpf2",
+      "date": "2026-02-27T16:51:59.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser has an entity encoding bypass via regex injection in DOCTYPE entity names",
+      "url": "https://github.com/advisories/GHSA-m7jm-9gc2-mpf2",
+      "date": "2026-02-27T16:51:59.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser affected by DoS through entity expansion in DOCTYPE (no expansion limit)",
+      "url": "https://github.com/advisories/GHSA-jmr7-xgp7-cmfj",
+      "date": "2026-02-27T16:50:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser affected by DoS through entity expansion in DOCTYPE (no expansion limit)",
+      "url": "https://github.com/advisories/GHSA-jmr7-xgp7-cmfj",
+      "date": "2026-02-27T16:50:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[browserstack-local] BrowserStack Local vulnerable to Command Injection through logfile variable",
+      "url": "https://github.com/advisories/GHSA-g4w6-c99w-4wh7",
+      "date": "2026-02-27T16:40:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[awscli] AWS CLI: cli_history database does not restrict file permissions on Unix systems",
       "url": "https://github.com/advisories/GHSA-747p-wmpv-9c78",
@@ -104,41 +139,6 @@
       "date": "2026-02-26T22:33:12.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[svelte] Svelte: XSS via HTML Comment Injection in SSR Error Boundary Hydration Markers",
-      "url": "https://github.com/advisories/GHSA-qgvg-pr8v-6rr3",
-      "date": "2026-02-26T22:25:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[svelte] Svelte vulnerable to XSS during SSR with contenteditable `bind:innerText` and `bind:textContent`",
-      "url": "https://github.com/advisories/GHSA-phwv-c562-gvmh",
-      "date": "2026-02-26T22:24:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wger] wger: IDOR in nutritional_values endpoints exposes private dietary data via direct ORM lookup",
-      "url": "https://github.com/advisories/GHSA-g8gc-6c4h-jg86",
-      "date": "2026-02-26T22:15:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wger] wger: IDOR via user-unscoped cache keys on routine API actions exposes workout data",
-      "url": "https://github.com/advisories/GHSA-42cr-w2gr-m54q",
-      "date": "2026-02-26T22:15:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[wger] wger: IDOR in RepetitionsConfig and MaxRepetitionsConfig API leak other users' workout data",
-      "url": "https://github.com/advisories/GHSA-xf68-8hjw-7mpm",
-      "date": "2026-02-26T22:13:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
