@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-02-27T19:18:58.921Z",
+  "fetchedAt": "2026-02-27T20:13:09.925Z",
   "entries": [
+    {
+      "title": "[@actual-app/sync-server] @actual-app/sync-server: Missing authorization in sync endpoints allows cross-user budget file access in multi-user mode",
+      "url": "https://github.com/advisories/GHSA-qmjj-p7m9-wjrv",
+      "date": "2026-02-27T19:29:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@angular/core] Angular i18n vulnerable to Cross-Site Scripting",
       "url": "https://github.com/advisories/GHSA-prjf-86w9-mfqv",
@@ -116,13 +123,6 @@
       "title": "[n8n] n8n has a Guardrail Node Bypass",
       "url": "https://github.com/advisories/GHSA-fvfv-ppw4-7h2w",
       "date": "2026-02-26T22:46:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has an Authentication Bypass in its Chat Trigger Node",
-      "url": "https://github.com/advisories/GHSA-jh8h-6c9q-7gmw",
-      "date": "2026-02-26T22:45:43.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
