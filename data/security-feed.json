@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-02-27T21:12:38.902Z",
+  "fetchedAt": "2026-02-27T22:09:26.775Z",
   "entries": [
+    {
+      "title": "[wger] wger: IDOR in nutritional_values endpoints exposes private dietary data via direct ORM lookup",
+      "url": "https://github.com/advisories/GHSA-g8gc-6c4h-jg86",
+      "date": "2026-02-27T21:59:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wger] wger: IDOR via user-unscoped cache keys on routine API actions exposes workout data",
+      "url": "https://github.com/advisories/GHSA-42cr-w2gr-m54q",
+      "date": "2026-02-27T21:59:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[wger] wger: IDOR in RepetitionsConfig and MaxRepetitionsConfig API leak other users' workout data",
+      "url": "https://github.com/advisories/GHSA-xf68-8hjw-7mpm",
+      "date": "2026-02-27T21:59:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[weblate] Weblate: Missing access control for the AddonViewSet API exposes all addon configurations",
+      "url": "https://github.com/advisories/GHSA-wppc-7cq7-cgfv",
+      "date": "2026-02-27T21:59:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rucio-webui] Rucio WebUI has a Stored Cross-site Scripting (XSS) Vulnerability in its Custom RSE Attribute",
+      "url": "https://github.com/advisories/GHSA-fq4f-4738-rqxm",
+      "date": "2026-02-27T21:50:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Skill env override host env injection via applySkillConfigEnvOverrides (defense-in-depth)",
+      "url": "https://github.com/advisories/GHSA-82g8-464f-2mv7",
+      "date": "2026-02-27T21:36:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@actual-app/sync-server] @actual-app/sync-server: Missing authorization in sync endpoints allows cross-user budget file access in multi-user mode",
       "url": "https://github.com/advisories/GHSA-qmjj-p7m9-wjrv",
@@ -97,48 +139,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0029.html",
       "date": "2026-02-27T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[richie] OpenFUN Richie Observable Timing Discrepancy in its sync_course_run_from_request function",
-      "url": "https://github.com/advisories/GHSA-xjhr-fm27-4hmx",
-      "date": "2026-02-26T22:50:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has Webhook Forgery on Zendesk Trigger Node",
-      "url": "https://github.com/advisories/GHSA-38c7-23hj-2wgq",
-      "date": "2026-02-26T22:47:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has Webhook Forgery on Zendesk Trigger Node",
-      "url": "https://github.com/advisories/GHSA-38c7-23hj-2wgq",
-      "date": "2026-02-26T22:47:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has a Guardrail Node Bypass",
-      "url": "https://github.com/advisories/GHSA-fvfv-ppw4-7h2w",
-      "date": "2026-02-26T22:46:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has an Authentication Bypass in its Chat Trigger Node",
-      "url": "https://github.com/advisories/GHSA-jh8h-6c9q-7gmw",
-      "date": "2026-02-26T22:45:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has an Authentication Bypass in its Chat Trigger Node",
-      "url": "https://github.com/advisories/GHSA-jh8h-6c9q-7gmw",
-      "date": "2026-02-26T22:45:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
