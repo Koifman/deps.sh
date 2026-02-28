@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-02-28T02:55:55.171Z",
+  "fetchedAt": "2026-02-28T03:42:40.314Z",
   "entries": [
+    {
+      "title": "[serialize-javascript] Serialize JavaScript is Vulnerable to RCE via RegExp.flags and Date.prototype.toISOString()",
+      "url": "https://github.com/advisories/GHSA-5c6j-r48x-rmvq",
+      "date": "2026-02-28T02:50:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@fastify/middie] @fastify/middie has Improper Path Normalization when Using Path-Scoped Middleware",
+      "url": "https://github.com/advisories/GHSA-8p85-9qpw-fwgw",
+      "date": "2026-02-28T02:47:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pypdf] pypdf: Manipulated RunLengthDecode streams can exhaust RAM",
+      "url": "https://github.com/advisories/GHSA-f2v5-7jq9-h8cg",
+      "date": "2026-02-28T02:46:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[vitrage] OpenStack Vitrage: Unauthorized Access to the Host can Lead to Eval Injection",
       "url": "https://github.com/advisories/GHSA-8xwf-cr4r-856r",
@@ -119,27 +140,6 @@
       "date": "2026-02-27T18:33:17.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/core] Angular i18n vulnerable to Cross-Site Scripting",
-      "url": "https://github.com/advisories/GHSA-prjf-86w9-mfqv",
-      "date": "2026-02-27T18:33:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-xml-parser] fast-xml-parser has an entity encoding bypass via regex injection in DOCTYPE entity names",
-      "url": "https://github.com/advisories/GHSA-m7jm-9gc2-mpf2",
-      "date": "2026-02-27T16:51:59.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[fast-xml-parser] fast-xml-parser has an entity encoding bypass via regex injection in DOCTYPE entity names",
-      "url": "https://github.com/advisories/GHSA-m7jm-9gc2-mpf2",
-      "date": "2026-02-27T16:51:59.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
