@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-02-28T01:38:46.158Z",
+  "fetchedAt": "2026-02-28T02:55:55.171Z",
   "entries": [
+    {
+      "title": "[vitrage] OpenStack Vitrage: Unauthorized Access to the Host can Lead to Eval Injection",
+      "url": "https://github.com/advisories/GHSA-8xwf-cr4r-856r",
+      "date": "2026-02-28T02:24:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vitrage] OpenStack Vitrage: Unauthorized Access to the Host can Lead to Eval Injection",
+      "url": "https://github.com/advisories/GHSA-8xwf-cr4r-856r",
+      "date": "2026-02-28T02:24:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vitrage] OpenStack Vitrage: Unauthorized Access to the Host can Lead to Eval Injection",
+      "url": "https://github.com/advisories/GHSA-8xwf-cr4r-856r",
+      "date": "2026-02-28T02:24:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vitrage] OpenStack Vitrage: Unauthorized Access to the Host can Lead to Eval Injection",
+      "url": "https://github.com/advisories/GHSA-8xwf-cr4r-856r",
+      "date": "2026-02-28T02:24:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] OpenClaw is vulnerable to validation bypass through GNU long-option abbreviations in allowlist mode",
+      "url": "https://github.com/advisories/GHSA-7977-c43c-xpwj",
+      "date": "2026-02-28T02:17:26.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@sveltejs/kit] SvelteKit  has deserialization expansion in unvalidated `form` remote function leading to Denial of Service (experimental only)",
+      "url": "https://github.com/advisories/GHSA-fpg4-jhqr-589c",
+      "date": "2026-02-28T02:04:40.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[openclaw] OpenClaw ACP client has permission auto-approval bypass via untrusted tool metadata",
       "url": "https://github.com/advisories/GHSA-7jx5-9fjg-hp4m",
@@ -33,13 +75,6 @@
       "title": "[weblate] Weblate: Missing access control for the AddonViewSet API exposes all addon configurations",
       "url": "https://github.com/advisories/GHSA-wppc-7cq7-cgfv",
       "date": "2026-02-27T21:59:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[rucio-webui] Rucio WebUI has a Stored Cross-site Scripting (XSS) Vulnerability in its Custom RSE Attribute",
-      "url": "https://github.com/advisories/GHSA-fq4f-4738-rqxm",
-      "date": "2026-02-27T21:50:32.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
@@ -104,41 +139,6 @@
       "url": "https://github.com/advisories/GHSA-m7jm-9gc2-mpf2",
       "date": "2026-02-27T16:51:59.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[fast-xml-parser] fast-xml-parser affected by DoS through entity expansion in DOCTYPE (no expansion limit)",
-      "url": "https://github.com/advisories/GHSA-jmr7-xgp7-cmfj",
-      "date": "2026-02-27T16:50:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-xml-parser] fast-xml-parser affected by DoS through entity expansion in DOCTYPE (no expansion limit)",
-      "url": "https://github.com/advisories/GHSA-jmr7-xgp7-cmfj",
-      "date": "2026-02-27T16:50:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[browserstack-local] BrowserStack Local vulnerable to Command Injection through logfile variable",
-      "url": "https://github.com/advisories/GHSA-g4w6-c99w-4wh7",
-      "date": "2026-02-27T16:40:19.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[awscli] AWS CLI: cli_history database does not restrict file permissions on Unix systems",
-      "url": "https://github.com/advisories/GHSA-747p-wmpv-9c78",
-      "date": "2026-02-27T15:50:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langflow] Langflow has Remote Code Execution in CSV Agent",
-      "url": "https://github.com/advisories/GHSA-3645-fxcv-hqr4",
-      "date": "2026-02-27T15:47:29.000Z",
-      "ecosystem": "pypi",
       "severity": "CRITICAL"
     }
   ]
