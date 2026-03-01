@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-03-01T00:51:47.140Z",
+  "fetchedAt": "2026-03-01T01:40:08.214Z",
   "entries": [
+    {
+      "title": "[gradio] Gradio has SSRF via Malicious `proxy_url` Injection in `gr.load()` Config Processing",
+      "url": "https://github.com/advisories/GHSA-jmh7-g254-2cq9",
+      "date": "2026-03-01T01:29:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[gradio] Gradio has an Open Redirect in its OAuth Flow",
+      "url": "https://github.com/advisories/GHSA-pfjf-5gxr-995x",
+      "date": "2026-03-01T01:29:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[gradio] Gradio is Vulnerable to Absolute Path Traversal on Windows with Python 3.13+",
+      "url": "https://github.com/advisories/GHSA-39mp-8hj3-5c49",
+      "date": "2026-03-01T01:28:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[clevertap-web-sdk] CleverTap Web SDK is vulnerable to DOM-based Cross-Site Scripting (XSS) via window.postMessage",
+      "url": "https://github.com/advisories/GHSA-jfrq-hj9f-c8qx",
+      "date": "2026-03-01T01:26:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[clevertap-web-sdk] CleverTap Web SDK  is vulnerable to DOM-based XSS via handleCustomHtmlPreviewPostMessageEvent function",
+      "url": "https://github.com/advisories/GHSA-j5mf-6rh3-rhgg",
+      "date": "2026-03-01T01:26:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[indico] Indico has a missing access check in the event series management API",
+      "url": "https://github.com/advisories/GHSA-rfpp-2hgm-gp5v",
+      "date": "2026-03-01T01:24:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[multer] Multer vulnerable to Denial of Service via resource exhaustion",
+      "url": "https://github.com/advisories/GHSA-v52c-386h-88mc",
+      "date": "2026-03-01T01:19:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[multer] Multer vulnerable to Denial of Service via incomplete cleanup",
+      "url": "https://github.com/advisories/GHSA-xf7r-hgr6-v32p",
+      "date": "2026-03-01T01:18:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[gradio] Gradio: Mocked OAuth Login Exposes Server Credentials and Uses Hardcoded Session Secret",
+      "url": "https://github.com/advisories/GHSA-h3h8-3v2v-rg7m",
+      "date": "2026-03-01T01:00:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[serialize-javascript] Serialize JavaScript is Vulnerable to RCE via RegExp.flags and Date.prototype.toISOString()",
       "url": "https://github.com/advisories/GHSA-5c6j-r48x-rmvq",
@@ -77,69 +140,6 @@
       "date": "2026-02-27T21:59:56.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[wger] wger: IDOR via user-unscoped cache keys on routine API actions exposes workout data",
-      "url": "https://github.com/advisories/GHSA-42cr-w2gr-m54q",
-      "date": "2026-02-27T21:59:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[wger] wger: IDOR in RepetitionsConfig and MaxRepetitionsConfig API leak other users' workout data",
-      "url": "https://github.com/advisories/GHSA-xf68-8hjw-7mpm",
-      "date": "2026-02-27T21:59:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[weblate] Weblate: Missing access control for the AddonViewSet API exposes all addon configurations",
-      "url": "https://github.com/advisories/GHSA-wppc-7cq7-cgfv",
-      "date": "2026-02-27T21:59:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Skill env override host env injection via applySkillConfigEnvOverrides (defense-in-depth)",
-      "url": "https://github.com/advisories/GHSA-82g8-464f-2mv7",
-      "date": "2026-02-27T21:36:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@actual-app/sync-server] @actual-app/sync-server: Missing authorization in sync endpoints allows cross-user budget file access in multi-user mode",
-      "url": "https://github.com/advisories/GHSA-qmjj-p7m9-wjrv",
-      "date": "2026-02-27T19:29:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/core] Angular i18n vulnerable to Cross-Site Scripting",
-      "url": "https://github.com/advisories/GHSA-prjf-86w9-mfqv",
-      "date": "2026-02-27T18:33:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/core] Angular i18n vulnerable to Cross-Site Scripting",
-      "url": "https://github.com/advisories/GHSA-prjf-86w9-mfqv",
-      "date": "2026-02-27T18:33:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/core] Angular i18n vulnerable to Cross-Site Scripting",
-      "url": "https://github.com/advisories/GHSA-prjf-86w9-mfqv",
-      "date": "2026-02-27T18:33:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/core] Angular i18n vulnerable to Cross-Site Scripting",
-      "url": "https://github.com/advisories/GHSA-prjf-86w9-mfqv",
-      "date": "2026-02-27T18:33:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
