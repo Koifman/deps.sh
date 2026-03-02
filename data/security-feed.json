@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-03-02T14:23:04.395Z",
+  "fetchedAt": "2026-03-02T15:21:22.596Z",
   "entries": [
+    {
+      "title": "[fast-xml-parser] fast-xml-parser has stack overflow in XMLBuilder with preserveOrder",
+      "url": "https://github.com/advisories/GHSA-fj3w-jwp8-x2g3",
+      "date": "2026-03-02T15:10:06.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser has stack overflow in XMLBuilder with preserveOrder",
+      "url": "https://github.com/advisories/GHSA-fj3w-jwp8-x2g3",
+      "date": "2026-03-02T15:10:06.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@nestjs/platform-fastify] Nest has a Fastify URL Encoding Middleware Bypass",
+      "url": "https://github.com/advisories/GHSA-r4wm-x892-vjmx",
+      "date": "2026-03-02T14:34:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nestjs/platform-fastify] Duplicate Advisory: Nest has a Fastify URL Encoding Middleware Bypass",
+      "url": "https://github.com/advisories/GHSA-7q64-3rg2-h9pf",
+      "date": "2026-03-02T14:34:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0029: Unsoundness in hivex",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0029.html",
@@ -111,34 +139,6 @@
       "date": "2026-02-28T02:24:33.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[vitrage] OpenStack Vitrage: Unauthorized Access to the Host can Lead to Eval Injection",
-      "url": "https://github.com/advisories/GHSA-8xwf-cr4r-856r",
-      "date": "2026-02-28T02:24:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw is vulnerable to validation bypass through GNU long-option abbreviations in allowlist mode",
-      "url": "https://github.com/advisories/GHSA-7977-c43c-xpwj",
-      "date": "2026-02-28T02:17:26.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@sveltejs/kit] SvelteKit  has deserialization expansion in unvalidated `form` remote function leading to Denial of Service (experimental only)",
-      "url": "https://github.com/advisories/GHSA-fpg4-jhqr-589c",
-      "date": "2026-02-28T02:04:40.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw ACP client has permission auto-approval bypass via untrusted tool metadata",
-      "url": "https://github.com/advisories/GHSA-7jx5-9fjg-hp4m",
-      "date": "2026-02-27T22:08:37.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
