@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-03-02T20:15:22.547Z",
+  "fetchedAt": "2026-03-02T21:16:17.077Z",
   "entries": [
+    {
+      "title": "[cocoindex] CocoIndex Doris target connector didn't verify table name when constructing ALTER TABLE statements",
+      "url": "https://github.com/advisories/GHSA-59g6-v3vg-f7wc",
+      "date": "2026-03-02T20:27:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Products.isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
+      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
+      "date": "2026-03-02T20:14:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[Products.isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
+      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
+      "date": "2026-03-02T20:14:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[Products.isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
+      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
+      "date": "2026-03-02T20:14:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[nocodb] NocoDB Missing Ownership Validation in MCP Token Operations",
       "url": "https://github.com/advisories/GHSA-p9x3-w98f-7j3q",
@@ -112,33 +140,6 @@
       "date": "2026-03-02T15:10:06.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[@nestjs/platform-fastify] Nest has a Fastify URL Encoding Middleware Bypass",
-      "url": "https://github.com/advisories/GHSA-r4wm-x892-vjmx",
-      "date": "2026-03-02T14:34:14.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nestjs/platform-fastify] Duplicate Advisory: Nest has a Fastify URL Encoding Middleware Bypass",
-      "url": "https://github.com/advisories/GHSA-7q64-3rg2-h9pf",
-      "date": "2026-03-02T14:34:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0029: Unsoundness in hivex",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0029.html",
-      "date": "2026-03-01T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[gradio] Gradio has SSRF via Malicious `proxy_url` Injection in `gr.load()` Config Processing",
-      "url": "https://github.com/advisories/GHSA-jmh7-g254-2cq9",
-      "date": "2026-03-01T01:29:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
