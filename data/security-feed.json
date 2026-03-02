@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-03-02T19:20:55.377Z",
+  "fetchedAt": "2026-03-02T20:15:22.547Z",
   "entries": [
+    {
+      "title": "[nocodb] NocoDB Missing Ownership Validation in MCP Token Operations",
+      "url": "https://github.com/advisories/GHSA-p9x3-w98f-7j3q",
+      "date": "2026-03-02T19:53:43.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB's Refresh Tokens Not Revoked on Password Reset",
+      "url": "https://github.com/advisories/GHSA-x4vh-j75g-268g",
+      "date": "2026-03-02T19:53:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB has Plaintext Storage of Shared View Passwords",
+      "url": "https://github.com/advisories/GHSA-mpp2-x7wv-38hv",
+      "date": "2026-03-02T19:52:58.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[nocodb] NocoDB Vulnerable to Stored Cross-site Scripting via Rich Text Field",
+      "url": "https://github.com/advisories/GHSA-qxwq-q265-hc44",
+      "date": "2026-03-02T19:51:55.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB Vulnerable to User Enumeration via Password Reset Endpoint",
+      "url": "https://github.com/advisories/GHSA-387m-j3p9-3php",
+      "date": "2026-03-02T19:42:08.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[nocodb] NocoDB has Stored Cross-site Scripting via Formula Cell",
+      "url": "https://github.com/advisories/GHSA-vx5p-q85x-xm3c",
+      "date": "2026-03-02T19:36:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lxml-html-clean] lxml-html-clean has <base> tag injection through default Cleaner configuration",
+      "url": "https://github.com/advisories/GHSA-xvp8-3mhv-424c",
+      "date": "2026-03-02T19:35:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lxml-html-clean] lxml-html-clean has CSS @import Filter Bypass via Unicode Escapes",
+      "url": "https://github.com/advisories/GHSA-hw26-mmpg-fqfg",
+      "date": "2026-03-02T19:19:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[joserfc] joserfc's PBES2 p2c Unbounded Iteration Count enables Denial of Service (DoS)",
       "url": "https://github.com/advisories/GHSA-w5r5-m38g-f9f9",
@@ -28,13 +84,6 @@
       "date": "2026-03-02T18:30:21.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Skill env override host env injection via applySkillConfigEnvOverrides (defense-in-depth)",
-      "url": "https://github.com/advisories/GHSA-82g8-464f-2mv7",
-      "date": "2026-03-02T17:17:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     },
     {
       "title": "[next] Authorization Bypass in Next.js Middleware",
@@ -89,55 +138,6 @@
       "url": "https://github.com/advisories/GHSA-jmh7-g254-2cq9",
       "date": "2026-03-01T01:29:34.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[gradio] Gradio has an Open Redirect in its OAuth Flow",
-      "url": "https://github.com/advisories/GHSA-pfjf-5gxr-995x",
-      "date": "2026-03-01T01:29:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[gradio] Gradio is Vulnerable to Absolute Path Traversal on Windows with Python 3.13+",
-      "url": "https://github.com/advisories/GHSA-39mp-8hj3-5c49",
-      "date": "2026-03-01T01:28:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[clevertap-web-sdk] CleverTap Web SDK is vulnerable to DOM-based Cross-Site Scripting (XSS) via window.postMessage",
-      "url": "https://github.com/advisories/GHSA-jfrq-hj9f-c8qx",
-      "date": "2026-03-01T01:26:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[clevertap-web-sdk] CleverTap Web SDK  is vulnerable to DOM-based XSS via handleCustomHtmlPreviewPostMessageEvent function",
-      "url": "https://github.com/advisories/GHSA-j5mf-6rh3-rhgg",
-      "date": "2026-03-01T01:26:28.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[indico] Indico has a missing access check in the event series management API",
-      "url": "https://github.com/advisories/GHSA-rfpp-2hgm-gp5v",
-      "date": "2026-03-01T01:24:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[multer] Multer vulnerable to Denial of Service via resource exhaustion",
-      "url": "https://github.com/advisories/GHSA-v52c-386h-88mc",
-      "date": "2026-03-01T01:19:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[multer] Multer vulnerable to Denial of Service via incomplete cleanup",
-      "url": "https://github.com/advisories/GHSA-xf7r-hgr6-v32p",
-      "date": "2026-03-01T01:18:51.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
