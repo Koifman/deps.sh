@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-03-02T18:22:08.434Z",
+  "fetchedAt": "2026-03-02T19:20:55.377Z",
   "entries": [
+    {
+      "title": "[joserfc] joserfc's PBES2 p2c Unbounded Iteration Count enables Denial of Service (DoS)",
+      "url": "https://github.com/advisories/GHSA-w5r5-m38g-f9f9",
+      "date": "2026-03-02T18:47:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[OpenEXR] OpenEXR's CompositeDeepScanLine integer-overflow leads to heap OOB write",
+      "url": "https://github.com/advisories/GHSA-cr4v-6jm6-4963",
+      "date": "2026-03-02T18:30:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[OpenEXR] OpenEXR's CompositeDeepScanLine integer-overflow leads to heap OOB write",
+      "url": "https://github.com/advisories/GHSA-cr4v-6jm6-4963",
+      "date": "2026-03-02T18:30:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[OpenEXR] OpenEXR's CompositeDeepScanLine integer-overflow leads to heap OOB write",
+      "url": "https://github.com/advisories/GHSA-cr4v-6jm6-4963",
+      "date": "2026-03-02T18:30:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[openclaw] OpenClaw: Skill env override host env injection via applySkillConfigEnvOverrides (defense-in-depth)",
       "url": "https://github.com/advisories/GHSA-82g8-464f-2mv7",
@@ -111,34 +139,6 @@
       "date": "2026-03-01T01:18:51.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[gradio] Gradio: Mocked OAuth Login Exposes Server Credentials and Uses Hardcoded Session Secret",
-      "url": "https://github.com/advisories/GHSA-h3h8-3v2v-rg7m",
-      "date": "2026-03-01T01:00:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@fastify/middie] @fastify/middie has Improper Path Normalization when Using Path-Scoped Middleware",
-      "url": "https://github.com/advisories/GHSA-8p85-9qpw-fwgw",
-      "date": "2026-02-28T02:47:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pypdf] pypdf: Manipulated RunLengthDecode streams can exhaust RAM",
-      "url": "https://github.com/advisories/GHSA-f2v5-7jq9-h8cg",
-      "date": "2026-02-28T02:46:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vitrage] OpenStack Vitrage: Unauthorized Access to the Host can Lead to Eval Injection",
-      "url": "https://github.com/advisories/GHSA-8xwf-cr4r-856r",
-      "date": "2026-02-28T02:24:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
