@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-03-02T22:12:42.707Z",
+  "fetchedAt": "2026-03-02T23:10:41.843Z",
   "entries": [
     {
-      "title": "[pypdf] pypdf vulnerable to inefficient decoding of ASCIIHexDecode streams",
-      "url": "https://github.com/advisories/GHSA-9m86-7pmv-2852",
-      "date": "2026-03-02T22:03:47.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] OpenClaw's sandbox skill mirroring path traversal vulnerability could write outside the sandbox workspace",
+      "url": "https://github.com/advisories/GHSA-xw4p-pw82-hqr7",
+      "date": "2026-03-02T22:51:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw has non-constant-time token comparison in hooks authentication",
+      "url": "https://github.com/advisories/GHSA-jmm5-fvh5-gf4p",
+      "date": "2026-03-02T22:43:36.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: system.run approvals did not bind PATH-token executable identity, enabling post-approval executable rebind",
-      "url": "https://github.com/advisories/GHSA-q399-23r3-hfx4",
-      "date": "2026-03-02T22:03:30.000Z",
+      "title": "[openclaw] OpenClaw: Config writes could persist resolved ${VAR} secrets to disk",
+      "url": "https://github.com/advisories/GHSA-47q7-97xp-m272",
+      "date": "2026-03-02T22:43:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw has Zip Slip path traversal in tar archive extraction",
+      "url": "https://github.com/advisories/GHSA-p25h-9q54-ffvw",
+      "date": "2026-03-02T22:40:57.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] OpenClaw has web_search citation redirect SSRF via private-network-allowing policy",
-      "url": "https://github.com/advisories/GHSA-g99v-8hwm-g76g",
-      "date": "2026-03-02T22:03:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw's authorization mismatch allowed write-scope agent runs to reach owner-only tools",
-      "url": "https://github.com/advisories/GHSA-jr6x-2q95-fh2g",
-      "date": "2026-03-02T21:59:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[cocoindex] CocoIndex Doris target connector didn't verify table name when constructing ALTER TABLE statements",
-      "url": "https://github.com/advisories/GHSA-59g6-v3vg-f7wc",
-      "date": "2026-03-02T21:58:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Sandbox media TOCTOU could read files outside sandbox root",
-      "url": "https://github.com/advisories/GHSA-7xmq-g46g-f8pv",
-      "date": "2026-03-02T21:55:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw's TOCTOU symlink race in writeFileWithinRoot could create or truncate files outside root boundaries",
-      "url": "https://github.com/advisories/GHSA-x82f-27x3-q89c",
-      "date": "2026-03-02T21:55:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] CpenClaw's ACPX Windows wrapper shell fallback allowed cwd injection in specific paths",
-      "url": "https://github.com/advisories/GHSA-6f6j-wx9w-ff4j",
-      "date": "2026-03-02T21:55:05.000Z",
+      "title": "[openclaw] OpenClaw gateway agents.files symlink escape allowed out-of-workspace file read/write",
+      "url": "https://github.com/advisories/GHSA-fgvx-58p6-gjwc",
+      "date": "2026-03-02T22:40:37.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[openclaw] OpenClaw has an unauthorized sender bypass in its stop triggers and /models command authorization",
-      "url": "https://github.com/advisories/GHSA-8m9v-xpgf-g99m",
-      "date": "2026-03-02T21:54:30.000Z",
+      "title": "[openclaw] OpenClaw Node system.run approval context-binding weakness in approval-enabled host=node flows",
+      "url": "https://github.com/advisories/GHSA-hjvp-qhm6-wrh2",
+      "date": "2026-03-02T22:40:15.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw's sandboxed sessions_spawn now enforces sandbox inheritance for cross-agent spawns",
-      "url": "https://github.com/advisories/GHSA-p7gr-f84w-hqg5",
-      "date": "2026-03-02T21:53:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has unbounded memory growth in Zalo webhook via query-string key churn (unauthenticated DoS)",
-      "url": "https://github.com/advisories/GHSA-wr6m-jg37-68xh",
-      "date": "2026-03-02T21:49:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Unicode canonicalization drift in node metadata policy classification could broaden node allowlists",
-      "url": "https://github.com/advisories/GHSA-392f-ggf5-fp3c",
-      "date": "2026-03-02T21:49:35.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Browser control startup could continue unauthenticated after auth bootstrap failure",
-      "url": "https://github.com/advisories/GHSA-vpj2-69hf-rppw",
-      "date": "2026-03-02T21:49:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openchatbi] OpenChatBI has a Path Traversal Vulnerability in save_report Tool",
-      "url": "https://github.com/advisories/GHSA-vmwq-8g8c-jm79",
-      "date": "2026-03-02T21:47:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@orpc/client] `@orpc/client` has Prototype Pollution via `StandardRPCJsonSerializer` Deserialization",
-      "url": "https://github.com/advisories/GHSA-m272-9rp6-32mc",
-      "date": "2026-03-02T21:43:04.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@builder.io/qwik] Qwik vulnerable to Unauthenticated RCE via server$ Deserialization",
-      "url": "https://github.com/advisories/GHSA-p9x5-jp3h-96mm",
-      "date": "2026-03-02T21:41:19.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@oneuptime/common] OneUptime has WebAuthn 2FA bypass: server accepts client-supplied challenge instead of server-stored value, allowing credential replay",
-      "url": "https://github.com/advisories/GHSA-gjjc-pcwp-c74m",
-      "date": "2026-03-02T21:40:59.000Z",
+      "title": "[@openclaw/voice-call] OpenClaw voice-call media stream validated streams after upgrade, which could allow pre-start unauthenticated sockets to increase resource pressure",
+      "url": "https://github.com/advisories/GHSA-mfg5-7q5g-f37j",
+      "date": "2026-03-02T22:39:45.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[Products.isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
-      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
-      "date": "2026-03-02T20:14:24.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] OpenClaw voice-call media stream validated streams after upgrade, which could allow pre-start unauthenticated sockets to increase resource pressure",
+      "url": "https://github.com/advisories/GHSA-mfg5-7q5g-f37j",
+      "date": "2026-03-02T22:39:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw's inbound media downloads could exceed configured byte limits before rejection across multiple channels",
+      "url": "https://github.com/advisories/GHSA-rxxp-482v-7mrh",
+      "date": "2026-03-02T22:32:56.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[Products.isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
-      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
-      "date": "2026-03-02T20:14:24.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] OpenClaw Canvas Path Traversal Information Disclosure Vulnerability",
+      "url": "https://github.com/advisories/GHSA-jq4x-98m3-ggq6",
+      "date": "2026-03-02T22:32:24.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw's exec allow-always can be bypassed via unrecognized multiplexer shell wrappers (busybox/toybox sh -c)",
+      "url": "https://github.com/advisories/GHSA-gwqp-86q6-w47g",
+      "date": "2026-03-02T22:30:44.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[Products.isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
-      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
-      "date": "2026-03-02T20:14:24.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] OpenClaw: Node exec approvals could be replayed across nodes",
+      "url": "https://github.com/advisories/GHSA-6x2m-hqfw-hvpj",
+      "date": "2026-03-02T22:29:46.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's allow-always wrapper persistence could bypass future approvals and enable command execution",
+      "url": "https://github.com/advisories/GHSA-6j27-pc5c-m8w8",
+      "date": "2026-03-02T22:20:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's Control UI Static File Handler Follows Symlinks and Allows Out-of-Root File Read",
+      "url": "https://github.com/advisories/GHSA-5ghc-98wh-gwwf",
+      "date": "2026-03-02T22:19:04.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw has browser trace/download path symlink escape in temp output handling",
+      "url": "https://github.com/advisories/GHSA-36h3-7c54-j27r",
+      "date": "2026-03-02T22:18:08.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw has ReDoS and regex injection via unescaped Feishu mention metadata in RegExp construction",
+      "url": "https://github.com/advisories/GHSA-c6hr-w26q-c636",
+      "date": "2026-03-02T22:17:33.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw macOS companion app (beta): allowlist parsing mismatch for system.run shell chains",
+      "url": "https://github.com/advisories/GHSA-5f9p-f3w2-fwch",
+      "date": "2026-03-02T22:17:03.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw has Windows system.run approval mismatch on cmd.exe /c trailing arguments",
+      "url": "https://github.com/advisories/GHSA-5v6x-rfc3-7qfr",
+      "date": "2026-03-02T22:15:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw has Signal group allowlist authorization bypass via DM pairing-store leakage",
+      "url": "https://github.com/advisories/GHSA-wm8r-w8pf-2v6w",
+      "date": "2026-03-02T22:14:56.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@keep-network/tbtc-v2] @keep-network/tbtc-v2 revealing P2PKH deposit with a wrapped P2SH script",
+      "url": "https://github.com/advisories/GHSA-8986-v76q-8vr2",
+      "date": "2026-03-02T22:09:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }

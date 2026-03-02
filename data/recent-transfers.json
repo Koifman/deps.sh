@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-02T22:15:48.199Z",
-  "count": 89,
+  "scannedAt": "2026-03-02T23:13:27.139Z",
+  "count": 90,
   "packages": [
     {
       "name": "xmldom",
@@ -64,6 +64,15 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "appium",
+      "version": "3.2.0",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "admc",
+      "currentOwner": "jlipps"
     },
     {
       "name": "terser",
@@ -714,15 +723,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-x64-musl",
-      "version": "0.116.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@fortawesome/react-fontawesome",
       "version": "3.2.0",
       "ecosystem": "npm",
@@ -730,6 +730,15 @@
       "level": "LOW",
       "previousOwner": "supercodepoet",
       "currentOwner": "lordofbacon"
+    },
+    {
+      "name": "@oxc-parser/binding-linux-x64-musl",
+      "version": "0.116.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "pe-library",
