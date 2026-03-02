@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-02T17:22:34.435Z",
+  "fetchedAt": "2026-03-02T18:22:08.434Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw: Skill env override host env injection via applySkillConfigEnvOverrides (defense-in-depth)",
+      "url": "https://github.com/advisories/GHSA-82g8-464f-2mv7",
+      "date": "2026-03-02T17:17:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[next] Authorization Bypass in Next.js Middleware",
       "url": "https://github.com/advisories/GHSA-f82v-jwr5-mffw",
@@ -125,13 +132,6 @@
       "date": "2026-02-28T02:46:13.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[vitrage] OpenStack Vitrage: Unauthorized Access to the Host can Lead to Eval Injection",
-      "url": "https://github.com/advisories/GHSA-8xwf-cr4r-856r",
-      "date": "2026-02-28T02:24:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     },
     {
       "title": "[vitrage] OpenStack Vitrage: Unauthorized Access to the Host can Lead to Eval Injection",
