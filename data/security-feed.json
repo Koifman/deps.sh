@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-03-02T21:16:17.077Z",
+  "fetchedAt": "2026-03-02T22:12:42.707Z",
   "entries": [
+    {
+      "title": "[pypdf] pypdf vulnerable to inefficient decoding of ASCIIHexDecode streams",
+      "url": "https://github.com/advisories/GHSA-9m86-7pmv-2852",
+      "date": "2026-03-02T22:03:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: system.run approvals did not bind PATH-token executable identity, enabling post-approval executable rebind",
+      "url": "https://github.com/advisories/GHSA-q399-23r3-hfx4",
+      "date": "2026-03-02T22:03:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw has web_search citation redirect SSRF via private-network-allowing policy",
+      "url": "https://github.com/advisories/GHSA-g99v-8hwm-g76g",
+      "date": "2026-03-02T22:03:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw's authorization mismatch allowed write-scope agent runs to reach owner-only tools",
+      "url": "https://github.com/advisories/GHSA-jr6x-2q95-fh2g",
+      "date": "2026-03-02T21:59:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[cocoindex] CocoIndex Doris target connector didn't verify table name when constructing ALTER TABLE statements",
       "url": "https://github.com/advisories/GHSA-59g6-v3vg-f7wc",
-      "date": "2026-03-02T20:27:50.000Z",
+      "date": "2026-03-02T21:58:01.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[Products.isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
-      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
-      "date": "2026-03-02T20:14:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Products.isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
-      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
-      "date": "2026-03-02T20:14:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Products.isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
-      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
-      "date": "2026-03-02T20:14:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB Missing Ownership Validation in MCP Token Operations",
-      "url": "https://github.com/advisories/GHSA-p9x3-w98f-7j3q",
-      "date": "2026-03-02T19:53:43.000Z",
+      "title": "[openclaw] OpenClaw: Sandbox media TOCTOU could read files outside sandbox root",
+      "url": "https://github.com/advisories/GHSA-7xmq-g46g-f8pv",
+      "date": "2026-03-02T21:55:51.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB's Refresh Tokens Not Revoked on Password Reset",
-      "url": "https://github.com/advisories/GHSA-x4vh-j75g-268g",
-      "date": "2026-03-02T19:53:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB has Plaintext Storage of Shared View Passwords",
-      "url": "https://github.com/advisories/GHSA-mpp2-x7wv-38hv",
-      "date": "2026-03-02T19:52:58.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[nocodb] NocoDB Vulnerable to Stored Cross-site Scripting via Rich Text Field",
-      "url": "https://github.com/advisories/GHSA-qxwq-q265-hc44",
-      "date": "2026-03-02T19:51:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB Vulnerable to User Enumeration via Password Reset Endpoint",
-      "url": "https://github.com/advisories/GHSA-387m-j3p9-3php",
-      "date": "2026-03-02T19:42:08.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[nocodb] NocoDB has Stored Cross-site Scripting via Formula Cell",
-      "url": "https://github.com/advisories/GHSA-vx5p-q85x-xm3c",
-      "date": "2026-03-02T19:36:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lxml-html-clean] lxml-html-clean has <base> tag injection through default Cleaner configuration",
-      "url": "https://github.com/advisories/GHSA-xvp8-3mhv-424c",
-      "date": "2026-03-02T19:35:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lxml-html-clean] lxml-html-clean has CSS @import Filter Bypass via Unicode Escapes",
-      "url": "https://github.com/advisories/GHSA-hw26-mmpg-fqfg",
-      "date": "2026-03-02T19:19:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[joserfc] joserfc's PBES2 p2c Unbounded Iteration Count enables Denial of Service (DoS)",
-      "url": "https://github.com/advisories/GHSA-w5r5-m38g-f9f9",
-      "date": "2026-03-02T18:47:38.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[OpenEXR] OpenEXR's CompositeDeepScanLine integer-overflow leads to heap OOB write",
-      "url": "https://github.com/advisories/GHSA-cr4v-6jm6-4963",
-      "date": "2026-03-02T18:30:21.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] OpenClaw's TOCTOU symlink race in writeFileWithinRoot could create or truncate files outside root boundaries",
+      "url": "https://github.com/advisories/GHSA-x82f-27x3-q89c",
+      "date": "2026-03-02T21:55:26.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[OpenEXR] OpenEXR's CompositeDeepScanLine integer-overflow leads to heap OOB write",
-      "url": "https://github.com/advisories/GHSA-cr4v-6jm6-4963",
-      "date": "2026-03-02T18:30:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[OpenEXR] OpenEXR's CompositeDeepScanLine integer-overflow leads to heap OOB write",
-      "url": "https://github.com/advisories/GHSA-cr4v-6jm6-4963",
-      "date": "2026-03-02T18:30:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Authorization Bypass in Next.js Middleware",
-      "url": "https://github.com/advisories/GHSA-f82v-jwr5-mffw",
-      "date": "2026-03-02T16:59:05.000Z",
+      "title": "[openclaw] CpenClaw's ACPX Windows wrapper shell fallback allowed cwd injection in specific paths",
+      "url": "https://github.com/advisories/GHSA-6f6j-wx9w-ff4j",
+      "date": "2026-03-02T21:55:05.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[serialize-javascript] Serialize JavaScript is Vulnerable to RCE via RegExp.flags and Date.prototype.toISOString()",
-      "url": "https://github.com/advisories/GHSA-5c6j-r48x-rmvq",
-      "date": "2026-03-02T16:17:37.000Z",
+      "title": "[openclaw] OpenClaw has an unauthorized sender bypass in its stop triggers and /models command authorization",
+      "url": "https://github.com/advisories/GHSA-8m9v-xpgf-g99m",
+      "date": "2026-03-02T21:54:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's sandboxed sessions_spawn now enforces sandbox inheritance for cross-agent spawns",
+      "url": "https://github.com/advisories/GHSA-p7gr-f84w-hqg5",
+      "date": "2026-03-02T21:53:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw has unbounded memory growth in Zalo webhook via query-string key churn (unauthenticated DoS)",
+      "url": "https://github.com/advisories/GHSA-wr6m-jg37-68xh",
+      "date": "2026-03-02T21:49:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Unicode canonicalization drift in node metadata policy classification could broaden node allowlists",
+      "url": "https://github.com/advisories/GHSA-392f-ggf5-fp3c",
+      "date": "2026-03-02T21:49:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Browser control startup could continue unauthenticated after auth bootstrap failure",
+      "url": "https://github.com/advisories/GHSA-vpj2-69hf-rppw",
+      "date": "2026-03-02T21:49:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openchatbi] OpenChatBI has a Path Traversal Vulnerability in save_report Tool",
+      "url": "https://github.com/advisories/GHSA-vmwq-8g8c-jm79",
+      "date": "2026-03-02T21:47:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@orpc/client] `@orpc/client` has Prototype Pollution via `StandardRPCJsonSerializer` Deserialization",
+      "url": "https://github.com/advisories/GHSA-m272-9rp6-32mc",
+      "date": "2026-03-02T21:43:04.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@builder.io/qwik] Qwik vulnerable to Unauthenticated RCE via server$ Deserialization",
+      "url": "https://github.com/advisories/GHSA-p9x5-jp3h-96mm",
+      "date": "2026-03-02T21:41:19.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@oneuptime/common] OneUptime has WebAuthn 2FA bypass: server accepts client-supplied challenge instead of server-stored value, allowing credential replay",
+      "url": "https://github.com/advisories/GHSA-gjjc-pcwp-c74m",
+      "date": "2026-03-02T21:40:59.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[fast-xml-parser] fast-xml-parser has stack overflow in XMLBuilder with preserveOrder",
-      "url": "https://github.com/advisories/GHSA-fj3w-jwp8-x2g3",
-      "date": "2026-03-02T15:10:06.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
+      "title": "[Products.isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
+      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
+      "date": "2026-03-02T20:14:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "[fast-xml-parser] fast-xml-parser has stack overflow in XMLBuilder with preserveOrder",
-      "url": "https://github.com/advisories/GHSA-fj3w-jwp8-x2g3",
-      "date": "2026-03-02T15:10:06.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
+      "title": "[Products.isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
+      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
+      "date": "2026-03-02T20:14:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[Products.isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
+      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
+      "date": "2026-03-02T20:14:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     }
   ]
 }
