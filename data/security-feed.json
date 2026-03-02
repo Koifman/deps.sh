@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-03-02T16:20:27.781Z",
+  "fetchedAt": "2026-03-02T17:22:34.435Z",
   "entries": [
+    {
+      "title": "[next] Authorization Bypass in Next.js Middleware",
+      "url": "https://github.com/advisories/GHSA-f82v-jwr5-mffw",
+      "date": "2026-03-02T16:59:05.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[serialize-javascript] Serialize JavaScript is Vulnerable to RCE via RegExp.flags and Date.prototype.toISOString()",
+      "url": "https://github.com/advisories/GHSA-5c6j-r48x-rmvq",
+      "date": "2026-03-02T16:17:37.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[fast-xml-parser] fast-xml-parser has stack overflow in XMLBuilder with preserveOrder",
       "url": "https://github.com/advisories/GHSA-fj3w-jwp8-x2g3",
@@ -99,13 +113,6 @@
       "severity": "LOW"
     },
     {
-      "title": "[serialize-javascript] Serialize JavaScript is Vulnerable to RCE via RegExp.flags and Date.prototype.toISOString()",
-      "url": "https://github.com/advisories/GHSA-5c6j-r48x-rmvq",
-      "date": "2026-02-28T02:50:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
       "title": "[@fastify/middie] @fastify/middie has Improper Path Normalization when Using Path-Scoped Middleware",
       "url": "https://github.com/advisories/GHSA-8p85-9qpw-fwgw",
       "date": "2026-02-28T02:47:18.000Z",
@@ -118,13 +125,6 @@
       "date": "2026-02-28T02:46:13.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[vitrage] OpenStack Vitrage: Unauthorized Access to the Host can Lead to Eval Injection",
-      "url": "https://github.com/advisories/GHSA-8xwf-cr4r-856r",
-      "date": "2026-02-28T02:24:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     },
     {
       "title": "[vitrage] OpenStack Vitrage: Unauthorized Access to the Host can Lead to Eval Injection",
