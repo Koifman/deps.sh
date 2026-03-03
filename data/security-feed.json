@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-03-03T00:46:19.549Z",
+  "fetchedAt": "2026-03-03T01:41:10.201Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw: macOS optional allowlist basename matching could bypass path-based policy",
+      "url": "https://github.com/advisories/GHSA-7f4q-9rqh-x36p",
+      "date": "2026-03-03T00:41:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw has system.run shell-wrapper env injection via SHELLOPTS/PS4 can bypass allowlist intent (RCE)",
+      "url": "https://github.com/advisories/GHSA-2fgq-7j6h-9rm4",
+      "date": "2026-03-03T00:40:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Node reconnect metadata spoofing could bypass platform-based node command policy",
+      "url": "https://github.com/advisories/GHSA-r65x-2hqr-j5hf",
+      "date": "2026-03-03T00:40:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: macOS beta onboarding exposed PKCE verifier via OAuth state",
+      "url": "https://github.com/advisories/GHSA-6g25-pc82-vfwp",
+      "date": "2026-03-03T00:39:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw has hook auth rate limiter bypass via IPv4-mapped IPv6 client key variants",
+      "url": "https://github.com/advisories/GHSA-5847-rm3g-23mw",
+      "date": "2026-03-03T00:38:49.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's avatar symlink traversal can expose out-of-workspace local files",
+      "url": "https://github.com/advisories/GHSA-rx3g-mvc3-qfjf",
+      "date": "2026-03-03T00:20:20.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[openclaw] OpenClaw has a sandbox network isolation bypass via docker.network=container:<id>",
       "url": "https://github.com/advisories/GHSA-ww6v-v748-x7g9",
@@ -98,48 +140,6 @@
       "date": "2026-03-02T22:39:45.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw voice-call media stream validated streams after upgrade, which could allow pre-start unauthenticated sockets to increase resource pressure",
-      "url": "https://github.com/advisories/GHSA-mfg5-7q5g-f37j",
-      "date": "2026-03-02T22:39:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw's inbound media downloads could exceed configured byte limits before rejection across multiple channels",
-      "url": "https://github.com/advisories/GHSA-rxxp-482v-7mrh",
-      "date": "2026-03-02T22:32:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw Canvas Path Traversal Information Disclosure Vulnerability",
-      "url": "https://github.com/advisories/GHSA-jq4x-98m3-ggq6",
-      "date": "2026-03-02T22:32:24.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw's exec allow-always can be bypassed via unrecognized multiplexer shell wrappers (busybox/toybox sh -c)",
-      "url": "https://github.com/advisories/GHSA-gwqp-86q6-w47g",
-      "date": "2026-03-02T22:30:44.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Node exec approvals could be replayed across nodes",
-      "url": "https://github.com/advisories/GHSA-6x2m-hqfw-hvpj",
-      "date": "2026-03-02T22:29:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's allow-always wrapper persistence could bypass future approvals and enable command execution",
-      "url": "https://github.com/advisories/GHSA-6j27-pc5c-m8w8",
-      "date": "2026-03-02T22:20:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
