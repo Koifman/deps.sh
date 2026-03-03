@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-03-02T23:10:41.843Z",
+  "fetchedAt": "2026-03-03T00:46:19.549Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw has a sandbox network isolation bypass via docker.network=container:<id>",
+      "url": "https://github.com/advisories/GHSA-ww6v-v748-x7g9",
+      "date": "2026-03-02T23:37:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Node system.run approval bypass via parent-symlink cwd rebind",
+      "url": "https://github.com/advisories/GHSA-f7ww-2725-qvw2",
+      "date": "2026-03-02T23:35:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Message action attachment hydration bypasses local media root checks when sandboxRoot is unset",
+      "url": "https://github.com/advisories/GHSA-fqcm-97m6-w7rm",
+      "date": "2026-03-02T23:34:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: system.run approval identity mismatch could execute a different binary than displayed",
+      "url": "https://github.com/advisories/GHSA-hwpq-rrpf-pgcq",
+      "date": "2026-03-02T23:33:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Gateway /tools/invoke tool escalation + ACP permission auto-approval",
+      "url": "https://github.com/advisories/GHSA-943q-mwmv-hhvh",
+      "date": "2026-03-02T23:32:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw Vulnerable to Remote Code Execution via Node Invoke Approval Bypass in Gateway",
+      "url": "https://github.com/advisories/GHSA-gv46-4xfq-jv58",
+      "date": "2026-03-02T23:24:55.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] OpenClaw vulnerable to path traversal (Zip Slip) in archive extraction during explicit installation commands",
+      "url": "https://github.com/advisories/GHSA-v892-hwpg-jwqp",
+      "date": "2026-03-02T23:23:04.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[openclaw] OpenClaw's sandbox skill mirroring path traversal vulnerability could write outside the sandbox workspace",
       "url": "https://github.com/advisories/GHSA-xw4p-pw82-hqr7",
@@ -91,55 +140,6 @@
       "date": "2026-03-02T22:20:23.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's Control UI Static File Handler Follows Symlinks and Allows Out-of-Root File Read",
-      "url": "https://github.com/advisories/GHSA-5ghc-98wh-gwwf",
-      "date": "2026-03-02T22:19:04.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw has browser trace/download path symlink escape in temp output handling",
-      "url": "https://github.com/advisories/GHSA-36h3-7c54-j27r",
-      "date": "2026-03-02T22:18:08.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has ReDoS and regex injection via unescaped Feishu mention metadata in RegExp construction",
-      "url": "https://github.com/advisories/GHSA-c6hr-w26q-c636",
-      "date": "2026-03-02T22:17:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw macOS companion app (beta): allowlist parsing mismatch for system.run shell chains",
-      "url": "https://github.com/advisories/GHSA-5f9p-f3w2-fwch",
-      "date": "2026-03-02T22:17:03.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw has Windows system.run approval mismatch on cmd.exe /c trailing arguments",
-      "url": "https://github.com/advisories/GHSA-5v6x-rfc3-7qfr",
-      "date": "2026-03-02T22:15:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw has Signal group allowlist authorization bypass via DM pairing-store leakage",
-      "url": "https://github.com/advisories/GHSA-wm8r-w8pf-2v6w",
-      "date": "2026-03-02T22:14:56.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@keep-network/tbtc-v2] @keep-network/tbtc-v2 revealing P2PKH deposit with a wrapped P2SH script",
-      "url": "https://github.com/advisories/GHSA-8986-v76q-8vr2",
-      "date": "2026-03-02T22:09:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
