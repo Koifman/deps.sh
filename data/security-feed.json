@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-03-03T16:23:07.221Z",
+  "fetchedAt": "2026-03-03T17:21:15.377Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0030: Vulnerability in time_calibrator",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0030.html",
+      "date": "2026-03-03T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[openclaw] OpenClaw: macOS optional allowlist basename matching could bypass path-based policy",
       "url": "https://github.com/advisories/GHSA-7f4q-9rqh-x36p",
@@ -133,13 +139,6 @@
       "date": "2026-03-02T22:40:15.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@openclaw/voice-call] OpenClaw voice-call media stream validated streams after upgrade, which could allow pre-start unauthenticated sockets to increase resource pressure",
-      "url": "https://github.com/advisories/GHSA-mfg5-7q5g-f37j",
-      "date": "2026-03-02T22:39:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
