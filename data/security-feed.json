@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-03-03T20:14:26.519Z",
+  "fetchedAt": "2026-03-03T21:15:40.762Z",
   "entries": [
+    {
+      "title": "[nocodb] NocoDB Vulnerable to Stored Cross-Site Scripting via Rich Text Cells",
+      "url": "https://github.com/advisories/GHSA-wwp2-x4rj-j8rm",
+      "date": "2026-03-03T20:59:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB Vulnerable to Stored Cross-site Scripting via Comments",
+      "url": "https://github.com/advisories/GHSA-rcph-x7mj-54mm",
+      "date": "2026-03-03T20:59:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB Vulnerable to SQL Injection via DATEADD Formula",
+      "url": "https://github.com/advisories/GHSA-45rp-9p97-h852",
+      "date": "2026-03-03T20:58:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB Vulnerable to Stored Cross-Site Scripting via Comments and Rich Text Cells",
+      "url": "https://github.com/advisories/GHSA-8vm4-g489-v3w7",
+      "date": "2026-03-03T20:58:45.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[picklescan] PickleScan has multiple stdlib modules with direct RCE not in blocklist",
+      "url": "https://github.com/advisories/GHSA-g38g-8gr9-h9xp",
+      "date": "2026-03-03T20:05:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[picklescan] PickleScan's pkgutil.resolve_name has a universal blocklist bypass",
       "url": "https://github.com/advisories/GHSA-vvpj-8cmc-gx39",
@@ -105,41 +140,6 @@
       "date": "2026-03-03T19:17:24.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's dispatch-wrapper depth-cap mismatch can bypass shell-wrapper approval gating in system.run allowlist mode",
-      "url": "https://github.com/advisories/GHSA-ccg8-46r6-9qgj",
-      "date": "2026-03-03T19:16:49.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's voice-call Twilio webhook replay could bypass manager dedupe because normalized event IDs were randomized per parse",
-      "url": "https://github.com/advisories/GHSA-vqx8-9xxw-f2m7",
-      "date": "2026-03-03T19:16:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw safeBins grep -e File Read Bypass (stdin-only policy bypass)",
-      "url": "https://github.com/advisories/GHSA-3xfw-4pmr-4xc5",
-      "date": "2026-03-03T19:09:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Unauthorized Telegram Senders Trigger Media Download and Disk Write Before Access Check",
-      "url": "https://github.com/advisories/GHSA-h656-5vcf-cm23",
-      "date": "2026-03-03T19:08:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Native prompt image auto-load did not honor tools.fs.workspaceOnly in sandboxed runs",
-      "url": "https://github.com/advisories/GHSA-9f72-qcpw-2hxc",
-      "date": "2026-03-03T19:08:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
