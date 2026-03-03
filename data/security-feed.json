@@ -1,6 +1,132 @@
 {
-  "fetchedAt": "2026-03-03T22:12:21.779Z",
+  "fetchedAt": "2026-03-03T23:11:51.283Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw reuses the gateway auth token in the owner ID prompt hashing fallback",
+      "url": "https://github.com/advisories/GHSA-v6x2-2qvm-6gv8",
+      "date": "2026-03-03T23:01:32.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw hook transform path containment missed symlink-resolved escapes",
+      "url": "https://github.com/advisories/GHSA-659f-22xc-98f2",
+      "date": "2026-03-03T23:00:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] In OpenClaw, manually adding sort to tools.exec.safeBins could bypass allowlist approval via --compress-program",
+      "url": "https://github.com/advisories/GHSA-4gc7-qcvf-38wg",
+      "date": "2026-03-03T23:00:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw has a BlueBubbles group allowlist mismatch via DM pairing-store fallback",
+      "url": "https://github.com/advisories/GHSA-25pw-4h6w-qwvm",
+      "date": "2026-03-03T22:54:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's voice-call Twilio replay dedupe now bound to authenticated webhook identity",
+      "url": "https://github.com/advisories/GHSA-gcj7-r3hg-m7w6",
+      "date": "2026-03-03T22:25:38.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw has multiple E2E/test Dockerfiles that run all processes as root",
+      "url": "https://github.com/advisories/GHSA-w7j5-j98m-w679",
+      "date": "2026-03-03T22:25:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw has exec allowlist/safeBins policy-runtime mismatch via env -S wrapper interpretation",
+      "url": "https://github.com/advisories/GHSA-796m-2973-wc5q",
+      "date": "2026-03-03T22:23:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Microsoft Teams media fetch paths bypass shared SSRF guard model",
+      "url": "https://github.com/advisories/GHSA-7qf6-h84j-8fq4",
+      "date": "2026-03-03T22:21:59.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw's browser-origin WebSocket auth hardening gap could enable loopback password brute-force chains",
+      "url": "https://github.com/advisories/GHSA-jmmg-jqc7-5qf4",
+      "date": "2026-03-03T22:18:10.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw improperly parses X-Forwarded-For behind trusted proxies allows client IP spoofing in security decisions",
+      "url": "https://github.com/advisories/GHSA-2rgf-hm63-5qph",
+      "date": "2026-03-03T22:17:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's non-default autoAllowSkills setting could bypass on-miss exec prompt",
+      "url": "https://github.com/advisories/GHSA-7ff8-xjh3-mgh6",
+      "date": "2026-03-03T22:13:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw's shell startup env injection bypasses system.run allowlist intent (RCE class)",
+      "url": "https://github.com/advisories/GHSA-xgf2-vxv2-rrmg",
+      "date": "2026-03-03T22:12:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw's runtime /debug override path accepted prototype-reserved keys",
+      "url": "https://github.com/advisories/GHSA-62f6-mrcj-v8h5",
+      "date": "2026-03-03T22:12:22.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw has a workspace-only sandbox guard mismatch for @-prefixed absolute paths",
+      "url": "https://github.com/advisories/GHSA-27cr-4p5m-74rj",
+      "date": "2026-03-03T22:11:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw affected by BASH_ENV / ENV startup-file injection into spawned shell commands",
+      "url": "https://github.com/advisories/GHSA-w9cg-v44m-4qv8",
+      "date": "2026-03-03T22:09:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw has stored XSS in exported session HTML viewer via markdown/raw-HTML rendering",
+      "url": "https://github.com/advisories/GHSA-r294-2894-92j3",
+      "date": "2026-03-03T22:09:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Sandbox media fallback tmp symlink alias bypass allows host file reads outside sandboxRoot",
+      "url": "https://github.com/advisories/GHSA-xmv6-r34m-62p4",
+      "date": "2026-03-03T22:08:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw's `tools.exec.safeBins` PATH-hijack allowed trojan binaries to bypass allowlist checks",
+      "url": "https://github.com/advisories/GHSA-g75x-8qqm-2vxp",
+      "date": "2026-03-03T22:08:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[openclaw] OpenClaw Improperly Neutralizes Line Breaks in systemd Unit Generation Enables Local Command Execution (Linux)",
       "url": "https://github.com/advisories/GHSA-vffc-f7r7-rx2w",
@@ -14,132 +140,6 @@
       "date": "2026-03-03T21:52:16.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw Loopback CDP probe can leak Gateway token to local listener",
-      "url": "https://github.com/advisories/GHSA-v3j7-34xh-6g3w",
-      "date": "2026-03-03T21:50:36.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has a Command Injection via unescaped environment assignments in Windows Scheduled Task script generation",
-      "url": "https://github.com/advisories/GHSA-pj5x-38rw-6fph",
-      "date": "2026-03-03T21:50:06.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw has a Discord `allowFrom` slug-collision authorization bypass",
-      "url": "https://github.com/advisories/GHSA-4cqv-h74h-93j4",
-      "date": "2026-03-03T21:49:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has an opt-in insecure Control UI auth over plaintext HTTP could allow privileged access",
-      "url": "https://github.com/advisories/GHSA-3cvx-236h-m9fj",
-      "date": "2026-03-03T21:49:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has a IPv6 multicast SSRF classifier bypass",
-      "url": "https://github.com/advisories/GHSA-h97f-6pqj-q452",
-      "date": "2026-03-03T21:48:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw exec allowlist safeBins short-option bypass could permit arbitrary file write",
-      "url": "https://github.com/advisories/GHSA-3x3x-h76w-hp98",
-      "date": "2026-03-03T21:48:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has auth inconsistency on local Browser Extension Relay /extension endpoint",
-      "url": "https://github.com/advisories/GHSA-pfv7-rr5m-qmv6",
-      "date": "2026-03-03T21:42:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's tools.exec.safeBins sort long-option abbreviation bypass can skip exec approval in allowlist mode",
-      "url": "https://github.com/advisories/GHSA-3c6h-g97w-fg78",
-      "date": "2026-03-03T21:42:00.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw has a Feishu allowFrom authorization bypass via display-name collision",
-      "url": "https://github.com/advisories/GHSA-j4xf-96qf-rx69",
-      "date": "2026-03-03T21:41:39.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has macOS `system.run` allowlist bypass via quoted command substitution",
-      "url": "https://github.com/advisories/GHSA-9p38-94jf-hgjj",
-      "date": "2026-03-03T21:41:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw shell-env fallback trusted startup env and could execute attacker-influenced login-shell paths",
-      "url": "https://github.com/advisories/GHSA-5h2c-8v84-qpvr",
-      "date": "2026-03-03T21:39:53.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw plugin runtime command execution is part of trusted plugin boundary",
-      "url": "https://github.com/advisories/GHSA-ff98-w8hj-qrxf",
-      "date": "2026-03-03T21:39:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw unpaired device identity can bypass operator pairing and self-assign operator scopes with shared auth",
-      "url": "https://github.com/advisories/GHSA-553v-f69r-656j",
-      "date": "2026-03-03T21:39:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw browser navigation guard allowed non-network URL schemes, enabling authenticated browser-tool users to access file:// local files",
-      "url": "https://github.com/advisories/GHSA-45cg-2683-gfmq",
-      "date": "2026-03-03T21:38:00.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw Windows Scheduled Task script generation allowed local command injection via unsafe cmd argument handling",
-      "url": "https://github.com/advisories/GHSA-mqr9-vqhq-3jxw",
-      "date": "2026-03-03T21:37:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Experimental apply_patch may bypass workspace-only checks in opt-in sandbox mounts (off by default)",
-      "url": "https://github.com/advisories/GHSA-h9xm-j4qg-fvpg",
-      "date": "2026-03-03T21:37:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: MS Teams fileConsent/invoke missing conversation binding allowed cross-conversation pending-upload consumption",
-      "url": "https://github.com/advisories/GHSA-j26j-7qc4-3mrf",
-      "date": "2026-03-03T21:36:50.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's owner-only gateway tool access checks were incomplete in specific authenticated DM flows",
-      "url": "https://github.com/advisories/GHSA-2hm8-rqrm-xfjq",
-      "date": "2026-03-03T21:36:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
