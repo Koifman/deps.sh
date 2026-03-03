@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-03-03T18:23:35.605Z",
+  "fetchedAt": "2026-03-03T19:21:56.788Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw safeBins grep -e File Read Bypass (stdin-only policy bypass)",
+      "url": "https://github.com/advisories/GHSA-3xfw-4pmr-4xc5",
+      "date": "2026-03-03T19:09:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Unauthorized Telegram Senders Trigger Media Download and Disk Write Before Access Check",
+      "url": "https://github.com/advisories/GHSA-h656-5vcf-cm23",
+      "date": "2026-03-03T19:08:33.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Native prompt image auto-load did not honor tools.fs.workspaceOnly in sandboxed runs",
+      "url": "https://github.com/advisories/GHSA-9f72-qcpw-2hxc",
+      "date": "2026-03-03T19:08:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw's non-default safeBins sort configuration can bypass intended allowlist approval constraints",
+      "url": "https://github.com/advisories/GHSA-vmqr-rc7x-3446",
+      "date": "2026-03-03T18:54:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw has gateway plugin auth bypass via encoded dot-segment traversal in protected /api/channels paths",
+      "url": "https://github.com/advisories/GHSA-mwxv-35wr-4vvj",
+      "date": "2026-03-03T18:54:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw's gateway tokenless Tailscale auth applied to HTTP routes",
+      "url": "https://github.com/advisories/GHSA-hff7-ccv5-52f8",
+      "date": "2026-03-03T18:43:05.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw vulnerable to path traversal in Feishu media temp-file naming allows writes outside os.tmpdir()",
+      "url": "https://github.com/advisories/GHSA-vj3g-5px3-gr46",
+      "date": "2026-03-03T18:42:29.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw Vulnerable to HTML injection via unvalidated image MIME type in data-URL interpolation",
+      "url": "https://github.com/advisories/GHSA-2ww6-868g-2c56",
+      "date": "2026-03-03T18:30:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Temporary path handling could write outside OpenClaw temp boundary",
+      "url": "https://github.com/advisories/GHSA-33hm-cq8r-wc49",
+      "date": "2026-03-03T18:11:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Chrome --no-sandbox disabled OS-level browser sandbox in sandbox browser container",
+      "url": "https://github.com/advisories/GHSA-43x4-g22p-3hrq",
+      "date": "2026-03-03T18:10:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[openclaw] OpenClaw's MSTeams attachment redirect handling could bypass configured media host allowlists",
       "url": "https://github.com/advisories/GHSA-w76h-8m22-hpgh",
@@ -69,75 +139,6 @@
       "url": "https://github.com/advisories/GHSA-p5cm-246w-84jm",
       "date": "2026-03-03T17:57:22.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail Vulnerable to Cross-site Scripting in TableBlock class attributes",
-      "url": "https://github.com/advisories/GHSA-p5cm-246w-84jm",
-      "date": "2026-03-03T17:57:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail Vulnerable to Cross-site Scripting in TableBlock class attributes",
-      "url": "https://github.com/advisories/GHSA-p5cm-246w-84jm",
-      "date": "2026-03-03T17:57:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail Vulnerable to Cross-site Scripting in TableBlock class attributes",
-      "url": "https://github.com/advisories/GHSA-p5cm-246w-84jm",
-      "date": "2026-03-03T17:57:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[bentoml] BentoML Vulnerable to Arbitrary File Write via Symlink Path Traversal in Tar Extraction",
-      "url": "https://github.com/advisories/GHSA-m6w7-qv66-g3mf",
-      "date": "2026-03-03T17:46:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[underscore] Underscore has unlimited recursion in _.flatten and _.isEqual, potential for DoS attack",
-      "url": "https://github.com/advisories/GHSA-qpx9-hpmf-5gmw",
-      "date": "2026-03-03T17:46:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0030: Vulnerability in time_calibrator",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0030.html",
-      "date": "2026-03-03T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[openclaw] OpenClaw: macOS optional allowlist basename matching could bypass path-based policy",
-      "url": "https://github.com/advisories/GHSA-7f4q-9rqh-x36p",
-      "date": "2026-03-03T00:41:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has system.run shell-wrapper env injection via SHELLOPTS/PS4 can bypass allowlist intent (RCE)",
-      "url": "https://github.com/advisories/GHSA-2fgq-7j6h-9rm4",
-      "date": "2026-03-03T00:40:58.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Node reconnect metadata spoofing could bypass platform-based node command policy",
-      "url": "https://github.com/advisories/GHSA-r65x-2hqr-j5hf",
-      "date": "2026-03-03T00:40:13.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: macOS beta onboarding exposed PKCE verifier via OAuth state",
-      "url": "https://github.com/advisories/GHSA-6g25-pc82-vfwp",
-      "date": "2026-03-03T00:39:42.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
