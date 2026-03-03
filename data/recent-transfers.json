@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-03T19:25:04.025Z",
-  "count": 90,
+  "scannedAt": "2026-03-03T20:17:12.722Z",
+  "count": 91,
   "packages": [
     {
       "name": "xmldom",
@@ -113,6 +113,15 @@
     {
       "name": "enzyme-adapter-utils",
       "version": "1.14.2",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "intelligibabble",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "enzyme-adapter-react-16",
+      "version": "1.15.8",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -264,21 +273,21 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "string.prototype.trimend",
-      "version": "1.0.9",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "khaledelansari",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "is-array-buffer",
       "version": "3.0.5",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
       "previousOwner": "fengyuanchen",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "string.prototype.trimend",
+      "version": "1.0.9",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "khaledelansari",
       "currentOwner": "ljharb"
     },
     {
@@ -561,15 +570,6 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
-    },
-    {
       "name": "openid-client",
       "version": "6.8.2",
       "ecosystem": "npm",
@@ -577,6 +577,15 @@
       "level": "MODERATE",
       "previousOwner": "panva",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
     },
     {
       "name": "oxc-parser",
@@ -795,15 +804,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "@nevware21/ts-utils",
       "version": "0.13.0",
       "ecosystem": "npm",
@@ -811,6 +811,15 @@
       "level": "LOW",
       "previousOwner": "nev21",
       "currentOwner": "nevware21bot"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     }
   ]
 }
