@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-03-04T01:40:23.991Z",
+  "fetchedAt": "2026-03-04T03:04:44.292Z",
   "entries": [
+    {
+      "title": "[bentoml] BentoML Vulnerable to Arbitrary File Write via Symlink Path Traversal in Tar Extraction",
+      "url": "https://github.com/advisories/GHSA-m6w7-qv66-g3mf",
+      "date": "2026-03-04T02:00:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pypdf] pypdf vulnerable to inefficient decoding of ASCIIHexDecode streams",
+      "url": "https://github.com/advisories/GHSA-9m86-7pmv-2852",
+      "date": "2026-03-04T01:58:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openchatbi] OpenChatBI has a Path Traversal Vulnerability in save_report Tool",
+      "url": "https://github.com/advisories/GHSA-vmwq-8g8c-jm79",
+      "date": "2026-03-04T01:58:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[openclaw] OpenClaw's serialize sandbox registry writes to prevent races and delete-rollback corruption",
       "url": "https://github.com/advisories/GHSA-gq83-8q7q-9hfx",
@@ -117,27 +138,6 @@
       "title": "[openclaw] In OpenClaw, manually adding sort to tools.exec.safeBins could bypass allowlist approval via --compress-program",
       "url": "https://github.com/advisories/GHSA-4gc7-qcvf-38wg",
       "date": "2026-03-03T23:00:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw has a BlueBubbles group allowlist mismatch via DM pairing-store fallback",
-      "url": "https://github.com/advisories/GHSA-25pw-4h6w-qwvm",
-      "date": "2026-03-03T22:54:48.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's voice-call Twilio replay dedupe now bound to authenticated webhook identity",
-      "url": "https://github.com/advisories/GHSA-gcj7-r3hg-m7w6",
-      "date": "2026-03-03T22:25:38.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw has multiple E2E/test Dockerfiles that run all processes as root",
-      "url": "https://github.com/advisories/GHSA-w7j5-j98m-w679",
-      "date": "2026-03-03T22:25:14.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
