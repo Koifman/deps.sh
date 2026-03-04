@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-03-04T21:14:50.036Z",
+  "fetchedAt": "2026-03-04T22:13:28.335Z",
   "entries": [
+    {
+      "title": "[fickling] Fickling missing RCE-capable modules in UNSAFE_IMPORTS",
+      "url": "https://github.com/advisories/GHSA-5hwf-rc88-82xm",
+      "date": "2026-03-04T21:31:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fickling] Fickling has `always_check_safety()` bypass: pickle.loads and _pickle.loads remain unhooked",
+      "url": "https://github.com/advisories/GHSA-wccx-j62j-r448",
+      "date": "2026-03-04T21:30:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[changedetection.io] changedetection.io has Zip Slip vulnerability in the backup restore functionality",
+      "url": "https://github.com/advisories/GHSA-25g8-2mcf-fcx9",
+      "date": "2026-03-04T21:28:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[immutable] Immutable is vulnerable to Prototype Pollution",
+      "url": "https://github.com/advisories/GHSA-wf6x-7x77-mvgw",
+      "date": "2026-03-04T21:28:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[immutable] Immutable is vulnerable to Prototype Pollution",
+      "url": "https://github.com/advisories/GHSA-wf6x-7x77-mvgw",
+      "date": "2026-03-04T21:28:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mcp-nmap-server] MCP NMAP Server has an Injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-xc68-rrqc-qgq3",
+      "date": "2026-03-04T21:15:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ms-agent] MS-Agent vulnerable to Command Injection",
+      "url": "https://github.com/advisories/GHSA-4gc2-344q-r2rw",
+      "date": "2026-03-04T21:14:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[changedetection.io] changedetection.io vulnerable to XPath - Arbitrary File Read via unparsed-text()",
       "url": "https://github.com/advisories/GHSA-6fmw-82m7-jq6p",
@@ -91,55 +140,6 @@
       "date": "2026-03-04T20:24:31.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[Django] Django vulnerable to Uncontrolled Resource Consumption",
-      "url": "https://github.com/advisories/GHSA-8p8v-wh79-9r56",
-      "date": "2026-03-04T20:24:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Django] Django vulnerable to Uncontrolled Resource Consumption",
-      "url": "https://github.com/advisories/GHSA-8p8v-wh79-9r56",
-      "date": "2026-03-04T20:24:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Django] Django vulnerable to Uncontrolled Resource Consumption",
-      "url": "https://github.com/advisories/GHSA-8p8v-wh79-9r56",
-      "date": "2026-03-04T20:24:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[locutus] locutus call_user_func_array vulnerable to Remote Code Execution (RCE) due to Code Injection",
-      "url": "https://github.com/advisories/GHSA-fp25-p6mj-qqg6",
-      "date": "2026-03-04T20:19:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mailparser] mailparser vulnerable to Cross-site Scripting",
-      "url": "https://github.com/advisories/GHSA-7gmj-h9xc-mcxc",
-      "date": "2026-03-04T20:15:58.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@tootallnate/once] @tootallnate/once vulnerable to Incorrect Control Flow Scoping",
-      "url": "https://github.com/advisories/GHSA-vpq2-c234-7xj6",
-      "date": "2026-03-04T20:15:03.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@hono/node-server] @hono/node-server has authorization bypass for protected static paths via encoded slashes in Serve Static Middleware",
-      "url": "https://github.com/advisories/GHSA-wc8c-qw6v-h7f6",
-      "date": "2026-03-04T20:05:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
