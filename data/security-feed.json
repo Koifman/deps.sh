@@ -1,144 +1,145 @@
 {
-  "fetchedAt": "2026-03-04T20:15:00.492Z",
+  "fetchedAt": "2026-03-04T21:14:50.036Z",
   "entries": [
     {
-      "title": "[hono] Hono Vulnerable to Cookie Attribute Injection via Unsanitized domain and path in setCookie()",
-      "url": "https://github.com/advisories/GHSA-5pq2-9x2x-5p6w",
-      "date": "2026-03-04T19:49:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono Vulnerable to SSE Control Field Injection via CR/LF in writeSSE()",
-      "url": "https://github.com/advisories/GHSA-p6xx-57qc-3wxr",
-      "date": "2026-03-04T19:48:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono vulnerable to arbitrary file access via serveStatic vulnerability",
-      "url": "https://github.com/advisories/GHSA-q5qw-h33p-qvwr",
-      "date": "2026-03-04T19:48:00.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: BlueBubbles (optional plugin) pairing/allowlist mismatch when allowFrom is empty",
-      "url": "https://github.com/advisories/GHSA-jwf4-8wf4-jf2m",
-      "date": "2026-03-04T19:44:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw Vulnerable to Local File Exfiltration via MCP Tool Result MEDIA: Directive Injection",
-      "url": "https://github.com/advisories/GHSA-jjgj-cpp9-cvpv",
-      "date": "2026-03-04T19:28:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Hardlink alias checks could bypass workspace-only file boundaries in specific configurations",
-      "url": "https://github.com/advisories/GHSA-3jx4-q2m7-r496",
-      "date": "2026-03-04T19:21:06.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw Canvas Authentication Bypass Vulnerability",
-      "url": "https://github.com/advisories/GHSA-vvjh-f6p9-5vcf",
-      "date": "2026-03-04T19:17:36.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw's image tool bypasses tools.fs.workspaceOnly on sandbox mount paths and exfiltrates out-of-workspace images",
-      "url": "https://github.com/advisories/GHSA-q6qf-4p5j-r25g",
-      "date": "2026-03-04T19:13:49.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has incomplete IPv4 special-use SSRF blocking in web fetch guard",
-      "url": "https://github.com/advisories/GHSA-4rqq-w8v4-7p47",
-      "date": "2026-03-04T19:03:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has agent avatar symlink traversal in gateway session metadata",
-      "url": "https://github.com/advisories/GHSA-9mph-4f7v-fmvh",
-      "date": "2026-03-04T19:03:00.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's elevated allowFrom accepted broader identity signals than specified within sender-scoped authorization",
-      "url": "https://github.com/advisories/GHSA-f6h3-846h-2r8w",
-      "date": "2026-03-04T18:58:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has cross-account DM pairing authorization bypass via unscoped pairing store access",
-      "url": "https://github.com/advisories/GHSA-vjp8-wprm-2jw9",
-      "date": "2026-03-04T18:56:11.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw has SSRF guard bypass via IPv6 transition over ISATAP",
-      "url": "https://github.com/advisories/GHSA-8cp7-rp8r-mg77",
-      "date": "2026-03-04T18:55:49.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Slack interactive callbacks could skip configured sender checks in some shared-workspace flows",
-      "url": "https://github.com/advisories/GHSA-x2ff-j5c2-ggpr",
-      "date": "2026-03-04T18:55:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ckeditor5] CKEditor 5 has Cross-site Scripting (XSS) in the HTML Support package",
-      "url": "https://github.com/advisories/GHSA-jrqm-vmqc-gm93",
-      "date": "2026-03-04T18:49:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@ckeditor/ckeditor5-html-support] CKEditor 5 has Cross-site Scripting (XSS) in the HTML Support package",
-      "url": "https://github.com/advisories/GHSA-jrqm-vmqc-gm93",
-      "date": "2026-03-04T18:49:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[darkreader] Dark Reader gives users the ability to request style sheets from local web servers",
-      "url": "https://github.com/advisories/GHSA-x369-mcw8-8rvj",
-      "date": "2026-03-04T18:18:23.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "RUSTSEC-2026-0032: Vulnerability in dnp3times",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0032.html",
-      "date": "2026-03-04T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[bentoml] BentoML Vulnerable to Arbitrary File Write via Symlink Path Traversal in Tar Extraction",
-      "url": "https://github.com/advisories/GHSA-m6w7-qv66-g3mf",
-      "date": "2026-03-04T02:00:45.000Z",
+      "title": "[changedetection.io] changedetection.io vulnerable to XPath - Arbitrary File Read via unparsed-text()",
+      "url": "https://github.com/advisories/GHSA-6fmw-82m7-jq6p",
+      "date": "2026-03-04T20:59:37.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[pypdf] pypdf vulnerable to inefficient decoding of ASCIIHexDecode streams",
-      "url": "https://github.com/advisories/GHSA-9m86-7pmv-2852",
-      "date": "2026-03-04T01:58:30.000Z",
+      "title": "[changedetection.io] changedetection.io has Reflected XSS in its RSS Tag Error Response",
+      "url": "https://github.com/advisories/GHSA-8whx-v8qq-pq64",
+      "date": "2026-03-04T20:58:17.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[authlib] Authlib: Setting `alg: none` and a blank signature appears to bypass signature verification",
+      "url": "https://github.com/advisories/GHSA-7wc2-qxgw-g8gg",
+      "date": "2026-03-04T20:55:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dompurify] DOMPurify contains a Cross-site Scripting vulnerability",
+      "url": "https://github.com/advisories/GHSA-v2wj-7wpq-c8vv",
+      "date": "2026-03-04T20:51:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dompurify] DOMPurify contains a Cross-site Scripting vulnerability",
+      "url": "https://github.com/advisories/GHSA-v2wj-7wpq-c8vv",
+      "date": "2026-03-04T20:51:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dompurify] DOMPurify contains a Cross-site Scripting vulnerability",
+      "url": "https://github.com/advisories/GHSA-v8jm-5vwx-cfxm",
+      "date": "2026-03-04T20:50:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dompurify] DOMPurify contains a Cross-site Scripting vulnerability",
+      "url": "https://github.com/advisories/GHSA-v8jm-5vwx-cfxm",
+      "date": "2026-03-04T20:50:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[irrd] IRRd: web UI host header injection allows password reset poisoning via attacker-controlled email links",
+      "url": "https://github.com/advisories/GHSA-22m3-c7vp-49fj",
+      "date": "2026-03-04T20:33:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[irrd] IRRd: web UI host header injection allows password reset poisoning via attacker-controlled email links",
+      "url": "https://github.com/advisories/GHSA-22m3-c7vp-49fj",
+      "date": "2026-03-04T20:33:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openviking] OpenViking contains a Path Traversal vulnerability",
+      "url": "https://github.com/advisories/GHSA-rpqr-j937-6qr9",
+      "date": "2026-03-04T20:25:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Django] Django has a Race Condition vulnerability",
+      "url": "https://github.com/advisories/GHSA-mjgh-79qc-68w3",
+      "date": "2026-03-04T20:24:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[Django] Django has a Race Condition vulnerability",
+      "url": "https://github.com/advisories/GHSA-mjgh-79qc-68w3",
+      "date": "2026-03-04T20:24:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[Django] Django has a Race Condition vulnerability",
+      "url": "https://github.com/advisories/GHSA-mjgh-79qc-68w3",
+      "date": "2026-03-04T20:24:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[Django] Django vulnerable to Uncontrolled Resource Consumption",
+      "url": "https://github.com/advisories/GHSA-8p8v-wh79-9r56",
+      "date": "2026-03-04T20:24:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Django] Django vulnerable to Uncontrolled Resource Consumption",
+      "url": "https://github.com/advisories/GHSA-8p8v-wh79-9r56",
+      "date": "2026-03-04T20:24:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Django] Django vulnerable to Uncontrolled Resource Consumption",
+      "url": "https://github.com/advisories/GHSA-8p8v-wh79-9r56",
+      "date": "2026-03-04T20:24:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[locutus] locutus call_user_func_array vulnerable to Remote Code Execution (RCE) due to Code Injection",
+      "url": "https://github.com/advisories/GHSA-fp25-p6mj-qqg6",
+      "date": "2026-03-04T20:19:58.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mailparser] mailparser vulnerable to Cross-site Scripting",
+      "url": "https://github.com/advisories/GHSA-7gmj-h9xc-mcxc",
+      "date": "2026-03-04T20:15:58.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@tootallnate/once] @tootallnate/once vulnerable to Incorrect Control Flow Scoping",
+      "url": "https://github.com/advisories/GHSA-vpq2-c234-7xj6",
+      "date": "2026-03-04T20:15:03.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@hono/node-server] @hono/node-server has authorization bypass for protected static paths via encoded slashes in Serve Static Middleware",
+      "url": "https://github.com/advisories/GHSA-wc8c-qw6v-h7f6",
+      "date": "2026-03-04T20:05:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
