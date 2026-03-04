@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-03-04T19:20:39.620Z",
+  "fetchedAt": "2026-03-04T20:15:00.492Z",
   "entries": [
+    {
+      "title": "[hono] Hono Vulnerable to Cookie Attribute Injection via Unsanitized domain and path in setCookie()",
+      "url": "https://github.com/advisories/GHSA-5pq2-9x2x-5p6w",
+      "date": "2026-03-04T19:49:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono Vulnerable to SSE Control Field Injection via CR/LF in writeSSE()",
+      "url": "https://github.com/advisories/GHSA-p6xx-57qc-3wxr",
+      "date": "2026-03-04T19:48:43.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono vulnerable to arbitrary file access via serveStatic vulnerability",
+      "url": "https://github.com/advisories/GHSA-q5qw-h33p-qvwr",
+      "date": "2026-03-04T19:48:00.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: BlueBubbles (optional plugin) pairing/allowlist mismatch when allowFrom is empty",
+      "url": "https://github.com/advisories/GHSA-jwf4-8wf4-jf2m",
+      "date": "2026-03-04T19:44:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw Vulnerable to Local File Exfiltration via MCP Tool Result MEDIA: Directive Injection",
+      "url": "https://github.com/advisories/GHSA-jjgj-cpp9-cvpv",
+      "date": "2026-03-04T19:28:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Hardlink alias checks could bypass workspace-only file boundaries in specific configurations",
+      "url": "https://github.com/advisories/GHSA-3jx4-q2m7-r496",
+      "date": "2026-03-04T19:21:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw Canvas Authentication Bypass Vulnerability",
+      "url": "https://github.com/advisories/GHSA-vvjh-f6p9-5vcf",
+      "date": "2026-03-04T19:17:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw's image tool bypasses tools.fs.workspaceOnly on sandbox mount paths and exfiltrates out-of-workspace images",
+      "url": "https://github.com/advisories/GHSA-q6qf-4p5j-r25g",
+      "date": "2026-03-04T19:13:49.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[openclaw] OpenClaw has incomplete IPv4 special-use SSRF blocking in web fetch guard",
       "url": "https://github.com/advisories/GHSA-4rqq-w8v4-7p47",
@@ -83,62 +139,6 @@
       "date": "2026-03-04T01:58:30.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openchatbi] OpenChatBI has a Path Traversal Vulnerability in save_report Tool",
-      "url": "https://github.com/advisories/GHSA-vmwq-8g8c-jm79",
-      "date": "2026-03-04T01:58:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw's serialize sandbox registry writes to prevent races and delete-rollback corruption",
-      "url": "https://github.com/advisories/GHSA-gq83-8q7q-9hfx",
-      "date": "2026-03-03T23:32:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's Node role device-identity bypass allows unauthorized node.event injection",
-      "url": "https://github.com/advisories/GHSA-rv2q-f2h5-6xmg",
-      "date": "2026-03-03T23:32:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's commands.allowFrom sender authorization accepted conversation identifiers via ctx.From",
-      "url": "https://github.com/advisories/GHSA-2ch6-x3g4-7759",
-      "date": "2026-03-03T23:19:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw has Windows Lobster shell fallback command injection in constrained fallback path",
-      "url": "https://github.com/advisories/GHSA-fg3m-vhrr-8gj6",
-      "date": "2026-03-03T23:19:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's Zalo group sender allowlist bypass permits unauthorized GROUP dispatch",
-      "url": "https://github.com/advisories/GHSA-534w-2vm4-89xr",
-      "date": "2026-03-03T23:18:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has Canvas route hardening for mixed-trust deployments",
-      "url": "https://github.com/advisories/GHSA-cjv3-m589-v3rx",
-      "date": "2026-03-03T23:17:07.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's exec allowlist wrapper analysis did not unwrap env/shell dispatch chains",
-      "url": "https://github.com/advisories/GHSA-jj82-76v6-933r",
-      "date": "2026-03-03T23:13:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
