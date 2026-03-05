@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-05T06:28:35.392Z",
-  "count": 91,
+  "scannedAt": "2026-03-05T07:26:56.567Z",
+  "count": 89,
   "packages": [
     {
       "name": "xmldom",
@@ -336,15 +336,6 @@
       "currentOwner": "lholmquist"
     },
     {
-      "name": "broccoli-babel-transpiler",
-      "version": "8.0.2",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "sebmck",
-      "currentOwner": "katiegengler"
-    },
-    {
       "name": "eslint",
       "version": "10.0.2",
       "ecosystem": "npm",
@@ -525,21 +516,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/realtime-js",
-      "version": "2.98.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "kiwicopple",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@formatjs/ecma402-abstract",
       "version": "3.1.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "longlho",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@supabase/realtime-js",
+      "version": "2.98.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "kiwicopple",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -552,15 +543,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "postcss-focus-visible",
-      "version": "11.0.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
-    },
-    {
       "name": "@azure/core-lro",
       "version": "3.3.1",
       "ecosystem": "npm",
@@ -568,6 +550,15 @@
       "level": "MODERATE",
       "previousOwner": "azure-sdk",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "postcss-focus-visible",
+      "version": "11.0.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
     },
     {
       "name": "css-has-pseudo",
@@ -811,15 +802,6 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@nevware21/ts-utils",
-      "version": "0.13.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
     }
   ]
 }
