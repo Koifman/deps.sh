@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-05T10:20:49.995Z",
+  "fetchedAt": "2026-03-05T11:18:20.436Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0036: Vulnerability in time-sync",
@@ -42,6 +42,20 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0030.html",
       "date": "2026-03-05T12:00:00+00:00",
       "ecosystem": "cargo"
+    },
+    {
+      "title": "[changedetection.io] changedetection.io has Zip Slip vulnerability in the backup restore functionality",
+      "url": "https://github.com/advisories/GHSA-25g8-2mcf-fcx9",
+      "date": "2026-03-05T10:54:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[changedetection.io] changedetection.io vulnerable to XPath - Arbitrary File Read via unparsed-text()",
+      "url": "https://github.com/advisories/GHSA-6fmw-82m7-jq6p",
+      "date": "2026-03-05T10:54:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     },
     {
       "title": "[dbt-common] dbt-common's commonprefix() doesn't protect against path traversal",
@@ -119,20 +133,6 @@
       "date": "2026-03-05T00:20:48.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[eml-parser] eml_parser: Path Traversal in Official Example Script Leads to Arbitrary File Write",
-      "url": "https://github.com/advisories/GHSA-389r-rccm-h3h5",
-      "date": "2026-03-05T00:16:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@backstage/plugin-techdocs-node] TechDocs Mkdocs Configuration Key Enables Arbitrary Code Execution",
-      "url": "https://github.com/advisories/GHSA-928r-fm4v-mvrw",
-      "date": "2026-03-05T00:12:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
