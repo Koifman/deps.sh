@@ -1,18 +1,46 @@
 {
-  "fetchedAt": "2026-03-05T20:17:49.301Z",
+  "fetchedAt": "2026-03-05T21:16:12.234Z",
   "entries": [
     {
       "title": "[xgrammar] xgrammar vulnerable to DoS via multi-layer nesting",
       "url": "https://github.com/advisories/GHSA-7rgv-gqhr-fxg3",
-      "date": "2026-03-05T18:20:10.000Z",
+      "date": "2026-03-05T20:42:16.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
       "title": "[mercurius] Mercurius: Incorrect Content-Type parsing can lead to CSRF attack",
       "url": "https://github.com/advisories/GHSA-v66j-6wwf-jc57",
-      "date": "2026-03-05T18:18:02.000Z",
+      "date": "2026-03-05T20:42:11.000Z",
       "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[Django] Django vulnerable to Uncontrolled Resource Consumption",
+      "url": "https://github.com/advisories/GHSA-8p8v-wh79-9r56",
+      "date": "2026-03-05T20:31:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dompurify] DOMPurify contains a Cross-site Scripting vulnerability",
+      "url": "https://github.com/advisories/GHSA-v2wj-7wpq-c8vv",
+      "date": "2026-03-05T20:25:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dompurify] DOMPurify contains a Cross-site Scripting vulnerability",
+      "url": "https://github.com/advisories/GHSA-v2wj-7wpq-c8vv",
+      "date": "2026-03-05T20:25:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langgraph] LangGraph checkpoint loading has unsafe msgpack deserialization",
+      "url": "https://github.com/advisories/GHSA-g48c-2wqr-h844",
+      "date": "2026-03-05T20:19:49.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
@@ -103,34 +131,6 @@
       "title": "[ghost] Ghost has incomplete CSRF protections around OTC use",
       "url": "https://github.com/advisories/GHSA-9m84-wc28-w895",
       "date": "2026-03-05T00:42:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server's Cloud Hooks and Cloud Jobs bypass `readOnlyMasterKey` write restriction",
-      "url": "https://github.com/advisories/GHSA-vc89-5g3r-cmhh",
-      "date": "2026-03-05T00:33:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server's Cloud Hooks and Cloud Jobs bypass `readOnlyMasterKey` write restriction",
-      "url": "https://github.com/advisories/GHSA-vc89-5g3r-cmhh",
-      "date": "2026-03-05T00:33:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyload-ng] pyLoad has an Arbitrary File Write via Path Traversal in edit_package()",
-      "url": "https://github.com/advisories/GHSA-6px9-j4qr-xfjw",
-      "date": "2026-03-05T00:32:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[multer] Multer Vulnerable to Denial of Service via Uncontrolled Recursion",
-      "url": "https://github.com/advisories/GHSA-5528-5vmv-3xc2",
-      "date": "2026-03-05T00:27:52.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
