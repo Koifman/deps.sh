@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-03-05T05:27:26.916Z",
+  "fetchedAt": "2026-03-05T06:26:04.682Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0036: Vulnerability in time-sync",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0036.html",
+      "date": "2026-03-05T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0033: Vulnerability in pingora-core",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0033.html",
@@ -16,6 +22,24 @@
     {
       "title": "RUSTSEC-2026-0035: Vulnerability in pingora-cache",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0035.html",
+      "date": "2026-03-05T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0032: Vulnerability in dnp3times",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0032.html",
+      "date": "2026-03-05T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0031: Vulnerability in time_calibrators",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0031.html",
+      "date": "2026-03-05T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0030: Vulnerability in time_calibrator",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0030.html",
       "date": "2026-03-05T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -108,34 +132,6 @@
       "url": "https://github.com/advisories/GHSA-928r-fm4v-mvrw",
       "date": "2026-03-05T00:12:09.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[svgo] SVGO DoS through entity expansion in DOCTYPE (Billion Laughs)",
-      "url": "https://github.com/advisories/GHSA-xpqw-6gx7-v673",
-      "date": "2026-03-04T22:59:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[svgo] SVGO DoS through entity expansion in DOCTYPE (Billion Laughs)",
-      "url": "https://github.com/advisories/GHSA-xpqw-6gx7-v673",
-      "date": "2026-03-04T22:59:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[svgo] SVGO DoS through entity expansion in DOCTYPE (Billion Laughs)",
-      "url": "https://github.com/advisories/GHSA-xpqw-6gx7-v673",
-      "date": "2026-03-04T22:59:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fickling] Fickling missing RCE-capable modules in UNSAFE_IMPORTS",
-      "url": "https://github.com/advisories/GHSA-5hwf-rc88-82xm",
-      "date": "2026-03-04T21:31:04.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
