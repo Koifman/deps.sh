@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-03-05T17:24:02.566Z",
+  "fetchedAt": "2026-03-05T18:44:27.957Z",
   "entries": [
+    {
+      "title": "[xgrammar] xgrammar vulnerable to DoS via multi-layer nesting",
+      "url": "https://github.com/advisories/GHSA-7rgv-gqhr-fxg3",
+      "date": "2026-03-05T18:20:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mercurius] Mercurius: Incorrect Content-Type parsing can lead to CSRF attack",
+      "url": "https://github.com/advisories/GHSA-v66j-6wwf-jc57",
+      "date": "2026-03-05T18:18:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0036: Vulnerability in time-sync",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0036.html",
@@ -119,20 +133,6 @@
       "date": "2026-03-05T00:27:52.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@backstage/plugin-scaffolder-backend] @backstage/plugin-scaffolder-backend Vulnerable to Potential Session Token Exfiltration via Log Redaction Bypass",
-      "url": "https://github.com/advisories/GHSA-8qp7-fhr9-fw53",
-      "date": "2026-03-05T00:23:54.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@backstage/integration] Backstage vulnerable to potential reading of SCM URLs using built in token",
-      "url": "https://github.com/advisories/GHSA-95v5-prp4-5gv5",
-      "date": "2026-03-05T00:20:48.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
