@@ -1,6 +1,115 @@
 {
-  "fetchedAt": "2026-03-05T00:46:14.327Z",
+  "fetchedAt": "2026-03-05T01:40:46.851Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0033: Vulnerability in pingora-core",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0033.html",
+      "date": "2026-03-05T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0034: Vulnerability in pingora-core",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0034.html",
+      "date": "2026-03-05T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0035: Vulnerability in pingora-cache",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0035.html",
+      "date": "2026-03-05T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "[dbt-common] dbt-common's commonprefix() doesn't protect against path traversal",
+      "url": "https://github.com/advisories/GHSA-w75w-9qv4-j5xj",
+      "date": "2026-03-05T00:59:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[dbt-common] dbt-common's commonprefix() doesn't protect against path traversal",
+      "url": "https://github.com/advisories/GHSA-w75w-9qv4-j5xj",
+      "date": "2026-03-05T00:59:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@opennextjs/cloudflare] opennextjs-cloudflare has SSRF vulnerability via /cdn-cgi/ path normalization bypass",
+      "url": "https://github.com/advisories/GHSA-c7mq-gh6q-6q7c",
+      "date": "2026-03-05T00:57:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tar] tar has Hardlink Path Traversal via Drive-Relative Linkpath",
+      "url": "https://github.com/advisories/GHSA-qffp-2rhf-9h96",
+      "date": "2026-03-05T00:52:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ghost] Ghost has incomplete CSRF protections around OTC use",
+      "url": "https://github.com/advisories/GHSA-9m84-wc28-w895",
+      "date": "2026-03-05T00:42:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server's Cloud Hooks and Cloud Jobs bypass `readOnlyMasterKey` write restriction",
+      "url": "https://github.com/advisories/GHSA-vc89-5g3r-cmhh",
+      "date": "2026-03-05T00:33:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server's Cloud Hooks and Cloud Jobs bypass `readOnlyMasterKey` write restriction",
+      "url": "https://github.com/advisories/GHSA-vc89-5g3r-cmhh",
+      "date": "2026-03-05T00:33:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pyload-ng] pyLoad has an Arbitrary File Write via Path Traversal in edit_package()",
+      "url": "https://github.com/advisories/GHSA-6px9-j4qr-xfjw",
+      "date": "2026-03-05T00:32:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[multer] Multer Vulnerable to Denial of Service via Uncontrolled Recursion",
+      "url": "https://github.com/advisories/GHSA-5528-5vmv-3xc2",
+      "date": "2026-03-05T00:27:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@backstage/plugin-scaffolder-backend] @backstage/plugin-scaffolder-backend Vulnerable to Potential Session Token Exfiltration via Log Redaction Bypass",
+      "url": "https://github.com/advisories/GHSA-8qp7-fhr9-fw53",
+      "date": "2026-03-05T00:23:54.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@backstage/integration] Backstage vulnerable to potential reading of SCM URLs using built in token",
+      "url": "https://github.com/advisories/GHSA-95v5-prp4-5gv5",
+      "date": "2026-03-05T00:20:48.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[eml-parser] eml_parser: Path Traversal in Official Example Script Leads to Arbitrary File Write",
+      "url": "https://github.com/advisories/GHSA-389r-rccm-h3h5",
+      "date": "2026-03-05T00:16:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@backstage/plugin-techdocs-node] TechDocs Mkdocs Configuration Key Enables Arbitrary Code Execution",
+      "url": "https://github.com/advisories/GHSA-928r-fm4v-mvrw",
+      "date": "2026-03-05T00:12:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[svgo] SVGO DoS through entity expansion in DOCTYPE (Billion Laughs)",
       "url": "https://github.com/advisories/GHSA-xpqw-6gx7-v673",
@@ -26,118 +135,6 @@
       "title": "[fickling] Fickling missing RCE-capable modules in UNSAFE_IMPORTS",
       "url": "https://github.com/advisories/GHSA-5hwf-rc88-82xm",
       "date": "2026-03-04T21:31:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fickling] Fickling has `always_check_safety()` bypass: pickle.loads and _pickle.loads remain unhooked",
-      "url": "https://github.com/advisories/GHSA-wccx-j62j-r448",
-      "date": "2026-03-04T21:30:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[changedetection.io] changedetection.io has Zip Slip vulnerability in the backup restore functionality",
-      "url": "https://github.com/advisories/GHSA-25g8-2mcf-fcx9",
-      "date": "2026-03-04T21:28:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[immutable] Immutable is vulnerable to Prototype Pollution",
-      "url": "https://github.com/advisories/GHSA-wf6x-7x77-mvgw",
-      "date": "2026-03-04T21:28:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[immutable] Immutable is vulnerable to Prototype Pollution",
-      "url": "https://github.com/advisories/GHSA-wf6x-7x77-mvgw",
-      "date": "2026-03-04T21:28:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mcp-nmap-server] MCP NMAP Server has an Injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-xc68-rrqc-qgq3",
-      "date": "2026-03-04T21:15:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ms-agent] MS-Agent vulnerable to Command Injection",
-      "url": "https://github.com/advisories/GHSA-4gc2-344q-r2rw",
-      "date": "2026-03-04T21:14:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[changedetection.io] changedetection.io vulnerable to XPath - Arbitrary File Read via unparsed-text()",
-      "url": "https://github.com/advisories/GHSA-6fmw-82m7-jq6p",
-      "date": "2026-03-04T20:59:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[changedetection.io] changedetection.io has Reflected XSS in its RSS Tag Error Response",
-      "url": "https://github.com/advisories/GHSA-8whx-v8qq-pq64",
-      "date": "2026-03-04T20:58:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[authlib] Authlib: Setting `alg: none` and a blank signature appears to bypass signature verification",
-      "url": "https://github.com/advisories/GHSA-7wc2-qxgw-g8gg",
-      "date": "2026-03-04T20:55:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dompurify] DOMPurify contains a Cross-site Scripting vulnerability",
-      "url": "https://github.com/advisories/GHSA-v2wj-7wpq-c8vv",
-      "date": "2026-03-04T20:51:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[dompurify] DOMPurify contains a Cross-site Scripting vulnerability",
-      "url": "https://github.com/advisories/GHSA-v2wj-7wpq-c8vv",
-      "date": "2026-03-04T20:51:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[dompurify] DOMPurify contains a Cross-site Scripting vulnerability",
-      "url": "https://github.com/advisories/GHSA-v8jm-5vwx-cfxm",
-      "date": "2026-03-04T20:50:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[dompurify] DOMPurify contains a Cross-site Scripting vulnerability",
-      "url": "https://github.com/advisories/GHSA-v8jm-5vwx-cfxm",
-      "date": "2026-03-04T20:50:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[irrd] IRRd: web UI host header injection allows password reset poisoning via attacker-controlled email links",
-      "url": "https://github.com/advisories/GHSA-22m3-c7vp-49fj",
-      "date": "2026-03-04T20:33:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[irrd] IRRd: web UI host header injection allows password reset poisoning via attacker-controlled email links",
-      "url": "https://github.com/advisories/GHSA-22m3-c7vp-49fj",
-      "date": "2026-03-04T20:33:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openviking] OpenViking contains a Path Traversal vulnerability",
-      "url": "https://github.com/advisories/GHSA-rpqr-j937-6qr9",
-      "date": "2026-03-04T20:25:41.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
