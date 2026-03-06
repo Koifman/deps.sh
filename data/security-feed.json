@@ -1,6 +1,111 @@
 {
-  "fetchedAt": "2026-03-06T22:11:48.194Z",
+  "fetchedAt": "2026-03-06T23:12:29.848Z",
   "entries": [
+    {
+      "title": "[@perfood/couch-auth] @perfood/couch-auth has a host header injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-qw8v-34ww-6q9p",
+      "date": "2026-03-06T23:00:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] parse-server's endpoint `/loginAs` allows `readOnlyMasterKey` to gain full read and write access as any user",
+      "url": "https://github.com/advisories/GHSA-79wj-8rqv-jvp5",
+      "date": "2026-03-06T22:53:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] parse-server's endpoint `/loginAs` allows `readOnlyMasterKey` to gain full read and write access as any user",
+      "url": "https://github.com/advisories/GHSA-79wj-8rqv-jvp5",
+      "date": "2026-03-06T22:53:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] parse-server's file creation and deletion bypasses `readOnlyMasterKey` write restriction",
+      "url": "https://github.com/advisories/GHSA-xfh7-phr7-gr2x",
+      "date": "2026-03-06T22:52:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] parse-server's file creation and deletion bypasses `readOnlyMasterKey` write restriction",
+      "url": "https://github.com/advisories/GHSA-xfh7-phr7-gr2x",
+      "date": "2026-03-06T22:52:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[Markdown] Python-Markdown has an Uncaught Exception",
+      "url": "https://github.com/advisories/GHSA-5wmx-573v-2qwq",
+      "date": "2026-03-06T22:52:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dbt-common] dbt-common's commonprefix() doesn't protect against path traversal",
+      "url": "https://github.com/advisories/GHSA-w75w-9qv4-j5xj",
+      "date": "2026-03-06T22:51:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[dbt-common] dbt-common's commonprefix() doesn't protect against path traversal",
+      "url": "https://github.com/advisories/GHSA-w75w-9qv4-j5xj",
+      "date": "2026-03-06T22:51:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[immutable] Immutable is vulnerable to Prototype Pollution",
+      "url": "https://github.com/advisories/GHSA-wf6x-7x77-mvgw",
+      "date": "2026-03-06T22:51:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[immutable] Immutable is vulnerable to Prototype Pollution",
+      "url": "https://github.com/advisories/GHSA-wf6x-7x77-mvgw",
+      "date": "2026-03-06T22:51:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@fonoster/voice] Fonoster is vulnerable to directory traversal",
+      "url": "https://github.com/advisories/GHSA-9fv2-c7v6-p45w",
+      "date": "2026-03-06T22:46:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ragas] RAGAS has an Arbitrary File Read vulnerability",
+      "url": "https://github.com/advisories/GHSA-v2xr-wvrv-p969",
+      "date": "2026-03-06T22:23:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise Missing Authentication on NVIDIA NIM Endpoints",
+      "url": "https://github.com/advisories/GHSA-5f53-522j-j454",
+      "date": "2026-03-06T22:21:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise has IDOR leading to Account Takeover and Enterprise Feature Bypass via SSO Configuration",
+      "url": "https://github.com/advisories/GHSA-cwc3-p92j-g7qm",
+      "date": "2026-03-06T22:20:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise Allows Mass Assignment in `/api/v1/leads` Endpoint",
+      "url": "https://github.com/advisories/GHSA-mq4r-h2gh-qv7x",
+      "date": "2026-03-06T22:19:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[fast-xml-parser] fast-xml-parser has stack overflow in XMLBuilder with preserveOrder",
       "url": "https://github.com/advisories/GHSA-fj3w-jwp8-x2g3",
@@ -34,111 +139,6 @@
       "url": "https://github.com/advisories/GHSA-7wc2-qxgw-g8gg",
       "date": "2026-03-06T21:56:56.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[immutable] Immutable is vulnerable to Prototype Pollution",
-      "url": "https://github.com/advisories/GHSA-wf6x-7x77-mvgw",
-      "date": "2026-03-06T20:59:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[immutable] Immutable is vulnerable to Prototype Pollution",
-      "url": "https://github.com/advisories/GHSA-wf6x-7x77-mvgw",
-      "date": "2026-03-06T20:59:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise has Arbitrary File Upload via MIME Spoofing",
-      "url": "https://github.com/advisories/GHSA-j8g8-j7fc-43v6",
-      "date": "2026-03-06T18:49:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise has Authorization Bypass via Spoofed x-request-from Header",
-      "url": "https://github.com/advisories/GHSA-wvhq-wp8g-c7vq",
-      "date": "2026-03-06T18:48:24.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mercurius] Mercurius's queryDepth limit bypassed for WebSocket subscriptions",
-      "url": "https://github.com/advisories/GHSA-m4h2-mjfm-mp55",
-      "date": "2026-03-06T18:47:54.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] parse-server's endpoint `/loginAs` allows `readOnlyMasterKey` to gain full read and write access as any user",
-      "url": "https://github.com/advisories/GHSA-79wj-8rqv-jvp5",
-      "date": "2026-03-06T18:46:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] parse-server's endpoint `/loginAs` allows `readOnlyMasterKey` to gain full read and write access as any user",
-      "url": "https://github.com/advisories/GHSA-79wj-8rqv-jvp5",
-      "date": "2026-03-06T18:46:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] parse-server's file creation and deletion bypasses `readOnlyMasterKey` write restriction",
-      "url": "https://github.com/advisories/GHSA-xfh7-phr7-gr2x",
-      "date": "2026-03-06T18:45:39.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] parse-server's file creation and deletion bypasses `readOnlyMasterKey` write restriction",
-      "url": "https://github.com/advisories/GHSA-xfh7-phr7-gr2x",
-      "date": "2026-03-06T18:45:39.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@workflow/core] Vercel Workflow Allows Webhook Creation with Predictable User-Specified Tokens",
-      "url": "https://github.com/advisories/GHSA-9r75-g2cr-3h76",
-      "date": "2026-03-06T18:45:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[workflow] Vercel Workflow Allows Webhook Creation with Predictable User-Specified Tokens",
-      "url": "https://github.com/advisories/GHSA-9r75-g2cr-3h76",
-      "date": "2026-03-06T18:45:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[defuddle] defuddle vulnerable to XSS via unescaped string interpolation in _findContentBySchemaText image tag",
-      "url": "https://github.com/advisories/GHSA-5mq8-78gm-pjmq",
-      "date": "2026-03-06T18:39:38.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[express-rate-limit] express-rate-limit: IPv4-mapped IPv6 addresses bypass per-client rate limiting on servers with dual-stack network",
-      "url": "https://github.com/advisories/GHSA-46wh-pxpv-q5gq",
-      "date": "2026-03-06T18:36:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[express-rate-limit] express-rate-limit: IPv4-mapped IPv6 addresses bypass per-client rate limiting on servers with dual-stack network",
-      "url": "https://github.com/advisories/GHSA-46wh-pxpv-q5gq",
-      "date": "2026-03-06T18:36:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[express-rate-limit] express-rate-limit: IPv4-mapped IPv6 addresses bypass per-client rate limiting on servers with dual-stack network",
-      "url": "https://github.com/advisories/GHSA-46wh-pxpv-q5gq",
-      "date": "2026-03-06T18:36:57.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
