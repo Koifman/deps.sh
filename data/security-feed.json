@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-06T16:18:12.269Z",
+  "fetchedAt": "2026-03-06T17:18:31.447Z",
   "entries": [
+    {
+      "title": "[@github/copilot] GitHub Copilot CLI Dangerous Shell Expansion Patterns Enable Arbitrary Code Execution",
+      "url": "https://github.com/advisories/GHSA-g8r9-g2v8-jv6f",
+      "date": "2026-03-06T16:50:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[irrd] IRRd: web UI host header injection allows password reset poisoning via attacker-controlled email links",
       "url": "https://github.com/advisories/GHSA-22m3-c7vp-49fj",
@@ -129,13 +136,6 @@
       "date": "2026-03-05T21:15:26.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[xgrammar] xgrammar vulnerable to DoS via multi-layer nesting",
-      "url": "https://github.com/advisories/GHSA-7rgv-gqhr-fxg3",
-      "date": "2026-03-05T20:42:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
