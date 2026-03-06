@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-03-06T21:13:14.592Z",
+  "fetchedAt": "2026-03-06T22:11:48.194Z",
   "entries": [
+    {
+      "title": "[fast-xml-parser] fast-xml-parser has stack overflow in XMLBuilder with preserveOrder",
+      "url": "https://github.com/advisories/GHSA-fj3w-jwp8-x2g3",
+      "date": "2026-03-06T22:00:11.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[changedetection.io] changedetection.io has Zip Slip vulnerability in the backup restore functionality",
+      "url": "https://github.com/advisories/GHSA-25g8-2mcf-fcx9",
+      "date": "2026-03-06T21:57:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[changedetection.io] changedetection.io vulnerable to XPath - Arbitrary File Read via unparsed-text()",
+      "url": "https://github.com/advisories/GHSA-6fmw-82m7-jq6p",
+      "date": "2026-03-06T21:57:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[changedetection.io] changedetection.io has Reflected XSS in its RSS Tag Error Response",
+      "url": "https://github.com/advisories/GHSA-8whx-v8qq-pq64",
+      "date": "2026-03-06T21:57:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[authlib] Authlib: Setting `alg: none` and a blank signature appears to bypass signature verification",
+      "url": "https://github.com/advisories/GHSA-7wc2-qxgw-g8gg",
+      "date": "2026-03-06T21:56:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[immutable] Immutable is vulnerable to Prototype Pollution",
       "url": "https://github.com/advisories/GHSA-wf6x-7x77-mvgw",
@@ -105,38 +140,6 @@
       "date": "2026-03-06T18:36:57.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@github/copilot] GitHub Copilot CLI Dangerous Shell Expansion Patterns Enable Arbitrary Code Execution",
-      "url": "https://github.com/advisories/GHSA-g8r9-g2v8-jv6f",
-      "date": "2026-03-06T16:50:16.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[irrd] IRRd: web UI host header injection allows password reset poisoning via attacker-controlled email links",
-      "url": "https://github.com/advisories/GHSA-22m3-c7vp-49fj",
-      "date": "2026-03-06T15:16:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0036: Vulnerability in time-sync",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0036.html",
-      "date": "2026-03-06T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0033: Vulnerability in pingora-core",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0033.html",
-      "date": "2026-03-06T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0034: Vulnerability in pingora-core",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0034.html",
-      "date": "2026-03-06T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
