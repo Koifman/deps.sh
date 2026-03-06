@@ -1,6 +1,30 @@
 {
-  "fetchedAt": "2026-03-06T05:25:30.961Z",
+  "fetchedAt": "2026-03-06T06:24:40.113Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0036: Vulnerability in time-sync",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0036.html",
+      "date": "2026-03-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0033: Vulnerability in pingora-core",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0033.html",
+      "date": "2026-03-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0034: Vulnerability in pingora-core",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0034.html",
+      "date": "2026-03-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0035: Vulnerability in pingora-cache",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0035.html",
+      "date": "2026-03-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[langgraph] LangGraph checkpoint loading has unsafe msgpack deserialization",
       "url": "https://github.com/advisories/GHSA-g48c-2wqr-h844",
@@ -112,32 +136,6 @@
       "date": "2026-03-05T20:42:11.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[dompurify] DOMPurify contains a Cross-site Scripting vulnerability",
-      "url": "https://github.com/advisories/GHSA-v2wj-7wpq-c8vv",
-      "date": "2026-03-05T20:25:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[dompurify] DOMPurify contains a Cross-site Scripting vulnerability",
-      "url": "https://github.com/advisories/GHSA-v2wj-7wpq-c8vv",
-      "date": "2026-03-05T20:25:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0036: Vulnerability in time-sync",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0036.html",
-      "date": "2026-03-05T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0033: Vulnerability in pingora-core",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0033.html",
-      "date": "2026-03-05T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
