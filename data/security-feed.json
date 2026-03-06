@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-03-06T20:13:30.596Z",
+  "fetchedAt": "2026-03-06T21:13:14.592Z",
   "entries": [
+    {
+      "title": "[immutable] Immutable is vulnerable to Prototype Pollution",
+      "url": "https://github.com/advisories/GHSA-wf6x-7x77-mvgw",
+      "date": "2026-03-06T20:59:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[immutable] Immutable is vulnerable to Prototype Pollution",
+      "url": "https://github.com/advisories/GHSA-wf6x-7x77-mvgw",
+      "date": "2026-03-06T20:59:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[flowise] Flowise has Arbitrary File Upload via MIME Spoofing",
       "url": "https://github.com/advisories/GHSA-j8g8-j7fc-43v6",
@@ -123,19 +137,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0034.html",
       "date": "2026-03-06T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0035: Vulnerability in pingora-cache",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0035.html",
-      "date": "2026-03-06T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[langgraph] LangGraph checkpoint loading has unsafe msgpack deserialization",
-      "url": "https://github.com/advisories/GHSA-g48c-2wqr-h844",
-      "date": "2026-03-05T22:37:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
