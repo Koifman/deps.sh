@@ -1,19 +1,19 @@
 {
-  "fetchedAt": "2026-03-07T02:58:58.539Z",
+  "fetchedAt": "2026-03-07T03:47:01.139Z",
   "entries": [
+    {
+      "title": "[@frangoteam/fuxa] FUXA has a hardcoded fallback JWT signing secret",
+      "url": "https://github.com/advisories/GHSA-c8m8-3jcr-6rj5",
+      "date": "2026-03-07T03:16:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@oneuptime/common] OneUptime: Synthetic Monitor RCE via exposed Playwright browser object",
       "url": "https://github.com/advisories/GHSA-4j36-39gm-8vq8",
       "date": "2026-03-07T02:39:05.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[@x402/svm] x402 SDK Security Advisory",
-      "url": "https://github.com/advisories/GHSA-qr2g-p6q7-w82m",
-      "date": "2026-03-07T02:37:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     },
     {
       "title": "[x402] x402 SDK Security Advisory",
@@ -23,18 +23,18 @@
       "severity": "HIGH"
     },
     {
+      "title": "[@x402/svm] x402 SDK Security Advisory",
+      "url": "https://github.com/advisories/GHSA-qr2g-p6q7-w82m",
+      "date": "2026-03-07T02:37:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
       "title": "[shescape] Shescape has possible misidentification of shell due to link chains",
       "url": "https://github.com/advisories/GHSA-6f6w-6j58-rq76",
       "date": "2026-03-07T02:32:00.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[@frangoteam/fuxa] FUXA has a hardcoded fallback JWT signing secret",
-      "url": "https://github.com/advisories/GHSA-c8m8-3jcr-6rj5",
-      "date": "2026-03-07T02:31:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     },
     {
       "title": "[@oneuptime/common] OneUpTime's Unsandboxed Code Execution in Probe Allows Any Project Member to Achieve RCE",
