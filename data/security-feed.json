@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-03-06T23:12:29.848Z",
+  "fetchedAt": "2026-03-07T00:43:06.333Z",
   "entries": [
+    {
+      "title": "[xcode-mcp-server] xcode-mcp-server vulnerable to Command Injection",
+      "url": "https://github.com/advisories/GHSA-84fx-pwf3-7777",
+      "date": "2026-03-06T23:36:04.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] parse-server: Malformed `$regex` query leaks database error details in API response",
+      "url": "https://github.com/advisories/GHSA-9cp7-3q5w-j92g",
+      "date": "2026-03-06T23:25:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] parse-server: Malformed `$regex` query leaks database error details in API response",
+      "url": "https://github.com/advisories/GHSA-9cp7-3q5w-j92g",
+      "date": "2026-03-06T23:25:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@perfood/couch-auth] @perfood/couch-auth has an Observable Timing Discrepancy",
+      "url": "https://github.com/advisories/GHSA-mjqr-5c55-g77h",
+      "date": "2026-03-06T23:11:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@perfood/couch-auth] @perfood/couch-auth has a host header injection vulnerability",
       "url": "https://github.com/advisories/GHSA-qw8v-34ww-6q9p",
@@ -112,34 +140,6 @@
       "date": "2026-03-06T22:00:11.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[changedetection.io] changedetection.io has Zip Slip vulnerability in the backup restore functionality",
-      "url": "https://github.com/advisories/GHSA-25g8-2mcf-fcx9",
-      "date": "2026-03-06T21:57:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[changedetection.io] changedetection.io vulnerable to XPath - Arbitrary File Read via unparsed-text()",
-      "url": "https://github.com/advisories/GHSA-6fmw-82m7-jq6p",
-      "date": "2026-03-06T21:57:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[changedetection.io] changedetection.io has Reflected XSS in its RSS Tag Error Response",
-      "url": "https://github.com/advisories/GHSA-8whx-v8qq-pq64",
-      "date": "2026-03-06T21:57:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[authlib] Authlib: Setting `alg: none` and a blank signature appears to bypass signature verification",
-      "url": "https://github.com/advisories/GHSA-7wc2-qxgw-g8gg",
-      "date": "2026-03-06T21:56:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
