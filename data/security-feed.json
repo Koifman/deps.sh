@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-03-07T01:39:29.830Z",
+  "fetchedAt": "2026-03-07T02:58:58.539Z",
   "entries": [
+    {
+      "title": "[@oneuptime/common] OneUptime: Synthetic Monitor RCE via exposed Playwright browser object",
+      "url": "https://github.com/advisories/GHSA-4j36-39gm-8vq8",
+      "date": "2026-03-07T02:39:05.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@x402/svm] x402 SDK Security Advisory",
+      "url": "https://github.com/advisories/GHSA-qr2g-p6q7-w82m",
+      "date": "2026-03-07T02:37:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[x402] x402 SDK Security Advisory",
+      "url": "https://github.com/advisories/GHSA-qr2g-p6q7-w82m",
+      "date": "2026-03-07T02:37:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[shescape] Shescape has possible misidentification of shell due to link chains",
+      "url": "https://github.com/advisories/GHSA-6f6w-6j58-rq76",
+      "date": "2026-03-07T02:32:00.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@frangoteam/fuxa] FUXA has a hardcoded fallback JWT signing secret",
+      "url": "https://github.com/advisories/GHSA-c8m8-3jcr-6rj5",
+      "date": "2026-03-07T02:31:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@oneuptime/common] OneUpTime's Unsandboxed Code Execution in Probe Allows Any Project Member to Achieve RCE",
+      "url": "https://github.com/advisories/GHSA-h343-gg57-2q67",
+      "date": "2026-03-07T02:30:10.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@powersync/service-sync-rules] PowerSync: Some sync filters ignored on 1.20.0 using `config.edition: 3`",
+      "url": "https://github.com/advisories/GHSA-q6wc-xx4m-92fj",
+      "date": "2026-03-07T02:23:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@powersync/service-core] PowerSync: Some sync filters ignored on 1.20.0 using `config.edition: 3`",
+      "url": "https://github.com/advisories/GHSA-q6wc-xx4m-92fj",
+      "date": "2026-03-07T02:23:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp-memory-service] mcp-memory-service's Wildcard CORS with Credentials Enables Cross-Origin Memory Theft",
+      "url": "https://github.com/advisories/GHSA-g9rg-8vq5-mpwm",
+      "date": "2026-03-07T02:12:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[xcode-mcp-server] xcode-mcp-server vulnerable to Command Injection",
       "url": "https://github.com/advisories/GHSA-84fx-pwf3-7777",
@@ -33,34 +96,6 @@
       "title": "[@perfood/couch-auth] @perfood/couch-auth has a host header injection vulnerability",
       "url": "https://github.com/advisories/GHSA-qw8v-34ww-6q9p",
       "date": "2026-03-06T23:00:44.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] parse-server's endpoint `/loginAs` allows `readOnlyMasterKey` to gain full read and write access as any user",
-      "url": "https://github.com/advisories/GHSA-79wj-8rqv-jvp5",
-      "date": "2026-03-06T22:53:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] parse-server's endpoint `/loginAs` allows `readOnlyMasterKey` to gain full read and write access as any user",
-      "url": "https://github.com/advisories/GHSA-79wj-8rqv-jvp5",
-      "date": "2026-03-06T22:53:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] parse-server's file creation and deletion bypasses `readOnlyMasterKey` write restriction",
-      "url": "https://github.com/advisories/GHSA-xfh7-phr7-gr2x",
-      "date": "2026-03-06T22:52:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] parse-server's file creation and deletion bypasses `readOnlyMasterKey` write restriction",
-      "url": "https://github.com/advisories/GHSA-xfh7-phr7-gr2x",
-      "date": "2026-03-06T22:52:59.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
@@ -105,41 +140,6 @@
       "date": "2026-03-06T22:46:30.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[ragas] RAGAS has an Arbitrary File Read vulnerability",
-      "url": "https://github.com/advisories/GHSA-v2xr-wvrv-p969",
-      "date": "2026-03-06T22:23:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise Missing Authentication on NVIDIA NIM Endpoints",
-      "url": "https://github.com/advisories/GHSA-5f53-522j-j454",
-      "date": "2026-03-06T22:21:38.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise has IDOR leading to Account Takeover and Enterprise Feature Bypass via SSO Configuration",
-      "url": "https://github.com/advisories/GHSA-cwc3-p92j-g7qm",
-      "date": "2026-03-06T22:20:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise Allows Mass Assignment in `/api/v1/leads` Endpoint",
-      "url": "https://github.com/advisories/GHSA-mq4r-h2gh-qv7x",
-      "date": "2026-03-06T22:19:14.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-xml-parser] fast-xml-parser has stack overflow in XMLBuilder with preserveOrder",
-      "url": "https://github.com/advisories/GHSA-fj3w-jwp8-x2g3",
-      "date": "2026-03-06T22:00:11.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
