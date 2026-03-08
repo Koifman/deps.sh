@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-08T04:41:07.017Z",
+  "scannedAt": "2026-03-08T05:27:49.249Z",
   "count": 90,
   "packages": [
     {
@@ -113,6 +113,15 @@
     {
       "name": "enzyme-adapter-utils",
       "version": "1.14.2",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "intelligibabble",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "enzyme-adapter-react-16",
+      "version": "1.15.8",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -651,21 +660,21 @@
       "currentOwner": "vimeo-npmbot"
     },
     {
-      "name": "@lottiefiles/dotlottie-react",
-      "version": "0.18.3",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@hey-api/codegen-core",
       "version": "0.7.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "mrlubos",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@lottiefiles/dotlottie-react",
+      "version": "0.18.3",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -786,15 +795,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-musl",
-      "version": "0.116.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@nevware21/ts-utils",
       "version": "0.13.0",
       "ecosystem": "npm",
@@ -804,13 +804,13 @@
       "currentOwner": "nevware21bot"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
+      "name": "@oxc-minify/binding-linux-x64-musl",
+      "version": "0.116.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }
