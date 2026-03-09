@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-03-09T17:23:32.250Z",
+  "fetchedAt": "2026-03-09T18:24:49.241Z",
   "entries": [
+    {
+      "title": "[parse-server] Parse Server: JWT audience validation bypass in Google, Apple, and Facebook authentication adapters",
+      "url": "https://github.com/advisories/GHSA-x6fw-778m-wr9v",
+      "date": "2026-03-09T17:42:26.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[parse-server] Parse Server: JWT audience validation bypass in Google, Apple, and Facebook authentication adapters",
+      "url": "https://github.com/advisories/GHSA-x6fw-778m-wr9v",
+      "date": "2026-03-09T17:42:26.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[parse-server] Parse Server: GraphQL `__type` introspection bypass via inline fragments when public introspection is disabled",
+      "url": "https://github.com/advisories/GHSA-q5q9-2rhp-33qw",
+      "date": "2026-03-09T17:42:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server: File metadata endpoint bypasses `beforeFind` / `afterFind` trigger authorization",
+      "url": "https://github.com/advisories/GHSA-hwx8-q9cg-mqmc",
+      "date": "2026-03-09T17:42:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server: File metadata endpoint bypasses `beforeFind` / `afterFind` trigger authorization",
+      "url": "https://github.com/advisories/GHSA-hwx8-q9cg-mqmc",
+      "date": "2026-03-09T17:42:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server: `PagesRouter` path traversal allows reading files outside configured pages directory",
+      "url": "https://github.com/advisories/GHSA-hm3f-q6rw-m6wh",
+      "date": "2026-03-09T17:41:55.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server: `PagesRouter` path traversal allows reading files outside configured pages directory",
+      "url": "https://github.com/advisories/GHSA-hm3f-q6rw-m6wh",
+      "date": "2026-03-09T17:41:55.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@oneuptime/common] OneUptime has broken access control in GitHub App installation flow that allows unauthorized project binding",
+      "url": "https://github.com/advisories/GHSA-656w-6f6c-m9r6",
+      "date": "2026-03-09T17:29:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@budibase/server] @budibase/server: Command Injection in PostgreSQL Dump Command",
       "url": "https://github.com/advisories/GHSA-726g-59wr-cj4c",
@@ -72,27 +128,6 @@
       "severity": "MODERATE"
     },
     {
-      "title": "[flowise] Flowise Missing Authentication on NVIDIA NIM Endpoints",
-      "url": "https://github.com/advisories/GHSA-5f53-522j-j454",
-      "date": "2026-03-09T13:15:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise has IDOR leading to Account Takeover and Enterprise Feature Bypass via SSO Configuration",
-      "url": "https://github.com/advisories/GHSA-cwc3-p92j-g7qm",
-      "date": "2026-03-09T13:15:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise Allows Mass Assignment in `/api/v1/leads` Endpoint",
-      "url": "https://github.com/advisories/GHSA-mq4r-h2gh-qv7x",
-      "date": "2026-03-09T13:15:31.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
       "title": "[plane] Plane is Vulnerable to Unauthenticated Workspace Member Information Disclosure",
       "url": "https://github.com/advisories/GHSA-87x4-j8vh-p5qf",
       "date": "2026-03-09T13:12:18.000Z",
@@ -105,41 +140,6 @@
       "date": "2026-03-09T13:12:14.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@frangoteam/fuxa] FUXA has a hardcoded fallback JWT signing secret",
-      "url": "https://github.com/advisories/GHSA-c8m8-3jcr-6rj5",
-      "date": "2026-03-07T03:16:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[x402] x402 SDK Security Advisory",
-      "url": "https://github.com/advisories/GHSA-qr2g-p6q7-w82m",
-      "date": "2026-03-07T02:37:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@x402/svm] x402 SDK Security Advisory",
-      "url": "https://github.com/advisories/GHSA-qr2g-p6q7-w82m",
-      "date": "2026-03-07T02:37:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mcp-memory-service] mcp-memory-service's Wildcard CORS with Credentials Enables Cross-Origin Memory Theft",
-      "url": "https://github.com/advisories/GHSA-g9rg-8vq5-mpwm",
-      "date": "2026-03-07T02:12:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[xcode-mcp-server] xcode-mcp-server vulnerable to Command Injection",
-      "url": "https://github.com/advisories/GHSA-84fx-pwf3-7777",
-      "date": "2026-03-06T23:36:04.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
