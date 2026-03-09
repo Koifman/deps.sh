@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-03-09T15:27:10.964Z",
+  "fetchedAt": "2026-03-09T16:28:43.042Z",
   "entries": [
+    {
+      "title": "[mcp-memory-service] mcp-memory-service Vulnerable to System Information Disclosure via Health Endpoint",
+      "url": "https://github.com/advisories/GHSA-73hc-m4hx-79pj",
+      "date": "2026-03-09T15:50:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyload-ng] pyLoad has an Arbitrary File Write via Path Traversal in edit_package()",
+      "url": "https://github.com/advisories/GHSA-6px9-j4qr-xfjw",
+      "date": "2026-03-09T15:49:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[eml-parser] eml_parser: Path Traversal in Official Example Script Leads to Arbitrary File Write",
+      "url": "https://github.com/advisories/GHSA-389r-rccm-h3h5",
+      "date": "2026-03-09T15:49:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@oneuptime/common] OneUptime: Synthetic Monitor RCE via exposed Playwright browser object",
+      "url": "https://github.com/advisories/GHSA-4j36-39gm-8vq8",
+      "date": "2026-03-09T15:49:04.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[shescape] Shescape has possible misidentification of shell due to link chains",
+      "url": "https://github.com/advisories/GHSA-6f6w-6j58-rq76",
+      "date": "2026-03-09T15:48:54.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@oneuptime/common] OneUpTime's Unsandboxed Code Execution in Probe Allows Any Project Member to Achieve RCE",
+      "url": "https://github.com/advisories/GHSA-h343-gg57-2q67",
+      "date": "2026-03-09T15:47:35.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@powersync/service-sync-rules] PowerSync: Some sync filters ignored on 1.20.0 using `config.edition: 3`",
+      "url": "https://github.com/advisories/GHSA-q6wc-xx4m-92fj",
+      "date": "2026-03-09T15:47:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@powersync/service-core] PowerSync: Some sync filters ignored on 1.20.0 using `config.edition: 3`",
+      "url": "https://github.com/advisories/GHSA-q6wc-xx4m-92fj",
+      "date": "2026-03-09T15:47:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[langgraph] LangGraph checkpoint loading has unsafe msgpack deserialization",
       "url": "https://github.com/advisories/GHSA-g48c-2wqr-h844",
@@ -58,13 +114,6 @@
       "severity": "HIGH"
     },
     {
-      "title": "[@oneuptime/common] OneUptime: Synthetic Monitor RCE via exposed Playwright browser object",
-      "url": "https://github.com/advisories/GHSA-4j36-39gm-8vq8",
-      "date": "2026-03-07T02:39:05.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
       "title": "[@x402/svm] x402 SDK Security Advisory",
       "url": "https://github.com/advisories/GHSA-qr2g-p6q7-w82m",
       "date": "2026-03-07T02:37:48.000Z",
@@ -79,34 +128,6 @@
       "severity": "HIGH"
     },
     {
-      "title": "[shescape] Shescape has possible misidentification of shell due to link chains",
-      "url": "https://github.com/advisories/GHSA-6f6w-6j58-rq76",
-      "date": "2026-03-07T02:32:00.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@oneuptime/common] OneUpTime's Unsandboxed Code Execution in Probe Allows Any Project Member to Achieve RCE",
-      "url": "https://github.com/advisories/GHSA-h343-gg57-2q67",
-      "date": "2026-03-07T02:30:10.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@powersync/service-sync-rules] PowerSync: Some sync filters ignored on 1.20.0 using `config.edition: 3`",
-      "url": "https://github.com/advisories/GHSA-q6wc-xx4m-92fj",
-      "date": "2026-03-07T02:23:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@powersync/service-core] PowerSync: Some sync filters ignored on 1.20.0 using `config.edition: 3`",
-      "url": "https://github.com/advisories/GHSA-q6wc-xx4m-92fj",
-      "date": "2026-03-07T02:23:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
       "title": "[mcp-memory-service] mcp-memory-service's Wildcard CORS with Credentials Enables Cross-Origin Memory Theft",
       "url": "https://github.com/advisories/GHSA-g9rg-8vq5-mpwm",
       "date": "2026-03-07T02:12:28.000Z",
@@ -119,27 +140,6 @@
       "date": "2026-03-06T23:36:04.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] parse-server: Malformed `$regex` query leaks database error details in API response",
-      "url": "https://github.com/advisories/GHSA-9cp7-3q5w-j92g",
-      "date": "2026-03-06T23:25:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] parse-server: Malformed `$regex` query leaks database error details in API response",
-      "url": "https://github.com/advisories/GHSA-9cp7-3q5w-j92g",
-      "date": "2026-03-06T23:25:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@perfood/couch-auth] @perfood/couch-auth has an Observable Timing Discrepancy",
-      "url": "https://github.com/advisories/GHSA-mjqr-5c55-g77h",
-      "date": "2026-03-06T23:11:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
