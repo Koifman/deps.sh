@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-09T03:13:10.379Z",
+  "scannedAt": "2026-03-09T04:45:28.838Z",
   "count": 98,
   "packages": [
     {
@@ -471,21 +471,21 @@
       "currentOwner": "redux-saga-release-bot"
     },
     {
-      "name": "@appium/base-driver",
-      "version": "10.2.1",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "dependency-cruiser",
       "version": "17.3.8",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "sverweij",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/base-driver",
+      "version": "10.2.1",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -633,15 +633,6 @@
       "currentOwner": "notaphplover"
     },
     {
-      "name": "resedit",
-      "version": "3.0.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jet2jet",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/logger",
       "version": "2.0.5",
       "ecosystem": "npm",
@@ -651,8 +642,26 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "resedit",
+      "version": "3.0.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jet2jet",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@appium/types",
       "version": "1.2.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/schema",
+      "version": "1.1.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -667,15 +676,6 @@
       "level": "MODERATE",
       "previousOwner": "yelouafi",
       "currentOwner": "redux-saga-release-bot"
-    },
-    {
-      "name": "@appium/schema",
-      "version": "1.1.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "cropperjs",
@@ -723,6 +723,15 @@
       "currentOwner": "vimeo-npmbot"
     },
     {
+      "name": "@hey-api/codegen-core",
+      "version": "0.7.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "mrlubos",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@lottiefiles/dotlottie-react",
       "version": "0.18.3",
       "ecosystem": "npm",
@@ -732,12 +741,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@hey-api/codegen-core",
-      "version": "0.7.1",
+      "name": "@appium/base-plugin",
+      "version": "3.1.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "mrlubos",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -840,6 +849,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.116.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@lottiefiles/dotlottie-web",
       "version": "0.65.0",
       "ecosystem": "npm",
@@ -849,7 +867,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "name": "@oxc-minify/binding-linux-x64-musl",
       "version": "0.116.0",
       "ecosystem": "npm",
       "score": 20,
@@ -865,24 +883,6 @@
       "level": "LOW",
       "previousOwner": "nev21",
       "currentOwner": "nevware21bot"
-    },
-    {
-      "name": "@oxc-minify/binding-linux-x64-musl",
-      "version": "0.116.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
     }
   ]
 }
