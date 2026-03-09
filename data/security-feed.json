@@ -1,6 +1,97 @@
 {
-  "fetchedAt": "2026-03-09T19:21:31.183Z",
+  "fetchedAt": "2026-03-09T20:14:20.331Z",
   "entries": [
+    {
+      "title": "[vllm] vLLM has SSRF Protection Bypass",
+      "url": "https://github.com/advisories/GHSA-v359-jj2v-j536",
+      "date": "2026-03-09T19:55:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Sandboxed /acp spawn requests could initialize host ACP sessions",
+      "url": "https://github.com/advisories/GHSA-9q36-67vc-rrwg",
+      "date": "2026-03-09T19:54:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: system.run allow-always persistence included shell-commented payload tails",
+      "url": "https://github.com/advisories/GHSA-9q2p-vc84-2rwm",
+      "date": "2026-03-09T19:54:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: `operator.write` chat.send could reach admin-only config writes",
+      "url": "https://github.com/advisories/GHSA-hfpr-jhpq-x4rm",
+      "date": "2026-03-09T19:54:43.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: system.run wrapper-depth boundary could skip shell approval gating",
+      "url": "https://github.com/advisories/GHSA-r6qf-8968-wj9q",
+      "date": "2026-03-09T19:54:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: fetch-guard forwards custom authorization headers across cross-origin redirects",
+      "url": "https://github.com/advisories/GHSA-6mgf-v5j7-45cr",
+      "date": "2026-03-09T19:54:23.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Cross-account sender authorization expansion in `/allowlist ... --store` account scoping",
+      "url": "https://github.com/advisories/GHSA-pjvx-rx66-r3fg",
+      "date": "2026-03-09T19:54:09.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's system.run allowlist approval parsing missed PowerShell encoded-command wrappers",
+      "url": "https://github.com/advisories/GHSA-3h2q-j2v4-6w5r",
+      "date": "2026-03-09T19:53:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's `system.run` env override filtering allowed dangerous helper-command pivots",
+      "url": "https://github.com/advisories/GHSA-j425-whc4-4jgc",
+      "date": "2026-03-09T19:53:03.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's hooks count non-POST requests toward auth lockout",
+      "url": "https://github.com/advisories/GHSA-6rmx-gvvg-vh6j",
+      "date": "2026-03-09T19:52:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's dashboard leaked gateway auth material via browser URL/query and localStorage",
+      "url": "https://github.com/advisories/GHSA-rchv-x836-w7xp",
+      "date": "2026-03-09T19:52:33.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Glances] Glances has SQL Injection via Process Names in TimescaleDB Export",
+      "url": "https://github.com/advisories/GHSA-x46r-mf5g-xpr6",
+      "date": "2026-03-09T19:51:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[glances] Glances Exposes Unauthenticated Configuration Secrets",
+      "url": "https://github.com/advisories/GHSA-gh4x-f7cq-wwx6",
+      "date": "2026-03-09T19:50:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[parse-server] Parse Server: JWT audience validation bypass in Google, Apple, and Facebook authentication adapters",
       "url": "https://github.com/advisories/GHSA-x6fw-778m-wr9v",
@@ -49,97 +140,6 @@
       "date": "2026-03-09T17:41:55.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@oneuptime/common] OneUptime has broken access control in GitHub App installation flow that allows unauthorized project binding",
-      "url": "https://github.com/advisories/GHSA-656w-6f6c-m9r6",
-      "date": "2026-03-09T17:29:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] @budibase/server: Command Injection in PostgreSQL Dump Command",
-      "url": "https://github.com/advisories/GHSA-726g-59wr-cj4c",
-      "date": "2026-03-09T16:56:26.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[mcp-memory-service] mcp-memory-service Vulnerable to System Information Disclosure via Health Endpoint",
-      "url": "https://github.com/advisories/GHSA-73hc-m4hx-79pj",
-      "date": "2026-03-09T15:50:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyload-ng] pyLoad has an Arbitrary File Write via Path Traversal in edit_package()",
-      "url": "https://github.com/advisories/GHSA-6px9-j4qr-xfjw",
-      "date": "2026-03-09T15:49:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[eml-parser] eml_parser: Path Traversal in Official Example Script Leads to Arbitrary File Write",
-      "url": "https://github.com/advisories/GHSA-389r-rccm-h3h5",
-      "date": "2026-03-09T15:49:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@oneuptime/common] OneUptime: Synthetic Monitor RCE via exposed Playwright browser object",
-      "url": "https://github.com/advisories/GHSA-4j36-39gm-8vq8",
-      "date": "2026-03-09T15:49:04.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[shescape] Shescape has possible misidentification of shell due to link chains",
-      "url": "https://github.com/advisories/GHSA-6f6w-6j58-rq76",
-      "date": "2026-03-09T15:48:54.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@oneuptime/common] OneUpTime's Unsandboxed Code Execution in Probe Allows Any Project Member to Achieve RCE",
-      "url": "https://github.com/advisories/GHSA-h343-gg57-2q67",
-      "date": "2026-03-09T15:47:35.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@powersync/service-sync-rules] PowerSync: Some sync filters ignored on 1.20.0 using `config.edition: 3`",
-      "url": "https://github.com/advisories/GHSA-q6wc-xx4m-92fj",
-      "date": "2026-03-09T15:47:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@powersync/service-core] PowerSync: Some sync filters ignored on 1.20.0 using `config.edition: 3`",
-      "url": "https://github.com/advisories/GHSA-q6wc-xx4m-92fj",
-      "date": "2026-03-09T15:47:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langgraph] LangGraph checkpoint loading has unsafe msgpack deserialization",
-      "url": "https://github.com/advisories/GHSA-g48c-2wqr-h844",
-      "date": "2026-03-09T13:19:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[plane] Plane is Vulnerable to Unauthenticated Workspace Member Information Disclosure",
-      "url": "https://github.com/advisories/GHSA-87x4-j8vh-p5qf",
-      "date": "2026-03-09T13:12:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[plane] Plane has SSRF via Incomplete IP Validation in Webhook URL Serializer",
-      "url": "https://github.com/advisories/GHSA-fpx8-73gf-7x73",
-      "date": "2026-03-09T13:12:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
