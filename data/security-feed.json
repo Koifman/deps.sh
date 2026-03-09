@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-09T16:28:43.042Z",
+  "fetchedAt": "2026-03-09T17:23:32.250Z",
   "entries": [
+    {
+      "title": "[@budibase/server] @budibase/server: Command Injection in PostgreSQL Dump Command",
+      "url": "https://github.com/advisories/GHSA-726g-59wr-cj4c",
+      "date": "2026-03-09T16:56:26.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[mcp-memory-service] mcp-memory-service Vulnerable to System Information Disclosure via Health Endpoint",
       "url": "https://github.com/advisories/GHSA-73hc-m4hx-79pj",
@@ -86,13 +93,6 @@
       "severity": "HIGH"
     },
     {
-      "title": "[flowise] Flowise has Arbitrary File Upload via MIME Spoofing",
-      "url": "https://github.com/advisories/GHSA-j8g8-j7fc-43v6",
-      "date": "2026-03-09T13:15:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
       "title": "[plane] Plane is Vulnerable to Unauthenticated Workspace Member Information Disclosure",
       "url": "https://github.com/advisories/GHSA-87x4-j8vh-p5qf",
       "date": "2026-03-09T13:12:18.000Z",
@@ -114,17 +114,17 @@
       "severity": "HIGH"
     },
     {
-      "title": "[@x402/svm] x402 SDK Security Advisory",
-      "url": "https://github.com/advisories/GHSA-qr2g-p6q7-w82m",
-      "date": "2026-03-07T02:37:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
       "title": "[x402] x402 SDK Security Advisory",
       "url": "https://github.com/advisories/GHSA-qr2g-p6q7-w82m",
       "date": "2026-03-07T02:37:48.000Z",
       "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@x402/svm] x402 SDK Security Advisory",
+      "url": "https://github.com/advisories/GHSA-qr2g-p6q7-w82m",
+      "date": "2026-03-07T02:37:48.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
