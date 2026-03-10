@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-10T03:05:05.697Z",
+  "fetchedAt": "2026-03-10T04:39:25.773Z",
   "entries": [
+    {
+      "title": "[vllm] vLLM has SSRF Protection Bypass",
+      "url": "https://github.com/advisories/GHSA-v359-jj2v-j536",
+      "date": "2026-03-10T03:09:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[apache-airflow-providers-amazon] Apache Airflow AWS Auth Manager has Host Header Injection Leading to SAML Authentication Bypass",
       "url": "https://github.com/advisories/GHSA-rv5f-ccpm-xjj4",
@@ -98,13 +105,6 @@
       "date": "2026-03-10T00:57:19.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[vllm] vLLM has SSRF Protection Bypass",
-      "url": "https://github.com/advisories/GHSA-v359-jj2v-j536",
-      "date": "2026-03-10T00:52:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     },
     {
       "title": "[openclaw] OpenClaw: Sandboxed /acp spawn requests could initialize host ACP sessions",
