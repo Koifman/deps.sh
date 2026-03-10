@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-10T17:22:44.114Z",
+  "fetchedAt": "2026-03-10T18:24:48.232Z",
   "entries": [
+    {
+      "title": "[asyncmy] asyncmy is vulnerable to SQL injection via crafted dict keys",
+      "url": "https://github.com/advisories/GHSA-qhqw-rrw9-25rm",
+      "date": "2026-03-10T17:50:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0038: Vulnerability in rssn",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0038.html",
@@ -130,13 +137,6 @@
       "title": "[openclaw] OpenClaw: `operator.write` chat.send could reach admin-only config writes",
       "url": "https://github.com/advisories/GHSA-hfpr-jhpq-x4rm",
       "date": "2026-03-09T19:54:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: system.run wrapper-depth boundary could skip shell approval gating",
-      "url": "https://github.com/advisories/GHSA-r6qf-8968-wj9q",
-      "date": "2026-03-09T19:54:28.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
