@@ -1,144 +1,145 @@
 {
-  "fetchedAt": "2026-03-10T18:24:48.232Z",
+  "fetchedAt": "2026-03-10T19:21:07.454Z",
   "entries": [
     {
-      "title": "[asyncmy] asyncmy is vulnerable to SQL injection via crafted dict keys",
-      "url": "https://github.com/advisories/GHSA-qhqw-rrw9-25rm",
-      "date": "2026-03-10T17:50:58.000Z",
+      "title": "[mcp-atlassian] MCP Atlassian has an arbitrary file write leading to arbitrary code execution via unconstrained download_path in confluence_download_attachment",
+      "url": "https://github.com/advisories/GHSA-xjgw-4wvw-rgm4",
+      "date": "2026-03-10T18:56:11.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "RUSTSEC-2026-0038: Vulnerability in rssn",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0038.html",
-      "date": "2026-03-10T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[mcp-atlassian] MCP Atlassian has SSRF via unvalidated X-Atlassian-Jira-Url / X-Atlassian-Confluence-Url headers",
+      "url": "https://github.com/advisories/GHSA-7r34-79r5-rcc9",
+      "date": "2026-03-10T18:48:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     },
     {
-      "title": "[vllm] vLLM has SSRF Protection Bypass",
-      "url": "https://github.com/advisories/GHSA-v359-jj2v-j536",
-      "date": "2026-03-10T03:09:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow-providers-amazon] Apache Airflow AWS Auth Manager has Host Header Injection Leading to SAML Authentication Bypass",
-      "url": "https://github.com/advisories/GHSA-rv5f-ccpm-xjj4",
-      "date": "2026-03-10T01:22:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow-providers-http] Apache Airflow Providers Http has Unsafe Pickle Deserializatio leading to RCE via HttpOperator",
-      "url": "https://github.com/advisories/GHSA-9r5j-7r2x-rv4g",
-      "date": "2026-03-10T01:21:25.000Z",
-      "ecosystem": "pypi",
+      "title": "[studiocms] StudioCMS has Privilege Escalation via Insecure API Token Generation",
+      "url": "https://github.com/advisories/GHSA-667w-mmh7-mrr4",
+      "date": "2026-03-10T18:45:50.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
       "title": "[copyparty] copyparty: volflag `nohtml` did not block javascript in svg files",
       "url": "https://github.com/advisories/GHSA-m6hv-x64c-27mm",
-      "date": "2026-03-10T01:20:20.000Z",
+      "date": "2026-03-10T18:45:40.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
       "title": "[@oneuptime/common] OneUptime has WhatsApp Resend Verification Authorization Bypass",
       "url": "https://github.com/advisories/GHSA-cw6x-mw64-q6pv",
-      "date": "2026-03-10T01:15:31.000Z",
+      "date": "2026-03-10T18:45:25.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
       "title": "[@oneuptime/common] OneUptime has Synthetic Monitor RCE via exposed Playwright browser object",
       "url": "https://github.com/advisories/GHSA-jw8q-gjvg-8w4q",
-      "date": "2026-03-10T01:13:01.000Z",
+      "date": "2026-03-10T18:45:14.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
       "title": "[@oneuptime/common] OneUptime has authorization bypass via client‑controlled is-multi-tenant-query header that leads to cross‑tenant data exposure and account takeover",
       "url": "https://github.com/advisories/GHSA-r5v6-2599-9g3m",
-      "date": "2026-03-10T01:09:41.000Z",
+      "date": "2026-03-10T18:45:04.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[liquidjs] liquidjs has a path traversal fallback vulnerability",
-      "url": "https://github.com/advisories/GHSA-wmfp-5q7x-987x",
-      "date": "2026-03-10T01:04:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@actual-app/sync-server] Actual Sync Server has an Authenticated Path Traversal",
-      "url": "https://github.com/advisories/GHSA-27vg-33gh-4hwg",
-      "date": "2026-03-10T01:02:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
       "title": "[parse-server] Parse Server has Denial of Service (DoS) and Cloud Function Dispatch Bypass via Prototype Chain Resolution",
       "url": "https://github.com/advisories/GHSA-5j86-7r7m-p8h6",
-      "date": "2026-03-10T00:57:59.000Z",
+      "date": "2026-03-10T18:44:54.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
       "title": "[parse-server] Parse Server has Denial of Service (DoS) and Cloud Function Dispatch Bypass via Prototype Chain Resolution",
       "url": "https://github.com/advisories/GHSA-5j86-7r7m-p8h6",
-      "date": "2026-03-10T00:57:59.000Z",
+      "date": "2026-03-10T18:44:54.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
       "title": "[parse-server] Parse Server has denylist `requestKeywordDenylist` keyword scan bypass through nested object placement",
       "url": "https://github.com/advisories/GHSA-q342-9w2p-57fp",
-      "date": "2026-03-10T00:57:39.000Z",
+      "date": "2026-03-10T18:44:49.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
       "title": "[parse-server] Parse Server has denylist `requestKeywordDenylist` keyword scan bypass through nested object placement",
       "url": "https://github.com/advisories/GHSA-q342-9w2p-57fp",
-      "date": "2026-03-10T00:57:39.000Z",
+      "date": "2026-03-10T18:44:49.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
+      "title": "[Glances] Glances has SQL Injection via Process Names in TimescaleDB Export",
+      "url": "https://github.com/advisories/GHSA-x46r-mf5g-xpr6",
+      "date": "2026-03-10T18:44:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[glances] Glances Exposes Unauthenticated Configuration Secrets",
+      "url": "https://github.com/advisories/GHSA-gh4x-f7cq-wwx6",
+      "date": "2026-03-10T18:44:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
       "title": "[parse-server] Parse Server has Regular Expression Denial of Service (ReDoS) via `$regex` query in LiveQuery",
       "url": "https://github.com/advisories/GHSA-mf3j-86qx-cq5j",
-      "date": "2026-03-10T00:57:19.000Z",
+      "date": "2026-03-10T18:44:30.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
       "title": "[parse-server] Parse Server has Regular Expression Denial of Service (ReDoS) via `$regex` query in LiveQuery",
       "url": "https://github.com/advisories/GHSA-mf3j-86qx-cq5j",
-      "date": "2026-03-10T00:57:19.000Z",
+      "date": "2026-03-10T18:44:30.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] OpenClaw: Sandboxed /acp spawn requests could initialize host ACP sessions",
-      "url": "https://github.com/advisories/GHSA-9q36-67vc-rrwg",
-      "date": "2026-03-09T19:54:54.000Z",
-      "ecosystem": "npm",
+      "title": "[vllm] vLLM has SSRF Protection Bypass",
+      "url": "https://github.com/advisories/GHSA-v359-jj2v-j536",
+      "date": "2026-03-10T18:39:23.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: system.run allow-always persistence included shell-commented payload tails",
-      "url": "https://github.com/advisories/GHSA-9q2p-vc84-2rwm",
-      "date": "2026-03-09T19:54:48.000Z",
+      "title": "[simple-git] simple-git has blockUnsafeOperationsPlugin bypass via case-insensitive protocol.allow config key enables RCE",
+      "url": "https://github.com/advisories/GHSA-r275-fr43-pm7q",
+      "date": "2026-03-10T18:38:58.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[openclaw] OpenClaw: `operator.write` chat.send could reach admin-only config writes",
-      "url": "https://github.com/advisories/GHSA-hfpr-jhpq-x4rm",
-      "date": "2026-03-09T19:54:43.000Z",
+      "title": "[parse-server] Parse Server: SQL injection via dot-notation field name in PostgreSQL",
+      "url": "https://github.com/advisories/GHSA-qpr4-jrj4-6f27",
+      "date": "2026-03-10T18:25:28.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[parse-server] Parse Server: SQL injection via dot-notation field name in PostgreSQL",
+      "url": "https://github.com/advisories/GHSA-qpr4-jrj4-6f27",
+      "date": "2026-03-10T18:25:28.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[asyncmy] asyncmy is vulnerable to SQL injection via crafted dict keys",
+      "url": "https://github.com/advisories/GHSA-qhqw-rrw9-25rm",
+      "date": "2026-03-10T17:50:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
     }
   ]
 }
