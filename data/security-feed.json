@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-03-10T20:14:19.285Z",
+  "fetchedAt": "2026-03-10T21:14:27.002Z",
   "entries": [
+    {
+      "title": "[elysia] Elysia has a string URL format ReDoS",
+      "url": "https://github.com/advisories/GHSA-f45g-68q3-5w8x",
+      "date": "2026-03-10T21:04:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@feathersjs/mongodb] Feathers has a NoSQL Injection via WebSocket id Parameter in MongoDB Adapter",
+      "url": "https://github.com/advisories/GHSA-p9xr-7p9p-gpqx",
+      "date": "2026-03-10T21:03:43.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@feathersjs/authentication-oauth] Feathers has an OAuth Callback Account Takeover issue",
+      "url": "https://github.com/advisories/GHSA-wg9x-qfgw-pxhj",
+      "date": "2026-03-10T21:03:29.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[mcp-atlassian] MCP Atlassian has an arbitrary file write leading to arbitrary code execution via unconstrained download_path in confluence_download_attachment",
       "url": "https://github.com/advisories/GHSA-xjgw-4wvw-rgm4",
@@ -118,27 +139,6 @@
       "url": "https://github.com/advisories/GHSA-r275-fr43-pm7q",
       "date": "2026-03-10T18:38:58.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[parse-server] Parse Server: SQL injection via dot-notation field name in PostgreSQL",
-      "url": "https://github.com/advisories/GHSA-qpr4-jrj4-6f27",
-      "date": "2026-03-10T18:25:28.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[parse-server] Parse Server: SQL injection via dot-notation field name in PostgreSQL",
-      "url": "https://github.com/advisories/GHSA-qpr4-jrj4-6f27",
-      "date": "2026-03-10T18:25:28.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[asyncmy] asyncmy is vulnerable to SQL injection via crafted dict keys",
-      "url": "https://github.com/advisories/GHSA-qhqw-rrw9-25rm",
-      "date": "2026-03-10T17:50:58.000Z",
-      "ecosystem": "pypi",
       "severity": "CRITICAL"
     }
   ]
