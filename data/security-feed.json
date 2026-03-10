@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-03-10T10:20:22.115Z",
+  "fetchedAt": "2026-03-10T11:17:31.436Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0038: Vulnerability in rssn",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0038.html",
+      "date": "2026-03-10T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[vllm] vLLM has SSRF Protection Bypass",
       "url": "https://github.com/advisories/GHSA-v359-jj2v-j536",
@@ -133,13 +139,6 @@
       "date": "2026-03-09T19:54:28.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: fetch-guard forwards custom authorization headers across cross-origin redirects",
-      "url": "https://github.com/advisories/GHSA-6mgf-v5j7-45cr",
-      "date": "2026-03-09T19:54:23.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
