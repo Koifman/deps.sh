@@ -1,24 +1,31 @@
 {
-  "fetchedAt": "2026-03-10T22:11:30.970Z",
+  "fetchedAt": "2026-03-10T23:12:08.044Z",
   "entries": [
+    {
+      "title": "[liquidjs] liquidjs has a path traversal fallback vulnerability",
+      "url": "https://github.com/advisories/GHSA-wmfp-5q7x-987x",
+      "date": "2026-03-10T22:55:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[elysia] Elysia has a string URL format ReDoS",
       "url": "https://github.com/advisories/GHSA-f45g-68q3-5w8x",
-      "date": "2026-03-10T21:04:28.000Z",
+      "date": "2026-03-10T22:55:50.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
       "title": "[@feathersjs/mongodb] Feathers has a NoSQL Injection via WebSocket id Parameter in MongoDB Adapter",
       "url": "https://github.com/advisories/GHSA-p9xr-7p9p-gpqx",
-      "date": "2026-03-10T21:03:43.000Z",
+      "date": "2026-03-10T22:55:45.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
       "title": "[@feathersjs/authentication-oauth] Feathers has an OAuth Callback Account Takeover issue",
       "url": "https://github.com/advisories/GHSA-wg9x-qfgw-pxhj",
-      "date": "2026-03-10T21:03:29.000Z",
+      "date": "2026-03-10T22:55:36.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
@@ -133,13 +140,6 @@
       "date": "2026-03-10T18:39:23.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[simple-git] simple-git has blockUnsafeOperationsPlugin bypass via case-insensitive protocol.allow config key enables RCE",
-      "url": "https://github.com/advisories/GHSA-r275-fr43-pm7q",
-      "date": "2026-03-10T18:38:58.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
