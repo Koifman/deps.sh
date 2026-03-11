@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-11T07:27:35.425Z",
-  "count": 97,
+  "scannedAt": "2026-03-11T08:22:01.315Z",
+  "count": 98,
   "packages": [
     {
       "name": "xmldom",
@@ -113,6 +113,15 @@
     {
       "name": "enzyme-adapter-utils",
       "version": "1.14.2",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "intelligibabble",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "enzyme-adapter-react-16",
+      "version": "1.15.8",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -363,15 +372,6 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "embla-carousel-react",
-      "version": "8.6.0",
-      "ecosystem": "npm",
-      "score": 27,
-      "level": "MODERATE",
-      "previousOwner": "davidcetinkaya",
-      "currentOwner": "davidjerleke"
-    },
-    {
       "name": "@azure/core-lro",
       "version": "3.3.1",
       "ecosystem": "npm",
@@ -379,6 +379,15 @@
       "level": "MODERATE",
       "previousOwner": "azure-sdk",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "embla-carousel-react",
+      "version": "8.6.0",
+      "ecosystem": "npm",
+      "score": 27,
+      "level": "MODERATE",
+      "previousOwner": "davidcetinkaya",
+      "currentOwner": "davidjerleke"
     },
     {
       "name": "remark-mdx",
@@ -633,21 +642,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.1.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "resedit",
       "version": "3.0.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jet2jet",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/schema",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
