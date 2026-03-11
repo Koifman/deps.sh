@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-03-11T21:14:16.829Z",
+  "fetchedAt": "2026-03-11T22:12:07.849Z",
   "entries": [
+    {
+      "title": "[shescape] Shescape escape() leaves bracket glob expansion active on Bash, BusyBox, and Dash",
+      "url": "https://github.com/advisories/GHSA-9jfh-9xrq-4vwm",
+      "date": "2026-03-11T21:38:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server vulnerable to user enumeration via email verification endpoint",
+      "url": "https://github.com/advisories/GHSA-w54v-hf9p-8856",
+      "date": "2026-03-11T21:37:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server vulnerable to user enumeration via email verification endpoint",
+      "url": "https://github.com/advisories/GHSA-w54v-hf9p-8856",
+      "date": "2026-03-11T21:37:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pdfmake] pdfmake is vulnerable to server-side request forgery (SSRF)",
+      "url": "https://github.com/advisories/GHSA-wp52-r2fp-4vmr",
+      "date": "2026-03-11T21:12:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@siteboon/claude-code-ui] @siteboon/claude-code-ui Vulnerable to Unauthenticated RCE via WebSocket Shell Injection",
       "url": "https://github.com/advisories/GHSA-gv8f-wpm2-m5wr",
@@ -93,13 +121,6 @@
       "severity": "HIGH"
     },
     {
-      "title": "[shescape] Shescape escape() leaves bracket glob expansion active on Bash, BusyBox, and Dash",
-      "url": "https://github.com/advisories/GHSA-9jfh-9xrq-4vwm",
-      "date": "2026-03-11T19:53:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
       "title": "RUSTSEC-2026-0038: Vulnerability in rssn",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0038.html",
       "date": "2026-03-11T12:00:00+00:00",
@@ -117,27 +138,6 @@
       "url": "https://github.com/advisories/GHSA-7m6r-fhh7-r47c",
       "date": "2026-03-11T05:47:03.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server vulnerable to LDAP injection via unsanitized user input in DN and group filter construction",
-      "url": "https://github.com/advisories/GHSA-7m6r-fhh7-r47c",
-      "date": "2026-03-11T05:47:03.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pypdf] pypdf: manipulated stream length values can exhaust RAM",
-      "url": "https://github.com/advisories/GHSA-hqmh-ppp3-xvm7",
-      "date": "2026-03-11T05:46:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[django-unicorn] django-unicorn affected by component state manipulation via unvalidated attribute access",
-      "url": "https://github.com/advisories/GHSA-ffv6-jj46-x367",
-      "date": "2026-03-11T05:45:51.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
