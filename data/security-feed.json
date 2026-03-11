@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-11T14:24:32.771Z",
+  "fetchedAt": "2026-03-11T15:22:36.448Z",
   "entries": [
+    {
+      "title": "[@striae-org/striae] Striae has a hash validation utility vulnerability",
+      "url": "https://github.com/advisories/GHSA-mmf8-487q-p45m",
+      "date": "2026-03-11T14:55:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0038: Vulnerability in rssn",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0038.html",
@@ -125,13 +132,6 @@
       "date": "2026-03-11T00:31:49.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server vulnerable to SQL injection via `Increment` operation on nested object field in PostgreSQL",
-      "url": "https://github.com/advisories/GHSA-q3vj-96h2-gwvg",
-      "date": "2026-03-11T00:26:39.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     },
     {
       "title": "[parse-server] Parse Server vulnerable to SQL injection via `Increment` operation on nested object field in PostgreSQL",
