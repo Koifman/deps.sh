@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-03-10T23:12:08.044Z",
+  "fetchedAt": "2026-03-11T00:42:16.292Z",
   "entries": [
+    {
+      "title": "[@siteboon/claude-code-ui] @siteboon/claude-code-ui is Vulnerable to Shell Command Injection in Git Routes",
+      "url": "https://github.com/advisories/GHSA-7fv4-fmmc-86g2",
+      "date": "2026-03-10T23:57:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[file-type] file-type affected by infinite loop in ASF parser on malformed input with zero-size sub-header",
+      "url": "https://github.com/advisories/GHSA-5v7r-6r5c-r473",
+      "date": "2026-03-10T23:57:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[tar] node-tar Symlink Path Traversal via Drive-Relative Linkpath",
+      "url": "https://github.com/advisories/GHSA-9ppj-qmqm-q256",
+      "date": "2026-03-10T23:44:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[liquidjs] liquidjs has a path traversal fallback vulnerability",
       "url": "https://github.com/advisories/GHSA-wmfp-5q7x-987x",
@@ -119,27 +140,6 @@
       "date": "2026-03-10T18:44:40.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server has Regular Expression Denial of Service (ReDoS) via `$regex` query in LiveQuery",
-      "url": "https://github.com/advisories/GHSA-mf3j-86qx-cq5j",
-      "date": "2026-03-10T18:44:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server has Regular Expression Denial of Service (ReDoS) via `$regex` query in LiveQuery",
-      "url": "https://github.com/advisories/GHSA-mf3j-86qx-cq5j",
-      "date": "2026-03-10T18:44:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vllm] vLLM has SSRF Protection Bypass",
-      "url": "https://github.com/advisories/GHSA-v359-jj2v-j536",
-      "date": "2026-03-10T18:39:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
