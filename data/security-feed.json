@@ -1,11 +1,18 @@
 {
-  "fetchedAt": "2026-03-11T08:19:33.318Z",
+  "fetchedAt": "2026-03-11T09:22:03.894Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0038: Vulnerability in rssn",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0038.html",
       "date": "2026-03-11T12:00:00+00:00",
       "ecosystem": "cargo"
+    },
+    {
+      "title": "[@siteboon/claude-code-ui] @siteboon/claude-code-ui Vulnerable to Unauthenticated RCE via WebSocket Shell Injection",
+      "url": "https://github.com/advisories/GHSA-gv8f-wpm2-m5wr",
+      "date": "2026-03-11T09:09:14.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
     },
     {
       "title": "[flowise] Flowise affected by Server-Side Request Forgery (SSRF) in HTTP Node Leading to Internal Network Access",
@@ -41,13 +48,6 @@
       "date": "2026-03-11T05:45:51.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@siteboon/claude-code-ui] @siteboon/claude-code-ui Vulnerable to Unauthenticated RCE via WebSocket Shell Injection",
-      "url": "https://github.com/advisories/GHSA-gv8f-wpm2-m5wr",
-      "date": "2026-03-11T00:37:27.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     },
     {
       "title": "[parse-server] Parse Server vulnerable to user enumeration via email verification endpoint",
