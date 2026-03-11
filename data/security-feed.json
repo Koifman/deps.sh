@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-11T22:12:07.849Z",
+  "fetchedAt": "2026-03-11T23:11:20.034Z",
   "entries": [
+    {
+      "title": "[tornado] Tornado has incomplete validation of cookie attributes",
+      "url": "https://github.com/advisories/GHSA-78cv-mqj4-43f7",
+      "date": "2026-03-11T22:17:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[shescape] Shescape escape() leaves bracket glob expansion active on Bash, BusyBox, and Dash",
       "url": "https://github.com/advisories/GHSA-9jfh-9xrq-4vwm",
@@ -132,13 +139,6 @@
       "date": "2026-03-11T05:47:10.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server vulnerable to LDAP injection via unsanitized user input in DN and group filter construction",
-      "url": "https://github.com/advisories/GHSA-7m6r-fhh7-r47c",
-      "date": "2026-03-11T05:47:03.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
