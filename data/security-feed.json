@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-11T19:22:43.477Z",
+  "fetchedAt": "2026-03-11T20:14:56.731Z",
   "entries": [
+    {
+      "title": "[shescape] Shescape escape() leaves bracket glob expansion active on Bash, BusyBox, and Dash",
+      "url": "https://github.com/advisories/GHSA-9jfh-9xrq-4vwm",
+      "date": "2026-03-11T19:53:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@striae-org/striae] Striae has a hash validation utility vulnerability",
       "url": "https://github.com/advisories/GHSA-mmf8-487q-p45m",
@@ -132,13 +139,6 @@
       "date": "2026-03-11T00:31:49.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server vulnerable to SQL injection via `Increment` operation on nested object field in PostgreSQL",
-      "url": "https://github.com/advisories/GHSA-q3vj-96h2-gwvg",
-      "date": "2026-03-11T00:26:39.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
