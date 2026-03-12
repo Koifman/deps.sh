@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-12T13:33:45.150Z",
+  "fetchedAt": "2026-03-12T14:25:08.255Z",
   "entries": [
+    {
+      "title": "[devalue] devalue has prototype pollution in devalue.parse and devalue.unflatten",
+      "url": "https://github.com/advisories/GHSA-cfw5-2vxh-hr84",
+      "date": "2026-03-12T14:13:04.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[tornado] Tornado has incomplete validation of cookie attributes",
       "url": "https://github.com/advisories/GHSA-78cv-mqj4-43f7",
@@ -132,13 +139,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0038.html",
       "date": "2026-03-11T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[flowise] Flowise affected by Server-Side Request Forgery (SSRF) in HTTP Node Leading to Internal Network Access",
-      "url": "https://github.com/advisories/GHSA-fvcw-9w9r-pxc7",
-      "date": "2026-03-11T05:47:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
