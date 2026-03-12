@@ -1,144 +1,145 @@
 {
-  "fetchedAt": "2026-03-12T14:25:08.255Z",
+  "fetchedAt": "2026-03-12T15:26:26.166Z",
   "entries": [
     {
-      "title": "[devalue] devalue has prototype pollution in devalue.parse and devalue.unflatten",
-      "url": "https://github.com/advisories/GHSA-cfw5-2vxh-hr84",
-      "date": "2026-03-12T14:13:04.000Z",
+      "title": "[@backstage/plugin-scaffolder-backend] @backstage/plugin-scaffolder-backend: Possible exposure of defaultEnvironment secrets using dry-run endpoint",
+      "url": "https://github.com/advisories/GHSA-8wq8-6859-qx77",
+      "date": "2026-03-12T14:51:08.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[tornado] Tornado has incomplete validation of cookie attributes",
-      "url": "https://github.com/advisories/GHSA-78cv-mqj4-43f7",
-      "date": "2026-03-11T22:17:04.000Z",
+      "title": "[@backstage/plugin-auth-backend] @backstage/plugin-auth-backend: SSRF in experimental CIMD metadata fetch",
+      "url": "https://github.com/advisories/GHSA-qp4c-xg64-7c6x",
+      "date": "2026-03-12T14:51:03.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@backstage/plugin-auth-backend] @backstage/plugin-auth-backend: OAuth redirect URI allowlist bypass",
+      "url": "https://github.com/advisories/GHSA-wqvh-63mv-9w92",
+      "date": "2026-03-12T14:50:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[studiocms] StudioCMS: REST API Missing Rank Check Allows Admin to Create Peer Admin Accounts",
+      "url": "https://github.com/advisories/GHSA-wj56-g96r-673q",
+      "date": "2026-03-12T14:49:49.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[studiocms] StudioCMS: IDOR in User Notification Preferences Allows Any Authenticated User to Modify Any User's Settings",
+      "url": "https://github.com/advisories/GHSA-9v82-xrm4-mp52",
+      "date": "2026-03-12T14:49:43.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[studiocms] StudioCMS: IDOR — Admin-to-Owner Account Takeover via Password Reset Link Generation",
+      "url": "https://github.com/advisories/GHSA-h7vr-cg25-jf8c",
+      "date": "2026-03-12T14:49:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@studiocms/s3-storage] StudioCMS S3 Storage Manager Authorization Bypass via Missing `await` on Async Auth Check",
+      "url": "https://github.com/advisories/GHSA-mm78-fgq8-6pgr",
+      "date": "2026-03-12T14:49:31.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[uptime-kuma] Uptime Kuma is Missing Authorization Checks on Ping Badge Endpoint, Leaks Ping times of monitors without needing to be on a status page",
+      "url": "https://github.com/advisories/GHSA-c7hf-c5p5-5g6h",
+      "date": "2026-03-12T14:47:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ha-mcp] ha-mcp has XSS via Unescaped HTML in OAuth Consent Form",
+      "url": "https://github.com/advisories/GHSA-pf93-j98v-25pv",
+      "date": "2026-03-12T14:23:45.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[shescape] Shescape escape() leaves bracket glob expansion active on Bash, BusyBox, and Dash",
-      "url": "https://github.com/advisories/GHSA-9jfh-9xrq-4vwm",
-      "date": "2026-03-11T21:38:11.000Z",
+      "title": "[ha-mcp] ha-mcp OAuth 2.1 DCR mode enables network reconnaissance via an error oracle",
+      "url": "https://github.com/advisories/GHSA-fmfg-9g7c-3vq7",
+      "date": "2026-03-12T14:23:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[copyparty] Copyparty has unexpected JavaScript execution via crafted URL to folder with `.prologue.html`",
+      "url": "https://github.com/advisories/GHSA-rcp6-88mm-9vgf",
+      "date": "2026-03-12T14:22:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[copyparty] Copyparty ftp/sftp: Sharing a single file did not fully restrict source-folder access",
+      "url": "https://github.com/advisories/GHSA-67rw-2x62-mqqm",
+      "date": "2026-03-12T14:22:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: /api/channels gateway-auth boundary bypass via path canonicalization mismatch",
+      "url": "https://github.com/advisories/GHSA-8j2w-6fmm-m587",
+      "date": "2026-03-12T14:22:05.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[parse-server] Parse Server vulnerable to user enumeration via email verification endpoint",
-      "url": "https://github.com/advisories/GHSA-w54v-hf9p-8856",
-      "date": "2026-03-11T21:37:46.000Z",
+      "title": "[openclaw] OpenClaw: Slack system events bypass sender authorization in member and message subtype handlers",
+      "url": "https://github.com/advisories/GHSA-v8cg-4474-49v8",
+      "date": "2026-03-12T14:21:59.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[parse-server] Parse Server vulnerable to user enumeration via email verification endpoint",
-      "url": "https://github.com/advisories/GHSA-w54v-hf9p-8856",
-      "date": "2026-03-11T21:37:46.000Z",
+      "title": "[openclaw] OpenClaw: Sandbox dangling-symlink alias handling could bypass workspace-only write boundary",
+      "url": "https://github.com/advisories/GHSA-qcc4-p59m-p54m",
+      "date": "2026-03-12T14:21:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: workspace path guard bypass on non-existent out-of-root symlink leaf",
+      "url": "https://github.com/advisories/GHSA-mgrq-9f93-wpp5",
+      "date": "2026-03-12T14:21:50.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: LINE group allowlist scope mismatch with DM pairing-store entries",
+      "url": "https://github.com/advisories/GHSA-gp3q-wpq4-5c5h",
+      "date": "2026-03-12T14:21:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw's MS Teams sender allowlist bypass when route allowlist is configured and sender allowlist is empty",
+      "url": "https://github.com/advisories/GHSA-g7cr-9h7q-4qxq",
+      "date": "2026-03-12T14:21:36.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[pdfmake] pdfmake is vulnerable to server-side request forgery (SSRF)",
-      "url": "https://github.com/advisories/GHSA-wp52-r2fp-4vmr",
-      "date": "2026-03-11T21:12:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@siteboon/claude-code-ui] @siteboon/claude-code-ui Vulnerable to Unauthenticated RCE via WebSocket Shell Injection",
-      "url": "https://github.com/advisories/GHSA-gv8f-wpm2-m5wr",
-      "date": "2026-03-11T20:58:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server's MFA recovery codes not consumed after use",
-      "url": "https://github.com/advisories/GHSA-4hf6-3x24-c9m8",
-      "date": "2026-03-11T20:57:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server's MFA recovery codes not consumed after use",
-      "url": "https://github.com/advisories/GHSA-4hf6-3x24-c9m8",
-      "date": "2026-03-11T20:57:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server has a protected fields bypass via dot-notation in query and sort",
-      "url": "https://github.com/advisories/GHSA-r2m8-pxm9-9c4g",
-      "date": "2026-03-11T20:57:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server has a protected fields bypass via dot-notation in query and sort",
-      "url": "https://github.com/advisories/GHSA-r2m8-pxm9-9c4g",
-      "date": "2026-03-11T20:57:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server vulnerable to SQL Injection via dot-notation sub-key name in `Increment` operation on PostgreSQL",
-      "url": "https://github.com/advisories/GHSA-gqpp-xgvh-9h7h",
-      "date": "2026-03-11T20:57:44.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[parse-server] Parse Server vulnerable to SQL Injection via dot-notation sub-key name in `Increment` operation on PostgreSQL",
-      "url": "https://github.com/advisories/GHSA-gqpp-xgvh-9h7h",
-      "date": "2026-03-11T20:57:44.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[parse-server] Parse Server vulnerable to stored XSS via file upload of HTML-renderable file types",
-      "url": "https://github.com/advisories/GHSA-v5hf-f4c3-m5rv",
-      "date": "2026-03-11T20:57:40.000Z",
+      "title": "[openclaw] OpenClaw's skills-install-download can be redirected outside the tools root by rebinding the validated base path",
+      "url": "https://github.com/advisories/GHSA-vhwf-4x96-vqx2",
+      "date": "2026-03-12T14:21:33.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[parse-server] Parse Server vulnerable to stored XSS via file upload of HTML-renderable file types",
-      "url": "https://github.com/advisories/GHSA-v5hf-f4c3-m5rv",
-      "date": "2026-03-11T20:57:40.000Z",
+      "title": "[openclaw] OpenClaw's system.run approvals did not bind mutable script operands across approval and execution",
+      "url": "https://github.com/advisories/GHSA-8g75-q649-6pv6",
+      "date": "2026-03-12T14:21:29.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@siteboon/claudecodeui] @siteboon/claude-code-ui is Vulnerable to Command Injection via Multiple Parameters",
-      "url": "https://github.com/advisories/GHSA-f2fc-vc88-6w7q",
-      "date": "2026-03-11T20:45:27.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[parse-server] Parse Server vulnerable to SQL injection via `Increment` operation on nested object field in PostgreSQL",
-      "url": "https://github.com/advisories/GHSA-q3vj-96h2-gwvg",
-      "date": "2026-03-11T20:44:47.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[parse-server] Parse Server vulnerable to SQL injection via `Increment` operation on nested object field in PostgreSQL",
-      "url": "https://github.com/advisories/GHSA-q3vj-96h2-gwvg",
-      "date": "2026-03-11T20:44:47.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@striae-org/striae] Striae has a hash validation utility vulnerability",
-      "url": "https://github.com/advisories/GHSA-mmf8-487q-p45m",
-      "date": "2026-03-11T20:43:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0038: Vulnerability in rssn",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0038.html",
-      "date": "2026-03-11T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
