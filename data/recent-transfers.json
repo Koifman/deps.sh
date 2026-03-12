@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-12T07:27:56.614Z",
+  "scannedAt": "2026-03-12T08:24:31.921Z",
   "count": 98,
   "packages": [
     {
@@ -300,15 +300,6 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "well-known-symbols",
-      "version": "4.1.0",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "novemberborn",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "tslib",
       "version": "2.8.1",
       "ecosystem": "npm",
@@ -471,15 +462,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@redux-saga/core",
-      "version": "1.4.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "andarist",
-      "currentOwner": "redux-saga-release-bot"
-    },
-    {
       "name": "embla-carousel-autoplay",
       "version": "8.6.0",
       "ecosystem": "npm",
@@ -487,6 +469,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "@redux-saga/core",
+      "version": "1.4.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "andarist",
+      "currentOwner": "redux-saga-release-bot"
     },
     {
       "name": "@appium/base-driver",
@@ -516,21 +507,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript-eslint/parser",
-      "version": "8.57.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jameshenry",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "espree",
       "version": "11.2.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "nzakas",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "version": "8.57.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jameshenry",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -588,15 +579,6 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "openid-client",
-      "version": "6.8.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "panva",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "css-has-pseudo",
       "version": "8.0.0",
       "ecosystem": "npm",
@@ -604,6 +586,15 @@
       "level": "MODERATE",
       "previousOwner": "jonathantneal",
       "currentOwner": "romainmenke"
+    },
+    {
+      "name": "openid-client",
+      "version": "6.8.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "panva",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "css-blank-pseudo",
@@ -651,15 +642,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "redux-saga",
-      "version": "1.4.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "yelouafi",
-      "currentOwner": "redux-saga-release-bot"
-    },
-    {
       "name": "@appium/types",
       "version": "1.2.1",
       "ecosystem": "npm",
@@ -667,6 +649,15 @@
       "level": "MODERATE",
       "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "redux-saga",
+      "version": "1.4.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "yelouafi",
+      "currentOwner": "redux-saga-release-bot"
     },
     {
       "name": "@appium/schema",
@@ -696,15 +687,6 @@
       "currentOwner": "chenfengyuan"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.1.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@bugsnag/js",
       "version": "8.8.1",
       "ecosystem": "npm",
@@ -712,6 +694,15 @@
       "level": "MODERATE",
       "previousOwner": "bengourley",
       "currentOwner": "gingerbenw"
+    },
+    {
+      "name": "@appium/tsconfig",
+      "version": "1.1.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@vimeo/player",
@@ -723,6 +714,15 @@
       "currentOwner": "vimeo-npmbot"
     },
     {
+      "name": "@hey-api/codegen-core",
+      "version": "0.7.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "mrlubos",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@lottiefiles/dotlottie-react",
       "version": "0.18.5",
       "ecosystem": "npm",
@@ -732,12 +732,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@hey-api/codegen-core",
-      "version": "0.7.1",
+      "name": "@appium/base-plugin",
+      "version": "3.1.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "mrlubos",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -840,15 +840,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.118.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@lottiefiles/dotlottie-web",
       "version": "0.66.1",
       "ecosystem": "npm",
@@ -858,7 +849,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-musl",
+      "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.118.0",
       "ecosystem": "npm",
       "score": 20,
@@ -869,6 +860,15 @@
     {
       "name": "@oxlint/binding-linux-x64-gnu",
       "version": "1.54.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-minify/binding-linux-x64-musl",
+      "version": "0.118.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
