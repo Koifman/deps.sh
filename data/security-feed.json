@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-03-12T16:30:15.597Z",
+  "fetchedAt": "2026-03-12T17:24:15.342Z",
   "entries": [
+    {
+      "title": "[devalue] Sveltejs devalue's `devalue.parse` and `devalue.unflatten` emit objects with `__proto__` own properties",
+      "url": "https://github.com/advisories/GHSA-mwv9-gp5h-frr4",
+      "date": "2026-03-12T16:38:15.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] Parse Server has a SQL injection via query field name when using PostgreSQL",
+      "url": "https://github.com/advisories/GHSA-c442-97qw-j6c6",
+      "date": "2026-03-12T16:37:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server has a SQL injection via query field name when using PostgreSQL",
+      "url": "https://github.com/advisories/GHSA-c442-97qw-j6c6",
+      "date": "2026-03-12T16:37:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@backstage/plugin-scaffolder-backend] @backstage/plugin-scaffolder-backend: Possible exposure of defaultEnvironment secrets using dry-run endpoint",
       "url": "https://github.com/advisories/GHSA-8wq8-6859-qx77",
@@ -119,27 +140,6 @@
       "date": "2026-03-12T14:21:45.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw's MS Teams sender allowlist bypass when route allowlist is configured and sender allowlist is empty",
-      "url": "https://github.com/advisories/GHSA-g7cr-9h7q-4qxq",
-      "date": "2026-03-12T14:21:36.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's skills-install-download can be redirected outside the tools root by rebinding the validated base path",
-      "url": "https://github.com/advisories/GHSA-vhwf-4x96-vqx2",
-      "date": "2026-03-12T14:21:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's system.run approvals did not bind mutable script operands across approval and execution",
-      "url": "https://github.com/advisories/GHSA-8g75-q649-6pv6",
-      "date": "2026-03-12T14:21:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
