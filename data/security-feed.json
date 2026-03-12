@@ -1,12 +1,47 @@
 {
-  "fetchedAt": "2026-03-12T18:25:34.593Z",
+  "fetchedAt": "2026-03-12T19:22:22.884Z",
   "entries": [
     {
       "title": "[@tinacms/graphql] @tinacms/graphql has a Path Traversal issue",
       "url": "https://github.com/advisories/GHSA-2238-xc5r-v9hj",
-      "date": "2026-03-12T17:50:29.000Z",
+      "date": "2026-03-12T19:13:57.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[black] Black: Arbitrary file writes from unsanitized user input in cache file name",
+      "url": "https://github.com/advisories/GHSA-3936-cmfr-pm3m",
+      "date": "2026-03-12T18:33:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[hyperterse] Hyperterse: Raw exposure of database statements in MCP search tool",
+      "url": "https://github.com/advisories/GHSA-92gp-jfgx-9qpv",
+      "date": "2026-03-12T18:32:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[tinacms] Tina: Path Traversal in Media Upload Handle",
+      "url": "https://github.com/advisories/GHSA-5hxf-c7j4-279c",
+      "date": "2026-03-12T18:32:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[multipart] multipart vulnerable to ReDoS in `parse_options_header()`",
+      "url": "https://github.com/advisories/GHSA-p2m9-wcp5-6qw3",
+      "date": "2026-03-12T18:32:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[multipart] multipart vulnerable to ReDoS in `parse_options_header()`",
+      "url": "https://github.com/advisories/GHSA-p2m9-wcp5-6qw3",
+      "date": "2026-03-12T18:32:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     },
     {
       "title": "[sglang] SGLangs `replay_request_dump.py` contains an insecure pickle.load() without validation and proper deserialization",
@@ -105,41 +140,6 @@
       "date": "2026-03-12T16:38:15.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] Parse Server has a SQL injection via query field name when using PostgreSQL",
-      "url": "https://github.com/advisories/GHSA-c442-97qw-j6c6",
-      "date": "2026-03-12T16:37:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server has a SQL injection via query field name when using PostgreSQL",
-      "url": "https://github.com/advisories/GHSA-c442-97qw-j6c6",
-      "date": "2026-03-12T16:37:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@backstage/plugin-scaffolder-backend] @backstage/plugin-scaffolder-backend: Possible exposure of defaultEnvironment secrets using dry-run endpoint",
-      "url": "https://github.com/advisories/GHSA-8wq8-6859-qx77",
-      "date": "2026-03-12T14:51:08.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@backstage/plugin-auth-backend] @backstage/plugin-auth-backend: SSRF in experimental CIMD metadata fetch",
-      "url": "https://github.com/advisories/GHSA-qp4c-xg64-7c6x",
-      "date": "2026-03-12T14:51:03.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@backstage/plugin-auth-backend] @backstage/plugin-auth-backend: OAuth redirect URI allowlist bypass",
-      "url": "https://github.com/advisories/GHSA-wqvh-63mv-9w92",
-      "date": "2026-03-12T14:50:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
