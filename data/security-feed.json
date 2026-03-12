@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-03-12T19:22:22.884Z",
+  "fetchedAt": "2026-03-12T20:14:45.463Z",
   "entries": [
+    {
+      "title": "[@azure/mcp] Azure MCP Server has Server-Side Request Forgery issue that allows authorized attacker to elevate privileges over a network",
+      "url": "https://github.com/advisories/GHSA-hhfx-wfvq-7g9c",
+      "date": "2026-03-12T19:53:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@azure/mcp] Azure MCP Server has Server-Side Request Forgery issue that allows authorized attacker to elevate privileges over a network",
+      "url": "https://github.com/advisories/GHSA-hhfx-wfvq-7g9c",
+      "date": "2026-03-12T19:53:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[msmcp-azure] Azure MCP Server has Server-Side Request Forgery issue that allows authorized attacker to elevate privileges over a network",
+      "url": "https://github.com/advisories/GHSA-hhfx-wfvq-7g9c",
+      "date": "2026-03-12T19:53:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[devalue] Sveltejs devalue's `devalue.parse` and `devalue.unflatten` emit objects with `__proto__` own properties",
+      "url": "https://github.com/advisories/GHSA-mwv9-gp5h-frr4",
+      "date": "2026-03-12T19:41:57.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[@tinacms/graphql] @tinacms/graphql has a Path Traversal issue",
       "url": "https://github.com/advisories/GHSA-2238-xc5r-v9hj",
@@ -112,34 +140,6 @@
       "date": "2026-03-12T17:29:50.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[parse-server] Parse Server's OAuth2 adapter shares mutable state across providers via singleton instance",
-      "url": "https://github.com/advisories/GHSA-2cjm-2gwv-m892",
-      "date": "2026-03-12T17:29:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[trix] Trix has a Stored XSS vulnerability through serialized attributes",
-      "url": "https://github.com/advisories/GHSA-qmpg-8xg6-ph5q",
-      "date": "2026-03-12T17:29:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[graphiti-core] Graphiti vulnerable to Cypher Injection via unsanitized node_labels in search filters",
-      "url": "https://github.com/advisories/GHSA-gg5m-55jj-8m5g",
-      "date": "2026-03-12T17:26:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[devalue] Sveltejs devalue's `devalue.parse` and `devalue.unflatten` emit objects with `__proto__` own properties",
-      "url": "https://github.com/advisories/GHSA-mwv9-gp5h-frr4",
-      "date": "2026-03-12T16:38:15.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
