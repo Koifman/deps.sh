@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-12T08:24:31.921Z",
-  "count": 98,
+  "scannedAt": "2026-03-12T09:25:28.094Z",
+  "count": 97,
   "packages": [
     {
       "name": "xmldom",
@@ -327,15 +327,6 @@
       "currentOwner": "lholmquist"
     },
     {
-      "name": "broccoli-babel-transpiler",
-      "version": "8.0.2",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "sebmck",
-      "currentOwner": "katiegengler"
-    },
-    {
       "name": "eslint",
       "version": "10.0.3",
       "ecosystem": "npm",
@@ -480,6 +471,15 @@
       "currentOwner": "redux-saga-release-bot"
     },
     {
+      "name": "dependency-cruiser",
+      "version": "17.3.8",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "sverweij",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@appium/base-driver",
       "version": "10.2.2",
       "ecosystem": "npm",
@@ -489,12 +489,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "dependency-cruiser",
-      "version": "17.3.8",
+      "name": "@appium/docutils",
+      "version": "2.2.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
-      "previousOwner": "sverweij",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -588,15 +588,6 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "openid-client",
-      "version": "6.8.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "panva",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "css-blank-pseudo",
       "version": "8.0.1",
       "ecosystem": "npm",
@@ -604,6 +595,15 @@
       "level": "MODERATE",
       "previousOwner": "jonathantneal",
       "currentOwner": "romainmenke"
+    },
+    {
+      "name": "openid-client",
+      "version": "6.8.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "panva",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "oxc-parser",
@@ -642,15 +642,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/types",
-      "version": "1.2.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "redux-saga",
       "version": "1.4.2",
       "ecosystem": "npm",
@@ -658,6 +649,15 @@
       "level": "MODERATE",
       "previousOwner": "yelouafi",
       "currentOwner": "redux-saga-release-bot"
+    },
+    {
+      "name": "@appium/types",
+      "version": "1.2.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@appium/schema",
@@ -729,15 +729,6 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@appium/base-plugin",
-      "version": "3.1.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -876,13 +867,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@nevware21/ts-utils",
-      "version": "0.13.0",
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     }
   ]
 }
