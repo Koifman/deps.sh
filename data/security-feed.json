@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-03-12T20:14:45.463Z",
+  "fetchedAt": "2026-03-12T21:15:08.178Z",
   "entries": [
+    {
+      "title": "[orjson] orjson does not limit recursion for deeply nested JSON documents",
+      "url": "https://github.com/advisories/GHSA-hx9q-6w63-j58v",
+      "date": "2026-03-12T20:49:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Untrusted web origins can obtain authenticated operator.admin access in trusted-proxy mode",
+      "url": "https://github.com/advisories/GHSA-5wcw-8jjv-m286",
+      "date": "2026-03-12T20:32:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@tinacms/cli] TinaCMS CLI has Arbitrary File Read via Disabled Vite Filesystem Restriction",
+      "url": "https://github.com/advisories/GHSA-m48g-4wr2-j2h6",
+      "date": "2026-03-12T20:32:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@tinacms/cli] TinaCMS Vulnerable to Path Traversal Leading to Arbitrary File Read, Write and Delete",
+      "url": "https://github.com/advisories/GHSA-2f24-mg4x-534q",
+      "date": "2026-03-12T20:32:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@tinacms/cli] TinaCMS CLI Dev Server Vulnerable to Cross-Origin File Exfiltration via CORS Misconfiguration + Path Traversal in TinaCMS",
+      "url": "https://github.com/advisories/GHSA-8pw3-9m7f-q734",
+      "date": "2026-03-12T20:32:10.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[@azure/mcp] Azure MCP Server has Server-Side Request Forgery issue that allows authorized attacker to elevate privileges over a network",
       "url": "https://github.com/advisories/GHSA-hhfx-wfvq-7g9c",
@@ -105,41 +140,6 @@
       "date": "2026-03-12T17:34:39.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[openclaw]  Duplicate Advisory: OpenClaw safeBins file-existence oracle information disclosure",
-      "url": "https://github.com/advisories/GHSA-xjj9-2w6f-jg55",
-      "date": "2026-03-12T17:30:19.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw]  Duplicate Advisory: OpenClaw: Skill env override host env injection via applySkillConfigEnvOverrides (defense-in-depth)",
-      "url": "https://github.com/advisories/GHSA-wgx8-r9vw-2w4h",
-      "date": "2026-03-12T17:30:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server: Account takeover via operator injection in authentication data identifier",
-      "url": "https://github.com/advisories/GHSA-5fw2-8jcv-xh87",
-      "date": "2026-03-12T17:29:58.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[parse-server] Parse Server: Account takeover via operator injection in authentication data identifier",
-      "url": "https://github.com/advisories/GHSA-5fw2-8jcv-xh87",
-      "date": "2026-03-12T17:29:58.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[parse-server] Parse Server's OAuth2 adapter shares mutable state across providers via singleton instance",
-      "url": "https://github.com/advisories/GHSA-2cjm-2gwv-m892",
-      "date": "2026-03-12T17:29:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
