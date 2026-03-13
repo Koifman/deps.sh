@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-03-13T19:18:07.365Z",
+  "fetchedAt": "2026-03-13T20:14:21.029Z",
   "entries": [
+    {
+      "title": "[Scrapy] Scrapy: Arbitrary Module Import via Referrer-Policy Header in RefererMiddleware",
+      "url": "https://github.com/advisories/GHSA-cwxj-rr6w-m6w7",
+      "date": "2026-03-13T20:02:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server OAuth2 adapter app ID validation sends wrong token to introspection endpoint",
+      "url": "https://github.com/advisories/GHSA-69xg-f649-w5g2",
+      "date": "2026-03-13T20:02:26.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server OAuth2 adapter app ID validation sends wrong token to introspection endpoint",
+      "url": "https://github.com/advisories/GHSA-69xg-f649-w5g2",
+      "date": "2026-03-13T20:02:26.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[oneuptime] OneUptime: Stored XSS via Mermaid Diagram Rendering (securityLevel: \"loose\")",
+      "url": "https://github.com/advisories/GHSA-wvh5-6vjm-23qh",
+      "date": "2026-03-13T20:00:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[oneuptime]  OneUptime ClickHouse SQL Injection via Aggregate Query Parameters",
+      "url": "https://github.com/advisories/GHSA-p5g2-jm85-8g35",
+      "date": "2026-03-13T20:00:35.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[openclaw] OpenClaw: Discord guild reaction ingress could bypass users and roles allowlists",
       "url": "https://github.com/advisories/GHSA-9vvh-2768-c8vp",
@@ -105,41 +140,6 @@
       "date": "2026-03-13T15:47:16.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[flatted] flatted vulnerable to unbounded recursion DoS in parse() revive phase",
-      "url": "https://github.com/advisories/GHSA-25h7-pfq9-p65f",
-      "date": "2026-03-13T15:40:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[magic-wormhole] Magic Wormhole: \"wormhole receive\" allows arbitrary local file overwrite",
-      "url": "https://github.com/advisories/GHSA-4g4c-mfqg-pj8r",
-      "date": "2026-03-13T15:40:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dagu] Dagu: SSE Authentication Bypass in Basic Auth Mode",
-      "url": "https://github.com/advisories/GHSA-9wmw-9wph-2vwp",
-      "date": "2026-03-13T15:05:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nyariv/sandboxjs] SandboxJS affected by a Sandbox Escape",
-      "url": "https://github.com/advisories/GHSA-6r9f-759j-hjgv",
-      "date": "2026-03-13T13:46:09.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[black] Black: Arbitrary file writes from unsanitized user input in cache file name",
-      "url": "https://github.com/advisories/GHSA-3936-cmfr-pm3m",
-      "date": "2026-03-13T13:36:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
