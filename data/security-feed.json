@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-03-13T13:32:05.190Z",
+  "fetchedAt": "2026-03-13T14:23:10.148Z",
   "entries": [
+    {
+      "title": "[@nyariv/sandboxjs] SandboxJS affected by a Sandbox Escape",
+      "url": "https://github.com/advisories/GHSA-6r9f-759j-hjgv",
+      "date": "2026-03-13T13:46:09.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[black] Black: Arbitrary file writes from unsanitized user input in cache file name",
+      "url": "https://github.com/advisories/GHSA-3936-cmfr-pm3m",
+      "date": "2026-03-13T13:36:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server: Account takeover via operator injection in authentication data identifier",
+      "url": "https://github.com/advisories/GHSA-5fw2-8jcv-xh87",
+      "date": "2026-03-13T13:36:16.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[parse-server] Parse Server: Account takeover via operator injection in authentication data identifier",
+      "url": "https://github.com/advisories/GHSA-5fw2-8jcv-xh87",
+      "date": "2026-03-13T13:36:16.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[parse-server] Parse Server's OAuth2 adapter shares mutable state across providers via singleton instance",
+      "url": "https://github.com/advisories/GHSA-2cjm-2gwv-m892",
+      "date": "2026-03-13T13:36:11.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[parse-server] Parse Server's OAuth2 adapter shares mutable state across providers via singleton instance",
+      "url": "https://github.com/advisories/GHSA-2cjm-2gwv-m892",
+      "date": "2026-03-13T13:36:11.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[graphiti-core] Graphiti vulnerable to Cypher Injection via unsanitized node_labels in search filters",
+      "url": "https://github.com/advisories/GHSA-gg5m-55jj-8m5g",
+      "date": "2026-03-13T13:36:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[orjson] orjson does not limit recursion for deeply nested JSON documents",
       "url": "https://github.com/advisories/GHSA-hx9q-6w63-j58v",
@@ -72,13 +121,6 @@
       "severity": "MODERATE"
     },
     {
-      "title": "[black] Black: Arbitrary file writes from unsanitized user input in cache file name",
-      "url": "https://github.com/advisories/GHSA-3936-cmfr-pm3m",
-      "date": "2026-03-12T18:33:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
       "title": "[hyperterse] Hyperterse: Raw exposure of database statements in MCP search tool",
       "url": "https://github.com/advisories/GHSA-92gp-jfgx-9qpv",
       "date": "2026-03-12T18:32:58.000Z",
@@ -98,48 +140,6 @@
       "date": "2026-03-12T18:32:23.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[multipart] multipart vulnerable to ReDoS in `parse_options_header()`",
-      "url": "https://github.com/advisories/GHSA-p2m9-wcp5-6qw3",
-      "date": "2026-03-12T18:32:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sglang] SGLangs `replay_request_dump.py` contains an insecure pickle.load() without validation and proper deserialization",
-      "url": "https://github.com/advisories/GHSA-hvwj-8w5g-28rg",
-      "date": "2026-03-12T17:39:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sglang] SGLang's multimodal generation module is vulnerable to unauthenticated remote code execution through the ZMQ broker",
-      "url": "https://github.com/advisories/GHSA-rgq9-fqf5-fv58",
-      "date": "2026-03-12T17:38:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[sglang] SGLang's encoder parallel disaggregation system is vulnerable to unauthenticated remote code execution through the disaggregation module",
-      "url": "https://github.com/advisories/GHSA-jx93-g359-86wm",
-      "date": "2026-03-12T17:38:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@keycloak/keycloak-admin-client] Keycloak vulnerable to authorization bypass via the Admin API",
-      "url": "https://github.com/advisories/GHSA-r8jr-wg88-fq5c",
-      "date": "2026-03-12T17:38:29.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@whyour/qinglong] @whyour/qinglong: manipulation of the argument command leads to protection mechanism failure",
-      "url": "https://github.com/advisories/GHSA-xj37-qjg2-xwv2",
-      "date": "2026-03-12T17:34:39.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
