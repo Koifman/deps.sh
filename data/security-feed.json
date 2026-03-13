@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-13T16:18:17.735Z",
+  "fetchedAt": "2026-03-13T17:18:11.913Z",
   "entries": [
+    {
+      "title": "[locutus] Locutus vulnerable to RCE via unsanitized input in create_function()",
+      "url": "https://github.com/advisories/GHSA-vh9h-29pq-r5m8",
+      "date": "2026-03-13T16:10:32.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[openclaw] OpenClaw: Unavailable local auth SecretRefs could fall through to remote credentials in local mode",
       "url": "https://github.com/advisories/GHSA-qvr7-g57c-mrc7",
@@ -133,13 +140,6 @@
       "date": "2026-03-12T20:32:59.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@tinacms/cli] TinaCMS CLI has Arbitrary File Read via Disabled Vite Filesystem Restriction",
-      "url": "https://github.com/advisories/GHSA-m48g-4wr2-j2h6",
-      "date": "2026-03-12T20:32:44.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
