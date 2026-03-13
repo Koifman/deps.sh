@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-13T14:23:10.148Z",
+  "fetchedAt": "2026-03-13T15:22:19.374Z",
   "entries": [
+    {
+      "title": "[dagu] Dagu: SSE Authentication Bypass in Basic Auth Mode",
+      "url": "https://github.com/advisories/GHSA-9wmw-9wph-2vwp",
+      "date": "2026-03-13T15:05:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@nyariv/sandboxjs] SandboxJS affected by a Sandbox Escape",
       "url": "https://github.com/advisories/GHSA-6r9f-759j-hjgv",
@@ -86,20 +93,6 @@
       "severity": "CRITICAL"
     },
     {
-      "title": "[@azure/mcp] Azure MCP Server has Server-Side Request Forgery issue that allows authorized attacker to elevate privileges over a network",
-      "url": "https://github.com/advisories/GHSA-hhfx-wfvq-7g9c",
-      "date": "2026-03-12T19:53:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@azure/mcp] Azure MCP Server has Server-Side Request Forgery issue that allows authorized attacker to elevate privileges over a network",
-      "url": "https://github.com/advisories/GHSA-hhfx-wfvq-7g9c",
-      "date": "2026-03-12T19:53:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
       "title": "[msmcp-azure] Azure MCP Server has Server-Side Request Forgery issue that allows authorized attacker to elevate privileges over a network",
       "url": "https://github.com/advisories/GHSA-hhfx-wfvq-7g9c",
       "date": "2026-03-12T19:53:07.000Z",
@@ -107,11 +100,18 @@
       "severity": "HIGH"
     },
     {
-      "title": "[devalue] Sveltejs devalue's `devalue.parse` and `devalue.unflatten` emit objects with `__proto__` own properties",
-      "url": "https://github.com/advisories/GHSA-mwv9-gp5h-frr4",
-      "date": "2026-03-12T19:41:57.000Z",
+      "title": "[@azure/mcp] Azure MCP Server has Server-Side Request Forgery issue that allows authorized attacker to elevate privileges over a network",
+      "url": "https://github.com/advisories/GHSA-hhfx-wfvq-7g9c",
+      "date": "2026-03-12T19:53:07.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@azure/mcp] Azure MCP Server has Server-Side Request Forgery issue that allows authorized attacker to elevate privileges over a network",
+      "url": "https://github.com/advisories/GHSA-hhfx-wfvq-7g9c",
+      "date": "2026-03-12T19:53:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
       "title": "[@tinacms/graphql] @tinacms/graphql has a Path Traversal issue",
