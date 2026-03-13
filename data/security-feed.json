@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-03-13T20:14:21.029Z",
+  "fetchedAt": "2026-03-13T21:15:08.410Z",
   "entries": [
     {
-      "title": "[Scrapy] Scrapy: Arbitrary Module Import via Referrer-Policy Header in RefererMiddleware",
-      "url": "https://github.com/advisories/GHSA-cwxj-rr6w-m6w7",
-      "date": "2026-03-13T20:02:40.000Z",
+      "title": "[fickling] fickling's `platform` module subprocess invocation evades `check_safety()` with `LIKELY_SAFE`",
+      "url": "https://github.com/advisories/GHSA-5cxw-w2xg-2m8h",
+      "date": "2026-03-13T20:58:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fickling] fickling modules linecache, difflib and gc are missing from the unsafe modules blocklist",
+      "url": "https://github.com/advisories/GHSA-r48f-3986-4f9c",
+      "date": "2026-03-13T20:57:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@google/clasp] @google/clasp vulnerable to unsafe path traversal cloning or pulling a malicious script",
+      "url": "https://github.com/advisories/GHSA-hqjg-pww4-pcgq",
+      "date": "2026-03-13T20:57:31.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[simpleeval] SimpleEval: Objects (including modules) can leak dangerous modules through to direct access inside the sandbox",
+      "url": "https://github.com/advisories/GHSA-44vg-5wv2-h2hg",
+      "date": "2026-03-13T20:56:31.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[parse-server] Parse Server OAuth2 adapter app ID validation sends wrong token to introspection endpoint",
-      "url": "https://github.com/advisories/GHSA-69xg-f649-w5g2",
-      "date": "2026-03-13T20:02:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server OAuth2 adapter app ID validation sends wrong token to introspection endpoint",
-      "url": "https://github.com/advisories/GHSA-69xg-f649-w5g2",
-      "date": "2026-03-13T20:02:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[oneuptime] OneUptime: Stored XSS via Mermaid Diagram Rendering (securityLevel: \"loose\")",
-      "url": "https://github.com/advisories/GHSA-wvh5-6vjm-23qh",
-      "date": "2026-03-13T20:00:40.000Z",
+      "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-13T20:56:21.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[oneuptime]  OneUptime ClickHouse SQL Injection via Aggregate Query Parameters",
-      "url": "https://github.com/advisories/GHSA-p5g2-jm85-8g35",
-      "date": "2026-03-13T20:00:35.000Z",
+      "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-13T20:56:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-13T20:56:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-13T20:56:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-13T20:56:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/core] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-13T20:56:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/core] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-13T20:56:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/core] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-13T20:56:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/core] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-13T20:56:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/core] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-13T20:56:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[file-type] file-type: ZIP Decompression Bomb DoS via [Content_Types].xml entry",
+      "url": "https://github.com/advisories/GHSA-j47w-4g3g-c36v",
+      "date": "2026-03-13T20:56:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Zalo webhook rate limiting could be bypassed before secret validation",
+      "url": "https://github.com/advisories/GHSA-5m9r-p9g7-679c",
+      "date": "2026-03-13T20:55:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Feishu webhook mode accepted forged events when only `verificationToken` was configured",
+      "url": "https://github.com/advisories/GHSA-g353-mgv3-8pcj",
+      "date": "2026-03-13T20:55:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Gateway `agent` calls could override the workspace boundary",
+      "url": "https://github.com/advisories/GHSA-2rqg-gjgv-84jm",
+      "date": "2026-03-13T20:55:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: WebSocket shared-auth connections could self-declare elevated scopes",
+      "url": "https://github.com/advisories/GHSA-rqpp-rjj8-7wv8",
+      "date": "2026-03-13T20:55:25.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[openclaw] OpenClaw: Discord guild reaction ingress could bypass users and roles allowlists",
-      "url": "https://github.com/advisories/GHSA-9vvh-2768-c8vp",
-      "date": "2026-03-13T18:58:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[yauzl] yauzl contains an off-by-one error",
-      "url": "https://github.com/advisories/GHSA-gmq8-994r-jv83",
-      "date": "2026-03-13T18:58:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[CairoSVG] CairoSVG vulnerable to Exponential DoS via recursive <use> element amplification",
-      "url": "https://github.com/advisories/GHSA-f38f-5xpm-9r7c",
-      "date": "2026-03-13T18:57:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[locutus] Locutus vulnerable to RCE via unsanitized input in create_function()",
-      "url": "https://github.com/advisories/GHSA-vh9h-29pq-r5m8",
-      "date": "2026-03-13T16:10:32.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Unavailable local auth SecretRefs could fall through to remote credentials in local mode",
-      "url": "https://github.com/advisories/GHSA-qvr7-g57c-mrc7",
-      "date": "2026-03-13T15:48:22.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Sandbox staged writes could escape the verified parent directory before commit",
-      "url": "https://github.com/advisories/GHSA-mj4p-rc52-m843",
-      "date": "2026-03-13T15:48:17.000Z",
+      "title": "[openclaw] `OpenClaw: session_status` let sandboxed subagents access parent or sibling session state",
+      "url": "https://github.com/advisories/GHSA-wcxr-59v9-rxr8",
+      "date": "2026-03-13T20:55:20.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Write-scoped callers could reach admin-only session reset logic through `agent`",
-      "url": "https://github.com/advisories/GHSA-jf6w-m8jw-jfxc",
-      "date": "2026-03-13T15:48:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Unrecognized script runners could bypass `system.run` approval integrity",
-      "url": "https://github.com/advisories/GHSA-qc36-x95h-7j53",
-      "date": "2026-03-13T15:48:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Channel commands could bypass account-scoped `configWrites` restrictions",
-      "url": "https://github.com/advisories/GHSA-8jhh-jcqg-mj5p",
-      "date": "2026-03-13T15:48:00.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Node-host approvals could show misleading shell payloads instead of the executed argv",
-      "url": "https://github.com/advisories/GHSA-rw39-5899-8mxp",
-      "date": "2026-03-13T15:47:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Unbound interpreter and runtime commands could bypass node-host approval integrity",
-      "url": "https://github.com/advisories/GHSA-xf99-j42q-5w5p",
-      "date": "2026-03-13T15:47:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Leaf subagents could steer sibling sessions across sandbox boundaries",
-      "url": "https://github.com/advisories/GHSA-4w7m-58cg-cmff",
-      "date": "2026-03-13T15:47:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Pairing-scoped device tokens could mint `operator.admin` and reach node RCE",
-      "url": "https://github.com/advisories/GHSA-4jpw-hj22-2xmc",
-      "date": "2026-03-13T15:47:30.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Plugin subagent routes could bypass gateway authorization with synthetic admin scopes",
-      "url": "https://github.com/advisories/GHSA-xw77-45gv-p728",
-      "date": "2026-03-13T15:47:25.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Sandbox `writeFile` commit could race outside the validated path",
-      "url": "https://github.com/advisories/GHSA-xvx8-77m6-gwg6",
-      "date": "2026-03-13T15:47:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
