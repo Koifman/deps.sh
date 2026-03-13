@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-03-13T18:18:50.380Z",
+  "fetchedAt": "2026-03-13T19:18:07.365Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw: Discord guild reaction ingress could bypass users and roles allowlists",
+      "url": "https://github.com/advisories/GHSA-9vvh-2768-c8vp",
+      "date": "2026-03-13T18:58:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[yauzl] yauzl contains an off-by-one error",
+      "url": "https://github.com/advisories/GHSA-gmq8-994r-jv83",
+      "date": "2026-03-13T18:58:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[CairoSVG] CairoSVG vulnerable to Exponential DoS via recursive <use> element amplification",
+      "url": "https://github.com/advisories/GHSA-f38f-5xpm-9r7c",
+      "date": "2026-03-13T18:57:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[locutus] Locutus vulnerable to RCE via unsanitized input in create_function()",
       "url": "https://github.com/advisories/GHSA-vh9h-29pq-r5m8",
@@ -118,27 +139,6 @@
       "url": "https://github.com/advisories/GHSA-3936-cmfr-pm3m",
       "date": "2026-03-13T13:36:21.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[graphiti-core] Graphiti vulnerable to Cypher Injection via unsanitized node_labels in search filters",
-      "url": "https://github.com/advisories/GHSA-gg5m-55jj-8m5g",
-      "date": "2026-03-13T13:36:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[orjson] orjson does not limit recursion for deeply nested JSON documents",
-      "url": "https://github.com/advisories/GHSA-hx9q-6w63-j58v",
-      "date": "2026-03-12T20:49:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Untrusted web origins can obtain authenticated operator.admin access in trusted-proxy mode",
-      "url": "https://github.com/advisories/GHSA-5wcw-8jjv-m286",
-      "date": "2026-03-12T20:32:59.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
