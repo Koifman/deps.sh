@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-14T04:39:34.689Z",
+  "fetchedAt": "2026-03-14T05:26:02.244Z",
   "entries": [
+    {
+      "title": "[@google/clasp] @google/clasp vulnerable to unsafe path traversal cloning or pulling a malicious script",
+      "url": "https://github.com/advisories/GHSA-hqjg-pww4-pcgq",
+      "date": "2026-03-14T04:32:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[fickling] fickling's `platform` module subprocess invocation evades `check_safety()` with `LIKELY_SAFE`",
       "url": "https://github.com/advisories/GHSA-5cxw-w2xg-2m8h",
@@ -14,13 +21,6 @@
       "date": "2026-03-13T20:57:41.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@google/clasp] @google/clasp vulnerable to unsafe path traversal cloning or pulling a malicious script",
-      "url": "https://github.com/advisories/GHSA-hqjg-pww4-pcgq",
-      "date": "2026-03-13T20:57:31.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     },
     {
       "title": "[simpleeval] SimpleEval: Objects (including modules) can leak dangerous modules through to direct access inside the sandbox",
