@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-03-14T18:15:42.846Z",
+  "fetchedAt": "2026-03-14T19:13:46.634Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0040: Vulnerability in tracing-ethers",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0040.html",
+      "date": "2026-03-14T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0037: Vulnerability in quinn-proto",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0037.html",
@@ -132,13 +138,6 @@
       "date": "2026-03-13T20:55:30.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: WebSocket shared-auth connections could self-declare elevated scopes",
-      "url": "https://github.com/advisories/GHSA-rqpp-rjj8-7wv8",
-      "date": "2026-03-13T20:55:25.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
