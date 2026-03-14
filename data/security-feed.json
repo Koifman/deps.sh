@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-03-14T07:20:27.682Z",
+  "fetchedAt": "2026-03-14T08:15:14.155Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0037: Vulnerability in quinn-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0037.html",
+      "date": "2026-03-14T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@google/clasp] @google/clasp vulnerable to unsafe path traversal cloning or pulling a malicious script",
       "url": "https://github.com/advisories/GHSA-hqjg-pww4-pcgq",
@@ -133,13 +139,6 @@
       "date": "2026-03-13T20:55:25.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] `OpenClaw: session_status` let sandboxed subagents access parent or sibling session state",
-      "url": "https://github.com/advisories/GHSA-wcxr-59v9-rxr8",
-      "date": "2026-03-13T20:55:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
