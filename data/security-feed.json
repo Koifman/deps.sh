@@ -1,6 +1,90 @@
 {
-  "fetchedAt": "2026-03-16T21:19:26.032Z",
+  "fetchedAt": "2026-03-16T22:16:28.865Z",
   "entries": [
+    {
+      "title": "[simpleeval] SimpleEval: Objects (including modules) can leak dangerous modules through to direct access inside the sandbox",
+      "url": "https://github.com/advisories/GHSA-44vg-5wv2-h2hg",
+      "date": "2026-03-16T22:00:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-16T22:00:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-16T22:00:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-16T22:00:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-16T22:00:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-16T22:00:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/core] Angular vulnerable to XSS in i18n attribute bindings",
+      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
+      "date": "2026-03-16T22:00:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fastmcp] FastMCP OAuth Proxy token reuse across MCP servers",
+      "url": "https://github.com/advisories/GHSA-5h2m-4q8j-pqpj",
+      "date": "2026-03-16T21:55:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[authlib] Authlib: Fail-Open Cryptographic Verification in OIDC Hash Binding",
+      "url": "https://github.com/advisories/GHSA-m344-f55w-2m6j",
+      "date": "2026-03-16T21:54:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[authlib] Authlib Vulnerable to JWE RSA1_5 Bleichenbacher Padding Oracle",
+      "url": "https://github.com/advisories/GHSA-7432-952r-cw78",
+      "date": "2026-03-16T21:54:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[authlib] Authlib JWS JWK Header Injection: Signature Verification Bypass",
+      "url": "https://github.com/advisories/GHSA-wvwj-cvrp-7pv5",
+      "date": "2026-03-16T21:54:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[crypto-js] crypto-js uses insecure random numbers",
+      "url": "https://github.com/advisories/GHSA-3w3w-pxmm-2w2j",
+      "date": "2026-03-16T21:32:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[openclaw] OpenClaw session transcript files were created without forced user-only permissions",
       "url": "https://github.com/advisories/GHSA-vr7j-g7jv-h5mp",
@@ -55,90 +139,6 @@
       "url": "https://github.com/advisories/GHSA-hqjg-pww4-pcgq",
       "date": "2026-03-16T17:08:24.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PyJWT] PyJWT accepts unknown `crit` header extensions",
-      "url": "https://github.com/advisories/GHSA-752w-5fwx-jx9f",
-      "date": "2026-03-16T17:07:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nyariv/sandboxjs] SandboxJS has an execution-quota bypass (cross-sandbox currentTicks race) in SandboxJS timers",
-      "url": "https://github.com/advisories/GHSA-7p5m-xrh7-769r",
-      "date": "2026-03-16T16:43:07.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[memray] Stored XSS in Memray-generated HTML reports via unescaped command-line metadata",
-      "url": "https://github.com/advisories/GHSA-r5pr-887v-m2w9",
-      "date": "2026-03-16T16:42:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@leanprover/unicode-input-component] XSS in @leanprover/unicode-input-component",
-      "url": "https://github.com/advisories/GHSA-6ggm-pwr9-r5h2",
-      "date": "2026-03-16T16:39:56.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[studiocms] StudioCMS REST getUsers Exposes Owner Account Records to Admin Tokens",
-      "url": "https://github.com/advisories/GHSA-xvf4-ch4q-2m24",
-      "date": "2026-03-16T16:37:46.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[Glances] Glances Central Browser Autodiscovery Leaks Reusable Credentials to Zeroconf-Spoofed Servers",
-      "url": "https://github.com/advisories/GHSA-vx5f-957p-qpvm",
-      "date": "2026-03-16T16:36:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Glances] Glances's Browser API Exposes Reusable Downstream Credentials via `/api/4/serverslist`",
-      "url": "https://github.com/advisories/GHSA-r297-p3v4-wp8m",
-      "date": "2026-03-16T16:35:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[Glances] Glances's REST/WebUI Lacks Host Validation and Remains Exposed to DNS Rebinding",
-      "url": "https://github.com/advisories/GHSA-hhcg-r27j-fhv9",
-      "date": "2026-03-16T16:34:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Glances] Glances has a SQL Injection in DuckDB Export via Unparameterized DDL Statements",
-      "url": "https://github.com/advisories/GHSA-49g7-2ww7-3vf5",
-      "date": "2026-03-16T16:34:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Glances] Glances's Default CORS Configuration Allows Cross-Origin Credential Theft",
-      "url": "https://github.com/advisories/GHSA-9jfm-9rc6-2hfq",
-      "date": "2026-03-16T16:32:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Glances] Glances has Incomplete Secrets Redaction: /api/v4/args Endpoint Leaks Password Hash and SNMP Credentials",
-      "url": "https://github.com/advisories/GHSA-cvwp-r2g2-j824",
-      "date": "2026-03-16T16:26:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Glances] Glances has a Command Injection via Process Names in Action Command Templates",
-      "url": "https://github.com/advisories/GHSA-vcv2-q258-wrg7",
-      "date": "2026-03-16T16:26:25.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
