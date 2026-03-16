@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-16T20:20:27.278Z",
+  "scannedAt": "2026-03-16T21:22:07.620Z",
   "count": 97,
   "packages": [
     {
@@ -104,6 +104,15 @@
     {
       "name": "enzyme-adapter-react-16",
       "version": "1.15.8",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "intelligibabble",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "enzyme-adapter-utils",
+      "version": "1.14.2",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -525,6 +534,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@supabase/storage-js",
+      "version": "2.99.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "kiwicopple",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@supabase/realtime-js",
       "version": "2.99.2",
       "ecosystem": "npm",
@@ -535,15 +553,6 @@
     },
     {
       "name": "@supabase/supabase-js",
-      "version": "2.99.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "kiwicopple",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@supabase/storage-js",
       "version": "2.99.2",
       "ecosystem": "npm",
       "score": 22,
@@ -624,6 +633,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "resedit",
+      "version": "3.0.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jet2jet",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@appium/types",
       "version": "1.2.1",
       "ecosystem": "npm",
@@ -648,15 +666,6 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "resedit",
-      "version": "3.0.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jet2jet",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -865,15 +874,6 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@nevware21/ts-utils",
-      "version": "0.13.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
     }
   ]
 }

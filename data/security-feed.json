@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-03-16T20:17:47.001Z",
+  "fetchedAt": "2026-03-16T21:19:26.032Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw session transcript files were created without forced user-only permissions",
+      "url": "https://github.com/advisories/GHSA-vr7j-g7jv-h5mp",
+      "date": "2026-03-16T20:41:52.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpneClaw accepts unsanitized iMessage attachment paths which allowed SCP remote-path command injection",
+      "url": "https://github.com/advisories/GHSA-g2f6-pwvx-r275",
+      "date": "2026-03-16T20:41:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw Telegram webhook request bodies were read before secret validation, enabling unauthenticated resource exhaustion",
+      "url": "https://github.com/advisories/GHSA-jq3f-vjww-8rq7",
+      "date": "2026-03-16T20:41:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw bootstrap setup codes could be replayed to escalate pending pairing scopes before approval",
+      "url": "https://github.com/advisories/GHSA-63f5-hhc7-cx6p",
+      "date": "2026-03-16T20:40:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw Telegram media fetch errors exposed bot tokens in logged file URLs",
+      "url": "https://github.com/advisories/GHSA-xwcj-hwhf-h378",
+      "date": "2026-03-16T20:40:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[parse-server] Parse Server has a stored XSS filter bypass via Content-Type MIME parameter and missing XML extension blocklist entries",
       "url": "https://github.com/advisories/GHSA-42ph-pf9q-cr72",
@@ -103,41 +138,6 @@
       "title": "[Glances] Glances has a Command Injection via Process Names in Action Command Templates",
       "url": "https://github.com/advisories/GHSA-vcv2-q258-wrg7",
       "date": "2026-03-16T16:26:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Glances] Glances exposes the REST API without authentication",
-      "url": "https://github.com/advisories/GHSA-wvxv-4j8q-4wjq",
-      "date": "2026-03-16T16:23:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[onnx] ONNX Untrusted Model Repository Warnings Suppressed by silent=True in onnx.hub.load() — Silent Supply-Chain Attack",
-      "url": "https://github.com/advisories/GHSA-hqmj-h5c6-369m",
-      "date": "2026-03-16T16:23:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyopenssl] pyOpenSSL DTLS cookie callback buffer overflow",
-      "url": "https://github.com/advisories/GHSA-5pwr-322w-8jr4",
-      "date": "2026-03-16T16:22:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@dicebear/converter] Uncontrolled memory allocation via crafted SVG dimensions in @dicebear/converter",
-      "url": "https://github.com/advisories/GHSA-v3r3-4qgc-vw66",
-      "date": "2026-03-16T16:15:34.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[authlib] Authlib: Fail-Open Cryptographic Verification in OIDC Hash Binding",
-      "url": "https://github.com/advisories/GHSA-m344-f55w-2m6j",
-      "date": "2026-03-16T16:15:09.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
