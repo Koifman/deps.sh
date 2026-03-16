@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-16T12:28:35.524Z",
+  "fetchedAt": "2026-03-16T13:39:40.088Z",
   "entries": [
+    {
+      "title": "[yauzl] yauzl contains an off-by-one error",
+      "url": "https://github.com/advisories/GHSA-gmq8-994r-jv83",
+      "date": "2026-03-16T12:35:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0040: Vulnerability in tracing-ethers",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0040.html",
@@ -129,13 +136,6 @@
       "title": "[openclaw] OpenClaw: Feishu webhook mode accepted forged events when only `verificationToken` was configured",
       "url": "https://github.com/advisories/GHSA-g353-mgv3-8pcj",
       "date": "2026-03-13T20:55:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Gateway `agent` calls could override the workspace boundary",
-      "url": "https://github.com/advisories/GHSA-2rqg-gjgv-84jm",
-      "date": "2026-03-13T20:55:30.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
