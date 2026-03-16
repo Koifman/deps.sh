@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-03-16T18:29:16.943Z",
+  "fetchedAt": "2026-03-16T19:28:23.841Z",
   "entries": [
+    {
+      "title": "[parse-server] Parse Server has a stored XSS filter bypass via Content-Type MIME parameter and missing XML extension blocklist entries",
+      "url": "https://github.com/advisories/GHSA-42ph-pf9q-cr72",
+      "date": "2026-03-16T18:46:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server has a stored XSS filter bypass via Content-Type MIME parameter and missing XML extension blocklist entries",
+      "url": "https://github.com/advisories/GHSA-42ph-pf9q-cr72",
+      "date": "2026-03-16T18:46:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@google/clasp] @google/clasp vulnerable to unsafe path traversal cloning or pulling a malicious script",
       "url": "https://github.com/advisories/GHSA-hqjg-pww4-pcgq",
@@ -126,20 +140,6 @@
       "date": "2026-03-16T16:15:09.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[authlib] Authlib Vulnerable to JWE RSA1_5 Bleichenbacher Padding Oracle",
-      "url": "https://github.com/advisories/GHSA-7432-952r-cw78",
-      "date": "2026-03-16T15:17:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[authlib] Authlib JWS JWK Header Injection: Signature Verification Bypass",
-      "url": "https://github.com/advisories/GHSA-wvwj-cvrp-7pv5",
-      "date": "2026-03-16T15:17:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
