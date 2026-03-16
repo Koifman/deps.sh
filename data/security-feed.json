@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-03-16T14:35:56.774Z",
+  "fetchedAt": "2026-03-16T15:31:30.602Z",
   "entries": [
+    {
+      "title": "[authlib] Authlib Vulnerable to JWE RSA1_5 Bleichenbacher Padding Oracle",
+      "url": "https://github.com/advisories/GHSA-7432-952r-cw78",
+      "date": "2026-03-16T15:17:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[authlib] Authlib JWS JWK Header Injection: Signature Verification Bypass",
+      "url": "https://github.com/advisories/GHSA-wvwj-cvrp-7pv5",
+      "date": "2026-03-16T15:17:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[pyopenssl] pyOpenSSL allows TLS connection bypass via unhandled callback exception in set_tlsext_servername_callback",
+      "url": "https://github.com/advisories/GHSA-vp96-hxj8-p424",
+      "date": "2026-03-16T15:15:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[fastmcp] FastMCP OAuth Proxy token reuse across MCP servers",
+      "url": "https://github.com/advisories/GHSA-5h2m-4q8j-pqpj",
+      "date": "2026-03-16T15:14:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[yauzl] yauzl contains an off-by-one error",
       "url": "https://github.com/advisories/GHSA-gmq8-994r-jv83",
@@ -108,34 +136,6 @@
       "title": "[@angular/core] Angular vulnerable to XSS in i18n attribute bindings",
       "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
       "date": "2026-03-13T20:56:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/core] Angular vulnerable to XSS in i18n attribute bindings",
-      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
-      "date": "2026-03-13T20:56:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[file-type] file-type: ZIP Decompression Bomb DoS via [Content_Types].xml entry",
-      "url": "https://github.com/advisories/GHSA-j47w-4g3g-c36v",
-      "date": "2026-03-13T20:56:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Zalo webhook rate limiting could be bypassed before secret validation",
-      "url": "https://github.com/advisories/GHSA-5m9r-p9g7-679c",
-      "date": "2026-03-13T20:55:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Feishu webhook mode accepted forged events when only `verificationToken` was configured",
-      "url": "https://github.com/advisories/GHSA-g353-mgv3-8pcj",
-      "date": "2026-03-13T20:55:35.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
