@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-03-16T15:31:30.602Z",
+  "fetchedAt": "2026-03-16T16:30:52.443Z",
   "entries": [
+    {
+      "title": "[@dicebear/converter] Uncontrolled memory allocation via crafted SVG dimensions in @dicebear/converter",
+      "url": "https://github.com/advisories/GHSA-v3r3-4qgc-vw66",
+      "date": "2026-03-16T16:15:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[authlib] Authlib: Fail-Open Cryptographic Verification in OIDC Hash Binding",
+      "url": "https://github.com/advisories/GHSA-m344-f55w-2m6j",
+      "date": "2026-03-16T16:15:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[authlib] Authlib Vulnerable to JWE RSA1_5 Bleichenbacher Padding Oracle",
       "url": "https://github.com/advisories/GHSA-7432-952r-cw78",
@@ -106,20 +120,6 @@
     },
     {
       "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
-      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
-      "date": "2026-03-13T20:56:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/core] Angular vulnerable to XSS in i18n attribute bindings",
-      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
-      "date": "2026-03-13T20:56:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/core] Angular vulnerable to XSS in i18n attribute bindings",
       "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
       "date": "2026-03-13T20:56:21.000Z",
       "ecosystem": "npm",
