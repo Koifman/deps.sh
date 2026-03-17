@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-03-17T17:28:55.181Z",
+  "fetchedAt": "2026-03-17T18:29:24.161Z",
   "entries": [
+    {
+      "title": "[parse-server] Parse Server's Cloud function dispatch crashes server via prototype chain traversal",
+      "url": "https://github.com/advisories/GHSA-4263-jgmp-7pf4",
+      "date": "2026-03-17T17:58:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server's Cloud function dispatch crashes server via prototype chain traversal",
+      "url": "https://github.com/advisories/GHSA-4263-jgmp-7pf4",
+      "date": "2026-03-17T17:58:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server has a password reset token single-use bypass via concurrent requests",
+      "url": "https://github.com/advisories/GHSA-r3xq-68wh-gwvh",
+      "date": "2026-03-17T17:40:10.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] Parse Server has a password reset token single-use bypass via concurrent requests",
+      "url": "https://github.com/advisories/GHSA-r3xq-68wh-gwvh",
+      "date": "2026-03-17T17:40:10.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] Parse Server crash via deeply nested query condition operators",
+      "url": "https://github.com/advisories/GHSA-9xp9-j92r-p88v",
+      "date": "2026-03-17T17:35:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server crash via deeply nested query condition operators",
+      "url": "https://github.com/advisories/GHSA-9xp9-j92r-p88v",
+      "date": "2026-03-17T17:35:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[jspdf] jsPDF has HTML Injection in New Window paths",
       "url": "https://github.com/advisories/GHSA-wfv2-pwc8-crg5",
@@ -97,48 +139,6 @@
       "date": "2026-03-17T01:15:54.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/core] Angular vulnerable to XSS in i18n attribute bindings",
-      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
-      "date": "2026-03-17T01:15:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/core] Angular vulnerable to XSS in i18n attribute bindings",
-      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
-      "date": "2026-03-17T01:15:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fastmcp] FastMCP OAuth Proxy token reuse across MCP servers",
-      "url": "https://github.com/advisories/GHSA-5h2m-4q8j-pqpj",
-      "date": "2026-03-16T21:55:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[authlib] Authlib: Fail-Open Cryptographic Verification in OIDC Hash Binding",
-      "url": "https://github.com/advisories/GHSA-m344-f55w-2m6j",
-      "date": "2026-03-16T21:54:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[authlib] Authlib Vulnerable to JWE RSA1_5 Bleichenbacher Padding Oracle",
-      "url": "https://github.com/advisories/GHSA-7432-952r-cw78",
-      "date": "2026-03-16T21:54:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[authlib] Authlib JWS JWK Header Injection: Signature Verification Bypass",
-      "url": "https://github.com/advisories/GHSA-wvwj-cvrp-7pv5",
-      "date": "2026-03-16T21:54:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
