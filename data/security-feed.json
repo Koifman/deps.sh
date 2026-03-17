@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-03-17T15:31:04.059Z",
+  "fetchedAt": "2026-03-17T16:32:46.523Z",
   "entries": [
+    {
+      "title": "[elysia] Elysia Cookie Value Prototype Pollution",
+      "url": "https://github.com/advisories/GHSA-8hq9-phh3-p2wp",
+      "date": "2026-03-17T16:17:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyasn1] Denial of Service in pyasn1 via Unbounded Recursion",
+      "url": "https://github.com/advisories/GHSA-jr27-m4p2-rc6r",
+      "date": "2026-03-17T16:17:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[next] Next.js: HTTP request smuggling in rewrites",
+      "url": "https://github.com/advisories/GHSA-ggv3-7p47-pfv8",
+      "date": "2026-03-17T16:17:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next] Next.js: HTTP request smuggling in rewrites",
+      "url": "https://github.com/advisories/GHSA-ggv3-7p47-pfv8",
+      "date": "2026-03-17T16:17:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next] Next.js: Unbounded next/image disk cache growth can exhaust storage",
+      "url": "https://github.com/advisories/GHSA-3x4c-7xq6-9pq8",
+      "date": "2026-03-17T16:17:07.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next] Next.js: Unbounded postponed resume buffering can lead to DoS",
+      "url": "https://github.com/advisories/GHSA-h27x-g6w4-24gq",
+      "date": "2026-03-17T16:16:52.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next] Next.js: null origin can bypass Server Actions CSRF checks",
+      "url": "https://github.com/advisories/GHSA-mq59-m269-xvcx",
+      "date": "2026-03-17T15:30:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next] Next.js: null origin can bypass dev HMR websocket CSRF checks",
+      "url": "https://github.com/advisories/GHSA-jcc7-9wpm-mj36",
+      "date": "2026-03-17T15:29:49.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[justhtml] Uncontrolled recursion DoS in JustHTML() via deeply nested HTML",
       "url": "https://github.com/advisories/GHSA-v7cf-c9rm-wm3j",
@@ -40,27 +96,6 @@
       "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
       "date": "2026-03-17T01:15:54.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
-      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
-      "date": "2026-03-17T01:15:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
-      "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
-      "date": "2026-03-17T01:15:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[simpleeval] SimpleEval: Objects (including modules) can leak dangerous modules through to direct access inside the sandbox",
-      "url": "https://github.com/advisories/GHSA-44vg-5wv2-h2hg",
-      "date": "2026-03-16T22:00:16.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
@@ -104,41 +139,6 @@
       "date": "2026-03-16T20:41:52.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpneClaw accepts unsanitized iMessage attachment paths which allowed SCP remote-path command injection",
-      "url": "https://github.com/advisories/GHSA-g2f6-pwvx-r275",
-      "date": "2026-03-16T20:41:16.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw Telegram webhook request bodies were read before secret validation, enabling unauthenticated resource exhaustion",
-      "url": "https://github.com/advisories/GHSA-jq3f-vjww-8rq7",
-      "date": "2026-03-16T20:41:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw bootstrap setup codes could be replayed to escalate pending pairing scopes before approval",
-      "url": "https://github.com/advisories/GHSA-63f5-hhc7-cx6p",
-      "date": "2026-03-16T20:40:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw Telegram media fetch errors exposed bot tokens in logged file URLs",
-      "url": "https://github.com/advisories/GHSA-xwcj-hwhf-h378",
-      "date": "2026-03-16T20:40:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server has a stored XSS filter bypass via Content-Type MIME parameter and missing XML extension blocklist entries",
-      "url": "https://github.com/advisories/GHSA-42ph-pf9q-cr72",
-      "date": "2026-03-16T18:46:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }

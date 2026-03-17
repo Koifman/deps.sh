@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-17T15:34:05.241Z",
-  "count": 98,
+  "scannedAt": "2026-03-17T16:35:48.825Z",
+  "count": 99,
   "packages": [
     {
       "name": "xmldom",
@@ -31,7 +31,7 @@
     },
     {
       "name": "pdfmake",
-      "version": "0.3.6",
+      "version": "0.3.7",
       "ecosystem": "npm",
       "score": 52,
       "level": "HIGH",
@@ -298,6 +298,15 @@
       "level": "MODERATE",
       "previousOwner": "azure-sdk",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "well-known-symbols",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "novemberborn",
+      "currentOwner": "ljharb"
     },
     {
       "name": "tslib",
@@ -588,15 +597,6 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
-    },
-    {
       "name": "openid-client",
       "version": "6.8.2",
       "ecosystem": "npm",
@@ -604,6 +604,15 @@
       "level": "MODERATE",
       "previousOwner": "panva",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
     },
     {
       "name": "oxc-parser",
@@ -813,8 +822,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.120.0",
+      "name": "@oxlint/binding-linux-x64-gnu",
+      "version": "1.56.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -822,8 +831,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-gnu",
-      "version": "1.56.0",
+      "name": "oxc-minify",
+      "version": "0.120.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
