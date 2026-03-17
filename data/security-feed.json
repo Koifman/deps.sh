@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-03-17T19:28:44.996Z",
+  "fetchedAt": "2026-03-17T20:17:36.099Z",
   "entries": [
+    {
+      "title": "[langflow] Unauthenticated Remote Code Execution in Langflow via Public Flow Build Endpoint",
+      "url": "https://github.com/advisories/GHSA-vwmf-pq79-vjvx",
+      "date": "2026-03-17T20:05:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[music-metadata] music-metadata has an infinite loop vulnerability in ASF parser",
+      "url": "https://github.com/advisories/GHSA-v6c2-xwv6-8xf7",
+      "date": "2026-03-17T20:04:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mlflow] MLflow Tracking Server Artifact Handler Directory Traversal Remote Code Execution Vulnerability",
+      "url": "https://github.com/advisories/GHSA-q2r8-vmq7-fpx2",
+      "date": "2026-03-17T20:03:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mlflow] MLflow Use of Default Password Authentication Bypass Vulnerability",
+      "url": "https://github.com/advisories/GHSA-gq3w-7jj3-x7gr",
+      "date": "2026-03-17T20:02:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[mlflow] MLflow has a command injection in mlflow/sagemaker/__init__.py",
+      "url": "https://github.com/advisories/GHSA-xch3-2f9x-wh9f",
+      "date": "2026-03-17T19:53:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server affected by empty authData bypassing credential requirement on signup",
+      "url": "https://github.com/advisories/GHSA-wjqw-r9x4-j59v",
+      "date": "2026-03-17T19:50:45.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server affected by empty authData bypassing credential requirement on signup",
+      "url": "https://github.com/advisories/GHSA-wjqw-r9x4-j59v",
+      "date": "2026-03-17T19:50:45.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser affected by numeric entity expansion bypassing all entity expansion limits (incomplete fix for CVE-2026-26278)",
+      "url": "https://github.com/advisories/GHSA-8gc5-j5rx-235r",
+      "date": "2026-03-17T19:45:43.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@nestjs/platform-fastify] Nest Fastify HEAD Request Middleware Bypass",
       "url": "https://github.com/advisories/GHSA-wf42-42fg-fg84",
@@ -84,62 +140,6 @@
       "date": "2026-03-17T17:35:53.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server crash via deeply nested query condition operators",
-      "url": "https://github.com/advisories/GHSA-9xp9-j92r-p88v",
-      "date": "2026-03-17T17:35:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jspdf] jsPDF has HTML Injection in New Window paths",
-      "url": "https://github.com/advisories/GHSA-wfv2-pwc8-crg5",
-      "date": "2026-03-17T17:08:01.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[jspdf] jsPDF has a PDF Object Injection via FreeText color",
-      "url": "https://github.com/advisories/GHSA-7x6v-j9x4-qf24",
-      "date": "2026-03-17T17:07:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[elysia] Elysia Cookie Value Prototype Pollution",
-      "url": "https://github.com/advisories/GHSA-8hq9-phh3-p2wp",
-      "date": "2026-03-17T16:17:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyasn1] Denial of Service in pyasn1 via Unbounded Recursion",
-      "url": "https://github.com/advisories/GHSA-jr27-m4p2-rc6r",
-      "date": "2026-03-17T16:17:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js: HTTP request smuggling in rewrites",
-      "url": "https://github.com/advisories/GHSA-ggv3-7p47-pfv8",
-      "date": "2026-03-17T16:17:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next] Next.js: HTTP request smuggling in rewrites",
-      "url": "https://github.com/advisories/GHSA-ggv3-7p47-pfv8",
-      "date": "2026-03-17T16:17:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next] Next.js: Unbounded next/image disk cache growth can exhaust storage",
-      "url": "https://github.com/advisories/GHSA-3x4c-7xq6-9pq8",
-      "date": "2026-03-17T16:17:07.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
