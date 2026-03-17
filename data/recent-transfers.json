@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-17T10:26:33.213Z",
+  "scannedAt": "2026-03-17T11:25:27.091Z",
   "count": 99,
   "packages": [
     {
@@ -73,15 +73,6 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
-    },
-    {
-      "name": "appium",
-      "version": "3.2.2",
-      "ecosystem": "npm",
-      "score": 43,
-      "level": "MODERATE",
-      "previousOwner": "admc",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -480,21 +471,21 @@
       "currentOwner": "redux-saga-release-bot"
     },
     {
-      "name": "dependency-cruiser",
-      "version": "17.3.9",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "sverweij",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/base-driver",
       "version": "10.2.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "dependency-cruiser",
+      "version": "17.3.9",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "sverweij",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -822,8 +813,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-gnu",
-      "version": "1.56.0",
+      "name": "oxc-minify",
+      "version": "0.120.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -831,8 +822,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.120.0",
+      "name": "@oxlint/binding-linux-x64-gnu",
+      "version": "1.56.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -867,8 +858,8 @@
       "currentOwner": "balearica"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.56.0",
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.41.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -876,8 +867,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.41.0",
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.56.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -892,6 +883,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@nevware21/ts-utils",
+      "version": "0.13.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     }
   ]
 }
