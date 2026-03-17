@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-17T13:39:02.086Z",
+  "fetchedAt": "2026-03-17T14:33:32.046Z",
   "entries": [
+    {
+      "title": "[justhtml] Uncontrolled recursion DoS in JustHTML() via deeply nested HTML",
+      "url": "https://github.com/advisories/GHSA-v7cf-c9rm-wm3j",
+      "date": "2026-03-17T14:07:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0041: Vulnerability in lz4_flex",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0041.html",
@@ -125,13 +132,6 @@
       "date": "2026-03-16T20:40:14.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server has a stored XSS filter bypass via Content-Type MIME parameter and missing XML extension blocklist entries",
-      "url": "https://github.com/advisories/GHSA-42ph-pf9q-cr72",
-      "date": "2026-03-16T18:46:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     },
     {
       "title": "[parse-server] Parse Server has a stored XSS filter bypass via Content-Type MIME parameter and missing XML extension blocklist entries",
