@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-03-17T20:17:36.099Z",
+  "fetchedAt": "2026-03-17T21:18:25.818Z",
   "entries": [
+    {
+      "title": "[bedrock-agentcore-starter-toolkit] Improper S3 ownership verification in Bedrock AgentCore Starter Toolkit",
+      "url": "https://github.com/advisories/GHSA-xfhr-q72q-jcrj",
+      "date": "2026-03-17T20:34:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[awslabs.aws-api-mcp-server] AWS API MCP File Access Restriction Bypass",
+      "url": "https://github.com/advisories/GHSA-2cpp-j2fc-qhp7",
+      "date": "2026-03-17T20:33:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vanna] Vanna has a SQL injection in the remove_training_data function",
+      "url": "https://github.com/advisories/GHSA-6mj8-jmp2-g8q7",
+      "date": "2026-03-17T20:32:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[langflow] Unauthenticated Remote Code Execution in Langflow via Public Flow Build Endpoint",
       "url": "https://github.com/advisories/GHSA-vwmf-pq79-vjvx",
@@ -117,27 +138,6 @@
       "title": "[parse-server] Parse Server's Cloud function dispatch crashes server via prototype chain traversal",
       "url": "https://github.com/advisories/GHSA-4263-jgmp-7pf4",
       "date": "2026-03-17T17:58:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server has a password reset token single-use bypass via concurrent requests",
-      "url": "https://github.com/advisories/GHSA-r3xq-68wh-gwvh",
-      "date": "2026-03-17T17:40:10.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] Parse Server has a password reset token single-use bypass via concurrent requests",
-      "url": "https://github.com/advisories/GHSA-r3xq-68wh-gwvh",
-      "date": "2026-03-17T17:40:10.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] Parse Server crash via deeply nested query condition operators",
-      "url": "https://github.com/advisories/GHSA-9xp9-j92r-p88v",
-      "date": "2026-03-17T17:35:53.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
