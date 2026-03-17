@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-17T09:28:44.463Z",
-  "count": 98,
+  "scannedAt": "2026-03-17T10:26:33.213Z",
+  "count": 99,
   "packages": [
     {
       "name": "xmldom",
@@ -73,6 +73,15 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "appium",
+      "version": "3.2.2",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "admc",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -228,15 +237,6 @@
       "currentOwner": "hzoo"
     },
     {
-      "name": "mark.js",
-      "version": "8.11.1",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "lukasoppermann",
-      "currentOwner": "julmot"
-    },
-    {
       "name": "js-library-detector",
       "version": "6.7.0",
       "ecosystem": "npm",
@@ -244,6 +244,15 @@
       "level": "MODERATE",
       "previousOwner": "johnmichel",
       "currentOwner": "housseindjirdeh"
+    },
+    {
+      "name": "mark.js",
+      "version": "8.11.1",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "lukasoppermann",
+      "currentOwner": "julmot"
     },
     {
       "name": "coffeescript",
@@ -543,21 +552,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/realtime-js",
-      "version": "2.99.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "kiwicopple",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@formatjs/ecma402-abstract",
       "version": "3.1.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "longlho",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@supabase/realtime-js",
+      "version": "2.99.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "kiwicopple",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -624,21 +633,21 @@
       "currentOwner": "notaphplover"
     },
     {
-      "name": "@appium/logger",
-      "version": "2.0.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "resedit",
       "version": "3.0.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jet2jet",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/logger",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -813,8 +822,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.120.0",
+      "name": "@oxlint/binding-linux-x64-gnu",
+      "version": "1.56.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -822,8 +831,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-gnu",
-      "version": "1.56.0",
+      "name": "oxc-minify",
+      "version": "0.120.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -858,8 +867,8 @@
       "currentOwner": "balearica"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.41.0",
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.56.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -867,8 +876,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.56.0",
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.41.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",

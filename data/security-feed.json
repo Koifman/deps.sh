@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-03-17T09:25:47.601Z",
+  "fetchedAt": "2026-03-17T10:24:01.904Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0041: Vulnerability in lz4_flex",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0041.html",
+      "date": "2026-03-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@angular/compiler] Angular vulnerable to XSS in i18n attribute bindings",
       "url": "https://github.com/advisories/GHSA-g93w-mfhg-p222",
@@ -131,13 +137,6 @@
       "title": "[parse-server] Parse Server has a stored XSS filter bypass via Content-Type MIME parameter and missing XML extension blocklist entries",
       "url": "https://github.com/advisories/GHSA-42ph-pf9q-cr72",
       "date": "2026-03-16T18:46:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@google/clasp] @google/clasp vulnerable to unsafe path traversal cloning or pulling a malicious script",
-      "url": "https://github.com/advisories/GHSA-hqjg-pww4-pcgq",
-      "date": "2026-03-16T17:08:24.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
