@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-17T16:35:48.825Z",
-  "count": 99,
+  "scannedAt": "2026-03-17T17:32:01.970Z",
+  "count": 98,
   "packages": [
     {
       "name": "xmldom",
@@ -480,21 +480,21 @@
       "currentOwner": "redux-saga-release-bot"
     },
     {
-      "name": "@appium/base-driver",
-      "version": "10.2.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "dependency-cruiser",
       "version": "17.3.9",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "sverweij",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/base-driver",
+      "version": "10.2.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -883,15 +883,6 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@nevware21/ts-utils",
-      "version": "0.13.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
     }
   ]
 }

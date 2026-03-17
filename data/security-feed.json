@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-03-17T16:32:46.523Z",
+  "fetchedAt": "2026-03-17T17:28:55.181Z",
   "entries": [
+    {
+      "title": "[jspdf] jsPDF has HTML Injection in New Window paths",
+      "url": "https://github.com/advisories/GHSA-wfv2-pwc8-crg5",
+      "date": "2026-03-17T17:08:01.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[jspdf] jsPDF has a PDF Object Injection via FreeText color",
+      "url": "https://github.com/advisories/GHSA-7x6v-j9x4-qf24",
+      "date": "2026-03-17T17:07:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[elysia] Elysia Cookie Value Prototype Pollution",
       "url": "https://github.com/advisories/GHSA-8hq9-phh3-p2wp",
@@ -125,20 +139,6 @@
       "date": "2026-03-16T21:54:00.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[crypto-js] crypto-js uses insecure random numbers",
-      "url": "https://github.com/advisories/GHSA-3w3w-pxmm-2w2j",
-      "date": "2026-03-16T21:32:01.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw session transcript files were created without forced user-only permissions",
-      "url": "https://github.com/advisories/GHSA-vr7j-g7jv-h5mp",
-      "date": "2026-03-16T20:41:52.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
