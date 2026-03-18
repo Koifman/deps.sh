@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-03-18T20:17:59.280Z",
+  "fetchedAt": "2026-03-18T21:17:38.699Z",
   "entries": [
+    {
+      "title": "[nltk] Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in nltk",
+      "url": "https://github.com/advisories/GHSA-gfwx-w7gr-fvh7",
+      "date": "2026-03-18T20:23:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[budibase] Budibase Unrestricted Server-Side Request Forgery (SSRF) via REST Datasource Query Preview",
+      "url": "https://github.com/advisories/GHSA-4647-wpjq-hh7f",
+      "date": "2026-03-18T20:22:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[justhtml] JustHTML has a Sanitizer Bypass (in Markdown)",
+      "url": "https://github.com/advisories/GHSA-3rcm-vjrc-p45j",
+      "date": "2026-03-18T20:19:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[justhtml] JustHTML Affected by Mutation XSS via Literal Text Serialization in Raw Text Elements (style/script)",
+      "url": "https://github.com/advisories/GHSA-qvc2-mg72-jjhx",
+      "date": "2026-03-18T20:19:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk] Natural Language Toolkit (NLTK) has unbounded recursion in JSONTaggedDecoder.decode_obj() may cause DoS",
+      "url": "https://github.com/advisories/GHSA-rf74-v2fm-23pw",
+      "date": "2026-03-18T20:17:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[deepdiff] DeepDiff has Memory Exhaustion DoS through SAFE_TO_IMPORT",
+      "url": "https://github.com/advisories/GHSA-54jj-px8x-5w5q",
+      "date": "2026-03-18T20:10:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dynaconf] dynaconf Affected by Remote Code Execution (RCE) via Insecure Template Evaluation in @jinja Resolver",
+      "url": "https://github.com/advisories/GHSA-pxrr-hq57-q35p",
+      "date": "2026-03-18T20:08:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[mesop] Mesop Affected by Unauthenticated Remote Code Execution via Test Suite Route /exec-py",
       "url": "https://github.com/advisories/GHSA-gjgx-rvqr-6w6v",
@@ -90,55 +139,6 @@
       "url": "https://github.com/advisories/GHSA-v3xv-8vc3-h2m6",
       "date": "2026-03-18T16:33:36.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow: Execution API HITL Endpoints Missing Per-Task Authorization",
-      "url": "https://github.com/advisories/GHSA-8x34-9q3v-h7g8",
-      "date": "2026-03-18T16:33:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow: Path of session token in cookie does not consider base_url - session hijacking via co-hosted applications",
-      "url": "https://github.com/advisories/GHSA-4fhm-p86v-hwpx",
-      "date": "2026-03-18T16:32:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow: DAG authorization bypass",
-      "url": "https://github.com/advisories/GHSA-x3fv-96qh-67m7",
-      "date": "2026-03-18T16:19:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow: Wildcard DagVersion Listing Bypasses Per‑DAG RBAC and Leaks Metadata",
-      "url": "https://github.com/advisories/GHSA-4m3h-wp5w-5hqh",
-      "date": "2026-03-18T16:19:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[h3] h3 has a Path Traversal via Percent-Encoded Dot Segments in serveStatic Allows Arbitrary File Read",
-      "url": "https://github.com/advisories/GHSA-wr4h-v87w-p3r7",
-      "date": "2026-03-18T16:18:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[h3] h3 has a Path Traversal via Percent-Encoded Dot Segments in serveStatic Allows Arbitrary File Read",
-      "url": "https://github.com/advisories/GHSA-wr4h-v87w-p3r7",
-      "date": "2026-03-18T16:18:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[h3] h3 has a middleware bypass with one gadget",
-      "url": "https://github.com/advisories/GHSA-3vj8-jmxq-cgj5",
-      "date": "2026-03-18T16:18:13.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
