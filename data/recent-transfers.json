@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-18T11:26:13.396Z",
-  "count": 97,
+  "scannedAt": "2026-03-18T12:31:39.845Z",
+  "count": 98,
   "packages": [
     {
       "name": "xmldom",
@@ -462,15 +462,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@redux-saga/core",
-      "version": "1.4.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "andarist",
-      "currentOwner": "redux-saga-release-bot"
-    },
-    {
       "name": "embla-carousel-autoplay",
       "version": "8.6.0",
       "ecosystem": "npm",
@@ -478,6 +469,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "@redux-saga/core",
+      "version": "1.4.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "andarist",
+      "currentOwner": "redux-saga-release-bot"
     },
     {
       "name": "@appium/base-driver",
@@ -495,6 +495,15 @@
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "sverweij",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/docutils",
+      "version": "2.2.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -615,6 +624,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "inversify",
+      "version": "8.1.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "remojansen",
+      "currentOwner": "notaphplover"
+    },
+    {
       "name": "resedit",
       "version": "3.0.2",
       "ecosystem": "npm",
@@ -624,13 +642,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "inversify",
-      "version": "8.1.0",
+      "name": "oxfmt",
+      "version": "0.41.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "remojansen",
-      "currentOwner": "notaphplover"
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@appium/logger",
@@ -648,15 +666,6 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "oxfmt",
-      "version": "0.41.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -723,15 +732,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@hey-api/codegen-core",
-      "version": "0.7.3",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "mrlubos",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "typescript",
       "version": "5.9.3",
       "ecosystem": "npm",
@@ -777,7 +777,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-x64-musl",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
       "version": "0.120.0",
       "ecosystem": "npm",
       "score": 20,
@@ -786,7 +786,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "name": "@oxc-parser/binding-linux-x64-musl",
       "version": "0.120.0",
       "ecosystem": "npm",
       "score": 20,
@@ -813,7 +813,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
+      "name": "@oxc-transform/binding-linux-x64-musl",
       "version": "0.120.0",
       "ecosystem": "npm",
       "score": 20,
@@ -822,7 +822,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
+      "name": "oxc-minify",
       "version": "0.120.0",
       "ecosystem": "npm",
       "score": 20,
@@ -867,8 +867,17 @@
       "currentOwner": "nevware21bot"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.41.0",
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
+    },
+    {
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.56.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
