@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-03-18T16:31:55.588Z",
+  "fetchedAt": "2026-03-18T17:29:25.225Z",
   "entries": [
+    {
+      "title": "[oneuptime] OneUptime ClickHouse vulnerable to SQL Injection via unvalidated column identifiers in sort, select, and groupBy parameters",
+      "url": "https://github.com/advisories/GHSA-gcg3-c5p2-cqgg",
+      "date": "2026-03-18T16:34:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pyspector] Stored XSS in PySpector HTML Report Generation leads to Javascript Code Execution",
+      "url": "https://github.com/advisories/GHSA-2gmv-2r3v-jxj2",
+      "date": "2026-03-18T16:33:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyspector] PySpector has a Plugin Sandbox Bypass leads to Arbitrary Code Execution",
+      "url": "https://github.com/advisories/GHSA-v3xv-8vc3-h2m6",
+      "date": "2026-03-18T16:33:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow: Execution API HITL Endpoints Missing Per-Task Authorization",
+      "url": "https://github.com/advisories/GHSA-8x34-9q3v-h7g8",
+      "date": "2026-03-18T16:33:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow: Path of session token in cookie does not consider base_url - session hijacking via co-hosted applications",
+      "url": "https://github.com/advisories/GHSA-4fhm-p86v-hwpx",
+      "date": "2026-03-18T16:32:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[apache-airflow] Apache Airflow: DAG authorization bypass",
       "url": "https://github.com/advisories/GHSA-x3fv-96qh-67m7",
@@ -105,41 +140,6 @@
       "date": "2026-03-18T13:01:25.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[ujson] UltraJSON has a Memory Leak parsing large integers allows DoS",
-      "url": "https://github.com/advisories/GHSA-wgvc-ghv9-3pmm",
-      "date": "2026-03-18T13:01:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@aborruso/ckan-mcp-server] SSRF in @aborruso/ckan-mcp-server via base_url allows access to internal networks",
-      "url": "https://github.com/advisories/GHSA-3xm7-qw7j-qc8v",
-      "date": "2026-03-18T12:59:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[kysely] SQL Injection via unsanitized JSON path keys when ignoring/silencing compilation errors or using `Kysely<any>`.",
-      "url": "https://github.com/advisories/GHSA-wmrf-hv6w-mr66",
-      "date": "2026-03-18T12:59:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langflow] Langflow is Missing Ownership Verification in API Key Deletion (IDOR)",
-      "url": "https://github.com/advisories/GHSA-rf6x-r45m-xv3w",
-      "date": "2026-03-18T12:58:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[bedrock-agentcore-starter-toolkit] Improper S3 ownership verification in Bedrock AgentCore Starter Toolkit",
-      "url": "https://github.com/advisories/GHSA-xfhr-q72q-jcrj",
-      "date": "2026-03-17T20:34:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
