@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-03-18T19:25:31.767Z",
+  "fetchedAt": "2026-03-18T20:17:59.280Z",
   "entries": [
+    {
+      "title": "[mesop] Mesop Affected by Unauthenticated Remote Code Execution via Test Suite Route /exec-py",
+      "url": "https://github.com/advisories/GHSA-gjgx-rvqr-6w6v",
+      "date": "2026-03-18T20:05:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[mesop] Mesop has a Path Traversal utilizing `FileStateSessionBackend` leads to Application Denial of Service and File Write/Deletion",
+      "url": "https://github.com/advisories/GHSA-8qvf-mr4w-9x2c",
+      "date": "2026-03-18T20:01:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[parse-server] Parse Server leaks protected fields via LiveQuery afterEvent trigger",
+      "url": "https://github.com/advisories/GHSA-5hmj-jcgp-6hff",
+      "date": "2026-03-18T19:49:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server leaks protected fields via LiveQuery afterEvent trigger",
+      "url": "https://github.com/advisories/GHSA-5hmj-jcgp-6hff",
+      "date": "2026-03-18T19:49:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@apostrophecms/import-export] ApostropheCMS has Arbitrary File Write (Zip Slip / Path Traversal) in Import-Export Gzip Extraction",
+      "url": "https://github.com/advisories/GHSA-mwxc-m426-3f78",
+      "date": "2026-03-18T19:49:08.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[apostrophe] ApostropheCMS MFA/TOTP Bypass via Incorrect MongoDB Query in Bearer Token Middleware",
+      "url": "https://github.com/advisories/GHSA-v9xm-ffx2-7h35",
+      "date": "2026-03-18T19:48:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[socket.io-parser] socket.io allows an unbounded number of binary attachments",
       "url": "https://github.com/advisories/GHSA-677m-j7p3-52f9",
@@ -98,48 +140,6 @@
       "date": "2026-03-18T16:18:13.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[h3] h3 has an observable timing discrepancy in basic auth utils",
-      "url": "https://github.com/advisories/GHSA-26f5-8h2x-34xh",
-      "date": "2026-03-18T16:17:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[h3] h3 has a Server-Sent Events Injection via Unsanitized Newlines in Event Stream Fields",
-      "url": "https://github.com/advisories/GHSA-22cc-p3c6-wpvm",
-      "date": "2026-03-18T16:17:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[h3] h3 has a Server-Sent Events Injection via Unsanitized Newlines in Event Stream Fields",
-      "url": "https://github.com/advisories/GHSA-22cc-p3c6-wpvm",
-      "date": "2026-03-18T16:17:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pypdf] pypdf has inefficient decoding of array-based streams",
-      "url": "https://github.com/advisories/GHSA-qpxp-75px-xjcp",
-      "date": "2026-03-18T16:17:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@pdfme/schemas] Cross-Site Scripting (XSS) via SVG Schema innerHTML Injection in @pdfme/schemas",
-      "url": "https://github.com/advisories/GHSA-87v3-4cfp-cm76",
-      "date": "2026-03-18T16:10:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@pdfme/schemas] Cross-Site Scripting (XSS) via Select Schema Option Value Injection in @pdfme/schemas",
-      "url": "https://github.com/advisories/GHSA-qq9g-96v4-m3cj",
-      "date": "2026-03-18T16:10:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
