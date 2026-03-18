@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-18T01:43:52.163Z",
+  "scannedAt": "2026-03-18T03:15:14.284Z",
   "count": 97,
   "packages": [
     {
@@ -192,8 +192,8 @@
       "currentOwner": "msftapplicationinsights"
     },
     {
-      "name": "heimdalljs",
-      "version": "0.2.6",
+      "name": "heimdalljs-logger",
+      "version": "0.1.10",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -201,8 +201,8 @@
       "currentOwner": "stefanpenner"
     },
     {
-      "name": "heimdalljs-logger",
-      "version": "0.1.10",
+      "name": "heimdalljs",
+      "version": "0.2.6",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -624,15 +624,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/logger",
-      "version": "2.0.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "inversify",
       "version": "8.1.0",
       "ecosystem": "npm",
@@ -640,6 +631,15 @@
       "level": "MODERATE",
       "previousOwner": "remojansen",
       "currentOwner": "notaphplover"
+    },
+    {
+      "name": "@appium/logger",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "oxfmt",
@@ -858,15 +858,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.41.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@nevware21/ts-utils",
       "version": "0.13.0",
       "ecosystem": "npm",
@@ -874,6 +865,15 @@
       "level": "LOW",
       "previousOwner": "nev21",
       "currentOwner": "nevware21bot"
+    },
+    {
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.41.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }
