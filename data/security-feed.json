@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-18T13:39:16.954Z",
+  "fetchedAt": "2026-03-18T14:37:29.638Z",
   "entries": [
+    {
+      "title": "[frigate] Frigte has broken access control viewer user can delete admin and other users account",
+      "url": "https://github.com/advisories/GHSA-vg28-83rp-8xx4",
+      "date": "2026-03-18T14:25:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[ujson] UltraJSON has an integer overflow handling large indent leads to buffer overflow or infinite loop",
       "url": "https://github.com/advisories/GHSA-c8rr-9gxc-jprv",
@@ -131,13 +138,6 @@
       "title": "[parse-server] Parse Server LiveQuery subscription with invalid regular expression crashes server",
       "url": "https://github.com/advisories/GHSA-827p-g5x5-h86c",
       "date": "2026-03-17T18:37:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server session creation endpoint allows overwriting server-generated session fields",
-      "url": "https://github.com/advisories/GHSA-5v7g-9h8f-8pgg",
-      "date": "2026-03-17T18:37:25.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
