@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-18T21:20:18.878Z",
-  "count": 98,
+  "scannedAt": "2026-03-18T22:17:27.138Z",
+  "count": 99,
   "packages": [
     {
       "name": "xmldom",
@@ -642,8 +642,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/logger",
-      "version": "2.0.5",
+      "name": "@appium/schema",
+      "version": "1.1.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -651,8 +651,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.1.0",
+      "name": "@appium/logger",
+      "version": "2.0.5",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -878,6 +878,15 @@
     {
       "name": "@oxlint/binding-linux-x64-musl",
       "version": "1.56.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.41.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
