@@ -1,6 +1,97 @@
 {
-  "fetchedAt": "2026-03-18T15:34:51.441Z",
+  "fetchedAt": "2026-03-18T16:31:55.588Z",
   "entries": [
+    {
+      "title": "[apache-airflow] Apache Airflow: DAG authorization bypass",
+      "url": "https://github.com/advisories/GHSA-x3fv-96qh-67m7",
+      "date": "2026-03-18T16:19:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow: Wildcard DagVersion Listing Bypasses Per‑DAG RBAC and Leaks Metadata",
+      "url": "https://github.com/advisories/GHSA-4m3h-wp5w-5hqh",
+      "date": "2026-03-18T16:19:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[h3] h3 has a Path Traversal via Percent-Encoded Dot Segments in serveStatic Allows Arbitrary File Read",
+      "url": "https://github.com/advisories/GHSA-wr4h-v87w-p3r7",
+      "date": "2026-03-18T16:18:33.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[h3] h3 has a Path Traversal via Percent-Encoded Dot Segments in serveStatic Allows Arbitrary File Read",
+      "url": "https://github.com/advisories/GHSA-wr4h-v87w-p3r7",
+      "date": "2026-03-18T16:18:33.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[h3] h3 has a middleware bypass with one gadget",
+      "url": "https://github.com/advisories/GHSA-3vj8-jmxq-cgj5",
+      "date": "2026-03-18T16:18:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[h3] h3 has an observable timing discrepancy in basic auth utils",
+      "url": "https://github.com/advisories/GHSA-26f5-8h2x-34xh",
+      "date": "2026-03-18T16:17:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[h3] h3 has a Server-Sent Events Injection via Unsanitized Newlines in Event Stream Fields",
+      "url": "https://github.com/advisories/GHSA-22cc-p3c6-wpvm",
+      "date": "2026-03-18T16:17:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[h3] h3 has a Server-Sent Events Injection via Unsanitized Newlines in Event Stream Fields",
+      "url": "https://github.com/advisories/GHSA-22cc-p3c6-wpvm",
+      "date": "2026-03-18T16:17:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pypdf] pypdf has inefficient decoding of array-based streams",
+      "url": "https://github.com/advisories/GHSA-qpxp-75px-xjcp",
+      "date": "2026-03-18T16:17:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@pdfme/schemas] Cross-Site Scripting (XSS) via SVG Schema innerHTML Injection in @pdfme/schemas",
+      "url": "https://github.com/advisories/GHSA-87v3-4cfp-cm76",
+      "date": "2026-03-18T16:10:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@pdfme/schemas] Cross-Site Scripting (XSS) via Select Schema Option Value Injection in @pdfme/schemas",
+      "url": "https://github.com/advisories/GHSA-qq9g-96v4-m3cj",
+      "date": "2026-03-18T16:10:16.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sjcl] sjcl is missing point-on-curve validation in sjcl.ecc.basicKey.publicKey",
+      "url": "https://github.com/advisories/GHSA-2w8x-224x-785m",
+      "date": "2026-03-18T16:10:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@capgo/cli] Capgo CLI: symlink-following local secret writes enable arbitrary file overwrite + world-readable credentials (0600 missing)",
+      "url": "https://github.com/advisories/GHSA-8mpm-q7mh-8fvh",
+      "date": "2026-03-18T16:09:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[frigate] Frigte has broken access control viewer user can delete admin and other users account",
       "url": "https://github.com/advisories/GHSA-vg28-83rp-8xx4",
@@ -48,97 +139,6 @@
       "url": "https://github.com/advisories/GHSA-xfhr-q72q-jcrj",
       "date": "2026-03-17T20:34:22.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[awslabs.aws-api-mcp-server] AWS API MCP File Access Restriction Bypass",
-      "url": "https://github.com/advisories/GHSA-2cpp-j2fc-qhp7",
-      "date": "2026-03-17T20:33:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vanna] Vanna has a SQL injection in the remove_training_data function",
-      "url": "https://github.com/advisories/GHSA-6mj8-jmp2-g8q7",
-      "date": "2026-03-17T20:32:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langflow] Unauthenticated Remote Code Execution in Langflow via Public Flow Build Endpoint",
-      "url": "https://github.com/advisories/GHSA-vwmf-pq79-vjvx",
-      "date": "2026-03-17T20:05:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[music-metadata] music-metadata has an infinite loop vulnerability in ASF parser",
-      "url": "https://github.com/advisories/GHSA-v6c2-xwv6-8xf7",
-      "date": "2026-03-17T20:04:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mlflow] MLflow Tracking Server Artifact Handler Directory Traversal Remote Code Execution Vulnerability",
-      "url": "https://github.com/advisories/GHSA-q2r8-vmq7-fpx2",
-      "date": "2026-03-17T20:03:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mlflow] MLflow Use of Default Password Authentication Bypass Vulnerability",
-      "url": "https://github.com/advisories/GHSA-gq3w-7jj3-x7gr",
-      "date": "2026-03-17T20:02:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[mlflow] MLflow has a command injection in mlflow/sagemaker/__init__.py",
-      "url": "https://github.com/advisories/GHSA-xch3-2f9x-wh9f",
-      "date": "2026-03-17T19:53:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server affected by empty authData bypassing credential requirement on signup",
-      "url": "https://github.com/advisories/GHSA-wjqw-r9x4-j59v",
-      "date": "2026-03-17T19:50:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server affected by empty authData bypassing credential requirement on signup",
-      "url": "https://github.com/advisories/GHSA-wjqw-r9x4-j59v",
-      "date": "2026-03-17T19:50:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fast-xml-parser] fast-xml-parser affected by numeric entity expansion bypassing all entity expansion limits (incomplete fix for CVE-2026-26278)",
-      "url": "https://github.com/advisories/GHSA-8gc5-j5rx-235r",
-      "date": "2026-03-17T19:45:43.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nestjs/platform-fastify] Nest Fastify HEAD Request Middleware Bypass",
-      "url": "https://github.com/advisories/GHSA-wf42-42fg-fg84",
-      "date": "2026-03-17T18:38:38.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server LiveQuery subscription with invalid regular expression crashes server",
-      "url": "https://github.com/advisories/GHSA-827p-g5x5-h86c",
-      "date": "2026-03-17T18:37:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server LiveQuery subscription with invalid regular expression crashes server",
-      "url": "https://github.com/advisories/GHSA-827p-g5x5-h86c",
-      "date": "2026-03-17T18:37:30.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
