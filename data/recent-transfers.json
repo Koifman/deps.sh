@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-19T00:50:27.380Z",
+  "scannedAt": "2026-03-19T01:44:28.463Z",
   "count": 99,
   "packages": [
     {
@@ -336,15 +336,6 @@
       "currentOwner": "lholmquist"
     },
     {
-      "name": "broccoli-babel-transpiler",
-      "version": "8.0.2",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "sebmck",
-      "currentOwner": "katiegengler"
-    },
-    {
       "name": "eslint",
       "version": "10.0.3",
       "ecosystem": "npm",
@@ -480,21 +471,21 @@
       "currentOwner": "redux-saga-release-bot"
     },
     {
-      "name": "@appium/base-driver",
-      "version": "10.2.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "dependency-cruiser",
       "version": "17.3.9",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "sverweij",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/base-driver",
+      "version": "10.2.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -516,21 +507,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "espree",
-      "version": "11.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "nzakas",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@typescript-eslint/parser",
       "version": "8.57.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jameshenry",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "espree",
+      "version": "11.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "nzakas",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -660,15 +651,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.1.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/types",
       "version": "1.2.1",
       "ecosystem": "npm",
@@ -685,6 +667,15 @@
       "level": "MODERATE",
       "previousOwner": "yelouafi",
       "currentOwner": "redux-saga-release-bot"
+    },
+    {
+      "name": "@appium/schema",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "cropperjs",
@@ -714,15 +705,6 @@
       "currentOwner": "gingerbenw"
     },
     {
-      "name": "@vimeo/player",
-      "version": "2.30.3",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bdougherty",
-      "currentOwner": "vimeo-npmbot"
-    },
-    {
       "name": "@lottiefiles/dotlottie-react",
       "version": "0.18.7",
       "ecosystem": "npm",
@@ -730,6 +712,15 @@
       "level": "MODERATE",
       "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@vimeo/player",
+      "version": "2.30.3",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bdougherty",
+      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "@hey-api/codegen-core",
@@ -878,6 +869,15 @@
     {
       "name": "@oxlint/binding-linux-x64-musl",
       "version": "1.56.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.41.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
