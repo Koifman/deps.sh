@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-19T13:39:36.932Z",
+  "scannedAt": "2026-03-19T14:28:20.527Z",
   "count": 98,
   "packages": [
     {
@@ -73,15 +73,6 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
-    },
-    {
-      "name": "appium",
-      "version": "3.2.2",
-      "ecosystem": "npm",
-      "score": 43,
-      "level": "MODERATE",
-      "previousOwner": "admc",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -651,8 +642,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.1.0",
+      "name": "@appium/types",
+      "version": "1.2.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -660,8 +651,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/types",
-      "version": "1.2.1",
+      "name": "@appium/schema",
+      "version": "1.1.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -878,6 +869,15 @@
     {
       "name": "@oxc-minify/binding-linux-x64-musl",
       "version": "0.121.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.41.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
