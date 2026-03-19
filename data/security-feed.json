@@ -1,6 +1,104 @@
 {
-  "fetchedAt": "2026-03-19T18:25:52.838Z",
+  "fetchedAt": "2026-03-19T19:24:06.913Z",
   "entries": [
+    {
+      "title": "[openclaw] Duplicate Advisory: safeBins stdin-only bypass via sort output and recursive grep flags",
+      "url": "https://github.com/advisories/GHSA-ggm6-h3mx-cmmp",
+      "date": "2026-03-19T19:16:00.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw has Windows Lobster shell fallback command injection in constrained fallback path",
+      "url": "https://github.com/advisories/GHSA-8px5-2gfr-7ph6",
+      "date": "2026-03-19T19:14:10.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw Windows Scheduled Task script generation allowed local command injection via unsafe cmd argument handling",
+      "url": "https://github.com/advisories/GHSA-5gqg-mqh5-2v39",
+      "date": "2026-03-19T19:14:00.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fast-xml-parser] Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser",
+      "url": "https://github.com/advisories/GHSA-jp2q-39xq-3w4g",
+      "date": "2026-03-19T19:13:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nicegui] NiceGUI's unvalidated chunk size parameter in media routes can cause memory exhaustion",
+      "url": "https://github.com/advisories/GHSA-w5g8-5849-vj76",
+      "date": "2026-03-19T18:48:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ckeditor5] CKEditor 5 has Cross-site Scripting (XSS) in the HTML Support package",
+      "url": "https://github.com/advisories/GHSA-jrqm-vmqc-gm93",
+      "date": "2026-03-19T18:45:09.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@ckeditor/ckeditor5-html-support] CKEditor 5 has Cross-site Scripting (XSS) in the HTML Support package",
+      "url": "https://github.com/advisories/GHSA-jrqm-vmqc-gm93",
+      "date": "2026-03-19T18:45:09.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@keystone-6/core] @keystone-6/core: `isFilterable` bypass via `cursor` parameter in findMany (CVE-2025-46720 incomplete fix)",
+      "url": "https://github.com/advisories/GHSA-cgcg-q9jh-5pr2",
+      "date": "2026-03-19T18:37:43.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next] Next.js: Unbounded next/image disk cache growth can exhaust storage",
+      "url": "https://github.com/advisories/GHSA-3x4c-7xq6-9pq8",
+      "date": "2026-03-19T18:33:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next] Next.js: Unbounded next/image disk cache growth can exhaust storage",
+      "url": "https://github.com/advisories/GHSA-3x4c-7xq6-9pq8",
+      "date": "2026-03-19T18:33:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's Nextcloud Talk webhook replay could trigger duplicate inbound processing",
+      "url": "https://github.com/advisories/GHSA-866c-wwm5-4rj7",
+      "date": "2026-03-19T18:22:00.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw macOS companion app (beta): allowlist parsing mismatch for system.run shell chains",
+      "url": "https://github.com/advisories/GHSA-5326-6f73-m96w",
+      "date": "2026-03-19T18:21:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server email verification resend page leaks user existence",
+      "url": "https://github.com/advisories/GHSA-h29g-q5c2-9h4f",
+      "date": "2026-03-19T18:21:20.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server email verification resend page leaks user existence",
+      "url": "https://github.com/advisories/GHSA-h29g-q5c2-9h4f",
+      "date": "2026-03-19T18:21:20.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[skia-python] skia-python vendors vulnerable libfreetype because of pinned cibuildwheel version",
       "url": "https://github.com/advisories/GHSA-2mhw-8qcg-gr96",
@@ -40,104 +138,6 @@
       "title": "[@dicebear/initials] SVG Injection via Unsanitized Options in @dicebear/core and @dicebear/initials",
       "url": "https://github.com/advisories/GHSA-mr9r-mww3-v6gv",
       "date": "2026-03-19T17:49:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@dicebear/initials] SVG Injection via Unsanitized Options in @dicebear/core and @dicebear/initials",
-      "url": "https://github.com/advisories/GHSA-mr9r-mww3-v6gv",
-      "date": "2026-03-19T17:49:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@dicebear/initials] SVG Injection via Unsanitized Options in @dicebear/core and @dicebear/initials",
-      "url": "https://github.com/advisories/GHSA-mr9r-mww3-v6gv",
-      "date": "2026-03-19T17:49:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@dicebear/initials] SVG Injection via Unsanitized Options in @dicebear/core and @dicebear/initials",
-      "url": "https://github.com/advisories/GHSA-mr9r-mww3-v6gv",
-      "date": "2026-03-19T17:49:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@dicebear/core] SVG Injection via Unsanitized Options in @dicebear/core and @dicebear/initials",
-      "url": "https://github.com/advisories/GHSA-mr9r-mww3-v6gv",
-      "date": "2026-03-19T17:49:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@dicebear/core] SVG Injection via Unsanitized Options in @dicebear/core and @dicebear/initials",
-      "url": "https://github.com/advisories/GHSA-mr9r-mww3-v6gv",
-      "date": "2026-03-19T17:49:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@dicebear/core] SVG Injection via Unsanitized Options in @dicebear/core and @dicebear/initials",
-      "url": "https://github.com/advisories/GHSA-mr9r-mww3-v6gv",
-      "date": "2026-03-19T17:49:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@dicebear/core] SVG Injection via Unsanitized Options in @dicebear/core and @dicebear/initials",
-      "url": "https://github.com/advisories/GHSA-mr9r-mww3-v6gv",
-      "date": "2026-03-19T17:49:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@dicebear/core] SVG Injection via Unsanitized Options in @dicebear/core and @dicebear/initials",
-      "url": "https://github.com/advisories/GHSA-mr9r-mww3-v6gv",
-      "date": "2026-03-19T17:49:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[intake] Intake has a Command Injection via shell() Expansion in Parameter Defaults",
-      "url": "https://github.com/advisories/GHSA-37g4-qqqv-7m99",
-      "date": "2026-03-19T17:46:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langflow] Langflow has an Arbitrary File Write (RCE) via v2 API",
-      "url": "https://github.com/advisories/GHSA-g2j9-7rj2-gm6c",
-      "date": "2026-03-19T17:46:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[flatted] Prototype Pollution via parse() in NodeJS flatted",
-      "url": "https://github.com/advisories/GHSA-rf6f-7fwh-wjgh",
-      "date": "2026-03-19T17:43:55.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[tinytag] Denial of service via non-terminating SYLT frame parsing loop in tinytag",
-      "url": "https://github.com/advisories/GHSA-f4rq-2259-hv29",
-      "date": "2026-03-19T17:26:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ormar] ormar Pydantic Validation Bypass via __pk_only__ and __excluded__ Kwargs Injection in Model Constructor",
-      "url": "https://github.com/advisories/GHSA-f964-whrq-44h8",
-      "date": "2026-03-19T16:27:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: WebSocket shared-auth connections could self-declare elevated scopes",
-      "url": "https://github.com/advisories/GHSA-5rp4-cwgh-gvwq",
-      "date": "2026-03-19T16:27:10.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
