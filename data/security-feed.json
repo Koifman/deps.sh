@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-19T20:17:30.054Z",
+  "fetchedAt": "2026-03-19T21:16:54.661Z",
   "entries": [
+    {
+      "title": "[llamafactory] LLaMA Factory's Chat API Contains Critical SSRF and LFI Vulnerabilities",
+      "url": "https://github.com/advisories/GHSA-527m-2xhr-j27g",
+      "date": "2026-03-19T20:51:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[PyMuPDF] PyMuPDF has a path traversal in _main_.py",
       "url": "https://github.com/advisories/GHSA-cxqh-p2w9-fmr7",
@@ -132,13 +139,6 @@
       "url": "https://github.com/advisories/GHSA-q485-cg9q-xq2r",
       "date": "2026-03-19T17:55:55.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@dicebear/initials] SVG Injection via Unsanitized Options in @dicebear/core and @dicebear/initials",
-      "url": "https://github.com/advisories/GHSA-mr9r-mww3-v6gv",
-      "date": "2026-03-19T17:49:29.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
