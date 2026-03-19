@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-03-19T12:23:01.515Z",
+  "fetchedAt": "2026-03-19T13:36:47.588Z",
   "entries": [
+    {
+      "title": "[mcp-bridge] MCP Connect has unauthenticated remote OS command execution via /bridge endpoint",
+      "url": "https://github.com/advisories/GHSA-wvr4-3wq4-gpc5",
+      "date": "2026-03-19T12:51:29.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@developer.notchatbot/webchat] NotChatbot WebChat has a stored cross-site scripting (XSS) vulnerability",
+      "url": "https://github.com/advisories/GHSA-w3vx-52j6-9fjp",
+      "date": "2026-03-19T12:50:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk] NLTK has a Downloader Path Traversal Vulnerability (AFO) - Arbitrary File Overwrite",
+      "url": "https://github.com/advisories/GHSA-469j-vmhf-r6v7",
+      "date": "2026-03-19T12:42:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nltk] Unauthenticated remote shutdown in nltk.app.wordnet_app",
+      "url": "https://github.com/advisories/GHSA-jm6w-m3j8-898g",
+      "date": "2026-03-19T12:42:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@anthropic-ai/claude-code] Claude Code has a Workspace Trust Dialog Bypass via Repo-Controlled Settings File",
+      "url": "https://github.com/advisories/GHSA-mmgp-wc2j-qcv7",
+      "date": "2026-03-19T12:42:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[ujson] UltraJSON has an integer overflow handling large indent leads to buffer overflow or infinite loop",
       "url": "https://github.com/advisories/GHSA-c8rr-9gxc-jprv",
@@ -105,41 +140,6 @@
       "date": "2026-03-18T17:26:17.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[socket.io-parser] socket.io allows an unbounded number of binary attachments",
-      "url": "https://github.com/advisories/GHSA-677m-j7p3-52f9",
-      "date": "2026-03-18T17:26:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[socket.io-parser] socket.io allows an unbounded number of binary attachments",
-      "url": "https://github.com/advisories/GHSA-677m-j7p3-52f9",
-      "date": "2026-03-18T17:26:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[oneuptime] OneUptime WhatsApp Webhook Missing Signature Verification",
-      "url": "https://github.com/advisories/GHSA-g5ph-f57v-mwjc",
-      "date": "2026-03-18T17:25:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[oneuptime] OneUptime ClickHouse vulnerable to SQL Injection via unvalidated column identifiers in sort, select, and groupBy parameters",
-      "url": "https://github.com/advisories/GHSA-gcg3-c5p2-cqgg",
-      "date": "2026-03-18T16:34:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyspector] Stored XSS in PySpector HTML Report Generation leads to Javascript Code Execution",
-      "url": "https://github.com/advisories/GHSA-2gmv-2r3v-jxj2",
-      "date": "2026-03-18T16:33:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
