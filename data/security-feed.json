@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-19T11:19:12.221Z",
+  "fetchedAt": "2026-03-19T12:23:01.515Z",
   "entries": [
+    {
+      "title": "[ujson] UltraJSON has an integer overflow handling large indent leads to buffer overflow or infinite loop",
+      "url": "https://github.com/advisories/GHSA-c8rr-9gxc-jprv",
+      "date": "2026-03-19T11:30:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[nltk] Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in nltk",
       "url": "https://github.com/advisories/GHSA-gfwx-w7gr-fvh7",
@@ -133,13 +140,6 @@
       "date": "2026-03-18T16:33:47.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[pyspector] PySpector has a Plugin Sandbox Bypass leads to Arbitrary Code Execution",
-      "url": "https://github.com/advisories/GHSA-v3xv-8vc3-h2m6",
-      "date": "2026-03-18T16:33:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
