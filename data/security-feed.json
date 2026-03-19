@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-19T19:24:06.913Z",
+  "fetchedAt": "2026-03-19T20:17:30.054Z",
   "entries": [
+    {
+      "title": "[PyMuPDF] PyMuPDF has a path traversal in _main_.py",
+      "url": "https://github.com/advisories/GHSA-cxqh-p2w9-fmr7",
+      "date": "2026-03-19T19:37:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[openclaw] Duplicate Advisory: safeBins stdin-only bypass via sort output and recursive grep flags",
       "url": "https://github.com/advisories/GHSA-ggm6-h3mx-cmmp",
@@ -125,13 +132,6 @@
       "url": "https://github.com/advisories/GHSA-q485-cg9q-xq2r",
       "date": "2026-03-19T17:55:55.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@dicebear/initials] SVG Injection via Unsanitized Options in @dicebear/core and @dicebear/initials",
-      "url": "https://github.com/advisories/GHSA-mr9r-mww3-v6gv",
-      "date": "2026-03-19T17:49:29.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
