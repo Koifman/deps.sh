@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-20T12:23:50.288Z",
-  "count": 98,
+  "scannedAt": "2026-03-20T13:35:14.020Z",
+  "count": 99,
   "packages": [
     {
       "name": "xmldom",
@@ -120,6 +120,15 @@
       "currentOwner": "ljharb"
     },
     {
+      "name": "enzyme-adapter-react-16",
+      "version": "1.15.8",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "intelligibabble",
+      "currentOwner": "ljharb"
+    },
+    {
       "name": "hasown",
       "version": "2.0.2",
       "ecosystem": "npm",
@@ -192,8 +201,8 @@
       "currentOwner": "msftapplicationinsights"
     },
     {
-      "name": "heimdalljs",
-      "version": "0.2.6",
+      "name": "heimdalljs-logger",
+      "version": "0.1.10",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -201,8 +210,8 @@
       "currentOwner": "stefanpenner"
     },
     {
-      "name": "heimdalljs-logger",
-      "version": "0.1.10",
+      "name": "heimdalljs",
+      "version": "0.2.6",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -273,21 +282,21 @@
       "currentOwner": "michaelficarra"
     },
     {
-      "name": "string.prototype.trimend",
-      "version": "1.0.9",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "khaledelansari",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "is-array-buffer",
       "version": "3.0.5",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
       "previousOwner": "fengyuanchen",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "string.prototype.trimend",
+      "version": "1.0.9",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "khaledelansari",
       "currentOwner": "ljharb"
     },
     {
@@ -660,15 +669,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.1.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "redux-saga",
       "version": "1.4.2",
       "ecosystem": "npm",
@@ -676,6 +676,15 @@
       "level": "MODERATE",
       "previousOwner": "yelouafi",
       "currentOwner": "redux-saga-release-bot"
+    },
+    {
+      "name": "@appium/schema",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "cropperjs",
@@ -759,7 +768,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-x64-gnu",
+      "name": "oxc-transform",
       "version": "0.121.0",
       "ecosystem": "npm",
       "score": 20,
@@ -768,7 +777,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
+      "name": "@oxc-parser/binding-linux-x64-gnu",
       "version": "0.121.0",
       "ecosystem": "npm",
       "score": 20,
@@ -858,15 +867,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "@oxc-minify/binding-linux-x64-musl",
       "version": "0.121.0",
       "ecosystem": "npm",
@@ -874,6 +874,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     },
     {
       "name": "@oxlint/binding-linux-x64-musl",
