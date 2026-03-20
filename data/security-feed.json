@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-03-20T13:32:20.098Z",
+  "fetchedAt": "2026-03-20T14:23:26.383Z",
   "entries": [
+    {
+      "title": "[openclaw] Duplicate Advisory: Synology Chat dmPolicy=allowlist failed open on empty allowedUserIds, allowing unauthorized agent dispatch",
+      "url": "https://github.com/advisories/GHSA-jqpf-vj28-9v7r",
+      "date": "2026-03-20T13:55:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: allowlist exec-guard bypass via env -S",
+      "url": "https://github.com/advisories/GHSA-x742-88jj-7hv9",
+      "date": "2026-03-20T13:40:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: Signal group allowlist authorization bypass via DM pairing-store leakage",
+      "url": "https://github.com/advisories/GHSA-r849-826x-wgqm",
+      "date": "2026-03-20T13:40:04.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: web_search citation redirect SSRF via private-network-allowing policy",
+      "url": "https://github.com/advisories/GHSA-44c9-4rg5-qjgq",
+      "date": "2026-03-20T13:39:39.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: Exec allowlist wrapper analysis did not unwrap env/shell dispatch chains",
+      "url": "https://github.com/advisories/GHSA-3846-mfvc-xwpf",
+      "date": "2026-03-20T13:26:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: Command Injection via unescaped environment assignments in Windows Scheduled Task script generation",
+      "url": "https://github.com/advisories/GHSA-82gw-wqw6-r2cf",
+      "date": "2026-03-20T13:24:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@angular/ssr] Protocol-Relative URL Injection via Single Backslash Bypass in Angular SSR",
       "url": "https://github.com/advisories/GHSA-vfx2-hv2g-xj5f",
@@ -96,48 +138,6 @@
       "title": "[ckeditor5] CKEditor 5 has Cross-site Scripting (XSS) in the HTML Support package",
       "url": "https://github.com/advisories/GHSA-jrqm-vmqc-gm93",
       "date": "2026-03-19T18:45:09.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@ckeditor/ckeditor5-html-support] CKEditor 5 has Cross-site Scripting (XSS) in the HTML Support package",
-      "url": "https://github.com/advisories/GHSA-jrqm-vmqc-gm93",
-      "date": "2026-03-19T18:45:09.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@keystone-6/core] @keystone-6/core: `isFilterable` bypass via `cursor` parameter in findMany (CVE-2025-46720 incomplete fix)",
-      "url": "https://github.com/advisories/GHSA-cgcg-q9jh-5pr2",
-      "date": "2026-03-19T18:37:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next] Next.js: Unbounded next/image disk cache growth can exhaust storage",
-      "url": "https://github.com/advisories/GHSA-3x4c-7xq6-9pq8",
-      "date": "2026-03-19T18:33:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next] Next.js: Unbounded next/image disk cache growth can exhaust storage",
-      "url": "https://github.com/advisories/GHSA-3x4c-7xq6-9pq8",
-      "date": "2026-03-19T18:33:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's Nextcloud Talk webhook replay could trigger duplicate inbound processing",
-      "url": "https://github.com/advisories/GHSA-866c-wwm5-4rj7",
-      "date": "2026-03-19T18:22:00.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw macOS companion app (beta): allowlist parsing mismatch for system.run shell chains",
-      "url": "https://github.com/advisories/GHSA-5326-6f73-m96w",
-      "date": "2026-03-19T18:21:40.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
