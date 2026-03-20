@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-19T23:13:05.783Z",
+  "fetchedAt": "2026-03-20T00:45:37.565Z",
   "entries": [
+    {
+      "title": "[kysely] SQL Injection via unsanitized JSON path keys when ignoring/silencing compilation errors or using `Kysely<any>`.",
+      "url": "https://github.com/advisories/GHSA-wmrf-hv6w-mr66",
+      "date": "2026-03-19T23:13:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@angular/ssr] Protocol-Relative URL Injection via Single Backslash Bypass in Angular SSR",
       "url": "https://github.com/advisories/GHSA-vfx2-hv2g-xj5f",
@@ -131,13 +138,6 @@
       "title": "[openclaw] Duplicate Advisory: OpenClaw macOS companion app (beta): allowlist parsing mismatch for system.run shell chains",
       "url": "https://github.com/advisories/GHSA-5326-6f73-m96w",
       "date": "2026-03-19T18:21:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server email verification resend page leaks user existence",
-      "url": "https://github.com/advisories/GHSA-h29g-q5c2-9h4f",
-      "date": "2026-03-19T18:21:20.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
