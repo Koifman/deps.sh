@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-20T16:21:06.413Z",
+  "fetchedAt": "2026-03-20T17:20:00.124Z",
   "entries": [
     {
       "title": "[pydicom] pydicom has a path traversal in FileSet/DICOMDIR ReferencedFileID allows file access outside the File-set root",
@@ -72,11 +72,46 @@
       "severity": "MODERATE"
     },
     {
-      "title": "[@angular/ssr] Protocol-Relative URL Injection via Single Backslash Bypass in Angular SSR",
-      "url": "https://github.com/advisories/GHSA-vfx2-hv2g-xj5f",
-      "date": "2026-03-20T00:48:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
+      "title": "RUSTSEC-2026-0042: Vulnerability in aws-lc-fips-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0042.html",
+      "date": "2026-03-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0043: Vulnerability in aws-lc-fips-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0043.html",
+      "date": "2026-03-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0048: Vulnerability in aws-lc-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0048.html",
+      "date": "2026-03-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0046: Vulnerability in aws-lc-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0046.html",
+      "date": "2026-03-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0047: Vulnerability in aws-lc-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0047.html",
+      "date": "2026-03-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0044: Vulnerability in aws-lc-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0044.html",
+      "date": "2026-03-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0045: Vulnerability in aws-lc-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0045.html",
+      "date": "2026-03-20T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
       "title": "[@angular/ssr] Protocol-Relative URL Injection via Single Backslash Bypass in Angular SSR",
@@ -93,51 +128,9 @@
       "severity": "MODERATE"
     },
     {
-      "title": "[kysely] SQL Injection via unsanitized JSON path keys when ignoring/silencing compilation errors or using `Kysely<any>`.",
-      "url": "https://github.com/advisories/GHSA-wmrf-hv6w-mr66",
-      "date": "2026-03-19T23:13:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server has an auth provider validation bypass on login via partial authData",
-      "url": "https://github.com/advisories/GHSA-pfj7-wv7c-22pr",
-      "date": "2026-03-19T21:32:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server has an auth provider validation bypass on login via partial authData",
-      "url": "https://github.com/advisories/GHSA-pfj7-wv7c-22pr",
-      "date": "2026-03-19T21:32:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[llamafactory] LLaMA Factory's Chat API Contains Critical SSRF and LFI Vulnerabilities",
-      "url": "https://github.com/advisories/GHSA-527m-2xhr-j27g",
-      "date": "2026-03-19T20:51:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PyMuPDF] PyMuPDF has a path traversal in _main_.py",
-      "url": "https://github.com/advisories/GHSA-cxqh-p2w9-fmr7",
-      "date": "2026-03-19T19:37:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: safeBins stdin-only bypass via sort output and recursive grep flags",
-      "url": "https://github.com/advisories/GHSA-ggm6-h3mx-cmmp",
-      "date": "2026-03-19T19:16:00.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw has Windows Lobster shell fallback command injection in constrained fallback path",
-      "url": "https://github.com/advisories/GHSA-8px5-2gfr-7ph6",
-      "date": "2026-03-19T19:14:10.000Z",
+      "title": "[@angular/ssr] Protocol-Relative URL Injection via Single Backslash Bypass in Angular SSR",
+      "url": "https://github.com/advisories/GHSA-vfx2-hv2g-xj5f",
+      "date": "2026-03-20T00:48:46.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
