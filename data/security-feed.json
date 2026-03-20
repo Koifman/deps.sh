@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-03-20T15:22:15.099Z",
+  "fetchedAt": "2026-03-20T16:21:06.413Z",
   "entries": [
+    {
+      "title": "[pydicom] pydicom has a path traversal in FileSet/DICOMDIR ReferencedFileID allows file access outside the File-set root",
+      "url": "https://github.com/advisories/GHSA-v856-2rf8-9f28",
+      "date": "2026-03-20T15:57:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pydicom] pydicom has a path traversal in FileSet/DICOMDIR ReferencedFileID allows file access outside the File-set root",
+      "url": "https://github.com/advisories/GHSA-v856-2rf8-9f28",
+      "date": "2026-03-20T15:57:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@builder.io/qwik-city] Qwik City has array method pollution in FormData processing allows type confusion and DoS",
+      "url": "https://github.com/advisories/GHSA-whhv-gg5v-864r",
+      "date": "2026-03-20T15:56:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[openclaw] Duplicate Advisory: ACPX Windows wrapper shell fallback allowed cwd injection in specific paths",
       "url": "https://github.com/advisories/GHSA-h36m-2vh5-x699",
@@ -118,27 +139,6 @@
       "url": "https://github.com/advisories/GHSA-8px5-2gfr-7ph6",
       "date": "2026-03-19T19:14:10.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw Windows Scheduled Task script generation allowed local command injection via unsafe cmd argument handling",
-      "url": "https://github.com/advisories/GHSA-5gqg-mqh5-2v39",
-      "date": "2026-03-19T19:14:00.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fast-xml-parser] Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser",
-      "url": "https://github.com/advisories/GHSA-jp2q-39xq-3w4g",
-      "date": "2026-03-19T19:13:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nicegui] NiceGUI's unvalidated chunk size parameter in media routes can cause memory exhaustion",
-      "url": "https://github.com/advisories/GHSA-w5g8-5849-vj76",
-      "date": "2026-03-19T18:48:28.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]

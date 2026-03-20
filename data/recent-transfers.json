@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-20T15:25:01.372Z",
+  "scannedAt": "2026-03-20T16:23:53.712Z",
   "count": 99,
   "packages": [
     {
@@ -73,6 +73,15 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "appium",
+      "version": "3.2.2",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "admc",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -192,8 +201,8 @@
       "currentOwner": "msftapplicationinsights"
     },
     {
-      "name": "heimdalljs",
-      "version": "0.2.6",
+      "name": "heimdalljs-logger",
+      "version": "0.1.10",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -201,8 +210,8 @@
       "currentOwner": "stefanpenner"
     },
     {
-      "name": "heimdalljs-logger",
-      "version": "0.1.10",
+      "name": "heimdalljs",
+      "version": "0.2.6",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -273,21 +282,21 @@
       "currentOwner": "michaelficarra"
     },
     {
-      "name": "string.prototype.trimend",
-      "version": "1.0.9",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "khaledelansari",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "is-array-buffer",
       "version": "3.0.5",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
       "previousOwner": "fengyuanchen",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "string.prototype.trimend",
+      "version": "1.0.9",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "khaledelansari",
       "currentOwner": "ljharb"
     },
     {
@@ -298,15 +307,6 @@
       "level": "MODERATE",
       "previousOwner": "azure-sdk",
       "currentOwner": "microsoft1es"
-    },
-    {
-      "name": "well-known-symbols",
-      "version": "4.1.0",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "novemberborn",
-      "currentOwner": "ljharb"
     },
     {
       "name": "tslib",
@@ -337,7 +337,7 @@
     },
     {
       "name": "eslint",
-      "version": "10.0.3",
+      "version": "10.1.0",
       "ecosystem": "npm",
       "score": 28,
       "level": "MODERATE",
@@ -445,7 +445,7 @@
     },
     {
       "name": "@hey-api/openapi-ts",
-      "version": "0.94.3",
+      "version": "0.94.4",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -471,21 +471,21 @@
       "currentOwner": "redux-saga-release-bot"
     },
     {
-      "name": "dependency-cruiser",
-      "version": "17.3.9",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "sverweij",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/base-driver",
       "version": "10.2.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "dependency-cruiser",
+      "version": "17.3.9",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "sverweij",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -651,15 +651,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/types",
-      "version": "1.2.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "redux-saga",
       "version": "1.4.2",
       "ecosystem": "npm",
@@ -667,6 +658,15 @@
       "level": "MODERATE",
       "previousOwner": "yelouafi",
       "currentOwner": "redux-saga-release-bot"
+    },
+    {
+      "name": "@appium/types",
+      "version": "1.2.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@appium/schema",
