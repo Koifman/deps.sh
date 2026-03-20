@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-20T14:23:26.383Z",
+  "fetchedAt": "2026-03-20T15:22:15.099Z",
   "entries": [
+    {
+      "title": "[openclaw] Duplicate Advisory: ACPX Windows wrapper shell fallback allowed cwd injection in specific paths",
+      "url": "https://github.com/advisories/GHSA-h36m-2vh5-x699",
+      "date": "2026-03-20T14:20:29.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[openclaw] Duplicate Advisory: Synology Chat dmPolicy=allowlist failed open on empty allowedUserIds, allowing unauthorized agent dispatch",
       "url": "https://github.com/advisories/GHSA-jqpf-vj28-9v7r",
@@ -132,13 +139,6 @@
       "url": "https://github.com/advisories/GHSA-w5g8-5849-vj76",
       "date": "2026-03-19T18:48:28.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ckeditor5] CKEditor 5 has Cross-site Scripting (XSS) in the HTML Support package",
-      "url": "https://github.com/advisories/GHSA-jrqm-vmqc-gm93",
-      "date": "2026-03-19T18:45:09.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
