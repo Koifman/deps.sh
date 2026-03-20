@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-03-20T17:20:00.124Z",
+  "fetchedAt": "2026-03-20T18:20:54.646Z",
   "entries": [
+    {
+      "title": "[@orpc/openapi] oRPC has Stored XSS in OpenAPI Reference Plugin via unescaped JSON.stringify",
+      "url": "https://github.com/advisories/GHSA-7f6v-3gx7-27q8",
+      "date": "2026-03-20T17:25:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: WebSocket shared-auth connections could self-declare elevated scopes",
+      "url": "https://github.com/advisories/GHSA-x49q-fhhm-r9jf",
+      "date": "2026-03-20T17:24:52.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[pydicom] pydicom has a path traversal in FileSet/DICOMDIR ReferencedFileID allows file access outside the File-set root",
       "url": "https://github.com/advisories/GHSA-v856-2rf8-9f28",
@@ -112,20 +126,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0045.html",
       "date": "2026-03-20T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[@angular/ssr] Protocol-Relative URL Injection via Single Backslash Bypass in Angular SSR",
-      "url": "https://github.com/advisories/GHSA-vfx2-hv2g-xj5f",
-      "date": "2026-03-20T00:48:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/ssr] Protocol-Relative URL Injection via Single Backslash Bypass in Angular SSR",
-      "url": "https://github.com/advisories/GHSA-vfx2-hv2g-xj5f",
-      "date": "2026-03-20T00:48:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     },
     {
       "title": "[@angular/ssr] Protocol-Relative URL Injection via Single Backslash Bypass in Angular SSR",
