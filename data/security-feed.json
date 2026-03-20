@@ -1,138 +1,145 @@
 {
-  "fetchedAt": "2026-03-20T20:13:12.505Z",
+  "fetchedAt": "2026-03-20T21:13:27.699Z",
   "entries": [
     {
-      "title": "[@orpc/openapi] oRPC has Stored XSS in OpenAPI Reference Plugin via unescaped JSON.stringify",
-      "url": "https://github.com/advisories/GHSA-7f6v-3gx7-27q8",
-      "date": "2026-03-20T17:25:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: WebSocket shared-auth connections could self-declare elevated scopes",
-      "url": "https://github.com/advisories/GHSA-x49q-fhhm-r9jf",
-      "date": "2026-03-20T17:24:52.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[pydicom] pydicom has a path traversal in FileSet/DICOMDIR ReferencedFileID allows file access outside the File-set root",
-      "url": "https://github.com/advisories/GHSA-v856-2rf8-9f28",
-      "date": "2026-03-20T15:57:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pydicom] pydicom has a path traversal in FileSet/DICOMDIR ReferencedFileID allows file access outside the File-set root",
-      "url": "https://github.com/advisories/GHSA-v856-2rf8-9f28",
-      "date": "2026-03-20T15:57:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@builder.io/qwik-city] Qwik City has array method pollution in FormData processing allows type confusion and DoS",
-      "url": "https://github.com/advisories/GHSA-whhv-gg5v-864r",
-      "date": "2026-03-20T15:56:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: ACPX Windows wrapper shell fallback allowed cwd injection in specific paths",
-      "url": "https://github.com/advisories/GHSA-h36m-2vh5-x699",
-      "date": "2026-03-20T14:20:29.000Z",
+      "title": "[vulnogram] Vulnogram contains a stored cross-site scripting vulnerability in comment hypertext handling",
+      "url": "https://github.com/advisories/GHSA-vggc-6pg2-xvp9",
+      "date": "2026-03-20T20:58:23.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: Synology Chat dmPolicy=allowlist failed open on empty allowedUserIds, allowing unauthorized agent dispatch",
-      "url": "https://github.com/advisories/GHSA-jqpf-vj28-9v7r",
-      "date": "2026-03-20T13:55:55.000Z",
+      "title": "[parse-server] Parse Server has a query condition depth bypass via pre-validation transform pipeline",
+      "url": "https://github.com/advisories/GHSA-9fjp-q3c4-6w3j",
+      "date": "2026-03-20T20:56:23.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: allowlist exec-guard bypass via env -S",
-      "url": "https://github.com/advisories/GHSA-x742-88jj-7hv9",
-      "date": "2026-03-20T13:40:19.000Z",
+      "title": "[parse-server] Parse Server has a query condition depth bypass via pre-validation transform pipeline",
+      "url": "https://github.com/advisories/GHSA-9fjp-q3c4-6w3j",
+      "date": "2026-03-20T20:56:23.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: Signal group allowlist authorization bypass via DM pairing-store leakage",
-      "url": "https://github.com/advisories/GHSA-r849-826x-wgqm",
-      "date": "2026-03-20T13:40:04.000Z",
+      "title": "[langflow] langflow: /profile_pictures/{folder_name}/{file_name} endpoint file reading",
+      "url": "https://github.com/advisories/GHSA-ph9w-r52h-28p7",
+      "date": "2026-03-20T20:56:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[h3] h3: SSE Event Injection via Unsanitized Carriage Return (`\\r`) in EventStream Data and Comment Fields (Bypass of CVE Fix)",
+      "url": "https://github.com/advisories/GHSA-4hxc-9384-m385",
+      "date": "2026-03-20T20:50:41.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[h3] h3: SSE Event Injection via Unsanitized Carriage Return (`\\r`) in EventStream Data and Comment Fields (Bypass of CVE Fix)",
+      "url": "https://github.com/advisories/GHSA-4hxc-9384-m385",
+      "date": "2026-03-20T20:50:41.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[h3] h3: Missing Path Segment Boundary Check in `mount()` Causes Middleware Execution on Unrelated Prefix-Matching Routes",
+      "url": "https://github.com/advisories/GHSA-2j6q-whv2-gh6w",
+      "date": "2026-03-20T20:50:28.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: web_search citation redirect SSRF via private-network-allowing policy",
-      "url": "https://github.com/advisories/GHSA-44c9-4rg5-qjgq",
-      "date": "2026-03-20T13:39:39.000Z",
+      "title": "[h3] h3: Double Decoding in `serveStatic` Bypasses `resolveDotSegments` Path Traversal Protection via `%252e%252e`",
+      "url": "https://github.com/advisories/GHSA-72gr-qfp7-vwhw",
+      "date": "2026-03-20T20:50:11.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: Exec allowlist wrapper analysis did not unwrap env/shell dispatch chains",
-      "url": "https://github.com/advisories/GHSA-3846-mfvc-xwpf",
-      "date": "2026-03-20T13:26:48.000Z",
+      "title": "[kysely] Kysely has a MySQL SQL Injection via Insufficient Backslash Escaping in `sql.lit(string)` usage or similar methods that append string literal values into the compiled SQL strings",
+      "url": "https://github.com/advisories/GHSA-8cpq-38p9-67gx",
+      "date": "2026-03-20T20:48:56.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: Command Injection via unescaped environment assignments in Windows Scheduled Task script generation",
-      "url": "https://github.com/advisories/GHSA-82gw-wqw6-r2cf",
-      "date": "2026-03-20T13:24:32.000Z",
+      "title": "[kysely] Kysely has a MySQL SQL Injection via Backslash Escape Bypass in non-type-safe usage of JSON path keys.",
+      "url": "https://github.com/advisories/GHSA-fr9j-6mvq-frcv",
+      "date": "2026-03-20T20:48:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langflow] langflow has Unauthenticated IDOR on Image Downloads",
+      "url": "https://github.com/advisories/GHSA-7grx-3xcx-2xv5",
+      "date": "2026-03-20T20:47:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server has a protected field change detection oracle via LiveQuery watch parameter",
+      "url": "https://github.com/advisories/GHSA-qpc3-fg4j-8hgm",
+      "date": "2026-03-20T20:45:42.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0042: Vulnerability in aws-lc-fips-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0042.html",
-      "date": "2026-03-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0043: Vulnerability in aws-lc-fips-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0043.html",
-      "date": "2026-03-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0048: Vulnerability in aws-lc-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0048.html",
-      "date": "2026-03-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0046: Vulnerability in aws-lc-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0046.html",
-      "date": "2026-03-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0047: Vulnerability in aws-lc-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0047.html",
-      "date": "2026-03-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0044: Vulnerability in aws-lc-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0044.html",
-      "date": "2026-03-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0045: Vulnerability in aws-lc-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0045.html",
-      "date": "2026-03-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[@angular/ssr] Protocol-Relative URL Injection via Single Backslash Bypass in Angular SSR",
-      "url": "https://github.com/advisories/GHSA-vfx2-hv2g-xj5f",
-      "date": "2026-03-20T00:48:46.000Z",
+      "title": "[parse-server] Parse Server has a protected field change detection oracle via LiveQuery watch parameter",
+      "url": "https://github.com/advisories/GHSA-qpc3-fg4j-8hgm",
+      "date": "2026-03-20T20:45:42.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[@pdfme/common] PDFME has SSRF via Unvalidated URL Fetch in `getB64BasePdf` When `basePdf` Is Attacker-Controlled",
+      "url": "https://github.com/advisories/GHSA-pgx6-7jcq-2qff",
+      "date": "2026-03-20T20:45:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@pdfme/schemas] PDFME  has XSS via Unsanitized i18n Label Injection into innerHTML in multiVariableText propPanel",
+      "url": "https://github.com/advisories/GHSA-xgx4-2wgv-4jhm",
+      "date": "2026-03-20T20:45:09.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@pdfme/pdf-lib] PDFME Affected by Decompression Bomb in FlateDecode Stream Parsing Causes Memory Exhaustion DoS",
+      "url": "https://github.com/advisories/GHSA-vrqm-gvq7-rrwh",
+      "date": "2026-03-20T20:44:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server's LiveQuery bypasses CLP pointer permission enforcement",
+      "url": "https://github.com/advisories/GHSA-fph2-r4qg-9576",
+      "date": "2026-03-20T20:44:37.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server's LiveQuery bypasses CLP pointer permission enforcement",
+      "url": "https://github.com/advisories/GHSA-fph2-r4qg-9576",
+      "date": "2026-03-20T20:44:37.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@dicebear/converter] SVG Dimension Capping Bypass via XML Comment Injection in @dicebear/converter ensureSize()",
+      "url": "https://github.com/advisories/GHSA-7j2x-32w6-p43p",
+      "date": "2026-03-20T20:35:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[effect] Effect `AsyncLocalStorage` context lost/contaminated inside Effect fibers under concurrent load with RPC",
+      "url": "https://github.com/advisories/GHSA-38f7-945m-qr2g",
+      "date": "2026-03-20T20:34:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
