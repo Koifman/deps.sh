@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-03-20T21:13:27.699Z",
+  "fetchedAt": "2026-03-20T22:11:56.716Z",
   "entries": [
+    {
+      "title": "[pyload-ng] pyLoad SETTINGS Permission Users Can Achieve Remote Code Execution via Unrestricted Reconnect Script Configuration",
+      "url": "https://github.com/advisories/GHSA-r7mc-x6x7-cqxx",
+      "date": "2026-03-20T21:50:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server LiveQuery subscription query depth bypass",
+      "url": "https://github.com/advisories/GHSA-6qh5-m6g3-xhq6",
+      "date": "2026-03-20T21:48:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server LiveQuery subscription query depth bypass",
+      "url": "https://github.com/advisories/GHSA-6qh5-m6g3-xhq6",
+      "date": "2026-03-20T21:48:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ormar] ormar Pydantic Validation Bypass via __pk_only__ and __excluded__ Kwargs Injection in Model Constructor",
+      "url": "https://github.com/advisories/GHSA-f964-whrq-44h8",
+      "date": "2026-03-20T21:35:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tinytag] Denial of service via non-terminating SYLT frame parsing loop in tinytag",
+      "url": "https://github.com/advisories/GHSA-f4rq-2259-hv29",
+      "date": "2026-03-20T21:20:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[vulnogram] Vulnogram contains a stored cross-site scripting vulnerability in comment hypertext handling",
       "url": "https://github.com/advisories/GHSA-vggc-6pg2-xvp9",
@@ -105,41 +140,6 @@
       "date": "2026-03-20T20:45:09.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@pdfme/pdf-lib] PDFME Affected by Decompression Bomb in FlateDecode Stream Parsing Causes Memory Exhaustion DoS",
-      "url": "https://github.com/advisories/GHSA-vrqm-gvq7-rrwh",
-      "date": "2026-03-20T20:44:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server's LiveQuery bypasses CLP pointer permission enforcement",
-      "url": "https://github.com/advisories/GHSA-fph2-r4qg-9576",
-      "date": "2026-03-20T20:44:37.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server's LiveQuery bypasses CLP pointer permission enforcement",
-      "url": "https://github.com/advisories/GHSA-fph2-r4qg-9576",
-      "date": "2026-03-20T20:44:37.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@dicebear/converter] SVG Dimension Capping Bypass via XML Comment Injection in @dicebear/converter ensureSize()",
-      "url": "https://github.com/advisories/GHSA-7j2x-32w6-p43p",
-      "date": "2026-03-20T20:35:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[effect] Effect `AsyncLocalStorage` context lost/contaminated inside Effect fibers under concurrent load with RPC",
-      "url": "https://github.com/advisories/GHSA-38f7-945m-qr2g",
-      "date": "2026-03-20T20:34:06.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
