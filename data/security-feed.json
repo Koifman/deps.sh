@@ -1,6 +1,30 @@
 {
-  "fetchedAt": "2026-03-21T06:21:18.258Z",
+  "fetchedAt": "2026-03-21T07:18:52.056Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0043: Vulnerability in aws-lc-fips-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0043.html",
+      "date": "2026-03-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0046: Vulnerability in aws-lc-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0046.html",
+      "date": "2026-03-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0047: Vulnerability in aws-lc-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0047.html",
+      "date": "2026-03-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0045: Vulnerability in aws-lc-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0045.html",
+      "date": "2026-03-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[pyload-ng] pyLoad SETTINGS Permission Users Can Achieve Remote Code Execution via Unrestricted Reconnect Script Configuration",
       "url": "https://github.com/advisories/GHSA-r7mc-x6x7-cqxx",
@@ -112,34 +136,6 @@
       "date": "2026-03-20T20:47:12.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server has a protected field change detection oracle via LiveQuery watch parameter",
-      "url": "https://github.com/advisories/GHSA-qpc3-fg4j-8hgm",
-      "date": "2026-03-20T20:45:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server has a protected field change detection oracle via LiveQuery watch parameter",
-      "url": "https://github.com/advisories/GHSA-qpc3-fg4j-8hgm",
-      "date": "2026-03-20T20:45:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@pdfme/common] PDFME has SSRF via Unvalidated URL Fetch in `getB64BasePdf` When `basePdf` Is Attacker-Controlled",
-      "url": "https://github.com/advisories/GHSA-pgx6-7jcq-2qff",
-      "date": "2026-03-20T20:45:19.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@pdfme/schemas] PDFME  has XSS via Unsanitized i18n Label Injection into innerHTML in multiVariableText propPanel",
-      "url": "https://github.com/advisories/GHSA-xgx4-2wgv-4jhm",
-      "date": "2026-03-20T20:45:09.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
