@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-22T17:13:12.014Z",
+  "scannedAt": "2026-03-22T18:17:38.481Z",
   "count": 98,
   "packages": [
     {
@@ -480,21 +480,21 @@
       "currentOwner": "redux-saga-release-bot"
     },
     {
-      "name": "dependency-cruiser",
-      "version": "17.3.9",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "sverweij",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/base-driver",
       "version": "10.2.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "dependency-cruiser",
+      "version": "17.3.9",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "sverweij",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -867,15 +867,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "@oxc-minify/binding-linux-x64-musl",
       "version": "0.121.0",
       "ecosystem": "npm",
@@ -883,6 +874,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     }
   ]
 }
