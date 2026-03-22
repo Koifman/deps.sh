@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-22T12:20:05.791Z",
+  "scannedAt": "2026-03-22T13:25:12.838Z",
   "count": 98,
   "packages": [
     {
@@ -750,7 +750,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
+      "name": "@oxc-parser/binding-linux-x64-gnu",
       "version": "0.121.0",
       "ecosystem": "npm",
       "score": 20,
@@ -759,7 +759,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-x64-gnu",
+      "name": "oxc-transform",
       "version": "0.121.0",
       "ecosystem": "npm",
       "score": 20,
@@ -867,15 +867,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-musl",
-      "version": "0.121.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "tesseract.js-core",
       "version": "6.1.2",
       "ecosystem": "npm",
@@ -883,6 +874,15 @@
       "level": "LOW",
       "previousOwner": "antimatter15",
       "currentOwner": "balearica"
+    },
+    {
+      "name": "@oxc-minify/binding-linux-x64-musl",
+      "version": "0.121.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }
