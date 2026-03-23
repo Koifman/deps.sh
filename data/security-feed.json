@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-03-23T17:23:49.026Z",
+  "fetchedAt": "2026-03-23T18:25:11.964Z",
   "entries": [
+    {
+      "title": "[@powersync/service-sync-rules] PowerSync: Some sync filters ignored on 1.20.0 using `config.edition: 3`",
+      "url": "https://github.com/advisories/GHSA-q6wc-xx4m-92fj",
+      "date": "2026-03-23T17:29:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@powersync/service-core] PowerSync: Some sync filters ignored on 1.20.0 using `config.edition: 3`",
+      "url": "https://github.com/advisories/GHSA-q6wc-xx4m-92fj",
+      "date": "2026-03-23T17:29:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0066: Vulnerability in astral-tokio-tar",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0066.html",
@@ -118,20 +132,6 @@
       "date": "2026-03-20T20:50:41.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[h3] h3: SSE Event Injection via Unsanitized Carriage Return (`\\r`) in EventStream Data and Comment Fields (Bypass of CVE Fix)",
-      "url": "https://github.com/advisories/GHSA-4hxc-9384-m385",
-      "date": "2026-03-20T20:50:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[h3] h3: Missing Path Segment Boundary Check in `mount()` Causes Middleware Execution on Unrelated Prefix-Matching Routes",
-      "url": "https://github.com/advisories/GHSA-2j6q-whv2-gh6w",
-      "date": "2026-03-20T20:50:28.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
