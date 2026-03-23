@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-23T18:27:52.405Z",
+  "scannedAt": "2026-03-23T19:27:07.070Z",
   "count": 98,
   "packages": [
     {
@@ -102,8 +102,8 @@
       "currentOwner": "mugen87"
     },
     {
-      "name": "enzyme-adapter-utils",
-      "version": "1.14.2",
+      "name": "enzyme-adapter-react-16",
+      "version": "1.15.8",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -111,8 +111,8 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "enzyme-adapter-react-16",
-      "version": "1.15.8",
+      "name": "enzyme-adapter-utils",
+      "version": "1.14.2",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -642,15 +642,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "resedit",
-      "version": "3.0.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jet2jet",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/logger",
       "version": "2.0.5",
       "ecosystem": "npm",
@@ -660,8 +651,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.1.0",
+      "name": "@appium/types",
+      "version": "1.2.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -669,8 +660,17 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/types",
-      "version": "1.2.1",
+      "name": "resedit",
+      "version": "3.0.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jet2jet",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/schema",
+      "version": "1.1.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
