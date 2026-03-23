@@ -1,6 +1,24 @@
 {
-  "fetchedAt": "2026-03-23T09:31:15.751Z",
+  "fetchedAt": "2026-03-23T10:28:33.821Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0066: Vulnerability in astral-tokio-tar",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0066.html",
+      "date": "2026-03-23T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0068: Vulnerability in tar",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0068.html",
+      "date": "2026-03-23T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0067: Vulnerability in tar",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0067.html",
+      "date": "2026-03-23T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0043: Vulnerability in aws-lc-fips-sys",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0043.html",
@@ -115,27 +133,6 @@
       "date": "2026-03-20T20:50:11.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[kysely] Kysely has a MySQL SQL Injection via Insufficient Backslash Escaping in `sql.lit(string)` usage or similar methods that append string literal values into the compiled SQL strings",
-      "url": "https://github.com/advisories/GHSA-8cpq-38p9-67gx",
-      "date": "2026-03-20T20:48:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[kysely] Kysely has a MySQL SQL Injection via Backslash Escape Bypass in non-type-safe usage of JSON path keys.",
-      "url": "https://github.com/advisories/GHSA-fr9j-6mvq-frcv",
-      "date": "2026-03-20T20:48:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langflow] langflow has Unauthenticated IDOR on Image Downloads",
-      "url": "https://github.com/advisories/GHSA-7grx-3xcx-2xv5",
-      "date": "2026-03-20T20:47:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
