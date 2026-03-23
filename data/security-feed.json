@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-23T14:32:14.364Z",
+  "fetchedAt": "2026-03-23T15:29:27.059Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0066: Vulnerability in astral-tokio-tar",
@@ -16,6 +16,12 @@
     {
       "title": "RUSTSEC-2026-0067: Vulnerability in tar",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0067.html",
+      "date": "2026-03-23T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0049: Vulnerability in rustls-webpki",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0049.html",
       "date": "2026-03-23T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -126,13 +132,6 @@
       "date": "2026-03-20T20:50:28.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[h3] h3: Double Decoding in `serveStatic` Bypasses `resolveDotSegments` Path Traversal Protection via `%252e%252e`",
-      "url": "https://github.com/advisories/GHSA-72gr-qfp7-vwhw",
-      "date": "2026-03-20T20:50:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
