@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-03-23T20:19:18.668Z",
+  "fetchedAt": "2026-03-23T21:17:45.898Z",
   "entries": [
+    {
+      "title": "[indico] Indico discloses local files resulting in Remote Code Execution through LaTeX injection",
+      "url": "https://github.com/advisories/GHSA-rm2q-f7jv-3cfp",
+      "date": "2026-03-23T20:43:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[cbor2] cbor2 has a Denial of Service via Uncontrolled Recursion in cbor2.loads",
+      "url": "https://github.com/advisories/GHSA-3c37-wwvx-h642",
+      "date": "2026-03-23T20:24:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[@powersync/service-sync-rules] PowerSync: Some sync filters ignored on 1.20.0 using `config.edition: 3`",
       "url": "https://github.com/advisories/GHSA-q6wc-xx4m-92fj",
@@ -118,20 +132,6 @@
       "date": "2026-03-20T20:56:23.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[langflow] langflow: /profile_pictures/{folder_name}/{file_name} endpoint file reading",
-      "url": "https://github.com/advisories/GHSA-ph9w-r52h-28p7",
-      "date": "2026-03-20T20:56:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[h3] h3: SSE Event Injection via Unsanitized Carriage Return (`\\r`) in EventStream Data and Comment Fields (Bypass of CVE Fix)",
-      "url": "https://github.com/advisories/GHSA-4hxc-9384-m385",
-      "date": "2026-03-20T20:50:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
