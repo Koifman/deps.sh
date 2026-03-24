@@ -1,6 +1,66 @@
 {
-  "fetchedAt": "2026-03-24T07:29:39.236Z",
+  "fetchedAt": "2026-03-24T08:23:46.534Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0070: Vulnerability in hpke-rs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0070.html",
+      "date": "2026-03-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0069: Vulnerability in hpke-rs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0069.html",
+      "date": "2026-03-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0071: Vulnerability in hpke-rs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0071.html",
+      "date": "2026-03-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0073: Vulnerability in libcrux-poly1305",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0073.html",
+      "date": "2026-03-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0074: Vulnerability in libcrux-sha3",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0074.html",
+      "date": "2026-03-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0075: Vulnerability in libcrux-ed25519",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0075.html",
+      "date": "2026-03-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0072: Vulnerability in hpke-rs-rust-crypto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0072.html",
+      "date": "2026-03-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0077: Vulnerability in libcrux-ml-dsa",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0077.html",
+      "date": "2026-03-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0076: Vulnerability in libcrux-ml-dsa",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0076.html",
+      "date": "2026-03-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0049: Vulnerability in rustls-webpki",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0049.html",
+      "date": "2026-03-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[mindsql] MindSQL is vulnerable to Code Injection through its ask_db function",
       "url": "https://github.com/advisories/GHSA-m6m4-34cj-4hh7",
@@ -68,70 +128,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0068.html",
       "date": "2026-03-23T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0067: Vulnerability in tar",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0067.html",
-      "date": "2026-03-23T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0049: Vulnerability in rustls-webpki",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0049.html",
-      "date": "2026-03-23T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0043: Vulnerability in aws-lc-fips-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0043.html",
-      "date": "2026-03-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0046: Vulnerability in aws-lc-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0046.html",
-      "date": "2026-03-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0047: Vulnerability in aws-lc-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0047.html",
-      "date": "2026-03-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0045: Vulnerability in aws-lc-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0045.html",
-      "date": "2026-03-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[pyload-ng] pyLoad SETTINGS Permission Users Can Achieve Remote Code Execution via Unrestricted Reconnect Script Configuration",
-      "url": "https://github.com/advisories/GHSA-r7mc-x6x7-cqxx",
-      "date": "2026-03-20T21:50:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server LiveQuery subscription query depth bypass",
-      "url": "https://github.com/advisories/GHSA-6qh5-m6g3-xhq6",
-      "date": "2026-03-20T21:48:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server LiveQuery subscription query depth bypass",
-      "url": "https://github.com/advisories/GHSA-6qh5-m6g3-xhq6",
-      "date": "2026-03-20T21:48:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ormar] ormar Pydantic Validation Bypass via __pk_only__ and __excluded__ Kwargs Injection in Model Constructor",
-      "url": "https://github.com/advisories/GHSA-f964-whrq-44h8",
-      "date": "2026-03-20T21:35:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }

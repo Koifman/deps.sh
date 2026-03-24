@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-24T07:32:07.842Z",
+  "scannedAt": "2026-03-24T08:26:13.421Z",
   "count": 99,
   "packages": [
     {
@@ -111,8 +111,8 @@
       "currentOwner": "mugen87"
     },
     {
-      "name": "enzyme-adapter-utils",
-      "version": "1.14.2",
+      "name": "enzyme-adapter-react-16",
+      "version": "1.15.8",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -120,8 +120,8 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "enzyme-adapter-react-16",
-      "version": "1.15.8",
+      "name": "enzyme-adapter-utils",
+      "version": "1.14.2",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -201,8 +201,8 @@
       "currentOwner": "msftapplicationinsights"
     },
     {
-      "name": "heimdalljs-logger",
-      "version": "0.1.10",
+      "name": "heimdalljs",
+      "version": "0.2.6",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -210,8 +210,8 @@
       "currentOwner": "stefanpenner"
     },
     {
-      "name": "heimdalljs",
-      "version": "0.2.6",
+      "name": "heimdalljs-logger",
+      "version": "0.1.10",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -561,6 +561,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@formatjs/ecma402-abstract",
+      "version": "3.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "longlho",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@supabase/realtime-js",
       "version": "2.100.0",
       "ecosystem": "npm",
@@ -576,15 +585,6 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "kiwicopple",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@formatjs/ecma402-abstract",
-      "version": "3.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "longlho",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -669,15 +669,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "redux-saga",
-      "version": "1.4.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "yelouafi",
-      "currentOwner": "redux-saga-release-bot"
-    },
-    {
       "name": "@appium/schema",
       "version": "1.1.0",
       "ecosystem": "npm",
@@ -685,6 +676,15 @@
       "level": "MODERATE",
       "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "redux-saga",
+      "version": "1.4.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "yelouafi",
+      "currentOwner": "redux-saga-release-bot"
     },
     {
       "name": "@appium/logger",
