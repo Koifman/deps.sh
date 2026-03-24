@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-03-24T20:19:31.495Z",
+  "fetchedAt": "2026-03-24T21:18:46.275Z",
   "entries": [
+    {
+      "title": "[Pygments] Pygments has Regular Expression Denial of Service (ReDoS) due to Inefficient Regex for GUID Matching",
+      "url": "https://github.com/advisories/GHSA-5239-wwwm-4pmq",
+      "date": "2026-03-24T20:33:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] Parse Server exposes auth data via /users/me endpoint",
+      "url": "https://github.com/advisories/GHSA-37mj-c2wf-cx96",
+      "date": "2026-03-24T20:17:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server exposes auth data via /users/me endpoint",
+      "url": "https://github.com/advisories/GHSA-37mj-c2wf-cx96",
+      "date": "2026-03-24T20:17:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server: MFA recovery code single-use bypass via concurrent requests",
+      "url": "https://github.com/advisories/GHSA-2299-ghjr-6vjp",
+      "date": "2026-03-24T19:48:25.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] Parse Server: MFA recovery code single-use bypass via concurrent requests",
+      "url": "https://github.com/advisories/GHSA-2299-ghjr-6vjp",
+      "date": "2026-03-24T19:48:25.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@astrojs/node] Astro: Memory exhaustion DoS due to missing request body size limit in Server Islands",
+      "url": "https://github.com/advisories/GHSA-3rmj-9m5h-8fpv",
+      "date": "2026-03-24T19:29:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mobsf] MobSF has SQL Injection in its SQLite Database Viewer Utils",
+      "url": "https://github.com/advisories/GHSA-hqjr-43r5-9q58",
+      "date": "2026-03-24T19:23:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[justhtml] JustHTML is vulnerable to XSS via code fence breakout in <pre> content",
+      "url": "https://github.com/advisories/GHSA-5vp3-3cg6-2rq3",
+      "date": "2026-03-24T19:22:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[parse-server] Parse Server: Denial of Service via unindexed database query for unconfigured auth providers",
       "url": "https://github.com/advisories/GHSA-g4cf-xj29-wqqr",
@@ -82,62 +138,6 @@
       "title": "[openclaw] Duplicate Advisory: OpenClaw: Slack system events bypass sender authorization in member and message subtype handlers",
       "url": "https://github.com/advisories/GHSA-xgwg-m42c-8q62",
       "date": "2026-03-24T19:06:24.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw has a Trusted-proxy Control UI pairing bypass which allows unpaired node sessions",
-      "url": "https://github.com/advisories/GHSA-xh9j-mpc9-2m9p",
-      "date": "2026-03-24T19:06:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's shell startup env injection bypasses system.run allowlist intent (RCE class)",
-      "url": "https://github.com/advisories/GHSA-rj39-33v7-9xrq",
-      "date": "2026-03-24T19:06:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: workspace path guard bypass on non-existent out-of-root symlink leaf",
-      "url": "https://github.com/advisories/GHSA-9f79-7pw8-3fj8",
-      "date": "2026-03-24T19:05:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's voice-call Twilio webhook replay could bypass manager dedupe because normalized event IDs were randomized per parse",
-      "url": "https://github.com/advisories/GHSA-3r78-rqg8-95gg",
-      "date": "2026-03-24T19:05:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's system.run shell-wrapper positional argv carriers could execute hidden commands under misleading approval text",
-      "url": "https://github.com/advisories/GHSA-w6f4-3v35-qjhj",
-      "date": "2026-03-24T19:05:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's Signal reaction-only status events could, in limited cases, be enqueued before access checks",
-      "url": "https://github.com/advisories/GHSA-86jj-29wc-7q2w",
-      "date": "2026-03-24T19:05:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's inbound media downloads could exceed configured byte limits before rejection across multiple channels",
-      "url": "https://github.com/advisories/GHSA-xq3g-m3j8-2vmm",
-      "date": "2026-03-24T19:04:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw has an improper sandbox configuration vulnerability",
-      "url": "https://github.com/advisories/GHSA-q94v-v6m9-jhq9",
-      "date": "2026-03-24T19:04:41.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
