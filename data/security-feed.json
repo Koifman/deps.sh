@@ -1,135 +1,145 @@
 {
-  "fetchedAt": "2026-03-24T18:28:55.087Z",
+  "fetchedAt": "2026-03-24T19:28:49.262Z",
   "entries": [
     {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's gateway tokenless Tailscale auth applied to HTTP routes",
-      "url": "https://github.com/advisories/GHSA-qwmf-95r9-gx9x",
-      "date": "2026-03-24T18:05:56.000Z",
+      "title": "[parse-server] Parse Server: Denial of Service via unindexed database query for unconfigured auth providers",
+      "url": "https://github.com/advisories/GHSA-g4cf-xj29-wqqr",
+      "date": "2026-03-24T19:12:23.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw reuses the gateway auth token in the owner ID prompt hashing fallback",
-      "url": "https://github.com/advisories/GHSA-8mr2-f9wf-hcfq",
-      "date": "2026-03-24T17:54:55.000Z",
+      "title": "[parse-server] Parse Server: Denial of Service via unindexed database query for unconfigured auth providers",
+      "url": "https://github.com/advisories/GHSA-g4cf-xj29-wqqr",
+      "date": "2026-03-24T19:12:23.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server has SQL Injection through aggregate and distinct field names in PostgreSQL adapter",
+      "url": "https://github.com/advisories/GHSA-p2w6-rmh7-w8q3",
+      "date": "2026-03-24T19:12:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server has SQL Injection through aggregate and distinct field names in PostgreSQL adapter",
+      "url": "https://github.com/advisories/GHSA-p2w6-rmh7-w8q3",
+      "date": "2026-03-24T19:12:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fido2-lib] fido2-lib is vulnerable to DoS via cbor-extract heap buffer over-read in CBOR attestation parsing",
+      "url": "https://github.com/advisories/GHSA-g3qj-j598-cxmq",
+      "date": "2026-03-24T19:10:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: BlueBubbles beta plugin webhook auth hardening (remove passwordless fallback)",
+      "url": "https://github.com/advisories/GHSA-vh4c-j2xv-9pv9",
+      "date": "2026-03-24T19:07:37.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's Slack reaction/pin sender-policy consistency issue in non-message ingress",
+      "url": "https://github.com/advisories/GHSA-g839-vp47-wgh8",
+      "date": "2026-03-24T19:07:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw ACP client has permission auto-approval bypass via untrusted tool metadata",
+      "url": "https://github.com/advisories/GHSA-rcx4-77x4-hjx5",
+      "date": "2026-03-24T19:07:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: system.run approval identity mismatch could execute a different binary than displayed",
+      "url": "https://github.com/advisories/GHSA-mxmg-3p7m-2ghr",
+      "date": "2026-03-24T19:07:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's andbox browser noVNC observer lacked VNC authentication",
+      "url": "https://github.com/advisories/GHSA-cxcw-jm67-3wwp",
+      "date": "2026-03-24T19:06:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw Node system.run approval context-binding weakness in approval-enabled host=node flows",
+      "url": "https://github.com/advisories/GHSA-cjq8-m7wj-xmq9",
+      "date": "2026-03-24T19:06:31.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[parse-server] Parse Server's Session Update endpoint allows overwriting server-generated session fields",
-      "url": "https://github.com/advisories/GHSA-jc39-686j-wp6q",
-      "date": "2026-03-24T16:34:12.000Z",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Slack system events bypass sender authorization in member and message subtype handlers",
+      "url": "https://github.com/advisories/GHSA-xgwg-m42c-8q62",
+      "date": "2026-03-24T19:06:24.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[parse-server] Parse Server's Session Update endpoint allows overwriting server-generated session fields",
-      "url": "https://github.com/advisories/GHSA-jc39-686j-wp6q",
-      "date": "2026-03-24T16:34:12.000Z",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw has a Trusted-proxy Control UI pairing bypass which allows unpaired node sessions",
+      "url": "https://github.com/advisories/GHSA-xh9j-mpc9-2m9p",
+      "date": "2026-03-24T19:06:16.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0070: Vulnerability in hpke-rs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0070.html",
-      "date": "2026-03-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0069: Vulnerability in hpke-rs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0069.html",
-      "date": "2026-03-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0071: Vulnerability in hpke-rs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0071.html",
-      "date": "2026-03-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0073: Vulnerability in libcrux-poly1305",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0073.html",
-      "date": "2026-03-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0074: Vulnerability in libcrux-sha3",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0074.html",
-      "date": "2026-03-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0075: Vulnerability in libcrux-ed25519",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0075.html",
-      "date": "2026-03-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0072: Vulnerability in hpke-rs-rust-crypto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0072.html",
-      "date": "2026-03-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0077: Vulnerability in libcrux-ml-dsa",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0077.html",
-      "date": "2026-03-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0076: Vulnerability in libcrux-ml-dsa",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0076.html",
-      "date": "2026-03-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0049: Vulnerability in rustls-webpki",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0049.html",
-      "date": "2026-03-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[mindsql] MindSQL is vulnerable to Code Injection through its ask_db function",
-      "url": "https://github.com/advisories/GHSA-m6m4-34cj-4hh7",
-      "date": "2026-03-23T21:50:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[h3] H3: Unbounded Chunked Cookie Count in Session Cleanup Loop may Lead to Denial of Service",
-      "url": "https://github.com/advisories/GHSA-q5pr-72pq-83v3",
-      "date": "2026-03-23T21:49:19.000Z",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's shell startup env injection bypasses system.run allowlist intent (RCE class)",
+      "url": "https://github.com/advisories/GHSA-rj39-33v7-9xrq",
+      "date": "2026-03-24T19:06:07.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[h3] H3 has an Open Redirect via Protocol-Relative Path in redirectBack() Referer Validation",
-      "url": "https://github.com/advisories/GHSA-fp4x-ggrf-wmc6",
-      "date": "2026-03-23T21:48:24.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[briefcase] Briefcase: Windows MSI Installer Privilege Escalation via Insecure Directory Permissions",
-      "url": "https://github.com/advisories/GHSA-r3r2-35v9-v238",
-      "date": "2026-03-23T21:40:13.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[indico] Indico discloses local files resulting in Remote Code Execution through LaTeX injection",
-      "url": "https://github.com/advisories/GHSA-rm2q-f7jv-3cfp",
-      "date": "2026-03-23T20:43:44.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: workspace path guard bypass on non-existent out-of-root symlink leaf",
+      "url": "https://github.com/advisories/GHSA-9f79-7pw8-3fj8",
+      "date": "2026-03-24T19:05:54.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[cbor2] cbor2 has a Denial of Service via Uncontrolled Recursion in cbor2.loads",
-      "url": "https://github.com/advisories/GHSA-3c37-wwvx-h642",
-      "date": "2026-03-23T20:24:00.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's voice-call Twilio webhook replay could bypass manager dedupe because normalized event IDs were randomized per parse",
+      "url": "https://github.com/advisories/GHSA-3r78-rqg8-95gg",
+      "date": "2026-03-24T19:05:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's system.run shell-wrapper positional argv carriers could execute hidden commands under misleading approval text",
+      "url": "https://github.com/advisories/GHSA-w6f4-3v35-qjhj",
+      "date": "2026-03-24T19:05:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's Signal reaction-only status events could, in limited cases, be enqueued before access checks",
+      "url": "https://github.com/advisories/GHSA-86jj-29wc-7q2w",
+      "date": "2026-03-24T19:05:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's inbound media downloads could exceed configured byte limits before rejection across multiple channels",
+      "url": "https://github.com/advisories/GHSA-xq3g-m3j8-2vmm",
+      "date": "2026-03-24T19:04:56.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw has an improper sandbox configuration vulnerability",
+      "url": "https://github.com/advisories/GHSA-q94v-v6m9-jhq9",
+      "date": "2026-03-24T19:04:41.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     }
   ]
 }

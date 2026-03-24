@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-24T18:32:05.615Z",
-  "count": 98,
+  "scannedAt": "2026-03-24T19:31:49.085Z",
+  "count": 99,
   "packages": [
     {
       "name": "xmldom",
@@ -228,15 +228,6 @@
       "currentOwner": "hzoo"
     },
     {
-      "name": "js-library-detector",
-      "version": "6.7.0",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "johnmichel",
-      "currentOwner": "housseindjirdeh"
-    },
-    {
       "name": "mark.js",
       "version": "8.11.1",
       "ecosystem": "npm",
@@ -244,6 +235,15 @@
       "level": "MODERATE",
       "previousOwner": "lukasoppermann",
       "currentOwner": "julmot"
+    },
+    {
+      "name": "js-library-detector",
+      "version": "6.7.0",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "johnmichel",
+      "currentOwner": "housseindjirdeh"
     },
     {
       "name": "coffeescript",
@@ -273,21 +273,21 @@
       "currentOwner": "michaelficarra"
     },
     {
-      "name": "string.prototype.trimend",
-      "version": "1.0.9",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "khaledelansari",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "is-array-buffer",
       "version": "3.0.5",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
       "previousOwner": "fengyuanchen",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "string.prototype.trimend",
+      "version": "1.0.9",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "khaledelansari",
       "currentOwner": "ljharb"
     },
     {
@@ -480,21 +480,21 @@
       "currentOwner": "redux-saga-release-bot"
     },
     {
-      "name": "dependency-cruiser",
-      "version": "17.3.9",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "sverweij",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/base-driver",
       "version": "10.2.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "dependency-cruiser",
+      "version": "17.3.9",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "sverweij",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -579,15 +579,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
-    },
-    {
       "name": "postcss-focus-visible",
       "version": "11.0.0",
       "ecosystem": "npm",
@@ -599,6 +590,15 @@
     {
       "name": "css-has-pseudo",
       "version": "8.0.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
+    },
+    {
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -624,15 +624,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "inversify",
-      "version": "8.1.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "remojansen",
-      "currentOwner": "notaphplover"
-    },
-    {
       "name": "oxfmt",
       "version": "0.42.0",
       "ecosystem": "npm",
@@ -640,6 +631,15 @@
       "level": "MODERATE",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "inversify",
+      "version": "8.1.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "remojansen",
+      "currentOwner": "notaphplover"
     },
     {
       "name": "resedit",
@@ -721,6 +721,15 @@
       "level": "MODERATE",
       "previousOwner": "bdougherty",
       "currentOwner": "vimeo-npmbot"
+    },
+    {
+      "name": "@lottiefiles/dotlottie-react",
+      "version": "0.18.7",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "typescript",
@@ -831,8 +840,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.57.0",
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.42.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -840,8 +849,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.42.0",
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.57.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
