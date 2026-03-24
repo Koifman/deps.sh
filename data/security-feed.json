@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-03-24T17:26:36.511Z",
+  "fetchedAt": "2026-03-24T18:28:55.087Z",
   "entries": [
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's gateway tokenless Tailscale auth applied to HTTP routes",
+      "url": "https://github.com/advisories/GHSA-qwmf-95r9-gx9x",
+      "date": "2026-03-24T18:05:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw reuses the gateway auth token in the owner ID prompt hashing fallback",
+      "url": "https://github.com/advisories/GHSA-8mr2-f9wf-hcfq",
+      "date": "2026-03-24T17:54:55.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[parse-server] Parse Server's Session Update endpoint allows overwriting server-generated session fields",
       "url": "https://github.com/advisories/GHSA-jc39-686j-wp6q",
@@ -116,20 +130,6 @@
       "date": "2026-03-23T20:24:00.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@powersync/service-sync-rules] PowerSync: Some sync filters ignored on 1.20.0 using `config.edition: 3`",
-      "url": "https://github.com/advisories/GHSA-q6wc-xx4m-92fj",
-      "date": "2026-03-23T17:29:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@powersync/service-core] PowerSync: Some sync filters ignored on 1.20.0 using `config.edition: 3`",
-      "url": "https://github.com/advisories/GHSA-q6wc-xx4m-92fj",
-      "date": "2026-03-23T17:29:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
