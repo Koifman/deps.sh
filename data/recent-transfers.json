@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-24T11:25:04.302Z",
+  "scannedAt": "2026-03-24T12:30:26.486Z",
   "count": 99,
   "packages": [
     {
@@ -111,8 +111,8 @@
       "currentOwner": "mugen87"
     },
     {
-      "name": "enzyme-adapter-react-16",
-      "version": "1.15.8",
+      "name": "enzyme-adapter-utils",
+      "version": "1.14.2",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -120,8 +120,8 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "enzyme-adapter-utils",
-      "version": "1.14.2",
+      "name": "enzyme-adapter-react-16",
+      "version": "1.15.8",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -759,7 +759,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
+      "name": "@oxc-parser/binding-linux-x64-gnu",
       "version": "0.121.0",
       "ecosystem": "npm",
       "score": 20,
@@ -768,7 +768,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-x64-gnu",
+      "name": "oxc-transform",
       "version": "0.121.0",
       "ecosystem": "npm",
       "score": 20,
@@ -876,15 +876,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-musl",
-      "version": "0.121.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "tesseract.js-core",
       "version": "6.1.2",
       "ecosystem": "npm",
@@ -892,6 +883,15 @@
       "level": "LOW",
       "previousOwner": "antimatter15",
       "currentOwner": "balearica"
+    },
+    {
+      "name": "@oxc-minify/binding-linux-x64-musl",
+      "version": "0.121.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }
