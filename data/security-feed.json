@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-03-25T20:19:02.759Z",
+  "fetchedAt": "2026-03-25T21:17:56.734Z",
   "entries": [
+    {
+      "title": "[n8n] n8n has Multiple Remote Code Execution Vulnerabilities in Merge Node AlaSQL SQL Mode",
+      "url": "https://github.com/advisories/GHSA-58qr-rcgv-642v",
+      "date": "2026-03-25T21:07:45.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[n8n] n8n has Multiple Remote Code Execution Vulnerabilities in Merge Node AlaSQL SQL Mode",
+      "url": "https://github.com/advisories/GHSA-58qr-rcgv-642v",
+      "date": "2026-03-25T21:07:45.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[n8n] n8n has Multiple Remote Code Execution Vulnerabilities in Merge Node AlaSQL SQL Mode",
+      "url": "https://github.com/advisories/GHSA-58qr-rcgv-642v",
+      "date": "2026-03-25T21:07:45.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[smol-toml] smol-toml: Denial of Service via TOML documents containing thousands of consecutive commented lines",
+      "url": "https://github.com/advisories/GHSA-v3rj-xjv7-4jmq",
+      "date": "2026-03-25T21:03:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langflow] langflow: /profile_pictures/{folder_name}/{file_name} endpoint file reading",
+      "url": "https://github.com/advisories/GHSA-ph9w-r52h-28p7",
+      "date": "2026-03-25T20:54:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langflow] langflow has Unauthenticated IDOR on Image Downloads",
+      "url": "https://github.com/advisories/GHSA-7grx-3xcx-2xv5",
+      "date": "2026-03-25T20:53:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[indico] Indico discloses local files resulting in Remote Code Execution through LaTeX injection",
+      "url": "https://github.com/advisories/GHSA-rm2q-f7jv-3cfp",
+      "date": "2026-03-25T20:46:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[cbor2] cbor2 has a Denial of Service via Uncontrolled Recursion in cbor2.loads",
+      "url": "https://github.com/advisories/GHSA-3c37-wwvx-h642",
+      "date": "2026-03-25T20:38:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[yaml] yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
+      "url": "https://github.com/advisories/GHSA-48c2-rrv3-qjmp",
+      "date": "2026-03-25T20:08:24.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[yaml] yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
+      "url": "https://github.com/advisories/GHSA-48c2-rrv3-qjmp",
+      "date": "2026-03-25T20:08:24.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[pypdf] pypdf: Possible infinite loop during recovery attempts in DictionaryObject.read_from_stream",
       "url": "https://github.com/advisories/GHSA-87mj-5ggw-8qc3",
@@ -68,76 +138,6 @@
       "title": "[@grackle-ai/server] @grackle-ai/server has Missing WebSocket Origin Header Validation",
       "url": "https://github.com/advisories/GHSA-w3hv-x4fp-6h6j",
       "date": "2026-03-25T17:28:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grackle-ai/mcp] @grackle-ai/mcp has a workspace authorization bypass in its knowledge_search MCP tool",
-      "url": "https://github.com/advisories/GHSA-647h-p824-99w7",
-      "date": "2026-03-25T17:23:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grackle-ai/server] @grackle-ai/server: Unescaped Error String in renderPairingPage() HTML Template",
-      "url": "https://github.com/advisories/GHSA-7q9x-8g6p-3x75",
-      "date": "2026-03-25T17:15:41.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[modoboa] Modoboa has OS Command Injection",
-      "url": "https://github.com/advisories/GHSA-wwv8-cqpr-vx3m",
-      "date": "2026-03-25T17:03:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n has In-Process Memory Disclosure in its Task Runner",
-      "url": "https://github.com/advisories/GHSA-xvh5-5qg4-x9qp",
-      "date": "2026-03-25T17:00:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n has In-Process Memory Disclosure in its Task Runner",
-      "url": "https://github.com/advisories/GHSA-xvh5-5qg4-x9qp",
-      "date": "2026-03-25T17:00:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n has In-Process Memory Disclosure in its Task Runner",
-      "url": "https://github.com/advisories/GHSA-xvh5-5qg4-x9qp",
-      "date": "2026-03-25T17:00:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[requests] Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function",
-      "url": "https://github.com/advisories/GHSA-gc5v-m9x4-r6x2",
-      "date": "2026-03-25T16:56:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hnswlib] hnswlib Double Free vulnerability",
-      "url": "https://github.com/advisories/GHSA-xwc8-rf6m-xr86",
-      "date": "2026-03-25T15:04:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sjcl] sjcl is missing point-on-curve validation in sjcl.ecc.basicKey.publicKey",
-      "url": "https://github.com/advisories/GHSA-2w8x-224x-785m",
-      "date": "2026-03-25T14:36:31.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-xml-parser] fast-xml-parser affected by numeric entity expansion bypassing all entity expansion limits (incomplete fix for CVE-2026-26278)",
-      "url": "https://github.com/advisories/GHSA-8gc5-j5rx-235r",
-      "date": "2026-03-25T14:31:41.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
