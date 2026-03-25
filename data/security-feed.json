@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-03-25T16:34:11.838Z",
+  "fetchedAt": "2026-03-25T17:28:34.337Z",
   "entries": [
+    {
+      "title": "[@grackle-ai/server] @grackle-ai/server: Unescaped Error String in renderPairingPage() HTML Template",
+      "url": "https://github.com/advisories/GHSA-7q9x-8g6p-3x75",
+      "date": "2026-03-25T17:15:41.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[modoboa] Modoboa has OS Command Injection",
+      "url": "https://github.com/advisories/GHSA-wwv8-cqpr-vx3m",
+      "date": "2026-03-25T17:03:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n has In-Process Memory Disclosure in its Task Runner",
+      "url": "https://github.com/advisories/GHSA-xvh5-5qg4-x9qp",
+      "date": "2026-03-25T17:00:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n has In-Process Memory Disclosure in its Task Runner",
+      "url": "https://github.com/advisories/GHSA-xvh5-5qg4-x9qp",
+      "date": "2026-03-25T17:00:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n has In-Process Memory Disclosure in its Task Runner",
+      "url": "https://github.com/advisories/GHSA-xvh5-5qg4-x9qp",
+      "date": "2026-03-25T17:00:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[requests] Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function",
+      "url": "https://github.com/advisories/GHSA-gc5v-m9x4-r6x2",
+      "date": "2026-03-25T16:56:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[hnswlib] hnswlib Double Free vulnerability",
       "url": "https://github.com/advisories/GHSA-xwc8-rf6m-xr86",
@@ -97,48 +139,6 @@
       "date": "2026-03-24T19:23:54.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[justhtml] JustHTML is vulnerable to XSS via code fence breakout in <pre> content",
-      "url": "https://github.com/advisories/GHSA-5vp3-3cg6-2rq3",
-      "date": "2026-03-24T19:22:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server: Denial of Service via unindexed database query for unconfigured auth providers",
-      "url": "https://github.com/advisories/GHSA-g4cf-xj29-wqqr",
-      "date": "2026-03-24T19:12:23.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server: Denial of Service via unindexed database query for unconfigured auth providers",
-      "url": "https://github.com/advisories/GHSA-g4cf-xj29-wqqr",
-      "date": "2026-03-24T19:12:23.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server has SQL Injection through aggregate and distinct field names in PostgreSQL adapter",
-      "url": "https://github.com/advisories/GHSA-p2w6-rmh7-w8q3",
-      "date": "2026-03-24T19:12:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server has SQL Injection through aggregate and distinct field names in PostgreSQL adapter",
-      "url": "https://github.com/advisories/GHSA-p2w6-rmh7-w8q3",
-      "date": "2026-03-24T19:12:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fido2-lib] fido2-lib is vulnerable to DoS via cbor-extract heap buffer over-read in CBOR attestation parsing",
-      "url": "https://github.com/advisories/GHSA-g3qj-j598-cxmq",
-      "date": "2026-03-24T19:10:41.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
