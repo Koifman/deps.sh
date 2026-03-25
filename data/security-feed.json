@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-03-25T14:34:46.633Z",
+  "fetchedAt": "2026-03-25T15:33:43.943Z",
   "entries": [
+    {
+      "title": "[hnswlib] hnswlib Double Free vulnerability",
+      "url": "https://github.com/advisories/GHSA-xwc8-rf6m-xr86",
+      "date": "2026-03-25T15:04:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sjcl] sjcl is missing point-on-curve validation in sjcl.ecc.basicKey.publicKey",
+      "url": "https://github.com/advisories/GHSA-2w8x-224x-785m",
+      "date": "2026-03-25T14:36:31.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser affected by numeric entity expansion bypassing all entity expansion limits (incomplete fix for CVE-2026-26278)",
+      "url": "https://github.com/advisories/GHSA-8gc5-j5rx-235r",
+      "date": "2026-03-25T14:31:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser affected by numeric entity expansion bypassing all entity expansion limits (incomplete fix for CVE-2026-26278)",
+      "url": "https://github.com/advisories/GHSA-8gc5-j5rx-235r",
+      "date": "2026-03-25T14:31:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[litellm] Two LiteLLM versions published containing credential harvesting malware",
+      "url": "https://github.com/advisories/GHSA-5mg7-485q-xm76",
+      "date": "2026-03-25T14:25:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2025-0154: Vulnerability in replit_ruspty",
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0154.html",
@@ -102,41 +137,6 @@
       "title": "[fido2-lib] fido2-lib is vulnerable to DoS via cbor-extract heap buffer over-read in CBOR attestation parsing",
       "url": "https://github.com/advisories/GHSA-g3qj-j598-cxmq",
       "date": "2026-03-24T19:10:41.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: BlueBubbles beta plugin webhook auth hardening (remove passwordless fallback)",
-      "url": "https://github.com/advisories/GHSA-vh4c-j2xv-9pv9",
-      "date": "2026-03-24T19:07:37.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's Slack reaction/pin sender-policy consistency issue in non-message ingress",
-      "url": "https://github.com/advisories/GHSA-g839-vp47-wgh8",
-      "date": "2026-03-24T19:07:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw ACP client has permission auto-approval bypass via untrusted tool metadata",
-      "url": "https://github.com/advisories/GHSA-rcx4-77x4-hjx5",
-      "date": "2026-03-24T19:07:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: system.run approval identity mismatch could execute a different binary than displayed",
-      "url": "https://github.com/advisories/GHSA-mxmg-3p7m-2ghr",
-      "date": "2026-03-24T19:07:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's andbox browser noVNC observer lacked VNC authentication",
-      "url": "https://github.com/advisories/GHSA-cxcw-jm67-3wwp",
-      "date": "2026-03-24T19:06:53.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
