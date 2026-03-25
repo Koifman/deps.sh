@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-03-25T17:28:34.337Z",
+  "fetchedAt": "2026-03-25T18:28:16.763Z",
   "entries": [
+    {
+      "title": "[liquidjs] LiquidJS has Exponential Memory Amplification through its replace_first Filter $& Pattern",
+      "url": "https://github.com/advisories/GHSA-6q5m-63h6-5x4v",
+      "date": "2026-03-25T17:44:24.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[liquidjs] LiquidJS: memoryLimit Bypass through Negative Range Values Leads to Process Crash",
+      "url": "https://github.com/advisories/GHSA-9r5m-9576-7f6x",
+      "date": "2026-03-25T17:40:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@grackle-ai/server] @grackle-ai/server JSON.parse lacks try-catch logic in its gRPC Service AdapterConfig Handling",
+      "url": "https://github.com/advisories/GHSA-8g29-8xwr-qmhr",
+      "date": "2026-03-25T17:33:03.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@grackle-ai/server] @grackle-ai/server has a Missing Secure Flag on Session Cookie",
+      "url": "https://github.com/advisories/GHSA-5j35-xr4g-vwf4",
+      "date": "2026-03-25T17:32:40.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@grackle-ai/server] @grackle-ai/server has Missing Content-Security-Policy and X-Frame-Options Headers",
+      "url": "https://github.com/advisories/GHSA-3mjm-x6gw-2x42",
+      "date": "2026-03-25T17:32:05.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@grackle-ai/powerline] @grackle-ai/powerline Runs Without Authentication by Default",
+      "url": "https://github.com/advisories/GHSA-xq7h-vwjp-5vrh",
+      "date": "2026-03-25T17:30:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@grackle-ai/server] @grackle-ai/server has Missing WebSocket Origin Header Validation",
+      "url": "https://github.com/advisories/GHSA-w3hv-x4fp-6h6j",
+      "date": "2026-03-25T17:28:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@grackle-ai/mcp] @grackle-ai/mcp has a workspace authorization bypass in its knowledge_search MCP tool",
+      "url": "https://github.com/advisories/GHSA-647h-p824-99w7",
+      "date": "2026-03-25T17:23:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@grackle-ai/server] @grackle-ai/server: Unescaped Error String in renderPairingPage() HTML Template",
       "url": "https://github.com/advisories/GHSA-7q9x-8g6p-3x75",
@@ -83,62 +139,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0154.html",
       "date": "2026-03-25T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[langflow] Unauthenticated Remote Code Execution in Langflow via Public Flow Build Endpoint",
-      "url": "https://github.com/advisories/GHSA-vwmf-pq79-vjvx",
-      "date": "2026-03-24T21:58:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[Pygments] Pygments has Regular Expression Denial of Service (ReDoS) due to Inefficient Regex for GUID Matching",
-      "url": "https://github.com/advisories/GHSA-5239-wwwm-4pmq",
-      "date": "2026-03-24T20:33:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] Parse Server exposes auth data via /users/me endpoint",
-      "url": "https://github.com/advisories/GHSA-37mj-c2wf-cx96",
-      "date": "2026-03-24T20:17:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server exposes auth data via /users/me endpoint",
-      "url": "https://github.com/advisories/GHSA-37mj-c2wf-cx96",
-      "date": "2026-03-24T20:17:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server: MFA recovery code single-use bypass via concurrent requests",
-      "url": "https://github.com/advisories/GHSA-2299-ghjr-6vjp",
-      "date": "2026-03-24T19:48:25.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] Parse Server: MFA recovery code single-use bypass via concurrent requests",
-      "url": "https://github.com/advisories/GHSA-2299-ghjr-6vjp",
-      "date": "2026-03-24T19:48:25.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@astrojs/node] Astro: Memory exhaustion DoS due to missing request body size limit in Server Islands",
-      "url": "https://github.com/advisories/GHSA-3rmj-9m5h-8fpv",
-      "date": "2026-03-24T19:29:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mobsf] MobSF has SQL Injection in its SQLite Database Viewer Utils",
-      "url": "https://github.com/advisories/GHSA-hqjr-43r5-9q58",
-      "date": "2026-03-24T19:23:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
