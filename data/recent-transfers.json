@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-25T15:37:03.596Z",
+  "scannedAt": "2026-03-25T16:37:07.650Z",
   "count": 98,
   "packages": [
     {
@@ -480,21 +480,21 @@
       "currentOwner": "redux-saga-release-bot"
     },
     {
-      "name": "@appium/base-driver",
-      "version": "10.2.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "dependency-cruiser",
       "version": "17.3.9",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "sverweij",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/base-driver",
+      "version": "10.2.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -651,8 +651,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.1.0",
+      "name": "@appium/types",
+      "version": "1.2.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -660,8 +660,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/types",
-      "version": "1.2.1",
+      "name": "@appium/schema",
+      "version": "1.1.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -714,13 +714,13 @@
       "currentOwner": "gingerbenw"
     },
     {
-      "name": "@vimeo/player",
-      "version": "2.30.3",
+      "name": "@hey-api/codegen-core",
+      "version": "0.7.4",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "bdougherty",
-      "currentOwner": "vimeo-npmbot"
+      "previousOwner": "mrlubos",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "typescript",
@@ -867,15 +867,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@nevware21/ts-utils",
-      "version": "0.13.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
-    },
-    {
       "name": "tesseract.js-core",
       "version": "6.1.2",
       "ecosystem": "npm",
@@ -883,6 +874,15 @@
       "level": "LOW",
       "previousOwner": "antimatter15",
       "currentOwner": "balearica"
+    },
+    {
+      "name": "@oxc-minify/binding-linux-x64-musl",
+      "version": "0.121.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }
