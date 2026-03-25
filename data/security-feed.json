@@ -1,7 +1,126 @@
 {
-  "fetchedAt": "2026-03-25T21:17:56.734Z",
+  "fetchedAt": "2026-03-25T22:17:36.966Z",
   "entries": [
     {
+      "title": "[n8n] n8n's Source Control SSH Configuration Uses StrictHostKeyChecking=no",
+      "url": "https://github.com/advisories/GHSA-43v7-fp2v-68f6",
+      "date": "2026-03-25T22:06:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n Has External Secrets Authorization Bypass in Credential Saving",
+      "url": "https://github.com/advisories/GHSA-fxcw-h3qj-8m8p",
+      "date": "2026-03-25T22:05:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n Has External Secrets Authorization Bypass in Credential Saving",
+      "url": "https://github.com/advisories/GHSA-fxcw-h3qj-8m8p",
+      "date": "2026-03-25T22:05:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n Has Authorization Bypass in OAuth Callback via N8N_SKIP_AUTH_ON_OAUTH_CALLBACK",
+      "url": "https://github.com/advisories/GHSA-vpgc-2f6g-7w7x",
+      "date": "2026-03-25T21:57:55.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openhands] OpenHands is Vulnerable to Command Injection through its Git Diff Handler",
+      "url": "https://github.com/advisories/GHSA-7h8w-hj9j-8rjw",
+      "date": "2026-03-25T21:54:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Streamlit] Unauthenticated SSRF Vulnerability in Streamlit on Windows (NTLM Credential Exposure)",
+      "url": "https://github.com/advisories/GHSA-7p48-42j8-8846",
+      "date": "2026-03-25T21:20:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[picomatch] Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "url": "https://github.com/advisories/GHSA-3v7f-55p6-f55p",
+      "date": "2026-03-25T21:13:39.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[picomatch] Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "url": "https://github.com/advisories/GHSA-3v7f-55p6-f55p",
+      "date": "2026-03-25T21:13:39.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[picomatch] Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "url": "https://github.com/advisories/GHSA-3v7f-55p6-f55p",
+      "date": "2026-03-25T21:13:39.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[picomatch] Picomatch has a ReDoS vulnerability via extglob quantifiers",
+      "url": "https://github.com/advisories/GHSA-c2c7-rcm5-vvqj",
+      "date": "2026-03-25T21:12:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[picomatch] Picomatch has a ReDoS vulnerability via extglob quantifiers",
+      "url": "https://github.com/advisories/GHSA-c2c7-rcm5-vvqj",
+      "date": "2026-03-25T21:12:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[picomatch] Picomatch has a ReDoS vulnerability via extglob quantifiers",
+      "url": "https://github.com/advisories/GHSA-c2c7-rcm5-vvqj",
+      "date": "2026-03-25T21:12:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: LDAP Email-Based Account Linking Allows Privilege Escalation and Account Takeover",
+      "url": "https://github.com/advisories/GHSA-c545-x2rh-82fc",
+      "date": "2026-03-25T21:09:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: LDAP Email-Based Account Linking Allows Privilege Escalation and Account Takeover",
+      "url": "https://github.com/advisories/GHSA-c545-x2rh-82fc",
+      "date": "2026-03-25T21:09:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n is Vulnerable to Credential Theft via Name-Based Resolution and Permission Checker Bypass in Community Edition",
+      "url": "https://github.com/advisories/GHSA-m63j-689w-3j35",
+      "date": "2026-03-25T21:08:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n is Vulnerable to Credential Theft via Name-Based Resolution and Permission Checker Bypass in Community Edition",
+      "url": "https://github.com/advisories/GHSA-m63j-689w-3j35",
+      "date": "2026-03-25T21:08:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n is Vulnerable to Credential Theft via Name-Based Resolution and Permission Checker Bypass in Community Edition",
+      "url": "https://github.com/advisories/GHSA-m63j-689w-3j35",
+      "date": "2026-03-25T21:08:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
       "title": "[n8n] n8n has Multiple Remote Code Execution Vulnerabilities in Merge Node AlaSQL SQL Mode",
       "url": "https://github.com/advisories/GHSA-58qr-rcgv-642v",
       "date": "2026-03-25T21:07:45.000Z",
@@ -21,125 +140,6 @@
       "date": "2026-03-25T21:07:45.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[smol-toml] smol-toml: Denial of Service via TOML documents containing thousands of consecutive commented lines",
-      "url": "https://github.com/advisories/GHSA-v3rj-xjv7-4jmq",
-      "date": "2026-03-25T21:03:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langflow] langflow: /profile_pictures/{folder_name}/{file_name} endpoint file reading",
-      "url": "https://github.com/advisories/GHSA-ph9w-r52h-28p7",
-      "date": "2026-03-25T20:54:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langflow] langflow has Unauthenticated IDOR on Image Downloads",
-      "url": "https://github.com/advisories/GHSA-7grx-3xcx-2xv5",
-      "date": "2026-03-25T20:53:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[indico] Indico discloses local files resulting in Remote Code Execution through LaTeX injection",
-      "url": "https://github.com/advisories/GHSA-rm2q-f7jv-3cfp",
-      "date": "2026-03-25T20:46:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[cbor2] cbor2 has a Denial of Service via Uncontrolled Recursion in cbor2.loads",
-      "url": "https://github.com/advisories/GHSA-3c37-wwvx-h642",
-      "date": "2026-03-25T20:38:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[yaml] yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
-      "url": "https://github.com/advisories/GHSA-48c2-rrv3-qjmp",
-      "date": "2026-03-25T20:08:24.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[yaml] yaml is vulnerable to Stack Overflow via deeply nested YAML collections",
-      "url": "https://github.com/advisories/GHSA-48c2-rrv3-qjmp",
-      "date": "2026-03-25T20:08:24.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pypdf] pypdf: Possible infinite loop during recovery attempts in DictionaryObject.read_from_stream",
-      "url": "https://github.com/advisories/GHSA-87mj-5ggw-8qc3",
-      "date": "2026-03-25T20:05:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fastify] fastify: request.protocol and request.host Spoofable via X-Forwarded-Proto/Host from Untrusted Connections",
-      "url": "https://github.com/advisories/GHSA-444r-cwp2-x5xf",
-      "date": "2026-03-25T19:32:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in nltk",
-      "url": "https://github.com/advisories/GHSA-gfwx-w7gr-fvh7",
-      "date": "2026-03-25T18:21:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[liquidjs] LiquidJS has Exponential Memory Amplification through its replace_first Filter $& Pattern",
-      "url": "https://github.com/advisories/GHSA-6q5m-63h6-5x4v",
-      "date": "2026-03-25T17:44:24.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[liquidjs] LiquidJS: memoryLimit Bypass through Negative Range Values Leads to Process Crash",
-      "url": "https://github.com/advisories/GHSA-9r5m-9576-7f6x",
-      "date": "2026-03-25T17:40:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grackle-ai/server] @grackle-ai/server JSON.parse lacks try-catch logic in its gRPC Service AdapterConfig Handling",
-      "url": "https://github.com/advisories/GHSA-8g29-8xwr-qmhr",
-      "date": "2026-03-25T17:33:03.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@grackle-ai/server] @grackle-ai/server has a Missing Secure Flag on Session Cookie",
-      "url": "https://github.com/advisories/GHSA-5j35-xr4g-vwf4",
-      "date": "2026-03-25T17:32:40.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@grackle-ai/server] @grackle-ai/server has Missing Content-Security-Policy and X-Frame-Options Headers",
-      "url": "https://github.com/advisories/GHSA-3mjm-x6gw-2x42",
-      "date": "2026-03-25T17:32:05.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@grackle-ai/powerline] @grackle-ai/powerline Runs Without Authentication by Default",
-      "url": "https://github.com/advisories/GHSA-xq7h-vwjp-5vrh",
-      "date": "2026-03-25T17:30:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@grackle-ai/server] @grackle-ai/server has Missing WebSocket Origin Header Validation",
-      "url": "https://github.com/advisories/GHSA-w3hv-x4fp-6h6j",
-      "date": "2026-03-25T17:28:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
