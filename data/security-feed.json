@@ -1,133 +1,145 @@
 {
-  "fetchedAt": "2026-03-26T18:30:44.712Z",
+  "fetchedAt": "2026-03-26T19:30:26.829Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw's system.run allowlist can be bypassed through an unregistered time dispatch wrapper",
+      "url": "https://github.com/advisories/GHSA-qm9x-v7cx-7rq4",
+      "date": "2026-03-26T19:08:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Nostr inbound DMs could trigger unauthenticated crypto work before sender policy enforcement",
+      "url": "https://github.com/advisories/GHSA-65h8-27jh-q8wv",
+      "date": "2026-03-26T19:08:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Synology Chat reply delivery could be rebound through username-based user resolution.",
+      "url": "https://github.com/advisories/GHSA-wv46-v6xc-2qhf",
+      "date": "2026-03-26T19:08:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Windows media loaders accepted remote-host file URLs before local path validation",
+      "url": "https://github.com/advisories/GHSA-h3x4-hc5v-v2gm",
+      "date": "2026-03-26T19:07:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Gateway agent /reset exposes admin session reset to operator.write callers",
+      "url": "https://github.com/advisories/GHSA-wq58-2pvg-5h4f",
+      "date": "2026-03-26T19:00:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Gateway Canvas local-direct requests bypass Canvas HTTP and WebSocket authentication",
+      "url": "https://github.com/advisories/GHSA-6mqc-jqh6-x8fc",
+      "date": "2026-03-26T18:59:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Plivo V2 verified replay identity drifts on query-only variants",
+      "url": "https://github.com/advisories/GHSA-cg6c-q2hx-69h7",
+      "date": "2026-03-26T18:56:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[convict] Convict has Prototype Pollution via startsWith() function",
+      "url": "https://github.com/advisories/GHSA-44fc-8fm5-q62h",
+      "date": "2026-03-26T18:55:42.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[convict] Convict has prototype pollution via load(), loadFile(), and schema initialization",
+      "url": "https://github.com/advisories/GHSA-hf2r-9gf9-rwch",
+      "date": "2026-03-26T18:50:36.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[astro] Astro: Remote allowlist bypass via unanchored matchPathname wildcard",
+      "url": "https://github.com/advisories/GHSA-g735-7g2w-hh3f",
+      "date": "2026-03-26T18:45:17.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@astrojs/vercel] Astro: Unauthenticated Path Override via `x-astro-path` / `x_astro_path`",
+      "url": "https://github.com/advisories/GHSA-mr6q-rp88-fx84",
+      "date": "2026-03-26T18:41:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langflow] Langflow has Authenticated Code Execution in Agentic Assistant Validation",
+      "url": "https://github.com/advisories/GHSA-v8hw-mh8c-jxfc",
+      "date": "2026-03-26T18:31:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[n8n] n8n Vulnerable to LDAP Filter Injection in LDAP Node",
+      "url": "https://github.com/advisories/GHSA-w83q-mcmx-mh42",
+      "date": "2026-03-26T18:30:20.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n Vulnerable to LDAP Filter Injection in LDAP Node",
+      "url": "https://github.com/advisories/GHSA-w83q-mcmx-mh42",
+      "date": "2026-03-26T18:30:20.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n Vulnerable to LDAP Filter Injection in LDAP Node",
+      "url": "https://github.com/advisories/GHSA-w83q-mcmx-mh42",
+      "date": "2026-03-26T18:30:20.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[brace-expansion] brace-expansion: Zero-step sequence causes process hang and memory exhaustion",
+      "url": "https://github.com/advisories/GHSA-f886-m6hf-6m8v",
+      "date": "2026-03-26T18:29:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n Vulnerable to XSS via Binary Data Inline HTML Rendering",
+      "url": "https://github.com/advisories/GHSA-qfc3-hm4j-7q77",
+      "date": "2026-03-26T18:28:45.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n Vulnerable to XSS via Binary Data Inline HTML Rendering",
+      "url": "https://github.com/advisories/GHSA-qfc3-hm4j-7q77",
+      "date": "2026-03-26T18:28:45.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n Vulnerable to XSS via Binary Data Inline HTML Rendering",
+      "url": "https://github.com/advisories/GHSA-qfc3-hm4j-7q77",
+      "date": "2026-03-26T18:28:45.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[srvx] srvx is vulnerable to middleware bypass via absolute URI in request line",
       "url": "https://github.com/advisories/GHSA-p36q-q72m-gchr",
       "date": "2026-03-26T16:52:09.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has SQL Injection in Data Table Node via orderByColumn Expression",
-      "url": "https://github.com/advisories/GHSA-98c2-4cr3-4jc3",
-      "date": "2026-03-26T16:41:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n has SQL Injection in Data Table Node via orderByColumn Expression",
-      "url": "https://github.com/advisories/GHSA-98c2-4cr3-4jc3",
-      "date": "2026-03-26T16:41:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n has SQL Injection in Data Table Node via orderByColumn Expression",
-      "url": "https://github.com/advisories/GHSA-98c2-4cr3-4jc3",
-      "date": "2026-03-26T16:41:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Prototype Pollution in XML and GSuiteAdmin node parameters lead to RCE",
-      "url": "https://github.com/advisories/GHSA-mxrg-77hm-89hv",
-      "date": "2026-03-26T16:41:02.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n: Prototype Pollution in XML and GSuiteAdmin node parameters lead to RCE",
-      "url": "https://github.com/advisories/GHSA-mxrg-77hm-89hv",
-      "date": "2026-03-26T16:41:02.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n: Prototype Pollution in XML and GSuiteAdmin node parameters lead to RCE",
-      "url": "https://github.com/advisories/GHSA-mxrg-77hm-89hv",
-      "date": "2026-03-26T16:41:02.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[langflow] Unauthenticated Remote Code Execution in Langflow via Public Flow Build Endpoint",
-      "url": "https://github.com/advisories/GHSA-vwmf-pq79-vjvx",
-      "date": "2026-03-26T15:41:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2023-0116: registry-win contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0116.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0107: lasso-rs contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0107.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0117: tauri-winrt-notifications contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0117.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0106: lfest-main contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0106.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0118: win_run_rs contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0118.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0108: tauri-win-rt-notification contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0108.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0120: windows-service-rs contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0120.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0119: openvpn-plugin-rs contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0119.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0124: bit-flags contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0124.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0122: winx-rs contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0122.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0112: monero-rpc-rs contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0112.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0111: monero-api contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0111.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
