@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-03-26T16:34:17.111Z",
+  "fetchedAt": "2026-03-26T17:29:35.937Z",
   "entries": [
+    {
+      "title": "[srvx] srvx is vulnerable to middleware bypass via absolute URI in request line",
+      "url": "https://github.com/advisories/GHSA-p36q-q72m-gchr",
+      "date": "2026-03-26T16:52:09.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has SQL Injection in Data Table Node via orderByColumn Expression",
+      "url": "https://github.com/advisories/GHSA-98c2-4cr3-4jc3",
+      "date": "2026-03-26T16:41:27.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n has SQL Injection in Data Table Node via orderByColumn Expression",
+      "url": "https://github.com/advisories/GHSA-98c2-4cr3-4jc3",
+      "date": "2026-03-26T16:41:27.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n has SQL Injection in Data Table Node via orderByColumn Expression",
+      "url": "https://github.com/advisories/GHSA-98c2-4cr3-4jc3",
+      "date": "2026-03-26T16:41:27.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Prototype Pollution in XML and GSuiteAdmin node parameters lead to RCE",
+      "url": "https://github.com/advisories/GHSA-mxrg-77hm-89hv",
+      "date": "2026-03-26T16:41:02.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[n8n] n8n: Prototype Pollution in XML and GSuiteAdmin node parameters lead to RCE",
+      "url": "https://github.com/advisories/GHSA-mxrg-77hm-89hv",
+      "date": "2026-03-26T16:41:02.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[n8n] n8n: Prototype Pollution in XML and GSuiteAdmin node parameters lead to RCE",
+      "url": "https://github.com/advisories/GHSA-mxrg-77hm-89hv",
+      "date": "2026-03-26T16:41:02.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[langflow] Unauthenticated Remote Code Execution in Langflow via Public Flow Build Endpoint",
       "url": "https://github.com/advisories/GHSA-vwmf-pq79-vjvx",
@@ -77,48 +126,6 @@
     {
       "title": "RUSTSEC-2023-0111: monero-api contained malicious code",
       "url": "https://rustsec.org/advisories/RUSTSEC-2023-0111.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0109: win-crypto contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0109.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0104: littest contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0104.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0105: windowsservice contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0105.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0123: hann-rs-service contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0123.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0121: libusb1-main contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0121.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0110: postgresderive contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0110.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0114: tiny-server contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0114.html",
       "date": "2026-03-26T12:00:00+00:00",
       "ecosystem": "cargo"
     }
