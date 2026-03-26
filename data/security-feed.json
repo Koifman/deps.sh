@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-03-26T21:14:52.795Z",
+  "fetchedAt": "2026-03-26T22:15:15.144Z",
   "entries": [
+    {
+      "title": "[node-forge] Forge has signature forgery in RSA-PKCS due to ASN.1 extra field",
+      "url": "https://github.com/advisories/GHSA-ppp5-5v6c-4jwp",
+      "date": "2026-03-26T22:02:37.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[node-forge] Forge has Denial of Service via Infinite Loop in BigInteger.modInverse() with Zero Input",
+      "url": "https://github.com/advisories/GHSA-5m6q-g25r-mvwx",
+      "date": "2026-03-26T21:57:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apollo-server-core] Apollo Server: Browser bug allows for bypass of XS-Search (read-only Cross-Site Request Forgery) prevention",
+      "url": "https://github.com/advisories/GHSA-9q82-xgwf-vj6h",
+      "date": "2026-03-26T21:53:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@apollo/server] Apollo Server: Browser bug allows for bypass of XS-Search (read-only Cross-Site Request Forgery) prevention",
+      "url": "https://github.com/advisories/GHSA-9q82-xgwf-vj6h",
+      "date": "2026-03-26T21:53:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Symlink Traversal via IDENTITY.md appendFile in agents.create/update (Incomplete Fix for CVE-2026-32013)",
+      "url": "https://github.com/advisories/GHSA-7xr2-q9vf-x4r5",
+      "date": "2026-03-26T21:49:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Image Tool `tools.fs.workspaceOnly` Bypass via Sandbox Bridge Mounts",
+      "url": "https://github.com/advisories/GHSA-cfp9-w5v9-3q4h",
+      "date": "2026-03-26T21:48:07.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's Conflicting Tool Identity Hints Bypass Dangerous-Tool Prompting",
+      "url": "https://github.com/advisories/GHSA-74wf-h43j-vvmj",
+      "date": "2026-03-26T21:46:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw Bypasses DM Policy Separation via Synology Chat Webhook Path Collision",
+      "url": "https://github.com/advisories/GHSA-rqp8-q22p-5j9q",
+      "date": "2026-03-26T21:45:36.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw leaf subagents can bypass controlScope restrictions to send messages to child sessions",
+      "url": "https://github.com/advisories/GHSA-x2cm-hg9c-mf5w",
+      "date": "2026-03-26T21:44:41.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Forwarding header spoofing bypasses gateway.trustedProxies origin detection",
+      "url": "https://github.com/advisories/GHSA-844j-xrrq-wgh4",
+      "date": "2026-03-26T21:42:31.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw Gateway: RCE and Privilege Escalation from operator.pairing to operator.admin via device.pair.approve",
+      "url": "https://github.com/advisories/GHSA-hf68-49fm-59cq",
+      "date": "2026-03-26T21:41:00.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Google Chat app-url webhook auth accepted non-deployment add-on principals",
+      "url": "https://github.com/advisories/GHSA-mp66-rf4f-mhh8",
+      "date": "2026-03-26T21:37:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Nextcloud Talk room allowlist matched colliding room names instead of stable room tokens",
+      "url": "https://github.com/advisories/GHSA-xhq5-45pm-2gjr",
+      "date": "2026-03-26T21:34:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Tlon settings empty-allowlist reconciliation bypassed intended revocation",
+      "url": "https://github.com/advisories/GHSA-pw7h-9g6p-c378",
+      "date": "2026-03-26T21:30:55.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Tlon cite expansion happens before channel and DM authorization is complete",
+      "url": "https://github.com/advisories/GHSA-vfg3-pqpq-93m4",
+      "date": "2026-03-26T21:27:53.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's mutating internal ACP chat commands missed operator.admin scope enforcement",
+      "url": "https://github.com/advisories/GHSA-3w6x-gv34-mqpf",
+      "date": "2026-03-26T21:24:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Mattermost callback dispatch allowed non-allowlisted sender actions",
+      "url": "https://github.com/advisories/GHSA-8883-9w57-vwv6",
+      "date": "2026-03-26T21:23:05.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw Exposes Credentials Embedded in baseUrl Fields via config.get and channels.status",
+      "url": "https://github.com/advisories/GHSA-ppwq-6v66-5m6j",
+      "date": "2026-03-26T21:16:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw may have stale policy enforcement for queued node actions",
+      "url": "https://github.com/advisories/GHSA-wj55-88gf-x564",
+      "date": "2026-03-26T21:14:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[openclaw] OpenClaw has Inconsistent Host Exec Environment Override Sanitization",
       "url": "https://github.com/advisories/GHSA-39pp-xp36-q6mg",
       "date": "2026-03-26T19:51:13.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw's Trusted-proxy Control UI sessions retain privileged scopes without device identity on device-less allow paths",
-      "url": "https://github.com/advisories/GHSA-48vw-m3qc-wr99",
-      "date": "2026-03-26T19:51:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw is vulnerable to unauthenticated resource exhaustion through its voice call webhook handling",
-      "url": "https://github.com/advisories/GHSA-rm59-992w-x2mv",
-      "date": "2026-03-26T19:50:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Bonjour/DNS-SD TXT metadata steers CLI routing after failed service resolution",
-      "url": "https://github.com/advisories/GHSA-rvqr-hrcc-j9vv",
-      "date": "2026-03-26T19:50:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Remote media error responses could trigger unbounded memory allocation before failure",
-      "url": "https://github.com/advisories/GHSA-4qwc-c7g9-4xcw",
-      "date": "2026-03-26T19:50:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Arbitrary code execution via unvalidated WebView JavascriptInterface",
-      "url": "https://github.com/advisories/GHSA-cxmw-p77q-wchg",
-      "date": "2026-03-26T19:30:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw's system.run allowlist can be bypassed through an unregistered time dispatch wrapper",
-      "url": "https://github.com/advisories/GHSA-qm9x-v7cx-7rq4",
-      "date": "2026-03-26T19:08:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Nostr inbound DMs could trigger unauthenticated crypto work before sender policy enforcement",
-      "url": "https://github.com/advisories/GHSA-65h8-27jh-q8wv",
-      "date": "2026-03-26T19:08:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Synology Chat reply delivery could be rebound through username-based user resolution.",
-      "url": "https://github.com/advisories/GHSA-wv46-v6xc-2qhf",
-      "date": "2026-03-26T19:08:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Windows media loaders accepted remote-host file URLs before local path validation",
-      "url": "https://github.com/advisories/GHSA-h3x4-hc5v-v2gm",
-      "date": "2026-03-26T19:07:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Gateway agent /reset exposes admin session reset to operator.write callers",
-      "url": "https://github.com/advisories/GHSA-wq58-2pvg-5h4f",
-      "date": "2026-03-26T19:00:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Gateway Canvas local-direct requests bypass Canvas HTTP and WebSocket authentication",
-      "url": "https://github.com/advisories/GHSA-6mqc-jqh6-x8fc",
-      "date": "2026-03-26T18:59:01.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Plivo V2 verified replay identity drifts on query-only variants",
-      "url": "https://github.com/advisories/GHSA-cg6c-q2hx-69h7",
-      "date": "2026-03-26T18:56:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[convict] Convict has Prototype Pollution via startsWith() function",
-      "url": "https://github.com/advisories/GHSA-44fc-8fm5-q62h",
-      "date": "2026-03-26T18:55:42.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[convict] Convict has prototype pollution via load(), loadFile(), and schema initialization",
-      "url": "https://github.com/advisories/GHSA-hf2r-9gf9-rwch",
-      "date": "2026-03-26T18:50:36.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[astro] Astro: Remote allowlist bypass via unanchored matchPathname wildcard",
-      "url": "https://github.com/advisories/GHSA-g735-7g2w-hh3f",
-      "date": "2026-03-26T18:45:17.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@astrojs/vercel] Astro: Unauthenticated Path Override via `x-astro-path` / `x_astro_path`",
-      "url": "https://github.com/advisories/GHSA-mr6q-rp88-fx84",
-      "date": "2026-03-26T18:41:35.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langflow] Langflow has Authenticated Code Execution in Agentic Assistant Validation",
-      "url": "https://github.com/advisories/GHSA-v8hw-mh8c-jxfc",
-      "date": "2026-03-26T18:31:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n Vulnerable to LDAP Filter Injection in LDAP Node",
-      "url": "https://github.com/advisories/GHSA-w83q-mcmx-mh42",
-      "date": "2026-03-26T18:30:20.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n Vulnerable to LDAP Filter Injection in LDAP Node",
-      "url": "https://github.com/advisories/GHSA-w83q-mcmx-mh42",
-      "date": "2026-03-26T18:30:20.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
