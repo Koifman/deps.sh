@@ -1,145 +1,125 @@
 {
-  "fetchedAt": "2026-03-26T05:38:08.685Z",
+  "fetchedAt": "2026-03-26T06:36:09.719Z",
   "entries": [
     {
-      "title": "[n8n] n8n's Source Control SSH Configuration Uses StrictHostKeyChecking=no",
-      "url": "https://github.com/advisories/GHSA-43v7-fp2v-68f6",
-      "date": "2026-03-25T22:06:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
+      "title": "RUSTSEC-2023-0116: registry-win contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0116.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[n8n] n8n Has External Secrets Authorization Bypass in Credential Saving",
-      "url": "https://github.com/advisories/GHSA-fxcw-h3qj-8m8p",
-      "date": "2026-03-25T22:05:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2023-0107: lasso-rs contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0107.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[n8n] n8n Has External Secrets Authorization Bypass in Credential Saving",
-      "url": "https://github.com/advisories/GHSA-fxcw-h3qj-8m8p",
-      "date": "2026-03-25T22:05:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2023-0117: tauri-winrt-notifications contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0117.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[n8n] n8n Has Authorization Bypass in OAuth Callback via N8N_SKIP_AUTH_ON_OAUTH_CALLBACK",
-      "url": "https://github.com/advisories/GHSA-vpgc-2f6g-7w7x",
-      "date": "2026-03-25T21:57:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
+      "title": "RUSTSEC-2023-0106: lfest-main contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0106.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[openhands] OpenHands is Vulnerable to Command Injection through its Git Diff Handler",
-      "url": "https://github.com/advisories/GHSA-7h8w-hj9j-8rjw",
-      "date": "2026-03-25T21:54:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2023-0118: win_run_rs contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0118.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[Streamlit] Unauthenticated SSRF Vulnerability in Streamlit on Windows (NTLM Credential Exposure)",
-      "url": "https://github.com/advisories/GHSA-7p48-42j8-8846",
-      "date": "2026-03-25T21:20:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "title": "RUSTSEC-2023-0108: tauri-win-rt-notification contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0108.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[picomatch] Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
-      "url": "https://github.com/advisories/GHSA-3v7f-55p6-f55p",
-      "date": "2026-03-25T21:13:39.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
+      "title": "RUSTSEC-2023-0120: windows-service-rs contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0120.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[picomatch] Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
-      "url": "https://github.com/advisories/GHSA-3v7f-55p6-f55p",
-      "date": "2026-03-25T21:13:39.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
+      "title": "RUSTSEC-2023-0119: openvpn-plugin-rs contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0119.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[picomatch] Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
-      "url": "https://github.com/advisories/GHSA-3v7f-55p6-f55p",
-      "date": "2026-03-25T21:13:39.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
+      "title": "RUSTSEC-2023-0124: bit-flags contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0124.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[picomatch] Picomatch has a ReDoS vulnerability via extglob quantifiers",
-      "url": "https://github.com/advisories/GHSA-c2c7-rcm5-vvqj",
-      "date": "2026-03-25T21:12:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2023-0122: winx-rs contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0122.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[picomatch] Picomatch has a ReDoS vulnerability via extglob quantifiers",
-      "url": "https://github.com/advisories/GHSA-c2c7-rcm5-vvqj",
-      "date": "2026-03-25T21:12:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2023-0112: monero-rpc-rs contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0112.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[picomatch] Picomatch has a ReDoS vulnerability via extglob quantifiers",
-      "url": "https://github.com/advisories/GHSA-c2c7-rcm5-vvqj",
-      "date": "2026-03-25T21:12:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2023-0111: monero-api contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0111.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[n8n] n8n: LDAP Email-Based Account Linking Allows Privilege Escalation and Account Takeover",
-      "url": "https://github.com/advisories/GHSA-c545-x2rh-82fc",
-      "date": "2026-03-25T21:09:14.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2023-0109: win-crypto contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0109.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[n8n] n8n: LDAP Email-Based Account Linking Allows Privilege Escalation and Account Takeover",
-      "url": "https://github.com/advisories/GHSA-c545-x2rh-82fc",
-      "date": "2026-03-25T21:09:14.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2023-0104: littest contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0104.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[n8n] n8n is Vulnerable to Credential Theft via Name-Based Resolution and Permission Checker Bypass in Community Edition",
-      "url": "https://github.com/advisories/GHSA-m63j-689w-3j35",
-      "date": "2026-03-25T21:08:34.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2023-0105: windowsservice contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0105.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[n8n] n8n is Vulnerable to Credential Theft via Name-Based Resolution and Permission Checker Bypass in Community Edition",
-      "url": "https://github.com/advisories/GHSA-m63j-689w-3j35",
-      "date": "2026-03-25T21:08:34.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2023-0123: hann-rs-service contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0123.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[n8n] n8n is Vulnerable to Credential Theft via Name-Based Resolution and Permission Checker Bypass in Community Edition",
-      "url": "https://github.com/advisories/GHSA-m63j-689w-3j35",
-      "date": "2026-03-25T21:08:34.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2023-0121: libusb1-main contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0121.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[n8n] n8n has Multiple Remote Code Execution Vulnerabilities in Merge Node AlaSQL SQL Mode",
-      "url": "https://github.com/advisories/GHSA-58qr-rcgv-642v",
-      "date": "2026-03-25T21:07:45.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "title": "RUSTSEC-2023-0110: postgresderive contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0110.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[n8n] n8n has Multiple Remote Code Execution Vulnerabilities in Merge Node AlaSQL SQL Mode",
-      "url": "https://github.com/advisories/GHSA-58qr-rcgv-642v",
-      "date": "2026-03-25T21:07:45.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "title": "RUSTSEC-2023-0114: tiny-server contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0114.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[n8n] n8n has Multiple Remote Code Execution Vulnerabilities in Merge Node AlaSQL SQL Mode",
-      "url": "https://github.com/advisories/GHSA-58qr-rcgv-642v",
-      "date": "2026-03-25T21:07:45.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "title": "RUSTSEC-2025-0155: rands contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0155.html",
+      "date": "2026-03-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     }
   ]
 }
