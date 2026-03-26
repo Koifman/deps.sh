@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-26T07:36:49.038Z",
+  "scannedAt": "2026-03-26T08:29:32.524Z",
   "count": 98,
   "packages": [
     {
@@ -120,6 +120,15 @@
       "currentOwner": "ljharb"
     },
     {
+      "name": "enzyme-adapter-react-16",
+      "version": "1.15.8",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "intelligibabble",
+      "currentOwner": "ljharb"
+    },
+    {
       "name": "hasown",
       "version": "2.0.2",
       "ecosystem": "npm",
@@ -228,15 +237,6 @@
       "currentOwner": "hzoo"
     },
     {
-      "name": "js-library-detector",
-      "version": "6.7.0",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "johnmichel",
-      "currentOwner": "housseindjirdeh"
-    },
-    {
       "name": "mark.js",
       "version": "8.11.1",
       "ecosystem": "npm",
@@ -244,6 +244,15 @@
       "level": "MODERATE",
       "previousOwner": "lukasoppermann",
       "currentOwner": "julmot"
+    },
+    {
+      "name": "js-library-detector",
+      "version": "6.7.0",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "johnmichel",
+      "currentOwner": "housseindjirdeh"
     },
     {
       "name": "coffeescript",
@@ -343,15 +352,6 @@
       "level": "MODERATE",
       "previousOwner": "tjanczuk",
       "currentOwner": "lholmquist"
-    },
-    {
-      "name": "broccoli-babel-transpiler",
-      "version": "8.0.2",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "sebmck",
-      "currentOwner": "katiegengler"
     },
     {
       "name": "eslint",
@@ -624,15 +624,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "inversify",
-      "version": "8.1.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "remojansen",
-      "currentOwner": "notaphplover"
-    },
-    {
       "name": "oxfmt",
       "version": "0.42.0",
       "ecosystem": "npm",
@@ -640,6 +631,15 @@
       "level": "MODERATE",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "inversify",
+      "version": "8.1.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "remojansen",
+      "currentOwner": "notaphplover"
     },
     {
       "name": "resedit",
@@ -714,13 +714,13 @@
       "currentOwner": "gingerbenw"
     },
     {
-      "name": "@hey-api/codegen-core",
-      "version": "0.7.4",
+      "name": "@vimeo/player",
+      "version": "2.30.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "mrlubos",
-      "currentOwner": "GitHub Actions"
+      "previousOwner": "bdougherty",
+      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "typescript",
@@ -822,8 +822,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.121.0",
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.42.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -840,8 +840,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.42.0",
+      "name": "oxc-minify",
+      "version": "0.121.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -867,15 +867,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "@oxc-minify/binding-linux-x64-musl",
       "version": "0.121.0",
       "ecosystem": "npm",
@@ -883,6 +874,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     }
   ]
 }
