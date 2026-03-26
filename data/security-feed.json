@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-26T15:36:21.750Z",
+  "fetchedAt": "2026-03-26T16:34:17.111Z",
   "entries": [
+    {
+      "title": "[langflow] Unauthenticated Remote Code Execution in Langflow via Public Flow Build Endpoint",
+      "url": "https://github.com/advisories/GHSA-vwmf-pq79-vjvx",
+      "date": "2026-03-26T15:41:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2023-0116: registry-win contained malicious code",
       "url": "https://rustsec.org/advisories/RUSTSEC-2023-0116.html",
@@ -112,12 +119,6 @@
     {
       "title": "RUSTSEC-2023-0114: tiny-server contained malicious code",
       "url": "https://rustsec.org/advisories/RUSTSEC-2023-0114.html",
-      "date": "2026-03-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2025-0155: rands contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0155.html",
       "date": "2026-03-26T12:00:00+00:00",
       "ecosystem": "cargo"
     }
