@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-03-27T20:16:43.932Z",
+  "fetchedAt": "2026-03-27T21:16:44.196Z",
   "entries": [
+    {
+      "title": "[dompurify] DOMPurify is vulnerable to mutation-XSS via Re-Contextualization",
+      "url": "https://github.com/advisories/GHSA-h8r8-wccr-v5f2",
+      "date": "2026-03-27T20:41:31.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[homeassistant] Home Assistant has stored XSS in history-graphs",
+      "url": "https://github.com/advisories/GHSA-46j8-vpx8-6p72",
+      "date": "2026-03-27T20:35:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[homeassistant] Home Assistant has stored XSS in Map-card through malicious device name",
+      "url": "https://github.com/advisories/GHSA-r584-6283-p7xc",
+      "date": "2026-03-27T20:33:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw has browser trace/download path symlink escape in temp output handling",
+      "url": "https://github.com/advisories/GHSA-ffr4-mrhv-vfr2",
+      "date": "2026-03-27T20:18:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's sandboxed sessions_spawn now enforces sandbox inheritance for cross-agent spawns",
+      "url": "https://github.com/advisories/GHSA-wr92-6w3g-2hwc",
+      "date": "2026-03-27T20:15:23.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[path-to-regexp] path-to-regexp vulnerable to Regular Expression Denial of Service via multiple route parameters",
       "url": "https://github.com/advisories/GHSA-37ch-88jc-xwx2",
@@ -103,41 +138,6 @@
       "title": "[pdf-image] pdf-image has an OS Command Injection Vulnerability through its pdfFilePath parameter",
       "url": "https://github.com/advisories/GHSA-q5mh-72xg-628w",
       "date": "2026-03-27T18:38:05.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[handlebars] Handlebars.js has JavaScript Injection in CLI Precompiler via Unescaped Names and Options",
-      "url": "https://github.com/advisories/GHSA-xjpj-3mr7-gcpf",
-      "date": "2026-03-27T18:22:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[handlebars] Handlebars.js has JavaScript Injection via AST Type Confusion when passing an object as dynamic partial",
-      "url": "https://github.com/advisories/GHSA-xhpv-hc6g-r9c6",
-      "date": "2026-03-27T18:21:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[handlebars] Handlebars.js has Denial of Service via Malformed Decorator Syntax in Template Compilation",
-      "url": "https://github.com/advisories/GHSA-9cx6-37pm-9jff",
-      "date": "2026-03-27T18:21:16.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[handlebars] Handlebars.js has JavaScript Injection via AST Type Confusion by tampering @partial-block",
-      "url": "https://github.com/advisories/GHSA-3mfm-83xf-c92r",
-      "date": "2026-03-27T18:20:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[handlebars] Handlebars.js has JavaScript Injection via AST Type Confusion",
-      "url": "https://github.com/advisories/GHSA-2w6w-674q-4c4q",
-      "date": "2026-03-27T18:19:59.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     }
