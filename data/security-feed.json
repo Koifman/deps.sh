@@ -1,6 +1,104 @@
 {
-  "fetchedAt": "2026-03-27T17:23:30.245Z",
+  "fetchedAt": "2026-03-27T18:27:13.991Z",
   "entries": [
+    {
+      "title": "[n8n] n8n has XSS in its Credential Management Flow",
+      "url": "https://github.com/advisories/GHSA-364x-8g5j-x2pr",
+      "date": "2026-03-27T18:08:16.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has XSS in its Credential Management Flow",
+      "url": "https://github.com/advisories/GHSA-364x-8g5j-x2pr",
+      "date": "2026-03-27T18:08:16.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has XSS in Chat Trigger Node through Custom CSS",
+      "url": "https://github.com/advisories/GHSA-3c7f-5hgj-h279",
+      "date": "2026-03-27T18:06:50.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has XSS in Chat Trigger Node through Custom CSS",
+      "url": "https://github.com/advisories/GHSA-3c7f-5hgj-h279",
+      "date": "2026-03-27T18:06:50.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has XSS in Chat Trigger Node through Custom CSS",
+      "url": "https://github.com/advisories/GHSA-3c7f-5hgj-h279",
+      "date": "2026-03-27T18:06:50.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Authenticated XSS and Open Redirect via Form Node",
+      "url": "https://github.com/advisories/GHSA-w673-8fjw-457c",
+      "date": "2026-03-27T18:06:29.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Authenticated XSS and Open Redirect via Form Node",
+      "url": "https://github.com/advisories/GHSA-w673-8fjw-457c",
+      "date": "2026-03-27T18:06:29.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Authenticated XSS and Open Redirect via Form Node",
+      "url": "https://github.com/advisories/GHSA-w673-8fjw-457c",
+      "date": "2026-03-27T18:06:29.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has a Stored XSS Vulnerability in its Form Trigger",
+      "url": "https://github.com/advisories/GHSA-q4fm-pjq6-m63g",
+      "date": "2026-03-27T18:05:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has a Stored XSS Vulnerability in its Form Trigger",
+      "url": "https://github.com/advisories/GHSA-q4fm-pjq6-m63g",
+      "date": "2026-03-27T18:05:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyload-ng] pyLoad: Server-Side Request Forgery via Download Link Submission Enables Cloud Metadata Exfiltration",
+      "url": "https://github.com/advisories/GHSA-m74m-f7cr-432x",
+      "date": "2026-03-27T18:00:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[locutus] Locutus Prototype Pollution due to incomplete fix for CVE-2026-25521",
+      "url": "https://github.com/advisories/GHSA-vc8f-x9pp-wf5p",
+      "date": "2026-03-27T17:58:49.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[locutus] Locutus has Prototype Pollution via __proto__ Key Injection in unserialize()",
+      "url": "https://github.com/advisories/GHSA-4mph-v827-f877",
+      "date": "2026-03-27T17:57:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[express-xss-sanitizer] Express XSS Sanitizer: allowedTags/allowedAttributes bypass leads to permissive sanitization (XSS risk)",
+      "url": "https://github.com/advisories/GHSA-3843-rr4g-m8jq",
+      "date": "2026-03-27T17:56:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[ecdsa] python-ecdsa: Denial of Service via improper DER length validation in crafted private keys",
       "url": "https://github.com/advisories/GHSA-9f5j-8jwj-x28g",
@@ -42,99 +140,6 @@
       "date": "2026-03-27T15:34:28.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI vulnerable to Path Traversal in `POST /api/v1/audio/transcriptions`",
-      "url": "https://github.com/advisories/GHSA-vvxm-vxmr-624h",
-      "date": "2026-03-27T15:29:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vllm] vLLM has Hardcoded Trust Override in Model Files Enables RCE Despite Explicit User Opt-Out",
-      "url": "https://github.com/advisories/GHSA-7972-pg2x-xr59",
-      "date": "2026-03-27T15:27:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[brace-expansion] brace-expansion: Zero-step sequence causes process hang and memory exhaustion",
-      "url": "https://github.com/advisories/GHSA-f886-m6hf-6m8v",
-      "date": "2026-03-27T13:44:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[brace-expansion] brace-expansion: Zero-step sequence causes process hang and memory exhaustion",
-      "url": "https://github.com/advisories/GHSA-f886-m6hf-6m8v",
-      "date": "2026-03-27T13:44:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[brace-expansion] brace-expansion: Zero-step sequence causes process hang and memory exhaustion",
-      "url": "https://github.com/advisories/GHSA-f886-m6hf-6m8v",
-      "date": "2026-03-27T13:44:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[brace-expansion] brace-expansion: Zero-step sequence causes process hang and memory exhaustion",
-      "url": "https://github.com/advisories/GHSA-f886-m6hf-6m8v",
-      "date": "2026-03-27T13:44:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0074: Vulnerability in libcrux-sha3",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0074.html",
-      "date": "2026-03-27T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0073: Vulnerability in libcrux-poly1305",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0073.html",
-      "date": "2026-03-27T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0076: Vulnerability in libcrux-ml-dsa",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0076.html",
-      "date": "2026-03-27T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0077: Vulnerability in libcrux-ml-dsa",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0077.html",
-      "date": "2026-03-27T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0075: Vulnerability in libcrux-ed25519",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0075.html",
-      "date": "2026-03-27T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[litellm] Two LiteLLM versions published containing credential harvesting malware",
-      "url": "https://github.com/advisories/GHSA-5mg7-485q-xm76",
-      "date": "2026-03-27T00:32:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[c2cciutils] C2C CI utils is vulnerable to DoS via pyasn dependency (CVE-2026-30922)",
-      "url": "https://github.com/advisories/GHSA-wcjx-v2wj-xg87",
-      "date": "2026-03-26T22:27:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nodemailer] Nodemailer has SMTP command injection due to unsanitized `envelope.size` parameter",
-      "url": "https://github.com/advisories/GHSA-c7w3-x93f-qmm8",
-      "date": "2026-03-26T22:26:46.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
