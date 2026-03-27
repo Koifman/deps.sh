@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-27T00:51:03.997Z",
+  "fetchedAt": "2026-03-27T01:42:28.641Z",
   "entries": [
+    {
+      "title": "[litellm] Two LiteLLM versions published containing credential harvesting malware",
+      "url": "https://github.com/advisories/GHSA-5mg7-485q-xm76",
+      "date": "2026-03-27T00:32:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[c2cciutils] C2C CI utils is vulnerable to DoS via pyasn dependency (CVE-2026-30922)",
       "url": "https://github.com/advisories/GHSA-wcjx-v2wj-xg87",
@@ -133,13 +140,6 @@
       "date": "2026-03-26T21:34:18.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Tlon settings empty-allowlist reconciliation bypassed intended revocation",
-      "url": "https://github.com/advisories/GHSA-pw7h-9g6p-c378",
-      "date": "2026-03-26T21:30:55.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
