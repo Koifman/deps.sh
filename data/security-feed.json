@@ -1,6 +1,83 @@
 {
-  "fetchedAt": "2026-03-27T19:21:21.885Z",
+  "fetchedAt": "2026-03-27T20:16:43.932Z",
   "entries": [
+    {
+      "title": "[path-to-regexp] path-to-regexp vulnerable to Regular Expression Denial of Service via multiple route parameters",
+      "url": "https://github.com/advisories/GHSA-37ch-88jc-xwx2",
+      "date": "2026-03-27T20:04:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@clerk/fastify] Clerk: SSRF in the opt-in clerkFrontendApiProxy feature may leak secret keys to unintended host",
+      "url": "https://github.com/advisories/GHSA-gjxx-92w9-8v8f",
+      "date": "2026-03-27T19:58:23.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@clerk/hono] Clerk: SSRF in the opt-in clerkFrontendApiProxy feature may leak secret keys to unintended host",
+      "url": "https://github.com/advisories/GHSA-gjxx-92w9-8v8f",
+      "date": "2026-03-27T19:58:23.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@clerk/express] Clerk: SSRF in the opt-in clerkFrontendApiProxy feature may leak secret keys to unintended host",
+      "url": "https://github.com/advisories/GHSA-gjxx-92w9-8v8f",
+      "date": "2026-03-27T19:58:23.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@clerk/backend] Clerk: SSRF in the opt-in clerkFrontendApiProxy feature may leak secret keys to unintended host",
+      "url": "https://github.com/advisories/GHSA-gjxx-92w9-8v8f",
+      "date": "2026-03-27T19:58:23.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[cryptography] cryptography has incomplete DNS name constraint enforcement on peer names",
+      "url": "https://github.com/advisories/GHSA-m959-cc7f-wv43",
+      "date": "2026-03-27T19:56:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[signify] Signify allows a remote attacker to escalate privileges via the signed_data.py and the context.py components",
+      "url": "https://github.com/advisories/GHSA-p4hh-mq57-gq8x",
+      "date": "2026-03-27T19:50:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langchain-core] LangChain Core has Path Traversal vulnerabilites in legacy `load_prompt` functions",
+      "url": "https://github.com/advisories/GHSA-qh6h-p6c9-ff54",
+      "date": "2026-03-27T19:45:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[node-tesseract-ocr] node-tesseract-ocr is vulnerable to OS Command Injection through unsanitized recognize() function parameter",
+      "url": "https://github.com/advisories/GHSA-8j44-735h-w4w2",
+      "date": "2026-03-27T19:38:39.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[langflow-base] Langflow: Authenticated Users Can Read, Modify, and Delete Any Flow via Missing Ownership Check",
+      "url": "https://github.com/advisories/GHSA-8c4j-f57c-35cf",
+      "date": "2026-03-27T19:36:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langflow] Langflow: Authenticated Users Can Read, Modify, and Delete Any Flow via Missing Ownership Check",
+      "url": "https://github.com/advisories/GHSA-8c4j-f57c-35cf",
+      "date": "2026-03-27T19:36:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[@mobilenext/mobile-mcp] @mobilenext/mobile-mcp alllows arbitrary file write via Path Traversal in mobile screen capture tools",
       "url": "https://github.com/advisories/GHSA-3p2m-h2v6-g9mx",
@@ -63,83 +140,6 @@
       "date": "2026-03-27T18:19:59.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[serialize-javascript] Serialize JavaScript has CPU Exhaustion Denial of Service via crafted array-like objects",
-      "url": "https://github.com/advisories/GHSA-qj8w-gfj5-8c6v",
-      "date": "2026-03-27T18:18:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has XSS in its Credential Management Flow",
-      "url": "https://github.com/advisories/GHSA-364x-8g5j-x2pr",
-      "date": "2026-03-27T18:08:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has XSS in its Credential Management Flow",
-      "url": "https://github.com/advisories/GHSA-364x-8g5j-x2pr",
-      "date": "2026-03-27T18:08:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has XSS in Chat Trigger Node through Custom CSS",
-      "url": "https://github.com/advisories/GHSA-3c7f-5hgj-h279",
-      "date": "2026-03-27T18:06:50.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has XSS in Chat Trigger Node through Custom CSS",
-      "url": "https://github.com/advisories/GHSA-3c7f-5hgj-h279",
-      "date": "2026-03-27T18:06:50.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has XSS in Chat Trigger Node through Custom CSS",
-      "url": "https://github.com/advisories/GHSA-3c7f-5hgj-h279",
-      "date": "2026-03-27T18:06:50.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Authenticated XSS and Open Redirect via Form Node",
-      "url": "https://github.com/advisories/GHSA-w673-8fjw-457c",
-      "date": "2026-03-27T18:06:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Authenticated XSS and Open Redirect via Form Node",
-      "url": "https://github.com/advisories/GHSA-w673-8fjw-457c",
-      "date": "2026-03-27T18:06:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Authenticated XSS and Open Redirect via Form Node",
-      "url": "https://github.com/advisories/GHSA-w673-8fjw-457c",
-      "date": "2026-03-27T18:06:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has a Stored XSS Vulnerability in its Form Trigger",
-      "url": "https://github.com/advisories/GHSA-q4fm-pjq6-m63g",
-      "date": "2026-03-27T18:05:48.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has a Stored XSS Vulnerability in its Form Trigger",
-      "url": "https://github.com/advisories/GHSA-q4fm-pjq6-m63g",
-      "date": "2026-03-27T18:05:48.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
