@@ -1,6 +1,90 @@
 {
-  "fetchedAt": "2026-03-27T22:13:21.752Z",
+  "fetchedAt": "2026-03-27T23:15:33.908Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw: Telegram Webhook Missing Guess Rate Limiting Enables Brute-Force Guessing of Weak Webhook Secret",
+      "url": "https://github.com/advisories/GHSA-vcx4-4qxg-mfp4",
+      "date": "2026-03-27T22:37:36.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: BlueBubbles Group Reactions Bypass requireMention and Still Enqueue Agent-Visible System Events",
+      "url": "https://github.com/advisories/GHSA-mw7w-g3mg-xqm7",
+      "date": "2026-03-27T22:32:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Matrix Verification Notices Bypass Matrix DM Policy and Reply to Unpaired DM Peers",
+      "url": "https://github.com/advisories/GHSA-9wqx-g2cw-vc7r",
+      "date": "2026-03-27T22:31:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: BlueBubbles Webhook Missing Rate Limiting Enables Brute-Force Password Guessing",
+      "url": "https://github.com/advisories/GHSA-xq8g-hgh6-87hv",
+      "date": "2026-03-27T22:31:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Gateway Plugin HTTP Auth Grants Unrestricted operator.admin Runtime Scope to All Callers",
+      "url": "https://github.com/advisories/GHSA-qm2m-28pf-hgjw",
+      "date": "2026-03-27T22:31:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Silent privilege escalation via gateway shared-auth reconnect",
+      "url": "https://github.com/advisories/GHSA-fqw4-mph7-2vr8",
+      "date": "2026-03-27T22:29:50.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Gateway Backend Reconnect lets Non-Admin Operator Scopes Self-Claim operator.admin",
+      "url": "https://github.com/advisories/GHSA-9hjh-fr4f-gxc4",
+      "date": "2026-03-27T22:29:15.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Gateway HTTP /sessions/:sessionKey/kill Reaches Admin Kill Path Without Caller Scope Binding",
+      "url": "https://github.com/advisories/GHSA-9p93-7j67-5pc2",
+      "date": "2026-03-27T22:28:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[path-to-regexp] path-to-regexp vulnerable to Regular Expression Denial of Service via multiple wildcards",
+      "url": "https://github.com/advisories/GHSA-27v5-c462-wpq7",
+      "date": "2026-03-27T22:23:55.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[path-to-regexp] path-to-regexp vulnerable to Denial of Service via sequential optional groups",
+      "url": "https://github.com/advisories/GHSA-j3q9-mxjg-w52f",
+      "date": "2026-03-27T22:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[giskard-agents] Giskard Agents have Server-side template injection via ChatWorkflow.chat() using non-sandboxed Jinja2 Environment",
+      "url": "https://github.com/advisories/GHSA-frv4-x25r-588m",
+      "date": "2026-03-27T22:17:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[giskard-agents] Giskard Agents have Server-side template injection via ChatWorkflow.chat() using non-sandboxed Jinja2 Environment",
+      "url": "https://github.com/advisories/GHSA-frv4-x25r-588m",
+      "date": "2026-03-27T22:17:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[langflow-base] Langflow: Authenticated Users Can Read, Modify, and Delete Any Flow via Missing Ownership Check",
       "url": "https://github.com/advisories/GHSA-8c4j-f57c-35cf",
@@ -14,20 +98,6 @@
       "date": "2026-03-27T21:52:40.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[handlebars] Handlebars.js has JavaScript Injection via AST Type Confusion by tampering @partial-block",
-      "url": "https://github.com/advisories/GHSA-3mfm-83xf-c92r",
-      "date": "2026-03-27T21:52:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[handlebars] Handlebars.js has JavaScript Injection via AST Type Confusion",
-      "url": "https://github.com/advisories/GHSA-2w6w-674q-4c4q",
-      "date": "2026-03-27T21:52:19.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     },
     {
       "title": "[langflow] Langflow has Authenticated Code Execution in Agentic Assistant Validation",
@@ -51,13 +121,6 @@
       "severity": "LOW"
     },
     {
-      "title": "[bentoml] BentoML has Dockerfile Command Injection via system_packages in bentofile.yaml",
-      "url": "https://github.com/advisories/GHSA-jfjg-vc52-wqvf",
-      "date": "2026-03-27T21:37:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
       "title": "[dompurify] DOMPurify is vulnerable to mutation-XSS via Re-Contextualization",
       "url": "https://github.com/advisories/GHSA-h8r8-wccr-v5f2",
       "date": "2026-03-27T20:41:31.000Z",
@@ -77,69 +140,6 @@
       "date": "2026-03-27T20:15:23.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[path-to-regexp] path-to-regexp vulnerable to Regular Expression Denial of Service via multiple route parameters",
-      "url": "https://github.com/advisories/GHSA-37ch-88jc-xwx2",
-      "date": "2026-03-27T20:04:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/fastify] Clerk: SSRF in the opt-in clerkFrontendApiProxy feature may leak secret keys to unintended host",
-      "url": "https://github.com/advisories/GHSA-gjxx-92w9-8v8f",
-      "date": "2026-03-27T19:58:23.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/hono] Clerk: SSRF in the opt-in clerkFrontendApiProxy feature may leak secret keys to unintended host",
-      "url": "https://github.com/advisories/GHSA-gjxx-92w9-8v8f",
-      "date": "2026-03-27T19:58:23.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/express] Clerk: SSRF in the opt-in clerkFrontendApiProxy feature may leak secret keys to unintended host",
-      "url": "https://github.com/advisories/GHSA-gjxx-92w9-8v8f",
-      "date": "2026-03-27T19:58:23.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/backend] Clerk: SSRF in the opt-in clerkFrontendApiProxy feature may leak secret keys to unintended host",
-      "url": "https://github.com/advisories/GHSA-gjxx-92w9-8v8f",
-      "date": "2026-03-27T19:58:23.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[cryptography] cryptography has incomplete DNS name constraint enforcement on peer names",
-      "url": "https://github.com/advisories/GHSA-m959-cc7f-wv43",
-      "date": "2026-03-27T19:56:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[signify] Signify allows a remote attacker to escalate privileges via the signed_data.py and the context.py components",
-      "url": "https://github.com/advisories/GHSA-p4hh-mq57-gq8x",
-      "date": "2026-03-27T19:50:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langchain-core] LangChain Core has Path Traversal vulnerabilites in legacy `load_prompt` functions",
-      "url": "https://github.com/advisories/GHSA-qh6h-p6c9-ff54",
-      "date": "2026-03-27T19:45:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[node-tesseract-ocr] node-tesseract-ocr is vulnerable to OS Command Injection through unsanitized recognize() function parameter",
-      "url": "https://github.com/advisories/GHSA-8j44-735h-w4w2",
-      "date": "2026-03-27T19:38:39.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
