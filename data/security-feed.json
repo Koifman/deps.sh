@@ -1,6 +1,36 @@
 {
-  "fetchedAt": "2026-03-27T05:38:52.726Z",
+  "fetchedAt": "2026-03-27T06:36:42.371Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0074: Vulnerability in libcrux-sha3",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0074.html",
+      "date": "2026-03-27T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0073: Vulnerability in libcrux-poly1305",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0073.html",
+      "date": "2026-03-27T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0076: Vulnerability in libcrux-ml-dsa",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0076.html",
+      "date": "2026-03-27T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0077: Vulnerability in libcrux-ml-dsa",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0077.html",
+      "date": "2026-03-27T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0075: Vulnerability in libcrux-ed25519",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0075.html",
+      "date": "2026-03-27T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[litellm] Two LiteLLM versions published containing credential harvesting malware",
       "url": "https://github.com/advisories/GHSA-5mg7-485q-xm76",
@@ -103,41 +133,6 @@
       "title": "[openclaw] OpenClaw Bypasses DM Policy Separation via Synology Chat Webhook Path Collision",
       "url": "https://github.com/advisories/GHSA-rqp8-q22p-5j9q",
       "date": "2026-03-26T21:45:36.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw leaf subagents can bypass controlScope restrictions to send messages to child sessions",
-      "url": "https://github.com/advisories/GHSA-x2cm-hg9c-mf5w",
-      "date": "2026-03-26T21:44:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Forwarding header spoofing bypasses gateway.trustedProxies origin detection",
-      "url": "https://github.com/advisories/GHSA-844j-xrrq-wgh4",
-      "date": "2026-03-26T21:42:31.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw Gateway: RCE and Privilege Escalation from operator.pairing to operator.admin via device.pair.approve",
-      "url": "https://github.com/advisories/GHSA-hf68-49fm-59cq",
-      "date": "2026-03-26T21:41:00.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Google Chat app-url webhook auth accepted non-deployment add-on principals",
-      "url": "https://github.com/advisories/GHSA-mp66-rf4f-mhh8",
-      "date": "2026-03-26T21:37:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Nextcloud Talk room allowlist matched colliding room names instead of stable room tokens",
-      "url": "https://github.com/advisories/GHSA-xhq5-45pm-2gjr",
-      "date": "2026-03-26T21:34:18.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
