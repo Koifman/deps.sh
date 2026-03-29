@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-29T03:16:37.363Z",
+  "scannedAt": "2026-03-29T04:59:15.310Z",
   "count": 99,
   "packages": [
     {
@@ -210,15 +210,6 @@
       "currentOwner": "stefanpenner"
     },
     {
-      "name": "heimdalljs-logger",
-      "version": "0.1.10",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "hjdivad",
-      "currentOwner": "stefanpenner"
-    },
-    {
       "name": "is-plain-object",
       "version": "5.0.0",
       "ecosystem": "npm",
@@ -262,6 +253,15 @@
       "level": "MODERATE",
       "previousOwner": "isaacs",
       "currentOwner": "geoffreybooth"
+    },
+    {
+      "name": "broccoli-babel-transpiler",
+      "version": "8.0.2",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "sebmck",
+      "currentOwner": "katiegengler"
     },
     {
       "name": "@appium/support",
@@ -660,15 +660,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.1.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "redux-saga",
       "version": "1.4.2",
       "ecosystem": "npm",
@@ -676,6 +667,15 @@
       "level": "MODERATE",
       "previousOwner": "yelouafi",
       "currentOwner": "redux-saga-release-bot"
+    },
+    {
+      "name": "@appium/schema",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@appium/logger",
@@ -768,7 +768,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "name": "@oxc-parser/binding-linux-x64-musl",
       "version": "0.121.0",
       "ecosystem": "npm",
       "score": 20,
@@ -777,7 +777,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-x64-musl",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
       "version": "0.121.0",
       "ecosystem": "npm",
       "score": 20,
@@ -876,15 +876,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "@oxc-minify/binding-linux-x64-musl",
       "version": "0.121.0",
       "ecosystem": "npm",
@@ -892,6 +883,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     }
   ]
 }
