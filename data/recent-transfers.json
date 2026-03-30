@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-30T19:31:45.332Z",
-  "count": 97,
+  "scannedAt": "2026-03-30T20:23:37.751Z",
+  "count": 98,
   "packages": [
     {
       "name": "xmldom",
@@ -185,6 +185,15 @@
     {
       "name": "heimdalljs-logger",
       "version": "0.1.10",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "hjdivad",
+      "currentOwner": "stefanpenner"
+    },
+    {
+      "name": "heimdalljs",
+      "version": "0.2.6",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -516,7 +525,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/storage-js",
+      "name": "@supabase/realtime-js",
       "version": "2.101.0",
       "ecosystem": "npm",
       "score": 22,
@@ -525,7 +534,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/realtime-js",
+      "name": "@supabase/storage-js",
       "version": "2.101.0",
       "ecosystem": "npm",
       "score": 22,
@@ -615,21 +624,21 @@
       "currentOwner": "notaphplover"
     },
     {
-      "name": "resedit",
-      "version": "3.0.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jet2jet",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/types",
       "version": "1.2.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "resedit",
+      "version": "3.0.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jet2jet",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -849,15 +858,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "@oxfmt/binding-linux-x64-musl",
       "version": "0.42.0",
       "ecosystem": "npm",
@@ -865,6 +865,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     },
     {
       "name": "@oxc-minify/binding-linux-x64-musl",
