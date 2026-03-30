@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-03-30T13:39:21.739Z",
+  "fetchedAt": "2026-03-30T14:40:23.666Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw: BlueBubbles beta plugin webhook auth hardening (remove passwordless fallback)",
+      "url": "https://github.com/advisories/GHSA-5mx2-2mgw-x8rm",
+      "date": "2026-03-30T13:45:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw is vulnerable to Path Traversal through path validation bypass",
+      "url": "https://github.com/advisories/GHSA-hggm-x7r9-mm7v",
+      "date": "2026-03-30T13:29:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[authlib] Authlib has 1-click Account Takeover vulnerability",
       "url": "https://github.com/advisories/GHSA-fg6f-75jq-6523",
@@ -126,20 +140,6 @@
       "date": "2026-03-29T15:44:05.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[opencc] OpenCC  has an Out-of-bounds read when processing truncated UTF-8 input",
-      "url": "https://github.com/advisories/GHSA-7fqq-q52p-2jjg",
-      "date": "2026-03-29T15:27:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[OpenCC] OpenCC  has an Out-of-bounds read when processing truncated UTF-8 input",
-      "url": "https://github.com/advisories/GHSA-7fqq-q52p-2jjg",
-      "date": "2026-03-29T15:27:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
