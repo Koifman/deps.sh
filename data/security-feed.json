@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-03-30T18:28:48.885Z",
+  "fetchedAt": "2026-03-30T19:28:58.186Z",
   "entries": [
+    {
+      "title": "[telnyx] Telnyx has malicious code in PyPI versions 4.87.1 and 4.87.2",
+      "url": "https://github.com/advisories/GHSA-955r-262c-33jc",
+      "date": "2026-03-30T19:15:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Non-owner command-authorized sender can change the owner-only `/send` session delivery policy",
+      "url": "https://github.com/advisories/GHSA-39mp-545q-w789",
+      "date": "2026-03-30T19:06:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: `browser.request` still allows `POST /reset-profile` through the `operator.write` surface",
+      "url": "https://github.com/advisories/GHSA-xp9r-prpg-373r",
+      "date": "2026-03-30T19:05:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Mutating internal `/allowlist` chat commands missed `operator.admin` scope enforcement",
+      "url": "https://github.com/advisories/GHSA-vqvg-86cc-cg83",
+      "date": "2026-03-30T18:59:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Gateway operator.write Can Reach Admin-Class Channel Allowlist Persistence via chat.send",
+      "url": "https://github.com/advisories/GHSA-94pw-c6m8-p9p9",
+      "date": "2026-03-30T18:52:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw has an Arbitrary Malicious Code Execution Vulnerability",
+      "url": "https://github.com/advisories/GHSA-m3mh-3mpg-37hw",
+      "date": "2026-03-30T18:52:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw has a Gateway HTTP /v1/models Route Bypasses Operator Read Scope",
+      "url": "https://github.com/advisories/GHSA-68f8-9mhj-h2mp",
+      "date": "2026-03-30T18:41:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw has incomplete Fix for CVE-2026-32011: Feishu Webhook Pre-Auth Body Parsing DoS (Slow-Body / Slowloris Variant)",
+      "url": "https://github.com/advisories/GHSA-w6m8-cqvj-pg5v",
+      "date": "2026-03-30T18:32:04.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw has Sandbox Media Root Bypass via Unnormalized `mediaUrl` / `fileUrl` Parameter Keys (CWE-22)",
+      "url": "https://github.com/advisories/GHSA-hr5v-j9h9-xjhg",
+      "date": "2026-03-30T18:31:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw has incomplete Fix for CVE-2026-27486: Unvalidated SIGKILL in `!stop` Chat Command via `shell-utils.ts`",
+      "url": "https://github.com/advisories/GHSA-3298-56p6-rpw2",
+      "date": "2026-03-30T18:30:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[parse-server] GraphQL API endpoint ignores CORS origin restriction",
       "url": "https://github.com/advisories/GHSA-q3p6-g7c4-829c",
@@ -70,76 +140,6 @@
       "date": "2026-03-30T14:40:30.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: BlueBubbles beta plugin webhook auth hardening (remove passwordless fallback)",
-      "url": "https://github.com/advisories/GHSA-5mx2-2mgw-x8rm",
-      "date": "2026-03-30T13:45:44.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw is vulnerable to Path Traversal through path validation bypass",
-      "url": "https://github.com/advisories/GHSA-hggm-x7r9-mm7v",
-      "date": "2026-03-30T13:29:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[authlib] Authlib has 1-click Account Takeover vulnerability",
-      "url": "https://github.com/advisories/GHSA-fg6f-75jq-6523",
-      "date": "2026-03-30T12:20:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jsrsasign] jsrsasign: Missing cryptographic validation during DSA signing enables private key extraction",
-      "url": "https://github.com/advisories/GHSA-w8q8-93cx-6h7r",
-      "date": "2026-03-29T15:52:00.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jsrsasign] jsrsasign is vulnerable to DoS through Infinite Loop when processing zero or negative inputs",
-      "url": "https://github.com/advisories/GHSA-8g7p-jf3g-gxcp",
-      "date": "2026-03-29T15:51:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw has ACP CLI approval prompt ANSI escape sequence injection",
-      "url": "https://github.com/advisories/GHSA-4hmj-39m8-jwc7",
-      "date": "2026-03-29T15:50:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Telegram DM-Scoped Inline Button Callbacks Bypass DM Pairing and Mutate Session State",
-      "url": "https://github.com/advisories/GHSA-j4c9-w69r-cw33",
-      "date": "2026-03-29T15:50:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Synology Chat Webhook Pre-Auth Rate-Limit Bypass Enables Brute-Force Guessing of Webhook Token",
-      "url": "https://github.com/advisories/GHSA-mf5g-6r6f-ghhm",
-      "date": "2026-03-29T15:50:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: MS Teams Feedback Invocation Bypasses Sender Allowlists and Records Unauthorized Session Feedback",
-      "url": "https://github.com/advisories/GHSA-rf6h-5gpw-qrgq",
-      "date": "2026-03-29T15:49:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Gateway Plugin Subagent Fallback `deleteSession` Uses Synthetic `operator.admin`",
-      "url": "https://github.com/advisories/GHSA-h4jx-hjr3-fhgc",
-      "date": "2026-03-29T15:49:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
