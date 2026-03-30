@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-30T12:30:59.719Z",
+  "fetchedAt": "2026-03-30T13:39:21.739Z",
   "entries": [
+    {
+      "title": "[authlib] Authlib has 1-click Account Takeover vulnerability",
+      "url": "https://github.com/advisories/GHSA-fg6f-75jq-6523",
+      "date": "2026-03-30T12:20:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[jsrsasign] jsrsasign: Missing cryptographic validation during DSA signing enables private key extraction",
       "url": "https://github.com/advisories/GHSA-w8q8-93cx-6h7r",
@@ -121,13 +128,6 @@
       "severity": "CRITICAL"
     },
     {
-      "title": "[OpenCC] OpenCC  has an Out-of-bounds read when processing truncated UTF-8 input",
-      "url": "https://github.com/advisories/GHSA-7fqq-q52p-2jjg",
-      "date": "2026-03-29T15:27:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
       "title": "[opencc] OpenCC  has an Out-of-bounds read when processing truncated UTF-8 input",
       "url": "https://github.com/advisories/GHSA-7fqq-q52p-2jjg",
       "date": "2026-03-29T15:27:43.000Z",
@@ -135,11 +135,11 @@
       "severity": "MODERATE"
     },
     {
-      "title": "[happy-dom] Happy DOM's fetch credentials include uses page-origin cookies instead of target-origin cookies",
-      "url": "https://github.com/advisories/GHSA-w4gp-fjgq-3q4g",
-      "date": "2026-03-29T15:23:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[OpenCC] OpenCC  has an Out-of-bounds read when processing truncated UTF-8 input",
+      "url": "https://github.com/advisories/GHSA-7fqq-q52p-2jjg",
+      "date": "2026-03-29T15:27:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     }
   ]
 }
