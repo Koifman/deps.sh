@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-03-30T17:24:56.961Z",
+  "fetchedAt": "2026-03-30T18:28:48.885Z",
   "entries": [
+    {
+      "title": "[parse-server] GraphQL API endpoint ignores CORS origin restriction",
+      "url": "https://github.com/advisories/GHSA-q3p6-g7c4-829c",
+      "date": "2026-03-30T18:05:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] GraphQL API endpoint ignores CORS origin restriction",
+      "url": "https://github.com/advisories/GHSA-q3p6-g7c4-829c",
+      "date": "2026-03-30T18:05:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] LiveQuery protected field leak via shared mutable state across concurrent subscribers",
+      "url": "https://github.com/advisories/GHSA-m983-v2ff-wq65",
+      "date": "2026-03-30T17:41:00.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] LiveQuery protected field leak via shared mutable state across concurrent subscribers",
+      "url": "https://github.com/advisories/GHSA-m983-v2ff-wq65",
+      "date": "2026-03-30T17:41:00.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[slippers] Slippers Vulnerable to Cross-Site Scripting (XSS) in `attrs` Template Tag",
+      "url": "https://github.com/advisories/GHSA-w7rv-gfp4-j9j3",
+      "date": "2026-03-30T17:20:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@nocobase/plugin-workflow-javascript] NocoBase Affected by Sandbox Escape to RCE via console._stdout Prototype Chain Traversal in Workflow Script Node",
+      "url": "https://github.com/advisories/GHSA-px3p-vgh9-m57c",
+      "date": "2026-03-30T17:16:25.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[@tinacms/graphql] @tinacms/graphql has Path Traversal that leads to overwrite of arbitrary files",
       "url": "https://github.com/advisories/GHSA-v9p7-gf3q-h779",
@@ -98,48 +140,6 @@
       "date": "2026-03-29T15:49:35.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Feishu Raw Card Send Surface Can Mint Legacy Card Callbacks That Bypass DM Pairing",
-      "url": "https://github.com/advisories/GHSA-77w2-crqv-cmv3",
-      "date": "2026-03-29T15:49:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Feishu webhook reads and parses unauthenticated request bodies before signature validation",
-      "url": "https://github.com/advisories/GHSA-3h52-cx59-c456",
-      "date": "2026-03-29T15:49:00.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: SSRF via Unguarded Configured Base URLs in Multiple Channel Extensions (Incomplete Fix for CVE-2026-28476)",
-      "url": "https://github.com/advisories/GHSA-rhfg-j8jq-7v2h",
-      "date": "2026-03-29T15:48:43.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Google Chat Authz Bypass via Group Policy Rebinding with Mutable Space displayName",
-      "url": "https://github.com/advisories/GHSA-52q4-3xjc-6778",
-      "date": "2026-03-29T15:48:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: `session_status` sessionId resolution bypasses sandboxed session-tree visibility",
-      "url": "https://github.com/advisories/GHSA-q2qc-744p-66r2",
-      "date": "2026-03-29T15:47:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Gateway HTTP Session History Route Bypasses Operator Read Scope",
-      "url": "https://github.com/advisories/GHSA-5jvj-hxmh-6h6j",
-      "date": "2026-03-29T15:46:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
