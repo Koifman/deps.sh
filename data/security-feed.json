@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-30T11:28:22.954Z",
+  "fetchedAt": "2026-03-30T12:30:59.719Z",
   "entries": [
     {
       "title": "[jsrsasign] jsrsasign: Missing cryptographic validation during DSA signing enables private key extraction",
@@ -121,17 +121,17 @@
       "severity": "CRITICAL"
     },
     {
-      "title": "[opencc] OpenCC  has an Out-of-bounds read when processing truncated UTF-8 input",
-      "url": "https://github.com/advisories/GHSA-7fqq-q52p-2jjg",
-      "date": "2026-03-29T15:27:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
       "title": "[OpenCC] OpenCC  has an Out-of-bounds read when processing truncated UTF-8 input",
       "url": "https://github.com/advisories/GHSA-7fqq-q52p-2jjg",
       "date": "2026-03-29T15:27:43.000Z",
       "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[opencc] OpenCC  has an Out-of-bounds read when processing truncated UTF-8 input",
+      "url": "https://github.com/advisories/GHSA-7fqq-q52p-2jjg",
+      "date": "2026-03-29T15:27:43.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
