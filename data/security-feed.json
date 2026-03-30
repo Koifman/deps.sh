@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-03-30T20:20:23.078Z",
+  "fetchedAt": "2026-03-30T21:21:02.127Z",
   "entries": [
+    {
+      "title": "[changedetection.io] Changedetection.io Discloses Environment Variables via jq env Builtin in Include Filters",
+      "url": "https://github.com/advisories/GHSA-58r7-4wr5-hfx8",
+      "date": "2026-03-30T20:17:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[adx-mcp-server] Azure Data Explorer MCP Server: KQL Injection in multiple tools allows MCP client to execute arbitrary Kusto queries",
+      "url": "https://github.com/advisories/GHSA-vphc-468g-8rfp",
+      "date": "2026-03-30T20:17:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ecdsa] python-ecdsa: Denial of Service via improper DER length validation in crafted private keys",
+      "url": "https://github.com/advisories/GHSA-9f5j-8jwj-x28g",
+      "date": "2026-03-30T20:17:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyload-ng] pyLoad: Server-Side Request Forgery via Download Link Submission Enables Cloud Metadata Exfiltration",
+      "url": "https://github.com/advisories/GHSA-m74m-f7cr-432x",
+      "date": "2026-03-30T20:15:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[jsrsasign] jsrsasign: Division by Zero Allows Invalid JWK Modulus to Cause Deterministic Zero Output in RSA Operations",
       "url": "https://github.com/advisories/GHSA-464q-cqxq-xhgr",
@@ -112,34 +140,6 @@
       "date": "2026-03-30T18:05:48.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] LiveQuery protected field leak via shared mutable state across concurrent subscribers",
-      "url": "https://github.com/advisories/GHSA-m983-v2ff-wq65",
-      "date": "2026-03-30T17:41:00.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] LiveQuery protected field leak via shared mutable state across concurrent subscribers",
-      "url": "https://github.com/advisories/GHSA-m983-v2ff-wq65",
-      "date": "2026-03-30T17:41:00.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[slippers] Slippers Vulnerable to Cross-Site Scripting (XSS) in `attrs` Template Tag",
-      "url": "https://github.com/advisories/GHSA-w7rv-gfp4-j9j3",
-      "date": "2026-03-30T17:20:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@nocobase/plugin-workflow-javascript] NocoBase Affected by Sandbox Escape to RCE via console._stdout Prototype Chain Traversal in Workflow Script Node",
-      "url": "https://github.com/advisories/GHSA-px3p-vgh9-m57c",
-      "date": "2026-03-30T17:16:25.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
