@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-03-30T14:40:23.666Z",
+  "fetchedAt": "2026-03-30T15:36:17.700Z",
   "entries": [
+    {
+      "title": "[Pygments] Pygments has Regular Expression Denial of Service (ReDoS) due to Inefficient Regex for GUID Matching",
+      "url": "https://github.com/advisories/GHSA-5239-wwwm-4pmq",
+      "date": "2026-03-30T14:40:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[openclaw] OpenClaw: BlueBubbles beta plugin webhook auth hardening (remove passwordless fallback)",
       "url": "https://github.com/advisories/GHSA-5mx2-2mgw-x8rm",
@@ -126,13 +133,6 @@
       "date": "2026-03-29T15:44:16.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@mikro-orm/core] MikroORM is vulnerable to SQL Injection via specially crafted object",
-      "url": "https://github.com/advisories/GHSA-gwhv-j974-6fxm",
-      "date": "2026-03-29T15:44:05.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     },
     {
       "title": "[@mikro-orm/core] MikroORM is vulnerable to SQL Injection via specially crafted object",
