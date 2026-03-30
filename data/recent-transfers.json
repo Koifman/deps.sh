@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-30T03:17:33.853Z",
+  "scannedAt": "2026-03-30T05:07:41.751Z",
   "count": 99,
   "packages": [
     {
@@ -253,15 +253,6 @@
       "level": "MODERATE",
       "previousOwner": "isaacs",
       "currentOwner": "geoffreybooth"
-    },
-    {
-      "name": "broccoli-babel-transpiler",
-      "version": "8.0.2",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "sebmck",
-      "currentOwner": "katiegengler"
     },
     {
       "name": "@appium/support",
@@ -579,8 +570,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "postcss-focus-visible",
-      "version": "11.0.0",
+      "name": "css-has-pseudo",
+      "version": "8.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -588,8 +579,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.0",
+      "name": "postcss-focus-visible",
+      "version": "11.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -660,15 +651,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "redux-saga",
-      "version": "1.4.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "yelouafi",
-      "currentOwner": "redux-saga-release-bot"
-    },
-    {
       "name": "@appium/schema",
       "version": "1.1.0",
       "ecosystem": "npm",
@@ -676,6 +658,15 @@
       "level": "MODERATE",
       "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "redux-saga",
+      "version": "1.4.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "yelouafi",
+      "currentOwner": "redux-saga-release-bot"
     },
     {
       "name": "@appium/logger",
@@ -721,6 +712,15 @@
       "level": "MODERATE",
       "previousOwner": "mrlubos",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@vimeo/player",
+      "version": "2.30.3",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bdougherty",
+      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "typescript",
@@ -786,15 +786,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@fortawesome/react-fontawesome",
-      "version": "3.3.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "supercodepoet",
-      "currentOwner": "lordofbacon"
-    },
-    {
       "name": "@oxlint/binding-linux-x64-gnu",
       "version": "1.57.0",
       "ecosystem": "npm",
@@ -802,6 +793,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@fortawesome/react-fontawesome",
+      "version": "3.3.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "supercodepoet",
+      "currentOwner": "lordofbacon"
     },
     {
       "name": "pe-library",
@@ -859,20 +859,11 @@
     },
     {
       "name": "@lottiefiles/dotlottie-web",
-      "version": "0.67.0",
+      "version": "0.68.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-minify/binding-linux-x64-musl",
-      "version": "0.121.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -892,6 +883,15 @@
       "level": "LOW",
       "previousOwner": "antimatter15",
       "currentOwner": "balearica"
+    },
+    {
+      "name": "@oxc-minify/binding-linux-x64-musl",
+      "version": "0.121.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }
