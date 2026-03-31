@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-03-31T22:16:55.526Z",
+  "fetchedAt": "2026-03-31T23:15:19.314Z",
   "entries": [
+    {
+      "title": "[fastmcp] FastMCP OpenAPI Provider has an SSRF & Path Traversal Vulnerability",
+      "url": "https://github.com/advisories/GHSA-vv7q-7jx5-f767",
+      "date": "2026-03-31T22:53:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[scitokens] SciTokens has an Authorization Bypass via Path Traversal in Scope Validation",
+      "url": "https://github.com/advisories/GHSA-3x2w-63fp-3qvw",
+      "date": "2026-03-31T22:51:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[scitokens] SciTokens has an Authorization Bypass via Incorrect Scope Path Prefix Checking",
+      "url": "https://github.com/advisories/GHSA-w8fp-g9rh-34jh",
+      "date": "2026-03-31T22:51:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[scitokens] SciTokens is vulnerable to SQL Injection in KeyCache",
+      "url": "https://github.com/advisories/GHSA-rh5m-2482-966c",
+      "date": "2026-03-31T22:49:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[onnx] onnx Vulnerable to Path Traversal via Symlink",
+      "url": "https://github.com/advisories/GHSA-3r9x-f23j-gc73",
+      "date": "2026-03-31T22:34:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fastmcp] FastMCP: Missing Consent Verification in OAuth Proxy Callback Facilitates Confused Deputy Vulnerabilities",
+      "url": "https://github.com/advisories/GHSA-rww4-4w9c-7733",
+      "date": "2026-03-31T22:32:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fastmcp] FastMCP has a Command Injection vulnerability - Gemini CLI",
+      "url": "https://github.com/advisories/GHSA-m8x7-r2rg-vh5g",
+      "date": "2026-03-31T22:24:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[slippers] Slippers Vulnerable to Cross-Site Scripting (XSS) in `attrs` Template Tag",
       "url": "https://github.com/advisories/GHSA-w7rv-gfp4-j9j3",
@@ -65,41 +114,6 @@
       "severity": "LOW"
     },
     {
-      "title": "[langchain-core] LangChain Core has Path Traversal vulnerabilites in legacy `load_prompt` functions",
-      "url": "https://github.com/advisories/GHSA-qh6h-p6c9-ff54",
-      "date": "2026-03-31T18:41:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[changedetection.io] Changedetection.io Discloses Environment Variables via jq env Builtin in Include Filters",
-      "url": "https://github.com/advisories/GHSA-58r7-4wr5-hfx8",
-      "date": "2026-03-30T20:17:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[adx-mcp-server] Azure Data Explorer MCP Server: KQL Injection in multiple tools allows MCP client to execute arbitrary Kusto queries",
-      "url": "https://github.com/advisories/GHSA-vphc-468g-8rfp",
-      "date": "2026-03-30T20:17:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ecdsa] python-ecdsa: Denial of Service via improper DER length validation in crafted private keys",
-      "url": "https://github.com/advisories/GHSA-9f5j-8jwj-x28g",
-      "date": "2026-03-30T20:17:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyload-ng] pyLoad: Server-Side Request Forgery via Download Link Submission Enables Cloud Metadata Exfiltration",
-      "url": "https://github.com/advisories/GHSA-m74m-f7cr-432x",
-      "date": "2026-03-30T20:15:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
       "title": "[jsrsasign] jsrsasign: Division by Zero Allows Invalid JWK Modulus to Cause Deterministic Zero Output in RSA Operations",
       "url": "https://github.com/advisories/GHSA-464q-cqxq-xhgr",
       "date": "2026-03-30T19:30:17.000Z",
@@ -126,20 +140,6 @@
       "date": "2026-03-30T19:29:41.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[telnyx] Telnyx has malicious code in PyPI versions 4.87.1 and 4.87.2",
-      "url": "https://github.com/advisories/GHSA-955r-262c-33jc",
-      "date": "2026-03-30T19:15:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Non-owner command-authorized sender can change the owner-only `/send` session delivery policy",
-      "url": "https://github.com/advisories/GHSA-39mp-545q-w789",
-      "date": "2026-03-30T19:06:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
