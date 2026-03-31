@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-31T10:31:38.401Z",
+  "scannedAt": "2026-03-31T11:26:56.462Z",
   "count": 97,
   "packages": [
     {
@@ -678,15 +678,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.1.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "cropperjs",
       "version": "2.1.0",
       "ecosystem": "npm",
@@ -694,6 +685,15 @@
       "level": "MODERATE",
       "previousOwner": "fengyuanchen",
       "currentOwner": "chenfengyuan"
+    },
+    {
+      "name": "@appium/tsconfig",
+      "version": "1.1.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@bugsnag/js",
@@ -742,16 +742,7 @@
     },
     {
       "name": "oxc-transform",
-      "version": "0.121.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
-      "version": "0.121.0",
+      "version": "0.123.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -760,6 +751,15 @@
     },
     {
       "name": "@oxc-parser/binding-linux-x64-musl",
+      "version": "0.123.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-x64-gnu",
       "version": "0.123.0",
       "ecosystem": "npm",
       "score": 20,
@@ -796,7 +796,7 @@
     },
     {
       "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.121.0",
+      "version": "0.123.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -858,15 +858,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "@oxc-minify/binding-linux-x64-musl",
       "version": "0.123.0",
       "ecosystem": "npm",
@@ -874,6 +865,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     }
   ]
 }
