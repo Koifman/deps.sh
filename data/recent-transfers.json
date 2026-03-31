@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-31T09:34:43.775Z",
+  "scannedAt": "2026-03-31T10:31:38.401Z",
   "count": 97,
   "packages": [
     {
@@ -104,6 +104,15 @@
     {
       "name": "enzyme-adapter-react-16",
       "version": "1.15.8",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "intelligibabble",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "enzyme-adapter-utils",
+      "version": "1.14.2",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -598,7 +607,7 @@
     },
     {
       "name": "oxc-parser",
-      "version": "0.121.0",
+      "version": "0.123.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -696,15 +705,6 @@
       "currentOwner": "gingerbenw"
     },
     {
-      "name": "@appium/base-plugin",
-      "version": "3.1.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "typescript",
       "version": "6.0.2",
       "ecosystem": "npm",
@@ -733,7 +733,7 @@
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
-      "version": "0.121.0",
+      "version": "0.123.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -760,7 +760,7 @@
     },
     {
       "name": "@oxc-parser/binding-linux-x64-musl",
-      "version": "0.121.0",
+      "version": "0.123.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -823,7 +823,7 @@
     },
     {
       "name": "oxc-minify",
-      "version": "0.121.0",
+      "version": "0.123.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -832,7 +832,7 @@
     },
     {
       "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.121.0",
+      "version": "0.123.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -868,7 +868,7 @@
     },
     {
       "name": "@oxc-minify/binding-linux-x64-musl",
-      "version": "0.121.0",
+      "version": "0.123.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
