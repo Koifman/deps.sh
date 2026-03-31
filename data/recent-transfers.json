@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-03-31T18:31:47.535Z",
-  "count": 97,
+  "scannedAt": "2026-03-31T19:32:24.669Z",
+  "count": 98,
   "packages": [
     {
       "name": "xmldom",
@@ -147,15 +147,6 @@
       "currentOwner": "phated"
     },
     {
-      "name": "eslint-config-airbnb",
-      "version": "19.0.4",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "jitl",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "gray-matter",
       "version": "4.0.3",
       "ecosystem": "npm",
@@ -163,6 +154,15 @@
       "level": "MODERATE",
       "previousOwner": "jonschlinkert",
       "currentOwner": "rmassaioli"
+    },
+    {
+      "name": "eslint-config-airbnb",
+      "version": "19.0.4",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "jitl",
+      "currentOwner": "ljharb"
     },
     {
       "name": "is-expression",
@@ -273,21 +273,21 @@
       "currentOwner": "michaelficarra"
     },
     {
-      "name": "string.prototype.trimend",
-      "version": "1.0.9",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "khaledelansari",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "is-array-buffer",
       "version": "3.0.5",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
       "previousOwner": "fengyuanchen",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "string.prototype.trimend",
+      "version": "1.0.9",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "khaledelansari",
       "currentOwner": "ljharb"
     },
     {
@@ -354,15 +354,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "embla-carousel-autoplay",
-      "version": "8.6.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "davidcetinkaya",
-      "currentOwner": "davidjerleke"
-    },
-    {
       "name": "cloudevents",
       "version": "10.0.0",
       "ecosystem": "npm",
@@ -370,6 +361,15 @@
       "level": "MODERATE",
       "previousOwner": "tjanczuk",
       "currentOwner": "lholmquist"
+    },
+    {
+      "name": "embla-carousel-autoplay",
+      "version": "8.6.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "davidcetinkaya",
+      "currentOwner": "davidjerleke"
     },
     {
       "name": "eslint",
@@ -471,21 +471,21 @@
       "currentOwner": "redux-saga-release-bot"
     },
     {
-      "name": "dependency-cruiser",
-      "version": "17.3.10",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "sverweij",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/base-driver",
       "version": "10.2.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "dependency-cruiser",
+      "version": "17.3.10",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "sverweij",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -570,15 +570,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
-    },
-    {
       "name": "postcss-focus-visible",
       "version": "11.0.0",
       "ecosystem": "npm",
@@ -604,6 +595,15 @@
       "level": "MODERATE",
       "previousOwner": "panva",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
     },
     {
       "name": "oxc-parser",
@@ -759,7 +759,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "name": "@oxc-parser/binding-linux-x64-musl",
       "version": "0.123.0",
       "ecosystem": "npm",
       "score": 20,
@@ -768,7 +768,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-x64-musl",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
       "version": "0.123.0",
       "ecosystem": "npm",
       "score": 20,
@@ -804,8 +804,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.123.0",
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.43.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -813,8 +813,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.43.0",
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.123.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -874,6 +874,15 @@
       "level": "LOW",
       "previousOwner": "antimatter15",
       "currentOwner": "balearica"
+    },
+    {
+      "name": "@oxc-minify/binding-linux-x64-musl",
+      "version": "0.123.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }

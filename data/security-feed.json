@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-03-31T18:28:44.158Z",
+  "fetchedAt": "2026-03-31T19:28:51.195Z",
   "entries": [
+    {
+      "title": "[slippers] Slippers Vulnerable to Cross-Site Scripting (XSS) in `attrs` Template Tag",
+      "url": "https://github.com/advisories/GHSA-w7rv-gfp4-j9j3",
+      "date": "2026-03-31T18:55:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] GraphQL API endpoint ignores CORS origin restriction",
+      "url": "https://github.com/advisories/GHSA-q3p6-g7c4-829c",
+      "date": "2026-03-31T18:52:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] GraphQL API endpoint ignores CORS origin restriction",
+      "url": "https://github.com/advisories/GHSA-q3p6-g7c4-829c",
+      "date": "2026-03-31T18:52:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] LiveQuery protected field leak via shared mutable state across concurrent subscribers",
+      "url": "https://github.com/advisories/GHSA-m983-v2ff-wq65",
+      "date": "2026-03-31T18:51:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] LiveQuery protected field leak via shared mutable state across concurrent subscribers",
+      "url": "https://github.com/advisories/GHSA-m983-v2ff-wq65",
+      "date": "2026-03-31T18:51:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[giskard-agents] Giskard Agents have Server-side template injection via ChatWorkflow.chat() using non-sandboxed Jinja2 Environment",
+      "url": "https://github.com/advisories/GHSA-frv4-x25r-588m",
+      "date": "2026-03-31T18:50:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[giskard-agents] Giskard Agents have Server-side template injection via ChatWorkflow.chat() using non-sandboxed Jinja2 Environment",
+      "url": "https://github.com/advisories/GHSA-frv4-x25r-588m",
+      "date": "2026-03-31T18:50:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nocobase/plugin-workflow-javascript] NocoBase Affected by Sandbox Escape to RCE via console._stdout Prototype Chain Traversal in Workflow Script Node",
+      "url": "https://github.com/advisories/GHSA-px3p-vgh9-m57c",
+      "date": "2026-03-31T18:50:36.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[cryptography] cryptography has incomplete DNS name constraint enforcement on peer names",
+      "url": "https://github.com/advisories/GHSA-m959-cc7f-wv43",
+      "date": "2026-03-31T18:41:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[langchain-core] LangChain Core has Path Traversal vulnerabilites in legacy `load_prompt` functions",
+      "url": "https://github.com/advisories/GHSA-qh6h-p6c9-ff54",
+      "date": "2026-03-31T18:41:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[changedetection.io] Changedetection.io Discloses Environment Variables via jq env Builtin in Include Filters",
       "url": "https://github.com/advisories/GHSA-58r7-4wr5-hfx8",
@@ -68,76 +138,6 @@
       "title": "[openclaw] OpenClaw: Non-owner command-authorized sender can change the owner-only `/send` session delivery policy",
       "url": "https://github.com/advisories/GHSA-39mp-545q-w789",
       "date": "2026-03-30T19:06:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: `browser.request` still allows `POST /reset-profile` through the `operator.write` surface",
-      "url": "https://github.com/advisories/GHSA-xp9r-prpg-373r",
-      "date": "2026-03-30T19:05:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Mutating internal `/allowlist` chat commands missed `operator.admin` scope enforcement",
-      "url": "https://github.com/advisories/GHSA-vqvg-86cc-cg83",
-      "date": "2026-03-30T18:59:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Gateway operator.write Can Reach Admin-Class Channel Allowlist Persistence via chat.send",
-      "url": "https://github.com/advisories/GHSA-94pw-c6m8-p9p9",
-      "date": "2026-03-30T18:52:41.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw has an Arbitrary Malicious Code Execution Vulnerability",
-      "url": "https://github.com/advisories/GHSA-m3mh-3mpg-37hw",
-      "date": "2026-03-30T18:52:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw has a Gateway HTTP /v1/models Route Bypasses Operator Read Scope",
-      "url": "https://github.com/advisories/GHSA-68f8-9mhj-h2mp",
-      "date": "2026-03-30T18:41:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has incomplete Fix for CVE-2026-32011: Feishu Webhook Pre-Auth Body Parsing DoS (Slow-Body / Slowloris Variant)",
-      "url": "https://github.com/advisories/GHSA-w6m8-cqvj-pg5v",
-      "date": "2026-03-30T18:32:04.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has Sandbox Media Root Bypass via Unnormalized `mediaUrl` / `fileUrl` Parameter Keys (CWE-22)",
-      "url": "https://github.com/advisories/GHSA-hr5v-j9h9-xjhg",
-      "date": "2026-03-30T18:31:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw has incomplete Fix for CVE-2026-27486: Unvalidated SIGKILL in `!stop` Chat Command via `shell-utils.ts`",
-      "url": "https://github.com/advisories/GHSA-3298-56p6-rpw2",
-      "date": "2026-03-30T18:30:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] GraphQL API endpoint ignores CORS origin restriction",
-      "url": "https://github.com/advisories/GHSA-q3p6-g7c4-829c",
-      "date": "2026-03-30T18:05:48.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] GraphQL API endpoint ignores CORS origin restriction",
-      "url": "https://github.com/advisories/GHSA-q3p6-g7c4-829c",
-      "date": "2026-03-30T18:05:48.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
