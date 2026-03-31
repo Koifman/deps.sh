@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-03-31T21:22:38.481Z",
+  "scannedAt": "2026-03-31T22:19:48.761Z",
   "count": 97,
   "packages": [
     {
@@ -46,15 +46,6 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "tinymce",
-      "version": "8.4.0",
-      "ecosystem": "npm",
-      "score": 50,
-      "level": "HIGH",
-      "previousOwner": "spocke",
-      "currentOwner": "tinymce"
     },
     {
       "name": "karma",
@@ -192,8 +183,8 @@
       "currentOwner": "msftapplicationinsights"
     },
     {
-      "name": "heimdalljs",
-      "version": "0.2.6",
+      "name": "heimdalljs-logger",
+      "version": "0.1.10",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -201,8 +192,8 @@
       "currentOwner": "stefanpenner"
     },
     {
-      "name": "heimdalljs-logger",
-      "version": "0.1.10",
+      "name": "heimdalljs",
+      "version": "0.2.6",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -453,15 +444,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@trivago/prettier-plugin-sort-imports",
-      "version": "6.0.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "ayusharma",
-      "currentOwner": "behraang"
-    },
-    {
       "name": "@hey-api/openapi-ts",
       "version": "0.94.5",
       "ecosystem": "npm",
@@ -469,6 +451,15 @@
       "level": "MODERATE",
       "previousOwner": "lmenus",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@trivago/prettier-plugin-sort-imports",
+      "version": "6.0.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "ayusharma",
+      "currentOwner": "behraang"
     },
     {
       "name": "@redux-saga/core",
@@ -768,8 +759,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
-      "version": "0.123.0",
+      "name": "@oxlint/binding-linux-x64-gnu",
+      "version": "1.58.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -777,8 +768,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-gnu",
-      "version": "1.58.0",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "version": "0.123.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -874,6 +865,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@nevware21/ts-utils",
+      "version": "0.13.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     }
   ]
 }
