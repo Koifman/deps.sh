@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-04-01T07:42:17.699Z",
-  "count": 98,
+  "scannedAt": "2026-04-01T08:40:43.105Z",
+  "count": 97,
   "packages": [
     {
       "name": "xmldom",
@@ -444,15 +444,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@hey-api/openapi-ts",
-      "version": "0.94.5",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "lmenus",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@trivago/prettier-plugin-sort-imports",
       "version": "6.0.2",
       "ecosystem": "npm",
@@ -460,6 +451,15 @@
       "level": "MODERATE",
       "previousOwner": "ayusharma",
       "currentOwner": "behraang"
+    },
+    {
+      "name": "@hey-api/openapi-ts",
+      "version": "0.94.5",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "lmenus",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@redux-saga/core",
@@ -588,15 +588,6 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "openid-client",
-      "version": "6.8.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "panva",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "css-blank-pseudo",
       "version": "8.0.1",
       "ecosystem": "npm",
@@ -604,6 +595,15 @@
       "level": "MODERATE",
       "previousOwner": "jonathantneal",
       "currentOwner": "romainmenke"
+    },
+    {
+      "name": "openid-client",
+      "version": "6.8.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "panva",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "oxc-parser",
@@ -804,8 +804,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.123.0",
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.43.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -813,8 +813,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.43.0",
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.123.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -849,21 +849,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lottiefiles/dotlottie-web",
-      "version": "0.69.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxfmt/binding-linux-x64-musl",
       "version": "0.43.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@lottiefiles/dotlottie-web",
+      "version": "0.69.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -874,15 +874,6 @@
       "level": "LOW",
       "previousOwner": "antimatter15",
       "currentOwner": "balearica"
-    },
-    {
-      "name": "@oxc-minify/binding-linux-x64-musl",
-      "version": "0.123.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
     }
   ]
 }
