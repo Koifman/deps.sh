@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-01T19:30:28.331Z",
+  "fetchedAt": "2026-04-01T20:20:38.368Z",
   "entries": [
+    {
+      "title": "[aiohttp] aiohttp allows unlimited trailer headers, leading to possible uncapped memory usage",
+      "url": "https://github.com/advisories/GHSA-w2fm-2cpv-w7v5",
+      "date": "2026-04-01T19:45:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[mlflow] MLflow Command Injection vulnerability",
       "url": "https://github.com/advisories/GHSA-r23q-823p-vmf7",
@@ -133,13 +140,6 @@
       "date": "2026-04-01T00:01:51.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Google Chat and Zalouser group sender allowlist bypass via policy downgrade",
-      "url": "https://github.com/advisories/GHSA-63mg-xp9j-jfcm",
-      "date": "2026-04-01T00:01:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
