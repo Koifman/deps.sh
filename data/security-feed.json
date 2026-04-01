@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-04-01T20:20:38.368Z",
+  "fetchedAt": "2026-04-01T21:21:24.522Z",
   "entries": [
+    {
+      "title": "[openssl-encrypt] openssl-encrypt has no owner verification on key revocation — any client can revoke any key",
+      "url": "https://github.com/advisories/GHSA-hvc7-763r-4f3h",
+      "date": "2026-04-01T21:11:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openssl-encrypt] openssl-encrypt's unverified key bundle from_dict() + to_identity() path allows encryption to attacker keys",
+      "url": "https://github.com/advisories/GHSA-8h88-gxp3-j7pg",
+      "date": "2026-04-01T21:11:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[onnx] ONNX: Malicious ONNX models can crash servers by exploiting unprotected object settings.",
+      "url": "https://github.com/advisories/GHSA-538c-55jv-c5g9",
+      "date": "2026-04-01T21:10:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[poetry-plugin-tweak-dependencies-version] poetry-plugin-tweak-dependencies-version affected by CVE-2026-25645",
+      "url": "https://github.com/advisories/GHSA-5qvp-pr9f-2g2v",
+      "date": "2026-04-01T20:52:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[c2cciutils] c2cciutils affected by CVE-2022-40896",
+      "url": "https://github.com/advisories/GHSA-qc22-xmq4-qg46",
+      "date": "2026-04-01T20:47:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI has Broken Access Control in Tool Valves",
+      "url": "https://github.com/advisories/GHSA-7429-hxcv-268m",
+      "date": "2026-04-01T20:25:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[aiohttp] aiohttp allows unlimited trailer headers, leading to possible uncapped memory usage",
       "url": "https://github.com/advisories/GHSA-w2fm-2cpv-w7v5",
@@ -98,48 +140,6 @@
       "date": "2026-04-01T00:06:59.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw Telegram webhook request bodies were read before secret validation, enabling unauthenticated resource exhaustion",
-      "url": "https://github.com/advisories/GHSA-c447-w54g-f55j",
-      "date": "2026-04-01T00:05:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[torchgeo] TorchGeo Remote Code Execution Vulnerability",
-      "url": "https://github.com/advisories/GHSA-ghq9-vc6f-8qjf",
-      "date": "2026-04-01T00:03:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server has a session field immutability bypass via falsy-value guard",
-      "url": "https://github.com/advisories/GHSA-f6j3-w9v3-cq22",
-      "date": "2026-04-01T00:03:20.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server has a session field immutability bypass via falsy-value guard",
-      "url": "https://github.com/advisories/GHSA-f6j3-w9v3-cq22",
-      "date": "2026-04-01T00:03:20.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has a CWD `.env` environment variable injection which bypasses host-env policy and allows config takeover",
-      "url": "https://github.com/advisories/GHSA-8rh7-6779-cjqq",
-      "date": "2026-04-01T00:02:43.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw affected by SSRF via unguarded image download in fal provider",
-      "url": "https://github.com/advisories/GHSA-qxgf-hmcj-3xw3",
-      "date": "2026-04-01T00:01:51.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
