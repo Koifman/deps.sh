@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-04-01T22:18:08.776Z",
+  "fetchedAt": "2026-04-01T23:18:16.856Z",
   "entries": [
+    {
+      "title": "[parse-server] Parser Server's streaming file download bypasses afterFind file trigger authorization",
+      "url": "https://github.com/advisories/GHSA-hpm8-9qx6-jvwv",
+      "date": "2026-04-01T23:09:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parser Server's streaming file download bypasses afterFind file trigger authorization",
+      "url": "https://github.com/advisories/GHSA-hpm8-9qx6-jvwv",
+      "date": "2026-04-01T23:09:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Haraka] Haraka affected by DoS via `__proto__` email header",
+      "url": "https://github.com/advisories/GHSA-xph3-r2jf-4vp3",
+      "date": "2026-04-01T22:56:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[copier] Copier `_external_data` allows path traversal and absolute-path local file read without unsafe mode",
+      "url": "https://github.com/advisories/GHSA-hgjq-p8cr-gg4h",
+      "date": "2026-04-01T22:38:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[copier] Copier `_subdirectory` allows template root escape via parent-directory traversal",
+      "url": "https://github.com/advisories/GHSA-85v3-4m8g-hrh6",
+      "date": "2026-04-01T22:28:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dbgate-web] dbgate-web: Stored XSS in applicationIcon leads to potential RCE in Electron due to unsafe renderer configuration",
+      "url": "https://github.com/advisories/GHSA-35xm-qvjg-8m42",
+      "date": "2026-04-01T22:19:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[poetry] Poetry Has Wheel Path Traversal Which Can Lead to Arbitrary File Write",
+      "url": "https://github.com/advisories/GHSA-2599-h6xx-hpxp",
+      "date": "2026-04-01T22:17:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@stablelib/ed25519] StableLib Ed25519 Signature Malleability via Missing S < L Check",
+      "url": "https://github.com/advisories/GHSA-x3ff-w252-2g7j",
+      "date": "2026-04-01T22:13:37.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[aiohttp] AIOHTTP accepts duplicate Host headers",
       "url": "https://github.com/advisories/GHSA-c427-h43c-vf67",
@@ -84,62 +140,6 @@
       "date": "2026-04-01T21:41:50.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[sillytavern] SillyTavern: Path Traversal allows file existence oracle",
-      "url": "https://github.com/advisories/GHSA-525j-2hrj-m8fp",
-      "date": "2026-04-01T21:40:24.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sillytavern] SillyTavern has a path traversal in `/api/chats/import` allows arbitrary file write outside intended chat directory",
-      "url": "https://github.com/advisories/GHSA-xvww-xhx6-22pf",
-      "date": "2026-04-01T21:36:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[payload] Payload has a CSRF Protection Bypass in Authentication Flow",
-      "url": "https://github.com/advisories/GHSA-p6mr-xf3r-ghq4",
-      "date": "2026-04-01T21:36:09.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP affected by UNC SSRF/NTLMv2 Credential Theft/Local File Read in static resource handler on Windows",
-      "url": "https://github.com/advisories/GHSA-p998-jp59-783m",
-      "date": "2026-04-01T21:26:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[payload] Payload has Authenticated SSRF via Upload Functionality",
-      "url": "https://github.com/advisories/GHSA-6r7f-q7f5-wpx8",
-      "date": "2026-04-01T21:25:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@payloadcms/next] @payloadcms/next has Stored XSS in Admin Panel",
-      "url": "https://github.com/advisories/GHSA-mmxc-95ch-2j7c",
-      "date": "2026-04-01T21:24:25.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP has CRLF injection through multipart part content type header construction",
-      "url": "https://github.com/advisories/GHSA-2vrm-gr82-f7m5",
-      "date": "2026-04-01T21:20:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP Affected by Denial of Service (DoS) via Unbounded DNS Cache in TCPConnector",
-      "url": "https://github.com/advisories/GHSA-hcc4-c3v8-rx92",
-      "date": "2026-04-01T21:19:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }
