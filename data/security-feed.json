@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-01T03:13:59.050Z",
+  "fetchedAt": "2026-04-01T05:05:07.772Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw gateway exec allow-always over-trusts positional carrier executables",
+      "url": "https://github.com/advisories/GHSA-p4x4-2r7f-wjxg",
+      "date": "2026-04-01T03:29:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@tinacms/graphql] @tinacms/graphql's `FilesystemBridge` Path Validation Can Be Bypassed via Symlinks or Junctions",
       "url": "https://github.com/advisories/GHSA-g9c2-gf25-3x67",
@@ -105,13 +112,6 @@
       "date": "2026-04-01T00:02:43.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw gateway exec allow-always over-trusts positional carrier executables",
-      "url": "https://github.com/advisories/GHSA-p4x4-2r7f-wjxg",
-      "date": "2026-04-01T00:02:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     },
     {
       "title": "[openclaw] OpenClaw affected by SSRF via unguarded image download in fal provider",
