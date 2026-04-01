@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-04-01T15:37:00.870Z",
+  "fetchedAt": "2026-04-01T16:28:12.498Z",
   "entries": [
+    {
+      "title": "[@payloadcms/graphql] Payload has Unvalidated Input in Password Recovery Endpoints",
+      "url": "https://github.com/advisories/GHSA-hp5w-3hxx-vmwf",
+      "date": "2026-04-01T16:08:06.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[payload] Payload has Unvalidated Input in Password Recovery Endpoints",
+      "url": "https://github.com/advisories/GHSA-hp5w-3hxx-vmwf",
+      "date": "2026-04-01T16:08:06.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[openclaw] OpenClaw gateway exec allow-always over-trusts positional carrier executables",
       "url": "https://github.com/advisories/GHSA-p4x4-2r7f-wjxg",
@@ -124,20 +138,6 @@
       "title": "[openclaw] OpenClaw: Google Chat and Zalouser group sender allowlist bypass via policy downgrade",
       "url": "https://github.com/advisories/GHSA-63mg-xp9j-jfcm",
       "date": "2026-04-01T00:01:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw Gateway `operator.write` can reach admin-only session reset via `chat.send` `/reset`",
-      "url": "https://github.com/advisories/GHSA-5r8f-96gm-5j6g",
-      "date": "2026-04-01T00:00:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: node.pair.approve missing callerScopes validation allows low-privilege operator to approve malicious nodes",
-      "url": "https://github.com/advisories/GHSA-2x4x-cc5g-qmmg",
-      "date": "2026-04-01T00:00:20.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
