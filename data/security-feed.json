@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-04-01T00:56:21.327Z",
+  "fetchedAt": "2026-04-01T01:42:05.338Z",
   "entries": [
+    {
+      "title": "[@tinacms/graphql] @tinacms/graphql's `FilesystemBridge` Path Validation Can Be Bypassed via Symlinks or Junctions",
+      "url": "https://github.com/advisories/GHSA-g9c2-gf25-3x67",
+      "date": "2026-04-01T00:25:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@tinacms/graphql] @tinacms/graphql's Media Endpoints Can Escape the Media Root via Symlinks or Junctions",
+      "url": "https://github.com/advisories/GHSA-g87c-r2jp-293w",
+      "date": "2026-04-01T00:23:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@xmldom/xmldom] xmldom: XML injection via unsafe CDATA serialization allows attacker-controlled markup insertion",
+      "url": "https://github.com/advisories/GHSA-wh4c-j3r5-mjhp",
+      "date": "2026-04-01T00:19:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@xmldom/xmldom] xmldom: XML injection via unsafe CDATA serialization allows attacker-controlled markup insertion",
+      "url": "https://github.com/advisories/GHSA-wh4c-j3r5-mjhp",
+      "date": "2026-04-01T00:19:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[xmldom] xmldom: XML injection via unsafe CDATA serialization allows attacker-controlled markup insertion",
+      "url": "https://github.com/advisories/GHSA-wh4c-j3r5-mjhp",
+      "date": "2026-04-01T00:19:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[mlflow] MLFlow path traversal vulnerability",
       "url": "https://github.com/advisories/GHSA-vhcx-3pq2-4fvc",
@@ -103,41 +138,6 @@
       "title": "[openclaw] OpenClaw: node.pair.approve missing callerScopes validation allows low-privilege operator to approve malicious nodes",
       "url": "https://github.com/advisories/GHSA-2x4x-cc5g-qmmg",
       "date": "2026-04-01T00:00:20.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw has a gateway exec allowlist allow-always bypass via unregistered /usr/bin/script wrapper",
-      "url": "https://github.com/advisories/GHSA-6pfc-6m7w-m8fx",
-      "date": "2026-03-31T23:59:55.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw's incomplete host env sanitization blocklist allows supply-chain redirection via package-manager env overrides",
-      "url": "https://github.com/advisories/GHSA-j7p2-qcwm-94v4",
-      "date": "2026-03-31T23:59:36.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw's Nextcloud Talk webhook missing rate limiting on shared secret authentication",
-      "url": "https://github.com/advisories/GHSA-9528-x887-j2fp",
-      "date": "2026-03-31T23:59:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw SSRF guard misses four IPv6 special-use ranges",
-      "url": "https://github.com/advisories/GHSA-g86v-f9qv-rh6m",
-      "date": "2026-03-31T23:58:44.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw's Discord component interaction ingress skips guild/channel policy enforcement",
-      "url": "https://github.com/advisories/GHSA-jp4j-q5fc-58gv",
-      "date": "2026-03-31T23:58:09.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
