@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-04-01T21:21:24.522Z",
+  "fetchedAt": "2026-04-01T22:18:08.776Z",
   "entries": [
     {
-      "title": "[openssl-encrypt] openssl-encrypt has no owner verification on key revocation — any client can revoke any key",
-      "url": "https://github.com/advisories/GHSA-hvc7-763r-4f3h",
-      "date": "2026-04-01T21:11:33.000Z",
+      "title": "[aiohttp] AIOHTTP accepts duplicate Host headers",
+      "url": "https://github.com/advisories/GHSA-c427-h43c-vf67",
+      "date": "2026-04-01T21:49:46.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[openssl-encrypt] openssl-encrypt's unverified key bundle from_dict() + to_identity() path allows encryption to attacker keys",
-      "url": "https://github.com/advisories/GHSA-8h88-gxp3-j7pg",
-      "date": "2026-04-01T21:11:15.000Z",
+      "title": "[aiohttp] AIOHTTP's C parser (llhttp) accepts null bytes and control characters in response header values - header injection/security bypass",
+      "url": "https://github.com/advisories/GHSA-63hf-3vf5-4wqf",
+      "date": "2026-04-01T21:49:11.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "LOW"
     },
     {
-      "title": "[onnx] ONNX: Malicious ONNX models can crash servers by exploiting unprotected object settings.",
-      "url": "https://github.com/advisories/GHSA-538c-55jv-c5g9",
-      "date": "2026-04-01T21:10:53.000Z",
+      "title": "[aiohttp] AIOHTTP has HTTP response splitting via \\r in reason phrase",
+      "url": "https://github.com/advisories/GHSA-mwh4-6h8g-pg8w",
+      "date": "2026-04-01T21:48:25.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
+      "severity": "LOW"
     },
     {
-      "title": "[poetry-plugin-tweak-dependencies-version] poetry-plugin-tweak-dependencies-version affected by CVE-2026-25645",
-      "url": "https://github.com/advisories/GHSA-5qvp-pr9f-2g2v",
-      "date": "2026-04-01T20:52:21.000Z",
+      "title": "[aiohttp] AIOHTTP leaks Cookie and Proxy-Authorization headers on cross-origin redirect",
+      "url": "https://github.com/advisories/GHSA-966j-vmvw-g2g9",
+      "date": "2026-04-01T21:47:51.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "LOW"
     },
     {
-      "title": "[c2cciutils] c2cciutils affected by CVE-2022-40896",
-      "url": "https://github.com/advisories/GHSA-qc22-xmq4-qg46",
-      "date": "2026-04-01T20:47:06.000Z",
+      "title": "[aiohttp] AIOHTTP has late size enforcement for non-file multipart fields causes memory DoS",
+      "url": "https://github.com/advisories/GHSA-3wq7-rqq7-wx6j",
+      "date": "2026-04-01T21:47:08.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "LOW"
     },
     {
-      "title": "[open-webui] Open WebUI has Broken Access Control in Tool Valves",
-      "url": "https://github.com/advisories/GHSA-7429-hxcv-268m",
-      "date": "2026-04-01T20:25:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[aiohttp] aiohttp allows unlimited trailer headers, leading to possible uncapped memory usage",
-      "url": "https://github.com/advisories/GHSA-w2fm-2cpv-w7v5",
-      "date": "2026-04-01T19:45:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mlflow] MLflow Command Injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-r23q-823p-vmf7",
-      "date": "2026-04-01T19:08:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@payloadcms/graphql] Payload has Unvalidated Input in Password Recovery Endpoints",
-      "url": "https://github.com/advisories/GHSA-hp5w-3hxx-vmwf",
-      "date": "2026-04-01T16:08:06.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[payload] Payload has Unvalidated Input in Password Recovery Endpoints",
-      "url": "https://github.com/advisories/GHSA-hp5w-3hxx-vmwf",
-      "date": "2026-04-01T16:08:06.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw gateway exec allow-always over-trusts positional carrier executables",
-      "url": "https://github.com/advisories/GHSA-p4x4-2r7f-wjxg",
-      "date": "2026-04-01T03:29:06.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@tinacms/graphql] @tinacms/graphql's `FilesystemBridge` Path Validation Can Be Bypassed via Symlinks or Junctions",
-      "url": "https://github.com/advisories/GHSA-g9c2-gf25-3x67",
-      "date": "2026-04-01T00:25:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@tinacms/graphql] @tinacms/graphql's Media Endpoints Can Escape the Media Root via Symlinks or Junctions",
-      "url": "https://github.com/advisories/GHSA-g87c-r2jp-293w",
-      "date": "2026-04-01T00:23:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@xmldom/xmldom] xmldom: XML injection via unsafe CDATA serialization allows attacker-controlled markup insertion",
-      "url": "https://github.com/advisories/GHSA-wh4c-j3r5-mjhp",
-      "date": "2026-04-01T00:19:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@xmldom/xmldom] xmldom: XML injection via unsafe CDATA serialization allows attacker-controlled markup insertion",
-      "url": "https://github.com/advisories/GHSA-wh4c-j3r5-mjhp",
-      "date": "2026-04-01T00:19:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[xmldom] xmldom: XML injection via unsafe CDATA serialization allows attacker-controlled markup insertion",
-      "url": "https://github.com/advisories/GHSA-wh4c-j3r5-mjhp",
-      "date": "2026-04-01T00:19:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mlflow] MLFlow path traversal vulnerability",
-      "url": "https://github.com/advisories/GHSA-vhcx-3pq2-4fvc",
-      "date": "2026-04-01T00:08:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[parse-server] Parse Server has a LiveQuery protected-field guard bypass via array-like logical operator value",
-      "url": "https://github.com/advisories/GHSA-mmg8-87c5-jrc2",
-      "date": "2026-04-01T00:07:41.000Z",
+      "title": "[@payloadcms/storage-s3] Payload has Insufficient Filename Validation in Client-Upload Signed-URL Endpoints",
+      "url": "https://github.com/advisories/GHSA-frq9-7j6g-v74x",
+      "date": "2026-04-01T21:44:10.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[parse-server] Parse Server has a LiveQuery protected-field guard bypass via array-like logical operator value",
-      "url": "https://github.com/advisories/GHSA-mmg8-87c5-jrc2",
-      "date": "2026-04-01T00:07:41.000Z",
+      "title": "[@payloadcms/storage-r2] Payload has Insufficient Filename Validation in Client-Upload Signed-URL Endpoints",
+      "url": "https://github.com/advisories/GHSA-frq9-7j6g-v74x",
+      "date": "2026-04-01T21:44:10.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: `OpenClaw: session_status` let sandboxed subagents access parent or sibling session state",
-      "url": "https://github.com/advisories/GHSA-hh43-q692-2xmq",
-      "date": "2026-04-01T00:06:59.000Z",
+      "title": "[@payloadcms/storage-gcs] Payload has Insufficient Filename Validation in Client-Upload Signed-URL Endpoints",
+      "url": "https://github.com/advisories/GHSA-frq9-7j6g-v74x",
+      "date": "2026-04-01T21:44:10.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@payloadcms/storage-azure] Payload has Insufficient Filename Validation in Client-Upload Signed-URL Endpoints",
+      "url": "https://github.com/advisories/GHSA-frq9-7j6g-v74x",
+      "date": "2026-04-01T21:44:10.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[aiohttp] AIOHTTP has a Multipart Header Size Bypass",
+      "url": "https://github.com/advisories/GHSA-m5qp-6w8w-w647",
+      "date": "2026-04-01T21:43:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sillytavern] SillyTavern: Incomplete IP validation in /api/search/visit allows SSRF via localhost and IPv6",
+      "url": "https://github.com/advisories/GHSA-wm7j-m6jm-8797",
+      "date": "2026-04-01T21:42:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sillytavern] SillyTavern: Path Traversal in `/api/chats/export` and `/api/chats/delete` allows arbitrary file read/delete within user data root",
+      "url": "https://github.com/advisories/GHSA-vprr-q85p-79mf",
+      "date": "2026-04-01T21:41:50.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sillytavern] SillyTavern: Path Traversal allows file existence oracle",
+      "url": "https://github.com/advisories/GHSA-525j-2hrj-m8fp",
+      "date": "2026-04-01T21:40:24.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sillytavern] SillyTavern has a path traversal in `/api/chats/import` allows arbitrary file write outside intended chat directory",
+      "url": "https://github.com/advisories/GHSA-xvww-xhx6-22pf",
+      "date": "2026-04-01T21:36:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[payload] Payload has a CSRF Protection Bypass in Authentication Flow",
+      "url": "https://github.com/advisories/GHSA-p6mr-xf3r-ghq4",
+      "date": "2026-04-01T21:36:09.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[aiohttp] AIOHTTP affected by UNC SSRF/NTLMv2 Credential Theft/Local File Read in static resource handler on Windows",
+      "url": "https://github.com/advisories/GHSA-p998-jp59-783m",
+      "date": "2026-04-01T21:26:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[payload] Payload has Authenticated SSRF via Upload Functionality",
+      "url": "https://github.com/advisories/GHSA-6r7f-q7f5-wpx8",
+      "date": "2026-04-01T21:25:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@payloadcms/next] @payloadcms/next has Stored XSS in Admin Panel",
+      "url": "https://github.com/advisories/GHSA-mmxc-95ch-2j7c",
+      "date": "2026-04-01T21:24:25.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[aiohttp] AIOHTTP has CRLF injection through multipart part content type header construction",
+      "url": "https://github.com/advisories/GHSA-2vrm-gr82-f7m5",
+      "date": "2026-04-01T21:20:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[aiohttp] AIOHTTP Affected by Denial of Service (DoS) via Unbounded DNS Cache in TCPConnector",
+      "url": "https://github.com/advisories/GHSA-hcc4-c3v8-rx92",
+      "date": "2026-04-01T21:19:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
     }
   ]
 }
