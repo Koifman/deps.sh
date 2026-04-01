@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-01T18:28:43.935Z",
+  "fetchedAt": "2026-04-01T19:30:28.331Z",
   "entries": [
+    {
+      "title": "[mlflow] MLflow Command Injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-r23q-823p-vmf7",
+      "date": "2026-04-01T19:08:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[@payloadcms/graphql] Payload has Unvalidated Input in Password Recovery Endpoints",
       "url": "https://github.com/advisories/GHSA-hp5w-3hxx-vmwf",
@@ -61,13 +68,6 @@
       "title": "[mlflow] MLFlow path traversal vulnerability",
       "url": "https://github.com/advisories/GHSA-vhcx-3pq2-4fvc",
       "date": "2026-04-01T00:08:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[mlflow] MLflow Command Injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-r23q-823p-vmf7",
-      "date": "2026-04-01T00:08:34.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
