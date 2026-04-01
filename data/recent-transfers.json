@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-04-01T01:44:54.996Z",
+  "scannedAt": "2026-04-01T03:17:12.570Z",
   "count": 98,
   "packages": [
     {
@@ -201,8 +201,8 @@
       "currentOwner": "msftapplicationinsights"
     },
     {
-      "name": "heimdalljs",
-      "version": "0.2.6",
+      "name": "heimdalljs-logger",
+      "version": "0.1.10",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -210,8 +210,8 @@
       "currentOwner": "stefanpenner"
     },
     {
-      "name": "heimdalljs-logger",
-      "version": "0.1.10",
+      "name": "heimdalljs",
+      "version": "0.2.6",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -669,15 +669,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/logger",
-      "version": "2.0.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "redux-saga",
       "version": "1.4.2",
       "ecosystem": "npm",
@@ -685,6 +676,15 @@
       "level": "MODERATE",
       "previousOwner": "yelouafi",
       "currentOwner": "redux-saga-release-bot"
+    },
+    {
+      "name": "@appium/logger",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "cropperjs",
