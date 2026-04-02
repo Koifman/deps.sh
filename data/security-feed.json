@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-04-02T18:27:27.538Z",
+  "fetchedAt": "2026-04-02T19:26:24.068Z",
   "entries": [
+    {
+      "title": "[@lightdash/cli] Axios supply chain attack - dependency in @lightdash/cli may resolve to compromised axios versions",
+      "url": "https://github.com/advisories/GHSA-3hfp-gqgh-xc5g",
+      "date": "2026-04-02T18:36:11.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@usebruno/cli] Axios npm Supply Chain Incident Impacting @usebruno/cli",
+      "url": "https://github.com/advisories/GHSA-658g-p7jg-wx5g",
+      "date": "2026-04-02T18:34:05.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2023-0125: Vulnerability in aws-sigv4",
       "url": "https://rustsec.org/advisories/RUSTSEC-2023-0125.html",
@@ -123,20 +137,6 @@
       "date": "2026-04-01T23:28:05.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[praisonaiagents] PraisonAI Has SSRF in FileTools.download_file() via Unvalidated URL",
-      "url": "https://github.com/advisories/GHSA-44c2-3rw4-5gvh",
-      "date": "2026-04-01T23:27:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai] PraisonAI Has Sandbox Escape via shell=True and Bypassable Blocklist in SubprocessSandbox",
-      "url": "https://github.com/advisories/GHSA-r4f2-3m54-pp7q",
-      "date": "2026-04-01T23:26:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
