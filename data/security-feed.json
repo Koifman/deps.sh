@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-04-01T23:18:16.856Z",
+  "fetchedAt": "2026-04-02T00:48:00.465Z",
   "entries": [
     {
-      "title": "[parse-server] Parser Server's streaming file download bypasses afterFind file trigger authorization",
-      "url": "https://github.com/advisories/GHSA-hpm8-9qx6-jvwv",
-      "date": "2026-04-01T23:09:14.000Z",
+      "title": "[@seafile/sdoc-editor] Seafile Server has multiple stored XSS vulnerabilities",
+      "url": "https://github.com/advisories/GHSA-rqj3-x344-qvxc",
+      "date": "2026-04-02T00:00:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@seafile/sdoc-editor] Seafile Server has multiple stored XSS vulnerabilities",
+      "url": "https://github.com/advisories/GHSA-rqj3-x344-qvxc",
+      "date": "2026-04-02T00:00:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp-handler] mcp-handler has a tool response leak across concurrent client sessions ('Race Condition')",
+      "url": "https://github.com/advisories/GHSA-w2fm-25vw-vh7f",
+      "date": "2026-04-01T23:58:50.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[parse-server] Parser Server's streaming file download bypasses afterFind file trigger authorization",
-      "url": "https://github.com/advisories/GHSA-hpm8-9qx6-jvwv",
-      "date": "2026-04-01T23:09:14.000Z",
+      "title": "[lodash.template] lodash vulnerable to Code Injection via `_.template` imports key names",
+      "url": "https://github.com/advisories/GHSA-r5fr-rjxr-66jc",
+      "date": "2026-04-01T23:51:13.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[Haraka] Haraka affected by DoS via `__proto__` email header",
-      "url": "https://github.com/advisories/GHSA-xph3-r2jf-4vp3",
-      "date": "2026-04-01T22:56:12.000Z",
+      "title": "[lodash-amd] lodash vulnerable to Code Injection via `_.template` imports key names",
+      "url": "https://github.com/advisories/GHSA-r5fr-rjxr-66jc",
+      "date": "2026-04-01T23:51:13.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[copier] Copier `_external_data` allows path traversal and absolute-path local file read without unsafe mode",
-      "url": "https://github.com/advisories/GHSA-hgjq-p8cr-gg4h",
-      "date": "2026-04-01T22:38:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[copier] Copier `_subdirectory` allows template root escape via parent-directory traversal",
-      "url": "https://github.com/advisories/GHSA-85v3-4m8g-hrh6",
-      "date": "2026-04-01T22:28:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[dbgate-web] dbgate-web: Stored XSS in applicationIcon leads to potential RCE in Electron due to unsafe renderer configuration",
-      "url": "https://github.com/advisories/GHSA-35xm-qvjg-8m42",
-      "date": "2026-04-01T22:19:59.000Z",
+      "title": "[lodash-es] lodash vulnerable to Code Injection via `_.template` imports key names",
+      "url": "https://github.com/advisories/GHSA-r5fr-rjxr-66jc",
+      "date": "2026-04-01T23:51:13.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[poetry] Poetry Has Wheel Path Traversal Which Can Lead to Arbitrary File Write",
-      "url": "https://github.com/advisories/GHSA-2599-h6xx-hpxp",
-      "date": "2026-04-01T22:17:38.000Z",
+      "title": "[lodash] lodash vulnerable to Code Injection via `_.template` imports key names",
+      "url": "https://github.com/advisories/GHSA-r5fr-rjxr-66jc",
+      "date": "2026-04-01T23:51:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[lodash.unset] lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`",
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "date": "2026-04-01T23:50:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lodash-amd] lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`",
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "date": "2026-04-01T23:50:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lodash-es] lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`",
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "date": "2026-04-01T23:50:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lodash] lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`",
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "date": "2026-04-01T23:50:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@nocobase/plugin-workflow-sql] NocoBase Has SQL Injection via template variable substitution in workflow SQL node",
+      "url": "https://github.com/advisories/GHSA-vx58-fwwq-5g8j",
+      "date": "2026-04-01T23:44:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[onnx] ONNX: TOCTOU arbitrary file read/write in save_external_dat",
+      "url": "https://github.com/advisories/GHSA-q56x-g2fj-4rj6",
+      "date": "2026-04-01T23:40:58.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[@stablelib/ed25519] StableLib Ed25519 Signature Malleability via Missing S < L Check",
-      "url": "https://github.com/advisories/GHSA-x3ff-w252-2g7j",
-      "date": "2026-04-01T22:13:37.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP accepts duplicate Host headers",
-      "url": "https://github.com/advisories/GHSA-c427-h43c-vf67",
-      "date": "2026-04-01T21:49:46.000Z",
+      "title": "[praisonai] PraisonAI Has Authentication Bypass via OAuthManager.validate_token()",
+      "url": "https://github.com/advisories/GHSA-98f9-fqg5-hvq5",
+      "date": "2026-04-01T23:29:02.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[aiohttp] AIOHTTP's C parser (llhttp) accepts null bytes and control characters in response header values - header injection/security bypass",
-      "url": "https://github.com/advisories/GHSA-63hf-3vf5-4wqf",
-      "date": "2026-04-01T21:49:11.000Z",
+      "title": "[praisonai] PraisonAI Has Missing Authentication in WebSocket Gateway",
+      "url": "https://github.com/advisories/GHSA-cfh6-vr3j-qc3g",
+      "date": "2026-04-01T23:28:05.000Z",
       "ecosystem": "pypi",
-      "severity": "LOW"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[aiohttp] AIOHTTP has HTTP response splitting via \\r in reason phrase",
-      "url": "https://github.com/advisories/GHSA-mwh4-6h8g-pg8w",
-      "date": "2026-04-01T21:48:25.000Z",
+      "title": "[praisonaiagents] PraisonAI Has SSRF in FileTools.download_file() via Unvalidated URL",
+      "url": "https://github.com/advisories/GHSA-44c2-3rw4-5gvh",
+      "date": "2026-04-01T23:27:07.000Z",
       "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP leaks Cookie and Proxy-Authorization headers on cross-origin redirect",
-      "url": "https://github.com/advisories/GHSA-966j-vmvw-g2g9",
-      "date": "2026-04-01T21:47:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP has late size enforcement for non-file multipart fields causes memory DoS",
-      "url": "https://github.com/advisories/GHSA-3wq7-rqq7-wx6j",
-      "date": "2026-04-01T21:47:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@payloadcms/storage-s3] Payload has Insufficient Filename Validation in Client-Upload Signed-URL Endpoints",
-      "url": "https://github.com/advisories/GHSA-frq9-7j6g-v74x",
-      "date": "2026-04-01T21:44:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@payloadcms/storage-r2] Payload has Insufficient Filename Validation in Client-Upload Signed-URL Endpoints",
-      "url": "https://github.com/advisories/GHSA-frq9-7j6g-v74x",
-      "date": "2026-04-01T21:44:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@payloadcms/storage-gcs] Payload has Insufficient Filename Validation in Client-Upload Signed-URL Endpoints",
-      "url": "https://github.com/advisories/GHSA-frq9-7j6g-v74x",
-      "date": "2026-04-01T21:44:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@payloadcms/storage-azure] Payload has Insufficient Filename Validation in Client-Upload Signed-URL Endpoints",
-      "url": "https://github.com/advisories/GHSA-frq9-7j6g-v74x",
-      "date": "2026-04-01T21:44:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP has a Multipart Header Size Bypass",
-      "url": "https://github.com/advisories/GHSA-m5qp-6w8w-w647",
-      "date": "2026-04-01T21:43:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sillytavern] SillyTavern: Incomplete IP validation in /api/search/visit allows SSRF via localhost and IPv6",
-      "url": "https://github.com/advisories/GHSA-wm7j-m6jm-8797",
-      "date": "2026-04-01T21:42:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sillytavern] SillyTavern: Path Traversal in `/api/chats/export` and `/api/chats/delete` allows arbitrary file read/delete within user data root",
-      "url": "https://github.com/advisories/GHSA-vprr-q85p-79mf",
-      "date": "2026-04-01T21:41:50.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai] PraisonAI Has Sandbox Escape via shell=True and Bypassable Blocklist in SubprocessSandbox",
+      "url": "https://github.com/advisories/GHSA-r4f2-3m54-pp7q",
+      "date": "2026-04-01T23:26:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai] PraisonAI: SSRF via Unvalidated api_base in passthrough() Fallback",
+      "url": "https://github.com/advisories/GHSA-x6m9-gxvr-7jpv",
+      "date": "2026-04-01T23:21:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai] PraisonAI Has ReDoS via Unvalidated User-Controlled Regex in MCPToolIndex.search_tools()",
+      "url": "https://github.com/advisories/GHSA-8w9j-hc3g-3g7f",
+      "date": "2026-04-01T23:21:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[praisonai] PraisonAI Has Second-Order SQL Injection in `get_all_user_threads`",
+      "url": "https://github.com/advisories/GHSA-9cq8-3v94-434g",
+      "date": "2026-04-01T23:20:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
     }
   ]
 }
