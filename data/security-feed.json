@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-04-02T14:33:59.315Z",
+  "fetchedAt": "2026-04-02T15:29:09.758Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2023-0125: Vulnerability in aws-sigv4",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0125.html",
+      "date": "2026-04-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0079: Unsoundness in dyn-future",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0079.html",
@@ -129,13 +135,6 @@
       "title": "[praisonai] PraisonAI Has Sandbox Escape via shell=True and Bypassable Blocklist in SubprocessSandbox",
       "url": "https://github.com/advisories/GHSA-r4f2-3m54-pp7q",
       "date": "2026-04-01T23:26:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai] PraisonAI: SSRF via Unvalidated api_base in passthrough() Fallback",
-      "url": "https://github.com/advisories/GHSA-x6m9-gxvr-7jpv",
-      "date": "2026-04-01T23:21:46.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
