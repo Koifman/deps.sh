@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-04-02T21:17:51.722Z",
+  "fetchedAt": "2026-04-02T22:16:16.263Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw: Security Scan Failure Does Not Block Plugin Installation (Fail-Open)",
+      "url": "https://github.com/advisories/GHSA-cwq8-6f96-g3q4",
+      "date": "2026-04-02T21:24:04.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: SSH sandbox tar upload follows symlinks, enabling arbitrary file write on remote host",
+      "url": "https://github.com/advisories/GHSA-fv94-qvg8-xqpw",
+      "date": "2026-04-02T21:23:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: SSRF via Unguarded `fetch()` in Marketplace Plugin Download and Ollama Model Discovery",
+      "url": "https://github.com/advisories/GHSA-9q7v-8mr7-g23p",
+      "date": "2026-04-02T21:22:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[openclaw] OpenClaw: SSH-based sandbox backends pass unsanitized process.env to child processes",
       "url": "https://github.com/advisories/GHSA-j9pv-rrcj-6pfx",
@@ -117,26 +138,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0079.html",
       "date": "2026-04-02T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0080: Unsoundness in scaly",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0080.html",
-      "date": "2026-04-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[@seafile/sdoc-editor] Seafile Server has multiple stored XSS vulnerabilities",
-      "url": "https://github.com/advisories/GHSA-rqj3-x344-qvxc",
-      "date": "2026-04-02T00:00:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@seafile/sdoc-editor] Seafile Server has multiple stored XSS vulnerabilities",
-      "url": "https://github.com/advisories/GHSA-rqj3-x344-qvxc",
-      "date": "2026-04-02T00:00:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
