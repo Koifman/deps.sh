@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-04-02T11:22:47.968Z",
+  "fetchedAt": "2026-04-02T12:30:45.034Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0079: Unsoundness in dyn-future",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0079.html",
+      "date": "2026-04-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0080: Unsoundness in scaly",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0080.html",
+      "date": "2026-04-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@seafile/sdoc-editor] Seafile Server has multiple stored XSS vulnerabilities",
       "url": "https://github.com/advisories/GHSA-rqj3-x344-qvxc",
@@ -126,20 +138,6 @@
       "date": "2026-04-01T23:21:46.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai] PraisonAI Has ReDoS via Unvalidated User-Controlled Regex in MCPToolIndex.search_tools()",
-      "url": "https://github.com/advisories/GHSA-8w9j-hc3g-3g7f",
-      "date": "2026-04-01T23:21:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[praisonai] PraisonAI Has Second-Order SQL Injection in `get_all_user_threads`",
-      "url": "https://github.com/advisories/GHSA-9cq8-3v94-434g",
-      "date": "2026-04-01T23:20:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
