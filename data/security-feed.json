@@ -1,6 +1,97 @@
 {
-  "fetchedAt": "2026-04-02T20:16:19.952Z",
+  "fetchedAt": "2026-04-02T21:17:51.722Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw: SSH-based sandbox backends pass unsanitized process.env to child processes",
+      "url": "https://github.com/advisories/GHSA-j9pv-rrcj-6pfx",
+      "date": "2026-04-02T21:01:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: MSTeams thread history bypasses sender allowlist via Graph API",
+      "url": "https://github.com/advisories/GHSA-chfm-xgc4-47rj",
+      "date": "2026-04-02T21:01:32.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: LINE webhook handler lacks shared pre-auth concurrency budget before signature verification",
+      "url": "https://github.com/advisories/GHSA-qcc3-jqwp-5vh2",
+      "date": "2026-04-02T21:01:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Matrix thread root and reply context bypass sender allowlist",
+      "url": "https://github.com/advisories/GHSA-rg8m-3943-vm6q",
+      "date": "2026-04-02T21:00:47.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Workspace `.env` can override the bundled hooks root and load attacker hook code",
+      "url": "https://github.com/advisories/GHSA-3qpv-xf3v-mm45",
+      "date": "2026-04-02T21:00:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Feishu thread history and quoted messages bypass sender allowlist",
+      "url": "https://github.com/advisories/GHSA-877v-w3f5-3pcq",
+      "date": "2026-04-02T20:59:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Heartbeat context inheritance bypasses sandbox via senderIsOwner escalation",
+      "url": "https://github.com/advisories/GHSA-g5cg-8x5w-7jpm",
+      "date": "2026-04-02T20:59:31.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Zalo webhook replay cache cross-target messageId scope bypass",
+      "url": "https://github.com/advisories/GHSA-hhq4-97c2-p447",
+      "date": "2026-04-02T20:59:11.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw Nostr privateKey config redaction bypass leaks plaintext signing key via config.get",
+      "url": "https://github.com/advisories/GHSA-jjw7-3vjf-fg5j",
+      "date": "2026-04-02T20:58:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: PIP_INDEX_URL and UV_INDEX_URL bypass host exec env sanitization and redirect Python package-index traffic",
+      "url": "https://github.com/advisories/GHSA-7ggg-pvrf-458v",
+      "date": "2026-04-02T20:57:46.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Voice-call Plivo replay mutates in-process callback origin before replay rejection",
+      "url": "https://github.com/advisories/GHSA-89r3-6x4j-v7wf",
+      "date": "2026-04-02T20:57:06.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Unauthenticated plugin-auth HTTP routes receive operator runtime scopes",
+      "url": "https://github.com/advisories/GHSA-mhgq-xpfq-6r66",
+      "date": "2026-04-02T20:46:04.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fast-jwt] fast-jwt: Incomplete fix for CVE-2023-48223: JWT Algorithm Confusion via Whitespace-Prefixed RSA Public Key",
+      "url": "https://github.com/advisories/GHSA-mvf2-f6gm-w987",
+      "date": "2026-04-02T20:37:54.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[@lightdash/cli] Axios supply chain attack - dependency in @lightdash/cli may resolve to compromised axios versions",
       "url": "https://github.com/advisories/GHSA-3hfp-gqgh-xc5g",
@@ -46,97 +137,6 @@
       "date": "2026-04-02T00:00:25.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp-handler] mcp-handler has a tool response leak across concurrent client sessions ('Race Condition')",
-      "url": "https://github.com/advisories/GHSA-w2fm-25vw-vh7f",
-      "date": "2026-04-01T23:58:50.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lodash.template] lodash vulnerable to Code Injection via `_.template` imports key names",
-      "url": "https://github.com/advisories/GHSA-r5fr-rjxr-66jc",
-      "date": "2026-04-01T23:51:13.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lodash-amd] lodash vulnerable to Code Injection via `_.template` imports key names",
-      "url": "https://github.com/advisories/GHSA-r5fr-rjxr-66jc",
-      "date": "2026-04-01T23:51:13.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lodash-es] lodash vulnerable to Code Injection via `_.template` imports key names",
-      "url": "https://github.com/advisories/GHSA-r5fr-rjxr-66jc",
-      "date": "2026-04-01T23:51:13.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lodash] lodash vulnerable to Code Injection via `_.template` imports key names",
-      "url": "https://github.com/advisories/GHSA-r5fr-rjxr-66jc",
-      "date": "2026-04-01T23:51:13.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lodash.unset] lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`",
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
-      "date": "2026-04-01T23:50:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lodash-amd] lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`",
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
-      "date": "2026-04-01T23:50:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lodash-es] lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`",
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
-      "date": "2026-04-01T23:50:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lodash] lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`",
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
-      "date": "2026-04-01T23:50:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@nocobase/plugin-workflow-sql] NocoBase Has SQL Injection via template variable substitution in workflow SQL node",
-      "url": "https://github.com/advisories/GHSA-vx58-fwwq-5g8j",
-      "date": "2026-04-01T23:44:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[onnx] ONNX: TOCTOU arbitrary file read/write in save_external_dat",
-      "url": "https://github.com/advisories/GHSA-q56x-g2fj-4rj6",
-      "date": "2026-04-01T23:40:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai] PraisonAI Has Authentication Bypass via OAuthManager.validate_token()",
-      "url": "https://github.com/advisories/GHSA-98f9-fqg5-hvq5",
-      "date": "2026-04-01T23:29:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[praisonai] PraisonAI Has Missing Authentication in WebSocket Gateway",
-      "url": "https://github.com/advisories/GHSA-cfh6-vr3j-qc3g",
-      "date": "2026-04-01T23:28:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
