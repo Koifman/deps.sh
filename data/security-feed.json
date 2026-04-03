@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-04-03T03:13:26.464Z",
+  "fetchedAt": "2026-04-03T04:52:43.207Z",
   "entries": [
     {
-      "title": "[openclaw] OpenClaw: Telnyx Webhook Replay Detection Bypass via Base64 Signature Re-encoding",
-      "url": "https://github.com/advisories/GHSA-37v6-fxx8-xjmx",
-      "date": "2026-04-03T02:58:18.000Z",
+      "title": "[ajenti-panel] Ajenti has an authorization bypass during custom package installation",
+      "url": "https://github.com/advisories/GHSA-73jv-44c3-j5p2",
+      "date": "2026-04-03T03:57:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[kedro] Kedro has Arbitrary Code Execution via Malicious Logging Configuration",
+      "url": "https://github.com/advisories/GHSA-9cqf-439c-j96r",
+      "date": "2026-04-03T03:48:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[kedro] Kedro: Path Traversal in versioned dataset loading via unsanitized version string",
+      "url": "https://github.com/advisories/GHSA-6326-w46w-ppjw",
+      "date": "2026-04-03T03:46:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dompurify] DOMPurify ADD_ATTR predicate skips URI validation",
+      "url": "https://github.com/advisories/GHSA-cjmm-f4jc-qw8r",
+      "date": "2026-04-03T03:46:08.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dompurify] DOMPurify USE_PROFILES prototype pollution allows event handlers",
+      "url": "https://github.com/advisories/GHSA-cj63-jhhr-wcxv",
+      "date": "2026-04-03T03:45:08.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dtale] D-Tale: Remote Code Execution through redis/shelf storage",
+      "url": "https://github.com/advisories/GHSA-436g-fhfc-9g5w",
+      "date": "2026-04-03T03:44:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[better-auth] Better Auth Has Two-Factor Authentication Bypass via Premature Session Caching (session.cookieCache)",
+      "url": "https://github.com/advisories/GHSA-xg6x-h9c9-2m83",
+      "date": "2026-04-03T03:29:59.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Discord voice ingress authorization can be bypassed via channel, name, and stale-role validation gaps",
+      "url": "https://github.com/advisories/GHSA-x2m8-53h4-6hch",
+      "date": "2026-04-03T03:27:39.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[openclaw] OpenClaw: Host exec environment overrides miss proxy, TLS, Docker, and Git TLS controls",
-      "url": "https://github.com/advisories/GHSA-9gp8-hjxr-6f34",
-      "date": "2026-04-03T02:57:03.000Z",
+      "title": "[openclaw] OpenClaw: Discord Component Interaction Misclassifies Group DM as Direct Message",
+      "url": "https://github.com/advisories/GHSA-6336-qqw9-v6x6",
+      "date": "2026-04-03T03:26:51.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw runs Discord audio preflight transcription before member authorization",
-      "url": "https://github.com/advisories/GHSA-hhff-fj5f-qg48",
-      "date": "2026-04-03T02:56:23.000Z",
+      "title": "[openclaw] OpenClaw: Endpoint persists after trust decline, leaking gateway credentials",
+      "url": "https://github.com/advisories/GHSA-9f4w-67g7-mqwv",
+      "date": "2026-04-03T03:26:15.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: HTTP operator endpoints lack browser-origin validation in trusted-proxy mode",
-      "url": "https://github.com/advisories/GHSA-mhr7-2xmv-4c4q",
-      "date": "2026-04-03T02:55:08.000Z",
+      "title": "[openclaw] OpenClaw: diffs viewer misclassifies proxied remote requests as loopback when `allowRemoteViewer` is disabled",
+      "url": "https://github.com/advisories/GHSA-3xv9-89fm-7h4r",
+      "date": "2026-04-03T03:24:25.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: MS Teams webhook parses body before JWT validation, enabling unauthenticated resource exhaustion",
-      "url": "https://github.com/advisories/GHSA-p464-m8x6-vhv8",
-      "date": "2026-04-03T02:54:38.000Z",
+      "title": "[openclaw] OpenClaw: Discord Slash Commands Bypass Group DM Channel Allowlist",
+      "url": "https://github.com/advisories/GHSA-rvvf-6vh3-9j43",
+      "date": "2026-04-03T03:23:38.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: Self-Whitelisting in appendLocalMediaParentRoots Allows Arbitrary File Read & Credential Exfiltration",
-      "url": "https://github.com/advisories/GHSA-57gh-m6rq-54cf",
-      "date": "2026-04-03T02:53:59.000Z",
+      "title": "[openclaw] OpenClaw: macOS Tailnet DNS Spoofing & Credential Exfiltration",
+      "url": "https://github.com/advisories/GHSA-q9w8-cf67-r238",
+      "date": "2026-04-03T03:22:33.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] OpenClaw: Media download follows cross-origin redirects with Authorization headers intact",
-      "url": "https://github.com/advisories/GHSA-68v4-hmwv-f43h",
-      "date": "2026-04-03T02:49:42.000Z",
+      "title": "[openclaw] OpenClaw: Telegram legacy allowFrom migration fans default-account trust into all named accounts",
+      "url": "https://github.com/advisories/GHSA-f693-58pc-2gfr",
+      "date": "2026-04-03T03:20:59.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: OpenShell Mirror Sync — Sandbox Escape via Unrestricted File Sync + Symlink Traversal",
-      "url": "https://github.com/advisories/GHSA-cwf8-44x6-32c2",
-      "date": "2026-04-03T02:49:17.000Z",
+      "title": "[openclaw] OpenClaw: Tlon Startup Migration Rehydrates Empty-Array Revocations From File Config",
+      "url": "https://github.com/advisories/GHSA-3pm9-5j7m-59vc",
+      "date": "2026-04-03T03:20:17.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Unbound bootstrap setup codes allow privilege escalation during pairing",
+      "url": "https://github.com/advisories/GHSA-gg9v-mgcp-v6m7",
+      "date": "2026-04-03T03:19:33.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] OpenClaw: Workspace `.env` can override the bundled plugin trust root",
-      "url": "https://github.com/advisories/GHSA-qcj9-wwgw-6gm8",
-      "date": "2026-04-03T02:47:57.000Z",
+      "title": "[openclaw] OpenClaw: Node browser proxy `allowProfiles` bypass through persistent profile mutation and runtime profile selection",
+      "url": "https://github.com/advisories/GHSA-h5hg-h7rr-gpf3",
+      "date": "2026-04-03T03:18:11.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[electron] Electron: Context Isolation bypass via contextBridge VideoFrame transfer",
-      "url": "https://github.com/advisories/GHSA-jfqg-hf23-qpw2",
-      "date": "2026-04-03T02:46:57.000Z",
+      "title": "[openclaw] OpenClaw: Discord voice manager bypasses channel-level member access allowlist",
+      "url": "https://github.com/advisories/GHSA-cqgw-44wg-44rf",
+      "date": "2026-04-03T03:17:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Telegram audio preflight transcription enables resource consumption by unauthorized senders",
+      "url": "https://github.com/advisories/GHSA-m6fx-m8hc-572m",
+      "date": "2026-04-03T03:15:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Paired node escalates to gateway RCE via unrestricted node.event agent dispatch",
+      "url": "https://github.com/advisories/GHSA-gjm7-hw8f-73rq",
+      "date": "2026-04-03T03:15:09.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[electron] Electron: Context Isolation bypass via contextBridge VideoFrame transfer",
-      "url": "https://github.com/advisories/GHSA-jfqg-hf23-qpw2",
-      "date": "2026-04-03T02:46:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[electron] Electron: Context Isolation bypass via contextBridge VideoFrame transfer",
-      "url": "https://github.com/advisories/GHSA-jfqg-hf23-qpw2",
-      "date": "2026-04-03T02:46:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[electron] Electron: AppleScript injection in app.moveToApplicationsFolder on macOS",
-      "url": "https://github.com/advisories/GHSA-5rqw-r77c-jp79",
-      "date": "2026-04-03T02:46:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: AppleScript injection in app.moveToApplicationsFolder on macOS",
-      "url": "https://github.com/advisories/GHSA-5rqw-r77c-jp79",
-      "date": "2026-04-03T02:46:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: AppleScript injection in app.moveToApplicationsFolder on macOS",
-      "url": "https://github.com/advisories/GHSA-5rqw-r77c-jp79",
-      "date": "2026-04-03T02:46:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: AppleScript injection in app.moveToApplicationsFolder on macOS",
-      "url": "https://github.com/advisories/GHSA-5rqw-r77c-jp79",
-      "date": "2026-04-03T02:46:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: Service worker can spoof executeJavaScript IPC replies",
-      "url": "https://github.com/advisories/GHSA-xj5x-m3f3-5x3h",
-      "date": "2026-04-03T02:45:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: Service worker can spoof executeJavaScript IPC replies",
-      "url": "https://github.com/advisories/GHSA-xj5x-m3f3-5x3h",
-      "date": "2026-04-03T02:45:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: Service worker can spoof executeJavaScript IPC replies",
-      "url": "https://github.com/advisories/GHSA-xj5x-m3f3-5x3h",
-      "date": "2026-04-03T02:45:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: Service worker can spoof executeJavaScript IPC replies",
-      "url": "https://github.com/advisories/GHSA-xj5x-m3f3-5x3h",
-      "date": "2026-04-03T02:45:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
