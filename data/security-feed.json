@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-03T20:15:51.000Z",
+  "fetchedAt": "2026-04-03T21:15:24.214Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw: Sandbox file operations use check-then-act, bypassing fd-based TOCTOU defenses",
+      "url": "https://github.com/advisories/GHSA-rm5c-4rmf-vvhw",
+      "date": "2026-04-03T20:16:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[n8n] n8n has XSS in Chat Trigger Node through Custom CSS",
       "url": "https://github.com/advisories/GHSA-3c7f-5hgj-h279",
@@ -133,13 +140,6 @@
       "date": "2026-04-03T03:20:17.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Unbound bootstrap setup codes allow privilege escalation during pairing",
-      "url": "https://github.com/advisories/GHSA-gg9v-mgcp-v6m7",
-      "date": "2026-04-03T03:19:33.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
