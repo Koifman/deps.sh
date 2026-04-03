@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-04-03T15:21:51.795Z",
+  "fetchedAt": "2026-04-03T16:18:30.801Z",
   "entries": [
+    {
+      "title": "[n8n] n8n has XSS in Chat Trigger Node through Custom CSS",
+      "url": "https://github.com/advisories/GHSA-3c7f-5hgj-h279",
+      "date": "2026-04-03T16:07:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM: Unauthenticated OOM Denial of Service via Unbounded `n` Parameter in OpenAI API Server",
+      "url": "https://github.com/advisories/GHSA-3mwp-wvh9-7528",
+      "date": "2026-04-03T15:35:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[fast-jwt] fast-jwt: Cache Confusion via cacheKeyBuilder Collisions Can Return Claims From a Different Token (Identity/Authorization Mixup)",
       "url": "https://github.com/advisories/GHSA-rp9m-7r4c-75qg",
@@ -126,20 +140,6 @@
       "date": "2026-04-03T03:19:33.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Node browser proxy `allowProfiles` bypass through persistent profile mutation and runtime profile selection",
-      "url": "https://github.com/advisories/GHSA-h5hg-h7rr-gpf3",
-      "date": "2026-04-03T03:18:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Discord voice manager bypasses channel-level member access allowlist",
-      "url": "https://github.com/advisories/GHSA-cqgw-44wg-44rf",
-      "date": "2026-04-03T03:17:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
