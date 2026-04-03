@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-04-03T21:15:24.214Z",
+  "fetchedAt": "2026-04-03T22:14:26.432Z",
   "entries": [
     {
-      "title": "[openclaw] OpenClaw: Sandbox file operations use check-then-act, bypassing fd-based TOCTOU defenses",
-      "url": "https://github.com/advisories/GHSA-rm5c-4rmf-vvhw",
-      "date": "2026-04-03T20:16:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n has XSS in Chat Trigger Node through Custom CSS",
-      "url": "https://github.com/advisories/GHSA-3c7f-5hgj-h279",
-      "date": "2026-04-03T16:07:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vllm] vLLM: Unauthenticated OOM Denial of Service via Unbounded `n` Parameter in OpenAI API Server",
-      "url": "https://github.com/advisories/GHSA-3mwp-wvh9-7528",
-      "date": "2026-04-03T15:35:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fast-jwt] fast-jwt: Cache Confusion via cacheKeyBuilder Collisions Can Return Claims From a Different Token (Identity/Authorization Mixup)",
-      "url": "https://github.com/advisories/GHSA-rp9m-7r4c-75qg",
-      "date": "2026-04-03T04:07:10.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[signalk-server] Signal K Server: Arbitrary Prototype Read via `from` Field Bypass",
-      "url": "https://github.com/advisories/GHSA-qh3j-mrg8-f234",
-      "date": "2026-04-03T04:04:23.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[ajenti-panel] Ajenti has an authorization bypass during custom package installation",
-      "url": "https://github.com/advisories/GHSA-73jv-44c3-j5p2",
-      "date": "2026-04-03T03:57:44.000Z",
+      "title": "[bentoml] BentoML: Command Injection in cloud deployment setup script",
+      "url": "https://github.com/advisories/GHSA-fgv4-6jr3-jgfw",
+      "date": "2026-04-03T22:03:24.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[kedro] Kedro has Arbitrary Code Execution via Malicious Logging Configuration",
-      "url": "https://github.com/advisories/GHSA-9cqf-439c-j96r",
-      "date": "2026-04-03T03:48:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[kedro] Kedro: Path Traversal in versioned dataset loading via unsanitized version string",
-      "url": "https://github.com/advisories/GHSA-6326-w46w-ppjw",
-      "date": "2026-04-03T03:46:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dompurify] DOMPurify ADD_ATTR predicate skips URI validation",
-      "url": "https://github.com/advisories/GHSA-cjmm-f4jc-qw8r",
-      "date": "2026-04-03T03:46:08.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[dompurify] DOMPurify USE_PROFILES prototype pollution allows event handlers",
-      "url": "https://github.com/advisories/GHSA-cj63-jhhr-wcxv",
-      "date": "2026-04-03T03:45:08.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[dtale] D-Tale: Remote Code Execution through redis/shelf storage",
-      "url": "https://github.com/advisories/GHSA-436g-fhfc-9g5w",
-      "date": "2026-04-03T03:44:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[better-auth] Better Auth Has Two-Factor Authentication Bypass via Premature Session Caching (session.cookieCache)",
-      "url": "https://github.com/advisories/GHSA-xg6x-h9c9-2m83",
-      "date": "2026-04-03T03:29:59.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Discord voice ingress authorization can be bypassed via channel, name, and stale-role validation gaps",
-      "url": "https://github.com/advisories/GHSA-x2m8-53h4-6hch",
-      "date": "2026-04-03T03:27:39.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Discord Component Interaction Misclassifies Group DM as Direct Message",
-      "url": "https://github.com/advisories/GHSA-6336-qqw9-v6x6",
-      "date": "2026-04-03T03:26:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Endpoint persists after trust decline, leaking gateway credentials",
-      "url": "https://github.com/advisories/GHSA-9f4w-67g7-mqwv",
-      "date": "2026-04-03T03:26:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: diffs viewer misclassifies proxied remote requests as loopback when `allowRemoteViewer` is disabled",
-      "url": "https://github.com/advisories/GHSA-3xv9-89fm-7h4r",
-      "date": "2026-04-03T03:24:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Discord Slash Commands Bypass Group DM Channel Allowlist",
-      "url": "https://github.com/advisories/GHSA-rvvf-6vh3-9j43",
-      "date": "2026-04-03T03:23:38.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: macOS Tailnet DNS Spoofing & Credential Exfiltration",
-      "url": "https://github.com/advisories/GHSA-q9w8-cf67-r238",
-      "date": "2026-04-03T03:22:33.000Z",
+      "title": "[fast-jwt] fast-jwt accepts unknown `crit` header extensions (RFC 7515 violation)",
+      "url": "https://github.com/advisories/GHSA-hm7r-c7qw-ghp6",
+      "date": "2026-04-03T22:01:26.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] OpenClaw: Telegram legacy allowFrom migration fans default-account trust into all named accounts",
-      "url": "https://github.com/advisories/GHSA-f693-58pc-2gfr",
-      "date": "2026-04-03T03:20:59.000Z",
+      "title": "[litellm] LiteLLM: Authentication bypass via OIDC userinfo cache key collision",
+      "url": "https://github.com/advisories/GHSA-jjhc-v7c2-5hh6",
+      "date": "2026-04-03T21:59:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[litellm] LiteLLM: Privilege escalation via unrestricted proxy configuration endpoint",
+      "url": "https://github.com/advisories/GHSA-53mr-6c8q-9789",
+      "date": "2026-04-03T21:59:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mesop] Mesop: Unbounded Thread Creation in WebSocket Handler Leads to Denial of Service",
+      "url": "https://github.com/advisories/GHSA-3jr7-6hqp-x679",
+      "date": "2026-04-03T21:54:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase: Command Injection in Bash Automation Step",
+      "url": "https://github.com/advisories/GHSA-gjw9-34gf-rp6m",
+      "date": "2026-04-03T21:53:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[electron] Electron: Use-after-free in offscreen shared texture release() callback",
+      "url": "https://github.com/advisories/GHSA-8x5q-pvf5-64mp",
+      "date": "2026-04-03T21:52:36.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[electron] Electron: Use-after-free in offscreen shared texture release() callback",
+      "url": "https://github.com/advisories/GHSA-8x5q-pvf5-64mp",
+      "date": "2026-04-03T21:52:36.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[electron] Electron: Use-after-free in offscreen shared texture release() callback",
+      "url": "https://github.com/advisories/GHSA-8x5q-pvf5-64mp",
+      "date": "2026-04-03T21:52:36.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[electron] Electron: Use-after-free in offscreen shared texture release() callback",
+      "url": "https://github.com/advisories/GHSA-8x5q-pvf5-64mp",
+      "date": "2026-04-03T21:52:36.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[vllm] vLLM: Denial of Service via Unbounded Frame Count in video/jpeg Base64 Processing",
+      "url": "https://github.com/advisories/GHSA-pq5c-rjhq-qp7p",
+      "date": "2026-04-03T21:51:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM: Server-Side Request Forgery (SSRF) in `download_bytes_from_url `",
+      "url": "https://github.com/advisories/GHSA-pf3h-qjgv-vcpr",
+      "date": "2026-04-03T21:51:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openexr] OpenEXR: Heap information disclosure in PXR24 decompression via unchecked decompressed size (undo_pxr24_impl)",
+      "url": "https://github.com/advisories/GHSA-vc68-257w-m432",
+      "date": "2026-04-03T21:50:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openexr] OpenEXR: Heap information disclosure in PXR24 decompression via unchecked decompressed size (undo_pxr24_impl)",
+      "url": "https://github.com/advisories/GHSA-vc68-257w-m432",
+      "date": "2026-04-03T21:50:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openexr] OpenEXR: Heap information disclosure in PXR24 decompression via unchecked decompressed size (undo_pxr24_impl)",
+      "url": "https://github.com/advisories/GHSA-vc68-257w-m432",
+      "date": "2026-04-03T21:50:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openexr] OpenEXR: integer overflow to OOB write in uncompress_b44_impl()",
+      "url": "https://github.com/advisories/GHSA-h762-rhv3-h25v",
+      "date": "2026-04-03T21:47:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openexr] OpenEXR: integer overflow to OOB write in uncompress_b44_impl()",
+      "url": "https://github.com/advisories/GHSA-h762-rhv3-h25v",
+      "date": "2026-04-03T21:47:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openexr] OpenEXR: integer overflow to OOB write in uncompress_b44_impl()",
+      "url": "https://github.com/advisories/GHSA-h762-rhv3-h25v",
+      "date": "2026-04-03T21:47:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nyariv/sandboxjs] SandboxJS: Sandbox Escape via Prop Object Leak in New Handler",
+      "url": "https://github.com/advisories/GHSA-hg73-4w7g-q96w",
+      "date": "2026-04-03T21:45:40.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: Tlon Startup Migration Rehydrates Empty-Array Revocations From File Config",
-      "url": "https://github.com/advisories/GHSA-3pm9-5j7m-59vc",
-      "date": "2026-04-03T03:20:17.000Z",
+      "title": "[@nyariv/sandboxjs] SandboxJS: Stack overflow DoS via deeply nested expressions in recursive descent parser",
+      "url": "https://github.com/advisories/GHSA-8pfc-jjgw-6g26",
+      "date": "2026-04-03T21:45:14.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "MODERATE"
     }
   ]
 }
