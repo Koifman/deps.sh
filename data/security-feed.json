@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-02T23:15:50.091Z",
+  "fetchedAt": "2026-04-03T00:50:51.091Z",
   "entries": [
+    {
+      "title": "[telejson] TeleJSON: DOM XSS via unsanitised constructor name in `new Function()`",
+      "url": "https://github.com/advisories/GHSA-ccgf-5rwj-j3hv",
+      "date": "2026-04-02T23:21:26.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[openclaw] OpenClaw: Security Scan Failure Does Not Block Plugin Installation (Fail-Open)",
       "url": "https://github.com/advisories/GHSA-cwq8-6f96-g3q4",
@@ -130,12 +137,6 @@
     {
       "title": "RUSTSEC-2023-0125: Vulnerability in aws-sigv4",
       "url": "https://rustsec.org/advisories/RUSTSEC-2023-0125.html",
-      "date": "2026-04-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0079: Unsoundness in dyn-future",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0079.html",
       "date": "2026-04-02T12:00:00+00:00",
       "ecosystem": "cargo"
     }
