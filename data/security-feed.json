@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-04-03T04:52:43.207Z",
+  "fetchedAt": "2026-04-03T05:38:23.918Z",
   "entries": [
+    {
+      "title": "[fast-jwt] fast-jwt: Cache Confusion via cacheKeyBuilder Collisions Can Return Claims From a Different Token (Identity/Authorization Mixup)",
+      "url": "https://github.com/advisories/GHSA-rp9m-7r4c-75qg",
+      "date": "2026-04-03T04:07:10.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[signalk-server] Signal K Server: Arbitrary Prototype Read via `from` Field Bypass",
+      "url": "https://github.com/advisories/GHSA-qh3j-mrg8-f234",
+      "date": "2026-04-03T04:04:23.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[ajenti-panel] Ajenti has an authorization bypass during custom package installation",
       "url": "https://github.com/advisories/GHSA-73jv-44c3-j5p2",
@@ -126,20 +140,6 @@
       "date": "2026-04-03T03:17:23.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Telegram audio preflight transcription enables resource consumption by unauthorized senders",
-      "url": "https://github.com/advisories/GHSA-m6fx-m8hc-572m",
-      "date": "2026-04-03T03:15:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Paired node escalates to gateway RCE via unrestricted node.event agent dispatch",
-      "url": "https://github.com/advisories/GHSA-gjm7-hw8f-73rq",
-      "date": "2026-04-03T03:15:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
