@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-04-04T03:10:17.936Z",
+  "fetchedAt": "2026-04-04T04:41:27.196Z",
   "entries": [
+    {
+      "title": "[@stablelib/cbor] @stablelib/cbor: Prototype poisoning via `__proto__` map keys in CBOR decoding",
+      "url": "https://github.com/advisories/GHSA-w48f-fwg7-ww6p",
+      "date": "2026-04-04T04:24:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hapi/content] @hapi/content: Regular Expression Denial of Service (ReDoS) in HTTP header parsing",
+      "url": "https://github.com/advisories/GHSA-jg4p-7fhp-p32p",
+      "date": "2026-04-04T04:23:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server: File upload Content-Type override via extension mismatch",
+      "url": "https://github.com/advisories/GHSA-vr5f-2r24-w5hc",
+      "date": "2026-04-04T04:22:11.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] Parse Server: File upload Content-Type override via extension mismatch",
+      "url": "https://github.com/advisories/GHSA-vr5f-2r24-w5hc",
+      "date": "2026-04-04T04:22:11.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[pyload-ng] pyLoad: SSRF in parse_urls API endpoint via unvalidated URL parameter",
+      "url": "https://github.com/advisories/GHSA-2wvg-62qm-gj33",
+      "date": "2026-04-04T04:18:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[replicator] Replicator deserializes untrusted user input",
       "url": "https://github.com/advisories/GHSA-2gmp-34j9-fqjm",
@@ -103,41 +138,6 @@
       "title": "[openexr] OpenEXR: Heap information disclosure in PXR24 decompression via unchecked decompressed size (undo_pxr24_impl)",
       "url": "https://github.com/advisories/GHSA-vc68-257w-m432",
       "date": "2026-04-03T21:50:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openexr] OpenEXR: Heap information disclosure in PXR24 decompression via unchecked decompressed size (undo_pxr24_impl)",
-      "url": "https://github.com/advisories/GHSA-vc68-257w-m432",
-      "date": "2026-04-03T21:50:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openexr] OpenEXR: Heap information disclosure in PXR24 decompression via unchecked decompressed size (undo_pxr24_impl)",
-      "url": "https://github.com/advisories/GHSA-vc68-257w-m432",
-      "date": "2026-04-03T21:50:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openexr] OpenEXR: integer overflow to OOB write in uncompress_b44_impl()",
-      "url": "https://github.com/advisories/GHSA-h762-rhv3-h25v",
-      "date": "2026-04-03T21:47:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openexr] OpenEXR: integer overflow to OOB write in uncompress_b44_impl()",
-      "url": "https://github.com/advisories/GHSA-h762-rhv3-h25v",
-      "date": "2026-04-03T21:47:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openexr] OpenEXR: integer overflow to OOB write in uncompress_b44_impl()",
-      "url": "https://github.com/advisories/GHSA-h762-rhv3-h25v",
-      "date": "2026-04-03T21:47:10.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
