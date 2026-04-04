@@ -1,144 +1,144 @@
 {
-  "fetchedAt": "2026-04-04T05:32:42.244Z",
+  "fetchedAt": "2026-04-04T06:31:21.084Z",
   "entries": [
     {
-      "title": "[@stablelib/cbor] @stablelib/cbor: Prototype poisoning via `__proto__` map keys in CBOR decoding",
-      "url": "https://github.com/advisories/GHSA-w48f-fwg7-ww6p",
-      "date": "2026-04-04T04:24:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@hapi/content] @hapi/content: Regular Expression Denial of Service (ReDoS) in HTTP header parsing",
-      "url": "https://github.com/advisories/GHSA-jg4p-7fhp-p32p",
-      "date": "2026-04-04T04:23:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server: File upload Content-Type override via extension mismatch",
-      "url": "https://github.com/advisories/GHSA-vr5f-2r24-w5hc",
-      "date": "2026-04-04T04:22:11.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] Parse Server: File upload Content-Type override via extension mismatch",
-      "url": "https://github.com/advisories/GHSA-vr5f-2r24-w5hc",
-      "date": "2026-04-04T04:22:11.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[pyload-ng] pyLoad: SSRF in parse_urls API endpoint via unvalidated URL parameter",
-      "url": "https://github.com/advisories/GHSA-2wvg-62qm-gj33",
-      "date": "2026-04-04T04:18:44.000Z",
+      "title": "[lightrag-hku] LightRAG: Hardcoded JWT Signing Secret Allows Authentication Bypass",
+      "url": "https://github.com/advisories/GHSA-mcww-4hxq-hfr3",
+      "date": "2026-04-04T06:14:44.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[replicator] Replicator deserializes untrusted user input",
-      "url": "https://github.com/advisories/GHSA-2gmp-34j9-fqjm",
-      "date": "2026-04-03T23:15:23.000Z",
+      "title": "[directus] Directus: Authenticated Users Can Extract Concealed Fields via Aggregate Queries",
+      "url": "https://github.com/advisories/GHSA-38hg-ww64-rrwc",
+      "date": "2026-04-04T06:13:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[directus] Directus: Unauthenticated Denial of Service via GraphQL Alias Amplification of Expensive Health Check Resolver",
+      "url": "https://github.com/advisories/GHSA-6q22-g298-grjh",
+      "date": "2026-04-04T06:13:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[directus] Directus: GraphQL Alias Amplification Denial of Service Due to Missing Query Cost/Complexity Limits",
+      "url": "https://github.com/advisories/GHSA-ph52-67fq-75wj",
+      "date": "2026-04-04T06:12:54.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[bentoml] BentoML: SSTI via Unsandboxed Jinja2 in Dockerfile Generation",
-      "url": "https://github.com/advisories/GHSA-v959-cwq9-7hr6",
-      "date": "2026-04-03T23:14:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[bentoml] BentoML: Command Injection in cloud deployment setup script",
-      "url": "https://github.com/advisories/GHSA-fgv4-6jr3-jgfw",
-      "date": "2026-04-03T22:03:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-jwt] fast-jwt accepts unknown `crit` header extensions (RFC 7515 violation)",
-      "url": "https://github.com/advisories/GHSA-hm7r-c7qw-ghp6",
-      "date": "2026-04-03T22:01:26.000Z",
+      "title": "[directus] Directus: Sensitive fields exposed in revision history",
+      "url": "https://github.com/advisories/GHSA-mvv8-v4jj-g47j",
+      "date": "2026-04-04T06:12:09.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[litellm] LiteLLM: Authentication bypass via OIDC userinfo cache key collision",
-      "url": "https://github.com/advisories/GHSA-jjhc-v7c2-5hh6",
-      "date": "2026-04-03T21:59:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[litellm] LiteLLM: Privilege escalation via unrestricted proxy configuration endpoint",
-      "url": "https://github.com/advisories/GHSA-53mr-6c8q-9789",
-      "date": "2026-04-03T21:59:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mesop] Mesop: Unbounded Thread Creation in WebSocket Handler Leads to Denial of Service",
-      "url": "https://github.com/advisories/GHSA-3jr7-6hqp-x679",
-      "date": "2026-04-03T21:54:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase: Command Injection in Bash Automation Step",
-      "url": "https://github.com/advisories/GHSA-gjw9-34gf-rp6m",
-      "date": "2026-04-03T21:53:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[electron] Electron: Use-after-free in offscreen shared texture release() callback",
-      "url": "https://github.com/advisories/GHSA-8x5q-pvf5-64mp",
-      "date": "2026-04-03T21:52:36.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[electron] Electron: Use-after-free in offscreen shared texture release() callback",
-      "url": "https://github.com/advisories/GHSA-8x5q-pvf5-64mp",
-      "date": "2026-04-03T21:52:36.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[electron] Electron: Use-after-free in offscreen shared texture release() callback",
-      "url": "https://github.com/advisories/GHSA-8x5q-pvf5-64mp",
-      "date": "2026-04-03T21:52:36.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[electron] Electron: Use-after-free in offscreen shared texture release() callback",
-      "url": "https://github.com/advisories/GHSA-8x5q-pvf5-64mp",
-      "date": "2026-04-03T21:52:36.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[vllm] vLLM: Denial of Service via Unbounded Frame Count in video/jpeg Base64 Processing",
-      "url": "https://github.com/advisories/GHSA-pq5c-rjhq-qp7p",
-      "date": "2026-04-03T21:51:36.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[directus] Directus: TUS Upload Authorization Bypass Allows Arbitrary File Overwrite",
+      "url": "https://github.com/advisories/GHSA-qqmv-5p3g-px89",
+      "date": "2026-04-04T06:11:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
       "title": "[vllm] vLLM: Server-Side Request Forgery (SSRF) in `download_bytes_from_url `",
       "url": "https://github.com/advisories/GHSA-pf3h-qjgv-vcpr",
-      "date": "2026-04-03T21:51:01.000Z",
+      "date": "2026-04-04T06:11:09.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[openexr] OpenEXR: Heap information disclosure in PXR24 decompression via unchecked decompressed size (undo_pxr24_impl)",
-      "url": "https://github.com/advisories/GHSA-vc68-257w-m432",
-      "date": "2026-04-03T21:50:15.000Z",
+      "title": "[directus] Directus: SSRF Protection Bypass via IPv4-Mapped IPv6 Addresses in File Import",
+      "url": "https://github.com/advisories/GHSA-wv3h-5fx7-966h",
+      "date": "2026-04-04T06:10:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[directus] Directus: GraphQL Schema SDL Disclosure Setting",
+      "url": "https://github.com/advisories/GHSA-wxwm-3fxv-mrvx",
+      "date": "2026-04-04T06:10:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[directus] Directus: Open Redirect via Parser Bypass in OAuth2/SAML Authentication Flow",
+      "url": "https://github.com/advisories/GHSA-cf45-hxwj-4cfj",
+      "date": "2026-04-04T06:09:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[directus] Directus: Open Redirect in Admin 2FA Setup Page",
+      "url": "https://github.com/advisories/GHSA-q75c-4gmv-mg9x",
+      "date": "2026-04-04T06:08:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[directus] Directus: Path Traversal and Broken Access Control in File Management API",
+      "url": "https://github.com/advisories/GHSA-393c-p46r-7c95",
+      "date": "2026-04-04T06:06:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[directus] Directus: Missing Cross-Origin Opener Policy",
+      "url": "https://github.com/advisories/GHSA-8m32-p958-jg99",
+      "date": "2026-04-04T06:06:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase: Unauthenticated Remote Code Execution via Webhook Trigger and Bash Automation Step",
+      "url": "https://github.com/advisories/GHSA-fcm4-4pj2-m5hf",
+      "date": "2026-04-04T06:04:59.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@budibase/server] Budibase: Path traversal in plugin file upload enables arbitrary directory deletion and file write",
+      "url": "https://github.com/advisories/GHSA-2wfh-rcwf-wh23",
+      "date": "2026-04-04T06:04:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[agno] Agno is vulnerable to Eval Injection",
+      "url": "https://github.com/advisories/GHSA-77rh-m34w-rv36",
+      "date": "2026-04-04T06:02:28.000Z",
       "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[fast-filesystem-mcp] fast-filesystem-mcp is vulnerable to command injection through handleGetDiskUsage function",
+      "url": "https://github.com/advisories/GHSA-5226-3rvg-hp4x",
+      "date": "2026-04-04T05:39:07.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@mobilenext/mobile-mcp] @mobilenext/mobile-mcp: Arbitrary Android Intent Execution via mobile_open_url",
+      "url": "https://github.com/advisories/GHSA-5qhv-x9j4-c3vm",
+      "date": "2026-04-04T05:37:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[a11y-mcp] a11y-mcp: Server-Side Request Forgery (SSRF) vulnerability in A11yServer function",
+      "url": "https://github.com/advisories/GHSA-prmx-7v35-7q82",
+      "date": "2026-04-04T05:35:53.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@stablelib/cbor] @stablelib/cbor: Stack exhaustion Denial of Service via deeply nested CBOR arrays, maps, or tags",
+      "url": "https://github.com/advisories/GHSA-5jg4-p4qw-cgfr",
+      "date": "2026-04-04T05:33:10.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
