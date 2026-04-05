@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-04-05T04:57:09.234Z",
+  "fetchedAt": "2026-04-05T05:39:36.438Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0079: Unsoundness in dyn-future",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0079.html",
+      "date": "2026-04-05T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0080: Unsoundness in scaly",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0080.html",
+      "date": "2026-04-05T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[tornado] Tornado has cookie attribute injection via .RequestHandler.set_cookie",
       "url": "https://github.com/advisories/GHSA-fqwm-6jpj-5wxc",
@@ -126,20 +138,6 @@
       "date": "2026-04-04T06:09:58.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[directus] Directus: Open Redirect in Admin 2FA Setup Page",
-      "url": "https://github.com/advisories/GHSA-q75c-4gmv-mg9x",
-      "date": "2026-04-04T06:08:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[directus] Directus: Path Traversal and Broken Access Control in File Management API",
-      "url": "https://github.com/advisories/GHSA-393c-p46r-7c95",
-      "date": "2026-04-04T06:06:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
