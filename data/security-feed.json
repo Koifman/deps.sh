@@ -1,141 +1,144 @@
 {
-  "fetchedAt": "2026-04-06T17:23:33.455Z",
+  "fetchedAt": "2026-04-06T18:28:26.373Z",
   "entries": [
     {
-      "title": "RUSTSEC-2026-0081: logtrace contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0081.html",
-      "date": "2026-04-05T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[vite] Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
+      "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
+      "date": "2026-04-06T18:03:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0079: Unsoundness in dyn-future",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0079.html",
-      "date": "2026-04-05T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[vite] Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
+      "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
+      "date": "2026-04-06T18:03:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0080: Unsoundness in scaly",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0080.html",
-      "date": "2026-04-05T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[vite] Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
+      "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
+      "date": "2026-04-06T18:03:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "[tornado] Tornado has cookie attribute injection via .RequestHandler.set_cookie",
-      "url": "https://github.com/advisories/GHSA-fqwm-6jpj-5wxc",
-      "date": "2026-04-04T06:45:03.000Z",
+      "title": "[vite] Vite: `server.fs.deny` bypassed with queries",
+      "url": "https://github.com/advisories/GHSA-v2wj-q39q-566r",
+      "date": "2026-04-06T18:03:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vite] Vite: `server.fs.deny` bypassed with queries",
+      "url": "https://github.com/advisories/GHSA-v2wj-q39q-566r",
+      "date": "2026-04-06T18:03:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vite] Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket",
+      "url": "https://github.com/advisories/GHSA-p9ff-h696-f583",
+      "date": "2026-04-06T18:03:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vite] Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket",
+      "url": "https://github.com/advisories/GHSA-p9ff-h696-f583",
+      "date": "2026-04-06T18:03:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vite] Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket",
+      "url": "https://github.com/advisories/GHSA-p9ff-h696-f583",
+      "date": "2026-04-06T18:03:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@elgentos/magento2-dev-mcp] @elgentos/magento2-dev-mcp vulnerable to command injection",
+      "url": "https://github.com/advisories/GHSA-xqv9-qr76-hfq2",
+      "date": "2026-04-06T18:02:41.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@nor2/heim-mcp] @nor2/heim-mcp vulnerable to command injection",
+      "url": "https://github.com/advisories/GHSA-wx4p-jr66-jfp9",
+      "date": "2026-04-06T18:01:50.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[strawberry-graphql] strawberry-graphql: Denial of Service via unbounded WebSocket subscriptions",
+      "url": "https://github.com/advisories/GHSA-hv3w-m4g2-5x77",
+      "date": "2026-04-06T18:00:30.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[pyload-ng] pyLoad: Unprotected storage_folder enables arbitrary file write to Flask session store and code execution (Incomplete fix for CVE-2026-33509)",
-      "url": "https://github.com/advisories/GHSA-4744-96p5-mp2j",
-      "date": "2026-04-04T06:43:37.000Z",
+      "title": "[strawberry-graphql] strawberry-graphql: Authentication bypass via legacy graphql-ws WebSocket subprotocol",
+      "url": "https://github.com/advisories/GHSA-vpwc-v33q-mq89",
+      "date": "2026-04-06T18:00:27.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[pyload-ng] pyLoad: Improper Neutralization of Special Elements used in an OS Command",
-      "url": "https://github.com/advisories/GHSA-w48f-wwwf-f5fr",
-      "date": "2026-04-04T06:42:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyload-ng] pyLoad: SSRF filter bypass via HTTP redirect in BaseDownloader (Incomplete fix for CVE-2026-33992)",
-      "url": "https://github.com/advisories/GHSA-7gvf-3w72-p2pg",
-      "date": "2026-04-04T06:41:09.000Z",
+      "title": "[changedetection.io] changedetection.io Vulnerable to Authentication Bypass via Decorator Ordering",
+      "url": "https://github.com/advisories/GHSA-jmrh-xmgh-x9j4",
+      "date": "2026-04-06T18:00:02.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "[web3] web3.py: SSRF via CCIP Read (EIP-3668) OffchainLookup URL handling",
-      "url": "https://github.com/advisories/GHSA-5hr4-253g-cpx2",
-      "date": "2026-04-04T06:38:12.000Z",
+      "title": "[@nestjs/core] @nestjs/core Improperly Neutralizes Special Elements in Output Used by a Downstream Component ('Injection')",
+      "url": "https://github.com/advisories/GHSA-36xv-jgw5-4q75",
+      "date": "2026-04-06T17:59:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[kedro-datasets] kedro-datasets has a path traversal vulnerability in PartitionedDataset that allows arbitrary file write",
+      "url": "https://github.com/advisories/GHSA-cjg8-h5qc-hrjv",
+      "date": "2026-04-06T17:55:15.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[web3] web3.py: SSRF via CCIP Read (EIP-3668) OffchainLookup URL handling",
-      "url": "https://github.com/advisories/GHSA-5hr4-253g-cpx2",
-      "date": "2026-04-04T06:38:12.000Z",
+      "title": "[OpenEXR] OpenEXR has heap-buffer-overflow via signed integer underflow in ImfContextInit.cpp",
+      "url": "https://github.com/advisories/GHSA-q6vj-wxvf-5m8c",
+      "date": "2026-04-06T17:51:38.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: Gemini OAuth exposed the PKCE verifier through the OAuth state parameter",
-      "url": "https://github.com/advisories/GHSA-9jpj-g8vv-j5mf",
-      "date": "2026-04-04T06:26:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[defu] defu: Prototype pollution via `__proto__` key in defaults argument",
-      "url": "https://github.com/advisories/GHSA-737v-mqg7-c878",
-      "date": "2026-04-04T06:17:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lightrag-hku] LightRAG: Hardcoded JWT Signing Secret Allows Authentication Bypass",
-      "url": "https://github.com/advisories/GHSA-mcww-4hxq-hfr3",
-      "date": "2026-04-04T06:14:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[directus] Directus: Authenticated Users Can Extract Concealed Fields via Aggregate Queries",
-      "url": "https://github.com/advisories/GHSA-38hg-ww64-rrwc",
-      "date": "2026-04-04T06:13:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[directus] Directus: Unauthenticated Denial of Service via GraphQL Alias Amplification of Expensive Health Check Resolver",
-      "url": "https://github.com/advisories/GHSA-6q22-g298-grjh",
-      "date": "2026-04-04T06:13:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[directus] Directus: GraphQL Alias Amplification Denial of Service Due to Missing Query Cost/Complexity Limits",
-      "url": "https://github.com/advisories/GHSA-ph52-67fq-75wj",
-      "date": "2026-04-04T06:12:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[directus] Directus: Sensitive fields exposed in revision history",
-      "url": "https://github.com/advisories/GHSA-mvv8-v4jj-g47j",
-      "date": "2026-04-04T06:12:09.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[directus] Directus: TUS Upload Authorization Bypass Allows Arbitrary File Overwrite",
-      "url": "https://github.com/advisories/GHSA-qqmv-5p3g-px89",
-      "date": "2026-04-04T06:11:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vllm] vLLM: Server-Side Request Forgery (SSRF) in `download_bytes_from_url `",
-      "url": "https://github.com/advisories/GHSA-pf3h-qjgv-vcpr",
-      "date": "2026-04-04T06:11:09.000Z",
+      "title": "[OpenEXR] OpenEXR has heap-buffer-overflow via signed integer underflow in ImfContextInit.cpp",
+      "url": "https://github.com/advisories/GHSA-q6vj-wxvf-5m8c",
+      "date": "2026-04-06T17:51:38.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[directus] Directus: SSRF Protection Bypass via IPv4-Mapped IPv6 Addresses in File Import",
-      "url": "https://github.com/advisories/GHSA-wv3h-5fx7-966h",
-      "date": "2026-04-04T06:10:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[OpenEXR] OpenEXR has use after free in PyObject_StealAttrString",
+      "url": "https://github.com/advisories/GHSA-57cw-j6vp-2p9m",
+      "date": "2026-04-06T17:51:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "[directus] Directus: GraphQL Schema SDL Disclosure Setting",
-      "url": "https://github.com/advisories/GHSA-wxwm-3fxv-mrvx",
-      "date": "2026-04-04T06:10:28.000Z",
-      "ecosystem": "npm",
+      "title": "[OpenEXR] OpenEXR has use after free in PyObject_StealAttrString",
+      "url": "https://github.com/advisories/GHSA-57cw-j6vp-2p9m",
+      "date": "2026-04-06T17:51:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[OpenEXR] OpenEXR has use after free in PyObject_StealAttrString",
+      "url": "https://github.com/advisories/GHSA-57cw-j6vp-2p9m",
+      "date": "2026-04-06T17:51:24.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
