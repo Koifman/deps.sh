@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-04-06T18:31:26.772Z",
+  "scannedAt": "2026-04-06T19:31:49.515Z",
   "count": 97,
   "packages": [
     {
@@ -111,8 +111,8 @@
       "currentOwner": "mugen87"
     },
     {
-      "name": "enzyme-adapter-utils",
-      "version": "1.14.2",
+      "name": "enzyme-adapter-react-16",
+      "version": "1.15.8",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -120,8 +120,8 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "enzyme-adapter-react-16",
-      "version": "1.15.8",
+      "name": "enzyme-adapter-utils",
+      "version": "1.14.2",
       "ecosystem": "npm",
       "score": 40,
       "level": "MODERATE",
@@ -273,21 +273,21 @@
       "currentOwner": "michaelficarra"
     },
     {
-      "name": "is-array-buffer",
-      "version": "3.0.5",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "fengyuanchen",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "string.prototype.trimend",
       "version": "1.0.9",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
       "previousOwner": "khaledelansari",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "is-array-buffer",
+      "version": "3.0.5",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "fengyuanchen",
       "currentOwner": "ljharb"
     },
     {
@@ -336,15 +336,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "cloudevents",
-      "version": "10.0.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "tjanczuk",
-      "currentOwner": "lholmquist"
-    },
-    {
       "name": "embla-carousel-autoplay",
       "version": "8.6.0",
       "ecosystem": "npm",
@@ -352,6 +343,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "cloudevents",
+      "version": "10.0.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "tjanczuk",
+      "currentOwner": "lholmquist"
     },
     {
       "name": "eslint",
@@ -516,7 +516,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/storage-js",
+      "name": "@supabase/realtime-js",
       "version": "2.101.1",
       "ecosystem": "npm",
       "score": 22,
@@ -525,7 +525,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/realtime-js",
+      "name": "@supabase/storage-js",
       "version": "2.101.1",
       "ecosystem": "npm",
       "score": 22,
@@ -849,15 +849,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "@lottiefiles/dotlottie-web",
       "version": "0.70.0",
       "ecosystem": "npm",
@@ -865,6 +856,15 @@
       "level": "LOW",
       "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     },
     {
       "name": "@oxc-minify/binding-linux-x64-musl",
