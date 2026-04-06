@@ -1,144 +1,144 @@
 {
-  "fetchedAt": "2026-04-06T22:16:25.380Z",
+  "fetchedAt": "2026-04-06T23:17:56.127Z",
   "entries": [
     {
-      "title": "[vite] Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
-      "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
-      "date": "2026-04-06T18:03:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vite] Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
-      "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
-      "date": "2026-04-06T18:03:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vite] Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
-      "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
-      "date": "2026-04-06T18:03:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vite] Vite: `server.fs.deny` bypassed with queries",
-      "url": "https://github.com/advisories/GHSA-v2wj-q39q-566r",
-      "date": "2026-04-06T18:03:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vite] Vite: `server.fs.deny` bypassed with queries",
-      "url": "https://github.com/advisories/GHSA-v2wj-q39q-566r",
-      "date": "2026-04-06T18:03:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vite] Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket",
-      "url": "https://github.com/advisories/GHSA-p9ff-h696-f583",
-      "date": "2026-04-06T18:03:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vite] Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket",
-      "url": "https://github.com/advisories/GHSA-p9ff-h696-f583",
-      "date": "2026-04-06T18:03:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vite] Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket",
-      "url": "https://github.com/advisories/GHSA-p9ff-h696-f583",
-      "date": "2026-04-06T18:03:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@elgentos/magento2-dev-mcp] @elgentos/magento2-dev-mcp vulnerable to command injection",
-      "url": "https://github.com/advisories/GHSA-xqv9-qr76-hfq2",
-      "date": "2026-04-06T18:02:41.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@nor2/heim-mcp] @nor2/heim-mcp vulnerable to command injection",
-      "url": "https://github.com/advisories/GHSA-wx4p-jr66-jfp9",
-      "date": "2026-04-06T18:01:50.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[strawberry-graphql] strawberry-graphql: Denial of Service via unbounded WebSocket subscriptions",
-      "url": "https://github.com/advisories/GHSA-hv3w-m4g2-5x77",
-      "date": "2026-04-06T18:00:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[strawberry-graphql] strawberry-graphql: Authentication bypass via legacy graphql-ws WebSocket subprotocol",
-      "url": "https://github.com/advisories/GHSA-vpwc-v33q-mq89",
-      "date": "2026-04-06T18:00:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[changedetection.io] changedetection.io Vulnerable to Authentication Bypass via Decorator Ordering",
-      "url": "https://github.com/advisories/GHSA-jmrh-xmgh-x9j4",
-      "date": "2026-04-06T18:00:02.000Z",
+      "title": "[mlflow] mlflow: FastAPI job endpoints under `/ajax-api/3.0/jobs/*` are not protected by authentication or authorization",
+      "url": "https://github.com/advisories/GHSA-7qhf-v65m-g5f3",
+      "date": "2026-04-06T23:08:07.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "[@nestjs/core] @nestjs/core Improperly Neutralizes Special Elements in Output Used by a Downstream Component ('Injection')",
-      "url": "https://github.com/advisories/GHSA-36xv-jgw5-4q75",
-      "date": "2026-04-06T17:59:51.000Z",
+      "title": "[pymetasploit3] pymetasploit3 vulnerable to command injection in console.run_module_with_output()",
+      "url": "https://github.com/advisories/GHSA-qpc3-8vqg-8g6w",
+      "date": "2026-04-06T23:07:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] OpenClaw's complex interpreter pipelines could skip exec script preflight validation",
+      "url": "https://github.com/advisories/GHSA-fvx6-pj3r-5q4q",
+      "date": "2026-04-06T22:53:50.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[kedro-datasets] kedro-datasets has a path traversal vulnerability in PartitionedDataset that allows arbitrary file write",
-      "url": "https://github.com/advisories/GHSA-cjg8-h5qc-hrjv",
-      "date": "2026-04-06T17:55:15.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's complex interpreter pipelines could skip exec script preflight validation",
+      "url": "https://github.com/advisories/GHSA-rf75-g96h-j3rm",
+      "date": "2026-04-06T22:53:37.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[OpenEXR] OpenEXR has heap-buffer-overflow via signed integer underflow in ImfContextInit.cpp",
-      "url": "https://github.com/advisories/GHSA-q6vj-wxvf-5m8c",
-      "date": "2026-04-06T17:51:38.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's Nextcloud Talk webhook missing rate limiting on shared secret authentication",
+      "url": "https://github.com/advisories/GHSA-gm9m-x74r-8whg",
+      "date": "2026-04-06T22:53:21.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[OpenEXR] OpenEXR has heap-buffer-overflow via signed integer underflow in ImfContextInit.cpp",
-      "url": "https://github.com/advisories/GHSA-q6vj-wxvf-5m8c",
-      "date": "2026-04-06T17:51:38.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Zalo webhook rate limiting could be bypassed before secret validation",
+      "url": "https://github.com/advisories/GHSA-cxfr-3qp8-hpmw",
+      "date": "2026-04-06T22:50:10.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[OpenEXR] OpenEXR has use after free in PyObject_StealAttrString",
-      "url": "https://github.com/advisories/GHSA-57cw-j6vp-2p9m",
-      "date": "2026-04-06T17:51:24.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Workspace plugin auto-discovery allowed code execution from cloned repositories",
+      "url": "https://github.com/advisories/GHSA-j5qh-5234-4rqp",
+      "date": "2026-04-06T22:49:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Plugin subagent routes could bypass gateway authorization with synthetic admin scopes",
+      "url": "https://github.com/advisories/GHSA-phgf-3849-rgjq",
+      "date": "2026-04-06T22:49:20.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's skills-install-download can be redirected outside the tools root by rebinding the validated base path",
+      "url": "https://github.com/advisories/GHSA-6q2v-vfwp-pvwh",
+      "date": "2026-04-06T22:46:35.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[OpenEXR] OpenEXR has use after free in PyObject_StealAttrString",
-      "url": "https://github.com/advisories/GHSA-57cw-j6vp-2p9m",
-      "date": "2026-04-06T17:51:24.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw session transcript files were created without forced user-only permissions",
+      "url": "https://github.com/advisories/GHSA-9q8j-chc7-wpgp",
+      "date": "2026-04-06T22:46:20.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[OpenEXR] OpenEXR has use after free in PyObject_StealAttrString",
-      "url": "https://github.com/advisories/GHSA-57cw-j6vp-2p9m",
-      "date": "2026-04-06T17:51:24.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw affected by SSRF via unguarded image download in fal provider",
+      "url": "https://github.com/advisories/GHSA-35cq-wv6v-88xf",
+      "date": "2026-04-06T22:45:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's MS Teams sender allowlist bypass when route allowlist is configured and sender allowlist is empty",
+      "url": "https://github.com/advisories/GHSA-xg59-f45v-9r9j",
+      "date": "2026-04-06T22:45:44.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Sandbox `writeFile` commit could race outside the validated path",
+      "url": "https://github.com/advisories/GHSA-xxj4-96ph-g6j6",
+      "date": "2026-04-06T22:45:29.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: /pair approve command path omitted caller scope subsetting and reopened device pairing escalation",
+      "url": "https://github.com/advisories/GHSA-f275-5h5c-5wg5",
+      "date": "2026-04-06T22:39:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Node-host approvals could show misleading shell payloads instead of the executed argv",
+      "url": "https://github.com/advisories/GHSA-w8rf-7qf8-65ww",
+      "date": "2026-04-06T22:37:24.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's system.run approvals did not bind mutable script operands across approval and execution",
+      "url": "https://github.com/advisories/GHSA-wwrj-437c-ppq4",
+      "date": "2026-04-06T22:37:08.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Unbound interpreter and runtime commands could bypass node-host approval integrity",
+      "url": "https://github.com/advisories/GHSA-wmgj-hrx3-23gj",
+      "date": "2026-04-06T22:36:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Unrecognized script runners could bypass `system.run` approval integrity",
+      "url": "https://github.com/advisories/GHSA-rwwx-25m7-ww73",
+      "date": "2026-04-06T22:35:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Feishu webhook mode accepted forged events when only `verificationToken` was configured",
+      "url": "https://github.com/advisories/GHSA-vjqw-w5jr-g9w5",
+      "date": "2026-04-06T22:32:23.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vite] Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
+      "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
+      "date": "2026-04-06T18:03:46.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
