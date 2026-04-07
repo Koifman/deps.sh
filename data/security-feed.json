@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-04-07T21:22:37.738Z",
+  "fetchedAt": "2026-04-07T22:18:46.800Z",
   "entries": [
+    {
+      "title": "[kedro-datasets] kedro-datasets has a path traversal vulnerability in PartitionedDataset that allows arbitrary file write",
+      "url": "https://github.com/advisories/GHSA-cjg8-h5qc-hrjv",
+      "date": "2026-04-07T22:09:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[changedetection.io] changedetection.io Vulnerable to Authentication Bypass via Decorator Ordering",
+      "url": "https://github.com/advisories/GHSA-jmrh-xmgh-x9j4",
+      "date": "2026-04-07T22:09:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[monai] MONAI: Unsafe functions lead to pickle deserialization rce",
       "url": "https://github.com/advisories/GHSA-89gg-p5r5-q6r4",
@@ -124,20 +138,6 @@
       "title": "[openclaw] OpenClaw: OpenShell `mirror` mode can convert untrusted sandbox files into explicitly enabled workspace hooks and execute them on the host during gateway startup",
       "url": "https://github.com/advisories/GHSA-42mx-vp8m-j7qh",
       "date": "2026-04-07T18:11:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Gateway operator.write Can Reach Admin-Class Telegram Config and Cron Persistence via send",
-      "url": "https://github.com/advisories/GHSA-767m-xrhc-fxm7",
-      "date": "2026-04-07T18:11:16.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: `session_status` still bypasses configured `tools.sessions.visibility` for unsandboxed invocations",
-      "url": "https://github.com/advisories/GHSA-fwjq-xwfj-gv75",
-      "date": "2026-04-07T18:11:11.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
