@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-04-06T23:17:56.127Z",
+  "fetchedAt": "2026-04-07T00:51:55.923Z",
   "entries": [
+    {
+      "title": "[onnx] ONNX Untrusted Model Repository Warnings Suppressed by silent=True in onnx.hub.load() — Silent Supply-Chain Attack",
+      "url": "https://github.com/advisories/GHSA-hqmj-h5c6-369m",
+      "date": "2026-04-06T23:11:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI Has Path Traversal in FileTools",
+      "url": "https://github.com/advisories/GHSA-693f-pf34-72c5",
+      "date": "2026-04-06T23:09:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI recipe registry publish path traversal allows out-of-root file write",
+      "url": "https://github.com/advisories/GHSA-r9x3-wx45-2v7f",
+      "date": "2026-04-06T23:09:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI recipe registry pull path traversal writes files outside the chosen output directory",
+      "url": "https://github.com/advisories/GHSA-4rx4-4r3x-6534",
+      "date": "2026-04-06T23:09:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI Vulnerable to Arbitrary File Write / Path Traversal in Action Orchestrator",
+      "url": "https://github.com/advisories/GHSA-jfxc-v5g9-38xr",
+      "date": "2026-04-06T23:09:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI Has Arbitrary File Write (Zip Slip) in Templates Extraction",
+      "url": "https://github.com/advisories/GHSA-4ph2-f6pf-79wv",
+      "date": "2026-04-06T23:08:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[mlflow] mlflow: FastAPI job endpoints under `/ajax-api/3.0/jobs/*` are not protected by authentication or authorization",
       "url": "https://github.com/advisories/GHSA-7qhf-v65m-g5f3",
@@ -98,48 +140,6 @@
       "date": "2026-04-06T22:39:03.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Node-host approvals could show misleading shell payloads instead of the executed argv",
-      "url": "https://github.com/advisories/GHSA-w8rf-7qf8-65ww",
-      "date": "2026-04-06T22:37:24.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's system.run approvals did not bind mutable script operands across approval and execution",
-      "url": "https://github.com/advisories/GHSA-wwrj-437c-ppq4",
-      "date": "2026-04-06T22:37:08.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Unbound interpreter and runtime commands could bypass node-host approval integrity",
-      "url": "https://github.com/advisories/GHSA-wmgj-hrx3-23gj",
-      "date": "2026-04-06T22:36:13.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Unrecognized script runners could bypass `system.run` approval integrity",
-      "url": "https://github.com/advisories/GHSA-rwwx-25m7-ww73",
-      "date": "2026-04-06T22:35:51.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Feishu webhook mode accepted forged events when only `verificationToken` was configured",
-      "url": "https://github.com/advisories/GHSA-vjqw-w5jr-g9w5",
-      "date": "2026-04-06T22:32:23.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vite] Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
-      "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
-      "date": "2026-04-06T18:03:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
