@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-04-07T19:33:28.131Z",
+  "scannedAt": "2026-04-07T20:21:56.082Z",
   "count": 97,
   "packages": [
     {
@@ -46,15 +46,6 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "tinymce",
-      "version": "8.4.0",
-      "ecosystem": "npm",
-      "score": 50,
-      "level": "HIGH",
-      "previousOwner": "spocke",
-      "currentOwner": "tinymce"
     },
     {
       "name": "karma",
@@ -237,15 +228,6 @@
       "currentOwner": "hzoo"
     },
     {
-      "name": "js-library-detector",
-      "version": "6.7.0",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "johnmichel",
-      "currentOwner": "housseindjirdeh"
-    },
-    {
       "name": "mark.js",
       "version": "8.11.1",
       "ecosystem": "npm",
@@ -255,6 +237,15 @@
       "currentOwner": "julmot"
     },
     {
+      "name": "js-library-detector",
+      "version": "6.7.0",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "johnmichel",
+      "currentOwner": "housseindjirdeh"
+    },
+    {
       "name": "coffeescript",
       "version": "2.7.0",
       "ecosystem": "npm",
@@ -262,6 +253,15 @@
       "level": "MODERATE",
       "previousOwner": "isaacs",
       "currentOwner": "geoffreybooth"
+    },
+    {
+      "name": "broccoli-babel-transpiler",
+      "version": "8.0.2",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "sebmck",
+      "currentOwner": "katiegengler"
     },
     {
       "name": "@appium/support",
@@ -354,15 +354,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "embla-carousel-autoplay",
-      "version": "8.6.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "davidcetinkaya",
-      "currentOwner": "davidjerleke"
-    },
-    {
       "name": "cloudevents",
       "version": "10.0.0",
       "ecosystem": "npm",
@@ -370,6 +361,15 @@
       "level": "MODERATE",
       "previousOwner": "tjanczuk",
       "currentOwner": "lholmquist"
+    },
+    {
+      "name": "embla-carousel-autoplay",
+      "version": "8.6.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "davidcetinkaya",
+      "currentOwner": "davidjerleke"
     },
     {
       "name": "eslint",
@@ -588,15 +588,6 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
-    },
-    {
       "name": "openid-client",
       "version": "6.8.2",
       "ecosystem": "npm",
@@ -604,6 +595,15 @@
       "level": "MODERATE",
       "previousOwner": "panva",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
     },
     {
       "name": "oxc-parser",
@@ -858,15 +858,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "@oxc-minify/binding-linux-x64-musl",
       "version": "0.124.0",
       "ecosystem": "npm",
@@ -874,6 +865,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     }
   ]
 }
