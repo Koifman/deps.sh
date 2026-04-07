@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-04-07T13:38:35.053Z",
+  "fetchedAt": "2026-04-07T14:41:55.635Z",
   "entries": [
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Gemini OAuth exposed the PKCE verifier through the OAuth state parameter",
+      "url": "https://github.com/advisories/GHSA-ch86-pxr9-j9h9",
+      "date": "2026-04-07T14:24:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vite] Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
+      "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
+      "date": "2026-04-07T14:18:33.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vite] Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
+      "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
+      "date": "2026-04-07T14:18:33.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[onnx] ONNX Untrusted Model Repository Warnings Suppressed by silent=True in onnx.hub.load() — Silent Supply-Chain Attack",
       "url": "https://github.com/advisories/GHSA-hqmj-h5c6-369m",
@@ -119,27 +140,6 @@
       "date": "2026-04-06T22:45:59.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's MS Teams sender allowlist bypass when route allowlist is configured and sender allowlist is empty",
-      "url": "https://github.com/advisories/GHSA-xg59-f45v-9r9j",
-      "date": "2026-04-06T22:45:44.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Sandbox `writeFile` commit could race outside the validated path",
-      "url": "https://github.com/advisories/GHSA-xxj4-96ph-g6j6",
-      "date": "2026-04-06T22:45:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: /pair approve command path omitted caller scope subsetting and reopened device pairing escalation",
-      "url": "https://github.com/advisories/GHSA-f275-5h5c-5wg5",
-      "date": "2026-04-06T22:39:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
