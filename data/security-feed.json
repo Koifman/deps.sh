@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-07T16:30:12.237Z",
+  "fetchedAt": "2026-04-07T17:27:43.755Z",
   "entries": [
+    {
+      "title": "[fast-jwt] fast-jwt: Incomplete fix for CVE-2023-48223: JWT Algorithm Confusion via Whitespace-Prefixed RSA Public Key",
+      "url": "https://github.com/advisories/GHSA-mvf2-f6gm-w987",
+      "date": "2026-04-07T17:06:20.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[electron] Electron: Crash in clipboard.readImage() on malformed clipboard image data",
       "url": "https://github.com/advisories/GHSA-f37v-82c4-4x64",
@@ -131,13 +138,6 @@
       "title": "[openclaw] OpenClaw's complex interpreter pipelines could skip exec script preflight validation",
       "url": "https://github.com/advisories/GHSA-fvx6-pj3r-5q4q",
       "date": "2026-04-06T22:53:50.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's complex interpreter pipelines could skip exec script preflight validation",
-      "url": "https://github.com/advisories/GHSA-rf75-g96h-j3rm",
-      "date": "2026-04-06T22:53:37.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
