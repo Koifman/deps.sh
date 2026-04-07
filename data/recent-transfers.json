@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-04-07T00:54:36.861Z",
+  "scannedAt": "2026-04-07T01:45:35.343Z",
   "count": 96,
   "packages": [
     {
@@ -319,7 +319,7 @@
     },
     {
       "name": "oxlint",
-      "version": "1.58.0",
+      "version": "1.59.0",
       "ecosystem": "npm",
       "score": 30,
       "level": "MODERATE",
@@ -589,7 +589,7 @@
     },
     {
       "name": "oxfmt",
-      "version": "0.43.0",
+      "version": "0.44.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -733,7 +733,7 @@
     },
     {
       "name": "oxc-transform",
-      "version": "0.123.0",
+      "version": "0.124.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -750,8 +750,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
-      "version": "0.123.0",
+      "name": "@oxlint/binding-linux-x64-gnu",
+      "version": "1.59.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -759,8 +759,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-gnu",
-      "version": "1.58.0",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "version": "0.124.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -778,7 +778,7 @@
     },
     {
       "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.43.0",
+      "version": "0.44.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -796,7 +796,7 @@
     },
     {
       "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.58.0",
+      "version": "1.59.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -805,7 +805,7 @@
     },
     {
       "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.123.0",
+      "version": "0.124.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -814,16 +814,7 @@
     },
     {
       "name": "oxc-minify",
-      "version": "0.123.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.123.0",
+      "version": "0.124.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -832,7 +823,16 @@
     },
     {
       "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.43.0",
+      "version": "0.44.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.124.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -859,7 +859,7 @@
     },
     {
       "name": "@oxc-minify/binding-linux-x64-musl",
-      "version": "0.123.0",
+      "version": "0.124.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
