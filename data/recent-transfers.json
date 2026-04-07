@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-04-07T10:31:58.616Z",
+  "scannedAt": "2026-04-07T11:29:04.154Z",
   "count": 97,
   "packages": [
     {
@@ -192,8 +192,8 @@
       "currentOwner": "msftapplicationinsights"
     },
     {
-      "name": "heimdalljs-logger",
-      "version": "0.1.10",
+      "name": "heimdalljs",
+      "version": "0.2.6",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -201,8 +201,8 @@
       "currentOwner": "stefanpenner"
     },
     {
-      "name": "heimdalljs",
-      "version": "0.2.6",
+      "name": "heimdalljs-logger",
+      "version": "0.1.10",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -526,7 +526,7 @@
     },
     {
       "name": "@supabase/storage-js",
-      "version": "2.102.0",
+      "version": "2.102.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -544,7 +544,7 @@
     },
     {
       "name": "@supabase/realtime-js",
-      "version": "2.102.0",
+      "version": "2.102.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -553,7 +553,7 @@
     },
     {
       "name": "@supabase/supabase-js",
-      "version": "2.102.0",
+      "version": "2.102.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -642,15 +642,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "redux-saga",
-      "version": "1.4.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "yelouafi",
-      "currentOwner": "redux-saga-release-bot"
-    },
-    {
       "name": "@appium/schema",
       "version": "1.1.0",
       "ecosystem": "npm",
@@ -660,17 +651,17 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/logger",
-      "version": "2.0.5",
+      "name": "redux-saga",
+      "version": "1.4.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
+      "previousOwner": "yelouafi",
+      "currentOwner": "redux-saga-release-bot"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.1.2",
+      "name": "@appium/logger",
+      "version": "2.0.5",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -684,6 +675,15 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "fengyuanchen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/tsconfig",
+      "version": "1.1.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
