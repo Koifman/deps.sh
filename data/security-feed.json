@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-07T20:19:14.531Z",
+  "fetchedAt": "2026-04-07T21:22:37.738Z",
   "entries": [
+    {
+      "title": "[monai] MONAI: Unsafe functions lead to pickle deserialization rce",
+      "url": "https://github.com/advisories/GHSA-89gg-p5r5-q6r4",
+      "date": "2026-04-07T20:17:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[openclaw] OpenClaw: Android accepted cleartext remote gateway endpoints and sent stored credentials over ws://",
       "url": "https://github.com/advisories/GHSA-83f3-hh45-vfw9",
@@ -131,13 +138,6 @@
       "title": "[openclaw] OpenClaw: `session_status` still bypasses configured `tools.sessions.visibility` for unsandboxed invocations",
       "url": "https://github.com/advisories/GHSA-fwjq-xwfj-gv75",
       "date": "2026-04-07T18:11:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Gateway operator.write Can Reach Admin-Class Talk Voice Config Persistence via chat.send",
-      "url": "https://github.com/advisories/GHSA-3q42-xmxv-9vfr",
-      "date": "2026-04-07T18:11:03.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
