@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-04-07T05:43:02.486Z",
-  "count": 96,
+  "scannedAt": "2026-04-07T06:44:15.945Z",
+  "count": 97,
   "packages": [
     {
       "name": "xmldom",
@@ -190,6 +190,15 @@
       "level": "MODERATE",
       "previousOwner": "microsoft",
       "currentOwner": "msftapplicationinsights"
+    },
+    {
+      "name": "heimdalljs",
+      "version": "0.2.6",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "hjdivad",
+      "currentOwner": "stefanpenner"
     },
     {
       "name": "is-plain-object",
@@ -444,21 +453,21 @@
       "currentOwner": "redux-saga-release-bot"
     },
     {
-      "name": "dependency-cruiser",
-      "version": "17.3.10",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "sverweij",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/base-driver",
       "version": "10.2.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "dependency-cruiser",
+      "version": "17.3.10",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "sverweij",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -507,6 +516,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@supabase/storage-js",
+      "version": "2.101.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "kiwicopple",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@supabase/realtime-js",
       "version": "2.101.1",
       "ecosystem": "npm",
@@ -517,15 +535,6 @@
     },
     {
       "name": "@supabase/supabase-js",
-      "version": "2.101.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "kiwicopple",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@supabase/storage-js",
       "version": "2.101.1",
       "ecosystem": "npm",
       "score": 22,
@@ -552,8 +561,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
+      "name": "css-has-pseudo",
+      "version": "8.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -561,8 +570,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.0",
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -615,15 +624,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "redux-saga",
-      "version": "1.4.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "yelouafi",
-      "currentOwner": "redux-saga-release-bot"
-    },
-    {
       "name": "@appium/types",
       "version": "1.2.1",
       "ecosystem": "npm",
@@ -631,6 +631,15 @@
       "level": "MODERATE",
       "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "redux-saga",
+      "version": "1.4.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "yelouafi",
+      "currentOwner": "redux-saga-release-bot"
     },
     {
       "name": "@appium/schema",
@@ -642,8 +651,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.1.2",
+      "name": "@appium/logger",
+      "version": "2.0.5",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -651,8 +660,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/logger",
-      "version": "2.0.5",
+      "name": "@appium/tsconfig",
+      "version": "1.1.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -777,21 +786,21 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "pe-library",
-      "version": "2.0.1",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "jet2jet",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxfmt/binding-linux-x64-gnu",
       "version": "0.44.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "pe-library",
+      "version": "2.0.1",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "jet2jet",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -840,15 +849,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lottiefiles/dotlottie-web",
-      "version": "0.70.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "tesseract.js-core",
       "version": "6.1.2",
       "ecosystem": "npm",
@@ -856,6 +856,15 @@
       "level": "LOW",
       "previousOwner": "antimatter15",
       "currentOwner": "balearica"
+    },
+    {
+      "name": "@lottiefiles/dotlottie-web",
+      "version": "0.70.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxc-minify/binding-linux-x64-musl",
