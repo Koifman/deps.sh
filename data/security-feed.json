@@ -1,24 +1,73 @@
 {
-  "fetchedAt": "2026-04-07T15:37:33.147Z",
+  "fetchedAt": "2026-04-07T16:30:12.237Z",
   "entries": [
+    {
+      "title": "[electron] Electron: Crash in clipboard.readImage() on malformed clipboard image data",
+      "url": "https://github.com/advisories/GHSA-f37v-82c4-4x64",
+      "date": "2026-04-07T15:52:32.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[electron] Electron: Crash in clipboard.readImage() on malformed clipboard image data",
+      "url": "https://github.com/advisories/GHSA-f37v-82c4-4x64",
+      "date": "2026-04-07T15:52:32.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[electron] Electron: Crash in clipboard.readImage() on malformed clipboard image data",
+      "url": "https://github.com/advisories/GHSA-f37v-82c4-4x64",
+      "date": "2026-04-07T15:52:32.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[electron] Electron: Crash in clipboard.readImage() on malformed clipboard image data",
+      "url": "https://github.com/advisories/GHSA-f37v-82c4-4x64",
+      "date": "2026-04-07T15:52:32.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[electron] Electron: Named window.open targets not scoped to the opener's browsing context",
+      "url": "https://github.com/advisories/GHSA-f3pv-wv63-48x8",
+      "date": "2026-04-07T15:52:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[electron] Electron: Named window.open targets not scoped to the opener's browsing context",
+      "url": "https://github.com/advisories/GHSA-f3pv-wv63-48x8",
+      "date": "2026-04-07T15:52:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[electron] Electron: Named window.open targets not scoped to the opener's browsing context",
+      "url": "https://github.com/advisories/GHSA-f3pv-wv63-48x8",
+      "date": "2026-04-07T15:52:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[electron] Electron: Named window.open targets not scoped to the opener's browsing context",
+      "url": "https://github.com/advisories/GHSA-f3pv-wv63-48x8",
+      "date": "2026-04-07T15:52:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lupa] Lupa has a Sandbox escape and RCE due to incomplete attribute_filter enforcement in getattr / setattr",
+      "url": "https://github.com/advisories/GHSA-69v7-xpr6-6gjm",
+      "date": "2026-04-07T15:48:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[openclaw] Duplicate Advisory: OpenClaw: Gemini OAuth exposed the PKCE verifier through the OAuth state parameter",
       "url": "https://github.com/advisories/GHSA-ch86-pxr9-j9h9",
       "date": "2026-04-07T14:24:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vite] Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
-      "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
-      "date": "2026-04-07T14:18:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vite] Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
-      "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
-      "date": "2026-04-07T14:18:33.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
@@ -89,55 +138,6 @@
       "title": "[openclaw] Duplicate Advisory: OpenClaw's complex interpreter pipelines could skip exec script preflight validation",
       "url": "https://github.com/advisories/GHSA-rf75-g96h-j3rm",
       "date": "2026-04-06T22:53:37.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's Nextcloud Talk webhook missing rate limiting on shared secret authentication",
-      "url": "https://github.com/advisories/GHSA-gm9m-x74r-8whg",
-      "date": "2026-04-06T22:53:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Zalo webhook rate limiting could be bypassed before secret validation",
-      "url": "https://github.com/advisories/GHSA-cxfr-3qp8-hpmw",
-      "date": "2026-04-06T22:50:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Workspace plugin auto-discovery allowed code execution from cloned repositories",
-      "url": "https://github.com/advisories/GHSA-j5qh-5234-4rqp",
-      "date": "2026-04-06T22:49:34.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Plugin subagent routes could bypass gateway authorization with synthetic admin scopes",
-      "url": "https://github.com/advisories/GHSA-phgf-3849-rgjq",
-      "date": "2026-04-06T22:49:20.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's skills-install-download can be redirected outside the tools root by rebinding the validated base path",
-      "url": "https://github.com/advisories/GHSA-6q2v-vfwp-pvwh",
-      "date": "2026-04-06T22:46:35.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw session transcript files were created without forced user-only permissions",
-      "url": "https://github.com/advisories/GHSA-9q8j-chc7-wpgp",
-      "date": "2026-04-06T22:46:20.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw affected by SSRF via unguarded image download in fal provider",
-      "url": "https://github.com/advisories/GHSA-35cq-wv6v-88xf",
-      "date": "2026-04-06T22:45:59.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
