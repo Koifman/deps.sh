@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-04-07T17:27:43.755Z",
+  "fetchedAt": "2026-04-07T18:28:09.430Z",
   "entries": [
     {
-      "title": "[fast-jwt] fast-jwt: Incomplete fix for CVE-2023-48223: JWT Algorithm Confusion via Whitespace-Prefixed RSA Public Key",
-      "url": "https://github.com/advisories/GHSA-mvf2-f6gm-w987",
-      "date": "2026-04-07T17:06:20.000Z",
+      "title": "[openclaw] OpenClaw: iOS A2UI bridge trusted generic local-network pages for agent.request dispatch",
+      "url": "https://github.com/advisories/GHSA-4p4f-fc8q-84m3",
+      "date": "2026-04-07T18:15:05.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "MODERATE"
     },
     {
-      "title": "[electron] Electron: Crash in clipboard.readImage() on malformed clipboard image data",
-      "url": "https://github.com/advisories/GHSA-f37v-82c4-4x64",
-      "date": "2026-04-07T15:52:32.000Z",
+      "title": "[openclaw] OpenClaw: QQ Bot structured payloads could read arbitrary local files",
+      "url": "https://github.com/advisories/GHSA-846p-hgpv-vphc",
+      "date": "2026-04-07T18:15:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: OpenShell mirror mode could delete arbitrary remote directories when roots were mis-scoped",
+      "url": "https://github.com/advisories/GHSA-m34q-h93w-vg5x",
+      "date": "2026-04-07T18:14:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Zalo replay dedupe cache could suppress events across authenticated webhook targets",
+      "url": "https://github.com/advisories/GHSA-fqrj-m88p-qf3v",
+      "date": "2026-04-07T18:14:52.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[electron] Electron: Crash in clipboard.readImage() on malformed clipboard image data",
-      "url": "https://github.com/advisories/GHSA-f37v-82c4-4x64",
-      "date": "2026-04-07T15:52:32.000Z",
+      "title": "[openclaw] OpenClaw: Pairing pending-request caps were enforced per channel instead of per account",
+      "url": "https://github.com/advisories/GHSA-wwfp-w96m-c6x8",
+      "date": "2026-04-07T18:14:45.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Forged Nostr DMs could create pairing state before signature verification",
+      "url": "https://github.com/advisories/GHSA-h43v-27wg-5mf9",
+      "date": "2026-04-07T18:14:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Shell init-file options could satisfy exec allowlist script matching",
+      "url": "https://github.com/advisories/GHSA-wpc6-37g7-8q4w",
+      "date": "2026-04-07T18:14:37.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: OpenShell `mirror` mode can convert untrusted sandbox files into explicitly enabled workspace hooks and execute them on the host during gateway startup",
+      "url": "https://github.com/advisories/GHSA-42mx-vp8m-j7qh",
+      "date": "2026-04-07T18:11:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Gateway operator.write Can Reach Admin-Class Telegram Config and Cron Persistence via send",
+      "url": "https://github.com/advisories/GHSA-767m-xrhc-fxm7",
+      "date": "2026-04-07T18:11:16.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[electron] Electron: Crash in clipboard.readImage() on malformed clipboard image data",
-      "url": "https://github.com/advisories/GHSA-f37v-82c4-4x64",
-      "date": "2026-04-07T15:52:32.000Z",
+      "title": "[openclaw] OpenClaw: `session_status` still bypasses configured `tools.sessions.visibility` for unsandboxed invocations",
+      "url": "https://github.com/advisories/GHSA-fwjq-xwfj-gv75",
+      "date": "2026-04-07T18:11:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Gateway operator.write Can Reach Admin-Class Talk Voice Config Persistence via chat.send",
+      "url": "https://github.com/advisories/GHSA-3q42-xmxv-9vfr",
+      "date": "2026-04-07T18:11:03.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw Has Incomplete Fix for CVE-2026-4039: CLI Backend Environment Variable Injection via Workspace Config",
+      "url": "https://github.com/advisories/GHSA-vfw7-6rhc-6xxg",
+      "date": "2026-04-07T18:10:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Marketplace Plugin Download Follows Redirects Without SSRF Protection",
+      "url": "https://github.com/advisories/GHSA-vjx8-8p7h-82gr",
+      "date": "2026-04-07T18:10:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Tlon media downloads can bypass core safety limits and exhaust disk",
+      "url": "https://github.com/advisories/GHSA-4g5x-2jfc-xm98",
+      "date": "2026-04-07T18:10:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[OpenClaw] Duplicate Advisory: OpenClaw: Unavailable local auth SecretRefs could fall through to remote credentials in local mode",
+      "url": "https://github.com/advisories/GHSA-vm29-7mq3-9jrg",
+      "date": "2026-04-07T18:10:19.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[electron] Electron: Crash in clipboard.readImage() on malformed clipboard image data",
-      "url": "https://github.com/advisories/GHSA-f37v-82c4-4x64",
-      "date": "2026-04-07T15:52:32.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[electron] Electron: Named window.open targets not scoped to the opener's browsing context",
-      "url": "https://github.com/advisories/GHSA-f3pv-wv63-48x8",
-      "date": "2026-04-07T15:52:27.000Z",
+      "title": "[openclaw] OpenClaw: `/phone arm`/`/phone disarm` Bypasses `operator.admin` Scope Check for External Channels",
+      "url": "https://github.com/advisories/GHSA-h2v7-xc88-xx8c",
+      "date": "2026-04-07T18:10:06.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[electron] Electron: Named window.open targets not scoped to the opener's browsing context",
-      "url": "https://github.com/advisories/GHSA-f3pv-wv63-48x8",
-      "date": "2026-04-07T15:52:27.000Z",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw has Bypass in Webhook Rate Limiting via Pre-Authentication Secret Validation",
+      "url": "https://github.com/advisories/GHSA-8288-jpqp-95fx",
+      "date": "2026-04-07T18:04:59.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[electron] Electron: Named window.open targets not scoped to the opener's browsing context",
-      "url": "https://github.com/advisories/GHSA-f3pv-wv63-48x8",
-      "date": "2026-04-07T15:52:27.000Z",
+      "title": "[@fedify/fedify] Fedify affected by resource exhaustion caused by unbounded redirect following during remote key/document resolution",
+      "url": "https://github.com/advisories/GHSA-gm9m-gwc4-hwgp",
+      "date": "2026-04-07T18:04:11.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: Named window.open targets not scoped to the opener's browsing context",
-      "url": "https://github.com/advisories/GHSA-f3pv-wv63-48x8",
-      "date": "2026-04-07T15:52:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lupa] Lupa has a Sandbox escape and RCE due to incomplete attribute_filter enforcement in getattr / setattr",
-      "url": "https://github.com/advisories/GHSA-69v7-xpr6-6gjm",
-      "date": "2026-04-07T15:48:16.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Gemini OAuth exposed the PKCE verifier through the OAuth state parameter",
-      "url": "https://github.com/advisories/GHSA-ch86-pxr9-j9h9",
-      "date": "2026-04-07T14:24:12.000Z",
+      "title": "[@fedify/fedify] Fedify affected by resource exhaustion caused by unbounded redirect following during remote key/document resolution",
+      "url": "https://github.com/advisories/GHSA-gm9m-gwc4-hwgp",
+      "date": "2026-04-07T18:04:11.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[onnx] ONNX Untrusted Model Repository Warnings Suppressed by silent=True in onnx.hub.load() — Silent Supply-Chain Attack",
-      "url": "https://github.com/advisories/GHSA-hqmj-h5c6-369m",
-      "date": "2026-04-06T23:11:56.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[PraisonAI] PraisonAI Has Path Traversal in FileTools",
-      "url": "https://github.com/advisories/GHSA-693f-pf34-72c5",
-      "date": "2026-04-06T23:09:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI recipe registry publish path traversal allows out-of-root file write",
-      "url": "https://github.com/advisories/GHSA-r9x3-wx45-2v7f",
-      "date": "2026-04-06T23:09:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI recipe registry pull path traversal writes files outside the chosen output directory",
-      "url": "https://github.com/advisories/GHSA-4rx4-4r3x-6534",
-      "date": "2026-04-06T23:09:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI Vulnerable to Arbitrary File Write / Path Traversal in Action Orchestrator",
-      "url": "https://github.com/advisories/GHSA-jfxc-v5g9-38xr",
-      "date": "2026-04-06T23:09:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI Has Arbitrary File Write (Zip Slip) in Templates Extraction",
-      "url": "https://github.com/advisories/GHSA-4ph2-f6pf-79wv",
-      "date": "2026-04-06T23:08:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mlflow] mlflow: FastAPI job endpoints under `/ajax-api/3.0/jobs/*` are not protected by authentication or authorization",
-      "url": "https://github.com/advisories/GHSA-7qhf-v65m-g5f3",
-      "date": "2026-04-06T23:08:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[pymetasploit3] pymetasploit3 vulnerable to command injection in console.run_module_with_output()",
-      "url": "https://github.com/advisories/GHSA-qpc3-8vqg-8g6w",
-      "date": "2026-04-06T23:07:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw's complex interpreter pipelines could skip exec script preflight validation",
-      "url": "https://github.com/advisories/GHSA-fvx6-pj3r-5q4q",
-      "date": "2026-04-06T22:53:50.000Z",
+      "title": "[@fedify/fedify] Fedify affected by resource exhaustion caused by unbounded redirect following during remote key/document resolution",
+      "url": "https://github.com/advisories/GHSA-gm9m-gwc4-hwgp",
+      "date": "2026-04-07T18:04:11.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     }
   ]
 }
