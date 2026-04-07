@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-04-07T22:18:46.800Z",
+  "fetchedAt": "2026-04-07T23:19:25.658Z",
   "entries": [
+    {
+      "title": "[sglang] SGLang's multimodal generation module is vulnerable to unauthenticated remote code execution through the ZMQ broker",
+      "url": "https://github.com/advisories/GHSA-rgq9-fqf5-fv58",
+      "date": "2026-04-07T22:14:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[sglang] SGLang's encoder parallel disaggregation system is vulnerable to unauthenticated remote code execution through the disaggregation module",
+      "url": "https://github.com/advisories/GHSA-jx93-g359-86wm",
+      "date": "2026-04-07T22:14:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[sglang] SGLangs `replay_request_dump.py` contains an insecure pickle.load() without validation and proper deserialization",
+      "url": "https://github.com/advisories/GHSA-hvwj-8w5g-28rg",
+      "date": "2026-04-07T22:14:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI Has Path Traversal in FileTools",
+      "url": "https://github.com/advisories/GHSA-693f-pf34-72c5",
+      "date": "2026-04-07T22:10:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI recipe registry publish path traversal allows out-of-root file write",
+      "url": "https://github.com/advisories/GHSA-r9x3-wx45-2v7f",
+      "date": "2026-04-07T22:10:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI recipe registry pull path traversal writes files outside the chosen output directory",
+      "url": "https://github.com/advisories/GHSA-4rx4-4r3x-6534",
+      "date": "2026-04-07T22:10:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI Vulnerable to Arbitrary File Write / Path Traversal in Action Orchestrator",
+      "url": "https://github.com/advisories/GHSA-jfxc-v5g9-38xr",
+      "date": "2026-04-07T22:10:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI Has Arbitrary File Write (Zip Slip) in Templates Extraction",
+      "url": "https://github.com/advisories/GHSA-4ph2-f6pf-79wv",
+      "date": "2026-04-07T22:09:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[strawberry-graphql] strawberry-graphql: Denial of Service via unbounded WebSocket subscriptions",
+      "url": "https://github.com/advisories/GHSA-hv3w-m4g2-5x77",
+      "date": "2026-04-07T22:09:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[strawberry-graphql] strawberry-graphql: Authentication bypass via legacy graphql-ws WebSocket subprotocol",
+      "url": "https://github.com/advisories/GHSA-vpwc-v33q-mq89",
+      "date": "2026-04-07T22:09:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[kedro-datasets] kedro-datasets has a path traversal vulnerability in PartitionedDataset that allows arbitrary file write",
       "url": "https://github.com/advisories/GHSA-cjg8-h5qc-hrjv",
@@ -68,76 +138,6 @@
       "title": "[openclaw] OpenClaw: Gateway hello snapshots exposed host config and state paths to non-admin clients",
       "url": "https://github.com/advisories/GHSA-2f7j-rp58-mr42",
       "date": "2026-04-07T18:15:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Untrusted workspace channel shadows could execute during built-in channel setup",
-      "url": "https://github.com/advisories/GHSA-2qrv-rc5x-2g2h",
-      "date": "2026-04-07T18:15:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Read-scoped identity-bearing HTTP clients could kill sessions via /sessions/:sessionKey/kill",
-      "url": "https://github.com/advisories/GHSA-5hff-46vh-rxmw",
-      "date": "2026-04-07T18:15:39.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: iOS A2UI bridge trusted generic local-network pages for agent.request dispatch",
-      "url": "https://github.com/advisories/GHSA-4p4f-fc8q-84m3",
-      "date": "2026-04-07T18:15:05.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: QQ Bot structured payloads could read arbitrary local files",
-      "url": "https://github.com/advisories/GHSA-846p-hgpv-vphc",
-      "date": "2026-04-07T18:15:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: OpenShell mirror mode could delete arbitrary remote directories when roots were mis-scoped",
-      "url": "https://github.com/advisories/GHSA-m34q-h93w-vg5x",
-      "date": "2026-04-07T18:14:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Zalo replay dedupe cache could suppress events across authenticated webhook targets",
-      "url": "https://github.com/advisories/GHSA-fqrj-m88p-qf3v",
-      "date": "2026-04-07T18:14:52.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Pairing pending-request caps were enforced per channel instead of per account",
-      "url": "https://github.com/advisories/GHSA-wwfp-w96m-c6x8",
-      "date": "2026-04-07T18:14:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Forged Nostr DMs could create pairing state before signature verification",
-      "url": "https://github.com/advisories/GHSA-h43v-27wg-5mf9",
-      "date": "2026-04-07T18:14:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Shell init-file options could satisfy exec allowlist script matching",
-      "url": "https://github.com/advisories/GHSA-wpc6-37g7-8q4w",
-      "date": "2026-04-07T18:14:37.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: OpenShell `mirror` mode can convert untrusted sandbox files into explicitly enabled workspace hooks and execute them on the host during gateway startup",
-      "url": "https://github.com/advisories/GHSA-42mx-vp8m-j7qh",
-      "date": "2026-04-07T18:11:21.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
