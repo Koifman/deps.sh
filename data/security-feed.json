@@ -1,6 +1,132 @@
 {
-  "fetchedAt": "2026-04-08T00:52:21.008Z",
+  "fetchedAt": "2026-04-08T01:42:01.731Z",
   "entries": [
+    {
+      "title": "[emmett] Emmett has a path traversal in internal assets handler",
+      "url": "https://github.com/advisories/GHSA-pr46-2v3c-5356",
+      "date": "2026-04-08T00:18:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[mlflow] MLflow is vulnerable to an authorization bypass affecting the AJAX endpoint",
+      "url": "https://github.com/advisories/GHSA-46r5-x6jq-v8g6",
+      "date": "2026-04-08T00:18:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyload-ng] pyload-ng has a WebUI JSON permission mismatch that lets ADD/DELETE users invoke MODIFY-only actions",
+      "url": "https://github.com/advisories/GHSA-rfgh-63mg-8pwm",
+      "date": "2026-04-08T00:18:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[transformers] HuggingFace Transformers allows for arbitrary code execution in the `Trainer` class",
+      "url": "https://github.com/advisories/GHSA-69w3-r845-3855",
+      "date": "2026-04-08T00:17:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lightrag-hku] lightrag-hku: JWT Algorithm Confusion Vulnerability",
+      "url": "https://github.com/advisories/GHSA-8ffj-4hx4-9pgf",
+      "date": "2026-04-08T00:17:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono: Non-breaking space prefix bypass in cookie name handling in getCookie()",
+      "url": "https://github.com/advisories/GHSA-r5rp-j6wh-rvv4",
+      "date": "2026-04-08T00:17:24.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono has incorrect IP matching in ipRestriction() for IPv4-mapped IPv6 addresses",
+      "url": "https://github.com/advisories/GHSA-xpcf-pg52-r92g",
+      "date": "2026-04-08T00:17:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono missing validation of cookie name on write path in setCookie()",
+      "url": "https://github.com/advisories/GHSA-26pp-8wgv-hjvm",
+      "date": "2026-04-08T00:17:04.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono: Path traversal in toSSG() allows writing files outside the output directory",
+      "url": "https://github.com/advisories/GHSA-xf4j-xp2r-rqqx",
+      "date": "2026-04-08T00:16:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono: Middleware bypass via repeated slashes in serveStatic",
+      "url": "https://github.com/advisories/GHSA-wmmm-f939-6g9c",
+      "date": "2026-04-08T00:16:49.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@hono/node-server] @hono/node-server: Middleware bypass via repeated slashes in serveStatic",
+      "url": "https://github.com/advisories/GHSA-92pp-h63x-v22m",
+      "date": "2026-04-08T00:16:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[jwcrypto] JWCrypto: JWE ZIP decompression bomb",
+      "url": "https://github.com/advisories/GHSA-fjrm-76x2-c4q4",
+      "date": "2026-04-08T00:16:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw-claude-bridge] openclaw-claude-bridge: sandbox is not effective - `--allowed-tools \"\"` does not restrict available tools",
+      "url": "https://github.com/advisories/GHSA-7853-gqqm-vcwx",
+      "date": "2026-04-08T00:16:09.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@delmaredigital/payload-puck] @delmaredigital/payload-puc is missing authorization on /api/puck/* CRUD endpoints allows unauthenticated access to Puck-registered collections",
+      "url": "https://github.com/advisories/GHSA-65w6-pf7x-5g85",
+      "date": "2026-04-08T00:15:54.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[drizzle-orm] Drizzle ORM has SQL injection via improperly escaped SQL identifiers",
+      "url": "https://github.com/advisories/GHSA-gpj5-g38j-94v9",
+      "date": "2026-04-08T00:14:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[drizzle-orm] Drizzle ORM has SQL injection via improperly escaped SQL identifiers",
+      "url": "https://github.com/advisories/GHSA-gpj5-g38j-94v9",
+      "date": "2026-04-08T00:14:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server's Endpoint `/sessions/me` bypasses `_Session` `protectedFields`",
+      "url": "https://github.com/advisories/GHSA-g4v2-qx3q-4p64",
+      "date": "2026-04-08T00:14:53.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server's Endpoint `/sessions/me` bypasses `_Session` `protectedFields`",
+      "url": "https://github.com/advisories/GHSA-g4v2-qx3q-4p64",
+      "date": "2026-04-08T00:14:53.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[fastfeedparser] FastFeedParser has an infinite redirect loop DoS via meta-refresh chain",
       "url": "https://github.com/advisories/GHSA-4gx2-pc4f-wq37",
@@ -13,132 +139,6 @@
       "url": "https://github.com/advisories/GHSA-x8rx-789c-2pxq",
       "date": "2026-04-08T00:12:07.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[skilleton] skilleton has improper input handling in repository/path processing",
-      "url": "https://github.com/advisories/GHSA-5g3j-89fr-r2vp",
-      "date": "2026-04-08T00:07:38.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server has a login timing side-channel reveals user existence",
-      "url": "https://github.com/advisories/GHSA-mmpq-5hcv-hf2v",
-      "date": "2026-04-08T00:07:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server has a login timing side-channel reveals user existence",
-      "url": "https://github.com/advisories/GHSA-mmpq-5hcv-hf2v",
-      "date": "2026-04-08T00:07:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyblade] PyBlade: SSTI/RCE via Bypassed AST Validation in sandbox.py",
-      "url": "https://github.com/advisories/GHSA-23jg-5f8m-gw8c",
-      "date": "2026-04-08T00:06:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[justhtml] justhtml: Mutation XSS with custom foreign-namespace sanitization policies",
-      "url": "https://github.com/advisories/GHSA-r758-8hxw-4845",
-      "date": "2026-04-08T00:06:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[coursevault-preview] coursevault-preview has a path traversal due to improper base-directory boundary validation",
-      "url": "https://github.com/advisories/GHSA-9h9m-rr67-9jpg",
-      "date": "2026-04-08T00:06:05.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyload-ng] pyload-ng: Incomplete Tar Path Traversal Fix in UnTar._safe_extractall via os.path.commonprefix Bypass",
-      "url": "https://github.com/advisories/GHSA-mvwx-582f-56r7",
-      "date": "2026-04-08T00:04:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyload-ng] pyload-ng: Authorization Bypass for SSL Certificate/Key Configuration Due to Option Name Mismatch in pyload-ng",
-      "url": "https://github.com/advisories/GHSA-ppvx-rwh9-7rj7",
-      "date": "2026-04-08T00:04:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[litellm] LiteLLM: Password hash exposure and pass-the-hash authentication bypass",
-      "url": "https://github.com/advisories/GHSA-69x8-hrgq-fjj8",
-      "date": "2026-04-08T00:04:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sglang] SGLang's multimodal generation module is vulnerable to unauthenticated remote code execution through the ZMQ broker",
-      "url": "https://github.com/advisories/GHSA-rgq9-fqf5-fv58",
-      "date": "2026-04-07T22:14:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[sglang] SGLang's encoder parallel disaggregation system is vulnerable to unauthenticated remote code execution through the disaggregation module",
-      "url": "https://github.com/advisories/GHSA-jx93-g359-86wm",
-      "date": "2026-04-07T22:14:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[sglang] SGLangs `replay_request_dump.py` contains an insecure pickle.load() without validation and proper deserialization",
-      "url": "https://github.com/advisories/GHSA-hvwj-8w5g-28rg",
-      "date": "2026-04-07T22:14:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI Has Path Traversal in FileTools",
-      "url": "https://github.com/advisories/GHSA-693f-pf34-72c5",
-      "date": "2026-04-07T22:10:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI recipe registry publish path traversal allows out-of-root file write",
-      "url": "https://github.com/advisories/GHSA-r9x3-wx45-2v7f",
-      "date": "2026-04-07T22:10:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI recipe registry pull path traversal writes files outside the chosen output directory",
-      "url": "https://github.com/advisories/GHSA-4rx4-4r3x-6534",
-      "date": "2026-04-07T22:10:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI Vulnerable to Arbitrary File Write / Path Traversal in Action Orchestrator",
-      "url": "https://github.com/advisories/GHSA-jfxc-v5g9-38xr",
-      "date": "2026-04-07T22:10:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI Has Arbitrary File Write (Zip Slip) in Templates Extraction",
-      "url": "https://github.com/advisories/GHSA-4ph2-f6pf-79wv",
-      "date": "2026-04-07T22:09:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[strawberry-graphql] strawberry-graphql: Denial of Service via unbounded WebSocket subscriptions",
-      "url": "https://github.com/advisories/GHSA-hv3w-m4g2-5x77",
-      "date": "2026-04-07T22:09:50.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
