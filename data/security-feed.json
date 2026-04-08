@@ -1,6 +1,97 @@
 {
-  "fetchedAt": "2026-04-08T18:36:21.787Z",
+  "fetchedAt": "2026-04-08T19:36:02.077Z",
   "entries": [
+    {
+      "title": "[stata-mcp] stata-mcp has insufficient validation of user-supplied Stata do-file content that can lead to command execution",
+      "url": "https://github.com/advisories/GHSA-jpcj-7wfg-mqxv",
+      "date": "2026-04-08T19:24:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pretix] pretix: API leaks check-in data between events of the same organizer",
+      "url": "https://github.com/advisories/GHSA-wr8q-c73g-m7gp",
+      "date": "2026-04-08T19:23:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pretix] pretix: API leaks check-in data between events of the same organizer",
+      "url": "https://github.com/advisories/GHSA-wr8q-c73g-m7gp",
+      "date": "2026-04-08T19:23:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pretix] pretix: API leaks check-in data between events of the same organizer",
+      "url": "https://github.com/advisories/GHSA-wr8q-c73g-m7gp",
+      "date": "2026-04-08T19:23:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[cryptography] Cryptography vulnerable to buffer overflow if non-contiguous buffers were passed to APIs",
+      "url": "https://github.com/advisories/GHSA-p423-j2cm-9vmq",
+      "date": "2026-04-08T19:23:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@frontmcp/adapters] mcp-from-openapi is Vulnerable to SSRF via $ref Dereferencing in Untrusted OpenAPI Specifications",
+      "url": "https://github.com/advisories/GHSA-v6ph-xcq9-qxxj",
+      "date": "2026-04-08T19:22:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@frontmcp/sdk] mcp-from-openapi is Vulnerable to SSRF via $ref Dereferencing in Untrusted OpenAPI Specifications",
+      "url": "https://github.com/advisories/GHSA-v6ph-xcq9-qxxj",
+      "date": "2026-04-08T19:22:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mcp-from-openapi] mcp-from-openapi is Vulnerable to SSRF via $ref Dereferencing in Untrusted OpenAPI Specifications",
+      "url": "https://github.com/advisories/GHSA-v6ph-xcq9-qxxj",
+      "date": "2026-04-08T19:22:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonaiagents] PraisonAI has Memory State Leakage and Path Traversal in MultiAgent Context Handling",
+      "url": "https://github.com/advisories/GHSA-766v-q9x3-g744",
+      "date": "2026-04-08T19:21:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[praisonai] PraisonAI has Template Injection in Agent Tool Definitions",
+      "url": "https://github.com/advisories/GHSA-hwg5-x759-7wjg",
+      "date": "2026-04-08T19:21:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai] PraisonAI Has Unauthenticated SSE Event Stream that Exposes All Agent Activity in A2U Server",
+      "url": "https://github.com/advisories/GHSA-f292-66h9-fpmf",
+      "date": "2026-04-08T19:21:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonaiagents] PraisonAI has sandbox escape via exception frame traversal in `execute_code` (subprocess mode)",
+      "url": "https://github.com/advisories/GHSA-qf73-2hrx-xprp",
+      "date": "2026-04-08T19:17:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[praisonai] PraisonAI Vulnerable to Remote Code Execution via YAML Deserialization in Agent Definition Loading",
+      "url": "https://github.com/advisories/GHSA-32vr-5gcf-3pw2",
+      "date": "2026-04-08T19:17:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[axios] Axios HTTP/2 Session Cleanup State Corruption Vulnerability",
       "url": "https://github.com/advisories/GHSA-qj83-cq47-w5f8",
@@ -49,97 +140,6 @@
       "date": "2026-04-08T15:40:16.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[Django] Django vulnerable to ASGI header spoofing via underscore/hyphen conflation",
-      "url": "https://github.com/advisories/GHSA-mvfq-ggxm-9mc5",
-      "date": "2026-04-08T15:39:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Django] Django vulnerable to ASGI header spoofing via underscore/hyphen conflation",
-      "url": "https://github.com/advisories/GHSA-mvfq-ggxm-9mc5",
-      "date": "2026-04-08T15:39:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Django] Django vulnerable to ASGI header spoofing via underscore/hyphen conflation",
-      "url": "https://github.com/advisories/GHSA-mvfq-ggxm-9mc5",
-      "date": "2026-04-08T15:39:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[hono] Hono: Non-breaking space prefix bypass in cookie name handling in getCookie()",
-      "url": "https://github.com/advisories/GHSA-r5rp-j6wh-rvv4",
-      "date": "2026-04-08T15:34:50.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono has incorrect IP matching in ipRestriction() for IPv4-mapped IPv6 addresses",
-      "url": "https://github.com/advisories/GHSA-xpcf-pg52-r92g",
-      "date": "2026-04-08T15:34:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono: Path traversal in toSSG() allows writing files outside the output directory",
-      "url": "https://github.com/advisories/GHSA-xf4j-xp2r-rqqx",
-      "date": "2026-04-08T15:34:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono: Middleware bypass via repeated slashes in serveStatic",
-      "url": "https://github.com/advisories/GHSA-wmmm-f939-6g9c",
-      "date": "2026-04-08T15:34:35.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@hono/node-server] @hono/node-server: Middleware bypass via repeated slashes in serveStatic",
-      "url": "https://github.com/advisories/GHSA-92pp-h63x-v22m",
-      "date": "2026-04-08T15:34:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Django] Django has potential DoS via MultiPartParser through crafted multipart uploads",
-      "url": "https://github.com/advisories/GHSA-5mf9-h53q-7mhq",
-      "date": "2026-04-08T15:29:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Django] Django has potential DoS via MultiPartParser through crafted multipart uploads",
-      "url": "https://github.com/advisories/GHSA-5mf9-h53q-7mhq",
-      "date": "2026-04-08T15:29:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Django] Django has potential DoS via MultiPartParser through crafted multipart uploads",
-      "url": "https://github.com/advisories/GHSA-5mf9-h53q-7mhq",
-      "date": "2026-04-08T15:29:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Django] Django: SGI requests with a missing or understated `Content-Length` header could bypass the `DATA_UPLOAD_MAX_MEMORY_SIZE` limit",
-      "url": "https://github.com/advisories/GHSA-933h-hp56-hf7m",
-      "date": "2026-04-08T15:29:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Django] Django: SGI requests with a missing or understated `Content-Length` header could bypass the `DATA_UPLOAD_MAX_MEMORY_SIZE` limit",
-      "url": "https://github.com/advisories/GHSA-933h-hp56-hf7m",
-      "date": "2026-04-08T15:29:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
