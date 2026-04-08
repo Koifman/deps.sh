@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-04-08T19:36:02.077Z",
+  "fetchedAt": "2026-04-08T20:20:27.592Z",
   "entries": [
+    {
+      "title": "[basic-ftp] basic-ftp has FTP Command Injection via CRLF",
+      "url": "https://github.com/advisories/GHSA-chqc-8p9q-pq6q",
+      "date": "2026-04-08T20:02:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[agixt] AGiXT Vulnerable to Path Traversal in safe_join()",
+      "url": "https://github.com/advisories/GHSA-5gfj-64gh-mgmw",
+      "date": "2026-04-08T20:02:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n-mcp] n8n-mcp has authenticated SSRF via instance-URL header in multi-tenant HTTP mode",
+      "url": "https://github.com/advisories/GHSA-4ggg-h7ph-26qr",
+      "date": "2026-04-08T19:53:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[OpenViking] OpenViking contains a missing authorization vulnerability in the task polling endpoints",
+      "url": "https://github.com/advisories/GHSA-h336-2wxm-pr6q",
+      "date": "2026-04-08T19:33:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[stata-mcp] stata-mcp has insufficient validation of user-supplied Stata do-file content that can lead to command execution",
       "url": "https://github.com/advisories/GHSA-jpcj-7wfg-mqxv",
@@ -110,34 +138,6 @@
       "title": "[Django] Django vulnerable to privilege abuse in ModelAdmin.list_editable",
       "url": "https://github.com/advisories/GHSA-mmwr-2jhp-mc7j",
       "date": "2026-04-08T15:40:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[Django] Django vulnerable to privilege abuse in ModelAdmin.list_editable",
-      "url": "https://github.com/advisories/GHSA-mmwr-2jhp-mc7j",
-      "date": "2026-04-08T15:40:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[Django] Django vulnerable to privilege abuse in GenericInlineModelAdmin",
-      "url": "https://github.com/advisories/GHSA-pwjp-ccjc-ghwg",
-      "date": "2026-04-08T15:40:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[Django] Django vulnerable to privilege abuse in GenericInlineModelAdmin",
-      "url": "https://github.com/advisories/GHSA-pwjp-ccjc-ghwg",
-      "date": "2026-04-08T15:40:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[Django] Django vulnerable to privilege abuse in GenericInlineModelAdmin",
-      "url": "https://github.com/advisories/GHSA-pwjp-ccjc-ghwg",
-      "date": "2026-04-08T15:40:16.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
     }
