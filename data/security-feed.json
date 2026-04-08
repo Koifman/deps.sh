@@ -1,6 +1,111 @@
 {
-  "fetchedAt": "2026-04-08T14:42:03.281Z",
+  "fetchedAt": "2026-04-08T15:37:54.975Z",
   "entries": [
+    {
+      "title": "[OpenEXR] OpenEXR: DWA Lossy Decoder Heap Out-of-Bounds Write",
+      "url": "https://github.com/advisories/GHSA-p8xc-w3q4-h64x",
+      "date": "2026-04-08T15:09:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[OpenEXR] OpenEXR: DWA Lossy Decoder Heap Out-of-Bounds Write",
+      "url": "https://github.com/advisories/GHSA-p8xc-w3q4-h64x",
+      "date": "2026-04-08T15:09:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[OpenEXR] OpenEXR: DWA Lossy Decoder Heap Out-of-Bounds Write",
+      "url": "https://github.com/advisories/GHSA-p8xc-w3q4-h64x",
+      "date": "2026-04-08T15:09:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[OpenEXR] OpenEXR has a signed 32-bit Overflow in PIZ Decoder Leads to OOB Read/Write",
+      "url": "https://github.com/advisories/GHSA-588r-cr5c-w6hf",
+      "date": "2026-04-08T15:09:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[OpenEXR] OpenEXR has a signed 32-bit Overflow in PIZ Decoder Leads to OOB Read/Write",
+      "url": "https://github.com/advisories/GHSA-588r-cr5c-w6hf",
+      "date": "2026-04-08T15:09:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[OpenEXR] OpenEXR has a signed 32-bit Overflow in PIZ Decoder Leads to OOB Read/Write",
+      "url": "https://github.com/advisories/GHSA-588r-cr5c-w6hf",
+      "date": "2026-04-08T15:09:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mlflow] MLflow is vulnerable to Stored Cross-Site Scripting (XSS) caused by unsafe parsing of YAML-based MLmodel artifacts in its web interface",
+      "url": "https://github.com/advisories/GHSA-fh64-r2vc-xvhr",
+      "date": "2026-04-08T15:05:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nodemailer] Nodemailer Vulnerable to SMTP Command Injection via CRLF in Transport name Option (EHLO/HELO)",
+      "url": "https://github.com/advisories/GHSA-vvjj-xcjg-gr5g",
+      "date": "2026-04-08T15:05:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[liquidjs] LiquidJS: `renderFile()` / `parseFile()` bypass configured `root` and allow arbitrary file read",
+      "url": "https://github.com/advisories/GHSA-v273-448j-v4qj",
+      "date": "2026-04-08T15:04:45.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[liquidjs] LiquidJS: ownPropertyOnly bypass via sort_natural filter — prototype property information disclosure through sorting side-channel",
+      "url": "https://github.com/advisories/GHSA-rv5g-f82m-qrvv",
+      "date": "2026-04-08T15:04:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@lobehub/lobehub] LobeHub: Unauthenticated authentication bypass on `webapi` routes via forgeable `X-lobe-chat-auth` header",
+      "url": "https://github.com/advisories/GHSA-5mwj-v5jw-5c97",
+      "date": "2026-04-08T15:04:31.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nicegui] NiceGUI: Upload filename sanitization bypass via backslashes allows path traversal on Windows",
+      "url": "https://github.com/advisories/GHSA-w8wv-vfpc-hw2w",
+      "date": "2026-04-08T15:04:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[liquidjs] LiquidJS: Root restriction bypass for partial and layout loading through symlinked templates",
+      "url": "https://github.com/advisories/GHSA-56p5-8mhr-2fph",
+      "date": "2026-04-08T15:03:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[liquidjs] LiquidJS Has Memory Limit Bypass via Quadratic Amplification in `replace` Filter",
+      "url": "https://github.com/advisories/GHSA-mmg9-6m6j-jqqx",
+      "date": "2026-04-08T15:00:30.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[rfc3161-client] rfc3161-client Has Improper Certificate Validation",
+      "url": "https://github.com/advisories/GHSA-3xxc-pwj6-jgrj",
+      "date": "2026-04-08T15:00:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0082: zantetsu-ffi is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0082.html",
@@ -32,111 +137,6 @@
       "url": "https://github.com/advisories/GHSA-46r5-x6jq-v8g6",
       "date": "2026-04-08T00:18:44.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyload-ng] pyload-ng has a WebUI JSON permission mismatch that lets ADD/DELETE users invoke MODIFY-only actions",
-      "url": "https://github.com/advisories/GHSA-rfgh-63mg-8pwm",
-      "date": "2026-04-08T00:18:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[transformers] HuggingFace Transformers allows for arbitrary code execution in the `Trainer` class",
-      "url": "https://github.com/advisories/GHSA-69w3-r845-3855",
-      "date": "2026-04-08T00:17:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lightrag-hku] lightrag-hku: JWT Algorithm Confusion Vulnerability",
-      "url": "https://github.com/advisories/GHSA-8ffj-4hx4-9pgf",
-      "date": "2026-04-08T00:17:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono: Non-breaking space prefix bypass in cookie name handling in getCookie()",
-      "url": "https://github.com/advisories/GHSA-r5rp-j6wh-rvv4",
-      "date": "2026-04-08T00:17:24.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono has incorrect IP matching in ipRestriction() for IPv4-mapped IPv6 addresses",
-      "url": "https://github.com/advisories/GHSA-xpcf-pg52-r92g",
-      "date": "2026-04-08T00:17:19.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono missing validation of cookie name on write path in setCookie()",
-      "url": "https://github.com/advisories/GHSA-26pp-8wgv-hjvm",
-      "date": "2026-04-08T00:17:04.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono: Path traversal in toSSG() allows writing files outside the output directory",
-      "url": "https://github.com/advisories/GHSA-xf4j-xp2r-rqqx",
-      "date": "2026-04-08T00:16:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono: Middleware bypass via repeated slashes in serveStatic",
-      "url": "https://github.com/advisories/GHSA-wmmm-f939-6g9c",
-      "date": "2026-04-08T00:16:49.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@hono/node-server] @hono/node-server: Middleware bypass via repeated slashes in serveStatic",
-      "url": "https://github.com/advisories/GHSA-92pp-h63x-v22m",
-      "date": "2026-04-08T00:16:44.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jwcrypto] JWCrypto: JWE ZIP decompression bomb",
-      "url": "https://github.com/advisories/GHSA-fjrm-76x2-c4q4",
-      "date": "2026-04-08T00:16:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw-claude-bridge] openclaw-claude-bridge: sandbox is not effective - `--allowed-tools \"\"` does not restrict available tools",
-      "url": "https://github.com/advisories/GHSA-7853-gqqm-vcwx",
-      "date": "2026-04-08T00:16:09.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@delmaredigital/payload-puck] @delmaredigital/payload-puc is missing authorization on /api/puck/* CRUD endpoints allows unauthenticated access to Puck-registered collections",
-      "url": "https://github.com/advisories/GHSA-65w6-pf7x-5g85",
-      "date": "2026-04-08T00:15:54.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[drizzle-orm] Drizzle ORM has SQL injection via improperly escaped SQL identifiers",
-      "url": "https://github.com/advisories/GHSA-gpj5-g38j-94v9",
-      "date": "2026-04-08T00:14:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[drizzle-orm] Drizzle ORM has SQL injection via improperly escaped SQL identifiers",
-      "url": "https://github.com/advisories/GHSA-gpj5-g38j-94v9",
-      "date": "2026-04-08T00:14:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server's Endpoint `/sessions/me` bypasses `_Session` `protectedFields`",
-      "url": "https://github.com/advisories/GHSA-g4v2-qx3q-4p64",
-      "date": "2026-04-08T00:14:53.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
