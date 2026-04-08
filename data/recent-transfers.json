@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-04-08T20:23:15.836Z",
-  "count": 97,
+  "scannedAt": "2026-04-08T21:25:58.245Z",
+  "count": 98,
   "packages": [
     {
       "name": "xmldom",
@@ -462,6 +462,15 @@
       "currentOwner": "redux-saga-release-bot"
     },
     {
+      "name": "dependency-cruiser",
+      "version": "17.3.10",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "sverweij",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@appium/base-driver",
       "version": "10.2.2",
       "ecosystem": "npm",
@@ -471,12 +480,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "dependency-cruiser",
-      "version": "17.3.10",
+      "name": "@appium/docutils",
+      "version": "2.2.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
-      "previousOwner": "sverweij",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -633,15 +642,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/types",
-      "version": "1.2.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "redux-saga",
       "version": "1.4.2",
       "ecosystem": "npm",
@@ -649,6 +649,15 @@
       "level": "MODERATE",
       "previousOwner": "yelouafi",
       "currentOwner": "redux-saga-release-bot"
+    },
+    {
+      "name": "@appium/types",
+      "version": "1.2.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@appium/tsconfig",
