@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-08T11:26:07.630Z",
+  "fetchedAt": "2026-04-08T12:31:11.275Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0082: zantetsu-ffi is unmaintained",
@@ -16,8 +16,15 @@
     {
       "title": "[emmett] Emmett has a path traversal in internal assets handler",
       "url": "https://github.com/advisories/GHSA-pr46-2v3c-5356",
-      "date": "2026-04-08T00:18:49.000Z",
+      "date": "2026-04-08T11:57:19.000Z",
       "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[fast-jwt] fast-jwt: Cache Confusion via cacheKeyBuilder Collisions Can Return Claims From a Different Token (Identity/Authorization Mixup)",
+      "url": "https://github.com/advisories/GHSA-rp9m-7r4c-75qg",
+      "date": "2026-04-08T11:54:57.000Z",
+      "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
@@ -124,13 +131,6 @@
       "date": "2026-04-08T00:14:59.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server's Endpoint `/sessions/me` bypasses `_Session` `protectedFields`",
-      "url": "https://github.com/advisories/GHSA-g4v2-qx3q-4p64",
-      "date": "2026-04-08T00:14:53.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     },
     {
       "title": "[parse-server] Parse Server's Endpoint `/sessions/me` bypasses `_Session` `protectedFields`",
