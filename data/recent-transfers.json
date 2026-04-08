@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-04-07T23:21:57.862Z",
-  "count": 98,
+  "scannedAt": "2026-04-08T00:54:54.329Z",
+  "count": 97,
   "packages": [
     {
       "name": "xmldom",
@@ -705,24 +705,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@vimeo/player",
-      "version": "2.30.3",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bdougherty",
-      "currentOwner": "vimeo-npmbot"
-    },
-    {
-      "name": "@appium/base-plugin",
-      "version": "3.1.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "typescript",
       "version": "6.0.2",
       "ecosystem": "npm",
@@ -831,7 +813,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
+      "name": "@oxc-transform/binding-linux-x64-musl",
       "version": "0.124.0",
       "ecosystem": "npm",
       "score": 20,
@@ -840,7 +822,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
+      "name": "oxc-minify",
       "version": "0.124.0",
       "ecosystem": "npm",
       "score": 20,
@@ -883,6 +865,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     }
   ]
 }

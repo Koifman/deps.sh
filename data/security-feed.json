@@ -1,6 +1,83 @@
 {
-  "fetchedAt": "2026-04-07T23:19:25.658Z",
+  "fetchedAt": "2026-04-08T00:52:21.008Z",
   "entries": [
+    {
+      "title": "[fastfeedparser] FastFeedParser has an infinite redirect loop DoS via meta-refresh chain",
+      "url": "https://github.com/advisories/GHSA-4gx2-pc4f-wq37",
+      "date": "2026-04-08T00:12:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[rwsdk] RedwoodSDK has a CSRF vulnerability in server function dispatch via GET requests",
+      "url": "https://github.com/advisories/GHSA-x8rx-789c-2pxq",
+      "date": "2026-04-08T00:12:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[skilleton] skilleton has improper input handling in repository/path processing",
+      "url": "https://github.com/advisories/GHSA-5g3j-89fr-r2vp",
+      "date": "2026-04-08T00:07:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server has a login timing side-channel reveals user existence",
+      "url": "https://github.com/advisories/GHSA-mmpq-5hcv-hf2v",
+      "date": "2026-04-08T00:07:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server has a login timing side-channel reveals user existence",
+      "url": "https://github.com/advisories/GHSA-mmpq-5hcv-hf2v",
+      "date": "2026-04-08T00:07:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyblade] PyBlade: SSTI/RCE via Bypassed AST Validation in sandbox.py",
+      "url": "https://github.com/advisories/GHSA-23jg-5f8m-gw8c",
+      "date": "2026-04-08T00:06:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[justhtml] justhtml: Mutation XSS with custom foreign-namespace sanitization policies",
+      "url": "https://github.com/advisories/GHSA-r758-8hxw-4845",
+      "date": "2026-04-08T00:06:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[coursevault-preview] coursevault-preview has a path traversal due to improper base-directory boundary validation",
+      "url": "https://github.com/advisories/GHSA-9h9m-rr67-9jpg",
+      "date": "2026-04-08T00:06:05.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyload-ng] pyload-ng: Incomplete Tar Path Traversal Fix in UnTar._safe_extractall via os.path.commonprefix Bypass",
+      "url": "https://github.com/advisories/GHSA-mvwx-582f-56r7",
+      "date": "2026-04-08T00:04:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyload-ng] pyload-ng: Authorization Bypass for SSL Certificate/Key Configuration Due to Option Name Mismatch in pyload-ng",
+      "url": "https://github.com/advisories/GHSA-ppvx-rwh9-7rj7",
+      "date": "2026-04-08T00:04:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[litellm] LiteLLM: Password hash exposure and pass-the-hash authentication bypass",
+      "url": "https://github.com/advisories/GHSA-69x8-hrgq-fjj8",
+      "date": "2026-04-08T00:04:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[sglang] SGLang's multimodal generation module is vulnerable to unauthenticated remote code execution through the ZMQ broker",
       "url": "https://github.com/advisories/GHSA-rgq9-fqf5-fv58",
@@ -63,83 +140,6 @@
       "date": "2026-04-07T22:09:50.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[strawberry-graphql] strawberry-graphql: Authentication bypass via legacy graphql-ws WebSocket subprotocol",
-      "url": "https://github.com/advisories/GHSA-vpwc-v33q-mq89",
-      "date": "2026-04-07T22:09:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[kedro-datasets] kedro-datasets has a path traversal vulnerability in PartitionedDataset that allows arbitrary file write",
-      "url": "https://github.com/advisories/GHSA-cjg8-h5qc-hrjv",
-      "date": "2026-04-07T22:09:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[changedetection.io] changedetection.io Vulnerable to Authentication Bypass via Decorator Ordering",
-      "url": "https://github.com/advisories/GHSA-jmrh-xmgh-x9j4",
-      "date": "2026-04-07T22:09:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[monai] MONAI: Unsafe functions lead to pickle deserialization rce",
-      "url": "https://github.com/advisories/GHSA-89gg-p5r5-q6r4",
-      "date": "2026-04-07T20:17:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Android accepted cleartext remote gateway endpoints and sent stored credentials over ws://",
-      "url": "https://github.com/advisories/GHSA-83f3-hh45-vfw9",
-      "date": "2026-04-07T18:16:07.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Shared-secret comparison call sites leaked length information through timing",
-      "url": "https://github.com/advisories/GHSA-jj6q-rrrf-h66h",
-      "date": "2026-04-07T18:16:04.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Zalo replay dedupe keys could suppress messages across chats or senders",
-      "url": "https://github.com/advisories/GHSA-rxmx-g7hr-8mx4",
-      "date": "2026-04-07T18:16:00.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Trailing-dot localhost CDP hosts could bypass remote loopback protections",
-      "url": "https://github.com/advisories/GHSA-fh32-73r9-rgh5",
-      "date": "2026-04-07T18:15:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: pnpm dlx approvals did not bind local script operands",
-      "url": "https://github.com/advisories/GHSA-w6wx-jq6j-6mcj",
-      "date": "2026-04-07T18:15:52.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Windows-compatible env override keys could bypass system.run approval binding",
-      "url": "https://github.com/advisories/GHSA-98ch-45wp-ch47",
-      "date": "2026-04-07T18:15:49.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Gateway hello snapshots exposed host config and state paths to non-admin clients",
-      "url": "https://github.com/advisories/GHSA-2f7j-rp58-mr42",
-      "date": "2026-04-07T18:15:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
