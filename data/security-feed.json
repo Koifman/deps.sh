@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-04-08T08:35:19.756Z",
+  "fetchedAt": "2026-04-08T09:33:05.975Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0082: zantetsu-ffi is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0082.html",
+      "date": "2026-04-08T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0083: zantetsu-trainer is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0083.html",
+      "date": "2026-04-08T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[emmett] Emmett has a path traversal in internal assets handler",
       "url": "https://github.com/advisories/GHSA-pr46-2v3c-5356",
@@ -126,20 +138,6 @@
       "date": "2026-04-08T00:14:53.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[fastfeedparser] FastFeedParser has an infinite redirect loop DoS via meta-refresh chain",
-      "url": "https://github.com/advisories/GHSA-4gx2-pc4f-wq37",
-      "date": "2026-04-08T00:12:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[rwsdk] RedwoodSDK has a CSRF vulnerability in server function dispatch via GET requests",
-      "url": "https://github.com/advisories/GHSA-x8rx-789c-2pxq",
-      "date": "2026-04-08T00:12:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
