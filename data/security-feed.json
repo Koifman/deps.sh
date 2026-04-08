@@ -1,143 +1,145 @@
 {
-  "fetchedAt": "2026-04-08T15:37:54.975Z",
+  "fetchedAt": "2026-04-08T16:34:34.557Z",
   "entries": [
     {
-      "title": "[OpenEXR] OpenEXR: DWA Lossy Decoder Heap Out-of-Bounds Write",
-      "url": "https://github.com/advisories/GHSA-p8xc-w3q4-h64x",
-      "date": "2026-04-08T15:09:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[OpenEXR] OpenEXR: DWA Lossy Decoder Heap Out-of-Bounds Write",
-      "url": "https://github.com/advisories/GHSA-p8xc-w3q4-h64x",
-      "date": "2026-04-08T15:09:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[OpenEXR] OpenEXR: DWA Lossy Decoder Heap Out-of-Bounds Write",
-      "url": "https://github.com/advisories/GHSA-p8xc-w3q4-h64x",
-      "date": "2026-04-08T15:09:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[OpenEXR] OpenEXR has a signed 32-bit Overflow in PIZ Decoder Leads to OOB Read/Write",
-      "url": "https://github.com/advisories/GHSA-588r-cr5c-w6hf",
-      "date": "2026-04-08T15:09:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[OpenEXR] OpenEXR has a signed 32-bit Overflow in PIZ Decoder Leads to OOB Read/Write",
-      "url": "https://github.com/advisories/GHSA-588r-cr5c-w6hf",
-      "date": "2026-04-08T15:09:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[OpenEXR] OpenEXR has a signed 32-bit Overflow in PIZ Decoder Leads to OOB Read/Write",
-      "url": "https://github.com/advisories/GHSA-588r-cr5c-w6hf",
-      "date": "2026-04-08T15:09:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mlflow] MLflow is vulnerable to Stored Cross-Site Scripting (XSS) caused by unsafe parsing of YAML-based MLmodel artifacts in its web interface",
-      "url": "https://github.com/advisories/GHSA-fh64-r2vc-xvhr",
-      "date": "2026-04-08T15:05:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nodemailer] Nodemailer Vulnerable to SMTP Command Injection via CRLF in Transport name Option (EHLO/HELO)",
-      "url": "https://github.com/advisories/GHSA-vvjj-xcjg-gr5g",
-      "date": "2026-04-08T15:05:21.000Z",
+      "title": "[axios] Axios HTTP/2 Session Cleanup State Corruption Vulnerability",
+      "url": "https://github.com/advisories/GHSA-qj83-cq47-w5f8",
+      "date": "2026-04-08T15:51:52.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[liquidjs] LiquidJS: `renderFile()` / `parseFile()` bypass configured `root` and allow arbitrary file read",
-      "url": "https://github.com/advisories/GHSA-v273-448j-v4qj",
-      "date": "2026-04-08T15:04:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[liquidjs] LiquidJS: ownPropertyOnly bypass via sort_natural filter — prototype property information disclosure through sorting side-channel",
-      "url": "https://github.com/advisories/GHSA-rv5g-f82m-qrvv",
-      "date": "2026-04-08T15:04:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@lobehub/lobehub] LobeHub: Unauthenticated authentication bypass on `webapi` routes via forgeable `X-lobe-chat-auth` header",
-      "url": "https://github.com/advisories/GHSA-5mwj-v5jw-5c97",
-      "date": "2026-04-08T15:04:31.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nicegui] NiceGUI: Upload filename sanitization bypass via backslashes allows path traversal on Windows",
-      "url": "https://github.com/advisories/GHSA-w8wv-vfpc-hw2w",
-      "date": "2026-04-08T15:04:13.000Z",
+      "title": "[Django] Django vulnerable to privilege abuse in ModelAdmin.list_editable",
+      "url": "https://github.com/advisories/GHSA-mmwr-2jhp-mc7j",
+      "date": "2026-04-08T15:40:26.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[liquidjs] LiquidJS: Root restriction bypass for partial and layout loading through symlinked templates",
-      "url": "https://github.com/advisories/GHSA-56p5-8mhr-2fph",
-      "date": "2026-04-08T15:03:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[liquidjs] LiquidJS Has Memory Limit Bypass via Quadratic Amplification in `replace` Filter",
-      "url": "https://github.com/advisories/GHSA-mmg9-6m6j-jqqx",
-      "date": "2026-04-08T15:00:30.000Z",
-      "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[rfc3161-client] rfc3161-client Has Improper Certificate Validation",
-      "url": "https://github.com/advisories/GHSA-3xxc-pwj6-jgrj",
-      "date": "2026-04-08T15:00:25.000Z",
+      "title": "[Django] Django vulnerable to privilege abuse in ModelAdmin.list_editable",
+      "url": "https://github.com/advisories/GHSA-mmwr-2jhp-mc7j",
+      "date": "2026-04-08T15:40:26.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "LOW"
     },
     {
-      "title": "RUSTSEC-2026-0082: zantetsu-ffi is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0082.html",
-      "date": "2026-04-08T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0083: zantetsu-trainer is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0083.html",
-      "date": "2026-04-08T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[emmett] Emmett has a path traversal in internal assets handler",
-      "url": "https://github.com/advisories/GHSA-pr46-2v3c-5356",
-      "date": "2026-04-08T11:57:19.000Z",
+      "title": "[Django] Django vulnerable to privilege abuse in ModelAdmin.list_editable",
+      "url": "https://github.com/advisories/GHSA-mmwr-2jhp-mc7j",
+      "date": "2026-04-08T15:40:26.000Z",
       "ecosystem": "pypi",
-      "severity": "CRITICAL"
+      "severity": "LOW"
     },
     {
-      "title": "[fast-jwt] fast-jwt: Cache Confusion via cacheKeyBuilder Collisions Can Return Claims From a Different Token (Identity/Authorization Mixup)",
-      "url": "https://github.com/advisories/GHSA-rp9m-7r4c-75qg",
-      "date": "2026-04-08T11:54:57.000Z",
+      "title": "[Django] Django vulnerable to privilege abuse in GenericInlineModelAdmin",
+      "url": "https://github.com/advisories/GHSA-pwjp-ccjc-ghwg",
+      "date": "2026-04-08T15:40:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[Django] Django vulnerable to privilege abuse in GenericInlineModelAdmin",
+      "url": "https://github.com/advisories/GHSA-pwjp-ccjc-ghwg",
+      "date": "2026-04-08T15:40:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[Django] Django vulnerable to privilege abuse in GenericInlineModelAdmin",
+      "url": "https://github.com/advisories/GHSA-pwjp-ccjc-ghwg",
+      "date": "2026-04-08T15:40:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[Django] Django vulnerable to ASGI header spoofing via underscore/hyphen conflation",
+      "url": "https://github.com/advisories/GHSA-mvfq-ggxm-9mc5",
+      "date": "2026-04-08T15:39:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Django] Django vulnerable to ASGI header spoofing via underscore/hyphen conflation",
+      "url": "https://github.com/advisories/GHSA-mvfq-ggxm-9mc5",
+      "date": "2026-04-08T15:39:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Django] Django vulnerable to ASGI header spoofing via underscore/hyphen conflation",
+      "url": "https://github.com/advisories/GHSA-mvfq-ggxm-9mc5",
+      "date": "2026-04-08T15:39:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[hono] Hono: Non-breaking space prefix bypass in cookie name handling in getCookie()",
+      "url": "https://github.com/advisories/GHSA-r5rp-j6wh-rvv4",
+      "date": "2026-04-08T15:34:50.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "MODERATE"
     },
     {
-      "title": "[mlflow] MLflow is vulnerable to an authorization bypass affecting the AJAX endpoint",
-      "url": "https://github.com/advisories/GHSA-46r5-x6jq-v8g6",
-      "date": "2026-04-08T00:18:44.000Z",
+      "title": "[hono] Hono has incorrect IP matching in ipRestriction() for IPv4-mapped IPv6 addresses",
+      "url": "https://github.com/advisories/GHSA-xpcf-pg52-r92g",
+      "date": "2026-04-08T15:34:45.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono: Path traversal in toSSG() allows writing files outside the output directory",
+      "url": "https://github.com/advisories/GHSA-xf4j-xp2r-rqqx",
+      "date": "2026-04-08T15:34:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono: Middleware bypass via repeated slashes in serveStatic",
+      "url": "https://github.com/advisories/GHSA-wmmm-f939-6g9c",
+      "date": "2026-04-08T15:34:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@hono/node-server] @hono/node-server: Middleware bypass via repeated slashes in serveStatic",
+      "url": "https://github.com/advisories/GHSA-92pp-h63x-v22m",
+      "date": "2026-04-08T15:34:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[Django] Django has potential DoS via MultiPartParser through crafted multipart uploads",
+      "url": "https://github.com/advisories/GHSA-5mf9-h53q-7mhq",
+      "date": "2026-04-08T15:29:18.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[Django] Django has potential DoS via MultiPartParser through crafted multipart uploads",
+      "url": "https://github.com/advisories/GHSA-5mf9-h53q-7mhq",
+      "date": "2026-04-08T15:29:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[Django] Django has potential DoS via MultiPartParser through crafted multipart uploads",
+      "url": "https://github.com/advisories/GHSA-5mf9-h53q-7mhq",
+      "date": "2026-04-08T15:29:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[Django] Django: SGI requests with a missing or understated `Content-Length` header could bypass the `DATA_UPLOAD_MAX_MEMORY_SIZE` limit",
+      "url": "https://github.com/advisories/GHSA-933h-hp56-hf7m",
+      "date": "2026-04-08T15:29:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Django] Django: SGI requests with a missing or understated `Content-Length` header could bypass the `DATA_UPLOAD_MAX_MEMORY_SIZE` limit",
+      "url": "https://github.com/advisories/GHSA-933h-hp56-hf7m",
+      "date": "2026-04-08T15:29:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     }
   ]
 }
