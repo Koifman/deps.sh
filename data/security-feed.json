@@ -1,144 +1,145 @@
 {
-  "fetchedAt": "2026-04-09T17:30:02.752Z",
+  "fetchedAt": "2026-04-09T18:29:27.665Z",
   "entries": [
     {
-      "title": "[fast-jwt] fast-jwt has a ReDoS when using RegExp in allowed* leading to CPU exhaustion during token verification",
-      "url": "https://github.com/advisories/GHSA-cjw9-ghj4-fwxf",
-      "date": "2026-04-09T16:41:41.000Z",
+      "title": "[openclaw] OpenClaw: Multiple Code Paths Missing Base64 Pre-Allocation Size Checks",
+      "url": "https://github.com/advisories/GHSA-ccx3-fw7q-rr2r",
+      "date": "2026-04-09T17:37:21.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[fast-jwt] fast-jwt: Stateful RegExp (/g or /y) causes non-deterministic allowed-claim validation (logical DoS)",
-      "url": "https://github.com/advisories/GHSA-3j8v-cgw4-2g6q",
-      "date": "2026-04-09T16:41:24.000Z",
+      "title": "[openclaw] OpenClaw B-M3: ClawHub package downloads are not enforced with integrity verification",
+      "url": "https://github.com/advisories/GHSA-3vvq-q2qc-7rmp",
+      "date": "2026-04-09T17:37:16.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[agixt] AGiXT Vulnerable to Path Traversal in safe_join()",
-      "url": "https://github.com/advisories/GHSA-5gfj-64gh-mgmw",
-      "date": "2026-04-09T14:31:23.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] OpenClaw: `fetchWithSsrFGuard` replays unsafe request bodies across cross-origin redirects",
+      "url": "https://github.com/advisories/GHSA-qx8j-g322-qj6m",
+      "date": "2026-04-09T17:37:11.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[PraisonAI] PraisonAI Vulnerable to OS Command Injection",
-      "url": "https://github.com/advisories/GHSA-2763-cj5r-c79m",
-      "date": "2026-04-09T14:31:18.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] OpenClaw Host-Exec Environment Variable Injection",
+      "url": "https://github.com/advisories/GHSA-w9j9-w4cp-6wgr",
+      "date": "2026-04-09T17:37:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Strict browser SSRF bypass in Playwright redirect handling leaves private targets reachable",
+      "url": "https://github.com/advisories/GHSA-w8g9-x8gx-crmm",
+      "date": "2026-04-09T17:37:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Gateway plugin HTTP `auth: gateway` widens identity-bearing `operator.read` requests into runtime `operator.write`",
+      "url": "https://github.com/advisories/GHSA-4f8g-77mw-3rxc",
+      "date": "2026-04-09T17:36:56.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw has Browser SSRF Policy Bypass via Interaction-Triggered Navigation",
+      "url": "https://github.com/advisories/GHSA-vr5g-mmx7-h897",
+      "date": "2026-04-09T17:36:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw `node.pair.approve` placed in `operator.write` scope instead of `operator.pairing` allows unprivileged pairing approval",
+      "url": "https://github.com/advisories/GHSA-67mf-f936-ppxf",
+      "date": "2026-04-09T17:36:36.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Feishu docx upload_file/upload_image Bypasses Workspace-Only Filesystem Policy (GHSA-qf48-qfv4-jjm9 Incomplete Fix)",
+      "url": "https://github.com/advisories/GHSA-5fc7-f62m-8983",
+      "date": "2026-04-09T17:36:31.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw QQ Bot Extension missing SSRF Protection on All Media Fetch Paths",
+      "url": "https://github.com/advisories/GHSA-3fv3-6p2v-gxwj",
+      "date": "2026-04-09T17:36:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Existing WS sessions survive shared gateway token rotation",
+      "url": "https://github.com/advisories/GHSA-5h3f-885m-v22w",
+      "date": "2026-04-09T17:36:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Concurrent async auth attempts can bypass the intended shared-secret rate-limit budget on Tailscale-capable paths",
+      "url": "https://github.com/advisories/GHSA-25wv-8phj-8p7r",
+      "date": "2026-04-09T17:36:01.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Node Pairing Reconnect Command Escalation Bypasses operator.admin Scope Requirement",
+      "url": "https://github.com/advisories/GHSA-5wj5-87vq-39xm",
+      "date": "2026-04-09T17:35:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: /allowlist omits owner-only enforcement for cross-channel allowlist writes",
+      "url": "https://github.com/advisories/GHSA-vc32-h5mq-453v",
+      "date": "2026-04-09T17:34:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: resolvedAuth closure becomes stale after config reload",
+      "url": "https://github.com/advisories/GHSA-68x5-xx89-w9mm",
+      "date": "2026-04-09T17:34:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw `node.invoke(browser.proxy)` bypasses `browser.request` persistent profile-mutation guard",
+      "url": "https://github.com/advisories/GHSA-cmfr-9m2r-xwhq",
+      "date": "2026-04-09T17:34:24.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw `device.token.rotate` mints tokens for unapproved roles, bypassing device role-upgrade pairing",
+      "url": "https://github.com/advisories/GHSA-whf9-3hcx-gq54",
+      "date": "2026-04-09T17:33:05.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Shared reply MEDIA - paths are treated as trusted and can trigger cross-channel local file exfiltration",
+      "url": "https://github.com/advisories/GHSA-qqq7-4hxc-x63c",
+      "date": "2026-04-09T17:33:00.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: strictInlineEval explicit-approval boundary bypassed by approval-timeout fallback on gateway and node exec hosts",
+      "url": "https://github.com/advisories/GHSA-q2gc-xjqw-qp89",
+      "date": "2026-04-09T17:32:50.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios has a NO_PROXY Hostname Normalization Bypass Leads to SSRF",
+      "url": "https://github.com/advisories/GHSA-3p68-rc4w-qgx5",
+      "date": "2026-04-09T17:32:20.000Z",
+      "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[marimo] Marimo: Pre-Auth Remote Code Execution via Terminal WebSocket Authentication Bypass",
-      "url": "https://github.com/advisories/GHSA-2679-6mx9-h9xc",
-      "date": "2026-04-09T14:30:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[cryptography] Cryptography vulnerable to buffer overflow if non-contiguous buffers were passed to APIs",
-      "url": "https://github.com/advisories/GHSA-p423-j2cm-9vmq",
-      "date": "2026-04-09T14:29:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[praisonai] PraisonAI has Template Injection in Agent Tool Definitions",
-      "url": "https://github.com/advisories/GHSA-hwg5-x759-7wjg",
-      "date": "2026-04-09T14:29:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai] PraisonAI Vulnerable to Remote Code Execution via YAML Deserialization in Agent Definition Loading",
-      "url": "https://github.com/advisories/GHSA-32vr-5gcf-3pw2",
-      "date": "2026-04-09T14:29:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[praisonai] PraisonAI Has Unauthenticated SSE Event Stream that Exposes All Agent Activity in A2U Server",
-      "url": "https://github.com/advisories/GHSA-f292-66h9-fpmf",
-      "date": "2026-04-09T14:29:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonaiagents] PraisonAI has sandbox escape via exception frame traversal in `execute_code` (subprocess mode)",
-      "url": "https://github.com/advisories/GHSA-qf73-2hrx-xprp",
-      "date": "2026-04-09T14:29:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw: HGRCPATH, CARGO_BUILD_RUSTC_WRAPPER, RUSTC_WRAPPER, and MAKEFLAGS missing from exec env denylist — RCE via build tool env injection (GHSA-cm8v-2vh9-cxf3 class)",
-      "url": "https://github.com/advisories/GHSA-7437-7hg8-frrw",
-      "date": "2026-04-09T14:22:33.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Authenticated `/hooks/wake` and mapped `wake` payloads are promoted into the trusted `System:` prompt channel",
-      "url": "https://github.com/advisories/GHSA-jf56-mccx-5f3f",
-      "date": "2026-04-09T14:22:24.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Lower-trust background runtime output is injected into trusted `System:` events, and local async exec completion misses the intended `exec-event` downgrade",
-      "url": "https://github.com/advisories/GHSA-gfmx-pph7-g46x",
-      "date": "2026-04-09T14:22:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0084: Vulnerability in logprinter",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0084.html",
-      "date": "2026-04-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[praisonaiagents] PraisonAI has Memory State Leakage and Path Traversal in MultiAgent Context Handling",
-      "url": "https://github.com/advisories/GHSA-766v-q9x3-g744",
-      "date": "2026-04-09T08:24:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fast-xml-parser] Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser",
-      "url": "https://github.com/advisories/GHSA-jp2q-39xq-3w4g",
-      "date": "2026-04-08T22:27:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fast-xml-parser] Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser",
-      "url": "https://github.com/advisories/GHSA-jp2q-39xq-3w4g",
-      "date": "2026-04-08T22:27:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langchain-core] LangChain has incomplete f-string validation in prompt templates",
-      "url": "https://github.com/advisories/GHSA-926x-3r5x-gfhw",
-      "date": "2026-04-08T21:51:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langchain-core] LangChain has incomplete f-string validation in prompt templates",
-      "url": "https://github.com/advisories/GHSA-926x-3r5x-gfhw",
-      "date": "2026-04-08T21:51:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@chenglou/pretext] Pretext: Algorithmic Complexity (DoS) in the text analysis phase",
-      "url": "https://github.com/advisories/GHSA-5478-66c3-rhxr",
-      "date": "2026-04-08T21:50:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
