@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-04-09T20:24:22.526Z",
+  "fetchedAt": "2026-04-09T21:22:15.242Z",
   "entries": [
+    {
+      "title": "[gramps-webapi] Gramps Web API: Private Sub-Object Data in Non-Private Objects Exposed to Guest Users",
+      "url": "https://github.com/advisories/GHSA-9gjv-jvm7-vv2v",
+      "date": "2026-04-09T20:28:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: GIT_DIR and related git plumbing env vars missing from exec env denylist (GHSA-m866-6qv5-p2fg variant)",
+      "url": "https://github.com/advisories/GHSA-cm8v-2vh9-cxf3",
+      "date": "2026-04-09T20:28:37.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[unhead] Unhead has a hasDangerousProtocol() bypass via leading-zero padded HTML entities in useHeadSafe()",
+      "url": "https://github.com/advisories/GHSA-95h2-gj7x-gx9w",
+      "date": "2026-04-09T20:28:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[marimo] Marimo: Pre-Auth Remote Code Execution via Terminal WebSocket Authentication Bypass",
       "url": "https://github.com/advisories/GHSA-2679-6mx9-h9xc",
@@ -119,27 +140,6 @@
       "date": "2026-04-09T17:36:01.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Node Pairing Reconnect Command Escalation Bypasses operator.admin Scope Requirement",
-      "url": "https://github.com/advisories/GHSA-5wj5-87vq-39xm",
-      "date": "2026-04-09T17:35:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: /allowlist omits owner-only enforcement for cross-channel allowlist writes",
-      "url": "https://github.com/advisories/GHSA-vc32-h5mq-453v",
-      "date": "2026-04-09T17:34:35.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: resolvedAuth closure becomes stale after config reload",
-      "url": "https://github.com/advisories/GHSA-68x5-xx89-w9mm",
-      "date": "2026-04-09T17:34:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
