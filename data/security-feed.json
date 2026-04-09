@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-04-09T18:29:27.665Z",
+  "fetchedAt": "2026-04-09T19:33:14.216Z",
   "entries": [
+    {
+      "title": "[marimo] Marimo: Pre-Auth Remote Code Execution via Terminal WebSocket Authentication Bypass",
+      "url": "https://github.com/advisories/GHSA-2679-6mx9-h9xc",
+      "date": "2026-04-09T19:06:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[agixt] AGiXT Vulnerable to Path Traversal in safe_join()",
+      "url": "https://github.com/advisories/GHSA-5gfj-64gh-mgmw",
+      "date": "2026-04-09T19:06:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI Vulnerable to OS Command Injection",
+      "url": "https://github.com/advisories/GHSA-2763-cj5r-c79m",
+      "date": "2026-04-09T19:04:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[langchain-core] LangChain has incomplete f-string validation in prompt templates",
+      "url": "https://github.com/advisories/GHSA-926x-3r5x-gfhw",
+      "date": "2026-04-09T19:04:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langchain-core] LangChain has incomplete f-string validation in prompt templates",
+      "url": "https://github.com/advisories/GHSA-926x-3r5x-gfhw",
+      "date": "2026-04-09T19:04:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[openclaw] OpenClaw: Multiple Code Paths Missing Base64 Pre-Allocation Size Checks",
       "url": "https://github.com/advisories/GHSA-ccx3-fw7q-rr2r",
@@ -105,41 +140,6 @@
       "date": "2026-04-09T17:34:30.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw `node.invoke(browser.proxy)` bypasses `browser.request` persistent profile-mutation guard",
-      "url": "https://github.com/advisories/GHSA-cmfr-9m2r-xwhq",
-      "date": "2026-04-09T17:34:24.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw `device.token.rotate` mints tokens for unapproved roles, bypassing device role-upgrade pairing",
-      "url": "https://github.com/advisories/GHSA-whf9-3hcx-gq54",
-      "date": "2026-04-09T17:33:05.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Shared reply MEDIA - paths are treated as trusted and can trigger cross-channel local file exfiltration",
-      "url": "https://github.com/advisories/GHSA-qqq7-4hxc-x63c",
-      "date": "2026-04-09T17:33:00.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: strictInlineEval explicit-approval boundary bypassed by approval-timeout fallback on gateway and node exec hosts",
-      "url": "https://github.com/advisories/GHSA-q2gc-xjqw-qp89",
-      "date": "2026-04-09T17:32:50.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios has a NO_PROXY Hostname Normalization Bypass Leads to SSRF",
-      "url": "https://github.com/advisories/GHSA-3p68-rc4w-qgx5",
-      "date": "2026-04-09T17:32:20.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
