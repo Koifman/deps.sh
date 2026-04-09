@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-04-09T16:38:59.727Z",
+  "fetchedAt": "2026-04-09T17:30:02.752Z",
   "entries": [
+    {
+      "title": "[fast-jwt] fast-jwt has a ReDoS when using RegExp in allowed* leading to CPU exhaustion during token verification",
+      "url": "https://github.com/advisories/GHSA-cjw9-ghj4-fwxf",
+      "date": "2026-04-09T16:41:41.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fast-jwt] fast-jwt: Stateful RegExp (/g or /y) causes non-deterministic allowed-claim validation (logical DoS)",
+      "url": "https://github.com/advisories/GHSA-3j8v-cgw4-2g6q",
+      "date": "2026-04-09T16:41:24.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[agixt] AGiXT Vulnerable to Path Traversal in safe_join()",
       "url": "https://github.com/advisories/GHSA-5gfj-64gh-mgmw",
@@ -125,20 +139,6 @@
       "date": "2026-04-08T21:50:53.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[lollms] parisneo/lollms has an insufficient session expiration vulnerability",
-      "url": "https://github.com/advisories/GHSA-8jg2-726g-xh43",
-      "date": "2026-04-08T21:50:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next] Next.js has Unbounded Memory Consumption via PPR Resume Endpoint",
-      "url": "https://github.com/advisories/GHSA-5f7q-jpqc-wp7h",
-      "date": "2026-04-08T20:56:19.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
