@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-09T07:40:05.044Z",
+  "fetchedAt": "2026-04-09T08:41:23.830Z",
   "entries": [
+    {
+      "title": "[praisonaiagents] PraisonAI has Memory State Leakage and Path Traversal in MultiAgent Context Handling",
+      "url": "https://github.com/advisories/GHSA-766v-q9x3-g744",
+      "date": "2026-04-09T08:24:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[marimo] Marimo: Pre-Auth Remote Code Execution via Terminal WebSocket Authentication Bypass",
       "url": "https://github.com/advisories/GHSA-2679-6mx9-h9xc",
@@ -55,13 +62,6 @@
       "url": "https://github.com/advisories/GHSA-8jg2-726g-xh43",
       "date": "2026-04-08T21:50:32.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next] Next.js has Unbounded Memory Consumption via PPR Resume Endpoint",
-      "url": "https://github.com/advisories/GHSA-5f7q-jpqc-wp7h",
-      "date": "2026-04-08T20:56:19.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
