@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-09T03:13:25.045Z",
+  "fetchedAt": "2026-04-09T04:54:44.466Z",
   "entries": [
+    {
+      "title": "[marimo] Marimo: Pre-Auth Remote Code Execution via Terminal WebSocket Authentication Bypass",
+      "url": "https://github.com/advisories/GHSA-2679-6mx9-h9xc",
+      "date": "2026-04-09T03:13:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[fast-xml-parser] Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser",
       "url": "https://github.com/advisories/GHSA-jp2q-39xq-3w4g",
@@ -35,13 +42,6 @@
       "date": "2026-04-08T21:51:33.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[marimo] Marimo: Pre-Auth Remote Code Execution via Terminal WebSocket Authentication Bypass",
-      "url": "https://github.com/advisories/GHSA-2679-6mx9-h9xc",
-      "date": "2026-04-08T21:51:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     },
     {
       "title": "[@chenglou/pretext] Pretext: Algorithmic Complexity (DoS) in the text analysis phase",
