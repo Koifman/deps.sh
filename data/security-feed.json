@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-04-09T10:32:57.064Z",
+  "fetchedAt": "2026-04-09T11:27:24.292Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0084: Vulnerability in logprinter",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0084.html",
+      "date": "2026-04-09T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[praisonaiagents] PraisonAI has Memory State Leakage and Path Traversal in MultiAgent Context Handling",
       "url": "https://github.com/advisories/GHSA-766v-q9x3-g744",
@@ -62,13 +68,6 @@
       "url": "https://github.com/advisories/GHSA-8jg2-726g-xh43",
       "date": "2026-04-08T21:50:32.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next] Next.js has Unbounded Memory Consumption via PPR Resume Endpoint",
-      "url": "https://github.com/advisories/GHSA-5f7q-jpqc-wp7h",
-      "date": "2026-04-08T20:56:19.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
