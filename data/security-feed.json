@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-04-10T19:24:02.122Z",
+  "fetchedAt": "2026-04-10T20:16:58.561Z",
   "entries": [
     {
-      "title": "[flowise-components] Flowise affected by Server-Side Request Forgery (SSRF) in HTTP Node Leading to Internal Network Access",
-      "url": "https://github.com/advisories/GHSA-fvcw-9w9r-pxc7",
-      "date": "2026-04-10T17:33:11.000Z",
+      "title": "[metagpt] FoundationAgents MetaGPT vulnerable to eval injection",
+      "url": "https://github.com/advisories/GHSA-3ghp-8r47-4gj4",
+      "date": "2026-04-10T20:03:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rembg] Rembg has a Path Traversal via Custom Model Loading",
+      "url": "https://github.com/advisories/GHSA-3wqj-33cg-xc48",
+      "date": "2026-04-10T20:00:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[genieacs] GenieACS has an unauthenticated access vulnerability via the NBI API endpoint",
+      "url": "https://github.com/advisories/GHSA-2h6j-mhcp-9j9h",
+      "date": "2026-04-10T19:54:54.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@sveltejs/kit] @sveltejs/kit: Unvalidated redirect in handle hook causes Denial-of-Service",
-      "url": "https://github.com/advisories/GHSA-3f6h-2hrp-w5wx",
-      "date": "2026-04-10T17:32:01.000Z",
-      "ecosystem": "npm",
+      "title": "[ajenti.plugin.core] ajenti.plugin.core has race conditions in 2FA",
+      "url": "https://github.com/advisories/GHSA-8647-755q-fw9p",
+      "date": "2026-04-10T19:54:41.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: Gateway HTTP Session History Route Bypasses Operator Read Scope",
-      "url": "https://github.com/advisories/GHSA-5jvj-hxmh-6h6j",
-      "date": "2026-04-10T17:26:09.000Z",
+      "title": "[xrootd] xrootd has path traversal in directory listing that allows access to the parent directory via trailing \"..\" pattern",
+      "url": "https://github.com/advisories/GHSA-vj8v-p5vw-m6v5",
+      "date": "2026-04-10T19:50:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ajenti.plugin.core] ajenti.plugin.core has password bypass when 2FA is activated",
+      "url": "https://github.com/advisories/GHSA-3mcx-6wxm-qr8v",
+      "date": "2026-04-10T19:48:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[axios] Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain",
+      "url": "https://github.com/advisories/GHSA-fvcv-3m26-pcqx",
+      "date": "2026-04-10T19:47:18.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@sveltejs/kit] @sveltejs/kit: Unvalidated redirect in handle hook causes Denial-of-Service",
+      "url": "https://github.com/advisories/GHSA-3f6h-2hrp-w5wx",
+      "date": "2026-04-10T19:46:48.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
       "title": "[@sveltejs/kit] @sveltejs/adapter-node has a BODY_SIZE_LIMIT bypass",
       "url": "https://github.com/advisories/GHSA-2crg-3p73-43xp",
-      "date": "2026-04-10T17:24:34.000Z",
+      "date": "2026-04-10T19:46:39.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[dfir-unfurl] Unfurl's unbounded zlib decompression allows decompression bomb DoS",
-      "url": "https://github.com/advisories/GHSA-h5qv-qjv4-pc5m",
-      "date": "2026-04-10T17:18:38.000Z",
+      "title": "[uv] uv vulnerable to arbitrary file deletion through RECORD entries",
+      "url": "https://github.com/advisories/GHSA-pjjw-68hj-v9mw",
+      "date": "2026-04-10T19:39:17.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
+      "severity": "LOW"
     },
     {
-      "title": "[dfir-unfurl] Duplicate Advisory: Unfurl's unbounded zlib decompression allows decompression bomb DoS",
-      "url": "https://github.com/advisories/GHSA-c3f2-qg8v-25q2",
-      "date": "2026-04-10T17:18:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@vitejs/plugin-rsc] @vitejs/plugin-rsc has a Denial of Service with React Server Components",
-      "url": "https://github.com/advisories/GHSA-v457-wxvj-p9w9",
-      "date": "2026-04-10T15:36:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js has a Denial of Service with Server Components",
-      "url": "https://github.com/advisories/GHSA-q4gf-8mx6-v5v3",
-      "date": "2026-04-10T15:35:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js has a Denial of Service with Server Components",
-      "url": "https://github.com/advisories/GHSA-q4gf-8mx6-v5v3",
-      "date": "2026-04-10T15:35:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-server-dom-webpack] React Server Components have a Denial of Service Vulnerability",
-      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
-      "date": "2026-04-10T15:35:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-server-dom-webpack] React Server Components have a Denial of Service Vulnerability",
-      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
-      "date": "2026-04-10T15:35:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-server-dom-webpack] React Server Components have a Denial of Service Vulnerability",
-      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
-      "date": "2026-04-10T15:35:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-server-dom-turbopack] React Server Components have a Denial of Service Vulnerability",
-      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
-      "date": "2026-04-10T15:35:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-server-dom-turbopack] React Server Components have a Denial of Service Vulnerability",
-      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
-      "date": "2026-04-10T15:35:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-server-dom-turbopack] React Server Components have a Denial of Service Vulnerability",
-      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
-      "date": "2026-04-10T15:35:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-server-dom-parcel] React Server Components have a Denial of Service Vulnerability",
-      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
-      "date": "2026-04-10T15:35:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-server-dom-parcel] React Server Components have a Denial of Service Vulnerability",
-      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
-      "date": "2026-04-10T15:35:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-server-dom-parcel] React Server Components have a Denial of Service Vulnerability",
-      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
-      "date": "2026-04-10T15:35:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI Vulnerable to OS Command Injection",
-      "url": "https://github.com/advisories/GHSA-2763-cj5r-c79m",
-      "date": "2026-04-10T14:41:51.000Z",
+      "title": "[apache-airflow] Apache Airflow: JWT token still valid after logout",
+      "url": "https://github.com/advisories/GHSA-c92r-g8j5-vhcx",
+      "date": "2026-04-10T19:33:24.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "[langchain-core] LangChain has incomplete f-string validation in prompt templates",
-      "url": "https://github.com/advisories/GHSA-926x-3r5x-gfhw",
-      "date": "2026-04-10T14:41:46.000Z",
+      "title": "[PraisonAI] PraisonAI Browser Server allows unauthenticated WebSocket clients to hijack connected extension sessions",
+      "url": "https://github.com/advisories/GHSA-8x8f-54wf-vv92",
+      "date": "2026-04-10T19:32:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[praisonaiagents] PraisonAI Browser Server allows unauthenticated WebSocket clients to hijack connected extension sessions",
+      "url": "https://github.com/advisories/GHSA-8x8f-54wf-vv92",
+      "date": "2026-04-10T19:32:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI has critical RCE via `type: job` workflow YAML",
+      "url": "https://github.com/advisories/GHSA-vc46-vw85-3wvm",
+      "date": "2026-04-10T19:32:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[praisonaiagents] PraisonAI has critical RCE via `type: job` workflow YAML",
+      "url": "https://github.com/advisories/GHSA-vc46-vw85-3wvm",
+      "date": "2026-04-10T19:32:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI Vulnerable to RCE via Automatic tools.py Import",
+      "url": "https://github.com/advisories/GHSA-g985-wjh9-qxxc",
+      "date": "2026-04-10T19:32:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonaiagents] PraisonAI Vulnerable to RCE via Automatic tools.py Import",
+      "url": "https://github.com/advisories/GHSA-g985-wjh9-qxxc",
+      "date": "2026-04-10T19:32:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI: SQLiteConversationStore didn't validate table_prefix when constructing SQL queries",
+      "url": "https://github.com/advisories/GHSA-x783-xp3g-mqhp",
+      "date": "2026-04-10T19:32:03.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow has an authorization bypass in DagRun wait endpoint",
+      "url": "https://github.com/advisories/GHSA-r7vr-m4jw-r794",
+      "date": "2026-04-10T19:31:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[bugsink] Bugsink affected by authenticated arbitrary file write in artifactbundle/assemble",
+      "url": "https://github.com/advisories/GHSA-8hw4-fhww-273g",
+      "date": "2026-04-10T19:30:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     }
   ]
 }
