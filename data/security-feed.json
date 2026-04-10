@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-04-10T17:23:48.529Z",
+  "fetchedAt": "2026-04-10T18:26:43.024Z",
   "entries": [
+    {
+      "title": "[flowise-components] Flowise affected by Server-Side Request Forgery (SSRF) in HTTP Node Leading to Internal Network Access",
+      "url": "https://github.com/advisories/GHSA-fvcw-9w9r-pxc7",
+      "date": "2026-04-10T17:33:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@sveltejs/kit] @sveltejs/kit: Unvalidated redirect in handle hook causes Denial-of-Service",
+      "url": "https://github.com/advisories/GHSA-3f6h-2hrp-w5wx",
+      "date": "2026-04-10T17:32:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Gateway HTTP Session History Route Bypasses Operator Read Scope",
+      "url": "https://github.com/advisories/GHSA-5jvj-hxmh-6h6j",
+      "date": "2026-04-10T17:26:09.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@sveltejs/kit] @sveltejs/adapter-node has a BODY_SIZE_LIMIT bypass",
+      "url": "https://github.com/advisories/GHSA-2crg-3p73-43xp",
+      "date": "2026-04-10T17:24:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dfir-unfurl] Unfurl's unbounded zlib decompression allows decompression bomb DoS",
+      "url": "https://github.com/advisories/GHSA-h5qv-qjv4-pc5m",
+      "date": "2026-04-10T17:18:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dfir-unfurl] Duplicate Advisory: Unfurl's unbounded zlib decompression allows decompression bomb DoS",
+      "url": "https://github.com/advisories/GHSA-c3f2-qg8v-25q2",
+      "date": "2026-04-10T17:18:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[@vitejs/plugin-rsc] @vitejs/plugin-rsc has a Denial of Service with React Server Components",
       "url": "https://github.com/advisories/GHSA-v457-wxvj-p9w9",
@@ -98,48 +140,6 @@
       "date": "2026-04-10T14:41:46.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[langchain-core] LangChain has incomplete f-string validation in prompt templates",
-      "url": "https://github.com/advisories/GHSA-926x-3r5x-gfhw",
-      "date": "2026-04-10T14:41:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[gramps-webapi] Gramps Web API: Private Sub-Object Data in Non-Private Objects Exposed to Guest Users",
-      "url": "https://github.com/advisories/GHSA-9gjv-jvm7-vv2v",
-      "date": "2026-04-09T20:28:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: GIT_DIR and related git plumbing env vars missing from exec env denylist (GHSA-m866-6qv5-p2fg variant)",
-      "url": "https://github.com/advisories/GHSA-cm8v-2vh9-cxf3",
-      "date": "2026-04-09T20:28:37.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[unhead] Unhead has a hasDangerousProtocol() bypass via leading-zero padded HTML entities in useHeadSafe()",
-      "url": "https://github.com/advisories/GHSA-95h2-gj7x-gx9w",
-      "date": "2026-04-09T20:28:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[marimo] Marimo: Pre-Auth Remote Code Execution via Terminal WebSocket Authentication Bypass",
-      "url": "https://github.com/advisories/GHSA-2679-6mx9-h9xc",
-      "date": "2026-04-09T19:06:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[agixt] AGiXT Vulnerable to Path Traversal in safe_join()",
-      "url": "https://github.com/advisories/GHSA-5gfj-64gh-mgmw",
-      "date": "2026-04-09T19:06:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
