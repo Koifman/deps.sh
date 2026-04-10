@@ -1,144 +1,144 @@
 {
-  "fetchedAt": "2026-04-10T20:16:58.561Z",
+  "fetchedAt": "2026-04-10T21:17:35.269Z",
   "entries": [
     {
-      "title": "[metagpt] FoundationAgents MetaGPT vulnerable to eval injection",
-      "url": "https://github.com/advisories/GHSA-3ghp-8r47-4gj4",
-      "date": "2026-04-10T20:03:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[rembg] Rembg has a Path Traversal via Custom Model Loading",
-      "url": "https://github.com/advisories/GHSA-3wqj-33cg-xc48",
-      "date": "2026-04-10T20:00:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[genieacs] GenieACS has an unauthenticated access vulnerability via the NBI API endpoint",
-      "url": "https://github.com/advisories/GHSA-2h6j-mhcp-9j9h",
-      "date": "2026-04-10T19:54:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ajenti.plugin.core] ajenti.plugin.core has race conditions in 2FA",
-      "url": "https://github.com/advisories/GHSA-8647-755q-fw9p",
-      "date": "2026-04-10T19:54:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[xrootd] xrootd has path traversal in directory listing that allows access to the parent directory via trailing \"..\" pattern",
-      "url": "https://github.com/advisories/GHSA-vj8v-p5vw-m6v5",
-      "date": "2026-04-10T19:50:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ajenti.plugin.core] ajenti.plugin.core has password bypass when 2FA is activated",
-      "url": "https://github.com/advisories/GHSA-3mcx-6wxm-qr8v",
-      "date": "2026-04-10T19:48:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[axios] Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain",
-      "url": "https://github.com/advisories/GHSA-fvcv-3m26-pcqx",
-      "date": "2026-04-10T19:47:18.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@sveltejs/kit] @sveltejs/kit: Unvalidated redirect in handle hook causes Denial-of-Service",
-      "url": "https://github.com/advisories/GHSA-3f6h-2hrp-w5wx",
-      "date": "2026-04-10T19:46:48.000Z",
+      "title": "[next-intl] next-intl has an open redirect vulnerability",
+      "url": "https://github.com/advisories/GHSA-8f24-v5vv-gm5j",
+      "date": "2026-04-10T21:03:58.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@sveltejs/kit] @sveltejs/adapter-node has a BODY_SIZE_LIMIT bypass",
-      "url": "https://github.com/advisories/GHSA-2crg-3p73-43xp",
-      "date": "2026-04-10T19:46:39.000Z",
+      "title": "[gramps-webapi] gramps-webapi: Zip Slip Path Traversal in Media Archive Import",
+      "url": "https://github.com/advisories/GHSA-m5gr-86j6-99jp",
+      "date": "2026-04-10T21:00:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[n8n-mcp] n8n-mcp has unauthenticated session termination and information disclosure in HTTP transport",
+      "url": "https://github.com/advisories/GHSA-75hx-xj24-mqrw",
+      "date": "2026-04-10T20:59:59.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[uv] uv vulnerable to arbitrary file deletion through RECORD entries",
-      "url": "https://github.com/advisories/GHSA-pjjw-68hj-v9mw",
-      "date": "2026-04-10T19:39:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow: JWT token still valid after logout",
-      "url": "https://github.com/advisories/GHSA-c92r-g8j5-vhcx",
-      "date": "2026-04-10T19:33:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI Browser Server allows unauthenticated WebSocket clients to hijack connected extension sessions",
-      "url": "https://github.com/advisories/GHSA-8x8f-54wf-vv92",
-      "date": "2026-04-10T19:32:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[praisonaiagents] PraisonAI Browser Server allows unauthenticated WebSocket clients to hijack connected extension sessions",
-      "url": "https://github.com/advisories/GHSA-8x8f-54wf-vv92",
-      "date": "2026-04-10T19:32:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI has critical RCE via `type: job` workflow YAML",
-      "url": "https://github.com/advisories/GHSA-vc46-vw85-3wvm",
-      "date": "2026-04-10T19:32:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[praisonaiagents] PraisonAI has critical RCE via `type: job` workflow YAML",
-      "url": "https://github.com/advisories/GHSA-vc46-vw85-3wvm",
-      "date": "2026-04-10T19:32:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI Vulnerable to RCE via Automatic tools.py Import",
-      "url": "https://github.com/advisories/GHSA-g985-wjh9-qxxc",
-      "date": "2026-04-10T19:32:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonaiagents] PraisonAI Vulnerable to RCE via Automatic tools.py Import",
-      "url": "https://github.com/advisories/GHSA-g985-wjh9-qxxc",
-      "date": "2026-04-10T19:32:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI: SQLiteConversationStore didn't validate table_prefix when constructing SQL queries",
-      "url": "https://github.com/advisories/GHSA-x783-xp3g-mqhp",
-      "date": "2026-04-10T19:32:03.000Z",
+      "title": "[pypdf] pypdf: Manipulated XMP metadata entity declarations can exhaust RAM",
+      "url": "https://github.com/advisories/GHSA-3crg-w4f6-42mx",
+      "date": "2026-04-10T20:59:38.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[apache-airflow] Apache Airflow has an authorization bypass in DagRun wait endpoint",
-      "url": "https://github.com/advisories/GHSA-r7vr-m4jw-r794",
-      "date": "2026-04-10T19:31:49.000Z",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Windows media loaders accepted remote-host file URLs before local path validation",
+      "url": "https://github.com/advisories/GHSA-8h8f-7cxm-m38j",
+      "date": "2026-04-10T20:42:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[js-video-url-parser] Zod jsVideoUrlParser vulnerable to ReDoS in util.js",
+      "url": "https://github.com/advisories/GHSA-8fgx-wgvr-pcx8",
+      "date": "2026-04-10T20:34:45.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[metagpt] FoundationAgents MetaGPT vulnerable to os command injection via the Terminal.run_command",
+      "url": "https://github.com/advisories/GHSA-wp29-qmvj-frvp",
+      "date": "2026-04-10T20:34:28.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[bugsink] Bugsink affected by authenticated arbitrary file write in artifactbundle/assemble",
-      "url": "https://github.com/advisories/GHSA-8hw4-fhww-273g",
-      "date": "2026-04-10T19:30:43.000Z",
+      "title": "[metagpt] FoundationAgents MetaGPT vulnerable to OS Command Injection in metagpt/utils/common.py",
+      "url": "https://github.com/advisories/GHSA-qw5f-qpq5-ppfg",
+      "date": "2026-04-10T20:27:59.000Z",
       "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[metagpt] FoundationAgents MetaGPT vulnerable to OS Command Injection in metagpt/tools/libs/terminal.py",
+      "url": "https://github.com/advisories/GHSA-fcc8-4q7h-wvwc",
+      "date": "2026-04-10T20:27:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Synology Chat Webhook Pre-Auth Rate-Limit Bypass Enables Brute-Force Guessing of Webhook Token",
+      "url": "https://github.com/advisories/GHSA-mf5g-6r6f-ghhm",
+      "date": "2026-04-10T20:25:09.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Synology Chat Webhook Pre-Auth Rate-Limit Bypass Enables Brute-Force Guessing of Webhook Token",
+      "url": "https://github.com/advisories/GHSA-59xc-5v89-r7pr",
+      "date": "2026-04-10T20:25:03.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: `fetchWithSsrFGuard` replays unsafe request bodies across cross-origin redirects",
+      "url": "https://github.com/advisories/GHSA-pg8g-f2hf-x82m",
+      "date": "2026-04-10T20:24:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Feishu webhook reads and parses unauthenticated request bodies before signature validation",
+      "url": "https://github.com/advisories/GHSA-3h52-cx59-c456",
+      "date": "2026-04-10T20:21:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Feishu webhook reads and parses unauthenticated request bodies before signature validation",
+      "url": "https://github.com/advisories/GHSA-8f9r-gr6r-x63q",
+      "date": "2026-04-10T20:21:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Tlon cite expansion happens before channel and DM authorization is complete",
+      "url": "https://github.com/advisories/GHSA-p6j4-wvmc-vx2h",
+      "date": "2026-04-10T20:20:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw Gateway: RCE and Privilege Escalation from operator.pairing to operator.admin via device.pair.approve",
+      "url": "https://github.com/advisories/GHSA-r3v5-2grc-429h",
+      "date": "2026-04-10T20:20:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw Bypasses DM Policy Separation via Synology Chat Webhook Path Collision",
+      "url": "https://github.com/advisories/GHSA-g8mc-c5f2-mqg7",
+      "date": "2026-04-10T20:19:53.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Gateway Canvas local-direct requests bypass Canvas HTTP and WebSocket authentication",
+      "url": "https://github.com/advisories/GHSA-9gvx-vj57-vqqx",
+      "date": "2026-04-10T20:19:43.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Remote media error responses could trigger unbounded memory allocation before failure",
+      "url": "https://github.com/advisories/GHSA-hm63-vwj4-mj2q",
+      "date": "2026-04-10T20:19:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: SSRF via Unguarded Configured Base URLs in Multiple Channel Extensions (Incomplete Fix for CVE-2026-28476)",
+      "url": "https://github.com/advisories/GHSA-rhfg-j8jq-7v2h",
+      "date": "2026-04-10T20:19:27.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
