@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-04-10T21:17:35.269Z",
+  "fetchedAt": "2026-04-10T22:17:29.206Z",
   "entries": [
+    {
+      "title": "[ajenti.plugin.core] ajenti.plugin.core has race conditions in 2FA",
+      "url": "https://github.com/advisories/GHSA-8647-755q-fw9p",
+      "date": "2026-04-10T21:37:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ajenti.plugin.core] ajenti.plugin.core has password bypass when 2FA is activated",
+      "url": "https://github.com/advisories/GHSA-3mcx-6wxm-qr8v",
+      "date": "2026-04-10T21:37:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[pypdf] pypdf: Manipulated XMP metadata entity declarations can exhaust RAM",
+      "url": "https://github.com/advisories/GHSA-3crg-w4f6-42mx",
+      "date": "2026-04-10T21:32:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[gramps-webapi] gramps-webapi: Zip Slip Path Traversal in Media Archive Import",
+      "url": "https://github.com/advisories/GHSA-m5gr-86j6-99jp",
+      "date": "2026-04-10T21:32:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@paperclipai/server] paperclip Vulnerable to Unauthenticated Remote Code Execution via Import Authorization Bypass",
+      "url": "https://github.com/advisories/GHSA-68qg-g8mg-6pr7",
+      "date": "2026-04-10T21:08:59.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[paperclipai] paperclip Vulnerable to Unauthenticated Remote Code Execution via Import Authorization Bypass",
+      "url": "https://github.com/advisories/GHSA-68qg-g8mg-6pr7",
+      "date": "2026-04-10T21:08:59.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[next-intl] next-intl has an open redirect vulnerability",
       "url": "https://github.com/advisories/GHSA-8f24-v5vv-gm5j",
@@ -9,25 +51,11 @@
       "severity": "MODERATE"
     },
     {
-      "title": "[gramps-webapi] gramps-webapi: Zip Slip Path Traversal in Media Archive Import",
-      "url": "https://github.com/advisories/GHSA-m5gr-86j6-99jp",
-      "date": "2026-04-10T21:00:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
       "title": "[n8n-mcp] n8n-mcp has unauthenticated session termination and information disclosure in HTTP transport",
       "url": "https://github.com/advisories/GHSA-75hx-xj24-mqrw",
       "date": "2026-04-10T20:59:59.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[pypdf] pypdf: Manipulated XMP metadata entity declarations can exhaust RAM",
-      "url": "https://github.com/advisories/GHSA-3crg-w4f6-42mx",
-      "date": "2026-04-10T20:59:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     },
     {
       "title": "[openclaw] Duplicate Advisory: OpenClaw: Windows media loaders accepted remote-host file URLs before local path validation",
@@ -110,34 +138,6 @@
       "title": "[openclaw] Duplicate Advisory: OpenClaw Gateway: RCE and Privilege Escalation from operator.pairing to operator.admin via device.pair.approve",
       "url": "https://github.com/advisories/GHSA-r3v5-2grc-429h",
       "date": "2026-04-10T20:20:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw Bypasses DM Policy Separation via Synology Chat Webhook Path Collision",
-      "url": "https://github.com/advisories/GHSA-g8mc-c5f2-mqg7",
-      "date": "2026-04-10T20:19:53.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Gateway Canvas local-direct requests bypass Canvas HTTP and WebSocket authentication",
-      "url": "https://github.com/advisories/GHSA-9gvx-vj57-vqqx",
-      "date": "2026-04-10T20:19:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Remote media error responses could trigger unbounded memory allocation before failure",
-      "url": "https://github.com/advisories/GHSA-hm63-vwj4-mj2q",
-      "date": "2026-04-10T20:19:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: SSRF via Unguarded Configured Base URLs in Multiple Channel Extensions (Incomplete Fix for CVE-2026-28476)",
-      "url": "https://github.com/advisories/GHSA-rhfg-j8jq-7v2h",
-      "date": "2026-04-10T20:19:27.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
