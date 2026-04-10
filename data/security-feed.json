@@ -1,6 +1,90 @@
 {
-  "fetchedAt": "2026-04-10T15:24:23.395Z",
+  "fetchedAt": "2026-04-10T16:25:52.601Z",
   "entries": [
+    {
+      "title": "[@vitejs/plugin-rsc] @vitejs/plugin-rsc has a Denial of Service with React Server Components",
+      "url": "https://github.com/advisories/GHSA-v457-wxvj-p9w9",
+      "date": "2026-04-10T15:36:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[next] Next.js has a Denial of Service with Server Components",
+      "url": "https://github.com/advisories/GHSA-q4gf-8mx6-v5v3",
+      "date": "2026-04-10T15:35:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[next] Next.js has a Denial of Service with Server Components",
+      "url": "https://github.com/advisories/GHSA-q4gf-8mx6-v5v3",
+      "date": "2026-04-10T15:35:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-webpack] React Server Components have a Denial of Service Vulnerability",
+      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
+      "date": "2026-04-10T15:35:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-webpack] React Server Components have a Denial of Service Vulnerability",
+      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
+      "date": "2026-04-10T15:35:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-webpack] React Server Components have a Denial of Service Vulnerability",
+      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
+      "date": "2026-04-10T15:35:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-turbopack] React Server Components have a Denial of Service Vulnerability",
+      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
+      "date": "2026-04-10T15:35:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-turbopack] React Server Components have a Denial of Service Vulnerability",
+      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
+      "date": "2026-04-10T15:35:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-turbopack] React Server Components have a Denial of Service Vulnerability",
+      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
+      "date": "2026-04-10T15:35:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-parcel] React Server Components have a Denial of Service Vulnerability",
+      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
+      "date": "2026-04-10T15:35:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-parcel] React Server Components have a Denial of Service Vulnerability",
+      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
+      "date": "2026-04-10T15:35:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-parcel] React Server Components have a Denial of Service Vulnerability",
+      "url": "https://github.com/advisories/GHSA-479c-33wc-g2pg",
+      "date": "2026-04-10T15:35:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[PraisonAI] PraisonAI Vulnerable to OS Command Injection",
       "url": "https://github.com/advisories/GHSA-2763-cj5r-c79m",
@@ -56,90 +140,6 @@
       "date": "2026-04-09T19:06:08.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Multiple Code Paths Missing Base64 Pre-Allocation Size Checks",
-      "url": "https://github.com/advisories/GHSA-ccx3-fw7q-rr2r",
-      "date": "2026-04-09T17:37:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw B-M3: ClawHub package downloads are not enforced with integrity verification",
-      "url": "https://github.com/advisories/GHSA-3vvq-q2qc-7rmp",
-      "date": "2026-04-09T17:37:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: `fetchWithSsrFGuard` replays unsafe request bodies across cross-origin redirects",
-      "url": "https://github.com/advisories/GHSA-qx8j-g322-qj6m",
-      "date": "2026-04-09T17:37:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw Host-Exec Environment Variable Injection",
-      "url": "https://github.com/advisories/GHSA-w9j9-w4cp-6wgr",
-      "date": "2026-04-09T17:37:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Strict browser SSRF bypass in Playwright redirect handling leaves private targets reachable",
-      "url": "https://github.com/advisories/GHSA-w8g9-x8gx-crmm",
-      "date": "2026-04-09T17:37:01.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Gateway plugin HTTP `auth: gateway` widens identity-bearing `operator.read` requests into runtime `operator.write`",
-      "url": "https://github.com/advisories/GHSA-4f8g-77mw-3rxc",
-      "date": "2026-04-09T17:36:56.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw has Browser SSRF Policy Bypass via Interaction-Triggered Navigation",
-      "url": "https://github.com/advisories/GHSA-vr5g-mmx7-h897",
-      "date": "2026-04-09T17:36:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw `node.pair.approve` placed in `operator.write` scope instead of `operator.pairing` allows unprivileged pairing approval",
-      "url": "https://github.com/advisories/GHSA-67mf-f936-ppxf",
-      "date": "2026-04-09T17:36:36.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Feishu docx upload_file/upload_image Bypasses Workspace-Only Filesystem Policy (GHSA-qf48-qfv4-jjm9 Incomplete Fix)",
-      "url": "https://github.com/advisories/GHSA-5fc7-f62m-8983",
-      "date": "2026-04-09T17:36:31.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw QQ Bot Extension missing SSRF Protection on All Media Fetch Paths",
-      "url": "https://github.com/advisories/GHSA-3fv3-6p2v-gxwj",
-      "date": "2026-04-09T17:36:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Existing WS sessions survive shared gateway token rotation",
-      "url": "https://github.com/advisories/GHSA-5h3f-885m-v22w",
-      "date": "2026-04-09T17:36:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Concurrent async auth attempts can bypass the intended shared-secret rate-limit budget on Tailscale-capable paths",
-      "url": "https://github.com/advisories/GHSA-25wv-8phj-8p7r",
-      "date": "2026-04-09T17:36:01.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
