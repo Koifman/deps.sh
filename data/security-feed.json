@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-04-11T11:14:42.969Z",
+  "fetchedAt": "2026-04-11T12:20:45.481Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0097: Unsoundness in rand",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0097.html",
+      "date": "2026-04-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[lollms] parisneo/lollms vulnerable to stored XSS in the social feature",
       "url": "https://github.com/advisories/GHSA-8wrq-fv5f-pfp2",
@@ -132,13 +138,6 @@
       "url": "https://github.com/advisories/GHSA-fcc8-4q7h-wvwc",
       "date": "2026-04-10T20:27:34.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Synology Chat Webhook Pre-Auth Rate-Limit Bypass Enables Brute-Force Guessing of Webhook Token",
-      "url": "https://github.com/advisories/GHSA-mf5g-6r6f-ghhm",
-      "date": "2026-04-10T20:25:09.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
