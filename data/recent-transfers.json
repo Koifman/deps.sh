@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-04-13T18:38:16.472Z",
-  "count": 97,
+  "scannedAt": "2026-04-13T19:37:21.222Z",
+  "count": 96,
   "packages": [
     {
       "name": "xmldom",
@@ -75,15 +75,6 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "appium",
-      "version": "3.3.0",
-      "ecosystem": "npm",
-      "score": 43,
-      "level": "MODERATE",
-      "previousOwner": "admc",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "terser",
       "version": "5.46.1",
       "ecosystem": "npm",
@@ -109,15 +100,6 @@
       "level": "MODERATE",
       "previousOwner": "bhouston",
       "currentOwner": "mugen87"
-    },
-    {
-      "name": "enzyme-adapter-utils",
-      "version": "1.14.2",
-      "ecosystem": "npm",
-      "score": 40,
-      "level": "MODERATE",
-      "previousOwner": "intelligibabble",
-      "currentOwner": "ljharb"
     },
     {
       "name": "hasown",
@@ -201,6 +183,15 @@
       "currentOwner": "msftapplicationinsights"
     },
     {
+      "name": "heimdalljs",
+      "version": "0.2.6",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "hjdivad",
+      "currentOwner": "stefanpenner"
+    },
+    {
       "name": "is-plain-object",
       "version": "5.0.0",
       "ecosystem": "npm",
@@ -264,21 +255,21 @@
       "currentOwner": "michaelficarra"
     },
     {
-      "name": "is-array-buffer",
-      "version": "3.0.5",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "fengyuanchen",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "string.prototype.trimend",
       "version": "1.0.9",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
       "previousOwner": "khaledelansari",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "is-array-buffer",
+      "version": "3.0.5",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "fengyuanchen",
       "currentOwner": "ljharb"
     },
     {
@@ -336,15 +327,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "cloudevents",
-      "version": "10.0.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "tjanczuk",
-      "currentOwner": "lholmquist"
-    },
-    {
       "name": "embla-carousel-autoplay",
       "version": "8.6.0",
       "ecosystem": "npm",
@@ -352,6 +334,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "cloudevents",
+      "version": "10.0.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "tjanczuk",
+      "currentOwner": "lholmquist"
     },
     {
       "name": "eslint",
@@ -516,15 +507,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/storage-js",
-      "version": "2.103.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "kiwicopple",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@supabase/realtime-js",
       "version": "2.103.0",
       "ecosystem": "npm",
@@ -535,6 +517,15 @@
     },
     {
       "name": "@supabase/supabase-js",
+      "version": "2.103.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "kiwicopple",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@supabase/storage-js",
       "version": "2.103.0",
       "ecosystem": "npm",
       "score": 22,
@@ -786,15 +777,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@fortawesome/react-fontawesome",
-      "version": "3.3.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "supercodepoet",
-      "currentOwner": "lordofbacon"
-    },
-    {
       "name": "pe-library",
       "version": "2.0.1",
       "ecosystem": "npm",
@@ -802,6 +784,15 @@
       "level": "LOW",
       "previousOwner": "jet2jet",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@fortawesome/react-fontawesome",
+      "version": "3.3.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "supercodepoet",
+      "currentOwner": "lordofbacon"
     },
     {
       "name": "@oxlint/binding-linux-x64-musl",

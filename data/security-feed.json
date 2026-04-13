@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-04-13T18:35:18.876Z",
+  "fetchedAt": "2026-04-13T19:34:15.733Z",
   "entries": [
+    {
+      "title": "[pillow] FITS GZIP decompression bomb in Pillow",
+      "url": "https://github.com/advisories/GHSA-whj4-6x5x-4v2j",
+      "date": "2026-04-13T19:22:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@parcel/reporter-dev-server] Parcel has an Origin Validation Error vulnerability",
+      "url": "https://github.com/advisories/GHSA-qm9p-f9j5-w83w",
+      "date": "2026-04-13T18:49:41.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios HTTP/2 Session Cleanup State Corruption Vulnerability",
+      "url": "https://github.com/advisories/GHSA-qj83-cq47-w5f8",
+      "date": "2026-04-13T18:37:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[pytest] pytest has vulnerable tmpdir handling",
       "url": "https://github.com/advisories/GHSA-6w46-j5rx-g56g",
@@ -116,27 +137,6 @@
       "title": "[next-intl] next-intl has an open redirect vulnerability",
       "url": "https://github.com/advisories/GHSA-8f24-v5vv-gm5j",
       "date": "2026-04-10T21:03:58.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n-mcp] n8n-mcp has unauthenticated session termination and information disclosure in HTTP transport",
-      "url": "https://github.com/advisories/GHSA-75hx-xj24-mqrw",
-      "date": "2026-04-10T20:59:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Windows media loaders accepted remote-host file URLs before local path validation",
-      "url": "https://github.com/advisories/GHSA-8h8f-7cxm-m38j",
-      "date": "2026-04-10T20:42:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[js-video-url-parser] Zod jsVideoUrlParser vulnerable to ReDoS in util.js",
-      "url": "https://github.com/advisories/GHSA-8fgx-wgvr-pcx8",
-      "date": "2026-04-10T20:34:45.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
