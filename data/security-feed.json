@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-13T13:39:44.424Z",
+  "fetchedAt": "2026-04-13T14:42:12.834Z",
   "entries": [
+    {
+      "title": "[jquery] Potential XSS vulnerability in jQuery",
+      "url": "https://github.com/advisories/GHSA-gxr4-xjj5-5px2",
+      "date": "2026-04-13T13:46:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0097: Unsoundness in rand",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0097.html",
@@ -130,13 +137,6 @@
       "title": "[metagpt] FoundationAgents MetaGPT vulnerable to OS Command Injection in metagpt/utils/common.py",
       "url": "https://github.com/advisories/GHSA-qw5f-qpq5-ppfg",
       "date": "2026-04-10T20:27:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[metagpt] FoundationAgents MetaGPT vulnerable to OS Command Injection in metagpt/tools/libs/terminal.py",
-      "url": "https://github.com/advisories/GHSA-fcc8-4q7h-wvwc",
-      "date": "2026-04-10T20:27:34.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
