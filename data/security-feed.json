@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-04-14T19:35:45.259Z",
+  "fetchedAt": "2026-04-14T20:26:52.640Z",
   "entries": [
+    {
+      "title": "[justhtml] Multiple security fixes in justhtml",
+      "url": "https://github.com/advisories/GHSA-4p64-v8f5-r2gx",
+      "date": "2026-04-14T20:05:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[metagpt] MetaGPT affected by server-side request forgery in metagpt/utils/common.py",
+      "url": "https://github.com/advisories/GHSA-r5v8-c28h-f8r8",
+      "date": "2026-04-14T20:04:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[metagpt] MetaGPT has an eval injection in metagpt/strategy/tot.py",
+      "url": "https://github.com/advisories/GHSA-xr7v-m9px-q4qj",
+      "date": "2026-04-14T20:04:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[metagpt] MetaGPT has an eval injection via a cross-site request forgery attack",
+      "url": "https://github.com/advisories/GHSA-w287-wwhf-95vv",
+      "date": "2026-04-14T20:03:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@adonisjs/http-server] URL Redirection to Untrusted Site ('Open Redirect') in @adonisjs/http-server",
+      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
+      "date": "2026-04-14T20:01:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@adonisjs/core] URL Redirection to Untrusted Site ('Open Redirect') in @adonisjs/http-server",
+      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
+      "date": "2026-04-14T20:01:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@adonisjs/http-server] URL Redirection to Untrusted Site ('Open Redirect') in @adonisjs/http-server",
+      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
+      "date": "2026-04-14T20:01:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[simple-git] simple-git Affected by Command Execution via Option-Parsing Bypass",
       "url": "https://github.com/advisories/GHSA-jcxm-m3jx-f287",
@@ -89,55 +138,6 @@
       "date": "2026-04-14T00:03:19.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[pillow] FITS GZIP decompression bomb in Pillow",
-      "url": "https://github.com/advisories/GHSA-whj4-6x5x-4v2j",
-      "date": "2026-04-13T19:22:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@parcel/reporter-dev-server] Parcel has an Origin Validation Error vulnerability",
-      "url": "https://github.com/advisories/GHSA-qm9p-f9j5-w83w",
-      "date": "2026-04-13T18:49:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios HTTP/2 Session Cleanup State Corruption Vulnerability",
-      "url": "https://github.com/advisories/GHSA-qj83-cq47-w5f8",
-      "date": "2026-04-13T18:37:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pytest] pytest has vulnerable tmpdir handling",
-      "url": "https://github.com/advisories/GHSA-6w46-j5rx-g56g",
-      "date": "2026-04-13T16:38:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jquery] Potential XSS vulnerability in jQuery",
-      "url": "https://github.com/advisories/GHSA-gxr4-xjj5-5px2",
-      "date": "2026-04-13T13:46:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lollms] parisneo/lollms vulnerable to stored XSS in the social feature",
-      "url": "https://github.com/advisories/GHSA-8wrq-fv5f-pfp2",
-      "date": "2026-04-10T22:11:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw vulnerable to SSRF in src/agents/tools/web-fetch.ts",
-      "url": "https://github.com/advisories/GHSA-52vj-fvrv-7q82",
-      "date": "2026-04-10T22:10:27.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
