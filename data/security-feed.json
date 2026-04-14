@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-14T21:23:45.627Z",
+  "fetchedAt": "2026-04-14T22:22:25.773Z",
   "entries": [
+    {
+      "title": "[next-intl] next-intl has an open redirect vulnerability",
+      "url": "https://github.com/advisories/GHSA-8f24-v5vv-gm5j",
+      "date": "2026-04-14T21:55:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[justhtml] Multiple security fixes in justhtml",
       "url": "https://github.com/advisories/GHSA-4p64-v8f5-r2gx",
@@ -131,13 +138,6 @@
       "date": "2026-04-14T00:04:10.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[excel-mcp-server] Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') in excel-mcp-server",
-      "url": "https://github.com/advisories/GHSA-j98m-w3xp-9f56",
-      "date": "2026-04-14T00:03:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
