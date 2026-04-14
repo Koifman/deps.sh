@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-04-14T14:42:17.254Z",
+  "fetchedAt": "2026-04-14T15:33:37.333Z",
   "entries": [
+    {
+      "title": "[axios] Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain",
+      "url": "https://github.com/advisories/GHSA-fvcv-3m26-pcqx",
+      "date": "2026-04-14T15:20:20.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[axios] Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain",
+      "url": "https://github.com/advisories/GHSA-fvcv-3m26-pcqx",
+      "date": "2026-04-14T15:20:20.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[scrapy] Scrapy denial of service vulnerability",
+      "url": "https://github.com/advisories/GHSA-h7wm-ph43-c39p",
+      "date": "2026-04-14T15:16:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mathjs] mathjs Allows Improperly Controlled Modification of Dynamically-Determined Object Attributes",
+      "url": "https://github.com/advisories/GHSA-jvff-x2qm-6286",
+      "date": "2026-04-14T15:10:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2025-0161: libsecp256k1 is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0161.html",
@@ -105,39 +133,11 @@
       "severity": "CRITICAL"
     },
     {
-      "title": "[mathjs] mathjs Allows Improperly Controlled Modification of Dynamically-Determined Object Attributes",
-      "url": "https://github.com/advisories/GHSA-jvff-x2qm-6286",
-      "date": "2026-04-10T22:10:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
       "title": "[openclaw] OpenClaw vulnerable to SSRF in src/agents/tools/web-fetch.ts",
       "url": "https://github.com/advisories/GHSA-52vj-fvrv-7q82",
       "date": "2026-04-10T22:10:27.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[unhead] unhead: Streaming SSR `streamKey` injected into inline script without identifier validation",
-      "url": "https://github.com/advisories/GHSA-x7mm-9vvv-64w8",
-      "date": "2026-04-10T22:09:41.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[keystone] OpenStack Keystone: Restricted application credentials can create EC2 credentials",
-      "url": "https://github.com/advisories/GHSA-4phw-6824-6cfp",
-      "date": "2026-04-10T22:09:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[rembg] rembg server is vulnerable to Server-Side Request Forgery (SSRF) and a weak default CORS configuration",
-      "url": "https://github.com/advisories/GHSA-55v6-g8pm-pw4c",
-      "date": "2026-04-10T22:09:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
