@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-04-14T00:56:27.063Z",
+  "fetchedAt": "2026-04-14T01:42:07.472Z",
   "entries": [
+    {
+      "title": "[gdown] gdown Affected by Arbitrary File Write via Path Traversal in gdown.extractall",
+      "url": "https://github.com/advisories/GHSA-76hw-p97h-883f",
+      "date": "2026-04-14T01:11:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[follow-redirects] follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets",
+      "url": "https://github.com/advisories/GHSA-r4q5-vmmm-2653",
+      "date": "2026-04-14T01:11:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mitmproxy] LDAP Injection in mitmproxy",
+      "url": "https://github.com/advisories/GHSA-527g-3w9m-29hv",
+      "date": "2026-04-14T01:08:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@nestjs/microservices] Nest Affected by DoS via Recursive handleData in JsonSocket (TCP Transport)",
       "url": "https://github.com/advisories/GHSA-hpwf-8g29-85qm",
@@ -118,27 +139,6 @@
       "date": "2026-04-10T21:37:23.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[ajenti.plugin.core] ajenti.plugin.core has password bypass when 2FA is activated",
-      "url": "https://github.com/advisories/GHSA-3mcx-6wxm-qr8v",
-      "date": "2026-04-10T21:37:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[pypdf] pypdf: Manipulated XMP metadata entity declarations can exhaust RAM",
-      "url": "https://github.com/advisories/GHSA-3crg-w4f6-42mx",
-      "date": "2026-04-10T21:32:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[gramps-webapi] gramps-webapi: Zip Slip Path Traversal in Media Archive Import",
-      "url": "https://github.com/advisories/GHSA-m5gr-86j6-99jp",
-      "date": "2026-04-10T21:32:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
