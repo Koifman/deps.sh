@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-04-13T23:23:24.447Z",
+  "fetchedAt": "2026-04-14T00:56:27.063Z",
   "entries": [
+    {
+      "title": "[@nestjs/microservices] Nest Affected by DoS via Recursive handleData in JsonSocket (TCP Transport)",
+      "url": "https://github.com/advisories/GHSA-hpwf-8g29-85qm",
+      "date": "2026-04-14T00:15:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@aiondadotcom/mcp-ssh] SSH/SCP option injection allowing local RCE in @aiondadotcom/mcp-ssh",
+      "url": "https://github.com/advisories/GHSA-p4h8-56qp-hpgv",
+      "date": "2026-04-14T00:04:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[excel-mcp-server] Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') in excel-mcp-server",
+      "url": "https://github.com/advisories/GHSA-j98m-w3xp-9f56",
+      "date": "2026-04-14T00:03:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[pillow] FITS GZIP decompression bomb in Pillow",
       "url": "https://github.com/advisories/GHSA-whj4-6x5x-4v2j",
@@ -118,27 +139,6 @@
       "date": "2026-04-10T21:32:42.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[@paperclipai/server] paperclip Vulnerable to Unauthenticated Remote Code Execution via Import Authorization Bypass",
-      "url": "https://github.com/advisories/GHSA-68qg-g8mg-6pr7",
-      "date": "2026-04-10T21:08:59.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[paperclipai] paperclip Vulnerable to Unauthenticated Remote Code Execution via Import Authorization Bypass",
-      "url": "https://github.com/advisories/GHSA-68qg-g8mg-6pr7",
-      "date": "2026-04-10T21:08:59.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[next-intl] next-intl has an open redirect vulnerability",
-      "url": "https://github.com/advisories/GHSA-8f24-v5vv-gm5j",
-      "date": "2026-04-10T21:03:58.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
