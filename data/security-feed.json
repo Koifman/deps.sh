@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-04-14T05:04:19.821Z",
+  "fetchedAt": "2026-04-14T06:48:34.214Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0097: Unsoundness in rand",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0097.html",
+      "date": "2026-04-14T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[gdown] gdown Affected by Arbitrary File Write via Path Traversal in gdown.extractall",
       "url": "https://github.com/advisories/GHSA-76hw-p97h-883f",
@@ -84,12 +90,6 @@
       "date": "2026-04-13T13:46:46.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0097: Unsoundness in rand",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0097.html",
-      "date": "2026-04-11T12:00:00+00:00",
-      "ecosystem": "cargo"
     },
     {
       "title": "[lollms] parisneo/lollms vulnerable to stored XSS in the social feature",
