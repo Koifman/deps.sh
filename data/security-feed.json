@@ -1,12 +1,54 @@
 {
-  "fetchedAt": "2026-04-14T22:22:25.773Z",
+  "fetchedAt": "2026-04-14T23:22:40.628Z",
   "entries": [
     {
-      "title": "[next-intl] next-intl has an open redirect vulnerability",
-      "url": "https://github.com/advisories/GHSA-8f24-v5vv-gm5j",
-      "date": "2026-04-14T21:55:02.000Z",
+      "title": "[giskard-checks] Giskard has a Regular Expression Denial of Service (ReDoS) in RegexMatching Check",
+      "url": "https://github.com/advisories/GHSA-rq2q-4r55-9877",
+      "date": "2026-04-14T23:13:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@vendure/core] Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') in @vendure/core",
+      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
+      "date": "2026-04-14T22:38:01.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@vendure/core] Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') in @vendure/core",
+      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
+      "date": "2026-04-14T22:38:01.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@vendure/core] Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') in @vendure/core",
+      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
+      "date": "2026-04-14T22:38:01.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[mcp-server-kubernetes] MCP Server Kubernetes has an Argument Injection in port_forward tool via space-splitting",
+      "url": "https://github.com/advisories/GHSA-4xqg-gf5c-ghwq",
+      "date": "2026-04-14T22:32:15.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[google-adk] Google Agent Development Kit (ADK) has a Code Injection and Missing Authentication vulnerability",
+      "url": "https://github.com/advisories/GHSA-rg7c-g689-fr3x",
+      "date": "2026-04-14T22:29:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[google-adk] Google Agent Development Kit (ADK) has a Code Injection and Missing Authentication vulnerability",
+      "url": "https://github.com/advisories/GHSA-rg7c-g689-fr3x",
+      "date": "2026-04-14T22:29:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
     },
     {
       "title": "[justhtml] Multiple security fixes in justhtml",
@@ -97,47 +139,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0161.html",
       "date": "2026-04-14T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0097: Unsoundness in rand",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0097.html",
-      "date": "2026-04-14T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[gdown] gdown Affected by Arbitrary File Write via Path Traversal in gdown.extractall",
-      "url": "https://github.com/advisories/GHSA-76hw-p97h-883f",
-      "date": "2026-04-14T01:11:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[follow-redirects] follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets",
-      "url": "https://github.com/advisories/GHSA-r4q5-vmmm-2653",
-      "date": "2026-04-14T01:11:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mitmproxy] LDAP Injection in mitmproxy",
-      "url": "https://github.com/advisories/GHSA-527g-3w9m-29hv",
-      "date": "2026-04-14T01:08:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@nestjs/microservices] Nest Affected by DoS via Recursive handleData in JsonSocket (TCP Transport)",
-      "url": "https://github.com/advisories/GHSA-hpwf-8g29-85qm",
-      "date": "2026-04-14T00:15:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@aiondadotcom/mcp-ssh] SSH/SCP option injection allowing local RCE in @aiondadotcom/mcp-ssh",
-      "url": "https://github.com/advisories/GHSA-p4h8-56qp-hpgv",
-      "date": "2026-04-14T00:04:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }

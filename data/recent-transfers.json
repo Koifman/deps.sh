@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-04-14T22:25:32.501Z",
+  "scannedAt": "2026-04-14T23:25:39.511Z",
   "count": 96,
   "packages": [
     {
@@ -46,6 +46,15 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tinymce",
+      "version": "8.4.0",
+      "ecosystem": "npm",
+      "score": 50,
+      "level": "HIGH",
+      "previousOwner": "spocke",
+      "currentOwner": "tinymce"
     },
     {
       "name": "karma",
@@ -100,15 +109,6 @@
       "level": "MODERATE",
       "previousOwner": "bhouston",
       "currentOwner": "mugen87"
-    },
-    {
-      "name": "enzyme-adapter-utils",
-      "version": "1.14.2",
-      "ecosystem": "npm",
-      "score": 40,
-      "level": "MODERATE",
-      "previousOwner": "intelligibabble",
-      "currentOwner": "ljharb"
     },
     {
       "name": "hasown",
@@ -606,15 +606,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "resedit",
-      "version": "3.0.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jet2jet",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "inversify",
       "version": "8.1.0",
       "ecosystem": "npm",
@@ -622,6 +613,15 @@
       "level": "MODERATE",
       "previousOwner": "remojansen",
       "currentOwner": "notaphplover"
+    },
+    {
+      "name": "resedit",
+      "version": "3.0.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jet2jet",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@appium/types",
@@ -768,8 +768,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.45.0",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "version": "0.125.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -777,8 +777,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
-      "version": "0.125.0",
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.45.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
