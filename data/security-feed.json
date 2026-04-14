@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-04-14T10:36:39.889Z",
+  "fetchedAt": "2026-04-14T11:29:41.103Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2025-0161: libsecp256k1 is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0161.html",
+      "date": "2026-04-14T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0097: Unsoundness in rand",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0097.html",
@@ -130,13 +136,6 @@
       "title": "[rembg] rembg server is vulnerable to Server-Side Request Forgery (SSRF) and a weak default CORS configuration",
       "url": "https://github.com/advisories/GHSA-55v6-g8pm-pw4c",
       "date": "2026-04-10T22:09:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ajenti.plugin.core] ajenti.plugin.core has race conditions in 2FA",
-      "url": "https://github.com/advisories/GHSA-8647-755q-fw9p",
-      "date": "2026-04-10T21:37:23.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
