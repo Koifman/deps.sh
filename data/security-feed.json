@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-04-15T21:24:34.786Z",
+  "fetchedAt": "2026-04-15T22:20:48.716Z",
   "entries": [
+    {
+      "title": "[@vendure/core] @vendure/core has a SQL Injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
+      "date": "2026-04-15T21:18:36.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@vendure/core] @vendure/core has a SQL Injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
+      "date": "2026-04-15T21:18:36.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@vendure/core] @vendure/core has a SQL Injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
+      "date": "2026-04-15T21:18:36.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[mcp-server-kubernetes] MCP Server Kubernetes has an Argument Injection in port_forward tool via space-splitting",
+      "url": "https://github.com/advisories/GHSA-4xqg-gf5c-ghwq",
+      "date": "2026-04-15T21:17:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mitmproxy] mitmproxy has an LDAP Injection",
+      "url": "https://github.com/advisories/GHSA-527g-3w9m-29hv",
+      "date": "2026-04-15T21:14:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@adonisjs/http-server] @adonisjs/http-server has an Open Redirect vulnerability",
       "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
@@ -103,41 +138,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0099.html",
       "date": "2026-04-15T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[aws-mcp] aws-mcp has a Command Injection Remote Code Execution Vulnerability",
-      "url": "https://github.com/advisories/GHSA-fgmx-xfp3-w28p",
-      "date": "2026-04-14T23:42:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[pyload-ng] pyLoad's Session Not Invalidated After Permission Changes",
-      "url": "https://github.com/advisories/GHSA-fj52-5g4h-gmq8",
-      "date": "2026-04-14T23:39:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[pyload-ng] pyLoad has Stale Session Privilege After Role/Permission Change (Privilege Revocation Bypass)",
-      "url": "https://github.com/advisories/GHSA-66hx-chf7-3332",
-      "date": "2026-04-14T23:38:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dbgate-web] DbGate has cross site scripting via the  SVG Icon String Handler component",
-      "url": "https://github.com/advisories/GHSA-j8j5-7r4h-vj2g",
-      "date": "2026-04-14T23:37:07.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[novu/api] Novu has a XSS sanitization bypass",
-      "url": "https://github.com/advisories/GHSA-26wg-9xf2-q495",
-      "date": "2026-04-14T23:23:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
