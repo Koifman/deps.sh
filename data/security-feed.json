@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-04-15T06:48:42.573Z",
+  "fetchedAt": "2026-04-15T07:41:08.770Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0098: Vulnerability in rustls-webpki",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0098.html",
+      "date": "2026-04-15T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[aws-mcp] aws-mcp has a Command Injection Remote Code Execution Vulnerability",
       "url": "https://github.com/advisories/GHSA-fgmx-xfp3-w28p",
@@ -133,13 +139,6 @@
       "date": "2026-04-14T20:04:20.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[metagpt] MetaGPT has an eval injection in metagpt/strategy/tot.py",
-      "url": "https://github.com/advisories/GHSA-xr7v-m9px-q4qj",
-      "date": "2026-04-14T20:04:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
