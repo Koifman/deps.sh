@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-04-14T23:22:40.628Z",
+  "fetchedAt": "2026-04-15T00:56:55.982Z",
   "entries": [
+    {
+      "title": "[aws-mcp] aws-mcp has a Command Injection Remote Code Execution Vulnerability",
+      "url": "https://github.com/advisories/GHSA-fgmx-xfp3-w28p",
+      "date": "2026-04-14T23:42:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[pyload-ng] pyLoad's Session Not Invalidated After Permission Changes",
+      "url": "https://github.com/advisories/GHSA-fj52-5g4h-gmq8",
+      "date": "2026-04-14T23:39:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[pyload-ng] pyLoad has Stale Session Privilege After Role/Permission Change (Privilege Revocation Bypass)",
+      "url": "https://github.com/advisories/GHSA-66hx-chf7-3332",
+      "date": "2026-04-14T23:38:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dbgate-web] DbGate has cross site scripting via the  SVG Icon String Handler component",
+      "url": "https://github.com/advisories/GHSA-j8j5-7r4h-vj2g",
+      "date": "2026-04-14T23:37:07.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[novu/api] Novu has a XSS sanitization bypass",
+      "url": "https://github.com/advisories/GHSA-26wg-9xf2-q495",
+      "date": "2026-04-14T23:23:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@novu/api] Novu has SSRF via conditions filter webhook bypasses validateUrlSsrf() protection",
+      "url": "https://github.com/advisories/GHSA-4x48-cgf9-q33f",
+      "date": "2026-04-14T23:22:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow: Unsafe Deserialization via Legacy Serialization Keys (__type/__var) Bypass in XCom API",
+      "url": "https://github.com/advisories/GHSA-mc4f-r875-v87w",
+      "date": "2026-04-14T23:17:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[keras] Keras has an untrusted deserialization vulnerability",
+      "url": "https://github.com/advisories/GHSA-4f3f-g24h-fr8m",
+      "date": "2026-04-14T23:17:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow: Secrets from Airflow config file logged in plain text in DAG run logs UI",
+      "url": "https://github.com/advisories/GHSA-j86x-fwp2-qh7v",
+      "date": "2026-04-14T23:16:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[giskard-checks] Giskard has Unsandboxed Jinja2 Template Rendering in ConformityCheck",
+      "url": "https://github.com/advisories/GHSA-7xjm-g8f4-rp26",
+      "date": "2026-04-14T23:13:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[giskard-checks] Giskard has a Regular Expression Denial of Service (ReDoS) in RegexMatching Check",
       "url": "https://github.com/advisories/GHSA-rq2q-4r55-9877",
@@ -70,75 +140,6 @@
       "date": "2026-04-14T20:04:10.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[metagpt] MetaGPT has an eval injection via a cross-site request forgery attack",
-      "url": "https://github.com/advisories/GHSA-w287-wwhf-95vv",
-      "date": "2026-04-14T20:03:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@adonisjs/http-server] URL Redirection to Untrusted Site ('Open Redirect') in @adonisjs/http-server",
-      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
-      "date": "2026-04-14T20:01:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@adonisjs/core] URL Redirection to Untrusted Site ('Open Redirect') in @adonisjs/http-server",
-      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
-      "date": "2026-04-14T20:01:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@adonisjs/http-server] URL Redirection to Untrusted Site ('Open Redirect') in @adonisjs/http-server",
-      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
-      "date": "2026-04-14T20:01:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[simple-git] simple-git Affected by Command Execution via Option-Parsing Bypass",
-      "url": "https://github.com/advisories/GHSA-jcxm-m3jx-f287",
-      "date": "2026-04-14T16:30:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain",
-      "url": "https://github.com/advisories/GHSA-fvcv-3m26-pcqx",
-      "date": "2026-04-14T15:20:20.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[axios] Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain",
-      "url": "https://github.com/advisories/GHSA-fvcv-3m26-pcqx",
-      "date": "2026-04-14T15:20:20.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[scrapy] Scrapy denial of service vulnerability",
-      "url": "https://github.com/advisories/GHSA-h7wm-ph43-c39p",
-      "date": "2026-04-14T15:16:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mathjs] mathjs Allows Improperly Controlled Modification of Dynamically-Determined Object Attributes",
-      "url": "https://github.com/advisories/GHSA-jvff-x2qm-6286",
-      "date": "2026-04-14T15:10:36.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2025-0161: libsecp256k1 is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0161.html",
-      "date": "2026-04-14T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
