@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-04-15T07:43:41.465Z",
-  "count": 96,
+  "scannedAt": "2026-04-15T08:46:45.861Z",
+  "count": 98,
   "packages": [
     {
       "name": "xmldom",
@@ -46,6 +46,15 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tinymce",
+      "version": "8.4.0",
+      "ecosystem": "npm",
+      "score": 50,
+      "level": "HIGH",
+      "previousOwner": "spocke",
+      "currentOwner": "tinymce"
     },
     {
       "name": "karma",
@@ -517,7 +526,7 @@
     },
     {
       "name": "@supabase/storage-js",
-      "version": "2.103.0",
+      "version": "2.103.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -535,7 +544,7 @@
     },
     {
       "name": "@supabase/realtime-js",
-      "version": "2.103.0",
+      "version": "2.103.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -544,7 +553,7 @@
     },
     {
       "name": "@supabase/supabase-js",
-      "version": "2.103.0",
+      "version": "2.103.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -552,8 +561,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.0",
+      "name": "postcss-focus-visible",
+      "version": "11.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -561,8 +570,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "postcss-focus-visible",
-      "version": "11.0.0",
+      "name": "css-has-pseudo",
+      "version": "8.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -660,21 +669,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "cropperjs",
-      "version": "2.1.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "fengyuanchen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/logger",
       "version": "2.0.6",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "cropperjs",
+      "version": "2.1.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "fengyuanchen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -723,6 +732,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@oxc-parser/binding-linux-x64-gnu",
+      "version": "0.125.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@speed-highlight/core",
       "version": "1.2.15",
       "ecosystem": "npm",
@@ -732,7 +750,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-x64-gnu",
+      "name": "@oxc-parser/binding-linux-x64-musl",
       "version": "0.125.0",
       "ecosystem": "npm",
       "score": 20,
@@ -743,15 +761,6 @@
     {
       "name": "@oxlint/binding-linux-x64-gnu",
       "version": "1.60.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-parser/binding-linux-x64-musl",
-      "version": "0.125.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -786,15 +795,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "pe-library",
-      "version": "2.0.1",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "jet2jet",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@fortawesome/react-fontawesome",
       "version": "3.3.0",
       "ecosystem": "npm",
@@ -802,6 +802,15 @@
       "level": "LOW",
       "previousOwner": "supercodepoet",
       "currentOwner": "lordofbacon"
+    },
+    {
+      "name": "pe-library",
+      "version": "2.0.1",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "jet2jet",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxlint/binding-linux-x64-musl",
@@ -822,8 +831,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.45.0",
+      "name": "oxc-minify",
+      "version": "0.125.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -831,8 +840,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.125.0",
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.45.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -865,6 +874,15 @@
       "level": "LOW",
       "previousOwner": "antimatter15",
       "currentOwner": "balearica"
+    },
+    {
+      "name": "@oxc-minify/binding-linux-x64-musl",
+      "version": "0.125.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }
