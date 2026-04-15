@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-04-15T19:36:09.197Z",
+  "fetchedAt": "2026-04-15T20:24:48.814Z",
   "entries": [
+    {
+      "title": "[python-multipart] python-multipart affected by Denial of Service via large multipart preamble or epilogue data",
+      "url": "https://github.com/advisories/GHSA-mj87-hwqh-73pj",
+      "date": "2026-04-15T19:45:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@nocobase/plugin-workflow-request] NocoBase has SSRF in Workflow HTTP Request and Custom Request Plugins",
+      "url": "https://github.com/advisories/GHSA-mvvv-v22x-xqwp",
+      "date": "2026-04-15T19:43:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pypdf] pypdf has long runtimes for wrong size values in cross-reference and object streams",
+      "url": "https://github.com/advisories/GHSA-jj6c-8h6c-hppx",
+      "date": "2026-04-15T19:43:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@samanhappy/mcphub] MCPHub has an authentication bypass",
+      "url": "https://github.com/advisories/GHSA-9vq7-9h42-j88h",
+      "date": "2026-04-15T19:42:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[fastify] Fastify has a Body Schema Validation Bypass via Leading Space in Content-Type Header",
       "url": "https://github.com/advisories/GHSA-247c-9743-5963",
@@ -110,34 +138,6 @@
       "date": "2026-04-14T23:13:40.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[@vendure/core] Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') in @vendure/core",
-      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
-      "date": "2026-04-14T22:38:01.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@vendure/core] Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') in @vendure/core",
-      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
-      "date": "2026-04-14T22:38:01.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@vendure/core] Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') in @vendure/core",
-      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
-      "date": "2026-04-14T22:38:01.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[mcp-server-kubernetes] MCP Server Kubernetes has an Argument Injection in port_forward tool via space-splitting",
-      "url": "https://github.com/advisories/GHSA-4xqg-gf5c-ghwq",
-      "date": "2026-04-14T22:32:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
