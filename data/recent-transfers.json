@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-04-15T13:43:06.400Z",
+  "scannedAt": "2026-04-15T14:44:57.411Z",
   "count": 98,
   "packages": [
     {
@@ -253,15 +253,6 @@
       "level": "MODERATE",
       "previousOwner": "isaacs",
       "currentOwner": "geoffreybooth"
-    },
-    {
-      "name": "broccoli-babel-transpiler",
-      "version": "8.0.2",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "sebmck",
-      "currentOwner": "katiegengler"
     },
     {
       "name": "@appium/support",
@@ -526,7 +517,7 @@
     },
     {
       "name": "@supabase/storage-js",
-      "version": "2.103.1",
+      "version": "2.103.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -535,7 +526,7 @@
     },
     {
       "name": "@supabase/realtime-js",
-      "version": "2.103.1",
+      "version": "2.103.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -544,7 +535,7 @@
     },
     {
       "name": "@supabase/supabase-js",
-      "version": "2.103.1",
+      "version": "2.103.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -759,8 +750,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-gnu",
-      "version": "1.60.0",
+      "name": "oxc-transform",
+      "version": "0.125.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -768,8 +759,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
-      "version": "0.125.0",
+      "name": "@oxlint/binding-linux-x64-gnu",
+      "version": "1.60.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -865,6 +856,15 @@
       "level": "LOW",
       "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@nevware21/ts-utils",
+      "version": "0.13.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "tesseract.js-core",
