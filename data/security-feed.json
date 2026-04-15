@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-04-15T20:24:48.814Z",
+  "fetchedAt": "2026-04-15T21:24:34.786Z",
   "entries": [
+    {
+      "title": "[@adonisjs/http-server] @adonisjs/http-server has an Open Redirect vulnerability",
+      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
+      "date": "2026-04-15T21:09:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@adonisjs/core] @adonisjs/http-server has an Open Redirect vulnerability",
+      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
+      "date": "2026-04-15T21:09:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@adonisjs/http-server] @adonisjs/http-server has an Open Redirect vulnerability",
+      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
+      "date": "2026-04-15T21:09:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[gdown] gdown Affected by Arbitrary File Write via Path Traversal in gdown.extractall",
+      "url": "https://github.com/advisories/GHSA-76hw-p97h-883f",
+      "date": "2026-04-15T21:00:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios has a NO_PROXY Hostname Normalization Bypass Leads to SSRF",
+      "url": "https://github.com/advisories/GHSA-3p68-rc4w-qgx5",
+      "date": "2026-04-15T20:27:56.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[axios] Axios has a NO_PROXY Hostname Normalization Bypass Leads to SSRF",
+      "url": "https://github.com/advisories/GHSA-3p68-rc4w-qgx5",
+      "date": "2026-04-15T20:27:56.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[python-multipart] python-multipart affected by Denial of Service via large multipart preamble or epilogue data",
       "url": "https://github.com/advisories/GHSA-mj87-hwqh-73pj",
@@ -96,48 +138,6 @@
       "date": "2026-04-14T23:23:01.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@novu/api] Novu has SSRF via conditions filter webhook bypasses validateUrlSsrf() protection",
-      "url": "https://github.com/advisories/GHSA-4x48-cgf9-q33f",
-      "date": "2026-04-14T23:22:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow: Unsafe Deserialization via Legacy Serialization Keys (__type/__var) Bypass in XCom API",
-      "url": "https://github.com/advisories/GHSA-mc4f-r875-v87w",
-      "date": "2026-04-14T23:17:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[keras] Keras has an untrusted deserialization vulnerability",
-      "url": "https://github.com/advisories/GHSA-4f3f-g24h-fr8m",
-      "date": "2026-04-14T23:17:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow: Secrets from Airflow config file logged in plain text in DAG run logs UI",
-      "url": "https://github.com/advisories/GHSA-j86x-fwp2-qh7v",
-      "date": "2026-04-14T23:16:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[giskard-checks] Giskard has Unsandboxed Jinja2 Template Rendering in ConformityCheck",
-      "url": "https://github.com/advisories/GHSA-7xjm-g8f4-rp26",
-      "date": "2026-04-14T23:13:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[giskard-checks] Giskard has a Regular Expression Denial of Service (ReDoS) in RegexMatching Check",
-      "url": "https://github.com/advisories/GHSA-rq2q-4r55-9877",
-      "date": "2026-04-14T23:13:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }
