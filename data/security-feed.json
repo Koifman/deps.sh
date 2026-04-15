@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-04-15T18:34:28.799Z",
+  "fetchedAt": "2026-04-15T19:36:09.197Z",
   "entries": [
+    {
+      "title": "[fastify] Fastify has a Body Schema Validation Bypass via Leading Space in Content-Type Header",
+      "url": "https://github.com/advisories/GHSA-247c-9743-5963",
+      "date": "2026-04-15T19:24:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@sync-in/server] Sync-in Server has Username Enumeration via Timing Attack",
+      "url": "https://github.com/advisories/GHSA-43fj-qp3h-hrh5",
+      "date": "2026-04-15T18:57:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[h2o] External Control of File Name or Path in h2oai/h2o-3",
       "url": "https://github.com/advisories/GHSA-gqrq-j6pm-98c2",
@@ -124,20 +138,6 @@
       "date": "2026-04-14T22:32:15.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[google-adk] Google Agent Development Kit (ADK) has a Code Injection and Missing Authentication vulnerability",
-      "url": "https://github.com/advisories/GHSA-rg7c-g689-fr3x",
-      "date": "2026-04-14T22:29:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[google-adk] Google Agent Development Kit (ADK) has a Code Injection and Missing Authentication vulnerability",
-      "url": "https://github.com/advisories/GHSA-rg7c-g689-fr3x",
-      "date": "2026-04-14T22:29:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
