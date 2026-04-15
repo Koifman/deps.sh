@@ -1,9 +1,15 @@
 {
-  "fetchedAt": "2026-04-15T09:40:28.673Z",
+  "fetchedAt": "2026-04-15T10:35:04.322Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0098: Vulnerability in rustls-webpki",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0098.html",
+      "date": "2026-04-15T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0099: Vulnerability in rustls-webpki",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0099.html",
       "date": "2026-04-15T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -130,13 +136,6 @@
       "title": "[justhtml] Multiple security fixes in justhtml",
       "url": "https://github.com/advisories/GHSA-4p64-v8f5-r2gx",
       "date": "2026-04-14T20:05:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[metagpt] MetaGPT affected by server-side request forgery in metagpt/utils/common.py",
-      "url": "https://github.com/advisories/GHSA-r5v8-c28h-f8r8",
-      "date": "2026-04-14T20:04:20.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
     }
