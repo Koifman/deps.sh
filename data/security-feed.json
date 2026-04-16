@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-04-16T20:23:00.730Z",
+  "fetchedAt": "2026-04-16T21:21:50.082Z",
   "entries": [
     {
+      "title": "[mojic] Mojic: Observable Timing Discrepancy in HMAC Verification",
+      "url": "https://github.com/advisories/GHSA-wqq3-wfmp-v85g",
+      "date": "2026-04-16T21:10:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@node-oauth/oauth2-server] @node-oauth/oauth2-server: PKCE code_verifier ABNF not enforced in token exchange allows brute-force redemption of intercepted authorization codes",
+      "url": "https://github.com/advisories/GHSA-jhm7-29pj-4xvf",
+      "date": "2026-04-16T21:09:52.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[weblate] Weblate: Prefix-Based Repository Boundary Check Bypass via Symlink/Junction Path Prefix Collision",
+      "url": "https://github.com/advisories/GHSA-ffgh-3jrf-8wvh",
+      "date": "2026-04-16T21:08:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sanitize-html] sanitize-html allowedTags Bypass via Entity-Decoded Text in nonTextTags Elements",
+      "url": "https://github.com/advisories/GHSA-9mrh-v2v3-xpfm",
+      "date": "2026-04-16T21:08:31.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apostrophe] ApostropheCMS: Information Disclosure via choices/counts Query Parameters Bypassing publicApiProjection Field Restrictions",
+      "url": "https://github.com/advisories/GHSA-c276-fj82-f2pq",
+      "date": "2026-04-16T20:45:16.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[weblate] Weblate: SSRF via the webhook add-on using unprotected fetch_url()",
+      "url": "https://github.com/advisories/GHSA-f8hv-g549-hwg2",
+      "date": "2026-04-16T20:45:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp-framework] MCP-Framework: Unbounded memory allocation in readRequestBody allows denial of service via HTTP transport",
+      "url": "https://github.com/advisories/GHSA-353c-v8x9-v7c3",
+      "date": "2026-04-16T20:44:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apostrophe] Stored XSS in SEO Fields Leads to Authenticated API Data Exposure in ApostropheCMS",
+      "url": "https://github.com/advisories/GHSA-855c-r2vq-c292",
+      "date": "2026-04-16T20:44:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[weblate] Weblate: Privilege escalation in the user API endpoint",
+      "url": "https://github.com/advisories/GHSA-3382-gw9x-477v",
+      "date": "2026-04-16T20:43:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[weblate] Weblate: SSRF via Project-Level Machinery Configuration",
+      "url": "https://github.com/advisories/GHSA-xrwr-fcw6-fmq8",
+      "date": "2026-04-16T20:43:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[weblate] Weblate: Arbitrary File Read via Symlink",
+      "url": "https://github.com/advisories/GHSA-hv99-mxm5-q397",
+      "date": "2026-04-16T20:43:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apostrophe] ApostropheCMS: Stored XSS via CSS Custom Property Injection in @apostrophecms/color-field Escaping Style Tag Context",
+      "url": "https://github.com/advisories/GHSA-97v6-998m-fp4g",
+      "date": "2026-04-16T20:42:39.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apostrophe] ApostropheCMS: publicApiProjection Bypass via project Query Builder in Piece-Type REST API",
+      "url": "https://github.com/advisories/GHSA-xhq9-58fw-859p",
+      "date": "2026-04-16T20:42:22.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apostrophe] ApostropheCMS: User Enumeration via Timing Side Channel in Password Reset Endpoint",
+      "url": "https://github.com/advisories/GHSA-mj7r-x3h3-7rmr",
+      "date": "2026-04-16T20:42:12.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[weblate] Weblate: Authenticated SSRF via redirect bypass of ALLOWED_ASSET_DOMAINS in screenshot URL uploads",
+      "url": "https://github.com/advisories/GHSA-5fhx-9jwj-867m",
+      "date": "2026-04-16T20:42:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[weblate] Weblate: Remote code execution during backup restoration",
+      "url": "https://github.com/advisories/GHSA-558g-h753-6m33",
+      "date": "2026-04-16T20:41:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[weblate] Weblate: JavaScript localization CDN add-on allows arbitrary local file read outside the repository",
+      "url": "https://github.com/advisories/GHSA-mqph-7h49-hqfm",
+      "date": "2026-04-16T20:41:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[weblate] Weblate: Improper access control for the translation memory in API",
+      "url": "https://github.com/advisories/GHSA-mpf5-3vph-q75r",
+      "date": "2026-04-16T20:41:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[weblate] Weblate: Improper access control for pending tasks in API",
+      "url": "https://github.com/advisories/GHSA-vj45-x3pj-f4w4",
+      "date": "2026-04-16T20:41:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
       "title": "[axios] Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF",
       "url": "https://github.com/advisories/GHSA-3p68-rc4w-qgx5",
       "date": "2026-04-16T18:44:34.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF",
-      "url": "https://github.com/advisories/GHSA-3p68-rc4w-qgx5",
-      "date": "2026-04-16T18:44:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wger] wger has Stored XSS via Unescaped License Attribution Fields",
-      "url": "https://github.com/advisories/GHSA-6f54-qjvm-wwq3",
-      "date": "2026-04-16T01:37:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wger] wger has Broken Access Control in Global Gym Configuration Update Endpoint",
-      "url": "https://github.com/advisories/GHSA-xppv-4jrx-qf8m",
-      "date": "2026-04-16T01:35:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[renovate] Renovate affected by remote code execution was possible using the bazel-module or bazelisk managers, when using lockFileMaintenance",
-      "url": "https://github.com/advisories/GHSA-5vjq-5jmg-39xq",
-      "date": "2026-04-16T01:34:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[uefi-firmware] UEFI Firmware Parser has a heap out-of-bounds write in tiano decompressor ReadCLen",
-      "url": "https://github.com/advisories/GHSA-hm2w-vr2p-hq7w",
-      "date": "2026-04-16T01:31:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[uefi-firmware] UEFI Firmware Parser has a stack out-of-bounds write in tiano decompressor MakeTable",
-      "url": "https://github.com/advisories/GHSA-2689-5p89-6j3j",
-      "date": "2026-04-16T01:30:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[pyload-ng] pyLoad has a Session Cookie Security Downgrade via Untrusted X-Forwarded-Proto Header Spoofing (Global State Race Condition)",
-      "url": "https://github.com/advisories/GHSA-mp82-fmj6-f22v",
-      "date": "2026-04-16T01:21:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langsmith] LangSmith SDK: Streaming token events bypass output redaction",
-      "url": "https://github.com/advisories/GHSA-rr7j-v2q5-chgv",
-      "date": "2026-04-16T01:20:38.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langsmith] LangSmith SDK: Streaming token events bypass output redaction",
-      "url": "https://github.com/advisories/GHSA-rr7j-v2q5-chgv",
-      "date": "2026-04-16T01:20:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[keystone] OpenStack Keystone: LDAP identity backend does not convert enabled attribute to boolean",
-      "url": "https://github.com/advisories/GHSA-pfx2-9x9m-7ghx",
-      "date": "2026-04-16T01:20:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyspector] PySpector has a Plugin Code Execution Bypass via Incomplete Static Analysis in PluginSecurity.validate_plugin_code",
-      "url": "https://github.com/advisories/GHSA-vp22-38m5-r39r",
-      "date": "2026-04-16T01:09:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@fastify/express] @fastify/express has a middleware authentication bypass via URL normalization gaps (duplicate slashes and semicolons)",
-      "url": "https://github.com/advisories/GHSA-6hw5-45gm-fj88",
-      "date": "2026-04-16T01:03:46.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@fastify/express] @fastify/express's middleware path doubling causes authentication bypass in child plugin scopes",
-      "url": "https://github.com/advisories/GHSA-hrwm-hgmj-7p9c",
-      "date": "2026-04-16T01:03:26.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@fastify/http-proxy] Fastify's connection header abuse enables stripping of proxy-added headers",
-      "url": "https://github.com/advisories/GHSA-gwhp-pf74-vj37",
-      "date": "2026-04-16T01:03:01.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@fastify/reply-from] Fastify's connection header abuse enables stripping of proxy-added headers",
-      "url": "https://github.com/advisories/GHSA-gwhp-pf74-vj37",
-      "date": "2026-04-16T01:03:01.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vite-plus]  Path traversal in vite-plus/binding downloadPackageManager() writes outside VP_HOME",
-      "url": "https://github.com/advisories/GHSA-33r3-4whc-44c2",
-      "date": "2026-04-16T01:02:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[hono] hono Improperly Handles JSX Attribute Names Allows HTML Injection in hono/jsx SSR",
-      "url": "https://github.com/advisories/GHSA-458j-xx4x-4375",
-      "date": "2026-04-16T01:02:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[dompurify] DOMPurify's ADD_TAGS function form bypasses FORBID_TAGS due to short-circuit evaluation",
-      "url": "https://github.com/advisories/GHSA-39q2-94rc-95cp",
-      "date": "2026-04-16T00:46:36.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@vendure/core] @vendure/core has a SQL Injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
-      "date": "2026-04-15T21:18:36.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
