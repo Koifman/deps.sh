@@ -1,68 +1,124 @@
 {
-  "fetchedAt": "2026-04-16T00:58:09.792Z",
+  "fetchedAt": "2026-04-16T01:43:06.284Z",
   "entries": [
     {
-      "title": "[@vendure/core] @vendure/core has a SQL Injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
-      "date": "2026-04-15T21:18:36.000Z",
+      "title": "[uefi-firmware] UEFI Firmware Parser has a heap out-of-bounds write in tiano decompressor ReadCLen",
+      "url": "https://github.com/advisories/GHSA-hm2w-vr2p-hq7w",
+      "date": "2026-04-16T01:31:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[uefi-firmware] UEFI Firmware Parser has a stack out-of-bounds write in tiano decompressor MakeTable",
+      "url": "https://github.com/advisories/GHSA-2689-5p89-6j3j",
+      "date": "2026-04-16T01:30:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[pyload-ng] pyLoad has a Session Cookie Security Downgrade via Untrusted X-Forwarded-Proto Header Spoofing (Global State Race Condition)",
+      "url": "https://github.com/advisories/GHSA-mp82-fmj6-f22v",
+      "date": "2026-04-16T01:21:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langsmith] LangSmith SDK: Streaming token events bypass output redaction",
+      "url": "https://github.com/advisories/GHSA-rr7j-v2q5-chgv",
+      "date": "2026-04-16T01:20:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langsmith] LangSmith SDK: Streaming token events bypass output redaction",
+      "url": "https://github.com/advisories/GHSA-rr7j-v2q5-chgv",
+      "date": "2026-04-16T01:20:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[keystone] OpenStack Keystone: LDAP identity backend does not convert enabled attribute to boolean",
+      "url": "https://github.com/advisories/GHSA-pfx2-9x9m-7ghx",
+      "date": "2026-04-16T01:20:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pyspector] PySpector has a Plugin Code Execution Bypass via Incomplete Static Analysis in PluginSecurity.validate_plugin_code",
+      "url": "https://github.com/advisories/GHSA-vp22-38m5-r39r",
+      "date": "2026-04-16T01:09:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@fastify/express] @fastify/express has a middleware authentication bypass via URL normalization gaps (duplicate slashes and semicolons)",
+      "url": "https://github.com/advisories/GHSA-6hw5-45gm-fj88",
+      "date": "2026-04-16T01:03:46.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[@vendure/core] @vendure/core has a SQL Injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
-      "date": "2026-04-15T21:18:36.000Z",
+      "title": "[@fastify/express] @fastify/express's middleware path doubling causes authentication bypass in child plugin scopes",
+      "url": "https://github.com/advisories/GHSA-hrwm-hgmj-7p9c",
+      "date": "2026-04-16T01:03:26.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[@vendure/core] @vendure/core has a SQL Injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
-      "date": "2026-04-15T21:18:36.000Z",
+      "title": "[@fastify/http-proxy] Fastify's connection header abuse enables stripping of proxy-added headers",
+      "url": "https://github.com/advisories/GHSA-gwhp-pf74-vj37",
+      "date": "2026-04-16T01:03:01.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[mcp-server-kubernetes] MCP Server Kubernetes has an Argument Injection in port_forward tool via space-splitting",
-      "url": "https://github.com/advisories/GHSA-4xqg-gf5c-ghwq",
-      "date": "2026-04-15T21:17:51.000Z",
+      "title": "[@fastify/reply-from] Fastify's connection header abuse enables stripping of proxy-added headers",
+      "url": "https://github.com/advisories/GHSA-gwhp-pf74-vj37",
+      "date": "2026-04-16T01:03:01.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vite-plus]  Path traversal in vite-plus/binding downloadPackageManager() writes outside VP_HOME",
+      "url": "https://github.com/advisories/GHSA-33r3-4whc-44c2",
+      "date": "2026-04-16T01:02:51.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[mitmproxy] mitmproxy has an LDAP Injection",
-      "url": "https://github.com/advisories/GHSA-527g-3w9m-29hv",
-      "date": "2026-04-15T21:14:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@adonisjs/http-server] @adonisjs/http-server has an Open Redirect vulnerability",
-      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
-      "date": "2026-04-15T21:09:15.000Z",
+      "title": "[hono] hono Improperly Handles JSX Attribute Names Allows HTML Injection in hono/jsx SSR",
+      "url": "https://github.com/advisories/GHSA-458j-xx4x-4375",
+      "date": "2026-04-16T01:02:26.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@adonisjs/core] @adonisjs/http-server has an Open Redirect vulnerability",
-      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
-      "date": "2026-04-15T21:09:15.000Z",
+      "title": "[dompurify] DOMPurify's ADD_TAGS function form bypasses FORBID_TAGS due to short-circuit evaluation",
+      "url": "https://github.com/advisories/GHSA-39q2-94rc-95cp",
+      "date": "2026-04-16T00:46:36.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@adonisjs/http-server] @adonisjs/http-server has an Open Redirect vulnerability",
-      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
-      "date": "2026-04-15T21:09:15.000Z",
+      "title": "[@vendure/core] @vendure/core has a SQL Injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
+      "date": "2026-04-15T21:18:36.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[gdown] gdown Affected by Arbitrary File Write via Path Traversal in gdown.extractall",
-      "url": "https://github.com/advisories/GHSA-76hw-p97h-883f",
-      "date": "2026-04-15T21:00:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "title": "[@vendure/core] @vendure/core has a SQL Injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
+      "date": "2026-04-15T21:18:36.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@vendure/core] @vendure/core has a SQL Injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
+      "date": "2026-04-15T21:18:36.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
     },
     {
       "title": "[axios] Axios has a NO_PROXY Hostname Normalization Bypass Leads to SSRF",
@@ -84,60 +140,6 @@
       "date": "2026-04-15T19:45:46.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@nocobase/plugin-workflow-request] NocoBase has SSRF in Workflow HTTP Request and Custom Request Plugins",
-      "url": "https://github.com/advisories/GHSA-mvvv-v22x-xqwp",
-      "date": "2026-04-15T19:43:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pypdf] pypdf has long runtimes for wrong size values in cross-reference and object streams",
-      "url": "https://github.com/advisories/GHSA-jj6c-8h6c-hppx",
-      "date": "2026-04-15T19:43:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@samanhappy/mcphub] MCPHub has an authentication bypass",
-      "url": "https://github.com/advisories/GHSA-9vq7-9h42-j88h",
-      "date": "2026-04-15T19:42:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fastify] Fastify has a Body Schema Validation Bypass via Leading Space in Content-Type Header",
-      "url": "https://github.com/advisories/GHSA-247c-9743-5963",
-      "date": "2026-04-15T19:24:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@sync-in/server] Sync-in Server has Username Enumeration via Timing Attack",
-      "url": "https://github.com/advisories/GHSA-43fj-qp3h-hrh5",
-      "date": "2026-04-15T18:57:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[h2o] External Control of File Name or Path in h2oai/h2o-3",
-      "url": "https://github.com/advisories/GHSA-gqrq-j6pm-98c2",
-      "date": "2026-04-15T16:08:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0098: Vulnerability in rustls-webpki",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0098.html",
-      "date": "2026-04-15T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0099: Vulnerability in rustls-webpki",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0099.html",
-      "date": "2026-04-15T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
