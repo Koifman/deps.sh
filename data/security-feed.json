@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-04-16T21:21:50.082Z",
+  "fetchedAt": "2026-04-16T22:20:27.267Z",
   "entries": [
     {
-      "title": "[mojic] Mojic: Observable Timing Discrepancy in HMAC Verification",
-      "url": "https://github.com/advisories/GHSA-wqq3-wfmp-v85g",
-      "date": "2026-04-16T21:10:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@node-oauth/oauth2-server] @node-oauth/oauth2-server: PKCE code_verifier ABNF not enforced in token exchange allows brute-force redemption of intercepted authorization codes",
-      "url": "https://github.com/advisories/GHSA-jhm7-29pj-4xvf",
-      "date": "2026-04-16T21:09:52.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[weblate] Weblate: Prefix-Based Repository Boundary Check Bypass via Symlink/Junction Path Prefix Collision",
-      "url": "https://github.com/advisories/GHSA-ffgh-3jrf-8wvh",
-      "date": "2026-04-16T21:08:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sanitize-html] sanitize-html allowedTags Bypass via Entity-Decoded Text in nonTextTags Elements",
-      "url": "https://github.com/advisories/GHSA-9mrh-v2v3-xpfm",
-      "date": "2026-04-16T21:08:31.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apostrophe] ApostropheCMS: Information Disclosure via choices/counts Query Parameters Bypassing publicApiProjection Field Restrictions",
-      "url": "https://github.com/advisories/GHSA-c276-fj82-f2pq",
-      "date": "2026-04-16T20:45:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[weblate] Weblate: SSRF via the webhook add-on using unprotected fetch_url()",
-      "url": "https://github.com/advisories/GHSA-f8hv-g549-hwg2",
-      "date": "2026-04-16T20:45:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp-framework] MCP-Framework: Unbounded memory allocation in readRequestBody allows denial of service via HTTP transport",
-      "url": "https://github.com/advisories/GHSA-353c-v8x9-v7c3",
-      "date": "2026-04-16T20:44:35.000Z",
+      "title": "[flowise] Flowise: resetPassword Authentication Bypass Vulnerability",
+      "url": "https://github.com/advisories/GHSA-f6hc-c5jr-878p",
+      "date": "2026-04-16T21:55:18.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[apostrophe] Stored XSS in SEO Fields Leads to Authenticated API Data Exposure in ApostropheCMS",
-      "url": "https://github.com/advisories/GHSA-855c-r2vq-c292",
-      "date": "2026-04-16T20:44:20.000Z",
+      "title": "[flowise-components] Flowise: Cypher Injection in GraphCypherQAChain",
+      "url": "https://github.com/advisories/GHSA-28g4-38q8-3cwc",
+      "date": "2026-04-16T21:54:28.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[weblate] Weblate: Privilege escalation in the user API endpoint",
-      "url": "https://github.com/advisories/GHSA-3382-gw9x-477v",
-      "date": "2026-04-16T20:43:50.000Z",
-      "ecosystem": "pypi",
+      "title": "[flowise] Flowise: Cypher Injection in GraphCypherQAChain",
+      "url": "https://github.com/advisories/GHSA-28g4-38q8-3cwc",
+      "date": "2026-04-16T21:54:28.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[weblate] Weblate: SSRF via Project-Level Machinery Configuration",
-      "url": "https://github.com/advisories/GHSA-xrwr-fcw6-fmq8",
-      "date": "2026-04-16T20:43:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[weblate] Weblate: Arbitrary File Read via Symlink",
-      "url": "https://github.com/advisories/GHSA-hv99-mxm5-q397",
-      "date": "2026-04-16T20:43:12.000Z",
-      "ecosystem": "pypi",
+      "title": "[flowise] Flowise: Password Reset Link Sent Over Unsecured HTTP",
+      "url": "https://github.com/advisories/GHSA-x5w6-38gp-mrqh",
+      "date": "2026-04-16T21:53:17.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[apostrophe] ApostropheCMS: Stored XSS via CSS Custom Property Injection in @apostrophecms/color-field Escaping Style Tag Context",
-      "url": "https://github.com/advisories/GHSA-97v6-998m-fp4g",
-      "date": "2026-04-16T20:42:39.000Z",
+      "title": "[flowise] Flowise: Unauthenticated OAuth 2.0 Access Token Disclosure via Public Chatflow in Flowise",
+      "url": "https://github.com/advisories/GHSA-6f7g-v4pp-r667",
+      "date": "2026-04-16T21:52:47.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apostrophe] ApostropheCMS: publicApiProjection Bypass via project Query Builder in Piece-Type REST API",
-      "url": "https://github.com/advisories/GHSA-xhq9-58fw-859p",
-      "date": "2026-04-16T20:42:22.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apostrophe] ApostropheCMS: User Enumeration via Timing Side Channel in Password Reset Endpoint",
-      "url": "https://github.com/advisories/GHSA-mj7r-x3h3-7rmr",
-      "date": "2026-04-16T20:42:12.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[weblate] Weblate: Authenticated SSRF via redirect bypass of ALLOWED_ASSET_DOMAINS in screenshot URL uploads",
-      "url": "https://github.com/advisories/GHSA-5fhx-9jwj-867m",
-      "date": "2026-04-16T20:42:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[weblate] Weblate: Remote code execution during backup restoration",
-      "url": "https://github.com/advisories/GHSA-558g-h753-6m33",
-      "date": "2026-04-16T20:41:39.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[weblate] Weblate: JavaScript localization CDN add-on allows arbitrary local file read outside the repository",
-      "url": "https://github.com/advisories/GHSA-mqph-7h49-hqfm",
-      "date": "2026-04-16T20:41:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[weblate] Weblate: Improper access control for the translation memory in API",
-      "url": "https://github.com/advisories/GHSA-mpf5-3vph-q75r",
-      "date": "2026-04-16T20:41:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[weblate] Weblate: Improper access control for pending tasks in API",
-      "url": "https://github.com/advisories/GHSA-vj45-x3pj-f4w4",
-      "date": "2026-04-16T20:41:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[axios] Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF",
-      "url": "https://github.com/advisories/GHSA-3p68-rc4w-qgx5",
-      "date": "2026-04-16T18:44:34.000Z",
+      "title": "[flowise-components] Flowise:  APIChain Prompt Injection SSRF in GET/POST API Chains",
+      "url": "https://github.com/advisories/GHSA-6r77-hqx7-7vw8",
+      "date": "2026-04-16T21:52:12.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise:  APIChain Prompt Injection SSRF in GET/POST API Chains",
+      "url": "https://github.com/advisories/GHSA-6r77-hqx7-7vw8",
+      "date": "2026-04-16T21:52:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise-components] Flowise: SSRF Protection Bypass (TOCTOU & Default Insecure)",
+      "url": "https://github.com/advisories/GHSA-2x8m-83vc-6wv4",
+      "date": "2026-04-16T21:51:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise: SSRF Protection Bypass (TOCTOU & Default Insecure)",
+      "url": "https://github.com/advisories/GHSA-2x8m-83vc-6wv4",
+      "date": "2026-04-16T21:51:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise-components] Flowise: SSRF Protection Bypass via Unprotected Built-in HTTP Modules in Custom Function Sandbox",
+      "url": "https://github.com/advisories/GHSA-xhmj-rg95-44hv",
+      "date": "2026-04-16T21:50:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise: SSRF Protection Bypass via Unprotected Built-in HTTP Modules in Custom Function Sandbox",
+      "url": "https://github.com/advisories/GHSA-xhmj-rg95-44hv",
+      "date": "2026-04-16T21:50:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise: File Upload Validation Bypass in createAttachment",
+      "url": "https://github.com/advisories/GHSA-rh7v-6w34-w2rr",
+      "date": "2026-04-16T21:49:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise-components] Flowise: Parameter Override Bypass Remote Command Execution",
+      "url": "https://github.com/advisories/GHSA-cvrr-qhgw-2mm6",
+      "date": "2026-04-16T21:46:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise: Parameter Override Bypass Remote Command Execution",
+      "url": "https://github.com/advisories/GHSA-cvrr-qhgw-2mm6",
+      "date": "2026-04-16T21:46:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise: Sensitive Data Leak in public-chatbotConfig",
+      "url": "https://github.com/advisories/GHSA-4jpm-cgx2-8h37",
+      "date": "2026-04-16T21:44:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise: Improper Mass Assignment in Account Registration Enables Unauthorized Organization Association",
+      "url": "https://github.com/advisories/GHSA-48m6-ch88-55mj",
+      "date": "2026-04-16T21:44:27.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise-components] Flowise: Code Injection in CSVAgent leads to Authenticated RCE",
+      "url": "https://github.com/advisories/GHSA-9wc7-mj3f-74xv",
+      "date": "2026-04-16T21:44:16.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] Flowise: Code Injection in CSVAgent leads to Authenticated RCE",
+      "url": "https://github.com/advisories/GHSA-9wc7-mj3f-74xv",
+      "date": "2026-04-16T21:44:16.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise-components] Flowise: Remote code execution vulnerability in AirtableAgent.ts caused by lack of input verification when using `Pandas`.",
+      "url": "https://github.com/advisories/GHSA-f228-chmx-v6j6",
+      "date": "2026-04-16T21:44:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise: Remote code execution vulnerability in AirtableAgent.ts caused by lack of input verification when using `Pandas`.",
+      "url": "https://github.com/advisories/GHSA-f228-chmx-v6j6",
+      "date": "2026-04-16T21:44:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
