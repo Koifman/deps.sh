@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-04-16T01:43:06.284Z",
+  "fetchedAt": "2026-04-16T03:15:25.269Z",
   "entries": [
+    {
+      "title": "[wger] wger has Stored XSS via Unescaped License Attribution Fields",
+      "url": "https://github.com/advisories/GHSA-6f54-qjvm-wwq3",
+      "date": "2026-04-16T01:37:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wger] wger has Broken Access Control in Global Gym Configuration Update Endpoint",
+      "url": "https://github.com/advisories/GHSA-xppv-4jrx-qf8m",
+      "date": "2026-04-16T01:35:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[renovate] Renovate affected by remote code execution was possible using the bazel-module or bazelisk managers, when using lockFileMaintenance",
+      "url": "https://github.com/advisories/GHSA-5vjq-5jmg-39xq",
+      "date": "2026-04-16T01:34:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[uefi-firmware] UEFI Firmware Parser has a heap out-of-bounds write in tiano decompressor ReadCLen",
       "url": "https://github.com/advisories/GHSA-hm2w-vr2p-hq7w",
@@ -114,32 +135,11 @@
       "severity": "CRITICAL"
     },
     {
-      "title": "[@vendure/core] @vendure/core has a SQL Injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-9pp3-53p2-ww9v",
-      "date": "2026-04-15T21:18:36.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
       "title": "[axios] Axios has a NO_PROXY Hostname Normalization Bypass Leads to SSRF",
       "url": "https://github.com/advisories/GHSA-3p68-rc4w-qgx5",
       "date": "2026-04-15T20:27:56.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[axios] Axios has a NO_PROXY Hostname Normalization Bypass Leads to SSRF",
-      "url": "https://github.com/advisories/GHSA-3p68-rc4w-qgx5",
-      "date": "2026-04-15T20:27:56.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[python-multipart] python-multipart affected by Denial of Service via large multipart preamble or epilogue data",
-      "url": "https://github.com/advisories/GHSA-mj87-hwqh-73pj",
-      "date": "2026-04-15T19:45:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
