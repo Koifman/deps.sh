@@ -1,143 +1,143 @@
 {
-  "fetchedAt": "2026-04-16T22:20:27.267Z",
+  "fetchedAt": "2026-04-16T23:21:06.995Z",
   "entries": [
     {
-      "title": "[flowise] Flowise: resetPassword Authentication Bypass Vulnerability",
-      "url": "https://github.com/advisories/GHSA-f6hc-c5jr-878p",
-      "date": "2026-04-16T21:55:18.000Z",
+      "title": "[@saltcorn/server] Saltcorn: Open Redirect in `POST /auth/login` due to incomplete `is_relative_url` validation (backslash bypass)",
+      "url": "https://github.com/advisories/GHSA-f3g8-9xv5-77gv",
+      "date": "2026-04-16T23:00:46.000Z",
       "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@saltcorn/server] Saltcorn: Open Redirect in `POST /auth/login` due to incomplete `is_relative_url` validation (backslash bypass)",
+      "url": "https://github.com/advisories/GHSA-f3g8-9xv5-77gv",
+      "date": "2026-04-16T23:00:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@saltcorn/server] Saltcorn: Open Redirect in `POST /auth/login` due to incomplete `is_relative_url` validation (backslash bypass)",
+      "url": "https://github.com/advisories/GHSA-f3g8-9xv5-77gv",
+      "date": "2026-04-16T23:00:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langchain-openai] langchain-openai: Image token counting SSRF protection can be bypassed via DNS rebinding",
+      "url": "https://github.com/advisories/GHSA-r7w7-9xr2-qq2r",
+      "date": "2026-04-16T23:00:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow: JWT token appearing in logs",
+      "url": "https://github.com/advisories/GHSA-phv5-vq5p-qhp7",
+      "date": "2026-04-16T22:57:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow: RCE by race condition in example_xcom dag",
+      "url": "https://github.com/advisories/GHSA-q2hg-643c-gw8h",
+      "date": "2026-04-16T22:57:16.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[flowise-components] Flowise: Cypher Injection in GraphCypherQAChain",
-      "url": "https://github.com/advisories/GHSA-28g4-38q8-3cwc",
-      "date": "2026-04-16T21:54:28.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: Cypher Injection in GraphCypherQAChain",
-      "url": "https://github.com/advisories/GHSA-28g4-38q8-3cwc",
-      "date": "2026-04-16T21:54:28.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: Password Reset Link Sent Over Unsecured HTTP",
-      "url": "https://github.com/advisories/GHSA-x5w6-38gp-mrqh",
-      "date": "2026-04-16T21:53:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: Unauthenticated OAuth 2.0 Access Token Disclosure via Public Chatflow in Flowise",
-      "url": "https://github.com/advisories/GHSA-6f7g-v4pp-r667",
-      "date": "2026-04-16T21:52:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise-components] Flowise:  APIChain Prompt Injection SSRF in GET/POST API Chains",
-      "url": "https://github.com/advisories/GHSA-6r77-hqx7-7vw8",
-      "date": "2026-04-16T21:52:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise:  APIChain Prompt Injection SSRF in GET/POST API Chains",
-      "url": "https://github.com/advisories/GHSA-6r77-hqx7-7vw8",
-      "date": "2026-04-16T21:52:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise-components] Flowise: SSRF Protection Bypass (TOCTOU & Default Insecure)",
-      "url": "https://github.com/advisories/GHSA-2x8m-83vc-6wv4",
-      "date": "2026-04-16T21:51:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: SSRF Protection Bypass (TOCTOU & Default Insecure)",
-      "url": "https://github.com/advisories/GHSA-2x8m-83vc-6wv4",
-      "date": "2026-04-16T21:51:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise-components] Flowise: SSRF Protection Bypass via Unprotected Built-in HTTP Modules in Custom Function Sandbox",
-      "url": "https://github.com/advisories/GHSA-xhmj-rg95-44hv",
-      "date": "2026-04-16T21:50:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: SSRF Protection Bypass via Unprotected Built-in HTTP Modules in Custom Function Sandbox",
-      "url": "https://github.com/advisories/GHSA-xhmj-rg95-44hv",
-      "date": "2026-04-16T21:50:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: File Upload Validation Bypass in createAttachment",
-      "url": "https://github.com/advisories/GHSA-rh7v-6w34-w2rr",
-      "date": "2026-04-16T21:49:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise-components] Flowise: Parameter Override Bypass Remote Command Execution",
-      "url": "https://github.com/advisories/GHSA-cvrr-qhgw-2mm6",
-      "date": "2026-04-16T21:46:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: Parameter Override Bypass Remote Command Execution",
-      "url": "https://github.com/advisories/GHSA-cvrr-qhgw-2mm6",
-      "date": "2026-04-16T21:46:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: Sensitive Data Leak in public-chatbotConfig",
-      "url": "https://github.com/advisories/GHSA-4jpm-cgx2-8h37",
-      "date": "2026-04-16T21:44:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: Improper Mass Assignment in Account Registration Enables Unauthorized Organization Association",
-      "url": "https://github.com/advisories/GHSA-48m6-ch88-55mj",
-      "date": "2026-04-16T21:44:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise-components] Flowise: Code Injection in CSVAgent leads to Authenticated RCE",
-      "url": "https://github.com/advisories/GHSA-9wc7-mj3f-74xv",
-      "date": "2026-04-16T21:44:16.000Z",
+      "title": "[@openai/codex] OpenAI Codex CLI enables code execution through malicious MCP (Model Context Protocol) configuration files",
+      "url": "https://github.com/advisories/GHSA-xrxf-jgv3-qmrm",
+      "date": "2026-04-16T22:56:43.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[flowise] Flowise: Code Injection in CSVAgent leads to Authenticated RCE",
-      "url": "https://github.com/advisories/GHSA-9wc7-mj3f-74xv",
-      "date": "2026-04-16T21:44:16.000Z",
+      "title": "[langchain-text-splitters] LangChain Text Splitters: HTMLHeaderTextSplitter.split_text_from_url SSRF Redirect Bypass",
+      "url": "https://github.com/advisories/GHSA-fv5p-p927-qmxr",
+      "date": "2026-04-16T22:53:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@saltcorn/server] Saltcorn: SQL Injection via Unparameterized Sync Endpoints (maxLoadedId)",
+      "url": "https://github.com/advisories/GHSA-jp74-mfrx-3qvh",
+      "date": "2026-04-16T22:51:44.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[flowise-components] Flowise: Remote code execution vulnerability in AirtableAgent.ts caused by lack of input verification when using `Pandas`.",
-      "url": "https://github.com/advisories/GHSA-f228-chmx-v6j6",
-      "date": "2026-04-16T21:44:01.000Z",
+      "title": "[@saltcorn/server] Saltcorn: SQL Injection via Unparameterized Sync Endpoints (maxLoadedId)",
+      "url": "https://github.com/advisories/GHSA-jp74-mfrx-3qvh",
+      "date": "2026-04-16T22:51:44.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@saltcorn/server] Saltcorn: SQL Injection via Unparameterized Sync Endpoints (maxLoadedId)",
+      "url": "https://github.com/advisories/GHSA-jp74-mfrx-3qvh",
+      "date": "2026-04-16T22:51:44.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@paperclipai/server] Paperclip: Cross-tenant agent API key IDOR in `/agents/:id/keys` routes allows full victim-company compromise",
+      "url": "https://github.com/advisories/GHSA-3xx2-mqjm-hg9x",
+      "date": "2026-04-16T22:49:48.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@paperclipai/ui] Paperclip: Stored XSS via javascript: URLs in MarkdownBody — urlTransform override disables react-markdown sanitization",
+      "url": "https://github.com/advisories/GHSA-fpw4-p57j-hqmq",
+      "date": "2026-04-16T22:49:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@paperclipai/server] Paperclip: Approval decision attribution spoofing via client-controlled `decidedByUserId` in paperclip server",
+      "url": "https://github.com/advisories/GHSA-p7mm-r948-4q3q",
+      "date": "2026-04-16T22:48:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@paperclipai/server] Paperclip: Cross-tenant agent API token minting via missing assertCompanyAccess on /api/agents/:id/keys",
+      "url": "https://github.com/advisories/GHSA-47wq-cj9q-wpmp",
+      "date": "2026-04-16T22:48:33.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@paperclipai/server] Paperclip: OS Command Injection via Execution Workspace cleanupCommand",
+      "url": "https://github.com/advisories/GHSA-vr7g-88fq-vhq3",
+      "date": "2026-04-16T22:48:10.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[paperclipai] Paperclip: codex_local inherited ChatGPT/OpenAI-connected Gmail and was able to send real email",
+      "url": "https://github.com/advisories/GHSA-gqqj-85qm-8qhf",
+      "date": "2026-04-16T22:47:41.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[flowise] Flowise: Remote code execution vulnerability in AirtableAgent.ts caused by lack of input verification when using `Pandas`.",
-      "url": "https://github.com/advisories/GHSA-f228-chmx-v6j6",
-      "date": "2026-04-16T21:44:01.000Z",
+      "title": "[@paperclipai/server] Paperclip: Unauthenticated Access to Multiple API Endpoints in Authenticated Mode",
+      "url": "https://github.com/advisories/GHSA-xfqj-r5qw-8g4j",
+      "date": "2026-04-16T22:47:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@paperclipai/server] Paperclip: Malicious skills able to exfiltrate and destroy all user data",
+      "url": "https://github.com/advisories/GHSA-w8hx-hqjv-vjcq",
+      "date": "2026-04-16T22:46:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@paperclipai/server] Paperclip: Privilege Escalation via Agent-Controlled workspaceStrategy.provisionCommand Leading to OS Command Execution",
+      "url": "https://github.com/advisories/GHSA-265w-rf2w-cjh4",
+      "date": "2026-04-16T22:45:27.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
