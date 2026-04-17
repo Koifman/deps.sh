@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-04-17T03:17:28.887Z",
+  "scannedAt": "2026-04-17T05:10:24.780Z",
   "count": 97,
   "packages": [
     {
@@ -199,6 +199,15 @@
       "level": "MODERATE",
       "previousOwner": "microsoft",
       "currentOwner": "msftapplicationinsights"
+    },
+    {
+      "name": "heimdalljs",
+      "version": "0.2.6",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "hjdivad",
+      "currentOwner": "stefanpenner"
     },
     {
       "name": "is-plain-object",
@@ -471,15 +480,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/docutils",
-      "version": "2.3.0",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@babel/parser",
       "version": "7.29.2",
       "ecosystem": "npm",
@@ -624,6 +624,15 @@
       "currentOwner": "notaphplover"
     },
     {
+      "name": "@appium/types",
+      "version": "1.3.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "redux-saga",
       "version": "1.4.2",
       "ecosystem": "npm",
@@ -635,15 +644,6 @@
     {
       "name": "@appium/schema",
       "version": "1.1.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@appium/types",
-      "version": "1.3.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
