@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-04-17T06:49:09.365Z",
+  "fetchedAt": "2026-04-17T07:41:16.089Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0097: Unsoundness in rand",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0097.html",
+      "date": "2026-04-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@saltcorn/server] Saltcorn: Open Redirect in `POST /auth/login` due to incomplete `is_relative_url` validation (backslash bypass)",
       "url": "https://github.com/advisories/GHSA-f3g8-9xv5-77gv",
@@ -131,13 +137,6 @@
       "title": "[@paperclipai/server] Paperclip: Malicious skills able to exfiltrate and destroy all user data",
       "url": "https://github.com/advisories/GHSA-w8hx-hqjv-vjcq",
       "date": "2026-04-16T22:46:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@paperclipai/server] Paperclip: Privilege Escalation via Agent-Controlled workspaceStrategy.provisionCommand Leading to OS Command Execution",
-      "url": "https://github.com/advisories/GHSA-265w-rf2w-cjh4",
-      "date": "2026-04-16T22:45:27.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
