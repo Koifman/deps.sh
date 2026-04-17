@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-17T19:30:00.498Z",
+  "fetchedAt": "2026-04-17T20:20:45.947Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw: Sandbox noVNC helper route exposed interactive browser session credentials",
+      "url": "https://github.com/advisories/GHSA-92jp-89mq-4374",
+      "date": "2026-04-17T20:08:04.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0097: Unsoundness in rand",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0097.html",
@@ -130,13 +137,6 @@
       "title": "[@paperclipai/server] Paperclip: Unauthenticated Access to Multiple API Endpoints in Authenticated Mode",
       "url": "https://github.com/advisories/GHSA-xfqj-r5qw-8g4j",
       "date": "2026-04-16T22:47:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@paperclipai/server] Paperclip: Malicious skills able to exfiltrate and destroy all user data",
-      "url": "https://github.com/advisories/GHSA-w8hx-hqjv-vjcq",
-      "date": "2026-04-16T22:46:52.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
