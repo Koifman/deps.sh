@@ -1,144 +1,145 @@
 {
-  "fetchedAt": "2026-04-17T21:21:23.054Z",
+  "fetchedAt": "2026-04-17T22:19:00.438Z",
   "entries": [
     {
-      "title": "[openclaw] OpenClaw: Sandbox noVNC helper route exposed interactive browser session credentials",
-      "url": "https://github.com/advisories/GHSA-92jp-89mq-4374",
-      "date": "2026-04-17T20:08:04.000Z",
+      "title": "[openclaw] OpenClaw: Browser tabs action select and close routes bypassed SSRF policy",
+      "url": "https://github.com/advisories/GHSA-rj2p-j66c-mgqh",
+      "date": "2026-04-17T22:01:59.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0097: Unsoundness in rand",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0097.html",
-      "date": "2026-04-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[@saltcorn/server] Saltcorn: Open Redirect in `POST /auth/login` due to incomplete `is_relative_url` validation (backslash bypass)",
-      "url": "https://github.com/advisories/GHSA-f3g8-9xv5-77gv",
-      "date": "2026-04-16T23:00:46.000Z",
+      "title": "[openclaw] OpenClaw: Nostr profile mutation routes allowed operator.write config persistence",
+      "url": "https://github.com/advisories/GHSA-f3h5-h452-vp3j",
+      "date": "2026-04-17T22:01:02.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@saltcorn/server] Saltcorn: Open Redirect in `POST /auth/login` due to incomplete `is_relative_url` validation (backslash bypass)",
-      "url": "https://github.com/advisories/GHSA-f3g8-9xv5-77gv",
-      "date": "2026-04-16T23:00:46.000Z",
+      "title": "[openclaw] OpenClaw: Sandbox browser CDP relay could expose DevTools protocol on 0.0.0.0",
+      "url": "https://github.com/advisories/GHSA-525j-hqq2-66r4",
+      "date": "2026-04-17T21:59:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Channel setup catalog lookups could include untrusted workspace plugin shadows",
+      "url": "https://github.com/advisories/GHSA-82qx-6vj7-p8m2",
+      "date": "2026-04-17T21:58:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: screen_record outPath bypassed workspace-only filesystem guard",
+      "url": "https://github.com/advisories/GHSA-jf25-7968-h2h5",
+      "date": "2026-04-17T21:58:26.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@saltcorn/server] Saltcorn: Open Redirect in `POST /auth/login` due to incomplete `is_relative_url` validation (backslash bypass)",
-      "url": "https://github.com/advisories/GHSA-f3g8-9xv5-77gv",
-      "date": "2026-04-16T23:00:46.000Z",
+      "title": "[openclaw] OpenClaw: Browser SSRF policy default allowed private-network navigation",
+      "url": "https://github.com/advisories/GHSA-53vx-pmqw-863c",
+      "date": "2026-04-17T21:58:16.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[langchain-openai] langchain-openai: Image token counting SSRF protection can be bypassed via DNS rebinding",
-      "url": "https://github.com/advisories/GHSA-r7w7-9xr2-qq2r",
-      "date": "2026-04-16T23:00:14.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] OpenClaw: Browser SSRF hostname validation could be bypassed by DNS rebinding",
+      "url": "https://github.com/advisories/GHSA-xq94-r468-qwgj",
+      "date": "2026-04-17T21:58:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: QQBot reply media URL handling could trigger SSRF and re-upload fetched bytes",
+      "url": "https://github.com/advisories/GHSA-2767-2q9v-9326",
+      "date": "2026-04-17T21:57:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Workspace .env could inject OpenClaw runtime-control variables",
+      "url": "https://github.com/advisories/GHSA-7wv4-cc7p-jhxc",
+      "date": "2026-04-17T21:56:16.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Discord event cover images bypassed sandbox media normalization",
+      "url": "https://github.com/advisories/GHSA-c9h3-5p7r-mrjh",
+      "date": "2026-04-17T21:56:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Empty approver lists could grant explicit approval authorization",
+      "url": "https://github.com/advisories/GHSA-49cg-279w-m73x",
+      "date": "2026-04-17T21:55:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Agent hook events could enqueue trusted system events from unsanitized external input",
+      "url": "https://github.com/advisories/GHSA-7g8c-cfr3-vqqr",
+      "date": "2026-04-17T21:55:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Exec environment denylist missed high-risk interpreter startup variables",
+      "url": "https://github.com/advisories/GHSA-vfp4-8x56-j7c5",
+      "date": "2026-04-17T21:54:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Shell-wrapper detection missed env-argv assignment injection forms",
+      "url": "https://github.com/advisories/GHSA-j6c7-3h5x-99g9",
+      "date": "2026-04-17T21:53:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Memory dreaming config persistence was reachable from operator.write commands",
+      "url": "https://github.com/advisories/GHSA-5gjc-grvm-m88j",
+      "date": "2026-04-17T21:53:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Microsoft Teams SSO invoke handler missed sender authorization checks",
+      "url": "https://github.com/advisories/GHSA-gc9r-867r-j85f",
+      "date": "2026-04-17T21:51:05.000Z",
+      "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[apache-airflow] Apache Airflow: JWT token appearing in logs",
-      "url": "https://github.com/advisories/GHSA-phv5-vq5p-qhp7",
-      "date": "2026-04-16T22:57:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow: RCE by race condition in example_xcom dag",
-      "url": "https://github.com/advisories/GHSA-q2hg-643c-gw8h",
-      "date": "2026-04-16T22:57:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@openai/codex] OpenAI Codex CLI enables code execution through malicious MCP (Model Context Protocol) configuration files",
-      "url": "https://github.com/advisories/GHSA-xrxf-jgv3-qmrm",
-      "date": "2026-04-16T22:56:43.000Z",
+      "title": "[openclaw] OpenClaw: Delivery queue recovery could lose group tool-policy context for media replay",
+      "url": "https://github.com/advisories/GHSA-r77c-2cmr-7p47",
+      "date": "2026-04-17T21:50:56.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "LOW"
     },
     {
-      "title": "[langchain-text-splitters] LangChain Text Splitters: HTMLHeaderTextSplitter.split_text_from_url SSRF Redirect Bypass",
-      "url": "https://github.com/advisories/GHSA-fv5p-p927-qmxr",
-      "date": "2026-04-16T22:53:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@saltcorn/server] Saltcorn: SQL Injection via Unparameterized Sync Endpoints (maxLoadedId)",
-      "url": "https://github.com/advisories/GHSA-jp74-mfrx-3qvh",
-      "date": "2026-04-16T22:51:44.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@saltcorn/server] Saltcorn: SQL Injection via Unparameterized Sync Endpoints (maxLoadedId)",
-      "url": "https://github.com/advisories/GHSA-jp74-mfrx-3qvh",
-      "date": "2026-04-16T22:51:44.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@saltcorn/server] Saltcorn: SQL Injection via Unparameterized Sync Endpoints (maxLoadedId)",
-      "url": "https://github.com/advisories/GHSA-jp74-mfrx-3qvh",
-      "date": "2026-04-16T22:51:44.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@paperclipai/server] Paperclip: Cross-tenant agent API key IDOR in `/agents/:id/keys` routes allows full victim-company compromise",
-      "url": "https://github.com/advisories/GHSA-3xx2-mqjm-hg9x",
-      "date": "2026-04-16T22:49:48.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@paperclipai/ui] Paperclip: Stored XSS via javascript: URLs in MarkdownBody — urlTransform override disables react-markdown sanitization",
-      "url": "https://github.com/advisories/GHSA-fpw4-p57j-hqmq",
-      "date": "2026-04-16T22:49:14.000Z",
+      "title": "[openclaw] OpenClaw: Heartbeat owner downgrade missed local async exec completion events",
+      "url": "https://github.com/advisories/GHSA-g375-h3v6-4873",
+      "date": "2026-04-17T21:49:00.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@paperclipai/server] Paperclip: Approval decision attribution spoofing via client-controlled `decidedByUserId` in paperclip server",
-      "url": "https://github.com/advisories/GHSA-p7mm-r948-4q3q",
-      "date": "2026-04-16T22:48:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@paperclipai/server] Paperclip: Cross-tenant agent API token minting via missing assertCompanyAccess on /api/agents/:id/keys",
-      "url": "https://github.com/advisories/GHSA-47wq-cj9q-wpmp",
-      "date": "2026-04-16T22:48:33.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@paperclipai/server] Paperclip: OS Command Injection via Execution Workspace cleanupCommand",
-      "url": "https://github.com/advisories/GHSA-vr7g-88fq-vhq3",
-      "date": "2026-04-16T22:48:10.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[paperclipai] Paperclip: codex_local inherited ChatGPT/OpenAI-connected Gmail and was able to send real email",
-      "url": "https://github.com/advisories/GHSA-gqqj-85qm-8qhf",
-      "date": "2026-04-16T22:47:41.000Z",
+      "title": "[openclaw] OpenClaw: Voice-call realtime WebSocket accepted oversized frames",
+      "url": "https://github.com/advisories/GHSA-vw3h-q6xq-jjm5",
+      "date": "2026-04-17T21:48:40.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@paperclipai/server] Paperclip: Unauthenticated Access to Multiple API Endpoints in Authenticated Mode",
-      "url": "https://github.com/advisories/GHSA-xfqj-r5qw-8g4j",
-      "date": "2026-04-16T22:47:05.000Z",
+      "title": "[openclaw] OpenClaw: Heartbeat owner downgrade missed untrusted webhook wake events",
+      "url": "https://github.com/advisories/GHSA-g2hm-779g-vm32",
+      "date": "2026-04-17T21:48:29.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "MODERATE"
     }
   ]
 }
