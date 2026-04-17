@@ -1,143 +1,143 @@
 {
-  "fetchedAt": "2026-04-17T22:19:00.438Z",
+  "fetchedAt": "2026-04-17T23:20:05.127Z",
   "entries": [
     {
-      "title": "[openclaw] OpenClaw: Browser tabs action select and close routes bypassed SSRF policy",
-      "url": "https://github.com/advisories/GHSA-rj2p-j66c-mgqh",
-      "date": "2026-04-17T22:01:59.000Z",
+      "title": "[openclaw] OpenClaw: QMD memory_get restricts reads to canonical or indexed memory paths",
+      "url": "https://github.com/advisories/GHSA-f934-5rqf-xx47",
+      "date": "2026-04-17T22:33:34.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: Nostr profile mutation routes allowed operator.write config persistence",
-      "url": "https://github.com/advisories/GHSA-f3h5-h452-vp3j",
-      "date": "2026-04-17T22:01:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Sandbox browser CDP relay could expose DevTools protocol on 0.0.0.0",
-      "url": "https://github.com/advisories/GHSA-525j-hqq2-66r4",
-      "date": "2026-04-17T21:59:56.000Z",
+      "title": "[openclaw] OpenClaw: Webchat media embedding enforces local-root containment for tool-result files",
+      "url": "https://github.com/advisories/GHSA-mr34-9552-qr95",
+      "date": "2026-04-17T22:33:09.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] OpenClaw: Channel setup catalog lookups could include untrusted workspace plugin shadows",
-      "url": "https://github.com/advisories/GHSA-82qx-6vj7-p8m2",
-      "date": "2026-04-17T21:58:48.000Z",
+      "title": "[openclaw] OpenClaw: Feishu webhook and card-action validation now fail closed",
+      "url": "https://github.com/advisories/GHSA-xh72-v6v9-mwhc",
+      "date": "2026-04-17T22:32:49.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Matrix room control-command authorization no longer trusts DM pairing-store entries",
+      "url": "https://github.com/advisories/GHSA-2gvc-4f3c-2855",
+      "date": "2026-04-17T22:32:29.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] OpenClaw: screen_record outPath bypassed workspace-only filesystem guard",
-      "url": "https://github.com/advisories/GHSA-jf25-7968-h2h5",
-      "date": "2026-04-17T21:58:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Browser SSRF policy default allowed private-network navigation",
-      "url": "https://github.com/advisories/GHSA-53vx-pmqw-863c",
-      "date": "2026-04-17T21:58:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Browser SSRF hostname validation could be bypassed by DNS rebinding",
-      "url": "https://github.com/advisories/GHSA-xq94-r468-qwgj",
-      "date": "2026-04-17T21:58:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: QQBot reply media URL handling could trigger SSRF and re-upload fetched bytes",
-      "url": "https://github.com/advisories/GHSA-2767-2q9v-9326",
-      "date": "2026-04-17T21:57:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Workspace .env could inject OpenClaw runtime-control variables",
-      "url": "https://github.com/advisories/GHSA-7wv4-cc7p-jhxc",
-      "date": "2026-04-17T21:56:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Discord event cover images bypassed sandbox media normalization",
-      "url": "https://github.com/advisories/GHSA-c9h3-5p7r-mrjh",
-      "date": "2026-04-17T21:56:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Empty approver lists could grant explicit approval authorization",
-      "url": "https://github.com/advisories/GHSA-49cg-279w-m73x",
-      "date": "2026-04-17T21:55:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Agent hook events could enqueue trusted system events from unsanitized external input",
-      "url": "https://github.com/advisories/GHSA-7g8c-cfr3-vqqr",
-      "date": "2026-04-17T21:55:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Exec environment denylist missed high-risk interpreter startup variables",
-      "url": "https://github.com/advisories/GHSA-vfp4-8x56-j7c5",
-      "date": "2026-04-17T21:54:21.000Z",
+      "title": "[openclaw] OpenClaw: Gateway HTTP endpoints re-resolve bearer auth after SecretRef rotation",
+      "url": "https://github.com/advisories/GHSA-xmxx-7p24-h892",
+      "date": "2026-04-17T22:32:04.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] OpenClaw: Shell-wrapper detection missed env-argv assignment injection forms",
-      "url": "https://github.com/advisories/GHSA-j6c7-3h5x-99g9",
-      "date": "2026-04-17T21:53:40.000Z",
+      "title": "[math-codegen] Remote Code Execution (RCE) via String Literal Injection into math-codegen",
+      "url": "https://github.com/advisories/GHSA-p6x5-p4xf-cc4r",
+      "date": "2026-04-17T22:31:49.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[praisonaiagents] PraisonAI: SQL Injection via unvalidated `table_prefix` in 9 conversation store backends (incomplete fix for CVE-2026-40315)",
+      "url": "https://github.com/advisories/GHSA-rg3h-x3jw-7jm5",
+      "date": "2026-04-17T22:24:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai] PraisonAI: SQL Injection via unvalidated `table_prefix` in 9 conversation store backends (incomplete fix for CVE-2026-40315)",
+      "url": "https://github.com/advisories/GHSA-rg3h-x3jw-7jm5",
+      "date": "2026-04-17T22:24:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai] Incomplete fix for CVE-2026-34935: Command Injection in MervinPraison/PraisonAI",
+      "url": "https://github.com/advisories/GHSA-9qhq-v63v-fv3j",
+      "date": "2026-04-17T22:23:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@anthropic-ai/claude-code] Claude Code: Insecure System-Wide Configuration Loading Enables Local Privilege Escalation on Windows",
+      "url": "https://github.com/advisories/GHSA-5cwg-9f6j-9jvx",
+      "date": "2026-04-17T22:19:39.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: Memory dreaming config persistence was reachable from operator.write commands",
-      "url": "https://github.com/advisories/GHSA-5gjc-grvm-m88j",
-      "date": "2026-04-17T21:53:17.000Z",
+      "title": "[openclaw] OpenClaw: CDP /json/version WebSocket URL could pivot to untrusted second-hop targets",
+      "url": "https://github.com/advisories/GHSA-f7fh-qg34-x2xh",
+      "date": "2026-04-17T22:18:28.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: Microsoft Teams SSO invoke handler missed sender authorization checks",
-      "url": "https://github.com/advisories/GHSA-gc9r-867r-j85f",
-      "date": "2026-04-17T21:51:05.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Delivery queue recovery could lose group tool-policy context for media replay",
-      "url": "https://github.com/advisories/GHSA-r77c-2cmr-7p47",
-      "date": "2026-04-17T21:50:56.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Heartbeat owner downgrade missed local async exec completion events",
-      "url": "https://github.com/advisories/GHSA-g375-h3v6-4873",
-      "date": "2026-04-17T21:49:00.000Z",
+      "title": "[openclaw] OpenClaw: Sender policy bypass in host media attachment reads allows unauthorized local file disclosure",
+      "url": "https://github.com/advisories/GHSA-jhpv-5j76-m56h",
+      "date": "2026-04-17T22:17:58.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: Voice-call realtime WebSocket accepted oversized frames",
-      "url": "https://github.com/advisories/GHSA-vw3h-q6xq-jjm5",
-      "date": "2026-04-17T21:48:40.000Z",
+      "title": "[openclaw] OpenClaw: QQBot media tags could read arbitrary local files through reply text",
+      "url": "https://github.com/advisories/GHSA-66r7-m7xm-v49h",
+      "date": "2026-04-17T22:17:08.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] OpenClaw: Heartbeat owner downgrade missed untrusted webhook wake events",
-      "url": "https://github.com/advisories/GHSA-g2hm-779g-vm32",
-      "date": "2026-04-17T21:48:29.000Z",
+      "title": "[openclaw] OpenClaw: busybox and toybox applet execution weakened exec approval binding",
+      "url": "https://github.com/advisories/GHSA-2cq5-mf3v-mx44",
+      "date": "2026-04-17T22:16:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Matrix profile config persistence was reachable from operator.write message tools",
+      "url": "https://github.com/advisories/GHSA-7jp6-r74r-995q",
+      "date": "2026-04-17T22:15:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Sandboxed agents could escape exec routing via host=node override",
+      "url": "https://github.com/advisories/GHSA-736r-jwj6-4w23",
+      "date": "2026-04-17T22:14:57.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Browser press/type interaction routes missed complete navigation guard coverage",
+      "url": "https://github.com/advisories/GHSA-536q-mj95-h29h",
+      "date": "2026-04-17T22:14:31.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Browser interaction routes could pivot into local CDP and regain file reads",
+      "url": "https://github.com/advisories/GHSA-qmwg-qprg-3j38",
+      "date": "2026-04-17T22:14:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Workspace provider auth choices could auto-enable untrusted provider plugins",
+      "url": "https://github.com/advisories/GHSA-939r-rj45-g2rj",
+      "date": "2026-04-17T22:12:50.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Existing-session browser interaction routes bypassed SSRF policy enforcement",
+      "url": "https://github.com/advisories/GHSA-527m-976r-jf79",
+      "date": "2026-04-17T22:11:34.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
