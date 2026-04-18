@@ -1,6 +1,132 @@
 {
-  "fetchedAt": "2026-04-18T00:51:08.340Z",
+  "fetchedAt": "2026-04-18T01:41:42.623Z",
   "entries": [
+    {
+      "title": "[nltk] NLTK has Arbitrary File Read via Absolute Path Input in nltk.util.filestring()",
+      "url": "https://github.com/advisories/GHSA-h8wq-7xc4-p3qx",
+      "date": "2026-04-18T01:14:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pretalx] pretalx vulnerable to stored cross-site scripting in organizer search typeahead",
+      "url": "https://github.com/advisories/GHSA-cjcx-jfp2-f7m2",
+      "date": "2026-04-18T01:11:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pretalx] pretalx mail templates vulnerable to email injection via unescaped user-controlled placeholders",
+      "url": "https://github.com/advisories/GHSA-jm8c-9f3j-4378",
+      "date": "2026-04-18T01:11:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dagster-snowflake-polars] Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
+      "url": "https://github.com/advisories/GHSA-mjw2-v2hm-wj34",
+      "date": "2026-04-18T01:08:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dagster-deltalake] Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
+      "url": "https://github.com/advisories/GHSA-mjw2-v2hm-wj34",
+      "date": "2026-04-18T01:08:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dagster] Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
+      "url": "https://github.com/advisories/GHSA-mjw2-v2hm-wj34",
+      "date": "2026-04-18T01:08:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dagster-gcp] Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
+      "url": "https://github.com/advisories/GHSA-mjw2-v2hm-wj34",
+      "date": "2026-04-18T01:08:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dagster-snowflake] Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
+      "url": "https://github.com/advisories/GHSA-mjw2-v2hm-wj34",
+      "date": "2026-04-18T01:08:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dagster-duckdb] Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
+      "url": "https://github.com/advisories/GHSA-mjw2-v2hm-wj34",
+      "date": "2026-04-18T01:08:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Google Chat app-url webhook auth accepted non-deployment add-on principals",
+      "url": "https://github.com/advisories/GHSA-hgwr-wr8h-rxm7",
+      "date": "2026-04-18T00:57:07.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Nextcloud Talk room allowlist matched colliding room names instead of stable room tokens",
+      "url": "https://github.com/advisories/GHSA-5f7h-p83x-5vc2",
+      "date": "2026-04-18T00:55:42.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: BlueBubbles Webhook Missing Rate Limiting Enables Brute-Force Password Guessing",
+      "url": "https://github.com/advisories/GHSA-rc8f-r29c-chr6",
+      "date": "2026-04-18T00:48:50.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Google Chat Authz Bypass via Group Policy Rebinding with Mutable Space displayName",
+      "url": "https://github.com/advisories/GHSA-j42q-r6qx-xrfp",
+      "date": "2026-04-18T00:48:10.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[flowise-components] Flowise: Airtable_Agent Code Injection Remote Code Execution Vulnerability",
+      "url": "https://github.com/advisories/GHSA-v38x-c887-992f",
+      "date": "2026-04-18T00:46:05.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] Flowise: Airtable_Agent Code Injection Remote Code Execution Vulnerability",
+      "url": "https://github.com/advisories/GHSA-v38x-c887-992f",
+      "date": "2026-04-18T00:46:05.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Telegram Webhook Missing Guess Rate Limiting Enables Brute-Force Guessing of Weak Webhook Secret",
+      "url": "https://github.com/advisories/GHSA-r4c2-gq3j-7rpj",
+      "date": "2026-04-18T00:45:09.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Gateway Plugin Subagent Fallback `deleteSession` Uses Synthetic `operator.admin`",
+      "url": "https://github.com/advisories/GHSA-m5jp-p3r5-mfqp",
+      "date": "2026-04-18T00:43:41.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Symlink Traversal via IDENTITY.md appendFile in agents.create/update (Incomplete Fix for CVE-2026-32013)",
+      "url": "https://github.com/advisories/GHSA-pmf3-2q63-jmp6",
+      "date": "2026-04-18T00:42:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[openclaw] OpenClaw: QMD memory_get restricts reads to canonical or indexed memory paths",
       "url": "https://github.com/advisories/GHSA-f934-5rqf-xx47",
@@ -14,132 +140,6 @@
       "date": "2026-04-17T22:33:09.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Feishu webhook and card-action validation now fail closed",
-      "url": "https://github.com/advisories/GHSA-xh72-v6v9-mwhc",
-      "date": "2026-04-17T22:32:49.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Matrix room control-command authorization no longer trusts DM pairing-store entries",
-      "url": "https://github.com/advisories/GHSA-2gvc-4f3c-2855",
-      "date": "2026-04-17T22:32:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Gateway HTTP endpoints re-resolve bearer auth after SecretRef rotation",
-      "url": "https://github.com/advisories/GHSA-xmxx-7p24-h892",
-      "date": "2026-04-17T22:32:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[math-codegen] Remote Code Execution (RCE) via String Literal Injection into math-codegen",
-      "url": "https://github.com/advisories/GHSA-p6x5-p4xf-cc4r",
-      "date": "2026-04-17T22:31:49.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[praisonaiagents] PraisonAI: SQL Injection via unvalidated `table_prefix` in 9 conversation store backends (incomplete fix for CVE-2026-40315)",
-      "url": "https://github.com/advisories/GHSA-rg3h-x3jw-7jm5",
-      "date": "2026-04-17T22:24:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai] PraisonAI: SQL Injection via unvalidated `table_prefix` in 9 conversation store backends (incomplete fix for CVE-2026-40315)",
-      "url": "https://github.com/advisories/GHSA-rg3h-x3jw-7jm5",
-      "date": "2026-04-17T22:24:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai] Incomplete fix for CVE-2026-34935: Command Injection in MervinPraison/PraisonAI",
-      "url": "https://github.com/advisories/GHSA-9qhq-v63v-fv3j",
-      "date": "2026-04-17T22:23:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@anthropic-ai/claude-code] Claude Code: Insecure System-Wide Configuration Loading Enables Local Privilege Escalation on Windows",
-      "url": "https://github.com/advisories/GHSA-5cwg-9f6j-9jvx",
-      "date": "2026-04-17T22:19:39.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: CDP /json/version WebSocket URL could pivot to untrusted second-hop targets",
-      "url": "https://github.com/advisories/GHSA-f7fh-qg34-x2xh",
-      "date": "2026-04-17T22:18:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Sender policy bypass in host media attachment reads allows unauthorized local file disclosure",
-      "url": "https://github.com/advisories/GHSA-jhpv-5j76-m56h",
-      "date": "2026-04-17T22:17:58.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: QQBot media tags could read arbitrary local files through reply text",
-      "url": "https://github.com/advisories/GHSA-66r7-m7xm-v49h",
-      "date": "2026-04-17T22:17:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: busybox and toybox applet execution weakened exec approval binding",
-      "url": "https://github.com/advisories/GHSA-2cq5-mf3v-mx44",
-      "date": "2026-04-17T22:16:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Matrix profile config persistence was reachable from operator.write message tools",
-      "url": "https://github.com/advisories/GHSA-7jp6-r74r-995q",
-      "date": "2026-04-17T22:15:28.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Sandboxed agents could escape exec routing via host=node override",
-      "url": "https://github.com/advisories/GHSA-736r-jwj6-4w23",
-      "date": "2026-04-17T22:14:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Browser press/type interaction routes missed complete navigation guard coverage",
-      "url": "https://github.com/advisories/GHSA-536q-mj95-h29h",
-      "date": "2026-04-17T22:14:31.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Browser interaction routes could pivot into local CDP and regain file reads",
-      "url": "https://github.com/advisories/GHSA-qmwg-qprg-3j38",
-      "date": "2026-04-17T22:14:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Workspace provider auth choices could auto-enable untrusted provider plugins",
-      "url": "https://github.com/advisories/GHSA-939r-rj45-g2rj",
-      "date": "2026-04-17T22:12:50.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Existing-session browser interaction routes bypassed SSRF policy enforcement",
-      "url": "https://github.com/advisories/GHSA-527m-976r-jf79",
-      "date": "2026-04-17T22:11:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
