@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-19T15:20:04.224Z",
+  "fetchedAt": "2026-04-19T16:17:59.960Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw: busybox and toybox applet execution weakened exec approval binding",
+      "url": "https://github.com/advisories/GHSA-2cq5-mf3v-mx44",
+      "date": "2026-04-19T15:30:37.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[nltk] NLTK has Arbitrary File Read via Absolute Path Input in nltk.util.filestring()",
       "url": "https://github.com/advisories/GHSA-h8wq-7xc4-p3qx",
@@ -133,13 +140,6 @@
       "date": "2026-04-17T22:33:34.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Webchat media embedding enforces local-root containment for tool-result files",
-      "url": "https://github.com/advisories/GHSA-mr34-9552-qr95",
-      "date": "2026-04-17T22:33:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
