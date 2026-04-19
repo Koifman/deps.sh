@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-19T19:21:49.171Z",
+  "fetchedAt": "2026-04-19T20:16:38.027Z",
   "entries": [
+    {
+      "title": "[praisonai] Incomplete fix for CVE-2026-34935: Command Injection in MervinPraison/PraisonAI",
+      "url": "https://github.com/advisories/GHSA-9qhq-v63v-fv3j",
+      "date": "2026-04-19T19:52:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[openclaw] OpenClaw: busybox and toybox applet execution weakened exec approval binding",
       "url": "https://github.com/advisories/GHSA-2cq5-mf3v-mx44",
@@ -131,13 +138,6 @@
       "title": "[openclaw] Duplicate Advisory: OpenClaw: Symlink Traversal via IDENTITY.md appendFile in agents.create/update (Incomplete Fix for CVE-2026-32013)",
       "url": "https://github.com/advisories/GHSA-pmf3-2q63-jmp6",
       "date": "2026-04-18T00:42:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: QMD memory_get restricts reads to canonical or indexed memory paths",
-      "url": "https://github.com/advisories/GHSA-f934-5rqf-xx47",
-      "date": "2026-04-17T22:33:34.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
