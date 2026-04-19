@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-04-19T18:24:51.189Z",
+  "scannedAt": "2026-04-19T19:24:39.847Z",
   "count": 97,
   "packages": [
     {
@@ -190,15 +190,6 @@
       "level": "MODERATE",
       "previousOwner": "microsoft",
       "currentOwner": "msftapplicationinsights"
-    },
-    {
-      "name": "heimdalljs",
-      "version": "0.2.6",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "hjdivad",
-      "currentOwner": "stefanpenner"
     },
     {
       "name": "is-plain-object",
@@ -473,6 +464,15 @@
     {
       "name": "@appium/base-driver",
       "version": "10.3.0",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/docutils",
+      "version": "2.3.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -759,8 +759,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.45.0",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "version": "0.126.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -768,8 +768,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
-      "version": "0.126.0",
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.45.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
