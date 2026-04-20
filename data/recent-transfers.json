@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-04-20T19:33:22.162Z",
-  "count": 97,
+  "scannedAt": "2026-04-20T20:23:23.337Z",
+  "count": 98,
   "packages": [
     {
       "name": "xmldom",
@@ -174,6 +174,15 @@
       "currentOwner": "phated"
     },
     {
+      "name": "heimdalljs",
+      "version": "0.2.6",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "hjdivad",
+      "currentOwner": "stefanpenner"
+    },
+    {
       "name": "is-plain-object",
       "version": "5.0.0",
       "ecosystem": "npm",
@@ -301,7 +310,7 @@
     },
     {
       "name": "oxlint",
-      "version": "1.60.0",
+      "version": "1.61.0",
       "ecosystem": "npm",
       "score": 30,
       "level": "MODERATE",
@@ -580,7 +589,7 @@
     },
     {
       "name": "oxc-parser",
-      "version": "0.126.0",
+      "version": "0.127.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -589,7 +598,7 @@
     },
     {
       "name": "oxfmt",
-      "version": "0.45.0",
+      "version": "0.46.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -715,16 +724,7 @@
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
-      "version": "0.126.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-parser/binding-linux-x64-musl",
-      "version": "0.126.0",
+      "version": "0.127.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -733,7 +733,16 @@
     },
     {
       "name": "@oxlint/binding-linux-x64-gnu",
-      "version": "1.60.0",
+      "version": "1.61.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-linux-x64-musl",
+      "version": "0.127.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -742,7 +751,7 @@
     },
     {
       "name": "oxc-transform",
-      "version": "0.126.0",
+      "version": "0.127.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -751,7 +760,7 @@
     },
     {
       "name": "@oxc-transform/binding-linux-x64-gnu",
-      "version": "0.126.0",
+      "version": "0.127.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -760,7 +769,7 @@
     },
     {
       "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.45.0",
+      "version": "0.46.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -778,7 +787,7 @@
     },
     {
       "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.60.0",
+      "version": "1.61.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -796,7 +805,7 @@
     },
     {
       "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.126.0",
+      "version": "0.127.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -805,7 +814,7 @@
     },
     {
       "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.45.0",
+      "version": "0.46.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -814,7 +823,7 @@
     },
     {
       "name": "oxc-minify",
-      "version": "0.126.0",
+      "version": "0.127.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -823,7 +832,7 @@
     },
     {
       "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.126.0",
+      "version": "0.127.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -868,7 +877,7 @@
     },
     {
       "name": "@oxc-minify/binding-linux-x64-musl",
-      "version": "0.126.0",
+      "version": "0.127.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
