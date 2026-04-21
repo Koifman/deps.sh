@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-04-21T21:24:34.202Z",
+  "scannedAt": "2026-04-21T22:24:04.866Z",
   "count": 97,
   "packages": [
     {
@@ -48,6 +48,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "tinymce",
+      "version": "8.4.0",
+      "ecosystem": "npm",
+      "score": 50,
+      "level": "HIGH",
+      "previousOwner": "spocke",
+      "currentOwner": "tinymce"
+    },
+    {
       "name": "karma",
       "version": "6.4.4",
       "ecosystem": "npm",
@@ -64,15 +73,6 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
-    },
-    {
-      "name": "appium",
-      "version": "3.3.0",
-      "ecosystem": "npm",
-      "score": 43,
-      "level": "MODERATE",
-      "previousOwner": "admc",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -100,15 +100,6 @@
       "level": "MODERATE",
       "previousOwner": "bhouston",
       "currentOwner": "mrdoob"
-    },
-    {
-      "name": "enzyme-adapter-utils",
-      "version": "1.14.2",
-      "ecosystem": "npm",
-      "score": 40,
-      "level": "MODERATE",
-      "previousOwner": "intelligibabble",
-      "currentOwner": "ljharb"
     },
     {
       "name": "string.prototype.trimstart",
@@ -185,6 +176,15 @@
     {
       "name": "heimdalljs",
       "version": "0.2.6",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "hjdivad",
+      "currentOwner": "stefanpenner"
+    },
+    {
+      "name": "heimdalljs-logger",
+      "version": "0.1.10",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
@@ -480,15 +480,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "espree",
-      "version": "11.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "nzakas",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "hasown",
       "version": "2.0.3",
       "ecosystem": "npm",
@@ -496,6 +487,15 @@
       "level": "MODERATE",
       "previousOwner": "radubrehar",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "espree",
+      "version": "11.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "nzakas",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@typescript-eslint/parser",
@@ -858,15 +858,6 @@
       "currentOwner": "balearica"
     },
     {
-      "name": "@nevware21/ts-utils",
-      "version": "0.13.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
-    },
-    {
       "name": "intl-tel-input",
       "version": "27.1.3",
       "ecosystem": "npm",
@@ -874,6 +865,15 @@
       "level": "LOW",
       "previousOwner": "jackocnr",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@nevware21/ts-utils",
+      "version": "0.13.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     }
   ]
 }
