@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-21T22:21:19.641Z",
+  "fetchedAt": "2026-04-21T23:19:26.770Z",
   "entries": [
+    {
+      "title": "[apache-airflow-core] Apache Airflow allows code execution through crafted XCom payloads",
+      "url": "https://github.com/advisories/GHSA-6ffj-2wg2-w45j",
+      "date": "2026-04-21T22:50:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[astro] Astro: XSS in define:vars via incomplete </script> tag sanitization",
       "url": "https://github.com/advisories/GHSA-j687-52p2-xcff",
@@ -111,13 +118,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0103.html",
       "date": "2026-04-21T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[praisonai] Incomplete fix for CVE-2026-34935: Command Injection in MervinPraison/PraisonAI",
-      "url": "https://github.com/advisories/GHSA-9qhq-v63v-fv3j",
-      "date": "2026-04-19T19:52:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     },
     {
       "title": "[nltk] NLTK has Arbitrary File Read via Absolute Path Input in nltk.util.filestring()",
