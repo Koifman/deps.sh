@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-04-21T07:44:24.989Z",
-  "count": 96,
+  "scannedAt": "2026-04-21T08:50:29.453Z",
+  "count": 97,
   "packages": [
     {
       "name": "xmldom",
@@ -156,6 +156,15 @@
       "currentOwner": "forbeslindesay"
     },
     {
+      "name": "array-initial",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "jonschlinkert",
+      "currentOwner": "phated"
+    },
+    {
       "name": "@microsoft/dynamicproto-js",
       "version": "2.0.3",
       "ecosystem": "npm",
@@ -165,13 +174,13 @@
       "currentOwner": "msftapplicationinsights"
     },
     {
-      "name": "array-initial",
-      "version": "1.1.0",
+      "name": "heimdalljs",
+      "version": "0.2.6",
       "ecosystem": "npm",
       "score": 37,
       "level": "MODERATE",
-      "previousOwner": "jonschlinkert",
-      "currentOwner": "phated"
+      "previousOwner": "hjdivad",
+      "currentOwner": "stefanpenner"
     },
     {
       "name": "is-plain-object",
@@ -543,8 +552,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.0",
+      "name": "postcss-focus-visible",
+      "version": "11.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -552,8 +561,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "postcss-focus-visible",
-      "version": "11.0.0",
+      "name": "css-has-pseudo",
+      "version": "8.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -741,8 +750,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
-      "version": "0.127.0",
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.46.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -750,8 +759,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.46.0",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "version": "0.127.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -840,13 +849,13 @@
       "currentOwner": "balearica"
     },
     {
-      "name": "@nevware21/ts-utils",
-      "version": "0.13.0",
+      "name": "intl-tel-input",
+      "version": "27.1.2",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
+      "previousOwner": "jackocnr",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxc-minify/binding-linux-x64-musl",
@@ -858,13 +867,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "intl-tel-input",
-      "version": "27.1.2",
+      "name": "@nevware21/ts-utils",
+      "version": "0.13.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "jackocnr",
-      "currentOwner": "GitHub Actions"
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     }
   ]
 }
