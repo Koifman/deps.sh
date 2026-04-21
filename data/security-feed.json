@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-21T18:33:43.348Z",
+  "fetchedAt": "2026-04-21T19:33:36.337Z",
   "entries": [
+    {
+      "title": "[@anthropic-ai/claude-code] Claude Code: Sandbox Escape via Symlink Following Allows Arbitrary File Write Outside Workspace",
+      "url": "https://github.com/advisories/GHSA-vp62-r36r-9xqp",
+      "date": "2026-04-21T18:51:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[nbconvert] nbconvert has an Arbitrary File Read via Path Traversal in HTMLExporter Image Embedding",
       "url": "https://github.com/advisories/GHSA-7jqv-fw35-gmx9",
@@ -128,13 +135,6 @@
     },
     {
       "title": "[dagster-gcp] Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
-      "url": "https://github.com/advisories/GHSA-mjw2-v2hm-wj34",
-      "date": "2026-04-18T01:08:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dagster-snowflake] Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
       "url": "https://github.com/advisories/GHSA-mjw2-v2hm-wj34",
       "date": "2026-04-18T01:08:03.000Z",
       "ecosystem": "pypi",
