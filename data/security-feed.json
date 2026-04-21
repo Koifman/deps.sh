@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-04-21T06:50:05.835Z",
+  "fetchedAt": "2026-04-21T07:41:43.001Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0103: Vulnerability in thin-vec",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0103.html",
+      "date": "2026-04-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[praisonai] Incomplete fix for CVE-2026-34935: Command Injection in MervinPraison/PraisonAI",
       "url": "https://github.com/advisories/GHSA-9qhq-v63v-fv3j",
@@ -131,13 +137,6 @@
       "title": "[openclaw] Duplicate Advisory: OpenClaw: Gateway Plugin Subagent Fallback `deleteSession` Uses Synthetic `operator.admin`",
       "url": "https://github.com/advisories/GHSA-m5jp-p3r5-mfqp",
       "date": "2026-04-18T00:43:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Symlink Traversal via IDENTITY.md appendFile in agents.create/update (Incomplete Fix for CVE-2026-32013)",
-      "url": "https://github.com/advisories/GHSA-pmf3-2q63-jmp6",
-      "date": "2026-04-18T00:42:18.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
