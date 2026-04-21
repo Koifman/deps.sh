@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-04-21T16:31:53.241Z",
+  "fetchedAt": "2026-04-21T17:28:36.968Z",
   "entries": [
+    {
+      "title": "[nbconvert] nbconvert has an Arbitrary File Read via Path Traversal in HTMLExporter Image Embedding",
+      "url": "https://github.com/advisories/GHSA-7jqv-fw35-gmx9",
+      "date": "2026-04-21T17:18:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nbconvert] nbconvert has an Arbitrary File Write via Path Traversal in Cell Attachment Filenames",
+      "url": "https://github.com/advisories/GHSA-4c99-qj7h-p3vg",
+      "date": "2026-04-21T17:18:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[signalk-server] Signal K Server has an Unauthenticated Regular Expression Denial of Service (ReDoS) via WebSocket Subscription Paths",
+      "url": "https://github.com/advisories/GHSA-7gcj-phff-2884",
+      "date": "2026-04-21T17:17:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@auth0/nextjs-auth0] Auth0 Next.js SDK has Improper Proxy Cache Lookup",
       "url": "https://github.com/advisories/GHSA-xq8m-7c5p-c2r6",
@@ -118,27 +139,6 @@
       "date": "2026-04-18T01:08:03.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[dagster-duckdb] Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
-      "url": "https://github.com/advisories/GHSA-mjw2-v2hm-wj34",
-      "date": "2026-04-18T01:08:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Google Chat app-url webhook auth accepted non-deployment add-on principals",
-      "url": "https://github.com/advisories/GHSA-hgwr-wr8h-rxm7",
-      "date": "2026-04-18T00:57:07.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Nextcloud Talk room allowlist matched colliding room names instead of stable room tokens",
-      "url": "https://github.com/advisories/GHSA-5f7h-p83x-5vc2",
-      "date": "2026-04-18T00:55:42.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
