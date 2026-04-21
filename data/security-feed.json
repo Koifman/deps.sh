@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-04-21T20:24:56.750Z",
+  "fetchedAt": "2026-04-21T21:21:24.389Z",
   "entries": [
+    {
+      "title": "[astro] Astro: XSS in define:vars via incomplete </script> tag sanitization",
+      "url": "https://github.com/advisories/GHSA-j687-52p2-xcff",
+      "date": "2026-04-21T20:39:52.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lxml] lxml: Default configuration of iterparse() and ETCompatXMLParser() allows XXE to local files",
+      "url": "https://github.com/advisories/GHSA-vfmq-68hx-4jfw",
+      "date": "2026-04-21T20:38:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise-components] Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
+      "url": "https://github.com/advisories/GHSA-3hjv-c53m-58jj",
+      "date": "2026-04-21T20:19:54.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
+      "url": "https://github.com/advisories/GHSA-3hjv-c53m-58jj",
+      "date": "2026-04-21T20:19:54.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[@anthropic-ai/claude-code] Claude Code: Sandbox Escape via Symlink Following Allows Arbitrary File Write Outside Workspace",
       "url": "https://github.com/advisories/GHSA-vp62-r36r-9xqp",
@@ -111,34 +139,6 @@
       "date": "2026-04-18T01:11:20.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[dagster-snowflake-polars] Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
-      "url": "https://github.com/advisories/GHSA-mjw2-v2hm-wj34",
-      "date": "2026-04-18T01:08:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dagster-deltalake] Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
-      "url": "https://github.com/advisories/GHSA-mjw2-v2hm-wj34",
-      "date": "2026-04-18T01:08:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dagster] Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
-      "url": "https://github.com/advisories/GHSA-mjw2-v2hm-wj34",
-      "date": "2026-04-18T01:08:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dagster-gcp] Dagster Vulnerable to SQL Injection via Dynamic Partition Keys in Database I/O Manager Integrations",
-      "url": "https://github.com/advisories/GHSA-mjw2-v2hm-wj34",
-      "date": "2026-04-18T01:08:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
