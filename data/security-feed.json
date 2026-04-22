@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-04-22T21:23:57.715Z",
+  "fetchedAt": "2026-04-22T22:22:16.441Z",
   "entries": [
+    {
+      "title": "[@evomap/evolver] Evolver: Path Traversal via `--out` flag in `fetch` command allows Arbitrary File Write",
+      "url": "https://github.com/advisories/GHSA-r466-rxw4-3j9j",
+      "date": "2026-04-22T22:06:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@evomap/evolver] Evolver: Command Injection via `execSync` in `_extractLLM()` function allows Remote Code Execution",
+      "url": "https://github.com/advisories/GHSA-j5w5-568x-rq53",
+      "date": "2026-04-22T22:06:03.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@evomap/evolver] Evolver has Prototype Pollution via `Object.assign()` in its mailbox store operations",
+      "url": "https://github.com/advisories/GHSA-2cjr-5v3h-v2w4",
+      "date": "2026-04-22T22:05:31.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ragas] RAGAS has SSRF via Multi-Modal Faithfulness Collections Module",
+      "url": "https://github.com/advisories/GHSA-95ww-475f-pr4f",
+      "date": "2026-04-22T22:02:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[justhtml] justhtml has sanitization bypass in custom policies and programmatic DOM",
+      "url": "https://github.com/advisories/GHSA-vrx2-77f2-ww34",
+      "date": "2026-04-22T21:25:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
       "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
@@ -105,41 +140,6 @@
       "date": "2026-04-22T20:16:09.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@xmldom/xmldom] xmldom has XML node injection through unvalidated comment serialization",
-      "url": "https://github.com/advisories/GHSA-j759-j44w-7fr8",
-      "date": "2026-04-22T20:16:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@xmldom/xmldom] xmldom has XML node injection through unvalidated comment serialization",
-      "url": "https://github.com/advisories/GHSA-j759-j44w-7fr8",
-      "date": "2026-04-22T20:16:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nocobase/database] @nocobase/database has SQL Injection via String Concatenation through Recursive Eager Loading",
-      "url": "https://github.com/advisories/GHSA-4948-f92q-f432",
-      "date": "2026-04-22T20:09:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nocobase/plugin-collection-sql] @nocobase/plugin-collection-sql: SQL Validation Bypass Through Missing `checkSQL` Call",
-      "url": "https://github.com/advisories/GHSA-wrwh-c28m-9jjh",
-      "date": "2026-04-22T20:07:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-xml-parser] fast-xml-parser XMLBuilder: XML Comment and CDATA Injection via Unescaped Delimiters",
-      "url": "https://github.com/advisories/GHSA-gh4j-gqv2-49f6",
-      "date": "2026-04-22T20:04:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
