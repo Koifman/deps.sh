@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-22T01:42:34.678Z",
+  "fetchedAt": "2026-04-22T03:14:46.917Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw: Matrix room control-command authorization no longer trusts DM pairing-store entries",
+      "url": "https://github.com/advisories/GHSA-2gvc-4f3c-2855",
+      "date": "2026-04-22T02:13:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[apache-airflow-core] Apache Airflow allows code execution through crafted XCom payloads",
       "url": "https://github.com/advisories/GHSA-6ffj-2wg2-w45j",
@@ -132,13 +139,6 @@
       "date": "2026-04-18T01:11:39.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[pretalx] pretalx mail templates vulnerable to email injection via unescaped user-controlled placeholders",
-      "url": "https://github.com/advisories/GHSA-jm8c-9f3j-4378",
-      "date": "2026-04-18T01:11:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
