@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-04-22T14:41:12.605Z",
+  "fetchedAt": "2026-04-22T15:34:56.080Z",
   "entries": [
+    {
+      "title": "[engramx] engram: HTTP server CORS wildcard + auth-off-by-default enables CSRF graph exfiltration and persistent indirect prompt injection",
+      "url": "https://github.com/advisories/GHSA-2r2p-4cgf-hv7h",
+      "date": "2026-04-22T14:52:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[poetry] Poetry has Path Traversal in tar extraction on Python 3.10.0 - 3.10.12 and 3.11.0 - 3.11.4",
+      "url": "https://github.com/advisories/GHSA-73h3-mf4w-8647",
+      "date": "2026-04-22T14:35:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@saltcorn/data] @saltcorn/data: Tenant user role is used for tenant creation role check",
+      "url": "https://github.com/advisories/GHSA-9237-rg5p-rhfw",
+      "date": "2026-04-22T14:31:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@saltcorn/data] @saltcorn/data: Tenant user role is used for tenant creation role check",
+      "url": "https://github.com/advisories/GHSA-9237-rg5p-rhfw",
+      "date": "2026-04-22T14:31:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@saltcorn/data] @saltcorn/data: Tenant user role is used for tenant creation role check",
+      "url": "https://github.com/advisories/GHSA-9237-rg5p-rhfw",
+      "date": "2026-04-22T14:31:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0104: Vulnerability in rustls-webpki",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0104.html",
@@ -12,13 +47,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0105.html",
       "date": "2026-04-22T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Matrix room control-command authorization no longer trusts DM pairing-store entries",
-      "url": "https://github.com/advisories/GHSA-2gvc-4f3c-2855",
-      "date": "2026-04-22T02:13:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     },
     {
       "title": "[apache-airflow-core] Apache Airflow allows code execution through crafted XCom payloads",
@@ -110,33 +138,6 @@
       "date": "2026-04-21T15:16:17.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[Glances] Glances: Cross-Origin Information Disclosure via Unauthenticated REST API (/api/4) due to Permissive CORS",
-      "url": "https://github.com/advisories/GHSA-gfc2-9qmw-w7vh",
-      "date": "2026-04-21T15:14:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lmdeploy] LMDeploy has Server-Side Request Forgery (SSRF) via Vision-Language Image Loading",
-      "url": "https://github.com/advisories/GHSA-6w67-hwm5-92mq",
-      "date": "2026-04-21T15:04:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[python-dotenv] python-dotenv: Symlink following in set_key allows arbitrary file overwrite via cross-device rename fallback",
-      "url": "https://github.com/advisories/GHSA-mf9w-mj56-hr94",
-      "date": "2026-04-21T14:38:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0103: Vulnerability in thin-vec",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0103.html",
-      "date": "2026-04-21T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
