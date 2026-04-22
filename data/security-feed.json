@@ -1,6 +1,104 @@
 {
-  "fetchedAt": "2026-04-22T20:26:24.691Z",
+  "fetchedAt": "2026-04-22T21:23:57.715Z",
   "entries": [
+    {
+      "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
+      "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
+      "date": "2026-04-22T20:53:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@samanhappy/mcphub] MCPHub has Path Traversal via Malicious MCPB Manifest Name",
+      "url": "https://github.com/advisories/GHSA-p3h2-2j4p-p83g",
+      "date": "2026-04-22T20:50:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[locize] locize Client SDK: Cross-origin DOM XSS & Handler Hijack Through Missing e.origin Validation in InContext Editor",
+      "url": "https://github.com/advisories/GHSA-w937-fg2h-xhq2",
+      "date": "2026-04-22T20:32:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[i18next-locize-backend] i18next-locize-backend has URL Injection via Unsanitized Path Parameters",
+      "url": "https://github.com/advisories/GHSA-mgcp-mfp8-3q45",
+      "date": "2026-04-22T20:28:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[i18next-http-middleware] i18next-http-middleware: HTTP response splitting and DoS via unsanitised Content-Language header",
+      "url": "https://github.com/advisories/GHSA-c3h8-g69v-pjrg",
+      "date": "2026-04-22T20:25:50.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[xmldom] xmldom: Uncontrolled recursion in XML serialization leads to DoS",
+      "url": "https://github.com/advisories/GHSA-2v35-w6hq-6mfw",
+      "date": "2026-04-22T20:23:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@xmldom/xmldom] xmldom: Uncontrolled recursion in XML serialization leads to DoS",
+      "url": "https://github.com/advisories/GHSA-2v35-w6hq-6mfw",
+      "date": "2026-04-22T20:23:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@xmldom/xmldom] xmldom: Uncontrolled recursion in XML serialization leads to DoS",
+      "url": "https://github.com/advisories/GHSA-2v35-w6hq-6mfw",
+      "date": "2026-04-22T20:23:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[xmldom] xmldom has XML injection through unvalidated DocumentType serialization",
+      "url": "https://github.com/advisories/GHSA-f6ww-3ggp-fr8h",
+      "date": "2026-04-22T20:19:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@xmldom/xmldom] xmldom has XML injection through unvalidated DocumentType serialization",
+      "url": "https://github.com/advisories/GHSA-f6ww-3ggp-fr8h",
+      "date": "2026-04-22T20:19:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@xmldom/xmldom] xmldom has XML injection through unvalidated DocumentType serialization",
+      "url": "https://github.com/advisories/GHSA-f6ww-3ggp-fr8h",
+      "date": "2026-04-22T20:19:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[xmldom] xmldom has XML node injection through unvalidated processing instruction serialization",
+      "url": "https://github.com/advisories/GHSA-x6wf-f3px-wcqx",
+      "date": "2026-04-22T20:17:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@xmldom/xmldom] xmldom has XML node injection through unvalidated processing instruction serialization",
+      "url": "https://github.com/advisories/GHSA-x6wf-f3px-wcqx",
+      "date": "2026-04-22T20:17:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@xmldom/xmldom] xmldom has XML node injection through unvalidated processing instruction serialization",
+      "url": "https://github.com/advisories/GHSA-x6wf-f3px-wcqx",
+      "date": "2026-04-22T20:17:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[xmldom] xmldom has XML node injection through unvalidated comment serialization",
       "url": "https://github.com/advisories/GHSA-j759-j44w-7fr8",
@@ -42,104 +140,6 @@
       "date": "2026-04-22T20:04:18.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@marko/runtime-tags] Marko: XSS via case-insensitive script/style closing tag bypass in runtime HTML escaping",
-      "url": "https://github.com/advisories/GHSA-x9fj-57fh-c8wq",
-      "date": "2026-04-22T19:55:52.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[marko] Marko: XSS via case-insensitive script/style closing tag bypass in runtime HTML escaping",
-      "url": "https://github.com/advisories/GHSA-x9fj-57fh-c8wq",
-      "date": "2026-04-22T19:55:52.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[i18next-fs-backend] i18next-fs-backend: Path traversal via unsanitised lng/ns allows arbitrary file read/overwrite",
-      "url": "https://github.com/advisories/GHSA-8847-338w-5hcj",
-      "date": "2026-04-22T17:43:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[i18nextify] i18nextify has DOM XSS via javascript:/data: URL schemes in translated href/src attributes",
-      "url": "https://github.com/advisories/GHSA-6457-mxpq-4fqq",
-      "date": "2026-04-22T17:42:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[i18next-http-backend]  i18next-http-backend has Path Traversal & URL Injection via Unsanitised lng/ns",
-      "url": "https://github.com/advisories/GHSA-q89c-q3h5-w34g",
-      "date": "2026-04-22T17:41:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[i18next-http-middleware] i18next-http-middleware: Prototype pollution and path traversal via user-controlled language and namespace parameters",
-      "url": "https://github.com/advisories/GHSA-5fgg-jcpf-8jjw",
-      "date": "2026-04-22T17:40:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow-providers-keycloak] apache-airflow-providers-keycloak: Missing OAuth 2.0 State and PKCE Enables Login CSRF and Session Fixation",
-      "url": "https://github.com/advisories/GHSA-5w6h-pjw6-wvc6",
-      "date": "2026-04-22T17:36:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[dompurify] DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
-      "url": "https://github.com/advisories/GHSA-h7mw-gpvr-xq4m",
-      "date": "2026-04-22T17:34:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[dompurify] DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
-      "url": "https://github.com/advisories/GHSA-crv5-9vww-q3g8",
-      "date": "2026-04-22T17:32:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[dompurify] DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
-      "url": "https://github.com/advisories/GHSA-v9jr-rg53-9pgp",
-      "date": "2026-04-22T17:31:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow-core] Apache Airflow Exposes Secrets in Variables Saved as JSON Dictionaries",
-      "url": "https://github.com/advisories/GHSA-w9r4-94fj-xp69",
-      "date": "2026-04-22T17:25:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[apache-airflow-core] Apache Airflow allows users with asset materialize permissions to trigger DAGs outside of their permissions",
-      "url": "https://github.com/advisories/GHSA-h97w-pm3w-mwmc",
-      "date": "2026-04-22T17:25:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow-core] Apache Airflow exposes SQL stack trace despite \"api/expose_stack_traces\" set to false",
-      "url": "https://github.com/advisories/GHSA-w7cf-2pmc-5m4c",
-      "date": "2026-04-22T17:17:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[engramx] engram: HTTP server CORS wildcard + auth-off-by-default enables CSRF graph exfiltration and persistent indirect prompt injection",
-      "url": "https://github.com/advisories/GHSA-2r2p-4cgf-hv7h",
-      "date": "2026-04-22T14:52:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
