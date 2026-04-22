@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-22T16:31:57.108Z",
+  "fetchedAt": "2026-04-22T17:27:24.067Z",
   "entries": [
+    {
+      "title": "[apache-airflow-core] Apache Airflow exposes SQL stack trace despite \"api/expose_stack_traces\" set to false",
+      "url": "https://github.com/advisories/GHSA-w7cf-2pmc-5m4c",
+      "date": "2026-04-22T17:17:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[engramx] engram: HTTP server CORS wildcard + auth-off-by-default enables CSRF graph exfiltration and persistent indirect prompt injection",
       "url": "https://github.com/advisories/GHSA-2r2p-4cgf-hv7h",
@@ -130,13 +137,6 @@
       "url": "https://github.com/advisories/GHSA-g5pq-48mj-jvw8",
       "date": "2026-04-21T15:17:54.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@gitlawb/openclaude] OpenClaude: Sandbox Bypass via Early-Exit Logic Flaw Allows Path Traversal",
-      "url": "https://github.com/advisories/GHSA-m6rx-7pvw-2f73",
-      "date": "2026-04-21T15:16:17.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
