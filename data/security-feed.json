@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-04-22T19:34:44.503Z",
+  "fetchedAt": "2026-04-22T20:26:24.691Z",
   "entries": [
+    {
+      "title": "[xmldom] xmldom has XML node injection through unvalidated comment serialization",
+      "url": "https://github.com/advisories/GHSA-j759-j44w-7fr8",
+      "date": "2026-04-22T20:16:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@xmldom/xmldom] xmldom has XML node injection through unvalidated comment serialization",
+      "url": "https://github.com/advisories/GHSA-j759-j44w-7fr8",
+      "date": "2026-04-22T20:16:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@xmldom/xmldom] xmldom has XML node injection through unvalidated comment serialization",
+      "url": "https://github.com/advisories/GHSA-j759-j44w-7fr8",
+      "date": "2026-04-22T20:16:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nocobase/database] @nocobase/database has SQL Injection via String Concatenation through Recursive Eager Loading",
+      "url": "https://github.com/advisories/GHSA-4948-f92q-f432",
+      "date": "2026-04-22T20:09:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nocobase/plugin-collection-sql] @nocobase/plugin-collection-sql: SQL Validation Bypass Through Missing `checkSQL` Call",
+      "url": "https://github.com/advisories/GHSA-wrwh-c28m-9jjh",
+      "date": "2026-04-22T20:07:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser XMLBuilder: XML Comment and CDATA Injection via Unescaped Delimiters",
+      "url": "https://github.com/advisories/GHSA-gh4j-gqv2-49f6",
+      "date": "2026-04-22T20:04:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@marko/runtime-tags] Marko: XSS via case-insensitive script/style closing tag bypass in runtime HTML escaping",
+      "url": "https://github.com/advisories/GHSA-x9fj-57fh-c8wq",
+      "date": "2026-04-22T19:55:52.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[marko] Marko: XSS via case-insensitive script/style closing tag bypass in runtime HTML escaping",
+      "url": "https://github.com/advisories/GHSA-x9fj-57fh-c8wq",
+      "date": "2026-04-22T19:55:52.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[i18next-fs-backend] i18next-fs-backend: Path traversal via unsanitised lng/ns allows arbitrary file read/overwrite",
       "url": "https://github.com/advisories/GHSA-8847-338w-5hcj",
@@ -84,60 +140,6 @@
       "date": "2026-04-22T14:52:04.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[poetry] Poetry has Path Traversal in tar extraction on Python 3.10.0 - 3.10.12 and 3.11.0 - 3.11.4",
-      "url": "https://github.com/advisories/GHSA-73h3-mf4w-8647",
-      "date": "2026-04-22T14:35:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@saltcorn/data] @saltcorn/data: Tenant user role is used for tenant creation role check",
-      "url": "https://github.com/advisories/GHSA-9237-rg5p-rhfw",
-      "date": "2026-04-22T14:31:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@saltcorn/data] @saltcorn/data: Tenant user role is used for tenant creation role check",
-      "url": "https://github.com/advisories/GHSA-9237-rg5p-rhfw",
-      "date": "2026-04-22T14:31:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@saltcorn/data] @saltcorn/data: Tenant user role is used for tenant creation role check",
-      "url": "https://github.com/advisories/GHSA-9237-rg5p-rhfw",
-      "date": "2026-04-22T14:31:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0104: Vulnerability in rustls-webpki",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0104.html",
-      "date": "2026-04-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0105: core2 is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0105.html",
-      "date": "2026-04-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[apache-airflow-core] Apache Airflow allows code execution through crafted XCom payloads",
-      "url": "https://github.com/advisories/GHSA-6ffj-2wg2-w45j",
-      "date": "2026-04-21T22:50:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[astro] Astro: XSS in define:vars via incomplete </script> tag sanitization",
-      "url": "https://github.com/advisories/GHSA-j687-52p2-xcff",
-      "date": "2026-04-21T20:39:52.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
