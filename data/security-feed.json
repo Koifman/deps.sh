@@ -1,9 +1,15 @@
 {
-  "fetchedAt": "2026-04-22T12:33:53.291Z",
+  "fetchedAt": "2026-04-22T13:39:49.422Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0104: Vulnerability in rustls-webpki",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0104.html",
+      "date": "2026-04-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0105: core2 is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0105.html",
       "date": "2026-04-22T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -131,13 +137,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0103.html",
       "date": "2026-04-21T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[nltk] NLTK has Arbitrary File Read via Absolute Path Input in nltk.util.filestring()",
-      "url": "https://github.com/advisories/GHSA-h8wq-7xc4-p3qx",
-      "date": "2026-04-18T01:14:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
