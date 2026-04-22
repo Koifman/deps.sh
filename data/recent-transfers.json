@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-04-22T03:17:40.264Z",
-  "count": 96,
+  "scannedAt": "2026-04-22T05:08:04.523Z",
+  "count": 97,
   "packages": [
     {
       "name": "xmldom",
@@ -66,6 +66,15 @@
       "currentOwner": "ljharb"
     },
     {
+      "name": "appium",
+      "version": "3.3.0",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "admc",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "terser",
       "version": "5.46.1",
       "ecosystem": "npm",
@@ -91,6 +100,15 @@
       "level": "MODERATE",
       "previousOwner": "bhouston",
       "currentOwner": "mrdoob"
+    },
+    {
+      "name": "enzyme-adapter-utils",
+      "version": "1.14.2",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "intelligibabble",
+      "currentOwner": "ljharb"
     },
     {
       "name": "string.prototype.trimstart",
@@ -163,15 +181,6 @@
       "level": "MODERATE",
       "previousOwner": "microsoft",
       "currentOwner": "msftapplicationinsights"
-    },
-    {
-      "name": "heimdalljs",
-      "version": "0.2.6",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "hjdivad",
-      "currentOwner": "stefanpenner"
     },
     {
       "name": "heimdalljs-logger",
@@ -615,8 +624,8 @@
       "currentOwner": "notaphplover"
     },
     {
-      "name": "@appium/types",
-      "version": "1.3.0",
+      "name": "@appium/schema",
+      "version": "1.1.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -624,8 +633,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.1.0",
+      "name": "@appium/types",
+      "version": "1.3.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -759,8 +768,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.46.0",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "version": "0.127.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -768,8 +777,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
-      "version": "0.127.0",
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.46.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
