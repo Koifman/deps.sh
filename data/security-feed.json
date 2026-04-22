@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-04-22T17:27:24.067Z",
+  "fetchedAt": "2026-04-22T18:33:04.963Z",
   "entries": [
+    {
+      "title": "[i18next-fs-backend] i18next-fs-backend: Path traversal via unsanitised lng/ns allows arbitrary file read/overwrite",
+      "url": "https://github.com/advisories/GHSA-8847-338w-5hcj",
+      "date": "2026-04-22T17:43:15.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[i18nextify] i18nextify has DOM XSS via javascript:/data: URL schemes in translated href/src attributes",
+      "url": "https://github.com/advisories/GHSA-6457-mxpq-4fqq",
+      "date": "2026-04-22T17:42:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[i18next-http-backend]  i18next-http-backend has Path Traversal & URL Injection via Unsanitised lng/ns",
+      "url": "https://github.com/advisories/GHSA-q89c-q3h5-w34g",
+      "date": "2026-04-22T17:41:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[i18next-http-middleware] i18next-http-middleware: Prototype pollution and path traversal via user-controlled language and namespace parameters",
+      "url": "https://github.com/advisories/GHSA-5fgg-jcpf-8jjw",
+      "date": "2026-04-22T17:40:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow-providers-keycloak] apache-airflow-providers-keycloak: Missing OAuth 2.0 State and PKCE Enables Login CSRF and Session Fixation",
+      "url": "https://github.com/advisories/GHSA-5w6h-pjw6-wvc6",
+      "date": "2026-04-22T17:36:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dompurify] DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix)",
+      "url": "https://github.com/advisories/GHSA-h7mw-gpvr-xq4m",
+      "date": "2026-04-22T17:34:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dompurify] DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode",
+      "url": "https://github.com/advisories/GHSA-crv5-9vww-q3g8",
+      "date": "2026-04-22T17:32:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dompurify] DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback",
+      "url": "https://github.com/advisories/GHSA-v9jr-rg53-9pgp",
+      "date": "2026-04-22T17:31:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow-core] Apache Airflow Exposes Secrets in Variables Saved as JSON Dictionaries",
+      "url": "https://github.com/advisories/GHSA-w9r4-94fj-xp69",
+      "date": "2026-04-22T17:25:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[apache-airflow-core] Apache Airflow allows users with asset materialize permissions to trigger DAGs outside of their permissions",
+      "url": "https://github.com/advisories/GHSA-h97w-pm3w-mwmc",
+      "date": "2026-04-22T17:25:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[apache-airflow-core] Apache Airflow exposes SQL stack trace despite \"api/expose_stack_traces\" set to false",
       "url": "https://github.com/advisories/GHSA-w7cf-2pmc-5m4c",
@@ -68,76 +138,6 @@
       "date": "2026-04-21T20:39:52.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[lxml] lxml: Default configuration of iterparse() and ETCompatXMLParser() allows XXE to local files",
-      "url": "https://github.com/advisories/GHSA-vfmq-68hx-4jfw",
-      "date": "2026-04-21T20:38:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise-components] Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
-      "url": "https://github.com/advisories/GHSA-3hjv-c53m-58jj",
-      "date": "2026-04-21T20:19:54.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[flowise] Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
-      "url": "https://github.com/advisories/GHSA-3hjv-c53m-58jj",
-      "date": "2026-04-21T20:19:54.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@anthropic-ai/claude-code] Claude Code: Sandbox Escape via Symlink Following Allows Arbitrary File Write Outside Workspace",
-      "url": "https://github.com/advisories/GHSA-vp62-r36r-9xqp",
-      "date": "2026-04-21T18:51:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nbconvert] nbconvert has an Arbitrary File Read via Path Traversal in HTMLExporter Image Embedding",
-      "url": "https://github.com/advisories/GHSA-7jqv-fw35-gmx9",
-      "date": "2026-04-21T17:18:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nbconvert] nbconvert has an Arbitrary File Write via Path Traversal in Cell Attachment Filenames",
-      "url": "https://github.com/advisories/GHSA-4c99-qj7h-p3vg",
-      "date": "2026-04-21T17:18:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[signalk-server] Signal K Server has an Unauthenticated Regular Expression Denial of Service (ReDoS) via WebSocket Subscription Paths",
-      "url": "https://github.com/advisories/GHSA-7gcj-phff-2884",
-      "date": "2026-04-21T17:17:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@auth0/nextjs-auth0] Auth0 Next.js SDK has Improper Proxy Cache Lookup",
-      "url": "https://github.com/advisories/GHSA-xq8m-7c5p-c2r6",
-      "date": "2026-04-21T15:21:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[glances] Glances has CQL Injection in its Cassandra Export Module via Unsanitized Config Values",
-      "url": "https://github.com/advisories/GHSA-grp3-h8m8-45p7",
-      "date": "2026-04-21T15:19:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[glances] Glances has SSRF in IP Plugin via public_api leading to credential leakage",
-      "url": "https://github.com/advisories/GHSA-g5pq-48mj-jvw8",
-      "date": "2026-04-21T15:17:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
