@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-04-23T22:21:42.638Z",
+  "fetchedAt": "2026-04-23T23:23:34.274Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0107: mysten-metrics contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0107.html",
+      "date": "2026-04-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0108: sui-execution-cut contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0108.html",
+      "date": "2026-04-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@astrojs/cloudflare] Cloudflare has SSRF via redirect following through its image-binding-transform endpoint (incomplete fix for GHSA-qpr4)",
       "url": "https://github.com/advisories/GHSA-88gm-j2wx-58h6",
@@ -126,20 +138,6 @@
       "date": "2026-04-22T20:28:27.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[i18next-http-middleware] i18next-http-middleware: HTTP response splitting and DoS via unsanitised Content-Language header",
-      "url": "https://github.com/advisories/GHSA-c3h8-g69v-pjrg",
-      "date": "2026-04-22T20:25:50.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[xmldom] xmldom: Uncontrolled recursion in XML serialization leads to DoS",
-      "url": "https://github.com/advisories/GHSA-2v35-w6hq-6mfw",
-      "date": "2026-04-22T20:23:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
