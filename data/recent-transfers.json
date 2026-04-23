@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-04-23T21:25:25.968Z",
+  "scannedAt": "2026-04-23T22:24:17.128Z",
   "count": 96,
   "packages": [
     {
@@ -48,6 +48,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "tinymce",
+      "version": "8.4.0",
+      "ecosystem": "npm",
+      "score": 50,
+      "level": "HIGH",
+      "previousOwner": "spocke",
+      "currentOwner": "tinymce"
+    },
+    {
       "name": "karma",
       "version": "6.4.4",
       "ecosystem": "npm",
@@ -67,7 +76,7 @@
     },
     {
       "name": "appium",
-      "version": "3.3.0",
+      "version": "3.3.1",
       "ecosystem": "npm",
       "score": 43,
       "level": "MODERATE",
@@ -229,7 +238,7 @@
     },
     {
       "name": "@appium/support",
-      "version": "7.1.0",
+      "version": "7.1.1",
       "ecosystem": "npm",
       "score": 33,
       "level": "MODERATE",
@@ -454,7 +463,7 @@
     },
     {
       "name": "@appium/base-driver",
-      "version": "10.3.0",
+      "version": "10.4.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -616,7 +625,7 @@
     },
     {
       "name": "@appium/types",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -643,7 +652,7 @@
     },
     {
       "name": "@appium/logger",
-      "version": "2.0.6",
+      "version": "2.0.7",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -685,15 +694,6 @@
       "level": "MODERATE",
       "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@vimeo/player",
-      "version": "2.30.3",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bdougherty",
-      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "typescript",
