@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-04-23T12:35:44.876Z",
+  "scannedAt": "2026-04-23T13:43:13.332Z",
   "count": 96,
   "packages": [
     {
@@ -46,6 +46,15 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tinymce",
+      "version": "8.4.0",
+      "ecosystem": "npm",
+      "score": 50,
+      "level": "HIGH",
+      "previousOwner": "spocke",
+      "currentOwner": "tinymce"
     },
     {
       "name": "karma",
@@ -508,7 +517,7 @@
     },
     {
       "name": "@supabase/storage-js",
-      "version": "2.104.0",
+      "version": "2.104.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -517,7 +526,7 @@
     },
     {
       "name": "@supabase/realtime-js",
-      "version": "2.104.0",
+      "version": "2.104.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -526,7 +535,7 @@
     },
     {
       "name": "@supabase/supabase-js",
-      "version": "2.104.0",
+      "version": "2.104.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -685,15 +694,6 @@
       "level": "MODERATE",
       "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@vimeo/player",
-      "version": "2.30.3",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bdougherty",
-      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "typescript",
