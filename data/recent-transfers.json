@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-04-22T23:26:03.021Z",
-  "count": 97,
+  "scannedAt": "2026-04-23T01:00:56.181Z",
+  "count": 96,
   "packages": [
     {
       "name": "xmldom",
@@ -46,6 +46,15 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tinymce",
+      "version": "8.4.0",
+      "ecosystem": "npm",
+      "score": 50,
+      "level": "HIGH",
+      "previousOwner": "spocke",
+      "currentOwner": "tinymce"
     },
     {
       "name": "karma",
@@ -226,15 +235,6 @@
       "level": "MODERATE",
       "previousOwner": "isaacs",
       "currentOwner": "geoffreybooth"
-    },
-    {
-      "name": "broccoli-babel-transpiler",
-      "version": "8.0.2",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "sebmck",
-      "currentOwner": "katiegengler"
     },
     {
       "name": "@appium/support",
@@ -480,15 +480,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "espree",
-      "version": "11.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "nzakas",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "hasown",
       "version": "2.0.3",
       "ecosystem": "npm",
@@ -504,6 +495,15 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jameshenry",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "espree",
+      "version": "11.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "nzakas",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -525,15 +525,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@formatjs/ecma402-abstract",
-      "version": "3.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "longlho",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@supabase/realtime-js",
       "version": "2.104.0",
       "ecosystem": "npm",
@@ -549,6 +540,15 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "kiwicopple",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@formatjs/ecma402-abstract",
+      "version": "3.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "longlho",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -694,15 +694,6 @@
       "level": "MODERATE",
       "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@vimeo/player",
-      "version": "2.30.3",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bdougherty",
-      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "typescript",
