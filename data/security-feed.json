@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-04-23T13:40:14.304Z",
+  "fetchedAt": "2026-04-23T14:54:13.777Z",
   "entries": [
+    {
+      "title": "[@astrojs/node] Astro: Cache Poisoning due to incorrect error handling when if-match header is malformed",
+      "url": "https://github.com/advisories/GHSA-c57f-mm3j-27q9",
+      "date": "2026-04-23T14:36:03.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n-mcp] n8n-MCP Logs Sensitive Request Data on Unauthorized /mcp Requests",
+      "url": "https://github.com/advisories/GHSA-pfm2-2mhg-8wpx",
+      "date": "2026-04-23T14:31:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fschat] FastChat has Denial of Service Through Blocking Event Loop in Model Workers (Incomplete Fix for ff66426)",
+      "url": "https://github.com/advisories/GHSA-5h65-jx66-j7p5",
+      "date": "2026-04-23T14:30:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fschat] FastChat has a Content Moderation Bypass via Arena Side-by-Side Views",
+      "url": "https://github.com/advisories/GHSA-f3q6-69f3-vwch",
+      "date": "2026-04-23T14:29:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@brikcss/merge] Deep Merge is Vulnerable to Prototype Pollution Through Lack of Sanitization",
+      "url": "https://github.com/advisories/GHSA-3jc6-6r48-v6qf",
+      "date": "2026-04-23T14:23:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@evomap/evolver] Evolver: Path Traversal via `--out` flag in `fetch` command allows Arbitrary File Write",
       "url": "https://github.com/advisories/GHSA-r466-rxw4-3j9j",
@@ -103,41 +138,6 @@
       "title": "[@xmldom/xmldom] xmldom has XML injection through unvalidated DocumentType serialization",
       "url": "https://github.com/advisories/GHSA-f6ww-3ggp-fr8h",
       "date": "2026-04-22T20:19:14.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@xmldom/xmldom] xmldom has XML injection through unvalidated DocumentType serialization",
-      "url": "https://github.com/advisories/GHSA-f6ww-3ggp-fr8h",
-      "date": "2026-04-22T20:19:14.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[xmldom] xmldom has XML node injection through unvalidated processing instruction serialization",
-      "url": "https://github.com/advisories/GHSA-x6wf-f3px-wcqx",
-      "date": "2026-04-22T20:17:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@xmldom/xmldom] xmldom has XML node injection through unvalidated processing instruction serialization",
-      "url": "https://github.com/advisories/GHSA-x6wf-f3px-wcqx",
-      "date": "2026-04-22T20:17:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@xmldom/xmldom] xmldom has XML node injection through unvalidated processing instruction serialization",
-      "url": "https://github.com/advisories/GHSA-x6wf-f3px-wcqx",
-      "date": "2026-04-22T20:17:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[xmldom] xmldom has XML node injection through unvalidated comment serialization",
-      "url": "https://github.com/advisories/GHSA-j759-j44w-7fr8",
-      "date": "2026-04-22T20:16:09.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
