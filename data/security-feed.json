@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-04-24T15:32:56.626Z",
+  "fetchedAt": "2026-04-24T16:28:41.175Z",
   "entries": [
+    {
+      "title": "[ray] Ray: Remote Code Execution via Parquet Arrow Extension Type Deserialization",
+      "url": "https://github.com/advisories/GHSA-mw35-8rx3-xf9r",
+      "date": "2026-04-24T16:15:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[litellm] LiteLLM: Server-Side Template Injection in /prompts/test endpoint",
+      "url": "https://github.com/advisories/GHSA-xqmj-j6mv-4862",
+      "date": "2026-04-24T16:02:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[aws-encryption-sdk] AWS Encryption SDK for Python: Key commitment policy bypass via shared key cache",
+      "url": "https://github.com/advisories/GHSA-v638-38fc-rhfv",
+      "date": "2026-04-24T15:59:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[aws-encryption-sdk] AWS Encryption SDK for Python: Key commitment policy bypass via shared key cache",
+      "url": "https://github.com/advisories/GHSA-v638-38fc-rhfv",
+      "date": "2026-04-24T15:59:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pip] pip has an interpretation conflict due to handling both concatenated tar and ZIP files as ZIP files",
+      "url": "https://github.com/advisories/GHSA-58qw-9mgm-455v",
+      "date": "2026-04-24T15:48:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[rwsdk] RedwoodSDK has Same-site CSRF through lack of origin validation in its server actions",
+      "url": "https://github.com/advisories/GHSA-m2m6-cff5-3w7c",
+      "date": "2026-04-24T15:36:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[liquidjs] liquidjs has a Denial of Service via circular block reference in layout",
+      "url": "https://github.com/advisories/GHSA-4rc3-7j7w-m548",
+      "date": "2026-04-24T15:34:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[postcss] PostCSS has XSS via Unescaped </style> in its CSS Stringify Output",
+      "url": "https://github.com/advisories/GHSA-qx2v-qp2m-jg93",
+      "date": "2026-04-24T15:31:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[doris-mcp-server] Apache Doris MCP Server vulnerable to SQL Injection via improper query context neutralization",
+      "url": "https://github.com/advisories/GHSA-qhfq-gvvc-5q6q",
+      "date": "2026-04-24T15:24:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0107: mysten-metrics contained malicious code",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0107.html",
@@ -32,6 +95,27 @@
       "ecosystem": "cargo"
     },
     {
+      "title": "[@astrojs/cloudflare] Cloudflare has SSRF via redirect following through its image-binding-transform endpoint (incomplete fix for GHSA-qpr4)",
+      "url": "https://github.com/advisories/GHSA-88gm-j2wx-58h6",
+      "date": "2026-04-23T21:52:04.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openlearnx] OpenLearnX has Critical Remote Code Execution Through Python Sandbox Escape via Code Execution Environment",
+      "url": "https://github.com/advisories/GHSA-8h25-q488-4hxw",
+      "date": "2026-04-23T21:46:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@actual-app/sync-server] Actual has Privilege Escalation via 'change-password' Endpoint on OpenID-Migrated Servers",
+      "url": "https://github.com/advisories/GHSA-prp4-2f49-fcgp",
+      "date": "2026-04-23T21:23:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
       "title": "[pipecat-ai] Pipecat: Remote Code Execution by Pickle Deserialization Through LivekitFrameSerializer",
       "url": "https://github.com/advisories/GHSA-c2jg-5cp7-6wc7",
       "date": "2026-04-23T21:15:43.000Z",
@@ -39,99 +123,18 @@
       "severity": "CRITICAL"
     },
     {
-      "title": "[fschat] FastChat has Denial of Service Through Blocking Event Loop in Model Workers (Incomplete Fix for ff66426)",
-      "url": "https://github.com/advisories/GHSA-5h65-jx66-j7p5",
-      "date": "2026-04-23T14:30:42.000Z",
-      "ecosystem": "pypi",
+      "title": "[@astrojs/node] Astro: Cache Poisoning due to incorrect error handling when if-match header is malformed",
+      "url": "https://github.com/advisories/GHSA-c57f-mm3j-27q9",
+      "date": "2026-04-23T14:36:03.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[fschat] FastChat has a Content Moderation Bypass via Arena Side-by-Side Views",
-      "url": "https://github.com/advisories/GHSA-f3q6-69f3-vwch",
-      "date": "2026-04-23T14:29:57.000Z",
-      "ecosystem": "pypi",
+      "title": "[n8n-mcp] n8n-MCP Logs Sensitive Request Data on Unauthorized /mcp Requests",
+      "url": "https://github.com/advisories/GHSA-pfm2-2mhg-8wpx",
+      "date": "2026-04-23T14:31:46.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[ragas] RAGAS has SSRF via Multi-Modal Faithfulness Collections Module",
-      "url": "https://github.com/advisories/GHSA-95ww-475f-pr4f",
-      "date": "2026-04-22T22:02:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[justhtml] justhtml has sanitization bypass in custom policies and programmatic DOM",
-      "url": "https://github.com/advisories/GHSA-vrx2-77f2-ww34",
-      "date": "2026-04-22T21:25:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow-providers-keycloak] apache-airflow-providers-keycloak: Missing OAuth 2.0 State and PKCE Enables Login CSRF and Session Fixation",
-      "url": "https://github.com/advisories/GHSA-5w6h-pjw6-wvc6",
-      "date": "2026-04-22T17:36:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow-core] Apache Airflow Exposes Secrets in Variables Saved as JSON Dictionaries",
-      "url": "https://github.com/advisories/GHSA-w9r4-94fj-xp69",
-      "date": "2026-04-22T17:25:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[apache-airflow-core] Apache Airflow allows users with asset materialize permissions to trigger DAGs outside of their permissions",
-      "url": "https://github.com/advisories/GHSA-h97w-pm3w-mwmc",
-      "date": "2026-04-22T17:25:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow-core] Apache Airflow exposes SQL stack trace despite \"api/expose_stack_traces\" set to false",
-      "url": "https://github.com/advisories/GHSA-w7cf-2pmc-5m4c",
-      "date": "2026-04-22T17:17:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[poetry] Poetry has Path Traversal in tar extraction on Python 3.10.0 - 3.10.12 and 3.11.0 - 3.11.4",
-      "url": "https://github.com/advisories/GHSA-73h3-mf4w-8647",
-      "date": "2026-04-22T14:35:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "RUSTSEC-2026-0104: Vulnerability in rustls-webpki",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0104.html",
-      "date": "2026-04-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0106: Vulnerability in hickory-recursor",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0106.html",
-      "date": "2026-04-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0105: core2 is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0105.html",
-      "date": "2026-04-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[apache-airflow-core] Apache Airflow allows code execution through crafted XCom payloads",
-      "url": "https://github.com/advisories/GHSA-6ffj-2wg2-w45j",
-      "date": "2026-04-21T22:50:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[lxml] lxml: Default configuration of iterparse() and ETCompatXMLParser() allows XXE to local files",
-      "url": "https://github.com/advisories/GHSA-vfmq-68hx-4jfw",
-      "date": "2026-04-21T20:38:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
