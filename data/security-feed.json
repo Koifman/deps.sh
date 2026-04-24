@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-24T00:59:00.577Z",
+  "fetchedAt": "2026-04-24T01:43:05.148Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0107: mysten-metrics contained malicious code",
@@ -35,6 +35,13 @@
       "severity": "HIGH"
     },
     {
+      "title": "[pipecat-ai] Pipecat: Remote Code Execution by Pickle Deserialization Through LivekitFrameSerializer",
+      "url": "https://github.com/advisories/GHSA-c2jg-5cp7-6wc7",
+      "date": "2026-04-23T21:15:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
       "title": "[@astrojs/node] Astro: Cache Poisoning due to incorrect error handling when if-match header is malformed",
       "url": "https://github.com/advisories/GHSA-c57f-mm3j-27q9",
       "date": "2026-04-23T14:36:03.000Z",
@@ -46,6 +53,20 @@
       "url": "https://github.com/advisories/GHSA-pfm2-2mhg-8wpx",
       "date": "2026-04-23T14:31:46.000Z",
       "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fschat] FastChat has Denial of Service Through Blocking Event Loop in Model Workers (Incomplete Fix for ff66426)",
+      "url": "https://github.com/advisories/GHSA-5h65-jx66-j7p5",
+      "date": "2026-04-23T14:30:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fschat] FastChat has a Content Moderation Bypass via Arena Side-by-Side Views",
+      "url": "https://github.com/advisories/GHSA-f3q6-69f3-vwch",
+      "date": "2026-04-23T14:29:57.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
@@ -77,6 +98,20 @@
       "severity": "MODERATE"
     },
     {
+      "title": "[ragas] RAGAS has SSRF via Multi-Modal Faithfulness Collections Module",
+      "url": "https://github.com/advisories/GHSA-95ww-475f-pr4f",
+      "date": "2026-04-22T22:02:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[justhtml] justhtml has sanitization bypass in custom policies and programmatic DOM",
+      "url": "https://github.com/advisories/GHSA-vrx2-77f2-ww34",
+      "date": "2026-04-22T21:25:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
       "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
       "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
       "date": "2026-04-22T20:53:25.000Z",
@@ -103,41 +138,6 @@
       "date": "2026-04-22T20:28:27.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[i18next-http-middleware] i18next-http-middleware: HTTP response splitting and DoS via unsanitised Content-Language header",
-      "url": "https://github.com/advisories/GHSA-c3h8-g69v-pjrg",
-      "date": "2026-04-22T20:25:50.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[xmldom] xmldom: Uncontrolled recursion in XML serialization leads to DoS",
-      "url": "https://github.com/advisories/GHSA-2v35-w6hq-6mfw",
-      "date": "2026-04-22T20:23:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@xmldom/xmldom] xmldom: Uncontrolled recursion in XML serialization leads to DoS",
-      "url": "https://github.com/advisories/GHSA-2v35-w6hq-6mfw",
-      "date": "2026-04-22T20:23:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@xmldom/xmldom] xmldom: Uncontrolled recursion in XML serialization leads to DoS",
-      "url": "https://github.com/advisories/GHSA-2v35-w6hq-6mfw",
-      "date": "2026-04-22T20:23:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[xmldom] xmldom has XML injection through unvalidated DocumentType serialization",
-      "url": "https://github.com/advisories/GHSA-f6ww-3ggp-fr8h",
-      "date": "2026-04-22T20:19:14.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
