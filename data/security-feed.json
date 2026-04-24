@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-24T12:33:16.902Z",
+  "fetchedAt": "2026-04-24T13:39:24.577Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0107: mysten-metrics contained malicious code",
@@ -10,6 +10,12 @@
     {
       "title": "RUSTSEC-2026-0110: bare-metal is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0110.html",
+      "date": "2026-04-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0111: Unsoundness in diesel",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0111.html",
       "date": "2026-04-24T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -129,13 +135,6 @@
       "date": "2026-04-22T20:53:25.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@samanhappy/mcphub] MCPHub has Path Traversal via Malicious MCPB Manifest Name",
-      "url": "https://github.com/advisories/GHSA-p3h2-2j4p-p83g",
-      "date": "2026-04-22T20:50:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
