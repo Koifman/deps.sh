@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-04-24T19:24:03.658Z",
+  "fetchedAt": "2026-04-24T20:22:20.753Z",
   "entries": [
+    {
+      "title": "[@adonisjs/core] @adonisjs/http-server has an Open Redirect vulnerability",
+      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
+      "date": "2026-04-24T19:56:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[inventree] XSS Vulnerability in Markdown Editor",
+      "url": "https://github.com/advisories/GHSA-85q9-7467-r53q",
+      "date": "2026-04-24T19:49:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[google-adk] Google Agent Development Kit (ADK) has a Code Injection and Missing Authentication vulnerability",
+      "url": "https://github.com/advisories/GHSA-rg7c-g689-fr3x",
+      "date": "2026-04-24T19:42:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@google/gemini-cli] Gemini CLI: Remote Code Execution via workspace trust and tool allowlisting bypasses",
+      "url": "https://github.com/advisories/GHSA-wpqr-6v78-jr5g",
+      "date": "2026-04-24T19:30:03.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@google/gemini-cli] Gemini CLI: Remote Code Execution via workspace trust and tool allowlisting bypasses",
+      "url": "https://github.com/advisories/GHSA-wpqr-6v78-jr5g",
+      "date": "2026-04-24T19:30:03.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[SQLAlchemy] SQLAlchemy vulnerable to SQL Injection via order_by parameter",
       "url": "https://github.com/advisories/GHSA-887w-45rq-vxgf",
@@ -103,38 +138,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0110.html",
       "date": "2026-04-24T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0111: Unsoundness in diesel",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0111.html",
-      "date": "2026-04-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0108: sui-execution-cut contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0108.html",
-      "date": "2026-04-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0109: Vulnerability in sequoia-git",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0109.html",
-      "date": "2026-04-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[@astrojs/cloudflare] Cloudflare has SSRF via redirect following through its image-binding-transform endpoint (incomplete fix for GHSA-qpr4)",
-      "url": "https://github.com/advisories/GHSA-88gm-j2wx-58h6",
-      "date": "2026-04-23T21:52:04.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openlearnx] OpenLearnX has Critical Remote Code Execution Through Python Sandbox Escape via Code Execution Environment",
-      "url": "https://github.com/advisories/GHSA-8h25-q488-4hxw",
-      "date": "2026-04-23T21:46:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
