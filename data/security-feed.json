@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-24T14:40:47.909Z",
+  "fetchedAt": "2026-04-24T15:32:56.626Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0107: mysten-metrics contained malicious code",
@@ -32,46 +32,11 @@
       "ecosystem": "cargo"
     },
     {
-      "title": "[@astrojs/cloudflare] Cloudflare has SSRF via redirect following through its image-binding-transform endpoint (incomplete fix for GHSA-qpr4)",
-      "url": "https://github.com/advisories/GHSA-88gm-j2wx-58h6",
-      "date": "2026-04-23T21:52:04.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openlearnx] OpenLearnX has Critical Remote Code Execution Through Python Sandbox Escape via Code Execution Environment",
-      "url": "https://github.com/advisories/GHSA-8h25-q488-4hxw",
-      "date": "2026-04-23T21:46:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@actual-app/sync-server] Actual has Privilege Escalation via 'change-password' Endpoint on OpenID-Migrated Servers",
-      "url": "https://github.com/advisories/GHSA-prp4-2f49-fcgp",
-      "date": "2026-04-23T21:23:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
       "title": "[pipecat-ai] Pipecat: Remote Code Execution by Pickle Deserialization Through LivekitFrameSerializer",
       "url": "https://github.com/advisories/GHSA-c2jg-5cp7-6wc7",
       "date": "2026-04-23T21:15:43.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[@astrojs/node] Astro: Cache Poisoning due to incorrect error handling when if-match header is malformed",
-      "url": "https://github.com/advisories/GHSA-c57f-mm3j-27q9",
-      "date": "2026-04-23T14:36:03.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n-mcp] n8n-MCP Logs Sensitive Request Data on Unauthorized /mcp Requests",
-      "url": "https://github.com/advisories/GHSA-pfm2-2mhg-8wpx",
-      "date": "2026-04-23T14:31:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     },
     {
       "title": "[fschat] FastChat has Denial of Service Through Blocking Event Loop in Model Workers (Incomplete Fix for ff66426)",
@@ -85,34 +50,6 @@
       "url": "https://github.com/advisories/GHSA-f3q6-69f3-vwch",
       "date": "2026-04-23T14:29:57.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@brikcss/merge] Deep Merge is Vulnerable to Prototype Pollution Through Lack of Sanitization",
-      "url": "https://github.com/advisories/GHSA-3jc6-6r48-v6qf",
-      "date": "2026-04-23T14:23:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@evomap/evolver] Evolver: Path Traversal via `--out` flag in `fetch` command allows Arbitrary File Write",
-      "url": "https://github.com/advisories/GHSA-r466-rxw4-3j9j",
-      "date": "2026-04-22T22:06:16.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@evomap/evolver] Evolver: Command Injection via `execSync` in `_extractLLM()` function allows Remote Code Execution",
-      "url": "https://github.com/advisories/GHSA-j5w5-568x-rq53",
-      "date": "2026-04-22T22:06:03.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@evomap/evolver] Evolver has Prototype Pollution via `Object.assign()` in its mailbox store operations",
-      "url": "https://github.com/advisories/GHSA-2cjr-5v3h-v2w4",
-      "date": "2026-04-22T22:05:31.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
@@ -130,11 +67,71 @@
       "severity": "MODERATE"
     },
     {
-      "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
-      "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
-      "date": "2026-04-22T20:53:25.000Z",
-      "ecosystem": "npm",
+      "title": "[apache-airflow-providers-keycloak] apache-airflow-providers-keycloak: Missing OAuth 2.0 State and PKCE Enables Login CSRF and Session Fixation",
+      "url": "https://github.com/advisories/GHSA-5w6h-pjw6-wvc6",
+      "date": "2026-04-22T17:36:41.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow-core] Apache Airflow Exposes Secrets in Variables Saved as JSON Dictionaries",
+      "url": "https://github.com/advisories/GHSA-w9r4-94fj-xp69",
+      "date": "2026-04-22T17:25:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[apache-airflow-core] Apache Airflow allows users with asset materialize permissions to trigger DAGs outside of their permissions",
+      "url": "https://github.com/advisories/GHSA-h97w-pm3w-mwmc",
+      "date": "2026-04-22T17:25:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow-core] Apache Airflow exposes SQL stack trace despite \"api/expose_stack_traces\" set to false",
+      "url": "https://github.com/advisories/GHSA-w7cf-2pmc-5m4c",
+      "date": "2026-04-22T17:17:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[poetry] Poetry has Path Traversal in tar extraction on Python 3.10.0 - 3.10.12 and 3.11.0 - 3.11.4",
+      "url": "https://github.com/advisories/GHSA-73h3-mf4w-8647",
+      "date": "2026-04-22T14:35:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "RUSTSEC-2026-0104: Vulnerability in rustls-webpki",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0104.html",
+      "date": "2026-04-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0106: Vulnerability in hickory-recursor",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0106.html",
+      "date": "2026-04-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0105: core2 is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0105.html",
+      "date": "2026-04-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "[apache-airflow-core] Apache Airflow allows code execution through crafted XCom payloads",
+      "url": "https://github.com/advisories/GHSA-6ffj-2wg2-w45j",
+      "date": "2026-04-21T22:50:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[lxml] lxml: Default configuration of iterparse() and ETCompatXMLParser() allows XXE to local files",
+      "url": "https://github.com/advisories/GHSA-vfmq-68hx-4jfw",
+      "date": "2026-04-21T20:38:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     }
   ]
 }
