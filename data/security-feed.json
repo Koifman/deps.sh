@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-24T08:50:49.176Z",
+  "fetchedAt": "2026-04-24T09:41:42.584Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0107: mysten-metrics contained malicious code",
@@ -8,8 +8,20 @@
       "ecosystem": "cargo"
     },
     {
+      "title": "RUSTSEC-2026-0110: bare-metal is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0110.html",
+      "date": "2026-04-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
       "title": "RUSTSEC-2026-0108: sui-execution-cut contained malicious code",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0108.html",
+      "date": "2026-04-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0109: Vulnerability in sequoia-git",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0109.html",
       "date": "2026-04-24T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -124,20 +136,6 @@
       "date": "2026-04-22T20:50:20.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[locize] locize Client SDK: Cross-origin DOM XSS & Handler Hijack Through Missing e.origin Validation in InContext Editor",
-      "url": "https://github.com/advisories/GHSA-w937-fg2h-xhq2",
-      "date": "2026-04-22T20:32:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[i18next-locize-backend] i18next-locize-backend has URL Injection via Unsanitized Path Parameters",
-      "url": "https://github.com/advisories/GHSA-mgcp-mfp8-3q45",
-      "date": "2026-04-22T20:28:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
