@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-04-25T00:53:38.295Z",
+  "fetchedAt": "2026-04-25T01:41:01.610Z",
   "entries": [
+    {
+      "title": "[keras] Google Keras Allocates Resources Without Limits or Throttling in the HDF5 weight loading component",
+      "url": "https://github.com/advisories/GHSA-xfhx-r7ww-5995",
+      "date": "2026-04-25T01:26:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nltk] Unauthenticated remote shutdown in nltk.app.wordnet_app",
+      "url": "https://github.com/advisories/GHSA-jm6w-m3j8-898g",
+      "date": "2026-04-25T01:23:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[seroval] seroval affected by Denial of Service via RegExp serialization",
+      "url": "https://github.com/advisories/GHSA-hx9m-jf43-8ffr",
+      "date": "2026-04-25T00:27:57.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[openviking] OpenViking: Unauthenticated remote bot control via OpenAPI HTTP routes",
       "url": "https://github.com/advisories/GHSA-jgq2-vq69-gr6h",
@@ -118,27 +139,6 @@
       "url": "https://github.com/advisories/GHSA-4f9j-vr4p-642r",
       "date": "2026-04-24T16:18:53.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[litellm] LiteLLM has SQL Injection in Proxy API key verification",
-      "url": "https://github.com/advisories/GHSA-r75f-5x8p-qvmc",
-      "date": "2026-04-24T16:17:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[ray] Ray: Remote Code Execution via Parquet Arrow Extension Type Deserialization",
-      "url": "https://github.com/advisories/GHSA-mw35-8rx3-xf9r",
-      "date": "2026-04-24T16:15:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[litellm] LiteLLM: Server-Side Template Injection in /prompts/test endpoint",
-      "url": "https://github.com/advisories/GHSA-xqmj-j6mv-4862",
-      "date": "2026-04-24T16:02:42.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
