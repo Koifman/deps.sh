@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-04-25T14:22:36.812Z",
+  "fetchedAt": "2026-04-25T15:20:50.610Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0105: core2 is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0105.html",
+      "date": "2026-04-25T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[keras] Google Keras Allocates Resources Without Limits or Throttling in the HDF5 weight loading component",
       "url": "https://github.com/advisories/GHSA-xfhx-r7ww-5995",
@@ -131,13 +137,6 @@
       "title": "[@anthropic-ai/claude-code] Claude Code: Trust Dialog Bypass via Git Worktree Spoofing Allows Arbitrary Code Execution",
       "url": "https://github.com/advisories/GHSA-q5hj-mxqh-vv77",
       "date": "2026-04-24T16:34:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/backend-core] Budibase auth session cookies are set with httpOnly:false — any XSS can lead to full account takeover",
-      "url": "https://github.com/advisories/GHSA-4f9j-vr4p-642r",
-      "date": "2026-04-24T16:18:53.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
