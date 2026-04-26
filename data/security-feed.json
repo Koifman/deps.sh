@@ -1,12 +1,117 @@
 {
-  "fetchedAt": "2026-04-25T23:18:56.875Z",
+  "fetchedAt": "2026-04-26T01:00:19.158Z",
   "entries": [
     {
-      "title": "[@google/gemini-cli] Gemini CLI: Remote Code Execution via workspace trust and tool allowlisting bypasses",
-      "url": "https://github.com/advisories/GHSA-wpqr-6v78-jr5g",
-      "date": "2026-04-25T19:59:41.000Z",
+      "title": "[openclaw] OpenClaw: Agent gateway config mutations could change protected operator settings",
+      "url": "https://github.com/advisories/GHSA-7jm2-g593-4qrc",
+      "date": "2026-04-25T23:51:11.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Bundled MCP/LSP tools could bypass configured tool policy",
+      "url": "https://github.com/advisories/GHSA-qrp5-gfw2-gxv4",
+      "date": "2026-04-25T23:50:39.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Workspace dotenv MiniMax host override could redirect credentialed requests",
+      "url": "https://github.com/advisories/GHSA-h2vw-ph2c-jvwf",
+      "date": "2026-04-25T23:50:10.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Browser CDP profile creation skipped strict-mode SSRF checks",
+      "url": "https://github.com/advisories/GHSA-j4c5-89f5-f3pm",
+      "date": "2026-04-25T23:49:44.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Paired-device pairing actions were not limited to the caller device",
+      "url": "https://github.com/advisories/GHSA-xrq9-jm7v-g9h7",
+      "date": "2026-04-25T23:49:01.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: QQBot direct media upload skipped URL SSRF validation",
+      "url": "https://github.com/advisories/GHSA-c4qg-j8jg-42q5",
+      "date": "2026-04-25T23:48:30.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: MCP stdio server env could load dangerous startup variables from workspace config",
+      "url": "https://github.com/advisories/GHSA-mj59-h3q9-ghfh",
+      "date": "2026-04-25T23:48:04.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Isolated cron awareness events were recorded as trusted system events",
+      "url": "https://github.com/advisories/GHSA-57r2-h2wj-g887",
+      "date": "2026-04-25T23:47:31.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Workspace dotenv could override runtime-control environment variables",
+      "url": "https://github.com/advisories/GHSA-hxvm-xjvf-93f3",
+      "date": "2026-04-25T23:47:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Feishu card actions could misclassify DMs and skip dmPolicy",
+      "url": "https://github.com/advisories/GHSA-72q8-jcmc-97wx",
+      "date": "2026-04-25T23:46:31.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Assistant media route missed scope enforcement for trusted-proxy authorization",
+      "url": "https://github.com/advisories/GHSA-v8qf-fr4g-28p2",
+      "date": "2026-04-25T23:45:49.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Hook mapping templates could bypass hook session-key opt-in",
+      "url": "https://github.com/advisories/GHSA-2xcp-x87w-q377",
+      "date": "2026-04-25T23:45:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[GitPython] GitPython has Command Injection via Git options bypass",
+      "url": "https://github.com/advisories/GHSA-rpm5-65cw-6hj4",
+      "date": "2026-04-25T23:42:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[GitPython] GitPython: Unsafe option check validates multi_options before shlex.split transformation",
+      "url": "https://github.com/advisories/GHSA-x2qx-6953-8485",
+      "date": "2026-04-25T23:41:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n-mcp] n8n-MCP: Sensitive MCP tool-call arguments logged on authenticated requests in HTTP mode",
+      "url": "https://github.com/advisories/GHSA-wg4g-395p-mqv3",
+      "date": "2026-04-25T23:35:29.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[litellm] LiteLLM: Authenticated command execution via MCP stdio test endpoints",
+      "url": "https://github.com/advisories/GHSA-v4p8-mg3p-g94g",
+      "date": "2026-04-25T23:27:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     },
     {
       "title": "[@google/gemini-cli] Gemini CLI: Remote Code Execution via workspace trust and tool allowlisting bypasses",
@@ -33,111 +138,6 @@
       "url": "https://github.com/advisories/GHSA-jm6w-m3j8-898g",
       "date": "2026-04-25T01:23:11.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[seroval] seroval affected by Denial of Service via RegExp serialization",
-      "url": "https://github.com/advisories/GHSA-hx9m-jf43-8ffr",
-      "date": "2026-04-25T00:27:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openviking] OpenViking: Unauthenticated remote bot control via OpenAPI HTTP routes",
-      "url": "https://github.com/advisories/GHSA-jgq2-vq69-gr6h",
-      "date": "2026-04-24T20:49:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[electerm] electurm has Command Injection via runLinux funtion",
-      "url": "https://github.com/advisories/GHSA-8x35-hph8-37hq",
-      "date": "2026-04-24T20:45:16.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[wlc] wlc: print_html outputs API data without HTML escaping",
-      "url": "https://github.com/advisories/GHSA-gx2m-mcc2-r4p3",
-      "date": "2026-04-24T20:43:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@excalidraw/mermaid-to-excalidraw] Excalidraw vulnerable to XSS via Mermaid sequence diagram labels (KaTeX rendering)",
-      "url": "https://github.com/advisories/GHSA-39h7-pwv7-rc3x",
-      "date": "2026-04-24T20:41:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@excalidraw/excalidraw] Excalidraw vulnerable to XSS via Mermaid sequence diagram labels (KaTeX rendering)",
-      "url": "https://github.com/advisories/GHSA-39h7-pwv7-rc3x",
-      "date": "2026-04-24T20:41:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[showdown] Showdown vulnerable to Regular Expression Denial of Service (ReDoS) in link/anchor parsing",
-      "url": "https://github.com/advisories/GHSA-rmmh-p597-ppvv",
-      "date": "2026-04-24T20:36:03.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langflow] Langflow: Cleartext Storage of Authentication Settings in Project Creation Endpoint",
-      "url": "https://github.com/advisories/GHSA-9jpj-cph8-w449",
-      "date": "2026-04-24T20:35:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[langflow] Langflow has an Information Leak through Incomplete API Key Redaction",
-      "url": "https://github.com/advisories/GHSA-5jjf-wcvf-923w",
-      "date": "2026-04-24T20:22:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[langflow-base] Langflow: DoS Through Lack of File Size Restriction via Deprecated Unauthenticated File Upload API",
-      "url": "https://github.com/advisories/GHSA-vvfc-fp59-m92g",
-      "date": "2026-04-24T20:13:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@adonisjs/core] @adonisjs/http-server has an Open Redirect vulnerability",
-      "url": "https://github.com/advisories/GHSA-6qvv-pj99-48qm",
-      "date": "2026-04-24T19:56:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[inventree] XSS Vulnerability in Markdown Editor",
-      "url": "https://github.com/advisories/GHSA-85q9-7467-r53q",
-      "date": "2026-04-24T19:49:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[google-adk] Google Agent Development Kit (ADK) has a Code Injection and Missing Authentication vulnerability",
-      "url": "https://github.com/advisories/GHSA-rg7c-g689-fr3x",
-      "date": "2026-04-24T19:42:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[SQLAlchemy] SQLAlchemy vulnerable to SQL Injection via order_by parameter",
-      "url": "https://github.com/advisories/GHSA-887w-45rq-vxgf",
-      "date": "2026-04-24T16:37:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@anthropic-ai/claude-code] Claude Code: Trust Dialog Bypass via Git Worktree Spoofing Allows Arbitrary Code Execution",
-      "url": "https://github.com/advisories/GHSA-q5hj-mxqh-vv77",
-      "date": "2026-04-24T16:34:05.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
