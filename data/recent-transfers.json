@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-04-27T13:44:40.660Z",
+  "scannedAt": "2026-04-27T14:51:08.929Z",
   "count": 96,
   "packages": [
     {
@@ -172,15 +172,6 @@
       "level": "MODERATE",
       "previousOwner": "jonschlinkert",
       "currentOwner": "phated"
-    },
-    {
-      "name": "heimdalljs",
-      "version": "0.2.6",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "hjdivad",
-      "currentOwner": "stefanpenner"
     },
     {
       "name": "is-plain-object",
@@ -687,6 +678,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@vimeo/player",
+      "version": "2.30.3",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bdougherty",
+      "currentOwner": "vimeo-npmbot"
+    },
+    {
       "name": "typescript",
       "version": "6.0.3",
       "ecosystem": "npm",
@@ -706,7 +706,7 @@
     },
     {
       "name": "oauth4webapi",
-      "version": "3.8.5",
+      "version": "3.8.6",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -849,15 +849,6 @@
       "currentOwner": "balearica"
     },
     {
-      "name": "intl-tel-input",
-      "version": "28.0.1",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "jackocnr",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@nevware21/ts-utils",
       "version": "0.13.0",
       "ecosystem": "npm",
@@ -865,6 +856,15 @@
       "level": "LOW",
       "previousOwner": "nev21",
       "currentOwner": "nevware21bot"
+    },
+    {
+      "name": "intl-tel-input",
+      "version": "28.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "jackocnr",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }
