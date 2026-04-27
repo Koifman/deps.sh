@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-27T19:37:12.847Z",
+  "fetchedAt": "2026-04-27T20:32:22.045Z",
   "entries": [
     {
       "title": "[Glances] Glances Vulnerable to Cross-Origin System Information Disclosure via XML-RPC Server CORS Wildcard",
@@ -14,6 +14,12 @@
       "date": "2026-04-27T15:23:09.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
+    },
+    {
+      "title": "RUSTSEC-2026-0103: Vulnerability in thin-vec",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0103.html",
+      "date": "2026-04-27T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
       "title": "[openclaw] OpenClaw: Agent gateway config mutations could change protected operator settings",
@@ -133,12 +139,6 @@
       "date": "2026-04-25T19:59:41.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0105: core2 is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0105.html",
-      "date": "2026-04-25T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
