@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-04-27T14:47:26.294Z",
+  "fetchedAt": "2026-04-27T15:41:35.623Z",
   "entries": [
+    {
+      "title": "[Glances] Glances Vulnerable to Cross-Origin System Information Disclosure via XML-RPC Server CORS Wildcard",
+      "url": "https://github.com/advisories/GHSA-7p93-6934-f4q7",
+      "date": "2026-04-27T15:23:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Glances] Glances Vulnerable to Command Injection via Dynamic Configuration Values",
+      "url": "https://github.com/advisories/GHSA-qhj7-v7h7-q4c7",
+      "date": "2026-04-27T15:23:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[openclaw] OpenClaw: Agent gateway config mutations could change protected operator settings",
       "url": "https://github.com/advisories/GHSA-7jm2-g593-4qrc",
@@ -125,20 +139,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0105.html",
       "date": "2026-04-25T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[keras] Google Keras Allocates Resources Without Limits or Throttling in the HDF5 weight loading component",
-      "url": "https://github.com/advisories/GHSA-xfhx-r7ww-5995",
-      "date": "2026-04-25T01:26:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Unauthenticated remote shutdown in nltk.app.wordnet_app",
-      "url": "https://github.com/advisories/GHSA-jm6w-m3j8-898g",
-      "date": "2026-04-25T01:23:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
