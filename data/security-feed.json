@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-04-28T12:49:04.246Z",
+  "fetchedAt": "2026-04-28T13:43:19.186Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0113: Vulnerability in astral-tokio-tar",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0113.html",
+      "date": "2026-04-28T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0112: Vulnerability in astral-tokio-tar",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0112.html",
+      "date": "2026-04-28T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@supabase/auth-js] auth-js Vulnerable to Insecure Path Routing from Malformed User Input",
       "url": "https://github.com/advisories/GHSA-8r88-6cj9-9fh5",
@@ -123,20 +135,6 @@
       "title": "[GitPython] GitPython: Unsafe option check validates multi_options before shlex.split transformation",
       "url": "https://github.com/advisories/GHSA-x2qx-6953-8485",
       "date": "2026-04-25T23:41:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n-mcp] n8n-MCP: Sensitive MCP tool-call arguments logged on authenticated requests in HTTP mode",
-      "url": "https://github.com/advisories/GHSA-wg4g-395p-mqv3",
-      "date": "2026-04-25T23:35:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[litellm] LiteLLM: Authenticated command execution via MCP stdio test endpoints",
-      "url": "https://github.com/advisories/GHSA-v4p8-mg3p-g94g",
-      "date": "2026-04-25T23:27:57.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
