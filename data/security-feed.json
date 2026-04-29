@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-29T18:40:49.430Z",
+  "fetchedAt": "2026-04-29T19:38:13.216Z",
   "entries": [
+    {
+      "title": "[beets] beets has a Cross-site Scripting vulnerability",
+      "url": "https://github.com/advisories/GHSA-3gxm-wfjx-m847",
+      "date": "2026-04-29T18:29:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[agentscope] AgentScope vulnerable to Server-Side Request Forgery",
       "url": "https://github.com/advisories/GHSA-crx8-wpv6-jrj2",
@@ -128,13 +135,6 @@
       "title": "[openclaw] OpenClaw: Workspace dotenv could override runtime-control environment variables",
       "url": "https://github.com/advisories/GHSA-hxvm-xjvf-93f3",
       "date": "2026-04-25T23:47:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Feishu card actions could misclassify DMs and skip dmPolicy",
-      "url": "https://github.com/advisories/GHSA-72q8-jcmc-97wx",
-      "date": "2026-04-25T23:46:31.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
