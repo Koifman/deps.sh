@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-04-29T08:58:41.423Z",
-  "count": 98,
+  "scannedAt": "2026-04-29T09:52:53.485Z",
+  "count": 97,
   "packages": [
     {
       "name": "xmldom",
@@ -111,15 +111,6 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "object.defaults",
-      "version": "1.1.0",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "jonschlinkert",
-      "currentOwner": "phated"
-    },
-    {
       "name": "gray-matter",
       "version": "4.0.3",
       "ecosystem": "npm",
@@ -127,6 +118,15 @@
       "level": "MODERATE",
       "previousOwner": "jonschlinkert",
       "currentOwner": "rmassaioli"
+    },
+    {
+      "name": "object.defaults",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "jonschlinkert",
+      "currentOwner": "phated"
     },
     {
       "name": "is-expression",
@@ -273,15 +273,6 @@
       "currentOwner": "davidjerleke"
     },
     {
-      "name": "well-known-symbols",
-      "version": "4.1.0",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "novemberborn",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "tslib",
       "version": "2.8.1",
       "ecosystem": "npm",
@@ -417,15 +408,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@hey-api/openapi-ts",
-      "version": "0.97.0",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "lmenus",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@trivago/prettier-plugin-sort-imports",
       "version": "6.0.2",
       "ecosystem": "npm",
@@ -433,6 +415,15 @@
       "level": "MODERATE",
       "previousOwner": "ayusharma",
       "currentOwner": "behraang"
+    },
+    {
+      "name": "@hey-api/openapi-ts",
+      "version": "0.97.0",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "lmenus",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@appium/base-driver",
@@ -813,15 +804,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.47.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "oxc-minify",
       "version": "0.128.0",
       "ecosystem": "npm",
@@ -840,8 +822,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.128.0",
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.47.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -849,12 +831,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lottiefiles/dotlottie-web",
-      "version": "0.71.0",
+      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.128.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "jawish",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -865,6 +847,15 @@
       "level": "LOW",
       "previousOwner": "nev21",
       "currentOwner": "nevware21bot"
+    },
+    {
+      "name": "@lottiefiles/dotlottie-web",
+      "version": "0.71.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "tesseract.js-core",
