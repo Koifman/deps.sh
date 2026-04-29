@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-04-29T22:26:23.915Z",
+  "fetchedAt": "2026-04-29T23:25:40.944Z",
   "entries": [
+    {
+      "title": "[ckan] CKAN has Unauthenticated SQL Injection and Authorization Bypass in `datastore_search_sql`",
+      "url": "https://github.com/advisories/GHSA-h7j7-3rx6-xvcg",
+      "date": "2026-04-29T23:11:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ckan] CKAN has Unauthenticated SQL Injection and Authorization Bypass in `datastore_search_sql`",
+      "url": "https://github.com/advisories/GHSA-h7j7-3rx6-xvcg",
+      "date": "2026-04-29T23:11:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@anthropic-ai/sdk] Claude SDK for TypeScript has Insecure Default File Permissions in Local Filesystem Memory Tool",
+      "url": "https://github.com/advisories/GHSA-p7fg-763f-g4gf",
+      "date": "2026-04-29T22:28:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[i18next-http-middleware] i18next-http-middleware has path traversal / SSRF via user-controlled language and namespace parameters",
+      "url": "https://github.com/advisories/GHSA-jfgf-83c5-2c4m",
+      "date": "2026-04-29T22:26:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pygeoapi] pygeoapi 0.23.x: Unauthenticated SSRF via OGC API - Processes Subscriber",
+      "url": "https://github.com/advisories/GHSA-jgvc-94c8-3chc",
+      "date": "2026-04-29T22:19:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pygeoapi] pygeoapi 0.23.x: Path Traversal in STAC FileSystemProvider",
+      "url": "https://github.com/advisories/GHSA-f6pr-83pg-ghh6",
+      "date": "2026-04-29T22:18:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[marked] Marked Vulnerable to OOM Denial of Service via Infinite Recursion in marked Tokenizer",
       "url": "https://github.com/advisories/GHSA-6v9c-7cg6-27q7",
@@ -98,48 +140,6 @@
       "date": "2026-04-29T21:23:04.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n's Credential Authorization Bypass in dynamic-node-parameters Allows Foreign API Key Replay",
-      "url": "https://github.com/advisories/GHSA-r4v6-9fqc-w5jr",
-      "date": "2026-04-29T21:22:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n's Credential Authorization Bypass in dynamic-node-parameters Allows Foreign API Key Replay",
-      "url": "https://github.com/advisories/GHSA-r4v6-9fqc-w5jr",
-      "date": "2026-04-29T21:22:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n has a Python Task Runner Sandbox Escape Vulnerability",
-      "url": "https://github.com/advisories/GHSA-44v6-jhgm-p3m4",
-      "date": "2026-04-29T21:21:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n has a Python Task Runner Sandbox Escape Vulnerability",
-      "url": "https://github.com/advisories/GHSA-44v6-jhgm-p3m4",
-      "date": "2026-04-29T21:21:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n has a Python Task Runner Sandbox Escape Vulnerability",
-      "url": "https://github.com/advisories/GHSA-44v6-jhgm-p3m4",
-      "date": "2026-04-29T21:21:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n has Public API Variables IDOR that Allows Cross-Project Secret Disclosure",
-      "url": "https://github.com/advisories/GHSA-756q-gq9h-fp22",
-      "date": "2026-04-29T21:21:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
