@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-04-28T23:25:26.960Z",
+  "fetchedAt": "2026-04-29T01:02:56.494Z",
   "entries": [
+    {
+      "title": "[agentscope] AgentScope vulnerable to Server-Side Request Forgery",
+      "url": "https://github.com/advisories/GHSA-crx8-wpv6-jrj2",
+      "date": "2026-04-28T23:20:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[agentscope] AgentScope vulnerable to Server-Side Request Forgery",
+      "url": "https://github.com/advisories/GHSA-8ggf-r3vm-p3jc",
+      "date": "2026-04-28T23:20:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[agentscope] AgentScope vulnerable to Server-Side Request Forgery",
+      "url": "https://github.com/advisories/GHSA-659x-hm75-hpv7",
+      "date": "2026-04-28T23:19:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langflow] Langflow vulnerable to injection",
+      "url": "https://github.com/advisories/GHSA-v66p-f7x3-4794",
+      "date": "2026-04-28T23:18:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "RUSTSEC-2026-0113: Vulnerability in astral-tokio-tar",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0113.html",
@@ -109,34 +137,6 @@
       "date": "2026-04-25T23:46:31.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Assistant media route missed scope enforcement for trusted-proxy authorization",
-      "url": "https://github.com/advisories/GHSA-v8qf-fr4g-28p2",
-      "date": "2026-04-25T23:45:49.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Hook mapping templates could bypass hook session-key opt-in",
-      "url": "https://github.com/advisories/GHSA-2xcp-x87w-q377",
-      "date": "2026-04-25T23:45:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[GitPython] GitPython has Command Injection via Git options bypass",
-      "url": "https://github.com/advisories/GHSA-rpm5-65cw-6hj4",
-      "date": "2026-04-25T23:42:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[GitPython] GitPython: Unsafe option check validates multi_options before shlex.split transformation",
-      "url": "https://github.com/advisories/GHSA-x2qx-6953-8485",
-      "date": "2026-04-25T23:41:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
