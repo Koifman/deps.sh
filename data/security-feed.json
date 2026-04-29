@@ -1,141 +1,144 @@
 {
-  "fetchedAt": "2026-04-29T20:33:11.244Z",
+  "fetchedAt": "2026-04-29T21:30:24.691Z",
   "entries": [
     {
-      "title": "[beets] beets has a Cross-site Scripting vulnerability",
-      "url": "https://github.com/advisories/GHSA-3gxm-wfjx-m847",
-      "date": "2026-04-29T18:29:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[agentscope] AgentScope vulnerable to Server-Side Request Forgery",
-      "url": "https://github.com/advisories/GHSA-crx8-wpv6-jrj2",
-      "date": "2026-04-28T23:20:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[agentscope] AgentScope vulnerable to Server-Side Request Forgery",
-      "url": "https://github.com/advisories/GHSA-8ggf-r3vm-p3jc",
-      "date": "2026-04-28T23:20:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[agentscope] AgentScope vulnerable to Server-Side Request Forgery",
-      "url": "https://github.com/advisories/GHSA-659x-hm75-hpv7",
-      "date": "2026-04-28T23:19:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langflow] Langflow vulnerable to injection",
-      "url": "https://github.com/advisories/GHSA-v66p-f7x3-4794",
-      "date": "2026-04-28T23:18:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "RUSTSEC-2026-0113: Vulnerability in astral-tokio-tar",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0113.html",
-      "date": "2026-04-28T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0112: Vulnerability in astral-tokio-tar",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0112.html",
-      "date": "2026-04-28T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[@supabase/auth-js] auth-js Vulnerable to Insecure Path Routing from Malformed User Input",
-      "url": "https://github.com/advisories/GHSA-8r88-6cj9-9fh5",
-      "date": "2026-04-27T21:11:49.000Z",
+      "title": "[n8n] n8n Vulnerable to Unauthenticated Denial of Service via MCP Client Registration",
+      "url": "https://github.com/advisories/GHSA-49m9-pgww-9vq6",
+      "date": "2026-04-29T21:19:08.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[Glances] Glances Vulnerable to Cross-Origin System Information Disclosure via XML-RPC Server CORS Wildcard",
-      "url": "https://github.com/advisories/GHSA-7p93-6934-f4q7",
-      "date": "2026-04-27T15:23:44.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[Glances] Glances Vulnerable to Command Injection via Dynamic Configuration Values",
-      "url": "https://github.com/advisories/GHSA-qhj7-v7h7-q4c7",
-      "date": "2026-04-27T15:23:09.000Z",
-      "ecosystem": "pypi",
+      "title": "[n8n] n8n Vulnerable to Unauthenticated Denial of Service via MCP Client Registration",
+      "url": "https://github.com/advisories/GHSA-49m9-pgww-9vq6",
+      "date": "2026-04-29T21:19:08.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0103: Vulnerability in thin-vec",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0103.html",
-      "date": "2026-04-27T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[n8n] n8n Vulnerable to Unauthenticated Denial of Service via MCP Client Registration",
+      "url": "https://github.com/advisories/GHSA-49m9-pgww-9vq6",
+      "date": "2026-04-29T21:19:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "[openclaw] OpenClaw: Agent gateway config mutations could change protected operator settings",
-      "url": "https://github.com/advisories/GHSA-7jm2-g593-4qrc",
-      "date": "2026-04-25T23:51:11.000Z",
+      "title": "[n8n] n8n Vulnerable to Hijacking of Unauthenticated Chat Execution",
+      "url": "https://github.com/advisories/GHSA-f77h-j2v7-g6mw",
+      "date": "2026-04-29T21:17:47.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: Bundled MCP/LSP tools could bypass configured tool policy",
-      "url": "https://github.com/advisories/GHSA-qrp5-gfw2-gxv4",
-      "date": "2026-04-25T23:50:39.000Z",
+      "title": "[n8n] n8n Vulnerable to Hijacking of Unauthenticated Chat Execution",
+      "url": "https://github.com/advisories/GHSA-f77h-j2v7-g6mw",
+      "date": "2026-04-29T21:17:47.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: Workspace dotenv MiniMax host override could redirect credentialed requests",
-      "url": "https://github.com/advisories/GHSA-h2vw-ph2c-jvwf",
-      "date": "2026-04-25T23:50:10.000Z",
+      "title": "[n8n] n8n Vulnerable to Hijacking of Unauthenticated Chat Execution",
+      "url": "https://github.com/advisories/GHSA-f77h-j2v7-g6mw",
+      "date": "2026-04-29T21:17:47.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: Browser CDP profile creation skipped strict-mode SSRF checks",
-      "url": "https://github.com/advisories/GHSA-j4c5-89f5-f3pm",
-      "date": "2026-04-25T23:49:44.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Paired-device pairing actions were not limited to the caller device",
-      "url": "https://github.com/advisories/GHSA-xrq9-jm7v-g9h7",
-      "date": "2026-04-25T23:49:01.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: QQBot direct media upload skipped URL SSRF validation",
-      "url": "https://github.com/advisories/GHSA-c4qg-j8jg-42q5",
-      "date": "2026-04-25T23:48:30.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: MCP stdio server env could load dangerous startup variables from workspace config",
-      "url": "https://github.com/advisories/GHSA-mj59-h3q9-ghfh",
-      "date": "2026-04-25T23:48:04.000Z",
+      "title": "[n8n] n8n has SQL Injection in SeaTable Node",
+      "url": "https://github.com/advisories/GHSA-mp4j-h6gh-f6mp",
+      "date": "2026-04-29T21:11:00.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: Isolated cron awareness events were recorded as trusted system events",
-      "url": "https://github.com/advisories/GHSA-57r2-h2wj-g887",
-      "date": "2026-04-25T23:47:31.000Z",
+      "title": "[n8n] n8n has SQL Injection in SeaTable Node",
+      "url": "https://github.com/advisories/GHSA-mp4j-h6gh-f6mp",
+      "date": "2026-04-29T21:11:00.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "MODERATE"
     },
     {
-      "title": "[openclaw] OpenClaw: Workspace dotenv could override runtime-control environment variables",
-      "url": "https://github.com/advisories/GHSA-hxvm-xjvf-93f3",
-      "date": "2026-04-25T23:47:06.000Z",
+      "title": "[n8n] n8n has SQL Injection in SeaTable Node",
+      "url": "https://github.com/advisories/GHSA-mp4j-h6gh-f6mp",
+      "date": "2026-04-29T21:11:00.000Z",
       "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has Open Redirect in MCP OAuth Consent Flow",
+      "url": "https://github.com/advisories/GHSA-f6x8-65q6-j9m9",
+      "date": "2026-04-29T21:10:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has Open Redirect in MCP OAuth Consent Flow",
+      "url": "https://github.com/advisories/GHSA-f6x8-65q6-j9m9",
+      "date": "2026-04-29T21:10:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has Open Redirect in MCP OAuth Consent Flow",
+      "url": "https://github.com/advisories/GHSA-f6x8-65q6-j9m9",
+      "date": "2026-04-29T21:10:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has SQL Injection in Oracle Database Node via Limit Field",
+      "url": "https://github.com/advisories/GHSA-r6jc-mpqw-m755",
+      "date": "2026-04-29T21:08:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has SQL Injection in Oracle Database Node via Limit Field",
+      "url": "https://github.com/advisories/GHSA-r6jc-mpqw-m755",
+      "date": "2026-04-29T21:08:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has SQL Injection in Oracle Database Node via Limit Field",
+      "url": "https://github.com/advisories/GHSA-r6jc-mpqw-m755",
+      "date": "2026-04-29T21:08:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has SQL Injection in Snowflake and MySQL Nodes",
+      "url": "https://github.com/advisories/GHSA-hp3c-vfpm-q4f7",
+      "date": "2026-04-29T21:03:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has SQL Injection in Snowflake and MySQL Nodes",
+      "url": "https://github.com/advisories/GHSA-hp3c-vfpm-q4f7",
+      "date": "2026-04-29T21:03:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n has SQL Injection in Snowflake and MySQL Nodes",
+      "url": "https://github.com/advisories/GHSA-hp3c-vfpm-q4f7",
+      "date": "2026-04-29T21:03:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ckan] CKAN has CSRF exemption primed by anonymous requests",
+      "url": "https://github.com/advisories/GHSA-mcvf-jxcw-vj73",
+      "date": "2026-04-29T20:36:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ckan] CKAN has CSRF exemption primed by anonymous requests",
+      "url": "https://github.com/advisories/GHSA-mcvf-jxcw-vj73",
+      "date": "2026-04-29T20:36:08.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
