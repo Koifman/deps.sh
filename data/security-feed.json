@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-04-30T16:39:25.060Z",
+  "fetchedAt": "2026-04-30T17:36:56.212Z",
   "entries": [
+    {
+      "title": "[@jupyterlab/help-extension] Jupyter Notebook Vulnerable to Authentication Token Theft via CommandLinker XSS",
+      "url": "https://github.com/advisories/GHSA-rch3-82jr-f9w9",
+      "date": "2026-04-30T17:25:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@jupyter-notebook/help-extension] Jupyter Notebook Vulnerable to Authentication Token Theft via CommandLinker XSS",
+      "url": "https://github.com/advisories/GHSA-rch3-82jr-f9w9",
+      "date": "2026-04-30T17:25:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jupyterlab] Jupyter Notebook Vulnerable to Authentication Token Theft via CommandLinker XSS",
+      "url": "https://github.com/advisories/GHSA-rch3-82jr-f9w9",
+      "date": "2026-04-30T17:25:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[notebook] Jupyter Notebook Vulnerable to Authentication Token Theft via CommandLinker XSS",
+      "url": "https://github.com/advisories/GHSA-rch3-82jr-f9w9",
+      "date": "2026-04-30T17:25:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[ckan] CKAN has Unauthenticated SQL Injection and Authorization Bypass in `datastore_search_sql`",
       "url": "https://github.com/advisories/GHSA-h7j7-3rx6-xvcg",
@@ -112,34 +140,6 @@
       "date": "2026-04-29T21:25:03.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n has Prototype Pollution in XML Webhook Body Parser that Leads to RCE",
-      "url": "https://github.com/advisories/GHSA-q5f4-99jv-pgg5",
-      "date": "2026-04-29T21:25:03.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n Vulnerable to XSS via MCP OAuth client",
-      "url": "https://github.com/advisories/GHSA-537j-gqpc-p7fq",
-      "date": "2026-04-29T21:23:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n Vulnerable to XSS via MCP OAuth client",
-      "url": "https://github.com/advisories/GHSA-537j-gqpc-p7fq",
-      "date": "2026-04-29T21:23:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n Vulnerable to XSS via MCP OAuth client",
-      "url": "https://github.com/advisories/GHSA-537j-gqpc-p7fq",
-      "date": "2026-04-29T21:23:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
