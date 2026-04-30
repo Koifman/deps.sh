@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-04-30T18:40:21.628Z",
+  "fetchedAt": "2026-04-30T19:37:59.035Z",
   "entries": [
+    {
+      "title": "[agentscope] AgentScope Vulnerable to Remote Code Injection",
+      "url": "https://github.com/advisories/GHSA-cr24-fv3h-8cjm",
+      "date": "2026-04-30T18:37:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@clerk/hono] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
       "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
@@ -129,13 +136,6 @@
     },
     {
       "title": "[@clerk/vue] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/react] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
       "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
       "date": "2026-04-30T18:20:03.000Z",
       "ecosystem": "npm",
