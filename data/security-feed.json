@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-04-30T20:32:34.752Z",
+  "fetchedAt": "2026-04-30T21:27:35.229Z",
   "entries": [
+    {
+      "title": "[copilot-api] copilot-api has Reliance on Reverse DNS Resolution for a Security-Critical Action",
+      "url": "https://github.com/advisories/GHSA-3vr4-cvmg-7fx4",
+      "date": "2026-04-30T20:53:48.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[verl] verl's math_equal() Vulnerable to Arbitrary Code Execution via Unsafe eval()",
+      "url": "https://github.com/advisories/GHSA-h57c-v2v3-5v3v",
+      "date": "2026-04-30T20:52:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[sentry] Sentry's improper authentication on SAML SSO process allows user identity linking",
+      "url": "https://github.com/advisories/GHSA-rcmw-7mc7-3rj7",
+      "date": "2026-04-30T20:44:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[agentscope] AgentScope Vulnerable to Remote Code Injection",
       "url": "https://github.com/advisories/GHSA-cr24-fv3h-8cjm",
@@ -115,27 +136,6 @@
     },
     {
       "title": "[@clerk/astro] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/astro] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/vue] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/vue] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
       "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
       "date": "2026-04-30T18:20:03.000Z",
       "ecosystem": "npm",
