@@ -1,6 +1,24 @@
 {
-  "fetchedAt": "2026-05-01T13:36:22.876Z",
+  "fetchedAt": "2026-05-01T14:32:06.299Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0115: Unsoundness in imageproc",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0115.html",
+      "date": "2026-05-01T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0116: Unsoundness in imageproc",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0116.html",
+      "date": "2026-05-01T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0117: Unsoundness in imageproc",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0117.html",
+      "date": "2026-05-01T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[copilot-api] copilot-api has Reliance on Reverse DNS Resolution for a Security-Critical Action",
       "url": "https://github.com/advisories/GHSA-3vr4-cvmg-7fx4",
@@ -115,27 +133,6 @@
     },
     {
       "title": "[@clerk/clerk-expo] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/nuxt] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/nuxt] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/astro] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
       "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
       "date": "2026-04-30T18:20:03.000Z",
       "ecosystem": "npm",
