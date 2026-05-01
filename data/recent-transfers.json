@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-01T16:30:40.195Z",
+  "scannedAt": "2026-05-01T17:30:50.023Z",
   "count": 94,
   "packages": [
     {
@@ -64,6 +64,15 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "appium",
+      "version": "3.3.1",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "admc",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -837,15 +846,6 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "jackocnr",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-parser/binding-linux-arm64-gnu",
-      "version": "0.128.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     }
   ]
