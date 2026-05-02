@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-05-02T05:12:01.414Z",
-  "count": 94,
+  "scannedAt": "2026-05-02T06:52:27.903Z",
+  "count": 95,
   "packages": [
     {
       "name": "xmldom",
@@ -129,15 +129,6 @@
       "currentOwner": "phated"
     },
     {
-      "name": "is-expression",
-      "version": "4.0.0",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "timothygu",
-      "currentOwner": "forbeslindesay"
-    },
-    {
       "name": "eslint-config-airbnb",
       "version": "19.0.4",
       "ecosystem": "npm",
@@ -145,6 +136,15 @@
       "level": "MODERATE",
       "previousOwner": "jitl",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "is-expression",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "timothygu",
+      "currentOwner": "forbeslindesay"
     },
     {
       "name": "@microsoft/dynamicproto-js",
@@ -615,21 +615,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/logger",
-      "version": "2.0.7",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@hey-api/codegen-core",
       "version": "0.8.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "mrlubos",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/logger",
+      "version": "2.0.7",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -831,6 +831,15 @@
       "currentOwner": "balearica"
     },
     {
+      "name": "intl-tel-input",
+      "version": "28.0.4",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "jackocnr",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@nevware21/ts-utils",
       "version": "0.13.0",
       "ecosystem": "npm",
@@ -840,12 +849,12 @@
       "currentOwner": "nevware21bot"
     },
     {
-      "name": "intl-tel-input",
-      "version": "28.0.4",
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
+      "version": "0.128.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "jackocnr",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     }
   ]
