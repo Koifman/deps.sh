@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-05-04T19:42:06.993Z",
-  "count": 97,
+  "scannedAt": "2026-05-04T20:39:57.234Z",
+  "count": 98,
   "packages": [
     {
       "name": "xmldom",
@@ -309,15 +309,6 @@
       "currentOwner": "davidjerleke"
     },
     {
-      "name": "cloudevents",
-      "version": "10.0.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "tjanczuk",
-      "currentOwner": "lholmquist"
-    },
-    {
       "name": "@redux-saga/core",
       "version": "1.4.2",
       "ecosystem": "npm",
@@ -325,6 +316,15 @@
       "level": "MODERATE",
       "previousOwner": "andarist",
       "currentOwner": "redux-saga-release-bot"
+    },
+    {
+      "name": "cloudevents",
+      "version": "10.0.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "tjanczuk",
+      "currentOwner": "lholmquist"
     },
     {
       "name": "eslint",
@@ -678,6 +678,15 @@
       "currentOwner": "sb-priyankap"
     },
     {
+      "name": "@vimeo/player",
+      "version": "2.30.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bdougherty",
+      "currentOwner": "vimeo-npmbot"
+    },
+    {
       "name": "rehype-rewrite",
       "version": "4.0.4",
       "ecosystem": "npm",
@@ -687,13 +696,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@vimeo/player",
-      "version": "2.30.4",
+      "name": "@lottiefiles/dotlottie-react",
+      "version": "0.19.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "bdougherty",
-      "currentOwner": "vimeo-npmbot"
+      "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "typescript",

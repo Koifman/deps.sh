@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-05-04T19:39:20.994Z",
+  "fetchedAt": "2026-05-04T20:37:03.493Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw's exec allowlist analysis rejects shell expansion in unquoted heredocs",
+      "url": "https://github.com/advisories/GHSA-x3h8-jrgh-p8jx",
+      "date": "2026-05-04T20:23:36.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: MCP loopback owner context is derived from server-issued bearer tokens",
+      "url": "https://github.com/advisories/GHSA-r6xh-pqhr-v4xh",
+      "date": "2026-05-04T20:22:43.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Workspace dotenv files cannot override connector endpoint hosts",
+      "url": "https://github.com/advisories/GHSA-55cf-xx38-4p9p",
+      "date": "2026-05-04T20:22:16.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's ACP child sessions inherit subagent security envelope constraints",
+      "url": "https://github.com/advisories/GHSA-q3jj-46pq-826r",
+      "date": "2026-05-04T20:21:50.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw validates Zalo outbound photo URLs through the SSRF guard",
+      "url": "https://github.com/advisories/GHSA-2hh7-c75g-qj2r",
+      "date": "2026-05-04T20:21:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pillow] Pillow has an OOB Write with Invalid PSD Tile Extents (Integer Overflow)",
+      "url": "https://github.com/advisories/GHSA-pwv6-vv43-88gr",
+      "date": "2026-05-04T20:20:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pillow] Pillow has a PDF Parsing Trailer Infinite Loop (DoS)",
+      "url": "https://github.com/advisories/GHSA-r73j-pqj5-w3x7",
+      "date": "2026-05-04T20:19:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pillow] Pillow has an integer overflow when processing fonts",
+      "url": "https://github.com/advisories/GHSA-wjx4-4jcj-g98j",
+      "date": "2026-05-04T20:18:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pillow] Pillow has a heap buffer overflow with nested list coordinates",
+      "url": "https://github.com/advisories/GHSA-5xmw-vc9v-4wf2",
+      "date": "2026-05-04T20:18:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyp2spec] pyp2spec is Vulnerable to Code Injection",
+      "url": "https://github.com/advisories/GHSA-r35x-v8p8-xvhw",
+      "date": "2026-05-04T20:14:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[openclaw] OpenClaw: Slack thread context could include messages from non-allowlisted senders",
       "url": "https://github.com/advisories/GHSA-qm77-8qjp-4vcm",
@@ -64,76 +134,6 @@
       "date": "2026-04-30T20:53:48.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[verl] verl's math_equal() Vulnerable to Arbitrary Code Execution via Unsafe eval()",
-      "url": "https://github.com/advisories/GHSA-h57c-v2v3-5v3v",
-      "date": "2026-04-30T20:52:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[sentry] Sentry's improper authentication on SAML SSO process allows user identity linking",
-      "url": "https://github.com/advisories/GHSA-rcmw-7mc7-3rj7",
-      "date": "2026-04-30T20:44:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[agentscope] AgentScope Vulnerable to Remote Code Injection",
-      "url": "https://github.com/advisories/GHSA-cr24-fv3h-8cjm",
-      "date": "2026-04-30T18:37:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@clerk/hono] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/express] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/express] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/fastify] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/fastify] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/chrome-extension] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/chrome-extension] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
