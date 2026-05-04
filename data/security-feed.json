@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-04T15:49:23.161Z",
+  "fetchedAt": "2026-05-04T16:41:54.356Z",
   "entries": [
+    {
+      "title": "[vm2] VM2 Sandbox Breakout Through __lookupGetter__",
+      "url": "https://github.com/advisories/GHSA-grj5-jjm8-h35p",
+      "date": "2026-05-04T16:29:18.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0119: Vulnerability in hickory-proto",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0119.html",
@@ -123,13 +130,6 @@
     },
     {
       "title": "[@clerk/tanstack-react-start] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
-      "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
-      "date": "2026-04-30T18:20:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@clerk/react-router] Clerk has an authorization bypass when combining organization, billing, or reverification checks",
       "url": "https://github.com/advisories/GHSA-w24r-5266-9c3c",
       "date": "2026-04-30T18:20:03.000Z",
       "ecosystem": "npm",
