@@ -1,6 +1,132 @@
 {
-  "fetchedAt": "2026-05-04T21:30:22.071Z",
+  "fetchedAt": "2026-05-04T22:27:18.300Z",
   "entries": [
+    {
+      "title": "[pyload-ng] pyload-ng: non-admin SETTINGS users can redirect all outbound traffic through an attacker-controlled proxy via unrestricted `proxy.*` config (incomplete fix for CVE-2026-33509 / -35463 / -35464 / -35586)",
+      "url": "https://github.com/advisories/GHSA-pg67-9wjv-mr85",
+      "date": "2026-05-04T22:08:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pyload-ng] pyload-ng: non-admin SETTINGS users can disable outbound TLS peer verification via unrestricted `ssl_verify` config (incomplete fix for CVE-2026-33509 / -35463 / -35464 / -35586)",
+      "url": "https://github.com/advisories/GHSA-ccxc-x975-4hh9",
+      "date": "2026-05-04T22:07:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Fake DeviceToken Bypasses Shared Auth Rate Limiting",
+      "url": "https://github.com/advisories/GHSA-w9f5-8q83-qwpx",
+      "date": "2026-05-04T22:00:36.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: OpenShell `mirror` mode can convert untrusted sandbox files into explicitly enabled workspace hooks and execute them on the host during gateway startup",
+      "url": "https://github.com/advisories/GHSA-m563-373q-885c",
+      "date": "2026-05-04T22:00:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Gateway `device.token.rotate` does not terminate active WebSocket sessions after credential rotation",
+      "url": "https://github.com/advisories/GHSA-wwc3-c577-533m",
+      "date": "2026-05-04T22:00:01.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Device-Paired Node Skips Node Scope Gate → Host RCE.md",
+      "url": "https://github.com/advisories/GHSA-7vq9-42cc-33j4",
+      "date": "2026-05-04T21:59:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Pairing pending-request caps were enforced per channel instead of per account",
+      "url": "https://github.com/advisories/GHSA-mf69-r24q-ghhr",
+      "date": "2026-05-04T21:59:20.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Telnyx Webhook Replay Detection Bypass via Base64 Signature Re-encoding",
+      "url": "https://github.com/advisories/GHSA-m958-864j-xq5w",
+      "date": "2026-05-04T21:59:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Discord Slash Commands Bypass Group DM Channel Allowlist",
+      "url": "https://github.com/advisories/GHSA-qgp3-3rj7-qqq4",
+      "date": "2026-05-04T21:58:44.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: HTTP operator endpoints lack browser-origin validation in trusted-proxy mode",
+      "url": "https://github.com/advisories/GHSA-2xp4-qhr4-xqm2",
+      "date": "2026-05-04T21:56:00.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: LINE webhook handler lacks shared pre-auth concurrency budget before signature verification",
+      "url": "https://github.com/advisories/GHSA-2hv5-4h3g-4hjv",
+      "date": "2026-05-04T21:55:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Gateway hello snapshots exposed host config and state paths to non-admin clients",
+      "url": "https://github.com/advisories/GHSA-r7p2-r9g4-4xph",
+      "date": "2026-05-04T21:55:20.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Voice-call Plivo replay mutates in-process callback origin before replay rejection",
+      "url": "https://github.com/advisories/GHSA-cw28-63x4-37c3",
+      "date": "2026-05-04T21:55:03.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw host-env blocklist missing `GIT_TEMPLATE_DIR` and `AWS_CONFIG_FILE` allows code execution via env override",
+      "url": "https://github.com/advisories/GHSA-wcm7-94wg-h74h",
+      "date": "2026-05-04T21:54:43.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Workspace `.env` can override the bundled hooks root and load attacker hook code",
+      "url": "https://github.com/advisories/GHSA-jx3c-247h-cxwp",
+      "date": "2026-05-04T21:54:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw Has a Gateway Control Interface Information Disclosure Vulnerability",
+      "url": "https://github.com/advisories/GHSA-fjm8-mgc9-mf65",
+      "date": "2026-05-04T21:52:07.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Discord Component Interaction Misclassifies Group DM as Direct Message",
+      "url": "https://github.com/advisories/GHSA-pr66-whqj-rq5p",
+      "date": "2026-05-04T21:50:15.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[archivebox] ArchiveBox Vulnerable to RCE via unvalidated per-crawl config overrides in AddView",
+      "url": "https://github.com/advisories/GHSA-3h23-7824-pj8r",
+      "date": "2026-05-04T21:30:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[openclaw] OpenClaw's Gateway Control UI bootstrap config required Gateway auth",
       "url": "https://github.com/advisories/GHSA-93rg-2xm5-2p9v",
@@ -14,131 +140,6 @@
       "date": "2026-05-04T21:07:39.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Assistant media route missed scope enforcement for trusted-proxy authorization",
-      "url": "https://github.com/advisories/GHSA-qgx9-6px9-7p75",
-      "date": "2026-05-04T21:04:45.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] OpenClaw: OpenShell FS bridge writes stay pinned to the sandbox mount root",
-      "url": "https://github.com/advisories/GHSA-wppj-c6mr-83jj",
-      "date": "2026-05-04T20:57:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[changedetection.io] changedetection.io project has an XXE vulnerability",
-      "url": "https://github.com/advisories/GHSA-v7cp-2cx9-x793",
-      "date": "2026-05-04T20:56:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[signalk-server] Signal K Server's WebSocket Login Endpoint Lacks Rate Limiting (Credential Brute-Force)",
-      "url": "https://github.com/advisories/GHSA-vmfm-ch9h-5c7g",
-      "date": "2026-05-04T20:53:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw's exec allowlist analysis rejects shell expansion in unquoted heredocs",
-      "url": "https://github.com/advisories/GHSA-x3h8-jrgh-p8jx",
-      "date": "2026-05-04T20:23:36.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: MCP loopback owner context is derived from server-issued bearer tokens",
-      "url": "https://github.com/advisories/GHSA-r6xh-pqhr-v4xh",
-      "date": "2026-05-04T20:22:43.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Workspace dotenv files cannot override connector endpoint hosts",
-      "url": "https://github.com/advisories/GHSA-55cf-xx38-4p9p",
-      "date": "2026-05-04T20:22:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw's ACP child sessions inherit subagent security envelope constraints",
-      "url": "https://github.com/advisories/GHSA-q3jj-46pq-826r",
-      "date": "2026-05-04T20:21:50.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw validates Zalo outbound photo URLs through the SSRF guard",
-      "url": "https://github.com/advisories/GHSA-2hh7-c75g-qj2r",
-      "date": "2026-05-04T20:21:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pillow] Pillow has an OOB Write with Invalid PSD Tile Extents (Integer Overflow)",
-      "url": "https://github.com/advisories/GHSA-pwv6-vv43-88gr",
-      "date": "2026-05-04T20:20:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pillow] Pillow has a PDF Parsing Trailer Infinite Loop (DoS)",
-      "url": "https://github.com/advisories/GHSA-r73j-pqj5-w3x7",
-      "date": "2026-05-04T20:19:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pillow] Pillow has an integer overflow when processing fonts",
-      "url": "https://github.com/advisories/GHSA-wjx4-4jcj-g98j",
-      "date": "2026-05-04T20:18:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pillow] Pillow has a heap buffer overflow with nested list coordinates",
-      "url": "https://github.com/advisories/GHSA-5xmw-vc9v-4wf2",
-      "date": "2026-05-04T20:18:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyp2spec] pyp2spec is Vulnerable to Code Injection",
-      "url": "https://github.com/advisories/GHSA-r35x-v8p8-xvhw",
-      "date": "2026-05-04T20:14:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: Slack thread context could include messages from non-allowlisted senders",
-      "url": "https://github.com/advisories/GHSA-qm77-8qjp-4vcm",
-      "date": "2026-05-04T16:52:22.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Slack thread context could include messages from non-allowlisted senders",
-      "url": "https://github.com/advisories/GHSA-7hrg-5w46-5r2x",
-      "date": "2026-05-04T16:51:47.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[vm2] VM2 Sandbox Breakout Through __lookupGetter__",
-      "url": "https://github.com/advisories/GHSA-grj5-jjm8-h35p",
-      "date": "2026-05-04T16:29:18.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0119: Vulnerability in hickory-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0119.html",
-      "date": "2026-05-01T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }

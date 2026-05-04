@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-05-04T21:33:17.995Z",
-  "count": 98,
+  "scannedAt": "2026-05-04T22:30:03.339Z",
+  "count": 95,
   "packages": [
     {
       "name": "xmldom",
@@ -46,15 +46,6 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "tinymce",
-      "version": "8.5.0",
-      "ecosystem": "npm",
-      "score": 50,
-      "level": "HIGH",
-      "previousOwner": "spocke",
-      "currentOwner": "tinymce"
     },
     {
       "name": "karma",
@@ -309,15 +300,6 @@
       "currentOwner": "davidjerleke"
     },
     {
-      "name": "@redux-saga/core",
-      "version": "1.4.2",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "andarist",
-      "currentOwner": "redux-saga-release-bot"
-    },
-    {
       "name": "cloudevents",
       "version": "10.0.0",
       "ecosystem": "npm",
@@ -325,6 +307,15 @@
       "level": "MODERATE",
       "previousOwner": "tjanczuk",
       "currentOwner": "lholmquist"
+    },
+    {
+      "name": "@redux-saga/core",
+      "version": "1.4.2",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "andarist",
+      "currentOwner": "redux-saga-release-bot"
     },
     {
       "name": "eslint",
@@ -684,24 +675,6 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "wcjiang",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@vimeo/player",
-      "version": "2.30.4",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bdougherty",
-      "currentOwner": "vimeo-npmbot"
-    },
-    {
-      "name": "@lottiefiles/dotlottie-react",
-      "version": "0.19.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
     },
     {
