@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-05-04T20:37:03.493Z",
+  "fetchedAt": "2026-05-04T21:30:22.071Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw's Gateway Control UI bootstrap config required Gateway auth",
+      "url": "https://github.com/advisories/GHSA-93rg-2xm5-2p9v",
+      "date": "2026-05-04T21:14:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: OpenShell FS bridge reads pin and verify the opened file before returning bytes",
+      "url": "https://github.com/advisories/GHSA-5h3g-6xhh-rg6p",
+      "date": "2026-05-04T21:07:39.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Assistant media route missed scope enforcement for trusted-proxy authorization",
+      "url": "https://github.com/advisories/GHSA-qgx9-6px9-7p75",
+      "date": "2026-05-04T21:04:45.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] OpenClaw: OpenShell FS bridge writes stay pinned to the sandbox mount root",
+      "url": "https://github.com/advisories/GHSA-wppj-c6mr-83jj",
+      "date": "2026-05-04T20:57:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[changedetection.io] changedetection.io project has an XXE vulnerability",
+      "url": "https://github.com/advisories/GHSA-v7cp-2cx9-x793",
+      "date": "2026-05-04T20:56:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[signalk-server] Signal K Server's WebSocket Login Endpoint Lacks Rate Limiting (Credential Brute-Force)",
+      "url": "https://github.com/advisories/GHSA-vmfm-ch9h-5c7g",
+      "date": "2026-05-04T20:53:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[openclaw] OpenClaw's exec allowlist analysis rejects shell expansion in unquoted heredocs",
       "url": "https://github.com/advisories/GHSA-x3h8-jrgh-p8jx",
@@ -97,43 +139,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0119.html",
       "date": "2026-05-01T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0118: Vulnerability in hickory-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0118.html",
-      "date": "2026-05-01T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0120: Vulnerability in hickory-net",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0120.html",
-      "date": "2026-05-01T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0115: Unsoundness in imageproc",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0115.html",
-      "date": "2026-05-01T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0116: Unsoundness in imageproc",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0116.html",
-      "date": "2026-05-01T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0117: Unsoundness in imageproc",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0117.html",
-      "date": "2026-05-01T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[copilot-api] copilot-api has Reliance on Reverse DNS Resolution for a Security-Critical Action",
-      "url": "https://github.com/advisories/GHSA-3vr4-cvmg-7fx4",
-      "date": "2026-04-30T20:53:48.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
