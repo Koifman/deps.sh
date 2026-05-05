@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-05T15:44:23.416Z",
+  "fetchedAt": "2026-05-05T16:42:14.783Z",
   "entries": [
+    {
+      "title": "[vm2] VM2 Has Sandbox Breakout Through Promise Species",
+      "url": "https://github.com/advisories/GHSA-qvjj-29qf-hp7p",
+      "date": "2026-05-05T16:23:37.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
       "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
@@ -131,13 +138,6 @@
       "title": "[axios] Axios: XSRF Token Cross-Origin Leakage via Prototype Pollution Gadget in `withXSRFToken` Boolean Coercion",
       "url": "https://github.com/advisories/GHSA-xx6v-rp6x-q39c",
       "date": "2026-05-05T00:25:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios: Authentication Bypass via Prototype Pollution Gadget in `validateStatus` Merge Strategy",
-      "url": "https://github.com/advisories/GHSA-w9j2-pvgh-6h63",
-      "date": "2026-05-05T00:21:40.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
