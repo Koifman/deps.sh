@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-05-05T17:40:10.825Z",
+  "fetchedAt": "2026-05-05T18:41:52.665Z",
   "entries": [
+    {
+      "title": "[firefighter-incident] FireFighter has unauthenticated SSRF in its Raid jira_bot endpoint that allows IAM credential theft",
+      "url": "https://github.com/advisories/GHSA-fqvv-jvhr-g5jc",
+      "date": "2026-05-05T18:21:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[inngest] Inngest TypeScript SDK exposes environment variables via serve() handler on unhandled HTTP methods",
+      "url": "https://github.com/advisories/GHSA-2jf5-6wwv-vhxx",
+      "date": "2026-05-05T18:13:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Webchat media embedding enforces local-root containment for tool-result files",
+      "url": "https://github.com/advisories/GHSA-qc5j-2mqx-x83q",
+      "date": "2026-05-05T18:12:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow's asset dependency graph did not restrict nodes by the viewer's DAG read permissions",
+      "url": "https://github.com/advisories/GHSA-w7rc-q6cm-f5gm",
+      "date": "2026-05-05T18:12:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow's authenticated /ui/dags endpoint did not enforce per-DAG access control on embedded Human-in-the-Loop (HITL) and TaskInstance record",
+      "url": "https://github.com/advisories/GHSA-p3v3-229h-mc63",
+      "date": "2026-05-05T18:11:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[jupyterhub] JupyterHub has cross-origin form POSTs bypass XSRF (CWE-352)",
+      "url": "https://github.com/advisories/GHSA-m68r-v472-jgq9",
+      "date": "2026-05-05T18:10:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@lobehub/lobehub] LobeHub has a Cross-Site Scripting issue that escalates to Remote Code Execution",
+      "url": "https://github.com/advisories/GHSA-xq4x-622m-q8fq",
+      "date": "2026-05-05T18:04:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[codechecker] Codechecker has an authentication bypass for certain API calls",
+      "url": "https://github.com/advisories/GHSA-4v9x-cqc5-j645",
+      "date": "2026-05-05T17:58:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[edx-enterprise] edx-enterprise has SSRF via SAML metadata URL in sync_provider_data endpoint",
+      "url": "https://github.com/advisories/GHSA-64cv-vxpr-j6vc",
+      "date": "2026-05-05T17:51:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[network-ai] Network-AI missing authentication on MCP HTTP endpoint, which allows unauthenticated privileged tool calls",
       "url": "https://github.com/advisories/GHSA-fj4g-2p96-q6m3",
@@ -75,69 +138,6 @@
       "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
       "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
       "date": "2026-05-05T13:03:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
-      "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
-      "date": "2026-05-05T13:03:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[uuid] Duplicate Advisory: uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
-      "url": "https://github.com/advisories/GHSA-qmq6-f8pr-cx5x",
-      "date": "2026-05-05T12:59:19.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[axios] Axios: CRLF Injection in multipart/form-data body via unsanitized blob.type in formDataToStream",
-      "url": "https://github.com/advisories/GHSA-445q-vr5w-6q77",
-      "date": "2026-05-05T00:40:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios: no_proxy bypass via IP alias allows SSRF",
-      "url": "https://github.com/advisories/GHSA-m7pr-hjqh-92cm",
-      "date": "2026-05-05T00:40:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios: no_proxy bypass via IP alias allows SSRF",
-      "url": "https://github.com/advisories/GHSA-m7pr-hjqh-92cm",
-      "date": "2026-05-05T00:40:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios: unbounded recursion in toFormData causes DoS via deeply nested request data",
-      "url": "https://github.com/advisories/GHSA-62hf-57xw-28j9",
-      "date": "2026-05-05T00:34:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios: unbounded recursion in toFormData causes DoS via deeply nested request data",
-      "url": "https://github.com/advisories/GHSA-62hf-57xw-28j9",
-      "date": "2026-05-05T00:34:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios' HTTP adapter-streamed uploads bypass maxBodyLength when maxRedirects: 0",
-      "url": "https://github.com/advisories/GHSA-5c9x-8gcm-mpgx",
-      "date": "2026-05-05T00:33:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios' HTTP adapter-streamed uploads bypass maxBodyLength when maxRedirects: 0",
-      "url": "https://github.com/advisories/GHSA-5c9x-8gcm-mpgx",
-      "date": "2026-05-05T00:33:25.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
