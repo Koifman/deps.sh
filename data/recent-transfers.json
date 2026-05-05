@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-05T13:47:29.138Z",
+  "scannedAt": "2026-05-05T15:47:31.194Z",
   "count": 98,
   "packages": [
     {
@@ -669,15 +669,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.1.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "rehype-rewrite",
       "version": "4.0.4",
       "ecosystem": "npm",
@@ -687,13 +678,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@bugsnag/js",
-      "version": "8.9.0",
+      "name": "@appium/tsconfig",
+      "version": "1.1.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "bengourley",
-      "currentOwner": "sb-priyankap"
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@lottiefiles/dotlottie-react",
@@ -703,6 +694,15 @@
       "level": "MODERATE",
       "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@vimeo/player",
+      "version": "2.30.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bdougherty",
+      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "typescript",
@@ -768,7 +768,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
       "version": "0.129.0",
       "ecosystem": "npm",
       "score": 20,
@@ -777,7 +777,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "name": "oxc-transform",
       "version": "0.129.0",
       "ecosystem": "npm",
       "score": 20,
@@ -813,8 +813,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.129.0",
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.48.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -822,8 +822,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.48.0",
+      "name": "oxc-minify",
+      "version": "0.129.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",

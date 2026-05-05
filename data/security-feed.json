@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-05-05T13:44:11.586Z",
+  "fetchedAt": "2026-05-05T15:44:23.416Z",
   "entries": [
+    {
+      "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
+      "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
+      "date": "2026-05-05T13:03:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
+      "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
+      "date": "2026-05-05T13:03:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
+      "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
+      "date": "2026-05-05T13:03:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[uuid] Duplicate Advisory: uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
+      "url": "https://github.com/advisories/GHSA-qmq6-f8pr-cx5x",
+      "date": "2026-05-05T12:59:19.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[axios] Axios: CRLF Injection in multipart/form-data body via unsanitized blob.type in formDataToStream",
       "url": "https://github.com/advisories/GHSA-445q-vr5w-6q77",
@@ -110,34 +138,6 @@
       "title": "[axios] Axios: Authentication Bypass via Prototype Pollution Gadget in `validateStatus` Merge Strategy",
       "url": "https://github.com/advisories/GHSA-w9j2-pvgh-6h63",
       "date": "2026-05-05T00:21:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios: Authentication Bypass via Prototype Pollution Gadget in `validateStatus` Merge Strategy",
-      "url": "https://github.com/advisories/GHSA-w9j2-pvgh-6h63",
-      "date": "2026-05-05T00:21:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios: Incomplete Fix for CVE-2025-62718 — NO_PROXY Protection Bypassed via RFC 1122 Loopback Subnet (127.0.0.0/8) in Axios 1.15.0",
-      "url": "https://github.com/advisories/GHSA-pmwg-cvhr-8vh7",
-      "date": "2026-05-05T00:20:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Axios: Incomplete Fix for CVE-2025-62718 — NO_PROXY Protection Bypassed via RFC 1122 Loopback Subnet (127.0.0.0/8) in Axios 1.15.0",
-      "url": "https://github.com/advisories/GHSA-pmwg-cvhr-8vh7",
-      "date": "2026-05-05T00:20:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Axios: Invisible JSON Response Tampering via Prototype Pollution Gadget in `parseReviver`",
-      "url": "https://github.com/advisories/GHSA-3w6x-2g7m-8v23",
-      "date": "2026-05-05T00:19:34.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
