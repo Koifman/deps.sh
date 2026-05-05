@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-05-05T00:58:07.757Z",
+  "fetchedAt": "2026-05-05T01:43:36.545Z",
   "entries": [
+    {
+      "title": "[axios] Axios: CRLF Injection in multipart/form-data body via unsanitized blob.type in formDataToStream",
+      "url": "https://github.com/advisories/GHSA-445q-vr5w-6q77",
+      "date": "2026-05-05T00:40:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: no_proxy bypass via IP alias allows SSRF",
+      "url": "https://github.com/advisories/GHSA-m7pr-hjqh-92cm",
+      "date": "2026-05-05T00:40:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: no_proxy bypass via IP alias allows SSRF",
+      "url": "https://github.com/advisories/GHSA-m7pr-hjqh-92cm",
+      "date": "2026-05-05T00:40:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: unbounded recursion in toFormData causes DoS via deeply nested request data",
+      "url": "https://github.com/advisories/GHSA-62hf-57xw-28j9",
+      "date": "2026-05-05T00:34:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: unbounded recursion in toFormData causes DoS via deeply nested request data",
+      "url": "https://github.com/advisories/GHSA-62hf-57xw-28j9",
+      "date": "2026-05-05T00:34:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios' HTTP adapter-streamed uploads bypass maxBodyLength when maxRedirects: 0",
+      "url": "https://github.com/advisories/GHSA-5c9x-8gcm-mpgx",
+      "date": "2026-05-05T00:33:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios' HTTP adapter-streamed uploads bypass maxBodyLength when maxRedirects: 0",
+      "url": "https://github.com/advisories/GHSA-5c9x-8gcm-mpgx",
+      "date": "2026-05-05T00:33:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: HTTP adapter streamed responses bypass maxContentLength",
+      "url": "https://github.com/advisories/GHSA-vf2m-468p-8v99",
+      "date": "2026-05-05T00:26:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: HTTP adapter streamed responses bypass maxContentLength",
+      "url": "https://github.com/advisories/GHSA-vf2m-468p-8v99",
+      "date": "2026-05-05T00:26:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: Prototype Pollution Gadgets - Response Tampering, Data Exfiltration, and Request Hijacking",
+      "url": "https://github.com/advisories/GHSA-pf86-5x62-jrwf",
+      "date": "2026-05-05T00:26:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Axios: Prototype Pollution Gadgets - Response Tampering, Data Exfiltration, and Request Hijacking",
+      "url": "https://github.com/advisories/GHSA-pf86-5x62-jrwf",
+      "date": "2026-05-05T00:26:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Axios: Header Injection via Prototype Pollution",
+      "url": "https://github.com/advisories/GHSA-6chq-wfr3-2hj9",
+      "date": "2026-05-05T00:25:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Axios: Header Injection via Prototype Pollution",
+      "url": "https://github.com/advisories/GHSA-6chq-wfr3-2hj9",
+      "date": "2026-05-05T00:25:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Axios: XSRF Token Cross-Origin Leakage via Prototype Pollution Gadget in `withXSRFToken` Boolean Coercion",
+      "url": "https://github.com/advisories/GHSA-xx6v-rp6x-q39c",
+      "date": "2026-05-05T00:25:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: XSRF Token Cross-Origin Leakage via Prototype Pollution Gadget in `withXSRFToken` Boolean Coercion",
+      "url": "https://github.com/advisories/GHSA-xx6v-rp6x-q39c",
+      "date": "2026-05-05T00:25:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: Authentication Bypass via Prototype Pollution Gadget in `validateStatus` Merge Strategy",
+      "url": "https://github.com/advisories/GHSA-w9j2-pvgh-6h63",
+      "date": "2026-05-05T00:21:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: Authentication Bypass via Prototype Pollution Gadget in `validateStatus` Merge Strategy",
+      "url": "https://github.com/advisories/GHSA-w9j2-pvgh-6h63",
+      "date": "2026-05-05T00:21:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: Incomplete Fix for CVE-2025-62718 — NO_PROXY Protection Bypassed via RFC 1122 Loopback Subnet (127.0.0.0/8) in Axios 1.15.0",
+      "url": "https://github.com/advisories/GHSA-pmwg-cvhr-8vh7",
+      "date": "2026-05-05T00:20:58.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Axios: Incomplete Fix for CVE-2025-62718 — NO_PROXY Protection Bypassed via RFC 1122 Loopback Subnet (127.0.0.0/8) in Axios 1.15.0",
+      "url": "https://github.com/advisories/GHSA-pmwg-cvhr-8vh7",
+      "date": "2026-05-05T00:20:58.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[axios] Axios: Invisible JSON Response Tampering via Prototype Pollution Gadget in `parseReviver`",
       "url": "https://github.com/advisories/GHSA-3w6x-2g7m-8v23",
       "date": "2026-05-05T00:19:34.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios has prototype pollution read-side gadgets in HTTP adapter that allow credential injection and request hijacking",
-      "url": "https://github.com/advisories/GHSA-q8qp-cvcw-x6jj",
-      "date": "2026-05-05T00:18:38.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Axios: Null Byte Injection via Reverse-Encoding in AxiosURLSearchParams",
-      "url": "https://github.com/advisories/GHSA-xhjh-pmcv-23jw",
-      "date": "2026-05-05T00:18:03.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[axios] Axios: Null Byte Injection via Reverse-Encoding in AxiosURLSearchParams",
-      "url": "https://github.com/advisories/GHSA-xhjh-pmcv-23jw",
-      "date": "2026-05-05T00:18:03.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[ogham-mcp] ogham-mcp had credentials embedded in published PyPI sdists -- Neon postgres URLs and Voyage API key",
-      "url": "https://github.com/advisories/GHSA-8pqq-224h-x875",
-      "date": "2026-05-05T00:05:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyload-ng] pyload-ng: non-admin SETTINGS users can redirect all outbound traffic through an attacker-controlled proxy via unrestricted `proxy.*` config (incomplete fix for CVE-2026-33509 / -35463 / -35464 / -35586)",
-      "url": "https://github.com/advisories/GHSA-pg67-9wjv-mr85",
-      "date": "2026-05-04T22:08:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyload-ng] pyload-ng: non-admin SETTINGS users can disable outbound TLS peer verification via unrestricted `ssl_verify` config (incomplete fix for CVE-2026-33509 / -35463 / -35464 / -35586)",
-      "url": "https://github.com/advisories/GHSA-ccxc-x975-4hh9",
-      "date": "2026-05-04T22:07:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Fake DeviceToken Bypasses Shared Auth Rate Limiting",
-      "url": "https://github.com/advisories/GHSA-w9f5-8q83-qwpx",
-      "date": "2026-05-04T22:00:36.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: OpenShell `mirror` mode can convert untrusted sandbox files into explicitly enabled workspace hooks and execute them on the host during gateway startup",
-      "url": "https://github.com/advisories/GHSA-m563-373q-885c",
-      "date": "2026-05-04T22:00:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Gateway `device.token.rotate` does not terminate active WebSocket sessions after credential rotation",
-      "url": "https://github.com/advisories/GHSA-wwc3-c577-533m",
-      "date": "2026-05-04T22:00:01.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Device-Paired Node Skips Node Scope Gate → Host RCE.md",
-      "url": "https://github.com/advisories/GHSA-7vq9-42cc-33j4",
-      "date": "2026-05-04T21:59:41.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Pairing pending-request caps were enforced per channel instead of per account",
-      "url": "https://github.com/advisories/GHSA-mf69-r24q-ghhr",
-      "date": "2026-05-04T21:59:20.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Telnyx Webhook Replay Detection Bypass via Base64 Signature Re-encoding",
-      "url": "https://github.com/advisories/GHSA-m958-864j-xq5w",
-      "date": "2026-05-04T21:59:01.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Discord Slash Commands Bypass Group DM Channel Allowlist",
-      "url": "https://github.com/advisories/GHSA-qgp3-3rj7-qqq4",
-      "date": "2026-05-04T21:58:44.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: HTTP operator endpoints lack browser-origin validation in trusted-proxy mode",
-      "url": "https://github.com/advisories/GHSA-2xp4-qhr4-xqm2",
-      "date": "2026-05-04T21:56:00.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: LINE webhook handler lacks shared pre-auth concurrency budget before signature verification",
-      "url": "https://github.com/advisories/GHSA-2hv5-4h3g-4hjv",
-      "date": "2026-05-04T21:55:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Gateway hello snapshots exposed host config and state paths to non-admin clients",
-      "url": "https://github.com/advisories/GHSA-r7p2-r9g4-4xph",
-      "date": "2026-05-04T21:55:20.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Voice-call Plivo replay mutates in-process callback origin before replay rejection",
-      "url": "https://github.com/advisories/GHSA-cw28-63x4-37c3",
-      "date": "2026-05-04T21:55:03.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw host-env blocklist missing `GIT_TEMPLATE_DIR` and `AWS_CONFIG_FILE` allows code execution via env override",
-      "url": "https://github.com/advisories/GHSA-wcm7-94wg-h74h",
-      "date": "2026-05-04T21:54:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Workspace `.env` can override the bundled hooks root and load attacker hook code",
-      "url": "https://github.com/advisories/GHSA-jx3c-247h-cxwp",
-      "date": "2026-05-04T21:54:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
