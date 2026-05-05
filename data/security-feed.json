@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-05-05T18:41:52.665Z",
+  "fetchedAt": "2026-05-05T19:39:22.008Z",
   "entries": [
+    {
+      "title": "[pptagent] PPTAgent: Arbitrary File Write via `save_generated_slides`",
+      "url": "https://github.com/advisories/GHSA-pxhg-7xr2-w7xg",
+      "date": "2026-05-05T18:57:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pptagent] PPTAgent: Arbitrary Code Execution via Python eval() of LLM-Generated Code with Builtins in Scope",
+      "url": "https://github.com/advisories/GHSA-89g2-xw5c-v95p",
+      "date": "2026-05-05T18:57:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pptagent] PPTAgent: Arbitrary File Write + Directory Creation via markdown_table_to_image",
+      "url": "https://github.com/advisories/GHSA-hrcw-xc63-g29m",
+      "date": "2026-05-05T18:55:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw's gateway config mutation guard allowed unsafe model-driven config writes",
+      "url": "https://github.com/advisories/GHSA-cwj3-vqpp-pmxr",
+      "date": "2026-05-05T18:44:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw vulnerable to arbitrary code execution via attacker-controlled setup-api.js loaded from cwd during env-key resolution",
+      "url": "https://github.com/advisories/GHSA-r39h-4c2p-3jxp",
+      "date": "2026-05-05T18:43:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw's Webhooks SecretRef route secret remains valid after rotation/reload",
+      "url": "https://github.com/advisories/GHSA-q8ff-7ffm-m3r9",
+      "date": "2026-05-05T18:42:55.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@workos/authkit-session] @workos/authkit-session has an Open Redirect via state-derived redirect target",
+      "url": "https://github.com/advisories/GHSA-vvvv-983w-r7pv",
+      "date": "2026-05-05T18:42:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[microdot] Microdot has HTTP response splitting in Response.set_cookie()",
+      "url": "https://github.com/advisories/GHSA-7wc8-wvc4-m498",
+      "date": "2026-05-05T18:35:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[langflow] Langflow Knowledge Bases API is Vulnerable to Path Traversal",
+      "url": "https://github.com/advisories/GHSA-9whx-c884-c68q",
+      "date": "2026-05-05T18:29:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tdurieux/anonymous_github] @tdurieux/anonymous_github Vulnerable to XSS via Unsanitized GitHub Repository Content Rendering in Anonymous GitHub Origin",
+      "url": "https://github.com/advisories/GHSA-g485-8j3v-p6x8",
+      "date": "2026-05-05T18:28:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[firefighter-incident] FireFighter has unauthenticated SSRF in its Raid jira_bot endpoint that allows IAM credential theft",
       "url": "https://github.com/advisories/GHSA-fqvv-jvhr-g5jc",
@@ -70,76 +140,6 @@
       "date": "2026-05-05T17:25:39.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[jupyter-server] Jupyter Server's Authentication Cookies Remain Valid After Password Reset and Server Restart",
-      "url": "https://github.com/advisories/GHSA-5mrq-x3x5-8v8f",
-      "date": "2026-05-05T17:03:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jupyter-server] Jupyter Server has a  CORS Origin Validation Bypass via `re.match()` in `allow_origin_pat` (from huntr)",
-      "url": "https://github.com/advisories/GHSA-24qx-w28j-9m6p",
-      "date": "2026-05-05T16:54:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jupyter-server] Jupyter Server: Path Traversal via incorrect startswith() root directory check allows access to sibling directories",
-      "url": "https://github.com/advisories/GHSA-5789-5fc7-67v3",
-      "date": "2026-05-05T16:49:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vm2] VM2 Has a WASM Sandbox Escape (Node 25 only)",
-      "url": "https://github.com/advisories/GHSA-ffh4-j6h5-pg66",
-      "date": "2026-05-05T16:44:18.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] VM2 Has a Sandbox Escape Issue via SuppressedError",
-      "url": "https://github.com/advisories/GHSA-55hx-c926-fr95",
-      "date": "2026-05-05T16:33:48.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] VM2 Has Sandbox Breakout Through Inspect Function",
-      "url": "https://github.com/advisories/GHSA-v37h-5mfm-c47c",
-      "date": "2026-05-05T16:33:18.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[jupyter-server] Jupyter Server has an open redirection vulnerability in `next` query parameter",
-      "url": "https://github.com/advisories/GHSA-qh7q-6qm3-653w",
-      "date": "2026-05-05T16:32:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vm2] VM2 Has Sandbox Breakout Through Promise Species",
-      "url": "https://github.com/advisories/GHSA-qvjj-29qf-hp7p",
-      "date": "2026-05-05T16:23:37.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
-      "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
-      "date": "2026-05-05T13:03:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
-      "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
-      "date": "2026-05-05T13:03:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
