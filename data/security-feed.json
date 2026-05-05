@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-05-05T22:26:47.932Z",
+  "fetchedAt": "2026-05-05T23:23:59.864Z",
   "entries": [
+    {
+      "title": "[vllm] vLLM Vulnerable to Remote DoS via Special-Token Placeholders",
+      "url": "https://github.com/advisories/GHSA-hpv8-x276-m59f",
+      "date": "2026-05-05T22:21:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ciguard] ciguard: Web UI is missing HTTP defence-in-depth headers",
+      "url": "https://github.com/advisories/GHSA-7ww3-xvf5-cxwm",
+      "date": "2026-05-05T22:20:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[ciguard] ciguard: discover_pipeline_files follows symlinks out of scan root",
+      "url": "https://github.com/advisories/GHSA-8cxw-cc62-q28v",
+      "date": "2026-05-05T22:19:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[ciguard] ciguard: Container image runs as root (no USER directive)",
+      "url": "https://github.com/advisories/GHSA-jrm4-4pcf-4763",
+      "date": "2026-05-05T22:18:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[ciguard] ciguard: SCA HTTP client reads response body without size cap",
+      "url": "https://github.com/advisories/GHSA-xw8c-rrvx-f7xq",
+      "date": "2026-05-05T22:17:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[sse-channel] sse-channel: SSE Injection via unsanitized event fields",
       "url": "https://github.com/advisories/GHSA-84hm-wfh8-c5pg",
@@ -105,41 +140,6 @@
       "date": "2026-05-05T21:11:38.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[magicmirror] MagicMirror vulnerable to unauthenticated SSRF via /cors endpoint",
-      "url": "https://github.com/advisories/GHSA-ph6f-2cvq-79hq",
-      "date": "2026-05-05T20:54:01.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[jupyterlab] JupyterHub has an Extension Manager API/GUI Policy Discrepancy, allowing 3rd party (malicious) extensions install via POST request",
-      "url": "https://github.com/advisories/GHSA-37w4-hwhx-4rc4",
-      "date": "2026-05-05T20:53:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-websearch] open-websearch has SSRF in `fetchWebContent` MCP tool: bracketed IPv6 literals and non-resolving hostname check bypass `isPrivateOrLocalHostname`",
-      "url": "https://github.com/advisories/GHSA-v228-72c7-fx8j",
-      "date": "2026-05-05T20:51:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] parse-server: MFA SMS one-time password accepted twice under concurrent login",
-      "url": "https://github.com/advisories/GHSA-jpq4-7fmq-q5fj",
-      "date": "2026-05-05T20:30:45.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] parse-server: MFA SMS one-time password accepted twice under concurrent login",
-      "url": "https://github.com/advisories/GHSA-jpq4-7fmq-q5fj",
-      "date": "2026-05-05T20:30:45.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
