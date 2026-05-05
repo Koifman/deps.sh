@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-05-05T16:42:14.783Z",
+  "fetchedAt": "2026-05-05T17:40:10.825Z",
   "entries": [
+    {
+      "title": "[network-ai] Network-AI missing authentication on MCP HTTP endpoint, which allows unauthenticated privileged tool calls",
+      "url": "https://github.com/advisories/GHSA-fj4g-2p96-q6m3",
+      "date": "2026-05-05T17:25:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jupyter-server] Jupyter Server's Authentication Cookies Remain Valid After Password Reset and Server Restart",
+      "url": "https://github.com/advisories/GHSA-5mrq-x3x5-8v8f",
+      "date": "2026-05-05T17:03:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[jupyter-server] Jupyter Server has a  CORS Origin Validation Bypass via `re.match()` in `allow_origin_pat` (from huntr)",
+      "url": "https://github.com/advisories/GHSA-24qx-w28j-9m6p",
+      "date": "2026-05-05T16:54:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jupyter-server] Jupyter Server: Path Traversal via incorrect startswith() root directory check allows access to sibling directories",
+      "url": "https://github.com/advisories/GHSA-5789-5fc7-67v3",
+      "date": "2026-05-05T16:49:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vm2] VM2 Has a WASM Sandbox Escape (Node 25 only)",
+      "url": "https://github.com/advisories/GHSA-ffh4-j6h5-pg66",
+      "date": "2026-05-05T16:44:18.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vm2] VM2 Has a Sandbox Escape Issue via SuppressedError",
+      "url": "https://github.com/advisories/GHSA-55hx-c926-fr95",
+      "date": "2026-05-05T16:33:48.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vm2] VM2 Has Sandbox Breakout Through Inspect Function",
+      "url": "https://github.com/advisories/GHSA-v37h-5mfm-c47c",
+      "date": "2026-05-05T16:33:18.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[jupyter-server] Jupyter Server has an open redirection vulnerability in `next` query parameter",
+      "url": "https://github.com/advisories/GHSA-qh7q-6qm3-653w",
+      "date": "2026-05-05T16:32:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[vm2] VM2 Has Sandbox Breakout Through Promise Species",
       "url": "https://github.com/advisories/GHSA-qvjj-29qf-hp7p",
@@ -82,62 +138,6 @@
       "title": "[axios] Axios' HTTP adapter-streamed uploads bypass maxBodyLength when maxRedirects: 0",
       "url": "https://github.com/advisories/GHSA-5c9x-8gcm-mpgx",
       "date": "2026-05-05T00:33:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios: HTTP adapter streamed responses bypass maxContentLength",
-      "url": "https://github.com/advisories/GHSA-vf2m-468p-8v99",
-      "date": "2026-05-05T00:26:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios: HTTP adapter streamed responses bypass maxContentLength",
-      "url": "https://github.com/advisories/GHSA-vf2m-468p-8v99",
-      "date": "2026-05-05T00:26:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios: Prototype Pollution Gadgets - Response Tampering, Data Exfiltration, and Request Hijacking",
-      "url": "https://github.com/advisories/GHSA-pf86-5x62-jrwf",
-      "date": "2026-05-05T00:26:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Axios: Prototype Pollution Gadgets - Response Tampering, Data Exfiltration, and Request Hijacking",
-      "url": "https://github.com/advisories/GHSA-pf86-5x62-jrwf",
-      "date": "2026-05-05T00:26:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Axios: Header Injection via Prototype Pollution",
-      "url": "https://github.com/advisories/GHSA-6chq-wfr3-2hj9",
-      "date": "2026-05-05T00:25:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Axios: Header Injection via Prototype Pollution",
-      "url": "https://github.com/advisories/GHSA-6chq-wfr3-2hj9",
-      "date": "2026-05-05T00:25:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Axios: XSRF Token Cross-Origin Leakage via Prototype Pollution Gadget in `withXSRFToken` Boolean Coercion",
-      "url": "https://github.com/advisories/GHSA-xx6v-rp6x-q39c",
-      "date": "2026-05-05T00:25:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios: XSRF Token Cross-Origin Leakage via Prototype Pollution Gadget in `withXSRFToken` Boolean Coercion",
-      "url": "https://github.com/advisories/GHSA-xx6v-rp6x-q39c",
-      "date": "2026-05-05T00:25:23.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
