@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-05-05T12:41:19.468Z",
-  "count": 97,
+  "scannedAt": "2026-05-05T13:47:29.138Z",
+  "count": 98,
   "packages": [
     {
       "name": "xmldom",
@@ -300,6 +300,15 @@
       "currentOwner": "davidjerleke"
     },
     {
+      "name": "oxlint",
+      "version": "1.63.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "embla-carousel-autoplay",
       "version": "8.6.0",
       "ecosystem": "npm",
@@ -580,7 +589,7 @@
     },
     {
       "name": "oxfmt",
-      "version": "0.47.0",
+      "version": "0.48.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -669,15 +678,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@bugsnag/js",
-      "version": "8.9.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bengourley",
-      "currentOwner": "sb-priyankap"
-    },
-    {
       "name": "rehype-rewrite",
       "version": "4.0.4",
       "ecosystem": "npm",
@@ -685,6 +685,15 @@
       "level": "MODERATE",
       "previousOwner": "wcjiang",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@bugsnag/js",
+      "version": "8.9.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bengourley",
+      "currentOwner": "sb-priyankap"
     },
     {
       "name": "@lottiefiles/dotlottie-react",
@@ -742,7 +751,7 @@
     },
     {
       "name": "@oxlint/binding-linux-x64-gnu",
-      "version": "1.62.0",
+      "version": "1.63.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -751,7 +760,7 @@
     },
     {
       "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.47.0",
+      "version": "0.48.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -778,7 +787,7 @@
     },
     {
       "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.62.0",
+      "version": "1.63.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -814,7 +823,7 @@
     },
     {
       "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.47.0",
+      "version": "0.48.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
