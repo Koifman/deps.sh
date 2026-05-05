@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-05-04T23:24:57.904Z",
+  "fetchedAt": "2026-05-05T00:58:07.757Z",
   "entries": [
+    {
+      "title": "[axios] Axios: Invisible JSON Response Tampering via Prototype Pollution Gadget in `parseReviver`",
+      "url": "https://github.com/advisories/GHSA-3w6x-2g7m-8v23",
+      "date": "2026-05-05T00:19:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios has prototype pollution read-side gadgets in HTTP adapter that allow credential injection and request hijacking",
+      "url": "https://github.com/advisories/GHSA-q8qp-cvcw-x6jj",
+      "date": "2026-05-05T00:18:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Axios: Null Byte Injection via Reverse-Encoding in AxiosURLSearchParams",
+      "url": "https://github.com/advisories/GHSA-xhjh-pmcv-23jw",
+      "date": "2026-05-05T00:18:03.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[axios] Axios: Null Byte Injection via Reverse-Encoding in AxiosURLSearchParams",
+      "url": "https://github.com/advisories/GHSA-xhjh-pmcv-23jw",
+      "date": "2026-05-05T00:18:03.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[ogham-mcp] ogham-mcp had credentials embedded in published PyPI sdists -- Neon postgres URLs and Voyage API key",
+      "url": "https://github.com/advisories/GHSA-8pqq-224h-x875",
+      "date": "2026-05-05T00:05:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[pyload-ng] pyload-ng: non-admin SETTINGS users can redirect all outbound traffic through an attacker-controlled proxy via unrestricted `proxy.*` config (incomplete fix for CVE-2026-33509 / -35463 / -35464 / -35586)",
       "url": "https://github.com/advisories/GHSA-pg67-9wjv-mr85",
@@ -105,41 +140,6 @@
       "date": "2026-05-04T21:54:05.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw Has a Gateway Control Interface Information Disclosure Vulnerability",
-      "url": "https://github.com/advisories/GHSA-fjm8-mgc9-mf65",
-      "date": "2026-05-04T21:52:07.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Discord Component Interaction Misclassifies Group DM as Direct Message",
-      "url": "https://github.com/advisories/GHSA-pr66-whqj-rq5p",
-      "date": "2026-05-04T21:50:15.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[archivebox] ArchiveBox Vulnerable to RCE via unvalidated per-crawl config overrides in AddView",
-      "url": "https://github.com/advisories/GHSA-3h23-7824-pj8r",
-      "date": "2026-05-04T21:30:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] OpenClaw's Gateway Control UI bootstrap config required Gateway auth",
-      "url": "https://github.com/advisories/GHSA-93rg-2xm5-2p9v",
-      "date": "2026-05-04T21:14:19.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: OpenShell FS bridge reads pin and verify the opened file before returning bytes",
-      "url": "https://github.com/advisories/GHSA-5h3g-6xhh-rg6p",
-      "date": "2026-05-04T21:07:39.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
