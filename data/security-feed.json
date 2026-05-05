@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-05-05T19:39:22.008Z",
+  "fetchedAt": "2026-05-05T20:32:55.445Z",
   "entries": [
+    {
+      "title": "[wireshark-mcp] wireshark-mcp vulnerable to arbitrary file write via export_objects when WIRESHARK_MCP_ALLOWED_DIRS is not configured",
+      "url": "https://github.com/advisories/GHSA-3r68-x3xc-rxpg",
+      "date": "2026-05-05T20:15:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[link-preview-js] link-preview-js vulnerable to IPv6 and internal loopback attacks",
+      "url": "https://github.com/advisories/GHSA-4gp8-rjrq-ch6q",
+      "date": "2026-05-05T20:13:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[simple-git] simple-git is vulnerable to Remote Code Execution",
+      "url": "https://github.com/advisories/GHSA-hffm-xvc3-vprc",
+      "date": "2026-05-05T20:12:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[django-s3file] django-s3file is vulnerable to relative path traversal",
+      "url": "https://github.com/advisories/GHSA-67qg-7284-2277",
+      "date": "2026-05-05T20:05:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[exiftool-vendored] exiftool-vendored vulnerable to argument injection via newline characters in tag names",
+      "url": "https://github.com/advisories/GHSA-cw26-7653-2rp5",
+      "date": "2026-05-05T19:53:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[requests-hardened] requests-hardened is Vulnerable to Server-Side Request Forgery",
+      "url": "https://github.com/advisories/GHSA-vh75-fwv3-pqrh",
+      "date": "2026-05-05T19:52:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[pptagent] PPTAgent: Arbitrary File Write via `save_generated_slides`",
       "url": "https://github.com/advisories/GHSA-pxhg-7xr2-w7xg",
@@ -98,48 +140,6 @@
       "date": "2026-05-05T18:12:02.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow's authenticated /ui/dags endpoint did not enforce per-DAG access control on embedded Human-in-the-Loop (HITL) and TaskInstance record",
-      "url": "https://github.com/advisories/GHSA-p3v3-229h-mc63",
-      "date": "2026-05-05T18:11:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jupyterhub] JupyterHub has cross-origin form POSTs bypass XSRF (CWE-352)",
-      "url": "https://github.com/advisories/GHSA-m68r-v472-jgq9",
-      "date": "2026-05-05T18:10:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@lobehub/lobehub] LobeHub has a Cross-Site Scripting issue that escalates to Remote Code Execution",
-      "url": "https://github.com/advisories/GHSA-xq4x-622m-q8fq",
-      "date": "2026-05-05T18:04:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[codechecker] Codechecker has an authentication bypass for certain API calls",
-      "url": "https://github.com/advisories/GHSA-4v9x-cqc5-j645",
-      "date": "2026-05-05T17:58:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[edx-enterprise] edx-enterprise has SSRF via SAML metadata URL in sync_provider_data endpoint",
-      "url": "https://github.com/advisories/GHSA-64cv-vxpr-j6vc",
-      "date": "2026-05-05T17:51:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[network-ai] Network-AI missing authentication on MCP HTTP endpoint, which allows unauthenticated privileged tool calls",
-      "url": "https://github.com/advisories/GHSA-fj4g-2p96-q6m3",
-      "date": "2026-05-05T17:25:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
