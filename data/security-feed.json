@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-05-05T21:28:55.411Z",
+  "fetchedAt": "2026-05-05T22:26:47.932Z",
   "entries": [
+    {
+      "title": "[sse-channel] sse-channel: SSE Injection via unsanitized event fields",
+      "url": "https://github.com/advisories/GHSA-84hm-wfh8-c5pg",
+      "date": "2026-05-05T22:17:03.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pip] pip Vulnerable to Inclusion of Functionality from Untrusted Control Sphere",
+      "url": "https://github.com/advisories/GHSA-jp4c-xjxw-mgf9",
+      "date": "2026-05-05T22:05:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ip-address] ip-address has XSS in Address6 HTML-emitting methods",
+      "url": "https://github.com/advisories/GHSA-v2v4-37r5-5v8g",
+      "date": "2026-05-05T21:51:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mongoose] Mongoose's Improper Sanitization of $nor in sanitizeFilter May Allow NoSQL Injection",
+      "url": "https://github.com/advisories/GHSA-wpg9-53fq-2r8h",
+      "date": "2026-05-05T21:48:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mongoose] Mongoose's Improper Sanitization of $nor in sanitizeFilter May Allow NoSQL Injection",
+      "url": "https://github.com/advisories/GHSA-wpg9-53fq-2r8h",
+      "date": "2026-05-05T21:48:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mongoose] Mongoose's Improper Sanitization of $nor in sanitizeFilter May Allow NoSQL Injection",
+      "url": "https://github.com/advisories/GHSA-wpg9-53fq-2r8h",
+      "date": "2026-05-05T21:48:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mongoose] Mongoose's Improper Sanitization of $nor in sanitizeFilter May Allow NoSQL Injection",
+      "url": "https://github.com/advisories/GHSA-wpg9-53fq-2r8h",
+      "date": "2026-05-05T21:48:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[pyload-ng] PyLoad vulnerable to Path Traversal via Package Folder Name in set_package_data",
       "url": "https://github.com/advisories/GHSA-838g-gr43-qqg9",
@@ -91,55 +140,6 @@
       "date": "2026-05-05T20:30:45.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[ssrfcheck] ssrfcheck Vulnerable to Server-Side Request Forgery (SSRF) and Incomplete List of Disallowed Inputs",
-      "url": "https://github.com/advisories/GHSA-j4rj-2jr5-m439",
-      "date": "2026-05-05T20:29:34.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ssrfcheck] ssrfcheck: SSRF Bypass Caused by Failure to Classify Reserved IP Address Space as Invalid",
-      "url": "https://github.com/advisories/GHSA-p4hc-9pjh-55c8",
-      "date": "2026-05-05T20:29:06.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[AstrBot] AstrBot has Incomplete Filtering of Special Elements",
-      "url": "https://github.com/advisories/GHSA-h3rr-9wqj-v3c6",
-      "date": "2026-05-05T20:22:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[wireshark-mcp] wireshark-mcp vulnerable to arbitrary file write via export_objects when WIRESHARK_MCP_ALLOWED_DIRS is not configured",
-      "url": "https://github.com/advisories/GHSA-3r68-x3xc-rxpg",
-      "date": "2026-05-05T20:15:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[link-preview-js] link-preview-js vulnerable to IPv6 and internal loopback attacks",
-      "url": "https://github.com/advisories/GHSA-4gp8-rjrq-ch6q",
-      "date": "2026-05-05T20:13:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[simple-git] simple-git is vulnerable to Remote Code Execution",
-      "url": "https://github.com/advisories/GHSA-hffm-xvc3-vprc",
-      "date": "2026-05-05T20:12:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[django-s3file] django-s3file is vulnerable to relative path traversal",
-      "url": "https://github.com/advisories/GHSA-67qg-7284-2277",
-      "date": "2026-05-05T20:05:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
