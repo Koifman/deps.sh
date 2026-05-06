@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-06T22:26:53.411Z",
+  "scannedAt": "2026-05-06T23:27:32.239Z",
   "count": 96,
   "packages": [
     {
@@ -217,15 +217,6 @@
       "level": "MODERATE",
       "previousOwner": "isaacs",
       "currentOwner": "geoffreybooth"
-    },
-    {
-      "name": "broccoli-babel-transpiler",
-      "version": "8.0.2",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "sebmck",
-      "currentOwner": "katiegengler"
     },
     {
       "name": "@appium/support",
@@ -480,15 +471,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "espree",
-      "version": "11.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "nzakas",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "hasown",
       "version": "2.0.3",
       "ecosystem": "npm",
@@ -496,6 +478,15 @@
       "level": "MODERATE",
       "previousOwner": "radubrehar",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "espree",
+      "version": "11.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "nzakas",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@typescript-eslint/parser",
@@ -561,15 +552,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "postcss-focus-visible",
-      "version": "11.0.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
-    },
-    {
       "name": "oxc-parser",
       "version": "0.129.0",
       "ecosystem": "npm",
@@ -577,6 +559,15 @@
       "level": "MODERATE",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "postcss-focus-visible",
+      "version": "11.0.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
     },
     {
       "name": "css-has-pseudo",
@@ -624,8 +615,8 @@
       "currentOwner": "notaphplover"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.1.1",
+      "name": "@appium/types",
+      "version": "1.4.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -633,8 +624,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/types",
-      "version": "1.4.0",
+      "name": "@appium/schema",
+      "version": "1.1.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -687,15 +678,6 @@
       "currentOwner": "sb-priyankap"
     },
     {
-      "name": "@vimeo/player",
-      "version": "2.30.4",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bdougherty",
-      "currentOwner": "vimeo-npmbot"
-    },
-    {
       "name": "@lingui/message-utils",
       "version": "6.0.1",
       "ecosystem": "npm",
@@ -703,6 +685,15 @@
       "level": "MODERATE",
       "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@vimeo/player",
+      "version": "2.30.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bdougherty",
+      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "typescript",
@@ -864,6 +855,15 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "intl-tel-input",
+      "version": "28.0.4",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "jackocnr",
       "currentOwner": "GitHub Actions"
     }
   ]
