@@ -1,6 +1,111 @@
 {
-  "fetchedAt": "2026-05-06T18:44:34.470Z",
+  "fetchedAt": "2026-05-06T19:39:41.457Z",
   "entries": [
+    {
+      "title": "[rucio] Rucio has SQL Injection in FilterEngine Oracle JSON Path via DID Search API",
+      "url": "https://github.com/advisories/GHSA-vjr5-c9qv-hgm3",
+      "date": "2026-05-06T19:26:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[nltk] NLTK has a Path Traversal issue",
+      "url": "https://github.com/advisories/GHSA-68j8-pq59-fqgm",
+      "date": "2026-05-06T19:18:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sqlite-mcp] sqlite-mcp has an Injection issue",
+      "url": "https://github.com/advisories/GHSA-4j28-22qp-rjcf",
+      "date": "2026-05-06T19:18:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[notes-mcp] notes-mcp has a Path Traversal issue",
+      "url": "https://github.com/advisories/GHSA-vc5j-42hh-j3mr",
+      "date": "2026-05-06T19:17:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lemur] Lemur: LDAP Filter Injection enables post-authentication privilege escalation",
+      "url": "https://github.com/advisories/GHSA-3r34-vq8m-39gh",
+      "date": "2026-05-06T19:17:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: MSTeams thread history bypasses sender allowlist via Graph API",
+      "url": "https://github.com/advisories/GHSA-8pf2-vj79-4wxg",
+      "date": "2026-05-06T19:12:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Host exec environment sanitization misses package, registry, Docker, compiler, and TLS override variables",
+      "url": "https://github.com/advisories/GHSA-5mh4-3rv3-fpcf",
+      "date": "2026-05-06T19:11:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: SSH sandbox tar upload follows symlinks, enabling arbitrary file write on remote host",
+      "url": "https://github.com/advisories/GHSA-5799-3xg7-rfrv",
+      "date": "2026-05-06T19:11:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Trailing-dot localhost CDP hosts could bypass remote loopback protections",
+      "url": "https://github.com/advisories/GHSA-f5fm-9jmp-c88r",
+      "date": "2026-05-06T19:03:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mkdocs-mcp-plugin] mkdocs-mcp-plugin has a Path Traversal issue",
+      "url": "https://github.com/advisories/GHSA-wfr3-hf93-qgg3",
+      "date": "2026-05-06T19:02:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lemur] Lemur: LDAP Authentication Globally Disables TLS Certificate Verification When LDAP_USE_TLS Is Enabled",
+      "url": "https://github.com/advisories/GHSA-vr7c-r5gj-j3w5",
+      "date": "2026-05-06T18:48:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[metagpt] MetaGPT has an Injection issue",
+      "url": "https://github.com/advisories/GHSA-g977-h85w-h2xj",
+      "date": "2026-05-06T18:41:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp-url-downloader] mcp-url-downloader has a Server-Side Request Forgery issue",
+      "url": "https://github.com/advisories/GHSA-h7xc-4mv8-59fj",
+      "date": "2026-05-06T18:39:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[kaggle-mcp] kaggle-mcp has a Path Traversal issue",
+      "url": "https://github.com/advisories/GHSA-q882-jc55-6343",
+      "date": "2026-05-06T18:36:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[auto-favicon] auto-favicon has a Server-Side Request Forgery issue",
+      "url": "https://github.com/advisories/GHSA-vmh7-9c7h-2pgg",
+      "date": "2026-05-06T18:29:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[dssrf] dssrf: every IPv6 category bypasses is_url_safe",
       "url": "https://github.com/advisories/GHSA-8p33-q827-ghj5",
@@ -33,110 +138,6 @@
       "title": "[vllm] vLLM makes Use of Uninitialized Resource",
       "url": "https://github.com/advisories/GHSA-x368-4g9h-fvv4",
       "date": "2026-05-06T17:31:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[wooey] Wooey has an Incorrect Privilege Assignment issue",
-      "url": "https://github.com/advisories/GHSA-w65c-cmxj-qrhm",
-      "date": "2026-05-06T17:26:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[auth0-js] Auth.js SDK has Improper Permission Checking",
-      "url": "https://github.com/advisories/GHSA-8qjv-jj2q-x832",
-      "date": "2026-05-06T17:05:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mistune] Mistune has a Denial-of-Service (DoS) vulnerability",
-      "url": "https://github.com/advisories/GHSA-hjph-f4mc-wx4c",
-      "date": "2026-05-06T16:56:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mistune] Mistune has a ReDoS in LINK_TITLE_RE that allows denial of service via crafted Markdown input",
-      "url": "https://github.com/advisories/GHSA-8mp2-v27r-99xp",
-      "date": "2026-05-06T16:52:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[rucio] Rucio has SQL Injection in FilterEngine PostgreSQL Query Builder via DID Search API",
-      "url": "https://github.com/advisories/GHSA-6j7p-qjhg-9947",
-      "date": "2026-05-06T16:44:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[rucio] Rucio has SQL Injection in FilterEngine PostgreSQL Query Builder via DID Search API",
-      "url": "https://github.com/advisories/GHSA-6j7p-qjhg-9947",
-      "date": "2026-05-06T16:44:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[rucio] Rucio has SQL Injection in FilterEngine PostgreSQL Query Builder via DID Search API",
-      "url": "https://github.com/advisories/GHSA-6j7p-qjhg-9947",
-      "date": "2026-05-06T16:44:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[rucio] Rucio has SQL Injection in FilterEngine PostgreSQL Query Builder via DID Search API",
-      "url": "https://github.com/advisories/GHSA-6j7p-qjhg-9947",
-      "date": "2026-05-06T16:44:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[rucio] Rucio has SQL Injection in FilterEngine Oracle JSON Path via DID Search API",
-      "url": "https://github.com/advisories/GHSA-vjr5-c9qv-hgm3",
-      "date": "2026-05-06T16:42:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[rucio] Rucio has SQL Injection in FilterEngine Oracle JSON Path via DID Search API",
-      "url": "https://github.com/advisories/GHSA-vjr5-c9qv-hgm3",
-      "date": "2026-05-06T16:42:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[rucio] Rucio has SQL Injection in FilterEngine Oracle JSON Path via DID Search API",
-      "url": "https://github.com/advisories/GHSA-vjr5-c9qv-hgm3",
-      "date": "2026-05-06T16:42:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[rucio] Rucio has SQL Injection in FilterEngine Oracle JSON Path via DID Search API",
-      "url": "https://github.com/advisories/GHSA-vjr5-c9qv-hgm3",
-      "date": "2026-05-06T16:42:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0121: Vulnerability in steamworks",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0121.html",
-      "date": "2026-05-06T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[vllm] vLLM Vulnerable to Remote DoS via Special-Token Placeholders",
-      "url": "https://github.com/advisories/GHSA-hpv8-x276-m59f",
-      "date": "2026-05-05T22:21:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ciguard] ciguard: Web UI is missing HTTP defence-in-depth headers",
-      "url": "https://github.com/advisories/GHSA-7ww3-xvf5-cxwm",
-      "date": "2026-05-05T22:20:04.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
     }
