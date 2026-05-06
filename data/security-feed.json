@@ -1,12 +1,75 @@
 {
-  "fetchedAt": "2026-05-06T19:39:41.457Z",
+  "fetchedAt": "2026-05-06T20:37:20.380Z",
   "entries": [
     {
-      "title": "[rucio] Rucio has SQL Injection in FilterEngine Oracle JSON Path via DID Search API",
-      "url": "https://github.com/advisories/GHSA-vjr5-c9qv-hgm3",
-      "date": "2026-05-06T19:26:34.000Z",
+      "title": "[thrift] Apache Thrift Node.js bindings vulnerable to Uncontrolled Recursion",
+      "url": "https://github.com/advisories/GHSA-r67j-r569-jrwp",
+      "date": "2026-05-06T19:56:57.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[wger] wger: trainer_login open redirect - ?next= parameter not validated against host",
+      "url": "https://github.com/advisories/GHSA-vqv8-j3mj-wjxj",
+      "date": "2026-05-06T19:50:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wger] wger: cross-tenant password reset and plaintext disclosure via gym=None bypass",
+      "url": "https://github.com/advisories/GHSA-mhc8-p3jx-84mm",
+      "date": "2026-05-06T19:50:31.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
+    },
+    {
+      "title": "[wger] wger: CSV/TSV formula injection in gym member export (first_name/last_name)",
+      "url": "https://github.com/advisories/GHSA-xq9m-hmp9-fw87",
+      "date": "2026-05-06T19:48:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@dadigua/hyperchat] BigSweetPotatoStudio HyperChat has a Server-Side Request Forgery issue",
+      "url": "https://github.com/advisories/GHSA-r2jq-4h3x-rfj6",
+      "date": "2026-05-06T19:44:31.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mistune] Duplicate Advisory: Mistune has a ReDoS in LINK_TITLE_RE that allows denial of service via crafted Markdown input",
+      "url": "https://github.com/advisories/GHSA-hjph-f4mc-wx4c",
+      "date": "2026-05-06T19:41:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ironic] OpenStack Ironic is Vulnerable to Inclusion of Functionality from Untrusted Control Sphere",
+      "url": "https://github.com/advisories/GHSA-wqpv-c3pp-3m58",
+      "date": "2026-05-06T19:41:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[GitPython] GitPython reference APIs has a path traversal vulnerability that allows arbitrary file write and delete outside the repository",
+      "url": "https://github.com/advisories/GHSA-7545-fcxq-7j24",
+      "date": "2026-05-06T19:38:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[basic-ftp] basic-ftp allows a malicious FTP server to cause client-side denial of service via unbounded multiline control response buffering",
+      "url": "https://github.com/advisories/GHSA-rpmf-866q-6p89",
+      "date": "2026-05-06T19:37:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mistune] Mistune has a ReDoS in LINK_TITLE_RE that allows denial of service via crafted Markdown input",
+      "url": "https://github.com/advisories/GHSA-8mp2-v27r-99xp",
+      "date": "2026-05-06T19:35:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     },
     {
       "title": "[nltk] NLTK has a Path Traversal issue",
@@ -77,69 +140,6 @@
       "date": "2026-05-06T18:48:14.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[metagpt] MetaGPT has an Injection issue",
-      "url": "https://github.com/advisories/GHSA-g977-h85w-h2xj",
-      "date": "2026-05-06T18:41:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp-url-downloader] mcp-url-downloader has a Server-Side Request Forgery issue",
-      "url": "https://github.com/advisories/GHSA-h7xc-4mv8-59fj",
-      "date": "2026-05-06T18:39:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[kaggle-mcp] kaggle-mcp has a Path Traversal issue",
-      "url": "https://github.com/advisories/GHSA-q882-jc55-6343",
-      "date": "2026-05-06T18:36:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[auto-favicon] auto-favicon has a Server-Side Request Forgery issue",
-      "url": "https://github.com/advisories/GHSA-vmh7-9c7h-2pgg",
-      "date": "2026-05-06T18:29:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[dssrf] dssrf: every IPv6 category bypasses is_url_safe",
-      "url": "https://github.com/advisories/GHSA-8p33-q827-ghj5",
-      "date": "2026-05-06T18:13:33.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyload-ng] PyLoad vulnerable to unauthenticated traceback disclosure via global exception handler in WebUI",
-      "url": "https://github.com/advisories/GHSA-c3gc-9pf2-84gg",
-      "date": "2026-05-06T17:54:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next-intl] next-intl has prototype pollution with `experimental.messages.precompile` via attacker-controlled translation catalog keys",
-      "url": "https://github.com/advisories/GHSA-4c35-wcg5-mm9h",
-      "date": "2026-05-06T17:34:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[icu-minify] mcp-data-vis vulnerable to denial of service via unsanitized `select` key lookup on `Object.prototype` with `precompile: true`",
-      "url": "https://github.com/advisories/GHSA-r27j-894h-3w3p",
-      "date": "2026-05-06T17:32:02.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[vllm] vLLM makes Use of Uninitialized Resource",
-      "url": "https://github.com/advisories/GHSA-x368-4g9h-fvv4",
-      "date": "2026-05-06T17:31:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }
