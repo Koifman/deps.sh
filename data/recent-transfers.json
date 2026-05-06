@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-06T16:41:57.460Z",
+  "scannedAt": "2026-05-06T17:41:56.110Z",
   "count": 97,
   "packages": [
     {
@@ -64,6 +64,15 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "appium",
+      "version": "3.4.0",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "admc",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -163,15 +172,6 @@
       "level": "MODERATE",
       "previousOwner": "jonschlinkert",
       "currentOwner": "phated"
-    },
-    {
-      "name": "heimdalljs-logger",
-      "version": "0.1.10",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "hjdivad",
-      "currentOwner": "stefanpenner"
     },
     {
       "name": "is-plain-object",
@@ -318,15 +318,6 @@
       "currentOwner": "lholmquist"
     },
     {
-      "name": "@redux-saga/core",
-      "version": "1.4.2",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "andarist",
-      "currentOwner": "redux-saga-release-bot"
-    },
-    {
       "name": "embla-carousel-autoplay",
       "version": "8.6.0",
       "ecosystem": "npm",
@@ -334,6 +325,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "@redux-saga/core",
+      "version": "1.4.2",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "andarist",
+      "currentOwner": "redux-saga-release-bot"
     },
     {
       "name": "eslint",
@@ -444,21 +444,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/base-driver",
-      "version": "10.5.0",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "dependency-cruiser",
       "version": "17.4.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "sverweij",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/base-driver",
+      "version": "10.5.0",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -552,15 +552,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-parser",
-      "version": "0.129.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "postcss-focus-visible",
       "version": "11.0.0",
       "ecosystem": "npm",
@@ -568,6 +559,15 @@
       "level": "MODERATE",
       "previousOwner": "jonathantneal",
       "currentOwner": "romainmenke"
+    },
+    {
+      "name": "oxc-parser",
+      "version": "0.129.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "css-has-pseudo",
@@ -642,15 +642,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lingui/message-utils",
-      "version": "6.0.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "andrii.bodnar",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@hey-api/codegen-core",
       "version": "0.8.1",
       "ecosystem": "npm",
@@ -678,6 +669,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@lingui/message-utils",
+      "version": "6.0.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "andrii.bodnar",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@bugsnag/js",
       "version": "8.9.0",
       "ecosystem": "npm",
@@ -685,6 +685,15 @@
       "level": "MODERATE",
       "previousOwner": "bengourley",
       "currentOwner": "sb-priyankap"
+    },
+    {
+      "name": "@vimeo/player",
+      "version": "2.30.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bdougherty",
+      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "rehype-rewrite",
@@ -703,15 +712,6 @@
       "level": "MODERATE",
       "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@vimeo/player",
-      "version": "2.30.4",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bdougherty",
-      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "typescript",
@@ -813,15 +813,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.129.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-transform/binding-linux-x64-musl",
       "version": "0.129.0",
       "ecosystem": "npm",
@@ -840,13 +831,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@nevware21/ts-utils",
-      "version": "0.13.0",
+      "name": "oxc-minify",
+      "version": "0.129.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@lottiefiles/dotlottie-web",
@@ -865,6 +856,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@nevware21/ts-utils",
+      "version": "0.13.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "tesseract.js-core",

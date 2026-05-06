@@ -1,6 +1,90 @@
 {
-  "fetchedAt": "2026-05-06T16:38:47.723Z",
+  "fetchedAt": "2026-05-06T17:38:44.936Z",
   "entries": [
+    {
+      "title": "[wooey] Wooey has an Incorrect Privilege Assignment issue",
+      "url": "https://github.com/advisories/GHSA-w65c-cmxj-qrhm",
+      "date": "2026-05-06T17:26:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[auth0-js] Auth.js SDK has Improper Permission Checking",
+      "url": "https://github.com/advisories/GHSA-8qjv-jj2q-x832",
+      "date": "2026-05-06T17:05:15.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mistune] Mistune has a Denial-of-Service (DoS) vulnerability",
+      "url": "https://github.com/advisories/GHSA-hjph-f4mc-wx4c",
+      "date": "2026-05-06T16:56:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mistune] Mistune has a ReDoS in LINK_TITLE_RE that allows denial of service via crafted Markdown input",
+      "url": "https://github.com/advisories/GHSA-8mp2-v27r-99xp",
+      "date": "2026-05-06T16:52:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[rucio] Rucio has SQL Injection in FilterEngine PostgreSQL Query Builder via DID Search API",
+      "url": "https://github.com/advisories/GHSA-6j7p-qjhg-9947",
+      "date": "2026-05-06T16:44:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[rucio] Rucio has SQL Injection in FilterEngine PostgreSQL Query Builder via DID Search API",
+      "url": "https://github.com/advisories/GHSA-6j7p-qjhg-9947",
+      "date": "2026-05-06T16:44:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[rucio] Rucio has SQL Injection in FilterEngine PostgreSQL Query Builder via DID Search API",
+      "url": "https://github.com/advisories/GHSA-6j7p-qjhg-9947",
+      "date": "2026-05-06T16:44:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[rucio] Rucio has SQL Injection in FilterEngine PostgreSQL Query Builder via DID Search API",
+      "url": "https://github.com/advisories/GHSA-6j7p-qjhg-9947",
+      "date": "2026-05-06T16:44:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[rucio] Rucio has SQL Injection in FilterEngine Oracle JSON Path via DID Search API",
+      "url": "https://github.com/advisories/GHSA-vjr5-c9qv-hgm3",
+      "date": "2026-05-06T16:42:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[rucio] Rucio has SQL Injection in FilterEngine Oracle JSON Path via DID Search API",
+      "url": "https://github.com/advisories/GHSA-vjr5-c9qv-hgm3",
+      "date": "2026-05-06T16:42:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[rucio] Rucio has SQL Injection in FilterEngine Oracle JSON Path via DID Search API",
+      "url": "https://github.com/advisories/GHSA-vjr5-c9qv-hgm3",
+      "date": "2026-05-06T16:42:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[rucio] Rucio has SQL Injection in FilterEngine Oracle JSON Path via DID Search API",
+      "url": "https://github.com/advisories/GHSA-vjr5-c9qv-hgm3",
+      "date": "2026-05-06T16:42:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0121: Vulnerability in steamworks",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0121.html",
@@ -55,90 +139,6 @@
       "date": "2026-05-05T22:05:47.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[ip-address] ip-address has XSS in Address6 HTML-emitting methods",
-      "url": "https://github.com/advisories/GHSA-v2v4-37r5-5v8g",
-      "date": "2026-05-05T21:51:01.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mongoose] Mongoose's Improper Sanitization of $nor in sanitizeFilter May Allow NoSQL Injection",
-      "url": "https://github.com/advisories/GHSA-wpg9-53fq-2r8h",
-      "date": "2026-05-05T21:48:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mongoose] Mongoose's Improper Sanitization of $nor in sanitizeFilter May Allow NoSQL Injection",
-      "url": "https://github.com/advisories/GHSA-wpg9-53fq-2r8h",
-      "date": "2026-05-05T21:48:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mongoose] Mongoose's Improper Sanitization of $nor in sanitizeFilter May Allow NoSQL Injection",
-      "url": "https://github.com/advisories/GHSA-wpg9-53fq-2r8h",
-      "date": "2026-05-05T21:48:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mongoose] Mongoose's Improper Sanitization of $nor in sanitizeFilter May Allow NoSQL Injection",
-      "url": "https://github.com/advisories/GHSA-wpg9-53fq-2r8h",
-      "date": "2026-05-05T21:48:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyload-ng] PyLoad vulnerable to Path Traversal via Package Folder Name in set_package_data",
-      "url": "https://github.com/advisories/GHSA-838g-gr43-qqg9",
-      "date": "2026-05-05T21:18:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[changedetection.io] changedetection.io has an Arbitrary Local File Read via a crafted backup restore",
-      "url": "https://github.com/advisories/GHSA-8757-69j2-hx56",
-      "date": "2026-05-05T21:16:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@evomap/evolver] @evomap/evolver's validator sandbox allowlist permits `npm`/`npx`, yielding RCE from Hub-delivered validation tasks via lifecycle scripts",
-      "url": "https://github.com/advisories/GHSA-jxh8-jh77-xh6g",
-      "date": "2026-05-05T21:15:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@evomap/evolver] @evomap/evolver has an unbounded request body in proxy /asset/submit that causes persistent disk-exhaustion DoS",
-      "url": "https://github.com/advisories/GHSA-7xp7-m392-h92c",
-      "date": "2026-05-05T21:15:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@evomap/evolver] @evomap/evolver: Path Traversal in `evolver fetch` default-branch `safeId` allows Hub-controlled overwrite of project files (RCE)",
-      "url": "https://github.com/advisories/GHSA-cfcj-hqpf-hccf",
-      "date": "2026-05-05T21:15:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyload-ng] PyLoad Vulnerable to Path Traversal via Package Folder Name",
-      "url": "https://github.com/advisories/GHSA-97r3-5w84-r4q8",
-      "date": "2026-05-05T21:13:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Twisted] Twisted has a Denial of Service (DoS) in twisted.names via Crafted DNS Compression Pointer Chains",
-      "url": "https://github.com/advisories/GHSA-grgv-6hw6-v9g4",
-      "date": "2026-05-05T21:12:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
