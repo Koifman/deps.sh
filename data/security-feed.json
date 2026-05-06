@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-05-06T17:38:44.936Z",
+  "fetchedAt": "2026-05-06T18:44:34.470Z",
   "entries": [
+    {
+      "title": "[dssrf] dssrf: every IPv6 category bypasses is_url_safe",
+      "url": "https://github.com/advisories/GHSA-8p33-q827-ghj5",
+      "date": "2026-05-06T18:13:33.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pyload-ng] PyLoad vulnerable to unauthenticated traceback disclosure via global exception handler in WebUI",
+      "url": "https://github.com/advisories/GHSA-c3gc-9pf2-84gg",
+      "date": "2026-05-06T17:54:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next-intl] next-intl has prototype pollution with `experimental.messages.precompile` via attacker-controlled translation catalog keys",
+      "url": "https://github.com/advisories/GHSA-4c35-wcg5-mm9h",
+      "date": "2026-05-06T17:34:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[icu-minify] mcp-data-vis vulnerable to denial of service via unsanitized `select` key lookup on `Object.prototype` with `precompile: true`",
+      "url": "https://github.com/advisories/GHSA-r27j-894h-3w3p",
+      "date": "2026-05-06T17:32:02.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[vllm] vLLM makes Use of Uninitialized Resource",
+      "url": "https://github.com/advisories/GHSA-x368-4g9h-fvv4",
+      "date": "2026-05-06T17:31:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[wooey] Wooey has an Incorrect Privilege Assignment issue",
       "url": "https://github.com/advisories/GHSA-w65c-cmxj-qrhm",
@@ -104,41 +139,6 @@
       "date": "2026-05-05T22:20:04.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[ciguard] ciguard: discover_pipeline_files follows symlinks out of scan root",
-      "url": "https://github.com/advisories/GHSA-8cxw-cc62-q28v",
-      "date": "2026-05-05T22:19:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[ciguard] ciguard: Container image runs as root (no USER directive)",
-      "url": "https://github.com/advisories/GHSA-jrm4-4pcf-4763",
-      "date": "2026-05-05T22:18:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[ciguard] ciguard: SCA HTTP client reads response body without size cap",
-      "url": "https://github.com/advisories/GHSA-xw8c-rrvx-f7xq",
-      "date": "2026-05-05T22:17:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sse-channel] sse-channel: SSE Injection via unsanitized event fields",
-      "url": "https://github.com/advisories/GHSA-84hm-wfh8-c5pg",
-      "date": "2026-05-05T22:17:03.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pip] pip Vulnerable to Inclusion of Functionality from Untrusted Control Sphere",
-      "url": "https://github.com/advisories/GHSA-jp4c-xjxw-mgf9",
-      "date": "2026-05-05T22:05:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }

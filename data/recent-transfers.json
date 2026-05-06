@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-06T17:41:56.110Z",
+  "scannedAt": "2026-05-06T18:47:48.952Z",
   "count": 97,
   "packages": [
     {
@@ -271,6 +271,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "well-known-symbols",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "novemberborn",
+      "currentOwner": "ljharb"
     },
     {
       "name": "tslib",
@@ -696,24 +705,6 @@
       "currentOwner": "vimeo-npmbot"
     },
     {
-      "name": "rehype-rewrite",
-      "version": "4.0.4",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "wcjiang",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@lottiefiles/dotlottie-react",
-      "version": "0.19.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "typescript",
       "version": "6.0.3",
       "ecosystem": "npm",
@@ -858,6 +849,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
+    },
+    {
       "name": "@nevware21/ts-utils",
       "version": "0.13.0",
       "ecosystem": "npm",
@@ -867,13 +867,13 @@
       "currentOwner": "nevware21bot"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
+      "version": "0.129.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }
