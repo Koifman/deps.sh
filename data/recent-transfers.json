@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-06T09:59:12.842Z",
+  "scannedAt": "2026-05-06T10:51:50.278Z",
   "count": 97,
   "packages": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "name": "pdfmake",
-      "version": "0.3.7",
+      "version": "0.3.8",
       "ecosystem": "npm",
       "score": 52,
       "level": "HIGH",
@@ -165,15 +165,6 @@
       "currentOwner": "phated"
     },
     {
-      "name": "heimdalljs-logger",
-      "version": "0.1.10",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "hjdivad",
-      "currentOwner": "stefanpenner"
-    },
-    {
       "name": "is-plain-object",
       "version": "5.0.0",
       "ecosystem": "npm",
@@ -271,6 +262,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "well-known-symbols",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "novemberborn",
+      "currentOwner": "ljharb"
     },
     {
       "name": "tslib",
@@ -768,8 +768,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
-      "version": "0.129.0",
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.48.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -777,8 +777,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.48.0",
+      "name": "oxc-transform",
+      "version": "0.129.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
