@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-05-06T05:13:43.058Z",
+  "fetchedAt": "2026-05-06T07:08:32.147Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0107: mysten-metrics contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0107.html",
+      "date": "2026-05-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[vllm] vLLM Vulnerable to Remote DoS via Special-Token Placeholders",
       "url": "https://github.com/advisories/GHSA-hpv8-x276-m59f",
@@ -133,13 +139,6 @@
       "date": "2026-05-05T21:12:38.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[ethyca-fides] Ethyca Fides has a Privacy Request Identity Verification Bypass Vulnerability via Duplicate Detection",
-      "url": "https://github.com/advisories/GHSA-qx5f-ghc2-7g5c",
-      "date": "2026-05-05T21:11:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
