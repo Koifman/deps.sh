@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-05-06T20:37:20.380Z",
+  "fetchedAt": "2026-05-06T21:30:26.823Z",
   "entries": [
+    {
+      "title": "[granian] Granian vulnerable to unauthenticated DoS via WebSocket subprotocol header panic",
+      "url": "https://github.com/advisories/GHSA-vrg7-482j-p6f6",
+      "date": "2026-05-06T21:20:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[magic-wormhole] Magic Wormhole: receive, with --output pointing at an existing directory can be path-traversed",
+      "url": "https://github.com/advisories/GHSA-cf92-gfcw-6v53",
+      "date": "2026-05-06T20:40:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[thrift] Apache Thrift Node.js bindings vulnerable to Uncontrolled Recursion",
       "url": "https://github.com/advisories/GHSA-r67j-r569-jrwp",
@@ -125,20 +139,6 @@
       "url": "https://github.com/advisories/GHSA-f5fm-9jmp-c88r",
       "date": "2026-05-06T19:03:42.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mkdocs-mcp-plugin] mkdocs-mcp-plugin has a Path Traversal issue",
-      "url": "https://github.com/advisories/GHSA-wfr3-hf93-qgg3",
-      "date": "2026-05-06T19:02:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lemur] Lemur: LDAP Authentication Globally Disables TLS Certificate Verification When LDAP_USE_TLS Is Enabled",
-      "url": "https://github.com/advisories/GHSA-vr7c-r5gj-j3w5",
-      "date": "2026-05-06T18:48:14.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
