@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-05-07T16:41:21.269Z",
+  "fetchedAt": "2026-05-07T17:38:57.236Z",
   "entries": [
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Zalo replay dedupe keys could suppress messages across chats or senders",
+      "url": "https://github.com/advisories/GHSA-6477-wvjj-47v6",
+      "date": "2026-05-07T16:44:08.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[cinny] Cinny vulnerable to access token disclosure via invalidated emoji pack avatar URL in service worker",
+      "url": "https://github.com/advisories/GHSA-j944-w549-3453",
+      "date": "2026-05-07T16:40:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[bentoml] BentoML has Information Disclosure in `bentoml build` via symlink traversal in the build context",
+      "url": "https://github.com/advisories/GHSA-mcfx-4vc6-qgxv",
+      "date": "2026-05-07T16:39:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0119: Vulnerability in hickory-proto",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0119.html",
@@ -112,27 +133,6 @@
       "date": "2026-05-07T04:26:39.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[vm2] vm2 has a Sandbox Escape via Promise Constructor Unhandled Rejection (Process Crash DoS)",
-      "url": "https://github.com/advisories/GHSA-hw58-p9xv-2mjh",
-      "date": "2026-05-07T04:10:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vm2] vm2 has a NodeVM builtin allowlist bypass via `module` builtin's `Module._load` that allows sandbox escape",
-      "url": "https://github.com/advisories/GHSA-947f-4v7f-x2v8",
-      "date": "2026-05-07T04:08:55.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2: Mutable Proxies for Host Intrinsic Prototypes Allows Sandbox Escape",
-      "url": "https://github.com/advisories/GHSA-vwrp-x96c-mhwq",
-      "date": "2026-05-07T04:07:07.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
