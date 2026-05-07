@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-05-07T01:02:25.537Z",
+  "fetchedAt": "2026-05-07T03:18:40.210Z",
   "entries": [
+    {
+      "title": "[AstrBot] AstrBot Makes Use of Hard-coded Password",
+      "url": "https://github.com/advisories/GHSA-mq9q-25hm-g4gp",
+      "date": "2026-05-07T02:55:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@diplodoc/search-extension] @diplodoc/search-extension allows stored XSS via Markdown file title",
+      "url": "https://github.com/advisories/GHSA-rjmp-rwj4-mv82",
+      "date": "2026-05-07T02:44:10.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[keystone] OpenStack Keystone has an Incorrect Authorization Issue",
+      "url": "https://github.com/advisories/GHSA-hhq2-3832-xxcv",
+      "date": "2026-05-07T02:40:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ironic-python-agent] OpenStack Ironic Python Agent Includes Functionality from Untrusted Control Sphere",
+      "url": "https://github.com/advisories/GHSA-rmxr-45gj-889w",
+      "date": "2026-05-07T02:38:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[diffusers] Diffusers: None.py has Trust Remote Code Bypass",
+      "url": "https://github.com/advisories/GHSA-j7w6-vpvq-j3gm",
+      "date": "2026-05-07T02:24:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[aegra-api] Aegra has cross-user run injection in /threads/{thread_id}/runs (IDOR)",
+      "url": "https://github.com/advisories/GHSA-m98r-6667-4wq7",
+      "date": "2026-05-07T01:49:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[kiota-typescript] Kiota abstractions RedirectHandler leaks Cookie/Proxy-Authorization headers on cross-host redirect",
+      "url": "https://github.com/advisories/GHSA-7j59-v9qr-6fq9",
+      "date": "2026-05-07T01:49:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[microsoft-kiota-http] Kiota abstractions RedirectHandler leaks Cookie/Proxy-Authorization headers on cross-host redirect",
+      "url": "https://github.com/advisories/GHSA-7j59-v9qr-6fq9",
+      "date": "2026-05-07T01:49:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pytorch-lightning] Compromise of PyTorch Lightning PyPi Package Versions",
+      "url": "https://github.com/advisories/GHSA-w37p-236h-pfx3",
+      "date": "2026-05-07T00:52:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[pytorch-lightning] Compromise of PyTorch Lightning PyPi Package Versions",
+      "url": "https://github.com/advisories/GHSA-w37p-236h-pfx3",
+      "date": "2026-05-07T00:52:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[vercel] Vercel: Non-interactive mode includes CLI arguments in suggested command output",
       "url": "https://github.com/advisories/GHSA-pgf8-2hgj-grqg",
@@ -70,76 +140,6 @@
       "date": "2026-05-06T23:42:14.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[django-mdeditor] django-mdeditor is Missing Authentication for Critical Function",
-      "url": "https://github.com/advisories/GHSA-qp2c-xqv6-phh6",
-      "date": "2026-05-06T23:41:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[mcp-server-semgrep] mcp-server-semgrep has a Command Injection issue",
-      "url": "https://github.com/advisories/GHSA-86hp-qxqp-w9wv",
-      "date": "2026-05-06T23:28:37.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@axonflow/openclaw] @axonflow/openclaw fix introduces plugin cache and credential-file permission hardening",
-      "url": "https://github.com/advisories/GHSA-cqmh-pcgr-q42f",
-      "date": "2026-05-06T23:23:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@axonflow/sdk] axonflow-sdk-typescript: Webhook signing-key (HMAC-SHA256) not exposed by SDK type, preventing signature verification",
-      "url": "https://github.com/advisories/GHSA-mph8-9v29-pm42",
-      "date": "2026-05-06T23:16:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axonflow] axonflow-sdk-python: Webhook signing-key (HMAC-SHA256) not exposed by SDK type, preventing signature verification",
-      "url": "https://github.com/advisories/GHSA-7f4h-6264-89fr",
-      "date": "2026-05-06T23:14:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mcpo-simple-server] mcpo-simple-server has a Path Traversal issue",
-      "url": "https://github.com/advisories/GHSA-3jmq-qhg3-f58j",
-      "date": "2026-05-06T23:12:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[keras] Keras vulnerable to DoS via Malicious .keras Model (HDF5 Shape Bomb Causes Petabyte Allocation in KerasFileEditor)",
-      "url": "https://github.com/advisories/GHSA-mgx6-5cf9-rr43",
-      "date": "2026-05-06T23:09:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[keras] Keras vulnerable to DoS via Malicious .keras Model (HDF5 Shape Bomb Causes Petabyte Allocation in KerasFileEditor)",
-      "url": "https://github.com/advisories/GHSA-mgx6-5cf9-rr43",
-      "date": "2026-05-06T23:09:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Gateway `operator.write` can reach admin-only persisted `verboseLevel` via `chat.send` `/verbose`",
-      "url": "https://github.com/advisories/GHSA-v3c2-39fm-jq4h",
-      "date": "2026-05-06T23:04:44.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: CLI Remote Onboarding Persists Unauthenticated Discovery Endpoint and Exfiltrates Gateway Credentials",
-      "url": "https://github.com/advisories/GHSA-gv2f-q4wp-fvh5",
-      "date": "2026-05-06T23:04:25.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
