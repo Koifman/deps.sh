@@ -1,6 +1,83 @@
 {
-  "fetchedAt": "2026-05-07T03:18:40.210Z",
+  "fetchedAt": "2026-05-07T05:15:50.273Z",
   "entries": [
+    {
+      "title": "[vm2] vm2 has a NodeVM require.root bypass via symlink traversal that allows sandbox escape",
+      "url": "https://github.com/advisories/GHSA-cp6g-6699-wx9c",
+      "date": "2026-05-07T04:33:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vm2] vm2's Transformer Fast-Path Bypass Exposes Internal State Variable",
+      "url": "https://github.com/advisories/GHSA-wp5r-2gw5-m7q7",
+      "date": "2026-05-07T04:32:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vm2] vm2 is Vulnerable to Host File Path Disclosure via Stack Trace Information Leak",
+      "url": "https://github.com/advisories/GHSA-v27g-jcqj-v8rw",
+      "date": "2026-05-07T04:30:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vm2] vm2 Host Promise Resolution Preserves Object Identity Across Sandbox Boundary",
+      "url": "https://github.com/advisories/GHSA-mpf8-4hx2-7cjg",
+      "date": "2026-05-07T04:29:22.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vm2] vm2 Sandbox Access to Host Buffer.alloc Allows timeout Bypass Resulting in Memory Exhaustion",
+      "url": "https://github.com/advisories/GHSA-6785-pvv7-mvg7",
+      "date": "2026-05-07T04:26:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vm2] vm2 has a Sandbox Escape via Promise Constructor Unhandled Rejection (Process Crash DoS)",
+      "url": "https://github.com/advisories/GHSA-hw58-p9xv-2mjh",
+      "date": "2026-05-07T04:10:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vm2] vm2 has a NodeVM builtin allowlist bypass via `module` builtin's `Module._load` that allows sandbox escape",
+      "url": "https://github.com/advisories/GHSA-947f-4v7f-x2v8",
+      "date": "2026-05-07T04:08:55.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vm2] vm2: Mutable Proxies for Host Intrinsic Prototypes Allows Sandbox Escape",
+      "url": "https://github.com/advisories/GHSA-vwrp-x96c-mhwq",
+      "date": "2026-05-07T04:07:07.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vm2] vm2 Access to Host Object Enables Sandbox Escape",
+      "url": "https://github.com/advisories/GHSA-47x8-96vw-5wg6",
+      "date": "2026-05-07T04:00:19.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vm2] vm2 has a Sandbox Escape Vulnerability",
+      "url": "https://github.com/advisories/GHSA-qcp4-v2jj-fjx8",
+      "date": "2026-05-07T03:55:02.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[docling-graph] docling-graph has SSRF via Missing Internal IP Validation in URLInputHandler",
+      "url": "https://github.com/advisories/GHSA-fqph-j6v6-jvgx",
+      "date": "2026-05-07T03:15:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[AstrBot] AstrBot Makes Use of Hard-coded Password",
       "url": "https://github.com/advisories/GHSA-mq9q-25hm-g4gp",
@@ -63,83 +140,6 @@
       "date": "2026-05-07T00:52:56.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[pytorch-lightning] Compromise of PyTorch Lightning PyPi Package Versions",
-      "url": "https://github.com/advisories/GHSA-w37p-236h-pfx3",
-      "date": "2026-05-07T00:52:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vercel] Vercel: Non-interactive mode includes CLI arguments in suggested command output",
-      "url": "https://github.com/advisories/GHSA-pgf8-2hgj-grqg",
-      "date": "2026-05-07T00:05:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[weblate] Weblate vulnerable to XSS via crafted Markdown",
-      "url": "https://github.com/advisories/GHSA-5cmv-3rc4-7279",
-      "date": "2026-05-07T00:04:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[weblate] Weblate Vulnerable to Private Translation Enumeration via Screenshot API",
-      "url": "https://github.com/advisories/GHSA-gcg5-86jr-f7jg",
-      "date": "2026-05-07T00:03:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono: bodyLimit() can be bypassed for chunked / unknown-length requests",
-      "url": "https://github.com/advisories/GHSA-9vqf-7f2p-gf9v",
-      "date": "2026-05-06T23:50:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] hono/jsx has Unvalidated JSX Tag Names that May Allow HTML Injection",
-      "url": "https://github.com/advisories/GHSA-69xw-7hcm-h432",
-      "date": "2026-05-06T23:49:44.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[PlaywrightCapture] Playwright Capture permits access to local files and internal network resources during page capture",
-      "url": "https://github.com/advisories/GHSA-687h-xw6f-q2qw",
-      "date": "2026-05-06T23:43:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR has Open Redirect and Request Steering via Encoded X-Forwarded-Prefix",
-      "url": "https://github.com/advisories/GHSA-69xr-m8h6-h664",
-      "date": "2026-05-06T23:42:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR has Open Redirect and Request Steering via Encoded X-Forwarded-Prefix",
-      "url": "https://github.com/advisories/GHSA-69xr-m8h6-h664",
-      "date": "2026-05-06T23:42:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR has Open Redirect and Request Steering via Encoded X-Forwarded-Prefix",
-      "url": "https://github.com/advisories/GHSA-69xr-m8h6-h664",
-      "date": "2026-05-06T23:42:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR has Open Redirect and Request Steering via Encoded X-Forwarded-Prefix",
-      "url": "https://github.com/advisories/GHSA-69xr-m8h6-h664",
-      "date": "2026-05-06T23:42:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
