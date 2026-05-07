@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-07T17:38:57.236Z",
+  "fetchedAt": "2026-05-07T18:44:56.517Z",
   "entries": [
+    {
+      "title": "[intercom-client] Compromised version of intercom-client published to npm",
+      "url": "https://github.com/advisories/GHSA-54pg-9963-v8vg",
+      "date": "2026-05-07T17:32:50.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[openclaw] Duplicate Advisory: OpenClaw: Zalo replay dedupe keys could suppress messages across chats or senders",
       "url": "https://github.com/advisories/GHSA-6477-wvjj-47v6",
@@ -126,13 +133,6 @@
       "date": "2026-05-07T04:29:22.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[vm2] vm2 Sandbox Access to Host Buffer.alloc Allows timeout Bypass Resulting in Memory Exhaustion",
-      "url": "https://github.com/advisories/GHSA-6785-pvv7-mvg7",
-      "date": "2026-05-07T04:26:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-05-07T17:42:07.059Z",
-  "count": 96,
+  "scannedAt": "2026-05-07T18:47:57.530Z",
+  "count": 97,
   "packages": [
     {
       "name": "xmldom",
@@ -64,6 +64,15 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "appium",
+      "version": "3.4.2",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "admc",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -211,7 +220,7 @@
     },
     {
       "name": "@appium/support",
-      "version": "7.2.1",
+      "version": "7.2.2",
       "ecosystem": "npm",
       "score": 33,
       "level": "MODERATE",
@@ -426,21 +435,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@appium/base-driver",
+      "version": "10.5.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "dependency-cruiser",
       "version": "17.4.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "sverweij",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@appium/base-driver",
-      "version": "10.5.1",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
