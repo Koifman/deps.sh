@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-05-07T21:27:03.989Z",
+  "fetchedAt": "2026-05-07T22:29:25.567Z",
   "entries": [
+    {
+      "title": "[mcp-ssh-tool] mcp-ssh-tool has file transfer path policy bypass and bearer token comparison hardening",
+      "url": "https://github.com/advisories/GHSA-j7h9-2jh7-g967",
+      "date": "2026-05-07T21:45:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apm-cli] Microsoft APM CLI's plugin.json component paths escape plugin root and copy arbitrary host files during install",
+      "url": "https://github.com/advisories/GHSA-xhrw-5qxx-jpwr",
+      "date": "2026-05-07T21:41:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[sglang] SGLang has an Improper Input Validation/Injection Issue",
       "url": "https://github.com/advisories/GHSA-6m5f-673f-5vh7",
@@ -119,20 +133,6 @@
       "date": "2026-05-07T05:31:19.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[diffusers] Duplicate Advisory: Diffusers has a `trust_remote_code` bypass via `custom_pipeline` and local custom components",
-      "url": "https://github.com/advisories/GHSA-j7w6-vpvq-j3gm",
-      "date": "2026-05-07T05:25:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[smolagents] Hugging Face Smolagents has a Server-Side Request Forgery issue",
-      "url": "https://github.com/advisories/GHSA-jxgv-6j54-wwc7",
-      "date": "2026-05-07T05:25:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }
