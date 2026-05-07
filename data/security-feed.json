@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-05-07T07:13:20.315Z",
+  "fetchedAt": "2026-05-07T09:04:19.934Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0119: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0119.html",
+      "date": "2026-05-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0118: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0118.html",
+      "date": "2026-05-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0120: Vulnerability in hickory-net",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0120.html",
+      "date": "2026-05-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0115: Unsoundness in imageproc",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0115.html",
+      "date": "2026-05-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0116: Unsoundness in imageproc",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0116.html",
+      "date": "2026-05-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0117: Unsoundness in imageproc",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0117.html",
+      "date": "2026-05-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0114: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0114.html",
+      "date": "2026-05-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[smolagents] Hugging Face smolagents: Unsafe deserialization in Remote Python Executor leads to RCE",
       "url": "https://github.com/advisories/GHSA-q9r5-6hrr-9ph7",
@@ -91,55 +133,6 @@
       "date": "2026-05-07T04:07:07.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2 Access to Host Object Enables Sandbox Escape",
-      "url": "https://github.com/advisories/GHSA-47x8-96vw-5wg6",
-      "date": "2026-05-07T04:00:19.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2 has a Sandbox Escape Vulnerability",
-      "url": "https://github.com/advisories/GHSA-qcp4-v2jj-fjx8",
-      "date": "2026-05-07T03:55:02.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[docling-graph] docling-graph has SSRF via Missing Internal IP Validation in URLInputHandler",
-      "url": "https://github.com/advisories/GHSA-fqph-j6v6-jvgx",
-      "date": "2026-05-07T03:15:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[AstrBot] AstrBot Makes Use of Hard-coded Password",
-      "url": "https://github.com/advisories/GHSA-mq9q-25hm-g4gp",
-      "date": "2026-05-07T02:55:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@diplodoc/search-extension] @diplodoc/search-extension allows stored XSS via Markdown file title",
-      "url": "https://github.com/advisories/GHSA-rjmp-rwj4-mv82",
-      "date": "2026-05-07T02:44:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[keystone] OpenStack Keystone has an Incorrect Authorization Issue",
-      "url": "https://github.com/advisories/GHSA-hhq2-3832-xxcv",
-      "date": "2026-05-07T02:40:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ironic-python-agent] OpenStack Ironic Python Agent Includes Functionality from Untrusted Control Sphere",
-      "url": "https://github.com/advisories/GHSA-rmxr-45gj-889w",
-      "date": "2026-05-07T02:38:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }

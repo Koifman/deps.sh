@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-07T07:16:14.265Z",
+  "scannedAt": "2026-05-07T09:07:07.318Z",
   "count": 96,
   "packages": [
     {
@@ -66,17 +66,8 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "appium",
-      "version": "3.4.0",
-      "ecosystem": "npm",
-      "score": 43,
-      "level": "MODERATE",
-      "previousOwner": "admc",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "terser",
-      "version": "5.46.2",
+      "version": "5.47.0",
       "ecosystem": "npm",
       "score": 42,
       "level": "MODERATE",
@@ -264,15 +255,6 @@
       "currentOwner": "davidjerleke"
     },
     {
-      "name": "well-known-symbols",
-      "version": "4.1.0",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "novemberborn",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "tslib",
       "version": "2.8.1",
       "ecosystem": "npm",
@@ -417,15 +399,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@hey-api/openapi-ts",
-      "version": "0.97.1",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "lmenus",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@trivago/prettier-plugin-sort-imports",
       "version": "6.0.2",
       "ecosystem": "npm",
@@ -433,6 +406,15 @@
       "level": "MODERATE",
       "previousOwner": "ayusharma",
       "currentOwner": "behraang"
+    },
+    {
+      "name": "@hey-api/openapi-ts",
+      "version": "0.97.1",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "lmenus",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "pe-library",
@@ -552,15 +534,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "postcss-focus-visible",
-      "version": "11.0.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
-    },
-    {
       "name": "oxc-parser",
       "version": "0.129.0",
       "ecosystem": "npm",
@@ -568,6 +541,15 @@
       "level": "MODERATE",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "postcss-focus-visible",
+      "version": "11.0.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
     },
     {
       "name": "css-has-pseudo",
@@ -642,6 +624,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@appium/logger",
+      "version": "2.0.7",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@hey-api/codegen-core",
       "version": "0.8.1",
       "ecosystem": "npm",
@@ -651,12 +642,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/logger",
-      "version": "2.0.7",
+      "name": "@lingui/message-utils",
+      "version": "6.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "jlipps",
+      "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -678,12 +669,21 @@
       "currentOwner": "sb-priyankap"
     },
     {
-      "name": "@lingui/message-utils",
-      "version": "6.0.1",
+      "name": "rehype-rewrite",
+      "version": "4.0.4",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "andrii.bodnar",
+      "previousOwner": "wcjiang",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@lottiefiles/dotlottie-react",
+      "version": "0.19.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -750,8 +750,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.48.0",
+      "name": "oxc-transform",
+      "version": "0.129.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -759,8 +759,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
-      "version": "0.129.0",
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.48.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -840,6 +840,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@nevware21/ts-utils",
+      "version": "0.13.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
+    },
+    {
       "name": "tesseract.js-core",
       "version": "6.1.2",
       "ecosystem": "npm",
@@ -855,15 +864,6 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "intl-tel-input",
-      "version": "28.0.4",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "jackocnr",
       "currentOwner": "GitHub Actions"
     }
   ]
