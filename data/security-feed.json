@@ -1,6 +1,111 @@
 {
-  "fetchedAt": "2026-05-06T23:24:29.682Z",
+  "fetchedAt": "2026-05-07T01:02:25.537Z",
   "entries": [
+    {
+      "title": "[vercel] Vercel: Non-interactive mode includes CLI arguments in suggested command output",
+      "url": "https://github.com/advisories/GHSA-pgf8-2hgj-grqg",
+      "date": "2026-05-07T00:05:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[weblate] Weblate vulnerable to XSS via crafted Markdown",
+      "url": "https://github.com/advisories/GHSA-5cmv-3rc4-7279",
+      "date": "2026-05-07T00:04:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[weblate] Weblate Vulnerable to Private Translation Enumeration via Screenshot API",
+      "url": "https://github.com/advisories/GHSA-gcg5-86jr-f7jg",
+      "date": "2026-05-07T00:03:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono: bodyLimit() can be bypassed for chunked / unknown-length requests",
+      "url": "https://github.com/advisories/GHSA-9vqf-7f2p-gf9v",
+      "date": "2026-05-06T23:50:10.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] hono/jsx has Unvalidated JSX Tag Names that May Allow HTML Injection",
+      "url": "https://github.com/advisories/GHSA-69xw-7hcm-h432",
+      "date": "2026-05-06T23:49:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[PlaywrightCapture] Playwright Capture permits access to local files and internal network resources during page capture",
+      "url": "https://github.com/advisories/GHSA-687h-xw6f-q2qw",
+      "date": "2026-05-06T23:43:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR has Open Redirect and Request Steering via Encoded X-Forwarded-Prefix",
+      "url": "https://github.com/advisories/GHSA-69xr-m8h6-h664",
+      "date": "2026-05-06T23:42:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR has Open Redirect and Request Steering via Encoded X-Forwarded-Prefix",
+      "url": "https://github.com/advisories/GHSA-69xr-m8h6-h664",
+      "date": "2026-05-06T23:42:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR has Open Redirect and Request Steering via Encoded X-Forwarded-Prefix",
+      "url": "https://github.com/advisories/GHSA-69xr-m8h6-h664",
+      "date": "2026-05-06T23:42:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR has Open Redirect and Request Steering via Encoded X-Forwarded-Prefix",
+      "url": "https://github.com/advisories/GHSA-69xr-m8h6-h664",
+      "date": "2026-05-06T23:42:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[django-mdeditor] django-mdeditor is Missing Authentication for Critical Function",
+      "url": "https://github.com/advisories/GHSA-qp2c-xqv6-phh6",
+      "date": "2026-05-06T23:41:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[mcp-server-semgrep] mcp-server-semgrep has a Command Injection issue",
+      "url": "https://github.com/advisories/GHSA-86hp-qxqp-w9wv",
+      "date": "2026-05-06T23:28:37.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@axonflow/openclaw] @axonflow/openclaw fix introduces plugin cache and credential-file permission hardening",
+      "url": "https://github.com/advisories/GHSA-cqmh-pcgr-q42f",
+      "date": "2026-05-06T23:23:26.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@axonflow/sdk] axonflow-sdk-typescript: Webhook signing-key (HMAC-SHA256) not exposed by SDK type, preventing signature verification",
+      "url": "https://github.com/advisories/GHSA-mph8-9v29-pm42",
+      "date": "2026-05-06T23:16:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axonflow] axonflow-sdk-python: Webhook signing-key (HMAC-SHA256) not exposed by SDK type, preventing signature verification",
+      "url": "https://github.com/advisories/GHSA-7f4h-6264-89fr",
+      "date": "2026-05-06T23:14:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[mcpo-simple-server] mcpo-simple-server has a Path Traversal issue",
       "url": "https://github.com/advisories/GHSA-3jmq-qhg3-f58j",
@@ -34,111 +139,6 @@
       "url": "https://github.com/advisories/GHSA-gv2f-q4wp-fvh5",
       "date": "2026-05-06T23:04:25.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@backstage/plugin-catalog-backend-module-unprocessed] Backstage: Catalog unprocessed read endpoints allow authenticated cross-owner data access without permission checks",
-      "url": "https://github.com/advisories/GHSA-p7g9-rp3g-mgfg",
-      "date": "2026-05-06T23:04:09.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@backstage/plugin-catalog-unprocessed-entities] Backstage: Catalog unprocessed read endpoints allow authenticated cross-owner data access without permission checks",
-      "url": "https://github.com/advisories/GHSA-p7g9-rp3g-mgfg",
-      "date": "2026-05-06T23:04:09.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@backstage/plugin-catalog-unprocessed-entities-common] Backstage: Catalog unprocessed read endpoints allow authenticated cross-owner data access without permission checks",
-      "url": "https://github.com/advisories/GHSA-p7g9-rp3g-mgfg",
-      "date": "2026-05-06T23:04:09.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nitropack] Nitro has an Open Redirect via Protocol-Relative URL Bypass in Wildcard Route Rules",
-      "url": "https://github.com/advisories/GHSA-9phm-9p8f-hw5m",
-      "date": "2026-05-06T23:02:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nitro] Nitro has an Open Redirect via Protocol-Relative URL Bypass in Wildcard Route Rules",
-      "url": "https://github.com/advisories/GHSA-9phm-9p8f-hw5m",
-      "date": "2026-05-06T23:02:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nitropack] Nitro has a proxy scope bypass via percent-encoded path traversal in `routeRules`",
-      "url": "https://github.com/advisories/GHSA-5w89-w975-hf9q",
-      "date": "2026-05-06T23:01:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nitro] Nitro has a proxy scope bypass via percent-encoded path traversal in `routeRules`",
-      "url": "https://github.com/advisories/GHSA-5w89-w975-hf9q",
-      "date": "2026-05-06T23:01:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Gateway operator.write Can Reach Admin-Class Telegram Config and Cron Persistence via send",
-      "url": "https://github.com/advisories/GHSA-394x-274p-mqc6",
-      "date": "2026-05-06T22:41:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyquorum] pyquorum: Timing side‑channel in mul_mod",
-      "url": "https://github.com/advisories/GHSA-7r92-3jgr-r65q",
-      "date": "2026-05-06T22:40:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[misp-modules] misp-modules website - Missing CSRF protection in the website home blueprint",
-      "url": "https://github.com/advisories/GHSA-j4rh-7jcr-qm69",
-      "date": "2026-05-06T22:31:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[misp-modules] misp-modules has nsafe remote resource fetching in expansion",
-      "url": "https://github.com/advisories/GHSA-fhq3-2gf3-8f3j",
-      "date": "2026-05-06T22:31:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fast-jwt] fast-jwt: JWT auth bypass due to empty HMAC secret accepted by async key resolver",
-      "url": "https://github.com/advisories/GHSA-gmvf-9v4p-v8jc",
-      "date": "2026-05-06T22:26:38.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[cyberchef] CyberChef has a Cross-site Scripting issue",
-      "url": "https://github.com/advisories/GHSA-h4hv-92pp-pcjg",
-      "date": "2026-05-06T22:09:28.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai] PraisonAI has unauthenticated RCE via `tool_override.py` (CVE-2026-40287 patch bypass)",
-      "url": "https://github.com/advisories/GHSA-xcmw-grxf-wjhj",
-      "date": "2026-05-06T22:08:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonaiagents] PraisonAI has an SSRF bypass",
-      "url": "https://github.com/advisories/GHSA-q9pw-vmhh-384g",
-      "date": "2026-05-06T22:08:11.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
