@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-05-07T05:15:50.273Z",
+  "fetchedAt": "2026-05-07T07:13:20.315Z",
   "entries": [
+    {
+      "title": "[smolagents] Hugging Face smolagents: Unsafe deserialization in Remote Python Executor leads to RCE",
+      "url": "https://github.com/advisories/GHSA-q9r5-6hrr-9ph7",
+      "date": "2026-05-07T05:44:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[diffusers] Diffusers has a `trust_remote_code` bypass via `custom_pipeline` and local custom components",
+      "url": "https://github.com/advisories/GHSA-98h9-4798-4q5v",
+      "date": "2026-05-07T05:31:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[diffusers] Duplicate Advisory: Diffusers has a `trust_remote_code` bypass via `custom_pipeline` and local custom components",
+      "url": "https://github.com/advisories/GHSA-j7w6-vpvq-j3gm",
+      "date": "2026-05-07T05:25:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[smolagents] Hugging Face Smolagents has a Server-Side Request Forgery issue",
+      "url": "https://github.com/advisories/GHSA-jxgv-6j54-wwc7",
+      "date": "2026-05-07T05:25:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[vm2] vm2 NodeVM `nesting: true` bypasses `require: false` allowing sandbox escape and arbitrary OS command execution",
+      "url": "https://github.com/advisories/GHSA-8hg8-63c5-gwmx",
+      "date": "2026-05-07T05:13:23.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[vm2] vm2 has a NodeVM require.root bypass via symlink traversal that allows sandbox escape",
       "url": "https://github.com/advisories/GHSA-cp6g-6699-wx9c",
@@ -105,41 +140,6 @@
       "date": "2026-05-07T02:38:58.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[diffusers] Diffusers: None.py has Trust Remote Code Bypass",
-      "url": "https://github.com/advisories/GHSA-j7w6-vpvq-j3gm",
-      "date": "2026-05-07T02:24:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[aegra-api] Aegra has cross-user run injection in /threads/{thread_id}/runs (IDOR)",
-      "url": "https://github.com/advisories/GHSA-m98r-6667-4wq7",
-      "date": "2026-05-07T01:49:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[kiota-typescript] Kiota abstractions RedirectHandler leaks Cookie/Proxy-Authorization headers on cross-host redirect",
-      "url": "https://github.com/advisories/GHSA-7j59-v9qr-6fq9",
-      "date": "2026-05-07T01:49:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[microsoft-kiota-http] Kiota abstractions RedirectHandler leaks Cookie/Proxy-Authorization headers on cross-host redirect",
-      "url": "https://github.com/advisories/GHSA-7j59-v9qr-6fq9",
-      "date": "2026-05-07T01:49:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pytorch-lightning] Compromise of PyTorch Lightning PyPi Package Versions",
-      "url": "https://github.com/advisories/GHSA-w37p-236h-pfx3",
-      "date": "2026-05-07T00:52:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
