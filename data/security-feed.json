@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-05-08T16:39:29.441Z",
+  "fetchedAt": "2026-05-08T17:38:16.047Z",
   "entries": [
+    {
+      "title": "[fast-uri] fast-uri vulnerable to path traversal via percent-encoded dot segments",
+      "url": "https://github.com/advisories/GHSA-q3j6-qgpj-74h6",
+      "date": "2026-05-08T17:15:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@fastify/accepts-serializer] @fastify/accepts-serializer Vulnerable to Denial of Service via Unbounded Accept Header Cache Growth",
+      "url": "https://github.com/advisories/GHSA-qxhc-wx3p-2wmg",
+      "date": "2026-05-08T17:13:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n-mcp] n8n-mcp affected by path traversal, redirect-following SSRF, and telemetry payload exposure",
+      "url": "https://github.com/advisories/GHSA-8g7g-hmwm-6rv2",
+      "date": "2026-05-08T17:00:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n-mcp] n8n-mcp webhook and API client paths has an authenticated SSRF",
+      "url": "https://github.com/advisories/GHSA-cmrh-wvq6-wm9r",
+      "date": "2026-05-08T16:59:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@puchunjie/doc-tools-mcp] @puchunjie/doc-tools-mcp has a Path Traversal Issue",
+      "url": "https://github.com/advisories/GHSA-gcmm-c94j-j47x",
+      "date": "2026-05-08T16:54:56.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[gmaps-mcp] gmaps-mcp's unauthenticated HTTP transport allows unlimited Google Maps API calls at operator expense",
+      "url": "https://github.com/advisories/GHSA-52cq-7v8r-62c6",
+      "date": "2026-05-08T16:32:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-xml-builder] fast-xml-builder allows attribute values with unwanted quotes to bypass malicious or unwanted attributes",
+      "url": "https://github.com/advisories/GHSA-5wm8-gmm8-39j9",
+      "date": "2026-05-08T16:29:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-xml-builder] fast-xml-builder Comment Value regex can be bypassed",
+      "url": "https://github.com/advisories/GHSA-45c6-75p6-83cc",
+      "date": "2026-05-08T16:27:29.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[MindsDB] MindsDB has an Improper Access Control Issue",
       "url": "https://github.com/advisories/GHSA-9f6m-65v9-x9g2",
@@ -84,59 +140,6 @@
       "date": "2026-05-07T20:51:52.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[mem0ai] mem0ai mem0 has an Improper Input Validation Issue",
-      "url": "https://github.com/advisories/GHSA-xqxw-r767-67m7",
-      "date": "2026-05-07T20:47:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[intercom-client] Compromised version of intercom-client published to npm",
-      "url": "https://github.com/advisories/GHSA-54pg-9963-v8vg",
-      "date": "2026-05-07T17:32:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Zalo replay dedupe keys could suppress messages across chats or senders",
-      "url": "https://github.com/advisories/GHSA-6477-wvjj-47v6",
-      "date": "2026-05-07T16:44:08.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[cinny] Cinny vulnerable to access token disclosure via invalidated emoji pack avatar URL in service worker",
-      "url": "https://github.com/advisories/GHSA-j944-w549-3453",
-      "date": "2026-05-07T16:40:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[bentoml] BentoML has Information Disclosure in `bentoml build` via symlink traversal in the build context",
-      "url": "https://github.com/advisories/GHSA-mcfx-4vc6-qgxv",
-      "date": "2026-05-07T16:39:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0119: Vulnerability in hickory-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0119.html",
-      "date": "2026-05-07T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0118: Vulnerability in hickory-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0118.html",
-      "date": "2026-05-07T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0120: Vulnerability in hickory-net",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0120.html",
-      "date": "2026-05-07T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
