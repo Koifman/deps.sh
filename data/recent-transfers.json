@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-08T08:44:53.109Z",
+  "scannedAt": "2026-05-08T09:44:34.629Z",
   "count": 97,
   "packages": [
     {
@@ -48,6 +48,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "tinymce",
+      "version": "8.5.0",
+      "ecosystem": "npm",
+      "score": 50,
+      "level": "HIGH",
+      "previousOwner": "spocke",
+      "currentOwner": "tinymce"
+    },
+    {
       "name": "karma",
       "version": "6.4.4",
       "ecosystem": "npm",
@@ -64,15 +73,6 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
-    },
-    {
-      "name": "appium",
-      "version": "3.4.2",
-      "ecosystem": "npm",
-      "score": 43,
-      "level": "MODERATE",
-      "previousOwner": "admc",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -777,15 +777,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@fortawesome/react-fontawesome",
-      "version": "3.3.1",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "supercodepoet",
-      "currentOwner": "lordofbacon"
-    },
-    {
       "name": "@oxlint/binding-linux-x64-musl",
       "version": "1.63.0",
       "ecosystem": "npm",
@@ -793,6 +784,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@fortawesome/react-fontawesome",
+      "version": "3.3.1",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "supercodepoet",
+      "currentOwner": "lordofbacon"
     },
     {
       "name": "@oxc-transform/binding-linux-x64-musl",
