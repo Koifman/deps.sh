@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-05-08T19:37:07.408Z",
+  "fetchedAt": "2026-05-08T20:30:03.796Z",
   "entries": [
+    {
+      "title": "[wagtail] Wagtail has improper permission handling when comparing revisions",
+      "url": "https://github.com/advisories/GHSA-c6wj-9vcj-75pj",
+      "date": "2026-05-08T20:17:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail has improper permission handling when comparing revisions",
+      "url": "https://github.com/advisories/GHSA-c6wj-9vcj-75pj",
+      "date": "2026-05-08T20:17:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@cyclonedx/cdxgen] @cyclonedx/cdxgen: Docker registry auth substring match forwards credentials to a different registry",
+      "url": "https://github.com/advisories/GHSA-qhh4-458h-xwh2",
+      "date": "2026-05-08T20:06:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw contains a symlink traversal vulnerability",
+      "url": "https://github.com/advisories/GHSA-35mw-5vvr-vrxc",
+      "date": "2026-05-08T20:04:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI has Unauthorized File and Knowledge Base Content Access via RAG Vector Search",
+      "url": "https://github.com/advisories/GHSA-h36f-rqpx-j5wx",
+      "date": "2026-05-08T20:03:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Deactivated Channel Members Retain Full Access to Group/DM Channels",
+      "url": "https://github.com/advisories/GHSA-hmgr-67hw-j2cq",
+      "date": "2026-05-08T20:01:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Read-Only Open WebUI Users Can Modify Collaborative Documents via Socket.IO",
+      "url": "https://github.com/advisories/GHSA-vrfh-rj4q-rmhr",
+      "date": "2026-05-08T20:00:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI's Ollama Model Access Control Bypass via /api/generate, /api/embed, /api/embeddings, and /api/show",
+      "url": "https://github.com/advisories/GHSA-rcvp-6fgw-c7fh",
+      "date": "2026-05-08T19:52:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI's Model Import Overwrites Any Model Without Ownership Check",
+      "url": "https://github.com/advisories/GHSA-mqq6-cqcx-38vg",
+      "date": "2026-05-08T19:52:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI Missing Access Check on Channel Members Endpoint for Standard Channels",
+      "url": "https://github.com/advisories/GHSA-c7wp-3qh5-55pv",
+      "date": "2026-05-08T19:51:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI vulnerable to Global Knowledge Base Enumeration via knowledge-bases Meta-Collection",
+      "url": "https://github.com/advisories/GHSA-6c2x-gcp3-gp73",
+      "date": "2026-05-08T19:51:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI has Knowledge Base Destruction and RAG Poisoning via Unauthorized Collection Overwrite",
+      "url": "https://github.com/advisories/GHSA-7r82-qhg4-6wvj",
+      "date": "2026-05-08T19:51:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI's Channel Access Grants Bypass filter_allowed_access_grants",
+      "url": "https://github.com/advisories/GHSA-7rjh-px4v-5w55",
+      "date": "2026-05-08T19:50:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI's responses passthrough endpoint lacks access control authorization",
+      "url": "https://github.com/advisories/GHSA-hp5m-24vp-vq2q",
+      "date": "2026-05-08T19:45:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI's Base Model Routing Bypasses Access Control via Model Chaining",
+      "url": "https://github.com/advisories/GHSA-9vvh-qmjx-p4q8",
+      "date": "2026-05-08T19:45:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Redis Cache Keys tool_servers and terminal_servers Missing Instance Prefix Enable Cross-Instance Cache Poisoning",
+      "url": "https://github.com/advisories/GHSA-3x8w-4f7p-xxc2",
+      "date": "2026-05-08T19:44:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Stale Admin Role in Socket.IO Session Pool Enables Post-Demotion Cross-User Note Access",
+      "url": "https://github.com/advisories/GHSA-45m8-cpm2-3v65",
+      "date": "2026-05-08T19:43:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI's Mass Assignment via Pydantic extra='allow' Allows Creating Folders in Other Users' Accounts",
+      "url": "https://github.com/advisories/GHSA-hr43-rjmr-7wmm",
+      "date": "2026-05-08T19:38:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI has an LDAP Empty Password Authentication Bypass",
+      "url": "https://github.com/advisories/GHSA-2r4p-jpmg-48f4",
+      "date": "2026-05-08T19:38:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[thrift] Apache Thrift vulnerable to Path Traversal, HTTP Request/Response Splitting, Uncontrolled Resource Consumption",
       "url": "https://github.com/advisories/GHSA-526f-jxpj-jmg2",
       "date": "2026-05-08T19:24:08.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@mikro-orm/knex] MikroORM has SQL injection via runtime-controlled identifiers and JSON-path keys",
-      "url": "https://github.com/advisories/GHSA-cfw5-68c4-ffqp",
-      "date": "2026-05-08T19:17:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@mikro-orm/sql] MikroORM has SQL injection via runtime-controlled identifiers and JSON-path keys",
-      "url": "https://github.com/advisories/GHSA-cfw5-68c4-ffqp",
-      "date": "2026-05-08T19:17:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via percent-encoded authority delimiters",
-      "url": "https://github.com/advisories/GHSA-v39h-62p7-jpjc",
-      "date": "2026-05-08T19:13:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[bugsink] Bunsink has an SSRF bypass in `validate_webhook_url`",
-      "url": "https://github.com/advisories/GHSA-fp53-qcf8-2xx2",
-      "date": "2026-05-08T19:09:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] open-webui Vulnerable to Stored XSS via Model Description",
-      "url": "https://github.com/advisories/GHSA-gf5m-wcrh-7928",
-      "date": "2026-05-08T19:00:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] open-webui Vulnerable to Stored XSS via Model Description",
-      "url": "https://github.com/advisories/GHSA-gf5m-wcrh-7928",
-      "date": "2026-05-08T19:00:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[rdiffweb] IKUS Rdiffweb allows an attacker with any valid or stolen access token to act as other users",
-      "url": "https://github.com/advisories/GHSA-v4gp-hf5j-4566",
-      "date": "2026-05-08T18:52:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[electerm] Electerm users can run dangrous code through link or command line",
-      "url": "https://github.com/advisories/GHSA-mpm8-cx2p-626q",
-      "date": "2026-05-08T18:46:05.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[electerm] Electerm Security Vulnerability: RCE via malicious SSH server filename in openFileWithEditor",
-      "url": "https://github.com/advisories/GHSA-q4p8-8j9m-8hxj",
-      "date": "2026-05-08T18:43:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[electerm] Electerm's full process.env exposed to renderer via window.pre.env",
-      "url": "https://github.com/advisories/GHSA-37j4-88rp-2f6h",
-      "date": "2026-05-08T18:37:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electerm] Electerm has an unvalidated shell.openExternal that allows arbitrary protocol execution via terminal link click",
-      "url": "https://github.com/advisories/GHSA-fwf6-j56g-m97c",
-      "date": "2026-05-08T18:35:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[electerm] Electerm runWidget has a path traversal that leads to arbitrary code execution",
-      "url": "https://github.com/advisories/GHSA-f77v-9vpc-6pjm",
-      "date": "2026-05-08T18:34:22.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[justhtml] justhtml introduces denial-of-service hardening",
-      "url": "https://github.com/advisories/GHSA-r8cj-3554-33mr",
-      "date": "2026-05-08T18:19:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[potato-annotation] `potato-annotation` has a Project-Boundary Bypass",
-      "url": "https://github.com/advisories/GHSA-q9m2-fhv9-3jcf",
-      "date": "2026-05-08T17:31:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to path traversal via percent-encoded dot segments",
-      "url": "https://github.com/advisories/GHSA-q3j6-qgpj-74h6",
-      "date": "2026-05-08T17:15:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@fastify/accepts-serializer] @fastify/accepts-serializer Vulnerable to Denial of Service via Unbounded Accept Header Cache Growth",
-      "url": "https://github.com/advisories/GHSA-qxhc-wx3p-2wmg",
-      "date": "2026-05-08T17:13:38.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n-mcp] n8n-mcp affected by path traversal, redirect-following SSRF, and telemetry payload exposure",
-      "url": "https://github.com/advisories/GHSA-8g7g-hmwm-6rv2",
-      "date": "2026-05-08T17:00:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n-mcp] n8n-mcp webhook and API client paths has an authenticated SSRF",
-      "url": "https://github.com/advisories/GHSA-cmrh-wvq6-wm9r",
-      "date": "2026-05-08T16:59:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@puchunjie/doc-tools-mcp] @puchunjie/doc-tools-mcp has a Path Traversal Issue",
-      "url": "https://github.com/advisories/GHSA-gcmm-c94j-j47x",
-      "date": "2026-05-08T16:54:56.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
