@@ -1,6 +1,111 @@
 {
-  "fetchedAt": "2026-05-08T22:26:48.464Z",
+  "fetchedAt": "2026-05-08T23:26:17.045Z",
   "entries": [
+    {
+      "title": "[paramiko] Paramiko rsakey.py allows the SHA-1 algorithm",
+      "url": "https://github.com/advisories/GHSA-r374-rxx8-8654",
+      "date": "2026-05-08T23:13:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[eml_parser] eml_parser has recursion DoS via nested message/rfc822 attachments",
+      "url": "https://github.com/advisories/GHSA-g47v-rwmh-r9f8",
+      "date": "2026-05-08T23:12:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ironic-python-agent] OpenStack Ironic has an Incorrect Resource Transfer Between Spheres",
+      "url": "https://github.com/advisories/GHSA-54w4-233h-x86g",
+      "date": "2026-05-08T23:07:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ironic-python-agent] OpenStack Ironic has an Incorrect Resource Transfer Between Spheres",
+      "url": "https://github.com/advisories/GHSA-54w4-233h-x86g",
+      "date": "2026-05-08T23:07:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ironic-python-agent] OpenStack Ironic has an Incorrect Resource Transfer Between Spheres",
+      "url": "https://github.com/advisories/GHSA-54w4-233h-x86g",
+      "date": "2026-05-08T23:07:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ironic-python-agent] OpenStack Ironic has an Incorrect Resource Transfer Between Spheres",
+      "url": "https://github.com/advisories/GHSA-54w4-233h-x86g",
+      "date": "2026-05-08T23:07:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langchain-core] LangChain vulnerable to unsafe deserialization of attacker-controlled objects through overly broad `load()` allowlists",
+      "url": "https://github.com/advisories/GHSA-pjwx-r37v-7724",
+      "date": "2026-05-08T23:07:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langchain-core] LangChain vulnerable to unsafe deserialization of attacker-controlled objects through overly broad `load()` allowlists",
+      "url": "https://github.com/advisories/GHSA-pjwx-r37v-7724",
+      "date": "2026-05-08T23:07:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI Vulnerable to Arbitrary File Upload and Path Traversal",
+      "url": "https://github.com/advisories/GHSA-9pgh-j74g-qj6m",
+      "date": "2026-05-08T22:38:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI has Improper Authorization Control",
+      "url": "https://github.com/advisories/GHSA-4vg5-rp28-gvjf",
+      "date": "2026-05-08T22:34:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI has stored XSS in Excel file preview",
+      "url": "https://github.com/advisories/GHSA-jwf8-pv5p-vhmc",
+      "date": "2026-05-08T22:26:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI has Stored XSS in Pending User Overlay via Incorrect DOMPurify Application Order",
+      "url": "https://github.com/advisories/GHSA-fq3v-xjjx-95rc",
+      "date": "2026-05-08T22:21:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langchain-chatchat] Langchain-Chatchat Uses Insufficiently Random Values",
+      "url": "https://github.com/advisories/GHSA-jv4p-mhmp-69vw",
+      "date": "2026-05-08T22:20:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[horizon] OpenStack Horizon has Incorrect Behavior Order",
+      "url": "https://github.com/advisories/GHSA-vxvf-xvm3-p8j5",
+      "date": "2026-05-08T22:19:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langchain-chatchat] Langchain-Chatchat has a Race Condition in its OpenAI-Compatible File Upload API",
+      "url": "https://github.com/advisories/GHSA-x229-w2j4-h748",
+      "date": "2026-05-08T22:17:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[langchain-chatchat] Langchain-Chatchat Uses a Broken or Risky Cryptographic Algorithm",
       "url": "https://github.com/advisories/GHSA-wmvv-fhm6-w34x",
@@ -33,111 +138,6 @@
       "title": "[Django] Django has an Improper Handling of Length Parameter Inconsistency",
       "url": "https://github.com/advisories/GHSA-w26r-rmm8-9c29",
       "date": "2026-05-08T22:14:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Django] Django Uses Persistent Cookies Containing Sensitive Information",
-      "url": "https://github.com/advisories/GHSA-7h2m-m8vj-598h",
-      "date": "2026-05-08T22:14:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[Django] Django Uses Persistent Cookies Containing Sensitive Information",
-      "url": "https://github.com/advisories/GHSA-7h2m-m8vj-598h",
-      "date": "2026-05-08T22:14:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[eventsource-encoder] eventsource-encoder vulnerable to SSE event injection via unsanitized `event` and `id` fields",
-      "url": "https://github.com/advisories/GHSA-m9g3-3g99-mhpx",
-      "date": "2026-05-08T20:49:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[cline] Cline Kanban Server has a Cross-Origin WebSocket Hijacking Vulnerability",
-      "url": "https://github.com/advisories/GHSA-5c57-rqjx-35g2",
-      "date": "2026-05-08T20:43:17.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[banks] banks has Critical Remote Code Execution (RCE) via Jinja2 SSTI",
-      "url": "https://github.com/advisories/GHSA-gphh-9q3h-jgpp",
-      "date": "2026-05-08T20:36:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@babel/plugin-transform-modules-systemjs] @babel/plugin-transform-modules-systemjs generates arbitrary code when compiling malicious input",
-      "url": "https://github.com/advisories/GHSA-fv7c-fp4j-7gwp",
-      "date": "2026-05-08T20:34:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@babel/plugin-transform-modules-systemjs] @babel/plugin-transform-modules-systemjs generates arbitrary code when compiling malicious input",
-      "url": "https://github.com/advisories/GHSA-fv7c-fp4j-7gwp",
-      "date": "2026-05-08T20:34:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[wagtail] Wagtail has improper permission handling when copying pages",
-      "url": "https://github.com/advisories/GHSA-67rv-mg8q-5pf3",
-      "date": "2026-05-08T20:23:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail has improper permission handling when copying pages",
-      "url": "https://github.com/advisories/GHSA-67rv-mg8q-5pf3",
-      "date": "2026-05-08T20:23:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail has improper restriction handling on Documents and Images API",
-      "url": "https://github.com/advisories/GHSA-p5gm-92h4-6pv6",
-      "date": "2026-05-08T20:21:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail has improper restriction handling on Documents and Images API",
-      "url": "https://github.com/advisories/GHSA-p5gm-92h4-6pv6",
-      "date": "2026-05-08T20:21:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail has improper permission handling when deleting form submissions",
-      "url": "https://github.com/advisories/GHSA-pwm3-7fv4-g6xx",
-      "date": "2026-05-08T20:20:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail has improper permission handling when deleting form submissions",
-      "url": "https://github.com/advisories/GHSA-pwm3-7fv4-g6xx",
-      "date": "2026-05-08T20:20:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail has improper permission handling when viewing page history",
-      "url": "https://github.com/advisories/GHSA-c4mr-889m-vgf6",
-      "date": "2026-05-08T20:19:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail has improper permission handling when viewing page history",
-      "url": "https://github.com/advisories/GHSA-c4mr-889m-vgf6",
-      "date": "2026-05-08T20:19:09.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
