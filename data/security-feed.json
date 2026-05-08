@@ -1,6 +1,97 @@
 {
-  "fetchedAt": "2026-05-08T18:40:51.619Z",
+  "fetchedAt": "2026-05-08T19:37:07.408Z",
   "entries": [
+    {
+      "title": "[thrift] Apache Thrift vulnerable to Path Traversal, HTTP Request/Response Splitting, Uncontrolled Resource Consumption",
+      "url": "https://github.com/advisories/GHSA-526f-jxpj-jmg2",
+      "date": "2026-05-08T19:24:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@mikro-orm/knex] MikroORM has SQL injection via runtime-controlled identifiers and JSON-path keys",
+      "url": "https://github.com/advisories/GHSA-cfw5-68c4-ffqp",
+      "date": "2026-05-08T19:17:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@mikro-orm/sql] MikroORM has SQL injection via runtime-controlled identifiers and JSON-path keys",
+      "url": "https://github.com/advisories/GHSA-cfw5-68c4-ffqp",
+      "date": "2026-05-08T19:17:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via percent-encoded authority delimiters",
+      "url": "https://github.com/advisories/GHSA-v39h-62p7-jpjc",
+      "date": "2026-05-08T19:13:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[bugsink] Bunsink has an SSRF bypass in `validate_webhook_url`",
+      "url": "https://github.com/advisories/GHSA-fp53-qcf8-2xx2",
+      "date": "2026-05-08T19:09:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] open-webui Vulnerable to Stored XSS via Model Description",
+      "url": "https://github.com/advisories/GHSA-gf5m-wcrh-7928",
+      "date": "2026-05-08T19:00:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] open-webui Vulnerable to Stored XSS via Model Description",
+      "url": "https://github.com/advisories/GHSA-gf5m-wcrh-7928",
+      "date": "2026-05-08T19:00:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[rdiffweb] IKUS Rdiffweb allows an attacker with any valid or stolen access token to act as other users",
+      "url": "https://github.com/advisories/GHSA-v4gp-hf5j-4566",
+      "date": "2026-05-08T18:52:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[electerm] Electerm users can run dangrous code through link or command line",
+      "url": "https://github.com/advisories/GHSA-mpm8-cx2p-626q",
+      "date": "2026-05-08T18:46:05.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[electerm] Electerm Security Vulnerability: RCE via malicious SSH server filename in openFileWithEditor",
+      "url": "https://github.com/advisories/GHSA-q4p8-8j9m-8hxj",
+      "date": "2026-05-08T18:43:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[electerm] Electerm's full process.env exposed to renderer via window.pre.env",
+      "url": "https://github.com/advisories/GHSA-37j4-88rp-2f6h",
+      "date": "2026-05-08T18:37:43.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[electerm] Electerm has an unvalidated shell.openExternal that allows arbitrary protocol execution via terminal link click",
+      "url": "https://github.com/advisories/GHSA-fwf6-j56g-m97c",
+      "date": "2026-05-08T18:35:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[electerm] Electerm runWidget has a path traversal that leads to arbitrary code execution",
+      "url": "https://github.com/advisories/GHSA-f77v-9vpc-6pjm",
+      "date": "2026-05-08T18:34:22.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[justhtml] justhtml introduces denial-of-service hardening",
       "url": "https://github.com/advisories/GHSA-r8cj-3554-33mr",
@@ -49,97 +140,6 @@
       "date": "2026-05-08T16:54:56.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[gmaps-mcp] gmaps-mcp's unauthenticated HTTP transport allows unlimited Google Maps API calls at operator expense",
-      "url": "https://github.com/advisories/GHSA-52cq-7v8r-62c6",
-      "date": "2026-05-08T16:32:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-xml-builder] fast-xml-builder allows attribute values with unwanted quotes to bypass malicious or unwanted attributes",
-      "url": "https://github.com/advisories/GHSA-5wm8-gmm8-39j9",
-      "date": "2026-05-08T16:29:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-xml-builder] fast-xml-builder Comment Value regex can be bypassed",
-      "url": "https://github.com/advisories/GHSA-45c6-75p6-83cc",
-      "date": "2026-05-08T16:27:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[MindsDB] MindsDB has an Improper Access Control Issue",
-      "url": "https://github.com/advisories/GHSA-9f6m-65v9-x9g2",
-      "date": "2026-05-08T16:23:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vm2] vm2 has access to `VM2_INTERNAL_STATE_DO_NOT_USE_OR_PROGRAM_WILL_FAIL`",
-      "url": "https://github.com/advisories/GHSA-2cm2-m3w5-gp2f",
-      "date": "2026-05-08T16:22:53.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vm2] vm2 has Sandbox Breakout Through Null Proto Exception",
-      "url": "https://github.com/advisories/GHSA-9vg3-4rfj-wgcm",
-      "date": "2026-05-08T16:20:58.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2 has sandbox breakout via `neutralizeArraySpeciesBatch`",
-      "url": "https://github.com/advisories/GHSA-9qj6-qjgg-37qq",
-      "date": "2026-05-08T15:58:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[utcp-http] utcp-http vulnerable to SSRF via attacker-controlled OpenAPI servers[0].url in HTTP communication protocol",
-      "url": "https://github.com/advisories/GHSA-39j6-4867-gg4w",
-      "date": "2026-05-07T22:32:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[netbox-data-flows] netbox-data-flows has stored XSS in ObjectAlias names rendered inside DataFlow tables",
-      "url": "https://github.com/advisories/GHSA-v7qw-hx66-4w9x",
-      "date": "2026-05-07T22:31:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mcp-ssh-tool] mcp-ssh-tool has file transfer path policy bypass and bearer token comparison hardening",
-      "url": "https://github.com/advisories/GHSA-j7h9-2jh7-g967",
-      "date": "2026-05-07T21:45:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apm-cli] Microsoft APM CLI's plugin.json component paths escape plugin root and copy arbitrary host files during install",
-      "url": "https://github.com/advisories/GHSA-xhrw-5qxx-jpwr",
-      "date": "2026-05-07T21:41:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sglang] SGLang has an Improper Input Validation/Injection Issue",
-      "url": "https://github.com/advisories/GHSA-6m5f-673f-5vh7",
-      "date": "2026-05-07T21:09:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sublinear-time-solver] sublinear-time-solver has a Path Traversal Issue",
-      "url": "https://github.com/advisories/GHSA-gc2j-wpjv-jhrw",
-      "date": "2026-05-07T21:09:00.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
