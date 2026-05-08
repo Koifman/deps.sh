@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-05-08T17:38:16.047Z",
+  "fetchedAt": "2026-05-08T18:40:51.619Z",
   "entries": [
+    {
+      "title": "[justhtml] justhtml introduces denial-of-service hardening",
+      "url": "https://github.com/advisories/GHSA-r8cj-3554-33mr",
+      "date": "2026-05-08T18:19:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[potato-annotation] `potato-annotation` has a Project-Boundary Bypass",
+      "url": "https://github.com/advisories/GHSA-q9m2-fhv9-3jcf",
+      "date": "2026-05-08T17:31:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[fast-uri] fast-uri vulnerable to path traversal via percent-encoded dot segments",
       "url": "https://github.com/advisories/GHSA-q3j6-qgpj-74h6",
@@ -126,20 +140,6 @@
       "date": "2026-05-07T21:09:00.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[nuxt-og-image] nuxt-og-image SSRF — bypass of GHSA-pqhr-mp3f-hrpp / v6.2.5 fix (IPv6 + redirect)",
-      "url": "https://github.com/advisories/GHSA-c2rm-g55x-8hr5",
-      "date": "2026-05-07T20:52:33.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[yii2-mcp-server] yii2-mcp-server has a Command Injection Issue",
-      "url": "https://github.com/advisories/GHSA-gc8w-x73w-p4rh",
-      "date": "2026-05-07T20:51:52.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
