@@ -1,6 +1,97 @@
 {
-  "fetchedAt": "2026-05-08T20:30:03.796Z",
+  "fetchedAt": "2026-05-08T21:28:15.171Z",
   "entries": [
+    {
+      "title": "[eventsource-encoder] eventsource-encoder vulnerable to SSE event injection via unsanitized `event` and `id` fields",
+      "url": "https://github.com/advisories/GHSA-m9g3-3g99-mhpx",
+      "date": "2026-05-08T20:49:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[cline] Cline Kanban Server has a Cross-Origin WebSocket Hijacking Vulnerability",
+      "url": "https://github.com/advisories/GHSA-5c57-rqjx-35g2",
+      "date": "2026-05-08T20:43:17.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[banks] banks has Critical Remote Code Execution (RCE) via Jinja2 SSTI",
+      "url": "https://github.com/advisories/GHSA-gphh-9q3h-jgpp",
+      "date": "2026-05-08T20:36:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@babel/plugin-transform-modules-systemjs] @babel/plugin-transform-modules-systemjs generates arbitrary code when compiling malicious input",
+      "url": "https://github.com/advisories/GHSA-fv7c-fp4j-7gwp",
+      "date": "2026-05-08T20:34:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@babel/plugin-transform-modules-systemjs] @babel/plugin-transform-modules-systemjs generates arbitrary code when compiling malicious input",
+      "url": "https://github.com/advisories/GHSA-fv7c-fp4j-7gwp",
+      "date": "2026-05-08T20:34:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[wagtail] Wagtail has improper permission handling when copying pages",
+      "url": "https://github.com/advisories/GHSA-67rv-mg8q-5pf3",
+      "date": "2026-05-08T20:23:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail has improper permission handling when copying pages",
+      "url": "https://github.com/advisories/GHSA-67rv-mg8q-5pf3",
+      "date": "2026-05-08T20:23:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail has improper restriction handling on Documents and Images API",
+      "url": "https://github.com/advisories/GHSA-p5gm-92h4-6pv6",
+      "date": "2026-05-08T20:21:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail has improper restriction handling on Documents and Images API",
+      "url": "https://github.com/advisories/GHSA-p5gm-92h4-6pv6",
+      "date": "2026-05-08T20:21:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail has improper permission handling when deleting form submissions",
+      "url": "https://github.com/advisories/GHSA-pwm3-7fv4-g6xx",
+      "date": "2026-05-08T20:20:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail has improper permission handling when deleting form submissions",
+      "url": "https://github.com/advisories/GHSA-pwm3-7fv4-g6xx",
+      "date": "2026-05-08T20:20:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail has improper permission handling when viewing page history",
+      "url": "https://github.com/advisories/GHSA-c4mr-889m-vgf6",
+      "date": "2026-05-08T20:19:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail has improper permission handling when viewing page history",
+      "url": "https://github.com/advisories/GHSA-c4mr-889m-vgf6",
+      "date": "2026-05-08T20:19:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[wagtail] Wagtail has improper permission handling when comparing revisions",
       "url": "https://github.com/advisories/GHSA-c6wj-9vcj-75pj",
@@ -49,97 +140,6 @@
       "date": "2026-05-08T20:00:58.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI's Ollama Model Access Control Bypass via /api/generate, /api/embed, /api/embeddings, and /api/show",
-      "url": "https://github.com/advisories/GHSA-rcvp-6fgw-c7fh",
-      "date": "2026-05-08T19:52:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI's Model Import Overwrites Any Model Without Ownership Check",
-      "url": "https://github.com/advisories/GHSA-mqq6-cqcx-38vg",
-      "date": "2026-05-08T19:52:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI Missing Access Check on Channel Members Endpoint for Standard Channels",
-      "url": "https://github.com/advisories/GHSA-c7wp-3qh5-55pv",
-      "date": "2026-05-08T19:51:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI vulnerable to Global Knowledge Base Enumeration via knowledge-bases Meta-Collection",
-      "url": "https://github.com/advisories/GHSA-6c2x-gcp3-gp73",
-      "date": "2026-05-08T19:51:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI has Knowledge Base Destruction and RAG Poisoning via Unauthorized Collection Overwrite",
-      "url": "https://github.com/advisories/GHSA-7r82-qhg4-6wvj",
-      "date": "2026-05-08T19:51:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI's Channel Access Grants Bypass filter_allowed_access_grants",
-      "url": "https://github.com/advisories/GHSA-7rjh-px4v-5w55",
-      "date": "2026-05-08T19:50:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI's responses passthrough endpoint lacks access control authorization",
-      "url": "https://github.com/advisories/GHSA-hp5m-24vp-vq2q",
-      "date": "2026-05-08T19:45:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI's Base Model Routing Bypasses Access Control via Model Chaining",
-      "url": "https://github.com/advisories/GHSA-9vvh-qmjx-p4q8",
-      "date": "2026-05-08T19:45:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Redis Cache Keys tool_servers and terminal_servers Missing Instance Prefix Enable Cross-Instance Cache Poisoning",
-      "url": "https://github.com/advisories/GHSA-3x8w-4f7p-xxc2",
-      "date": "2026-05-08T19:44:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Stale Admin Role in Socket.IO Session Pool Enables Post-Demotion Cross-User Note Access",
-      "url": "https://github.com/advisories/GHSA-45m8-cpm2-3v65",
-      "date": "2026-05-08T19:43:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI's Mass Assignment via Pydantic extra='allow' Allows Creating Folders in Other Users' Accounts",
-      "url": "https://github.com/advisories/GHSA-hr43-rjmr-7wmm",
-      "date": "2026-05-08T19:38:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI has an LDAP Empty Password Authentication Bypass",
-      "url": "https://github.com/advisories/GHSA-2r4p-jpmg-48f4",
-      "date": "2026-05-08T19:38:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[thrift] Apache Thrift vulnerable to Path Traversal, HTTP Request/Response Splitting, Uncontrolled Resource Consumption",
-      "url": "https://github.com/advisories/GHSA-526f-jxpj-jmg2",
-      "date": "2026-05-08T19:24:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
