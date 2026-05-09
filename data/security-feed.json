@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-05-08T23:26:17.045Z",
+  "fetchedAt": "2026-05-09T01:02:06.676Z",
   "entries": [
+    {
+      "title": "[mistune] Mistune Heading ID Attribute has Injection XSS",
+      "url": "https://github.com/advisories/GHSA-v87v-83h2-53w7",
+      "date": "2026-05-09T00:13:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@yoda.digital/gitlab-mcp-server] @yoda.digital/gitlab-mcp-server's SSE transport has no authentication and wildcard CORS, exposing all 86 GitLab tools",
+      "url": "https://github.com/advisories/GHSA-8jr5-6gvj-rfpf",
+      "date": "2026-05-09T00:10:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mistune] Mistune has XSS via unescaped figclass/figwidth in Figure directive",
+      "url": "https://github.com/advisories/GHSA-58cw-g322-p94v",
+      "date": "2026-05-08T23:43:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mistune] Mistune Math Plugin has an XSS Escape Bypass",
+      "url": "https://github.com/advisories/GHSA-8g87-j6q8-g93x",
+      "date": "2026-05-08T23:40:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[GitPython] GitPython: Newline injection in config_writer() section parameter bypasses CVE-2026-42215 patch, enabling RCE via core.hooksPath",
+      "url": "https://github.com/advisories/GHSA-mv93-w799-cj2w",
+      "date": "2026-05-08T23:19:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[paramiko] Paramiko rsakey.py allows the SHA-1 algorithm",
       "url": "https://github.com/advisories/GHSA-r374-rxx8-8654",
@@ -105,41 +140,6 @@
       "date": "2026-05-08T22:17:33.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[langchain-chatchat] Langchain-Chatchat Uses a Broken or Risky Cryptographic Algorithm",
-      "url": "https://github.com/advisories/GHSA-wmvv-fhm6-w34x",
-      "date": "2026-05-08T22:16:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[Django] Django Uses Cache Containing Sensitive Information",
-      "url": "https://github.com/advisories/GHSA-5hrc-gvxj-w55p",
-      "date": "2026-05-08T22:15:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[Django] Django Uses Cache Containing Sensitive Information",
-      "url": "https://github.com/advisories/GHSA-5hrc-gvxj-w55p",
-      "date": "2026-05-08T22:15:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[Django] Django has an Improper Handling of Length Parameter Inconsistency",
-      "url": "https://github.com/advisories/GHSA-w26r-rmm8-9c29",
-      "date": "2026-05-08T22:14:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Django] Django has an Improper Handling of Length Parameter Inconsistency",
-      "url": "https://github.com/advisories/GHSA-w26r-rmm8-9c29",
-      "date": "2026-05-08T22:14:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
