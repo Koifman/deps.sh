@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-05-09T01:02:06.676Z",
+  "fetchedAt": "2026-05-09T03:17:13.918Z",
   "entries": [
+    {
+      "title": "[hono] Hono has CSS Declaration Injection via Style Object Values in JSX SSR",
+      "url": "https://github.com/advisories/GHSA-qp7p-654g-cw7p",
+      "date": "2026-05-09T00:46:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono has improper validation of NumericDate claims (exp, nbf, iat) in JWT verify()",
+      "url": "https://github.com/advisories/GHSA-hm8q-7f3q-5f36",
+      "date": "2026-05-09T00:45:20.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@profullstack/mcp-server] @profullstack/mcp-server vulnerable to OS Command Injection in domain_lookup Module",
+      "url": "https://github.com/advisories/GHSA-v6wj-c83f-v46x",
+      "date": "2026-05-09T00:42:13.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[velocityjs] Velocity.js has a Prototype Pollution vulnerability through #set path assignment",
+      "url": "https://github.com/advisories/GHSA-j658-c2gf-x6pq",
+      "date": "2026-05-09T00:40:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[hono] Hono's Cache Middleware ignores Vary: Authorization / Vary: Cookie leading to cross-user cache leakage",
+      "url": "https://github.com/advisories/GHSA-p77w-8qqv-26rm",
+      "date": "2026-05-09T00:28:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[mistune] Mistune Heading ID Attribute has Injection XSS",
       "url": "https://github.com/advisories/GHSA-v87v-83h2-53w7",
@@ -105,41 +140,6 @@
       "date": "2026-05-08T22:34:13.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI has stored XSS in Excel file preview",
-      "url": "https://github.com/advisories/GHSA-jwf8-pv5p-vhmc",
-      "date": "2026-05-08T22:26:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI has Stored XSS in Pending User Overlay via Incorrect DOMPurify Application Order",
-      "url": "https://github.com/advisories/GHSA-fq3v-xjjx-95rc",
-      "date": "2026-05-08T22:21:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langchain-chatchat] Langchain-Chatchat Uses Insufficiently Random Values",
-      "url": "https://github.com/advisories/GHSA-jv4p-mhmp-69vw",
-      "date": "2026-05-08T22:20:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[horizon] OpenStack Horizon has Incorrect Behavior Order",
-      "url": "https://github.com/advisories/GHSA-vxvf-xvm3-p8j5",
-      "date": "2026-05-08T22:19:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langchain-chatchat] Langchain-Chatchat has a Race Condition in its OpenAI-Compatible File Upload API",
-      "url": "https://github.com/advisories/GHSA-x229-w2j4-h748",
-      "date": "2026-05-08T22:17:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }
