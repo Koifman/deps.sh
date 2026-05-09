@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-09T07:42:37.866Z",
+  "scannedAt": "2026-05-09T08:44:20.105Z",
   "count": 97,
   "packages": [
     {
@@ -399,15 +399,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@trivago/prettier-plugin-sort-imports",
-      "version": "6.0.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "ayusharma",
-      "currentOwner": "behraang"
-    },
-    {
       "name": "@hey-api/openapi-ts",
       "version": "0.97.1",
       "ecosystem": "npm",
@@ -415,6 +406,15 @@
       "level": "MODERATE",
       "previousOwner": "lmenus",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@trivago/prettier-plugin-sort-imports",
+      "version": "6.0.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "ayusharma",
+      "currentOwner": "behraang"
     },
     {
       "name": "pe-library",
@@ -642,21 +642,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lingui/message-utils",
-      "version": "6.0.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "andrii.bodnar",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/tsconfig",
       "version": "1.1.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@lingui/message-utils",
+      "version": "6.0.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -732,8 +732,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-x64-musl",
-      "version": "0.129.0",
+      "name": "@oxlint/binding-linux-x64-gnu",
+      "version": "1.63.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -741,8 +741,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-gnu",
-      "version": "1.63.0",
+      "name": "@oxc-parser/binding-linux-x64-musl",
+      "version": "0.129.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -822,15 +822,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "@lottiefiles/dotlottie-web",
       "version": "0.72.1",
       "ecosystem": "npm",
@@ -840,7 +831,25 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
+    },
+    {
       "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.129.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.129.0",
       "ecosystem": "npm",
       "score": 20,
@@ -864,15 +873,6 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "jackocnr",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-parser/binding-linux-arm64-gnu",
-      "version": "0.129.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     }
   ]
