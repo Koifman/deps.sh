@@ -1,143 +1,144 @@
 {
-  "fetchedAt": "2026-05-11T13:14:33.990Z",
+  "fetchedAt": "2026-05-11T15:11:15.990Z",
   "entries": [
     {
-      "title": "RUSTSEC-2026-0122: Unsoundness in rkyv",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0122.html",
-      "date": "2026-05-11T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[hono] Hono has CSS Declaration Injection via Style Object Values in JSX SSR",
-      "url": "https://github.com/advisories/GHSA-qp7p-654g-cw7p",
-      "date": "2026-05-09T00:46:44.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono has improper validation of NumericDate claims (exp, nbf, iat) in JWT verify()",
-      "url": "https://github.com/advisories/GHSA-hm8q-7f3q-5f36",
-      "date": "2026-05-09T00:45:20.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@profullstack/mcp-server] @profullstack/mcp-server vulnerable to OS Command Injection in domain_lookup Module",
-      "url": "https://github.com/advisories/GHSA-v6wj-c83f-v46x",
-      "date": "2026-05-09T00:42:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[velocityjs] Velocity.js has a Prototype Pollution vulnerability through #set path assignment",
-      "url": "https://github.com/advisories/GHSA-j658-c2gf-x6pq",
-      "date": "2026-05-09T00:40:17.000Z",
-      "ecosystem": "npm",
+      "title": "[python-liquid] python-liquid: Absolute paths escape filesystem loader search path",
+      "url": "https://github.com/advisories/GHSA-8p4x-wr7x-3788",
+      "date": "2026-05-11T14:57:44.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[hono] Hono's Cache Middleware ignores Vary: Authorization / Vary: Cookie leading to cross-user cache leakage",
-      "url": "https://github.com/advisories/GHSA-p77w-8qqv-26rm",
-      "date": "2026-05-09T00:28:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mistune] Mistune Heading ID Attribute has Injection XSS",
-      "url": "https://github.com/advisories/GHSA-v87v-83h2-53w7",
-      "date": "2026-05-09T00:13:13.000Z",
+      "title": "[oxidize-pdf] oxidize-pdf: NaN/inf bypass in colour content-stream emission causes PDF rejection (DoS)",
+      "url": "https://github.com/advisories/GHSA-88q9-cmp2-c2vq",
+      "date": "2026-05-11T14:53:27.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[@yoda.digital/gitlab-mcp-server] @yoda.digital/gitlab-mcp-server's SSE transport has no authentication and wildcard CORS, exposing all 86 GitLab tools",
-      "url": "https://github.com/advisories/GHSA-8jr5-6gvj-rfpf",
-      "date": "2026-05-09T00:10:30.000Z",
+      "title": "[urllib3] urllib3: Decompression-bomb safeguards bypassed in parts of the streaming API",
+      "url": "https://github.com/advisories/GHSA-mf9v-mfxr-j63j",
+      "date": "2026-05-11T14:51:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[urllib3] urllib3: Sensitive headers forwarded across origins in proxied low-level redirects",
+      "url": "https://github.com/advisories/GHSA-qccp-gfcp-xxvc",
+      "date": "2026-05-11T14:51:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@vitejs/plugin-rsc] @vitejs/plugin-rsc has a Denial of Service Vulnerability in React Server Components",
+      "url": "https://github.com/advisories/GHSA-w94c-4vhp-22gx",
+      "date": "2026-05-11T14:50:38.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[mistune] Mistune has XSS via unescaped figclass/figwidth in Figure directive",
-      "url": "https://github.com/advisories/GHSA-58cw-g322-p94v",
-      "date": "2026-05-08T23:43:12.000Z",
+      "title": "[next] Next.js Vulnerable to Denial of Service with Server Components",
+      "url": "https://github.com/advisories/GHSA-8h8q-6873-q5fj",
+      "date": "2026-05-11T14:50:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[next] Next.js Vulnerable to Denial of Service with Server Components",
+      "url": "https://github.com/advisories/GHSA-8h8q-6873-q5fj",
+      "date": "2026-05-11T14:50:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-webpack] Facebook React has a Denial of Service Vulnerability in React Server Components",
+      "url": "https://github.com/advisories/GHSA-rv78-f8rc-xrxh",
+      "date": "2026-05-11T14:50:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-turbopack] Facebook React has a Denial of Service Vulnerability in React Server Components",
+      "url": "https://github.com/advisories/GHSA-rv78-f8rc-xrxh",
+      "date": "2026-05-11T14:50:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-parcel] Facebook React has a Denial of Service Vulnerability in React Server Components",
+      "url": "https://github.com/advisories/GHSA-rv78-f8rc-xrxh",
+      "date": "2026-05-11T14:50:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-webpack] Facebook React has a Denial of Service Vulnerability in React Server Components",
+      "url": "https://github.com/advisories/GHSA-rv78-f8rc-xrxh",
+      "date": "2026-05-11T14:50:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-turbopack] Facebook React has a Denial of Service Vulnerability in React Server Components",
+      "url": "https://github.com/advisories/GHSA-rv78-f8rc-xrxh",
+      "date": "2026-05-11T14:50:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-parcel] Facebook React has a Denial of Service Vulnerability in React Server Components",
+      "url": "https://github.com/advisories/GHSA-rv78-f8rc-xrxh",
+      "date": "2026-05-11T14:50:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-webpack] Facebook React has a Denial of Service Vulnerability in React Server Components",
+      "url": "https://github.com/advisories/GHSA-rv78-f8rc-xrxh",
+      "date": "2026-05-11T14:50:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-turbopack] Facebook React has a Denial of Service Vulnerability in React Server Components",
+      "url": "https://github.com/advisories/GHSA-rv78-f8rc-xrxh",
+      "date": "2026-05-11T14:50:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-server-dom-parcel] Facebook React has a Denial of Service Vulnerability in React Server Components",
+      "url": "https://github.com/advisories/GHSA-rv78-f8rc-xrxh",
+      "date": "2026-05-11T14:50:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[guarddog] GuardDog has a blind GitHub URL rewrite in remote project scanning causes SSRF and `GH_TOKEN` exfiltration",
+      "url": "https://github.com/advisories/GHSA-587r-mc96-6f2p",
+      "date": "2026-05-11T14:45:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[guarddog] GuardDog: Unsanitized human-readable scan output allows terminal escape injection from malicious package content",
+      "url": "https://github.com/advisories/GHSA-m5p4-gvpx-4mvr",
+      "date": "2026-05-11T14:43:45.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[mistune] Mistune Math Plugin has an XSS Escape Bypass",
-      "url": "https://github.com/advisories/GHSA-8g87-j6q8-g93x",
-      "date": "2026-05-08T23:40:05.000Z",
+      "title": "[keylime] Keylime has a hardcoded attestation challenge nonce that allows replay attacks",
+      "url": "https://github.com/advisories/GHSA-q8w6-w55c-ccv5",
+      "date": "2026-05-11T14:42:47.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[GitPython] GitPython: Newline injection in config_writer() section parameter bypasses CVE-2026-42215 patch, enabling RCE via core.hooksPath",
-      "url": "https://github.com/advisories/GHSA-mv93-w799-cj2w",
-      "date": "2026-05-08T23:19:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[paramiko] Paramiko rsakey.py allows the SHA-1 algorithm",
-      "url": "https://github.com/advisories/GHSA-r374-rxx8-8654",
-      "date": "2026-05-08T23:13:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[eml_parser] eml_parser has recursion DoS via nested message/rfc822 attachments",
-      "url": "https://github.com/advisories/GHSA-g47v-rwmh-r9f8",
-      "date": "2026-05-08T23:12:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ironic-python-agent] OpenStack Ironic has an Incorrect Resource Transfer Between Spheres",
-      "url": "https://github.com/advisories/GHSA-54w4-233h-x86g",
-      "date": "2026-05-08T23:07:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ironic-python-agent] OpenStack Ironic has an Incorrect Resource Transfer Between Spheres",
-      "url": "https://github.com/advisories/GHSA-54w4-233h-x86g",
-      "date": "2026-05-08T23:07:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ironic-python-agent] OpenStack Ironic has an Incorrect Resource Transfer Between Spheres",
-      "url": "https://github.com/advisories/GHSA-54w4-233h-x86g",
-      "date": "2026-05-08T23:07:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ironic-python-agent] OpenStack Ironic has an Incorrect Resource Transfer Between Spheres",
-      "url": "https://github.com/advisories/GHSA-54w4-233h-x86g",
-      "date": "2026-05-08T23:07:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langchain-core] LangChain vulnerable to unsafe deserialization of attacker-controlled objects through overly broad `load()` allowlists",
-      "url": "https://github.com/advisories/GHSA-pjwx-r37v-7724",
-      "date": "2026-05-08T23:07:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langchain-core] LangChain vulnerable to unsafe deserialization of attacker-controlled objects through overly broad `load()` allowlists",
-      "url": "https://github.com/advisories/GHSA-pjwx-r37v-7724",
-      "date": "2026-05-08T23:07:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI Vulnerable to Arbitrary File Upload and Path Traversal",
-      "url": "https://github.com/advisories/GHSA-9pgh-j74g-qj6m",
-      "date": "2026-05-08T22:38:11.000Z",
-      "ecosystem": "pypi",
+      "title": "[@opentelemetry/auto-instrumentations-node] Prometheus exporter process crash via malformed HTTP request",
+      "url": "https://github.com/advisories/GHSA-q7rr-3cgh-j5r3",
+      "date": "2026-05-11T14:42:12.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
