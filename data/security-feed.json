@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-05-11T09:23:04.955Z",
+  "fetchedAt": "2026-05-11T11:12:36.185Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0122: Unsoundness in rkyv",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0122.html",
+      "date": "2026-05-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[hono] Hono has CSS Declaration Injection via Style Object Values in JSX SSR",
       "url": "https://github.com/advisories/GHSA-qp7p-654g-cw7p",
@@ -131,13 +137,6 @@
       "title": "[open-webui] Open WebUI Vulnerable to Arbitrary File Upload and Path Traversal",
       "url": "https://github.com/advisories/GHSA-9pgh-j74g-qj6m",
       "date": "2026-05-08T22:38:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI has Improper Authorization Control",
-      "url": "https://github.com/advisories/GHSA-4vg5-rp28-gvjf",
-      "date": "2026-05-08T22:34:13.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
