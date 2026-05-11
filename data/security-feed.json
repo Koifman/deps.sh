@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-05-11T17:02:38.447Z",
+  "fetchedAt": "2026-05-11T18:47:40.498Z",
   "entries": [
     {
-      "title": "[next] Next.js vulnerable to cross-site scripting in App Router applications using CSP nonces",
-      "url": "https://github.com/advisories/GHSA-ffhc-5mcf-pf4q",
-      "date": "2026-05-11T15:57:14.000Z",
+      "title": "[@wdio/browserstack-service] WebdriverIO BrowserStack Service has a Command Injection issue",
+      "url": "https://github.com/advisories/GHSA-5c46-x3qw-q7j7",
+      "date": "2026-05-11T17:53:48.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[next] Next.js has a Middleware / Proxy bypass in App Router applications via segment-prefetch routes - Incomplete Fix Follow-Up",
+      "url": "https://github.com/advisories/GHSA-26hh-7cqf-hhc6",
+      "date": "2026-05-11T16:21:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[next] Next.js has a Middleware / Proxy bypass in App Router applications via segment-prefetch routes - Incomplete Fix Follow-Up",
+      "url": "https://github.com/advisories/GHSA-26hh-7cqf-hhc6",
+      "date": "2026-05-11T16:21:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[angular-expressions] Angular Expressions - Remote Code Execution using filters",
+      "url": "https://github.com/advisories/GHSA-pw8r-6689-xvf4",
+      "date": "2026-05-11T16:20:59.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[budibase] Budibase vulnerable to SSRF via trivial `.tar.gz` substring bypass in Plugin URL upload (`/api/plugin`)",
+      "url": "https://github.com/advisories/GHSA-xh5j-727m-w6gg",
+      "date": "2026-05-11T16:20:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[litellm] LiteLLM has a sandbox escape in custom-code guardrail",
+      "url": "https://github.com/advisories/GHSA-wxxx-gvqv-xp7p",
+      "date": "2026-05-11T16:17:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[litellm] Duplicate Advisory: LiteLLM has a sandbox escape in custom-code guardrail",
+      "url": "https://github.com/advisories/GHSA-3926-2jvf-fg29",
+      "date": "2026-05-11T16:17:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@github/copilot] GitHub Copilot CLI: Nested Bare Repository Can Execute Arbitrary Commands via core.fsmonitor",
+      "url": "https://github.com/advisories/GHSA-9ccr-r5hg-74gf",
+      "date": "2026-05-11T16:16:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Browser SSRF hostname validation could be bypassed by DNS rebinding",
+      "url": "https://github.com/advisories/GHSA-w7rc-vvgx-pj45",
+      "date": "2026-05-11T16:15:00.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[next] Next.js vulnerable to cross-site scripting in App Router applications using CSP nonces",
-      "url": "https://github.com/advisories/GHSA-ffhc-5mcf-pf4q",
-      "date": "2026-05-11T15:57:14.000Z",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Exec environment denylist missed high-risk interpreter startup variables",
+      "url": "https://github.com/advisories/GHSA-xrgf-r9gr-jjjf",
+      "date": "2026-05-11T16:14:50.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Gateway HTTP endpoints re-resolve bearer auth after SecretRef rotation",
+      "url": "https://github.com/advisories/GHSA-m8wm-r5vq-qjpg",
+      "date": "2026-05-11T16:14:21.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Feishu webhook and card-action validation now fail closed",
+      "url": "https://github.com/advisories/GHSA-cjg8-85gj-v9q2",
+      "date": "2026-05-11T16:14:10.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Matrix room control-command authorization no longer trusts DM pairing-store entries",
+      "url": "https://github.com/advisories/GHSA-79rr-5c85-xvw3",
+      "date": "2026-05-11T16:14:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: OpenShell FS bridge writes stay pinned to the sandbox mount root",
+      "url": "https://github.com/advisories/GHSA-6f72-9gxx-98mj",
+      "date": "2026-05-11T16:13:49.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[next] Next.js vulnerable to cache poisoning via collisions in React Server Component cache-busting",
-      "url": "https://github.com/advisories/GHSA-vfv6-92ff-j949",
-      "date": "2026-05-11T15:56:49.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[next] Next.js vulnerable to cache poisoning via collisions in React Server Component cache-busting",
-      "url": "https://github.com/advisories/GHSA-vfv6-92ff-j949",
-      "date": "2026-05-11T15:56:49.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[next] Next.js has cross-site scripting in beforeInteractive scripts with untrusted input",
-      "url": "https://github.com/advisories/GHSA-gx5p-jg67-6x7h",
-      "date": "2026-05-11T15:56:39.000Z",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw validates Zalo outbound photo URLs through the SSRF guard",
+      "url": "https://github.com/advisories/GHSA-qvmw-h675-h7qg",
+      "date": "2026-05-11T16:13:38.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[next] Next.js has cross-site scripting in beforeInteractive scripts with untrusted input",
-      "url": "https://github.com/advisories/GHSA-gx5p-jg67-6x7h",
-      "date": "2026-05-11T15:56:39.000Z",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Workspace dotenv could override runtime-control environment variables",
+      "url": "https://github.com/advisories/GHSA-9r9j-3r2w-fg3v",
+      "date": "2026-05-11T16:13:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: OpenShell FS bridge reads pin and verify the opened file before returning bytes",
+      "url": "https://github.com/advisories/GHSA-frr5-j3mh-h9ch",
+      "date": "2026-05-11T16:13:20.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[next] Next.js vulnerable to Denial of Service via connection exhaustion in applications using Cache Components",
-      "url": "https://github.com/advisories/GHSA-mg66-mrh9-m8jx",
-      "date": "2026-05-11T15:56:24.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js vulnerable to Denial of Service via connection exhaustion in applications using Cache Components",
-      "url": "https://github.com/advisories/GHSA-mg66-mrh9-m8jx",
-      "date": "2026-05-11T15:56:24.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js has a Denial of Service in the Image Optimization API",
-      "url": "https://github.com/advisories/GHSA-h64f-5h5j-jqjh",
-      "date": "2026-05-11T15:56:06.000Z",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: QQBot direct media upload skipped URL SSRF validation",
+      "url": "https://github.com/advisories/GHSA-r747-33r4-rmjw",
+      "date": "2026-05-11T16:12:58.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[next] Next.js has a Denial of Service in the Image Optimization API",
-      "url": "https://github.com/advisories/GHSA-h64f-5h5j-jqjh",
-      "date": "2026-05-11T15:56:06.000Z",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: MCP loopback owner context is derived from server-issued bearer tokens",
+      "url": "https://github.com/advisories/GHSA-35vf-vw9f-q3cr",
+      "date": "2026-05-11T16:12:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: CDP /json/version WebSocket URL could pivot to untrusted second-hop targets",
+      "url": "https://github.com/advisories/GHSA-3r56-7hhr-vfg9",
+      "date": "2026-05-11T16:12:43.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[next] Next.js vulnerable to server-side request forgery in applications using WebSocket upgrades",
-      "url": "https://github.com/advisories/GHSA-c4j6-fc7j-m34r",
-      "date": "2026-05-11T15:55:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js vulnerable to server-side request forgery in applications using WebSocket upgrades",
-      "url": "https://github.com/advisories/GHSA-c4j6-fc7j-m34r",
-      "date": "2026-05-11T15:55:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js has a Middleware / Proxy bypass through dynamic route parameter injection",
-      "url": "https://github.com/advisories/GHSA-492v-c6pp-mqqv",
-      "date": "2026-05-11T15:55:28.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js has a Middleware / Proxy bypass through dynamic route parameter injection",
-      "url": "https://github.com/advisories/GHSA-492v-c6pp-mqqv",
-      "date": "2026-05-11T15:55:28.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js vulnerable to cache poisoning in React Server Component responses",
-      "url": "https://github.com/advisories/GHSA-wfc6-r584-vfw7",
-      "date": "2026-05-11T15:55:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next] Next.js vulnerable to cache poisoning in React Server Component responses",
-      "url": "https://github.com/advisories/GHSA-wfc6-r584-vfw7",
-      "date": "2026-05-11T15:55:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next] Next.js has a Middleware / Proxy bypass in App Router applications via segment-prefetch routes",
-      "url": "https://github.com/advisories/GHSA-267c-6grr-h53f",
-      "date": "2026-05-11T15:55:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js has a Middleware / Proxy bypass in App Router applications via segment-prefetch routes",
-      "url": "https://github.com/advisories/GHSA-267c-6grr-h53f",
-      "date": "2026-05-11T15:55:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js has a Middleware / Proxy bypass in Pages Router applications using i18n",
-      "url": "https://github.com/advisories/GHSA-36qx-fr4f-26g5",
-      "date": "2026-05-11T15:55:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js has a Middleware / Proxy bypass in Pages Router applications using i18n",
-      "url": "https://github.com/advisories/GHSA-36qx-fr4f-26g5",
-      "date": "2026-05-11T15:55:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
