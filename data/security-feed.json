@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-05-11T23:26:04.947Z",
+  "fetchedAt": "2026-05-12T01:01:37.533Z",
   "entries": [
     {
-      "title": "[kysely] Kysely: JSON-path traversal injection via unsanitized path-leg metacharacters in `JSONPathBuilder.key()` / `.at()`",
-      "url": "https://github.com/advisories/GHSA-pv5w-4p9q-p3v2",
-      "date": "2026-05-11T19:40:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[local-deep-research] local-deep-research is Vulnerable to HTML Injection via Unescaped User Input in PDF Export (`pdf_service.py:_markdown_to_html`)",
-      "url": "https://github.com/advisories/GHSA-fj2m-qvh9-jq4q",
-      "date": "2026-05-11T19:40:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@nyariv/sandboxjs] SandboxJS has a sandbox escape via Function.caller leakage of internal call op",
-      "url": "https://github.com/advisories/GHSA-g8f2-4f4f-5jqw",
-      "date": "2026-05-11T19:40:03.000Z",
+      "title": "[@tanstack/zod-adapter] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[mermaid] Mermaid: Improper sanitization of configuration leads to CSS injection",
-      "url": "https://github.com/advisories/GHSA-87f9-hvmw-gh4p",
-      "date": "2026-05-11T19:37:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mermaid] Mermaid: Improper sanitization of configuration leads to CSS injection",
-      "url": "https://github.com/advisories/GHSA-87f9-hvmw-gh4p",
-      "date": "2026-05-11T19:37:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mermaid] Mermaid Gantt Charts are vulnerable to an Infinite Loop DoS",
-      "url": "https://github.com/advisories/GHSA-6m6c-36f7-fhxh",
-      "date": "2026-05-11T19:36:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mermaid] Mermaid Gantt Charts are vulnerable to an Infinite Loop DoS",
-      "url": "https://github.com/advisories/GHSA-6m6c-36f7-fhxh",
-      "date": "2026-05-11T19:36:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mermaid] Mermaid: Improper sanitization of `classDef` in state diagrams leads to HTML injection",
-      "url": "https://github.com/advisories/GHSA-ghcm-xqfw-q4vr",
-      "date": "2026-05-11T19:36:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mermaid] Mermaid: Improper sanitization of `classDef` in state diagrams leads to HTML injection",
-      "url": "https://github.com/advisories/GHSA-ghcm-xqfw-q4vr",
-      "date": "2026-05-11T19:36:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mermaid] Mermaid: Improper sanitization of `classDefs` in diagrams leads to CSS injection",
-      "url": "https://github.com/advisories/GHSA-xcj9-5m2h-648r",
-      "date": "2026-05-11T19:36:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mermaid] Mermaid: Improper sanitization of `classDefs` in diagrams leads to CSS injection",
-      "url": "https://github.com/advisories/GHSA-xcj9-5m2h-648r",
-      "date": "2026-05-11T19:36:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@wdio/browserstack-service] WebdriverIO BrowserStack Service has a Command Injection issue",
-      "url": "https://github.com/advisories/GHSA-5c46-x3qw-q7j7",
-      "date": "2026-05-11T17:53:48.000Z",
+      "title": "[@tanstack/vue-start-server] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[next] Next.js has a Middleware / Proxy bypass in App Router applications via segment-prefetch routes - Incomplete Fix Follow-Up",
-      "url": "https://github.com/advisories/GHSA-26hh-7cqf-hhc6",
-      "date": "2026-05-11T16:21:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js has a Middleware / Proxy bypass in App Router applications via segment-prefetch routes - Incomplete Fix Follow-Up",
-      "url": "https://github.com/advisories/GHSA-26hh-7cqf-hhc6",
-      "date": "2026-05-11T16:21:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[angular-expressions] Angular Expressions - Remote Code Execution using filters",
-      "url": "https://github.com/advisories/GHSA-pw8r-6689-xvf4",
-      "date": "2026-05-11T16:20:59.000Z",
+      "title": "[@tanstack/vue-start-client] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[budibase] Budibase vulnerable to SSRF via trivial `.tar.gz` substring bypass in Plugin URL upload (`/api/plugin`)",
-      "url": "https://github.com/advisories/GHSA-xh5j-727m-w6gg",
-      "date": "2026-05-11T16:20:29.000Z",
+      "title": "[@tanstack/vue-start] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[litellm] LiteLLM has a sandbox escape in custom-code guardrail",
-      "url": "https://github.com/advisories/GHSA-wxxx-gvqv-xp7p",
-      "date": "2026-05-11T16:17:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[litellm] Duplicate Advisory: LiteLLM has a sandbox escape in custom-code guardrail",
-      "url": "https://github.com/advisories/GHSA-3926-2jvf-fg29",
-      "date": "2026-05-11T16:17:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@github/copilot] GitHub Copilot CLI: Nested Bare Repository Can Execute Arbitrary Commands via core.fsmonitor",
-      "url": "https://github.com/advisories/GHSA-9ccr-r5hg-74gf",
-      "date": "2026-05-11T16:16:06.000Z",
+      "title": "[@tanstack/vue-router-ssr-query] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Browser SSRF hostname validation could be bypassed by DNS rebinding",
-      "url": "https://github.com/advisories/GHSA-w7rc-vvgx-pj45",
-      "date": "2026-05-11T16:15:00.000Z",
+      "title": "[@tanstack/vue-router-devtools] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/vue-router] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/virtual-file-routes] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/valibot-adapter] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/start-storage-context] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/start-static-server-functions] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/start-server-core] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/start-plugin-core] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/start-fn-stubs] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/start-client-core] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/solid-start-server] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/solid-start-client] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/solid-start] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/solid-router-ssr-query] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/solid-router-devtools] Malware in @tanstack/* packages exfiltrates cloud credentials, GitHub tokens, and SSH keys",
+      "url": "https://github.com/advisories/GHSA-g7cv-rxg3-hmpx",
+      "date": "2026-05-12T00:12:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
     }
   ]
 }
