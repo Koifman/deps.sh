@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-05-12T19:41:32.763Z",
-  "count": 99,
+  "scannedAt": "2026-05-12T20:43:00.535Z",
+  "count": 97,
   "packages": [
     {
       "name": "xmldom",
@@ -46,15 +46,6 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "tinymce",
-      "version": "8.5.0",
-      "ecosystem": "npm",
-      "score": 50,
-      "level": "HIGH",
-      "previousOwner": "spocke",
-      "currentOwner": "tinymce"
     },
     {
       "name": "karma",
@@ -237,21 +228,21 @@
       "currentOwner": "michaelficarra"
     },
     {
-      "name": "string.prototype.trimend",
-      "version": "1.0.9",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "khaledelansari",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "is-array-buffer",
       "version": "3.0.5",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
       "previousOwner": "fengyuanchen",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "string.prototype.trimend",
+      "version": "1.0.9",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "khaledelansari",
       "currentOwner": "ljharb"
     },
     {
@@ -262,6 +253,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "well-known-symbols",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "novemberborn",
+      "currentOwner": "ljharb"
     },
     {
       "name": "tslib",
@@ -444,15 +444,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "hasown",
-      "version": "2.0.3",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "radubrehar",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "@babel/parser",
       "version": "7.29.3",
       "ecosystem": "npm",
@@ -460,6 +451,15 @@
       "level": "MODERATE",
       "previousOwner": "hzoo",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "hasown",
+      "version": "2.0.3",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "radubrehar",
+      "currentOwner": "ljharb"
     },
     {
       "name": "espree",
@@ -552,8 +552,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
+      "name": "css-has-pseudo",
+      "version": "8.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -561,8 +561,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.0",
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -804,8 +804,8 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.130.0",
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.49.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -813,8 +813,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.49.0",
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.130.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -831,15 +831,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "@lottiefiles/dotlottie-web",
       "version": "0.72.1",
       "ecosystem": "npm",
@@ -847,6 +838,15 @@
       "level": "LOW",
       "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-gnu",
@@ -874,24 +874,6 @@
       "level": "LOW",
       "previousOwner": "nev21",
       "currentOwner": "nevware21bot"
-    },
-    {
-      "name": "intl-tel-input",
-      "version": "28.0.7",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "jackocnr",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "meriyah",
-      "version": "7.1.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "meriyah",
-      "currentOwner": "GitHub Actions"
     }
   ]
 }
