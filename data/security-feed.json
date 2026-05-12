@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-05-12T21:34:34.730Z",
+  "fetchedAt": "2026-05-12T22:33:32.167Z",
   "entries": [
+    {
+      "title": "[sillytavern] SillyTavern has Authentication Bypass via SSO Header Injection",
+      "url": "https://github.com/advisories/GHSA-gxx6-h3g6-vwjh",
+      "date": "2026-05-12T22:23:33.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[sillytavern] SillyTavern: Existing sessions are not invalidated after password change, allowing session reuse and account takeover",
+      "url": "https://github.com/advisories/GHSA-wmm3-h9qj-p5v6",
+      "date": "2026-05-12T22:23:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise: Bcrypt Password Hash Exposure",
+      "url": "https://github.com/advisories/GHSA-8f47-4rh3-x44m",
+      "date": "2026-05-12T22:22:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[GDAL] OSGeo GDAL vulnerable to out-of-bounds read",
       "url": "https://github.com/advisories/GHSA-j3f5-rw74-g4rv",
@@ -119,27 +140,6 @@
       "date": "2026-05-12T15:06:15.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[protobufjs] protobuf.js: Code injection through bytes field defaults in generated toObject code",
-      "url": "https://github.com/advisories/GHSA-66ff-xgx4-vchm",
-      "date": "2026-05-12T15:06:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[protobufjs] protobuf.js: Prototype injection in generated message constructors",
-      "url": "https://github.com/advisories/GHSA-fx83-v9x8-x52w",
-      "date": "2026-05-12T15:01:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[protobufjs] protobuf.js: Prototype injection in generated message constructors",
-      "url": "https://github.com/advisories/GHSA-fx83-v9x8-x52w",
-      "date": "2026-05-12T15:01:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
