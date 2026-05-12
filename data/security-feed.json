@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-05-12T22:33:32.167Z",
+  "fetchedAt": "2026-05-12T23:29:43.996Z",
   "entries": [
+    {
+      "title": "[ujson] UltraJSON has a Memory Leak in ujson.dump() on Write Failure",
+      "url": "https://github.com/advisories/GHSA-c38f-wx89-p2xg",
+      "date": "2026-05-12T22:25:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sillytavern] SillyTavern has a SSRF vulnerability in the CORS proxy middleware",
+      "url": "https://github.com/advisories/GHSA-ccfq-2454-f5xw",
+      "date": "2026-05-12T22:24:07.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sillytavern] SillyTavern has a reflected XSS vulnerability in the CORS proxy middleware",
+      "url": "https://github.com/advisories/GHSA-xc4x-2452-5gc9",
+      "date": "2026-05-12T22:23:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sillytavern] SillyTavern has a Path Traversal issue",
+      "url": "https://github.com/advisories/GHSA-886q-f44j-h6wh",
+      "date": "2026-05-12T22:23:47.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[sillytavern] SillyTavern has Authentication Bypass via SSO Header Injection",
       "url": "https://github.com/advisories/GHSA-gxx6-h3g6-vwjh",
@@ -110,34 +138,6 @@
       "title": "[protobufjs-cli] protobuf.js: Code injection in pbjs static output from crafted schema names",
       "url": "https://github.com/advisories/GHSA-6r35-46g8-jcw9",
       "date": "2026-05-12T15:06:24.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[protobufjs-cli] protobuf.js: Code injection in pbjs static output from crafted schema names",
-      "url": "https://github.com/advisories/GHSA-6r35-46g8-jcw9",
-      "date": "2026-05-12T15:06:24.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[protobufjs] protobuf.js: Denial of service from crafted field names in generated code",
-      "url": "https://github.com/advisories/GHSA-2pr8-phx7-x9h3",
-      "date": "2026-05-12T15:06:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[protobufjs] protobuf.js: Denial of service from crafted field names in generated code",
-      "url": "https://github.com/advisories/GHSA-2pr8-phx7-x9h3",
-      "date": "2026-05-12T15:06:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[protobufjs] protobuf.js: Code injection through bytes field defaults in generated toObject code",
-      "url": "https://github.com/advisories/GHSA-66ff-xgx4-vchm",
-      "date": "2026-05-12T15:06:15.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
