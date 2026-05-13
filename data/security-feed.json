@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-13T20:41:22.596Z",
+  "fetchedAt": "2026-05-13T21:37:14.132Z",
   "entries": [
     {
       "title": "[@strapi/plugin-users-permissions] Strapi: Password Reset Does Not Revoke Existing Refresh Sessions",
@@ -107,6 +107,13 @@
       "severity": "MODERATE"
     },
     {
+      "title": "[langsmith] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
+      "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
+      "date": "2026-05-13T15:29:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
       "title": "[langchain] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
       "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
       "date": "2026-05-13T15:29:32.000Z",
@@ -125,13 +132,6 @@
       "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
       "date": "2026-05-13T15:29:32.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langsmith] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
-      "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
-      "date": "2026-05-13T15:29:32.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
