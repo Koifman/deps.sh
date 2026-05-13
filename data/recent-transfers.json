@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-13T05:28:00.720Z",
+  "scannedAt": "2026-05-13T07:19:52.774Z",
   "count": 97,
   "packages": [
     {
@@ -606,15 +606,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "redux-saga",
-      "version": "1.4.3",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "yelouafi",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/types",
       "version": "1.4.0",
       "ecosystem": "npm",
@@ -624,21 +615,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lingui/message-utils",
-      "version": "6.0.1",
+      "name": "redux-saga",
+      "version": "1.4.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "andrii.bodnar",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@hey-api/codegen-core",
-      "version": "0.8.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "mrlubos",
+      "previousOwner": "yelouafi",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -651,8 +633,17 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.1.2",
+      "name": "@lingui/message-utils",
+      "version": "6.0.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "andrii.bodnar",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/logger",
+      "version": "2.0.7",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -660,8 +651,17 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/logger",
-      "version": "2.0.7",
+      "name": "@hey-api/codegen-core",
+      "version": "0.8.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "mrlubos",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/tsconfig",
+      "version": "1.1.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -759,8 +759,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
-      "version": "0.130.0",
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.49.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -768,8 +768,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.49.0",
+      "name": "oxc-transform",
+      "version": "0.130.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -858,15 +858,6 @@
       "currentOwner": "nevware21bot"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.130.0",
       "ecosystem": "npm",
@@ -874,6 +865,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     }
   ]
 }
