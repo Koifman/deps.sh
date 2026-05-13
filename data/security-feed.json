@@ -1,12 +1,123 @@
 {
-  "fetchedAt": "2026-05-13T15:08:56.825Z",
+  "fetchedAt": "2026-05-13T16:56:17.842Z",
   "entries": [
+    {
+      "title": "[wger] wger has an Uncontrolled Resource Consumption issue",
+      "url": "https://github.com/advisories/GHSA-v25j-wqcw-fvhj",
+      "date": "2026-05-13T15:33:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[claude-code-cache-fix] claude-code-cache-fix vulnerable to local code execution via Python triple-quote injection in tools/quota-statusline.sh",
+      "url": "https://github.com/advisories/GHSA-g3xq-3gmv-qq8g",
+      "date": "2026-05-13T15:31:43.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nautobot] Nautobot: GitRepository.current_head field should not be writable through REST API",
+      "url": "https://github.com/advisories/GHSA-p3hx-pwf3-j8wr",
+      "date": "2026-05-13T15:31:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nautobot] Nautobot: GitRepository.current_head field should not be writable through REST API",
+      "url": "https://github.com/advisories/GHSA-p3hx-pwf3-j8wr",
+      "date": "2026-05-13T15:31:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nautobot] Nautobot: Webhook definitions could be used for server-side request forgery (SSRF)",
+      "url": "https://github.com/advisories/GHSA-c35q-vxrp-ph26",
+      "date": "2026-05-13T15:31:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nautobot] Nautobot: Webhook definitions could be used for server-side request forgery (SSRF)",
+      "url": "https://github.com/advisories/GHSA-c35q-vxrp-ph26",
+      "date": "2026-05-13T15:31:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nautobot] Nautobot: Object bulk rename UI actions vulnerable to denial of service by crafted regular expression (REDoS)",
+      "url": "https://github.com/advisories/GHSA-qrpw-gjvh-x5gm",
+      "date": "2026-05-13T15:30:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nautobot] Nautobot: Object bulk rename UI actions vulnerable to denial of service by crafted regular expression (REDoS)",
+      "url": "https://github.com/advisories/GHSA-qrpw-gjvh-x5gm",
+      "date": "2026-05-13T15:30:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nautobot] Nautobot: REST API permits creation of GenericForeignKey references to objects that the user should not be able to reference",
+      "url": "https://github.com/advisories/GHSA-wpxj-44w3-2j6x",
+      "date": "2026-05-13T15:30:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nautobot] Nautobot: REST API permits creation of GenericForeignKey references to objects that the user should not be able to reference",
+      "url": "https://github.com/advisories/GHSA-wpxj-44w3-2j6x",
+      "date": "2026-05-13T15:30:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langsmith] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
+      "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
+      "date": "2026-05-13T15:29:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langchain] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
+      "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
+      "date": "2026-05-13T15:29:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langchain-classic] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
+      "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
+      "date": "2026-05-13T15:29:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langsmith] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
+      "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
+      "date": "2026-05-13T15:29:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[systeminformation] Systeminformation vulnerable to Linux command injection in networkInterfaces() via unsanitized NetworkManager connection profile name",
+      "url": "https://github.com/advisories/GHSA-hvx9-hwr7-wjj9",
+      "date": "2026-05-13T15:29:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[electerm] Electerm users can run dangrous code through link or command line",
       "url": "https://github.com/advisories/GHSA-mpm8-cx2p-626q",
       "date": "2026-05-13T13:32:30.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
+    },
+    {
+      "title": "RUSTSEC-2026-0140: Vulnerability in dynoxide-rs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0140.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
       "title": "RUSTSEC-2026-0129: Unsoundness in dahl-salso",
@@ -25,105 +136,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0128.html",
       "date": "2026-05-13T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0131: Unsoundness in bitchomp",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0131.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0132: Unsoundness in ssdeep",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0132.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0130: Unsoundness in caja",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0130.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0133: Unsoundness in auto_vec",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0133.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0134: Unsoundness in diesel",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0134.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0136: Vulnerability in diesel",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0136.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0135: Unsoundness in diesel",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0135.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0137: Vulnerability in diesel",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0137.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0126: Security notice about libcrux-ml-dsa",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0126.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0125: Vulnerability in libcrux-ml-dsa",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0125.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0138: Unsoundness in diesel-async",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0138.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0139: Unsoundness in metacall",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0139.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0127: Unsoundness in accessor",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0127.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[openlearnx] OpenLearnX: Critical Authentication Bypass via JWT Signature Verification Disabled Leading to Account Takeover",
-      "url": "https://github.com/advisories/GHSA-223g-f5mq-gw33",
-      "date": "2026-05-13T01:39:05.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[short-video-maker] short-video-maker has a path traversal vulnerability",
-      "url": "https://github.com/advisories/GHSA-935g-9rq5-q95c",
-      "date": "2026-05-13T01:37:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openstack-cyborg] OpenStack Cyborg's Accelerator Request (ARQ) API does not enforce project ownership at any layer",
-      "url": "https://github.com/advisories/GHSA-mmpc-xjxr-5hf8",
-      "date": "2026-05-13T01:37:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
