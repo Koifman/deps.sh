@@ -1,9 +1,45 @@
 {
-  "fetchedAt": "2026-05-13T11:49:22.973Z",
+  "fetchedAt": "2026-05-13T12:57:33.713Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0129: Unsoundness in dahl-salso",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0129.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0124: Vulnerability in libcrux-chacha20poly1305",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0124.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0128: Unsoundness in emap",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0128.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0131: Unsoundness in bitchomp",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0131.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0132: Unsoundness in ssdeep",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0132.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0130: Unsoundness in caja",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0130.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0133: Unsoundness in auto_vec",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0133.html",
       "date": "2026-05-13T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -16,6 +52,12 @@
     {
       "title": "RUSTSEC-2026-0125: Vulnerability in libcrux-ml-dsa",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0125.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0127: Unsoundness in accessor",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0127.html",
       "date": "2026-05-13T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -88,55 +130,6 @@
       "date": "2026-05-12T22:23:57.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[sillytavern] SillyTavern has a Path Traversal issue",
-      "url": "https://github.com/advisories/GHSA-886q-f44j-h6wh",
-      "date": "2026-05-12T22:23:47.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[sillytavern] SillyTavern has Authentication Bypass via SSO Header Injection",
-      "url": "https://github.com/advisories/GHSA-gxx6-h3g6-vwjh",
-      "date": "2026-05-12T22:23:33.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[sillytavern] SillyTavern: Existing sessions are not invalidated after password change, allowing session reuse and account takeover",
-      "url": "https://github.com/advisories/GHSA-wmm3-h9qj-p5v6",
-      "date": "2026-05-12T22:23:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: Bcrypt Password Hash Exposure",
-      "url": "https://github.com/advisories/GHSA-8f47-4rh3-x44m",
-      "date": "2026-05-12T22:22:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[GDAL] OSGeo GDAL vulnerable to out-of-bounds read",
-      "url": "https://github.com/advisories/GHSA-j3f5-rw74-g4rv",
-      "date": "2026-05-12T16:29:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[GDAL] OSGeo GDAL vulnerable to heap-based buffer overflow",
-      "url": "https://github.com/advisories/GHSA-h9rh-5ffh-h669",
-      "date": "2026-05-12T16:29:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[postorius] Postorius is vulnerable to XSS",
-      "url": "https://github.com/advisories/GHSA-r7c9-7pjq-hmm8",
-      "date": "2026-05-12T16:20:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
