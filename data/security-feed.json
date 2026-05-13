@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-13T12:57:33.713Z",
+  "fetchedAt": "2026-05-13T13:51:11.821Z",
   "entries": [
+    {
+      "title": "[electerm] Electerm users can run dangrous code through link or command line",
+      "url": "https://github.com/advisories/GHSA-mpm8-cx2p-626q",
+      "date": "2026-05-13T13:32:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0129: Unsoundness in dahl-salso",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0129.html",
@@ -121,13 +128,6 @@
       "title": "[sillytavern] SillyTavern has a SSRF vulnerability in the CORS proxy middleware",
       "url": "https://github.com/advisories/GHSA-ccfq-2454-f5xw",
       "date": "2026-05-12T22:24:07.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sillytavern] SillyTavern has a reflected XSS vulnerability in the CORS proxy middleware",
-      "url": "https://github.com/advisories/GHSA-xc4x-2452-5gc9",
-      "date": "2026-05-12T22:23:57.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
