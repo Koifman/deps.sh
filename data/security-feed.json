@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-13T13:51:11.821Z",
+  "fetchedAt": "2026-05-13T15:08:56.825Z",
   "entries": [
     {
       "title": "[electerm] Electerm users can run dangrous code through link or command line",
@@ -51,6 +51,30 @@
       "ecosystem": "cargo"
     },
     {
+      "title": "RUSTSEC-2026-0134: Unsoundness in diesel",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0134.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0136: Vulnerability in diesel",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0136.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0135: Unsoundness in diesel",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0135.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0137: Vulnerability in diesel",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0137.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
       "title": "RUSTSEC-2026-0126: Security notice about libcrux-ml-dsa",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0126.html",
       "date": "2026-05-13T12:00:00+00:00",
@@ -59,6 +83,18 @@
     {
       "title": "RUSTSEC-2026-0125: Vulnerability in libcrux-ml-dsa",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0125.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0138: Unsoundness in diesel-async",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0138.html",
+      "date": "2026-05-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0139: Unsoundness in metacall",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0139.html",
       "date": "2026-05-13T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -87,48 +123,6 @@
       "url": "https://github.com/advisories/GHSA-mmpc-xjxr-5hf8",
       "date": "2026-05-13T01:37:26.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openstack-cyborg] OpenStack Cyborg uses rule:allow (check_str='@') as the default policy for multiple API endpoints",
-      "url": "https://github.com/advisories/GHSA-mm7j-mhhj-hj36",
-      "date": "2026-05-13T01:37:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[astro] Astro: Server island encrypted parameters vulnerable to cross-component replay",
-      "url": "https://github.com/advisories/GHSA-xr5h-phrj-8vxv",
-      "date": "2026-05-13T01:36:40.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[authlib] Authlib OIDC Implicit/Hybrid Authorization Vulnerable to Open Redirect",
-      "url": "https://github.com/advisories/GHSA-r95x-qfjj-fjj2",
-      "date": "2026-05-13T01:36:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[authlib] Authlib OIDC Implicit/Hybrid Authorization Vulnerable to Open Redirect",
-      "url": "https://github.com/advisories/GHSA-r95x-qfjj-fjj2",
-      "date": "2026-05-13T01:36:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ujson] UltraJSON has a Memory Leak in ujson.dump() on Write Failure",
-      "url": "https://github.com/advisories/GHSA-c38f-wx89-p2xg",
-      "date": "2026-05-12T22:25:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sillytavern] SillyTavern has a SSRF vulnerability in the CORS proxy middleware",
-      "url": "https://github.com/advisories/GHSA-ccfq-2454-f5xw",
-      "date": "2026-05-12T22:24:07.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
