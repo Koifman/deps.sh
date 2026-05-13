@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-05-13T19:38:30.223Z",
+  "fetchedAt": "2026-05-13T20:41:22.596Z",
   "entries": [
+    {
+      "title": "[@strapi/plugin-users-permissions] Strapi: Password Reset Does Not Revoke Existing Refresh Sessions",
+      "url": "https://github.com/advisories/GHSA-hvp3-26wx-g2w4",
+      "date": "2026-05-13T20:02:45.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@strapi/admin] Strapi: Password Reset Does Not Revoke Existing Refresh Sessions",
+      "url": "https://github.com/advisories/GHSA-hvp3-26wx-g2w4",
+      "date": "2026-05-13T20:02:45.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@strapi/plugin-content-type-builder] Strapi Vulnerable to SQL Injection in Content Type Builder",
+      "url": "https://github.com/advisories/GHSA-3xcq-8mjw-h6mx",
+      "date": "2026-05-13T20:02:40.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@strapi/content-type-builder] Strapi Vulnerable to SQL Injection in Content Type Builder",
+      "url": "https://github.com/advisories/GHSA-3xcq-8mjw-h6mx",
+      "date": "2026-05-13T20:02:40.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@strapi/plugin-users-permissions] Strapi has a rate limit bypass on users-permissions plugin via attacker-controlled email keying",
+      "url": "https://github.com/advisories/GHSA-7mqx-wwh4-f9fw",
+      "date": "2026-05-13T20:02:16.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[wger] wger has an Uncontrolled Resource Consumption issue",
       "url": "https://github.com/advisories/GHSA-v25j-wqcw-fvhj",
@@ -72,13 +107,6 @@
       "severity": "MODERATE"
     },
     {
-      "title": "[langsmith] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
-      "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
-      "date": "2026-05-13T15:29:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
       "title": "[langchain] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
       "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
       "date": "2026-05-13T15:29:32.000Z",
@@ -100,42 +128,18 @@
       "severity": "HIGH"
     },
     {
+      "title": "[langsmith] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
+      "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
+      "date": "2026-05-13T15:29:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
       "title": "[systeminformation] Systeminformation vulnerable to Linux command injection in networkInterfaces() via unsanitized NetworkManager connection profile name",
       "url": "https://github.com/advisories/GHSA-hvx9-hwr7-wjj9",
       "date": "2026-05-13T15:29:22.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[electerm] Electerm users can run dangrous code through link or command line",
-      "url": "https://github.com/advisories/GHSA-mpm8-cx2p-626q",
-      "date": "2026-05-13T13:32:30.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0140: Vulnerability in dynoxide-rs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0140.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0129: Unsoundness in dahl-salso",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0129.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0124: Vulnerability in libcrux-chacha20poly1305",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0124.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0128: Unsoundness in emap",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0128.html",
-      "date": "2026-05-13T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }

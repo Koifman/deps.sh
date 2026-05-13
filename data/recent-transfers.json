@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-13T19:41:12.890Z",
+  "scannedAt": "2026-05-13T20:44:28.811Z",
   "count": 96,
   "packages": [
     {
@@ -64,6 +64,15 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "appium",
+      "version": "3.4.2",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "admc",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -856,15 +865,6 @@
       "level": "LOW",
       "previousOwner": "antimatter15",
       "currentOwner": "balearica"
-    },
-    {
-      "name": "@nevware21/ts-utils",
-      "version": "0.13.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
     }
   ]
 }
