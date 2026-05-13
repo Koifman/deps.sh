@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-05-13T01:06:00.165Z",
+  "fetchedAt": "2026-05-13T03:18:55.291Z",
   "entries": [
+    {
+      "title": "[openlearnx] OpenLearnX: Critical Authentication Bypass via JWT Signature Verification Disabled Leading to Account Takeover",
+      "url": "https://github.com/advisories/GHSA-223g-f5mq-gw33",
+      "date": "2026-05-13T01:39:05.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[short-video-maker] short-video-maker has a path traversal vulnerability",
+      "url": "https://github.com/advisories/GHSA-935g-9rq5-q95c",
+      "date": "2026-05-13T01:37:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openstack-cyborg] OpenStack Cyborg's Accelerator Request (ARQ) API does not enforce project ownership at any layer",
+      "url": "https://github.com/advisories/GHSA-mmpc-xjxr-5hf8",
+      "date": "2026-05-13T01:37:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openstack-cyborg] OpenStack Cyborg uses rule:allow (check_str='@') as the default policy for multiple API endpoints",
+      "url": "https://github.com/advisories/GHSA-mm7j-mhhj-hj36",
+      "date": "2026-05-13T01:37:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[astro] Astro: Server island encrypted parameters vulnerable to cross-component replay",
+      "url": "https://github.com/advisories/GHSA-xr5h-phrj-8vxv",
+      "date": "2026-05-13T01:36:40.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[authlib] Authlib OIDC Implicit/Hybrid Authorization Vulnerable to Open Redirect",
+      "url": "https://github.com/advisories/GHSA-r95x-qfjj-fjj2",
+      "date": "2026-05-13T01:36:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[authlib] Authlib OIDC Implicit/Hybrid Authorization Vulnerable to Open Redirect",
+      "url": "https://github.com/advisories/GHSA-r95x-qfjj-fjj2",
+      "date": "2026-05-13T01:36:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[ujson] UltraJSON has a Memory Leak in ujson.dump() on Write Failure",
       "url": "https://github.com/advisories/GHSA-c38f-wx89-p2xg",
@@ -91,55 +140,6 @@
       "date": "2026-05-12T16:19:03.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[node-ts-ocr] node-ts-ocr is vulnerable to OS Command Injection via the invokeImageOcr function in src/index.js",
-      "url": "https://github.com/advisories/GHSA-8jh2-3mw6-6pfm",
-      "date": "2026-05-12T16:18:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-ini] parse-ini is vulnerable to Prototype Pollution in index.js()",
-      "url": "https://github.com/advisories/GHSA-x72j-hv9f-qqh4",
-      "date": "2026-05-12T16:18:48.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Delivery queue recovery could lose group tool-policy context for media replay",
-      "url": "https://github.com/advisories/GHSA-82rm-qcfx-2v78",
-      "date": "2026-05-12T16:18:08.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaude] OpenClaude Sandbox Bypass via Model-Controlled `dangerouslyDisableSandbox` Input",
-      "url": "https://github.com/advisories/GHSA-m77w-p5jj-xmhg",
-      "date": "2026-05-12T16:18:00.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@gitlawb/openclaude] OpenClaude MCP OAuth Callback: State Check Bypass via error Param Leads to DoS",
-      "url": "https://github.com/advisories/GHSA-c73c-x77g-854r",
-      "date": "2026-05-12T16:03:09.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sealed-env] sealed-env: TOTP secret embedded in unseal token payload (enterprise mode)",
-      "url": "https://github.com/advisories/GHSA-x3r2-fj3r-g5mv",
-      "date": "2026-05-12T15:09:10.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[protobufjs-cli] protobuf.js: Code injection in pbjs static output from crafted schema names",
-      "url": "https://github.com/advisories/GHSA-6r35-46g8-jcw9",
-      "date": "2026-05-12T15:06:24.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
