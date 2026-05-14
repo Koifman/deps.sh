@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-14T18:46:33.183Z",
+  "fetchedAt": "2026-05-14T19:37:31.251Z",
   "entries": [
+    {
+      "title": "[ethyca-fides] ethyca-fides has a DOM-based XSS vulnerability in fides.js via fides_description override",
+      "url": "https://github.com/advisories/GHSA-5qrq-9645-g5g2",
+      "date": "2026-05-14T19:04:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[apostrophe] Apostrophe has stored XSS via javascript: URL in Image Widget Link",
       "url": "https://github.com/advisories/GHSA-5f64-7vfc-rcx6",
@@ -133,13 +140,6 @@
       "date": "2026-05-14T16:18:48.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[matrix-synapse] Synapse CPU starvation (Denial of Service)",
-      "url": "https://github.com/advisories/GHSA-8q93-326v-3m7g",
-      "date": "2026-05-14T16:18:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
