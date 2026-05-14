@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-05-14T09:06:48.320Z",
+  "fetchedAt": "2026-05-14T10:54:38.081Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0141: Vulnerability in lettre",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0141.html",
+      "date": "2026-05-14T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[sillytavern] SillyTavern: Existing sessions are not invalidated after password change, allowing session reuse and account takeover",
       "url": "https://github.com/advisories/GHSA-wmm3-h9qj-p5v6",
@@ -132,13 +138,6 @@
       "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
       "date": "2026-05-13T15:29:32.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langsmith] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
-      "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
-      "date": "2026-05-13T15:29:32.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
