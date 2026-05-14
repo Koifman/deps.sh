@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-05-14T17:40:52.560Z",
+  "fetchedAt": "2026-05-14T18:46:33.183Z",
   "entries": [
+    {
+      "title": "[apostrophe] Apostrophe has stored XSS via javascript: URL in Image Widget Link",
+      "url": "https://github.com/advisories/GHSA-5f64-7vfc-rcx6",
+      "date": "2026-05-14T18:27:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apostrophe] Apostrophe has a Weak Password Recovery Mechanism for Forgotten Password and Improper Input Validation",
+      "url": "https://github.com/advisories/GHSA-gf43-24g3-5hw2",
+      "date": "2026-05-14T18:27:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apostrophe] Apostrophe has authenticated SSRF in rich-text widget import via @apostrophecms/area/validate-widget",
+      "url": "https://github.com/advisories/GHSA-pr28-mf3q-qpg6",
+      "date": "2026-05-14T18:26:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sanitize-html] Apostrophe has default XSS via `xmp` raw-text passthrough in `sanitize-html`",
+      "url": "https://github.com/advisories/GHSA-rpr9-rxv7-x643",
+      "date": "2026-05-14T18:26:29.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@karakeep/sdk] Karakeep SDK has SSRF via metascraper-logo-favicon that bypasses validateUrl protections",
+      "url": "https://github.com/advisories/GHSA-7rx4-c5vx-g8w3",
+      "date": "2026-05-14T18:26:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dbt-mcp] dbt MCP Server Transmits All MCP Tool Arguments Including Raw SQL and --vars Credentials to dbt Labs Telemetry by Default Without Redaction",
+      "url": "https://github.com/advisories/GHSA-jj54-r8gm-2fcf",
+      "date": "2026-05-14T18:25:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[dbt-mcp] dbt MCP Server Logs Tool Arguments Including SQL Queries and Credentials in Plaintext Without Redaction When File Logging Is Enabled",
+      "url": "https://github.com/advisories/GHSA-7xgw-6qf3-7w59",
+      "date": "2026-05-14T18:24:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[dbt-mcp] dbt MCP Server has an Argument Injection in dbt CLI Tool Wrappers via node_selection and resource_type Parameters",
+      "url": "https://github.com/advisories/GHSA-xpww-f6pm-cfhq",
+      "date": "2026-05-14T18:24:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@tanstack/start-server-core] TanStack Start - Server Core: Inbound server-function request deserialization could invoke a sibling client-referenced server function",
       "url": "https://github.com/advisories/GHSA-9m65-766c-r333",
@@ -84,62 +140,6 @@
       "date": "2026-05-14T16:18:43.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n Has a Cross-user Authorization Bypass in Dynamic Credential OAuth Endpoints",
-      "url": "https://github.com/advisories/GHSA-6h4j-wcr9-2vg7",
-      "date": "2026-05-14T16:18:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n Has a Cross-user Authorization Bypass in Dynamic Credential OAuth Endpoints",
-      "url": "https://github.com/advisories/GHSA-6h4j-wcr9-2vg7",
-      "date": "2026-05-14T16:18:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n Has a Cross-user Authorization Bypass in Dynamic Credential OAuth Endpoints",
-      "url": "https://github.com/advisories/GHSA-6h4j-wcr9-2vg7",
-      "date": "2026-05-14T16:18:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n Has a Source Control Pull SQL Injection",
-      "url": "https://github.com/advisories/GHSA-mhrx-qhrj-673w",
-      "date": "2026-05-14T16:18:00.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n Has a Source Control Pull SQL Injection",
-      "url": "https://github.com/advisories/GHSA-mhrx-qhrj-673w",
-      "date": "2026-05-14T16:18:00.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n Has a Source Control Pull SQL Injection",
-      "url": "https://github.com/advisories/GHSA-mhrx-qhrj-673w",
-      "date": "2026-05-14T16:18:00.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n Has an XML Node Prototype Pollution Patch Bypass",
-      "url": "https://github.com/advisories/GHSA-wrwr-h859-xh2r",
-      "date": "2026-05-14T16:17:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n Has an XML Node Prototype Pollution Patch Bypass",
-      "url": "https://github.com/advisories/GHSA-wrwr-h859-xh2r",
-      "date": "2026-05-14T16:17:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
