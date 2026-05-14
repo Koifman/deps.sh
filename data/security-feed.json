@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-05-14T19:37:31.251Z",
+  "fetchedAt": "2026-05-14T20:37:28.042Z",
   "entries": [
     {
-      "title": "[ethyca-fides] ethyca-fides has a DOM-based XSS vulnerability in fides.js via fides_description override",
-      "url": "https://github.com/advisories/GHSA-5qrq-9645-g5g2",
-      "date": "2026-05-14T19:04:16.000Z",
+      "title": "[open-webui] Open WebUI: shared-chat branch ignores access_type, allowing unauthorized file deletion",
+      "url": "https://github.com/advisories/GHSA-26g9-27vm-x3q8",
+      "date": "2026-05-14T20:28:38.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[apostrophe] Apostrophe has stored XSS via javascript: URL in Image Widget Link",
-      "url": "https://github.com/advisories/GHSA-5f64-7vfc-rcx6",
-      "date": "2026-05-14T18:27:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apostrophe] Apostrophe has a Weak Password Recovery Mechanism for Forgotten Password and Improper Input Validation",
-      "url": "https://github.com/advisories/GHSA-gf43-24g3-5hw2",
-      "date": "2026-05-14T18:27:14.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apostrophe] Apostrophe has authenticated SSRF in rich-text widget import via @apostrophecms/area/validate-widget",
-      "url": "https://github.com/advisories/GHSA-pr28-mf3q-qpg6",
-      "date": "2026-05-14T18:26:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sanitize-html] Apostrophe has default XSS via `xmp` raw-text passthrough in `sanitize-html`",
-      "url": "https://github.com/advisories/GHSA-rpr9-rxv7-x643",
-      "date": "2026-05-14T18:26:29.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@karakeep/sdk] Karakeep SDK has SSRF via metascraper-logo-favicon that bypasses validateUrl protections",
-      "url": "https://github.com/advisories/GHSA-7rx4-c5vx-g8w3",
-      "date": "2026-05-14T18:26:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dbt-mcp] dbt MCP Server Transmits All MCP Tool Arguments Including Raw SQL and --vars Credentials to dbt Labs Telemetry by Default Without Redaction",
-      "url": "https://github.com/advisories/GHSA-jj54-r8gm-2fcf",
-      "date": "2026-05-14T18:25:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[dbt-mcp] dbt MCP Server Logs Tool Arguments Including SQL Queries and Credentials in Plaintext Without Redaction When File Logging Is Enabled",
-      "url": "https://github.com/advisories/GHSA-7xgw-6qf3-7w59",
-      "date": "2026-05-14T18:24:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[dbt-mcp] dbt MCP Server has an Argument Injection in dbt CLI Tool Wrappers via node_selection and resource_type Parameters",
-      "url": "https://github.com/advisories/GHSA-xpww-f6pm-cfhq",
-      "date": "2026-05-14T18:24:29.000Z",
+      "title": "[open-webui] Open WebUI: Unauthenticated endpoint can trigger embedding generation (cost/DoS)",
+      "url": "https://github.com/advisories/GHSA-m69w-p7m4-585j",
+      "date": "2026-05-14T20:28:02.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[@tanstack/start-server-core] TanStack Start - Server Core: Inbound server-function request deserialization could invoke a sibling client-referenced server function",
-      "url": "https://github.com/advisories/GHSA-9m65-766c-r333",
-      "date": "2026-05-14T16:37:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mistune] Mistune Image Directive CSS Injection Vulnerability",
-      "url": "https://github.com/advisories/GHSA-ccfx-mfmx-2fx9",
-      "date": "2026-05-14T16:36:22.000Z",
+      "title": "[open-webui] Open WebUI has an Indirect Object Reference (IDOR) in user notes",
+      "url": "https://github.com/advisories/GHSA-x3qm-p8hr-3c3h",
+      "date": "2026-05-14T20:27:58.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[mistune] Mistune TOC Anchor Injection XSS",
-      "url": "https://github.com/advisories/GHSA-6269-cqxg-mhhv",
-      "date": "2026-05-14T16:36:12.000Z",
+      "title": "[open-webui] Open WebUI has Stored XSS in Banner Component via Improper Sanitization Order",
+      "url": "https://github.com/advisories/GHSA-cqp4-qqvg-3787",
+      "date": "2026-05-14T20:27:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Cross-User File Access via Unchecked file_id in Folder Knowledge and Knowledge-Base Attach Endpoints",
+      "url": "https://github.com/advisories/GHSA-r472-mw7m-967f",
+      "date": "2026-05-14T20:27:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI vulnerable to stored XSS via OAuth picture claim stored as SVG data URI in profile_image_url",
+      "url": "https://github.com/advisories/GHSA-3wgj-c2hg-vm6q",
+      "date": "2026-05-14T20:27:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI has a SSRF Bypass via HTTP Redirect Following in Web-Fetch and Image-Load Endpoints (not addressed by CVE-2025-65958)",
+      "url": "https://github.com/advisories/GHSA-rh5x-h6pp-cjj6",
+      "date": "2026-05-14T20:27:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI has a Server-Side Request Forgery (SSRF) bypass in `validate_url`",
+      "url": "https://github.com/advisories/GHSA-8w7q-q5jp-jvgx",
+      "date": "2026-05-14T20:27:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Low-privilege authenticated users can enumerate and stop global background tasks, causing system-wide chat disruption",
+      "url": "https://github.com/advisories/GHSA-8jjp-r2w2-4v22",
+      "date": "2026-05-14T20:26:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI Vulnerable to IDOR: Retrieval API Bypasses Knowledge Base Access Controls",
+      "url": "https://github.com/advisories/GHSA-4g37-7p2c-38r9",
+      "date": "2026-05-14T20:26:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI Vulnerable to Unauthenticated RAG Configuration Disclosure",
+      "url": "https://github.com/advisories/GHSA-65pg-qhhw-mxwg",
+      "date": "2026-05-14T20:26:37.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[flowise] FlowiseAI: Evaluator create+update mass-assignment allows cross-workspace evaluator takeover",
-      "url": "https://github.com/advisories/GHSA-wxrr-jp8m-qq7f",
-      "date": "2026-05-14T16:19:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] FlowiseAI: Evaluation create+update mass-assignment allows cross-workspace evaluation takeover",
-      "url": "https://github.com/advisories/GHSA-mq53-pc65-wjc4",
-      "date": "2026-05-14T16:19:50.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] FlowiseAI: DatasetRow create+update mass-assignment allows cross-workspace row takeover",
-      "url": "https://github.com/advisories/GHSA-7j65-65cr-6644",
-      "date": "2026-05-14T16:19:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] FlowiseAI: Dataset create+update mass-assignment allows cross-workspace dataset takeover",
-      "url": "https://github.com/advisories/GHSA-5h9v-837x-m97r",
-      "date": "2026-05-14T16:19:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] FlowiseAI: CustomTemplate create+update mass-assignment allows cross-workspace template takeover",
-      "url": "https://github.com/advisories/GHSA-728h-4mwj-f2p4",
-      "date": "2026-05-14T16:19:34.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] FlowiseAI: Assistant create+update mass-assignment allows cross-workspace assistant takeover",
-      "url": "https://github.com/advisories/GHSA-78pr-c5x5-jggc",
-      "date": "2026-05-14T16:19:28.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] FlowiseAI: Vector Store No Permission Checks",
-      "url": "https://github.com/advisories/GHSA-hmg2-jjjx-jcp2",
-      "date": "2026-05-14T16:19:25.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[matrix-synapse] Synapse pagination Denial of Service",
-      "url": "https://github.com/advisories/GHSA-6qf2-7x63-mm6v",
-      "date": "2026-05-14T16:18:48.000Z",
+      "title": "[open-webui] Open WebUI: Mass Assignment via FeedbackForm extra=allow Allows Feedback User ID Spoofing and Evaluation Data Manipulation",
+      "url": "https://github.com/advisories/GHSA-rjmp-vjf2-qf4g",
+      "date": "2026-05-14T20:26:22.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Missing `workspace.tools` Authorization Check on Tool Update Endpoint Allows Privilege Escalation to Code Execution",
+      "url": "https://github.com/advisories/GHSA-p4fx-23fq-jfg6",
+      "date": "2026-05-14T20:26:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Sharing models for others to use (read permission) also exposes model details (system prompt leakage)",
+      "url": "https://github.com/advisories/GHSA-h2cw-7qw9-56xr",
+      "date": "2026-05-14T20:26:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI has an IDOR vulnerability in the pin_channel_message API endpoint",
+      "url": "https://github.com/advisories/GHSA-5gc6-xhv4-2wg6",
+      "date": "2026-05-14T20:26:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI has an IDOR vulnerability in the update_message_by_id API endpoint",
+      "url": "https://github.com/advisories/GHSA-wwhq-cx22-f7vv",
+      "date": "2026-05-14T20:25:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Authenticated users can bypass model access control via exposed query parameter [AI-ASSISTED]",
+      "url": "https://github.com/advisories/GHSA-v6qf-75pr-p96m",
+      "date": "2026-05-14T20:25:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI Exposes System Prompt to Regular User [Non-Admin]",
+      "url": "https://github.com/advisories/GHSA-jh9g-8jqw-m2qx",
+      "date": "2026-05-14T20:25:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI's chat completion API allows tool restrictions to be bypassed",
+      "url": "https://github.com/advisories/GHSA-4pcg-253r-rf9w",
+      "date": "2026-05-14T20:24:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI has Broken Access Control for Completions API",
+      "url": "https://github.com/advisories/GHSA-gfm2-xm6c-37qc",
+      "date": "2026-05-14T20:24:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     }
   ]
 }
