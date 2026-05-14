@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-14T11:40:06.063Z",
+  "fetchedAt": "2026-05-14T12:49:56.272Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0141: Vulnerability in lettre",
@@ -120,6 +120,13 @@
       "severity": "MODERATE"
     },
     {
+      "title": "[langsmith] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
+      "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
+      "date": "2026-05-13T15:29:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
       "title": "[langchain] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
       "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
       "date": "2026-05-13T15:29:32.000Z",
@@ -128,13 +135,6 @@
     },
     {
       "title": "[langchain-classic] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
-      "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
-      "date": "2026-05-13T15:29:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langsmith] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
       "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
       "date": "2026-05-13T15:29:32.000Z",
       "ecosystem": "pypi",
