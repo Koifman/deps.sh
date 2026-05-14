@@ -1,6 +1,83 @@
 {
-  "fetchedAt": "2026-05-14T14:59:05.709Z",
+  "fetchedAt": "2026-05-14T15:56:34.084Z",
   "entries": [
+    {
+      "title": "[flowise] FlowiseAI Vulnerable to Credential Data Leak",
+      "url": "https://github.com/advisories/GHSA-7g73-99r4-m4mj",
+      "date": "2026-05-14T14:58:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@strapi/plugin-users-permissions] Strapi: Password Reset Does Not Revoke Existing Refresh Sessions",
+      "url": "https://github.com/advisories/GHSA-hvp3-26wx-g2w4",
+      "date": "2026-05-14T14:58:06.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@strapi/admin] Strapi: Password Reset Does Not Revoke Existing Refresh Sessions",
+      "url": "https://github.com/advisories/GHSA-hvp3-26wx-g2w4",
+      "date": "2026-05-14T14:58:06.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[flowise] FlowiseAI: Authenticated Host RCE via POST /api/v1/node-custom-function and NodeVM Sandbox Escape",
+      "url": "https://github.com/advisories/GHSA-9rvc-vf7m-pgm2",
+      "date": "2026-05-14T14:57:54.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] FlowiseAI has Mass Assignment in Assistant Update Endpoint that Allows Cross-Workspace Resource Reassignment",
+      "url": "https://github.com/advisories/GHSA-hp26-q66v-q2w7",
+      "date": "2026-05-14T14:57:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise-components] Flowise has an MCP Security Bypass that Enables RCE",
+      "url": "https://github.com/advisories/GHSA-m99r-2hxc-cp3q",
+      "date": "2026-05-14T14:57:31.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise has an MCP Security Bypass that Enables RCE",
+      "url": "https://github.com/advisories/GHSA-m99r-2hxc-cp3q",
+      "date": "2026-05-14T14:57:31.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] FlowiseAI Exposes Basic Auth Credentials via API",
+      "url": "https://github.com/advisories/GHSA-php6-83fg-gw3g",
+      "date": "2026-05-14T14:54:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] FlowiseAI has Mass Assignment in Chatflow Update Endpoint that Allows Cross-Workspace AgentFlow Reassignment",
+      "url": "https://github.com/advisories/GHSA-5wxp-qjgq-fx6m",
+      "date": "2026-05-14T14:54:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] FlowiseAI has Mass Assignment in Tool Update Endpoint that Allows Cross-Workspace Resource Reassignment",
+      "url": "https://github.com/advisories/GHSA-x5v6-pj28-cwwm",
+      "date": "2026-05-14T14:52:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] FlowiseAI has Mass Assignment in Variable Update Endpoint that Allows Cross-Workspace Resource Reassignment",
+      "url": "https://github.com/advisories/GHSA-6fw7-3q8r-m5vj",
+      "date": "2026-05-14T14:52:25.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@strapi/strapi] Strapi may leak sensitive data via relational filtering due to lack of query sanitization",
       "url": "https://github.com/advisories/GHSA-rjg2-95x7-8qmx",
@@ -20,27 +97,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0141.html",
       "date": "2026-05-14T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[sillytavern] SillyTavern: Existing sessions are not invalidated after password change, allowing session reuse and account takeover",
-      "url": "https://github.com/advisories/GHSA-wmm3-h9qj-p5v6",
-      "date": "2026-05-14T06:14:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@strapi/plugin-users-permissions] Strapi: Password Reset Does Not Revoke Existing Refresh Sessions",
-      "url": "https://github.com/advisories/GHSA-hvp3-26wx-g2w4",
-      "date": "2026-05-13T20:02:45.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@strapi/admin] Strapi: Password Reset Does Not Revoke Existing Refresh Sessions",
-      "url": "https://github.com/advisories/GHSA-hvp3-26wx-g2w4",
-      "date": "2026-05-13T20:02:45.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     },
     {
       "title": "[@strapi/plugin-content-type-builder] Strapi Vulnerable to SQL Injection in Content Type Builder",
@@ -81,62 +137,6 @@
       "title": "[nautobot] Nautobot: GitRepository.current_head field should not be writable through REST API",
       "url": "https://github.com/advisories/GHSA-p3hx-pwf3-j8wr",
       "date": "2026-05-13T15:31:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nautobot] Nautobot: GitRepository.current_head field should not be writable through REST API",
-      "url": "https://github.com/advisories/GHSA-p3hx-pwf3-j8wr",
-      "date": "2026-05-13T15:31:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nautobot] Nautobot: Webhook definitions could be used for server-side request forgery (SSRF)",
-      "url": "https://github.com/advisories/GHSA-c35q-vxrp-ph26",
-      "date": "2026-05-13T15:31:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nautobot] Nautobot: Webhook definitions could be used for server-side request forgery (SSRF)",
-      "url": "https://github.com/advisories/GHSA-c35q-vxrp-ph26",
-      "date": "2026-05-13T15:31:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nautobot] Nautobot: Object bulk rename UI actions vulnerable to denial of service by crafted regular expression (REDoS)",
-      "url": "https://github.com/advisories/GHSA-qrpw-gjvh-x5gm",
-      "date": "2026-05-13T15:30:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nautobot] Nautobot: Object bulk rename UI actions vulnerable to denial of service by crafted regular expression (REDoS)",
-      "url": "https://github.com/advisories/GHSA-qrpw-gjvh-x5gm",
-      "date": "2026-05-13T15:30:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nautobot] Nautobot: REST API permits creation of GenericForeignKey references to objects that the user should not be able to reference",
-      "url": "https://github.com/advisories/GHSA-wpxj-44w3-2j6x",
-      "date": "2026-05-13T15:30:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nautobot] Nautobot: REST API permits creation of GenericForeignKey references to objects that the user should not be able to reference",
-      "url": "https://github.com/advisories/GHSA-wpxj-44w3-2j6x",
-      "date": "2026-05-13T15:30:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langchain] LangSmith SDK: Public prompt pull deserializes untrusted manifests without trust boundary warning",
-      "url": "https://github.com/advisories/GHSA-3644-q5cj-c5c7",
-      "date": "2026-05-13T15:29:32.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
