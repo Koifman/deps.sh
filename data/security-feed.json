@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-14T22:30:27.847Z",
+  "fetchedAt": "2026-05-14T23:25:36.923Z",
   "entries": [
+    {
+      "title": "[dulwich] Dulwich Arbitrary code execution via commit with directory path starting with .git",
+      "url": "https://github.com/advisories/GHSA-4j5j-58j7-6c3w",
+      "date": "2026-05-14T23:04:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[devalue] Sveltejs devalue's `devalue.parse` and `devalue.unflatten` emit objects with `__proto__` own properties",
       "url": "https://github.com/advisories/GHSA-mwv9-gp5h-frr4",
@@ -133,13 +140,6 @@
       "date": "2026-05-14T20:27:58.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI has Stored XSS in Banner Component via Improper Sanitization Order",
-      "url": "https://github.com/advisories/GHSA-cqp4-qqvg-3787",
-      "date": "2026-05-14T20:27:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
