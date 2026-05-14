@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-14T21:32:19.316Z",
+  "fetchedAt": "2026-05-14T22:30:27.847Z",
   "entries": [
+    {
+      "title": "[devalue] Sveltejs devalue's `devalue.parse` and `devalue.unflatten` emit objects with `__proto__` own properties",
+      "url": "https://github.com/advisories/GHSA-mwv9-gp5h-frr4",
+      "date": "2026-05-14T21:28:16.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[vm2] vm2 Has a Sandbox Breakout Using Async Generator",
       "url": "https://github.com/advisories/GHSA-248r-7h7q-cr24",
@@ -132,13 +139,6 @@
       "url": "https://github.com/advisories/GHSA-cqp4-qqvg-3787",
       "date": "2026-05-14T20:27:47.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Cross-User File Access via Unchecked file_id in Folder Knowledge and Knowledge-Base Attach Endpoints",
-      "url": "https://github.com/advisories/GHSA-r472-mw7m-967f",
-      "date": "2026-05-14T20:27:37.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
