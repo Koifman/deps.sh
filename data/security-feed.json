@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-05-14T16:49:24.895Z",
+  "fetchedAt": "2026-05-14T17:40:52.560Z",
   "entries": [
+    {
+      "title": "[@tanstack/start-server-core] TanStack Start - Server Core: Inbound server-function request deserialization could invoke a sibling client-referenced server function",
+      "url": "https://github.com/advisories/GHSA-9m65-766c-r333",
+      "date": "2026-05-14T16:37:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mistune] Mistune Image Directive CSS Injection Vulnerability",
+      "url": "https://github.com/advisories/GHSA-ccfx-mfmx-2fx9",
+      "date": "2026-05-14T16:36:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mistune] Mistune TOC Anchor Injection XSS",
+      "url": "https://github.com/advisories/GHSA-6269-cqxg-mhhv",
+      "date": "2026-05-14T16:36:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[flowise] FlowiseAI: Evaluator create+update mass-assignment allows cross-workspace evaluator takeover",
       "url": "https://github.com/advisories/GHSA-wxrr-jp8m-qq7f",
@@ -117,27 +138,6 @@
       "title": "[n8n] n8n Has an XML Node Prototype Pollution Patch Bypass",
       "url": "https://github.com/advisories/GHSA-wrwr-h859-xh2r",
       "date": "2026-05-14T16:17:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n Has an XML Node Prototype Pollution Patch Bypass",
-      "url": "https://github.com/advisories/GHSA-wrwr-h859-xh2r",
-      "date": "2026-05-14T16:17:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n Has an Arbitrary File Read via Git Node",
-      "url": "https://github.com/advisories/GHSA-57g9-58c2-xjg3",
-      "date": "2026-05-14T16:17:37.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n Has an Arbitrary File Read via Git Node",
-      "url": "https://github.com/advisories/GHSA-57g9-58c2-xjg3",
-      "date": "2026-05-14T16:17:37.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     }
