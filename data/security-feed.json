@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-05-15T17:36:55.901Z",
+  "fetchedAt": "2026-05-15T18:42:55.640Z",
   "entries": [
+    {
+      "title": "[apm-cli] Microsoft APM: Windows absolute-path tar member overwrite during legacy-bundle probing in `apm install`",
+      "url": "https://github.com/advisories/GHSA-mq5j-pw29-jcv3",
+      "date": "2026-05-15T18:25:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@budibase/server] Budibase: `PUT /api/datasources/:datasourceId` is protected only by `TABLE/READ` permission instead of builder access, allowing any authenticated app user to overwrite datasource connection parameters including host, port, and URL",
+      "url": "https://github.com/advisories/GHSA-44m2-crh7-f4q2",
+      "date": "2026-05-15T17:59:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase: SSRF Bypass via HTTP Redirect in REST Datasource Integration",
+      "url": "https://github.com/advisories/GHSA-fgqv-jh4g-pvg2",
+      "date": "2026-05-15T17:53:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase: SSRF in AI Extract File Automation Step via Missing IP Blacklist Validation",
+      "url": "https://github.com/advisories/GHSA-rpj4-7x2v-wjrf",
+      "date": "2026-05-15T17:47:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[better-auth] Better Auth: Rate limiter keys IPv6 addresses individually and is bypassable via prefix rotation",
+      "url": "https://github.com/advisories/GHSA-p6v2-xcpg-h6xw",
+      "date": "2026-05-15T17:41:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[better-auth] Better Auth: Rate limiter keys IPv6 addresses individually and is bypassable via prefix rotation",
+      "url": "https://github.com/advisories/GHSA-p6v2-xcpg-h6xw",
+      "date": "2026-05-15T17:41:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[better-auth] Better Auth: OAuth callback accepts mismatched `state` when cookie-backed state storage is used without PKCE",
+      "url": "https://github.com/advisories/GHSA-wxw3-q3m9-c3jr",
+      "date": "2026-05-15T17:33:41.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow-providers-opensearch] Apache Airflow Providers OpenSearch: OpenSearch task-log handler leaks credentials embedded in the host URL",
+      "url": "https://github.com/advisories/GHSA-xccp-97wp-3gjg",
+      "date": "2026-05-15T17:30:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[apache-airflow-providers-elasticsearch] Apache Airflow Providers Elasticsearch: Elasticsearch task-log handlers leak credentials embedded in the host URL",
       "url": "https://github.com/advisories/GHSA-g3jr-4jrm-jvqv",
@@ -26,20 +82,6 @@
       "title": "[@joplin/onenote-converter] @joplin/onenote-converter: Path traversal in OneNote importer allows overwriting arbitrary files",
       "url": "https://github.com/advisories/GHSA-gcmj-c9gg-9vh6",
       "date": "2026-05-15T16:27:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Mass Assignment via FeedbackForm extra=allow Allows Feedback User ID Spoofing and Evaluation Data Manipulation",
-      "url": "https://github.com/advisories/GHSA-rjmp-vjf2-qf4g",
-      "date": "2026-05-15T05:17:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[devalue] Svelte devalue: DoS via sparse array deserialization",
-      "url": "https://github.com/advisories/GHSA-77vg-94rm-hx3p",
-      "date": "2026-05-15T02:04:45.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
@@ -98,48 +140,6 @@
       "date": "2026-05-14T20:55:08.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@samanhappy/mcphub] @samanhappy/mcphub: SSE Endpoint Accepts Arbitrary Username from URL Path Without Authentication, Enabling User Impersonation",
-      "url": "https://github.com/advisories/GHSA-wf8q-wvv8-p8jf",
-      "date": "2026-05-14T20:44:26.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[svelte] Svelte: SSR XSS via Insecure Promise Serialization in hydratable",
-      "url": "https://github.com/advisories/GHSA-f3cj-j4f6-wq85",
-      "date": "2026-05-14T20:30:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electerm] electerm's encrypt method not safe enough",
-      "url": "https://github.com/advisories/GHSA-g29v-q6h7-76wh",
-      "date": "2026-05-14T20:30:05.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electerm] Electerm Local code through electerm's single-instance socket",
-      "url": "https://github.com/advisories/GHSA-7p5m-v798-f8vv",
-      "date": "2026-05-14T20:30:03.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[deepseek-tui] DeepSeek TUI: run_tests Tool Enables RCE via Malicious Repository Without Approval",
-      "url": "https://github.com/advisories/GHSA-wx44-2q6h-j6p8",
-      "date": "2026-05-14T20:29:34.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[deepseek-tui] DeepSeek TUI has SSRF via HTTP Redirect Bypass in fetch_url Tool",
-      "url": "https://github.com/advisories/GHSA-96ff-gc8g-wpvg",
-      "date": "2026-05-14T20:29:28.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
