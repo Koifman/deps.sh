@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-15T18:42:55.640Z",
+  "fetchedAt": "2026-05-15T19:36:55.469Z",
   "entries": [
+    {
+      "title": "[@joplin/onenote-converter] @joplin/onenote-converter: Path traversal in OneNote importer allows overwriting arbitrary files",
+      "url": "https://github.com/advisories/GHSA-gcmj-c9gg-9vh6",
+      "date": "2026-05-15T18:41:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[apm-cli] Microsoft APM: Windows absolute-path tar member overwrite during legacy-bundle probing in `apm install`",
       "url": "https://github.com/advisories/GHSA-mq5j-pw29-jcv3",
@@ -76,13 +83,6 @@
       "url": "https://github.com/advisories/GHSA-3363-2ph6-35wh",
       "date": "2026-05-15T16:55:05.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@joplin/onenote-converter] @joplin/onenote-converter: Path traversal in OneNote importer allows overwriting arbitrary files",
-      "url": "https://github.com/advisories/GHSA-gcmj-c9gg-9vh6",
-      "date": "2026-05-15T16:27:12.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
