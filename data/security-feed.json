@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-15T05:26:30.247Z",
+  "fetchedAt": "2026-05-15T07:20:46.556Z",
   "entries": [
+    {
+      "title": "[open-webui] Open WebUI: Mass Assignment via FeedbackForm extra=allow Allows Feedback User ID Spoofing and Evaluation Data Manipulation",
+      "url": "https://github.com/advisories/GHSA-rjmp-vjf2-qf4g",
+      "date": "2026-05-15T05:17:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[devalue] Svelte devalue: DoS via sparse array deserialization",
       "url": "https://github.com/advisories/GHSA-77vg-94rm-hx3p",
@@ -131,13 +138,6 @@
       "title": "[open-webui] Open WebUI: Jupyter code execution works despite `ENABLE_CODE_EXECUTION=false` — feature gate bypassed",
       "url": "https://github.com/advisories/GHSA-482j-2pq6-q5w4",
       "date": "2026-05-14T20:28:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI: shared-chat branch ignores access_type, allowing unauthorized file deletion",
-      "url": "https://github.com/advisories/GHSA-26g9-27vm-x3q8",
-      "date": "2026-05-14T20:28:38.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
