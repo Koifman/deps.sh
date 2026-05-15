@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-15T15:49:04.839Z",
+  "fetchedAt": "2026-05-15T16:43:30.567Z",
   "entries": [
+    {
+      "title": "[@joplin/onenote-converter] @joplin/onenote-converter: Path traversal in OneNote importer allows overwriting arbitrary files",
+      "url": "https://github.com/advisories/GHSA-gcmj-c9gg-9vh6",
+      "date": "2026-05-15T16:27:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[open-webui] Open WebUI: Mass Assignment via FeedbackForm extra=allow Allows Feedback User ID Spoofing and Evaluation Data Manipulation",
       "url": "https://github.com/advisories/GHSA-rjmp-vjf2-qf4g",
@@ -131,13 +138,6 @@
       "title": "[open-webui] Open WebUI: LDAP and OAuth First-User Race Condition Allows Multiple Admin Accounts",
       "url": "https://github.com/advisories/GHSA-h3ww-q6xx-w7x3",
       "date": "2026-05-14T20:28:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Jupyter code execution works despite `ENABLE_CODE_EXECUTION=false` — feature gate bypassed",
-      "url": "https://github.com/advisories/GHSA-482j-2pq6-q5w4",
-      "date": "2026-05-14T20:28:43.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
