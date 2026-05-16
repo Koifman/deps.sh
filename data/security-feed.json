@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-05-16T06:57:09.485Z",
+  "fetchedAt": "2026-05-16T07:42:03.460Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0122: Unsoundness in rkyv",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0122.html",
+      "date": "2026-05-16T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[open-webui] Open WebUI: Jupyter code execution works despite `ENABLE_CODE_EXECUTION=false` — feature gate bypassed",
       "url": "https://github.com/advisories/GHSA-482j-2pq6-q5w4",
@@ -132,13 +138,6 @@
       "url": "https://github.com/advisories/GHSA-wxw3-q3m9-c3jr",
       "date": "2026-05-15T17:33:41.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow-providers-opensearch] Apache Airflow Providers OpenSearch: OpenSearch task-log handler leaks credentials embedded in the host URL",
-      "url": "https://github.com/advisories/GHSA-xccp-97wp-3gjg",
-      "date": "2026-05-15T17:30:15.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
