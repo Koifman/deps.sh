@@ -1,19 +1,96 @@
 {
-  "fetchedAt": "2026-05-15T23:24:58.386Z",
+  "fetchedAt": "2026-05-16T01:01:20.254Z",
   "entries": [
+    {
+      "title": "[open-webui] Open WebUI: Jupyter code execution works despite `ENABLE_CODE_EXECUTION=false` — feature gate bypassed",
+      "url": "https://github.com/advisories/GHSA-482j-2pq6-q5w4",
+      "date": "2026-05-15T23:55:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Cross-User File Access via Unchecked file_id in Folder Knowledge and Knowledge-Base Attach Endpoints",
+      "url": "https://github.com/advisories/GHSA-r472-mw7m-967f",
+      "date": "2026-05-15T23:55:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI has a SSRF Bypass via HTTP Redirect Following in Web-Fetch and Image-Load Endpoints (not addressed by CVE-2025-65958)",
+      "url": "https://github.com/advisories/GHSA-rh5x-h6pp-cjj6",
+      "date": "2026-05-15T23:55:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI has a Server-Side Request Forgery (SSRF) bypass in `validate_url`",
+      "url": "https://github.com/advisories/GHSA-8w7q-q5jp-jvgx",
+      "date": "2026-05-15T23:55:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI Vulnerable to IDOR: Retrieval API Bypasses Knowledge Base Access Controls",
+      "url": "https://github.com/advisories/GHSA-4g37-7p2c-38r9",
+      "date": "2026-05-15T23:55:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI Vulnerable to Unauthenticated RAG Configuration Disclosure",
+      "url": "https://github.com/advisories/GHSA-65pg-qhhw-mxwg",
+      "date": "2026-05-15T23:55:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: LDAP and OAuth First-User Race Condition Allows Multiple Admin Accounts",
+      "url": "https://github.com/advisories/GHSA-h3ww-q6xx-w7x3",
+      "date": "2026-05-15T23:55:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: shared-chat branch ignores access_type, allowing unauthorized file deletion",
+      "url": "https://github.com/advisories/GHSA-26g9-27vm-x3q8",
+      "date": "2026-05-15T23:55:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Low-privilege authenticated users can enumerate and stop global background tasks, causing system-wide chat disruption",
+      "url": "https://github.com/advisories/GHSA-8jjp-r2w2-4v22",
+      "date": "2026-05-15T23:54:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apm-cli] Microsoft APM: Windows absolute-path tar member overwrite during legacy-bundle probing in `apm install`",
+      "url": "https://github.com/advisories/GHSA-mq5j-pw29-jcv3",
+      "date": "2026-05-15T23:50:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[utcp-cli] python-utcp: Full Process Environment Exposed to CLI Subprocess - Secrets Leakage via Command Injection",
+      "url": "https://github.com/advisories/GHSA-5v57-8rxj-3p2r",
+      "date": "2026-05-15T23:47:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[utcp-cli] utcp-cli Vulnerable to Command Injection via Unsanitized Argument Substitution in CLI Communication Protocol",
+      "url": "https://github.com/advisories/GHSA-33p6-5jxp-p3x4",
+      "date": "2026-05-15T23:46:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[@joplin/onenote-converter] @joplin/onenote-converter: Path traversal in OneNote importer allows overwriting arbitrary files",
       "url": "https://github.com/advisories/GHSA-gcmj-c9gg-9vh6",
       "date": "2026-05-15T18:41:45.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[apm-cli] Microsoft APM: Windows absolute-path tar member overwrite during legacy-bundle probing in `apm install`",
-      "url": "https://github.com/advisories/GHSA-mq5j-pw29-jcv3",
-      "date": "2026-05-15T18:25:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     },
     {
       "title": "[@budibase/server] Budibase: `PUT /api/datasources/:datasourceId` is protected only by `TABLE/READ` permission instead of builder access, allowing any authenticated app user to overwrite datasource connection parameters including host, port, and URL",
@@ -62,83 +139,6 @@
       "url": "https://github.com/advisories/GHSA-xccp-97wp-3gjg",
       "date": "2026-05-15T17:30:15.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow-providers-elasticsearch] Apache Airflow Providers Elasticsearch: Elasticsearch task-log handlers leak credentials embedded in the host URL",
-      "url": "https://github.com/advisories/GHSA-g3jr-4jrm-jvqv",
-      "date": "2026-05-15T17:26:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[weblate] Weblate: Stored HTML injection in editor search preview",
-      "url": "https://github.com/advisories/GHSA-6wxc-8mgq-w26m",
-      "date": "2026-05-15T17:14:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pipecat-ai] Pipecat: Path Traversal in Pipecat Runner `/files` Endpoint — Arbitrary File Read via `%2F`-Encoded Separator",
-      "url": "https://github.com/advisories/GHSA-3363-2ph6-35wh",
-      "date": "2026-05-15T16:55:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI has Stored XSS in Banner Component via Improper Sanitization Order",
-      "url": "https://github.com/advisories/GHSA-cqp4-qqvg-3787",
-      "date": "2026-05-15T01:55:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dulwich] Dulwich Arbitrary code execution via commit with directory path starting with .git",
-      "url": "https://github.com/advisories/GHSA-4j5j-58j7-6c3w",
-      "date": "2026-05-14T23:04:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[devalue] Sveltejs devalue's `devalue.parse` and `devalue.unflatten` emit objects with `__proto__` own properties",
-      "url": "https://github.com/advisories/GHSA-mwv9-gp5h-frr4",
-      "date": "2026-05-14T21:28:16.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[vm2] vm2 Has a Sandbox Breakout Using Async Generator",
-      "url": "https://github.com/advisories/GHSA-248r-7h7q-cr24",
-      "date": "2026-05-14T21:14:35.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[utcp-cli] python-utcp: Full Process Environment Exposed to CLI Subprocess - Secrets Leakage via Command Injection",
-      "url": "https://github.com/advisories/GHSA-5v57-8rxj-3p2r",
-      "date": "2026-05-14T20:56:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[utcp-cli] utcp-cli Vulnerable to Command Injection via Unsanitized Argument Substitution in CLI Communication Protocol",
-      "url": "https://github.com/advisories/GHSA-33p6-5jxp-p3x4",
-      "date": "2026-05-14T20:56:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@ranfdev/deepobj] Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') in @ranfdev/deepobj",
-      "url": "https://github.com/advisories/GHSA-x7q7-fchv-8h2j",
-      "date": "2026-05-14T20:55:25.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@utcp/http] @utcp/http: SSRF via attacker-controlled OpenAPI servers[0].url in HTTP communication protocol",
-      "url": "https://github.com/advisories/GHSA-r8j5-8747-88cm",
-      "date": "2026-05-14T20:55:08.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
