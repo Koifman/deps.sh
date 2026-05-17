@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-16T23:23:42.141Z",
+  "fetchedAt": "2026-05-17T01:09:03.457Z",
   "entries": [
+    {
+      "title": "[weblate] Weblate: Stored HTML injection in editor search preview",
+      "url": "https://github.com/advisories/GHSA-6wxc-8mgq-w26m",
+      "date": "2026-05-16T23:34:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0122: Unsoundness in rkyv",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0122.html",
@@ -132,13 +139,6 @@
       "date": "2026-05-15T17:41:38.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[better-auth] Better Auth: OAuth callback accepts mismatched `state` when cookie-backed state storage is used without PKCE",
-      "url": "https://github.com/advisories/GHSA-wxw3-q3m9-c3jr",
-      "date": "2026-05-15T17:33:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
