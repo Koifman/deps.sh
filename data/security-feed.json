@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-05-17T19:31:26.218Z",
+  "fetchedAt": "2026-05-17T20:23:33.431Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0132: Unsoundness in ssdeep",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0132.html",
+      "date": "2026-05-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[weblate] Weblate: Stored HTML injection in editor search preview",
       "url": "https://github.com/advisories/GHSA-6wxc-8mgq-w26m",
@@ -123,13 +129,6 @@
       "title": "[@budibase/server] Budibase: SSRF in AI Extract File Automation Step via Missing IP Blacklist Validation",
       "url": "https://github.com/advisories/GHSA-rpj4-7x2v-wjrf",
       "date": "2026-05-15T17:47:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[better-auth] Better Auth: Rate limiter keys IPv6 addresses individually and is bypassable via prefix rotation",
-      "url": "https://github.com/advisories/GHSA-p6v2-xcpg-h6xw",
-      "date": "2026-05-15T17:41:38.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
