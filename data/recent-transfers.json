@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-05-18T09:27:56.737Z",
-  "count": 97,
+  "scannedAt": "2026-05-18T11:31:43.556Z",
+  "count": 98,
   "packages": [
     {
       "name": "xmldom",
@@ -526,7 +526,7 @@
     },
     {
       "name": "oxc-parser",
-      "version": "0.131.0",
+      "version": "0.132.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -724,7 +724,7 @@
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
-      "version": "0.131.0",
+      "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -742,7 +742,7 @@
     },
     {
       "name": "@oxc-parser/binding-linux-x64-musl",
-      "version": "0.131.0",
+      "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -760,7 +760,7 @@
     },
     {
       "name": "oxc-transform",
-      "version": "0.131.0",
+      "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -769,7 +769,7 @@
     },
     {
       "name": "@oxc-transform/binding-linux-x64-gnu",
-      "version": "0.131.0",
+      "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -796,7 +796,7 @@
     },
     {
       "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.131.0",
+      "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -814,7 +814,7 @@
     },
     {
       "name": "oxc-minify",
-      "version": "0.131.0",
+      "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -850,7 +850,7 @@
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-gnu",
-      "version": "0.131.0",
+      "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -859,12 +859,21 @@
     },
     {
       "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.131.0",
+      "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@nevware21/ts-utils",
+      "version": "0.13.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "intl-tel-input",
