@@ -1,6 +1,97 @@
 {
-  "fetchedAt": "2026-05-18T13:30:03.357Z",
+  "fetchedAt": "2026-05-18T15:13:20.181Z",
   "entries": [
+    {
+      "title": "[pgadmin4]  pgAdmin 4 File Manager has symbolic-link path traversal",
+      "url": "https://github.com/advisories/GHSA-hr4r-fwpv-c95j",
+      "date": "2026-05-18T14:56:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pgadmin4] pgAdmin 4 contains local file inclusion (LFI) and server-side request forgery (SSRF) vulnerabilities",
+      "url": "https://github.com/advisories/GHSA-p58c-q354-6c4f",
+      "date": "2026-05-18T14:51:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pgadmin4] pgAdmin 4: Stored cross-site scripting (XSS) vulnerability in Browser Tree and Explain Visualizer modules",
+      "url": "https://github.com/advisories/GHSA-6p2c-69cv-3fxq",
+      "date": "2026-05-18T14:32:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pgadmin4] pgAdmin 4: OS command injection vulnerability in Import/Export query export",
+      "url": "https://github.com/advisories/GHSA-j74f-g7vx-fh4x",
+      "date": "2026-05-18T14:31:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pgadmin4] SQL injection vulnerability in pgAdmin 4 Maintenance Tool",
+      "url": "https://github.com/advisories/GHSA-hp84-p2gq-6fvr",
+      "date": "2026-05-18T14:23:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[docling] Docling's JATS XML backend is vulnerable to XML Entity Expansion (XXE) attacks",
+      "url": "https://github.com/advisories/GHSA-cr42-rg2m-mq4q",
+      "date": "2026-05-18T14:20:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[neotoma] Neotoma: Unauthenticated Inspector/API access via reverse-proxy loopback auth bypass",
+      "url": "https://github.com/advisories/GHSA-5cvp-p7p4-mcx9",
+      "date": "2026-05-18T14:20:07.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@sveltia/cms] Sveltia CMS: Stored XSS in entry summary rendering via entity-decoded HTML",
+      "url": "https://github.com/advisories/GHSA-97r8-rf7q-wmjw",
+      "date": "2026-05-18T13:43:50.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[webpack-dev-server] webpack-dev-server vulnerable to cross-origin source code exposure on non-HTTPS origins",
+      "url": "https://github.com/advisories/GHSA-79cf-xcqc-c78w",
+      "date": "2026-05-18T13:31:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[form-data-objectizer] form-data-objectizer: Prototype pollution in form-data-objectizer via bracket-notation form keys",
+      "url": "https://github.com/advisories/GHSA-m2hg-wjq3-28wq",
+      "date": "2026-05-18T13:28:33.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[graphitedb] Graphite Has a Pickle Deserialization Vulnerability",
+      "url": "https://github.com/advisories/GHSA-qw48-84f6-28gv",
+      "date": "2026-05-18T13:27:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n-mcp] n8n-MCP: Workflow telemetry sanitizer could retain partial values from URL-shaped node parameters",
+      "url": "https://github.com/advisories/GHSA-f3rg-xqjj-cj9w",
+      "date": "2026-05-18T13:26:53.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apm] Microsoft APM: Symlinks under `.apm/prompts/` and `.apm/agents/` are dereferenced during `apm install`, copying host-local file contents into the project tree",
+      "url": "https://github.com/advisories/GHSA-q5pp-gvjg-h7v4",
+      "date": "2026-05-18T13:26:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[weblate] Weblate: Stored HTML injection in editor search preview",
       "url": "https://github.com/advisories/GHSA-6wxc-8mgq-w26m",
@@ -28,41 +119,6 @@
       "severity": "HIGH"
     },
     {
-      "title": "[open-webui] Open WebUI: Cross-User File Access via Unchecked file_id in Folder Knowledge and Knowledge-Base Attach Endpoints",
-      "url": "https://github.com/advisories/GHSA-r472-mw7m-967f",
-      "date": "2026-05-15T23:55:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI has a SSRF Bypass via HTTP Redirect Following in Web-Fetch and Image-Load Endpoints (not addressed by CVE-2025-65958)",
-      "url": "https://github.com/advisories/GHSA-rh5x-h6pp-cjj6",
-      "date": "2026-05-15T23:55:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI has a Server-Side Request Forgery (SSRF) bypass in `validate_url`",
-      "url": "https://github.com/advisories/GHSA-8w7q-q5jp-jvgx",
-      "date": "2026-05-15T23:55:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI Vulnerable to IDOR: Retrieval API Bypasses Knowledge Base Access Controls",
-      "url": "https://github.com/advisories/GHSA-4g37-7p2c-38r9",
-      "date": "2026-05-15T23:55:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI Vulnerable to Unauthenticated RAG Configuration Disclosure",
-      "url": "https://github.com/advisories/GHSA-65pg-qhhw-mxwg",
-      "date": "2026-05-15T23:55:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
       "title": "[open-webui] Open WebUI: LDAP and OAuth First-User Race Condition Allows Multiple Admin Accounts",
       "url": "https://github.com/advisories/GHSA-h3ww-q6xx-w7x3",
       "date": "2026-05-15T23:55:05.000Z",
@@ -77,67 +133,11 @@
       "severity": "HIGH"
     },
     {
-      "title": "[open-webui] Open WebUI: Low-privilege authenticated users can enumerate and stop global background tasks, causing system-wide chat disruption",
-      "url": "https://github.com/advisories/GHSA-8jjp-r2w2-4v22",
-      "date": "2026-05-15T23:54:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
       "title": "[apm-cli] Microsoft APM: Windows absolute-path tar member overwrite during legacy-bundle probing in `apm install`",
       "url": "https://github.com/advisories/GHSA-mq5j-pw29-jcv3",
       "date": "2026-05-15T23:50:09.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[utcp-cli] python-utcp: Full Process Environment Exposed to CLI Subprocess - Secrets Leakage via Command Injection",
-      "url": "https://github.com/advisories/GHSA-5v57-8rxj-3p2r",
-      "date": "2026-05-15T23:47:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[utcp-cli] utcp-cli Vulnerable to Command Injection via Unsanitized Argument Substitution in CLI Communication Protocol",
-      "url": "https://github.com/advisories/GHSA-33p6-5jxp-p3x4",
-      "date": "2026-05-15T23:46:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@joplin/onenote-converter] @joplin/onenote-converter: Path traversal in OneNote importer allows overwriting arbitrary files",
-      "url": "https://github.com/advisories/GHSA-gcmj-c9gg-9vh6",
-      "date": "2026-05-15T18:41:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase: `PUT /api/datasources/:datasourceId` is protected only by `TABLE/READ` permission instead of builder access, allowing any authenticated app user to overwrite datasource connection parameters including host, port, and URL",
-      "url": "https://github.com/advisories/GHSA-44m2-crh7-f4q2",
-      "date": "2026-05-15T17:59:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase: SSRF Bypass via HTTP Redirect in REST Datasource Integration",
-      "url": "https://github.com/advisories/GHSA-fgqv-jh4g-pvg2",
-      "date": "2026-05-15T17:53:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase: SSRF in AI Extract File Automation Step via Missing IP Blacklist Validation",
-      "url": "https://github.com/advisories/GHSA-rpj4-7x2v-wjrf",
-      "date": "2026-05-15T17:47:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[better-auth] Better Auth: Rate limiter keys IPv6 addresses individually and is bypassable via prefix rotation",
-      "url": "https://github.com/advisories/GHSA-p6v2-xcpg-h6xw",
-      "date": "2026-05-15T17:41:38.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
