@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-05-18T17:06:12.307Z",
+  "fetchedAt": "2026-05-18T18:46:26.694Z",
   "entries": [
     {
-      "title": "[ai-agents] aiwaves-cn agents is vulnerable to resource consumption in the recall_relevant_memories_to_working_memory function",
-      "url": "https://github.com/advisories/GHSA-ch88-c67q-65r9",
-      "date": "2026-05-18T16:52:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mlflow] MLflow allows an unauthenticated remote attacker to read arbitrary files from the server's filesystem",
-      "url": "https://github.com/advisories/GHSA-42h5-h8qh-vv9v",
-      "date": "2026-05-18T16:49:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@steipete/summarize] @steipete/summarize allows local attackers to read bearer tokens and API credentials stored in ~/.summarize/daemon.json",
-      "url": "https://github.com/advisories/GHSA-qp7v-gjgg-4mj6",
-      "date": "2026-05-18T16:47:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-nested-form-data] parse-nested-form-data has Prototype Pollution via `__proto__` in FormData field names",
-      "url": "https://github.com/advisories/GHSA-xp7r-j8r6-j9h3",
-      "date": "2026-05-18T16:43:13.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[brace-expansion] brace-expansion: Large numeric range defeats documented `max` DoS protection",
-      "url": "https://github.com/advisories/GHSA-jxxr-4gwj-5jf2",
-      "date": "2026-05-18T16:22:04.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[edumfa] eduMFA Passkeys: missing expiration flag may allow replay attacks and reuse of old challenges",
-      "url": "https://github.com/advisories/GHSA-j5rm-v3vh-vx94",
-      "date": "2026-05-18T15:37:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[edumfa] eduMFA: Incorrect InnoDB snapshot isolation possibly allows token reusage",
-      "url": "https://github.com/advisories/GHSA-qq2p-4282-cfc5",
-      "date": "2026-05-18T15:36:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[edumfa] eduMFA: Unauthenticated Failcounter Increment on Resolver Tokens via /validate/check",
-      "url": "https://github.com/advisories/GHSA-74r7-3mjm-jc5v",
-      "date": "2026-05-18T15:35:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw vulnerable to arbitrary code execution via attacker-controlled setup-api.js loaded from cwd during env-key resolution",
-      "url": "https://github.com/advisories/GHSA-xpr6-2hgm-4wwp",
-      "date": "2026-05-18T15:31:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's Webhooks SecretRef route secret remains valid after rotation/reload",
-      "url": "https://github.com/advisories/GHSA-v8j2-5f9p-fmh4",
-      "date": "2026-05-18T15:31:01.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Owner-enforced commands could accept wildcard channel senders as command owners",
-      "url": "https://github.com/advisories/GHSA-p3pv-c954-9m6f",
-      "date": "2026-05-18T15:30:47.000Z",
+      "title": "[@mistralai/mistralai-gcp] Broken dropper in @mistralai/mistralai, @mistralai/mistralai-azure, @mistralai/mistralai-gcp",
+      "url": "https://github.com/advisories/GHSA-jgg6-4rpr-wfh7",
+      "date": "2026-05-18T17:55:55.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Workspace dotenv MiniMax host override could redirect credentialed requests",
-      "url": "https://github.com/advisories/GHSA-4mhr-cxr4-2prm",
-      "date": "2026-05-18T15:30:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: MCP stdio server env could load dangerous startup variables from workspace config",
-      "url": "https://github.com/advisories/GHSA-p3m6-jr2h-hhxj",
-      "date": "2026-05-18T15:30:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's ACP child sessions inherit subagent security envelope constraints",
-      "url": "https://github.com/advisories/GHSA-w626-296m-8f85",
-      "date": "2026-05-18T15:30:00.000Z",
+      "title": "[@mistralai/mistralai-gcp] Broken dropper in @mistralai/mistralai, @mistralai/mistralai-azure, @mistralai/mistralai-gcp",
+      "url": "https://github.com/advisories/GHSA-jgg6-4rpr-wfh7",
+      "date": "2026-05-18T17:55:55.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Isolated cron awareness events were recorded as trusted system events",
-      "url": "https://github.com/advisories/GHSA-m5j2-r859-r5cv",
-      "date": "2026-05-18T15:29:41.000Z",
+      "title": "[@mistralai/mistralai-azure] Broken dropper in @mistralai/mistralai, @mistralai/mistralai-azure, @mistralai/mistralai-gcp",
+      "url": "https://github.com/advisories/GHSA-jgg6-4rpr-wfh7",
+      "date": "2026-05-18T17:55:55.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "LOW"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Hook mapping templates could bypass hook session-key opt-in",
-      "url": "https://github.com/advisories/GHSA-9j32-3m66-mc4m",
-      "date": "2026-05-18T15:29:29.000Z",
+      "title": "[@mistralai/mistralai-azure] Broken dropper in @mistralai/mistralai, @mistralai/mistralai-azure, @mistralai/mistralai-gcp",
+      "url": "https://github.com/advisories/GHSA-jgg6-4rpr-wfh7",
+      "date": "2026-05-18T17:55:55.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "LOW"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Workspace dotenv files cannot override connector endpoint hosts",
-      "url": "https://github.com/advisories/GHSA-5jgm-f9wr-9qm7",
-      "date": "2026-05-18T15:29:03.000Z",
+      "title": "[@mistralai/mistralai] Broken dropper in @mistralai/mistralai, @mistralai/mistralai-azure, @mistralai/mistralai-gcp",
+      "url": "https://github.com/advisories/GHSA-jgg6-4rpr-wfh7",
+      "date": "2026-05-18T17:55:55.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "LOW"
     },
     {
-      "title": "[mlflow] MLflow Has a Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://github.com/advisories/GHSA-65h7-c7c4-mghx",
-      "date": "2026-05-18T15:28:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[automagik-genie] automagik-genie has a command injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-64vr-4gr2-m642",
-      "date": "2026-05-18T15:27:58.000Z",
+      "title": "[@mistralai/mistralai] Broken dropper in @mistralai/mistralai, @mistralai/mistralai-azure, @mistralai/mistralai-gcp",
+      "url": "https://github.com/advisories/GHSA-jgg6-4rpr-wfh7",
+      "date": "2026-05-18T17:55:55.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "LOW"
     },
     {
-      "title": "[pgadmin4] pgAdmin 4 server mode has an authorization vulnerability affecting Server Groups, Servers, Shared Servers, Background Processes, and Debugger modules",
-      "url": "https://github.com/advisories/GHSA-h2x2-q2mc-24gw",
-      "date": "2026-05-18T15:23:22.000Z",
+      "title": "[@mistralai/mistralai-gcp] Broken dropper in @mistralai/mistralai, @mistralai/mistralai-azure, @mistralai/mistralai-gcp",
+      "url": "https://github.com/advisories/GHSA-jgg6-4rpr-wfh7",
+      "date": "2026-05-18T17:55:55.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@mistralai/mistralai-azure] Broken dropper in @mistralai/mistralai, @mistralai/mistralai-azure, @mistralai/mistralai-gcp",
+      "url": "https://github.com/advisories/GHSA-jgg6-4rpr-wfh7",
+      "date": "2026-05-18T17:55:55.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@mistralai/mistralai] Broken dropper in @mistralai/mistralai, @mistralai/mistralai-azure, @mistralai/mistralai-gcp",
+      "url": "https://github.com/advisories/GHSA-jgg6-4rpr-wfh7",
+      "date": "2026-05-18T17:55:55.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[mistralai] Malicious dropper in mistralai 2.4.6 PyPI package",
+      "url": "https://github.com/advisories/GHSA-wx9m-wx4f-4cmg",
+      "date": "2026-05-18T17:55:30.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
+    },
+    {
+      "title": "[cloakbrowser] CloakBrowser: Unauthenticated path traversal via fingerprint parameter in cloakserve leads to arbitrary directory deletion",
+      "url": "https://github.com/advisories/GHSA-mf33-gv72-w2h5",
+      "date": "2026-05-18T17:50:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase: CouchDB Reduce Injection via Unsanitized Calculation Parameter in V1 Views API",
+      "url": "https://github.com/advisories/GHSA-363w-hvwh-w7m6",
+      "date": "2026-05-18T17:47:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[budibase] Budibase: Row Action Trigger Bypasses View Row Filter Security Boundary Allowing Action on Out-of-Scope Rows",
+      "url": "https://github.com/advisories/GHSA-3263-v5v9-xq8q",
+      "date": "2026-05-18T17:44:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@budibase/worker] Budibase: Builder-to-Admin Privilege Escalation via onboardUsers Endpoint Without SMTP Configuration",
+      "url": "https://github.com/advisories/GHSA-c54j-xp92-wh28",
+      "date": "2026-05-18T17:42:25.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n-mcp] n8n-MCP: Multi-tenant MCP requests fall back to process-level n8n credentials when tenant headers are absent or incomplete",
+      "url": "https://github.com/advisories/GHSA-jxx9-px88-pj69",
+      "date": "2026-05-18T17:41:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[multiparty] multiparty vulnerable to ReDoS via filename parsing",
+      "url": "https://github.com/advisories/GHSA-65x3-rw7q-gx94",
+      "date": "2026-05-18T17:40:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[multiparty] multiparty vulnerable to Denial of Service via Uncaught Exception in filename* parameter parsing",
+      "url": "https://github.com/advisories/GHSA-xh3c-6gcq-g4rv",
+      "date": "2026-05-18T17:35:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[multiparty] multiparty: Denial of Service via Prototype Pollution leads to Uncaught Exception",
+      "url": "https://github.com/advisories/GHSA-qxch-whhj-8956",
+      "date": "2026-05-18T17:35:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@tmlmobilidade/utils] @tmlmobilidade/utils has prototype pollution in its setValueAtPath",
+      "url": "https://github.com/advisories/GHSA-cmxg-94mg-jq94",
+      "date": "2026-05-18T17:07:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dynoxide] dynoxide: DNS rebinding and cross-origin CSRF via MCP HTTP transport",
+      "url": "https://github.com/advisories/GHSA-fvh2-gm75-j4j7",
+      "date": "2026-05-18T17:00:25.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
