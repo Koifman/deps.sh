@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-18T18:46:26.694Z",
+  "fetchedAt": "2026-05-18T19:38:02.271Z",
   "entries": [
+    {
+      "title": "[ws] ws: Uninitialized memory disclosure",
+      "url": "https://github.com/advisories/GHSA-58qx-3vcg-4xpx",
+      "date": "2026-05-18T19:02:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@mistralai/mistralai-gcp] Broken dropper in @mistralai/mistralai, @mistralai/mistralai-azure, @mistralai/mistralai-gcp",
       "url": "https://github.com/advisories/GHSA-jgg6-4rpr-wfh7",
@@ -131,13 +138,6 @@
       "title": "[@tmlmobilidade/utils] @tmlmobilidade/utils has prototype pollution in its setValueAtPath",
       "url": "https://github.com/advisories/GHSA-cmxg-94mg-jq94",
       "date": "2026-05-18T17:07:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dynoxide] dynoxide: DNS rebinding and cross-origin CSRF via MCP HTTP transport",
-      "url": "https://github.com/advisories/GHSA-fvh2-gm75-j4j7",
-      "date": "2026-05-18T17:00:25.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
