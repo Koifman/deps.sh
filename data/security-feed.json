@@ -1,143 +1,145 @@
 {
-  "fetchedAt": "2026-05-18T15:13:20.181Z",
+  "fetchedAt": "2026-05-18T17:06:12.307Z",
   "entries": [
     {
-      "title": "[pgadmin4]  pgAdmin 4 File Manager has symbolic-link path traversal",
-      "url": "https://github.com/advisories/GHSA-hr4r-fwpv-c95j",
-      "date": "2026-05-18T14:56:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pgadmin4] pgAdmin 4 contains local file inclusion (LFI) and server-side request forgery (SSRF) vulnerabilities",
-      "url": "https://github.com/advisories/GHSA-p58c-q354-6c4f",
-      "date": "2026-05-18T14:51:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pgadmin4] pgAdmin 4: Stored cross-site scripting (XSS) vulnerability in Browser Tree and Explain Visualizer modules",
-      "url": "https://github.com/advisories/GHSA-6p2c-69cv-3fxq",
-      "date": "2026-05-18T14:32:33.000Z",
+      "title": "[ai-agents] aiwaves-cn agents is vulnerable to resource consumption in the recall_relevant_memories_to_working_memory function",
+      "url": "https://github.com/advisories/GHSA-ch88-c67q-65r9",
+      "date": "2026-05-18T16:52:53.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[pgadmin4] pgAdmin 4: OS command injection vulnerability in Import/Export query export",
-      "url": "https://github.com/advisories/GHSA-j74f-g7vx-fh4x",
-      "date": "2026-05-18T14:31:21.000Z",
+      "title": "[mlflow] MLflow allows an unauthenticated remote attacker to read arbitrary files from the server's filesystem",
+      "url": "https://github.com/advisories/GHSA-42h5-h8qh-vv9v",
+      "date": "2026-05-18T16:49:39.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[pgadmin4] SQL injection vulnerability in pgAdmin 4 Maintenance Tool",
-      "url": "https://github.com/advisories/GHSA-hp84-p2gq-6fvr",
-      "date": "2026-05-18T14:23:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[docling] Docling's JATS XML backend is vulnerable to XML Entity Expansion (XXE) attacks",
-      "url": "https://github.com/advisories/GHSA-cr42-rg2m-mq4q",
-      "date": "2026-05-18T14:20:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[neotoma] Neotoma: Unauthenticated Inspector/API access via reverse-proxy loopback auth bypass",
-      "url": "https://github.com/advisories/GHSA-5cvp-p7p4-mcx9",
-      "date": "2026-05-18T14:20:07.000Z",
+      "title": "[@steipete/summarize] @steipete/summarize allows local attackers to read bearer tokens and API credentials stored in ~/.summarize/daemon.json",
+      "url": "https://github.com/advisories/GHSA-qp7v-gjgg-4mj6",
+      "date": "2026-05-18T16:47:46.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@sveltia/cms] Sveltia CMS: Stored XSS in entry summary rendering via entity-decoded HTML",
-      "url": "https://github.com/advisories/GHSA-97r8-rf7q-wmjw",
-      "date": "2026-05-18T13:43:50.000Z",
+      "title": "[parse-nested-form-data] parse-nested-form-data has Prototype Pollution via `__proto__` in FormData field names",
+      "url": "https://github.com/advisories/GHSA-xp7r-j8r6-j9h3",
+      "date": "2026-05-18T16:43:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[brace-expansion] brace-expansion: Large numeric range defeats documented `max` DoS protection",
+      "url": "https://github.com/advisories/GHSA-jxxr-4gwj-5jf2",
+      "date": "2026-05-18T16:22:04.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[edumfa] eduMFA Passkeys: missing expiration flag may allow replay attacks and reuse of old challenges",
+      "url": "https://github.com/advisories/GHSA-j5rm-v3vh-vx94",
+      "date": "2026-05-18T15:37:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[edumfa] eduMFA: Incorrect InnoDB snapshot isolation possibly allows token reusage",
+      "url": "https://github.com/advisories/GHSA-qq2p-4282-cfc5",
+      "date": "2026-05-18T15:36:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[edumfa] eduMFA: Unauthenticated Failcounter Increment on Resolver Tokens via /validate/check",
+      "url": "https://github.com/advisories/GHSA-74r7-3mjm-jc5v",
+      "date": "2026-05-18T15:35:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw vulnerable to arbitrary code execution via attacker-controlled setup-api.js loaded from cwd during env-key resolution",
+      "url": "https://github.com/advisories/GHSA-xpr6-2hgm-4wwp",
+      "date": "2026-05-18T15:31:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's Webhooks SecretRef route secret remains valid after rotation/reload",
+      "url": "https://github.com/advisories/GHSA-v8j2-5f9p-fmh4",
+      "date": "2026-05-18T15:31:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Owner-enforced commands could accept wildcard channel senders as command owners",
+      "url": "https://github.com/advisories/GHSA-p3pv-c954-9m6f",
+      "date": "2026-05-18T15:30:47.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[webpack-dev-server] webpack-dev-server vulnerable to cross-origin source code exposure on non-HTTPS origins",
-      "url": "https://github.com/advisories/GHSA-79cf-xcqc-c78w",
-      "date": "2026-05-18T13:31:44.000Z",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Workspace dotenv MiniMax host override could redirect credentialed requests",
+      "url": "https://github.com/advisories/GHSA-4mhr-cxr4-2prm",
+      "date": "2026-05-18T15:30:30.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[form-data-objectizer] form-data-objectizer: Prototype pollution in form-data-objectizer via bracket-notation form keys",
-      "url": "https://github.com/advisories/GHSA-m2hg-wjq3-28wq",
-      "date": "2026-05-18T13:28:33.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[graphitedb] Graphite Has a Pickle Deserialization Vulnerability",
-      "url": "https://github.com/advisories/GHSA-qw48-84f6-28gv",
-      "date": "2026-05-18T13:27:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n-mcp] n8n-MCP: Workflow telemetry sanitizer could retain partial values from URL-shaped node parameters",
-      "url": "https://github.com/advisories/GHSA-f3rg-xqjj-cj9w",
-      "date": "2026-05-18T13:26:53.000Z",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: MCP stdio server env could load dangerous startup variables from workspace config",
+      "url": "https://github.com/advisories/GHSA-p3m6-jr2h-hhxj",
+      "date": "2026-05-18T15:30:16.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[apm] Microsoft APM: Symlinks under `.apm/prompts/` and `.apm/agents/` are dereferenced during `apm install`, copying host-local file contents into the project tree",
-      "url": "https://github.com/advisories/GHSA-q5pp-gvjg-h7v4",
-      "date": "2026-05-18T13:26:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "[openclaw] Duplicate Advisory: OpenClaw's ACP child sessions inherit subagent security envelope constraints",
+      "url": "https://github.com/advisories/GHSA-w626-296m-8f85",
+      "date": "2026-05-18T15:30:00.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
     },
     {
-      "title": "[weblate] Weblate: Stored HTML injection in editor search preview",
-      "url": "https://github.com/advisories/GHSA-6wxc-8mgq-w26m",
-      "date": "2026-05-17T21:17:01.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Isolated cron awareness events were recorded as trusted system events",
+      "url": "https://github.com/advisories/GHSA-m5j2-r859-r5cv",
+      "date": "2026-05-18T15:29:41.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0132: Unsoundness in ssdeep",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0132.html",
-      "date": "2026-05-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0122: Unsoundness in rkyv",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0122.html",
-      "date": "2026-05-16T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Jupyter code execution works despite `ENABLE_CODE_EXECUTION=false` — feature gate bypassed",
-      "url": "https://github.com/advisories/GHSA-482j-2pq6-q5w4",
-      "date": "2026-05-15T23:55:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI: LDAP and OAuth First-User Race Condition Allows Multiple Admin Accounts",
-      "url": "https://github.com/advisories/GHSA-h3ww-q6xx-w7x3",
-      "date": "2026-05-15T23:55:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI: shared-chat branch ignores access_type, allowing unauthorized file deletion",
-      "url": "https://github.com/advisories/GHSA-26g9-27vm-x3q8",
-      "date": "2026-05-15T23:55:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apm-cli] Microsoft APM: Windows absolute-path tar member overwrite during legacy-bundle probing in `apm install`",
-      "url": "https://github.com/advisories/GHSA-mq5j-pw29-jcv3",
-      "date": "2026-05-15T23:50:09.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Hook mapping templates could bypass hook session-key opt-in",
+      "url": "https://github.com/advisories/GHSA-9j32-3m66-mc4m",
+      "date": "2026-05-18T15:29:29.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Workspace dotenv files cannot override connector endpoint hosts",
+      "url": "https://github.com/advisories/GHSA-5jgm-f9wr-9qm7",
+      "date": "2026-05-18T15:29:03.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mlflow] MLflow Has a Server-Side Request Forgery (SSRF) Vulnerability",
+      "url": "https://github.com/advisories/GHSA-65h7-c7c4-mghx",
+      "date": "2026-05-18T15:28:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[automagik-genie] automagik-genie has a command injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-64vr-4gr2-m642",
+      "date": "2026-05-18T15:27:58.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pgadmin4] pgAdmin 4 server mode has an authorization vulnerability affecting Server Groups, Servers, Shared Servers, Background Processes, and Debugger modules",
+      "url": "https://github.com/advisories/GHSA-h2x2-q2mc-24gw",
+      "date": "2026-05-18T15:23:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
     }
   ]
 }
