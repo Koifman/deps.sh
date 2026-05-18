@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-05-18T19:38:02.271Z",
+  "fetchedAt": "2026-05-18T20:38:59.786Z",
   "entries": [
+    {
+      "title": "[superduper-framework] Superduper: Remote code execution via unsafe eval in superduper query parsing",
+      "url": "https://github.com/advisories/GHSA-2799-6g5r-mmc7",
+      "date": "2026-05-18T20:26:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[snorkel] Snorkel Trainer.load uses an unsafe torch.load",
+      "url": "https://github.com/advisories/GHSA-78cp-f66x-qmh5",
+      "date": "2026-05-18T20:25:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[snorkel] Snorkel MultitaskClassifier.load uses an unsafe torch.load",
+      "url": "https://github.com/advisories/GHSA-gpx5-7xm4-229w",
+      "date": "2026-05-18T20:25:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[snorkel] Snorkel BaseLabeler.load uses an unsafe pickle.load",
+      "url": "https://github.com/advisories/GHSA-fq92-qc8f-482v",
+      "date": "2026-05-18T20:24:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pytorch-lightning] PyTorch Lightning load_from_checkpoint has an insecure checkpoint deserialization",
+      "url": "https://github.com/advisories/GHSA-75m9-98v2-hjpm",
+      "date": "2026-05-18T20:24:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[syft] PySyft server-side arbitrary Python execution after code approval",
+      "url": "https://github.com/advisories/GHSA-cfpg-c974-jfhq",
+      "date": "2026-05-18T20:24:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[nicegui] NiceGUI: Unauthenticated log-volume denial of service in dynamic resource routes",
+      "url": "https://github.com/advisories/GHSA-pq7c-x8g4-rvp6",
+      "date": "2026-05-18T20:22:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nicegui] NiceGUI: Local file disclosure via Docutils file insertion in ui.restructured_text()",
+      "url": "https://github.com/advisories/GHSA-jfrm-rx66-g536",
+      "date": "2026-05-18T20:22:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[ws] ws: Uninitialized memory disclosure",
       "url": "https://github.com/advisories/GHSA-58qx-3vcg-4xpx",
@@ -83,62 +139,6 @@
       "url": "https://github.com/advisories/GHSA-mf33-gv72-w2h5",
       "date": "2026-05-18T17:50:23.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase: CouchDB Reduce Injection via Unsanitized Calculation Parameter in V1 Views API",
-      "url": "https://github.com/advisories/GHSA-363w-hvwh-w7m6",
-      "date": "2026-05-18T17:47:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[budibase] Budibase: Row Action Trigger Bypasses View Row Filter Security Boundary Allowing Action on Out-of-Scope Rows",
-      "url": "https://github.com/advisories/GHSA-3263-v5v9-xq8q",
-      "date": "2026-05-18T17:44:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@budibase/worker] Budibase: Builder-to-Admin Privilege Escalation via onboardUsers Endpoint Without SMTP Configuration",
-      "url": "https://github.com/advisories/GHSA-c54j-xp92-wh28",
-      "date": "2026-05-18T17:42:25.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n-mcp] n8n-MCP: Multi-tenant MCP requests fall back to process-level n8n credentials when tenant headers are absent or incomplete",
-      "url": "https://github.com/advisories/GHSA-jxx9-px88-pj69",
-      "date": "2026-05-18T17:41:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[multiparty] multiparty vulnerable to ReDoS via filename parsing",
-      "url": "https://github.com/advisories/GHSA-65x3-rw7q-gx94",
-      "date": "2026-05-18T17:40:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[multiparty] multiparty vulnerable to Denial of Service via Uncaught Exception in filename* parameter parsing",
-      "url": "https://github.com/advisories/GHSA-xh3c-6gcq-g4rv",
-      "date": "2026-05-18T17:35:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[multiparty] multiparty: Denial of Service via Prototype Pollution leads to Uncaught Exception",
-      "url": "https://github.com/advisories/GHSA-qxch-whhj-8956",
-      "date": "2026-05-18T17:35:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@tmlmobilidade/utils] @tmlmobilidade/utils has prototype pollution in its setValueAtPath",
-      "url": "https://github.com/advisories/GHSA-cmxg-94mg-jq94",
-      "date": "2026-05-18T17:07:04.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
