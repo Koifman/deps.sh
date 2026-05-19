@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-19T05:30:43.164Z",
+  "fetchedAt": "2026-05-19T07:27:56.717Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0145: Vulnerability in astral-tokio-tar",
@@ -10,6 +10,12 @@
     {
       "title": "RUSTSEC-2026-0146: Vulnerability in anchor-lang",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0146.html",
+      "date": "2026-05-19T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0140: Vulnerability in dynoxide-rs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0140.html",
       "date": "2026-05-19T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -127,13 +133,6 @@
     },
     {
       "title": "[@mistralai/mistralai-azure] Broken dropper in @mistralai/mistralai, @mistralai/mistralai-azure, @mistralai/mistralai-gcp",
-      "url": "https://github.com/advisories/GHSA-jgg6-4rpr-wfh7",
-      "date": "2026-05-18T17:55:55.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@mistralai/mistralai] Broken dropper in @mistralai/mistralai, @mistralai/mistralai-azure, @mistralai/mistralai-gcp",
       "url": "https://github.com/advisories/GHSA-jgg6-4rpr-wfh7",
       "date": "2026-05-18T17:55:55.000Z",
       "ecosystem": "npm",
