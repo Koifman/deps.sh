@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-19T18:47:30.212Z",
+  "fetchedAt": "2026-05-19T19:38:53.934Z",
   "entries": [
+    {
+      "title": "[9router] 9router: Unauthenticated Remote Code Execution via unprotected MCP custom plugin routes",
+      "url": "https://github.com/advisories/GHSA-fhh6-4qxv-rpqj",
+      "date": "2026-05-19T19:22:06.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[@apify/actors-mcp-server] Apify Model Context Protocol (MCP) server: Domain Allowlist Bypass in fetch-apify-docs via String Prefix Matching",
       "url": "https://github.com/advisories/GHSA-jwp7-wg77-3w9v",
@@ -129,13 +136,6 @@
     },
     {
       "title": "[@haxtheweb/iframe-loader] Stored XSS via <iframe> in HAX CMS allows access to sensitive client-side data and account takeover",
-      "url": "https://github.com/advisories/GHSA-jh3h-rpxg-fr36",
-      "date": "2026-05-19T14:46:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@haxtheweb/video-player] Stored XSS via <iframe> in HAX CMS allows access to sensitive client-side data and account takeover",
       "url": "https://github.com/advisories/GHSA-jh3h-rpxg-fr36",
       "date": "2026-05-19T14:46:48.000Z",
       "ecosystem": "npm",
