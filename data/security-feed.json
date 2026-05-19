@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-05-19T19:38:53.934Z",
+  "fetchedAt": "2026-05-19T20:42:03.933Z",
   "entries": [
     {
-      "title": "[9router] 9router: Unauthenticated Remote Code Execution via unprotected MCP custom plugin routes",
-      "url": "https://github.com/advisories/GHSA-fhh6-4qxv-rpqj",
-      "date": "2026-05-19T19:22:06.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@apify/actors-mcp-server] Apify Model Context Protocol (MCP) server: Domain Allowlist Bypass in fetch-apify-docs via String Prefix Matching",
-      "url": "https://github.com/advisories/GHSA-jwp7-wg77-3w9v",
-      "date": "2026-05-19T16:34:39.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[budibase] Budibase: Unrestricted Upload of File with Dangerous Type",
-      "url": "https://github.com/advisories/GHSA-82rc-gxrg-v4gf",
-      "date": "2026-05-19T16:31:33.000Z",
+      "title": "[@angular/platform-server] @angular/platform-server: SSRF via Hostname Hijacking",
+      "url": "https://github.com/advisories/GHSA-rfh7-fxqc-q52v",
+      "date": "2026-05-19T20:29:53.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@budibase/backend-core] Budibase: Missing Cache Invalidation on Public API Role Unassignment Allows Revoked Users to Retain Privileges for Up to 1 Hour",
-      "url": "https://github.com/advisories/GHSA-6vp2-6r7m-2jvx",
-      "date": "2026-05-19T16:30:38.000Z",
+      "title": "[@angular/platform-server] @angular/platform-server: SSRF via Hostname Hijacking",
+      "url": "https://github.com/advisories/GHSA-rfh7-fxqc-q52v",
+      "date": "2026-05-19T20:29:53.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     },
     {
-      "title": "[protobufjs] protobufjs: Denial of Service via unbounded recursive JSON descriptor expansion",
-      "url": "https://github.com/advisories/GHSA-jggg-4jg4-v7c6",
-      "date": "2026-05-19T16:21:36.000Z",
+      "title": "[@angular/platform-server] @angular/platform-server: SSRF via Hostname Hijacking",
+      "url": "https://github.com/advisories/GHSA-rfh7-fxqc-q52v",
+      "date": "2026-05-19T20:29:53.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     },
     {
-      "title": "[protobufjs] protobufjs: Denial of Service via unbounded recursive JSON descriptor expansion",
-      "url": "https://github.com/advisories/GHSA-jggg-4jg4-v7c6",
-      "date": "2026-05-19T16:21:36.000Z",
+      "title": "[@angular/platform-server] @angular/platform-server: SSRF via Hostname Hijacking",
+      "url": "https://github.com/advisories/GHSA-rfh7-fxqc-q52v",
+      "date": "2026-05-19T20:29:53.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     },
     {
-      "title": "[n8n] n8n: Credential exfiltration via Allowed HTTP Request Domains Bypass",
-      "url": "https://github.com/advisories/GHSA-3875-8gcx-7v46",
-      "date": "2026-05-19T16:17:44.000Z",
+      "title": "[@angular/platform-server] @angular/platform-server: SSRF via Hostname Hijacking",
+      "url": "https://github.com/advisories/GHSA-rfh7-fxqc-q52v",
+      "date": "2026-05-19T20:29:53.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     },
     {
-      "title": "[n8n] n8n: Legacy ExecuteWorkflow Node Bypassed File Path Restrictions",
-      "url": "https://github.com/advisories/GHSA-2vx9-7wpg-88jq",
-      "date": "2026-05-19T15:55:44.000Z",
+      "title": "[@beproduct/nestjs-auth] Malicious code in @beproduct/nestjs-auth (0.1.2 through 0.1.19) — Mini Shai-Hulud worm",
+      "url": "https://github.com/advisories/GHSA-6xwp-cp5h-q856",
+      "date": "2026-05-19T20:28:08.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[strawberry-graphql] Strawberry GraphQL: Default GraphiQL may expose HTTP headers in URLs",
-      "url": "https://github.com/advisories/GHSA-x97m-qp5c-w9xj",
-      "date": "2026-05-19T15:55:08.000Z",
+      "title": "[ironic] OpenStack Ironic: Pre-Validation Checksum Calculation allows Denial of Service (DoS) via Infinite Block Devices",
+      "url": "https://github.com/advisories/GHSA-4g73-w726-53h3",
+      "date": "2026-05-19T20:15:10.000Z",
       "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[camofox-mcp] CamoFox MCP: Unauthenticated HTTP MCP browser-control surface",
+      "url": "https://github.com/advisories/GHSA-7hgr-7h44-33w2",
+      "date": "2026-05-19T20:13:37.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sqlfluff] SQLFluff: Uncontrolled Resource Consumption in SQLFluff Parser",
+      "url": "https://github.com/advisories/GHSA-73jc-5mrq-prw7",
+      "date": "2026-05-19T20:10:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sqlfluff] SQLFluff: Recursive Stack Overflow in Parser",
+      "url": "https://github.com/advisories/GHSA-wmhf-fqc8-vxhh",
+      "date": "2026-05-19T20:10:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sillytavern] SillyTavern: SSRF in SearXNG Search Proxy via Unvalidated baseUrl",
+      "url": "https://github.com/advisories/GHSA-qg89-qwwh-5f3j",
+      "date": "2026-05-19T20:09:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@libp2p/kad-dht] @libp2p/kad-dht: Unvalidated PUT_VALUE records allow unbounded disk exhaustion on DHT server nodes",
+      "url": "https://github.com/advisories/GHSA-32mq-hpph-xfvr",
+      "date": "2026-05-19T20:07:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nuxt/nitro-server] Nuxt: `__nuxt_island` endpoint does not bind responses to request props, enabling shared-cache poisoning",
+      "url": "https://github.com/advisories/GHSA-g8wj-3cr3-6w7v",
+      "date": "2026-05-19T20:03:26.000Z",
+      "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[@nuxt/webpack-builder] Nuxt: Dev server exposes built source over LAN to malicious sites (incomplete fix for GHSA-4gf7-ff8x-hq99)",
-      "url": "https://github.com/advisories/GHSA-6m52-m754-pw2g",
-      "date": "2026-05-19T15:51:17.000Z",
+      "title": "[@nuxt/nitro-server] Nuxt: `__nuxt_island` endpoint does not bind responses to request props, enabling shared-cache poisoning",
+      "url": "https://github.com/advisories/GHSA-g8wj-3cr3-6w7v",
+      "date": "2026-05-19T20:03:26.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "LOW"
     },
     {
-      "title": "[@nuxt/webpack-builder] Nuxt: Dev server exposes built source over LAN to malicious sites (incomplete fix for GHSA-4gf7-ff8x-hq99)",
-      "url": "https://github.com/advisories/GHSA-6m52-m754-pw2g",
-      "date": "2026-05-19T15:51:17.000Z",
+      "title": "[nuxt] Nuxt: `__nuxt_island` endpoint does not bind responses to request props, enabling shared-cache poisoning",
+      "url": "https://github.com/advisories/GHSA-g8wj-3cr3-6w7v",
+      "date": "2026-05-19T20:03:26.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "LOW"
     },
     {
-      "title": "[@nuxt/rspack-builder] Nuxt: Dev server exposes built source over LAN to malicious sites (incomplete fix for GHSA-4gf7-ff8x-hq99)",
-      "url": "https://github.com/advisories/GHSA-6m52-m754-pw2g",
-      "date": "2026-05-19T15:51:17.000Z",
+      "title": "[nuxt] Nuxt: `__nuxt_island` endpoint does not bind responses to request props, enabling shared-cache poisoning",
+      "url": "https://github.com/advisories/GHSA-g8wj-3cr3-6w7v",
+      "date": "2026-05-19T20:03:26.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "LOW"
     },
     {
-      "title": "[@nuxt/rspack-builder] Nuxt: Dev server exposes built source over LAN to malicious sites (incomplete fix for GHSA-4gf7-ff8x-hq99)",
-      "url": "https://github.com/advisories/GHSA-6m52-m754-pw2g",
-      "date": "2026-05-19T15:51:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nuxt] Nuxt: Reflected XSS in `navigateTo()` external redirect",
-      "url": "https://github.com/advisories/GHSA-fx6j-w5w5-h468",
-      "date": "2026-05-19T15:49:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nuxt] Nuxt: Reflected XSS in `navigateTo()` external redirect",
-      "url": "https://github.com/advisories/GHSA-fx6j-w5w5-h468",
-      "date": "2026-05-19T15:49:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[auth-fetch-mcp] auth-fetch-mcp: SSRF and disk exfiltration via unvalidated auth_fetch and download_media URLs",
-      "url": "https://github.com/advisories/GHSA-hv85-774v-26fg",
-      "date": "2026-05-19T15:47:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[guardrails-ai] Malicious code in guardrails-ai 0.10.1 (supply chain compromise)",
-      "url": "https://github.com/advisories/GHSA-xmpw-2vmm-p4p6",
-      "date": "2026-05-19T15:40:48.000Z",
+      "title": "[pymdown-extensions] Regression in pymdownx.snippets reintroduces sibling-prefix path traversal bypass despite restrict_base_path",
+      "url": "https://github.com/advisories/GHSA-62q4-447f-wv8h",
+      "date": "2026-05-19T20:00:30.000Z",
       "ecosystem": "pypi",
-      "severity": "CRITICAL"
+      "severity": "MODERATE"
     },
     {
-      "title": "[zrok] rok Python ProxyShare can be used as an SSRF proxy through absolute URL paths",
-      "url": "https://github.com/advisories/GHSA-jh67-hwqw-m5r7",
-      "date": "2026-05-19T15:16:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@haxtheweb/haxcms-nodejs] HAXcms: Mass Token Exfiltration and Cross-Tenant Hijack",
-      "url": "https://github.com/advisories/GHSA-x3x5-7h4h-gwxg",
-      "date": "2026-05-19T14:47:04.000Z",
+      "title": "[@penpot/mcp] PenPot MCP REPL server binds to 0.0.0.0 with unauthenticated /execute endpoint — RCE",
+      "url": "https://github.com/advisories/GHSA-22qr-rp27-j9wm",
+      "date": "2026-05-19T19:57:37.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@haxtheweb/iframe-loader] Stored XSS via <iframe> in HAX CMS allows access to sensitive client-side data and account takeover",
-      "url": "https://github.com/advisories/GHSA-jh3h-rpxg-fr36",
-      "date": "2026-05-19T14:46:48.000Z",
+      "title": "[@haxtheweb/haxcms-nodejs] HAX CMS: Denial of Service using Malicious Import Request",
+      "url": "https://github.com/advisories/GHSA-9r33-xhw8-4qqp",
+      "date": "2026-05-19T19:51:55.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[turbo] Trubo: Login callback CSRF/session fixation",
+      "url": "https://github.com/advisories/GHSA-hcf7-66rw-9f5r",
+      "date": "2026-05-19T19:49:55.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     }
   ]
 }
