@@ -1,6 +1,125 @@
 {
-  "fetchedAt": "2026-05-19T15:15:11.216Z",
+  "fetchedAt": "2026-05-19T17:07:37.023Z",
   "entries": [
+    {
+      "title": "[@apify/actors-mcp-server] Apify Model Context Protocol (MCP) server: Domain Allowlist Bypass in fetch-apify-docs via String Prefix Matching",
+      "url": "https://github.com/advisories/GHSA-jwp7-wg77-3w9v",
+      "date": "2026-05-19T16:34:39.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[budibase] Budibase: Unrestricted Upload of File with Dangerous Type",
+      "url": "https://github.com/advisories/GHSA-82rc-gxrg-v4gf",
+      "date": "2026-05-19T16:31:33.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/backend-core] Budibase: Missing Cache Invalidation on Public API Role Unassignment Allows Revoked Users to Retain Privileges for Up to 1 Hour",
+      "url": "https://github.com/advisories/GHSA-6vp2-6r7m-2jvx",
+      "date": "2026-05-19T16:30:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[protobufjs] protobufjs: Denial of Service via unbounded recursive JSON descriptor expansion",
+      "url": "https://github.com/advisories/GHSA-jggg-4jg4-v7c6",
+      "date": "2026-05-19T16:21:36.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[protobufjs] protobufjs: Denial of Service via unbounded recursive JSON descriptor expansion",
+      "url": "https://github.com/advisories/GHSA-jggg-4jg4-v7c6",
+      "date": "2026-05-19T16:21:36.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Credential exfiltration via Allowed HTTP Request Domains Bypass",
+      "url": "https://github.com/advisories/GHSA-3875-8gcx-7v46",
+      "date": "2026-05-19T16:17:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Legacy ExecuteWorkflow Node Bypassed File Path Restrictions",
+      "url": "https://github.com/advisories/GHSA-2vx9-7wpg-88jq",
+      "date": "2026-05-19T15:55:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[strawberry-graphql] Strawberry GraphQL: Default GraphiQL may expose HTTP headers in URLs",
+      "url": "https://github.com/advisories/GHSA-x97m-qp5c-w9xj",
+      "date": "2026-05-19T15:55:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@nuxt/webpack-builder] Nuxt: Dev server exposes built source over LAN to malicious sites (incomplete fix for GHSA-4gf7-ff8x-hq99)",
+      "url": "https://github.com/advisories/GHSA-6m52-m754-pw2g",
+      "date": "2026-05-19T15:51:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@nuxt/webpack-builder] Nuxt: Dev server exposes built source over LAN to malicious sites (incomplete fix for GHSA-4gf7-ff8x-hq99)",
+      "url": "https://github.com/advisories/GHSA-6m52-m754-pw2g",
+      "date": "2026-05-19T15:51:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@nuxt/rspack-builder] Nuxt: Dev server exposes built source over LAN to malicious sites (incomplete fix for GHSA-4gf7-ff8x-hq99)",
+      "url": "https://github.com/advisories/GHSA-6m52-m754-pw2g",
+      "date": "2026-05-19T15:51:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@nuxt/rspack-builder] Nuxt: Dev server exposes built source over LAN to malicious sites (incomplete fix for GHSA-4gf7-ff8x-hq99)",
+      "url": "https://github.com/advisories/GHSA-6m52-m754-pw2g",
+      "date": "2026-05-19T15:51:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nuxt] Nuxt: Reflected XSS in `navigateTo()` external redirect",
+      "url": "https://github.com/advisories/GHSA-fx6j-w5w5-h468",
+      "date": "2026-05-19T15:49:26.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nuxt] Nuxt: Reflected XSS in `navigateTo()` external redirect",
+      "url": "https://github.com/advisories/GHSA-fx6j-w5w5-h468",
+      "date": "2026-05-19T15:49:26.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[auth-fetch-mcp] auth-fetch-mcp: SSRF and disk exfiltration via unvalidated auth_fetch and download_media URLs",
+      "url": "https://github.com/advisories/GHSA-hv85-774v-26fg",
+      "date": "2026-05-19T15:47:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[guardrails-ai] Malicious code in guardrails-ai 0.10.1 (supply chain compromise)",
+      "url": "https://github.com/advisories/GHSA-xmpw-2vmm-p4p6",
+      "date": "2026-05-19T15:40:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[zrok] rok Python ProxyShare can be used as an SSRF proxy through absolute URL paths",
+      "url": "https://github.com/advisories/GHSA-jh67-hwqw-m5r7",
+      "date": "2026-05-19T15:16:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[@haxtheweb/haxcms-nodejs] HAXcms: Mass Token Exfiltration and Cross-Tenant Hijack",
       "url": "https://github.com/advisories/GHSA-x3x5-7h4h-gwxg",
@@ -20,122 +139,6 @@
       "url": "https://github.com/advisories/GHSA-jh3h-rpxg-fr36",
       "date": "2026-05-19T14:46:48.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@haxtheweb/haxcms-nodejs] Stored XSS via <iframe> in HAX CMS allows access to sensitive client-side data and account takeover",
-      "url": "https://github.com/advisories/GHSA-jh3h-rpxg-fr36",
-      "date": "2026-05-19T14:46:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@haxtheweb/haxcms-nodejs] HAXcms: Private Key Disclosure via Broken HMAC Implementation",
-      "url": "https://github.com/advisories/GHSA-6c8g-9hfh-pq5h",
-      "date": "2026-05-19T14:44:56.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@haxtheweb/open-apis] HAX open-apis: Credential Theft via Server-Side Request Forgery (SSRF) in open-apis",
-      "url": "https://github.com/advisories/GHSA-4fg7-f244-3j49",
-      "date": "2026-05-19T14:44:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@haxtheweb/video-player] HAX CMS: Stored XSS via '<video-player>' component allows arbitrary JavaScript execution and token theft",
-      "url": "https://github.com/advisories/GHSA-2m6p-hm3w-6jm3",
-      "date": "2026-05-19T14:44:35.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@haxtheweb/haxcms-nodejs] HAX CMS: Stored XSS via '<video-player>' component allows arbitrary JavaScript execution and token theft",
-      "url": "https://github.com/advisories/GHSA-2m6p-hm3w-6jm3",
-      "date": "2026-05-19T14:44:35.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@haxtheweb/haxcms-nodejs] HAXcms createSite SSRF Enables Arbitrary File Read",
-      "url": "https://github.com/advisories/GHSA-q862-gcgq-5m6g",
-      "date": "2026-05-19T14:44:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@opensearch-project/opensearch] Malware in @opensearch-project/opensearch",
-      "url": "https://github.com/advisories/GHSA-27f5-xjrr-q9ff",
-      "date": "2026-05-19T14:35:07.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@opensearch-project/opensearch] Malware in @opensearch-project/opensearch",
-      "url": "https://github.com/advisories/GHSA-27f5-xjrr-q9ff",
-      "date": "2026-05-19T14:35:07.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@opensearch-project/opensearch] Malware in @opensearch-project/opensearch",
-      "url": "https://github.com/advisories/GHSA-27f5-xjrr-q9ff",
-      "date": "2026-05-19T14:35:07.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@opensearch-project/opensearch] Malware in @opensearch-project/opensearch",
-      "url": "https://github.com/advisories/GHSA-27f5-xjrr-q9ff",
-      "date": "2026-05-19T14:35:07.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[idna] Internationalized Domain Names in Applications (IDNA): Specially crafted inputs to idna.encode() can bypass CVE-2024-3651 fix",
-      "url": "https://github.com/advisories/GHSA-65pc-fj4g-8rjx",
-      "date": "2026-05-19T14:34:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0145: Vulnerability in astral-tokio-tar",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0145.html",
-      "date": "2026-05-19T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0146: Vulnerability in anchor-lang",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0146.html",
-      "date": "2026-05-19T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0140: Vulnerability in dynoxide-rs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0140.html",
-      "date": "2026-05-19T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[superduper-framework] Superduper: Remote code execution via unsafe eval in superduper query parsing",
-      "url": "https://github.com/advisories/GHSA-2799-6g5r-mmc7",
-      "date": "2026-05-18T20:26:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[snorkel] Snorkel Trainer.load uses an unsafe torch.load",
-      "url": "https://github.com/advisories/GHSA-78cp-f66x-qmh5",
-      "date": "2026-05-18T20:25:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[snorkel] Snorkel MultitaskClassifier.load uses an unsafe torch.load",
-      "url": "https://github.com/advisories/GHSA-gpx5-7xm4-229w",
-      "date": "2026-05-18T20:25:06.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
