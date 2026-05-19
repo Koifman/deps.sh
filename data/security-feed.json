@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-05-19T03:19:21.960Z",
+  "fetchedAt": "2026-05-19T05:30:43.164Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0145: Vulnerability in astral-tokio-tar",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0145.html",
+      "date": "2026-05-19T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0146: Vulnerability in anchor-lang",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0146.html",
+      "date": "2026-05-19T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[superduper-framework] Superduper: Remote code execution via unsafe eval in superduper query parsing",
       "url": "https://github.com/advisories/GHSA-2799-6g5r-mmc7",
@@ -126,20 +138,6 @@
       "date": "2026-05-18T17:55:55.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[mistralai] Malicious dropper in mistralai 2.4.6 PyPI package",
-      "url": "https://github.com/advisories/GHSA-wx9m-wx4f-4cmg",
-      "date": "2026-05-18T17:55:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[cloakbrowser] CloakBrowser: Unauthenticated path traversal via fingerprint parameter in cloakserve leads to arbitrary directory deletion",
-      "url": "https://github.com/advisories/GHSA-mf33-gv72-w2h5",
-      "date": "2026-05-18T17:50:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
