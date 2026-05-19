@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-05-19T17:10:33.239Z",
-  "count": 98,
+  "scannedAt": "2026-05-19T18:50:21.508Z",
+  "count": 99,
   "packages": [
     {
       "name": "xmldom",
@@ -552,8 +552,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.0",
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -561,8 +561,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
+      "name": "css-has-pseudo",
+      "version": "8.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -768,7 +768,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
       "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
@@ -777,7 +777,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "name": "oxc-transform",
       "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
@@ -804,15 +804,6 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.51.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-transform/binding-linux-x64-musl",
       "version": "0.132.0",
       "ecosystem": "npm",
@@ -822,8 +813,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.132.0",
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.51.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -838,6 +829,15 @@
       "level": "LOW",
       "previousOwner": "antimatter15",
       "currentOwner": "balearica"
+    },
+    {
+      "name": "oxc-minify",
+      "version": "0.132.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "meriyah",
@@ -883,6 +883,15 @@
       "level": "LOW",
       "previousOwner": "nev21",
       "currentOwner": "nevware21bot"
+    },
+    {
+      "name": "intl-tel-input",
+      "version": "28.1.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "jackocnr",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }
