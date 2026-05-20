@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-05-20T21:40:03.357Z",
+  "fetchedAt": "2026-05-20T22:36:40.682Z",
   "entries": [
+    {
+      "title": "[scrapy] Scrapy denial of service vulnerability",
+      "url": "https://github.com/advisories/GHSA-h7wm-ph43-c39p",
+      "date": "2026-05-20T22:25:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Werkzeug] Werkzeug possible resource exhaustion when parsing file data in forms",
+      "url": "https://github.com/advisories/GHSA-q34m-jh98-gwm2",
+      "date": "2026-05-20T22:24:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[werkzeug] Werkzeug DoS: High resource usage when parsing multipart/form-data containing a large part with CR/LF character at the beginning",
+      "url": "https://github.com/advisories/GHSA-hrfv-mqp8-q5rw",
+      "date": "2026-05-20T22:16:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[pip] pip has an interpretation conflict due to handling both concatenated tar and ZIP files as ZIP files",
       "url": "https://github.com/advisories/GHSA-58qw-9mgm-455v",
@@ -112,27 +133,6 @@
       "date": "2026-05-20T02:06:27.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[mlflow] Mlflow: Command Injection when serving models with enable_mlserver=True",
-      "url": "https://github.com/advisories/GHSA-rvhj-8chj-8v3c",
-      "date": "2026-05-20T01:30:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@angular/platform-server] @angular/platform-server: SSRF via Hostname Hijacking",
-      "url": "https://github.com/advisories/GHSA-rfh7-fxqc-q52v",
-      "date": "2026-05-19T20:29:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/platform-server] @angular/platform-server: SSRF via Hostname Hijacking",
-      "url": "https://github.com/advisories/GHSA-rfh7-fxqc-q52v",
-      "date": "2026-05-19T20:29:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
