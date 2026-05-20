@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-05-20T11:13:12.885Z",
-  "count": 98,
+  "scannedAt": "2026-05-20T13:11:55.972Z",
+  "count": 99,
   "packages": [
     {
       "name": "xmldom",
@@ -111,15 +111,6 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "gray-matter",
-      "version": "4.0.3",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "jonschlinkert",
-      "currentOwner": "rmassaioli"
-    },
-    {
       "name": "object.defaults",
       "version": "1.1.0",
       "ecosystem": "npm",
@@ -127,6 +118,15 @@
       "level": "MODERATE",
       "previousOwner": "jonschlinkert",
       "currentOwner": "phated"
+    },
+    {
+      "name": "gray-matter",
+      "version": "4.0.3",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "jonschlinkert",
+      "currentOwner": "rmassaioli"
     },
     {
       "name": "eslint-config-airbnb",
@@ -253,6 +253,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "well-known-symbols",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "novemberborn",
+      "currentOwner": "ljharb"
     },
     {
       "name": "tslib",
@@ -408,21 +417,21 @@
       "currentOwner": "behraang"
     },
     {
-      "name": "@redux-saga/core",
-      "version": "1.4.3",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "andarist",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "dependency-cruiser",
       "version": "17.4.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "sverweij",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@redux-saga/core",
+      "version": "1.4.3",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "andarist",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -490,7 +499,7 @@
     },
     {
       "name": "@supabase/storage-js",
-      "version": "2.106.0",
+      "version": "2.106.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -508,7 +517,7 @@
     },
     {
       "name": "@supabase/realtime-js",
-      "version": "2.106.0",
+      "version": "2.106.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -517,20 +526,11 @@
     },
     {
       "name": "@supabase/supabase-js",
-      "version": "2.106.0",
+      "version": "2.106.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "kiwicopple",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "oxc-parser",
-      "version": "0.132.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -543,13 +543,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
+      "name": "oxc-parser",
+      "version": "0.132.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "postcss-focus-visible",
@@ -563,6 +563,15 @@
     {
       "name": "css-has-pseudo",
       "version": "8.0.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
+    },
+    {
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -642,21 +651,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lingui/message-utils",
-      "version": "6.0.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "andrii.bodnar",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "cropperjs",
       "version": "2.1.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "fengyuanchen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@lingui/message-utils",
+      "version": "6.0.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -804,6 +813,15 @@
       "currentOwner": "lordofbacon"
     },
     {
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.51.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@oxc-transform/binding-linux-x64-musl",
       "version": "0.132.0",
       "ecosystem": "npm",
@@ -822,12 +840,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.51.0",
+      "name": "@lottiefiles/dotlottie-web",
+      "version": "0.73.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "boshen",
+      "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -838,15 +856,6 @@
       "level": "LOW",
       "previousOwner": "antimatter15",
       "currentOwner": "balearica"
-    },
-    {
-      "name": "@lottiefiles/dotlottie-web",
-      "version": "0.73.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "meriyah",
@@ -867,7 +876,7 @@
       "currentOwner": "nevware21bot"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-gnu",
+      "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
@@ -876,7 +885,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
