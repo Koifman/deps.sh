@@ -1,6 +1,30 @@
 {
-  "fetchedAt": "2026-05-20T05:31:05.383Z",
+  "fetchedAt": "2026-05-20T07:28:06.275Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0125: Vulnerability in libcrux-ml-dsa",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0125.html",
+      "date": "2026-05-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0124: Vulnerability in libcrux-chacha20poly1305",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0124.html",
+      "date": "2026-05-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0136: Vulnerability in diesel",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0136.html",
+      "date": "2026-05-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0137: Vulnerability in diesel",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0137.html",
+      "date": "2026-05-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[pm2] pm2 Regular Expression Denial of Service vulnerability",
       "url": "https://github.com/advisories/GHSA-x5gf-qvw8-r2rm",
@@ -112,34 +136,6 @@
       "date": "2026-05-19T20:03:26.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[nuxt] Nuxt: `__nuxt_island` endpoint does not bind responses to request props, enabling shared-cache poisoning",
-      "url": "https://github.com/advisories/GHSA-g8wj-3cr3-6w7v",
-      "date": "2026-05-19T20:03:26.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[nuxt] Nuxt: `__nuxt_island` endpoint does not bind responses to request props, enabling shared-cache poisoning",
-      "url": "https://github.com/advisories/GHSA-g8wj-3cr3-6w7v",
-      "date": "2026-05-19T20:03:26.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[pymdown-extensions] Regression in pymdownx.snippets reintroduces sibling-prefix path traversal bypass despite restrict_base_path",
-      "url": "https://github.com/advisories/GHSA-62q4-447f-wv8h",
-      "date": "2026-05-19T20:00:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@penpot/mcp] PenPot MCP REPL server binds to 0.0.0.0 with unauthenticated /execute endpoint — RCE",
-      "url": "https://github.com/advisories/GHSA-22qr-rp27-j9wm",
-      "date": "2026-05-19T19:57:37.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
