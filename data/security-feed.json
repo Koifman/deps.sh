@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-20T20:51:06.115Z",
+  "fetchedAt": "2026-05-20T21:40:03.357Z",
   "entries": [
+    {
+      "title": "[pip] pip has an interpretation conflict due to handling both concatenated tar and ZIP files as ZIP files",
+      "url": "https://github.com/advisories/GHSA-58qw-9mgm-455v",
+      "date": "2026-05-20T20:54:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[flowise] Flowise: Cross-Workspace Chatflow Disclosure via chatflows/apikey Endpoint Returns All Unprotected Chatflows",
       "url": "https://github.com/advisories/GHSA-c2c9-mfw7-p8hw",
@@ -112,13 +119,6 @@
       "date": "2026-05-20T01:30:43.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[@angular/platform-server] @angular/platform-server: SSRF via Hostname Hijacking",
-      "url": "https://github.com/advisories/GHSA-rfh7-fxqc-q52v",
-      "date": "2026-05-19T20:29:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     },
     {
       "title": "[@angular/platform-server] @angular/platform-server: SSRF via Hostname Hijacking",
