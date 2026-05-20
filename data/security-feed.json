@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-05-20T15:12:57.587Z",
+  "fetchedAt": "2026-05-20T17:13:49.411Z",
   "entries": [
+    {
+      "title": "[flowise] Flowise: Cross-Workspace Chatflow Disclosure via chatflows/apikey Endpoint Returns All Unprotected Chatflows",
+      "url": "https://github.com/advisories/GHSA-c2c9-mfw7-p8hw",
+      "date": "2026-05-20T15:45:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[flowise] Flowise: Mass Assignment in PUT /api/v1/user Allows Authenticated Users to Override Password Hash and Bypass Password Change Verification",
+      "url": "https://github.com/advisories/GHSA-59fh-9f3p-7m39",
+      "date": "2026-05-20T15:44:41.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[flowise] Flowise: Hardcoded CORS wildcard on TTS endpoint enables cross-origin credential abuse from any webpage",
+      "url": "https://github.com/advisories/GHSA-m837-xvxr-vqwg",
+      "date": "2026-05-20T15:38:05.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wger] wger: cross-tenant account deletion / deactivation / activation by gym.manage_gym + gym=None",
+      "url": "https://github.com/advisories/GHSA-mw8f-w6p8-xrf4",
+      "date": "2026-05-20T15:37:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@cap-js/db-service]  Supply chain compromise via malicious package versions (@cap-js/sqlite,  @cap-js/postgres, @cap-js/db-service)",
+      "url": "https://github.com/advisories/GHSA-pvw4-cvr4-97p8",
+      "date": "2026-05-20T15:33:05.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@cap-js/postgres]  Supply chain compromise via malicious package versions (@cap-js/sqlite,  @cap-js/postgres, @cap-js/db-service)",
+      "url": "https://github.com/advisories/GHSA-pvw4-cvr4-97p8",
+      "date": "2026-05-20T15:33:05.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@cap-js/sqlite]  Supply chain compromise via malicious package versions (@cap-js/sqlite,  @cap-js/postgres, @cap-js/db-service)",
+      "url": "https://github.com/advisories/GHSA-pvw4-cvr4-97p8",
+      "date": "2026-05-20T15:33:05.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[diffusers] Diffusers: TOCTOU Trust Remote Code Bypass",
+      "url": "https://github.com/advisories/GHSA-7wx4-6vff-v64p",
+      "date": "2026-05-20T15:31:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2025-0162: Unsoundness in vku",
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0162.html",
@@ -75,62 +131,6 @@
       "title": "[@angular/platform-server] @angular/platform-server: SSRF via Hostname Hijacking",
       "url": "https://github.com/advisories/GHSA-rfh7-fxqc-q52v",
       "date": "2026-05-19T20:29:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/platform-server] @angular/platform-server: SSRF via Hostname Hijacking",
-      "url": "https://github.com/advisories/GHSA-rfh7-fxqc-q52v",
-      "date": "2026-05-19T20:29:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/platform-server] @angular/platform-server: SSRF via Hostname Hijacking",
-      "url": "https://github.com/advisories/GHSA-rfh7-fxqc-q52v",
-      "date": "2026-05-19T20:29:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@beproduct/nestjs-auth] Malicious code in @beproduct/nestjs-auth (0.1.2 through 0.1.19) — Mini Shai-Hulud worm",
-      "url": "https://github.com/advisories/GHSA-6xwp-cp5h-q856",
-      "date": "2026-05-19T20:28:08.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic: Pre-Validation Checksum Calculation allows Denial of Service (DoS) via Infinite Block Devices",
-      "url": "https://github.com/advisories/GHSA-4g73-w726-53h3",
-      "date": "2026-05-19T20:15:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[camofox-mcp] CamoFox MCP: Unauthenticated HTTP MCP browser-control surface",
-      "url": "https://github.com/advisories/GHSA-7hgr-7h44-33w2",
-      "date": "2026-05-19T20:13:37.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sqlfluff] SQLFluff: Uncontrolled Resource Consumption in SQLFluff Parser",
-      "url": "https://github.com/advisories/GHSA-73jc-5mrq-prw7",
-      "date": "2026-05-19T20:10:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sqlfluff] SQLFluff: Recursive Stack Overflow in Parser",
-      "url": "https://github.com/advisories/GHSA-wmhf-fqc8-vxhh",
-      "date": "2026-05-19T20:10:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sillytavern] SillyTavern: SSRF in SearXNG Search Proxy via Unvalidated baseUrl",
-      "url": "https://github.com/advisories/GHSA-qg89-qwwh-5f3j",
-      "date": "2026-05-19T20:09:52.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
