@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-19T23:34:38.333Z",
+  "scannedAt": "2026-05-20T01:14:24.550Z",
   "count": 98,
   "packages": [
     {
@@ -129,15 +129,6 @@
       "currentOwner": "rmassaioli"
     },
     {
-      "name": "is-expression",
-      "version": "4.0.0",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "timothygu",
-      "currentOwner": "forbeslindesay"
-    },
-    {
       "name": "eslint-config-airbnb",
       "version": "19.0.4",
       "ecosystem": "npm",
@@ -145,6 +136,15 @@
       "level": "MODERATE",
       "previousOwner": "jitl",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "is-expression",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "timothygu",
+      "currentOwner": "forbeslindesay"
     },
     {
       "name": "array-initial",
@@ -228,21 +228,21 @@
       "currentOwner": "michaelficarra"
     },
     {
-      "name": "is-array-buffer",
-      "version": "3.0.5",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "fengyuanchen",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "string.prototype.trimend",
       "version": "1.0.9",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
       "previousOwner": "khaledelansari",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "is-array-buffer",
+      "version": "3.0.5",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "fengyuanchen",
       "currentOwner": "ljharb"
     },
     {
@@ -426,21 +426,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/base-driver",
-      "version": "10.5.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "dependency-cruiser",
       "version": "17.4.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "sverweij",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/base-driver",
+      "version": "10.5.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -588,6 +588,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "inversify",
+      "version": "8.1.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "remojansen",
+      "currentOwner": "notaphplover"
+    },
+    {
       "name": "@appium/types",
       "version": "1.4.0",
       "ecosystem": "npm",
@@ -604,15 +613,6 @@
       "level": "MODERATE",
       "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "inversify",
-      "version": "8.1.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "remojansen",
-      "currentOwner": "notaphplover"
     },
     {
       "name": "redux-saga",
@@ -813,7 +813,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
+      "name": "@oxc-transform/binding-linux-x64-musl",
       "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
@@ -822,7 +822,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
+      "name": "oxc-minify",
       "version": "0.132.0",
       "ecosystem": "npm",
       "score": 20,
@@ -849,15 +849,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.132.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "tesseract.js-core",
       "version": "6.1.2",
       "ecosystem": "npm",
@@ -867,15 +858,6 @@
       "currentOwner": "balearica"
     },
     {
-      "name": "@nevware21/ts-utils",
-      "version": "0.14.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
-    },
-    {
       "name": "meriyah",
       "version": "7.1.0",
       "ecosystem": "npm",
@@ -883,6 +865,24 @@
       "level": "LOW",
       "previousOwner": "meriyah",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.132.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@nevware21/ts-utils",
+      "version": "0.14.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     }
   ]
 }
