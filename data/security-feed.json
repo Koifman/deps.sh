@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-05-20T13:08:51.346Z",
+  "fetchedAt": "2026-05-20T15:12:57.587Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2025-0162: Unsoundness in vku",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0162.html",
+      "date": "2026-05-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0147: Vulnerability in boxlite",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0147.html",
@@ -125,13 +131,6 @@
       "title": "[sillytavern] SillyTavern: SSRF in SearXNG Search Proxy via Unvalidated baseUrl",
       "url": "https://github.com/advisories/GHSA-qg89-qwwh-5f3j",
       "date": "2026-05-19T20:09:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@libp2p/kad-dht] @libp2p/kad-dht: Unvalidated PUT_VALUE records allow unbounded disk exhaustion on DHT server nodes",
-      "url": "https://github.com/advisories/GHSA-32mq-hpph-xfvr",
-      "date": "2026-05-19T20:07:53.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
