@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-05-20T01:11:32.816Z",
+  "fetchedAt": "2026-05-20T03:19:20.731Z",
   "entries": [
+    {
+      "title": "[pm2] pm2 Regular Expression Denial of Service vulnerability",
+      "url": "https://github.com/advisories/GHSA-x5gf-qvw8-r2rm",
+      "date": "2026-05-20T02:06:27.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[mlflow] Mlflow: Command Injection when serving models with enable_mlserver=True",
+      "url": "https://github.com/advisories/GHSA-rvhj-8chj-8v3c",
+      "date": "2026-05-20T01:30:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[@angular/platform-server] @angular/platform-server: SSRF via Hostname Hijacking",
       "url": "https://github.com/advisories/GHSA-rfh7-fxqc-q52v",
@@ -126,20 +140,6 @@
       "date": "2026-05-19T19:57:37.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@haxtheweb/haxcms-nodejs] HAX CMS: Denial of Service using Malicious Import Request",
-      "url": "https://github.com/advisories/GHSA-9r33-xhw8-4qqp",
-      "date": "2026-05-19T19:51:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[turbo] Trubo: Login callback CSRF/session fixation",
-      "url": "https://github.com/advisories/GHSA-hcf7-66rw-9f5r",
-      "date": "2026-05-19T19:49:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }

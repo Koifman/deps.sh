@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-05-20T01:14:24.550Z",
-  "count": 98,
+  "scannedAt": "2026-05-20T03:22:42.871Z",
+  "count": 99,
   "packages": [
     {
       "name": "xmldom",
@@ -444,6 +444,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@appium/docutils",
+      "version": "2.4.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@babel/parser",
       "version": "7.29.3",
       "ecosystem": "npm",
@@ -597,8 +606,8 @@
       "currentOwner": "notaphplover"
     },
     {
-      "name": "@appium/types",
-      "version": "1.4.0",
+      "name": "@appium/schema",
+      "version": "1.1.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -606,8 +615,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.1.1",
+      "name": "@appium/types",
+      "version": "1.4.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -624,24 +633,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/logger",
-      "version": "2.0.7",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "cropperjs",
-      "version": "2.1.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "fengyuanchen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@hey-api/codegen-core",
       "version": "0.8.1",
       "ecosystem": "npm",
@@ -651,12 +642,30 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@appium/logger",
+      "version": "2.0.7",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@lingui/message-utils",
       "version": "6.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "andrii.bodnar",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "cropperjs",
+      "version": "2.1.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "fengyuanchen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -831,15 +840,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-gnu",
-      "version": "0.132.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@lottiefiles/dotlottie-web",
       "version": "0.73.0",
       "ecosystem": "npm",
@@ -864,6 +864,15 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "meriyah",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
+      "version": "0.132.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
