@@ -1,6 +1,125 @@
 {
-  "fetchedAt": "2026-05-21T20:43:12.235Z",
+  "fetchedAt": "2026-05-21T21:37:18.514Z",
   "entries": [
+    {
+      "title": "[js-cookie] JavaScript Cookie: Per-instance prototype hijack in assign() enables cookie-attribute injection",
+      "url": "https://github.com/advisories/GHSA-qjx8-664m-686j",
+      "date": "2026-05-21T21:20:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/policies] @hulumi/policies: Stack-wide evidence bypassed Cloudflare and deployment-governance guardrails",
+      "url": "https://github.com/advisories/GHSA-59f3-7227-wmh4",
+      "date": "2026-05-21T20:47:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/policies] @hulumi/policies: GitHub OIDC trust policy bypass via AWS set-qualified condition operators",
+      "url": "https://github.com/advisories/GHSA-q2f7-m237-v562",
+      "date": "2026-05-21T20:45:18.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@hulumi/policies] @hulumi/policies: CIS 1.16 admin policy bypass for inline and attached IAM policies",
+      "url": "https://github.com/advisories/GHSA-4xrh-5m3m-328w",
+      "date": "2026-05-21T20:44:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/policies] @hulumi/policies: HULUMI-H1 SecureBucket parent spoof bypass",
+      "url": "https://github.com/advisories/GHSA-g43v-9x7q-83pq",
+      "date": "2026-05-21T20:43:58.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/drift] @hulumi/drift: Orphan reconciler accepted externally supplied execute plans",
+      "url": "https://github.com/advisories/GHSA-2ffm-hxrq-qqmm",
+      "date": "2026-05-21T20:43:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/baseline] @hulumi/baseline: CloudTrail selector tampering events were not fully detected",
+      "url": "https://github.com/advisories/GHSA-gfp8-mp24-5vxg",
+      "date": "2026-05-21T20:43:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[flaskbb] FlaskBB: SSRF in get_image_info() via unrestricted avatar URL",
+      "url": "https://github.com/advisories/GHSA-xq32-9g7q-7297",
+      "date": "2026-05-21T20:42:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Stale Auth Cache After API Token Deletion",
+      "url": "https://github.com/advisories/GHSA-f76x-f9vj-92jv",
+      "date": "2026-05-21T20:39:54.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[nocodb] NocoDB: Attachment Size Limit Bypass via Upload-by-URL",
+      "url": "https://github.com/advisories/GHSA-8rwr-f68v-cvw6",
+      "date": "2026-05-21T20:38:59.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[nocodb] NocoDB: Shared-base link access can invite arbitrary users as persistent base members",
+      "url": "https://github.com/advisories/GHSA-chqv-vrj7-qffp",
+      "date": "2026-05-21T20:35:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Missing File Size Enforcement in Upload-by-URL Allows Denial of Service via Disk Exhaustion",
+      "url": "https://github.com/advisories/GHSA-99vc-2jx2-688p",
+      "date": "2026-05-21T20:35:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Refresh Token Cookie Set Without `secure` and `sameSite` Flags",
+      "url": "https://github.com/advisories/GHSA-f74w-272x-mqcv",
+      "date": "2026-05-21T20:35:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: OAuth Token Scope Not Enforced at ACL Layer Allows Scope Escalation",
+      "url": "https://github.com/advisories/GHSA-m5qg-rvjq-727p",
+      "date": "2026-05-21T20:34:51.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[nocodb] NocoDB: SSRF Protection Bypass in Notification Webhook Plugins (Slack, Discord, Mattermost, Teams)",
+      "url": "https://github.com/advisories/GHSA-2c5x-4jgf-88mj",
+      "date": "2026-05-21T20:34:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Reflected Cross-Site Scripting via Page Leaving Redirect URL",
+      "url": "https://github.com/advisories/GHSA-9qgr-6vpg-9gh9",
+      "date": "2026-05-21T20:34:10.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp-server-kubernetes] MCP Server Kubernetes: Tool Access Control Bypass via Presentation-Layer Filtering Without Execution-Layer Enforcement",
+      "url": "https://github.com/advisories/GHSA-cr22-wjx7-2w6m",
+      "date": "2026-05-21T20:33:46.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[pyload-ng] pyload-ng: SSRF via HTTP Redirect Bypass in parse_urls API",
       "url": "https://github.com/advisories/GHSA-8rp3-xc6w-5qp5",
@@ -19,125 +138,6 @@
       "title": "[lmdeploy] lmdeploy: Hardcoded trust_remote_code=True is an implicit unsafe remote-code load path with no user opt-out",
       "url": "https://github.com/advisories/GHSA-9xq9-36w5-q796",
       "date": "2026-05-21T19:33:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[crawlee] Crawlee for Python: SSRF via sitemap-derived URLs",
-      "url": "https://github.com/advisories/GHSA-3r75-xc34-5f44",
-      "date": "2026-05-21T19:28:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[serialize-javascript] Serialize JavaScript has CPU Exhaustion Denial of Service via crafted array-like objects",
-      "url": "https://github.com/advisories/GHSA-qj8w-gfj5-8c6v",
-      "date": "2026-05-21T18:30:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
-      "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
-      "date": "2026-05-21T18:25:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@sveltejs/kit] @sveltejs/kit: `query.batch` cross-talk",
-      "url": "https://github.com/advisories/GHSA-hgv7-v322-mmgr",
-      "date": "2026-05-21T17:59:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[md-fileserver] md-fileserver: Stored/Reflected XSS when viewing Markdown (raw HTML allowed)",
-      "url": "https://github.com/advisories/GHSA-32q2-hhr5-6qvv",
-      "date": "2026-05-21T17:57:33.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sagemaker] Amazon SageMaker Python SDK is missing integrity verification in its Triton inference handler",
-      "url": "https://github.com/advisories/GHSA-rq6v-x3j8-7qgf",
-      "date": "2026-05-21T17:56:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sagemaker] Amazon SageMaker Python SDK is missing integrity verification in its Triton inference handler",
-      "url": "https://github.com/advisories/GHSA-rq6v-x3j8-7qgf",
-      "date": "2026-05-21T17:56:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sagemaker] Cleartext storage of HMAC signing key in Amazon SageMaker Python SDK ModelBuilder/Serve path",
-      "url": "https://github.com/advisories/GHSA-7hh5-prp2-mfh5",
-      "date": "2026-05-21T17:42:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sagemaker] Cleartext storage of HMAC signing key in Amazon SageMaker Python SDK ModelBuilder/Serve path",
-      "url": "https://github.com/advisories/GHSA-7hh5-prp2-mfh5",
-      "date": "2026-05-21T17:42:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lmdeploy] LMDeploy: Arbitrary code execution via hardcoded trust_remote_code=True in lmdeploy model initialization",
-      "url": "https://github.com/advisories/GHSA-m549-qq94-fvhg",
-      "date": "2026-05-21T17:30:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[samlify] samlify: XML Injection in AttributeValue Allows Privilege Escalation in Signed SAML Assertions",
-      "url": "https://github.com/advisories/GHSA-34r5-q4jw-r36m",
-      "date": "2026-05-21T17:14:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mvt] Mobile Verification Toolkit (MVT): Path Traversal via unsanitized File identifiers in iOS Backup processing",
-      "url": "https://github.com/advisories/GHSA-5h3g-px23-w6vw",
-      "date": "2026-05-21T17:05:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sanitize-html] Apostrophe has default XSS via `xmp` raw-text passthrough in `sanitize-html`",
-      "url": "https://github.com/advisories/GHSA-rpr9-rxv7-x643",
-      "date": "2026-05-21T16:59:37.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@tootallnate/once] @tootallnate/once vulnerable to Incorrect Control Flow Scoping",
-      "url": "https://github.com/advisories/GHSA-vpq2-c234-7xj6",
-      "date": "2026-05-21T16:55:50.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@tootallnate/once] @tootallnate/once vulnerable to Incorrect Control Flow Scoping",
-      "url": "https://github.com/advisories/GHSA-vpq2-c234-7xj6",
-      "date": "2026-05-21T16:55:50.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[windows-mcp] Windows-MCP: HTTP transports expose unauthenticated PowerShell control with wildcard CORS",
-      "url": "https://github.com/advisories/GHSA-vrxg-gm77-7q5g",
-      "date": "2026-05-21T16:46:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[scrapy] Scrapy denial of service vulnerability",
-      "url": "https://github.com/advisories/GHSA-h7wm-ph43-c39p",
-      "date": "2026-05-20T22:25:25.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
