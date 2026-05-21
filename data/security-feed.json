@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-05-21T19:38:32.199Z",
+  "fetchedAt": "2026-05-21T20:43:12.235Z",
   "entries": [
+    {
+      "title": "[pyload-ng] pyload-ng: SSRF via HTTP Redirect Bypass in parse_urls API",
+      "url": "https://github.com/advisories/GHSA-8rp3-xc6w-5qp5",
+      "date": "2026-05-21T19:54:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mlflow] MLflow: unauthenticated access to certain FastAPI routes",
+      "url": "https://github.com/advisories/GHSA-75cm-x2w3-8mgf",
+      "date": "2026-05-21T19:35:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[lmdeploy] lmdeploy: Hardcoded trust_remote_code=True is an implicit unsafe remote-code load path with no user opt-out",
+      "url": "https://github.com/advisories/GHSA-9xq9-36w5-q796",
+      "date": "2026-05-21T19:33:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[crawlee] Crawlee for Python: SSRF via sitemap-derived URLs",
       "url": "https://github.com/advisories/GHSA-3r75-xc34-5f44",
@@ -119,27 +140,6 @@
       "date": "2026-05-20T22:25:25.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[Werkzeug] Werkzeug possible resource exhaustion when parsing file data in forms",
-      "url": "https://github.com/advisories/GHSA-q34m-jh98-gwm2",
-      "date": "2026-05-20T22:24:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[werkzeug] Werkzeug DoS: High resource usage when parsing multipart/form-data containing a large part with CR/LF character at the beginning",
-      "url": "https://github.com/advisories/GHSA-hrfv-mqp8-q5rw",
-      "date": "2026-05-20T22:16:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pip] pip has an interpretation conflict due to handling both concatenated tar and ZIP files as ZIP files",
-      "url": "https://github.com/advisories/GHSA-58qw-9mgm-455v",
-      "date": "2026-05-20T20:54:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
