@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-21T22:35:28.515Z",
+  "fetchedAt": "2026-05-21T23:29:17.775Z",
   "entries": [
+    {
+      "title": "[network-ai] Network-AI: Unauthenticated Cross-Origin MCP Tool Invocation via Empty Default Secret",
+      "url": "https://github.com/advisories/GHSA-j3vx-cx2r-pvg8",
+      "date": "2026-05-21T22:40:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
       "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
@@ -133,13 +140,6 @@
       "date": "2026-05-21T20:38:59.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[nocodb] NocoDB: Shared-base link access can invite arbitrary users as persistent base members",
-      "url": "https://github.com/advisories/GHSA-chqv-vrj7-qffp",
-      "date": "2026-05-21T20:35:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
