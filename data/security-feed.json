@@ -1,6 +1,111 @@
 {
-  "fetchedAt": "2026-05-21T17:03:03.845Z",
+  "fetchedAt": "2026-05-21T18:47:35.808Z",
   "entries": [
+    {
+      "title": "[serialize-javascript] Serialize JavaScript has CPU Exhaustion Denial of Service via crafted array-like objects",
+      "url": "https://github.com/advisories/GHSA-qj8w-gfj5-8c6v",
+      "date": "2026-05-21T18:30:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[uuid] uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
+      "url": "https://github.com/advisories/GHSA-w5hq-g745-h8pq",
+      "date": "2026-05-21T18:25:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@sveltejs/kit] @sveltejs/kit: `query.batch` cross-talk",
+      "url": "https://github.com/advisories/GHSA-hgv7-v322-mmgr",
+      "date": "2026-05-21T17:59:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[md-fileserver] md-fileserver: Stored/Reflected XSS when viewing Markdown (raw HTML allowed)",
+      "url": "https://github.com/advisories/GHSA-32q2-hhr5-6qvv",
+      "date": "2026-05-21T17:57:33.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sagemaker] Amazon SageMaker Python SDK is missing integrity verification in its Triton inference handler",
+      "url": "https://github.com/advisories/GHSA-rq6v-x3j8-7qgf",
+      "date": "2026-05-21T17:56:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sagemaker] Amazon SageMaker Python SDK is missing integrity verification in its Triton inference handler",
+      "url": "https://github.com/advisories/GHSA-rq6v-x3j8-7qgf",
+      "date": "2026-05-21T17:56:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sagemaker] Cleartext storage of HMAC signing key in Amazon SageMaker Python SDK ModelBuilder/Serve path",
+      "url": "https://github.com/advisories/GHSA-7hh5-prp2-mfh5",
+      "date": "2026-05-21T17:42:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sagemaker] Cleartext storage of HMAC signing key in Amazon SageMaker Python SDK ModelBuilder/Serve path",
+      "url": "https://github.com/advisories/GHSA-7hh5-prp2-mfh5",
+      "date": "2026-05-21T17:42:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[lmdeploy] LMDeploy: Arbitrary code execution via hardcoded trust_remote_code=True in lmdeploy model initialization",
+      "url": "https://github.com/advisories/GHSA-m549-qq94-fvhg",
+      "date": "2026-05-21T17:30:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[samlify] samlify: XML Injection in AttributeValue Allows Privilege Escalation in Signed SAML Assertions",
+      "url": "https://github.com/advisories/GHSA-34r5-q4jw-r36m",
+      "date": "2026-05-21T17:14:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mvt] Mobile Verification Toolkit (MVT): Path Traversal via unsanitized File identifiers in iOS Backup processing",
+      "url": "https://github.com/advisories/GHSA-5h3g-px23-w6vw",
+      "date": "2026-05-21T17:05:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sanitize-html] Apostrophe has default XSS via `xmp` raw-text passthrough in `sanitize-html`",
+      "url": "https://github.com/advisories/GHSA-rpr9-rxv7-x643",
+      "date": "2026-05-21T16:59:37.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tootallnate/once] @tootallnate/once vulnerable to Incorrect Control Flow Scoping",
+      "url": "https://github.com/advisories/GHSA-vpq2-c234-7xj6",
+      "date": "2026-05-21T16:55:50.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@tootallnate/once] @tootallnate/once vulnerable to Incorrect Control Flow Scoping",
+      "url": "https://github.com/advisories/GHSA-vpq2-c234-7xj6",
+      "date": "2026-05-21T16:55:50.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[windows-mcp] Windows-MCP: HTTP transports expose unauthenticated PowerShell control with wildcard CORS",
+      "url": "https://github.com/advisories/GHSA-vrxg-gm77-7q5g",
+      "date": "2026-05-21T16:46:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[scrapy] Scrapy denial of service vulnerability",
       "url": "https://github.com/advisories/GHSA-h7wm-ph43-c39p",
@@ -35,104 +140,6 @@
       "date": "2026-05-20T15:45:19.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[flowise] Flowise: Mass Assignment in PUT /api/v1/user Allows Authenticated Users to Override Password Hash and Bypass Password Change Verification",
-      "url": "https://github.com/advisories/GHSA-59fh-9f3p-7m39",
-      "date": "2026-05-20T15:44:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[flowise] Flowise: Hardcoded CORS wildcard on TTS endpoint enables cross-origin credential abuse from any webpage",
-      "url": "https://github.com/advisories/GHSA-m837-xvxr-vqwg",
-      "date": "2026-05-20T15:38:05.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wger] wger: cross-tenant account deletion / deactivation / activation by gym.manage_gym + gym=None",
-      "url": "https://github.com/advisories/GHSA-mw8f-w6p8-xrf4",
-      "date": "2026-05-20T15:37:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@cap-js/db-service]  Supply chain compromise via malicious package versions (@cap-js/sqlite,  @cap-js/postgres, @cap-js/db-service)",
-      "url": "https://github.com/advisories/GHSA-pvw4-cvr4-97p8",
-      "date": "2026-05-20T15:33:05.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@cap-js/postgres]  Supply chain compromise via malicious package versions (@cap-js/sqlite,  @cap-js/postgres, @cap-js/db-service)",
-      "url": "https://github.com/advisories/GHSA-pvw4-cvr4-97p8",
-      "date": "2026-05-20T15:33:05.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@cap-js/sqlite]  Supply chain compromise via malicious package versions (@cap-js/sqlite,  @cap-js/postgres, @cap-js/db-service)",
-      "url": "https://github.com/advisories/GHSA-pvw4-cvr4-97p8",
-      "date": "2026-05-20T15:33:05.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[diffusers] Diffusers: TOCTOU Trust Remote Code Bypass",
-      "url": "https://github.com/advisories/GHSA-7wx4-6vff-v64p",
-      "date": "2026-05-20T15:31:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2025-0162: Unsoundness in vku",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0162.html",
-      "date": "2026-05-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0147: Vulnerability in boxlite",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0147.html",
-      "date": "2026-05-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0148: Vulnerability in boxlite",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0148.html",
-      "date": "2026-05-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0125: Vulnerability in libcrux-ml-dsa",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0125.html",
-      "date": "2026-05-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0124: Vulnerability in libcrux-chacha20poly1305",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0124.html",
-      "date": "2026-05-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0136: Vulnerability in diesel",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0136.html",
-      "date": "2026-05-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0137: Vulnerability in diesel",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0137.html",
-      "date": "2026-05-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[pm2] pm2 Regular Expression Denial of Service vulnerability",
-      "url": "https://github.com/advisories/GHSA-x5gf-qvw8-r2rm",
-      "date": "2026-05-20T02:06:27.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
