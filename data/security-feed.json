@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-05-21T21:37:18.514Z",
+  "fetchedAt": "2026-05-21T22:35:28.515Z",
   "entries": [
+    {
+      "title": "[boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
+      "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
+      "date": "2026-05-21T21:54:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@boxlite-ai/boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
+      "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
+      "date": "2026-05-21T21:54:16.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[boxlite] BoxLite: Permission Bypass Allows Modification of Read-Only Files",
+      "url": "https://github.com/advisories/GHSA-g6ww-w5j2-r7x3",
+      "date": "2026-05-21T21:52:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@boxlite-ai/boxlite] BoxLite: Permission Bypass Allows Modification of Read-Only Files",
+      "url": "https://github.com/advisories/GHSA-g6ww-w5j2-r7x3",
+      "date": "2026-05-21T21:52:52.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@nevware21/ts-utils] @nevware21/ts-utils: Prototype Pollution in objDeepCopy/objCopyProps via for...in without hasOwnProperty",
+      "url": "https://github.com/advisories/GHSA-x7j8-49r8-mr43",
+      "date": "2026-05-21T21:41:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@libp2p/gossipsub] js-libp2p: Memory DoS via subscription flood of unique topics",
+      "url": "https://github.com/advisories/GHSA-4f8r-922h-2vgv",
+      "date": "2026-05-21T21:38:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pydantic-ai-slim] Pydantic AI: SSRF cloud-metadata blocklist bypass via IPv4-mapped IPv6 (Incomplete fix of CVE-2026-25580)",
+      "url": "https://github.com/advisories/GHSA-cqp8-fcvh-x7r3",
+      "date": "2026-05-21T21:35:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pydantic-ai] Pydantic AI: SSRF cloud-metadata blocklist bypass via IPv4-mapped IPv6 (Incomplete fix of CVE-2026-25580)",
+      "url": "https://github.com/advisories/GHSA-cqp8-fcvh-x7r3",
+      "date": "2026-05-21T21:35:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sqladmin] SQLAdmin: Authorization Bypass on `ajax_lookup`",
+      "url": "https://github.com/advisories/GHSA-54mc-gghv-4cfj",
+      "date": "2026-05-21T21:31:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[js-cookie] JavaScript Cookie: Per-instance prototype hijack in assign() enables cookie-attribute injection",
       "url": "https://github.com/advisories/GHSA-qjx8-664m-686j",
@@ -77,69 +140,6 @@
       "date": "2026-05-21T20:35:57.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: Missing File Size Enforcement in Upload-by-URL Allows Denial of Service via Disk Exhaustion",
-      "url": "https://github.com/advisories/GHSA-99vc-2jx2-688p",
-      "date": "2026-05-21T20:35:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: Refresh Token Cookie Set Without `secure` and `sameSite` Flags",
-      "url": "https://github.com/advisories/GHSA-f74w-272x-mqcv",
-      "date": "2026-05-21T20:35:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: OAuth Token Scope Not Enforced at ACL Layer Allows Scope Escalation",
-      "url": "https://github.com/advisories/GHSA-m5qg-rvjq-727p",
-      "date": "2026-05-21T20:34:51.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[nocodb] NocoDB: SSRF Protection Bypass in Notification Webhook Plugins (Slack, Discord, Mattermost, Teams)",
-      "url": "https://github.com/advisories/GHSA-2c5x-4jgf-88mj",
-      "date": "2026-05-21T20:34:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: Reflected Cross-Site Scripting via Page Leaving Redirect URL",
-      "url": "https://github.com/advisories/GHSA-9qgr-6vpg-9gh9",
-      "date": "2026-05-21T20:34:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp-server-kubernetes] MCP Server Kubernetes: Tool Access Control Bypass via Presentation-Layer Filtering Without Execution-Layer Enforcement",
-      "url": "https://github.com/advisories/GHSA-cr22-wjx7-2w6m",
-      "date": "2026-05-21T20:33:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyload-ng] pyload-ng: SSRF via HTTP Redirect Bypass in parse_urls API",
-      "url": "https://github.com/advisories/GHSA-8rp3-xc6w-5qp5",
-      "date": "2026-05-21T19:54:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mlflow] MLflow: unauthenticated access to certain FastAPI routes",
-      "url": "https://github.com/advisories/GHSA-75cm-x2w3-8mgf",
-      "date": "2026-05-21T19:35:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lmdeploy] lmdeploy: Hardcoded trust_remote_code=True is an implicit unsafe remote-code load path with no user opt-out",
-      "url": "https://github.com/advisories/GHSA-9xq9-36w5-q796",
-      "date": "2026-05-21T19:33:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
