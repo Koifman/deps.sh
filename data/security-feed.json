@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-22T05:30:45.048Z",
+  "fetchedAt": "2026-05-22T07:28:16.798Z",
   "entries": [
     {
       "title": "[network-ai] Network-AI: Unauthenticated Cross-Origin MCP Tool Invocation via Empty Default Secret",
@@ -9,13 +9,6 @@
       "severity": "HIGH"
     },
     {
-      "title": "[boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
-      "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
-      "date": "2026-05-21T21:54:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
       "title": "[@boxlite-ai/boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
       "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
       "date": "2026-05-21T21:54:16.000Z",
@@ -23,9 +16,9 @@
       "severity": "CRITICAL"
     },
     {
-      "title": "[boxlite] BoxLite: Permission Bypass Allows Modification of Read-Only Files",
-      "url": "https://github.com/advisories/GHSA-g6ww-w5j2-r7x3",
-      "date": "2026-05-21T21:52:52.000Z",
+      "title": "[boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
+      "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
+      "date": "2026-05-21T21:54:16.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
@@ -34,6 +27,13 @@
       "url": "https://github.com/advisories/GHSA-g6ww-w5j2-r7x3",
       "date": "2026-05-21T21:52:52.000Z",
       "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[boxlite] BoxLite: Permission Bypass Allows Modification of Read-Only Files",
+      "url": "https://github.com/advisories/GHSA-g6ww-w5j2-r7x3",
+      "date": "2026-05-21T21:52:52.000Z",
+      "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
