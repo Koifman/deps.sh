@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-22T17:40:31.503Z",
+  "fetchedAt": "2026-05-22T18:46:21.779Z",
   "entries": [
+    {
+      "title": "[Flask-Security-Too] Flask-Security-Too OAuth reauthentication freshness bypass via cross-   user OAuth identity acceptance",
+      "url": "https://github.com/advisories/GHSA-97r5-pg8x-p63p",
+      "date": "2026-05-22T17:49:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[aiosend] aiosend: Deserialization of request body before signature verification (Pre-auth DoS) in webhook handler",
       "url": "https://github.com/advisories/GHSA-7m8f-hgjq-8gc9",
@@ -131,13 +138,6 @@
       "date": "2026-05-21T21:31:41.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[js-cookie] JavaScript Cookie: Per-instance prototype hijack in assign() enables cookie-attribute injection",
-      "url": "https://github.com/advisories/GHSA-qjx8-664m-686j",
-      "date": "2026-05-21T21:20:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
