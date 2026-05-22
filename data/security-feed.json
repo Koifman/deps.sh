@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-05-22T13:04:00.807Z",
+  "fetchedAt": "2026-05-22T15:11:07.526Z",
   "entries": [
+    {
+      "title": "[prefect] Prefect Git Argument Injection in GitRepository Pull Steps",
+      "url": "https://github.com/advisories/GHSA-6rcx-55r6-jx65",
+      "date": "2026-05-22T13:09:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[prefect] Prefect SSRF Bypass via DNS Rebinding in validate_restricted_url",
+      "url": "https://github.com/advisories/GHSA-p3pq-hxmr-vqqr",
+      "date": "2026-05-22T13:08:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[prefect] Prefect Unauthenticated Event Injection via /api/events/in WebSocket",
+      "url": "https://github.com/advisories/GHSA-hvph-5985-r63v",
+      "date": "2026-05-22T13:06:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[prefect] Prefect Auth Bypass via endswith() Health Check Exemption",
+      "url": "https://github.com/advisories/GHSA-6rr6-v7cj-mxpg",
+      "date": "2026-05-22T13:05:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow-providers-smtp] apache-airflow-providers-smtp: No certificate validation on SMTP STARTTLS connections in SMTP provider",
+      "url": "https://github.com/advisories/GHSA-x8mh-94wc-33gv",
+      "date": "2026-05-22T13:04:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0150: audiopus_sys is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0150.html",
@@ -21,13 +56,6 @@
       "severity": "HIGH"
     },
     {
-      "title": "[@boxlite-ai/boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
-      "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
-      "date": "2026-05-21T21:54:16.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
       "title": "[boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
       "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
       "date": "2026-05-21T21:54:16.000Z",
@@ -35,9 +63,9 @@
       "severity": "CRITICAL"
     },
     {
-      "title": "[@boxlite-ai/boxlite] BoxLite: Permission Bypass Allows Modification of Read-Only Files",
-      "url": "https://github.com/advisories/GHSA-g6ww-w5j2-r7x3",
-      "date": "2026-05-21T21:52:52.000Z",
+      "title": "[@boxlite-ai/boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
+      "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
+      "date": "2026-05-21T21:54:16.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
@@ -46,6 +74,13 @@
       "url": "https://github.com/advisories/GHSA-g6ww-w5j2-r7x3",
       "date": "2026-05-21T21:52:52.000Z",
       "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@boxlite-ai/boxlite] BoxLite: Permission Bypass Allows Modification of Read-Only Files",
+      "url": "https://github.com/advisories/GHSA-g6ww-w5j2-r7x3",
+      "date": "2026-05-21T21:52:52.000Z",
+      "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
@@ -103,41 +138,6 @@
       "date": "2026-05-21T20:45:18.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[@hulumi/policies] @hulumi/policies: CIS 1.16 admin policy bypass for inline and attached IAM policies",
-      "url": "https://github.com/advisories/GHSA-4xrh-5m3m-328w",
-      "date": "2026-05-21T20:44:13.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@hulumi/policies] @hulumi/policies: HULUMI-H1 SecureBucket parent spoof bypass",
-      "url": "https://github.com/advisories/GHSA-g43v-9x7q-83pq",
-      "date": "2026-05-21T20:43:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@hulumi/drift] @hulumi/drift: Orphan reconciler accepted externally supplied execute plans",
-      "url": "https://github.com/advisories/GHSA-2ffm-hxrq-qqmm",
-      "date": "2026-05-21T20:43:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@hulumi/baseline] @hulumi/baseline: CloudTrail selector tampering events were not fully detected",
-      "url": "https://github.com/advisories/GHSA-gfp8-mp24-5vxg",
-      "date": "2026-05-21T20:43:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[flaskbb] FlaskBB: SSRF in get_image_info() via unrestricted avatar URL",
-      "url": "https://github.com/advisories/GHSA-xq32-9g7q-7297",
-      "date": "2026-05-21T20:42:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
