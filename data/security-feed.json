@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-05-22T09:17:52.321Z",
+  "fetchedAt": "2026-05-22T11:09:46.341Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0150: audiopus_sys is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0150.html",
+      "date": "2026-05-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0149: Vulnerability in wasmtime-wasi",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0149.html",
+      "date": "2026-05-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[network-ai] Network-AI: Unauthenticated Cross-Origin MCP Tool Invocation via Empty Default Secret",
       "url": "https://github.com/advisories/GHSA-j3vx-cx2r-pvg8",
@@ -126,20 +138,6 @@
       "date": "2026-05-21T20:42:10.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: Stale Auth Cache After API Token Deletion",
-      "url": "https://github.com/advisories/GHSA-f76x-f9vj-92jv",
-      "date": "2026-05-21T20:39:54.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[nocodb] NocoDB: Attachment Size Limit Bypass via Upload-by-URL",
-      "url": "https://github.com/advisories/GHSA-8rwr-f68v-cvw6",
-      "date": "2026-05-21T20:38:59.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
