@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-22T07:31:10.119Z",
+  "scannedAt": "2026-05-22T09:21:07.570Z",
   "count": 99,
   "packages": [
     {
@@ -48,6 +48,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "tinymce",
+      "version": "8.5.1",
+      "ecosystem": "npm",
+      "score": 50,
+      "level": "HIGH",
+      "previousOwner": "spocke",
+      "currentOwner": "tinymce"
+    },
+    {
       "name": "karma",
       "version": "6.4.4",
       "ecosystem": "npm",
@@ -64,15 +73,6 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
-    },
-    {
-      "name": "appium",
-      "version": "3.4.2",
-      "ecosystem": "npm",
-      "score": 43,
-      "level": "MODERATE",
-      "previousOwner": "admc",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -100,6 +100,15 @@
       "level": "MODERATE",
       "previousOwner": "bhouston",
       "currentOwner": "mrdoob"
+    },
+    {
+      "name": "@nevware21/ts-utils",
+      "version": "0.14.0",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "string.prototype.trimstart",
@@ -831,15 +840,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "meriyah",
       "version": "7.1.0",
       "ecosystem": "npm",
@@ -847,6 +847,15 @@
       "level": "LOW",
       "previousOwner": "meriyah",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     },
     {
       "name": "oxc-minify",
@@ -882,15 +891,6 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "intl-tel-input",
-      "version": "28.1.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "jackocnr",
       "currentOwner": "GitHub Actions"
     }
   ]
