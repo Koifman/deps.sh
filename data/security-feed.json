@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-05-22T23:31:04.383Z",
+  "fetchedAt": "2026-05-23T01:06:47.086Z",
   "entries": [
+    {
+      "title": "[instagrapi] instagrapi: Unsafe signup challenge path handling in instagrapi",
+      "url": "https://github.com/advisories/GHSA-ggxf-37hm-9wqf",
+      "date": "2026-05-23T00:12:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[aiograpi] aiograpi: Unsafe signup challenge path handling",
+      "url": "https://github.com/advisories/GHSA-jh37-x3fv-4x72",
+      "date": "2026-05-23T00:11:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server: Pre-authentication denial of service via client version header regex backtracking",
+      "url": "https://github.com/advisories/GHSA-38m6-82c8-4xfm",
+      "date": "2026-05-23T00:11:27.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server: Pre-authentication denial of service via client version header regex backtracking",
+      "url": "https://github.com/advisories/GHSA-38m6-82c8-4xfm",
+      "date": "2026-05-23T00:11:27.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[AstrBot] AstrBot: File upload vulnerability in the function post_file of the file astrbot/dashboard/routes/chat.py",
+      "url": "https://github.com/advisories/GHSA-f63h-wc26-pmvc",
+      "date": "2026-05-23T00:10:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[Flask-Security-Too] Flask-Security-Too OAuth reauthentication freshness bypass via cross-   user OAuth identity acceptance",
       "url": "https://github.com/advisories/GHSA-97r5-pg8x-p63p",
@@ -103,41 +138,6 @@
       "date": "2026-05-21T21:52:52.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[@nevware21/ts-utils] @nevware21/ts-utils: Prototype Pollution in objDeepCopy/objCopyProps via for...in without hasOwnProperty",
-      "url": "https://github.com/advisories/GHSA-x7j8-49r8-mr43",
-      "date": "2026-05-21T21:41:36.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@libp2p/gossipsub] js-libp2p: Memory DoS via subscription flood of unique topics",
-      "url": "https://github.com/advisories/GHSA-4f8r-922h-2vgv",
-      "date": "2026-05-21T21:38:41.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pydantic-ai-slim] Pydantic AI: SSRF cloud-metadata blocklist bypass via IPv4-mapped IPv6 (Incomplete fix of CVE-2026-25580)",
-      "url": "https://github.com/advisories/GHSA-cqp8-fcvh-x7r3",
-      "date": "2026-05-21T21:35:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pydantic-ai] Pydantic AI: SSRF cloud-metadata blocklist bypass via IPv4-mapped IPv6 (Incomplete fix of CVE-2026-25580)",
-      "url": "https://github.com/advisories/GHSA-cqp8-fcvh-x7r3",
-      "date": "2026-05-21T21:35:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sqladmin] SQLAdmin: Authorization Bypass on `ajax_lookup`",
-      "url": "https://github.com/advisories/GHSA-54mc-gghv-4cfj",
-      "date": "2026-05-21T21:31:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
