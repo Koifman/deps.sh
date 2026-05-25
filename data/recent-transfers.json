@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-05-25T18:46:33.233Z",
-  "count": 98,
+  "scannedAt": "2026-05-25T19:39:34.217Z",
+  "count": 99,
   "packages": [
     {
       "name": "xmldom",
@@ -100,6 +100,15 @@
       "level": "MODERATE",
       "previousOwner": "bhouston",
       "currentOwner": "mrdoob"
+    },
+    {
+      "name": "@nevware21/ts-utils",
+      "version": "0.14.0",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "string.prototype.trimstart",
@@ -498,7 +507,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/storage-js",
+      "name": "@supabase/realtime-js",
       "version": "2.106.2",
       "ecosystem": "npm",
       "score": 22,
@@ -507,7 +516,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/realtime-js",
+      "name": "@supabase/storage-js",
       "version": "2.106.2",
       "ecosystem": "npm",
       "score": 22,
@@ -624,21 +633,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@hey-api/codegen-core",
-      "version": "0.8.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "mrlubos",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "redux-saga",
       "version": "1.5.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "yelouafi",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@hey-api/codegen-core",
+      "version": "0.8.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "mrlubos",
       "currentOwner": "GitHub Actions"
     },
     {
