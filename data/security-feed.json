@@ -1,21 +1,7 @@
 {
-  "fetchedAt": "2026-05-25T11:30:20.898Z",
+  "fetchedAt": "2026-05-25T13:22:58.719Z",
   "entries": [
     {
-      "title": "[instagrapi] instagrapi: Unsafe signup challenge path handling in instagrapi",
-      "url": "https://github.com/advisories/GHSA-ggxf-37hm-9wqf",
-      "date": "2026-05-23T00:12:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[aiograpi] aiograpi: Unsafe signup challenge path handling",
-      "url": "https://github.com/advisories/GHSA-jh37-x3fv-4x72",
-      "date": "2026-05-23T00:11:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
       "title": "[parse-server] Parse Server: Pre-authentication denial of service via client version header regex backtracking",
       "url": "https://github.com/advisories/GHSA-38m6-82c8-4xfm",
       "date": "2026-05-23T00:11:27.000Z",
@@ -27,27 +13,6 @@
       "url": "https://github.com/advisories/GHSA-38m6-82c8-4xfm",
       "date": "2026-05-23T00:11:27.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[AstrBot] AstrBot: File upload vulnerability in the function post_file of the file astrbot/dashboard/routes/chat.py",
-      "url": "https://github.com/advisories/GHSA-f63h-wc26-pmvc",
-      "date": "2026-05-23T00:10:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[Flask-Security-Too] Flask-Security-Too OAuth reauthentication freshness bypass via cross-   user OAuth identity acceptance",
-      "url": "https://github.com/advisories/GHSA-97r5-pg8x-p63p",
-      "date": "2026-05-22T17:49:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[aiosend] aiosend: Deserialization of request body before signature verification (Pre-auth DoS) in webhook handler",
-      "url": "https://github.com/advisories/GHSA-7m8f-hgjq-8gc9",
-      "date": "2026-05-22T17:27:59.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
@@ -55,41 +20,6 @@
       "url": "https://github.com/advisories/GHSA-q8mj-m7cp-5q26",
       "date": "2026-05-22T17:27:20.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[prefect] Prefect Git Argument Injection in GitRepository Pull Steps",
-      "url": "https://github.com/advisories/GHSA-6rcx-55r6-jx65",
-      "date": "2026-05-22T13:09:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[prefect] Prefect SSRF Bypass via DNS Rebinding in validate_restricted_url",
-      "url": "https://github.com/advisories/GHSA-p3pq-hxmr-vqqr",
-      "date": "2026-05-22T13:08:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[prefect] Prefect Unauthenticated Event Injection via /api/events/in WebSocket",
-      "url": "https://github.com/advisories/GHSA-hvph-5985-r63v",
-      "date": "2026-05-22T13:06:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[prefect] Prefect Auth Bypass via endswith() Health Check Exemption",
-      "url": "https://github.com/advisories/GHSA-6rr6-v7cj-mxpg",
-      "date": "2026-05-22T13:05:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow-providers-smtp] apache-airflow-providers-smtp: No certificate validation on SMTP STARTTLS connections in SMTP provider",
-      "url": "https://github.com/advisories/GHSA-x8mh-94wc-33gv",
-      "date": "2026-05-22T13:04:59.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
@@ -112,24 +42,10 @@
       "severity": "HIGH"
     },
     {
-      "title": "[boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
-      "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
-      "date": "2026-05-21T21:54:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
       "title": "[@boxlite-ai/boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
       "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
       "date": "2026-05-21T21:54:16.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[boxlite] BoxLite: Permission Bypass Allows Modification of Read-Only Files",
-      "url": "https://github.com/advisories/GHSA-g6ww-w5j2-r7x3",
-      "date": "2026-05-21T21:52:52.000Z",
-      "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
@@ -138,6 +54,90 @@
       "date": "2026-05-21T21:52:52.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
+    },
+    {
+      "title": "[@nevware21/ts-utils] @nevware21/ts-utils: Prototype Pollution in objDeepCopy/objCopyProps via for...in without hasOwnProperty",
+      "url": "https://github.com/advisories/GHSA-x7j8-49r8-mr43",
+      "date": "2026-05-21T21:41:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@libp2p/gossipsub] js-libp2p: Memory DoS via subscription flood of unique topics",
+      "url": "https://github.com/advisories/GHSA-4f8r-922h-2vgv",
+      "date": "2026-05-21T21:38:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[js-cookie] JavaScript Cookie: Per-instance prototype hijack in assign() enables cookie-attribute injection",
+      "url": "https://github.com/advisories/GHSA-qjx8-664m-686j",
+      "date": "2026-05-21T21:20:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/policies] @hulumi/policies: Stack-wide evidence bypassed Cloudflare and deployment-governance guardrails",
+      "url": "https://github.com/advisories/GHSA-59f3-7227-wmh4",
+      "date": "2026-05-21T20:47:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/policies] @hulumi/policies: GitHub OIDC trust policy bypass via AWS set-qualified condition operators",
+      "url": "https://github.com/advisories/GHSA-q2f7-m237-v562",
+      "date": "2026-05-21T20:45:18.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@hulumi/policies] @hulumi/policies: CIS 1.16 admin policy bypass for inline and attached IAM policies",
+      "url": "https://github.com/advisories/GHSA-4xrh-5m3m-328w",
+      "date": "2026-05-21T20:44:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/policies] @hulumi/policies: HULUMI-H1 SecureBucket parent spoof bypass",
+      "url": "https://github.com/advisories/GHSA-g43v-9x7q-83pq",
+      "date": "2026-05-21T20:43:58.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/drift] @hulumi/drift: Orphan reconciler accepted externally supplied execute plans",
+      "url": "https://github.com/advisories/GHSA-2ffm-hxrq-qqmm",
+      "date": "2026-05-21T20:43:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/baseline] @hulumi/baseline: CloudTrail selector tampering events were not fully detected",
+      "url": "https://github.com/advisories/GHSA-gfp8-mp24-5vxg",
+      "date": "2026-05-21T20:43:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Stale Auth Cache After API Token Deletion",
+      "url": "https://github.com/advisories/GHSA-f76x-f9vj-92jv",
+      "date": "2026-05-21T20:39:54.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[nocodb] NocoDB: Attachment Size Limit Bypass via Upload-by-URL",
+      "url": "https://github.com/advisories/GHSA-8rwr-f68v-cvw6",
+      "date": "2026-05-21T20:38:59.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[nocodb] NocoDB: Shared-base link access can invite arbitrary users as persistent base members",
+      "url": "https://github.com/advisories/GHSA-chqv-vrj7-qffp",
+      "date": "2026-05-21T20:35:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     }
   ]
 }
