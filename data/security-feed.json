@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-26T22:34:48.023Z",
+  "fetchedAt": "2026-05-26T23:31:14.532Z",
   "entries": [
+    {
+      "title": "[yeoman-environment] yeoman-environment Vulnerable to Arbitrary Package Installation without User Confirmation",
+      "url": "https://github.com/advisories/GHSA-vv9j-gjw2-j8wp",
+      "date": "2026-05-26T23:10:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[cryptpad] CryptPad has a Sanitizer Bypass in Diffmarked.js that Allows Arbitrary HTML Injection and Potential XSS",
       "url": "https://github.com/advisories/GHSA-g2g4-47gv-p72v",
@@ -131,13 +138,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0149.html",
       "date": "2026-05-22T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[network-ai] Network-AI: Unauthenticated Cross-Origin MCP Tool Invocation via Empty Default Secret",
-      "url": "https://github.com/advisories/GHSA-j3vx-cx2r-pvg8",
-      "date": "2026-05-21T22:40:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
