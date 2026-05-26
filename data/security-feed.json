@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-26T18:57:46.120Z",
+  "fetchedAt": "2026-05-26T19:45:23.034Z",
   "entries": [
+    {
+      "title": "[cryptpad] CryptPad has a Sanitizer Bypass in Diffmarked.js that Allows Arbitrary HTML Injection and Potential XSS",
+      "url": "https://github.com/advisories/GHSA-g2g4-47gv-p72v",
+      "date": "2026-05-26T19:05:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@typebot.io/js] Typebot.io has stored XSS via `javascript`: URI in text bubble links — bot author executes JS on visitors' browsers",
       "url": "https://github.com/advisories/GHSA-hqmv-v56g-4m47",
@@ -131,13 +138,6 @@
       "date": "2026-05-21T22:40:01.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
-      "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
-      "date": "2026-05-21T21:54:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
