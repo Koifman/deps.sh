@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-05-26T17:14:26.083Z",
+  "fetchedAt": "2026-05-26T18:57:46.120Z",
   "entries": [
+    {
+      "title": "[@typebot.io/js] Typebot.io has stored XSS via `javascript`: URI in text bubble links — bot author executes JS on visitors' browsers",
+      "url": "https://github.com/advisories/GHSA-hqmv-v56g-4m47",
+      "date": "2026-05-26T18:00:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@typebot.io/js] Typebot has Stored XSS via Rating Block Custom Icon that Bypasses isUnsafe Sandbox in Builder Preview",
+      "url": "https://github.com/advisories/GHSA-6m7c-xfhp-p9fh",
+      "date": "2026-05-26T17:40:00.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[Weblate] Weblate has a Server-Side Request Forgery issue",
       "url": "https://github.com/advisories/GHSA-hfpv-mc5v-p9mm",
@@ -119,24 +133,10 @@
       "severity": "HIGH"
     },
     {
-      "title": "[@boxlite-ai/boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
-      "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
-      "date": "2026-05-21T21:54:16.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
       "title": "[boxlite] Boxlite: Path Traversal Vulnerability Leads to Arbitrary File Write on the Host",
       "url": "https://github.com/advisories/GHSA-f396-4rp4-7v2j",
       "date": "2026-05-21T21:54:16.000Z",
       "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@boxlite-ai/boxlite] BoxLite: Permission Bypass Allows Modification of Read-Only Files",
-      "url": "https://github.com/advisories/GHSA-g6ww-w5j2-r7x3",
-      "date": "2026-05-21T21:52:52.000Z",
-      "ecosystem": "npm",
       "severity": "CRITICAL"
     }
   ]
