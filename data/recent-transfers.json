@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-05-27T07:43:40.990Z",
-  "count": 98,
+  "scannedAt": "2026-05-27T09:24:51.222Z",
+  "count": 99,
   "packages": [
     {
       "name": "xmldom",
@@ -237,21 +237,21 @@
       "currentOwner": "michaelficarra"
     },
     {
-      "name": "string.prototype.trimend",
-      "version": "1.0.9",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "khaledelansari",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "is-array-buffer",
       "version": "3.0.5",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
       "previousOwner": "fengyuanchen",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "string.prototype.trimend",
+      "version": "1.0.9",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "khaledelansari",
       "currentOwner": "ljharb"
     },
     {
@@ -606,15 +606,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "inversify",
-      "version": "8.1.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "remojansen",
-      "currentOwner": "notaphplover"
-    },
-    {
       "name": "@appium/schema",
       "version": "1.1.1",
       "ecosystem": "npm",
@@ -622,6 +613,15 @@
       "level": "MODERATE",
       "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "inversify",
+      "version": "8.1.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "remojansen",
+      "currentOwner": "notaphplover"
     },
     {
       "name": "@appium/types",
@@ -712,6 +712,15 @@
       "level": "MODERATE",
       "previousOwner": "bengourley",
       "currentOwner": "sb-priyankap"
+    },
+    {
+      "name": "@vimeo/player",
+      "version": "2.30.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bdougherty",
+      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "typescript",
