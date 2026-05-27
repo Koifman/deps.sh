@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-27T18:58:31.554Z",
+  "fetchedAt": "2026-05-27T19:47:36.887Z",
   "entries": [
+    {
+      "title": "[langroid] Langroid has Prompt to SQL Injection, Leading to RCE",
+      "url": "https://github.com/advisories/GHSA-mxfr-6hcw-j9rq",
+      "date": "2026-05-27T19:38:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[liquidjs] LiquidJS is Vulnerable to Remote Code Execution",
       "url": "https://github.com/advisories/GHSA-gf2q-c269-pqgc",
@@ -130,13 +137,6 @@
       "title": "[Weblate] Weblate has a Server-Side Request Forgery issue",
       "url": "https://github.com/advisories/GHSA-hfpv-mc5v-p9mm",
       "date": "2026-05-26T16:41:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[instagrapi] instagrapi: Unsafe signup challenge path handling in instagrapi",
-      "url": "https://github.com/advisories/GHSA-ggxf-37hm-9wqf",
-      "date": "2026-05-23T00:12:34.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
