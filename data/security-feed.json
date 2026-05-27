@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-05-27T01:12:20.967Z",
+  "fetchedAt": "2026-05-27T03:20:50.311Z",
   "entries": [
+    {
+      "title": "[@hapi/wreck] @hapi/wreck leaks sensitive `Proxy-Authorization` header across cross-hostname redirects",
+      "url": "https://github.com/advisories/GHSA-vhjm-w67q-g75c",
+      "date": "2026-05-27T00:38:10.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@hapi/content] @hapi/content header parser has a parameter smuggling issue that allows upload-filter bypass via duplicate parameters",
+      "url": "https://github.com/advisories/GHSA-36hh-x5p5-jgc8",
+      "date": "2026-05-27T00:37:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tmp] tmp has Path Traversal via unsanitized prefix/postfix that enables directory escape",
+      "url": "https://github.com/advisories/GHSA-ph9p-34f9-6g65",
+      "date": "2026-05-27T00:34:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[liquidjs] LiquidJS's `{% render %}` tag silently bypasses per-render `ownPropertyOnly:true` via `Context.spawn()`",
+      "url": "https://github.com/advisories/GHSA-9x9p-qf8f-mvjg",
+      "date": "2026-05-27T00:28:08.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[liquidjs] LiquidJS has a renderLimit DoS guard bypass via empty `{% for %}` body",
       "url": "https://github.com/advisories/GHSA-8xx9-69p8-7jp3",
@@ -110,34 +138,6 @@
       "title": "[AstrBot] AstrBot: File upload vulnerability in the function post_file of the file astrbot/dashboard/routes/chat.py",
       "url": "https://github.com/advisories/GHSA-f63h-wc26-pmvc",
       "date": "2026-05-23T00:10:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[Flask-Security-Too] Flask-Security-Too OAuth reauthentication freshness bypass via cross-   user OAuth identity acceptance",
-      "url": "https://github.com/advisories/GHSA-97r5-pg8x-p63p",
-      "date": "2026-05-22T17:49:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[aiosend] aiosend: Deserialization of request body before signature verification (Pre-auth DoS) in webhook handler",
-      "url": "https://github.com/advisories/GHSA-7m8f-hgjq-8gc9",
-      "date": "2026-05-22T17:27:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[qs] qs has a remotely triggerable DoS: qs.stringify crashes with TypeError on null/undefined entries in comma-format arrays when encodeValuesOnly is set",
-      "url": "https://github.com/advisories/GHSA-q8mj-m7cp-5q26",
-      "date": "2026-05-22T17:27:20.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[prefect] Prefect Git Argument Injection in GitRepository Pull Steps",
-      "url": "https://github.com/advisories/GHSA-6rcx-55r6-jx65",
-      "date": "2026-05-22T13:09:35.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
     }
