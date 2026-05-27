@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-05-27T22:38:16.716Z",
+  "fetchedAt": "2026-05-27T23:33:35.268Z",
   "entries": [
+    {
+      "title": "[compliance-trestle] compliance-trestle Remote Fetching Mechanism has an Arbitrary File Write via Cache Path Traversal",
+      "url": "https://github.com/advisories/GHSA-g3vg-vx23-3858",
+      "date": "2026-05-27T22:57:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[compliance-trestle] compliance-trestle Remote Fetching Mechanism has an Arbitrary File Write via Cache Path Traversal",
+      "url": "https://github.com/advisories/GHSA-g3vg-vx23-3858",
+      "date": "2026-05-27T22:57:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fuxa-server] FUXA's Unauthenticated Project Data Disclosure Exposes Server-Side Scripts and Device Configurations",
+      "url": "https://github.com/advisories/GHSA-q3w6-q3hc-c5x6",
+      "date": "2026-05-27T22:51:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[gpt-pilot] GPT-Pilot contains a command injection vulnerability in the Executor.run() method",
+      "url": "https://github.com/advisories/GHSA-m85w-whwh-qvfx",
+      "date": "2026-05-27T22:48:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mem0ai] mem0 server lacks authentication and authorization controls for its memory creation API endpoint",
+      "url": "https://github.com/advisories/GHSA-cgx8-qgvr-f7vf",
+      "date": "2026-05-27T22:46:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mem0ai] mem0 server lacks authentication and authorization controls for its memory deletion API endpoint",
+      "url": "https://github.com/advisories/GHSA-gq6f-qwv9-rf4j",
+      "date": "2026-05-27T22:46:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[imgaug] imgaug contains an insecure deserialization vulnerability in BackgroundAugmenter class within multicore.py module",
       "url": "https://github.com/advisories/GHSA-g82g-j283-hj97",
@@ -97,48 +139,6 @@
       "date": "2026-05-27T00:38:10.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@hapi/content] @hapi/content header parser has a parameter smuggling issue that allows upload-filter bypass via duplicate parameters",
-      "url": "https://github.com/advisories/GHSA-36hh-x5p5-jgc8",
-      "date": "2026-05-27T00:37:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[tmp] tmp has Path Traversal via unsanitized prefix/postfix that enables directory escape",
-      "url": "https://github.com/advisories/GHSA-ph9p-34f9-6g65",
-      "date": "2026-05-27T00:34:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[liquidjs] LiquidJS's `{% render %}` tag silently bypasses per-render `ownPropertyOnly:true` via `Context.spawn()`",
-      "url": "https://github.com/advisories/GHSA-9x9p-qf8f-mvjg",
-      "date": "2026-05-27T00:28:08.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[liquidjs] LiquidJS has a renderLimit DoS guard bypass via empty `{% for %}` body",
-      "url": "https://github.com/advisories/GHSA-8xx9-69p8-7jp3",
-      "date": "2026-05-27T00:11:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[liquidjs] LiquidJS's strip_html filter bypass via newline characters in HTML tags enables XSS",
-      "url": "https://github.com/advisories/GHSA-2qv6-9wx5-cwv4",
-      "date": "2026-05-27T00:09:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fuxa-server] FUXA Vulnerable to Unauthenticated Remote Code Execution via Script Test Mode Authorization Bypass",
-      "url": "https://github.com/advisories/GHSA-rg3m-cfq7-g6h6",
-      "date": "2026-05-26T23:44:55.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
