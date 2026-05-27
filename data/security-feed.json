@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-05-27T17:14:36.747Z",
+  "fetchedAt": "2026-05-27T18:58:31.554Z",
   "entries": [
+    {
+      "title": "[liquidjs] LiquidJS is Vulnerable to Remote Code Execution",
+      "url": "https://github.com/advisories/GHSA-gf2q-c269-pqgc",
+      "date": "2026-05-27T18:24:15.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[liquidjs] LiquidJS Vulnerable to ReDoS via Quadratic Backtracking in `strip_html` Filter Regex",
+      "url": "https://github.com/advisories/GHSA-r7g9-xpmj-5fcq",
+      "date": "2026-05-27T18:08:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[liquidjs] LiquidJS has a memory and render limit bypass via unbounded width padding in `date` filter (strftime)",
+      "url": "https://github.com/advisories/GHSA-hh27-hf48-9f5q",
+      "date": "2026-05-27T17:33:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0150: audiopus_sys is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0150.html",
@@ -118,27 +139,6 @@
       "date": "2026-05-23T00:12:34.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[aiograpi] aiograpi: Unsafe signup challenge path handling",
-      "url": "https://github.com/advisories/GHSA-jh37-x3fv-4x72",
-      "date": "2026-05-23T00:11:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server: Pre-authentication denial of service via client version header regex backtracking",
-      "url": "https://github.com/advisories/GHSA-38m6-82c8-4xfm",
-      "date": "2026-05-23T00:11:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server: Pre-authentication denial of service via client version header regex backtracking",
-      "url": "https://github.com/advisories/GHSA-38m6-82c8-4xfm",
-      "date": "2026-05-23T00:11:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
