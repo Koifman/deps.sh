@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-05-27T21:40:06.920Z",
+  "fetchedAt": "2026-05-27T22:38:16.716Z",
   "entries": [
+    {
+      "title": "[imgaug] imgaug contains an insecure deserialization vulnerability in BackgroundAugmenter class within multicore.py module",
+      "url": "https://github.com/advisories/GHSA-g82g-j283-hj97",
+      "date": "2026-05-27T22:25:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[llm] llm CLI tool contains a code injection vulnerability via `--functions` command-line argument",
+      "url": "https://github.com/advisories/GHSA-g76p-4vg5-f4qh",
+      "date": "2026-05-27T22:22:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[ludwig] Ludwig framework is vulnerable to insecure deserialization through its predict() method.",
+      "url": "https://github.com/advisories/GHSA-wcr3-gm9f-f87q",
+      "date": "2026-05-27T22:19:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[ludwig] Ludwig framework is vulnerable to insecure deserialization in its model serving component",
+      "url": "https://github.com/advisories/GHSA-xp5q-5q7g-q26r",
+      "date": "2026-05-27T22:17:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[mamba-ssm] mamba language model framework vulnerable to insecure deserialization when loading pre-trained models from HuggingFace Hub",
+      "url": "https://github.com/advisories/GHSA-pq2f-x424-6fjm",
+      "date": "2026-05-27T22:09:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[guardrails-ai] Guardrails AI contains a code injection vulnerability in its Hub package installation mechanism",
+      "url": "https://github.com/advisories/GHSA-r6hf-g5x6-7pv9",
+      "date": "2026-05-27T22:03:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[horovod] Horovod contains an insecure deserialization vulnerability in its KVStore HTTP server component",
+      "url": "https://github.com/advisories/GHSA-mf8f-x4r3-jm8c",
+      "date": "2026-05-27T21:45:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[asyncssh] AsyncSSH `AuthorizedKeysFile %u` path traversal allows attacker-selected authorized keys to authenticate a traversal username",
+      "url": "https://github.com/advisories/GHSA-g794-3fmp-753h",
+      "date": "2026-05-27T21:35:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[langroid] Langroid has Prompt to SQL Injection, Leading to RCE",
       "url": "https://github.com/advisories/GHSA-mxfr-6hcw-j9rq",
@@ -83,62 +139,6 @@
       "date": "2026-05-26T23:44:55.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[fuxa-server] FUXA has an unauthenticated arbitrary tag value disclosure via /api/getTagValue",
-      "url": "https://github.com/advisories/GHSA-fwcm-rqvw-j3p7",
-      "date": "2026-05-26T23:41:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@frangoteam/fuxa] FUXA Vulnerable to Pre-auth RCE via Path Manipulation & Configuration Injection",
-      "url": "https://github.com/advisories/GHSA-p69w-mmfv-xrfj",
-      "date": "2026-05-26T23:40:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@fedify/fedify] Fedify has an LD-Signature Bypass via JSON-LD Named-Graph Restructuring",
-      "url": "https://github.com/advisories/GHSA-9rfg-v8g9-9367",
-      "date": "2026-05-26T23:38:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[yeoman-environment] yeoman-environment Vulnerable to Arbitrary Package Installation without User Confirmation",
-      "url": "https://github.com/advisories/GHSA-vv9j-gjw2-j8wp",
-      "date": "2026-05-26T23:10:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[cryptpad] CryptPad has a Sanitizer Bypass in Diffmarked.js that Allows Arbitrary HTML Injection and Potential XSS",
-      "url": "https://github.com/advisories/GHSA-g2g4-47gv-p72v",
-      "date": "2026-05-26T19:05:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@typebot.io/js] Typebot.io has stored XSS via `javascript`: URI in text bubble links — bot author executes JS on visitors' browsers",
-      "url": "https://github.com/advisories/GHSA-hqmv-v56g-4m47",
-      "date": "2026-05-26T18:00:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@typebot.io/js] Typebot has Stored XSS via Rating Block Custom Icon that Bypasses isUnsafe Sandbox in Builder Preview",
-      "url": "https://github.com/advisories/GHSA-6m7c-xfhp-p9fh",
-      "date": "2026-05-26T17:40:00.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Weblate] Weblate has a Server-Side Request Forgery issue",
-      "url": "https://github.com/advisories/GHSA-hfpv-mc5v-p9mm",
-      "date": "2026-05-26T16:41:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
