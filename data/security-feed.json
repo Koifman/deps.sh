@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-05-27T15:17:10.853Z",
+  "fetchedAt": "2026-05-27T17:14:36.747Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0150: audiopus_sys is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0150.html",
+      "date": "2026-05-27T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@hapi/wreck] @hapi/wreck leaks sensitive `Proxy-Authorization` header across cross-hostname redirects",
       "url": "https://github.com/advisories/GHSA-vhjm-w67q-g75c",
@@ -133,13 +139,6 @@
       "date": "2026-05-23T00:11:27.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[AstrBot] AstrBot: File upload vulnerability in the function post_file of the file astrbot/dashboard/routes/chat.py",
-      "url": "https://github.com/advisories/GHSA-f63h-wc26-pmvc",
-      "date": "2026-05-23T00:10:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }
