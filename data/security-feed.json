@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-05-26T23:31:14.532Z",
+  "fetchedAt": "2026-05-27T01:12:20.967Z",
   "entries": [
+    {
+      "title": "[liquidjs] LiquidJS has a renderLimit DoS guard bypass via empty `{% for %}` body",
+      "url": "https://github.com/advisories/GHSA-8xx9-69p8-7jp3",
+      "date": "2026-05-27T00:11:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[liquidjs] LiquidJS's strip_html filter bypass via newline characters in HTML tags enables XSS",
+      "url": "https://github.com/advisories/GHSA-2qv6-9wx5-cwv4",
+      "date": "2026-05-27T00:09:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fuxa-server] FUXA Vulnerable to Unauthenticated Remote Code Execution via Script Test Mode Authorization Bypass",
+      "url": "https://github.com/advisories/GHSA-rg3m-cfq7-g6h6",
+      "date": "2026-05-26T23:44:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fuxa-server] FUXA has an unauthenticated arbitrary tag value disclosure via /api/getTagValue",
+      "url": "https://github.com/advisories/GHSA-fwcm-rqvw-j3p7",
+      "date": "2026-05-26T23:41:46.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@frangoteam/fuxa] FUXA Vulnerable to Pre-auth RCE via Path Manipulation & Configuration Injection",
+      "url": "https://github.com/advisories/GHSA-p69w-mmfv-xrfj",
+      "date": "2026-05-26T23:40:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@fedify/fedify] Fedify has an LD-Signature Bypass via JSON-LD Named-Graph Restructuring",
+      "url": "https://github.com/advisories/GHSA-9rfg-v8g9-9367",
+      "date": "2026-05-26T23:38:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[yeoman-environment] yeoman-environment Vulnerable to Arbitrary Package Installation without User Confirmation",
       "url": "https://github.com/advisories/GHSA-vv9j-gjw2-j8wp",
@@ -98,46 +140,6 @@
       "date": "2026-05-22T13:09:35.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[prefect] Prefect SSRF Bypass via DNS Rebinding in validate_restricted_url",
-      "url": "https://github.com/advisories/GHSA-p3pq-hxmr-vqqr",
-      "date": "2026-05-22T13:08:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[prefect] Prefect Unauthenticated Event Injection via /api/events/in WebSocket",
-      "url": "https://github.com/advisories/GHSA-hvph-5985-r63v",
-      "date": "2026-05-22T13:06:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[prefect] Prefect Auth Bypass via endswith() Health Check Exemption",
-      "url": "https://github.com/advisories/GHSA-6rr6-v7cj-mxpg",
-      "date": "2026-05-22T13:05:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow-providers-smtp] apache-airflow-providers-smtp: No certificate validation on SMTP STARTTLS connections in SMTP provider",
-      "url": "https://github.com/advisories/GHSA-x8mh-94wc-33gv",
-      "date": "2026-05-22T13:04:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0150: audiopus_sys is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0150.html",
-      "date": "2026-05-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0149: Vulnerability in wasmtime-wasi",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0149.html",
-      "date": "2026-05-22T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }

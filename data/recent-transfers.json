@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-05-26T23:34:01.004Z",
+  "scannedAt": "2026-05-27T01:15:26.927Z",
   "count": 98,
   "packages": [
     {
@@ -237,21 +237,21 @@
       "currentOwner": "michaelficarra"
     },
     {
-      "name": "is-array-buffer",
-      "version": "3.0.5",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "fengyuanchen",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "string.prototype.trimend",
       "version": "1.0.9",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
       "previousOwner": "khaledelansari",
+      "currentOwner": "ljharb"
+    },
+    {
+      "name": "is-array-buffer",
+      "version": "3.0.5",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "fengyuanchen",
       "currentOwner": "ljharb"
     },
     {
@@ -831,7 +831,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-gnu",
+      "name": "@oxc-transform/binding-linux-x64-musl",
       "version": "0.133.0",
       "ecosystem": "npm",
       "score": 20,
@@ -840,7 +840,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.133.0",
       "ecosystem": "npm",
       "score": 20,
@@ -855,15 +855,6 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.133.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -882,6 +873,15 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "meriyah",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.133.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     }
   ]
