@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-05-28T19:03:21.081Z",
+  "fetchedAt": "2026-05-28T20:54:22.146Z",
   "entries": [
+    {
+      "title": "[fuxa-server] FUXA provides guest and invalid-token access to protected read APIs in secure mode",
+      "url": "https://github.com/advisories/GHSA-r9g5-7q8j-958c",
+      "date": "2026-05-28T20:33:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@kilocode/cli] @kilocode/cli Vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
+      "url": "https://github.com/advisories/GHSA-rpc6-9c4p-j5cg",
+      "date": "2026-05-28T20:05:03.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[shamefile] Shamefile has an arbitrary file read via shamefile.yaml in shame next",
+      "url": "https://github.com/advisories/GHSA-x6p3-76f2-xxvh",
+      "date": "2026-05-28T20:02:16.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[shamefile] Shamefile has an arbitrary file read via shamefile.yaml in shame next",
+      "url": "https://github.com/advisories/GHSA-x6p3-76f2-xxvh",
+      "date": "2026-05-28T20:02:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[local-deep-research] local-deep-research has an SSRF bypass in `safe_get`",
+      "url": "https://github.com/advisories/GHSA-g23j-2vwm-5c25",
+      "date": "2026-05-28T19:18:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mem0ai] mem0 server lacks authentication and authorization controls for its memory management API endpoints",
+      "url": "https://github.com/advisories/GHSA-jfv9-68m5-gjjr",
+      "date": "2026-05-28T19:13:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[compliance-trestle] compliance-trestle Vulnerable to Remote Code Execution via Recursive Server-Side Template Injection (SSTI)",
+      "url": "https://github.com/advisories/GHSA-gg2g-p7xc-qqmm",
+      "date": "2026-05-28T19:01:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[compliance-trestle] compliance-trestle Vulnerable to Remote Code Execution via Recursive Server-Side Template Injection (SSTI)",
+      "url": "https://github.com/advisories/GHSA-gg2g-p7xc-qqmm",
+      "date": "2026-05-28T19:01:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[compliance-trestle] compliance-trestle Vulnerable to SSRF in Remote Fetching Subsystem",
       "url": "https://github.com/advisories/GHSA-w76h-q7c6-jpjp",
@@ -84,62 +140,6 @@
       "date": "2026-05-27T22:46:54.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[mem0ai] mem0 server lacks authentication and authorization controls for its memory deletion API endpoint",
-      "url": "https://github.com/advisories/GHSA-gq6f-qwv9-rf4j",
-      "date": "2026-05-27T22:46:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[imgaug] imgaug contains an insecure deserialization vulnerability in BackgroundAugmenter class within multicore.py module",
-      "url": "https://github.com/advisories/GHSA-g82g-j283-hj97",
-      "date": "2026-05-27T22:25:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[llm] llm CLI tool contains a code injection vulnerability via `--functions` command-line argument",
-      "url": "https://github.com/advisories/GHSA-g76p-4vg5-f4qh",
-      "date": "2026-05-27T22:22:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[ludwig] Ludwig framework is vulnerable to insecure deserialization through its predict() method.",
-      "url": "https://github.com/advisories/GHSA-wcr3-gm9f-f87q",
-      "date": "2026-05-27T22:19:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[ludwig] Ludwig framework is vulnerable to insecure deserialization in its model serving component",
-      "url": "https://github.com/advisories/GHSA-xp5q-5q7g-q26r",
-      "date": "2026-05-27T22:17:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[mamba-ssm] mamba language model framework vulnerable to insecure deserialization when loading pre-trained models from HuggingFace Hub",
-      "url": "https://github.com/advisories/GHSA-pq2f-x424-6fjm",
-      "date": "2026-05-27T22:09:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[guardrails-ai] Guardrails AI contains a code injection vulnerability in its Hub package installation mechanism",
-      "url": "https://github.com/advisories/GHSA-r6hf-g5x6-7pv9",
-      "date": "2026-05-27T22:03:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[horovod] Horovod contains an insecure deserialization vulnerability in its KVStore HTTP server component",
-      "url": "https://github.com/advisories/GHSA-mf8f-x4r3-jm8c",
-      "date": "2026-05-27T21:45:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
