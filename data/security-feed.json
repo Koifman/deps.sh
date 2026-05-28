@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-05-28T17:25:01.287Z",
+  "fetchedAt": "2026-05-28T19:03:21.081Z",
   "entries": [
+    {
+      "title": "[compliance-trestle] compliance-trestle Vulnerable to SSRF in Remote Fetching Subsystem",
+      "url": "https://github.com/advisories/GHSA-w76h-q7c6-jpjp",
+      "date": "2026-05-28T18:27:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[compliance-trestle] compliance-trestle Vulnerable to SSRF in Remote Fetching Subsystem",
+      "url": "https://github.com/advisories/GHSA-w76h-q7c6-jpjp",
+      "date": "2026-05-28T18:27:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pycti] OpenCTI: Privilege escalation via graphQL API is abusable by organization admins, due to incorrect ACL on userEdit relationAdd",
+      "url": "https://github.com/advisories/GHSA-q537-qhj4-wcjx",
+      "date": "2026-05-28T18:09:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[compliance-trestle] compliance-trestle - jinja has an Arbitrary File Write via Path Traversal",
+      "url": "https://github.com/advisories/GHSA-4q5v-7g7x-j79w",
+      "date": "2026-05-28T17:44:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[compliance-trestle] compliance-trestle - jinja has an Arbitrary File Write via Path Traversal",
+      "url": "https://github.com/advisories/GHSA-4q5v-7g7x-j79w",
+      "date": "2026-05-28T17:44:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[compliance-trestle] compliance-trestle Profile Import has an Arbitrary File Read via trestle:// URI and Relative Path Traversal",
+      "url": "https://github.com/advisories/GHSA-mj4x-vf5c-5xg8",
+      "date": "2026-05-28T17:37:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[compliance-trestle] compliance-trestle Profile Import has an Arbitrary File Read via trestle:// URI and Relative Path Traversal",
+      "url": "https://github.com/advisories/GHSA-mj4x-vf5c-5xg8",
+      "date": "2026-05-28T17:37:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[compliance-trestle] compliance-trestle Remote Fetching Mechanism has an Arbitrary File Write via Cache Path Traversal",
       "url": "https://github.com/advisories/GHSA-g3vg-vx23-3858",
@@ -91,54 +140,6 @@
       "date": "2026-05-27T21:45:20.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[asyncssh] AsyncSSH `AuthorizedKeysFile %u` path traversal allows attacker-selected authorized keys to authenticate a traversal username",
-      "url": "https://github.com/advisories/GHSA-g794-3fmp-753h",
-      "date": "2026-05-27T21:35:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langroid] Langroid has Prompt to SQL Injection, Leading to RCE",
-      "url": "https://github.com/advisories/GHSA-mxfr-6hcw-j9rq",
-      "date": "2026-05-27T19:38:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[liquidjs] LiquidJS is Vulnerable to Remote Code Execution",
-      "url": "https://github.com/advisories/GHSA-gf2q-c269-pqgc",
-      "date": "2026-05-27T18:24:15.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[liquidjs] LiquidJS Vulnerable to ReDoS via Quadratic Backtracking in `strip_html` Filter Regex",
-      "url": "https://github.com/advisories/GHSA-r7g9-xpmj-5fcq",
-      "date": "2026-05-27T18:08:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[liquidjs] LiquidJS has a memory and render limit bypass via unbounded width padding in `date` filter (strftime)",
-      "url": "https://github.com/advisories/GHSA-hh27-hf48-9f5q",
-      "date": "2026-05-27T17:33:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0150: audiopus_sys is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0150.html",
-      "date": "2026-05-27T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[@hapi/wreck] @hapi/wreck leaks sensitive `Proxy-Authorization` header across cross-hostname redirects",
-      "url": "https://github.com/advisories/GHSA-vhjm-w67q-g75c",
-      "date": "2026-05-27T00:38:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
