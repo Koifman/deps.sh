@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-05-28T22:37:48.205Z",
+  "fetchedAt": "2026-05-28T23:35:01.826Z",
   "entries": [
+    {
+      "title": "[tuf] tuf has platform-dependent delegation path matching",
+      "url": "https://github.com/advisories/GHSA-qp9x-wp8f-qgjj",
+      "date": "2026-05-28T22:46:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[dulwich] Dulwich Vulnerable to Command Injection via Merge Driver Path",
       "url": "https://github.com/advisories/GHSA-9277-mp7x-85jf",
@@ -132,13 +139,6 @@
       "url": "https://github.com/advisories/GHSA-g3vg-vx23-3858",
       "date": "2026-05-27T22:57:40.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fuxa-server] FUXA's Unauthenticated Project Data Disclosure Exposes Server-Side Scripts and Device Configurations",
-      "url": "https://github.com/advisories/GHSA-q3w6-q3hc-c5x6",
-      "date": "2026-05-27T22:51:19.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
