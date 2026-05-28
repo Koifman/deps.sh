@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-05-28T21:44:26.113Z",
+  "fetchedAt": "2026-05-28T22:37:48.205Z",
   "entries": [
+    {
+      "title": "[dulwich] Dulwich Vulnerable to Command Injection via Merge Driver Path",
+      "url": "https://github.com/advisories/GHSA-9277-mp7x-85jf",
+      "date": "2026-05-28T22:29:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dulwich] Dulwich has an arbitrary file write via NTFS-hostile tree entries on Windows",
+      "url": "https://github.com/advisories/GHSA-897w-fcg9-f6xj",
+      "date": "2026-05-28T22:28:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[fuxa-server] FUXA provides guest and invalid-token access to protected read APIs in secure mode",
       "url": "https://github.com/advisories/GHSA-r9g5-7q8j-958c",
@@ -19,14 +33,14 @@
       "title": "[shamefile] Shamefile has an arbitrary file read via shamefile.yaml in shame next",
       "url": "https://github.com/advisories/GHSA-x6p3-76f2-xxvh",
       "date": "2026-05-28T20:02:16.000Z",
-      "ecosystem": "npm",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
       "title": "[shamefile] Shamefile has an arbitrary file read via shamefile.yaml in shame next",
       "url": "https://github.com/advisories/GHSA-x6p3-76f2-xxvh",
       "date": "2026-05-28T20:02:16.000Z",
-      "ecosystem": "pypi",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
@@ -126,20 +140,6 @@
       "date": "2026-05-27T22:51:19.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[gpt-pilot] GPT-Pilot contains a command injection vulnerability in the Executor.run() method",
-      "url": "https://github.com/advisories/GHSA-m85w-whwh-qvfx",
-      "date": "2026-05-27T22:48:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mem0ai] mem0 server lacks authentication and authorization controls for its memory creation API endpoint",
-      "url": "https://github.com/advisories/GHSA-cgx8-qgvr-f7vf",
-      "date": "2026-05-27T22:46:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
