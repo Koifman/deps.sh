@@ -1,6 +1,82 @@
 {
-  "fetchedAt": "2026-05-29T15:17:22.522Z",
+  "fetchedAt": "2026-05-29T17:19:35.925Z",
   "entries": [
+    {
+      "title": "[@ai-sdk/provider-utils] @ai-sdk/provider-utils has an Uncontrolled Resource Consumption issue",
+      "url": "https://github.com/advisories/GHSA-866g-f22w-33x8",
+      "date": "2026-05-29T16:18:59.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[axios] axios Vulnerable to Credential Theft and Response Hijacking via Prototype Pollution Gadget in Config Merge",
+      "url": "https://github.com/advisories/GHSA-3g43-6gmg-66jw",
+      "date": "2026-05-29T16:07:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] axios Vulnerable to Credential Theft and Response Hijacking via Prototype Pollution Gadget in Config Merge",
+      "url": "https://github.com/advisories/GHSA-3g43-6gmg-66jw",
+      "date": "2026-05-29T16:07:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] axios Vulnerable to Full Man-in-the-Middle via Prototype Pollution Gadget in `config.proxy`",
+      "url": "https://github.com/advisories/GHSA-35jp-ww65-95wh",
+      "date": "2026-05-29T16:04:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] axios's shouldBypassProxy does not recognize IPv4-mapped IPv6 addresses, allowing NO_PROXY bypass (incomplete fix for CVE-2025-62718)",
+      "url": "https://github.com/advisories/GHSA-pjwm-pj3p-43mv",
+      "date": "2026-05-29T15:59:31.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] axios's shouldBypassProxy does not recognize IPv4-mapped IPv6 addresses, allowing NO_PROXY bypass (incomplete fix for CVE-2025-62718)",
+      "url": "https://github.com/advisories/GHSA-pjwm-pj3p-43mv",
+      "date": "2026-05-29T15:59:31.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] axios has DoS & Header Injection via Prototype Pollution Read-Side Gadgets in axios merge functions",
+      "url": "https://github.com/advisories/GHSA-898c-q2cr-xwhg",
+      "date": "2026-05-29T15:54:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] axios has DoS & Header Injection via Prototype Pollution Read-Side Gadgets in axios merge functions",
+      "url": "https://github.com/advisories/GHSA-898c-q2cr-xwhg",
+      "date": "2026-05-29T15:54:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios has a Patch Bypass: Proxy-Authorization Header Injection via Prototype Pollution — Incomplete Null-Prototype Fix",
+      "url": "https://github.com/advisories/GHSA-654m-c8p4-x5fp",
+      "date": "2026-05-29T15:51:03.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@haxtheweb/haxcms-nodejs] HaxCMS has a stored Cross-Site Scripting (XSS) bypass in its saveNode endpoint",
+      "url": "https://github.com/advisories/GHSA-g2g8-95qg-v35h",
+      "date": "2026-05-29T14:07:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "RUSTSEC-2026-0151: Vulnerability in jxl-grid",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0151.html",
+      "date": "2026-05-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[tuf] tuf has platform-dependent delegation path matching",
       "url": "https://github.com/advisories/GHSA-qp9x-wp8f-qgjj",
@@ -61,83 +137,6 @@
       "title": "[mem0ai] mem0 server lacks authentication and authorization controls for its memory management API endpoints",
       "url": "https://github.com/advisories/GHSA-jfv9-68m5-gjjr",
       "date": "2026-05-28T19:13:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[compliance-trestle] compliance-trestle Vulnerable to Remote Code Execution via Recursive Server-Side Template Injection (SSTI)",
-      "url": "https://github.com/advisories/GHSA-gg2g-p7xc-qqmm",
-      "date": "2026-05-28T19:01:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[compliance-trestle] compliance-trestle Vulnerable to Remote Code Execution via Recursive Server-Side Template Injection (SSTI)",
-      "url": "https://github.com/advisories/GHSA-gg2g-p7xc-qqmm",
-      "date": "2026-05-28T19:01:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[compliance-trestle] compliance-trestle Vulnerable to SSRF in Remote Fetching Subsystem",
-      "url": "https://github.com/advisories/GHSA-w76h-q7c6-jpjp",
-      "date": "2026-05-28T18:27:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[compliance-trestle] compliance-trestle Vulnerable to SSRF in Remote Fetching Subsystem",
-      "url": "https://github.com/advisories/GHSA-w76h-q7c6-jpjp",
-      "date": "2026-05-28T18:27:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pycti] OpenCTI: Privilege escalation via graphQL API is abusable by organization admins, due to incorrect ACL on userEdit relationAdd",
-      "url": "https://github.com/advisories/GHSA-q537-qhj4-wcjx",
-      "date": "2026-05-28T18:09:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[compliance-trestle] compliance-trestle - jinja has an Arbitrary File Write via Path Traversal",
-      "url": "https://github.com/advisories/GHSA-4q5v-7g7x-j79w",
-      "date": "2026-05-28T17:44:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[compliance-trestle] compliance-trestle - jinja has an Arbitrary File Write via Path Traversal",
-      "url": "https://github.com/advisories/GHSA-4q5v-7g7x-j79w",
-      "date": "2026-05-28T17:44:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[compliance-trestle] compliance-trestle Profile Import has an Arbitrary File Read via trestle:// URI and Relative Path Traversal",
-      "url": "https://github.com/advisories/GHSA-mj4x-vf5c-5xg8",
-      "date": "2026-05-28T17:37:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[compliance-trestle] compliance-trestle Profile Import has an Arbitrary File Read via trestle:// URI and Relative Path Traversal",
-      "url": "https://github.com/advisories/GHSA-mj4x-vf5c-5xg8",
-      "date": "2026-05-28T17:37:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[compliance-trestle] compliance-trestle Remote Fetching Mechanism has an Arbitrary File Write via Cache Path Traversal",
-      "url": "https://github.com/advisories/GHSA-g3vg-vx23-3858",
-      "date": "2026-05-27T22:57:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[compliance-trestle] compliance-trestle Remote Fetching Mechanism has an Arbitrary File Write via Cache Path Traversal",
-      "url": "https://github.com/advisories/GHSA-g3vg-vx23-3858",
-      "date": "2026-05-27T22:57:40.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
