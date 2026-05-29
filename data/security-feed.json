@@ -1,6 +1,125 @@
 {
-  "fetchedAt": "2026-05-29T19:02:41.653Z",
+  "fetchedAt": "2026-05-29T20:55:59.475Z",
   "entries": [
+    {
+      "title": "[zeroconf] zeroconf has unbounded DNS record cache that allows LAN-local memory exhaustion via multicast flood",
+      "url": "https://github.com/advisories/GHSA-rfg2-pjw2-56x2",
+      "date": "2026-05-29T20:18:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[zeroconf] zeroconf: Unbounded exception-dedup state retains packet buffers via traceback frame locals, enabling LAN-local memory exhaustion",
+      "url": "https://github.com/advisories/GHSA-phvx-9mgw-67r5",
+      "date": "2026-05-29T20:13:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[zeroconf] zeroconf has unbounded recursion in DNS compression-pointer decoder that allows LAN-local denial of service",
+      "url": "https://github.com/advisories/GHSA-9pgc-3ccv-5297",
+      "date": "2026-05-29T20:09:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@steipete/summarize] Summarize's hover summary feature allows malicious pages to dispatch synthetic mouseover events over attacker-controlled links",
+      "url": "https://github.com/advisories/GHSA-2r69-qgv3-hr65",
+      "date": "2026-05-29T20:00:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mlflow] MLFlow Creates a Temporary File With Insecure Permissions",
+      "url": "https://github.com/advisories/GHSA-f2m9-wcf4-cwwx",
+      "date": "2026-05-29T19:53:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@steipete/summarize] Summarize contains a missing authorization vulnerability",
+      "url": "https://github.com/advisories/GHSA-67gq-6q8c-qqh6",
+      "date": "2026-05-29T19:51:48.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@steipete/summarize] Summarize contains a missing authorization vulnerability",
+      "url": "https://github.com/advisories/GHSA-5624-2pmv-jx46",
+      "date": "2026-05-29T19:49:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@steipete/summarize] Summarize contains a path traversal vulnerability",
+      "url": "https://github.com/advisories/GHSA-8jr4-6r33-phwm",
+      "date": "2026-05-29T19:48:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[redshift-connector] amazon-redshift-python-driver vulnerable to Remote Code Execution via eval() Injection",
+      "url": "https://github.com/advisories/GHSA-29h4-r29x-hchv",
+      "date": "2026-05-29T19:32:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[uv] uv is vulnerable to arbitrary file write through entry point names",
+      "url": "https://github.com/advisories/GHSA-4gg8-gxpx-9rph",
+      "date": "2026-05-29T19:26:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@agenticmail/core] AgenticMail API/storage and outbound relay hardening fixes",
+      "url": "https://github.com/advisories/GHSA-wjjv-3mj2-39hf",
+      "date": "2026-05-29T19:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@agenticmail/api] AgenticMail API/storage and outbound relay hardening fixes",
+      "url": "https://github.com/advisories/GHSA-wjjv-3mj2-39hf",
+      "date": "2026-05-29T19:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server's GraphQL \"Did you mean ...?\" validation suggestions disclose schema to unauthenticated callers",
+      "url": "https://github.com/advisories/GHSA-8cph-rgr4-g5vj",
+      "date": "2026-05-29T19:18:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] Parse Server's GraphQL \"Did you mean ...?\" validation suggestions disclose schema to unauthenticated callers",
+      "url": "https://github.com/advisories/GHSA-8cph-rgr4-g5vj",
+      "date": "2026-05-29T19:18:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[chromadb] ChromaDB Python project has a pre-authentication code injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-f4j7-r4q5-qw2c",
+      "date": "2026-05-29T19:15:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[ngrok] ngrok is Vulnerable to Command Injection",
+      "url": "https://github.com/advisories/GHSA-qr28-p3wr-mxq3",
+      "date": "2026-05-29T19:10:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ngrok] ngrok is Vulnerable to Command Injection",
+      "url": "https://github.com/advisories/GHSA-qr28-p3wr-mxq3",
+      "date": "2026-05-29T19:10:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[vm2] NodeVM observability builtins leak host process and HTTP request data",
       "url": "https://github.com/advisories/GHSA-9g8x-92q2-p28f",
@@ -21,125 +140,6 @@
       "date": "2026-05-29T17:59:24.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[exifreader] ExifReader is vulnerable to denial of service via crafted ICC `mluc` tag",
-      "url": "https://github.com/advisories/GHSA-h64w-w9pr-82m4",
-      "date": "2026-05-29T17:58:38.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[exifreader] ExifReader is vulnerable to denial of service via unbounded decompression of image metadata",
-      "url": "https://github.com/advisories/GHSA-rr89-w3h9-m66j",
-      "date": "2026-05-29T17:52:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vm2] vm2 sandbox escape via JSPI-backed Promise `.finally()` species bypass",
-      "url": "https://github.com/advisories/GHSA-6j2x-vhqr-qr7q",
-      "date": "2026-05-29T17:51:07.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2 has a CVE-2023-37903 patch bypass: nesting:true without explicit require still allows full RCE",
-      "url": "https://github.com/advisories/GHSA-m4wx-m65x-ghrr",
-      "date": "2026-05-29T17:50:24.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2's Bridge Proxy set trap ignores receiver parameter, enabling host object property injection via prototype chain",
-      "url": "https://github.com/advisories/GHSA-c4cf-2hgv-2qv6",
-      "date": "2026-05-29T17:49:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vm2] vm2 has a sandbox escape via unblocked cross-realm Symbol.for keys + missing bridge write-trap symbol checks",
-      "url": "https://github.com/advisories/GHSA-m5q2-4fm3-vfqp",
-      "date": "2026-05-29T17:44:34.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vm2] vm2 is Vulnerable to Sandbox Breakout Through Promise Species",
-      "url": "https://github.com/advisories/GHSA-76w7-j9cq-rx2j",
-      "date": "2026-05-29T17:40:15.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2 setup-sandbox.js violates Defense Invariant #11 in stack-trace formatter",
-      "url": "https://github.com/advisories/GHSA-q3fm-4wcw-g57x",
-      "date": "2026-05-29T17:38:34.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[vm2] vm2 has a Sandbox Escape issue",
-      "url": "https://github.com/advisories/GHSA-v6mx-mf47-r5wg",
-      "date": "2026-05-29T17:33:58.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[sglang] SGLang: Unauthenticated RCE via --enable-custom-logit-processor",
-      "url": "https://github.com/advisories/GHSA-36m8-w8qf-g76p",
-      "date": "2026-05-29T17:29:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[sglang] SGLang's multimodal generation runtime has an unauthenticated path traversal vulnerability",
-      "url": "https://github.com/advisories/GHSA-qwrp-wghp-94q2",
-      "date": "2026-05-29T17:26:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[sglang] SGLanG: Multimodal scheduler deserializes untrusted pickle data on 0.0.0.0 ROUTER socket",
-      "url": "https://github.com/advisories/GHSA-gwv6-pq6m-p3rq",
-      "date": "2026-05-29T17:23:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[nuxt] Nuxt's route middleware is not enforced when rendering `.server.vue` pages via `/__nuxt_island/page_*`",
-      "url": "https://github.com/advisories/GHSA-hg3f-28rg-4jxj",
-      "date": "2026-05-29T17:15:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@nuxt/nitro-server] Nuxt's route middleware is not enforced when rendering `.server.vue` pages via `/__nuxt_island/page_*`",
-      "url": "https://github.com/advisories/GHSA-hg3f-28rg-4jxj",
-      "date": "2026-05-29T17:15:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@nuxt/nitro-server] Nuxt's route middleware is not enforced when rendering `.server.vue` pages via `/__nuxt_island/page_*`",
-      "url": "https://github.com/advisories/GHSA-hg3f-28rg-4jxj",
-      "date": "2026-05-29T17:15:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nuxt] Nuxt's route middleware is not enforced when rendering `.server.vue` pages via `/__nuxt_island/page_*`",
-      "url": "https://github.com/advisories/GHSA-hg3f-28rg-4jxj",
-      "date": "2026-05-29T17:15:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@ai-sdk/provider-utils] @ai-sdk/provider-utils has an Uncontrolled Resource Consumption issue",
-      "url": "https://github.com/advisories/GHSA-866g-f22w-33x8",
-      "date": "2026-05-29T16:18:59.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
