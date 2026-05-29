@@ -1,6 +1,104 @@
 {
-  "fetchedAt": "2026-05-29T21:41:10.094Z",
+  "fetchedAt": "2026-05-29T22:36:29.511Z",
   "entries": [
+    {
+      "title": "[PraisonAI] PraisonAI call server exposes unauthenticated agent listing, invocation, and deletion when CALL_SERVER_TOKEN is unset",
+      "url": "https://github.com/advisories/GHSA-86qc-r5v2-v6x6",
+      "date": "2026-05-29T22:27:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI spider_tools SSRF protection bypass via alternate loopback host encodings",
+      "url": "https://github.com/advisories/GHSA-5c6w-wwfq-7qqm",
+      "date": "2026-05-29T22:27:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[praisonaiagents] PraisonAI spider_tools SSRF protection bypass via alternate loopback host encodings",
+      "url": "https://github.com/advisories/GHSA-5c6w-wwfq-7qqm",
+      "date": "2026-05-29T22:27:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI: Arbitrary code execution via unguarded `spec.loader.exec_module` in `agents_generator.py` - sibling of CVE-2026-44334",
+      "url": "https://github.com/advisories/GHSA-78r8-wwqv-r299",
+      "date": "2026-05-29T22:26:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[GDAL] OSGeo gdal has a heap-based buffer overflow",
+      "url": "https://github.com/advisories/GHSA-r5m4-5vww-w9f5",
+      "date": "2026-05-29T22:23:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[bzr] Bazaar allows remote attackers to execute arbitrary commands via a bzr+ssh URL with initial dash character in hostname",
+      "url": "https://github.com/advisories/GHSA-jjxg-hpm7-g95f",
+      "date": "2026-05-29T22:19:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[stigmem-node] stigmem-node's federation peer registration lacked explicit out-of-band approval",
+      "url": "https://github.com/advisories/GHSA-9vp8-3hmv-8fgh",
+      "date": "2026-05-29T22:18:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[stigmem-node] stigmem-node's unsigned plugin override could be enabled without a second explicit acknowledgment",
+      "url": "https://github.com/advisories/GHSA-w7pm-9g55-mxfm",
+      "date": "2026-05-29T22:17:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[stigmem-node] stigmem-node's federation insecure transport settings may allow non-loopback cleartext federation",
+      "url": "https://github.com/advisories/GHSA-jmfc-hfjq-pxcp",
+      "date": "2026-05-29T22:16:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[stigmem-node] stigmem-node's Postgres schema identifier handling required defensive quoting",
+      "url": "https://github.com/advisories/GHSA-9pc9-4crj-mhpj",
+      "date": "2026-05-29T22:15:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[stigmem-node] stigmem-node's federation peer token timestamp validation may reject valid peer tokens",
+      "url": "https://github.com/advisories/GHSA-xh5j-xjfq-qvvx",
+      "date": "2026-05-29T22:14:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[stigmem-node] stigmem-node: Auth-disabled deployments may grant broad anonymous access outside loopback",
+      "url": "https://github.com/advisories/GHSA-fp6w-8wpg-74g5",
+      "date": "2026-05-29T22:13:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openc3] OpenC3 COSMOS is Vulnerable to Self-XSS Through the Command Sender",
+      "url": "https://github.com/advisories/GHSA-ffq5-qpvf-xq7x",
+      "date": "2026-05-29T21:46:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[boxlite] BoxLite has a Timeout Bypass Vulnerability",
+      "url": "https://github.com/advisories/GHSA-xjhv-pp2r-6f82",
+      "date": "2026-05-29T21:45:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[ouroboros-ai] ouroboros-ai Vulnerable to Remote Code Execution via Untrusted Project-Directory .env",
       "url": "https://github.com/advisories/GHSA-c4m7-2gwp-vw76",
@@ -40,104 +138,6 @@
       "title": "[@steipete/summarize] Summarize's hover summary feature allows malicious pages to dispatch synthetic mouseover events over attacker-controlled links",
       "url": "https://github.com/advisories/GHSA-2r69-qgv3-hr65",
       "date": "2026-05-29T20:00:01.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mlflow] MLFlow Creates a Temporary File With Insecure Permissions",
-      "url": "https://github.com/advisories/GHSA-f2m9-wcf4-cwwx",
-      "date": "2026-05-29T19:53:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@steipete/summarize] Summarize contains a missing authorization vulnerability",
-      "url": "https://github.com/advisories/GHSA-67gq-6q8c-qqh6",
-      "date": "2026-05-29T19:51:48.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@steipete/summarize] Summarize contains a missing authorization vulnerability",
-      "url": "https://github.com/advisories/GHSA-5624-2pmv-jx46",
-      "date": "2026-05-29T19:49:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@steipete/summarize] Summarize contains a path traversal vulnerability",
-      "url": "https://github.com/advisories/GHSA-8jr4-6r33-phwm",
-      "date": "2026-05-29T19:48:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[redshift-connector] amazon-redshift-python-driver vulnerable to Remote Code Execution via eval() Injection",
-      "url": "https://github.com/advisories/GHSA-29h4-r29x-hchv",
-      "date": "2026-05-29T19:32:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[uv] uv is vulnerable to arbitrary file write through entry point names",
-      "url": "https://github.com/advisories/GHSA-4gg8-gxpx-9rph",
-      "date": "2026-05-29T19:26:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@agenticmail/core] AgenticMail API/storage and outbound relay hardening fixes",
-      "url": "https://github.com/advisories/GHSA-wjjv-3mj2-39hf",
-      "date": "2026-05-29T19:23:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@agenticmail/api] AgenticMail API/storage and outbound relay hardening fixes",
-      "url": "https://github.com/advisories/GHSA-wjjv-3mj2-39hf",
-      "date": "2026-05-29T19:23:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server's GraphQL \"Did you mean ...?\" validation suggestions disclose schema to unauthenticated callers",
-      "url": "https://github.com/advisories/GHSA-8cph-rgr4-g5vj",
-      "date": "2026-05-29T19:18:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] Parse Server's GraphQL \"Did you mean ...?\" validation suggestions disclose schema to unauthenticated callers",
-      "url": "https://github.com/advisories/GHSA-8cph-rgr4-g5vj",
-      "date": "2026-05-29T19:18:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[chromadb] ChromaDB Python project has a pre-authentication code injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-f4j7-r4q5-qw2c",
-      "date": "2026-05-29T19:15:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[ngrok] ngrok is Vulnerable to Command Injection",
-      "url": "https://github.com/advisories/GHSA-qr28-p3wr-mxq3",
-      "date": "2026-05-29T19:10:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ngrok] ngrok is Vulnerable to Command Injection",
-      "url": "https://github.com/advisories/GHSA-qr28-p3wr-mxq3",
-      "date": "2026-05-29T19:10:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vm2] NodeVM observability builtins leak host process and HTTP request data",
-      "url": "https://github.com/advisories/GHSA-9g8x-92q2-p28f",
-      "date": "2026-05-29T18:20:47.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
