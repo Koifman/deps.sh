@@ -1,6 +1,132 @@
 {
-  "fetchedAt": "2026-05-29T22:36:29.511Z",
+  "fetchedAt": "2026-05-29T23:35:21.194Z",
   "entries": [
+    {
+      "title": "[praisonai-platform] praisonai-platform: Any workspace member can promote themselves or others to owner via PATCH /workspaces/{id}/members/{user_id}",
+      "url": "https://github.com/advisories/GHSA-c2m8-4gcg-v22g",
+      "date": "2026-05-29T23:01:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[praisonai-platform] praisonai-platform: Missing authorization on member removal enables full workspace takeover by any user regardless of role",
+      "url": "https://github.com/advisories/GHSA-w388-2392-px73",
+      "date": "2026-05-29T22:57:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai-platform] praisonai-platform: Label endpoints' unchecked label_id/issue_id enable cross-workspace label IDOR (edit, delete, link)",
+      "url": "https://github.com/advisories/GHSA-5jx9-w35f-vp65",
+      "date": "2026-05-29T22:51:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai-platform] praisonai-platform: IDOR in dependency endpoints allows cross-workspace issue linking, reading, and deletion due to missing ownership checks",
+      "url": "https://github.com/advisories/GHSA-4x6r-9v57-3gqw",
+      "date": "2026-05-29T22:45:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai-platform] praisonai-platform: JWT signing key defaults to hardcoded \"dev-secret-change-me\", allowing token forgery for any user when PLATFORM_ENV is unset",
+      "url": "https://github.com/advisories/GHSA-3qg8-5g3r-79v5",
+      "date": "2026-05-29T22:42:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[praisonai-platform] PraisonAI Platform: Missing role checks let any workspace member become owner and control workspace membership",
+      "url": "https://github.com/advisories/GHSA-h37g-4h4p-9x97",
+      "date": "2026-05-29T22:42:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai-platform] PraisonAI Platform workspace-scoped routes allow cross-workspace object access by global object ID",
+      "url": "https://github.com/advisories/GHSA-6h6v-6m7w-7vxx",
+      "date": "2026-05-29T22:35:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai-platform] PraisonAI Platform has a cross-workspace IDOR + member-role privilege escalation",
+      "url": "https://github.com/advisories/GHSA-h8q5-cp56-rr65",
+      "date": "2026-05-29T22:34:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[praisonai-platform] praisonai-platform: list_issue_activity returns activity log for any issue regardless of workspace ownership",
+      "url": "https://github.com/advisories/GHSA-27p4-pjqv-whgj",
+      "date": "2026-05-29T22:34:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[praisonai-platform] PraisonAI has Cross-Workspace IDOR and Privilege Escalation via Platform API",
+      "url": "https://github.com/advisories/GHSA-gv23-xrm3-8c62",
+      "date": "2026-05-29T22:32:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI has an Arbitrary File Write in Python API",
+      "url": "https://github.com/advisories/GHSA-hvhp-v2gc-268q",
+      "date": "2026-05-29T22:31:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI's unauthenticated A2A official example can reach real LLM-driven `eval()` tool execution",
+      "url": "https://github.com/advisories/GHSA-vg22-4gmj-prxw",
+      "date": "2026-05-29T22:31:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI vulnerable to unauthenticated arbitrary file read via MCP workflow.show, workflow.validate, deploy.validate",
+      "url": "https://github.com/advisories/GHSA-9cr9-25q5-8prj",
+      "date": "2026-05-29T22:30:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI vulnerable to sandbox escape via `print.__self__` builtins module leak in `execute_code` (subprocess mode)",
+      "url": "https://github.com/advisories/GHSA-4mr5-g6f9-cfrh",
+      "date": "2026-05-29T22:30:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[praisonaiagents] PraisonAI vulnerable to sandbox escape via `print.__self__` builtins module leak in `execute_code` (subprocess mode)",
+      "url": "https://github.com/advisories/GHSA-4mr5-g6f9-cfrh",
+      "date": "2026-05-29T22:30:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI CLI automatically resolves @url mentions in prompt text and can read loopback URLs into model context",
+      "url": "https://github.com/advisories/GHSA-5cxw-77wg-jrf3",
+      "date": "2026-05-29T22:29:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[praisonaiagents] PraisonAI CLI automatically resolves @url mentions in prompt text and can read loopback URLs into model context",
+      "url": "https://github.com/advisories/GHSA-5cxw-77wg-jrf3",
+      "date": "2026-05-29T22:29:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI `deploy --type api` emits a Flask server with authentication disabled by default",
+      "url": "https://github.com/advisories/GHSA-8444-4fhq-fxpq",
+      "date": "2026-05-29T22:29:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[PraisonAI] PraisonAI call server exposes unauthenticated agent listing, invocation, and deletion when CALL_SERVER_TOKEN is unset",
       "url": "https://github.com/advisories/GHSA-86qc-r5v2-v6x6",
@@ -13,132 +139,6 @@
       "url": "https://github.com/advisories/GHSA-5c6w-wwfq-7qqm",
       "date": "2026-05-29T22:27:11.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[praisonaiagents] PraisonAI spider_tools SSRF protection bypass via alternate loopback host encodings",
-      "url": "https://github.com/advisories/GHSA-5c6w-wwfq-7qqm",
-      "date": "2026-05-29T22:27:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI: Arbitrary code execution via unguarded `spec.loader.exec_module` in `agents_generator.py` - sibling of CVE-2026-44334",
-      "url": "https://github.com/advisories/GHSA-78r8-wwqv-r299",
-      "date": "2026-05-29T22:26:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[GDAL] OSGeo gdal has a heap-based buffer overflow",
-      "url": "https://github.com/advisories/GHSA-r5m4-5vww-w9f5",
-      "date": "2026-05-29T22:23:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[bzr] Bazaar allows remote attackers to execute arbitrary commands via a bzr+ssh URL with initial dash character in hostname",
-      "url": "https://github.com/advisories/GHSA-jjxg-hpm7-g95f",
-      "date": "2026-05-29T22:19:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[stigmem-node] stigmem-node's federation peer registration lacked explicit out-of-band approval",
-      "url": "https://github.com/advisories/GHSA-9vp8-3hmv-8fgh",
-      "date": "2026-05-29T22:18:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[stigmem-node] stigmem-node's unsigned plugin override could be enabled without a second explicit acknowledgment",
-      "url": "https://github.com/advisories/GHSA-w7pm-9g55-mxfm",
-      "date": "2026-05-29T22:17:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[stigmem-node] stigmem-node's federation insecure transport settings may allow non-loopback cleartext federation",
-      "url": "https://github.com/advisories/GHSA-jmfc-hfjq-pxcp",
-      "date": "2026-05-29T22:16:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[stigmem-node] stigmem-node's Postgres schema identifier handling required defensive quoting",
-      "url": "https://github.com/advisories/GHSA-9pc9-4crj-mhpj",
-      "date": "2026-05-29T22:15:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[stigmem-node] stigmem-node's federation peer token timestamp validation may reject valid peer tokens",
-      "url": "https://github.com/advisories/GHSA-xh5j-xjfq-qvvx",
-      "date": "2026-05-29T22:14:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[stigmem-node] stigmem-node: Auth-disabled deployments may grant broad anonymous access outside loopback",
-      "url": "https://github.com/advisories/GHSA-fp6w-8wpg-74g5",
-      "date": "2026-05-29T22:13:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openc3] OpenC3 COSMOS is Vulnerable to Self-XSS Through the Command Sender",
-      "url": "https://github.com/advisories/GHSA-ffq5-qpvf-xq7x",
-      "date": "2026-05-29T21:46:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[boxlite] BoxLite has a Timeout Bypass Vulnerability",
-      "url": "https://github.com/advisories/GHSA-xjhv-pp2r-6f82",
-      "date": "2026-05-29T21:45:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ouroboros-ai] ouroboros-ai Vulnerable to Remote Code Execution via Untrusted Project-Directory .env",
-      "url": "https://github.com/advisories/GHSA-c4m7-2gwp-vw76",
-      "date": "2026-05-29T21:22:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langflow] Langflow CORS misconfiguration enables Account Takeover and RCE",
-      "url": "https://github.com/advisories/GHSA-577h-p2hh-v4mv",
-      "date": "2026-05-29T20:51:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[zeroconf] zeroconf has unbounded DNS record cache that allows LAN-local memory exhaustion via multicast flood",
-      "url": "https://github.com/advisories/GHSA-rfg2-pjw2-56x2",
-      "date": "2026-05-29T20:18:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[zeroconf] zeroconf: Unbounded exception-dedup state retains packet buffers via traceback frame locals, enabling LAN-local memory exhaustion",
-      "url": "https://github.com/advisories/GHSA-phvx-9mgw-67r5",
-      "date": "2026-05-29T20:13:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[zeroconf] zeroconf has unbounded recursion in DNS compression-pointer decoder that allows LAN-local denial of service",
-      "url": "https://github.com/advisories/GHSA-9pgc-3ccv-5297",
-      "date": "2026-05-29T20:09:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@steipete/summarize] Summarize's hover summary feature allows malicious pages to dispatch synthetic mouseover events over attacker-controlled links",
-      "url": "https://github.com/advisories/GHSA-2r69-qgv3-hr65",
-      "date": "2026-05-29T20:00:01.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
