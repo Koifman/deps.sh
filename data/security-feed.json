@@ -1,6 +1,90 @@
 {
-  "fetchedAt": "2026-06-01T15:15:44.076Z",
+  "fetchedAt": "2026-06-01T18:10:35.131Z",
   "entries": [
+    {
+      "title": "[kas] kas checks out SHA-like git branches as valid commits",
+      "url": "https://github.com/advisories/GHSA-qjwp-hrq6-r26r",
+      "date": "2026-06-01T14:26:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[praisonai-platform] praisonai-platform: Any workspace member can delete the entire workspace via DELETE /workspaces/{id}",
+      "url": "https://github.com/advisories/GHSA-g8rr-7rj2-f627",
+      "date": "2026-06-01T14:24:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai-platform] praisonai-platform: Issue endpoints accept any issue_id without workspace ownership check, cross-workspace read/update/delete IDOR",
+      "url": "https://github.com/advisories/GHSA-xwq8-frcg-77q8",
+      "date": "2026-06-01T14:24:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai-platform] praisonai-platform: Any workspace member can add arbitrary user as owner via POST /workspaces/{id}/members",
+      "url": "https://github.com/advisories/GHSA-8g2p-pqm3-fcfh",
+      "date": "2026-06-01T14:23:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[praisonai-platform] praisonai-platform: Any workspace member can rewrite workspace name, description, and settings via PATCH /workspaces/{id}",
+      "url": "https://github.com/advisories/GHSA-rcmc-q9rj-4wmq",
+      "date": "2026-06-01T14:23:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[praisonai-platform] praisonai-platform: Comment endpoints accept any issue_id without workspace ownership check, cross-workspace comment read and post IDOR",
+      "url": "https://github.com/advisories/GHSA-cp4f-5m9r-5jc2",
+      "date": "2026-06-01T14:19:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai-platform] praisonai-platform: Project endpoints accept any project_id without workspace ownership check, cross-workspace read/update/delete IDOR",
+      "url": "https://github.com/advisories/GHSA-943m-6wx2-rc2j",
+      "date": "2026-06-01T14:17:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@vitest/browser] Vitest browser mode serves unsanitized otelCarrier query parameter as inline script",
+      "url": "https://github.com/advisories/GHSA-2h32-95rg-cppp",
+      "date": "2026-06-01T14:12:20.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@vitest/browser] Vitest browser mode serves unsanitized otelCarrier query parameter as inline script",
+      "url": "https://github.com/advisories/GHSA-2h32-95rg-cppp",
+      "date": "2026-06-01T14:12:20.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vitest] When Vitest UI server is listening, arbitrary file can be read and executed",
+      "url": "https://github.com/advisories/GHSA-5xrq-8626-4rwp",
+      "date": "2026-06-01T14:09:54.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[dompurify] DOMPurify XSS via selectedcontent re-clone",
+      "url": "https://github.com/advisories/GHSA-87xg-pxx2-7hvx",
+      "date": "2026-06-01T14:07:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@agenticmail/mcp] @agenticmail/mcp Missing Authentication for Critical Function",
+      "url": "https://github.com/advisories/GHSA-63gr-g7jc-v8rg",
+      "date": "2026-06-01T13:58:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0152: Vulnerability in oneringbuf",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0152.html",
@@ -55,90 +139,6 @@
       "date": "2026-05-29T22:35:15.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai-platform] PraisonAI Platform has a cross-workspace IDOR + member-role privilege escalation",
-      "url": "https://github.com/advisories/GHSA-h8q5-cp56-rr65",
-      "date": "2026-05-29T22:34:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: list_issue_activity returns activity log for any issue regardless of workspace ownership",
-      "url": "https://github.com/advisories/GHSA-27p4-pjqv-whgj",
-      "date": "2026-05-29T22:34:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[praisonai-platform] PraisonAI has Cross-Workspace IDOR and Privilege Escalation via Platform API",
-      "url": "https://github.com/advisories/GHSA-gv23-xrm3-8c62",
-      "date": "2026-05-29T22:32:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI has an Arbitrary File Write in Python API",
-      "url": "https://github.com/advisories/GHSA-hvhp-v2gc-268q",
-      "date": "2026-05-29T22:31:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI's unauthenticated A2A official example can reach real LLM-driven `eval()` tool execution",
-      "url": "https://github.com/advisories/GHSA-vg22-4gmj-prxw",
-      "date": "2026-05-29T22:31:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI vulnerable to unauthenticated arbitrary file read via MCP workflow.show, workflow.validate, deploy.validate",
-      "url": "https://github.com/advisories/GHSA-9cr9-25q5-8prj",
-      "date": "2026-05-29T22:30:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI vulnerable to sandbox escape via `print.__self__` builtins module leak in `execute_code` (subprocess mode)",
-      "url": "https://github.com/advisories/GHSA-4mr5-g6f9-cfrh",
-      "date": "2026-05-29T22:30:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[praisonaiagents] PraisonAI vulnerable to sandbox escape via `print.__self__` builtins module leak in `execute_code` (subprocess mode)",
-      "url": "https://github.com/advisories/GHSA-4mr5-g6f9-cfrh",
-      "date": "2026-05-29T22:30:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI CLI automatically resolves @url mentions in prompt text and can read loopback URLs into model context",
-      "url": "https://github.com/advisories/GHSA-5cxw-77wg-jrf3",
-      "date": "2026-05-29T22:29:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[praisonaiagents] PraisonAI CLI automatically resolves @url mentions in prompt text and can read loopback URLs into model context",
-      "url": "https://github.com/advisories/GHSA-5cxw-77wg-jrf3",
-      "date": "2026-05-29T22:29:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI `deploy --type api` emits a Flask server with authentication disabled by default",
-      "url": "https://github.com/advisories/GHSA-8444-4fhq-fxpq",
-      "date": "2026-05-29T22:29:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI call server exposes unauthenticated agent listing, invocation, and deletion when CALL_SERVER_TOKEN is unset",
-      "url": "https://github.com/advisories/GHSA-86qc-r5v2-v6x6",
-      "date": "2026-05-29T22:27:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
