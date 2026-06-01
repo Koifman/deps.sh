@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-06-01T10:57:03.241Z",
-  "count": 100,
+  "scannedAt": "2026-06-01T13:01:15.999Z",
+  "count": 99,
   "packages": [
     {
       "name": "xmldom",
@@ -46,15 +46,6 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "tinymce",
-      "version": "8.5.1",
-      "ecosystem": "npm",
-      "score": 50,
-      "level": "HIGH",
-      "previousOwner": "spocke",
-      "currentOwner": "tinymce"
     },
     {
       "name": "karma",
@@ -408,15 +399,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@trivago/prettier-plugin-sort-imports",
-      "version": "6.0.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "ayusharma",
-      "currentOwner": "behraang"
-    },
-    {
       "name": "pe-library",
       "version": "2.0.1",
       "ecosystem": "npm",
@@ -424,6 +406,15 @@
       "level": "MODERATE",
       "previousOwner": "jet2jet",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@trivago/prettier-plugin-sort-imports",
+      "version": "6.0.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "ayusharma",
+      "currentOwner": "behraang"
     },
     {
       "name": "dependency-cruiser",
@@ -706,7 +697,7 @@
     },
     {
       "name": "@lingui/message-utils",
-      "version": "6.1.0",
+      "version": "6.2.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -831,8 +822,8 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.133.0",
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.52.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -840,8 +831,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.52.0",
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.133.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
