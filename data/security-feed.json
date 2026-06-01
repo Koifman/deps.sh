@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-06-01T12:58:15.101Z",
+  "fetchedAt": "2026-06-01T15:15:44.076Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0152: Vulnerability in oneringbuf",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0152.html",
+      "date": "2026-06-01T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[praisonai-platform] praisonai-platform: Any workspace member can promote themselves or others to owner via PATCH /workspaces/{id}/members/{user_id}",
       "url": "https://github.com/advisories/GHSA-c2m8-4gcg-v22g",
@@ -133,13 +139,6 @@
       "date": "2026-05-29T22:27:35.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI spider_tools SSRF protection bypass via alternate loopback host encodings",
-      "url": "https://github.com/advisories/GHSA-5c6w-wwfq-7qqm",
-      "date": "2026-05-29T22:27:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
