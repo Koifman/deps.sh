@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-06-02T09:39:39.592Z",
+  "fetchedAt": "2026-06-02T11:38:00.841Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0153: Vulnerability in russh-cryptovec",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0153.html",
+      "date": "2026-06-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0154: Vulnerability in russh",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0154.html",
+      "date": "2026-06-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[kas] kas checks out SHA-like git branches as valid commits",
       "url": "https://github.com/advisories/GHSA-qjwp-hrq6-r26r",
@@ -125,20 +137,6 @@
       "date": "2026-05-29T22:42:47.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[praisonai-platform] PraisonAI Platform: Missing role checks let any workspace member become owner and control workspace membership",
-      "url": "https://github.com/advisories/GHSA-h37g-4h4p-9x97",
-      "date": "2026-05-29T22:42:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai-platform] PraisonAI Platform workspace-scoped routes allow cross-workspace object access by global object ID",
-      "url": "https://github.com/advisories/GHSA-6h6v-6m7w-7vxx",
-      "date": "2026-05-29T22:35:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
