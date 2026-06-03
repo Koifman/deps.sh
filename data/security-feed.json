@@ -1,9 +1,21 @@
 {
-  "fetchedAt": "2026-06-03T09:49:53.437Z",
+  "fetchedAt": "2026-06-03T11:45:53.473Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0155: exploration contained malicious code",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0155.html",
+      "date": "2026-06-03T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0156: Vulnerability in metacall",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0156.html",
+      "date": "2026-06-03T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0157: Unsoundness in metacall",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0157.html",
       "date": "2026-06-03T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -120,20 +132,6 @@
       "title": "[praisonai-platform] praisonai-platform: Missing authorization on member removal enables full workspace takeover by any user regardless of role",
       "url": "https://github.com/advisories/GHSA-w388-2392-px73",
       "date": "2026-05-29T22:57:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: Label endpoints' unchecked label_id/issue_id enable cross-workspace label IDOR (edit, delete, link)",
-      "url": "https://github.com/advisories/GHSA-5jx9-w35f-vp65",
-      "date": "2026-05-29T22:51:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: IDOR in dependency endpoints allows cross-workspace issue linking, reading, and deletion due to missing ownership checks",
-      "url": "https://github.com/advisories/GHSA-4x6r-9v57-3gqw",
-      "date": "2026-05-29T22:45:49.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
