@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-06-02T23:43:19.786Z",
-  "count": 101,
+  "scannedAt": "2026-06-03T01:26:38.052Z",
+  "count": 100,
   "packages": [
     {
       "name": "xmldom",
@@ -300,15 +300,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "cloudevents",
-      "version": "10.0.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "tjanczuk",
-      "currentOwner": "lholmquist"
-    },
-    {
       "name": "embla-carousel-autoplay",
       "version": "8.6.0",
       "ecosystem": "npm",
@@ -316,6 +307,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "cloudevents",
+      "version": "10.0.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "tjanczuk",
+      "currentOwner": "lholmquist"
     },
     {
       "name": "eslint",
@@ -417,21 +417,21 @@
       "currentOwner": "behraang"
     },
     {
-      "name": "@redux-saga/core",
-      "version": "1.5.0",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "andarist",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "dependency-cruiser",
       "version": "17.4.3",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "sverweij",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@redux-saga/core",
+      "version": "1.5.0",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "andarist",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -445,15 +445,6 @@
     },
     {
       "name": "@tsparticles/confetti",
-      "version": "4.1.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "matteobruni",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@tsparticles/fireworks",
       "version": "4.1.2",
       "ecosystem": "npm",
       "score": 25,
@@ -822,15 +813,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@fortawesome/react-fontawesome",
-      "version": "3.3.1",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "supercodepoet",
-      "currentOwner": "lordofbacon"
-    },
-    {
       "name": "@oxlint/binding-linux-x64-musl",
       "version": "1.68.0",
       "ecosystem": "npm",
@@ -840,8 +822,26 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@fortawesome/react-fontawesome",
+      "version": "3.3.1",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "supercodepoet",
+      "currentOwner": "lordofbacon"
+    },
+    {
       "name": "@oxfmt/binding-linux-x64-musl",
       "version": "0.53.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.134.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -873,15 +873,6 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.134.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
