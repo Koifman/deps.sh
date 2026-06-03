@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-06-03T21:16:45.050Z",
+  "scannedAt": "2026-06-03T22:51:08.621Z",
   "count": 101,
   "packages": [
     {
@@ -210,13 +210,13 @@
       "currentOwner": "geoffreybooth"
     },
     {
-      "name": "@tsparticles/engine",
-      "version": "4.1.3",
+      "name": "@stitches/core",
+      "version": "1.2.8",
       "ecosystem": "npm",
       "score": 35,
       "level": "MODERATE",
-      "previousOwner": "matteobruni",
-      "currentOwner": "GitHub Actions"
+      "previousOwner": "peduarte",
+      "currentOwner": "hadihallak"
     },
     {
       "name": "@appium/support",
@@ -273,15 +273,6 @@
       "currentOwner": "typescript-bot"
     },
     {
-      "name": "regexpu-core",
-      "version": "6.4.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "mathias",
-      "currentOwner": "google-wombot"
-    },
-    {
       "name": "embla-carousel",
       "version": "8.6.0",
       "ecosystem": "npm",
@@ -289,6 +280,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "regexpu-core",
+      "version": "6.4.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "mathias",
+      "currentOwner": "google-wombot"
     },
     {
       "name": "oxlint",
@@ -714,15 +714,6 @@
       "currentOwner": "sb-priyankap"
     },
     {
-      "name": "@lingui/message-utils",
-      "version": "6.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "andrii.bodnar",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@vimeo/player",
       "version": "2.30.4",
       "ecosystem": "npm",
@@ -741,12 +732,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "rehype-rewrite",
-      "version": "4.0.4",
+      "name": "@lingui/message-utils",
+      "version": "6.2.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "wcjiang",
+      "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -885,7 +876,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.134.0",
       "ecosystem": "npm",
       "score": 20,
@@ -894,7 +885,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-gnu",
+      "name": "oxc-minify",
       "version": "0.134.0",
       "ecosystem": "npm",
       "score": 20,
@@ -909,6 +900,15 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@tsparticles/vue3",
+      "version": "4.1.3",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matteobruni",
       "currentOwner": "GitHub Actions"
     }
   ]

@@ -1,6 +1,125 @@
 {
-  "fetchedAt": "2026-06-03T21:13:40.942Z",
+  "fetchedAt": "2026-06-03T22:48:31.532Z",
   "entries": [
+    {
+      "title": "[browserstack-runner] browserstack-runner vulnerable to Remote Code Execution via vm sandbox escape in _log HTTP handler",
+      "url": "https://github.com/advisories/GHSA-6vr3-7wcx-v5g5",
+      "date": "2026-06-03T21:39:33.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[browserstack-runner] browserstack-runner has an unauthenticated arbitrary file read via path traversal in HTTP server",
+      "url": "https://github.com/advisories/GHSA-8rpw-6cqh-2v9h",
+      "date": "2026-06-03T21:38:43.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jupyter_enterprise_gateway] Jupyter Enterprise Gateway: Kubernetes Manifest Injection in Jinja2 Template Rendering",
+      "url": "https://github.com/advisories/GHSA-cfw7-6c5v-2wjq",
+      "date": "2026-06-03T21:37:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[jupyter_enterprise_gateway] Jupyter Enterprise Gateway: Jinja2 Template Server Side Template Injection resulting in Remote Code Execution",
+      "url": "https://github.com/advisories/GHSA-f49j-v924-fx9w",
+      "date": "2026-06-03T21:36:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[aiohttp] AIOHTTP is vulnerable to cross-origin redirect with per-request cookies",
+      "url": "https://github.com/advisories/GHSA-hg6j-4rv6-33pg",
+      "date": "2026-06-03T21:34:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[jupyter_enterprise_gateway] Jupyter Enterprise Gateway: ContainerProcessProxy._enforce_prohibited_ids Bypass",
+      "url": "https://github.com/advisories/GHSA-chq7-94j8-cj28",
+      "date": "2026-06-03T21:30:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[docling-core] Docling Core: Unsafe remote filename resolution",
+      "url": "https://github.com/advisories/GHSA-jmmv-h3mp-59v8",
+      "date": "2026-06-03T21:16:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[docling-core] Docling Core: Insufficient validation of image reference URIs",
+      "url": "https://github.com/advisories/GHSA-j5xp-7m2f-49jv",
+      "date": "2026-06-03T21:15:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[docling] Docling: Unsafe URI and Path Handling in HTML Backend",
+      "url": "https://github.com/advisories/GHSA-q29v-xc37-wh5m",
+      "date": "2026-06-03T21:15:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[docling] Docling: Potential Path Traversal via LaTeX \\includegraphics and \\input Commands",
+      "url": "https://github.com/advisories/GHSA-2j5p-7p5m-cvqr",
+      "date": "2026-06-03T21:14:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[docling] Docling: Unsafe XML Entity Expansion in USPTO Patent Backend",
+      "url": "https://github.com/advisories/GHSA-m88r-rg27-5xfg",
+      "date": "2026-06-03T21:14:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[docling] Docling: Unsafe Archive Extraction and XML Parsing in METS-GBS Backend",
+      "url": "https://github.com/advisories/GHSA-r3xg-rg9j-67fv",
+      "date": "2026-06-03T21:13:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[docling] Docling: Unsafe Playwright-based HTML Rendering",
+      "url": "https://github.com/advisories/GHSA-pj2v-ggqh-cmq2",
+      "date": "2026-06-03T21:09:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[malla] malla: Stored XSS via Meshtastic node names in multiple frontend pages",
+      "url": "https://github.com/advisories/GHSA-ch57-39q2-4crm",
+      "date": "2026-06-03T21:06:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@remix-run/server-runtime] React Router vulnerable to DoS via unbounded path expansion in __manifest endpoint",
+      "url": "https://github.com/advisories/GHSA-8x6r-g9mw-2r78",
+      "date": "2026-06-03T21:05:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-router] React Router vulnerable to DoS via unbounded path expansion in __manifest endpoint",
+      "url": "https://github.com/advisories/GHSA-8x6r-g9mw-2r78",
+      "date": "2026-06-03T21:05:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-router] React Router's vendored turbo-stream v2 allows arbitrary constructor invocation via TYPE_ERROR deserialization leading to Unauth RCE",
+      "url": "https://github.com/advisories/GHSA-49rj-9fvp-4h2h",
+      "date": "2026-06-03T21:03:33.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[react-router] React Router's same-origin redirect with path starting // causes open redirect via protocol-relative URL reinterpretation",
       "url": "https://github.com/advisories/GHSA-2j2x-hqr9-3h42",
@@ -21,120 +140,6 @@
       "date": "2026-06-03T20:56:55.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[react-router] React Router vulnerable to XSS in unstable RSC redirect handling via javascript: redirect targets",
-      "url": "https://github.com/advisories/GHSA-8646-j5j9-6r62",
-      "date": "2026-06-03T20:33:33.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-router] React Router has stored XSS via unescaped Location header in prerendered redirect HTML",
-      "url": "https://github.com/advisories/GHSA-f22v-gfqf-p8f3",
-      "date": "2026-06-03T20:33:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[docling] Docling: Unsafe Zip Extraction in EasyOCR Model Download",
-      "url": "https://github.com/advisories/GHSA-cjqg-rq2h-2fvj",
-      "date": "2026-06-03T20:02:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vite] launch-editor vulnerable to command injection via the crafted request on Windows",
-      "url": "https://github.com/advisories/GHSA-c27g-q93r-2cwf",
-      "date": "2026-06-03T18:02:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[launch-editor] launch-editor vulnerable to command injection via the crafted request on Windows",
-      "url": "https://github.com/advisories/GHSA-c27g-q93r-2cwf",
-      "date": "2026-06-03T18:02:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0155: exploration contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0155.html",
-      "date": "2026-06-03T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0156: Vulnerability in metacall",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0156.html",
-      "date": "2026-06-03T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0157: Unsoundness in metacall",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0157.html",
-      "date": "2026-06-03T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0153: Vulnerability in russh-cryptovec",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0153.html",
-      "date": "2026-06-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0154: Vulnerability in russh",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0154.html",
-      "date": "2026-06-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[kas] kas checks out SHA-like git branches as valid commits",
-      "url": "https://github.com/advisories/GHSA-qjwp-hrq6-r26r",
-      "date": "2026-06-01T14:26:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: Any workspace member can delete the entire workspace via DELETE /workspaces/{id}",
-      "url": "https://github.com/advisories/GHSA-g8rr-7rj2-f627",
-      "date": "2026-06-01T14:24:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: Issue endpoints accept any issue_id without workspace ownership check, cross-workspace read/update/delete IDOR",
-      "url": "https://github.com/advisories/GHSA-xwq8-frcg-77q8",
-      "date": "2026-06-01T14:24:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: Any workspace member can add arbitrary user as owner via POST /workspaces/{id}/members",
-      "url": "https://github.com/advisories/GHSA-8g2p-pqm3-fcfh",
-      "date": "2026-06-01T14:23:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: Any workspace member can rewrite workspace name, description, and settings via PATCH /workspaces/{id}",
-      "url": "https://github.com/advisories/GHSA-rcmc-q9rj-4wmq",
-      "date": "2026-06-01T14:23:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: Comment endpoints accept any issue_id without workspace ownership check, cross-workspace comment read and post IDOR",
-      "url": "https://github.com/advisories/GHSA-cp4f-5m9r-5jc2",
-      "date": "2026-06-01T14:19:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: Project endpoints accept any project_id without workspace ownership check, cross-workspace read/update/delete IDOR",
-      "url": "https://github.com/advisories/GHSA-943m-6wx2-rc2j",
-      "date": "2026-06-01T14:17:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
