@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-06-03T07:57:29.299Z",
+  "fetchedAt": "2026-06-03T09:49:53.437Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0155: exploration contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0155.html",
+      "date": "2026-06-03T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0153: Vulnerability in russh-cryptovec",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0153.html",
@@ -130,13 +136,6 @@
       "date": "2026-05-29T22:45:49.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: JWT signing key defaults to hardcoded \"dev-secret-change-me\", allowing token forgery for any user when PLATFORM_ENV is unset",
-      "url": "https://github.com/advisories/GHSA-3qg8-5g3r-79v5",
-      "date": "2026-05-29T22:42:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
