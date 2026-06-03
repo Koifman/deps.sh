@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-06-03T19:31:39.809Z",
+  "fetchedAt": "2026-06-03T21:13:40.942Z",
   "entries": [
+    {
+      "title": "[react-router] React Router's same-origin redirect with path starting // causes open redirect via protocol-relative URL reinterpretation",
+      "url": "https://github.com/advisories/GHSA-2j2x-hqr9-3h42",
+      "date": "2026-06-03T20:58:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[react-router] React Router's same-origin redirect with path starting // causes open redirect via protocol-relative URL reinterpretation",
+      "url": "https://github.com/advisories/GHSA-2j2x-hqr9-3h42",
+      "date": "2026-06-03T20:58:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[aiohttp] AIOHTTP is Vulnerable to Deserialization of Untrusted Data",
+      "url": "https://github.com/advisories/GHSA-jg22-mg44-37j8",
+      "date": "2026-06-03T20:56:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[react-router] React Router vulnerable to XSS in unstable RSC redirect handling via javascript: redirect targets",
+      "url": "https://github.com/advisories/GHSA-8646-j5j9-6r62",
+      "date": "2026-06-03T20:33:33.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-router] React Router has stored XSS via unescaped Location header in prerendered redirect HTML",
+      "url": "https://github.com/advisories/GHSA-f22v-gfqf-p8f3",
+      "date": "2026-06-03T20:33:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[docling] Docling: Unsafe Zip Extraction in EasyOCR Model Download",
+      "url": "https://github.com/advisories/GHSA-cjqg-rq2h-2fvj",
+      "date": "2026-06-03T20:02:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[vite] launch-editor vulnerable to command injection via the crafted request on Windows",
       "url": "https://github.com/advisories/GHSA-c27g-q93r-2cwf",
@@ -93,47 +135,6 @@
       "date": "2026-06-01T14:17:05.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@vitest/browser] Vitest browser mode serves unsanitized otelCarrier query parameter as inline script",
-      "url": "https://github.com/advisories/GHSA-2h32-95rg-cppp",
-      "date": "2026-06-01T14:12:20.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@vitest/browser] Vitest browser mode serves unsanitized otelCarrier query parameter as inline script",
-      "url": "https://github.com/advisories/GHSA-2h32-95rg-cppp",
-      "date": "2026-06-01T14:12:20.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vitest] When Vitest UI server is listening, arbitrary file can be read and executed",
-      "url": "https://github.com/advisories/GHSA-5xrq-8626-4rwp",
-      "date": "2026-06-01T14:09:54.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[dompurify] DOMPurify XSS via selectedcontent re-clone",
-      "url": "https://github.com/advisories/GHSA-87xg-pxx2-7hvx",
-      "date": "2026-06-01T14:07:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@agenticmail/mcp] @agenticmail/mcp Missing Authentication for Critical Function",
-      "url": "https://github.com/advisories/GHSA-63gr-g7jc-v8rg",
-      "date": "2026-06-01T13:58:34.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0152: Vulnerability in oneringbuf",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0152.html",
-      "date": "2026-06-01T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
