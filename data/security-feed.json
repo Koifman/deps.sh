@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-03T17:49:41.367Z",
+  "fetchedAt": "2026-06-03T19:31:39.809Z",
   "entries": [
+    {
+      "title": "[vite] launch-editor vulnerable to command injection via the crafted request on Windows",
+      "url": "https://github.com/advisories/GHSA-c27g-q93r-2cwf",
+      "date": "2026-06-03T18:02:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[launch-editor] launch-editor vulnerable to command injection via the crafted request on Windows",
+      "url": "https://github.com/advisories/GHSA-c27g-q93r-2cwf",
+      "date": "2026-06-03T18:02:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0155: exploration contained malicious code",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0155.html",
@@ -120,20 +134,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0152.html",
       "date": "2026-06-01T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: Any workspace member can promote themselves or others to owner via PATCH /workspaces/{id}/members/{user_id}",
-      "url": "https://github.com/advisories/GHSA-c2m8-4gcg-v22g",
-      "date": "2026-05-29T23:01:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: Missing authorization on member removal enables full workspace takeover by any user regardless of role",
-      "url": "https://github.com/advisories/GHSA-w388-2392-px73",
-      "date": "2026-05-29T22:57:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
