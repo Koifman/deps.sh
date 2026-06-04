@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-06-04T11:11:26.507Z",
+  "fetchedAt": "2026-06-04T13:22:15.801Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0158: Vulnerability in matrix-sdk-ui",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0158.html",
+      "date": "2026-06-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0159: Vulnerability in matrix-sdk-crypto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0159.html",
+      "date": "2026-06-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[browserstack-runner] browserstack-runner vulnerable to Remote Code Execution via vm sandbox escape in _log HTTP handler",
       "url": "https://github.com/advisories/GHSA-6vr3-7wcx-v5g5",
@@ -125,20 +137,6 @@
       "url": "https://github.com/advisories/GHSA-2j2x-hqr9-3h42",
       "date": "2026-06-03T20:58:02.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[react-router] React Router's same-origin redirect with path starting // causes open redirect via protocol-relative URL reinterpretation",
-      "url": "https://github.com/advisories/GHSA-2j2x-hqr9-3h42",
-      "date": "2026-06-03T20:58:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP is Vulnerable to Deserialization of Untrusted Data",
-      "url": "https://github.com/advisories/GHSA-jg22-mg44-37j8",
-      "date": "2026-06-03T20:56:55.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
