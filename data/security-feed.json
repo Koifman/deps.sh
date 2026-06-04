@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-06-04T17:12:19.212Z",
+  "fetchedAt": "2026-06-04T18:58:31.425Z",
   "entries": [
+    {
+      "title": "[hono] Hono: app.mount() strips mount prefix using undecoded path, causing incorrect routing for percent-encoded paths",
+      "url": "https://github.com/advisories/GHSA-2gcr-mfcq-wcc3",
+      "date": "2026-06-04T18:01:03.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono: IP Restriction bypasses static deny rules for non-canonical IPv6",
+      "url": "https://github.com/advisories/GHSA-xrhx-7g5j-rcj5",
+      "date": "2026-06-04T18:00:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono: Cookie helper does not sanitize sameSite and priority, allowing Set-Cookie injection",
+      "url": "https://github.com/advisories/GHSA-3hrh-pfw6-9m5x",
+      "date": "2026-06-04T17:59:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono: JWT middleware accepts any Authorization scheme, not only Bearer",
+      "url": "https://github.com/advisories/GHSA-f577-qrjj-4474",
+      "date": "2026-06-04T17:52:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[kas] kas's late signature validation may allow unnoticed repository manipulations",
+      "url": "https://github.com/advisories/GHSA-4vqc-wpwg-vh7j",
+      "date": "2026-06-04T17:36:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[turbo-stream] React Router vulnerable to Denial of Service via reflected user input in single-fetch",
       "url": "https://github.com/advisories/GHSA-rxv8-25v2-qmq8",
@@ -105,36 +140,6 @@
       "date": "2026-06-04T13:15:22.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0160: pqcrypto-sphincsplus is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0160.html",
-      "date": "2026-06-04T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0161: pqcrypto-mlkem is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0161.html",
-      "date": "2026-06-04T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0162: pqcrypto-traits is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0162.html",
-      "date": "2026-06-04T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0163: pqcrypto-internals is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0163.html",
-      "date": "2026-06-04T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0158: Vulnerability in matrix-sdk-ui",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0158.html",
-      "date": "2026-06-04T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
