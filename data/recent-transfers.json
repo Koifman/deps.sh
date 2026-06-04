@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-06-03T23:41:31.166Z",
+  "scannedAt": "2026-06-04T01:26:39.129Z",
   "count": 101,
   "packages": [
     {
@@ -273,15 +273,6 @@
       "currentOwner": "typescript-bot"
     },
     {
-      "name": "embla-carousel",
-      "version": "8.6.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "davidcetinkaya",
-      "currentOwner": "davidjerleke"
-    },
-    {
       "name": "regexpu-core",
       "version": "6.4.0",
       "ecosystem": "npm",
@@ -289,6 +280,15 @@
       "level": "MODERATE",
       "previousOwner": "mathias",
       "currentOwner": "google-wombot"
+    },
+    {
+      "name": "embla-carousel",
+      "version": "8.6.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "davidcetinkaya",
+      "currentOwner": "davidjerleke"
     },
     {
       "name": "oxlint",
@@ -624,8 +624,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.2.0",
+      "name": "@appium/types",
+      "version": "1.5.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -633,8 +633,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/types",
-      "version": "1.5.0",
+      "name": "@appium/schema",
+      "version": "1.2.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -714,6 +714,15 @@
       "currentOwner": "sb-priyankap"
     },
     {
+      "name": "@lingui/message-utils",
+      "version": "6.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "andrii.bodnar",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@vimeo/player",
       "version": "2.30.4",
       "ecosystem": "npm",
@@ -729,15 +738,6 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "matteobruni",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@lingui/message-utils",
-      "version": "6.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -876,7 +876,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-gnu",
+      "name": "oxc-minify",
       "version": "0.134.0",
       "ecosystem": "npm",
       "score": 20,
@@ -885,7 +885,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.134.0",
       "ecosystem": "npm",
       "score": 20,
