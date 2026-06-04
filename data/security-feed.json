@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-04T18:58:31.425Z",
+  "fetchedAt": "2026-06-04T19:47:13.922Z",
   "entries": [
+    {
+      "title": "[@cap-js/openapi] Supply chain compromise via malicious @cap-js/openapi",
+      "url": "https://github.com/advisories/GHSA-jpvj-wpmj-h7rv",
+      "date": "2026-06-04T19:37:04.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[modelscope] ModelScope is vulnerable to arbitrary code injection via a crafted module",
+      "url": "https://github.com/advisories/GHSA-fhhq-h4hg-549x",
+      "date": "2026-06-04T18:52:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[hono] Hono: app.mount() strips mount prefix using undecoded path, causing incorrect routing for percent-encoded paths",
       "url": "https://github.com/advisories/GHSA-2gcr-mfcq-wcc3",
@@ -126,20 +140,6 @@
       "date": "2026-06-04T14:15:03.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Axios: Proxy-Authorization header leaks to redirect target when proxy is re-evaluated to direct connection",
-      "url": "https://github.com/advisories/GHSA-j5f8-grm9-p9fc",
-      "date": "2026-06-04T14:15:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[starlette] Starlette has missing Host header validation that poisons request.url.path, bypassing path-based security checks",
-      "url": "https://github.com/advisories/GHSA-86qp-5c8j-p5mr",
-      "date": "2026-06-04T13:15:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
