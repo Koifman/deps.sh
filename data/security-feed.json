@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-04T20:50:09.399Z",
+  "fetchedAt": "2026-06-04T21:38:08.461Z",
   "entries": [
+    {
+      "title": "[stata-mcp] MCP-for-Stata: Command injection via log_file_name parameter in Stata command wrapper",
+      "url": "https://github.com/advisories/GHSA-4p62-hqp5-g644",
+      "date": "2026-06-04T21:00:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[@cap-js/openapi] Supply chain compromise via malicious @cap-js/openapi",
       "url": "https://github.com/advisories/GHSA-jpvj-wpmj-h7rv",
@@ -131,13 +138,6 @@
       "title": "[axios] Axios: Proxy-Authorization Credential Leak to Origin Server Across HTTP-to-HTTPS Redirect in Axios Node.js HTTP Adapter",
       "url": "https://github.com/advisories/GHSA-p92q-9vqr-4j8v",
       "date": "2026-06-04T14:19:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Axios: Proxy-Authorization header leaks to redirect target when proxy is re-evaluated to direct connection",
-      "url": "https://github.com/advisories/GHSA-j5f8-grm9-p9fc",
-      "date": "2026-06-04T14:15:03.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
