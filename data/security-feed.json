@@ -1,6 +1,37 @@
 {
-  "fetchedAt": "2026-06-04T13:22:15.801Z",
+  "fetchedAt": "2026-06-04T15:10:53.820Z",
   "entries": [
+    {
+      "title": "[starlette] Starlette has missing Host header validation that poisons request.url.path, bypassing path-based security checks",
+      "url": "https://github.com/advisories/GHSA-86qp-5c8j-p5mr",
+      "date": "2026-06-04T13:15:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "RUSTSEC-2026-0160: pqcrypto-sphincsplus is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0160.html",
+      "date": "2026-06-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0161: pqcrypto-mlkem is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0161.html",
+      "date": "2026-06-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0162: pqcrypto-traits is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0162.html",
+      "date": "2026-06-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0163: pqcrypto-internals is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0163.html",
+      "date": "2026-06-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0158: Vulnerability in matrix-sdk-ui",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0158.html",
@@ -8,8 +39,38 @@
       "ecosystem": "cargo"
     },
     {
+      "title": "RUSTSEC-2026-0164: pqcrypto is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0164.html",
+      "date": "2026-06-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
       "title": "RUSTSEC-2026-0159: Vulnerability in matrix-sdk-crypto",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0159.html",
+      "date": "2026-06-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0165: pqcrypto-falcon is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0165.html",
+      "date": "2026-06-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0166: pqcrypto-mldsa is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0166.html",
+      "date": "2026-06-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0167: pqcrypto-classicmceliece is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0167.html",
+      "date": "2026-06-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0168: pqcrypto-hqc is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0168.html",
       "date": "2026-06-04T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -68,76 +129,6 @@
       "date": "2026-06-03T21:15:33.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[docling] Docling: Unsafe URI and Path Handling in HTML Backend",
-      "url": "https://github.com/advisories/GHSA-q29v-xc37-wh5m",
-      "date": "2026-06-03T21:15:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[docling] Docling: Potential Path Traversal via LaTeX \\includegraphics and \\input Commands",
-      "url": "https://github.com/advisories/GHSA-2j5p-7p5m-cvqr",
-      "date": "2026-06-03T21:14:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[docling] Docling: Unsafe XML Entity Expansion in USPTO Patent Backend",
-      "url": "https://github.com/advisories/GHSA-m88r-rg27-5xfg",
-      "date": "2026-06-03T21:14:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[docling] Docling: Unsafe Archive Extraction and XML Parsing in METS-GBS Backend",
-      "url": "https://github.com/advisories/GHSA-r3xg-rg9j-67fv",
-      "date": "2026-06-03T21:13:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[docling] Docling: Unsafe Playwright-based HTML Rendering",
-      "url": "https://github.com/advisories/GHSA-pj2v-ggqh-cmq2",
-      "date": "2026-06-03T21:09:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[malla] malla: Stored XSS via Meshtastic node names in multiple frontend pages",
-      "url": "https://github.com/advisories/GHSA-ch57-39q2-4crm",
-      "date": "2026-06-03T21:06:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@remix-run/server-runtime] React Router vulnerable to DoS via unbounded path expansion in __manifest endpoint",
-      "url": "https://github.com/advisories/GHSA-8x6r-g9mw-2r78",
-      "date": "2026-06-03T21:05:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-router] React Router vulnerable to DoS via unbounded path expansion in __manifest endpoint",
-      "url": "https://github.com/advisories/GHSA-8x6r-g9mw-2r78",
-      "date": "2026-06-03T21:05:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-router] React Router's vendored turbo-stream v2 allows arbitrary constructor invocation via TYPE_ERROR deserialization leading to Unauth RCE",
-      "url": "https://github.com/advisories/GHSA-49rj-9fvp-4h2h",
-      "date": "2026-06-03T21:03:33.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-router] React Router's same-origin redirect with path starting // causes open redirect via protocol-relative URL reinterpretation",
-      "url": "https://github.com/advisories/GHSA-2j2x-hqr9-3h42",
-      "date": "2026-06-03T20:58:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
