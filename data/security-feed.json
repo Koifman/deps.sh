@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-04T21:38:08.461Z",
+  "fetchedAt": "2026-06-04T22:37:26.656Z",
   "entries": [
+    {
+      "title": "[apscheduler] APScheduler's JSONSerializer and CBORSerializer are vulnerable to Remote Code Execution (RCE) via Insecure Deserialization",
+      "url": "https://github.com/advisories/GHSA-9cfw-f3f9-7mm7",
+      "date": "2026-06-04T21:36:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[stata-mcp] MCP-for-Stata: Command injection via log_file_name parameter in Stata command wrapper",
       "url": "https://github.com/advisories/GHSA-4p62-hqp5-g644",
@@ -124,13 +131,6 @@
       "title": "[axios] Allocation of Resources Without Limits or Throttling in Axios",
       "url": "https://github.com/advisories/GHSA-777c-7fjr-54vf",
       "date": "2026-06-04T14:21:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Axios: Proxy-Authorization Credential Leak to Origin Server Across HTTP-to-HTTPS Redirect in Axios Node.js HTTP Adapter",
-      "url": "https://github.com/advisories/GHSA-p92q-9vqr-4j8v",
-      "date": "2026-06-04T14:19:54.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
