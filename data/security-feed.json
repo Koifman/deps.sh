@@ -1,6 +1,104 @@
 {
-  "fetchedAt": "2026-06-04T15:10:53.820Z",
+  "fetchedAt": "2026-06-04T17:12:19.212Z",
   "entries": [
+    {
+      "title": "[turbo-stream] React Router vulnerable to Denial of Service via reflected user input in single-fetch",
+      "url": "https://github.com/advisories/GHSA-rxv8-25v2-qmq8",
+      "date": "2026-06-04T15:23:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-router] React Router vulnerable to Denial of Service via reflected user input in single-fetch",
+      "url": "https://github.com/advisories/GHSA-rxv8-25v2-qmq8",
+      "date": "2026-06-04T15:23:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mlflow] MLflow: Improper Origin Validation in MLflow Assistant /ajax-api Endpoints Enables Browser-Mediated Local Command Execution",
+      "url": "https://github.com/advisories/GHSA-67c5-x5mf-rppq",
+      "date": "2026-06-04T15:23:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[better-auth] Better Auth: Device authorization approve and deny accept any authenticated session while the user code is pending",
+      "url": "https://github.com/advisories/GHSA-cq3f-vc6p-68fh",
+      "date": "2026-06-04T14:55:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[strawberry-graphql] Strawberry GraphQL's Bypass of MaxAliasesLimiter via Fragment Spreads leading to GraphQL Alias Amplification",
+      "url": "https://github.com/advisories/GHSA-fr49-mhgj-crfc",
+      "date": "2026-06-04T14:39:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[strawberry-graphql] Strawberry GraphQL has a Circular Fragment Reference DOS",
+      "url": "https://github.com/advisories/GHSA-qfwv-87qj-98xq",
+      "date": "2026-06-04T14:38:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[webob] WebOb: Location header normalization during redirect leads to open redirect - again",
+      "url": "https://github.com/advisories/GHSA-fh3h-vg37-cc95",
+      "date": "2026-06-04T14:33:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: Regular Expression Denial of Service (ReDoS) via Cookie Name Injection",
+      "url": "https://github.com/advisories/GHSA-hfxv-24rg-xrqf",
+      "date": "2026-06-04T14:24:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Axios: Regular Expression Denial of Service (ReDoS) via Cookie Name Injection",
+      "url": "https://github.com/advisories/GHSA-hfxv-24rg-xrqf",
+      "date": "2026-06-04T14:24:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Allocation of Resources Without Limits or Throttling in Axios",
+      "url": "https://github.com/advisories/GHSA-777c-7fjr-54vf",
+      "date": "2026-06-04T14:21:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Axios: Proxy-Authorization Credential Leak to Origin Server Across HTTP-to-HTTPS Redirect in Axios Node.js HTTP Adapter",
+      "url": "https://github.com/advisories/GHSA-p92q-9vqr-4j8v",
+      "date": "2026-06-04T14:19:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Axios: Proxy-Authorization Credential Leak to Origin Server Across HTTP-to-HTTPS Redirect in Axios Node.js HTTP Adapter",
+      "url": "https://github.com/advisories/GHSA-p92q-9vqr-4j8v",
+      "date": "2026-06-04T14:19:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Axios: Proxy-Authorization header leaks to redirect target when proxy is re-evaluated to direct connection",
+      "url": "https://github.com/advisories/GHSA-j5f8-grm9-p9fc",
+      "date": "2026-06-04T14:15:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Axios: Proxy-Authorization header leaks to redirect target when proxy is re-evaluated to direct connection",
+      "url": "https://github.com/advisories/GHSA-j5f8-grm9-p9fc",
+      "date": "2026-06-04T14:15:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[starlette] Starlette has missing Host header validation that poisons request.url.path, bypassing path-based security checks",
       "url": "https://github.com/advisories/GHSA-86qp-5c8j-p5mr",
@@ -37,98 +135,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0158.html",
       "date": "2026-06-04T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0164: pqcrypto is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0164.html",
-      "date": "2026-06-04T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0159: Vulnerability in matrix-sdk-crypto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0159.html",
-      "date": "2026-06-04T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0165: pqcrypto-falcon is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0165.html",
-      "date": "2026-06-04T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0166: pqcrypto-mldsa is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0166.html",
-      "date": "2026-06-04T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0167: pqcrypto-classicmceliece is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0167.html",
-      "date": "2026-06-04T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0168: pqcrypto-hqc is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0168.html",
-      "date": "2026-06-04T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[browserstack-runner] browserstack-runner vulnerable to Remote Code Execution via vm sandbox escape in _log HTTP handler",
-      "url": "https://github.com/advisories/GHSA-6vr3-7wcx-v5g5",
-      "date": "2026-06-03T21:39:33.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[browserstack-runner] browserstack-runner has an unauthenticated arbitrary file read via path traversal in HTTP server",
-      "url": "https://github.com/advisories/GHSA-8rpw-6cqh-2v9h",
-      "date": "2026-06-03T21:38:43.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jupyter_enterprise_gateway] Jupyter Enterprise Gateway: Kubernetes Manifest Injection in Jinja2 Template Rendering",
-      "url": "https://github.com/advisories/GHSA-cfw7-6c5v-2wjq",
-      "date": "2026-06-03T21:37:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[jupyter_enterprise_gateway] Jupyter Enterprise Gateway: Jinja2 Template Server Side Template Injection resulting in Remote Code Execution",
-      "url": "https://github.com/advisories/GHSA-f49j-v924-fx9w",
-      "date": "2026-06-03T21:36:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP is vulnerable to cross-origin redirect with per-request cookies",
-      "url": "https://github.com/advisories/GHSA-hg6j-4rv6-33pg",
-      "date": "2026-06-03T21:34:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jupyter_enterprise_gateway] Jupyter Enterprise Gateway: ContainerProcessProxy._enforce_prohibited_ids Bypass",
-      "url": "https://github.com/advisories/GHSA-chq7-94j8-cj28",
-      "date": "2026-06-03T21:30:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[docling-core] Docling Core: Unsafe remote filename resolution",
-      "url": "https://github.com/advisories/GHSA-jmmv-h3mp-59v8",
-      "date": "2026-06-03T21:16:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[docling-core] Docling Core: Insufficient validation of image reference URIs",
-      "url": "https://github.com/advisories/GHSA-j5xp-7m2f-49jv",
-      "date": "2026-06-03T21:15:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
