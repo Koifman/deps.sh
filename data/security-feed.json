@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-06-05T13:16:09.782Z",
+  "fetchedAt": "2026-06-05T15:09:45.284Z",
   "entries": [
+    {
+      "title": "[apache-airflow] Apache Airflow Exposes Secrets in Variables Saved as JSON Dictionaries",
+      "url": "https://github.com/advisories/GHSA-w9r4-94fj-xp69",
+      "date": "2026-06-05T14:30:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow: Secrets from Airflow config file logged in plain text in DAG run logs UI",
+      "url": "https://github.com/advisories/GHSA-j86x-fwp2-qh7v",
+      "date": "2026-06-05T14:28:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow: Execution API HITL Endpoints Missing Per-Task Authorization",
+      "url": "https://github.com/advisories/GHSA-8x34-9q3v-h7g8",
+      "date": "2026-06-05T14:26:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-iotdb] Apache IoTDB: Deserialization of untrusted Data",
+      "url": "https://github.com/advisories/GHSA-776q-jw43-fhjx",
+      "date": "2026-06-05T14:16:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0172: Unsoundness in diesel",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0172.html",
@@ -111,34 +139,6 @@
       "date": "2026-06-04T14:38:53.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[webob] WebOb: Location header normalization during redirect leads to open redirect - again",
-      "url": "https://github.com/advisories/GHSA-fh3h-vg37-cc95",
-      "date": "2026-06-04T14:33:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios: Regular Expression Denial of Service (ReDoS) via Cookie Name Injection",
-      "url": "https://github.com/advisories/GHSA-hfxv-24rg-xrqf",
-      "date": "2026-06-04T14:24:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Axios: Regular Expression Denial of Service (ReDoS) via Cookie Name Injection",
-      "url": "https://github.com/advisories/GHSA-hfxv-24rg-xrqf",
-      "date": "2026-06-04T14:24:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Allocation of Resources Without Limits or Throttling in Axios",
-      "url": "https://github.com/advisories/GHSA-777c-7fjr-54vf",
-      "date": "2026-06-04T14:21:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
