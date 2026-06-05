@@ -1,144 +1,145 @@
 {
-  "fetchedAt": "2026-06-05T16:55:47.873Z",
+  "fetchedAt": "2026-06-05T17:41:40.146Z",
   "entries": [
     {
-      "title": "[nocodb] NocoDB: Plaintext Password Comparison in Shared Views",
-      "url": "https://github.com/advisories/GHSA-qhxg-623c-cfjm",
-      "date": "2026-06-05T16:03:35.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: Hidden Column Exposure in Public Shared View Endpoints",
-      "url": "https://github.com/advisories/GHSA-4w6r-5c2j-qf5f",
-      "date": "2026-06-05T16:03:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: Open Redirect via Hash Fragment in hashRedirect Plugin",
-      "url": "https://github.com/advisories/GHSA-rvp5-9p55-f5rp",
-      "date": "2026-06-05T16:00:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: Reflected Cross-Site Scripting via Password Reset Token",
-      "url": "https://github.com/advisories/GHSA-6xcx-7qmg-vjfq",
-      "date": "2026-06-05T15:59:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: Postgres SQL Injection in Formula `ARRAYSORT`",
-      "url": "https://github.com/advisories/GHSA-cxv7-gmmp-228p",
-      "date": "2026-06-05T15:59:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: Hidden LTAR Column Exposure in Public Shared-View Relation Endpoints",
-      "url": "https://github.com/advisories/GHSA-9wgh-m22w-9xj8",
-      "date": "2026-06-05T15:52:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp-server-kubernetes] MCP Server Kubernetes: kubectl-generic flag injection enables Kubernetes bearer token exfiltration",
-      "url": "https://github.com/advisories/GHSA-6mx4-4h42-r8vh",
-      "date": "2026-06-05T15:40:03.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vantage6] Vantage6: No limit on emails sent for password/MFA reset",
-      "url": "https://github.com/advisories/GHSA-5549-c5q7-fj65",
-      "date": "2026-06-05T15:24:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[vantage6] Vantage6: 2FA can be circumvented with hacked email access",
-      "url": "https://github.com/advisories/GHSA-4c5c-2vc3-x5w2",
-      "date": "2026-06-05T15:24:36.000Z",
+      "title": "[vantage6] Improper Access Control in vantage6 node",
+      "url": "https://github.com/advisories/GHSA-x9f6-9rvm-mmrg",
+      "date": "2026-06-05T16:45:45.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[apache-airflow] Apache Airflow Exposes Secrets in Variables Saved as JSON Dictionaries",
-      "url": "https://github.com/advisories/GHSA-w9r4-94fj-xp69",
-      "date": "2026-06-05T14:30:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow: Secrets from Airflow config file logged in plain text in DAG run logs UI",
-      "url": "https://github.com/advisories/GHSA-j86x-fwp2-qh7v",
-      "date": "2026-06-05T14:28:33.000Z",
+      "title": "[vantage6] Vantage6: Set admin user and password from environment or configuration",
+      "url": "https://github.com/advisories/GHSA-fgmc-2hqj-86v4",
+      "date": "2026-06-05T16:45:25.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[apache-airflow] Apache Airflow: Execution API HITL Endpoints Missing Per-Task Authorization",
-      "url": "https://github.com/advisories/GHSA-8x34-9q3v-h7g8",
-      "date": "2026-06-05T14:26:43.000Z",
+      "title": "[nocodb] NocoDB: OAuth Tokens Persist Through Security Events",
+      "url": "https://github.com/advisories/GHSA-g72g-r7m4-9x4g",
+      "date": "2026-06-05T16:43:10.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dbgate-api] DbGate: Remote Code Execution via functionName injection in loadReader endpoint",
+      "url": "https://github.com/advisories/GHSA-hv83-ggc4-v385",
+      "date": "2026-06-05T16:39:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow-providers-amazon] Apache Airflow Amazon provider: Prevent unauthorized access to team-scoped secrets in AWS Secrets Manager and SSM Parameter Store backends",
+      "url": "https://github.com/advisories/GHSA-g9qc-qf28-hhqx",
+      "date": "2026-06-05T16:37:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow-providers-cncf-kubernetes] Apache Airflow CNCF Kubernetes provider: JWT Token Exposure in KubernetesExecutor Command-Line Arguments",
+      "url": "https://github.com/advisories/GHSA-524w-vq63-2xhf",
+      "date": "2026-06-05T16:37:14.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[apache-iotdb] Apache IoTDB: Deserialization of untrusted Data",
-      "url": "https://github.com/advisories/GHSA-776q-jw43-fhjx",
-      "date": "2026-06-05T14:16:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
+      "title": "[@sync-in/server] Sync-in Server: SSRF protection bypass via IPv4-mapped IPv6 addresses in regExpPrivateIP",
+      "url": "https://github.com/advisories/GHSA-q4x5-8cj6-52wg",
+      "date": "2026-06-05T16:35:00.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0172: Unsoundness in diesel",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0172.html",
-      "date": "2026-06-05T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[apscheduler] APScheduler's JSONSerializer and CBORSerializer are vulnerable to Remote Code Execution (RCE) via Insecure Deserialization",
-      "url": "https://github.com/advisories/GHSA-9cfw-f3f9-7mm7",
-      "date": "2026-06-04T21:36:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[stata-mcp] MCP-for-Stata: Command injection via log_file_name parameter in Stata command wrapper",
-      "url": "https://github.com/advisories/GHSA-4p62-hqp5-g644",
-      "date": "2026-06-04T21:00:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@cap-js/openapi] Supply chain compromise via malicious @cap-js/openapi",
-      "url": "https://github.com/advisories/GHSA-jpvj-wpmj-h7rv",
-      "date": "2026-06-04T19:37:04.000Z",
+      "title": "[dbgate-api] Authenticated Remote Code Execution via loadReader functionName code injection in DbGate",
+      "url": "https://github.com/advisories/GHSA-wm5r-5qp3-5vxf",
+      "date": "2026-06-05T16:31:03.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[modelscope] ModelScope is vulnerable to arbitrary code injection via a crafted module",
-      "url": "https://github.com/advisories/GHSA-fhhq-h4hg-549x",
-      "date": "2026-06-04T18:52:31.000Z",
+      "title": "[praisonai-platform] praisonai-platform: Agent endpoints accept any agent_id without workspace ownership check, cross-workspace read/update/delete IDOR",
+      "url": "https://github.com/advisories/GHSA-7p8g-6c6g-h9w7",
+      "date": "2026-06-05T16:28:33.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[hono] Hono: app.mount() strips mount prefix using undecoded path, causing incorrect routing for percent-encoded paths",
-      "url": "https://github.com/advisories/GHSA-2gcr-mfcq-wcc3",
-      "date": "2026-06-04T18:01:03.000Z",
+      "title": "[dbgate] DbGate: Zip Slip in archive/unzip allows arbitrary file write leading to RCE",
+      "url": "https://github.com/advisories/GHSA-h535-j5hr-mv56",
+      "date": "2026-06-05T16:26:03.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[dbgate-serve] DbGate: Unauthenticated Remote Code Execution via JSON Script Runner",
+      "url": "https://github.com/advisories/GHSA-8v3q-9vmx-36vc",
+      "date": "2026-06-05T16:25:28.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[nocodb] NocoDB: Missing Ownership Check in MCP Attachment Read",
+      "url": "https://github.com/advisories/GHSA-xxpj-q764-9r6q",
+      "date": "2026-06-05T16:22:33.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[nocodb] NocoDB: Stored Cross-Site Scripting via Form View Redirect URL",
+      "url": "https://github.com/advisories/GHSA-hj85-ph9q-78jg",
+      "date": "2026-06-05T16:20:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nocodb] NocoDB: OAuth Authorization Code Race Condition",
+      "url": "https://github.com/advisories/GHSA-8m7c-hf24-5g47",
+      "date": "2026-06-05T16:20:32.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[hono] Hono: IP Restriction bypasses static deny rules for non-canonical IPv6",
-      "url": "https://github.com/advisories/GHSA-xrhx-7g5j-rcj5",
-      "date": "2026-06-04T18:00:23.000Z",
+      "title": "[nocodb] NocoDB: Path Traversal via SQLite Source Filename",
+      "url": "https://github.com/advisories/GHSA-wvqj-9wv4-7ff5",
+      "date": "2026-06-05T16:20:22.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: SQL Injection via Column Title in Bulk GroupBy",
+      "url": "https://github.com/advisories/GHSA-p8wx-5f39-w3x4",
+      "date": "2026-06-05T16:20:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Stored Cross-Site Scripting via Row Comments",
+      "url": "https://github.com/advisories/GHSA-jf3g-4gwg-4h66",
+      "date": "2026-06-05T16:19:23.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nocodb] NocoDB: Server-Side Request Forgery via Database Connection Host",
+      "url": "https://github.com/advisories/GHSA-w43h-r5m5-p832",
+      "date": "2026-06-05T16:19:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Cross-Workspace Integration Use in Connection Test",
+      "url": "https://github.com/advisories/GHSA-96fh-m4r8-6v9v",
+      "date": "2026-06-05T16:04:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: User Enumeration via Sign-In Timing",
+      "url": "https://github.com/advisories/GHSA-jr54-jwhj-55gp",
+      "date": "2026-06-05T16:03:56.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
     }
   ]
 }
