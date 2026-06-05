@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-06-05T19:39:26.997Z",
+  "fetchedAt": "2026-06-05T20:42:31.549Z",
   "entries": [
+    {
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` injection",
+      "url": "https://github.com/advisories/GHSA-vg35-5wq7-3x7w",
+      "date": "2026-06-05T20:29:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` injection",
+      "url": "https://github.com/advisories/GHSA-vg35-5wq7-3x7w",
+      "date": "2026-06-05T20:29:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` injection",
+      "url": "https://github.com/advisories/GHSA-vg35-5wq7-3x7w",
+      "date": "2026-06-05T20:29:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability through `mce:protected` comments",
+      "url": "https://github.com/advisories/GHSA-v98h-vmpc-fpqv",
+      "date": "2026-06-05T20:29:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability through `mce:protected` comments",
+      "url": "https://github.com/advisories/GHSA-v98h-vmpc-fpqv",
+      "date": "2026-06-05T20:29:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability through `mce:protected` comments",
+      "url": "https://github.com/advisories/GHSA-v98h-vmpc-fpqv",
+      "date": "2026-06-05T20:29:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using through data-mce- prefixed src, href, style attributes",
+      "url": "https://github.com/advisories/GHSA-q742-qvgc-gc2f",
+      "date": "2026-06-05T20:27:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using through data-mce- prefixed src, href, style attributes",
+      "url": "https://github.com/advisories/GHSA-q742-qvgc-gc2f",
+      "date": "2026-06-05T20:27:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using through data-mce- prefixed src, href, style attributes",
+      "url": "https://github.com/advisories/GHSA-q742-qvgc-gc2f",
+      "date": "2026-06-05T20:27:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using sanitization bypass through nested SVGs",
+      "url": "https://github.com/advisories/GHSA-mh5m-5hw4-5c69",
+      "date": "2026-06-05T20:09:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[ait-core] NASA AMMOS Instrument Toolkit: Path traversal resulting in arbitrary file append (can be triggered over the network by unauthenticated attacker)",
       "url": "https://github.com/advisories/GHSA-p462-prxw-mjx4",
@@ -70,76 +140,6 @@
       "date": "2026-06-05T16:31:03.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: Agent endpoints accept any agent_id without workspace ownership check, cross-workspace read/update/delete IDOR",
-      "url": "https://github.com/advisories/GHSA-7p8g-6c6g-h9w7",
-      "date": "2026-06-05T16:28:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dbgate] DbGate: Zip Slip in archive/unzip allows arbitrary file write leading to RCE",
-      "url": "https://github.com/advisories/GHSA-h535-j5hr-mv56",
-      "date": "2026-06-05T16:26:03.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[dbgate-serve] DbGate: Unauthenticated Remote Code Execution via JSON Script Runner",
-      "url": "https://github.com/advisories/GHSA-8v3q-9vmx-36vc",
-      "date": "2026-06-05T16:25:28.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[nocodb] NocoDB: Missing Ownership Check in MCP Attachment Read",
-      "url": "https://github.com/advisories/GHSA-xxpj-q764-9r6q",
-      "date": "2026-06-05T16:22:33.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[nocodb] NocoDB: Stored Cross-Site Scripting via Form View Redirect URL",
-      "url": "https://github.com/advisories/GHSA-hj85-ph9q-78jg",
-      "date": "2026-06-05T16:20:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nocodb] NocoDB: OAuth Authorization Code Race Condition",
-      "url": "https://github.com/advisories/GHSA-8m7c-hf24-5g47",
-      "date": "2026-06-05T16:20:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: Path Traversal via SQLite Source Filename",
-      "url": "https://github.com/advisories/GHSA-wvqj-9wv4-7ff5",
-      "date": "2026-06-05T16:20:22.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: SQL Injection via Column Title in Bulk GroupBy",
-      "url": "https://github.com/advisories/GHSA-p8wx-5f39-w3x4",
-      "date": "2026-06-05T16:20:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: Stored Cross-Site Scripting via Row Comments",
-      "url": "https://github.com/advisories/GHSA-jf3g-4gwg-4h66",
-      "date": "2026-06-05T16:19:23.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nocodb] NocoDB: Server-Side Request Forgery via Database Connection Host",
-      "url": "https://github.com/advisories/GHSA-w43h-r5m5-p832",
-      "date": "2026-06-05T16:19:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
