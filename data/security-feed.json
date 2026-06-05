@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-06-05T15:09:45.284Z",
+  "fetchedAt": "2026-06-05T16:55:47.873Z",
   "entries": [
+    {
+      "title": "[nocodb] NocoDB: Plaintext Password Comparison in Shared Views",
+      "url": "https://github.com/advisories/GHSA-qhxg-623c-cfjm",
+      "date": "2026-06-05T16:03:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Hidden Column Exposure in Public Shared View Endpoints",
+      "url": "https://github.com/advisories/GHSA-4w6r-5c2j-qf5f",
+      "date": "2026-06-05T16:03:14.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Open Redirect via Hash Fragment in hashRedirect Plugin",
+      "url": "https://github.com/advisories/GHSA-rvp5-9p55-f5rp",
+      "date": "2026-06-05T16:00:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Reflected Cross-Site Scripting via Password Reset Token",
+      "url": "https://github.com/advisories/GHSA-6xcx-7qmg-vjfq",
+      "date": "2026-06-05T15:59:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Postgres SQL Injection in Formula `ARRAYSORT`",
+      "url": "https://github.com/advisories/GHSA-cxv7-gmmp-228p",
+      "date": "2026-06-05T15:59:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Hidden LTAR Column Exposure in Public Shared-View Relation Endpoints",
+      "url": "https://github.com/advisories/GHSA-9wgh-m22w-9xj8",
+      "date": "2026-06-05T15:52:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp-server-kubernetes] MCP Server Kubernetes: kubectl-generic flag injection enables Kubernetes bearer token exfiltration",
+      "url": "https://github.com/advisories/GHSA-6mx4-4h42-r8vh",
+      "date": "2026-06-05T15:40:03.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vantage6] Vantage6: No limit on emails sent for password/MFA reset",
+      "url": "https://github.com/advisories/GHSA-5549-c5q7-fj65",
+      "date": "2026-06-05T15:24:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[vantage6] Vantage6: 2FA can be circumvented with hacked email access",
+      "url": "https://github.com/advisories/GHSA-4c5c-2vc3-x5w2",
+      "date": "2026-06-05T15:24:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[apache-airflow] Apache Airflow Exposes Secrets in Variables Saved as JSON Dictionaries",
       "url": "https://github.com/advisories/GHSA-w9r4-94fj-xp69",
@@ -75,69 +138,6 @@
       "url": "https://github.com/advisories/GHSA-xrhx-7g5j-rcj5",
       "date": "2026-06-04T18:00:23.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono: Cookie helper does not sanitize sameSite and priority, allowing Set-Cookie injection",
-      "url": "https://github.com/advisories/GHSA-3hrh-pfw6-9m5x",
-      "date": "2026-06-04T17:59:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono: JWT middleware accepts any Authorization scheme, not only Bearer",
-      "url": "https://github.com/advisories/GHSA-f577-qrjj-4474",
-      "date": "2026-06-04T17:52:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[kas] kas's late signature validation may allow unnoticed repository manipulations",
-      "url": "https://github.com/advisories/GHSA-4vqc-wpwg-vh7j",
-      "date": "2026-06-04T17:36:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[turbo-stream] React Router vulnerable to Denial of Service via reflected user input in single-fetch",
-      "url": "https://github.com/advisories/GHSA-rxv8-25v2-qmq8",
-      "date": "2026-06-04T15:23:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-router] React Router vulnerable to Denial of Service via reflected user input in single-fetch",
-      "url": "https://github.com/advisories/GHSA-rxv8-25v2-qmq8",
-      "date": "2026-06-04T15:23:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mlflow] MLflow: Improper Origin Validation in MLflow Assistant /ajax-api Endpoints Enables Browser-Mediated Local Command Execution",
-      "url": "https://github.com/advisories/GHSA-67c5-x5mf-rppq",
-      "date": "2026-06-04T15:23:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[better-auth] Better Auth: Device authorization approve and deny accept any authenticated session while the user code is pending",
-      "url": "https://github.com/advisories/GHSA-cq3f-vc6p-68fh",
-      "date": "2026-06-04T14:55:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[strawberry-graphql] Strawberry GraphQL's Bypass of MaxAliasesLimiter via Fragment Spreads leading to GraphQL Alias Amplification",
-      "url": "https://github.com/advisories/GHSA-fr49-mhgj-crfc",
-      "date": "2026-06-04T14:39:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[strawberry-graphql] Strawberry GraphQL has a Circular Fragment Reference DOS",
-      "url": "https://github.com/advisories/GHSA-qfwv-87qj-98xq",
-      "date": "2026-06-04T14:38:53.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
