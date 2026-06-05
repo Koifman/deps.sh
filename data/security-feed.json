@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-06-05T21:36:24.369Z",
+  "fetchedAt": "2026-06-05T22:32:44.056Z",
   "entries": [
+    {
+      "title": "[bugsink] Bugsink: DOS using large numbers of event tags",
+      "url": "https://github.com/advisories/GHSA-5x67-j5xg-c5gj",
+      "date": "2026-06-05T21:45:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[bugsink] Bugsink: Project scoping missing in sourcemap and debug-file lookup",
+      "url": "https://github.com/advisories/GHSA-5389-f7vh-wxj8",
+      "date": "2026-06-05T21:44:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[bugsink] Bugsink: Issue bulk actions can affect another project’s issue if its UUID is known",
+      "url": "https://github.com/advisories/GHSA-g5vc-q7qc-v939",
+      "date": "2026-06-05T21:43:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[bugsink] Bugsink: Issue event views can show an event from another project if its UUID is known",
+      "url": "https://github.com/advisories/GHSA-vx2f-6m6h-9frf",
+      "date": "2026-06-05T21:43:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[pyarrow] Apache Arrow: Potential use-after-free when reading IPC file with pre-buffering",
+      "url": "https://github.com/advisories/GHSA-rgxp-2hwp-jwgg",
+      "date": "2026-06-05T21:39:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` injection",
       "url": "https://github.com/advisories/GHSA-vg35-5wq7-3x7w",
@@ -105,41 +140,6 @@
       "date": "2026-06-05T16:43:10.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[dbgate-api] DbGate: Remote Code Execution via functionName injection in loadReader endpoint",
-      "url": "https://github.com/advisories/GHSA-hv83-ggc4-v385",
-      "date": "2026-06-05T16:39:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow-providers-amazon] Apache Airflow Amazon provider: Prevent unauthorized access to team-scoped secrets in AWS Secrets Manager and SSM Parameter Store backends",
-      "url": "https://github.com/advisories/GHSA-g9qc-qf28-hhqx",
-      "date": "2026-06-05T16:37:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow-providers-cncf-kubernetes] Apache Airflow CNCF Kubernetes provider: JWT Token Exposure in KubernetesExecutor Command-Line Arguments",
-      "url": "https://github.com/advisories/GHSA-524w-vq63-2xhf",
-      "date": "2026-06-05T16:37:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@sync-in/server] Sync-in Server: SSRF protection bypass via IPv4-mapped IPv6 addresses in regExpPrivateIP",
-      "url": "https://github.com/advisories/GHSA-q4x5-8cj6-52wg",
-      "date": "2026-06-05T16:35:00.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dbgate-api] Authenticated Remote Code Execution via loadReader functionName code injection in DbGate",
-      "url": "https://github.com/advisories/GHSA-wm5r-5qp3-5vxf",
-      "date": "2026-06-05T16:31:03.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
