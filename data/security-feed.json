@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-05T17:41:40.146Z",
+  "fetchedAt": "2026-06-05T18:49:00.409Z",
   "entries": [
+    {
+      "title": "[ait-core] NASA AMMOS Instrument Toolkit: Path traversal resulting in arbitrary file append (can be triggered over the network by unauthenticated attacker)",
+      "url": "https://github.com/advisories/GHSA-p462-prxw-mjx4",
+      "date": "2026-06-05T18:11:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[ait-core] NASA AMMOS Instrument Toolkit: Path traversal resulting in arbitrary file append (can be triggered over the network by unauthenticated attacker)",
+      "url": "https://github.com/advisories/GHSA-p462-prxw-mjx4",
+      "date": "2026-06-05T18:11:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[vantage6] Improper Access Control in vantage6 node",
       "url": "https://github.com/advisories/GHSA-x9f6-9rvm-mmrg",
@@ -126,20 +140,6 @@
       "date": "2026-06-05T16:19:02.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: Cross-Workspace Integration Use in Connection Test",
-      "url": "https://github.com/advisories/GHSA-96fh-m4r8-6v9v",
-      "date": "2026-06-05T16:04:35.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: User Enumeration via Sign-In Timing",
-      "url": "https://github.com/advisories/GHSA-jr54-jwhj-55gp",
-      "date": "2026-06-05T16:03:56.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
