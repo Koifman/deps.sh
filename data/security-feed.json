@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-05T23:33:26.367Z",
+  "fetchedAt": "2026-06-06T01:09:56.851Z",
   "entries": [
+    {
+      "title": "[jwcrypto] JWCrypto: JWE ZIP decompression bomb",
+      "url": "https://github.com/advisories/GHSA-fjrm-76x2-c4q4",
+      "date": "2026-06-06T00:25:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[bugsink] Bugsink: DOS using large numbers of event tags",
       "url": "https://github.com/advisories/GHSA-5x67-j5xg-c5gj",
@@ -132,13 +139,6 @@
       "url": "https://github.com/advisories/GHSA-fgmc-2hqj-86v4",
       "date": "2026-06-05T16:45:25.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nocodb] NocoDB: OAuth Tokens Persist Through Security Events",
-      "url": "https://github.com/advisories/GHSA-g72g-r7m4-9x4g",
-      "date": "2026-06-05T16:43:10.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
