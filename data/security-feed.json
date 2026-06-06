@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-06-06T14:38:43.927Z",
+  "fetchedAt": "2026-06-06T15:34:01.032Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2025-0163: Vulnerability in trailer",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0163.html",
+      "date": "2026-06-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[mlflow] MLflow is vulnerable to an authorization bypass affecting the AJAX endpoint",
       "url": "https://github.com/advisories/GHSA-46r5-x6jq-v8g6",
@@ -131,13 +137,6 @@
       "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using through data-mce- prefixed src, href, style attributes",
       "url": "https://github.com/advisories/GHSA-q742-qvgc-gc2f",
       "date": "2026-06-05T20:27:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using sanitization bypass through nested SVGs",
-      "url": "https://github.com/advisories/GHSA-mh5m-5hw4-5c69",
-      "date": "2026-06-05T20:09:39.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
