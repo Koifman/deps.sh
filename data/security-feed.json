@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-06-07T20:33:57.023Z",
+  "fetchedAt": "2026-06-07T21:32:45.125Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0173: proc-macro-error2 is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0173.html",
+      "date": "2026-06-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2025-0163: Vulnerability in trailer",
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0163.html",
@@ -116,13 +122,6 @@
       "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability through `mce:protected` comments",
       "url": "https://github.com/advisories/GHSA-v98h-vmpc-fpqv",
       "date": "2026-06-05T20:29:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using through data-mce- prefixed src, href, style attributes",
-      "url": "https://github.com/advisories/GHSA-q742-qvgc-gc2f",
-      "date": "2026-06-05T20:27:52.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
