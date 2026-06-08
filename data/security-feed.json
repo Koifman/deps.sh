@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-06-08T18:03:48.038Z",
+  "fetchedAt": "2026-06-08T19:47:20.252Z",
   "entries": [
+    {
+      "title": "[pyload-ng] pyLoad has an Arbitrary File Write via Path Traversal in edit_package()",
+      "url": "https://github.com/advisories/GHSA-6px9-j4qr-xfjw",
+      "date": "2026-06-08T19:07:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pretix] pretix: API leaks check-in data between events of the same organizer",
+      "url": "https://github.com/advisories/GHSA-wr8q-c73g-m7gp",
+      "date": "2026-06-08T19:03:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openhands-ai] OpenHands is Vulnerable to Command Injection through its Git Diff Handler",
+      "url": "https://github.com/advisories/GHSA-7h8w-hj9j-8rjw",
+      "date": "2026-06-08T18:59:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[onnx] ONNX Untrusted Model Repository Warnings Suppressed by silent=True in onnx.hub.load() — Silent Supply-Chain Attack",
+      "url": "https://github.com/advisories/GHSA-hqmj-h5c6-369m",
+      "date": "2026-06-08T18:35:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[products-isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
+      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
+      "date": "2026-06-08T18:34:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[products-isurlinportal] Products.isurlinportal has possible open redirect when using more than 2 forward slashes",
+      "url": "https://github.com/advisories/GHSA-43gx-6gv6-3jcp",
+      "date": "2026-06-08T18:34:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[actual] actual Allows Electron to Run As Node",
+      "url": "https://github.com/advisories/GHSA-7rvm-xjpp-63r9",
+      "date": "2026-06-08T18:21:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dash-uploader] dash-uploader has a directory traversal vulnerability",
+      "url": "https://github.com/advisories/GHSA-3rf6-x59v-5jfv",
+      "date": "2026-06-08T17:52:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[authlib] Authlib OAuth 2.0 has Open Redirect in Authorization API that allows attacker-controlled redirect_uri through unsupported response_type",
+      "url": "https://github.com/advisories/GHSA-w8p2-r796-3vmq",
+      "date": "2026-06-08T17:52:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[authlib] Authlib OAuth 2.0 has Open Redirect in Authorization API that allows attacker-controlled redirect_uri through unsupported response_type",
+      "url": "https://github.com/advisories/GHSA-w8p2-r796-3vmq",
+      "date": "2026-06-08T17:52:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[vitest] When Vitest UI server is listening, arbitrary file can be read and executed",
       "url": "https://github.com/advisories/GHSA-5xrq-8626-4rwp",
@@ -69,74 +139,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0174.html",
       "date": "2026-06-08T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0173: proc-macro-error2 is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0173.html",
-      "date": "2026-06-07T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2025-0163: Vulnerability in trailer",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0163.html",
-      "date": "2026-06-06T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[mlflow] MLflow is vulnerable to an authorization bypass affecting the AJAX endpoint",
-      "url": "https://github.com/advisories/GHSA-46r5-x6jq-v8g6",
-      "date": "2026-06-06T00:57:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langflow] langflow has Unauthenticated IDOR on Image Downloads",
-      "url": "https://github.com/advisories/GHSA-7grx-3xcx-2xv5",
-      "date": "2026-06-06T00:56:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langflow] Langflow has an Arbitrary File Write (RCE) via v2 API",
-      "url": "https://github.com/advisories/GHSA-g2j9-7rj2-gm6c",
-      "date": "2026-06-06T00:55:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[langflow] Langflow is Missing Ownership Verification in API Key Deletion (IDOR)",
-      "url": "https://github.com/advisories/GHSA-rf6x-r45m-xv3w",
-      "date": "2026-06-06T00:55:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jwcrypto] JWCrypto: JWE ZIP decompression bomb",
-      "url": "https://github.com/advisories/GHSA-fjrm-76x2-c4q4",
-      "date": "2026-06-06T00:25:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[bugsink] Bugsink: DOS using large numbers of event tags",
-      "url": "https://github.com/advisories/GHSA-5x67-j5xg-c5gj",
-      "date": "2026-06-05T21:45:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[bugsink] Bugsink: Project scoping missing in sourcemap and debug-file lookup",
-      "url": "https://github.com/advisories/GHSA-5389-f7vh-wxj8",
-      "date": "2026-06-05T21:44:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[bugsink] Bugsink: Issue bulk actions can affect another project’s issue if its UUID is known",
-      "url": "https://github.com/advisories/GHSA-g5vc-q7qc-v939",
-      "date": "2026-06-05T21:43:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }

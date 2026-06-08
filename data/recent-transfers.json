@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-06-08T18:06:58.133Z",
-  "count": 100,
+  "scannedAt": "2026-06-08T19:50:09.114Z",
+  "count": 99,
   "packages": [
     {
       "name": "xmldom",
@@ -64,15 +64,6 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
-    },
-    {
-      "name": "appium",
-      "version": "3.5.0",
-      "ecosystem": "npm",
-      "score": 43,
-      "level": "MODERATE",
-      "previousOwner": "admc",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -435,15 +426,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@tsparticles/fireworks",
-      "version": "4.1.3",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "matteobruni",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@tsparticles/confetti",
       "version": "4.1.3",
       "ecosystem": "npm",
@@ -480,21 +462,21 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "@typescript-eslint/parser",
-      "version": "8.61.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jameshenry",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "espree",
       "version": "11.2.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "nzakas",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "version": "8.61.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jameshenry",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -525,7 +507,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/storage-js",
+      "name": "@supabase/realtime-js",
       "version": "2.108.0",
       "ecosystem": "npm",
       "score": 22,
@@ -534,7 +516,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/realtime-js",
+      "name": "@supabase/storage-js",
       "version": "2.108.0",
       "ecosystem": "npm",
       "score": 22,
@@ -900,6 +882,15 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@tsparticles/vue3",
+      "version": "4.1.3",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matteobruni",
       "currentOwner": "GitHub Actions"
     }
   ]
