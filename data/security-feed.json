@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-06-08T16:27:37.493Z",
+  "fetchedAt": "2026-06-08T18:03:48.038Z",
   "entries": [
+    {
+      "title": "[vitest] When Vitest UI server is listening, arbitrary file can be read and executed",
+      "url": "https://github.com/advisories/GHSA-5xrq-8626-4rwp",
+      "date": "2026-06-08T16:11:59.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vitest] When Vitest UI server is listening, arbitrary file can be read and executed",
+      "url": "https://github.com/advisories/GHSA-5xrq-8626-4rwp",
+      "date": "2026-06-08T16:11:59.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[cryptiles] Insufficient Entropy in cryptiles",
+      "url": "https://github.com/advisories/GHSA-rq8g-5pc5-wrhr",
+      "date": "2026-06-08T15:52:37.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[cryptiles] Insufficient Entropy in cryptiles",
+      "url": "https://github.com/advisories/GHSA-rq8g-5pc5-wrhr",
+      "date": "2026-06-08T15:52:37.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vm2] VM2 Has a WASM Sandbox Escape",
+      "url": "https://github.com/advisories/GHSA-ffh4-j6h5-pg66",
+      "date": "2026-06-08T15:38:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[geonode] GeoNode contains a server-side request forgery vulnerability in the service registration endpoint",
       "url": "https://github.com/advisories/GHSA-hw9r-6m78-w6h3",
@@ -102,41 +137,6 @@
       "date": "2026-06-05T21:43:57.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[bugsink] Bugsink: Issue event views can show an event from another project if its UUID is known",
-      "url": "https://github.com/advisories/GHSA-vx2f-6m6h-9frf",
-      "date": "2026-06-05T21:43:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[pyarrow] Apache Arrow: Potential use-after-free when reading IPC file with pre-buffering",
-      "url": "https://github.com/advisories/GHSA-rgxp-2hwp-jwgg",
-      "date": "2026-06-05T21:39:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` injection",
-      "url": "https://github.com/advisories/GHSA-vg35-5wq7-3x7w",
-      "date": "2026-06-05T20:29:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` injection",
-      "url": "https://github.com/advisories/GHSA-vg35-5wq7-3x7w",
-      "date": "2026-06-05T20:29:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` injection",
-      "url": "https://github.com/advisories/GHSA-vg35-5wq7-3x7w",
-      "date": "2026-06-05T20:29:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
