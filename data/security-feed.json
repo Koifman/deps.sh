@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-08T14:29:43.472Z",
+  "fetchedAt": "2026-06-08T16:27:37.493Z",
   "entries": [
     {
       "title": "[geonode] GeoNode contains a server-side request forgery vulnerability in the service registration endpoint",
@@ -28,6 +28,12 @@
       "date": "2026-06-08T12:50:44.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
+    },
+    {
+      "title": "RUSTSEC-2026-0174: Security notice about http-types",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0174.html",
+      "date": "2026-06-08T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
       "title": "RUSTSEC-2026-0173: proc-macro-error2 is unmaintained",
@@ -129,13 +135,6 @@
       "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` injection",
       "url": "https://github.com/advisories/GHSA-vg35-5wq7-3x7w",
       "date": "2026-06-05T20:29:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability through `mce:protected` comments",
-      "url": "https://github.com/advisories/GHSA-v98h-vmpc-fpqv",
-      "date": "2026-06-05T20:29:08.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
