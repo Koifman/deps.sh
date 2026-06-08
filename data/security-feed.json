@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-06-08T22:38:07.164Z",
+  "fetchedAt": "2026-06-08T23:32:43.892Z",
   "entries": [
+    {
+      "title": "[awslabs-aws-api-mcp-server] AWS API MCP File Access Restriction Bypass",
+      "url": "https://github.com/advisories/GHSA-2cpp-j2fc-qhp7",
+      "date": "2026-06-08T23:15:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langflow] Unauthenticated Remote Code Execution in Langflow via Public Flow Build Endpoint",
+      "url": "https://github.com/advisories/GHSA-vwmf-pq79-vjvx",
+      "date": "2026-06-08T23:11:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[fuxa-server] FUXA's scheduler API missing admin check enables operator-to-admin escalation via scheduled device actions",
+      "url": "https://github.com/advisories/GHSA-8ghr-w65f-j3qr",
+      "date": "2026-06-08T23:07:03.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fuxa-server] FUXA has SQL Injection in its TDengine DAQ connector via backslash bypass of escapeTdString",
+      "url": "https://github.com/advisories/GHSA-h9fj-c2qr-76g2",
+      "date": "2026-06-08T23:06:45.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fuxa-server] FUXA: Unauthenticated SSRF via Socket.IO DEVICE_WEBAPI_REQUEST and DEVICE_PROPERTY with response reading",
+      "url": "https://github.com/advisories/GHSA-w86f-rf9w-h3x6",
+      "date": "2026-06-08T23:06:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dulwich] Dulwich doesn't sanitize commit subjects in `porcelain.format_patch`",
+      "url": "https://github.com/advisories/GHSA-555p-6grf-mh7f",
+      "date": "2026-06-08T23:04:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[pyspark] Apache Spark has Inadequate Encryption Strength",
       "url": "https://github.com/advisories/GHSA-6p6v-m64v-jx8q",
@@ -98,48 +140,6 @@
       "date": "2026-06-08T16:11:59.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[cryptiles] Insufficient Entropy in cryptiles",
-      "url": "https://github.com/advisories/GHSA-rq8g-5pc5-wrhr",
-      "date": "2026-06-08T15:52:37.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[cryptiles] Insufficient Entropy in cryptiles",
-      "url": "https://github.com/advisories/GHSA-rq8g-5pc5-wrhr",
-      "date": "2026-06-08T15:52:37.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] VM2 Has a WASM Sandbox Escape",
-      "url": "https://github.com/advisories/GHSA-ffh4-j6h5-pg66",
-      "date": "2026-06-08T15:38:51.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[geonode] GeoNode contains a server-side request forgery vulnerability in the service registration endpoint",
-      "url": "https://github.com/advisories/GHSA-hw9r-6m78-w6h3",
-      "date": "2026-06-08T12:51:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[geonode] GeoNode contains a server-side request forgery vulnerability in the service registration endpoint",
-      "url": "https://github.com/advisories/GHSA-hw9r-6m78-w6h3",
-      "date": "2026-06-08T12:51:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[geonode] Duplicate Advisory: GeoNode contains a server-side request forgery vulnerability in the service registration endpoint",
-      "url": "https://github.com/advisories/GHSA-v8f7-cg9p-w5jx",
-      "date": "2026-06-08T12:50:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
