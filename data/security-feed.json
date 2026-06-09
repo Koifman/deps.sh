@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-06-08T23:32:43.892Z",
+  "fetchedAt": "2026-06-09T01:09:24.795Z",
   "entries": [
+    {
+      "title": "[dulwich] Dulwich has unbounded memory allocation in receive-pack from crafted thin packs",
+      "url": "https://github.com/advisories/GHSA-xrvj-v92f-53gj",
+      "date": "2026-06-08T23:43:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[json-web-token] json-web-token library is vulnerable to a JWT algorithm confusion attack",
+      "url": "https://github.com/advisories/GHSA-4xw9-cx39-r355",
+      "date": "2026-06-08T23:38:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mistune] Mistune has XSS via unescaped figclass/figwidth in Figure directive",
+      "url": "https://github.com/advisories/GHSA-58cw-g322-p94v",
+      "date": "2026-06-08T23:34:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@actual-app/sync-server] Actual Sync-server Gocardless service is logging sensitive data including bearer tokens and account numbers",
+      "url": "https://github.com/advisories/GHSA-xvp7-8vm8-xfxx",
+      "date": "2026-06-08T23:28:41.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[awslabs-aws-api-mcp-server] AWS API MCP File Access Restriction Bypass",
       "url": "https://github.com/advisories/GHSA-2cpp-j2fc-qhp7",
@@ -111,34 +139,6 @@
       "url": "https://github.com/advisories/GHSA-3rf6-x59v-5jfv",
       "date": "2026-06-08T17:52:30.000Z",
       "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[authlib] Authlib OAuth 2.0 has Open Redirect in Authorization API that allows attacker-controlled redirect_uri through unsupported response_type",
-      "url": "https://github.com/advisories/GHSA-w8p2-r796-3vmq",
-      "date": "2026-06-08T17:52:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[authlib] Authlib OAuth 2.0 has Open Redirect in Authorization API that allows attacker-controlled redirect_uri through unsupported response_type",
-      "url": "https://github.com/advisories/GHSA-w8p2-r796-3vmq",
-      "date": "2026-06-08T17:52:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vitest] When Vitest UI server is listening, arbitrary file can be read and executed",
-      "url": "https://github.com/advisories/GHSA-5xrq-8626-4rwp",
-      "date": "2026-06-08T16:11:59.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vitest] When Vitest UI server is listening, arbitrary file can be read and executed",
-      "url": "https://github.com/advisories/GHSA-5xrq-8626-4rwp",
-      "date": "2026-06-08T16:11:59.000Z",
-      "ecosystem": "npm",
       "severity": "CRITICAL"
     }
   ]
