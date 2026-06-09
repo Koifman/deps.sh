@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-06-09T17:03:28.833Z",
+  "fetchedAt": "2026-06-09T18:54:30.580Z",
   "entries": [
+    {
+      "title": "[ray] Ray Dashboard is vulnerable to path traversal through its static file handling mechanism",
+      "url": "https://github.com/advisories/GHSA-j3mh-qmjj-xp83",
+      "date": "2026-06-09T18:36:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pretix] pretix has Email Content Injection Through Maliciously Formatted Names",
+      "url": "https://github.com/advisories/GHSA-2mm6-624x-fqrr",
+      "date": "2026-06-09T16:12:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[pretix] pretix has Email Content Injection Through Maliciously Formatted Names",
+      "url": "https://github.com/advisories/GHSA-2mm6-624x-fqrr",
+      "date": "2026-06-09T16:12:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[pretix] pretix has Email Content Injection Through Maliciously Formatted Names",
+      "url": "https://github.com/advisories/GHSA-2mm6-624x-fqrr",
+      "date": "2026-06-09T16:12:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[shell-quote] shell-quote quote() does not escape newlines in object .op values",
       "url": "https://github.com/advisories/GHSA-w7jw-789q-3m8p",
@@ -110,34 +138,6 @@
       "title": "[@actual-app/sync-server] Actual Sync-server Gocardless service is logging sensitive data including bearer tokens and account numbers",
       "url": "https://github.com/advisories/GHSA-xvp7-8vm8-xfxx",
       "date": "2026-06-08T23:28:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[awslabs-aws-api-mcp-server] AWS API MCP File Access Restriction Bypass",
-      "url": "https://github.com/advisories/GHSA-2cpp-j2fc-qhp7",
-      "date": "2026-06-08T23:15:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langflow] Unauthenticated Remote Code Execution in Langflow via Public Flow Build Endpoint",
-      "url": "https://github.com/advisories/GHSA-vwmf-pq79-vjvx",
-      "date": "2026-06-08T23:11:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[fuxa-server] FUXA's scheduler API missing admin check enables operator-to-admin escalation via scheduled device actions",
-      "url": "https://github.com/advisories/GHSA-8ghr-w65f-j3qr",
-      "date": "2026-06-08T23:07:03.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fuxa-server] FUXA has SQL Injection in its TDengine DAQ connector via backslash bypass of escapeTdString",
-      "url": "https://github.com/advisories/GHSA-h9fj-c2qr-76g2",
-      "date": "2026-06-08T23:06:45.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
