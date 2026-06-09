@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-09T11:11:30.414Z",
+  "fetchedAt": "2026-06-09T13:13:00.853Z",
   "entries": [
+    {
+      "title": "[py-rattler] rattler has an entry-point path traversal in noarch:python install (arbitrary file write)",
+      "url": "https://github.com/advisories/GHSA-q53q-5r4j-5729",
+      "date": "2026-06-09T11:52:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@fedify/fedify] Fedify has an LD-Signature Bypass via JSON-LD Named-Graph Restructuring",
       "url": "https://github.com/advisories/GHSA-9rfg-v8g9-9367",
@@ -133,13 +140,6 @@
       "date": "2026-06-08T19:03:03.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openhands-ai] OpenHands is Vulnerable to Command Injection through its Git Diff Handler",
-      "url": "https://github.com/advisories/GHSA-7h8w-hj9j-8rjw",
-      "date": "2026-06-08T18:59:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
