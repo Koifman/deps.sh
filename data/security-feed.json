@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-09T19:46:27.672Z",
+  "fetchedAt": "2026-06-09T20:48:01.224Z",
   "entries": [
+    {
+      "title": "[nvflare] NVIDIA NVFlare Dashboard: Authorization bypass through user-controlled key via user management and authentication system",
+      "url": "https://github.com/advisories/GHSA-jqp3-qrgh-4846",
+      "date": "2026-06-09T20:32:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[pywasm3] pywasm3 has Improper Restriction of Operations within the Bounds of a Memory Buffer",
       "url": "https://github.com/advisories/GHSA-rrmw-gv85-w824",
@@ -112,13 +119,6 @@
       "date": "2026-06-09T11:52:09.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@fedify/fedify] Fedify has an LD-Signature Bypass via JSON-LD Named-Graph Restructuring",
-      "url": "https://github.com/advisories/GHSA-9rfg-v8g9-9367",
-      "date": "2026-06-09T10:54:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     },
     {
       "title": "[@fedify/fedify] Fedify has an LD-Signature Bypass via JSON-LD Named-Graph Restructuring",
