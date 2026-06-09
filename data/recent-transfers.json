@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-06-09T20:50:57.968Z",
-  "count": 100,
+  "scannedAt": "2026-06-09T21:42:50.746Z",
+  "count": 101,
   "packages": [
     {
       "name": "xmldom",
@@ -253,6 +253,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "well-known-symbols",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "novemberborn",
+      "currentOwner": "ljharb"
     },
     {
       "name": "tslib",
@@ -849,7 +858,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.135.0",
       "ecosystem": "npm",
       "score": 20,
@@ -858,7 +867,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-gnu",
+      "name": "@oxc-transform/binding-linux-x64-musl",
       "version": "0.135.0",
       "ecosystem": "npm",
       "score": 20,

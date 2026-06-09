@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-06-09T20:48:01.224Z",
+  "fetchedAt": "2026-06-09T21:39:56.481Z",
   "entries": [
+    {
+      "title": "[torch] PyTorch Tuple Handler is Vulnerable to Memory Corruption through Manipulation of None Argument",
+      "url": "https://github.com/advisories/GHSA-c678-jfcj-6jmf",
+      "date": "2026-06-09T21:06:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[tendenci] Tendenci CMS Contains a Cross-site Scripting Vulnerability in its Jobs Module",
+      "url": "https://github.com/advisories/GHSA-g7hj-29xq-r64w",
+      "date": "2026-06-09T20:52:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[tendenci] Tendenci is Vulnerable to CSV Formula Injection through its Contact Form Message Field",
+      "url": "https://github.com/advisories/GHSA-4q3w-jgfx-4792",
+      "date": "2026-06-09T20:50:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sentry] Sentry: Superusers can execute arbitrary commands by injecting malicious pickle-serialized objects through audit log entry data parameter",
+      "url": "https://github.com/advisories/GHSA-444r-2whx-3685",
+      "date": "2026-06-09T20:50:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sentry] Sentry: Superusers can execute arbitrary commands by injecting malicious pickle-serialized objects through audit log entry data parameter",
+      "url": "https://github.com/advisories/GHSA-444r-2whx-3685",
+      "date": "2026-06-09T20:50:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sap-ai-sdk-base] SAP Cloud SDK for AI Python has OS Command Injection when Program Objects Execution is Enabled",
+      "url": "https://github.com/advisories/GHSA-xxhh-59gh-6ffx",
+      "date": "2026-06-09T20:46:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[nvflare] NVIDIA NVFlare Dashboard: Authorization bypass through user-controlled key via user management and authentication system",
       "url": "https://github.com/advisories/GHSA-jqp3-qrgh-4846",
@@ -98,48 +140,6 @@
       "date": "2026-06-09T13:03:01.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[pyspark] Apache Spark UI can allow impersonation if ACLs enabled",
-      "url": "https://github.com/advisories/GHSA-4x9r-j582-cgr8",
-      "date": "2026-06-09T12:58:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyspark] Apache Spark UI can allow impersonation if ACLs enabled",
-      "url": "https://github.com/advisories/GHSA-4x9r-j582-cgr8",
-      "date": "2026-06-09T12:58:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[py-rattler] rattler has an entry-point path traversal in noarch:python install (arbitrary file write)",
-      "url": "https://github.com/advisories/GHSA-q53q-5r4j-5729",
-      "date": "2026-06-09T11:52:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@fedify/fedify] Fedify has an LD-Signature Bypass via JSON-LD Named-Graph Restructuring",
-      "url": "https://github.com/advisories/GHSA-9rfg-v8g9-9367",
-      "date": "2026-06-09T10:54:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@fedify/fedify] Fedify has an LD-Signature Bypass via JSON-LD Named-Graph Restructuring",
-      "url": "https://github.com/advisories/GHSA-9rfg-v8g9-9367",
-      "date": "2026-06-09T10:54:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@fedify/fedify] Fedify has an LD-Signature Bypass via JSON-LD Named-Graph Restructuring",
-      "url": "https://github.com/advisories/GHSA-9rfg-v8g9-9367",
-      "date": "2026-06-09T10:54:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
