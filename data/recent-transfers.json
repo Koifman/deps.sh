@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-06-09T15:19:22.728Z",
-  "count": 102,
+  "scannedAt": "2026-06-09T17:06:19.539Z",
+  "count": 101,
   "packages": [
     {
       "name": "xmldom",
@@ -517,7 +517,7 @@
     },
     {
       "name": "@supabase/storage-js",
-      "version": "2.108.0",
+      "version": "2.108.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -526,7 +526,7 @@
     },
     {
       "name": "@supabase/realtime-js",
-      "version": "2.108.0",
+      "version": "2.108.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -535,7 +535,7 @@
     },
     {
       "name": "@supabase/supabase-js",
-      "version": "2.108.0",
+      "version": "2.108.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -714,15 +714,6 @@
       "currentOwner": "vimeo-npmbot"
     },
     {
-      "name": "@bugsnag/js",
-      "version": "8.9.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bengourley",
-      "currentOwner": "sb-priyankap"
-    },
-    {
       "name": "@lottiefiles/dotlottie-react",
       "version": "0.19.4",
       "ecosystem": "npm",
@@ -739,6 +730,15 @@
       "level": "MODERATE",
       "previousOwner": "wcjiang",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@bugsnag/js",
+      "version": "8.9.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bengourley",
+      "currentOwner": "sb-priyankap"
     },
     {
       "name": "typescript",
@@ -804,7 +804,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
       "version": "0.135.0",
       "ecosystem": "npm",
       "score": 20,
@@ -813,7 +813,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "name": "oxc-transform",
       "version": "0.135.0",
       "ecosystem": "npm",
       "score": 20,
@@ -904,15 +904,6 @@
     },
     {
       "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.135.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.135.0",
       "ecosystem": "npm",
       "score": 20,

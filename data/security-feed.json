@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-09T15:16:13.933Z",
+  "fetchedAt": "2026-06-09T17:03:28.833Z",
   "entries": [
+    {
+      "title": "[shell-quote] shell-quote quote() does not escape newlines in object .op values",
+      "url": "https://github.com/advisories/GHSA-w7jw-789q-3m8p",
+      "date": "2026-06-09T14:27:16.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[ironic-python-agent] OpenStack Ironic Python Agent Includes Functionality from Untrusted Control Sphere",
       "url": "https://github.com/advisories/GHSA-rmxr-45gj-889w",
@@ -133,13 +140,6 @@
       "date": "2026-06-08T23:06:45.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[fuxa-server] FUXA: Unauthenticated SSRF via Socket.IO DEVICE_WEBAPI_REQUEST and DEVICE_PROPERTY with response reading",
-      "url": "https://github.com/advisories/GHSA-w86f-rf9w-h3x6",
-      "date": "2026-06-08T23:06:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
