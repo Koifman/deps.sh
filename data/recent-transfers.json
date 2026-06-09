@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-06-09T13:18:06.681Z",
-  "count": 100,
+  "scannedAt": "2026-06-09T15:19:22.728Z",
+  "count": 102,
   "packages": [
     {
       "name": "xmldom",
@@ -91,6 +91,15 @@
       "level": "MODERATE",
       "previousOwner": "bhouston",
       "currentOwner": "mrdoob"
+    },
+    {
+      "name": "@nevware21/ts-utils",
+      "version": "0.15.0",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "string.prototype.trimstart",
@@ -244,6 +253,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "well-known-symbols",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "novemberborn",
+      "currentOwner": "ljharb"
     },
     {
       "name": "tslib",
@@ -414,15 +432,6 @@
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "tsparticles",
-      "version": "4.1.3",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "ar3s",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -633,15 +642,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "redux-saga",
-      "version": "1.5.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "yelouafi",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@hey-api/codegen-core",
       "version": "0.9.0",
       "ecosystem": "npm",
@@ -651,12 +651,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.1.2",
+      "name": "redux-saga",
+      "version": "1.5.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "jlipps",
+      "previousOwner": "yelouafi",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -687,13 +687,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@bugsnag/js",
-      "version": "8.9.0",
+      "name": "@appium/tsconfig",
+      "version": "1.1.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "bengourley",
-      "currentOwner": "sb-priyankap"
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@lingui/message-utils",
@@ -712,6 +712,15 @@
       "level": "MODERATE",
       "previousOwner": "bdougherty",
       "currentOwner": "vimeo-npmbot"
+    },
+    {
+      "name": "@bugsnag/js",
+      "version": "8.9.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bengourley",
+      "currentOwner": "sb-priyankap"
     },
     {
       "name": "@lottiefiles/dotlottie-react",
@@ -895,6 +904,15 @@
     },
     {
       "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.135.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.135.0",
       "ecosystem": "npm",
       "score": 20,
