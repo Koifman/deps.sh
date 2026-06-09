@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-09T21:39:56.481Z",
+  "fetchedAt": "2026-06-09T22:38:58.495Z",
   "entries": [
+    {
+      "title": "[torch] PyTorch: Manipulation of the argument scale/zero_point leads to improper initialization via Quantized Sigmoid Module",
+      "url": "https://github.com/advisories/GHSA-x3gm-94wq-g975",
+      "date": "2026-06-09T21:57:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[torch] PyTorch is Vulnerable to Memory Consumption through pad_packed_sequence Function",
+      "url": "https://github.com/advisories/GHSA-f4hp-rmr7-r7v8",
+      "date": "2026-06-09T21:56:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[torch] PyTorch Tuple Handler is Vulnerable to Memory Corruption through Manipulation of None Argument",
       "url": "https://github.com/advisories/GHSA-c678-jfcj-6jmf",
@@ -126,20 +140,6 @@
       "date": "2026-06-09T13:09:23.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[zope] Remote Code Execution via unsafe classes in otherwise permitted modules",
-      "url": "https://github.com/advisories/GHSA-qcx9-j53g-ccgf",
-      "date": "2026-06-09T13:03:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[zope] Remote Code Execution via unsafe classes in otherwise permitted modules",
-      "url": "https://github.com/advisories/GHSA-qcx9-j53g-ccgf",
-      "date": "2026-06-09T13:03:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
