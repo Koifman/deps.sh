@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-06-09T18:54:30.580Z",
+  "fetchedAt": "2026-06-09T19:46:27.672Z",
   "entries": [
+    {
+      "title": "[pywasm3] pywasm3 has Improper Restriction of Operations within the Bounds of a Memory Buffer",
+      "url": "https://github.com/advisories/GHSA-rrmw-gv85-w824",
+      "date": "2026-06-09T19:09:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[pywasm3] pywasm3 contains a Use-After-Free in ForEachModule",
+      "url": "https://github.com/advisories/GHSA-46r6-92jg-22jg",
+      "date": "2026-06-09T19:09:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pywasm3] pywasm3 has an Invalid Memory Read, Leading to DoS and Potential Code Execution",
+      "url": "https://github.com/advisories/GHSA-mhg9-mm8c-c683",
+      "date": "2026-06-09T19:05:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pywasm3] pywasm3 contains a global buffer overflow which leads to segmentation fault",
+      "url": "https://github.com/advisories/GHSA-hh39-vjv8-j337",
+      "date": "2026-06-09T19:04:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[pywasm3] pywasm3 contains a heap buffer overflow which leads to segmentation fault",
+      "url": "https://github.com/advisories/GHSA-mq9p-qw76-q6h7",
+      "date": "2026-06-09T19:04:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[ray] Ray Dashboard is vulnerable to path traversal through its static file handling mechanism",
       "url": "https://github.com/advisories/GHSA-j3mh-qmjj-xp83",
@@ -105,41 +140,6 @@
       "date": "2026-06-09T10:54:27.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@fedify/fedify] Fedify has an LD-Signature Bypass via JSON-LD Named-Graph Restructuring",
-      "url": "https://github.com/advisories/GHSA-9rfg-v8g9-9367",
-      "date": "2026-06-09T10:54:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dulwich] Dulwich has unbounded memory allocation in receive-pack from crafted thin packs",
-      "url": "https://github.com/advisories/GHSA-xrvj-v92f-53gj",
-      "date": "2026-06-08T23:43:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[json-web-token] json-web-token library is vulnerable to a JWT algorithm confusion attack",
-      "url": "https://github.com/advisories/GHSA-4xw9-cx39-r355",
-      "date": "2026-06-08T23:38:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mistune] Mistune has XSS via unescaped figclass/figwidth in Figure directive",
-      "url": "https://github.com/advisories/GHSA-58cw-g322-p94v",
-      "date": "2026-06-08T23:34:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@actual-app/sync-server] Actual Sync-server Gocardless service is logging sensitive data including bearer tokens and account numbers",
-      "url": "https://github.com/advisories/GHSA-xvp7-8vm8-xfxx",
-      "date": "2026-06-08T23:28:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
