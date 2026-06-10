@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-06-10T13:26:11.105Z",
+  "fetchedAt": "2026-06-10T15:15:34.002Z",
   "entries": [
+    {
+      "title": "[@papra/webhooks] Papra HTTP redirect bypass can lead to SSRF via webhook delivery system",
+      "url": "https://github.com/advisories/GHSA-5g86-85rp-f9hx",
+      "date": "2026-06-10T13:39:10.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@hulumi/baseline] @hulumi/baseline: AccountFoundation reuse paths silently downgrade GuardDuty / Security Hub posture",
+      "url": "https://github.com/advisories/GHSA-cj8g-prcm-mfg5",
+      "date": "2026-06-10T13:39:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@hulumi/drift] @hulumi/drift: Drift classifier fails open on adapter errors and over-promotes Mixed verdicts",
+      "url": "https://github.com/advisories/GHSA-32g3-35g9-wc9g",
+      "date": "2026-06-10T13:38:50.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/baseline] @hulumi/baseline: AccountFoundation audit-delivery S3 bucket could be silently weakened",
+      "url": "https://github.com/advisories/GHSA-2mxr-p26x-mj73",
+      "date": "2026-06-10T13:38:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/policies] @hulumi/policies has a HULUMI-H5 bypass via decoy sibling resources targeting a different bucket",
+      "url": "https://github.com/advisories/GHSA-9vc9-4jv3-rf86",
+      "date": "2026-06-10T13:38:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/policies] @hulumi/policies bypasses policy packs with a forged Pulumi-URN logical name",
+      "url": "https://github.com/advisories/GHSA-rhgj-6g2c-frmm",
+      "date": "2026-06-10T13:37:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hulumi/policies] @hulumi/policies bypasses IAM-role policy checks when the role trusts multiple OIDC providers",
+      "url": "https://github.com/advisories/GHSA-g759-4pxw-6692",
+      "date": "2026-06-10T13:37:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2025-0163: Vulnerability in trailer",
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0163.html",
@@ -90,55 +139,6 @@
       "date": "2026-06-09T19:05:08.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[pywasm3] pywasm3 contains a global buffer overflow which leads to segmentation fault",
-      "url": "https://github.com/advisories/GHSA-hh39-vjv8-j337",
-      "date": "2026-06-09T19:04:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[pywasm3] pywasm3 contains a heap buffer overflow which leads to segmentation fault",
-      "url": "https://github.com/advisories/GHSA-mq9p-qw76-q6h7",
-      "date": "2026-06-09T19:04:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[ray] Ray Dashboard is vulnerable to path traversal through its static file handling mechanism",
-      "url": "https://github.com/advisories/GHSA-j3mh-qmjj-xp83",
-      "date": "2026-06-09T18:36:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pretix] pretix has Email Content Injection Through Maliciously Formatted Names",
-      "url": "https://github.com/advisories/GHSA-2mm6-624x-fqrr",
-      "date": "2026-06-09T16:12:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[pretix] pretix has Email Content Injection Through Maliciously Formatted Names",
-      "url": "https://github.com/advisories/GHSA-2mm6-624x-fqrr",
-      "date": "2026-06-09T16:12:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[pretix] pretix has Email Content Injection Through Maliciously Formatted Names",
-      "url": "https://github.com/advisories/GHSA-2mm6-624x-fqrr",
-      "date": "2026-06-09T16:12:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[shell-quote] shell-quote quote() does not escape newlines in object .op values",
-      "url": "https://github.com/advisories/GHSA-w7jw-789q-3m8p",
-      "date": "2026-06-09T14:27:16.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-06-10T13:29:29.231Z",
+  "scannedAt": "2026-06-10T15:23:01.904Z",
   "count": 102,
   "packages": [
     {
@@ -354,6 +354,15 @@
       "currentOwner": "bevryme"
     },
     {
+      "name": "rehype-rewrite",
+      "version": "4.0.4",
+      "ecosystem": "npm",
+      "score": 27,
+      "level": "MODERATE",
+      "previousOwner": "wcjiang",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@typescript-eslint/typescript-estree",
       "version": "8.61.0",
       "ecosystem": "npm",
@@ -390,15 +399,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "pe-library",
-      "version": "2.0.1",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "jet2jet",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@trivago/prettier-plugin-sort-imports",
       "version": "6.0.2",
       "ecosystem": "npm",
@@ -406,6 +406,15 @@
       "level": "MODERATE",
       "previousOwner": "ayusharma",
       "currentOwner": "behraang"
+    },
+    {
+      "name": "pe-library",
+      "version": "2.0.1",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jet2jet",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "dependency-cruiser",
@@ -450,6 +459,15 @@
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "ar3s",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@tsparticles/fireworks",
+      "version": "4.1.3",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "matteobruni",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -579,8 +597,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.0",
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -588,8 +606,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
+      "name": "css-has-pseudo",
+      "version": "8.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -624,15 +642,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "inversify",
-      "version": "8.1.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "remojansen",
-      "currentOwner": "notaphplover"
-    },
-    {
       "name": "@appium/types",
       "version": "1.5.0",
       "ecosystem": "npm",
@@ -640,6 +649,15 @@
       "level": "MODERATE",
       "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "inversify",
+      "version": "8.1.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "remojansen",
+      "currentOwner": "notaphplover"
     },
     {
       "name": "@hey-api/codegen-core",
@@ -688,7 +706,7 @@
     },
     {
       "name": "@lingui/message-utils",
-      "version": "6.2.0",
+      "version": "6.3.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -729,15 +747,6 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "rehype-rewrite",
-      "version": "4.0.4",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "wcjiang",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -831,15 +840,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.69.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@fortawesome/react-fontawesome",
       "version": "3.3.1",
       "ecosystem": "npm",
@@ -847,6 +847,15 @@
       "level": "LOW",
       "previousOwner": "supercodepoet",
       "currentOwner": "lordofbacon"
+    },
+    {
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.69.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxfmt/binding-linux-x64-musl",
@@ -894,15 +903,6 @@
       "currentOwner": "balearica"
     },
     {
-      "name": "@lottiefiles/dotlottie-web",
-      "version": "0.74.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.135.0",
       "ecosystem": "npm",
@@ -912,12 +912,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.135.0",
+      "name": "@lottiefiles/dotlottie-web",
+      "version": "0.74.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "boshen",
+      "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
     }
   ]
