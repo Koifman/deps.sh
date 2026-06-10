@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-06-10T19:05:03.720Z",
+  "fetchedAt": "2026-06-10T21:00:39.547Z",
   "entries": [
+    {
+      "title": "[pdm] PDM  wheel installation leads to Path Traversal via overridden write_to_fs",
+      "url": "https://github.com/advisories/GHSA-78v8-vpjp-cjqh",
+      "date": "2026-06-10T20:33:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pdm] PDM: Project-Local State and Config Writes Follow Symlinks",
+      "url": "https://github.com/advisories/GHSA-ghq2-5c67-fprm",
+      "date": "2026-06-10T20:32:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@whiskeysockets/baileys] Baileys has message upsert / hist sync spoofing and app state corruption when using maliciously crafted protocolMessage payload",
+      "url": "https://github.com/advisories/GHSA-qvv5-jq5g-4cgg",
+      "date": "2026-06-10T19:33:21.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[baileys] Baileys has message upsert / hist sync spoofing and app state corruption when using maliciously crafted protocolMessage payload",
+      "url": "https://github.com/advisories/GHSA-qvv5-jq5g-4cgg",
+      "date": "2026-06-10T19:33:21.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@whiskeysockets/baileys] Baileys has message upsert / hist sync spoofing and app state corruption when using maliciously crafted protocolMessage payload",
+      "url": "https://github.com/advisories/GHSA-qvv5-jq5g-4cgg",
+      "date": "2026-06-10T19:33:21.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[baileys] Baileys has message upsert / hist sync spoofing and app state corruption when using maliciously crafted protocolMessage payload",
+      "url": "https://github.com/advisories/GHSA-qvv5-jq5g-4cgg",
+      "date": "2026-06-10T19:33:21.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[litestar] Litestar: AllowedHostsMiddleware bypasses host validation via client-controlled X-Forwarded-Host header",
+      "url": "https://github.com/advisories/GHSA-3qmc-cj7q-62hv",
+      "date": "2026-06-10T19:12:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[litestar] Litestar has HTML Injection Through its CSRF Token",
+      "url": "https://github.com/advisories/GHSA-542p-wvx7-72m4",
+      "date": "2026-06-10T19:12:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tendenci] Tendenci CMS contains a stored Cross-site Scripting (XSS) vulnerability in the Forums module",
+      "url": "https://github.com/advisories/GHSA-6fvp-wmh6-jg95",
+      "date": "2026-06-10T18:49:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[torch] PyTorch is vulnerable to memory corruption through its torch.lstm_cell function",
       "url": "https://github.com/advisories/GHSA-qfhq-4f3w-5fph",
@@ -76,67 +139,6 @@
       "url": "https://github.com/advisories/GHSA-g759-4pxw-6692",
       "date": "2026-06-10T13:37:10.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0175: onering contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0175.html",
-      "date": "2026-06-10T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2025-0163: Vulnerability in trailer",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0163.html",
-      "date": "2026-06-10T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[torch] PyTorch: Manipulation of the argument scale/zero_point leads to improper initialization via Quantized Sigmoid Module",
-      "url": "https://github.com/advisories/GHSA-x3gm-94wq-g975",
-      "date": "2026-06-09T21:57:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[torch] PyTorch is Vulnerable to Memory Consumption through pad_packed_sequence Function",
-      "url": "https://github.com/advisories/GHSA-f4hp-rmr7-r7v8",
-      "date": "2026-06-09T21:56:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[torch] PyTorch Tuple Handler is Vulnerable to Memory Corruption through Manipulation of None Argument",
-      "url": "https://github.com/advisories/GHSA-c678-jfcj-6jmf",
-      "date": "2026-06-09T21:06:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[tendenci] Tendenci CMS Contains a Cross-site Scripting Vulnerability in its Jobs Module",
-      "url": "https://github.com/advisories/GHSA-g7hj-29xq-r64w",
-      "date": "2026-06-09T20:52:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[tendenci] Tendenci is Vulnerable to CSV Formula Injection through its Contact Form Message Field",
-      "url": "https://github.com/advisories/GHSA-4q3w-jgfx-4792",
-      "date": "2026-06-09T20:50:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sentry] Sentry: Superusers can execute arbitrary commands by injecting malicious pickle-serialized objects through audit log entry data parameter",
-      "url": "https://github.com/advisories/GHSA-444r-2whx-3685",
-      "date": "2026-06-09T20:50:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sentry] Sentry: Superusers can execute arbitrary commands by injecting malicious pickle-serialized objects through audit log entry data parameter",
-      "url": "https://github.com/advisories/GHSA-444r-2whx-3685",
-      "date": "2026-06-09T20:50:01.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
