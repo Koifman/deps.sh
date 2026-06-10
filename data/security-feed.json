@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-06-10T17:14:53.953Z",
+  "fetchedAt": "2026-06-10T19:05:03.720Z",
   "entries": [
+    {
+      "title": "[torch] PyTorch is vulnerable to memory corruption through its torch.lstm_cell function",
+      "url": "https://github.com/advisories/GHSA-qfhq-4f3w-5fph",
+      "date": "2026-06-10T18:02:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[torch] PyTorch is vulnerable to memory corruption through its torch.jit.script function",
+      "url": "https://github.com/advisories/GHSA-rrmf-rvhw-rf47",
+      "date": "2026-06-10T18:02:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[torch] PyTorch is vulnerable to memory corruption through its unpack_sequence function",
+      "url": "https://github.com/advisories/GHSA-vgrw-7cvw-pwgx",
+      "date": "2026-06-10T17:25:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM's Artifact Pin Decay allows pinned deployments to load unpinned code, weights, and processors",
+      "url": "https://github.com/advisories/GHSA-3ww4-5jv9-j5gm",
+      "date": "2026-06-10T17:11:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@papra/webhooks] Papra HTTP redirect bypass can lead to SSRF via webhook delivery system",
       "url": "https://github.com/advisories/GHSA-5g86-85rp-f9hx",
@@ -49,6 +77,12 @@
       "date": "2026-06-10T13:37:10.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
+    },
+    {
+      "title": "RUSTSEC-2026-0175: onering contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0175.html",
+      "date": "2026-06-10T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
       "title": "RUSTSEC-2025-0163: Vulnerability in trailer",
@@ -102,41 +136,6 @@
       "title": "[sentry] Sentry: Superusers can execute arbitrary commands by injecting malicious pickle-serialized objects through audit log entry data parameter",
       "url": "https://github.com/advisories/GHSA-444r-2whx-3685",
       "date": "2026-06-09T20:50:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sap-ai-sdk-base] SAP Cloud SDK for AI Python has OS Command Injection when Program Objects Execution is Enabled",
-      "url": "https://github.com/advisories/GHSA-xxhh-59gh-6ffx",
-      "date": "2026-06-09T20:46:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nvflare] NVIDIA NVFlare Dashboard: Authorization bypass through user-controlled key via user management and authentication system",
-      "url": "https://github.com/advisories/GHSA-jqp3-qrgh-4846",
-      "date": "2026-06-09T20:32:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[pywasm3] pywasm3 has Improper Restriction of Operations within the Bounds of a Memory Buffer",
-      "url": "https://github.com/advisories/GHSA-rrmw-gv85-w824",
-      "date": "2026-06-09T19:09:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[pywasm3] pywasm3 contains a Use-After-Free in ForEachModule",
-      "url": "https://github.com/advisories/GHSA-46r6-92jg-22jg",
-      "date": "2026-06-09T19:09:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pywasm3] pywasm3 has an Invalid Memory Read, Leading to DoS and Potential Code Execution",
-      "url": "https://github.com/advisories/GHSA-mhg9-mm8c-c683",
-      "date": "2026-06-09T19:05:08.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
