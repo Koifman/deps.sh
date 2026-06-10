@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-06-10T05:41:35.561Z",
+  "fetchedAt": "2026-06-10T07:44:13.066Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2025-0163: Vulnerability in trailer",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0163.html",
+      "date": "2026-06-10T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[torch] PyTorch: Manipulation of the argument scale/zero_point leads to improper initialization via Quantized Sigmoid Module",
       "url": "https://github.com/advisories/GHSA-x3gm-94wq-g975",
@@ -133,13 +139,6 @@
       "date": "2026-06-09T14:27:16.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[ironic-python-agent] OpenStack Ironic Python Agent Includes Functionality from Untrusted Control Sphere",
-      "url": "https://github.com/advisories/GHSA-rmxr-45gj-889w",
-      "date": "2026-06-09T13:09:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
