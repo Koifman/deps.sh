@@ -1,143 +1,144 @@
 {
-  "fetchedAt": "2026-06-11T13:35:51.835Z",
+  "fetchedAt": "2026-06-11T15:18:52.239Z",
   "entries": [
     {
-      "title": "RUSTSEC-2021-0156: Vulnerability in triton-vm",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2021-0156.html",
-      "date": "2026-06-11T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[pdm] PDM  wheel installation leads to Path Traversal via overridden write_to_fs",
-      "url": "https://github.com/advisories/GHSA-78v8-vpjp-cjqh",
-      "date": "2026-06-10T20:33:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pdm] PDM: Project-Local State and Config Writes Follow Symlinks",
-      "url": "https://github.com/advisories/GHSA-ghq2-5c67-fprm",
-      "date": "2026-06-10T20:32:57.000Z",
+      "title": "[zeroconf] python-zeroconf: Unbounded TC-deferred queue allows LAN-local memory exhaustion via spoofed-source flood",
+      "url": "https://github.com/advisories/GHSA-9663-mqmp-p9mm",
+      "date": "2026-06-11T13:28:57.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[@whiskeysockets/baileys] Baileys has message upsert / hist sync spoofing and app state corruption when using maliciously crafted protocolMessage payload",
-      "url": "https://github.com/advisories/GHSA-qvv5-jq5g-4cgg",
-      "date": "2026-06-10T19:33:21.000Z",
-      "ecosystem": "npm",
+      "title": "[meta-ads-mcp] Meta Ads MCP: Unauthenticated HTTP MCP Tool Execution Leaks Operator Meta Access Token",
+      "url": "https://github.com/advisories/GHSA-9gw6-46qc-99vr",
+      "date": "2026-06-11T13:28:32.000Z",
+      "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "[baileys] Baileys has message upsert / hist sync spoofing and app state corruption when using maliciously crafted protocolMessage payload",
-      "url": "https://github.com/advisories/GHSA-qvv5-jq5g-4cgg",
-      "date": "2026-06-10T19:33:21.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@whiskeysockets/baileys] Baileys has message upsert / hist sync spoofing and app state corruption when using maliciously crafted protocolMessage payload",
-      "url": "https://github.com/advisories/GHSA-qvv5-jq5g-4cgg",
-      "date": "2026-06-10T19:33:21.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[baileys] Baileys has message upsert / hist sync spoofing and app state corruption when using maliciously crafted protocolMessage payload",
-      "url": "https://github.com/advisories/GHSA-qvv5-jq5g-4cgg",
-      "date": "2026-06-10T19:33:21.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[litestar] Litestar: AllowedHostsMiddleware bypasses host validation via client-controlled X-Forwarded-Host header",
-      "url": "https://github.com/advisories/GHSA-3qmc-cj7q-62hv",
-      "date": "2026-06-10T19:12:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[litestar] Litestar has HTML Injection Through its CSRF Token",
-      "url": "https://github.com/advisories/GHSA-542p-wvx7-72m4",
-      "date": "2026-06-10T19:12:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[tendenci] Tendenci CMS contains a stored Cross-site Scripting (XSS) vulnerability in the Forums module",
-      "url": "https://github.com/advisories/GHSA-6fvp-wmh6-jg95",
-      "date": "2026-06-10T18:49:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[torch] PyTorch is vulnerable to memory corruption through its torch.lstm_cell function",
-      "url": "https://github.com/advisories/GHSA-qfhq-4f3w-5fph",
-      "date": "2026-06-10T18:02:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[torch] PyTorch is vulnerable to memory corruption through its torch.jit.script function",
-      "url": "https://github.com/advisories/GHSA-rrmf-rvhw-rf47",
-      "date": "2026-06-10T18:02:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[torch] PyTorch is vulnerable to memory corruption through its unpack_sequence function",
-      "url": "https://github.com/advisories/GHSA-vgrw-7cvw-pwgx",
-      "date": "2026-06-10T17:25:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vllm] vLLM's Artifact Pin Decay allows pinned deployments to load unpinned code, weights, and processors",
-      "url": "https://github.com/advisories/GHSA-3ww4-5jv9-j5gm",
-      "date": "2026-06-10T17:11:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@papra/webhooks] Papra HTTP redirect bypass can lead to SSRF via webhook delivery system",
-      "url": "https://github.com/advisories/GHSA-5g86-85rp-f9hx",
-      "date": "2026-06-10T13:39:10.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@hulumi/baseline] @hulumi/baseline: AccountFoundation reuse paths silently downgrade GuardDuty / Security Hub posture",
-      "url": "https://github.com/advisories/GHSA-cj8g-prcm-mfg5",
-      "date": "2026-06-10T13:39:01.000Z",
+      "title": "[@cyntler/react-doc-viewer] @cyntler/react-doc-viewer's TXTRenderer fails to sanitize file content and explicitly casts raw data as a ReactNode",
+      "url": "https://github.com/advisories/GHSA-fvhg-p4hf-79x3",
+      "date": "2026-06-11T13:28:17.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@hulumi/drift] @hulumi/drift: Drift classifier fails open on adapter errors and over-promotes Mixed verdicts",
-      "url": "https://github.com/advisories/GHSA-32g3-35g9-wc9g",
-      "date": "2026-06-10T13:38:50.000Z",
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: A malformed request can cause a server crash",
+      "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
+      "date": "2026-06-11T13:27:57.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@hulumi/baseline] @hulumi/baseline: AccountFoundation audit-delivery S3 bucket could be silently weakened",
-      "url": "https://github.com/advisories/GHSA-2mxr-p26x-mj73",
-      "date": "2026-06-10T13:38:39.000Z",
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: A malformed request can cause a server crash",
+      "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
+      "date": "2026-06-11T13:27:57.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@hulumi/policies] @hulumi/policies has a HULUMI-H5 bypass via decoy sibling resources targeting a different bucket",
-      "url": "https://github.com/advisories/GHSA-9vc9-4jv3-rf86",
-      "date": "2026-06-10T13:38:26.000Z",
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: A malformed request can cause a server crash",
+      "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
+      "date": "2026-06-11T13:27:57.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@hulumi/policies] @hulumi/policies bypasses policy packs with a forged Pulumi-URN logical name",
-      "url": "https://github.com/advisories/GHSA-rhgj-6g2c-frmm",
-      "date": "2026-06-10T13:37:40.000Z",
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: A malformed request can cause a server crash",
+      "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
+      "date": "2026-06-11T13:27:57.000Z",
       "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: A malformed request can cause a server crash",
+      "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
+      "date": "2026-06-11T13:27:57.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: A malformed request can cause a server crash",
+      "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
+      "date": "2026-06-11T13:27:57.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
+      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
+      "date": "2026-06-11T13:27:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
+      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
+      "date": "2026-06-11T13:27:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
+      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
+      "date": "2026-06-11T13:27:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
+      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
+      "date": "2026-06-11T13:27:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
+      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
+      "date": "2026-06-11T13:27:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
+      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
+      "date": "2026-06-11T13:27:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[joi] joi has an uncaught RangeError on deeply nested input through recursive `link()` schemas",
+      "url": "https://github.com/advisories/GHSA-q7cg-457f-vx79",
+      "date": "2026-06-11T13:27:33.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@openzeppelin/wizard] OpenZeppelin Contracts Wizard has Code Injection in Generated Hardhat and Foundry Tests via Unsanitized opts.name / opts.uri",
+      "url": "https://github.com/advisories/GHSA-4x76-22x2-rx8v",
+      "date": "2026-06-11T13:27:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hapi/wreck] @hapi/wreck: Sensitive credential headers leak across cross-port and cross-scheme redirects",
+      "url": "https://github.com/advisories/GHSA-x426-x7cc-3fpc",
+      "date": "2026-06-11T13:27:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@element-hq/element-call-embedded] Element Call reports full URLs of visited pages to analytics server",
+      "url": "https://github.com/advisories/GHSA-6vhh-4xw6-h2h2",
+      "date": "2026-06-11T13:26:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pdm] PDM: Project-Controlled `.pdm-plugins` Content Executes Before CLI Parsing",
+      "url": "https://github.com/advisories/GHSA-qq6c-99pv-prvf",
+      "date": "2026-06-11T13:25:31.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
