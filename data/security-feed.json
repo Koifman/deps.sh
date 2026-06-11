@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-06-11T09:41:55.040Z",
+  "fetchedAt": "2026-06-11T11:40:33.374Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2021-0156: Vulnerability in triton-vm",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2021-0156.html",
+      "date": "2026-06-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[pdm] PDM  wheel installation leads to Path Traversal via overridden write_to_fs",
       "url": "https://github.com/advisories/GHSA-78v8-vpjp-cjqh",
@@ -131,13 +137,6 @@
       "title": "[@hulumi/policies] @hulumi/policies bypasses policy packs with a forged Pulumi-URN logical name",
       "url": "https://github.com/advisories/GHSA-rhgj-6g2c-frmm",
       "date": "2026-06-10T13:37:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@hulumi/policies] @hulumi/policies bypasses IAM-role policy checks when the role trusts multiple OIDC providers",
-      "url": "https://github.com/advisories/GHSA-g759-4pxw-6692",
-      "date": "2026-06-10T13:37:10.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
