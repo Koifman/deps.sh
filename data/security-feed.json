@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-11T19:10:03.465Z",
+  "fetchedAt": "2026-06-11T20:57:09.831Z",
   "entries": [
+    {
+      "title": "[wsgidav] WsgiDAV encoded dot segments can escape filesystem share roots",
+      "url": "https://github.com/advisories/GHSA-wxq4-cc2q-338q",
+      "date": "2026-06-11T20:28:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[kolibri] Kolibri has Unauthenticated Server-Side Request Forgery (SSRF) in RemoteFacilityUserViewset",
       "url": "https://github.com/advisories/GHSA-4mj9-pf4r-cqrc",
@@ -133,13 +140,6 @@
       "date": "2026-06-11T13:27:26.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@hapi/wreck] @hapi/wreck: Sensitive credential headers leak across cross-port and cross-scheme redirects",
-      "url": "https://github.com/advisories/GHSA-x426-x7cc-3fpc",
-      "date": "2026-06-11T13:27:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
