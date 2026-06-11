@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-11T17:24:08.010Z",
+  "fetchedAt": "2026-06-11T19:10:03.465Z",
   "entries": [
+    {
+      "title": "[kolibri] Kolibri has Unauthenticated Server-Side Request Forgery (SSRF) in RemoteFacilityUserViewset",
+      "url": "https://github.com/advisories/GHSA-4mj9-pf4r-cqrc",
+      "date": "2026-06-11T17:10:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@hapi/inert] @hapi/inert has a static-file confinement bypass via sibling-prefix path",
+      "url": "https://github.com/advisories/GHSA-rcvq-m9j9-6f4g",
+      "date": "2026-06-11T17:10:16.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[zeroconf] python-zeroconf: Unbounded TC-deferred queue allows LAN-local memory exhaustion via spoofed-source flood",
       "url": "https://github.com/advisories/GHSA-9663-mqmp-p9mm",
@@ -126,20 +140,6 @@
       "date": "2026-06-11T13:27:06.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@element-hq/element-call-embedded] Element Call reports full URLs of visited pages to analytics server",
-      "url": "https://github.com/advisories/GHSA-6vhh-4xw6-h2h2",
-      "date": "2026-06-11T13:26:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pdm] PDM: Project-Controlled `.pdm-plugins` Content Executes Before CLI Parsing",
-      "url": "https://github.com/advisories/GHSA-qq6c-99pv-prvf",
-      "date": "2026-06-11T13:25:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
