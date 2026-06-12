@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-06-12T15:12:23.432Z",
+  "fetchedAt": "2026-06-12T17:08:53.448Z",
   "entries": [
+    {
+      "title": "[@budibase/server] Budibase: SSRF via OAuth2 Config Validation — Missing fetchWithBlacklist Protection",
+      "url": "https://github.com/advisories/GHSA-g6qx-g4pr-92v7",
+      "date": "2026-06-12T15:08:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[budibase] Budibase: SSRF via User-Controlled queryId in Automation Execute Query Step",
+      "url": "https://github.com/advisories/GHSA-6964-pp88-6wp9",
+      "date": "2026-06-12T15:08:26.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mlflow] MLflow authenticated users can enumerate any registered model versions due to lack of per-model permissions checks",
+      "url": "https://github.com/advisories/GHSA-w5xq-c4pf-ghq7",
+      "date": "2026-06-12T15:05:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@langchain/langgraph-checkpoint-mongodb] LangGraph has NoSQL parameter injection in MongoDBSaver, allowing cross-tenant state access",
+      "url": "https://github.com/advisories/GHSA-98xf-r82g-9mhx",
+      "date": "2026-06-12T15:05:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[wsgidav] WsgiDAV encoded dot segments can escape filesystem share roots",
       "url": "https://github.com/advisories/GHSA-wxq4-cc2q-338q",
@@ -110,34 +138,6 @@
       "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
       "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
       "date": "2026-06-11T13:27:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
-      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
-      "date": "2026-06-11T13:27:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
-      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
-      "date": "2026-06-11T13:27:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[joi] joi has an uncaught RangeError on deeply nested input through recursive `link()` schemas",
-      "url": "https://github.com/advisories/GHSA-q7cg-457f-vx79",
-      "date": "2026-06-11T13:27:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@openzeppelin/wizard] OpenZeppelin Contracts Wizard has Code Injection in Generated Hardhat and Foundry Tests via Unsanitized opts.name / opts.uri",
-      "url": "https://github.com/advisories/GHSA-4x76-22x2-rx8v",
-      "date": "2026-06-11T13:27:26.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
