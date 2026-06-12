@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-12T18:50:54.075Z",
+  "fetchedAt": "2026-06-12T19:44:34.547Z",
   "entries": [
+    {
+      "title": "[joi] joi has an uncaught RangeError on deeply nested input through recursive `link()` schemas",
+      "url": "https://github.com/advisories/GHSA-q7cg-457f-vx79",
+      "date": "2026-06-12T19:28:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[joi] joi has an uncaught RangeError on deeply nested input through recursive `link()` schemas",
+      "url": "https://github.com/advisories/GHSA-q7cg-457f-vx79",
+      "date": "2026-06-12T19:28:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[tornado] Tornado has out-of-bounds memory access via C extension",
       "url": "https://github.com/advisories/GHSA-cx3h-4qpv-8hc9",
@@ -123,20 +137,6 @@
       "date": "2026-06-11T17:10:16.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[zeroconf] python-zeroconf: Unbounded TC-deferred queue allows LAN-local memory exhaustion via spoofed-source flood",
-      "url": "https://github.com/advisories/GHSA-9663-mqmp-p9mm",
-      "date": "2026-06-11T13:28:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[meta-ads-mcp] Meta Ads MCP: Unauthenticated HTTP MCP Tool Execution Leaks Operator Meta Access Token",
-      "url": "https://github.com/advisories/GHSA-9gw6-46qc-99vr",
-      "date": "2026-06-11T13:28:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
