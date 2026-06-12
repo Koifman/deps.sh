@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-06-12T17:08:53.448Z",
+  "fetchedAt": "2026-06-12T18:50:54.075Z",
   "entries": [
+    {
+      "title": "[tornado] Tornado has out-of-bounds memory access via C extension",
+      "url": "https://github.com/advisories/GHSA-cx3h-4qpv-8hc9",
+      "date": "2026-06-12T18:30:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[pypdf] pypdf: Possible long runtimes for zero-only width values in cross-reference streamsuntimes for zero-only width values in cross-reference streams",
+      "url": "https://github.com/advisories/GHSA-248m-82v9-q6g6",
+      "date": "2026-06-12T18:30:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pypdf] pypdf: Possible large memory usage for large offsets for layout mode text",
+      "url": "https://github.com/advisories/GHSA-cj93-chg6-vgv8",
+      "date": "2026-06-12T18:29:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@budibase/server] Budibase: Basic app users can exfiltrate stored REST datasource auth by rewriting datasource base URL",
+      "url": "https://github.com/advisories/GHSA-3gp5-q4jw-3v94",
+      "date": "2026-06-12T18:28:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase: Webhook schema endpoint authorization bypass allows unauthenticated mutation of webhook and automation schema",
+      "url": "https://github.com/advisories/GHSA-qhv3-wjg8-6fx6",
+      "date": "2026-06-12T18:28:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase: Workspace-scoped builder escalates to global admin via /api/public/v1/roles/assign",
+      "url": "https://github.com/advisories/GHSA-6xp4-cf37-ppjh",
+      "date": "2026-06-12T18:28:26.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@budibase/server] Budibase: Unvalidated VectorDB Host Parameter Enables SSRF",
+      "url": "https://github.com/advisories/GHSA-cv96-5348-p5p8",
+      "date": "2026-06-12T18:27:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@budibase/backend-core] Budibase: Unanchored Regex in `matchers.ts` Allows CSRF Bypass via Query String Injection in Budibase Worker",
+      "url": "https://github.com/advisories/GHSA-wxq7-x3qp-vcr8",
+      "date": "2026-06-12T18:23:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@budibase/server] Budibase: SSRF via OAuth2 Config Validation — Missing fetchWithBlacklist Protection",
       "url": "https://github.com/advisories/GHSA-g6qx-g4pr-92v7",
@@ -28,6 +84,24 @@
       "date": "2026-06-12T15:05:32.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
+    },
+    {
+      "title": "RUSTSEC-2026-0178: Vulnerability in tokio-postgres",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0178.html",
+      "date": "2026-06-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0179: Vulnerability in postgres-protocol",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0179.html",
+      "date": "2026-06-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0180: Vulnerability in postgres-protocol",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0180.html",
+      "date": "2026-06-12T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
       "title": "[wsgidav] WsgiDAV encoded dot segments can escape filesystem share roots",
@@ -63,83 +137,6 @@
       "date": "2026-06-11T13:28:32.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[@cyntler/react-doc-viewer] @cyntler/react-doc-viewer's TXTRenderer fails to sanitize file content and explicitly casts raw data as a ReactNode",
-      "url": "https://github.com/advisories/GHSA-fvhg-p4hf-79x3",
-      "date": "2026-06-11T13:28:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: A malformed request can cause a server crash",
-      "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
-      "date": "2026-06-11T13:27:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: A malformed request can cause a server crash",
-      "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
-      "date": "2026-06-11T13:27:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: A malformed request can cause a server crash",
-      "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
-      "date": "2026-06-11T13:27:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: A malformed request can cause a server crash",
-      "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
-      "date": "2026-06-11T13:27:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: A malformed request can cause a server crash",
-      "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
-      "date": "2026-06-11T13:27:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: A malformed request can cause a server crash",
-      "url": "https://github.com/advisories/GHSA-5375-pq7m-f5r2",
-      "date": "2026-06-11T13:27:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
-      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
-      "date": "2026-06-11T13:27:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
-      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
-      "date": "2026-06-11T13:27:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
-      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
-      "date": "2026-06-11T13:27:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: An incoming malformed compressed message can cause a client or server crash",
-      "url": "https://github.com/advisories/GHSA-99f4-grh7-6pcq",
-      "date": "2026-06-11T13:27:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
