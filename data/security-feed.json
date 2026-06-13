@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-06-13T05:39:55.053Z",
+  "fetchedAt": "2026-06-13T07:31:00.930Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0176: Vulnerability in pyo3",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0176.html",
+      "date": "2026-06-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0177: Vulnerability in pyo3",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0177.html",
+      "date": "2026-06-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[cordova-plugin-inappbrowser] Cordova Plugin InAppBrowser: iOS: Arbitrary Cordova callback IDs can be dispatched without validation from InAppBrowser WebViews.",
       "url": "https://github.com/advisories/GHSA-q42j-x8rq-pjg6",
@@ -126,18 +138,6 @@
       "date": "2026-06-12T15:05:32.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0178: Vulnerability in tokio-postgres",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0178.html",
-      "date": "2026-06-12T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0179: Vulnerability in postgres-protocol",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0179.html",
-      "date": "2026-06-12T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
