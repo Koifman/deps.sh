@@ -1,142 +1,145 @@
 {
-  "fetchedAt": "2026-06-15T16:44:07.645Z",
+  "fetchedAt": "2026-06-15T18:38:23.940Z",
   "entries": [
     {
-      "title": "[@angular/core] Angular Client Hydration DOM Clobbering & Response-Cache Poisoning",
-      "url": "https://github.com/advisories/GHSA-rgjc-h3x7-9mwg",
-      "date": "2026-06-15T15:16:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/core] Angular Client Hydration DOM Clobbering & Response-Cache Poisoning",
-      "url": "https://github.com/advisories/GHSA-rgjc-h3x7-9mwg",
-      "date": "2026-06-15T15:16:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/core] Angular Client Hydration DOM Clobbering & Response-Cache Poisoning",
-      "url": "https://github.com/advisories/GHSA-rgjc-h3x7-9mwg",
-      "date": "2026-06-15T15:16:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/core] Angular Client Hydration DOM Clobbering & Response-Cache Poisoning",
-      "url": "https://github.com/advisories/GHSA-rgjc-h3x7-9mwg",
-      "date": "2026-06-15T15:16:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0181: Vulnerability in vibeio-http",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0181.html",
-      "date": "2026-06-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0176: Vulnerability in pyo3",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0176.html",
-      "date": "2026-06-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0177: Vulnerability in pyo3",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0177.html",
-      "date": "2026-06-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[cordova-plugin-inappbrowser] Cordova Plugin InAppBrowser: iOS: Arbitrary Cordova callback IDs can be dispatched without validation from InAppBrowser WebViews.",
-      "url": "https://github.com/advisories/GHSA-q42j-x8rq-pjg6",
-      "date": "2026-06-12T21:01:12.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[fabric] Fabric.js improper escaping in fabric.Gradient colorStops leads to XSS in SVG serialization",
-      "url": "https://github.com/advisories/GHSA-w22m-hvvm-xmwx",
-      "date": "2026-06-12T21:00:35.000Z",
+      "title": "[nodemailer] Nodemailer: CRLF injection in Nodemailer List-* header comments allows arbitrary message header injection",
+      "url": "https://github.com/advisories/GHSA-268h-hp4c-crq3",
+      "date": "2026-06-15T17:36:07.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[esbuild] esbuild: Missing binary integrity verification in Deno module enables remote code execution via NPM_CONFIG_REGISTRY",
-      "url": "https://github.com/advisories/GHSA-gv7w-rqvm-qjhr",
-      "date": "2026-06-12T20:08:59.000Z",
+      "title": "[nodemailer] Nodemailer jsonTransport bypasses disableFileAccess and disableUrlAccess during message normalization",
+      "url": "https://github.com/advisories/GHSA-wqvq-jvpq-h66f",
+      "date": "2026-06-15T17:35:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nodemailer] Nodemailer: Improper TLS Certificate Validation in OAuth2 Token Fetch Enables Credential Interception",
+      "url": "https://github.com/advisories/GHSA-r7g4-qg5f-qqm2",
+      "date": "2026-06-15T17:34:49.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[protobufjs] protobufjs: Denial of service through unbounded Any expansion during JSON conversion",
+      "url": "https://github.com/advisories/GHSA-wcpc-wj8m-hjx6",
+      "date": "2026-06-15T17:30:15.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[esbuild] esbuild allows arbitrary file read when running the development server on Windows",
-      "url": "https://github.com/advisories/GHSA-g7r4-m6w7-qqqr",
-      "date": "2026-06-12T20:08:54.000Z",
+      "title": "[protobufjs] protobufjs: Denial of service through unbounded Any expansion during JSON conversion",
+      "url": "https://github.com/advisories/GHSA-wcpc-wj8m-hjx6",
+      "date": "2026-06-15T17:30:15.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "HIGH"
     },
     {
-      "title": "[joi] joi has an uncaught RangeError on deeply nested input through recursive `link()` schemas",
-      "url": "https://github.com/advisories/GHSA-q7cg-457f-vx79",
-      "date": "2026-06-12T19:28:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[joi] joi has an uncaught RangeError on deeply nested input through recursive `link()` schemas",
-      "url": "https://github.com/advisories/GHSA-q7cg-457f-vx79",
-      "date": "2026-06-12T19:28:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[tornado] Tornado has out-of-bounds memory access via C extension",
-      "url": "https://github.com/advisories/GHSA-cx3h-4qpv-8hc9",
-      "date": "2026-06-12T18:30:21.000Z",
+      "title": "[pyjwt] PyJWKClient unbounded JWKS endpoint requests via attacker-controlled kid values (DoS)",
+      "url": "https://github.com/advisories/GHSA-fhv5-28vv-h8m8",
+      "date": "2026-06-15T17:28:46.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
     },
     {
-      "title": "[pypdf] pypdf: Possible long runtimes for zero-only width values in cross-reference streamsuntimes for zero-only width values in cross-reference streams",
-      "url": "https://github.com/advisories/GHSA-248m-82v9-q6g6",
-      "date": "2026-06-12T18:30:01.000Z",
-      "ecosystem": "pypi",
+      "title": "[protobufjs] protobufjs : Schema-derived names can shadow runtime-significant properties",
+      "url": "https://github.com/advisories/GHSA-f38q-mgvj-vph7",
+      "date": "2026-06-15T17:27:19.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[pypdf] pypdf: Possible large memory usage for large offsets for layout mode text",
-      "url": "https://github.com/advisories/GHSA-cj93-chg6-vgv8",
-      "date": "2026-06-12T18:29:16.000Z",
-      "ecosystem": "pypi",
+      "title": "[protobufjs-cli] protobufjs : Schema-derived names can shadow runtime-significant properties",
+      "url": "https://github.com/advisories/GHSA-f38q-mgvj-vph7",
+      "date": "2026-06-15T17:27:19.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@budibase/server] Budibase: Basic app users can exfiltrate stored REST datasource auth by rewriting datasource base URL",
-      "url": "https://github.com/advisories/GHSA-3gp5-q4jw-3v94",
-      "date": "2026-06-12T18:28:40.000Z",
+      "title": "[protobufjs-cli] protobufjs : Schema-derived names can shadow runtime-significant properties",
+      "url": "https://github.com/advisories/GHSA-f38q-mgvj-vph7",
+      "date": "2026-06-15T17:27:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[protobufjs] protobufjs : Schema-derived names can shadow runtime-significant properties",
+      "url": "https://github.com/advisories/GHSA-f38q-mgvj-vph7",
+      "date": "2026-06-15T17:27:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[form-data] form-data: CRLF injection in form-data via unescaped multipart field names and filenames",
+      "url": "https://github.com/advisories/GHSA-hmw2-7cc7-3qxx",
+      "date": "2026-06-15T17:26:27.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@budibase/server] Budibase: Webhook schema endpoint authorization bypass allows unauthenticated mutation of webhook and automation schema",
-      "url": "https://github.com/advisories/GHSA-qhv3-wjg8-6fx6",
-      "date": "2026-06-12T18:28:35.000Z",
+      "title": "[form-data] form-data: CRLF injection in form-data via unescaped multipart field names and filenames",
+      "url": "https://github.com/advisories/GHSA-hmw2-7cc7-3qxx",
+      "date": "2026-06-15T17:26:27.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@budibase/server] Budibase: Workspace-scoped builder escalates to global admin via /api/public/v1/roles/assign",
-      "url": "https://github.com/advisories/GHSA-6xp4-cf37-ppjh",
-      "date": "2026-06-12T18:28:26.000Z",
+      "title": "[form-data] form-data: CRLF injection in form-data via unescaped multipart field names and filenames",
+      "url": "https://github.com/advisories/GHSA-hmw2-7cc7-3qxx",
+      "date": "2026-06-15T17:26:27.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "HIGH"
     },
     {
-      "title": "[@budibase/server] Budibase: Unvalidated VectorDB Host Parameter Enables SSRF",
-      "url": "https://github.com/advisories/GHSA-cv96-5348-p5p8",
-      "date": "2026-06-12T18:27:48.000Z",
+      "title": "[@angular/service-worker] @angular/service-worker: Sensitive Header Leakage on Cross-Origin Redirects in Angular Service Worker",
+      "url": "https://github.com/advisories/GHSA-qxh6-94w6-9r5p",
+      "date": "2026-06-15T17:25:55.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/service-worker] @angular/service-worker: Sensitive Header Leakage on Cross-Origin Redirects in Angular Service Worker",
+      "url": "https://github.com/advisories/GHSA-qxh6-94w6-9r5p",
+      "date": "2026-06-15T17:25:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/service-worker] @angular/service-worker: Sensitive Header Leakage on Cross-Origin Redirects in Angular Service Worker",
+      "url": "https://github.com/advisories/GHSA-qxh6-94w6-9r5p",
+      "date": "2026-06-15T17:25:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/service-worker] @angular/service-worker: Sensitive Header Leakage on Cross-Origin Redirects in Angular Service Worker",
+      "url": "https://github.com/advisories/GHSA-qxh6-94w6-9r5p",
+      "date": "2026-06-15T17:25:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/common] @angular/common: Denial of Service (DoS) via OOM in Date Formatting (formatDate)",
+      "url": "https://github.com/advisories/GHSA-48r7-hpm6-gfxm",
+      "date": "2026-06-15T17:24:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/common] @angular/common: Denial of Service (DoS) via OOM in Date Formatting (formatDate)",
+      "url": "https://github.com/advisories/GHSA-48r7-hpm6-gfxm",
+      "date": "2026-06-15T17:24:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/common] @angular/common: Denial of Service (DoS) via OOM in Date Formatting (formatDate)",
+      "url": "https://github.com/advisories/GHSA-48r7-hpm6-gfxm",
+      "date": "2026-06-15T17:24:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
