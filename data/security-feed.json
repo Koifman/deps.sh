@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-06-16T21:56:01.349Z",
+  "fetchedAt": "2026-06-16T22:43:34.366Z",
   "entries": [
+    {
+      "title": "[yt-dlp] yt-dlp: Arbitrary command injection possible if --exec option used with yt-dlp",
+      "url": "https://github.com/advisories/GHSA-69qj-pvh9-c5wg",
+      "date": "2026-06-16T22:29:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[yt-dlp] yt-dlp: Arbitrary code execution via manifest downloads with aria2c",
+      "url": "https://github.com/advisories/GHSA-vx4q-3cr2-7cg2",
+      "date": "2026-06-16T21:13:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[crawl4ai] Crawl4AI: SSRF via proxy settings in the Docker server bypasses the crawl-URL SSRF check",
+      "url": "https://github.com/advisories/GHSA-6qhc-x826-342c",
+      "date": "2026-06-16T21:02:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[crawl4ai] Crawl4AI: Arbitrary file write (symlink/TOCTOU) plus log and webhook-header injection in Docker server",
+      "url": "https://github.com/advisories/GHSA-7cx2-g3h9-382p",
+      "date": "2026-06-16T21:02:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[crawl4ai] Crawl4AI: LLM credential exfiltration in Docker server via request base_url and env: token resolution",
+      "url": "https://github.com/advisories/GHSA-f989-c77f-r2cq",
+      "date": "2026-06-16T21:00:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[crawl4ai] Crawl4AI: SSRF filter bypass in Docker server via IPv6 transition forms (NAT64 / 6to4 / unspecified / v4-mapped)",
+      "url": "https://github.com/advisories/GHSA-4qqr-vv2q-cmr5",
+      "date": "2026-06-16T21:00:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[yt-dlp] yt-dlp: Dangerous file type creation via insufficient filename sanitization (Bypass of CVE-2024-38519)",
+      "url": "https://github.com/advisories/GHSA-c6mh-fpjc-4pr3",
+      "date": "2026-06-16T20:59:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[yt-dlp] yt-dlp: File Downloader cookie leak with curl",
       "url": "https://github.com/advisories/GHSA-f7j3-774f-rfhj",
@@ -89,55 +138,6 @@
       "title": "[n8n] n8n: Missing Token Validation on Microsoft Agent 365 Trigger and Stripe Nodes",
       "url": "https://github.com/advisories/GHSA-jvc7-762p-3743",
       "date": "2026-06-16T19:00:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Wrong OAuth Scope On Evaluations Test Run Creation Endpoint",
-      "url": "https://github.com/advisories/GHSA-hv7x-3x78-gx53",
-      "date": "2026-06-16T19:00:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Wrong OAuth Scope On Evaluations Test Run Creation Endpoint",
-      "url": "https://github.com/advisories/GHSA-hv7x-3x78-gx53",
-      "date": "2026-06-16T19:00:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Wrong OAuth Scope On Evaluations Test Run Creation Endpoint",
-      "url": "https://github.com/advisories/GHSA-hv7x-3x78-gx53",
-      "date": "2026-06-16T19:00:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: NoSQL Injection in MongoDB Node Find And Replace Operation",
-      "url": "https://github.com/advisories/GHSA-jpq7-226w-6cxx",
-      "date": "2026-06-16T18:59:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: SQL Injection in Postgres v1/TimesclaeDB Nodes",
-      "url": "https://github.com/advisories/GHSA-c37g-w77q-m4vp",
-      "date": "2026-06-16T17:51:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: SQL Injection in Postgres v1/TimesclaeDB Nodes",
-      "url": "https://github.com/advisories/GHSA-c37g-w77q-m4vp",
-      "date": "2026-06-16T17:51:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Git Node Clone and Push Operations Bypass File Sandbox",
-      "url": "https://github.com/advisories/GHSA-5xp3-2w67-427v",
-      "date": "2026-06-16T17:37:56.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
