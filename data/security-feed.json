@@ -1,7 +1,112 @@
 {
-  "fetchedAt": "2026-06-16T18:35:37.969Z",
+  "fetchedAt": "2026-06-16T20:08:05.032Z",
   "entries": [
     {
+      "title": "[n8n] n8n: Merge Node SQL Mode Prototype Pollution",
+      "url": "https://github.com/advisories/GHSA-9c38-2mcm-q7f7",
+      "date": "2026-06-16T19:01:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Merge Node SQL Mode Prototype Pollution",
+      "url": "https://github.com/advisories/GHSA-9c38-2mcm-q7f7",
+      "date": "2026-06-16T19:01:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Prototype Pollution enables confused-deputy execution via public webhooks",
+      "url": "https://github.com/advisories/GHSA-2vff-hj5x-8gq7",
+      "date": "2026-06-16T19:00:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Prototype Pollution enables confused-deputy execution via public webhooks",
+      "url": "https://github.com/advisories/GHSA-2vff-hj5x-8gq7",
+      "date": "2026-06-16T19:00:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Same-Origin XSS in Respond to Webhook Node",
+      "url": "https://github.com/advisories/GHSA-v733-mwr6-fgcm",
+      "date": "2026-06-16T19:00:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Same-Origin XSS in Respond to Webhook Node",
+      "url": "https://github.com/advisories/GHSA-v733-mwr6-fgcm",
+      "date": "2026-06-16T19:00:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Same-Origin XSS in Respond to Webhook Node",
+      "url": "https://github.com/advisories/GHSA-v733-mwr6-fgcm",
+      "date": "2026-06-16T19:00:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Missing Token Validation on Microsoft Agent 365 Trigger and Stripe Nodes",
+      "url": "https://github.com/advisories/GHSA-jvc7-762p-3743",
+      "date": "2026-06-16T19:00:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Missing Token Validation on Microsoft Agent 365 Trigger and Stripe Nodes",
+      "url": "https://github.com/advisories/GHSA-jvc7-762p-3743",
+      "date": "2026-06-16T19:00:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Wrong OAuth Scope On Evaluations Test Run Creation Endpoint",
+      "url": "https://github.com/advisories/GHSA-hv7x-3x78-gx53",
+      "date": "2026-06-16T19:00:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Wrong OAuth Scope On Evaluations Test Run Creation Endpoint",
+      "url": "https://github.com/advisories/GHSA-hv7x-3x78-gx53",
+      "date": "2026-06-16T19:00:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Wrong OAuth Scope On Evaluations Test Run Creation Endpoint",
+      "url": "https://github.com/advisories/GHSA-hv7x-3x78-gx53",
+      "date": "2026-06-16T19:00:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: NoSQL Injection in MongoDB Node Find And Replace Operation",
+      "url": "https://github.com/advisories/GHSA-jpq7-226w-6cxx",
+      "date": "2026-06-16T18:59:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: SQL Injection in Postgres v1/TimesclaeDB Nodes",
+      "url": "https://github.com/advisories/GHSA-c37g-w77q-m4vp",
+      "date": "2026-06-16T17:51:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: SQL Injection in Postgres v1/TimesclaeDB Nodes",
+      "url": "https://github.com/advisories/GHSA-c37g-w77q-m4vp",
+      "date": "2026-06-16T17:51:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
       "title": "[n8n] n8n: Git Node Clone and Push Operations Bypass File Sandbox",
       "url": "https://github.com/advisories/GHSA-5xp3-2w67-427v",
       "date": "2026-06-16T17:37:56.000Z",
@@ -35,111 +140,6 @@
       "date": "2026-06-16T17:37:22.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Python sandbox escape",
-      "url": "https://github.com/advisories/GHSA-9pq8-m8gp-4p53",
-      "date": "2026-06-16T17:37:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vllm] vLLM: OpenAI auth bypass",
-      "url": "https://github.com/advisories/GHSA-94f4-hr76-p5j6",
-      "date": "2026-06-16T17:36:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[langflow] Langflow: Unauthenticated Shareable Playground arbitrary local or S3 file read",
-      "url": "https://github.com/advisories/GHSA-rcjh-r59h-gq37",
-      "date": "2026-06-16T17:36:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langflow] Langflow: Unauthenticated RCE in Shareable Playgrounds",
-      "url": "https://github.com/advisories/GHSA-v5ff-9q35-q26f",
-      "date": "2026-06-16T17:35:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[langflow] Langflow: Path Traversal in Knowledge Bases API via Creation Endpoint",
-      "url": "https://github.com/advisories/GHSA-79ph-745m-6wxq",
-      "date": "2026-06-16T17:35:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vllm] vLLM: Security Check Bypass via assert Statement in Activation Function Loading Allows Arbitrary Code Execution",
-      "url": "https://github.com/advisories/GHSA-q8gq-377p-jq3r",
-      "date": "2026-06-16T17:34:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langflow] Langflow: IDOR/BOLA in Monitor API — Missing Ownership Enforcement on 7 Endpoints",
-      "url": "https://github.com/advisories/GHSA-9c59-2mvc-vfr8",
-      "date": "2026-06-16T17:34:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langchain-anthropic] LangChain: Path traversal and sandbox escape in LangChain file-search middleware and loaders",
-      "url": "https://github.com/advisories/GHSA-gr75-jv2w-4656",
-      "date": "2026-06-16T15:03:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langchain] LangChain: Path traversal and sandbox escape in LangChain file-search middleware and loaders",
-      "url": "https://github.com/advisories/GHSA-gr75-jv2w-4656",
-      "date": "2026-06-16T15:03:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[astro] Astro: XSS via Unescaped Attribute Names in Spread Props",
-      "url": "https://github.com/advisories/GHSA-jrpj-wcv7-9fh9",
-      "date": "2026-06-16T14:57:22.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[astro] Astro: Host header SSRF in prerendered error page fetch",
-      "url": "https://github.com/advisories/GHSA-2pvr-wf23-7pc7",
-      "date": "2026-06-16T14:38:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@astrojs/netlify] @astrojs/netlify broadens Astro image.remotePatterns in Netlify Image CDN config",
-      "url": "https://github.com/advisories/GHSA-529g-xq4f-cw38",
-      "date": "2026-06-16T14:37:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] Natural Language Toolkit (NLTK): URL-Encoded Path Traversal in nltk.data.load() Allows Arbitrary Local File Read",
-      "url": "https://github.com/advisories/GHSA-p4gq-832x-fm9v",
-      "date": "2026-06-16T14:34:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[hono] hono: Body Limit Middleware can be bypassed on AWS Lambda by understating `Content-Length`",
-      "url": "https://github.com/advisories/GHSA-rv63-4mwf-qqc2",
-      "date": "2026-06-16T14:32:50.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] hono: Lambda@Edge adapter keeps only the last value of a repeated request header, dropping the rest",
-      "url": "https://github.com/advisories/GHSA-wgpf-jwqj-8h8p",
-      "date": "2026-06-16T14:32:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
