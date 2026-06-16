@@ -1,6 +1,97 @@
 {
-  "fetchedAt": "2026-06-16T22:43:34.366Z",
+  "fetchedAt": "2026-06-16T23:37:26.792Z",
   "entries": [
+    {
+      "title": "[n8n] n8n: Credential Exfiltration via Permission Bypass",
+      "url": "https://github.com/advisories/GHSA-pmqw-72cg-wx85",
+      "date": "2026-06-16T23:02:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Credential Exfiltration via Permission Bypass",
+      "url": "https://github.com/advisories/GHSA-pmqw-72cg-wx85",
+      "date": "2026-06-16T23:02:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Credential Exfiltration via Permission Bypass",
+      "url": "https://github.com/advisories/GHSA-pmqw-72cg-wx85",
+      "date": "2026-06-16T23:02:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Denial of Service via ZIP decompression in webhook workflow",
+      "url": "https://github.com/advisories/GHSA-jqpw-qww5-cj4c",
+      "date": "2026-06-16T23:01:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Public API Execution Retry Authorization Bypass",
+      "url": "https://github.com/advisories/GHSA-h3jj-5f3v-3685",
+      "date": "2026-06-16T22:40:07.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Public API Execution Retry Authorization Bypass",
+      "url": "https://github.com/advisories/GHSA-h3jj-5f3v-3685",
+      "date": "2026-06-16T22:40:07.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Python Code Node AST Validator Bypass",
+      "url": "https://github.com/advisories/GHSA-jwm3-qcfw-c5pp",
+      "date": "2026-06-16T22:39:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Python Code Node AST Validator Bypass",
+      "url": "https://github.com/advisories/GHSA-jwm3-qcfw-c5pp",
+      "date": "2026-06-16T22:39:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Stored XSS in Chat Trigger Node",
+      "url": "https://github.com/advisories/GHSA-42h7-m79w-wvg5",
+      "date": "2026-06-16T22:39:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Stored XSS in Chat Trigger Node",
+      "url": "https://github.com/advisories/GHSA-42h7-m79w-wvg5",
+      "date": "2026-06-16T22:39:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Stored XSS in Chat Trigger Node",
+      "url": "https://github.com/advisories/GHSA-42h7-m79w-wvg5",
+      "date": "2026-06-16T22:39:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Reflected XSS via Facebook, WhatsApp, and Microsoft Teams Trigger Webhook Verification Endpoints",
+      "url": "https://github.com/advisories/GHSA-h86q-fx34-gfjr",
+      "date": "2026-06-16T22:39:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Microsoft SQL Node Prototype Pollution",
+      "url": "https://github.com/advisories/GHSA-x6p3-m6h9-fx7r",
+      "date": "2026-06-16T22:38:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[yt-dlp] yt-dlp: Arbitrary command injection possible if --exec option used with yt-dlp",
       "url": "https://github.com/advisories/GHSA-69qj-pvh9-c5wg",
@@ -49,97 +140,6 @@
       "date": "2026-06-16T20:59:44.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[yt-dlp] yt-dlp: File Downloader cookie leak with curl",
-      "url": "https://github.com/advisories/GHSA-f7j3-774f-rfhj",
-      "date": "2026-06-16T20:16:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@lobehub/lobehub] LobeHub: Unauthenticated SSRF in `/webapi/proxy`",
-      "url": "https://github.com/advisories/GHSA-xmwj-c75x-6346",
-      "date": "2026-06-16T20:15:57.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[crawl4ai] Crawl4AI: Multiple Docker API Vulnerabilities - File Write, SSRF, Auth Bypass, XSS, JS Execution",
-      "url": "https://github.com/advisories/GHSA-365w-hqf6-vxfg",
-      "date": "2026-06-16T20:13:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[crawl4ai] Crawl4AI: AST Sandbox Escape via gi_frame.f_back Chain - Pre-Auth RCE in Docker API",
-      "url": "https://github.com/advisories/GHSA-qxjp-w3pj-48m7",
-      "date": "2026-06-16T20:13:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[n8n] n8n: Merge Node SQL Mode Prototype Pollution",
-      "url": "https://github.com/advisories/GHSA-9c38-2mcm-q7f7",
-      "date": "2026-06-16T19:01:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Merge Node SQL Mode Prototype Pollution",
-      "url": "https://github.com/advisories/GHSA-9c38-2mcm-q7f7",
-      "date": "2026-06-16T19:01:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Prototype Pollution enables confused-deputy execution via public webhooks",
-      "url": "https://github.com/advisories/GHSA-2vff-hj5x-8gq7",
-      "date": "2026-06-16T19:00:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Prototype Pollution enables confused-deputy execution via public webhooks",
-      "url": "https://github.com/advisories/GHSA-2vff-hj5x-8gq7",
-      "date": "2026-06-16T19:00:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Same-Origin XSS in Respond to Webhook Node",
-      "url": "https://github.com/advisories/GHSA-v733-mwr6-fgcm",
-      "date": "2026-06-16T19:00:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Same-Origin XSS in Respond to Webhook Node",
-      "url": "https://github.com/advisories/GHSA-v733-mwr6-fgcm",
-      "date": "2026-06-16T19:00:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Same-Origin XSS in Respond to Webhook Node",
-      "url": "https://github.com/advisories/GHSA-v733-mwr6-fgcm",
-      "date": "2026-06-16T19:00:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Missing Token Validation on Microsoft Agent 365 Trigger and Stripe Nodes",
-      "url": "https://github.com/advisories/GHSA-jvc7-762p-3743",
-      "date": "2026-06-16T19:00:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Missing Token Validation on Microsoft Agent 365 Trigger and Stripe Nodes",
-      "url": "https://github.com/advisories/GHSA-jvc7-762p-3743",
-      "date": "2026-06-16T19:00:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
