@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-06-16T20:08:05.032Z",
+  "fetchedAt": "2026-06-16T21:56:01.349Z",
   "entries": [
+    {
+      "title": "[yt-dlp] yt-dlp: File Downloader cookie leak with curl",
+      "url": "https://github.com/advisories/GHSA-f7j3-774f-rfhj",
+      "date": "2026-06-16T20:16:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@lobehub/lobehub] LobeHub: Unauthenticated SSRF in `/webapi/proxy`",
+      "url": "https://github.com/advisories/GHSA-xmwj-c75x-6346",
+      "date": "2026-06-16T20:15:57.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[crawl4ai] Crawl4AI: Multiple Docker API Vulnerabilities - File Write, SSRF, Auth Bypass, XSS, JS Execution",
+      "url": "https://github.com/advisories/GHSA-365w-hqf6-vxfg",
+      "date": "2026-06-16T20:13:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[crawl4ai] Crawl4AI: AST Sandbox Escape via gi_frame.f_back Chain - Pre-Auth RCE in Docker API",
+      "url": "https://github.com/advisories/GHSA-qxjp-w3pj-48m7",
+      "date": "2026-06-16T20:13:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[n8n] n8n: Merge Node SQL Mode Prototype Pollution",
       "url": "https://github.com/advisories/GHSA-9c38-2mcm-q7f7",
@@ -112,34 +140,6 @@
       "date": "2026-06-16T17:37:56.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Git Node Clone and Push Operations Bypass File Sandbox",
-      "url": "https://github.com/advisories/GHSA-5xp3-2w67-427v",
-      "date": "2026-06-16T17:37:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Git Node Clone and Push Operations Bypass File Sandbox",
-      "url": "https://github.com/advisories/GHSA-5xp3-2w67-427v",
-      "date": "2026-06-16T17:37:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Python sandbox escape",
-      "url": "https://github.com/advisories/GHSA-9pq8-m8gp-4p53",
-      "date": "2026-06-16T17:37:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Python sandbox escape",
-      "url": "https://github.com/advisories/GHSA-9pq8-m8gp-4p53",
-      "date": "2026-06-16T17:37:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
