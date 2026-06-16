@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-06-16T14:02:09.770Z",
+  "fetchedAt": "2026-06-16T16:37:58.239Z",
   "entries": [
     {
-      "title": "[nuxt] Nuxt: Dev server discloses project absolute path and persistent workspace UUID via `/.well-known/appspecific/com.chrome.devtools.json`",
-      "url": "https://github.com/advisories/GHSA-rq7w-g337-39qq",
-      "date": "2026-06-15T20:56:23.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[aws-cdk-lib] aws-cdk-lib: OS Command Injection in NodejsFunction Bundling",
-      "url": "https://github.com/advisories/GHSA-999r-qq7v-r334",
-      "date": "2026-06-15T20:47:37.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[markdown-it] markdown-it: Quadratic complexity DoS in smartquotes rule via replaceAt string operations",
-      "url": "https://github.com/advisories/GHSA-6v5v-wf23-fmfq",
-      "date": "2026-06-15T20:41:07.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[starlette] Starlette: request.form() limits silently ignored for application/x-www-form-urlencoded enable DoS",
-      "url": "https://github.com/advisories/GHSA-82w8-qh3p-5jfq",
-      "date": "2026-06-15T20:39:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@opentelemetry/core] OpenTelemetry Core: Unbounded memory allocation in W3C Baggage propagation",
-      "url": "https://github.com/advisories/GHSA-8988-4f7v-96qf",
-      "date": "2026-06-15T20:38:31.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Starlette] Starlette: Unvalidated request path concatenated into authority poisons request.url.hostname",
-      "url": "https://github.com/advisories/GHSA-jp82-jpqv-5vv3",
-      "date": "2026-06-15T20:38:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[tornado] Tornado: CurlAsyncHTTPClient leaks per-request credentials on handle reuse",
-      "url": "https://github.com/advisories/GHSA-pw6j-qg29-8w7f",
-      "date": "2026-06-15T20:37:26.000Z",
+      "title": "[langchain-anthropic] LangChain: Path traversal and sandbox escape in LangChain file-search middleware and loaders",
+      "url": "https://github.com/advisories/GHSA-gr75-jv2w-4656",
+      "date": "2026-06-16T15:03:15.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[@nestjs/platform-fastify] Nest: Middleware Bypass on Fastify via Trailing Slash",
-      "url": "https://github.com/advisories/GHSA-6v32-fjc9-9qf6",
-      "date": "2026-06-15T20:36:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[python-multipart] python-multipart: Quadratic-time querystring parsing with semicolon separators causes CPU denial of service",
-      "url": "https://github.com/advisories/GHSA-5rvq-cxj2-64vf",
-      "date": "2026-06-15T20:24:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[python-multipart] python-multipart: Negative Content-Length in parse_form buffers the entire body in memory",
-      "url": "https://github.com/advisories/GHSA-v9pg-7xvm-68hf",
-      "date": "2026-06-15T20:23:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[python-multipart] python-multipart: Semicolon treated as querystring field separator enables parameter smuggling",
-      "url": "https://github.com/advisories/GHSA-6jv3-5f52-599m",
-      "date": "2026-06-15T20:22:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[python-multipart] python-multipart: Content-Disposition parameter smuggling via RFC 2231/5987 extended parameters",
-      "url": "https://github.com/advisories/GHSA-vffw-93wf-4j4q",
-      "date": "2026-06-15T20:20:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[electron] Electron: Buffer performs incorrect byte length calculations resulting in heap buffer under/overflow",
-      "url": "https://github.com/advisories/GHSA-q6m5-f73j-m9mc",
-      "date": "2026-06-15T20:20:25.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[tornado] tornado AsyncHTTPClient accumulates decompressed chunks without size limit (gzip bomb)",
-      "url": "https://github.com/advisories/GHSA-mgf9-4vpg-hj56",
-      "date": "2026-06-15T20:20:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[tornado] Tornado: Authorization header forwarded across cross-origin redirects in SimpleAsyncHTTPClient",
-      "url": "https://github.com/advisories/GHSA-3x9g-8vmp-wqvf",
-      "date": "2026-06-15T20:20:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[starlette] Starlette: SSRF and NTLM credential theft via UNC paths in StaticFiles on Windows",
-      "url": "https://github.com/advisories/GHSA-wqp7-x3pw-xc5r",
-      "date": "2026-06-15T20:16:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[starlette] Starlette: Arbitrary HTTP method dispatched to `HTTPEndpoint` attributes via `getattr`",
-      "url": "https://github.com/advisories/GHSA-x746-7m8f-x49c",
-      "date": "2026-06-15T20:16:09.000Z",
+      "title": "[langchain] LangChain: Path traversal and sandbox escape in LangChain file-search middleware and loaders",
+      "url": "https://github.com/advisories/GHSA-gr75-jv2w-4656",
+      "date": "2026-06-16T15:03:15.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[ua-parser-js] UAParser.js: Unbounded `Sec-CH-UA-Model` parsing can trigger ReDoS in `withClientHints()`",
-      "url": "https://github.com/advisories/GHSA-9h5v-pfqq-x599",
-      "date": "2026-06-15T20:15:04.000Z",
+      "title": "[astro] Astro: XSS via Unescaped Attribute Names in Spread Props",
+      "url": "https://github.com/advisories/GHSA-jrpj-wcv7-9fh9",
+      "date": "2026-06-16T14:57:22.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[protobufjs-cli] protobufjs-cli: Code injection in pbjs static output from crafted JSON descriptor names",
-      "url": "https://github.com/advisories/GHSA-pr59-h9ph-3fr8",
-      "date": "2026-06-15T20:13:54.000Z",
+      "title": "[astro] Astro: Host header SSRF in prerendered error page fetch",
+      "url": "https://github.com/advisories/GHSA-2pvr-wf23-7pc7",
+      "date": "2026-06-16T14:38:07.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[protobufjs-cli] protobufjs-cli: Code injection in pbjs static output from crafted JSON descriptor names",
-      "url": "https://github.com/advisories/GHSA-pr59-h9ph-3fr8",
-      "date": "2026-06-15T20:13:54.000Z",
+      "title": "[@astrojs/netlify] @astrojs/netlify broadens Astro image.remotePatterns in Netlify Image CDN config",
+      "url": "https://github.com/advisories/GHSA-529g-xq4f-cw38",
+      "date": "2026-06-16T14:37:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk] Natural Language Toolkit (NLTK): URL-Encoded Path Traversal in nltk.data.load() Allows Arbitrary Local File Read",
+      "url": "https://github.com/advisories/GHSA-p4gq-832x-fm9v",
+      "date": "2026-06-16T14:34:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[hono] hono: Body Limit Middleware can be bypassed on AWS Lambda by understating `Content-Length`",
+      "url": "https://github.com/advisories/GHSA-rv63-4mwf-qqc2",
+      "date": "2026-06-16T14:32:50.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] hono: Lambda@Edge adapter keeps only the last value of a repeated request header, dropping the rest",
+      "url": "https://github.com/advisories/GHSA-wgpf-jwqj-8h8p",
+      "date": "2026-06-16T14:32:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] hono: CORS Middleware reflects any Origin with credentials when `origin` defaults to the wildcard",
+      "url": "https://github.com/advisories/GHSA-88fw-hqm2-52qc",
+      "date": "2026-06-16T14:15:40.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
+    },
+    {
+      "title": "[hono] hono: Path traversal in `serve-static` on Windows via encoded backslash (`%5C`)",
+      "url": "https://github.com/advisories/GHSA-wwfh-h76j-fc44",
+      "date": "2026-06-16T14:09:04.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] hono: AWS Lambda adapter merges multiple `Set-Cookie` headers into one value, dropping cookies on ALB single-header and Lattice",
+      "url": "https://github.com/advisories/GHSA-j6c9-x7qj-28xf",
+      "date": "2026-06-16T14:08:41.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[bleach] Bleach clean() / Cleaner() fails to sanitize dangerous URI schemes in allowed formaction attributes",
+      "url": "https://github.com/advisories/GHSA-gj48-438w-jh9v",
+      "date": "2026-06-16T14:07:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[bleach] Bleach linkify(parse_email=True) CPU exhaustion via unbounded email regex scanning",
+      "url": "https://github.com/advisories/GHSA-g75f-g53v-794x",
+      "date": "2026-06-16T14:07:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[bleach] Bleach: URI sanitization allows disallowed URI schemes with Unicode > U+00A0 in output",
+      "url": "https://github.com/advisories/GHSA-8rfp-98v4-mmr6",
+      "date": "2026-06-16T14:06:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[pypdf] pypdf: Possible infinite loop when processing outlines/bookmarks in writer",
+      "url": "https://github.com/advisories/GHSA-m2v9-299j-rv96",
+      "date": "2026-06-16T14:05:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pypdf] pypdf: Possible infinite loop when retrieving fonts for layout-mode text extraction",
+      "url": "https://github.com/advisories/GHSA-52x6-gq3r-vpf4",
+      "date": "2026-06-16T14:05:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[astro] Astro: Reflected XSS via unescaped slot name",
+      "url": "https://github.com/advisories/GHSA-8hv8-536x-4wqp",
+      "date": "2026-06-16T14:05:25.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nuxt] Nuxt: Reflected XSS in `<NuxtLink>` via unsanitised `javascript:` or `data:` URL",
+      "url": "https://github.com/advisories/GHSA-934w-87qh-qr26",
+      "date": "2026-06-16T13:49:37.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nuxt] Nuxt: Reflected XSS in `<NuxtLink>` via unsanitised `javascript:` or `data:` URL",
+      "url": "https://github.com/advisories/GHSA-934w-87qh-qr26",
+      "date": "2026-06-16T13:49:37.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nuxt] Nuxt dev server vite-node IPC socket is world-connectable on Linux",
+      "url": "https://github.com/advisories/GHSA-534h-c3cw-v3h9",
+      "date": "2026-06-16T13:49:11.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     }
   ]
 }
