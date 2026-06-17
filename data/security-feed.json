@@ -1,143 +1,145 @@
 {
-  "fetchedAt": "2026-06-17T14:16:49.418Z",
+  "fetchedAt": "2026-06-17T16:21:53.769Z",
   "entries": [
     {
-      "title": "RUSTSEC-2026-0183: Unsoundness in git2",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0183.html",
-      "date": "2026-06-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0184: Unsoundness in git2",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0184.html",
-      "date": "2026-06-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[@earendil-works/pi-coding-agent] Pi Agent: Potential XSS in HTML session exports via Markdown URL sanitization bypass",
-      "url": "https://github.com/advisories/GHSA-7v5m-pr3q-6453",
-      "date": "2026-06-16T23:43:15.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@mariozechner/pi-coding-agent] Pi Agent: Potential XSS in HTML session exports via Markdown URL sanitization bypass",
-      "url": "https://github.com/advisories/GHSA-7v5m-pr3q-6453",
-      "date": "2026-06-16T23:43:15.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@nuxt/rspack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server same-origin check bypassed when Sec-Fetch-Site, Origin, and Referer are all absent (incomplete fix for GHSA-6m52-m754-pw2g)",
-      "url": "https://github.com/advisories/GHSA-x6qj-4h56-5rj5",
-      "date": "2026-06-16T23:39:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@nuxt/rspack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server same-origin check bypassed when Sec-Fetch-Site, Origin, and Referer are all absent (incomplete fix for GHSA-6m52-m754-pw2g)",
-      "url": "https://github.com/advisories/GHSA-x6qj-4h56-5rj5",
-      "date": "2026-06-16T23:39:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@nuxt/webpack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server same-origin check bypassed when Sec-Fetch-Site, Origin, and Referer are all absent (incomplete fix for GHSA-6m52-m754-pw2g)",
-      "url": "https://github.com/advisories/GHSA-x6qj-4h56-5rj5",
-      "date": "2026-06-16T23:39:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@nuxt/webpack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server same-origin check bypassed when Sec-Fetch-Site, Origin, and Referer are all absent (incomplete fix for GHSA-6m52-m754-pw2g)",
-      "url": "https://github.com/advisories/GHSA-x6qj-4h56-5rj5",
-      "date": "2026-06-16T23:39:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nuxt] Cross-site scripting via <NoScript> slot content in Nuxt's head components",
-      "url": "https://github.com/advisories/GHSA-m3q2-p4fw-w38m",
-      "date": "2026-06-16T23:38:48.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[nuxt] Cross-site scripting via <NoScript> slot content in Nuxt's head components",
-      "url": "https://github.com/advisories/GHSA-m3q2-p4fw-w38m",
-      "date": "2026-06-16T23:38:48.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[litellm] LiteLLM: Authentication Bypass via Host Header Injection",
-      "url": "https://github.com/advisories/GHSA-4xpc-pv4p-pm3w",
-      "date": "2026-06-16T23:38:28.000Z",
+      "title": "[open-webui] Open WebUI BOLA: `search_knowledge_files` Allows Unauthorized Knowledge Base File Enumeration",
+      "url": "https://github.com/advisories/GHSA-cx9v-4qj2-jrw6",
+      "date": "2026-06-17T14:31:17.000Z",
       "ecosystem": "pypi",
-      "severity": "CRITICAL"
+      "severity": "MODERATE"
     },
     {
-      "title": "[n8n] n8n: SecurityScorecard Node Leaks API Token to User-Controlled Host",
-      "url": "https://github.com/advisories/GHSA-rm2v-h48j-895m",
-      "date": "2026-06-16T23:34:13.000Z",
-      "ecosystem": "npm",
+      "title": "[open-webui] Open WebUI Prompt history IDOR: unbound history_id allows cross-prompt read and deletion",
+      "url": "https://github.com/advisories/GHSA-4r4w-2wgp-w7cj",
+      "date": "2026-06-17T14:16:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Sibling-Prefix Path Traversal via /cache/{path}",
+      "url": "https://github.com/advisories/GHSA-j2c8-v969-8r5c",
+      "date": "2026-06-17T14:16:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Stored XSS to Account Takeover via Model Profile Images",
+      "url": "https://github.com/advisories/GHSA-v2qm-5wxj-qhj7",
+      "date": "2026-06-17T14:15:53.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[n8n] n8n: SecurityScorecard Node Leaks API Token to User-Controlled Host",
-      "url": "https://github.com/advisories/GHSA-rm2v-h48j-895m",
-      "date": "2026-06-16T23:34:13.000Z",
-      "ecosystem": "npm",
+      "title": "[open-webui] Open WebUI: Forged model meta.knowledge allows cross-user file read and deletion",
+      "url": "https://github.com/advisories/GHSA-vjqm-6gcc-62cr",
+      "date": "2026-06-17T14:15:33.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[n8n] n8n: SecurityScorecard Node Leaks API Token to User-Controlled Host",
-      "url": "https://github.com/advisories/GHSA-rm2v-h48j-895m",
-      "date": "2026-06-16T23:34:13.000Z",
-      "ecosystem": "npm",
+      "title": "[open-webui] Open WebUI: Stored XSS in Mermaid Markdown Preview",
+      "url": "https://github.com/advisories/GHSA-v8qj-hxv7-mgvv",
+      "date": "2026-06-17T14:14:06.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[n8n] n8n: MCP Browser HTTP Transport Exposes Unauthenticated Browser-Control Sessions",
-      "url": "https://github.com/advisories/GHSA-qrx8-25qr-5r7v",
-      "date": "2026-06-16T23:32:32.000Z",
-      "ecosystem": "npm",
+      "title": "[open-webui] Open WebUI: Forged chat-file link allows cross-user file read and deletion",
+      "url": "https://github.com/advisories/GHSA-vrhc-3fr6-pc3c",
+      "date": "2026-06-17T14:12:20.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[n8n] n8n: MCP Browser HTTP Transport Exposes Unauthenticated Browser-Control Sessions",
-      "url": "https://github.com/advisories/GHSA-qrx8-25qr-5r7v",
-      "date": "2026-06-16T23:32:32.000Z",
-      "ecosystem": "npm",
+      "title": "[open-webui] Open WebUI: Cross-user file disclosure via /api/chat/completions image_url field",
+      "url": "https://github.com/advisories/GHSA-wch8-mhj5-9frg",
+      "date": "2026-06-17T14:11:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Redirect-Bypass SSRF in OAuth `_process_picture_url` (incomplete-fix sibling of CVE-2026-45401)",
+      "url": "https://github.com/advisories/GHSA-226f-f24g-524w",
+      "date": "2026-06-17T14:10:58.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[n8n] n8n: Cross-Tenant Credential Takeover via Dynamic Credentials EE Endpoints",
-      "url": "https://github.com/advisories/GHSA-2j5h-858j-5mpf",
-      "date": "2026-06-16T23:32:12.000Z",
-      "ecosystem": "npm",
+      "title": "[open-webui] Open WebUI: Cross-origin postMessage confirmation bypass via action:submit",
+      "url": "https://github.com/advisories/GHSA-3vv5-8xxp-4f55",
+      "date": "2026-06-17T14:10:36.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[n8n] n8n: Cross-Tenant Credential Takeover via Dynamic Credentials EE Endpoints",
-      "url": "https://github.com/advisories/GHSA-2j5h-858j-5mpf",
-      "date": "2026-06-16T23:32:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[open-webui] Open WebUI IDOR: Calendar event re-parenting allows writing events into another user's calendar",
+      "url": "https://github.com/advisories/GHSA-f3g7-59qc-pqg6",
+      "date": "2026-06-17T14:09:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "[n8n] n8n: Cross-Tenant Credential Takeover via Dynamic Credentials EE Endpoints",
-      "url": "https://github.com/advisories/GHSA-2j5h-858j-5mpf",
-      "date": "2026-06-16T23:32:12.000Z",
+      "title": "[nocodb] NocoDB: Server-Side Request Forgery via Spreadsheet Import Endpoint",
+      "url": "https://github.com/advisories/GHSA-hmcr-rmjq-47qr",
+      "date": "2026-06-17T14:08:28.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "MODERATE"
     },
     {
-      "title": "[n8n] n8n: Credential Exfiltration via Permission Bypass",
-      "url": "https://github.com/advisories/GHSA-pmqw-72cg-wx85",
-      "date": "2026-06-16T23:02:05.000Z",
+      "title": "[nocodb] NocoDB: Server-Side Request Forgery via Base Migration URL",
+      "url": "https://github.com/advisories/GHSA-h6vv-pcq8-7xm4",
+      "date": "2026-06-17T14:08:04.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Stored Cross-Site Scripting via Secure Attachment",
+      "url": "https://github.com/advisories/GHSA-6mhr-74x2-98v9",
+      "date": "2026-06-17T14:07:53.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Refresh Tokens Persist Through Password Recovery",
+      "url": "https://github.com/advisories/GHSA-r989-7g3j-wjhw",
+      "date": "2026-06-17T14:07:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nocodb] NocoDB: Server-Side Request Forgery via Spreadsheet Fetch URL",
+      "url": "https://github.com/advisories/GHSA-gprh-27j3-g5h4",
+      "date": "2026-06-17T14:06:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM: OOM Denial of Service via Audio Decompression Bomb",
+      "url": "https://github.com/advisories/GHSA-6pr9-rp53-2pmc",
+      "date": "2026-06-17T14:06:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM: incomplete CVE-2026-22778 fix leaks PIL repr addresses via Anthropic router",
+      "url": "https://github.com/advisories/GHSA-hgg8-fqqc-vfmw",
+      "date": "2026-06-17T14:05:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM: GGUF dequantize kernel int truncation exposes uninitialized GPU memory in multi-tenant serving",
+      "url": "https://github.com/advisories/GHSA-5jv2-g5wq-cmr4",
+      "date": "2026-06-17T14:03:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM: image EXIF Rotation & PNG tRNS Transparency Not Normalized, Causing Mismatch Between Model Input and Expectations",
+      "url": "https://github.com/advisories/GHSA-8jr5-v98p-w75m",
+      "date": "2026-06-17T14:02:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     }
   ]
 }
