@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-06-17T12:28:54.431Z",
+  "fetchedAt": "2026-06-17T14:16:49.418Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0183: Unsoundness in git2",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0183.html",
+      "date": "2026-06-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0184: Unsoundness in git2",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0184.html",
+      "date": "2026-06-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@earendil-works/pi-coding-agent] Pi Agent: Potential XSS in HTML session exports via Markdown URL sanitization bypass",
       "url": "https://github.com/advisories/GHSA-7v5m-pr3q-6453",
@@ -117,20 +129,6 @@
       "title": "[n8n] n8n: Cross-Tenant Credential Takeover via Dynamic Credentials EE Endpoints",
       "url": "https://github.com/advisories/GHSA-2j5h-858j-5mpf",
       "date": "2026-06-16T23:32:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Credential Exfiltration via Permission Bypass",
-      "url": "https://github.com/advisories/GHSA-pmqw-72cg-wx85",
-      "date": "2026-06-16T23:02:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Credential Exfiltration via Permission Bypass",
-      "url": "https://github.com/advisories/GHSA-pmqw-72cg-wx85",
-      "date": "2026-06-16T23:02:05.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
