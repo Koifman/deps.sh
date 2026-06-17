@@ -1,7 +1,126 @@
 {
-  "fetchedAt": "2026-06-16T23:37:26.792Z",
+  "fetchedAt": "2026-06-17T01:20:12.418Z",
   "entries": [
     {
+      "title": "[@earendil-works/pi-coding-agent] Pi Agent: Potential XSS in HTML session exports via Markdown URL sanitization bypass",
+      "url": "https://github.com/advisories/GHSA-7v5m-pr3q-6453",
+      "date": "2026-06-16T23:43:15.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@mariozechner/pi-coding-agent] Pi Agent: Potential XSS in HTML session exports via Markdown URL sanitization bypass",
+      "url": "https://github.com/advisories/GHSA-7v5m-pr3q-6453",
+      "date": "2026-06-16T23:43:15.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@nuxt/rspack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server same-origin check bypassed when Sec-Fetch-Site, Origin, and Referer are all absent (incomplete fix for GHSA-6m52-m754-pw2g)",
+      "url": "https://github.com/advisories/GHSA-x6qj-4h56-5rj5",
+      "date": "2026-06-16T23:39:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@nuxt/rspack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server same-origin check bypassed when Sec-Fetch-Site, Origin, and Referer are all absent (incomplete fix for GHSA-6m52-m754-pw2g)",
+      "url": "https://github.com/advisories/GHSA-x6qj-4h56-5rj5",
+      "date": "2026-06-16T23:39:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@nuxt/webpack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server same-origin check bypassed when Sec-Fetch-Site, Origin, and Referer are all absent (incomplete fix for GHSA-6m52-m754-pw2g)",
+      "url": "https://github.com/advisories/GHSA-x6qj-4h56-5rj5",
+      "date": "2026-06-16T23:39:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@nuxt/webpack-builder] @nuxt/webpack-builder and @nuxt/rspack-builder dev server same-origin check bypassed when Sec-Fetch-Site, Origin, and Referer are all absent (incomplete fix for GHSA-6m52-m754-pw2g)",
+      "url": "https://github.com/advisories/GHSA-x6qj-4h56-5rj5",
+      "date": "2026-06-16T23:39:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nuxt] Cross-site scripting via <NoScript> slot content in Nuxt's head components",
+      "url": "https://github.com/advisories/GHSA-m3q2-p4fw-w38m",
+      "date": "2026-06-16T23:38:48.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[nuxt] Cross-site scripting via <NoScript> slot content in Nuxt's head components",
+      "url": "https://github.com/advisories/GHSA-m3q2-p4fw-w38m",
+      "date": "2026-06-16T23:38:48.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[litellm] LiteLLM: Authentication Bypass via Host Header Injection",
+      "url": "https://github.com/advisories/GHSA-4xpc-pv4p-pm3w",
+      "date": "2026-06-16T23:38:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[n8n] n8n: SecurityScorecard Node Leaks API Token to User-Controlled Host",
+      "url": "https://github.com/advisories/GHSA-rm2v-h48j-895m",
+      "date": "2026-06-16T23:34:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: SecurityScorecard Node Leaks API Token to User-Controlled Host",
+      "url": "https://github.com/advisories/GHSA-rm2v-h48j-895m",
+      "date": "2026-06-16T23:34:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: SecurityScorecard Node Leaks API Token to User-Controlled Host",
+      "url": "https://github.com/advisories/GHSA-rm2v-h48j-895m",
+      "date": "2026-06-16T23:34:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: MCP Browser HTTP Transport Exposes Unauthenticated Browser-Control Sessions",
+      "url": "https://github.com/advisories/GHSA-qrx8-25qr-5r7v",
+      "date": "2026-06-16T23:32:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: MCP Browser HTTP Transport Exposes Unauthenticated Browser-Control Sessions",
+      "url": "https://github.com/advisories/GHSA-qrx8-25qr-5r7v",
+      "date": "2026-06-16T23:32:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Cross-Tenant Credential Takeover via Dynamic Credentials EE Endpoints",
+      "url": "https://github.com/advisories/GHSA-2j5h-858j-5mpf",
+      "date": "2026-06-16T23:32:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Cross-Tenant Credential Takeover via Dynamic Credentials EE Endpoints",
+      "url": "https://github.com/advisories/GHSA-2j5h-858j-5mpf",
+      "date": "2026-06-16T23:32:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Cross-Tenant Credential Takeover via Dynamic Credentials EE Endpoints",
+      "url": "https://github.com/advisories/GHSA-2j5h-858j-5mpf",
+      "date": "2026-06-16T23:32:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
       "title": "[n8n] n8n: Credential Exfiltration via Permission Bypass",
       "url": "https://github.com/advisories/GHSA-pmqw-72cg-wx85",
       "date": "2026-06-16T23:02:05.000Z",
@@ -20,125 +139,6 @@
       "url": "https://github.com/advisories/GHSA-pmqw-72cg-wx85",
       "date": "2026-06-16T23:02:05.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Denial of Service via ZIP decompression in webhook workflow",
-      "url": "https://github.com/advisories/GHSA-jqpw-qww5-cj4c",
-      "date": "2026-06-16T23:01:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Public API Execution Retry Authorization Bypass",
-      "url": "https://github.com/advisories/GHSA-h3jj-5f3v-3685",
-      "date": "2026-06-16T22:40:07.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Public API Execution Retry Authorization Bypass",
-      "url": "https://github.com/advisories/GHSA-h3jj-5f3v-3685",
-      "date": "2026-06-16T22:40:07.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Python Code Node AST Validator Bypass",
-      "url": "https://github.com/advisories/GHSA-jwm3-qcfw-c5pp",
-      "date": "2026-06-16T22:39:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Python Code Node AST Validator Bypass",
-      "url": "https://github.com/advisories/GHSA-jwm3-qcfw-c5pp",
-      "date": "2026-06-16T22:39:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Stored XSS in Chat Trigger Node",
-      "url": "https://github.com/advisories/GHSA-42h7-m79w-wvg5",
-      "date": "2026-06-16T22:39:36.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Stored XSS in Chat Trigger Node",
-      "url": "https://github.com/advisories/GHSA-42h7-m79w-wvg5",
-      "date": "2026-06-16T22:39:36.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Stored XSS in Chat Trigger Node",
-      "url": "https://github.com/advisories/GHSA-42h7-m79w-wvg5",
-      "date": "2026-06-16T22:39:36.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Reflected XSS via Facebook, WhatsApp, and Microsoft Teams Trigger Webhook Verification Endpoints",
-      "url": "https://github.com/advisories/GHSA-h86q-fx34-gfjr",
-      "date": "2026-06-16T22:39:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Microsoft SQL Node Prototype Pollution",
-      "url": "https://github.com/advisories/GHSA-x6p3-m6h9-fx7r",
-      "date": "2026-06-16T22:38:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[yt-dlp] yt-dlp: Arbitrary command injection possible if --exec option used with yt-dlp",
-      "url": "https://github.com/advisories/GHSA-69qj-pvh9-c5wg",
-      "date": "2026-06-16T22:29:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[yt-dlp] yt-dlp: Arbitrary code execution via manifest downloads with aria2c",
-      "url": "https://github.com/advisories/GHSA-vx4q-3cr2-7cg2",
-      "date": "2026-06-16T21:13:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[crawl4ai] Crawl4AI: SSRF via proxy settings in the Docker server bypasses the crawl-URL SSRF check",
-      "url": "https://github.com/advisories/GHSA-6qhc-x826-342c",
-      "date": "2026-06-16T21:02:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[crawl4ai] Crawl4AI: Arbitrary file write (symlink/TOCTOU) plus log and webhook-header injection in Docker server",
-      "url": "https://github.com/advisories/GHSA-7cx2-g3h9-382p",
-      "date": "2026-06-16T21:02:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[crawl4ai] Crawl4AI: LLM credential exfiltration in Docker server via request base_url and env: token resolution",
-      "url": "https://github.com/advisories/GHSA-f989-c77f-r2cq",
-      "date": "2026-06-16T21:00:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[crawl4ai] Crawl4AI: SSRF filter bypass in Docker server via IPv6 transition forms (NAT64 / 6to4 / unspecified / v4-mapped)",
-      "url": "https://github.com/advisories/GHSA-4qqr-vv2q-cmr5",
-      "date": "2026-06-16T21:00:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[yt-dlp] yt-dlp: Dangerous file type creation via insufficient filename sanitization (Bypass of CVE-2024-38519)",
-      "url": "https://github.com/advisories/GHSA-c6mh-fpjc-4pr3",
-      "date": "2026-06-16T20:59:44.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
