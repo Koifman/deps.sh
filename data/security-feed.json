@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-18T18:58:30.495Z",
+  "fetchedAt": "2026-06-18T19:50:31.535Z",
   "entries": [
+    {
+      "title": "[kill-port-process] OS Command Injection and Command Injection in kill-port-process",
+      "url": "https://github.com/advisories/GHSA-xp4x-j9vh-c3wf",
+      "date": "2026-06-18T18:09:58.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[langflow-base] Langflow: DoS Through Lack of File Size Restriction via Deprecated Unauthenticated File Upload API",
+      "url": "https://github.com/advisories/GHSA-vvfc-fp59-m92g",
+      "date": "2026-06-18T17:59:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[crawl4ai] Crawl4AI: Unauthenticated SSRF on the Docker server streaming crawl path (/crawl/stream)",
       "url": "https://github.com/advisories/GHSA-wm69-2pc3-rmmf",
@@ -126,20 +140,6 @@
       "date": "2026-06-18T15:03:26.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[bbot] BBOT: Path traversal (Zip-Slip) in unarchive module - incomplete fix for CVE-2025-10284",
-      "url": "https://github.com/advisories/GHSA-3vgw-585j-4m45",
-      "date": "2026-06-18T15:02:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] OpenClaw: macOS Swift exec allowlist missed combined POSIX inline flags",
-      "url": "https://github.com/advisories/GHSA-c226-q6fx-6j6c",
-      "date": "2026-06-18T14:52:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
