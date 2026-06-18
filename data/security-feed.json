@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-18T22:45:27.723Z",
+  "fetchedAt": "2026-06-18T23:39:03.433Z",
   "entries": [
+    {
+      "title": "[dssrf] dssrf: every IPv6 category bypasses is_url_safe",
+      "url": "https://github.com/advisories/GHSA-8p33-q827-ghj5",
+      "date": "2026-06-18T22:54:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[signalk-server] Signal K Server: Server-Side Request Forgery via Remote Connection Endpoints",
       "url": "https://github.com/advisories/GHSA-q59x-jc9f-gfqf",
@@ -133,13 +140,6 @@
       "date": "2026-06-18T20:32:43.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw: BlueBubbles sender policy could match mutable conversation identifiers",
-      "url": "https://github.com/advisories/GHSA-8j37-5w68-wj2g",
-      "date": "2026-06-18T20:32:22.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
