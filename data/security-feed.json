@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-06-18T13:24:19.474Z",
+  "fetchedAt": "2026-06-18T15:13:13.435Z",
   "entries": [
     {
-      "title": "[open-webui] Open WebUI: SSRF Protection Bypass in Playwright Web Loader via HTTP Redirects",
-      "url": "https://github.com/advisories/GHSA-jrfp-m64g-pcwv",
-      "date": "2026-06-18T08:13:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "[openclaw] OpenClaw: macOS Swift exec allowlist missed combined POSIX inline flags",
+      "url": "https://github.com/advisories/GHSA-c226-q6fx-6j6c",
+      "date": "2026-06-18T14:52:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "[vantage6] vantage6 node has an Improper Access Control issue",
-      "url": "https://github.com/advisories/GHSA-x9f6-9rvm-mmrg",
-      "date": "2026-06-17T22:17:35.000Z",
+      "title": "[openclaw] Duplicate Advisory: macOS Swift exec allowlist missed combined POSIX inline flags",
+      "url": "https://github.com/advisories/GHSA-g796-jqmx-wf9q",
+      "date": "2026-06-18T14:52:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[praisonai-platform] praisonai-platform: Authorization Bypass Through User-Controlled Key",
+      "url": "https://github.com/advisories/GHSA-2fjj-qqg8-fg7x",
+      "date": "2026-06-18T14:48:36.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[langflow] Langflow: Unauthenticated file upload leads to DoS (space exhaustion) and information leak",
-      "url": "https://github.com/advisories/GHSA-x223-p2gf-v735",
-      "date": "2026-06-17T18:43:13.000Z",
+      "title": "[picklescan] Duplicate Advisory: picklescan has Arbitrary file read using `io.FileIO`",
+      "url": "https://github.com/advisories/GHSA-5v23-73v4-w2fp",
+      "date": "2026-06-18T14:46:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[picklescan] Duplicate Advisory: PickleScan's pkgutil.resolve_name has a universal blocklist bypass",
+      "url": "https://github.com/advisories/GHSA-82fg-2r99-h7v6",
+      "date": "2026-06-18T14:45:21.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "[nova] OpenStack Nova: Nova scheduler hint injection bypasses Placement resource claims and scheduling constraints",
-      "url": "https://github.com/advisories/GHSA-mfg3-p6m3-gjgr",
-      "date": "2026-06-17T18:39:22.000Z",
+      "title": "[picklescan] Duplicate Advisory: Picklescan does not block ctypes",
+      "url": "https://github.com/advisories/GHSA-7f79-rvx6-vxc4",
+      "date": "2026-06-18T14:44:46.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[nova] OpenStack Nova: Nova scheduler hint injection bypasses Placement resource claims and scheduling constraints",
-      "url": "https://github.com/advisories/GHSA-mfg3-p6m3-gjgr",
-      "date": "2026-06-17T18:39:22.000Z",
+      "title": "[picklescan] Duplicate Advisory: Picklescan vulnerable to Arbitrary File Writing",
+      "url": "https://github.com/advisories/GHSA-rmpp-8wf5-xx5q",
+      "date": "2026-06-18T14:44:11.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[nova] OpenStack Nova: Nova scheduler hint injection bypasses Placement resource claims and scheduling constraints",
-      "url": "https://github.com/advisories/GHSA-mfg3-p6m3-gjgr",
-      "date": "2026-06-17T18:39:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[webpack-dev-server] webpack-dev-server vulnerable to HMR WebSocket interception via permissive user proxies",
-      "url": "https://github.com/advisories/GHSA-mx8g-39q3-5c79",
-      "date": "2026-06-17T18:13:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[multer] Multer vulnerable to Denial of Service via deeply nested field names",
-      "url": "https://github.com/advisories/GHSA-72gw-mp4g-v24j",
-      "date": "2026-06-17T18:12:28.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[multer] Multer vulnerable to Denial of Service via deeply nested field names",
-      "url": "https://github.com/advisories/GHSA-72gw-mp4g-v24j",
-      "date": "2026-06-17T18:12:28.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[multer] Multer vulnerable to Denial of Service via incomplete cleanup of aborted uploads",
-      "url": "https://github.com/advisories/GHSA-3p4h-7m6x-2hcm",
-      "date": "2026-06-17T18:11:50.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[multer] Multer vulnerable to Denial of Service via incomplete cleanup of aborted uploads",
-      "url": "https://github.com/advisories/GHSA-3p4h-7m6x-2hcm",
-      "date": "2026-06-17T18:11:50.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@anthropic-ai/claude-code] Claude Code: Out-of-Band Data Exfiltration via Pre-Approved HuggingFace Domain in WebFetch",
-      "url": "https://github.com/advisories/GHSA-fg94-h982-f3mm",
-      "date": "2026-06-17T18:06:44.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Any authenticated user can read other users' private notes via Socket.IO",
-      "url": "https://github.com/advisories/GHSA-8788-j68r-3cgh",
-      "date": "2026-06-17T18:05:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Authenticated users can target arbitrary configured Ollama backends via unguarded url_idx path parameter",
-      "url": "https://github.com/advisories/GHSA-9rpj-v7hf-vv2w",
-      "date": "2026-06-17T18:01:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: RAG ACL Bypass in Milvus Multitenancy Mode",
-      "url": "https://github.com/advisories/GHSA-p5cp-r7rg-qpxc",
-      "date": "2026-06-17T17:57:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Path traversal / SSRF in terminal server proxy via encoded path traversal",
-      "url": "https://github.com/advisories/GHSA-r2wg-2mcr-66rv",
-      "date": "2026-06-17T17:55:29.000Z",
+      "title": "[picklescan] Duplicate Advisory: Picklescan (scan_pytorch) Bypass via dynamic eval MAGIC_NUMBER",
+      "url": "https://github.com/advisories/GHSA-cc5p-54x3-hcf8",
+      "date": "2026-06-18T14:43:35.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] OpenClaw: MCP Streamable HTTP redirects could forward configured custom headers to another origin",
-      "url": "https://github.com/advisories/GHSA-rjxq-qqhf-8hwh",
-      "date": "2026-06-17T17:55:08.000Z",
-      "ecosystem": "npm",
+      "title": "[picklescan] Duplicate Advisory: PickleScan's profile.run blocklist mismatch allows exec() bypass",
+      "url": "https://github.com/advisories/GHSA-4mpj-78p6-rj59",
+      "date": "2026-06-18T14:43:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[picklescan] Duplicate Advisory: picklescan missing detection by simple obfuscation of a `builtins.eval` call",
+      "url": "https://github.com/advisories/GHSA-j6c9-qvp8-699f",
+      "date": "2026-06-18T14:41:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[picklescan] Duplicate Advisory: Picklescan Bypasses Unsafe Globals Check using pty.spawn",
+      "url": "https://github.com/advisories/GHSA-5gp7-4733-2w2v",
+      "date": "2026-06-18T14:41:21.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[openclaw] Duplicate Advisory: MCP Streamable HTTP redirects could forward configured custom headers to another origin",
-      "url": "https://github.com/advisories/GHSA-x7cf-6gp3-q5f8",
-      "date": "2026-06-17T17:54:48.000Z",
+      "title": "[picklescan] Duplicate Advisory: Picklescan has pickle parsing logic flaw that leads to malicious pickle file bypass",
+      "url": "https://github.com/advisories/GHSA-5rph-q42j-36j9",
+      "date": "2026-06-18T14:40:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[picklescan] Duplicate Advisory: Picklescan has Incomplete List of Disallowed Inputs",
+      "url": "https://github.com/advisories/GHSA-6v84-v468-3c7f",
+      "date": "2026-06-18T14:40:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[pdfkit] pdfkit: Path traversal in from_string",
+      "url": "https://github.com/advisories/GHSA-9g3x-6x24-vf9f",
+      "date": "2026-06-18T14:38:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[horizon] OpenStack Horizon RC file generation does not escape special characters in project names",
+      "url": "https://github.com/advisories/GHSA-6wrm-x65g-hr4p",
+      "date": "2026-06-18T14:37:29.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[open-webui] Open WebUI BOLA: `search_knowledge_files` Allows Unauthorized Knowledge Base File Enumeration",
-      "url": "https://github.com/advisories/GHSA-cx9v-4qj2-jrw6",
-      "date": "2026-06-17T14:31:17.000Z",
+      "title": "[apache-airflow-providers-sftp] Apache Airflow SFTP provider: Path traversal in SFTPHook.retrieve_directory",
+      "url": "https://github.com/advisories/GHSA-qf38-jq28-3ccq",
+      "date": "2026-06-18T14:35:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vllm] Duplicate Advisory: image EXIF Rotation & PNG tRNS Transparency Not Normalized, Causing Mismatch Between Model Input and Expectations",
+      "url": "https://github.com/advisories/GHSA-x8xr-mj9x-6h7w",
+      "date": "2026-06-18T14:31:36.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[open-webui] Open WebUI Prompt history IDOR: unbound history_id allows cross-prompt read and deletion",
-      "url": "https://github.com/advisories/GHSA-4r4w-2wgp-w7cj",
-      "date": "2026-06-17T14:16:50.000Z",
+      "title": "[@bitbonsai/mcpvault] MCPVault: PathFilter restricted-directory deny-list bypass via case and trailing dot/space equivalence",
+      "url": "https://github.com/advisories/GHSA-j99q-93c9-h869",
+      "date": "2026-06-18T14:30:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pypdf] pypdf: Missing stream length values ignore defined limits",
+      "url": "https://github.com/advisories/GHSA-jm82-fx9c-mx94",
+      "date": "2026-06-18T14:28:51.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[undici] undici vulnerable to TLS certificate validation bypass via dropped requestTls in SOCKS5 ProxyAgent",
+      "url": "https://github.com/advisories/GHSA-vmh5-mc38-953g",
+      "date": "2026-06-18T14:28:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
