@@ -1,6 +1,90 @@
 {
-  "fetchedAt": "2026-06-18T17:12:31.132Z",
+  "fetchedAt": "2026-06-18T18:58:30.495Z",
   "entries": [
+    {
+      "title": "[crawl4ai] Crawl4AI: Unauthenticated SSRF on the Docker server streaming crawl path (/crawl/stream)",
+      "url": "https://github.com/advisories/GHSA-wm69-2pc3-rmmf",
+      "date": "2026-06-18T17:25:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[crawl4ai] Crawl4AI: Unauthenticated RCE via Chromium launch-argument injection in browser_config.extra_args",
+      "url": "https://github.com/advisories/GHSA-r253-r9jw-qg44",
+      "date": "2026-06-18T17:25:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[crawl4ai] Crawl4AI: Arbitrary file write (path traversal) in crawler downloads can lead to RCE",
+      "url": "https://github.com/advisories/GHSA-2jq4-q6vv-4cp3",
+      "date": "2026-06-18T17:25:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[budibase] budibase: Database Connector SQL Injections in PostgreSQL, MS SQL, and MySQL",
+      "url": "https://github.com/advisories/GHSA-qqf5-x7mj-v43p",
+      "date": "2026-06-18T17:24:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@acastellon/auth] @acastellon/auth: Authentication bypass via spoofable headers in validateToken()",
+      "url": "https://github.com/advisories/GHSA-gfj5-979r-92pw",
+      "date": "2026-06-18T17:22:50.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[netlicensing-mcp] netlicensing-mcp: REST Path Traversal Bypasses Token Redaction",
+      "url": "https://github.com/advisories/GHSA-hxpf-9xvq-wph8",
+      "date": "2026-06-18T17:22:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@agenticmail/openclaw] AgenticMail: Unauthenticated inbound mail triggers bypassPermissions resume of the operator's Claude Code session (bridge-wake)",
+      "url": "https://github.com/advisories/GHSA-fq4x-789w-jg5h",
+      "date": "2026-06-18T17:21:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@agenticmail/codex] AgenticMail: Unauthenticated inbound mail triggers bypassPermissions resume of the operator's Claude Code session (bridge-wake)",
+      "url": "https://github.com/advisories/GHSA-fq4x-789w-jg5h",
+      "date": "2026-06-18T17:21:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@agenticmail/claudecode] AgenticMail: Unauthenticated inbound mail triggers bypassPermissions resume of the operator's Claude Code session (bridge-wake)",
+      "url": "https://github.com/advisories/GHSA-fq4x-789w-jg5h",
+      "date": "2026-06-18T17:21:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@agenticmail/core] AgenticMail: Unauthenticated inbound mail triggers bypassPermissions resume of the operator's Claude Code session (bridge-wake)",
+      "url": "https://github.com/advisories/GHSA-fq4x-789w-jg5h",
+      "date": "2026-06-18T17:21:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@agenticmail/api] AgenticMail: Cross-agent task authorization bypass in AgenticMail API",
+      "url": "https://github.com/advisories/GHSA-hjwc-26pj-v3pm",
+      "date": "2026-06-18T17:20:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[marimo] marimo contains a reflected cross-site scripting vulnerability in the notebook page",
+      "url": "https://github.com/advisories/GHSA-8m59-7xv8-735h",
+      "date": "2026-06-18T17:20:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[pghoard] PGHoard: Password written to debug log",
       "url": "https://github.com/advisories/GHSA-mpx4-jmpr-vm8v",
@@ -56,90 +140,6 @@
       "date": "2026-06-18T14:52:25.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: macOS Swift exec allowlist missed combined POSIX inline flags",
-      "url": "https://github.com/advisories/GHSA-g796-jqmx-wf9q",
-      "date": "2026-06-18T14:52:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[praisonai-platform] praisonai-platform: Authorization Bypass Through User-Controlled Key",
-      "url": "https://github.com/advisories/GHSA-2fjj-qqg8-fg7x",
-      "date": "2026-06-18T14:48:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: picklescan has Arbitrary file read using `io.FileIO`",
-      "url": "https://github.com/advisories/GHSA-5v23-73v4-w2fp",
-      "date": "2026-06-18T14:46:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: PickleScan's pkgutil.resolve_name has a universal blocklist bypass",
-      "url": "https://github.com/advisories/GHSA-82fg-2r99-h7v6",
-      "date": "2026-06-18T14:45:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan does not block ctypes",
-      "url": "https://github.com/advisories/GHSA-7f79-rvx6-vxc4",
-      "date": "2026-06-18T14:44:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan vulnerable to Arbitrary File Writing",
-      "url": "https://github.com/advisories/GHSA-rmpp-8wf5-xx5q",
-      "date": "2026-06-18T14:44:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan (scan_pytorch) Bypass via dynamic eval MAGIC_NUMBER",
-      "url": "https://github.com/advisories/GHSA-cc5p-54x3-hcf8",
-      "date": "2026-06-18T14:43:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: PickleScan's profile.run blocklist mismatch allows exec() bypass",
-      "url": "https://github.com/advisories/GHSA-4mpj-78p6-rj59",
-      "date": "2026-06-18T14:43:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: picklescan missing detection by simple obfuscation of a `builtins.eval` call",
-      "url": "https://github.com/advisories/GHSA-j6c9-qvp8-699f",
-      "date": "2026-06-18T14:41:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan Bypasses Unsafe Globals Check using pty.spawn",
-      "url": "https://github.com/advisories/GHSA-5gp7-4733-2w2v",
-      "date": "2026-06-18T14:41:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan has pickle parsing logic flaw that leads to malicious pickle file bypass",
-      "url": "https://github.com/advisories/GHSA-5rph-q42j-36j9",
-      "date": "2026-06-18T14:40:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan has Incomplete List of Disallowed Inputs",
-      "url": "https://github.com/advisories/GHSA-6v84-v468-3c7f",
-      "date": "2026-06-18T14:40:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
