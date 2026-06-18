@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-18T20:57:39.425Z",
+  "fetchedAt": "2026-06-18T21:48:03.290Z",
   "entries": [
+    {
+      "title": "[signalk-server] Signal K Server: Server-Side Request Forgery via Remote Connection Endpoints",
+      "url": "https://github.com/advisories/GHSA-q59x-jc9f-gfqf",
+      "date": "2026-06-18T21:13:36.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[gemini-mcp-tool] gemini-mcp-tool vulnerable to OS command injection and @file exfiltration via prompt quoting (CVE-2026-0755)",
       "url": "https://github.com/advisories/GHSA-4h5r-5jm8-jxjm",
@@ -131,13 +138,6 @@
       "title": "[openclaw] OpenClaw: BlueBubbles sender policy could match mutable conversation identifiers",
       "url": "https://github.com/advisories/GHSA-8j37-5w68-wj2g",
       "date": "2026-06-18T20:32:22.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: BlueBubbles sender policy could match mutable conversation identifiers",
-      "url": "https://github.com/advisories/GHSA-8hj2-w4c9-fjfq",
-      "date": "2026-06-18T20:32:07.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
     }
