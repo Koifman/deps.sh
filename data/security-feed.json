@@ -1,144 +1,144 @@
 {
-  "fetchedAt": "2026-06-18T19:50:31.535Z",
+  "fetchedAt": "2026-06-18T20:57:39.425Z",
   "entries": [
     {
-      "title": "[kill-port-process] OS Command Injection and Command Injection in kill-port-process",
-      "url": "https://github.com/advisories/GHSA-xp4x-j9vh-c3wf",
-      "date": "2026-06-18T18:09:58.000Z",
+      "title": "[gemini-mcp-tool] gemini-mcp-tool vulnerable to OS command injection and @file exfiltration via prompt quoting (CVE-2026-0755)",
+      "url": "https://github.com/advisories/GHSA-4h5r-5jm8-jxjm",
+      "date": "2026-06-18T20:44:59.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[langflow-base] Langflow: DoS Through Lack of File Size Restriction via Deprecated Unauthenticated File Upload API",
-      "url": "https://github.com/advisories/GHSA-vvfc-fp59-m92g",
-      "date": "2026-06-18T17:59:36.000Z",
-      "ecosystem": "pypi",
+      "title": "[gemini-mcp-tool] Duplicate Advisory: gemini-mcp-tool vulnerable to OS command injection and @file exfiltration via prompt quoting (CVE-2026-0755)",
+      "url": "https://github.com/advisories/GHSA-28qq-5f47-r5x2",
+      "date": "2026-06-18T20:44:51.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Internal/webchat command auth could inherit ownerAllowFrom wildcard state",
+      "url": "https://github.com/advisories/GHSA-4hpg-mp64-x7xq",
+      "date": "2026-06-18T20:44:08.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[crawl4ai] Crawl4AI: Unauthenticated SSRF on the Docker server streaming crawl path (/crawl/stream)",
-      "url": "https://github.com/advisories/GHSA-wm69-2pc3-rmmf",
-      "date": "2026-06-18T17:25:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[crawl4ai] Crawl4AI: Unauthenticated RCE via Chromium launch-argument injection in browser_config.extra_args",
-      "url": "https://github.com/advisories/GHSA-r253-r9jw-qg44",
-      "date": "2026-06-18T17:25:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[crawl4ai] Crawl4AI: Arbitrary file write (path traversal) in crawler downloads can lead to RCE",
-      "url": "https://github.com/advisories/GHSA-2jq4-q6vv-4cp3",
-      "date": "2026-06-18T17:25:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[budibase] budibase: Database Connector SQL Injections in PostgreSQL, MS SQL, and MySQL",
-      "url": "https://github.com/advisories/GHSA-qqf5-x7mj-v43p",
-      "date": "2026-06-18T17:24:49.000Z",
+      "title": "[openclaw] Duplicate Advisory: Internal/webchat command auth could inherit ownerAllowFrom wildcard state",
+      "url": "https://github.com/advisories/GHSA-r2fx-hp6p-pgrm",
+      "date": "2026-06-18T20:43:53.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@acastellon/auth] @acastellon/auth: Authentication bypass via spoofable headers in validateToken()",
-      "url": "https://github.com/advisories/GHSA-gfj5-979r-92pw",
-      "date": "2026-06-18T17:22:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[netlicensing-mcp] netlicensing-mcp: REST Path Traversal Bypasses Token Redaction",
-      "url": "https://github.com/advisories/GHSA-hxpf-9xvq-wph8",
-      "date": "2026-06-18T17:22:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@agenticmail/openclaw] AgenticMail: Unauthenticated inbound mail triggers bypassPermissions resume of the operator's Claude Code session (bridge-wake)",
-      "url": "https://github.com/advisories/GHSA-fq4x-789w-jg5h",
-      "date": "2026-06-18T17:21:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@agenticmail/codex] AgenticMail: Unauthenticated inbound mail triggers bypassPermissions resume of the operator's Claude Code session (bridge-wake)",
-      "url": "https://github.com/advisories/GHSA-fq4x-789w-jg5h",
-      "date": "2026-06-18T17:21:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@agenticmail/claudecode] AgenticMail: Unauthenticated inbound mail triggers bypassPermissions resume of the operator's Claude Code session (bridge-wake)",
-      "url": "https://github.com/advisories/GHSA-fq4x-789w-jg5h",
-      "date": "2026-06-18T17:21:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@agenticmail/core] AgenticMail: Unauthenticated inbound mail triggers bypassPermissions resume of the operator's Claude Code session (bridge-wake)",
-      "url": "https://github.com/advisories/GHSA-fq4x-789w-jg5h",
-      "date": "2026-06-18T17:21:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@agenticmail/api] AgenticMail: Cross-agent task authorization bypass in AgenticMail API",
-      "url": "https://github.com/advisories/GHSA-hjwc-26pj-v3pm",
-      "date": "2026-06-18T17:20:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[marimo] marimo contains a reflected cross-site scripting vulnerability in the notebook page",
-      "url": "https://github.com/advisories/GHSA-8m59-7xv8-735h",
-      "date": "2026-06-18T17:20:29.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[pghoard] PGHoard: Password written to debug log",
-      "url": "https://github.com/advisories/GHSA-mpx4-jmpr-vm8v",
-      "date": "2026-06-18T15:05:21.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] OpenClaw: Empty-scope device re-pairing could confuse caller scope containment",
+      "url": "https://github.com/advisories/GHSA-8mg9-j9cf-54cj",
+      "date": "2026-06-18T20:42:41.000Z",
+      "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[pipecat-ai] Pipecat: Telephony WebSocket `/ws` Unauthenticated Call-Control Abuse via Attacker-Supplied Call SID",
-      "url": "https://github.com/advisories/GHSA-j8cv-x86q-rj85",
-      "date": "2026-06-18T15:05:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jupyter-server] Jupyter Server: Stored XSS in `NbconvertFileHandler` / `NbconvertPostHandler` via missing `sandbox` CSP",
-      "url": "https://github.com/advisories/GHSA-fcw5-x6j4-ccmp",
-      "date": "2026-06-18T15:04:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[bbot] BBOT: Symlink-Following Arbitrary Write via github_workflows Module",
-      "url": "https://github.com/advisories/GHSA-rvp7-w75q-9fv2",
-      "date": "2026-06-18T15:04:01.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] Duplicate Advisory: Empty-scope device re-pairing could confuse caller scope containment",
+      "url": "https://github.com/advisories/GHSA-hc4w-hm59-9w88",
+      "date": "2026-06-18T20:42:03.000Z",
+      "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[bbot] BBOT: Arbitrary File Write in postman_download Module",
-      "url": "https://github.com/advisories/GHSA-m54h-vhf9-3w3m",
-      "date": "2026-06-18T15:03:38.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] OpenClaw: Workspace-derived service PATH could influence trash command selection",
+      "url": "https://github.com/advisories/GHSA-rx78-29qr-5hq8",
+      "date": "2026-06-18T20:41:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: Workspace-derived service PATH could influence trash command selection",
+      "url": "https://github.com/advisories/GHSA-2w22-3f6x-3hf4",
+      "date": "2026-06-18T20:41:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Workspace .env STATE_DIRECTORY could influence bundled runtime dependency roots",
+      "url": "https://github.com/advisories/GHSA-wc84-j36w-pw4x",
+      "date": "2026-06-18T20:39:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: Workspace .env STATE_DIRECTORY could influence bundled runtime dependency roots",
+      "url": "https://github.com/advisories/GHSA-4qgr-57jq-93vh",
+      "date": "2026-06-18T20:38:43.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Discord allowFrom could bind to mutable display names",
+      "url": "https://github.com/advisories/GHSA-cw4q-gqg5-g38h",
+      "date": "2026-06-18T20:36:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: Discord allowFrom could bind to mutable display names",
+      "url": "https://github.com/advisories/GHSA-p44v-rx83-vjp4",
+      "date": "2026-06-18T20:35:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Focus command could miss controlScope enforcement",
+      "url": "https://github.com/advisories/GHSA-mpc8-jxjh-qpgh",
+      "date": "2026-06-18T20:34:47.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[bbot] BBOT: Server-Side Request Forgery (SSRF) in docker_pull module via WWW-Authenticate realm parsing",
-      "url": "https://github.com/advisories/GHSA-3mp7-vp6j-2mxx",
-      "date": "2026-06-18T15:03:26.000Z",
-      "ecosystem": "pypi",
+      "title": "[openclaw] Duplicate Advisory: Focus command could miss controlScope enforcement",
+      "url": "https://github.com/advisories/GHSA-gw2c-6hcg-5g52",
+      "date": "2026-06-18T20:34:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Workspace .env npm_execpath could influence bundled runtime dependency install",
+      "url": "https://github.com/advisories/GHSA-24vr-rprv-67rf",
+      "date": "2026-06-18T20:33:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: Workspace .env npm_execpath could influence bundled runtime dependency install",
+      "url": "https://github.com/advisories/GHSA-qp5j-jr73-m2pw",
+      "date": "2026-06-18T20:33:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Linux and macOS exec allowlists skipped configured argument patterns",
+      "url": "https://github.com/advisories/GHSA-v2ww-5rh7-2h5v",
+      "date": "2026-06-18T20:33:23.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: Linux and macOS exec allowlists skipped configured argument patterns",
+      "url": "https://github.com/advisories/GHSA-3v3j-737j-7g74",
+      "date": "2026-06-18T20:32:43.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: BlueBubbles sender policy could match mutable conversation identifiers",
+      "url": "https://github.com/advisories/GHSA-8j37-5w68-wj2g",
+      "date": "2026-06-18T20:32:22.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: BlueBubbles sender policy could match mutable conversation identifiers",
+      "url": "https://github.com/advisories/GHSA-8hj2-w4c9-fjfq",
+      "date": "2026-06-18T20:32:07.000Z",
+      "ecosystem": "npm",
       "severity": "LOW"
     }
   ]
