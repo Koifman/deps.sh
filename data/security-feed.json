@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-06-18T15:13:13.435Z",
+  "fetchedAt": "2026-06-18T17:12:31.132Z",
   "entries": [
+    {
+      "title": "[pghoard] PGHoard: Password written to debug log",
+      "url": "https://github.com/advisories/GHSA-mpx4-jmpr-vm8v",
+      "date": "2026-06-18T15:05:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[pipecat-ai] Pipecat: Telephony WebSocket `/ws` Unauthenticated Call-Control Abuse via Attacker-Supplied Call SID",
+      "url": "https://github.com/advisories/GHSA-j8cv-x86q-rj85",
+      "date": "2026-06-18T15:05:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jupyter-server] Jupyter Server: Stored XSS in `NbconvertFileHandler` / `NbconvertPostHandler` via missing `sandbox` CSP",
+      "url": "https://github.com/advisories/GHSA-fcw5-x6j4-ccmp",
+      "date": "2026-06-18T15:04:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[bbot] BBOT: Symlink-Following Arbitrary Write via github_workflows Module",
+      "url": "https://github.com/advisories/GHSA-rvp7-w75q-9fv2",
+      "date": "2026-06-18T15:04:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[bbot] BBOT: Arbitrary File Write in postman_download Module",
+      "url": "https://github.com/advisories/GHSA-m54h-vhf9-3w3m",
+      "date": "2026-06-18T15:03:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[bbot] BBOT: Server-Side Request Forgery (SSRF) in docker_pull module via WWW-Authenticate realm parsing",
+      "url": "https://github.com/advisories/GHSA-3mp7-vp6j-2mxx",
+      "date": "2026-06-18T15:03:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[bbot] BBOT: Path traversal (Zip-Slip) in unarchive module - incomplete fix for CVE-2025-10284",
+      "url": "https://github.com/advisories/GHSA-3vgw-585j-4m45",
+      "date": "2026-06-18T15:02:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[openclaw] OpenClaw: macOS Swift exec allowlist missed combined POSIX inline flags",
       "url": "https://github.com/advisories/GHSA-c226-q6fx-6j6c",
@@ -91,55 +140,6 @@
       "date": "2026-06-18T14:40:26.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[pdfkit] pdfkit: Path traversal in from_string",
-      "url": "https://github.com/advisories/GHSA-9g3x-6x24-vf9f",
-      "date": "2026-06-18T14:38:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[horizon] OpenStack Horizon RC file generation does not escape special characters in project names",
-      "url": "https://github.com/advisories/GHSA-6wrm-x65g-hr4p",
-      "date": "2026-06-18T14:37:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow-providers-sftp] Apache Airflow SFTP provider: Path traversal in SFTPHook.retrieve_directory",
-      "url": "https://github.com/advisories/GHSA-qf38-jq28-3ccq",
-      "date": "2026-06-18T14:35:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vllm] Duplicate Advisory: image EXIF Rotation & PNG tRNS Transparency Not Normalized, Causing Mismatch Between Model Input and Expectations",
-      "url": "https://github.com/advisories/GHSA-x8xr-mj9x-6h7w",
-      "date": "2026-06-18T14:31:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@bitbonsai/mcpvault] MCPVault: PathFilter restricted-directory deny-list bypass via case and trailing dot/space equivalence",
-      "url": "https://github.com/advisories/GHSA-j99q-93c9-h869",
-      "date": "2026-06-18T14:30:44.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pypdf] pypdf: Missing stream length values ignore defined limits",
-      "url": "https://github.com/advisories/GHSA-jm82-fx9c-mx94",
-      "date": "2026-06-18T14:28:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[undici] undici vulnerable to TLS certificate validation bypass via dropped requestTls in SOCKS5 ProxyAgent",
-      "url": "https://github.com/advisories/GHSA-vmh5-mc38-953g",
-      "date": "2026-06-18T14:28:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
