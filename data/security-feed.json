@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-18T07:57:01.820Z",
+  "fetchedAt": "2026-06-18T09:41:08.451Z",
   "entries": [
+    {
+      "title": "[open-webui] Open WebUI: SSRF Protection Bypass in Playwright Web Loader via HTTP Redirects",
+      "url": "https://github.com/advisories/GHSA-jrfp-m64g-pcwv",
+      "date": "2026-06-18T08:13:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[vantage6] vantage6 node has an Improper Access Control issue",
       "url": "https://github.com/advisories/GHSA-x9f6-9rvm-mmrg",
@@ -98,13 +105,6 @@
       "date": "2026-06-17T17:57:44.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: SSRF Protection Bypass in Playwright Web Loader via HTTP Redirects",
-      "url": "https://github.com/advisories/GHSA-jrfp-m64g-pcwv",
-      "date": "2026-06-17T17:55:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     },
     {
       "title": "[open-webui] Open WebUI: Path traversal / SSRF in terminal server proxy via encoded path traversal",
