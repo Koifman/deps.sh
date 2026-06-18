@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-06-18T05:48:56.102Z",
+  "scannedAt": "2026-06-18T07:59:38.559Z",
   "count": 106,
   "packages": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "name": "appium",
-      "version": "3.5.0",
+      "version": "3.5.1",
       "ecosystem": "npm",
       "score": 43,
       "level": "MODERATE",
@@ -229,7 +229,7 @@
     },
     {
       "name": "@appium/support",
-      "version": "7.2.3",
+      "version": "7.2.4",
       "ecosystem": "npm",
       "score": 33,
       "level": "MODERATE",
@@ -651,8 +651,17 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@appium/types",
+      "version": "1.5.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@appium/schema",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -667,15 +676,6 @@
       "level": "MODERATE",
       "previousOwner": "remojansen",
       "currentOwner": "notaphplover"
-    },
-    {
-      "name": "@appium/types",
-      "version": "1.5.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@hey-api/codegen-core",
@@ -706,7 +706,7 @@
     },
     {
       "name": "@appium/logger",
-      "version": "2.0.8",
+      "version": "2.0.9",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -849,15 +849,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.70.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@fortawesome/react-fontawesome",
       "version": "3.3.1",
       "ecosystem": "npm",
@@ -865,6 +856,15 @@
       "level": "LOW",
       "previousOwner": "supercodepoet",
       "currentOwner": "lordofbacon"
+    },
+    {
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.70.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxfmt/binding-linux-x64-musl",
@@ -885,21 +885,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.136.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@tsparticles/vue2",
       "version": "4.2.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "matteobruni",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.136.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -912,21 +912,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@tsparticles/svelte",
-      "version": "4.2.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matteobruni",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.136.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@tsparticles/svelte",
+      "version": "4.2.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matteobruni",
       "currentOwner": "GitHub Actions"
     },
     {
