@@ -1,6 +1,104 @@
 {
-  "fetchedAt": "2026-06-19T19:38:27.353Z",
+  "fetchedAt": "2026-06-19T20:38:03.561Z",
   "entries": [
+    {
+      "title": "[parse-server] parse-server: Stored XSS via non-standard file extension bypassing file upload extension blocklist",
+      "url": "https://github.com/advisories/GHSA-v8x7-r927-cc93",
+      "date": "2026-06-19T19:36:37.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] parse-server: Stored XSS via non-standard file extension bypassing file upload extension blocklist",
+      "url": "https://github.com/advisories/GHSA-v8x7-r927-cc93",
+      "date": "2026-06-19T19:36:37.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[jupyterlab-git] jupyterlab-git excluded_paths Case-Sensitivity Bypass Allows Reading Excluded Directories",
+      "url": "https://github.com/advisories/GHSA-436q-jwfr-rm2h",
+      "date": "2026-06-19T19:36:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jupyterlab-git-core] jupyterlab-git extension: Stored XSS leading to RCE",
+      "url": "https://github.com/advisories/GHSA-f962-v9hr-pfg5",
+      "date": "2026-06-19T19:36:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jupyterlab-git] jupyterlab-git extension: Stored XSS leading to RCE",
+      "url": "https://github.com/advisories/GHSA-f962-v9hr-pfg5",
+      "date": "2026-06-19T19:36:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@jupyterlab/git] jupyterlab-git extension: Stored XSS leading to RCE",
+      "url": "https://github.com/advisories/GHSA-f962-v9hr-pfg5",
+      "date": "2026-06-19T19:36:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[stanza] Stanza: Remote Code Execution via Unsafe Pickle Deserialization in Model Loaders",
+      "url": "https://github.com/advisories/GHSA-v5jw-96jm-7h2c",
+      "date": "2026-06-19T19:35:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[homeassistant] Home Assistant: Konnected alarm-panel switch state and zone topology disclosed to unauthenticated actors on the LAN",
+      "url": "https://github.com/advisories/GHSA-x84v-g949-293w",
+      "date": "2026-06-19T19:35:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] parse-server: Relation `$relatedTo` query bypasses `protectedFields` and owning-object ACL",
+      "url": "https://github.com/advisories/GHSA-wmwx-jr2p-4j4r",
+      "date": "2026-06-19T19:35:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] parse-server: Relation `$relatedTo` query bypasses `protectedFields` and owning-object ACL",
+      "url": "https://github.com/advisories/GHSA-wmwx-jr2p-4j4r",
+      "date": "2026-06-19T19:35:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] parse-server: Endpoints `/login` and `/verifyPassword` disclose MFA secrets and protected fields when `_User` get is denied",
+      "url": "https://github.com/advisories/GHSA-75v4-m273-5j49",
+      "date": "2026-06-19T19:35:16.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[parse-server] parse-server: Stored XSS via trailing-dot filename bypassing file upload extension blocklist",
+      "url": "https://github.com/advisories/GHSA-7wqv-xjf3-x35v",
+      "date": "2026-06-19T19:35:11.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] parse-server: Stored XSS via trailing-dot filename bypassing file upload extension blocklist",
+      "url": "https://github.com/advisories/GHSA-7wqv-xjf3-x35v",
+      "date": "2026-06-19T19:35:11.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] parse-server: Server option routeAllowList is bypassable through batch sub-requests",
+      "url": "https://github.com/advisories/GHSA-p84r-h6rx-f2xr",
+      "date": "2026-06-19T19:34:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[py7zr] py7zr: Arbitrary File Write Vulnerability",
       "url": "https://github.com/advisories/GHSA-q6rc-2cgv-63h7",
@@ -42,104 +140,6 @@
       "date": "2026-06-19T19:20:47.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@theia/ai-chat-ui] [Eclipse Theia] Indirect Prompt Injection via Auto-Loaded Workspace Prompt Template Files in AI Chat",
-      "url": "https://github.com/advisories/GHSA-m973-pr9r-hp2w",
-      "date": "2026-06-19T19:20:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@theia/workspace] [Eclipse Theia] Arbitrary Command Execution via Untrusted Workspace Task Definitions",
-      "url": "https://github.com/advisories/GHSA-g9jw-92q7-g7fj",
-      "date": "2026-06-19T19:20:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@theia/task] [Eclipse Theia] Arbitrary Command Execution via Untrusted Workspace Task Definitions",
-      "url": "https://github.com/advisories/GHSA-g9jw-92q7-g7fj",
-      "date": "2026-06-19T19:20:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@theia/debug] [Eclipse Theia] Arbitrary Command Execution via Untrusted Workspace Task Definitions",
-      "url": "https://github.com/advisories/GHSA-g9jw-92q7-g7fj",
-      "date": "2026-06-19T19:20:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@theia/ai-ide] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
-      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
-      "date": "2026-06-19T19:19:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@theia/ai-editor] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
-      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
-      "date": "2026-06-19T19:19:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@theia/ai-core] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
-      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
-      "date": "2026-06-19T19:19:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@theia/ai-code-completion] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
-      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
-      "date": "2026-06-19T19:19:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@theia/ai-claude-code] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
-      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
-      "date": "2026-06-19T19:19:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@theia/ai-chat] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
-      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
-      "date": "2026-06-19T19:19:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@theia/ai-chat-ui] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
-      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
-      "date": "2026-06-19T19:19:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@theia/ai-ide] [Eclipse Theia] Data Exfiltration via Markdown Image Rendering in AI Chat",
-      "url": "https://github.com/advisories/GHSA-qwjm-9c66-w4q4",
-      "date": "2026-06-19T19:19:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@theia/ai-editor] [Eclipse Theia] Data Exfiltration via Markdown Image Rendering in AI Chat",
-      "url": "https://github.com/advisories/GHSA-qwjm-9c66-w4q4",
-      "date": "2026-06-19T19:19:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@theia/ai-core] [Eclipse Theia] Data Exfiltration via Markdown Image Rendering in AI Chat",
-      "url": "https://github.com/advisories/GHSA-qwjm-9c66-w4q4",
-      "date": "2026-06-19T19:19:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
