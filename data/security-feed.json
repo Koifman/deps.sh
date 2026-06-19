@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-06-19T16:04:46.404Z",
+  "fetchedAt": "2026-06-19T17:42:50.125Z",
   "entries": [
+    {
+      "title": "[agentic-flow] Agentic-Flow: OS Command Injection in agentic-flow MCP server tools via unsanitized tool-parameter interpolation into execSync",
+      "url": "https://github.com/advisories/GHSA-vcv2-r9jh-99m5",
+      "date": "2026-06-19T15:13:00.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ouroboros-ai] ouroboros-ai: Incomplete fix of CVE-2026-47211: untrusted project .env can still reach RCE via omitted execution-routing keys",
+      "url": "https://github.com/advisories/GHSA-jv2h-4p9v-wf5w",
+      "date": "2026-06-19T15:12:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jupyterlab] JupyterLab: Stored XSS in extension manager through package metadata unsanitized URI protocol",
+      "url": "https://github.com/advisories/GHSA-vmhf-c436-hxj4",
+      "date": "2026-06-19T15:11:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[agent-coderag] agent-coderag: Gradle Wrapper Execution During Dependency Discovery Enables Arbitrary Code Execution",
+      "url": "https://github.com/advisories/GHSA-wg5p-8h9p-3mr7",
+      "date": "2026-06-19T15:01:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[parse-server] parse-server: Denial of service via exponential-time processing of deeply nested query operators",
       "url": "https://github.com/advisories/GHSA-cgxm-vr2f-6fj8",
@@ -112,34 +140,6 @@
       "date": "2026-06-19T14:20:20.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[undici] undici vulnerable to HTTP response queue poisoning via keep-alive socket reuse",
-      "url": "https://github.com/advisories/GHSA-35p6-xmwp-9g52",
-      "date": "2026-06-19T14:19:15.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[undici] undici vulnerable to HTTP response queue poisoning via keep-alive socket reuse",
-      "url": "https://github.com/advisories/GHSA-35p6-xmwp-9g52",
-      "date": "2026-06-19T14:19:15.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[undici] undici vulnerable to HTTP response queue poisoning via keep-alive socket reuse",
-      "url": "https://github.com/advisories/GHSA-35p6-xmwp-9g52",
-      "date": "2026-06-19T14:19:15.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[network-ai] Network-AI: Improper Neutralization of Special Elements used in an OS Command",
-      "url": "https://github.com/advisories/GHSA-qw6v-5fcf-5666",
-      "date": "2026-06-19T13:35:06.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
