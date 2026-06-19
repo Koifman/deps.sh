@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-19T05:53:07.303Z",
+  "fetchedAt": "2026-06-19T08:07:59.332Z",
   "entries": [
+    {
+      "title": "[netlicensing-mcp] netlicensing-mcp: REST Path Traversal Bypasses Token Redaction",
+      "url": "https://github.com/advisories/GHSA-hxpf-9xvq-wph8",
+      "date": "2026-06-19T06:08:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[dssrf] dssrf: every IPv6 category bypasses is_url_safe",
       "url": "https://github.com/advisories/GHSA-8p33-q827-ghj5",
@@ -131,13 +138,6 @@
       "title": "[openclaw] OpenClaw: Linux and macOS exec allowlists skipped configured argument patterns",
       "url": "https://github.com/advisories/GHSA-v2ww-5rh7-2h5v",
       "date": "2026-06-18T20:33:23.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: Linux and macOS exec allowlists skipped configured argument patterns",
-      "url": "https://github.com/advisories/GHSA-3v3j-737j-7g74",
-      "date": "2026-06-18T20:32:43.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
