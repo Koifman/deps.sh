@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-06-19T18:47:09.376Z",
+  "fetchedAt": "2026-06-19T19:38:27.353Z",
   "entries": [
     {
-      "title": "[@openzeppelin/wizard-stylus] OpenZeppelin Contracts Wizard: Line terminators in info.securityContact / info.license can inject lines into generated source",
-      "url": "https://github.com/advisories/GHSA-9wxg-vf3r-56hc",
-      "date": "2026-06-19T17:45:17.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@openzeppelin/wizard-stellar] OpenZeppelin Contracts Wizard: Line terminators in info.securityContact / info.license can inject lines into generated source",
-      "url": "https://github.com/advisories/GHSA-9wxg-vf3r-56hc",
-      "date": "2026-06-19T17:45:17.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@openzeppelin/wizard-cairo] OpenZeppelin Contracts Wizard: Line terminators in info.securityContact / info.license can inject lines into generated source",
-      "url": "https://github.com/advisories/GHSA-9wxg-vf3r-56hc",
-      "date": "2026-06-19T17:45:17.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@openzeppelin/wizard] OpenZeppelin Contracts Wizard: Line terminators in info.securityContact / info.license can inject lines into generated source",
-      "url": "https://github.com/advisories/GHSA-9wxg-vf3r-56hc",
-      "date": "2026-06-19T17:45:17.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[agentic-flow] Agentic-Flow: OS Command Injection in agentic-flow MCP server tools via unsanitized tool-parameter interpolation into execSync",
-      "url": "https://github.com/advisories/GHSA-vcv2-r9jh-99m5",
-      "date": "2026-06-19T15:13:00.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ouroboros-ai] ouroboros-ai: Incomplete fix of CVE-2026-47211: untrusted project .env can still reach RCE via omitted execution-routing keys",
-      "url": "https://github.com/advisories/GHSA-jv2h-4p9v-wf5w",
-      "date": "2026-06-19T15:12:25.000Z",
+      "title": "[py7zr] py7zr: Arbitrary File Write Vulnerability",
+      "url": "https://github.com/advisories/GHSA-q6rc-2cgv-63h7",
+      "date": "2026-06-19T19:21:58.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[jupyterlab] JupyterLab: Stored XSS in extension manager through package metadata unsanitized URI protocol",
-      "url": "https://github.com/advisories/GHSA-vmhf-c436-hxj4",
-      "date": "2026-06-19T15:11:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[agent-coderag] agent-coderag: Gradle Wrapper Execution During Dependency Discovery Enables Arbitrary Code Execution",
-      "url": "https://github.com/advisories/GHSA-wg5p-8h9p-3mr7",
-      "date": "2026-06-19T15:01:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] parse-server: Denial of service via exponential-time processing of deeply nested query operators",
-      "url": "https://github.com/advisories/GHSA-cgxm-vr2f-6fj8",
-      "date": "2026-06-19T14:50:16.000Z",
+      "title": "[@theia/ai-editor] [Eclipse Theia] Indirect Prompt Injection via Auto-Loaded Workspace Prompt Template Files in AI Chat",
+      "url": "https://github.com/advisories/GHSA-m973-pr9r-hp2w",
+      "date": "2026-06-19T19:20:47.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[parse-server] parse-server: Denial of service via exponential-time processing of deeply nested query operators",
-      "url": "https://github.com/advisories/GHSA-cgxm-vr2f-6fj8",
-      "date": "2026-06-19T14:50:16.000Z",
+      "title": "[@theia/ai-core] [Eclipse Theia] Indirect Prompt Injection via Auto-Loaded Workspace Prompt Template Files in AI Chat",
+      "url": "https://github.com/advisories/GHSA-m973-pr9r-hp2w",
+      "date": "2026-06-19T19:20:47.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[hermes-agent] Hermes Agent creates response_store.db and webhook_subscriptions.json with world-readable permissions (mode 0o644)",
-      "url": "https://github.com/advisories/GHSA-99f9-j8r3-p853",
-      "date": "2026-06-19T14:48:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hermes-agent] Hermes Agent contains a DNS rebinding vulnerability in WebSocket endpoints that allows remote attackers to bypass Host and Origin validation",
-      "url": "https://github.com/advisories/GHSA-4pqm-j46f-795x",
-      "date": "2026-06-19T14:47:04.000Z",
-      "ecosystem": "pypi",
+      "title": "[@theia/ai-code-completion] [Eclipse Theia] Indirect Prompt Injection via Auto-Loaded Workspace Prompt Template Files in AI Chat",
+      "url": "https://github.com/advisories/GHSA-m973-pr9r-hp2w",
+      "date": "2026-06-19T19:20:47.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[bedrock-agentcore] Improper neutralization of argument delimiters in AWS Bedrock AgentCore Python SDK install_packages()",
-      "url": "https://github.com/advisories/GHSA-6rfw-mq36-jm8h",
-      "date": "2026-06-19T14:46:33.000Z",
-      "ecosystem": "pypi",
+      "title": "[@theia/ai-claude-code] [Eclipse Theia] Indirect Prompt Injection via Auto-Loaded Workspace Prompt Template Files in AI Chat",
+      "url": "https://github.com/advisories/GHSA-m973-pr9r-hp2w",
+      "date": "2026-06-19T19:20:47.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[undici] undici vulnerable to Set-Cookie SameSite attribute downgrade via permissive substring matching",
-      "url": "https://github.com/advisories/GHSA-g8m3-5g58-fq7m",
-      "date": "2026-06-19T14:34:46.000Z",
+      "title": "[@theia/ai-chat] [Eclipse Theia] Indirect Prompt Injection via Auto-Loaded Workspace Prompt Template Files in AI Chat",
+      "url": "https://github.com/advisories/GHSA-m973-pr9r-hp2w",
+      "date": "2026-06-19T19:20:47.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "HIGH"
     },
     {
-      "title": "[undici] undici vulnerable to Set-Cookie SameSite attribute downgrade via permissive substring matching",
-      "url": "https://github.com/advisories/GHSA-g8m3-5g58-fq7m",
-      "date": "2026-06-19T14:34:46.000Z",
+      "title": "[@theia/ai-chat-ui] [Eclipse Theia] Indirect Prompt Injection via Auto-Loaded Workspace Prompt Template Files in AI Chat",
+      "url": "https://github.com/advisories/GHSA-m973-pr9r-hp2w",
+      "date": "2026-06-19T19:20:47.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "HIGH"
     },
     {
-      "title": "[undici] undici vulnerable to Set-Cookie SameSite attribute downgrade via permissive substring matching",
-      "url": "https://github.com/advisories/GHSA-g8m3-5g58-fq7m",
-      "date": "2026-06-19T14:34:46.000Z",
+      "title": "[@theia/workspace] [Eclipse Theia] Arbitrary Command Execution via Untrusted Workspace Task Definitions",
+      "url": "https://github.com/advisories/GHSA-g9jw-92q7-g7fj",
+      "date": "2026-06-19T19:20:21.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "HIGH"
     },
     {
-      "title": "[undici] undici vulnerable to HTTP header injection via Set-Cookie percent-decoding",
-      "url": "https://github.com/advisories/GHSA-p88m-4jfj-68fv",
-      "date": "2026-06-19T14:23:30.000Z",
+      "title": "[@theia/task] [Eclipse Theia] Arbitrary Command Execution via Untrusted Workspace Task Definitions",
+      "url": "https://github.com/advisories/GHSA-g9jw-92q7-g7fj",
+      "date": "2026-06-19T19:20:21.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     },
     {
-      "title": "[undici] undici vulnerable to HTTP header injection via Set-Cookie percent-decoding",
-      "url": "https://github.com/advisories/GHSA-p88m-4jfj-68fv",
-      "date": "2026-06-19T14:23:30.000Z",
+      "title": "[@theia/debug] [Eclipse Theia] Arbitrary Command Execution via Untrusted Workspace Task Definitions",
+      "url": "https://github.com/advisories/GHSA-g9jw-92q7-g7fj",
+      "date": "2026-06-19T19:20:21.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     },
     {
-      "title": "[undici] undici vulnerable to HTTP header injection via Set-Cookie percent-decoding",
-      "url": "https://github.com/advisories/GHSA-p88m-4jfj-68fv",
-      "date": "2026-06-19T14:23:30.000Z",
+      "title": "[@theia/ai-ide] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
+      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
+      "date": "2026-06-19T19:19:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@theia/ai-editor] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
+      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
+      "date": "2026-06-19T19:19:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@theia/ai-core] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
+      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
+      "date": "2026-06-19T19:19:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@theia/ai-code-completion] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
+      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
+      "date": "2026-06-19T19:19:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@theia/ai-claude-code] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
+      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
+      "date": "2026-06-19T19:19:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@theia/ai-chat] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
+      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
+      "date": "2026-06-19T19:19:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@theia/ai-chat-ui] [Eclipse Theia] Indirect Prompt Injection via Adversarial Workspace File and Directory Names in AI Chat",
+      "url": "https://github.com/advisories/GHSA-3jww-hxqj-wfq2",
+      "date": "2026-06-19T19:19:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@theia/ai-ide] [Eclipse Theia] Data Exfiltration via Markdown Image Rendering in AI Chat",
+      "url": "https://github.com/advisories/GHSA-qwjm-9c66-w4q4",
+      "date": "2026-06-19T19:19:23.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[undici] undici WebSocket client vulnerable to denial of service via fragment count bypass",
-      "url": "https://github.com/advisories/GHSA-vxpw-j846-p89q",
-      "date": "2026-06-19T14:23:29.000Z",
+      "title": "[@theia/ai-editor] [Eclipse Theia] Data Exfiltration via Markdown Image Rendering in AI Chat",
+      "url": "https://github.com/advisories/GHSA-qwjm-9c66-w4q4",
+      "date": "2026-06-19T19:19:23.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@theia/ai-core] [Eclipse Theia] Data Exfiltration via Markdown Image Rendering in AI Chat",
+      "url": "https://github.com/advisories/GHSA-qwjm-9c66-w4q4",
+      "date": "2026-06-19T19:19:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     }
   ]
 }
