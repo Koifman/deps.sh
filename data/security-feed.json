@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-06-19T20:38:03.561Z",
+  "fetchedAt": "2026-06-19T21:31:44.545Z",
   "entries": [
     {
-      "title": "[parse-server] parse-server: Stored XSS via non-standard file extension bypassing file upload extension blocklist",
-      "url": "https://github.com/advisories/GHSA-v8x7-r927-cc93",
-      "date": "2026-06-19T19:36:37.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] parse-server: Stored XSS via non-standard file extension bypassing file upload extension blocklist",
-      "url": "https://github.com/advisories/GHSA-v8x7-r927-cc93",
-      "date": "2026-06-19T19:36:37.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[jupyterlab-git] jupyterlab-git excluded_paths Case-Sensitivity Bypass Allows Reading Excluded Directories",
-      "url": "https://github.com/advisories/GHSA-436q-jwfr-rm2h",
-      "date": "2026-06-19T19:36:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jupyterlab-git-core] jupyterlab-git extension: Stored XSS leading to RCE",
-      "url": "https://github.com/advisories/GHSA-f962-v9hr-pfg5",
-      "date": "2026-06-19T19:36:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jupyterlab-git] jupyterlab-git extension: Stored XSS leading to RCE",
-      "url": "https://github.com/advisories/GHSA-f962-v9hr-pfg5",
-      "date": "2026-06-19T19:36:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@jupyterlab/git] jupyterlab-git extension: Stored XSS leading to RCE",
-      "url": "https://github.com/advisories/GHSA-f962-v9hr-pfg5",
-      "date": "2026-06-19T19:36:06.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[stanza] Stanza: Remote Code Execution via Unsafe Pickle Deserialization in Model Loaders",
-      "url": "https://github.com/advisories/GHSA-v5jw-96jm-7h2c",
-      "date": "2026-06-19T19:35:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[homeassistant] Home Assistant: Konnected alarm-panel switch state and zone topology disclosed to unauthenticated actors on the LAN",
-      "url": "https://github.com/advisories/GHSA-x84v-g949-293w",
-      "date": "2026-06-19T19:35:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] parse-server: Relation `$relatedTo` query bypasses `protectedFields` and owning-object ACL",
-      "url": "https://github.com/advisories/GHSA-wmwx-jr2p-4j4r",
-      "date": "2026-06-19T19:35:21.000Z",
+      "title": "[@outerbase/studio] Outerbase Studio: Stored XSS in Text Widget Leads to Authentication Token Exposure",
+      "url": "https://github.com/advisories/GHSA-wwf9-7jrc-rv4q",
+      "date": "2026-06-19T21:18:46.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[parse-server] parse-server: Relation `$relatedTo` query bypasses `protectedFields` and owning-object ACL",
-      "url": "https://github.com/advisories/GHSA-wmwx-jr2p-4j4r",
-      "date": "2026-06-19T19:35:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
+      "title": "[langflow] Langflow: BaseFileComponent-based nodes arbitrary file read with RCE exploit",
+      "url": "https://github.com/advisories/GHSA-ccv6-r384-xp75",
+      "date": "2026-06-19T21:18:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
     },
     {
-      "title": "[parse-server] parse-server: Endpoints `/login` and `/verifyPassword` disclose MFA secrets and protected fields when `_User` get is denied",
-      "url": "https://github.com/advisories/GHSA-75v4-m273-5j49",
-      "date": "2026-06-19T19:35:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[parse-server] parse-server: Stored XSS via trailing-dot filename bypassing file upload extension blocklist",
-      "url": "https://github.com/advisories/GHSA-7wqv-xjf3-x35v",
-      "date": "2026-06-19T19:35:11.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] parse-server: Stored XSS via trailing-dot filename bypassing file upload extension blocklist",
-      "url": "https://github.com/advisories/GHSA-7wqv-xjf3-x35v",
-      "date": "2026-06-19T19:35:11.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] parse-server: Server option routeAllowList is bypassable through batch sub-requests",
-      "url": "https://github.com/advisories/GHSA-p84r-h6rx-f2xr",
-      "date": "2026-06-19T19:34:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[py7zr] py7zr: Arbitrary File Write Vulnerability",
-      "url": "https://github.com/advisories/GHSA-q6rc-2cgv-63h7",
-      "date": "2026-06-19T19:21:58.000Z",
+      "title": "[langflow] Langflow: Unauthenticated DoS through multipart form boundary file upload",
+      "url": "https://github.com/advisories/GHSA-qwqc-p3q8-wcg9",
+      "date": "2026-06-19T21:17:38.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[@theia/ai-editor] [Eclipse Theia] Indirect Prompt Injection via Auto-Loaded Workspace Prompt Template Files in AI Chat",
-      "url": "https://github.com/advisories/GHSA-m973-pr9r-hp2w",
-      "date": "2026-06-19T19:20:47.000Z",
+      "title": "[langflow] Langflow: Logout button does not clear session",
+      "url": "https://github.com/advisories/GHSA-7hw8-6q6r-4276",
+      "date": "2026-06-19T21:17:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langflow] Langflow: IDOR Vulnerability in `/api/v1/responses` Endpoint Allows Authenticated Attackers to Access Another User's Flow",
+      "url": "https://github.com/advisories/GHSA-qrpv-q767-xqq2",
+      "date": "2026-06-19T21:16:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[py7zr] py7zr: O(n^2) algorithmic complexity DoS in PackInfo._read()",
+      "url": "https://github.com/advisories/GHSA-h4gh-22qq-72r7",
+      "date": "2026-06-19T21:16:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[py7zr] py7zr: Decompression bomb (zip bomb) denial of service via unchecked extraction size",
+      "url": "https://github.com/advisories/GHSA-gjrg-mpp7-g774",
+      "date": "2026-06-19T21:16:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vcrpy] VCR.py: Arbitrary code execution via unsafe YAML deserialization of cassette files",
+      "url": "https://github.com/advisories/GHSA-rpj2-4hq8-938g",
+      "date": "2026-06-19T21:15:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dbt-mcp] dbt MCP Server: Unauthenticated OAuth Context Endpoint Leaks dbt Platform Tokens",
+      "url": "https://github.com/advisories/GHSA-jr33-mw75-7j8f",
+      "date": "2026-06-19T21:15:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ultimate-sitemap-parser] Ultimate Sitemap Parser (USP): XML Entity Expansion (Billion Laughs) DoS in XMLSitemapParser",
+      "url": "https://github.com/advisories/GHSA-p5wc-9w9r-m232",
+      "date": "2026-06-19T21:15:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ultimate-sitemap-parser] Ultimate Sitemap Parser (USP): Gzip Decompression Bomb Bypasses Sitemap Size Limit",
+      "url": "https://github.com/advisories/GHSA-8823-qg2x-pv9f",
+      "date": "2026-06-19T21:15:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@tinacms/app] TinaCMS: Cross-origin postMessage handlers and rich-text URL-sanitization bypass enable stored XSS and session takeover",
+      "url": "https://github.com/advisories/GHSA-g5qx-h5f3-mp2f",
+      "date": "2026-06-19T21:15:29.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@theia/ai-core] [Eclipse Theia] Indirect Prompt Injection via Auto-Loaded Workspace Prompt Template Files in AI Chat",
-      "url": "https://github.com/advisories/GHSA-m973-pr9r-hp2w",
-      "date": "2026-06-19T19:20:47.000Z",
+      "title": "[tinacms] TinaCMS: Cross-origin postMessage handlers and rich-text URL-sanitization bypass enable stored XSS and session takeover",
+      "url": "https://github.com/advisories/GHSA-g5qx-h5f3-mp2f",
+      "date": "2026-06-19T21:15:29.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@theia/ai-code-completion] [Eclipse Theia] Indirect Prompt Injection via Auto-Loaded Workspace Prompt Template Files in AI Chat",
-      "url": "https://github.com/advisories/GHSA-m973-pr9r-hp2w",
-      "date": "2026-06-19T19:20:47.000Z",
+      "title": "[@tinacms/cli] @tinacms/cli: Remote Code Execution in @tinacms/cli via Forestry migration — unsanitised __TINA_INTERNAL__ marker in user-controlled YAML labels",
+      "url": "https://github.com/advisories/GHSA-4936-9hrh-qqpw",
+      "date": "2026-06-19T21:15:17.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@theia/ai-claude-code] [Eclipse Theia] Indirect Prompt Injection via Auto-Loaded Workspace Prompt Template Files in AI Chat",
-      "url": "https://github.com/advisories/GHSA-m973-pr9r-hp2w",
-      "date": "2026-06-19T19:20:47.000Z",
+      "title": "[galaxy-ng] Galaxy NG: command injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-6hw7-j4jw-wpff",
+      "date": "2026-06-19T20:48:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[remotion] Remotion: remote code execution (RCE) vulnerability",
+      "url": "https://github.com/advisories/GHSA-2jqp-f4gr-44fr",
+      "date": "2026-06-19T20:48:04.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[remotion] Remotion: arbitrary file write vulnerability",
+      "url": "https://github.com/advisories/GHSA-g6pc-6676-c23j",
+      "date": "2026-06-19T20:47:59.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flat-to-nested] flat-to-nested: Prototype pollution in flat-to-nested convert() via __proto__ parent/id key",
+      "url": "https://github.com/advisories/GHSA-hp36-v28f-w3r4",
+      "date": "2026-06-19T20:47:54.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@theia/ai-chat] [Eclipse Theia] Indirect Prompt Injection via Auto-Loaded Workspace Prompt Template Files in AI Chat",
-      "url": "https://github.com/advisories/GHSA-m973-pr9r-hp2w",
-      "date": "2026-06-19T19:20:47.000Z",
+      "title": "[@cyclonedx/cyclonedx-npm] @cyclonedx/cyclonedx-npm: Shell Injection via Unsanitized --workspace Argument",
+      "url": "https://github.com/advisories/GHSA-v75r-vx73-82pj",
+      "date": "2026-06-19T20:47:49.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
+    },
+    {
+      "title": "[ujson] UltraJSON: Malformed/Truncated UTF-8 Accepted and Silently Rewritten in ujson.dumps()",
+      "url": "https://github.com/advisories/GHSA-3j69-69wj-xqx2",
+      "date": "2026-06-19T20:47:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     }
   ]
 }
