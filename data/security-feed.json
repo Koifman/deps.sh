@@ -1,144 +1,144 @@
 {
-  "fetchedAt": "2026-06-19T21:31:44.545Z",
+  "fetchedAt": "2026-06-19T22:26:21.577Z",
   "entries": [
     {
-      "title": "[@outerbase/studio] Outerbase Studio: Stored XSS in Text Widget Leads to Authentication Token Exposure",
-      "url": "https://github.com/advisories/GHSA-wwf9-7jrc-rv4q",
-      "date": "2026-06-19T21:18:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langflow] Langflow: BaseFileComponent-based nodes arbitrary file read with RCE exploit",
-      "url": "https://github.com/advisories/GHSA-ccv6-r384-xp75",
-      "date": "2026-06-19T21:18:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[langflow] Langflow: Unauthenticated DoS through multipart form boundary file upload",
-      "url": "https://github.com/advisories/GHSA-qwqc-p3q8-wcg9",
-      "date": "2026-06-19T21:17:38.000Z",
+      "title": "[aqt] Anki's local HTTP server does not sufficiently validate requests",
+      "url": "https://github.com/advisories/GHSA-869j-r97x-hx2g",
+      "date": "2026-06-19T22:10:58.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[langflow] Langflow: Logout button does not clear session",
-      "url": "https://github.com/advisories/GHSA-7hw8-6q6r-4276",
-      "date": "2026-06-19T21:17:02.000Z",
+      "title": "[pydantic-settings] pydantic-settings: NestedSecretsSettingsSource follows symlinks outside secrets_dir, enabling local file read and bypassing secrets_dir_max_size",
+      "url": "https://github.com/advisories/GHSA-4xgf-cpjx-pc3j",
+      "date": "2026-06-19T22:10:43.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[langflow] Langflow: IDOR Vulnerability in `/api/v1/responses` Endpoint Allows Authenticated Attackers to Access Another User's Flow",
-      "url": "https://github.com/advisories/GHSA-qrpv-q767-xqq2",
-      "date": "2026-06-19T21:16:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
+      "title": "[@merill/lokka] Lokka: Azure Resource Manager URL path validation issue",
+      "url": "https://github.com/advisories/GHSA-g2gw-q38m-vjfc",
+      "date": "2026-06-19T22:10:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "[py7zr] py7zr: O(n^2) algorithmic complexity DoS in PackInfo._read()",
-      "url": "https://github.com/advisories/GHSA-h4gh-22qq-72r7",
-      "date": "2026-06-19T21:16:36.000Z",
+      "title": "[@jhb.software/payload-cloudinary-plugin] @jhb.software/payload-cloudinary-plugin: Arbitrary Cloudinary API Parameter Signing",
+      "url": "https://github.com/advisories/GHSA-h5x8-xp6m-x6q4",
+      "date": "2026-06-19T22:10:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langsmith] LangSmith SDK TracingMiddleware: Arbitrary server-side file read",
+      "url": "https://github.com/advisories/GHSA-f4xh-w4cj-qxq8",
+      "date": "2026-06-19T22:10:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[zeep] Zeep: Server-Side Request Forgery (SSRF)",
+      "url": "https://github.com/advisories/GHSA-4cc2-g9w2-fhf6",
+      "date": "2026-06-19T22:10:28.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[py7zr] py7zr: Decompression bomb (zip bomb) denial of service via unchecked extraction size",
-      "url": "https://github.com/advisories/GHSA-gjrg-mpp7-g774",
-      "date": "2026-06-19T21:16:31.000Z",
+      "title": "[aqt] Anki: User scripts in iframes have access to the internal Anki API",
+      "url": "https://github.com/advisories/GHSA-cw6h-ffmh-x6vh",
+      "date": "2026-06-19T22:10:20.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[vcrpy] VCR.py: Arbitrary code execution via unsafe YAML deserialization of cassette files",
-      "url": "https://github.com/advisories/GHSA-rpj2-4hq8-938g",
-      "date": "2026-06-19T21:15:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dbt-mcp] dbt MCP Server: Unauthenticated OAuth Context Endpoint Leaks dbt Platform Tokens",
-      "url": "https://github.com/advisories/GHSA-jr33-mw75-7j8f",
-      "date": "2026-06-19T21:15:41.000Z",
+      "title": "[ChatterBot] ChatterBot: Symlink-Following Arbitrary Write via UbuntuCorpusTrainer",
+      "url": "https://github.com/advisories/GHSA-wvrh-2f4m-924v",
+      "date": "2026-06-19T22:08:09.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[ultimate-sitemap-parser] Ultimate Sitemap Parser (USP): XML Entity Expansion (Billion Laughs) DoS in XMLSitemapParser",
-      "url": "https://github.com/advisories/GHSA-p5wc-9w9r-m232",
-      "date": "2026-06-19T21:15:37.000Z",
+      "title": "[appium-mcp] appium-mcp: Unescaped Locator Data XSS in MCP-UI Resource (createLocatorGeneratorUI)",
+      "url": "https://github.com/advisories/GHSA-x975-rgx4-5fh4",
+      "date": "2026-06-19T21:43:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[everos] EverOS: Path traversal in EverOS /api/v1/memory/add via unvalidated sender_id",
+      "url": "https://github.com/advisories/GHSA-c795-2g9c-j48m",
+      "date": "2026-06-19T21:43:15.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[ultimate-sitemap-parser] Ultimate Sitemap Parser (USP): Gzip Decompression Bomb Bypasses Sitemap Size Limit",
-      "url": "https://github.com/advisories/GHSA-8823-qg2x-pv9f",
-      "date": "2026-06-19T21:15:35.000Z",
+      "title": "[@zenalexa/unicli] Uni-CLI: Legacy HTTP MCP transport accepted browser-originated localhost requests",
+      "url": "https://github.com/advisories/GHSA-v3f4-w7r7-v3hm",
+      "date": "2026-06-19T21:43:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[stigmem-node] stigmem-node: decay sweep expires and counts facts across all tenants (cross-tenant BOLA)",
+      "url": "https://github.com/advisories/GHSA-6gqw-jqv7-v88m",
+      "date": "2026-06-19T21:43:05.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[@tinacms/app] TinaCMS: Cross-origin postMessage handlers and rich-text URL-sanitization bypass enable stored XSS and session takeover",
-      "url": "https://github.com/advisories/GHSA-g5qx-h5f3-mp2f",
-      "date": "2026-06-19T21:15:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[tinacms] TinaCMS: Cross-origin postMessage handlers and rich-text URL-sanitization bypass enable stored XSS and session takeover",
-      "url": "https://github.com/advisories/GHSA-g5qx-h5f3-mp2f",
-      "date": "2026-06-19T21:15:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@tinacms/cli] @tinacms/cli: Remote Code Execution in @tinacms/cli via Forestry migration — unsanitised __TINA_INTERNAL__ marker in user-controlled YAML labels",
-      "url": "https://github.com/advisories/GHSA-4936-9hrh-qqpw",
-      "date": "2026-06-19T21:15:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[galaxy-ng] Galaxy NG: command injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-6hw7-j4jw-wpff",
-      "date": "2026-06-19T20:48:07.000Z",
+      "title": "[stigmem-node] stistigmem-node: quarantine review surface exposes and mutates other tenants' quarantined facts (cross-tenant BOLA)",
+      "url": "https://github.com/advisories/GHSA-xhv3-q4xx-349r",
+      "date": "2026-06-19T21:43:01.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[remotion] Remotion: remote code execution (RCE) vulnerability",
-      "url": "https://github.com/advisories/GHSA-2jqp-f4gr-44fr",
-      "date": "2026-06-19T20:48:04.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[remotion] Remotion: arbitrary file write vulnerability",
-      "url": "https://github.com/advisories/GHSA-g6pc-6676-c23j",
-      "date": "2026-06-19T20:47:59.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[flat-to-nested] flat-to-nested: Prototype pollution in flat-to-nested convert() via __proto__ parent/id key",
-      "url": "https://github.com/advisories/GHSA-hp36-v28f-w3r4",
-      "date": "2026-06-19T20:47:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@cyclonedx/cyclonedx-npm] @cyclonedx/cyclonedx-npm: Shell Injection via Unsanitized --workspace Argument",
-      "url": "https://github.com/advisories/GHSA-v75r-vx73-82pj",
-      "date": "2026-06-19T20:47:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ujson] UltraJSON: Malformed/Truncated UTF-8 Accepted and Silently Rewritten in ujson.dumps()",
-      "url": "https://github.com/advisories/GHSA-3j69-69wj-xqx2",
-      "date": "2026-06-19T20:47:44.000Z",
+      "title": "[stigmem-node] stigmem-node: RTBF tombstones are mis-attributed and suppress reads tenant-blind (cross-tenant BOLA)",
+      "url": "https://github.com/advisories/GHSA-x26h-xmv8-gxf7",
+      "date": "2026-06-19T21:43:00.000Z",
       "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[msgpack] MessagePack for Python: Out-of-bounds read / crash on Unpacker reuse after a caught error",
+      "url": "https://github.com/advisories/GHSA-6v7p-g79w-8964",
+      "date": "2026-06-19T21:42:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mcp-searxng]  SearXNG MCP Server: DNS-resolved Private Hostname SSRF in `web_url_read`",
+      "url": "https://github.com/advisories/GHSA-mrvx-jmjw-vggc",
+      "date": "2026-06-19T21:42:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] parse-server: LiveQuery discloses object data to a subscriber across an ACL read-access change",
+      "url": "https://github.com/advisories/GHSA-97pr-9hgg-3p8r",
+      "date": "2026-06-19T21:42:50.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] parse-server: LiveQuery discloses object data to a subscriber across an ACL read-access change",
+      "url": "https://github.com/advisories/GHSA-97pr-9hgg-3p8r",
+      "date": "2026-06-19T21:42:50.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[mcp-searxng]  SearXNG MCP Server: Unbounded Response Body Read Bypasses URL Size Limit in `web_url_read`",
+      "url": "https://github.com/advisories/GHSA-xcqx-9jf5-w339",
+      "date": "2026-06-19T21:42:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[network-ai] Network-AI: EnvironmentManager.backup() follows symlinked directories and copies files outside the environment root into backups",
+      "url": "https://github.com/advisories/GHSA-6x2m-p4xp-wg22",
+      "date": "2026-06-19T21:42:40.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
