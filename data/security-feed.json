@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-06-19T17:42:50.125Z",
+  "fetchedAt": "2026-06-19T18:47:09.376Z",
   "entries": [
+    {
+      "title": "[@openzeppelin/wizard-stylus] OpenZeppelin Contracts Wizard: Line terminators in info.securityContact / info.license can inject lines into generated source",
+      "url": "https://github.com/advisories/GHSA-9wxg-vf3r-56hc",
+      "date": "2026-06-19T17:45:17.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@openzeppelin/wizard-stellar] OpenZeppelin Contracts Wizard: Line terminators in info.securityContact / info.license can inject lines into generated source",
+      "url": "https://github.com/advisories/GHSA-9wxg-vf3r-56hc",
+      "date": "2026-06-19T17:45:17.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@openzeppelin/wizard-cairo] OpenZeppelin Contracts Wizard: Line terminators in info.securityContact / info.license can inject lines into generated source",
+      "url": "https://github.com/advisories/GHSA-9wxg-vf3r-56hc",
+      "date": "2026-06-19T17:45:17.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@openzeppelin/wizard] OpenZeppelin Contracts Wizard: Line terminators in info.securityContact / info.license can inject lines into generated source",
+      "url": "https://github.com/advisories/GHSA-9wxg-vf3r-56hc",
+      "date": "2026-06-19T17:45:17.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[agentic-flow] Agentic-Flow: OS Command Injection in agentic-flow MCP server tools via unsanitized tool-parameter interpolation into execSync",
       "url": "https://github.com/advisories/GHSA-vcv2-r9jh-99m5",
@@ -110,34 +138,6 @@
       "title": "[undici] undici WebSocket client vulnerable to denial of service via fragment count bypass",
       "url": "https://github.com/advisories/GHSA-vxpw-j846-p89q",
       "date": "2026-06-19T14:23:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[undici] undici WebSocket client vulnerable to denial of service via fragment count bypass",
-      "url": "https://github.com/advisories/GHSA-vxpw-j846-p89q",
-      "date": "2026-06-19T14:23:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[undici] undici WebSocket client vulnerable to denial of service via fragment count bypass",
-      "url": "https://github.com/advisories/GHSA-vxpw-j846-p89q",
-      "date": "2026-06-19T14:23:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[undici] undici vulnerable to cross-origin request routing via SOCKS5 proxy pool reuse",
-      "url": "https://github.com/advisories/GHSA-hm92-r4w5-c3mj",
-      "date": "2026-06-19T14:20:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[undici] undici vulnerable to cross-origin request routing via SOCKS5 proxy pool reuse",
-      "url": "https://github.com/advisories/GHSA-hm92-r4w5-c3mj",
-      "date": "2026-06-19T14:20:20.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
