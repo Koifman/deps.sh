@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-06-22T22:39:42.974Z",
+  "fetchedAt": "2026-06-22T23:36:17.893Z",
   "entries": [
+    {
+      "title": "[@actual-app/sync-server] @actual-app/sync-server: Disabled OpenID users keep access through existing session tokens",
+      "url": "https://github.com/advisories/GHSA-cq9c-6w48-qmfg",
+      "date": "2026-06-22T23:20:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase: POST /api/attachments/:datasourceId/url is unauthenticated and lets anonymous callers mint S3 PUT pre-signed URLs using stored datasource IAM credentials",
+      "url": "https://github.com/advisories/GHSA-35c4-rvc8-frhm",
+      "date": "2026-06-22T23:20:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase: Mass Assignment in Webhook Trigger Allows Cross-Workspace Automation Execution via appId Override",
+      "url": "https://github.com/advisories/GHSA-rgvg-3wpc-h44p",
+      "date": "2026-06-22T23:20:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase: Unauthenticated S3 signed upload URL generation allows arbitrary writes with stored datasource credentials",
+      "url": "https://github.com/advisories/GHSA-jj36-r9w3-3pfh",
+      "date": "2026-06-22T23:15:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase has an Account Impersonation Issue — Chat Identity Link Hijacking via Missing Consent & CSRF",
+      "url": "https://github.com/advisories/GHSA-v7j5-vc4m-723w",
+      "date": "2026-06-22T23:08:23.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[zeroconf] zeroconf: Unvalidated rdlength in record payload readers allows LAN-local cache corruption via crafted mDNS packet",
+      "url": "https://github.com/advisories/GHSA-qc2x-6f54-m6h9",
+      "date": "2026-06-22T23:07:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[devbridge-autocomplete] devbridge-autocomplete has XSS in its default formatters: formatGroup and formatResult fail to escape HTML in untrusted inputs",
+      "url": "https://github.com/advisories/GHSA-hvqh-jw65-wcpq",
+      "date": "2026-06-22T23:00:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[scim-patch] scimPatch vulnerable to prototype pollution via unfiltered keys in patch",
+      "url": "https://github.com/advisories/GHSA-9m6g-wc8r-q59c",
+      "date": "2026-06-22T22:57:49.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@budibase/server] Budibase: SSRF via OAuth2 token endpoint URL reaches internal hosts and cloud metadata",
+      "url": "https://github.com/advisories/GHSA-4q6h-8p4v-67vq",
+      "date": "2026-06-22T22:45:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@actual-app/sync-server] @actual-app/sync-server's missing authorization on GET /secret/:name allows non-admin OpenID users to enumerate admin-configured bank-sync secrets",
       "url": "https://github.com/advisories/GHSA-3f62-qv96-4p78",
@@ -77,66 +140,6 @@
       "date": "2026-06-22T17:10:39.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[pycti] OpenCTI has Semi-Blind SSRF via Unvalidated External URL in Data Ingestion Feature",
-      "url": "https://github.com/advisories/GHSA-ffm6-vvph-g5f5",
-      "date": "2026-06-22T17:01:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pycti] OpenCTI May Bypass Introspection Restriction",
-      "url": "https://github.com/advisories/GHSA-4mvw-j8r9-xcgc",
-      "date": "2026-06-22T16:44:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[http-proxy-middleware] http-proxy-middleware `router` host+path substring matching allows Host-header-driven backend routing bypass",
-      "url": "https://github.com/advisories/GHSA-64mm-vxmg-q3vj",
-      "date": "2026-06-22T15:59:22.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[http-proxy-middleware] http-proxy-middleware `router` host+path substring matching allows Host-header-driven backend routing bypass",
-      "url": "https://github.com/advisories/GHSA-64mm-vxmg-q3vj",
-      "date": "2026-06-22T15:59:22.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0185: Vulnerability in quinn-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0185.html",
-      "date": "2026-06-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0186: Unsoundness in memmap2",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0186.html",
-      "date": "2026-06-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2022-0104: structopt is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2022-0104.html",
-      "date": "2026-06-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[pydantic-settings] pydantic-settings: NestedSecretsSettingsSource follows symlinks outside secrets_dir, enabling local file read and bypassing secrets_dir_max_size",
-      "url": "https://github.com/advisories/GHSA-4xgf-cpjx-pc3j",
-      "date": "2026-06-20T00:50:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[aqt] Anki's local HTTP server does not sufficiently validate requests",
-      "url": "https://github.com/advisories/GHSA-869j-r97x-hx2g",
-      "date": "2026-06-19T22:10:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
