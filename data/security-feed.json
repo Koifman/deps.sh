@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-06-22T20:06:17.786Z",
+  "fetchedAt": "2026-06-22T21:45:40.067Z",
   "entries": [
+    {
+      "title": "[glances] Glances: XML-RPC Server Missing Host Header Validation Enables DNS Rebinding Attack",
+      "url": "https://github.com/advisories/GHSA-w856-8p3r-p338",
+      "date": "2026-06-22T21:31:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[glances] Glances: XML-RPC Multi-Origin CORS Configuration Silently Falls Back to Wildcard (Incomplete Fix for CVE-2026-33533)",
+      "url": "https://github.com/advisories/GHSA-87qc-fj39-wccr",
+      "date": "2026-06-22T21:27:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[glances] Glances has Insecure Pickle Deserialization in its Version Cache that Leads to Arbitrary Code Execution",
+      "url": "https://github.com/advisories/GHSA-9837-48hr-q32j",
+      "date": "2026-06-22T21:21:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[glances] Glances is Vulnerable to Command Injection via KVM/QEMU VM Domain Names in glances/plugins/vms/engines/virsh.py",
+      "url": "https://github.com/advisories/GHSA-v5r2-qh84-fjx5",
+      "date": "2026-06-22T21:14:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[motioneye] motionEye: Authentication possible via password hash",
+      "url": "https://github.com/advisories/GHSA-r3cw-c95m-wfh9",
+      "date": "2026-06-22T20:59:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[comfyui-manager] ComfyUI-Manager has an Unprotected Alternate Channel (CWE-420)",
       "url": "https://github.com/advisories/GHSA-95pq-hr8p-f5g7",
@@ -100,41 +135,6 @@
       "title": "[@jhb.software/payload-cloudinary-plugin] @jhb.software/payload-cloudinary-plugin: Arbitrary Cloudinary API Parameter Signing",
       "url": "https://github.com/advisories/GHSA-h5x8-xp6m-x6q4",
       "date": "2026-06-19T22:10:38.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langsmith] LangSmith SDK TracingMiddleware: Arbitrary server-side file read",
-      "url": "https://github.com/advisories/GHSA-f4xh-w4cj-qxq8",
-      "date": "2026-06-19T22:10:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[zeep] Zeep: Server-Side Request Forgery (SSRF)",
-      "url": "https://github.com/advisories/GHSA-4cc2-g9w2-fhf6",
-      "date": "2026-06-19T22:10:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[aqt] Anki: User scripts in iframes have access to the internal Anki API",
-      "url": "https://github.com/advisories/GHSA-cw6h-ffmh-x6vh",
-      "date": "2026-06-19T22:10:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ChatterBot] ChatterBot: Symlink-Following Arbitrary Write via UbuntuCorpusTrainer",
-      "url": "https://github.com/advisories/GHSA-wvrh-2f4m-924v",
-      "date": "2026-06-19T22:08:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[appium-mcp] appium-mcp: Unescaped Locator Data XSS in MCP-UI Resource (createLocatorGeneratorUI)",
-      "url": "https://github.com/advisories/GHSA-x975-rgx4-5fh4",
-      "date": "2026-06-19T21:43:16.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
