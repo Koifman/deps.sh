@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-06-22T09:08:57.950Z",
+  "fetchedAt": "2026-06-22T12:06:26.542Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2022-0104: structopt is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2022-0104.html",
+      "date": "2026-06-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[pydantic-settings] pydantic-settings: NestedSecretsSettingsSource follows symlinks outside secrets_dir, enabling local file read and bypassing secrets_dir_max_size",
       "url": "https://github.com/advisories/GHSA-4xgf-cpjx-pc3j",
@@ -133,13 +139,6 @@
       "date": "2026-06-19T21:42:45.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[network-ai] Network-AI: EnvironmentManager.backup() follows symlinked directories and copies files outside the environment root into backups",
-      "url": "https://github.com/advisories/GHSA-6x2m-p4xp-wg22",
-      "date": "2026-06-19T21:42:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
