@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-22T21:45:40.067Z",
+  "fetchedAt": "2026-06-22T22:39:42.974Z",
   "entries": [
+    {
+      "title": "[@actual-app/sync-server] @actual-app/sync-server's missing authorization on GET /secret/:name allows non-admin OpenID users to enumerate admin-configured bank-sync secrets",
+      "url": "https://github.com/advisories/GHSA-3f62-qv96-4p78",
+      "date": "2026-06-22T21:42:36.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@actual-app/cli] @actual-app/cli `--format csv` Output Vulnerable to CSV Formula Injection via Custom `escapeCsv` Helper",
+      "url": "https://github.com/advisories/GHSA-7gh7-258j-4mpq",
+      "date": "2026-06-22T21:42:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[glances] Glances: XML-RPC Server Missing Host Header Validation Enables DNS Rebinding Attack",
       "url": "https://github.com/advisories/GHSA-w856-8p3r-p338",
@@ -122,20 +136,6 @@
       "url": "https://github.com/advisories/GHSA-869j-r97x-hx2g",
       "date": "2026-06-19T22:10:58.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@merill/lokka] Lokka: Azure Resource Manager URL path validation issue",
-      "url": "https://github.com/advisories/GHSA-g2gw-q38m-vjfc",
-      "date": "2026-06-19T22:10:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@jhb.software/payload-cloudinary-plugin] @jhb.software/payload-cloudinary-plugin: Arbitrary Cloudinary API Parameter Signing",
-      "url": "https://github.com/advisories/GHSA-h5x8-xp6m-x6q4",
-      "date": "2026-06-19T22:10:38.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
