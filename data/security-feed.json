@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-22T18:27:31.424Z",
+  "fetchedAt": "2026-06-22T20:06:17.786Z",
   "entries": [
+    {
+      "title": "[comfyui-manager] ComfyUI-Manager has an Unprotected Alternate Channel (CWE-420)",
+      "url": "https://github.com/advisories/GHSA-95pq-hr8p-f5g7",
+      "date": "2026-06-22T19:58:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[comfyui-manager] Duplicate Advisory: ComfyUI-Manager has an Unprotected Alternate Channel (CWE-420)",
+      "url": "https://github.com/advisories/GHSA-2hc9-cc65-xwj8",
+      "date": "2026-06-22T19:58:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[motioneye] motionEye's World-Readable Configuration File Exposes Admin Password Hash",
       "url": "https://github.com/advisories/GHSA-rhgp-6wq6-9j67",
@@ -121,20 +135,6 @@
       "title": "[appium-mcp] appium-mcp: Unescaped Locator Data XSS in MCP-UI Resource (createLocatorGeneratorUI)",
       "url": "https://github.com/advisories/GHSA-x975-rgx4-5fh4",
       "date": "2026-06-19T21:43:16.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[everos] EverOS: Path traversal in EverOS /api/v1/memory/add via unvalidated sender_id",
-      "url": "https://github.com/advisories/GHSA-c795-2g9c-j48m",
-      "date": "2026-06-19T21:43:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@zenalexa/unicli] Uni-CLI: Legacy HTTP MCP transport accepted browser-originated localhost requests",
-      "url": "https://github.com/advisories/GHSA-v3f4-w7r7-v3hm",
-      "date": "2026-06-19T21:43:11.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
