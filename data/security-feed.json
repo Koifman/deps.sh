@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-22T14:59:38.631Z",
+  "fetchedAt": "2026-06-22T16:42:14.239Z",
   "entries": [
+    {
+      "title": "[http-proxy-middleware] http-proxy-middleware `router` host+path substring matching allows Host-header-driven backend routing bypass",
+      "url": "https://github.com/advisories/GHSA-64mm-vxmg-q3vj",
+      "date": "2026-06-22T15:59:22.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[http-proxy-middleware] http-proxy-middleware `router` host+path substring matching allows Host-header-driven backend routing bypass",
+      "url": "https://github.com/advisories/GHSA-64mm-vxmg-q3vj",
+      "date": "2026-06-22T15:59:22.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2022-0104: structopt is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2022-0104.html",
@@ -125,20 +139,6 @@
       "date": "2026-06-19T21:42:50.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] parse-server: LiveQuery discloses object data to a subscriber across an ACL read-access change",
-      "url": "https://github.com/advisories/GHSA-97pr-9hgg-3p8r",
-      "date": "2026-06-19T21:42:50.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[mcp-searxng]  SearXNG MCP Server: Unbounded Response Body Read Bypasses URL Size Limit in `web_url_read`",
-      "url": "https://github.com/advisories/GHSA-xcqx-9jf5-w339",
-      "date": "2026-06-19T21:42:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
