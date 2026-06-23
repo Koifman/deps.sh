@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-06-23T18:52:50.468Z",
+  "fetchedAt": "2026-06-23T19:42:42.065Z",
   "entries": [
+    {
+      "title": "[motioneye] motionEye Partial Authentication Bypass: Unauthenticated Admin Credential Theft via Path Traversal",
+      "url": "https://github.com/advisories/GHSA-phv5-334h-mxcw",
+      "date": "2026-06-23T19:09:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[motioneye] motionEye: LFI → pass‑the‑hash admin → unsafe restore → unauth action exec (RCE)",
+      "url": "https://github.com/advisories/GHSA-qxvg-h7q2-hcxh",
+      "date": "2026-06-23T18:53:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[motioneye] motionEye's missing authentication on ActionHandler allows unauthenticated camera action execution",
+      "url": "https://github.com/advisories/GHSA-j67x-q29f-qcvv",
+      "date": "2026-06-23T18:37:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[motioneye] motionEye's Absolute Path Traversal in Media File Handlers Allows Arbitrary File Read",
       "url": "https://github.com/advisories/GHSA-rw9q-97r9-8gvh",
@@ -118,27 +139,6 @@
       "date": "2026-06-22T23:20:55.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase: Unauthenticated S3 signed upload URL generation allows arbitrary writes with stored datasource credentials",
-      "url": "https://github.com/advisories/GHSA-jj36-r9w3-3pfh",
-      "date": "2026-06-22T23:15:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase has an Account Impersonation Issue — Chat Identity Link Hijacking via Missing Consent & CSRF",
-      "url": "https://github.com/advisories/GHSA-v7j5-vc4m-723w",
-      "date": "2026-06-22T23:08:23.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[zeroconf] zeroconf: Unvalidated rdlength in record payload readers allows LAN-local cache corruption via crafted mDNS packet",
-      "url": "https://github.com/advisories/GHSA-qc2x-6f54-m6h9",
-      "date": "2026-06-22T23:07:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
