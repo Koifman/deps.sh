@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-23T09:19:58.590Z",
+  "fetchedAt": "2026-06-23T11:10:33.880Z",
   "entries": [
+    {
+      "title": "[http-proxy-middleware] http-proxy-middleware `router` host+path substring matching allows Host-header-driven backend routing bypass",
+      "url": "https://github.com/advisories/GHSA-64mm-vxmg-q3vj",
+      "date": "2026-06-23T10:15:39.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[http-proxy-middleware] http-proxy-middleware `router` host+path substring matching allows Host-header-driven backend routing bypass",
+      "url": "https://github.com/advisories/GHSA-64mm-vxmg-q3vj",
+      "date": "2026-06-23T10:15:39.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@jhb.software/payload-cloudinary-plugin] @jhb.software/payload-cloudinary-plugin: Arbitrary Cloudinary API Parameter Signing",
       "url": "https://github.com/advisories/GHSA-h5x8-xp6m-x6q4",
@@ -126,20 +140,6 @@
       "date": "2026-06-22T21:21:08.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[glances] Glances is Vulnerable to Command Injection via KVM/QEMU VM Domain Names in glances/plugins/vms/engines/virsh.py",
-      "url": "https://github.com/advisories/GHSA-v5r2-qh84-fjx5",
-      "date": "2026-06-22T21:14:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[motioneye] motionEye: Authentication possible via password hash",
-      "url": "https://github.com/advisories/GHSA-r3cw-c95m-wfh9",
-      "date": "2026-06-22T20:59:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
