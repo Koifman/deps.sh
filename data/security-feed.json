@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-06-23T22:34:03.711Z",
+  "fetchedAt": "2026-06-23T23:29:39.941Z",
   "entries": [
+    {
+      "title": "[litellm] LiteLLM allows a user to modify their own user_role via the /user/update endpoint",
+      "url": "https://github.com/advisories/GHSA-wpfp-gwwc-vwq6",
+      "date": "2026-06-23T22:48:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[litellm] LiteLLM allows an authenticated internal_user to create API keys with access to routes that their role does not permit",
+      "url": "https://github.com/advisories/GHSA-qrc4-49gv-mv9m",
+      "date": "2026-06-23T22:47:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Flask-Security] Flask-Security has an Open Redirect issue",
+      "url": "https://github.com/advisories/GHSA-w2j7-f3c6-g8cw",
+      "date": "2026-06-23T22:46:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[motioneye] motionEye Partial Authentication Bypass: Unauthenticated Admin Credential Theft via Path Traversal",
       "url": "https://github.com/advisories/GHSA-phv5-334h-mxcw",
@@ -118,27 +139,6 @@
       "date": "2026-06-22T23:33:36.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[@actual-app/sync-server] @actual-app/sync-server: Disabled OpenID users keep access through existing session tokens",
-      "url": "https://github.com/advisories/GHSA-cq9c-6w48-qmfg",
-      "date": "2026-06-22T23:20:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase: POST /api/attachments/:datasourceId/url is unauthenticated and lets anonymous callers mint S3 PUT pre-signed URLs using stored datasource IAM credentials",
-      "url": "https://github.com/advisories/GHSA-35c4-rvc8-frhm",
-      "date": "2026-06-22T23:20:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase: Mass Assignment in Webhook Trigger Allows Cross-Workspace Automation Execution via appId Override",
-      "url": "https://github.com/advisories/GHSA-rgvg-3wpc-h44p",
-      "date": "2026-06-22T23:20:55.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
