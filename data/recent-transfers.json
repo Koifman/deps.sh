@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-06-23T13:14:51.810Z",
+  "scannedAt": "2026-06-23T15:11:56.440Z",
   "count": 108,
   "packages": [
     {
@@ -91,6 +91,15 @@
       "level": "MODERATE",
       "previousOwner": "bhouston",
       "currentOwner": "mrdoob"
+    },
+    {
+      "name": "@nevware21/ts-utils",
+      "version": "0.15.0",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "string.prototype.trimstart",
@@ -300,15 +309,6 @@
       "currentOwner": "davidjerleke"
     },
     {
-      "name": "@tsparticles/all",
-      "version": "4.2.1",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "matteobruni",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "eslint",
       "version": "10.5.0",
       "ecosystem": "npm",
@@ -426,15 +426,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tsparticles",
-      "version": "4.2.1",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "ar3s",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@tsparticles/confetti",
       "version": "4.2.1",
       "ecosystem": "npm",
@@ -451,6 +442,15 @@
       "level": "MODERATE",
       "previousOwner": "antimatter15",
       "currentOwner": "balearica"
+    },
+    {
+      "name": "tsparticles",
+      "version": "4.2.1",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "ar3s",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@redux-saga/core",
@@ -696,30 +696,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.1.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/logger",
       "version": "2.0.9",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "redux-saga",
-      "version": "1.5.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "yelouafi",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -757,6 +739,24 @@
       "level": "MODERATE",
       "previousOwner": "microsoft",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@appium/tsconfig",
+      "version": "1.1.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "redux-saga",
+      "version": "1.5.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "yelouafi",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@lingui/message-utils",
