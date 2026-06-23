@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-06-22T23:36:17.893Z",
+  "fetchedAt": "2026-06-23T01:08:17.290Z",
   "entries": [
+    {
+      "title": "[@actual-app/web] @actual-app/web has CSV Formula Injection in Transaction Export via Imported Payee/Notes Fields",
+      "url": "https://github.com/advisories/GHSA-xqjm-27pc-rvwm",
+      "date": "2026-06-22T23:48:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@budibase/backend-core] @budibase/backend-core has potential SSRF DNS rebinding bypass in outbound fetch validation",
+      "url": "https://github.com/advisories/GHSA-gfq7-5x4g-3xhf",
+      "date": "2026-06-22T23:39:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase has arbitrary file read by workspace-builder via PWA-zip symlink upload",
+      "url": "https://github.com/advisories/GHSA-w7mq-r738-x278",
+      "date": "2026-06-22T23:33:36.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[@actual-app/sync-server] @actual-app/sync-server: Disabled OpenID users keep access through existing session tokens",
       "url": "https://github.com/advisories/GHSA-cq9c-6w48-qmfg",
@@ -119,27 +140,6 @@
       "date": "2026-06-22T19:58:25.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[comfyui-manager] Duplicate Advisory: ComfyUI-Manager has an Unprotected Alternate Channel (CWE-420)",
-      "url": "https://github.com/advisories/GHSA-2hc9-cc65-xwj8",
-      "date": "2026-06-22T19:58:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[motioneye] motionEye's World-Readable Configuration File Exposes Admin Password Hash",
-      "url": "https://github.com/advisories/GHSA-rhgp-6wq6-9j67",
-      "date": "2026-06-22T17:11:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[motioneye] motionEye has an Arbitrary File Read via Path Traversal in Picture/Movie Preview Endpoint",
-      "url": "https://github.com/advisories/GHSA-g9fx-5r4h-pcw3",
-      "date": "2026-06-22T17:10:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
