@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-06-23T11:10:33.880Z",
+  "fetchedAt": "2026-06-23T13:11:54.591Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2025-0164: Unsoundness in i_triangle",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0164.html",
+      "date": "2026-06-23T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[http-proxy-middleware] http-proxy-middleware `router` host+path substring matching allows Host-header-driven backend routing bypass",
       "url": "https://github.com/advisories/GHSA-64mm-vxmg-q3vj",
@@ -131,13 +137,6 @@
       "title": "[glances] Glances: XML-RPC Multi-Origin CORS Configuration Silently Falls Back to Wildcard (Incomplete Fix for CVE-2026-33533)",
       "url": "https://github.com/advisories/GHSA-87qc-fj39-wccr",
       "date": "2026-06-22T21:27:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[glances] Glances has Insecure Pickle Deserialization in its Version Cache that Leads to Arbitrary Code Execution",
-      "url": "https://github.com/advisories/GHSA-9837-48hr-q32j",
-      "date": "2026-06-22T21:21:08.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
