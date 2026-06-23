@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-23T16:56:41.545Z",
+  "fetchedAt": "2026-06-23T17:40:54.550Z",
   "entries": [
+    {
+      "title": "[OctoPrint] OctoPrint has XSS in its Suppressed Command Notifications",
+      "url": "https://github.com/advisories/GHSA-p6qx-ghxm-389h",
+      "date": "2026-06-23T17:15:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[OctoPrint] OctoPrint has XSS in its Suppressed Command Notifications",
+      "url": "https://github.com/advisories/GHSA-p6qx-ghxm-389h",
+      "date": "2026-06-23T17:15:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2025-0164: Unsoundness in i_triangle",
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0164.html",
@@ -125,20 +139,6 @@
       "date": "2026-06-22T21:42:17.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[glances] Glances: XML-RPC Server Missing Host Header Validation Enables DNS Rebinding Attack",
-      "url": "https://github.com/advisories/GHSA-w856-8p3r-p338",
-      "date": "2026-06-22T21:31:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[glances] Glances: XML-RPC Multi-Origin CORS Configuration Silently Falls Back to Wildcard (Incomplete Fix for CVE-2026-33533)",
-      "url": "https://github.com/advisories/GHSA-87qc-fj39-wccr",
-      "date": "2026-06-22T21:27:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
