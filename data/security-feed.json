@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-06-23T17:40:54.550Z",
+  "fetchedAt": "2026-06-23T18:52:50.468Z",
   "entries": [
+    {
+      "title": "[motioneye] motionEye's Absolute Path Traversal in Media File Handlers Allows Arbitrary File Read",
+      "url": "https://github.com/advisories/GHSA-rw9q-97r9-8gvh",
+      "date": "2026-06-23T18:34:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[OctoPrint] OctoPrint has possible file exfiltration via query parameters on upload endpoints",
+      "url": "https://github.com/advisories/GHSA-j4h9-pm27-4rfw",
+      "date": "2026-06-23T18:03:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[OctoPrint] OctoPrint has possible file exfiltration via query parameters on upload endpoints",
+      "url": "https://github.com/advisories/GHSA-j4h9-pm27-4rfw",
+      "date": "2026-06-23T18:03:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[glances] Glances has arbitrary file write and command execution via `secure_popen` redirection and chaining operators in AMP command configuration",
+      "url": "https://github.com/advisories/GHSA-3vwc-qwhc-3mj7",
+      "date": "2026-06-23T17:59:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase has nonymous NoSQL operator injection via published-app query templates",
+      "url": "https://github.com/advisories/GHSA-8qv3-p479-cj62",
+      "date": "2026-06-23T17:43:11.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[OctoPrint] OctoPrint has XSS in its Suppressed Command Notifications",
       "url": "https://github.com/advisories/GHSA-p6qx-ghxm-389h",
@@ -103,41 +138,6 @@
       "url": "https://github.com/advisories/GHSA-qc2x-6f54-m6h9",
       "date": "2026-06-22T23:07:45.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[devbridge-autocomplete] devbridge-autocomplete has XSS in its default formatters: formatGroup and formatResult fail to escape HTML in untrusted inputs",
-      "url": "https://github.com/advisories/GHSA-hvqh-jw65-wcpq",
-      "date": "2026-06-22T23:00:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[scim-patch] scimPatch vulnerable to prototype pollution via unfiltered keys in patch",
-      "url": "https://github.com/advisories/GHSA-9m6g-wc8r-q59c",
-      "date": "2026-06-22T22:57:49.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@budibase/server] Budibase: SSRF via OAuth2 token endpoint URL reaches internal hosts and cloud metadata",
-      "url": "https://github.com/advisories/GHSA-4q6h-8p4v-67vq",
-      "date": "2026-06-22T22:45:36.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@actual-app/sync-server] @actual-app/sync-server's missing authorization on GET /secret/:name allows non-admin OpenID users to enumerate admin-configured bank-sync secrets",
-      "url": "https://github.com/advisories/GHSA-3f62-qv96-4p78",
-      "date": "2026-06-22T21:42:36.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@actual-app/cli] @actual-app/cli `--format csv` Output Vulnerable to CSV Formula Injection via Custom `escapeCsv` Helper",
-      "url": "https://github.com/advisories/GHSA-7gh7-258j-4mpq",
-      "date": "2026-06-22T21:42:17.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
