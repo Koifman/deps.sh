@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-23T03:18:27.598Z",
+  "fetchedAt": "2026-06-23T05:30:19.691Z",
   "entries": [
+    {
+      "title": "[@jhb.software/payload-cloudinary-plugin] @jhb.software/payload-cloudinary-plugin: Arbitrary Cloudinary API Parameter Signing",
+      "url": "https://github.com/advisories/GHSA-h5x8-xp6m-x6q4",
+      "date": "2026-06-23T05:02:33.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@actual-app/web] @actual-app/web has CSV Formula Injection in Transaction Export via Imported Payee/Notes Fields",
       "url": "https://github.com/advisories/GHSA-xqjm-27pc-rvwm",
@@ -133,13 +140,6 @@
       "date": "2026-06-22T20:59:31.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[comfyui-manager] ComfyUI-Manager has an Unprotected Alternate Channel (CWE-420)",
-      "url": "https://github.com/advisories/GHSA-95pq-hr8p-f5g7",
-      "date": "2026-06-22T19:58:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
