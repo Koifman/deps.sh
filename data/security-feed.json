@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-25T18:54:08.735Z",
+  "fetchedAt": "2026-06-25T19:39:54.744Z",
   "entries": [
+    {
+      "title": "[lemur] Lemur has an authorization bypass in StrictRolePermission / AuthorityCreatorPermission",
+      "url": "https://github.com/advisories/GHSA-qcqw-jwxc-2hqg",
+      "date": "2026-06-25T18:48:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[amazon-braket-sdk] amazon-braket-sdk vulnerable to Insecure Deserialization via pickle.loads()",
       "url": "https://github.com/advisories/GHSA-g697-2xrc-gc46",
@@ -133,13 +140,6 @@
       "date": "2026-06-23T17:43:11.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[OctoPrint] OctoPrint has XSS in its Suppressed Command Notifications",
-      "url": "https://github.com/advisories/GHSA-p6qx-ghxm-389h",
-      "date": "2026-06-23T17:15:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
