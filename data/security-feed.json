@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-06-25T21:38:14.282Z",
+  "fetchedAt": "2026-06-25T22:37:06.517Z",
   "entries": [
+    {
+      "title": "[lemur] Lemur: ACME SSRF + creator-equality IDOR lead to AWS IAM/PKI compromise",
+      "url": "https://github.com/advisories/GHSA-v2wp-frmc-5q3v",
+      "date": "2026-06-25T22:07:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[lemur]  Lemur: JWT verifier honors attacker-supplied alg, enabling ATO",
+      "url": "https://github.com/advisories/GHSA-r9gp-7f88-9r54",
+      "date": "2026-06-25T22:05:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lemur] Lemur user-update path stores plaintext passwords",
+      "url": "https://github.com/advisories/GHSA-q437-g7fv-2jvv",
+      "date": "2026-06-25T22:02:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lemur] Lemur Privilege Escalation: Non-admin role members can rewrite role membership via PUT /api/1/roles/<id>",
+      "url": "https://github.com/advisories/GHSA-x3vf-mgxj-7785",
+      "date": "2026-06-25T22:01:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lemur] Lemur: Crafted CRL/OCSP URLs in uploaded certificates lead to post-authentication SSRF",
+      "url": "https://github.com/advisories/GHSA-54vg-pfh7-jq95",
+      "date": "2026-06-25T21:58:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[lemur] Lemur has an authorization bypass in StrictRolePermission / AuthorityCreatorPermission",
       "url": "https://github.com/advisories/GHSA-qcqw-jwxc-2hqg",
@@ -105,41 +140,6 @@
       "date": "2026-06-23T18:37:51.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[motioneye] motionEye's Absolute Path Traversal in Media File Handlers Allows Arbitrary File Read",
-      "url": "https://github.com/advisories/GHSA-rw9q-97r9-8gvh",
-      "date": "2026-06-23T18:34:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[OctoPrint] OctoPrint has possible file exfiltration via query parameters on upload endpoints",
-      "url": "https://github.com/advisories/GHSA-j4h9-pm27-4rfw",
-      "date": "2026-06-23T18:03:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[OctoPrint] OctoPrint has possible file exfiltration via query parameters on upload endpoints",
-      "url": "https://github.com/advisories/GHSA-j4h9-pm27-4rfw",
-      "date": "2026-06-23T18:03:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[glances] Glances has arbitrary file write and command execution via `secure_popen` redirection and chaining operators in AMP command configuration",
-      "url": "https://github.com/advisories/GHSA-3vwc-qwhc-3mj7",
-      "date": "2026-06-23T17:59:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase has nonymous NoSQL operator injection via published-app query templates",
-      "url": "https://github.com/advisories/GHSA-8qv3-p479-cj62",
-      "date": "2026-06-23T17:43:11.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
