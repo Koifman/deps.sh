@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-06-25T17:51:18.376Z",
+  "fetchedAt": "2026-06-25T18:54:08.735Z",
   "entries": [
+    {
+      "title": "[amazon-braket-sdk] amazon-braket-sdk vulnerable to Insecure Deserialization via pickle.loads()",
+      "url": "https://github.com/advisories/GHSA-g697-2xrc-gc46",
+      "date": "2026-06-25T18:34:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langgraph-sdk] LangGraph SDK has unsafe URL path construction",
+      "url": "https://github.com/advisories/GHSA-w39p-vh2g-g8g5",
+      "date": "2026-06-25T18:32:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langgraph-checkpoint] LangGraph Checkpoint: Unsafe JSON deserialization in checkpoint loading",
+      "url": "https://github.com/advisories/GHSA-fjqc-hq36-qh5p",
+      "date": "2026-06-25T18:25:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[neotoma] neotoma has tenant isolation gap in relationship query endpoints",
+      "url": "https://github.com/advisories/GHSA-wrr4-782v-jhwh",
+      "date": "2026-06-25T17:46:50.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[justhtml] justhtml: to_markdown() code-span blank-line breakout enables XSS",
       "url": "https://github.com/advisories/GHSA-jf6w-2mvx-633j",
@@ -111,33 +139,6 @@
       "url": "https://github.com/advisories/GHSA-p6qx-ghxm-389h",
       "date": "2026-06-23T17:15:15.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[OctoPrint] OctoPrint has XSS in its Suppressed Command Notifications",
-      "url": "https://github.com/advisories/GHSA-p6qx-ghxm-389h",
-      "date": "2026-06-23T17:15:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2025-0164: Unsoundness in i_triangle",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0164.html",
-      "date": "2026-06-23T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[http-proxy-middleware] http-proxy-middleware `router` host+path substring matching allows Host-header-driven backend routing bypass",
-      "url": "https://github.com/advisories/GHSA-64mm-vxmg-q3vj",
-      "date": "2026-06-23T10:15:39.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[http-proxy-middleware] http-proxy-middleware `router` host+path substring matching allows Host-header-driven backend routing bypass",
-      "url": "https://github.com/advisories/GHSA-64mm-vxmg-q3vj",
-      "date": "2026-06-23T10:15:39.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
