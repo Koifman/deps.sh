@@ -1,144 +1,144 @@
 {
-  "fetchedAt": "2026-06-26T22:33:01.362Z",
+  "fetchedAt": "2026-06-26T23:32:24.924Z",
   "entries": [
     {
-      "title": "[js-toml] js-toml vulnerable to CPU exhaustion via O(n^2) BigInt construction on radix-prefixed integer literals",
-      "url": "https://github.com/advisories/GHSA-wp3c-266w-4qfq",
-      "date": "2026-06-26T22:21:44.000Z",
+      "title": "[pnpm] pnpm: Repository-controlled configDependencies can select a pacquet native install engine",
+      "url": "https://github.com/advisories/GHSA-gj8w-mvpf-x27x",
+      "date": "2026-06-26T23:20:48.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[line-desktop-mcp] Streamable HTTP mode exposes LINE Desktop read/send tools without MCP authentication",
-      "url": "https://github.com/advisories/GHSA-4hf8-5mjm-rfgq",
-      "date": "2026-06-26T21:50:51.000Z",
+      "title": "[pnpm] pnpm: Repository-controlled configDependencies can select a pacquet native install engine",
+      "url": "https://github.com/advisories/GHSA-gj8w-mvpf-x27x",
+      "date": "2026-06-26T23:20:48.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[pnpm] pnpm: Tarball hash of GitHub git dependencies is not stored in lockfile",
-      "url": "https://github.com/advisories/GHSA-hg3w-7f8c-63hp",
-      "date": "2026-06-26T21:49:26.000Z",
+      "title": "[pnpm] pnpm: Manifest identity spoof satisfies allowBuilds and runs attacker lifecycle",
+      "url": "https://github.com/advisories/GHSA-5wx6-mg75-v57r",
+      "date": "2026-06-26T23:18:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pnpm] pnpm: Manifest identity spoof satisfies allowBuilds and runs attacker lifecycle",
+      "url": "https://github.com/advisories/GHSA-5wx6-mg75-v57r",
+      "date": "2026-06-26T23:18:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pnpm] pnpm: Repository config can expand victim environment secrets into registry requests before scripts run",
+      "url": "https://github.com/advisories/GHSA-3qhv-2rgh-x77r",
+      "date": "2026-06-26T23:12:26.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[pnpm] pnpm: Tarball hash of GitHub git dependencies is not stored in lockfile",
-      "url": "https://github.com/advisories/GHSA-hg3w-7f8c-63hp",
-      "date": "2026-06-26T21:49:26.000Z",
+      "title": "[pnpm] pnpm: Repository config can expand victim environment secrets into registry requests before scripts run",
+      "url": "https://github.com/advisories/GHSA-3qhv-2rgh-x77r",
+      "date": "2026-06-26T23:12:26.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@cardano402/mcp-server] @cardano402/mcp-server missing spending limits, LAN-exposed HTTP transport, and SSRF via catalog.server.url",
-      "url": "https://github.com/advisories/GHSA-rp72-5v5q-2446",
-      "date": "2026-06-26T21:08:06.000Z",
+      "title": "[pnpm] pnpm Vulnerable to Arbitrary File Write/Delete via Malicious Patch File (Path Traversal)",
+      "url": "https://github.com/advisories/GHSA-rxhj-4m44-96r4",
+      "date": "2026-06-26T22:59:49.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[mcp-pinot-server] mcp-pinot: Unauthenticated tool invocation via default oauth_enabled=False + host 0.0.0.0 bind",
-      "url": "https://github.com/advisories/GHSA-73cv-556c-w3g6",
-      "date": "2026-06-26T21:05:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[mcp-memory-service] mcp-memory-service: OAuth read-only clients can write and delete memories through MCP tools/call",
-      "url": "https://github.com/advisories/GHSA-2r68-g678-7qr3",
-      "date": "2026-06-26T21:04:40.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[@deepstream/server] deepstream is vulnerable to prototype pollution",
-      "url": "https://github.com/advisories/GHSA-9v98-6g37-x9g6",
-      "date": "2026-06-26T21:04:00.000Z",
+      "title": "[pnpm] pnpm Vulnerable to Arbitrary File Write/Delete via Malicious Patch File (Path Traversal)",
+      "url": "https://github.com/advisories/GHSA-rxhj-4m44-96r4",
+      "date": "2026-06-26T22:59:49.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "HIGH"
     },
     {
-      "title": "[dosage] Dosage Vulnerable to Stored Cross-Site Scripting (XSS) in HTML/RSS Output Handlers",
-      "url": "https://github.com/advisories/GHSA-75mw-h36v-2jv7",
-      "date": "2026-06-26T21:03:45.000Z",
-      "ecosystem": "pypi",
+      "title": "[pnpm] pnpm binds unscoped user-level npm auth credentials to a repository-selected registry",
+      "url": "https://github.com/advisories/GHSA-cjhr-43r9-cfmw",
+      "date": "2026-06-26T22:59:26.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[joserfc] joserfc: b64=false RFC7797 JWS payloads bypass JWSRegistry payload-size limits during deserialization",
-      "url": "https://github.com/advisories/GHSA-wphv-vfrh-23q5",
-      "date": "2026-06-26T20:59:40.000Z",
-      "ecosystem": "pypi",
+      "title": "[pnpm] pnpm binds unscoped user-level npm auth credentials to a repository-selected registry",
+      "url": "https://github.com/advisories/GHSA-cjhr-43r9-cfmw",
+      "date": "2026-06-26T22:59:26.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[better-helperjs] better-helperjs Vulnerable to Directory Traversal via String Prefix Bypass in Static Server",
-      "url": "https://github.com/advisories/GHSA-3p34-w4f6-5xh2",
-      "date": "2026-06-26T20:56:29.000Z",
+      "title": "[pnpm] pnpm: Transitive dependency alias path traversal allows project path override via symlink replacement",
+      "url": "https://github.com/advisories/GHSA-hwx4-2j3j-g496",
+      "date": "2026-06-26T22:55:52.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[muhammara] Muhammara has a NULL pointer dereference in LZWDecode filter when DecodeParms omits EarlyChange key",
-      "url": "https://github.com/advisories/GHSA-fhp4-pr5j-46m5",
-      "date": "2026-06-26T20:55:19.000Z",
+      "title": "[pnpm] pnpm: Transitive dependency alias path traversal allows project path override via symlink replacement",
+      "url": "https://github.com/advisories/GHSA-hwx4-2j3j-g496",
+      "date": "2026-06-26T22:55:52.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[flawfinder] Flawfinder output manipulation via untrusted filenames and source text",
-      "url": "https://github.com/advisories/GHSA-4c3c-r6p8-c863",
-      "date": "2026-06-26T20:52:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[python-socketio] python-socketio: Binary attachment accumulation can cause denial of service",
-      "url": "https://github.com/advisories/GHSA-5w7q-77mv-v69f",
-      "date": "2026-06-26T20:51:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[python-engineio] python-engineio has unbound thread allocation that can cause denial of service",
-      "url": "https://github.com/advisories/GHSA-cgwc-pv48-fhj5",
-      "date": "2026-06-26T20:51:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[semantic-router] semantic-router exposed to compromised litellm wheel (CVE-2026-42208) via unbounded transitive pin",
-      "url": "https://github.com/advisories/GHSA-98x5-vq43-vc5p",
-      "date": "2026-06-26T20:51:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[python-engineio] python-engineio has possible denial of service due to maximum payload size sometimes not being enforced",
-      "url": "https://github.com/advisories/GHSA-m9gh-vj53-gvh9",
-      "date": "2026-06-26T20:48:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[linkify-it] LinkifyIt#match scan loop has quadratic algorithmic complexity",
-      "url": "https://github.com/advisories/GHSA-22p9-wv53-3rq4",
-      "date": "2026-06-26T20:47:59.000Z",
+      "title": "[pnpm] pnpm: Git Fetch Argument Injection via Lockfile resolution.commit",
+      "url": "https://github.com/advisories/GHSA-p4xf-rf54-rj3x",
+      "date": "2026-06-26T22:53:22.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nono-py] nono-py's policy JSON accepts unknown security fields",
-      "url": "https://github.com/advisories/GHSA-m8j6-rc5x-wv36",
-      "date": "2026-06-26T20:43:29.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[nono-py] nono-py vulnerable to authorization bypass / policy confusion",
-      "url": "https://github.com/advisories/GHSA-9j7f-3r4p-pwh6",
-      "date": "2026-06-26T20:39:45.000Z",
-      "ecosystem": "pypi",
+      "title": "[pnpm] pnpm: Git Fetch Argument Injection via Lockfile resolution.commit",
+      "url": "https://github.com/advisories/GHSA-p4xf-rf54-rj3x",
+      "date": "2026-06-26T22:53:22.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pnpm] pnpm Has an Integrity Check Bypass via Missing Lockfile Integrity Field",
+      "url": "https://github.com/advisories/GHSA-q6j5-fjx5-2mc3",
+      "date": "2026-06-26T22:53:03.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pnpm] pnpm Has an Integrity Check Bypass via Missing Lockfile Integrity Field",
+      "url": "https://github.com/advisories/GHSA-q6j5-fjx5-2mc3",
+      "date": "2026-06-26T22:53:03.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pnpm] pnpm: Unsafe default behavior breaks integrity check",
+      "url": "https://github.com/advisories/GHSA-54hh-g5mx-jqcp",
+      "date": "2026-06-26T22:52:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pnpm] pnpm: Unsafe default behavior breaks integrity check",
+      "url": "https://github.com/advisories/GHSA-54hh-g5mx-jqcp",
+      "date": "2026-06-26T22:52:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[js-toml] js-toml has silent type confusion via falsy-primitive duplicate-key bypass",
+      "url": "https://github.com/advisories/GHSA-m34p-749j-x6m6",
+      "date": "2026-06-26T22:49:29.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@microsoft/kiota-http-fetchlibrary] @microsoft/kiota-http-fetchlibrary: Bearer token and Cookie leak across origin on redirect due to case-mismatched scrub in fetchRequestAdapter",
+      "url": "https://github.com/advisories/GHSA-396q-4vc8-28x9",
+      "date": "2026-06-26T22:23:14.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
