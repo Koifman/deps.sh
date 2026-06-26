@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-06-26T19:37:44.958Z",
+  "fetchedAt": "2026-06-26T20:41:20.740Z",
   "entries": [
+    {
+      "title": "[mjml] MJML allows mj-include directory traversal due to an incomplete fix for CVE-2020-12827",
+      "url": "https://github.com/advisories/GHSA-45h5-66jx-r2wf",
+      "date": "2026-06-26T20:28:43.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[linkifyjs] Linkify Allows Prototype Pollution & HTML Attribute Injection (XSS)",
+      "url": "https://github.com/advisories/GHSA-95jq-xph2-cx9h",
+      "date": "2026-06-26T20:26:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@cyclonedx/cdxgen] @cyclonedx/cdxgen: Maven project scanning may allow shell command injection through repository-controlled module paths",
+      "url": "https://github.com/advisories/GHSA-5vwr-qchf-q4pf",
+      "date": "2026-06-26T19:47:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[pydantic-ai-slim] pydantic-ai: SSRF blocklist bypass via IPv4-compatible, SIIT/IVI, and local NAT64 IPv6 addresses (incomplete fix of CVE-2026-46678)",
       "url": "https://github.com/advisories/GHSA-cg7w-rg45-pc59",
@@ -117,27 +138,6 @@
       "url": "https://github.com/advisories/GHSA-jf6w-2mvx-633j",
       "date": "2026-06-25T17:35:53.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[i18next-fs-backend] i18next-fs-backend vulnerable to prototype pollution via crafted missing-key string",
-      "url": "https://github.com/advisories/GHSA-2933-q333-qg83",
-      "date": "2026-06-25T17:28:47.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[i18next-http-middleware] i18next-http-middleware: MissingKeyHandler does not reject keys whose segments contain prototype-polluting names",
-      "url": "https://github.com/advisories/GHSA-f49m-vf83-692w",
-      "date": "2026-06-25T17:28:12.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@anthropic-ai/claude-code] @anthropic-ai/claude-code has an Insecure Temporary File in /copy Command that Enables Response Disclosure and Symlink-Based File Write",
-      "url": "https://github.com/advisories/GHSA-4vp2-6q8c-pvq2",
-      "date": "2026-06-25T16:53:03.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
