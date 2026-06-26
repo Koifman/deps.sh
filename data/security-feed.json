@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-06-26T21:35:22.547Z",
+  "fetchedAt": "2026-06-26T22:33:01.362Z",
   "entries": [
+    {
+      "title": "[js-toml] js-toml vulnerable to CPU exhaustion via O(n^2) BigInt construction on radix-prefixed integer literals",
+      "url": "https://github.com/advisories/GHSA-wp3c-266w-4qfq",
+      "date": "2026-06-26T22:21:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[line-desktop-mcp] Streamable HTTP mode exposes LINE Desktop read/send tools without MCP authentication",
+      "url": "https://github.com/advisories/GHSA-4hf8-5mjm-rfgq",
+      "date": "2026-06-26T21:50:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pnpm] pnpm: Tarball hash of GitHub git dependencies is not stored in lockfile",
+      "url": "https://github.com/advisories/GHSA-hg3w-7f8c-63hp",
+      "date": "2026-06-26T21:49:26.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pnpm] pnpm: Tarball hash of GitHub git dependencies is not stored in lockfile",
+      "url": "https://github.com/advisories/GHSA-hg3w-7f8c-63hp",
+      "date": "2026-06-26T21:49:26.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@cardano402/mcp-server] @cardano402/mcp-server missing spending limits, LAN-exposed HTTP transport, and SSRF via catalog.server.url",
       "url": "https://github.com/advisories/GHSA-rp72-5v5q-2446",
@@ -111,34 +139,6 @@
       "url": "https://github.com/advisories/GHSA-9j7f-3r4p-pwh6",
       "date": "2026-06-26T20:39:45.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@mcptoolshop/backpropagate] Backpropagate: backprop ui --auth and backprop ui --share do not enforce authentication",
-      "url": "https://github.com/advisories/GHSA-f65r-h4g3-3h9h",
-      "date": "2026-06-26T20:34:30.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[backpropagate] Backpropagate: backprop ui --auth and backprop ui --share do not enforce authentication",
-      "url": "https://github.com/advisories/GHSA-f65r-h4g3-3h9h",
-      "date": "2026-06-26T20:34:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[nono-py] nono-py has proxy-only network fallback bypass on older Linux kernels",
-      "url": "https://github.com/advisories/GHSA-72w7-mf9g-733p",
-      "date": "2026-06-26T20:33:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mjml] MJML allows mj-include directory traversal due to an incomplete fix for CVE-2020-12827",
-      "url": "https://github.com/advisories/GHSA-45h5-66jx-r2wf",
-      "date": "2026-06-26T20:28:43.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
