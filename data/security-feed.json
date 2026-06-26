@@ -1,143 +1,144 @@
 {
-  "fetchedAt": "2026-06-26T20:41:20.740Z",
+  "fetchedAt": "2026-06-26T21:35:22.547Z",
   "entries": [
+    {
+      "title": "[@cardano402/mcp-server] @cardano402/mcp-server missing spending limits, LAN-exposed HTTP transport, and SSRF via catalog.server.url",
+      "url": "https://github.com/advisories/GHSA-rp72-5v5q-2446",
+      "date": "2026-06-26T21:08:06.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[mcp-pinot-server] mcp-pinot: Unauthenticated tool invocation via default oauth_enabled=False + host 0.0.0.0 bind",
+      "url": "https://github.com/advisories/GHSA-73cv-556c-w3g6",
+      "date": "2026-06-26T21:05:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[mcp-memory-service] mcp-memory-service: OAuth read-only clients can write and delete memories through MCP tools/call",
+      "url": "https://github.com/advisories/GHSA-2r68-g678-7qr3",
+      "date": "2026-06-26T21:04:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@deepstream/server] deepstream is vulnerable to prototype pollution",
+      "url": "https://github.com/advisories/GHSA-9v98-6g37-x9g6",
+      "date": "2026-06-26T21:04:00.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[dosage] Dosage Vulnerable to Stored Cross-Site Scripting (XSS) in HTML/RSS Output Handlers",
+      "url": "https://github.com/advisories/GHSA-75mw-h36v-2jv7",
+      "date": "2026-06-26T21:03:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[joserfc] joserfc: b64=false RFC7797 JWS payloads bypass JWSRegistry payload-size limits during deserialization",
+      "url": "https://github.com/advisories/GHSA-wphv-vfrh-23q5",
+      "date": "2026-06-26T20:59:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[better-helperjs] better-helperjs Vulnerable to Directory Traversal via String Prefix Bypass in Static Server",
+      "url": "https://github.com/advisories/GHSA-3p34-w4f6-5xh2",
+      "date": "2026-06-26T20:56:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[muhammara] Muhammara has a NULL pointer dereference in LZWDecode filter when DecodeParms omits EarlyChange key",
+      "url": "https://github.com/advisories/GHSA-fhp4-pr5j-46m5",
+      "date": "2026-06-26T20:55:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flawfinder] Flawfinder output manipulation via untrusted filenames and source text",
+      "url": "https://github.com/advisories/GHSA-4c3c-r6p8-c863",
+      "date": "2026-06-26T20:52:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[python-socketio] python-socketio: Binary attachment accumulation can cause denial of service",
+      "url": "https://github.com/advisories/GHSA-5w7q-77mv-v69f",
+      "date": "2026-06-26T20:51:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[python-engineio] python-engineio has unbound thread allocation that can cause denial of service",
+      "url": "https://github.com/advisories/GHSA-cgwc-pv48-fhj5",
+      "date": "2026-06-26T20:51:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[semantic-router] semantic-router exposed to compromised litellm wheel (CVE-2026-42208) via unbounded transitive pin",
+      "url": "https://github.com/advisories/GHSA-98x5-vq43-vc5p",
+      "date": "2026-06-26T20:51:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[python-engineio] python-engineio has possible denial of service due to maximum payload size sometimes not being enforced",
+      "url": "https://github.com/advisories/GHSA-m9gh-vj53-gvh9",
+      "date": "2026-06-26T20:48:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[linkify-it] LinkifyIt#match scan loop has quadratic algorithmic complexity",
+      "url": "https://github.com/advisories/GHSA-22p9-wv53-3rq4",
+      "date": "2026-06-26T20:47:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nono-py] nono-py's policy JSON accepts unknown security fields",
+      "url": "https://github.com/advisories/GHSA-m8j6-rc5x-wv36",
+      "date": "2026-06-26T20:43:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nono-py] nono-py vulnerable to authorization bypass / policy confusion",
+      "url": "https://github.com/advisories/GHSA-9j7f-3r4p-pwh6",
+      "date": "2026-06-26T20:39:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@mcptoolshop/backpropagate] Backpropagate: backprop ui --auth and backprop ui --share do not enforce authentication",
+      "url": "https://github.com/advisories/GHSA-f65r-h4g3-3h9h",
+      "date": "2026-06-26T20:34:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[backpropagate] Backpropagate: backprop ui --auth and backprop ui --share do not enforce authentication",
+      "url": "https://github.com/advisories/GHSA-f65r-h4g3-3h9h",
+      "date": "2026-06-26T20:34:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[nono-py] nono-py has proxy-only network fallback bypass on older Linux kernels",
+      "url": "https://github.com/advisories/GHSA-72w7-mf9g-733p",
+      "date": "2026-06-26T20:33:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[mjml] MJML allows mj-include directory traversal due to an incomplete fix for CVE-2020-12827",
       "url": "https://github.com/advisories/GHSA-45h5-66jx-r2wf",
       "date": "2026-06-26T20:28:43.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[linkifyjs] Linkify Allows Prototype Pollution & HTML Attribute Injection (XSS)",
-      "url": "https://github.com/advisories/GHSA-95jq-xph2-cx9h",
-      "date": "2026-06-26T20:26:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@cyclonedx/cdxgen] @cyclonedx/cdxgen: Maven project scanning may allow shell command injection through repository-controlled module paths",
-      "url": "https://github.com/advisories/GHSA-5vwr-qchf-q4pf",
-      "date": "2026-06-26T19:47:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pydantic-ai-slim] pydantic-ai: SSRF blocklist bypass via IPv4-compatible, SIIT/IVI, and local NAT64 IPv6 addresses (incomplete fix of CVE-2026-46678)",
-      "url": "https://github.com/advisories/GHSA-cg7w-rg45-pc59",
-      "date": "2026-06-26T19:17:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pydantic-ai] pydantic-ai: SSRF blocklist bypass via IPv4-compatible, SIIT/IVI, and local NAT64 IPv6 addresses (incomplete fix of CVE-2026-46678)",
-      "url": "https://github.com/advisories/GHSA-cg7w-rg45-pc59",
-      "date": "2026-06-26T19:17:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pydantic-ai] pydantic-ai: SSRF blocklist bypass via IPv4-compatible, SIIT/IVI, and local NAT64 IPv6 addresses (incomplete fix of CVE-2026-46678)",
-      "url": "https://github.com/advisories/GHSA-cg7w-rg45-pc59",
-      "date": "2026-06-26T19:17:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pydantic-ai-slim] pydantic-ai: SSRF blocklist bypass via IPv4-compatible, SIIT/IVI, and local NAT64 IPv6 addresses (incomplete fix of CVE-2026-46678)",
-      "url": "https://github.com/advisories/GHSA-cg7w-rg45-pc59",
-      "date": "2026-06-26T19:17:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@sigstore/core] @sigstore/core has DSSE payloadType type-binding failure",
-      "url": "https://github.com/advisories/GHSA-jfc7-64v2-mr8c",
-      "date": "2026-06-26T19:11:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0187: Vulnerability in lopdf",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0187.html",
-      "date": "2026-06-26T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[lemur] Lemur: ACME SSRF + creator-equality IDOR lead to AWS IAM/PKI compromise",
-      "url": "https://github.com/advisories/GHSA-v2wp-frmc-5q3v",
-      "date": "2026-06-25T22:07:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[lemur]  Lemur: JWT verifier honors attacker-supplied alg, enabling ATO",
-      "url": "https://github.com/advisories/GHSA-r9gp-7f88-9r54",
-      "date": "2026-06-25T22:05:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lemur] Lemur user-update path stores plaintext passwords",
-      "url": "https://github.com/advisories/GHSA-q437-g7fv-2jvv",
-      "date": "2026-06-25T22:02:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lemur] Lemur Privilege Escalation: Non-admin role members can rewrite role membership via PUT /api/1/roles/<id>",
-      "url": "https://github.com/advisories/GHSA-x3vf-mgxj-7785",
-      "date": "2026-06-25T22:01:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lemur] Lemur: Crafted CRL/OCSP URLs in uploaded certificates lead to post-authentication SSRF",
-      "url": "https://github.com/advisories/GHSA-54vg-pfh7-jq95",
-      "date": "2026-06-25T21:58:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lemur] Lemur has an authorization bypass in StrictRolePermission / AuthorityCreatorPermission",
-      "url": "https://github.com/advisories/GHSA-qcqw-jwxc-2hqg",
-      "date": "2026-06-25T18:48:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[amazon-braket-sdk] amazon-braket-sdk vulnerable to Insecure Deserialization via pickle.loads()",
-      "url": "https://github.com/advisories/GHSA-g697-2xrc-gc46",
-      "date": "2026-06-25T18:34:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langgraph-sdk] LangGraph SDK has unsafe URL path construction",
-      "url": "https://github.com/advisories/GHSA-w39p-vh2g-g8g5",
-      "date": "2026-06-25T18:32:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langgraph-checkpoint] LangGraph Checkpoint: Unsafe JSON deserialization in checkpoint loading",
-      "url": "https://github.com/advisories/GHSA-fjqc-hq36-qh5p",
-      "date": "2026-06-25T18:25:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[neotoma] neotoma has tenant isolation gap in relationship query endpoints",
-      "url": "https://github.com/advisories/GHSA-wrr4-782v-jhwh",
-      "date": "2026-06-25T17:46:50.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[justhtml] justhtml: to_markdown() code-span blank-line breakout enables XSS",
-      "url": "https://github.com/advisories/GHSA-jf6w-2mvx-633j",
-      "date": "2026-06-25T17:35:53.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
