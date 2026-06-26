@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-06-26T16:50:58.373Z",
+  "scannedAt": "2026-06-26T17:42:33.111Z",
   "count": 108,
   "packages": [
     {
@@ -370,6 +370,15 @@
       "level": "MODERATE",
       "previousOwner": "jameshenry",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/native-preview",
+      "version": "7.0.0-dev.20260626.1",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@azure/storage-blob",
@@ -876,8 +885,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-gnu",
-      "version": "0.137.0",
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.56.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -885,8 +894,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.56.0",
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
+      "version": "0.137.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -958,15 +967,6 @@
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-musl",
-      "version": "0.137.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.137.0",
       "ecosystem": "npm",
       "score": 20,
