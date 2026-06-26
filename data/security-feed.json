@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-06-26T09:17:16.426Z",
+  "fetchedAt": "2026-06-26T11:08:12.288Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0187: Vulnerability in lopdf",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0187.html",
+      "date": "2026-06-26T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[lemur] Lemur: ACME SSRF + creator-equality IDOR lead to AWS IAM/PKI compromise",
       "url": "https://github.com/advisories/GHSA-v2wp-frmc-5q3v",
@@ -133,13 +139,6 @@
       "date": "2026-06-23T18:53:05.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[motioneye] motionEye's missing authentication on ActionHandler allows unauthenticated camera action execution",
-      "url": "https://github.com/advisories/GHSA-j67x-q29f-qcvv",
-      "date": "2026-06-23T18:37:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
