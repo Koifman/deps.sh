@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-06-26T18:46:29.804Z",
+  "fetchedAt": "2026-06-26T19:37:44.958Z",
   "entries": [
+    {
+      "title": "[pydantic-ai-slim] pydantic-ai: SSRF blocklist bypass via IPv4-compatible, SIIT/IVI, and local NAT64 IPv6 addresses (incomplete fix of CVE-2026-46678)",
+      "url": "https://github.com/advisories/GHSA-cg7w-rg45-pc59",
+      "date": "2026-06-26T19:17:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pydantic-ai] pydantic-ai: SSRF blocklist bypass via IPv4-compatible, SIIT/IVI, and local NAT64 IPv6 addresses (incomplete fix of CVE-2026-46678)",
+      "url": "https://github.com/advisories/GHSA-cg7w-rg45-pc59",
+      "date": "2026-06-26T19:17:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pydantic-ai] pydantic-ai: SSRF blocklist bypass via IPv4-compatible, SIIT/IVI, and local NAT64 IPv6 addresses (incomplete fix of CVE-2026-46678)",
+      "url": "https://github.com/advisories/GHSA-cg7w-rg45-pc59",
+      "date": "2026-06-26T19:17:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pydantic-ai-slim] pydantic-ai: SSRF blocklist bypass via IPv4-compatible, SIIT/IVI, and local NAT64 IPv6 addresses (incomplete fix of CVE-2026-46678)",
+      "url": "https://github.com/advisories/GHSA-cg7w-rg45-pc59",
+      "date": "2026-06-26T19:17:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@sigstore/core] @sigstore/core has DSSE payloadType type-binding failure",
+      "url": "https://github.com/advisories/GHSA-jfc7-64v2-mr8c",
+      "date": "2026-06-26T19:11:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0187: Vulnerability in lopdf",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0187.html",
@@ -104,41 +139,6 @@
       "date": "2026-06-25T16:53:03.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[litellm] LiteLLM allows a user to modify their own user_role via the /user/update endpoint",
-      "url": "https://github.com/advisories/GHSA-wpfp-gwwc-vwq6",
-      "date": "2026-06-23T22:48:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[litellm] LiteLLM allows an authenticated internal_user to create API keys with access to routes that their role does not permit",
-      "url": "https://github.com/advisories/GHSA-qrc4-49gv-mv9m",
-      "date": "2026-06-23T22:47:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Flask-Security] Flask-Security has an Open Redirect issue",
-      "url": "https://github.com/advisories/GHSA-w2j7-f3c6-g8cw",
-      "date": "2026-06-23T22:46:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[motioneye] motionEye Partial Authentication Bypass: Unauthenticated Admin Credential Theft via Path Traversal",
-      "url": "https://github.com/advisories/GHSA-phv5-334h-mxcw",
-      "date": "2026-06-23T19:09:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[motioneye] motionEye: LFI → pass‑the‑hash admin → unsafe restore → unauth action exec (RCE)",
-      "url": "https://github.com/advisories/GHSA-qxvg-h7q2-hcxh",
-      "date": "2026-06-23T18:53:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
