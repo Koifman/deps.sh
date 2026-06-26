@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-06-26T15:04:52.015Z",
-  "count": 106,
+  "scannedAt": "2026-06-26T16:50:58.373Z",
+  "count": 108,
   "packages": [
     {
       "name": "xmldom",
@@ -813,6 +813,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@typescript/native-preview-linux-x64",
+      "version": "7.0.0-dev.20260626.1",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
+    },
+    {
       "name": "@oxlint/binding-linux-x64-gnu",
       "version": "1.71.0",
       "ecosystem": "npm",
@@ -949,6 +958,15 @@
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-musl",
+      "version": "0.137.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.137.0",
       "ecosystem": "npm",
       "score": 20,
