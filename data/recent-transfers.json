@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-06-27T07:20:18.282Z",
-  "count": 109,
+  "scannedAt": "2026-06-27T09:06:49.019Z",
+  "count": 108,
   "packages": [
     {
       "name": "xmldom",
@@ -64,6 +64,15 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "appium",
+      "version": "3.5.2",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "admc",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -373,7 +382,7 @@
     },
     {
       "name": "@typescript/native-preview",
-      "version": "7.0.0-dev.20260626.1",
+      "version": "7.0.0-dev.20260627.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -435,24 +444,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tsparticles",
-      "version": "4.2.1",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "ar3s",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@tsparticles/confetti",
-      "version": "4.2.1",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "matteobruni",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@tsparticles/fireworks",
       "version": "4.2.1",
       "ecosystem": "npm",
@@ -471,6 +462,15 @@
       "currentOwner": "balearica"
     },
     {
+      "name": "@redux-saga/core",
+      "version": "1.5.0",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "andarist",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@tsparticles/basic",
       "version": "4.2.1",
       "ecosystem": "npm",
@@ -480,12 +480,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@redux-saga/core",
-      "version": "1.5.0",
+      "name": "tsparticles",
+      "version": "4.2.1",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
-      "previousOwner": "andarist",
+      "previousOwner": "ar3s",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -516,21 +516,21 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "espree",
-      "version": "11.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "nzakas",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@typescript-eslint/parser",
       "version": "8.62.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jameshenry",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "espree",
+      "version": "11.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "nzakas",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -570,7 +570,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/supabase-js",
+      "name": "@supabase/realtime-js",
       "version": "2.108.2",
       "ecosystem": "npm",
       "score": 22,
@@ -579,7 +579,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/realtime-js",
+      "name": "@supabase/supabase-js",
       "version": "2.108.2",
       "ecosystem": "npm",
       "score": 22,
@@ -732,15 +732,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@microsoft/dynamicproto-js",
-      "version": "2.0.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "microsoft",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@tsparticles/angular",
       "version": "4.2.1",
       "ecosystem": "npm",
@@ -757,6 +748,15 @@
       "level": "MODERATE",
       "previousOwner": "matteobruni",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@microsoft/dynamicproto-js",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "microsoft",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@lingui/message-utils",
@@ -823,7 +823,7 @@
     },
     {
       "name": "@typescript/native-preview-linux-x64",
-      "version": "7.0.0-dev.20260626.1",
+      "version": "7.0.0-dev.20260627.2",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -921,15 +921,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@tsparticles/vue3",
-      "version": "4.2.1",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matteobruni",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "oxc-minify",
       "version": "0.137.0",
       "ecosystem": "npm",
@@ -948,15 +939,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lottiefiles/dotlottie-web",
-      "version": "0.75.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@tsparticles/svelte",
       "version": "4.2.1",
       "ecosystem": "npm",
@@ -966,7 +948,16 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "name": "@lottiefiles/dotlottie-web",
+      "version": "0.75.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.137.0",
       "ecosystem": "npm",
       "score": 20,
@@ -975,7 +966,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
+      "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.137.0",
       "ecosystem": "npm",
       "score": 20,
