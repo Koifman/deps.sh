@@ -1,7 +1,84 @@
 {
-  "fetchedAt": "2026-06-26T23:32:24.924Z",
+  "fetchedAt": "2026-06-27T01:09:00.607Z",
   "entries": [
     {
+      "title": "[pnpm] pnpm: Path traversal in configDependencies env lockfile allows symlink creation outside node_modules/.pnpm-config",
+      "url": "https://github.com/advisories/GHSA-qrv3-253h-g69c",
+      "date": "2026-06-27T00:13:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pnpm] pnpm: Path traversal in configDependencies env lockfile allows symlink creation outside node_modules/.pnpm-config",
+      "url": "https://github.com/advisories/GHSA-qrv3-253h-g69c",
+      "date": "2026-06-27T00:13:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pnpm] pnpm: `patch-remove` could delete project-selected files outside the patches directory",
+      "url": "https://github.com/advisories/GHSA-72r4-9c5j-mj57",
+      "date": "2026-06-27T00:12:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pnpm] pnpm: `patch-remove` could delete project-selected files outside the patches directory",
+      "url": "https://github.com/advisories/GHSA-72r4-9c5j-mj57",
+      "date": "2026-06-27T00:12:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pnpm] pnpm: Hoisted install imports lockfile alias outside node_modules",
+      "url": "https://github.com/advisories/GHSA-fr4h-3cph-29xv",
+      "date": "2026-06-27T00:03:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pnpm] pnpm: Hoisted install imports lockfile alias outside node_modules",
+      "url": "https://github.com/advisories/GHSA-fr4h-3cph-29xv",
+      "date": "2026-06-27T00:03:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pnpm] pnpm: `stage download` writes outside its destination directory via manifest name/version traversal",
+      "url": "https://github.com/advisories/GHSA-v23m-ccfg-pq9h",
+      "date": "2026-06-26T23:54:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pnpm] pnpm: Reserved bin name deletes PNPM_HOME during global remove",
+      "url": "https://github.com/advisories/GHSA-4gxm-v5v7-fqc4",
+      "date": "2026-06-26T23:46:53.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pnpm] pnpm: Reserved bin name deletes PNPM_HOME during global remove",
+      "url": "https://github.com/advisories/GHSA-4gxm-v5v7-fqc4",
+      "date": "2026-06-26T23:46:53.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pnpm] pnpm: Project env lockfile can short-circuit package-manager resolution and execute lockfile-selected pnpm bytes",
+      "url": "https://github.com/advisories/GHSA-w466-c33r-3gjp",
+      "date": "2026-06-26T23:34:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pnpm] pnpm: Project env lockfile can short-circuit package-manager resolution and execute lockfile-selected pnpm bytes",
+      "url": "https://github.com/advisories/GHSA-w466-c33r-3gjp",
+      "date": "2026-06-26T23:34:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
       "title": "[pnpm] pnpm: Repository-controlled configDependencies can select a pacquet native install engine",
       "url": "https://github.com/advisories/GHSA-gj8w-mvpf-x27x",
       "date": "2026-06-26T23:20:48.000Z",
@@ -61,83 +138,6 @@
       "title": "[pnpm] pnpm binds unscoped user-level npm auth credentials to a repository-selected registry",
       "url": "https://github.com/advisories/GHSA-cjhr-43r9-cfmw",
       "date": "2026-06-26T22:59:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pnpm] pnpm binds unscoped user-level npm auth credentials to a repository-selected registry",
-      "url": "https://github.com/advisories/GHSA-cjhr-43r9-cfmw",
-      "date": "2026-06-26T22:59:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pnpm] pnpm: Transitive dependency alias path traversal allows project path override via symlink replacement",
-      "url": "https://github.com/advisories/GHSA-hwx4-2j3j-g496",
-      "date": "2026-06-26T22:55:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm: Transitive dependency alias path traversal allows project path override via symlink replacement",
-      "url": "https://github.com/advisories/GHSA-hwx4-2j3j-g496",
-      "date": "2026-06-26T22:55:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm: Git Fetch Argument Injection via Lockfile resolution.commit",
-      "url": "https://github.com/advisories/GHSA-p4xf-rf54-rj3x",
-      "date": "2026-06-26T22:53:22.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pnpm] pnpm: Git Fetch Argument Injection via Lockfile resolution.commit",
-      "url": "https://github.com/advisories/GHSA-p4xf-rf54-rj3x",
-      "date": "2026-06-26T22:53:22.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pnpm] pnpm Has an Integrity Check Bypass via Missing Lockfile Integrity Field",
-      "url": "https://github.com/advisories/GHSA-q6j5-fjx5-2mc3",
-      "date": "2026-06-26T22:53:03.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pnpm] pnpm Has an Integrity Check Bypass via Missing Lockfile Integrity Field",
-      "url": "https://github.com/advisories/GHSA-q6j5-fjx5-2mc3",
-      "date": "2026-06-26T22:53:03.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pnpm] pnpm: Unsafe default behavior breaks integrity check",
-      "url": "https://github.com/advisories/GHSA-54hh-g5mx-jqcp",
-      "date": "2026-06-26T22:52:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pnpm] pnpm: Unsafe default behavior breaks integrity check",
-      "url": "https://github.com/advisories/GHSA-54hh-g5mx-jqcp",
-      "date": "2026-06-26T22:52:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[js-toml] js-toml has silent type confusion via falsy-primitive duplicate-key bypass",
-      "url": "https://github.com/advisories/GHSA-m34p-749j-x6m6",
-      "date": "2026-06-26T22:49:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@microsoft/kiota-http-fetchlibrary] @microsoft/kiota-http-fetchlibrary: Bearer token and Cookie leak across origin on redirect due to case-mismatched scrub in fetchRequestAdapter",
-      "url": "https://github.com/advisories/GHSA-396q-4vc8-28x9",
-      "date": "2026-06-26T22:23:14.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
