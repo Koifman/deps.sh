@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-06-28T07:36:59.312Z",
+  "scannedAt": "2026-06-28T09:15:06.193Z",
   "count": 107,
   "packages": [
     {
@@ -382,7 +382,7 @@
     },
     {
       "name": "@typescript/native-preview",
-      "version": "7.0.0-dev.20260627.2",
+      "version": "7.0.0-dev.20260628.1",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -516,21 +516,21 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "espree",
-      "version": "11.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "nzakas",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@typescript-eslint/parser",
       "version": "8.62.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jameshenry",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "espree",
+      "version": "11.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "nzakas",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -823,7 +823,7 @@
     },
     {
       "name": "@typescript/native-preview-linux-x64",
-      "version": "7.0.0-dev.20260627.2",
+      "version": "7.0.0-dev.20260628.1",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -858,15 +858,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.71.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@fortawesome/react-fontawesome",
       "version": "3.3.1",
       "ecosystem": "npm",
@@ -874,6 +865,15 @@
       "level": "LOW",
       "previousOwner": "supercodepoet",
       "currentOwner": "lordofbacon"
+    },
+    {
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.71.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "meriyah",
@@ -948,7 +948,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-arm64",
+      "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.137.0",
       "ecosystem": "npm",
       "score": 20,
@@ -957,7 +957,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-x64",
+      "name": "@oxc-parser/binding-darwin-arm64",
       "version": "0.137.0",
       "ecosystem": "npm",
       "score": 20,
