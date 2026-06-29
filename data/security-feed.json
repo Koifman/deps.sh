@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-29T14:28:24.367Z",
+  "fetchedAt": "2026-06-29T16:21:24.303Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0188: Vulnerability in wasmtime-wasi",
@@ -16,6 +16,18 @@
     {
       "title": "RUSTSEC-2026-0190: Unsoundness in anyhow",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0190.html",
+      "date": "2026-06-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2025-0165: Unsoundness in i_tree",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0165.html",
+      "date": "2026-06-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0191: Unsoundness in solana_rbpf",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0191.html",
       "date": "2026-06-29T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -123,20 +135,6 @@
       "date": "2026-06-26T23:18:14.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm: Repository config can expand victim environment secrets into registry requests before scripts run",
-      "url": "https://github.com/advisories/GHSA-3qhv-2rgh-x77r",
-      "date": "2026-06-26T23:12:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pnpm] pnpm: Repository config can expand victim environment secrets into registry requests before scripts run",
-      "url": "https://github.com/advisories/GHSA-3qhv-2rgh-x77r",
-      "date": "2026-06-26T23:12:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
