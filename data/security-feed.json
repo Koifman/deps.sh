@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-29T16:21:24.303Z",
+  "fetchedAt": "2026-06-29T17:53:39.807Z",
   "entries": [
+    {
+      "title": "[js-yaml] JS-YAML: Quadratic-complexity DoS in merge key handling via repeated aliases",
+      "url": "https://github.com/advisories/GHSA-h67p-54hq-rp68",
+      "date": "2026-06-29T15:06:00.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[js-yaml] JS-YAML: Quadratic-complexity DoS in merge key handling via repeated aliases",
+      "url": "https://github.com/advisories/GHSA-h67p-54hq-rp68",
+      "date": "2026-06-29T15:06:00.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0188: Vulnerability in wasmtime-wasi",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0188.html",
@@ -119,20 +133,6 @@
       "title": "[pnpm] pnpm: Repository-controlled configDependencies can select a pacquet native install engine",
       "url": "https://github.com/advisories/GHSA-gj8w-mvpf-x27x",
       "date": "2026-06-26T23:20:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm: Manifest identity spoof satisfies allowBuilds and runs attacker lifecycle",
-      "url": "https://github.com/advisories/GHSA-5wx6-mg75-v57r",
-      "date": "2026-06-26T23:18:14.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm: Manifest identity spoof satisfies allowBuilds and runs attacker lifecycle",
-      "url": "https://github.com/advisories/GHSA-5wx6-mg75-v57r",
-      "date": "2026-06-26T23:18:14.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
