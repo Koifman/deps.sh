@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-06-29T22:29:30.487Z",
+  "fetchedAt": "2026-06-29T23:27:35.710Z",
   "entries": [
+    {
+      "title": "[smtp-server] smtp-server's command parser memory exhaustion denial-of-service",
+      "url": "https://github.com/advisories/GHSA-fv2f-rw9f-v9cm",
+      "date": "2026-06-29T22:57:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[js-yaml] JS-YAML: Quadratic-complexity DoS in merge key handling via repeated aliases",
       "url": "https://github.com/advisories/GHSA-h67p-54hq-rp68",
@@ -125,13 +132,6 @@
       "title": "[pnpm] pnpm: Project env lockfile can short-circuit package-manager resolution and execute lockfile-selected pnpm bytes",
       "url": "https://github.com/advisories/GHSA-w466-c33r-3gjp",
       "date": "2026-06-26T23:34:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm: Repository-controlled configDependencies can select a pacquet native install engine",
-      "url": "https://github.com/advisories/GHSA-gj8w-mvpf-x27x",
-      "date": "2026-06-26T23:20:48.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
