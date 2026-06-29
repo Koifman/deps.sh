@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-06-29T17:56:34.248Z",
-  "count": 107,
+  "scannedAt": "2026-06-29T18:53:33.236Z",
+  "count": 109,
   "packages": [
     {
       "name": "xmldom",
@@ -64,15 +64,6 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
-    },
-    {
-      "name": "appium",
-      "version": "3.5.2",
-      "ecosystem": "npm",
-      "score": 43,
-      "level": "MODERATE",
-      "previousOwner": "admc",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -246,6 +237,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@stitches/react",
+      "version": "1.2.8",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "peduarte",
+      "currentOwner": "hadihallak"
+    },
+    {
       "name": "@appium/support",
       "version": "7.2.5",
       "ecosystem": "npm",
@@ -381,21 +381,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/native-preview",
-      "version": "7.0.0-dev.20260629.1",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@azure/storage-blob",
       "version": "12.33.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "christopheranderson",
+      "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@typescript/native-preview",
+      "version": "7.0.0-dev.20260629.1",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
     },
     {
@@ -495,6 +495,15 @@
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "ar3s",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@tsparticles/confetti",
+      "version": "4.3.0",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "matteobruni",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -768,6 +777,24 @@
       "currentOwner": "vimeo-npmbot"
     },
     {
+      "name": "@tsparticles/angular",
+      "version": "4.3.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "matteobruni",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@tsparticles/particles",
+      "version": "4.3.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "matteobruni",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "typescript",
       "version": "6.0.3",
       "ecosystem": "npm",
@@ -867,15 +894,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@fortawesome/react-fontawesome",
-      "version": "3.3.1",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "supercodepoet",
-      "currentOwner": "lordofbacon"
-    },
-    {
       "name": "meriyah",
       "version": "7.1.0",
       "ecosystem": "npm",
@@ -883,6 +901,15 @@
       "level": "LOW",
       "previousOwner": "meriyah",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@fortawesome/react-fontawesome",
+      "version": "3.3.1",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "supercodepoet",
+      "currentOwner": "lordofbacon"
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-gnu",
@@ -949,15 +976,6 @@
     },
     {
       "name": "@oxc-parser/binding-darwin-arm64",
-      "version": "0.137.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.137.0",
       "ecosystem": "npm",
       "score": 20,
