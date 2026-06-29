@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-29T20:42:58.637Z",
+  "fetchedAt": "2026-06-29T21:36:04.068Z",
   "entries": [
     {
       "title": "[js-yaml] JS-YAML: Quadratic-complexity DoS in merge key handling via repeated aliases",
@@ -14,6 +14,12 @@
       "date": "2026-06-29T15:06:00.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
+    },
+    {
+      "title": "RUSTSEC-2026-0192: ttf-parser is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0192.html",
+      "date": "2026-06-29T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
       "title": "RUSTSEC-2026-0188: Vulnerability in wasmtime-wasi",
@@ -119,13 +125,6 @@
       "title": "[pnpm] pnpm: Project env lockfile can short-circuit package-manager resolution and execute lockfile-selected pnpm bytes",
       "url": "https://github.com/advisories/GHSA-w466-c33r-3gjp",
       "date": "2026-06-26T23:34:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm: Repository-controlled configDependencies can select a pacquet native install engine",
-      "url": "https://github.com/advisories/GHSA-gj8w-mvpf-x27x",
-      "date": "2026-06-26T23:20:48.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
