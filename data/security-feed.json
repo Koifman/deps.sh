@@ -1,6 +1,24 @@
 {
-  "fetchedAt": "2026-06-29T12:34:22.221Z",
+  "fetchedAt": "2026-06-29T14:28:24.367Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0188: Vulnerability in wasmtime-wasi",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0188.html",
+      "date": "2026-06-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0189: Vulnerability in rmcp",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0189.html",
+      "date": "2026-06-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0190: Unsoundness in anyhow",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0190.html",
+      "date": "2026-06-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[pnpm] pnpm: Path traversal in configDependencies env lockfile allows symlink creation outside node_modules/.pnpm-config",
       "url": "https://github.com/advisories/GHSA-qrv3-253h-g69c",
@@ -117,27 +135,6 @@
       "title": "[pnpm] pnpm: Repository config can expand victim environment secrets into registry requests before scripts run",
       "url": "https://github.com/advisories/GHSA-3qhv-2rgh-x77r",
       "date": "2026-06-26T23:12:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pnpm] pnpm Vulnerable to Arbitrary File Write/Delete via Malicious Patch File (Path Traversal)",
-      "url": "https://github.com/advisories/GHSA-rxhj-4m44-96r4",
-      "date": "2026-06-26T22:59:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm Vulnerable to Arbitrary File Write/Delete via Malicious Patch File (Path Traversal)",
-      "url": "https://github.com/advisories/GHSA-rxhj-4m44-96r4",
-      "date": "2026-06-26T22:59:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm binds unscoped user-level npm auth credentials to a repository-selected registry",
-      "url": "https://github.com/advisories/GHSA-cjhr-43r9-cfmw",
-      "date": "2026-06-26T22:59:26.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
