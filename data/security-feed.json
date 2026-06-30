@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-06-30T18:47:29.468Z",
+  "fetchedAt": "2026-06-30T19:40:17.675Z",
   "entries": [
+    {
+      "title": "[openbabel] Open Babel has Use-after-free in GAMESS GAMESSOutputFormat::ReadMolecule",
+      "url": "https://github.com/advisories/GHSA-pp85-5j63-xpq3",
+      "date": "2026-06-30T18:48:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openbabel] Duplicate Advisory: Open Babel has Use-after-free in GAMESS GAMESSOutputFormat::ReadMolecule",
+      "url": "https://github.com/advisories/GHSA-5fgf-q57f-wwqf",
+      "date": "2026-06-30T18:48:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openbabel] Open Babel has a NULL pointer dereference in CDXML OBAtom::GetExplicitValence",
+      "url": "https://github.com/advisories/GHSA-rxpr-wq63-jr7p",
+      "date": "2026-06-30T18:47:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openbabel] Duplicate Advisory: Open Babel has a NULL pointer dereference in CDXML OBAtom::GetExplicitValence",
+      "url": "https://github.com/advisories/GHSA-fg6r-xgp8-x64r",
+      "date": "2026-06-30T18:47:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openbabel] Open Babel has NULL pointer dereference in MOL2 OBAtom::SetFormalCharge",
+      "url": "https://github.com/advisories/GHSA-4w5w-4fhm-q483",
+      "date": "2026-06-30T18:47:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openbabel] Duplicate Advisory: Open Babel has NULL pointer dereference in MOL2 OBAtom::SetFormalCharge",
+      "url": "https://github.com/advisories/GHSA-3f56-w4g2-mx64",
+      "date": "2026-06-30T18:46:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openbabel] Open Babel has an out-of-bounds read in CIF transform3d::DescribeAsString",
+      "url": "https://github.com/advisories/GHSA-6xw4-2g22-26h8",
+      "date": "2026-06-30T18:46:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[openbabel] Duplicate Advisory: Open Babel has an out-of-bounds read in CIF transform3d::DescribeAsString",
+      "url": "https://github.com/advisories/GHSA-2m54-8m6g-qf93",
+      "date": "2026-06-30T18:46:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@adonisjs/bodyparser] @adonisjs/bodyparser has an incomplete fix for CVE-2026-25754",
+      "url": "https://github.com/advisories/GHSA-qcm7-3vpr-hj5h",
+      "date": "2026-06-30T18:34:33.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@adonisjs/bodyparser] @adonisjs/bodyparser has an incomplete fix for CVE-2026-25754",
+      "url": "https://github.com/advisories/GHSA-qcm7-3vpr-hj5h",
+      "date": "2026-06-30T18:34:33.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@cedar-policy/authorization-for-expressjs] @cedar-policy/authorization-for-expressjs has an authorization bypass via query string manipulation",
       "url": "https://github.com/advisories/GHSA-g4w6-vmgf-xqvx",
@@ -70,72 +140,6 @@
       "date": "2026-06-30T15:37:24.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[hermes-agent] hermes-agent has an Injection issue",
-      "url": "https://github.com/advisories/GHSA-pgp4-xr4j-h5cg",
-      "date": "2026-06-30T15:34:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hermes-agent] hermes-agent has an Injection issue",
-      "url": "https://github.com/advisories/GHSA-238w-f66p-w349",
-      "date": "2026-06-30T15:25:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[prefect] Prefect has an Argument Injection issue",
-      "url": "https://github.com/advisories/GHSA-cw25-2p92-7f75",
-      "date": "2026-06-30T15:12:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0193: Vulnerability in ammonia",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0193.html",
-      "date": "2026-06-30T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0189: Vulnerability in rmcp",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0189.html",
-      "date": "2026-06-30T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[smtp-server] smtp-server's command parser memory exhaustion denial-of-service",
-      "url": "https://github.com/advisories/GHSA-fv2f-rw9f-v9cm",
-      "date": "2026-06-29T22:57:16.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[js-yaml] JS-YAML: Quadratic-complexity DoS in merge key handling via repeated aliases",
-      "url": "https://github.com/advisories/GHSA-h67p-54hq-rp68",
-      "date": "2026-06-29T15:06:00.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[js-yaml] JS-YAML: Quadratic-complexity DoS in merge key handling via repeated aliases",
-      "url": "https://github.com/advisories/GHSA-h67p-54hq-rp68",
-      "date": "2026-06-29T15:06:00.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0192: ttf-parser is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0192.html",
-      "date": "2026-06-29T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0188: Vulnerability in wasmtime-wasi",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0188.html",
-      "date": "2026-06-29T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
