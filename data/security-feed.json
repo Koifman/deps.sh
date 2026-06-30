@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-06-30T13:43:45.821Z",
+  "fetchedAt": "2026-06-30T15:02:02.264Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0193: Vulnerability in ammonia",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0193.html",
+      "date": "2026-06-30T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0189: Vulnerability in rmcp",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0189.html",
@@ -120,13 +126,6 @@
       "date": "2026-06-26T23:46:53.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[pnpm] pnpm: Project env lockfile can short-circuit package-manager resolution and execute lockfile-selected pnpm bytes",
-      "url": "https://github.com/advisories/GHSA-w466-c33r-3gjp",
-      "date": "2026-06-26T23:34:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     },
     {
       "title": "[pnpm] pnpm: Project env lockfile can short-circuit package-manager resolution and execute lockfile-selected pnpm bytes",
