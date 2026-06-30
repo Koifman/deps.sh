@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-06-30T16:49:17.644Z",
+  "fetchedAt": "2026-06-30T17:42:16.714Z",
   "entries": [
+    {
+      "title": "[hermes-agent] hermes-agent has an Incorrect Comparison",
+      "url": "https://github.com/advisories/GHSA-cv5c-mh6j-wvp9",
+      "date": "2026-06-30T17:22:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[apache-airflow-providers-fab] Apache Airflow FAB Auth Manager contains an LDAP filter injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-g283-w6fp-c4fc",
+      "date": "2026-06-30T16:59:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[echarts] Apache ECharts has a cross-site scripting (XSS) vulnerability",
+      "url": "https://github.com/advisories/GHSA-fgmj-fm8m-jvvx",
+      "date": "2026-06-30T16:55:26.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow-providers-google] Apache Airflow providers-google's `ComputeEngineSSHHook` disables SSH host-key verification by default",
+      "url": "https://github.com/advisories/GHSA-g9v5-gjwf-9rwx",
+      "date": "2026-06-30T16:53:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mlflow] MLflow allows unauthorized access to multipart upload endpoints when the `--serve-artifacts` mode is enabled",
+      "url": "https://github.com/advisories/GHSA-8c7q-86fq-vvmh",
+      "date": "2026-06-30T16:48:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[hermes-agent] hermes-agent has a sandbox issue",
       "url": "https://github.com/advisories/GHSA-wm96-9gfh-vvgq",
@@ -96,41 +131,6 @@
       "title": "[pnpm] pnpm: Path traversal in configDependencies env lockfile allows symlink creation outside node_modules/.pnpm-config",
       "url": "https://github.com/advisories/GHSA-qrv3-253h-g69c",
       "date": "2026-06-27T00:13:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm: Path traversal in configDependencies env lockfile allows symlink creation outside node_modules/.pnpm-config",
-      "url": "https://github.com/advisories/GHSA-qrv3-253h-g69c",
-      "date": "2026-06-27T00:13:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm: `patch-remove` could delete project-selected files outside the patches directory",
-      "url": "https://github.com/advisories/GHSA-72r4-9c5j-mj57",
-      "date": "2026-06-27T00:12:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm: `patch-remove` could delete project-selected files outside the patches directory",
-      "url": "https://github.com/advisories/GHSA-72r4-9c5j-mj57",
-      "date": "2026-06-27T00:12:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm: Hoisted install imports lockfile alias outside node_modules",
-      "url": "https://github.com/advisories/GHSA-fr4h-3cph-29xv",
-      "date": "2026-06-27T00:03:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm: Hoisted install imports lockfile alias outside node_modules",
-      "url": "https://github.com/advisories/GHSA-fr4h-3cph-29xv",
-      "date": "2026-06-27T00:03:05.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
