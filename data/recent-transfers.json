@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-06-30T20:49:09.178Z",
+  "scannedAt": "2026-06-30T21:40:52.415Z",
   "count": 106,
   "packages": [
     {
@@ -237,15 +237,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@stitches/react",
-      "version": "1.2.8",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "peduarte",
-      "currentOwner": "hadihallak"
-    },
-    {
       "name": "@appium/support",
       "version": "7.2.5",
       "ecosystem": "npm",
@@ -381,21 +372,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/storage-blob",
-      "version": "12.33.0",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "christopheranderson",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@typescript/native-preview",
       "version": "7.0.0-dev.20260630.1",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@azure/storage-blob",
+      "version": "12.33.0",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "christopheranderson",
       "currentOwner": "microsoft1es"
     },
     {
@@ -477,6 +468,15 @@
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@tsparticles/confetti",
+      "version": "4.3.0",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "matteobruni",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -867,15 +867,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "meriyah",
-      "version": "7.1.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "meriyah",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@fortawesome/react-fontawesome",
       "version": "3.3.1",
       "ecosystem": "npm",
@@ -883,6 +874,15 @@
       "level": "LOW",
       "previousOwner": "supercodepoet",
       "currentOwner": "lordofbacon"
+    },
+    {
+      "name": "meriyah",
+      "version": "7.1.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "meriyah",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-gnu",
@@ -930,7 +930,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
+      "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.138.0",
       "ecosystem": "npm",
       "score": 20,
@@ -939,7 +939,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.138.0",
       "ecosystem": "npm",
       "score": 20,
