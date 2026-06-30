@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-06-30T21:38:04.113Z",
+  "fetchedAt": "2026-06-30T22:33:34.980Z",
   "entries": [
+    {
+      "title": "[pyfory] Apache Fory PyFory Deserialization of Untrusted Data",
+      "url": "https://github.com/advisories/GHSA-m5gw-83w2-7749",
+      "date": "2026-06-30T21:44:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openmed] OpenMed vulnerable to remote code injection through privacy-filter model loading path",
+      "url": "https://github.com/advisories/GHSA-m3v4-v5gx-7wf5",
+      "date": "2026-06-30T21:42:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[openbabel] Open Babel has heap buffer overflow in SMILES OBSmilesParser::ParseSmiles",
       "url": "https://github.com/advisories/GHSA-j35x-w4gj-pf7w",
@@ -125,20 +139,6 @@
       "url": "https://github.com/advisories/GHSA-h2p9-cr4h-px24",
       "date": "2026-06-30T17:39:58.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@koa/router] @koa/router has an Access Control Bypass",
-      "url": "https://github.com/advisories/GHSA-47p6-69vm-vw6v",
-      "date": "2026-06-30T17:39:44.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hermes-agent] hermes-agent has an Incorrect Comparison",
-      "url": "https://github.com/advisories/GHSA-cv5c-mh6j-wvp9",
-      "date": "2026-06-30T17:22:28.000Z",
-      "ecosystem": "pypi",
       "severity": "LOW"
     }
   ]

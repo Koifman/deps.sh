@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-06-30T21:40:52.415Z",
+  "scannedAt": "2026-06-30T22:36:44.220Z",
   "count": 106,
   "packages": [
     {
@@ -219,15 +219,6 @@
       "currentOwner": "lholmquist"
     },
     {
-      "name": "coffeescript",
-      "version": "2.7.0",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "isaacs",
-      "currentOwner": "geoffreybooth"
-    },
-    {
       "name": "@tsparticles/engine",
       "version": "4.3.0",
       "ecosystem": "npm",
@@ -235,6 +226,15 @@
       "level": "MODERATE",
       "previousOwner": "matteobruni",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "coffeescript",
+      "version": "2.7.0",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "isaacs",
+      "currentOwner": "geoffreybooth"
     },
     {
       "name": "@appium/support",
@@ -417,15 +417,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "dependency-cruiser",
-      "version": "18.0.0",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "sverweij",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@trivago/prettier-plugin-sort-imports",
       "version": "6.0.2",
       "ecosystem": "npm",
@@ -433,6 +424,15 @@
       "level": "MODERATE",
       "previousOwner": "ayusharma",
       "currentOwner": "behraang"
+    },
+    {
+      "name": "dependency-cruiser",
+      "version": "18.0.0",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "sverweij",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "tesseract.js-core",
@@ -876,15 +876,6 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "meriyah",
-      "version": "7.1.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "meriyah",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.138.0",
       "ecosystem": "npm",
@@ -903,12 +894,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.138.0",
+      "name": "meriyah",
+      "version": "7.1.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "boshen",
+      "previousOwner": "meriyah",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -930,6 +921,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.138.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.138.0",
       "ecosystem": "npm",
@@ -939,7 +939,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
+      "name": "@oxc-parser/binding-darwin-arm64",
       "version": "0.138.0",
       "ecosystem": "npm",
       "score": 20,
@@ -948,7 +948,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-arm64",
+      "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.138.0",
       "ecosystem": "npm",
       "score": 20,
