@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-06-30T17:42:16.714Z",
+  "fetchedAt": "2026-06-30T18:47:29.468Z",
   "entries": [
+    {
+      "title": "[@cedar-policy/authorization-for-expressjs] @cedar-policy/authorization-for-expressjs has an authorization bypass via query string manipulation",
+      "url": "https://github.com/advisories/GHSA-g4w6-vmgf-xqvx",
+      "date": "2026-06-30T18:09:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vllm] vllm has Improper Resource Shutdown or Release",
+      "url": "https://github.com/advisories/GHSA-98f3-hwg4-4rf7",
+      "date": "2026-06-30T17:43:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[blitz] Blitz has a Cross-site Scripting issue",
+      "url": "https://github.com/advisories/GHSA-h2p9-cr4h-px24",
+      "date": "2026-06-30T17:39:58.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@koa/router] @koa/router has an Access Control Bypass",
+      "url": "https://github.com/advisories/GHSA-47p6-69vm-vw6v",
+      "date": "2026-06-30T17:39:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[hermes-agent] hermes-agent has an Incorrect Comparison",
       "url": "https://github.com/advisories/GHSA-cv5c-mh6j-wvp9",
@@ -108,31 +136,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0188.html",
       "date": "2026-06-29T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0190: Unsoundness in anyhow",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0190.html",
-      "date": "2026-06-29T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2025-0165: Unsoundness in i_tree",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0165.html",
-      "date": "2026-06-29T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0191: Unsoundness in solana_rbpf",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0191.html",
-      "date": "2026-06-29T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[pnpm] pnpm: Path traversal in configDependencies env lockfile allows symlink creation outside node_modules/.pnpm-config",
-      "url": "https://github.com/advisories/GHSA-qrv3-253h-g69c",
-      "date": "2026-06-27T00:13:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
