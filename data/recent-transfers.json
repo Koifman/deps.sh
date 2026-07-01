@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-07-01T07:47:37.343Z",
-  "count": 107,
+  "scannedAt": "2026-07-01T09:22:36.087Z",
+  "count": 106,
   "packages": [
     {
       "name": "xmldom",
@@ -264,15 +264,6 @@
       "currentOwner": "davidjerleke"
     },
     {
-      "name": "well-known-symbols",
-      "version": "4.1.0",
-      "ecosystem": "npm",
-      "score": 32,
-      "level": "MODERATE",
-      "previousOwner": "novemberborn",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "tslib",
       "version": "2.8.1",
       "ecosystem": "npm",
@@ -382,7 +373,7 @@
     },
     {
       "name": "@typescript/native-preview",
-      "version": "7.0.0-dev.20260630.1",
+      "version": "7.0.0-dev.20260701.1",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -472,6 +463,15 @@
     },
     {
       "name": "@tsparticles/confetti",
+      "version": "4.3.0",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "matteobruni",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@tsparticles/basic",
       "version": "4.3.0",
       "ecosystem": "npm",
       "score": 25,
@@ -715,7 +715,7 @@
     },
     {
       "name": "@lottiefiles/dotlottie-react",
-      "version": "0.19.5",
+      "version": "0.19.6",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -823,7 +823,7 @@
     },
     {
       "name": "@typescript/native-preview-linux-x64",
-      "version": "7.0.0-dev.20260630.1",
+      "version": "7.0.0-dev.20260701.1",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -903,15 +903,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lottiefiles/dotlottie-web",
-      "version": "0.75.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.138.0",
       "ecosystem": "npm",
@@ -930,12 +921,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.138.0",
+      "name": "@lottiefiles/dotlottie-web",
+      "version": "0.75.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "boshen",
+      "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -948,13 +939,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/native-preview-linux-arm64",
-      "version": "7.0.0-dev.20260630.1",
+      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.138.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-musl",
