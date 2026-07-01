@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-07-01T03:20:08.596Z",
+  "fetchedAt": "2026-07-01T05:42:43.940Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0193: Vulnerability in ammonia",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0193.html",
+      "date": "2026-07-01T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[pyfory] Apache Fory PyFory Deserialization of Untrusted Data",
       "url": "https://github.com/advisories/GHSA-m5gw-83w2-7749",
@@ -133,13 +139,6 @@
       "date": "2026-06-30T17:43:36.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[blitz] Blitz has a Cross-site Scripting issue",
-      "url": "https://github.com/advisories/GHSA-h2p9-cr4h-px24",
-      "date": "2026-06-30T17:39:58.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
