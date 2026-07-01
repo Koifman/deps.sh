@@ -1,144 +1,145 @@
 {
-  "fetchedAt": "2026-07-01T17:41:29.981Z",
+  "fetchedAt": "2026-07-01T18:48:57.105Z",
   "entries": [
     {
-      "title": "RUSTSEC-2026-0193: Vulnerability in ammonia",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0193.html",
-      "date": "2026-07-01T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[pyfory] Apache Fory PyFory Deserialization of Untrusted Data",
-      "url": "https://github.com/advisories/GHSA-m5gw-83w2-7749",
-      "date": "2026-06-30T21:44:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openmed] OpenMed vulnerable to remote code injection through privacy-filter model loading path",
-      "url": "https://github.com/advisories/GHSA-m3v4-v5gx-7wf5",
-      "date": "2026-06-30T21:42:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openbabel] Open Babel has heap buffer overflow in SMILES OBSmilesParser::ParseSmiles",
-      "url": "https://github.com/advisories/GHSA-j35x-w4gj-pf7w",
-      "date": "2026-06-30T21:27:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openbabel] Duplicate Advisory: Open Babel has heap buffer overflow in SMILES OBSmilesParser::ParseSmiles",
-      "url": "https://github.com/advisories/GHSA-9p6c-jcw8-x98f",
-      "date": "2026-06-30T21:26:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openbabel] Open Babel has out-of-bounds write (overlapping memcpy) in zipstream basic_unzip_streambuf::underflow",
-      "url": "https://github.com/advisories/GHSA-8j3x-m868-cpw8",
-      "date": "2026-06-30T21:25:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openbabel] Duplicate Advisory: Open Babel has out-of-bounds write (overlapping memcpy) in zipstream basic_unzip_streambuf::underflow",
-      "url": "https://github.com/advisories/GHSA-5gfq-xrq4-34rj",
-      "date": "2026-06-30T21:25:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` injection",
-      "url": "https://github.com/advisories/GHSA-vg35-5wq7-3x7w",
-      "date": "2026-06-30T21:11:56.000Z",
+      "title": "[wetty] wetty vulnerable to DOM XSS via file-download filename",
+      "url": "https://github.com/advisories/GHSA-p26j-h7wj-r568",
+      "date": "2026-07-01T18:19:41.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[openbabel] Open Babel has Use-after-free in GAMESS GAMESSOutputFormat::ReadMolecule",
-      "url": "https://github.com/advisories/GHSA-pp85-5j63-xpq3",
-      "date": "2026-06-30T18:48:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openbabel] Duplicate Advisory: Open Babel has Use-after-free in GAMESS GAMESSOutputFormat::ReadMolecule",
-      "url": "https://github.com/advisories/GHSA-5fgf-q57f-wwqf",
-      "date": "2026-06-30T18:48:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openbabel] Open Babel has a NULL pointer dereference in CDXML OBAtom::GetExplicitValence",
-      "url": "https://github.com/advisories/GHSA-rxpr-wq63-jr7p",
-      "date": "2026-06-30T18:47:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openbabel] Duplicate Advisory: Open Babel has a NULL pointer dereference in CDXML OBAtom::GetExplicitValence",
-      "url": "https://github.com/advisories/GHSA-fg6r-xgp8-x64r",
-      "date": "2026-06-30T18:47:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openbabel] Open Babel has NULL pointer dereference in MOL2 OBAtom::SetFormalCharge",
-      "url": "https://github.com/advisories/GHSA-4w5w-4fhm-q483",
-      "date": "2026-06-30T18:47:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openbabel] Duplicate Advisory: Open Babel has NULL pointer dereference in MOL2 OBAtom::SetFormalCharge",
-      "url": "https://github.com/advisories/GHSA-3f56-w4g2-mx64",
-      "date": "2026-06-30T18:46:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openbabel] Open Babel has an out-of-bounds read in CIF transform3d::DescribeAsString",
-      "url": "https://github.com/advisories/GHSA-6xw4-2g22-26h8",
-      "date": "2026-06-30T18:46:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[openbabel] Duplicate Advisory: Open Babel has an out-of-bounds read in CIF transform3d::DescribeAsString",
-      "url": "https://github.com/advisories/GHSA-2m54-8m6g-qf93",
-      "date": "2026-06-30T18:46:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@adonisjs/bodyparser] @adonisjs/bodyparser has an incomplete fix for CVE-2026-25754",
-      "url": "https://github.com/advisories/GHSA-qcm7-3vpr-hj5h",
-      "date": "2026-06-30T18:34:33.000Z",
+      "title": "[auth-fetch-mcp] auth-fetch-mcp has SSRF Protection Bypass via IPv4-mapped IPv6 Loopback",
+      "url": "https://github.com/advisories/GHSA-pvrj-8cg3-j5f8",
+      "date": "2026-07-01T18:16:23.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@adonisjs/bodyparser] @adonisjs/bodyparser has an incomplete fix for CVE-2026-25754",
-      "url": "https://github.com/advisories/GHSA-qcm7-3vpr-hj5h",
-      "date": "2026-06-30T18:34:33.000Z",
+      "title": "[@jshookmcp/jshook] @jshookmcp/jshook: ICMP probe and traceroute skip local-network SSRF authorization",
+      "url": "https://github.com/advisories/GHSA-c5r6-m4mr-8q5j",
+      "date": "2026-07-01T18:14:58.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@cedar-policy/authorization-for-expressjs] @cedar-policy/authorization-for-expressjs has an authorization bypass via query string manipulation",
-      "url": "https://github.com/advisories/GHSA-g4w6-vmgf-xqvx",
-      "date": "2026-06-30T18:09:14.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vllm] vllm has Improper Resource Shutdown or Release",
-      "url": "https://github.com/advisories/GHSA-98f3-hwg4-4rf7",
-      "date": "2026-06-30T17:43:36.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[gdal] GDAL: scanForGeometryContainers in the netCDF driver allows code execution via a stack-based buffer overflow",
+      "url": "https://github.com/advisories/GHSA-wphc-7cm7-8mf7",
+      "date": "2026-07-01T18:07:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[swift] OpenStack Swift: s3api middleware enters an infinite loop when processing a truncated aws-chunked PUT request body",
+      "url": "https://github.com/advisories/GHSA-g7jq-j257-rww2",
+      "date": "2026-07-01T18:04:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[swift] OpenStack Swift: s3api middleware enters an infinite loop when processing a truncated aws-chunked PUT request body",
+      "url": "https://github.com/advisories/GHSA-g7jq-j257-rww2",
+      "date": "2026-07-01T18:04:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[transformers] HuggingFace transformers vulnerable to remote code execution",
+      "url": "https://github.com/advisories/GHSA-29pf-2h5f-8g72",
+      "date": "2026-07-01T18:00:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openbabel] Open Babel has out-of-bounds write in MSI translationVectors[]",
+      "url": "https://github.com/advisories/GHSA-f8h2-c479-vqxf",
+      "date": "2026-07-01T17:54:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openbabel] Duplicate Advisory: Open Babel has out-of-bounds write in MSI translationVectors[]",
+      "url": "https://github.com/advisories/GHSA-83c5-hghm-jg6r",
+      "date": "2026-07-01T17:54:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openbabel] Open Babel has out-of-bounds write in MOPAC IN translationVectors[] (Tv atom)",
+      "url": "https://github.com/advisories/GHSA-mjmg-352j-f456",
+      "date": "2026-07-01T17:54:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openbabel] Duplicate Advisory: Open Babel has out-of-bounds write in MOPAC IN translationVectors[] (Tv atom)",
+      "url": "https://github.com/advisories/GHSA-jrjj-9h77-6vhv",
+      "date": "2026-07-01T17:54:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openbabel] Open Babel has out-of-bounds write in MOPAC translationVectors[] (FINAL POINT)",
+      "url": "https://github.com/advisories/GHSA-7h6r-6p76-68c9",
+      "date": "2026-07-01T17:53:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openbabel] Duplicate Advisory: Open Babel has out-of-bounds write in MOPAC translationVectors[] (FINAL POINT)",
+      "url": "https://github.com/advisories/GHSA-4r3q-94wc-xhq9",
+      "date": "2026-07-01T17:53:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openbabel] Open Babel has out-of-bounds write in Gaussian translationVectors[]",
+      "url": "https://github.com/advisories/GHSA-jg3h-pv7c-4f9c",
+      "date": "2026-07-01T17:51:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openbabel] Duplicate Advisory: Open Babel has out-of-bounds write in Gaussian translationVectors[]",
+      "url": "https://github.com/advisories/GHSA-v5fw-q4pf-8p2h",
+      "date": "2026-07-01T17:50:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openbabel] Open Babel has out-of-bounds write in ORCA nAtoms parser (second variant)",
+      "url": "https://github.com/advisories/GHSA-5rff-8f7c-8jmw",
+      "date": "2026-07-01T17:50:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openbabel] Duplicate Advisory: Open Babel has out-of-bounds write in ORCA nAtoms parser (second variant)",
+      "url": "https://github.com/advisories/GHSA-wj42-v2p3-fq2w",
+      "date": "2026-07-01T17:50:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openbabel] Open Babel has out-of-bounds write in ORCA nAtoms parser",
+      "url": "https://github.com/advisories/GHSA-rj4c-r689-cm87",
+      "date": "2026-07-01T17:49:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openbabel] Duplicate Advisory: Open Babel has out-of-bounds write in ORCA nAtoms parser",
+      "url": "https://github.com/advisories/GHSA-g8f4-g673-rfw2",
+      "date": "2026-07-01T17:49:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openbabel] Open Babel has uninitialized pointer dereference in PQS pFormat",
+      "url": "https://github.com/advisories/GHSA-8qxc-57hf-hc9j",
+      "date": "2026-07-01T17:48:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     }
   ]
 }
