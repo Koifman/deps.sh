@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-07-01T21:37:20.896Z",
+  "fetchedAt": "2026-07-01T22:35:24.551Z",
   "entries": [
+    {
+      "title": "[openclaw] OpenClaw MCP SSE redirects could forward Authorization headers",
+      "url": "https://github.com/advisories/GHSA-9c3v-684m-579c",
+      "date": "2026-07-01T22:09:29.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@apify/actors-mcp-server] Apify Model Context Protocol (MCP) server: Actor MCP path authority injection leaks Apify token",
+      "url": "https://github.com/advisories/GHSA-6gr2-qh89-hxwm",
+      "date": "2026-07-01T22:02:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ghost] Ghost: Cache-poisoning XSS in Ghost frontend via x-ghost-preview header",
+      "url": "https://github.com/advisories/GHSA-62q6-4hv4-vjrw",
+      "date": "2026-07-01T21:58:34.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[json-2-csv] json-2-csv vulnerable to CSV Injection via the preventCsvInjection optio",
       "url": "https://github.com/advisories/GHSA-g27c-q7cp-mhx6",
@@ -117,27 +138,6 @@
       "title": "[transformers] HuggingFace transformers vulnerable to remote code execution",
       "url": "https://github.com/advisories/GHSA-29pf-2h5f-8g72",
       "date": "2026-07-01T18:00:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openbabel] Open Babel has out-of-bounds write in MSI translationVectors[]",
-      "url": "https://github.com/advisories/GHSA-f8h2-c479-vqxf",
-      "date": "2026-07-01T17:54:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openbabel] Duplicate Advisory: Open Babel has out-of-bounds write in MSI translationVectors[]",
-      "url": "https://github.com/advisories/GHSA-83c5-hghm-jg6r",
-      "date": "2026-07-01T17:54:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openbabel] Open Babel has out-of-bounds write in MOPAC IN translationVectors[] (Tv atom)",
-      "url": "https://github.com/advisories/GHSA-mjmg-352j-f456",
-      "date": "2026-07-01T17:54:10.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
