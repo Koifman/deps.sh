@@ -1,142 +1,145 @@
 {
-  "fetchedAt": "2026-07-02T16:07:50.168Z",
+  "fetchedAt": "2026-07-02T18:39:59.672Z",
   "entries": [
     {
-      "title": "RUSTSEC-2025-0166: Unsoundness in stackvector",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0166.html",
-      "date": "2026-07-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0194: Vulnerability in quick-xml",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0194.html",
-      "date": "2026-07-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0195: Vulnerability in quick-xml",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0195.html",
-      "date": "2026-07-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[openclaw] OpenClaw MCP SSE redirects could forward Authorization headers",
-      "url": "https://github.com/advisories/GHSA-9c3v-684m-579c",
-      "date": "2026-07-01T22:09:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@apify/actors-mcp-server] Apify Model Context Protocol (MCP) server: Actor MCP path authority injection leaks Apify token",
-      "url": "https://github.com/advisories/GHSA-6gr2-qh89-hxwm",
-      "date": "2026-07-01T22:02:16.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ghost] Ghost: Cache-poisoning XSS in Ghost frontend via x-ghost-preview header",
-      "url": "https://github.com/advisories/GHSA-62q6-4hv4-vjrw",
-      "date": "2026-07-01T21:58:34.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[json-2-csv] json-2-csv vulnerable to CSV Injection via the preventCsvInjection optio",
-      "url": "https://github.com/advisories/GHSA-g27c-q7cp-mhx6",
-      "date": "2026-07-01T21:25:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@hey-api/openapi-ts] @hey-api/openapi-ts's `buildClientParams` template: prototype chain substitution via unknown `$<slot>___proto__` key",
-      "url": "https://github.com/advisories/GHSA-hhx9-57xq-r5rw",
-      "date": "2026-07-01T20:55:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sigstore] sigstore's `certificateOIDs` verification constraints are silently dropped and never enforced",
-      "url": "https://github.com/advisories/GHSA-52v5-jr5w-gjxr",
-      "date": "2026-07-01T19:58:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@sigstore/verify] sigstore-js has Insufficient Verification of Data Authenticity",
-      "url": "https://github.com/advisories/GHSA-xgjw-pm74-86q4",
-      "date": "2026-07-01T19:57:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pretix] pretix vulnerable to Authorization Bypass Through User-Controlled Key",
-      "url": "https://github.com/advisories/GHSA-72p9-6vv6-gvqh",
-      "date": "2026-07-01T19:47:22.000Z",
+      "title": "[keystone] OpenStack Keystone's federated token rescoping mechanism doesn't propagate the original token's expiry to the newly issued token",
+      "url": "https://github.com/advisories/GHSA-whqr-fgm5-x77q",
+      "date": "2026-07-02T17:44:31.000Z",
       "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[gradio] Gradio contains a cookie injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-7hp7-4p35-3cx2",
-      "date": "2026-07-01T19:33:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[taipy] Taipy contains a path traversal vulnerability",
-      "url": "https://github.com/advisories/GHSA-28gh-q3gw-pvx8",
-      "date": "2026-07-01T19:29:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[repomix] repomix: attach_packed_output can bypass file-read secret scanning for supported local files",
-      "url": "https://github.com/advisories/GHSA-hwpp-h97w-2h3j",
-      "date": "2026-07-01T19:03:34.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[repomix] repomix Vulnerable to Command Injection (RCE) via `--remote-branch` Argument Injection",
-      "url": "https://github.com/advisories/GHSA-9mm9-rqhj-j5mx",
-      "date": "2026-07-01T19:00:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[keystone] OpenStack Keystone's federated token rescoping mechanism doesn't propagate the original token's expiry to the newly issued token",
+      "url": "https://github.com/advisories/GHSA-whqr-fgm5-x77q",
+      "date": "2026-07-02T17:44:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "[neuro-cortex-memory] Cortex has Untrusted Project Bootstrap Code Execution via `CLAUDE_PROJECT_DIR`",
-      "url": "https://github.com/advisories/GHSA-gvpp-v77h-5w8g",
-      "date": "2026-07-01T18:41:36.000Z",
+      "title": "[keystone] OpenStack Keystone's federated token rescoping mechanism doesn't propagate the original token's expiry to the newly issued token",
+      "url": "https://github.com/advisories/GHSA-whqr-fgm5-x77q",
+      "date": "2026-07-02T17:44:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[keystone] OpenStack Keystone has an Incorrect Authorization issue",
+      "url": "https://github.com/advisories/GHSA-q623-f4j4-p4xj",
+      "date": "2026-07-02T17:44:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[keystone] OpenStack Keystone has an Incorrect Authorization issue",
+      "url": "https://github.com/advisories/GHSA-q623-f4j4-p4xj",
+      "date": "2026-07-02T17:44:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[keystone] OpenStack Keystone has an Incorrect Authorization issue",
+      "url": "https://github.com/advisories/GHSA-q623-f4j4-p4xj",
+      "date": "2026-07-02T17:44:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[keystone] OpenStack Keystone has an Authorization Bypass",
+      "url": "https://github.com/advisories/GHSA-2r23-2g6v-2m5f",
+      "date": "2026-07-02T17:44:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[keystone] OpenStack Keystone has an Authorization Bypass",
+      "url": "https://github.com/advisories/GHSA-2r23-2g6v-2m5f",
+      "date": "2026-07-02T17:44:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[keystone] OpenStack Keystone has an Authorization Bypass",
+      "url": "https://github.com/advisories/GHSA-2r23-2g6v-2m5f",
+      "date": "2026-07-02T17:44:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[keystone] OpenStack Keystone doesn't verify that the user supplied in the authentication request matches the owner of the application credential",
+      "url": "https://github.com/advisories/GHSA-8f8m-wrvr-wcvf",
+      "date": "2026-07-02T17:43:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[keystone] OpenStack Keystone doesn't verify that the user supplied in the authentication request matches the owner of the application credential",
+      "url": "https://github.com/advisories/GHSA-8f8m-wrvr-wcvf",
+      "date": "2026-07-02T17:43:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[keystone] OpenStack Keystone doesn't verify that the user supplied in the authentication request matches the owner of the application credential",
+      "url": "https://github.com/advisories/GHSA-8f8m-wrvr-wcvf",
+      "date": "2026-07-02T17:43:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langroid] Langroid: SQLChatAgent _validate_query blocklist misses pg_read_file family enabling arbitrary file read",
+      "url": "https://github.com/advisories/GHSA-pmch-g965-grmr",
+      "date": "2026-07-02T17:42:09.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[wetty] wetty vulnerable to DOM XSS via file-download filename",
-      "url": "https://github.com/advisories/GHSA-p26j-h7wj-r568",
-      "date": "2026-07-01T18:19:41.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[auth-fetch-mcp] auth-fetch-mcp has SSRF Protection Bypass via IPv4-mapped IPv6 Loopback",
-      "url": "https://github.com/advisories/GHSA-pvrj-8cg3-j5f8",
-      "date": "2026-07-01T18:16:23.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@jshookmcp/jshook] @jshookmcp/jshook: ICMP probe and traceroute skip local-network SSRF authorization",
-      "url": "https://github.com/advisories/GHSA-c5r6-m4mr-8q5j",
-      "date": "2026-07-01T18:14:58.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[gdal] GDAL: scanForGeometryContainers in the netCDF driver allows code execution via a stack-based buffer overflow",
-      "url": "https://github.com/advisories/GHSA-wphc-7cm7-8mf7",
-      "date": "2026-07-01T18:07:08.000Z",
+      "title": "[langroid] Langroid: Path traversal in the file tools allows read/write outside configured current directory",
+      "url": "https://github.com/advisories/GHSA-fg23-3346-88f5",
+      "date": "2026-07-02T17:38:06.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Native command authorization could skip owner-command enforcement",
+      "url": "https://github.com/advisories/GHSA-p73f-w79w-jqr5",
+      "date": "2026-07-02T17:23:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: PowerShell encoded-command aliases could miss exec allowlist checks",
+      "url": "https://github.com/advisories/GHSA-j472-gf56-x589",
+      "date": "2026-07-02T17:22:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Trusted retry endpoint checks could match hostname prefixes",
+      "url": "https://github.com/advisories/GHSA-77q5-rr5v-x43q",
+      "date": "2026-07-02T17:22:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Telegram interactive callbacks could skip commands.allowFrom",
+      "url": "https://github.com/advisories/GHSA-w5ww-7chg-mxcq",
+      "date": "2026-07-02T17:18:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: Matrix allowFrom could bind to mutable display names",
+      "url": "https://github.com/advisories/GHSA-7hxm-f538-3xp6",
+      "date": "2026-07-02T17:13:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw: MCP loopback could skip owner-only tool policy for non-owner callers",
+      "url": "https://github.com/advisories/GHSA-rj6p-xmxr-qj4h",
+      "date": "2026-07-02T17:13:43.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     }
   ]
 }
