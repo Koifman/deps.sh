@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-07-03T11:37:34.728Z",
+  "fetchedAt": "2026-07-03T14:24:41.307Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0196: cgmath is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0196.html",
+      "date": "2026-07-03T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0197: Unsoundness in cgmath",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0197.html",
+      "date": "2026-07-03T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[recce] Recce server has unauthenticated SQL execution that allows local file read/write through DuckDB",
       "url": "https://github.com/advisories/GHSA-rh62-j648-g5qc",
@@ -124,20 +136,6 @@
       "title": "[@grackle-ai/mcp] Grackle: Fail-open authorization in the MCP tool layer lets scoped agents perform cross-task and cross-session mutations (IDOR)",
       "url": "https://github.com/advisories/GHSA-f9ff-5x35-7gfw",
       "date": "2026-07-02T19:35:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[electerm] electerm has Command Injection in File System Operations (rmrf, mv, cp)",
-      "url": "https://github.com/advisories/GHSA-v5ff-xmfp-p245",
-      "date": "2026-07-02T19:22:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[electerm] electerm has Path Traversal in Zmodem and Trzsz Download Filename Handling",
-      "url": "https://github.com/advisories/GHSA-38j7-23hf-9mhc",
-      "date": "2026-07-02T19:20:21.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
