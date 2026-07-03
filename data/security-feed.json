@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-07-03T14:24:41.307Z",
+  "fetchedAt": "2026-07-03T16:40:24.413Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0198: Unsoundness in error-stack",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0198.html",
+      "date": "2026-07-03T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0196: cgmath is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0196.html",
@@ -127,13 +133,6 @@
     },
     {
       "title": "[@grackle-ai/plugin-core] Grackle: Fail-open authorization in the MCP tool layer lets scoped agents perform cross-task and cross-session mutations (IDOR)",
-      "url": "https://github.com/advisories/GHSA-f9ff-5x35-7gfw",
-      "date": "2026-07-02T19:35:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@grackle-ai/mcp] Grackle: Fail-open authorization in the MCP tool layer lets scoped agents perform cross-task and cross-session mutations (IDOR)",
       "url": "https://github.com/advisories/GHSA-f9ff-5x35-7gfw",
       "date": "2026-07-02T19:35:05.000Z",
       "ecosystem": "npm",
