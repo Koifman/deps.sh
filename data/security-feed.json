@@ -1,9 +1,15 @@
 {
-  "fetchedAt": "2026-07-04T20:12:27.191Z",
+  "fetchedAt": "2026-07-04T22:03:53.044Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0199: Vulnerability in bcrypt",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0199.html",
+      "date": "2026-07-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0201: Vulnerability in fulgur",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0201.html",
       "date": "2026-07-04T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -128,13 +134,6 @@
       "date": "2026-07-02T20:16:13.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[jsonata] jsonata: Malicious inputs to \"$toMillis\" function can cause resource exhaustion",
-      "url": "https://github.com/advisories/GHSA-86vw-mfpg-wwv9",
-      "date": "2026-07-02T20:13:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
