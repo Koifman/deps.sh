@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-07-05T05:02:08.670Z",
+  "fetchedAt": "2026-07-05T09:16:16.615Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0202: Unsoundness in cxx",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0202.html",
+      "date": "2026-07-05T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0199: Vulnerability in bcrypt",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0199.html",
@@ -127,13 +133,6 @@
       "date": "2026-07-02T20:17:57.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[@nuxt/ui] @nuxt/ui: UAuthForm / UForm SSR markup omits `method`, leaking credentials via GET if submitted before hydration",
-      "url": "https://github.com/advisories/GHSA-gj2h-2fpw-fhv9",
-      "date": "2026-07-02T20:16:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
