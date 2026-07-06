@@ -1,6 +1,26 @@
 {
-  "fetchedAt": "2026-07-06T13:53:03.677Z",
+  "fetchedAt": "2026-07-06T16:55:44.524Z",
   "entries": [
+    {
+      "title": "[langchain] langchain vulnerable to arbitrary code execution",
+      "url": "https://github.com/advisories/GHSA-57fc-8q82-gfp3",
+      "date": "2026-07-06T14:48:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "RUSTSEC-2026-0203: tree-sitter-perl-next is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0203.html",
+      "date": "2026-07-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "[9router] 9router has an Incomplete Fix: Local-Only Access Gate Bypass in 9router via Host Header SpoofING",
+      "url": "https://github.com/advisories/GHSA-6g2f-w7g3-77vf",
+      "date": "2026-07-06T10:44:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0202: Unsoundness in cxx",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0202.html",
@@ -48,13 +68,6 @@
       "url": "https://github.com/advisories/GHSA-rh62-j648-g5qc",
       "date": "2026-07-02T21:14:38.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[9router] 9router has an Incomplete Fix: Local-Only Access Gate Bypass in 9router via Host Header SpoofING",
-      "url": "https://github.com/advisories/GHSA-6g2f-w7g3-77vf",
-      "date": "2026-07-02T21:13:20.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
@@ -119,20 +132,6 @@
       "date": "2026-07-02T20:20:04.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@asymmetric-effort/nogginlessdom] @asymmetric-effort/nogginlessdom's Path Traversal in matchFileSnapshot allows arbitrary file write",
-      "url": "https://github.com/advisories/GHSA-322x-v876-g883",
-      "date": "2026-07-02T20:19:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[9router] 9router: Missing Authorization and OS Command Injection",
-      "url": "https://github.com/advisories/GHSA-g6g7-pvmx-m74p",
-      "date": "2026-07-02T20:17:57.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
