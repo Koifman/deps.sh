@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-07-06T16:55:44.524Z",
+  "fetchedAt": "2026-07-06T19:03:34.806Z",
   "entries": [
+    {
+      "title": "[flyto-core] flyto-core has SSRF guard bypass via IPv6 transition addresses (IPv4-mapped / 6to4 / NAT64) in validate_url_ssrf",
+      "url": "https://github.com/advisories/GHSA-794r-5rp2-fpg8",
+      "date": "2026-07-06T17:30:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[weasyprint] WeasyPrint has CSS Injection via Presentational Hints",
+      "url": "https://github.com/advisories/GHSA-jhhc-3hcp-qhm5",
+      "date": "2026-07-06T17:29:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openbabel] Open Babel has out-of-bounds write in MOPAC translationVectors[] (UNIT CELL TRANSLATION)",
+      "url": "https://github.com/advisories/GHSA-55f6-pf8r-c2f4",
+      "date": "2026-07-06T16:41:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openbabel] Duplicate Advisory: Open Babel has out-of-bounds write in MOPAC translationVectors[] (UNIT CELL TRANSLATION)",
+      "url": "https://github.com/advisories/GHSA-hrvg-gx3j-wh53",
+      "date": "2026-07-06T16:38:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[numpy] Numpy Deserialization of Untrusted Data",
+      "url": "https://github.com/advisories/GHSA-9fq2-x9r6-wfmf",
+      "date": "2026-07-06T15:24:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[langchain] langchain vulnerable to arbitrary code execution",
       "url": "https://github.com/advisories/GHSA-57fc-8q82-gfp3",
@@ -97,41 +132,6 @@
       "date": "2026-07-02T20:52:35.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: QQBot native approval buttons did not enforce configured approver identity",
-      "url": "https://github.com/advisories/GHSA-hx4v-668p-g2qr",
-      "date": "2026-07-02T20:50:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[cleo] cleo is vulnerable to Regular Expression Denial of Service (ReDoS)",
-      "url": "https://github.com/advisories/GHSA-2p9h-ccw7-33gf",
-      "date": "2026-07-02T20:40:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fast-mcp-telegram] fast-mcp-telegram: Bearer token path traversal bypasses reserved Telegram session protection",
-      "url": "https://github.com/advisories/GHSA-rxw2-pc8j-vxwm",
-      "date": "2026-07-02T20:38:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[linuxfabrik-lib] Linuxfabrik Monitoring Plugins: Sudoers may be able to obtain privilege escalation via /usr/bin/apt-get arguments",
-      "url": "https://github.com/advisories/GHSA-8w6w-23mq-h8rg",
-      "date": "2026-07-02T20:23:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@asymmetric-effort/nogginlessdom] @asymmetric-effort/nogginlessdom vulnerable to ReDoS via user-controlled regex in HTMLInputElement pattern validation",
-      "url": "https://github.com/advisories/GHSA-x4hg-hfwf-p9mw",
-      "date": "2026-07-02T20:20:04.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
