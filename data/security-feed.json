@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-07-06T19:03:34.806Z",
+  "fetchedAt": "2026-07-06T21:41:43.598Z",
   "entries": [
+    {
+      "title": "[linuxfabrik-lib] Linuxfabrik Monitoring Plugins have local privilege escalation using embedded command",
+      "url": "https://github.com/advisories/GHSA-798h-hpph-m24j",
+      "date": "2026-07-06T21:13:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langroid] Langroid: handle_message() executes user-supplied tool JSON without sender verification",
+      "url": "https://github.com/advisories/GHSA-gjgq-w2m6-wr5q",
+      "date": "2026-07-06T20:42:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langroid] Langroid: Sandbox Escape to Remote Code Execution via Incomplete `eval()` Mitigation in TableChatAgent",
+      "url": "https://github.com/advisories/GHSA-q9p7-wqxg-mrhc",
+      "date": "2026-07-06T20:42:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[langroid] Langroid: SQLChatAgent dangerous-function blocklist can be bypassed with quoted or schema-qualified pg_read_file calls",
+      "url": "https://github.com/advisories/GHSA-6xc5-4r68-67fc",
+      "date": "2026-07-06T20:39:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[linuxfabrik-lib] Linuxfabrik Monitoring Plugins allow insecure creation of SQLite databases",
+      "url": "https://github.com/advisories/GHSA-r35r-fpx2-jgr4",
+      "date": "2026-07-06T20:31:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[decompress] Decompress: Archive extraction can create files and links outside of the target directory",
+      "url": "https://github.com/advisories/GHSA-mp2f-45pm-3cg9",
+      "date": "2026-07-06T20:27:39.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@xhmikosr/decompress] Decompress: Archive extraction can create files and links outside of the target directory",
+      "url": "https://github.com/advisories/GHSA-mp2f-45pm-3cg9",
+      "date": "2026-07-06T20:27:39.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@xhmikosr/decompress] Decompress: Archive extraction can create files and links outside of the target directory",
+      "url": "https://github.com/advisories/GHSA-mp2f-45pm-3cg9",
+      "date": "2026-07-06T20:27:39.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flyto-core] flyto-core has Unauthenticated Command Execution via HTTP MCP `execute_module`",
+      "url": "https://github.com/advisories/GHSA-h9f9-h6gm-wc85",
+      "date": "2026-07-06T17:41:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[flyto-core] flyto-core has SSRF guard bypass via IPv6 transition addresses (IPv4-mapped / 6to4 / NAT64) in validate_url_ssrf",
       "url": "https://github.com/advisories/GHSA-794r-5rp2-fpg8",
@@ -73,65 +136,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0201.html",
       "date": "2026-07-04T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0200: Vulnerability in fulgur",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0200.html",
-      "date": "2026-07-04T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0198: Unsoundness in error-stack",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0198.html",
-      "date": "2026-07-03T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0196: cgmath is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0196.html",
-      "date": "2026-07-03T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0197: Unsoundness in cgmath",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0197.html",
-      "date": "2026-07-03T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[recce] Recce server has unauthenticated SQL execution that allows local file read/write through DuckDB",
-      "url": "https://github.com/advisories/GHSA-rh62-j648-g5qc",
-      "date": "2026-07-02T21:14:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[9router] 9router's Hardcoded Default fallback JWT Secret  Allows Authentication Bypass",
-      "url": "https://github.com/advisories/GHSA-jphh-m39h-6gwx",
-      "date": "2026-07-02T20:56:56.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[kiwitcms] Kiwi TCMS's /init-db/ page renders and responds to requests after first use",
-      "url": "https://github.com/advisories/GHSA-v8rp-6xcv-fwgh",
-      "date": "2026-07-02T20:55:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[xiaomusic] xiaomusic contains an unauthenticated path traversal vulnerability",
-      "url": "https://github.com/advisories/GHSA-5j8p-5rrj-8wjg",
-      "date": "2026-07-02T20:53:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[agno] agno contains a SQL injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-82m5-3pcp-hccq",
-      "date": "2026-07-02T20:52:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
