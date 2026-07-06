@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-07-06T21:41:43.598Z",
+  "fetchedAt": "2026-07-06T23:13:42.289Z",
   "entries": [
+    {
+      "title": "[kiwitcms] Kiwi TCMS vulnerable to stored XSS via JavaScript: URI in extra_link field (TestPlan & TestCase)",
+      "url": "https://github.com/advisories/GHSA-473p-56xx-vg67",
+      "date": "2026-07-06T21:49:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[kiwitcms] Kiwi TCMS has an Open Redirect via unvalidated next parameter in account confirmation endpoint",
+      "url": "https://github.com/advisories/GHSA-hmj5-jm8h-h9fh",
+      "date": "2026-07-06T21:49:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[9router] 9router: Login brute-force protection bypass via spoofed X-Forwarded-For header",
+      "url": "https://github.com/advisories/GHSA-7cfm-pqrj-xgq7",
+      "date": "2026-07-06T21:46:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[9router] 9routers has Exposure of Sensitive Information and Unprotected Database Import/Export, Allowing Complete Credential Theft and Database Takeover",
+      "url": "https://github.com/advisories/GHSA-qvfm-67h2-2qfx",
+      "date": "2026-07-06T21:37:49.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[langroid] Langroid: Neo4jChatAgent executes LLM-generated Cypher without validation (prompt-to-Cypher injection; config-conditional RCE), mirroring the SQLChatAgent bug fixed in CVE-2026-25879",
+      "url": "https://github.com/advisories/GHSA-2pq5-3q89-j7cc",
+      "date": "2026-07-06T21:22:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[9router] 9router has unauthenticated CRUD on /api/providers and Full API Key Leak via /api/usage/stats",
+      "url": "https://github.com/advisories/GHSA-vjc7-jrh9-9j86",
+      "date": "2026-07-06T21:22:11.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[linuxfabrik-lib] Linuxfabrik Monitoring Plugins have local privilege escalation using embedded command",
       "url": "https://github.com/advisories/GHSA-798h-hpph-m24j",
@@ -98,44 +140,6 @@
       "date": "2026-07-06T15:24:13.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[langchain] langchain vulnerable to arbitrary code execution",
-      "url": "https://github.com/advisories/GHSA-57fc-8q82-gfp3",
-      "date": "2026-07-06T14:48:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0203: tree-sitter-perl-next is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0203.html",
-      "date": "2026-07-06T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[9router] 9router has an Incomplete Fix: Local-Only Access Gate Bypass in 9router via Host Header SpoofING",
-      "url": "https://github.com/advisories/GHSA-6g2f-w7g3-77vf",
-      "date": "2026-07-06T10:44:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0202: Unsoundness in cxx",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0202.html",
-      "date": "2026-07-05T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0199: Vulnerability in bcrypt",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0199.html",
-      "date": "2026-07-04T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0201: Vulnerability in fulgur",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0201.html",
-      "date": "2026-07-04T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
