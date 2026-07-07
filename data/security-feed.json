@@ -1,6 +1,83 @@
 {
-  "fetchedAt": "2026-07-07T18:06:24.741Z",
+  "fetchedAt": "2026-07-07T20:52:12.704Z",
   "entries": [
+    {
+      "title": "[better-auth] Better Auth: OAuth refresh-token replay via missing client authentication on oidc-provider and mcp plugins",
+      "url": "https://github.com/advisories/GHSA-pw9m-5jxm-xr6h",
+      "date": "2026-07-07T20:11:52.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[aider-chat] Aider has an SSRF vulnerability through its AWS EC2 Metadata Endpoint",
+      "url": "https://github.com/advisories/GHSA-hchg-qm84-cj9p",
+      "date": "2026-07-07T19:39:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[aider-chat] Aider is vulnerable to Code Injection via editor_coder.run function",
+      "url": "https://github.com/advisories/GHSA-7w7m-v5vp-w699",
+      "date": "2026-07-07T19:36:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@aborruso/ckan-mcp-server] @aborruso/ckan-mcp-server: SSRF via base_url allows access to internal networks (Potential fix bypass of CVE-2026-33060)",
+      "url": "https://github.com/advisories/GHSA-g84h-j7jj-x32p",
+      "date": "2026-07-07T19:35:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[9router] 9router: Missing Authorization and OS Command Injection",
+      "url": "https://github.com/advisories/GHSA-g6g7-pvmx-m74p",
+      "date": "2026-07-07T18:35:36.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using through data-mce- prefixed src, href, style attributes",
+      "url": "https://github.com/advisories/GHSA-q742-qvgc-gc2f",
+      "date": "2026-07-07T17:10:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI has Blind Server Side Request Forgery in its Image Edit Functionality",
+      "url": "https://github.com/advisories/GHSA-jgx9-jr5x-mvpv",
+      "date": "2026-07-07T16:51:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI vulnerable to Stored XSS via iFrame embeds in response messages",
+      "url": "https://github.com/advisories/GHSA-vjm7-m4xh-7wrc",
+      "date": "2026-07-07T16:51:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI vulnerable to Stored XSS via iFrame in citations model",
+      "url": "https://github.com/advisories/GHSA-xc8p-9rr6-97r2",
+      "date": "2026-07-07T16:51:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI vulnerable to stored XSS via unescaped markdown token in MarkdownTokens.svelte leading to full account takeover and RCE via functions",
+      "url": "https://github.com/advisories/GHSA-9f4f-jv96-8766",
+      "date": "2026-07-07T16:51:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI  allows limited stored XSS vila uploaded html file",
+      "url": "https://github.com/advisories/GHSA-8gh5-qqh8-hq3x",
+      "date": "2026-07-07T16:50:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[archivebox] Viewing wget extractor output while logged in as an admin allows archived JS to execute in the admins context",
       "url": "https://github.com/advisories/GHSA-cr45-98w9-gwqx",
@@ -62,83 +139,6 @@
       "date": "2026-07-06T21:22:11.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[linuxfabrik-lib] Linuxfabrik Monitoring Plugins have local privilege escalation using embedded command",
-      "url": "https://github.com/advisories/GHSA-798h-hpph-m24j",
-      "date": "2026-07-06T21:13:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langroid] Langroid: handle_message() executes user-supplied tool JSON without sender verification",
-      "url": "https://github.com/advisories/GHSA-gjgq-w2m6-wr5q",
-      "date": "2026-07-06T20:42:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langroid] Langroid: Sandbox Escape to Remote Code Execution via Incomplete `eval()` Mitigation in TableChatAgent",
-      "url": "https://github.com/advisories/GHSA-q9p7-wqxg-mrhc",
-      "date": "2026-07-06T20:42:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[langroid] Langroid: SQLChatAgent dangerous-function blocklist can be bypassed with quoted or schema-qualified pg_read_file calls",
-      "url": "https://github.com/advisories/GHSA-6xc5-4r68-67fc",
-      "date": "2026-07-06T20:39:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[linuxfabrik-lib] Linuxfabrik Monitoring Plugins allow insecure creation of SQLite databases",
-      "url": "https://github.com/advisories/GHSA-r35r-fpx2-jgr4",
-      "date": "2026-07-06T20:31:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[decompress] Decompress: Archive extraction can create files and links outside of the target directory",
-      "url": "https://github.com/advisories/GHSA-mp2f-45pm-3cg9",
-      "date": "2026-07-06T20:27:39.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@xhmikosr/decompress] Decompress: Archive extraction can create files and links outside of the target directory",
-      "url": "https://github.com/advisories/GHSA-mp2f-45pm-3cg9",
-      "date": "2026-07-06T20:27:39.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@xhmikosr/decompress] Decompress: Archive extraction can create files and links outside of the target directory",
-      "url": "https://github.com/advisories/GHSA-mp2f-45pm-3cg9",
-      "date": "2026-07-06T20:27:39.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[flyto-core] flyto-core has Unauthenticated Command Execution via HTTP MCP `execute_module`",
-      "url": "https://github.com/advisories/GHSA-h9f9-h6gm-wc85",
-      "date": "2026-07-06T17:41:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flyto-core] flyto-core has SSRF guard bypass via IPv6 transition addresses (IPv4-mapped / 6to4 / NAT64) in validate_url_ssrf",
-      "url": "https://github.com/advisories/GHSA-794r-5rp2-fpg8",
-      "date": "2026-07-06T17:30:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[weasyprint] WeasyPrint has CSS Injection via Presentational Hints",
-      "url": "https://github.com/advisories/GHSA-jhhc-3hcp-qhm5",
-      "date": "2026-07-06T17:29:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
