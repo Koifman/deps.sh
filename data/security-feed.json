@@ -1,6 +1,111 @@
 {
-  "fetchedAt": "2026-07-07T20:52:12.704Z",
+  "fetchedAt": "2026-07-07T22:16:46.136Z",
   "entries": [
+    {
+      "title": "[axios] axios's shouldBypassProxy does not recognize IPv4-mapped IPv6 addresses, allowing NO_PROXY bypass (incomplete fix for CVE-2025-62718)",
+      "url": "https://github.com/advisories/GHSA-pjwm-pj3p-43mv",
+      "date": "2026-07-07T21:16:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@better-auth/scim] @better-auth/scim: Account/provider takeover via missing owner binding on non-org SCIM providers",
+      "url": "https://github.com/advisories/GHSA-j8v8-g9cx-5qf4",
+      "date": "2026-07-07T20:57:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@better-auth/scim] Better Auth: Stale sessions persist after user deletion across admin, anonymous, and SCIM flows",
+      "url": "https://github.com/advisories/GHSA-2vg6-77g8-24mp",
+      "date": "2026-07-07T20:56:46.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[better-auth] Better Auth: Stale sessions persist after user deletion across admin, anonymous, and SCIM flows",
+      "url": "https://github.com/advisories/GHSA-2vg6-77g8-24mp",
+      "date": "2026-07-07T20:56:46.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[better-auth] @better-auth/oauth-provider's OAuth authorization-code grant allows concurrent redemption when two token requests race the find-then-delete primitive",
+      "url": "https://github.com/advisories/GHSA-7w99-5wm4-3g79",
+      "date": "2026-07-07T20:56:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@better-auth/oauth-provider] @better-auth/oauth-provider's OAuth authorization-code grant allows concurrent redemption when two token requests race the find-then-delete primitive",
+      "url": "https://github.com/advisories/GHSA-7w99-5wm4-3g79",
+      "date": "2026-07-07T20:56:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@better-auth/sso] @better-auth/sso provider registration has server-side request forgery via unvalidated OIDC endpoints",
+      "url": "https://github.com/advisories/GHSA-5rr4-8452-hf4v",
+      "date": "2026-07-07T20:56:21.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[better-auth] Better Auth: OAuth refresh-token rotation forks the token family on concurrent redemption",
+      "url": "https://github.com/advisories/GHSA-392p-2q2v-4372",
+      "date": "2026-07-07T20:55:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@better-auth/oauth-provider] Better Auth: OAuth refresh-token rotation forks the token family on concurrent redemption",
+      "url": "https://github.com/advisories/GHSA-392p-2q2v-4372",
+      "date": "2026-07-07T20:55:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[better-auth] Better Auth has insecure cryptographic defaults in oidcProvider: alg=none advertised and plain PKCE accepted by default",
+      "url": "https://github.com/advisories/GHSA-9h47-pqcx-hjr4",
+      "date": "2026-07-07T20:55:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[better-auth] Better Auth has stored XSS in the auth-server origin via javascript: redirect_uri in oidc-provider and mcp",
+      "url": "https://github.com/advisories/GHSA-86j7-9j95-vpqj",
+      "date": "2026-07-07T20:55:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[better-auth] Better Auth has stored XSS in the auth-server origin via javascript: redirect_uri in oidc-provider and mcp",
+      "url": "https://github.com/advisories/GHSA-86j7-9j95-vpqj",
+      "date": "2026-07-07T20:55:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[better-auth] Better Auth has an account takeover issue via OAuth auto-link to unverified pre-registered email",
+      "url": "https://github.com/advisories/GHSA-g38m-r43w-p2q7",
+      "date": "2026-07-07T20:55:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[better-auth] Better Auth vulnerable to unauthorized invitation acceptance via unverified email match in organization plugin",
+      "url": "https://github.com/advisories/GHSA-fmh4-wcc4-5jm3",
+      "date": "2026-07-07T20:54:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@better-auth/oauth-provider] @better-auth/oauth-provider may provide access tokens for unauthorized audiences via unbound resource indicators",
+      "url": "https://github.com/advisories/GHSA-p2fr-6hmx-4528",
+      "date": "2026-07-07T20:54:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[better-auth] Better Auth: OAuth refresh-token replay via missing client authentication on oidc-provider and mcp plugins",
       "url": "https://github.com/advisories/GHSA-pw9m-5jxm-xr6h",
@@ -33,110 +138,6 @@
       "title": "[9router] 9router: Missing Authorization and OS Command Injection",
       "url": "https://github.com/advisories/GHSA-g6g7-pvmx-m74p",
       "date": "2026-07-07T18:35:36.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using through data-mce- prefixed src, href, style attributes",
-      "url": "https://github.com/advisories/GHSA-q742-qvgc-gc2f",
-      "date": "2026-07-07T17:10:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI has Blind Server Side Request Forgery in its Image Edit Functionality",
-      "url": "https://github.com/advisories/GHSA-jgx9-jr5x-mvpv",
-      "date": "2026-07-07T16:51:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI vulnerable to Stored XSS via iFrame embeds in response messages",
-      "url": "https://github.com/advisories/GHSA-vjm7-m4xh-7wrc",
-      "date": "2026-07-07T16:51:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI vulnerable to Stored XSS via iFrame in citations model",
-      "url": "https://github.com/advisories/GHSA-xc8p-9rr6-97r2",
-      "date": "2026-07-07T16:51:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI vulnerable to stored XSS via unescaped markdown token in MarkdownTokens.svelte leading to full account takeover and RCE via functions",
-      "url": "https://github.com/advisories/GHSA-9f4f-jv96-8766",
-      "date": "2026-07-07T16:51:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI  allows limited stored XSS vila uploaded html file",
-      "url": "https://github.com/advisories/GHSA-8gh5-qqh8-hq3x",
-      "date": "2026-07-07T16:50:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[archivebox] Viewing wget extractor output while logged in as an admin allows archived JS to execute in the admins context",
-      "url": "https://github.com/advisories/GHSA-cr45-98w9-gwqx",
-      "date": "2026-07-07T13:06:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[onnx] ONNX has Null Pointer Dereference in Upsample Version Converter Adapter (Zero Inputs)",
-      "url": "https://github.com/advisories/GHSA-hwpq-hmq9-wj77",
-      "date": "2026-07-07T13:02:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0205: Unsoundness in scc",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0205.html",
-      "date": "2026-07-07T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[kiwitcms] Kiwi TCMS vulnerable to stored XSS via JavaScript: URI in extra_link field (TestPlan & TestCase)",
-      "url": "https://github.com/advisories/GHSA-473p-56xx-vg67",
-      "date": "2026-07-06T21:49:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[kiwitcms] Kiwi TCMS has an Open Redirect via unvalidated next parameter in account confirmation endpoint",
-      "url": "https://github.com/advisories/GHSA-hmj5-jm8h-h9fh",
-      "date": "2026-07-06T21:49:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[9router] 9router: Login brute-force protection bypass via spoofed X-Forwarded-For header",
-      "url": "https://github.com/advisories/GHSA-7cfm-pqrj-xgq7",
-      "date": "2026-07-06T21:46:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[9router] 9routers has Exposure of Sensitive Information and Unprotected Database Import/Export, Allowing Complete Credential Theft and Database Takeover",
-      "url": "https://github.com/advisories/GHSA-qvfm-67h2-2qfx",
-      "date": "2026-07-06T21:37:49.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[langroid] Langroid: Neo4jChatAgent executes LLM-generated Cypher without validation (prompt-to-Cypher injection; config-conditional RCE), mirroring the SQLChatAgent bug fixed in CVE-2026-25879",
-      "url": "https://github.com/advisories/GHSA-2pq5-3q89-j7cc",
-      "date": "2026-07-06T21:22:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[9router] 9router has unauthenticated CRUD on /api/providers and Full API Key Leak via /api/usage/stats",
-      "url": "https://github.com/advisories/GHSA-vjc7-jrh9-9j86",
-      "date": "2026-07-06T21:22:11.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     }

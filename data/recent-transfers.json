@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-07-07T20:54:57.968Z",
-  "count": 106,
+  "scannedAt": "2026-07-07T22:19:32.448Z",
+  "count": 104,
   "packages": [
     {
       "name": "xmldom",
@@ -45,15 +45,6 @@
       "score": 50,
       "level": "HIGH",
       "previousOwner": "ericf",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "tinymce",
-      "version": "8.7.0",
-      "ecosystem": "npm",
-      "score": 50,
-      "level": "HIGH",
-      "previousOwner": "spocke",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -156,15 +147,6 @@
       "currentOwner": "phated"
     },
     {
-      "name": "eslint-config-airbnb",
-      "version": "19.0.4",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "jitl",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "is-expression",
       "version": "4.0.0",
       "ecosystem": "npm",
@@ -174,6 +156,15 @@
       "currentOwner": "forbeslindesay"
     },
     {
+      "name": "eslint-config-airbnb",
+      "version": "19.0.4",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "jitl",
+      "currentOwner": "ljharb"
+    },
+    {
       "name": "array-initial",
       "version": "1.1.0",
       "ecosystem": "npm",
@@ -181,6 +172,15 @@
       "level": "MODERATE",
       "previousOwner": "jonschlinkert",
       "currentOwner": "phated"
+    },
+    {
+      "name": "heimdalljs",
+      "version": "0.2.6",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "hjdivad",
+      "currentOwner": "stefanpenner"
     },
     {
       "name": "is-plain-object",
@@ -235,15 +235,6 @@
       "level": "MODERATE",
       "previousOwner": "isaacs",
       "currentOwner": "geoffreybooth"
-    },
-    {
-      "name": "@stitches/react",
-      "version": "1.2.8",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "peduarte",
-      "currentOwner": "hadihallak"
     },
     {
       "name": "@appium/support",
@@ -327,15 +318,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "embla-carousel-autoplay",
-      "version": "8.6.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "davidcetinkaya",
-      "currentOwner": "davidjerleke"
-    },
-    {
       "name": "@trivago/prettier-plugin-sort-imports",
       "version": "6.0.2",
       "ecosystem": "npm",
@@ -343,6 +325,15 @@
       "level": "MODERATE",
       "previousOwner": "ayusharma",
       "currentOwner": "behraang"
+    },
+    {
+      "name": "embla-carousel-autoplay",
+      "version": "8.6.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "davidcetinkaya",
+      "currentOwner": "davidjerleke"
     },
     {
       "name": "eslint",
@@ -390,21 +381,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/storage-blob",
-      "version": "12.33.0",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "christopheranderson",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@typescript/native-preview",
       "version": "7.0.0-dev.20260707.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@azure/storage-blob",
+      "version": "12.33.0",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "christopheranderson",
       "currentOwner": "microsoft1es"
     },
     {
@@ -435,15 +426,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
-    },
-    {
       "name": "@redux-saga/core",
       "version": "1.5.0",
       "ecosystem": "npm",
@@ -451,6 +433,15 @@
       "level": "MODERATE",
       "previousOwner": "andarist",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
     },
     {
       "name": "@assistant-ui/react",
@@ -480,15 +471,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "hasown",
-      "version": "2.0.4",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "radubrehar",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "@babel/parser",
       "version": "8.0.0",
       "ecosystem": "npm",
@@ -496,6 +478,15 @@
       "level": "MODERATE",
       "previousOwner": "hzoo",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "hasown",
+      "version": "2.0.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "radubrehar",
+      "currentOwner": "ljharb"
     },
     {
       "name": "espree",
@@ -660,15 +651,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "inversify",
-      "version": "8.1.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "remojansen",
-      "currentOwner": "notaphplover"
-    },
-    {
       "name": "@microsoft/dynamicproto-js",
       "version": "2.0.5",
       "ecosystem": "npm",
@@ -676,6 +658,15 @@
       "level": "MODERATE",
       "previousOwner": "microsoft",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "inversify",
+      "version": "8.1.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "remojansen",
+      "currentOwner": "notaphplover"
     },
     {
       "name": "@appium/logger",
@@ -748,15 +739,6 @@
       "level": "MODERATE",
       "previousOwner": "bdougherty",
       "currentOwner": "vimeo-npmbot"
-    },
-    {
-      "name": "@nevware21/ts-async",
-      "version": "0.6.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
     },
     {
       "name": "typescript",
@@ -894,15 +876,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.139.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "oxc-minify",
       "version": "0.139.0",
       "ecosystem": "npm",
@@ -921,7 +894,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
+      "name": "@oxc-transform/binding-linux-x64-musl",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
@@ -940,6 +913,15 @@
     },
     {
       "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.139.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
