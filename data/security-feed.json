@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-07-07T12:00:17.935Z",
+  "fetchedAt": "2026-07-07T15:44:58.189Z",
   "entries": [
+    {
+      "title": "[archivebox] Viewing wget extractor output while logged in as an admin allows archived JS to execute in the admins context",
+      "url": "https://github.com/advisories/GHSA-cr45-98w9-gwqx",
+      "date": "2026-07-07T13:06:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[onnx] ONNX has Null Pointer Dereference in Upsample Version Converter Adapter (Zero Inputs)",
+      "url": "https://github.com/advisories/GHSA-hwpq-hmq9-wj77",
+      "date": "2026-07-07T13:02:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0205: Unsoundness in scc",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0205.html",
@@ -125,20 +139,6 @@
       "date": "2026-07-06T17:29:54.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openbabel] Open Babel has out-of-bounds write in MOPAC translationVectors[] (UNIT CELL TRANSLATION)",
-      "url": "https://github.com/advisories/GHSA-55f6-pf8r-c2f4",
-      "date": "2026-07-06T16:41:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openbabel] Duplicate Advisory: Open Babel has out-of-bounds write in MOPAC translationVectors[] (UNIT CELL TRANSLATION)",
-      "url": "https://github.com/advisories/GHSA-hrvg-gx3j-wh53",
-      "date": "2026-07-06T16:38:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }

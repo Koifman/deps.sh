@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-07-07T12:03:24.111Z",
+  "scannedAt": "2026-07-07T15:47:44.925Z",
   "count": 106,
   "packages": [
     {
@@ -156,15 +156,6 @@
       "currentOwner": "phated"
     },
     {
-      "name": "is-expression",
-      "version": "4.0.0",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "timothygu",
-      "currentOwner": "forbeslindesay"
-    },
-    {
       "name": "eslint-config-airbnb",
       "version": "19.0.4",
       "ecosystem": "npm",
@@ -172,6 +163,15 @@
       "level": "MODERATE",
       "previousOwner": "jitl",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "is-expression",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "timothygu",
+      "currentOwner": "forbeslindesay"
     },
     {
       "name": "array-initial",
@@ -453,21 +453,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/base-driver",
-      "version": "10.7.1",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@assistant-ui/react",
       "version": "0.14.26",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "yonom",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/base-driver",
+      "version": "10.7.1",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -553,7 +553,7 @@
     },
     {
       "name": "@supabase/storage-js",
-      "version": "2.110.0",
+      "version": "2.110.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -562,16 +562,7 @@
     },
     {
       "name": "@supabase/realtime-js",
-      "version": "2.110.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "kiwicopple",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@supabase/supabase-js",
-      "version": "2.110.0",
+      "version": "2.110.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -585,6 +576,15 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "longlho",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@supabase/supabase-js",
+      "version": "2.110.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "kiwicopple",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -705,15 +705,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.1.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@lingui/message-utils",
       "version": "6.5.0",
       "ecosystem": "npm",
@@ -723,12 +714,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "redux-saga",
-      "version": "1.5.0",
+      "name": "@appium/tsconfig",
+      "version": "1.1.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "yelouafi",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -738,6 +729,15 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "redux-saga",
+      "version": "1.5.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "yelouafi",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -831,7 +831,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
@@ -840,7 +840,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "name": "oxc-transform",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
