@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-07-07T04:07:30.943Z",
+  "scannedAt": "2026-07-07T08:32:01.003Z",
   "count": 105,
   "packages": [
     {
@@ -45,6 +45,15 @@
       "score": 50,
       "level": "HIGH",
       "previousOwner": "ericf",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tinymce",
+      "version": "8.7.0",
+      "ecosystem": "npm",
+      "score": 50,
+      "level": "HIGH",
+      "previousOwner": "spocke",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -228,15 +237,6 @@
       "currentOwner": "geoffreybooth"
     },
     {
-      "name": "@stitches/core",
-      "version": "1.2.8",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "peduarte",
-      "currentOwner": "hadihallak"
-    },
-    {
       "name": "@stitches/react",
       "version": "1.2.8",
       "ecosystem": "npm",
@@ -327,15 +327,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@trivago/prettier-plugin-sort-imports",
-      "version": "6.0.2",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "ayusharma",
-      "currentOwner": "behraang"
-    },
-    {
       "name": "embla-carousel-autoplay",
       "version": "8.6.0",
       "ecosystem": "npm",
@@ -343,6 +334,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "@trivago/prettier-plugin-sort-imports",
+      "version": "6.0.2",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "ayusharma",
+      "currentOwner": "behraang"
     },
     {
       "name": "eslint",
@@ -400,7 +400,7 @@
     },
     {
       "name": "@typescript/native-preview",
-      "version": "7.0.0-dev.20260706.1",
+      "version": "7.0.0-dev.20260707.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -535,20 +535,11 @@
     },
     {
       "name": "style-to-js",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "remarkablemark",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@supabase/realtime-js",
-      "version": "2.110.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "kiwicopple",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -561,7 +552,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/supabase-js",
+      "name": "@supabase/storage-js",
       "version": "2.110.0",
       "ecosystem": "npm",
       "score": 22,
@@ -570,7 +561,16 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/storage-js",
+      "name": "@supabase/realtime-js",
+      "version": "2.110.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "kiwicopple",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@supabase/supabase-js",
       "version": "2.110.0",
       "ecosystem": "npm",
       "score": 22,
@@ -669,15 +669,6 @@
       "currentOwner": "notaphplover"
     },
     {
-      "name": "@hey-api/codegen-core",
-      "version": "0.9.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "mrlubos",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@microsoft/dynamicproto-js",
       "version": "2.0.5",
       "ecosystem": "npm",
@@ -693,6 +684,15 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@hey-api/codegen-core",
+      "version": "0.9.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "mrlubos",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -805,7 +805,7 @@
     },
     {
       "name": "@typescript/native-preview-linux-x64",
-      "version": "7.0.0-dev.20260706.1",
+      "version": "7.0.0-dev.20260707.2",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
