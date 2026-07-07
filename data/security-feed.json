@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-07-07T08:28:54.161Z",
+  "fetchedAt": "2026-07-07T12:00:17.935Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0205: Unsoundness in scc",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0205.html",
+      "date": "2026-07-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[kiwitcms] Kiwi TCMS vulnerable to stored XSS via JavaScript: URI in extra_link field (TestPlan & TestCase)",
       "url": "https://github.com/advisories/GHSA-473p-56xx-vg67",
@@ -131,13 +137,6 @@
       "title": "[openbabel] Duplicate Advisory: Open Babel has out-of-bounds write in MOPAC translationVectors[] (UNIT CELL TRANSLATION)",
       "url": "https://github.com/advisories/GHSA-hrvg-gx3j-wh53",
       "date": "2026-07-06T16:38:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[numpy] Numpy Deserialization of Untrusted Data",
-      "url": "https://github.com/advisories/GHSA-9fq2-x9r6-wfmf",
-      "date": "2026-07-06T15:24:13.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     }

@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-07-07T08:32:01.003Z",
-  "count": 105,
+  "scannedAt": "2026-07-07T12:03:24.111Z",
+  "count": 106,
   "packages": [
     {
       "name": "xmldom",
@@ -471,12 +471,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/docutils",
-      "version": "2.5.1",
+      "name": "e2b",
+      "version": "2.31.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
-      "previousOwner": "jlipps",
+      "previousOwner": "jakbuno",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -606,15 +606,6 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
-    },
-    {
       "name": "oxfmt",
       "version": "0.58.0",
       "ecosystem": "npm",
@@ -622,6 +613,15 @@
       "level": "MODERATE",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
     },
     {
       "name": "css-has-pseudo",
@@ -687,21 +687,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@hey-api/codegen-core",
-      "version": "0.9.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "mrlubos",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "cropperjs",
       "version": "2.1.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "fengyuanchen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@hey-api/codegen-core",
+      "version": "0.9.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "mrlubos",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -741,15 +741,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@nevware21/ts-async",
-      "version": "0.6.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
-    },
-    {
       "name": "@vimeo/player",
       "version": "2.30.4",
       "ecosystem": "npm",
@@ -757,6 +748,15 @@
       "level": "MODERATE",
       "previousOwner": "bdougherty",
       "currentOwner": "vimeo-npmbot"
+    },
+    {
+      "name": "@nevware21/ts-async",
+      "version": "0.6.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "typescript",
@@ -876,15 +876,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.58.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@fortawesome/react-fontawesome",
       "version": "3.3.1",
       "ecosystem": "npm",
@@ -892,6 +883,15 @@
       "level": "LOW",
       "previousOwner": "supercodepoet",
       "currentOwner": "lordofbacon"
+    },
+    {
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.58.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxc-transform/binding-linux-x64-musl",
@@ -940,6 +940,15 @@
     },
     {
       "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.139.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-win32-x64-msvc",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
