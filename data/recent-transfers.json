@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-07-08T10:29:05.050Z",
+  "scannedAt": "2026-07-08T12:31:08.698Z",
   "count": 104,
   "packages": [
     {
@@ -192,15 +192,6 @@
       "currentOwner": "hzoo"
     },
     {
-      "name": "js-library-detector",
-      "version": "6.7.0",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "johnmichel",
-      "currentOwner": "housseindjirdeh"
-    },
-    {
       "name": "mark.js",
       "version": "8.11.1",
       "ecosystem": "npm",
@@ -208,6 +199,15 @@
       "level": "MODERATE",
       "previousOwner": "lukasoppermann",
       "currentOwner": "julmot"
+    },
+    {
+      "name": "js-library-detector",
+      "version": "6.7.0",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "johnmichel",
+      "currentOwner": "housseindjirdeh"
     },
     {
       "name": "cloudevents",
@@ -462,21 +462,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@babel/parser",
-      "version": "8.0.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "hzoo",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "espree",
       "version": "11.2.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "nzakas",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@babel/parser",
+      "version": "8.0.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "hzoo",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -867,8 +867,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.58.0",
+      "name": "oxc-minify",
+      "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -876,8 +876,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.139.0",
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.58.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -912,7 +912,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
@@ -921,7 +921,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
+      "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
