@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-08T17:45:13.078Z",
+  "fetchedAt": "2026-07-08T19:44:53.120Z",
   "entries": [
+    {
+      "title": "[ironic] OpenStack Ironic is Vulnerable to Inclusion of Functionality from Untrusted Control Sphere",
+      "url": "https://github.com/advisories/GHSA-wqpv-c3pp-3m58",
+      "date": "2026-07-08T17:41:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[AstrBot] AstrBot: Manipulation of astr_main_agent's session_id parameter leads to authorization bypass",
       "url": "https://github.com/advisories/GHSA-r6vm-4xwg-w69h",
@@ -124,13 +131,6 @@
       "title": "[better-auth] Better Auth has insecure cryptographic defaults in oidcProvider: alg=none advertised and plain PKCE accepted by default",
       "url": "https://github.com/advisories/GHSA-9h47-pqcx-hjr4",
       "date": "2026-07-07T20:55:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[better-auth] Better Auth has stored XSS in the auth-server origin via javascript: redirect_uri in oidc-provider and mcp",
-      "url": "https://github.com/advisories/GHSA-86j7-9j95-vpqj",
-      "date": "2026-07-07T20:55:29.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
