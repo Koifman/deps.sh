@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-07-07T22:16:46.136Z",
+  "fetchedAt": "2026-07-08T00:04:23.779Z",
   "entries": [
+    {
+      "title": "[Flask-Security-Too] Flask-Security-Too: WebAuthn reauthentication freshness bypass via cross-user assertion",
+      "url": "https://github.com/advisories/GHSA-f66q-9rf6-8795",
+      "date": "2026-07-07T23:43:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lollms] LoLLMs is vulnerable to Improper Access Control through weak secret key",
+      "url": "https://github.com/advisories/GHSA-9296-v3fr-j92j",
+      "date": "2026-07-07T23:41:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[ha-mcp] ha-mcp: Add-on settings and policy routes are reachable without authentication at the bare root path",
+      "url": "https://github.com/advisories/GHSA-q855-8rh5-jfgq",
+      "date": "2026-07-07T23:41:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[aiosmtplib] aiosmtplib vulnerable to SMTP command injection via CR/LF in sender/recipient address",
+      "url": "https://github.com/advisories/GHSA-v3q9-hj7j-63hq",
+      "date": "2026-07-07T23:40:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[axios] axios's shouldBypassProxy does not recognize IPv4-mapped IPv6 addresses, allowing NO_PROXY bypass (incomplete fix for CVE-2025-62718)",
       "url": "https://github.com/advisories/GHSA-pjwm-pj3p-43mv",
@@ -110,34 +138,6 @@
       "title": "[better-auth] Better Auth: OAuth refresh-token replay via missing client authentication on oidc-provider and mcp plugins",
       "url": "https://github.com/advisories/GHSA-pw9m-5jxm-xr6h",
       "date": "2026-07-07T20:11:52.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[aider-chat] Aider has an SSRF vulnerability through its AWS EC2 Metadata Endpoint",
-      "url": "https://github.com/advisories/GHSA-hchg-qm84-cj9p",
-      "date": "2026-07-07T19:39:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[aider-chat] Aider is vulnerable to Code Injection via editor_coder.run function",
-      "url": "https://github.com/advisories/GHSA-7w7m-v5vp-w699",
-      "date": "2026-07-07T19:36:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@aborruso/ckan-mcp-server] @aborruso/ckan-mcp-server: SSRF via base_url allows access to internal networks (Potential fix bypass of CVE-2026-33060)",
-      "url": "https://github.com/advisories/GHSA-g84h-j7jj-x32p",
-      "date": "2026-07-07T19:35:58.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[9router] 9router: Missing Authorization and OS Command Injection",
-      "url": "https://github.com/advisories/GHSA-g6g7-pvmx-m74p",
-      "date": "2026-07-07T18:35:36.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     }
