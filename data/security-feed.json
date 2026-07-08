@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-07-08T19:44:53.120Z",
+  "fetchedAt": "2026-07-08T21:16:04.756Z",
   "entries": [
+    {
+      "title": "[waku] Waku has an Open Redirect via `unstable_redirect` Helper",
+      "url": "https://github.com/advisories/GHSA-43fc-v873-qw85",
+      "date": "2026-07-08T20:30:23.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[waku] Waku: Cross-Origin CSRF on RSC Server Action Dispatch",
+      "url": "https://github.com/advisories/GHSA-75w3-gmqx-993q",
+      "date": "2026-07-08T20:27:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[trapster] Trapster Community: Unauthenticated malformed DNS compression pointers crash per-packet honeypot handler",
+      "url": "https://github.com/advisories/GHSA-mxwc-wh95-pw4g",
+      "date": "2026-07-08T20:24:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lxml_html_clean] `lxml_html_clean.Cleaner` does not strip `javascript:` URLs from namespaced URL attributes",
+      "url": "https://github.com/advisories/GHSA-4jhm-jv67-739f",
+      "date": "2026-07-08T20:23:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow: Auth manager doesn't invalidate JWT tokens after users click logout",
+      "url": "https://github.com/advisories/GHSA-vr7m-c6v4-8cx8",
+      "date": "2026-07-08T19:45:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow-core] Apache Airflow: Execution API JWT leaked via KubernetesExecutor worker command-line args",
+      "url": "https://github.com/advisories/GHSA-5j6p-jrrm-6x94",
+      "date": "2026-07-08T19:45:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[ironic] OpenStack Ironic is Vulnerable to Inclusion of Functionality from Untrusted Control Sphere",
       "url": "https://github.com/advisories/GHSA-wqpv-c3pp-3m58",
@@ -96,48 +138,6 @@
       "title": "[better-auth] @better-auth/oauth-provider's OAuth authorization-code grant allows concurrent redemption when two token requests race the find-then-delete primitive",
       "url": "https://github.com/advisories/GHSA-7w99-5wm4-3g79",
       "date": "2026-07-07T20:56:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@better-auth/oauth-provider] @better-auth/oauth-provider's OAuth authorization-code grant allows concurrent redemption when two token requests race the find-then-delete primitive",
-      "url": "https://github.com/advisories/GHSA-7w99-5wm4-3g79",
-      "date": "2026-07-07T20:56:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@better-auth/sso] @better-auth/sso provider registration has server-side request forgery via unvalidated OIDC endpoints",
-      "url": "https://github.com/advisories/GHSA-5rr4-8452-hf4v",
-      "date": "2026-07-07T20:56:21.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[better-auth] Better Auth: OAuth refresh-token rotation forks the token family on concurrent redemption",
-      "url": "https://github.com/advisories/GHSA-392p-2q2v-4372",
-      "date": "2026-07-07T20:55:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@better-auth/oauth-provider] Better Auth: OAuth refresh-token rotation forks the token family on concurrent redemption",
-      "url": "https://github.com/advisories/GHSA-392p-2q2v-4372",
-      "date": "2026-07-07T20:55:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[better-auth] Better Auth has insecure cryptographic defaults in oidcProvider: alg=none advertised and plain PKCE accepted by default",
-      "url": "https://github.com/advisories/GHSA-9h47-pqcx-hjr4",
-      "date": "2026-07-07T20:55:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[better-auth] Better Auth has stored XSS in the auth-server origin via javascript: redirect_uri in oidc-provider and mcp",
-      "url": "https://github.com/advisories/GHSA-86j7-9j95-vpqj",
-      "date": "2026-07-07T20:55:29.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
