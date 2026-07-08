@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-07-08T15:29:52.238Z",
-  "count": 103,
+  "scannedAt": "2026-07-08T17:48:03.847Z",
+  "count": 105,
   "packages": [
     {
       "name": "xmldom",
@@ -67,7 +67,7 @@
     },
     {
       "name": "terser",
-      "version": "5.48.0",
+      "version": "5.49.0",
       "ecosystem": "npm",
       "score": 42,
       "level": "MODERATE",
@@ -228,15 +228,6 @@
       "currentOwner": "geoffreybooth"
     },
     {
-      "name": "@tsparticles/engine",
-      "version": "4.3.1",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "matteobruni",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/support",
       "version": "7.2.5",
       "ecosystem": "npm",
@@ -372,6 +363,15 @@
       "currentOwner": "bevryme"
     },
     {
+      "name": "typescript",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "typescript",
+      "currentOwner": "microsoft1es"
+    },
+    {
       "name": "@typescript-eslint/typescript-estree",
       "version": "8.63.0",
       "ecosystem": "npm",
@@ -426,6 +426,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "tesseract.js-core",
+      "version": "6.1.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "antimatter15",
+      "currentOwner": "balearica"
+    },
+    {
       "name": "@redux-saga/core",
       "version": "1.5.0",
       "ecosystem": "npm",
@@ -442,15 +451,6 @@
       "level": "MODERATE",
       "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "tesseract.js-core",
-      "version": "6.1.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "antimatter15",
-      "currentOwner": "balearica"
     },
     {
       "name": "@assistant-ui/react",
@@ -642,15 +642,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@microsoft/dynamicproto-js",
-      "version": "2.0.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "microsoft",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "inversify",
       "version": "8.1.2",
       "ecosystem": "npm",
@@ -658,6 +649,15 @@
       "level": "MODERATE",
       "previousOwner": "remojansen",
       "currentOwner": "notaphplover"
+    },
+    {
+      "name": "@microsoft/dynamicproto-js",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "microsoft",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@hey-api/codegen-core",
@@ -675,15 +675,6 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@lingui/message-utils",
-      "version": "6.5.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -705,15 +696,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lottiefiles/dotlottie-react",
-      "version": "0.19.7",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "redux-saga",
       "version": "1.5.0",
       "ecosystem": "npm",
@@ -732,13 +714,49 @@
       "currentOwner": "vimeo-npmbot"
     },
     {
-      "name": "typescript",
-      "version": "6.0.3",
+      "name": "@lingui/message-utils",
+      "version": "6.5.0",
       "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript",
-      "currentOwner": "typescript-deploys"
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "andrii.bodnar",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@lottiefiles/dotlottie-react",
+      "version": "0.19.7",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@tsparticles/angular",
+      "version": "4.3.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "matteobruni",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@tsparticles/particles",
+      "version": "4.3.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "matteobruni",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@bugsnag/js",
+      "version": "8.9.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bengourley",
+      "currentOwner": "sb-priyankap"
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
@@ -858,15 +876,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.139.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxfmt/binding-linux-x64-musl",
       "version": "0.58.0",
       "ecosystem": "npm",
@@ -876,7 +885,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-arm64",
+      "name": "oxc-minify",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
@@ -886,6 +895,15 @@
     },
     {
       "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.139.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-darwin-arm64",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
