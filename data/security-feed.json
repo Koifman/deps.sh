@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-07-08T21:16:04.756Z",
+  "fetchedAt": "2026-07-08T23:15:32.953Z",
   "entries": [
+    {
+      "title": "[serena-agent] Serena: Unauthenticated Flask dashboard on fixed port enables DNS rebinding → memory poisoning → RCE",
+      "url": "https://github.com/advisories/GHSA-37h2-6p4f-mp3q",
+      "date": "2026-07-08T21:12:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pip]  pip: Path traversal in console_scripts/gui_scripts entry point names allows installing scripts outside of target directory",
+      "url": "https://github.com/advisories/GHSA-wf93-45jw-7689",
+      "date": "2026-07-08T21:00:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[waku] Waku has an Open Redirect via `unstable_redirect` Helper",
       "url": "https://github.com/advisories/GHSA-43fc-v873-qw85",
@@ -126,20 +140,6 @@
       "date": "2026-07-07T20:56:46.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[better-auth] Better Auth: Stale sessions persist after user deletion across admin, anonymous, and SCIM flows",
-      "url": "https://github.com/advisories/GHSA-2vg6-77g8-24mp",
-      "date": "2026-07-07T20:56:46.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[better-auth] @better-auth/oauth-provider's OAuth authorization-code grant allows concurrent redemption when two token requests race the find-then-delete primitive",
-      "url": "https://github.com/advisories/GHSA-7w99-5wm4-3g79",
-      "date": "2026-07-07T20:56:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
