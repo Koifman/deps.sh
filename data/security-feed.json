@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-07-08T00:04:23.779Z",
+  "fetchedAt": "2026-07-08T04:19:55.390Z",
   "entries": [
+    {
+      "title": "[AstrBot] AstrBot: Manipulation of astr_main_agent's session_id parameter leads to authorization bypass",
+      "url": "https://github.com/advisories/GHSA-r6vm-4xwg-w69h",
+      "date": "2026-07-07T23:47:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow: Authenticated users can bypass the `is_safe_url` check",
+      "url": "https://github.com/advisories/GHSA-6hcw-qqr8-pjj8",
+      "date": "2026-07-07T23:47:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow: Incomplete redaction allowlist exposes secrets in Connection `extra`  to read-permitted users",
+      "url": "https://github.com/advisories/GHSA-2883-wwh7-x57v",
+      "date": "2026-07-07T23:47:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[weblate] Weblate SSRF: outbound URL guard misses some private ranges",
+      "url": "https://github.com/advisories/GHSA-vmfc-9982-2m45",
+      "date": "2026-07-07T23:46:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[Flask-Security-Too] Flask-Security-Too: WebAuthn reauthentication freshness bypass via cross-user assertion",
       "url": "https://github.com/advisories/GHSA-f66q-9rf6-8795",
@@ -112,34 +140,6 @@
       "date": "2026-07-07T20:55:29.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[better-auth] Better Auth has an account takeover issue via OAuth auto-link to unverified pre-registered email",
-      "url": "https://github.com/advisories/GHSA-g38m-r43w-p2q7",
-      "date": "2026-07-07T20:55:14.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[better-auth] Better Auth vulnerable to unauthorized invitation acceptance via unverified email match in organization plugin",
-      "url": "https://github.com/advisories/GHSA-fmh4-wcc4-5jm3",
-      "date": "2026-07-07T20:54:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@better-auth/oauth-provider] @better-auth/oauth-provider may provide access tokens for unauthorized audiences via unbound resource indicators",
-      "url": "https://github.com/advisories/GHSA-p2fr-6hmx-4528",
-      "date": "2026-07-07T20:54:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[better-auth] Better Auth: OAuth refresh-token replay via missing client authentication on oidc-provider and mcp plugins",
-      "url": "https://github.com/advisories/GHSA-pw9m-5jxm-xr6h",
-      "date": "2026-07-07T20:11:52.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
