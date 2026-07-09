@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-09T15:26:20.329Z",
+  "fetchedAt": "2026-07-09T18:03:34.083Z",
   "entries": [
+    {
+      "title": "[axios] axios's shouldBypassProxy does not recognize IPv4-mapped IPv6 addresses, allowing NO_PROXY bypass (incomplete fix for CVE-2025-62718)",
+      "url": "https://github.com/advisories/GHSA-pjwm-pj3p-43mv",
+      "date": "2026-07-09T15:32:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@jsonbored/gittensory-mcp] Gittensory: Missing contributor-scoped access control on profile endpoint and MCP tool leaks miner financial data",
       "url": "https://github.com/advisories/GHSA-382c-vx95-w3p5",
@@ -133,13 +140,6 @@
       "date": "2026-07-08T19:45:02.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic is Vulnerable to Inclusion of Functionality from Untrusted Control Sphere",
-      "url": "https://github.com/advisories/GHSA-wqpv-c3pp-3m58",
-      "date": "2026-07-08T17:41:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
