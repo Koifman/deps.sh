@@ -1,6 +1,118 @@
 {
-  "fetchedAt": "2026-07-09T20:51:43.778Z",
+  "fetchedAt": "2026-07-09T22:36:47.345Z",
   "entries": [
+    {
+      "title": "[hermes-agent] hermes-agent has an Injection issue",
+      "url": "https://github.com/advisories/GHSA-mv8x-fg99-32mf",
+      "date": "2026-07-09T21:10:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[pypdf] pypdf: Possible infinite loop when processing threads/articles in writer",
+      "url": "https://github.com/advisories/GHSA-g9xf-7f8q-9mcj",
+      "date": "2026-07-09T21:09:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow has an Authorization Bypass Through User-Controlled Key",
+      "url": "https://github.com/advisories/GHSA-qphr-3mvq-v466",
+      "date": "2026-07-09T21:03:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow has a Deserialization of Untrusted Data vulnerability",
+      "url": "https://github.com/advisories/GHSA-wr76-29cr-67w8",
+      "date": "2026-07-09T21:03:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
+      "url": "https://github.com/advisories/GHSA-cg3x-89rc-x9mw",
+      "date": "2026-07-09T21:02:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow Vulnerable to Deserialization of Untrusted Data",
+      "url": "https://github.com/advisories/GHSA-2r5m-76wx-56gx",
+      "date": "2026-07-09T21:00:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow has an Incorrect Authorization issue",
+      "url": "https://github.com/advisories/GHSA-x5wm-j6wh-2834",
+      "date": "2026-07-09T21:00:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow Vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
+      "url": "https://github.com/advisories/GHSA-33g2-gx67-c2h3",
+      "date": "2026-07-09T20:55:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow has a Link Following issue",
+      "url": "https://github.com/advisories/GHSA-89cj-xrpx-j79m",
+      "date": "2026-07-09T20:53:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow has a Missing Authorization issue",
+      "url": "https://github.com/advisories/GHSA-x2x7-p37c-43cr",
+      "date": "2026-07-09T20:53:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[prefect] Prefect has an Authentication Middleware Bypass when URL paths are appended with 'health' or 'ready'",
+      "url": "https://github.com/advisories/GHSA-c635-393c-hcx2",
+      "date": "2026-07-09T20:53:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow has a Sensitive Cookie in HTTPS Session Without 'Secure' Attribute",
+      "url": "https://github.com/advisories/GHSA-95v7-h9j5-gvjr",
+      "date": "2026-07-09T20:53:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow vulnerable to Improper Neutralization of Special Elements Used in a Template Engine",
+      "url": "https://github.com/advisories/GHSA-c85c-g9wv-pph2",
+      "date": "2026-07-09T20:52:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[mlflow] MLflow: Any authenticated user can enumerate all gateway secrets, endpoints, and model definitions",
+      "url": "https://github.com/advisories/GHSA-r5m9-wm49-959f",
+      "date": "2026-07-09T20:52:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow Vulnerable to Authorization Bypass Through User-Controlled Key",
+      "url": "https://github.com/advisories/GHSA-mxq5-f9c5-w4p5",
+      "date": "2026-07-09T20:51:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow has an Improper Authorization issue",
+      "url": "https://github.com/advisories/GHSA-gprj-xvq8-w53q",
+      "date": "2026-07-09T20:50:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[axios] axios's shouldBypassProxy does not recognize IPv4-mapped IPv6 addresses, allowing NO_PROXY bypass (incomplete fix for CVE-2025-62718)",
       "url": "https://github.com/advisories/GHSA-pjwm-pj3p-43mv",
@@ -28,118 +140,6 @@
       "date": "2026-07-09T13:43:56.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[@enderfga/claw-orchestrator] Claw Orchestrator has inefficient regular expression complexity via validateRegex()",
-      "url": "https://github.com/advisories/GHSA-95f6-rfpg-c3w8",
-      "date": "2026-07-09T13:43:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pymonocypher] pymonocypher: Potential heap buffer overflow on nb_blocks in argon2i_32 when provided buffer is too small",
-      "url": "https://github.com/advisories/GHSA-8f95-v3jq-cj86",
-      "date": "2026-07-09T13:42:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@enderfga/claw-orchestrator] Claw Orchestrator is missing authentication for the component API Endpoint",
-      "url": "https://github.com/advisories/GHSA-q6qc-xp4q-rjq5",
-      "date": "2026-07-09T13:38:50.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[soupsieve] Soup Sieve: Regular Expression Denial of Service (ReDoS) via Selector Parser",
-      "url": "https://github.com/advisories/GHSA-836r-79rf-4m37",
-      "date": "2026-07-09T13:37:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[soupsieve] Soup Sieve has Memory Exhaustion via Large Comma-Separated Selector Lists",
-      "url": "https://github.com/advisories/GHSA-2wc2-fm75-p42x",
-      "date": "2026-07-09T13:37:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[phantom-audio] Phantom: Arbitrary file write and decode-bomb DoS via unconfined MCP tool paths",
-      "url": "https://github.com/advisories/GHSA-52vm-mxx8-f227",
-      "date": "2026-07-09T13:37:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyload-ng] pyLoad: Unbounded Memory Growth Leading to DoS and Potential DDoS in EventManager",
-      "url": "https://github.com/advisories/GHSA-c2f9-4mc8-j656",
-      "date": "2026-07-09T13:35:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyload-ng] pyLoad: SSRF guard bypass via IPv6 6to4/NAT64 transition wrappers of internal IPs",
-      "url": "https://github.com/advisories/GHSA-m5x5-28jr-gpjj",
-      "date": "2026-07-09T13:35:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[serena-agent] Serena: Unauthenticated Flask dashboard on fixed port enables DNS rebinding → memory poisoning → RCE",
-      "url": "https://github.com/advisories/GHSA-37h2-6p4f-mp3q",
-      "date": "2026-07-08T21:12:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pip]  pip: Path traversal in console_scripts/gui_scripts entry point names allows installing scripts outside of target directory",
-      "url": "https://github.com/advisories/GHSA-wf93-45jw-7689",
-      "date": "2026-07-08T21:00:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[waku] Waku has an Open Redirect via `unstable_redirect` Helper",
-      "url": "https://github.com/advisories/GHSA-43fc-v873-qw85",
-      "date": "2026-07-08T20:30:23.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[waku] Waku: Cross-Origin CSRF on RSC Server Action Dispatch",
-      "url": "https://github.com/advisories/GHSA-75w3-gmqx-993q",
-      "date": "2026-07-08T20:27:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[trapster] Trapster Community: Unauthenticated malformed DNS compression pointers crash per-packet honeypot handler",
-      "url": "https://github.com/advisories/GHSA-mxwc-wh95-pw4g",
-      "date": "2026-07-08T20:24:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lxml_html_clean] `lxml_html_clean.Cleaner` does not strip `javascript:` URLs from namespaced URL attributes",
-      "url": "https://github.com/advisories/GHSA-4jhm-jv67-739f",
-      "date": "2026-07-08T20:23:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow: Auth manager doesn't invalidate JWT tokens after users click logout",
-      "url": "https://github.com/advisories/GHSA-vr7m-c6v4-8cx8",
-      "date": "2026-07-08T19:45:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow-core] Apache Airflow: Execution API JWT leaked via KubernetesExecutor worker command-line args",
-      "url": "https://github.com/advisories/GHSA-5j6p-jrrm-6x94",
-      "date": "2026-07-08T19:45:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
