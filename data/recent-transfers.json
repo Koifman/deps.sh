@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-07-08T23:18:26.482Z",
+  "scannedAt": "2026-07-09T04:01:41.864Z",
   "count": 105,
   "packages": [
     {
@@ -45,6 +45,15 @@
       "score": 50,
       "level": "HIGH",
       "previousOwner": "ericf",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tinymce",
+      "version": "8.7.0",
+      "ecosystem": "npm",
+      "score": 50,
+      "level": "HIGH",
+      "previousOwner": "spocke",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -228,6 +237,15 @@
       "currentOwner": "geoffreybooth"
     },
     {
+      "name": "@stitches/react",
+      "version": "1.2.8",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "peduarte",
+      "currentOwner": "hadihallak"
+    },
+    {
       "name": "@appium/support",
       "version": "7.2.5",
       "ecosystem": "npm",
@@ -309,15 +327,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@trivago/prettier-plugin-sort-imports",
-      "version": "6.0.2",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "ayusharma",
-      "currentOwner": "behraang"
-    },
-    {
       "name": "embla-carousel-autoplay",
       "version": "8.6.0",
       "ecosystem": "npm",
@@ -325,6 +334,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "@trivago/prettier-plugin-sort-imports",
+      "version": "6.0.2",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "ayusharma",
+      "currentOwner": "behraang"
     },
     {
       "name": "eslint",
@@ -480,21 +498,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "espree",
-      "version": "11.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "nzakas",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@typescript-eslint/parser",
       "version": "8.63.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jameshenry",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "espree",
+      "version": "11.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "nzakas",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -624,15 +642,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.2.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/types",
       "version": "1.5.1",
       "ecosystem": "npm",
@@ -651,13 +660,13 @@
       "currentOwner": "notaphplover"
     },
     {
-      "name": "@microsoft/dynamicproto-js",
-      "version": "2.0.5",
+      "name": "@appium/schema",
+      "version": "1.2.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "microsoft",
-      "currentOwner": "microsoft1es"
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@hey-api/codegen-core",
@@ -667,6 +676,15 @@
       "level": "MODERATE",
       "previousOwner": "mrlubos",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@microsoft/dynamicproto-js",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "microsoft",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@appium/logger",
@@ -705,15 +723,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@vimeo/player",
-      "version": "2.30.4",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bdougherty",
-      "currentOwner": "vimeo-npmbot"
-    },
-    {
       "name": "@lingui/message-utils",
       "version": "6.5.0",
       "ecosystem": "npm",
@@ -741,22 +750,13 @@
       "currentOwner": "nevware21bot"
     },
     {
-      "name": "@tsparticles/angular",
-      "version": "4.3.1",
+      "name": "@bugsnag/js",
+      "version": "8.9.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "matteobruni",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@tsparticles/particles",
-      "version": "4.3.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "matteobruni",
-      "currentOwner": "GitHub Actions"
+      "previousOwner": "bengourley",
+      "currentOwner": "sb-priyankap"
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
