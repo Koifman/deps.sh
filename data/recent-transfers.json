@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-07-09T11:20:38.664Z",
+  "scannedAt": "2026-07-09T15:31:33.278Z",
   "count": 105,
   "packages": [
     {
@@ -45,6 +45,15 @@
       "score": 50,
       "level": "HIGH",
       "previousOwner": "ericf",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tinymce",
+      "version": "8.7.0",
+      "ecosystem": "npm",
+      "score": 50,
+      "level": "HIGH",
+      "previousOwner": "spocke",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -748,15 +757,6 @@
       "level": "MODERATE",
       "previousOwner": "bdougherty",
       "currentOwner": "vimeo-npmbot"
-    },
-    {
-      "name": "@bugsnag/js",
-      "version": "8.9.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bengourley",
-      "currentOwner": "sb-priyankap"
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",

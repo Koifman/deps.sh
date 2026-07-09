@@ -1,6 +1,83 @@
 {
-  "fetchedAt": "2026-07-09T11:17:54.237Z",
+  "fetchedAt": "2026-07-09T15:26:20.329Z",
   "entries": [
+    {
+      "title": "[@jsonbored/gittensory-mcp] Gittensory: Missing contributor-scoped access control on profile endpoint and MCP tool leaks miner financial data",
+      "url": "https://github.com/advisories/GHSA-382c-vx95-w3p5",
+      "date": "2026-07-09T13:44:52.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[metagpt]  FoundationAgents MetaGPT: Deserialization through flawed argument mapping via Message.check_instruct_content()",
+      "url": "https://github.com/advisories/GHSA-3c3g-7hwg-9qmr",
+      "date": "2026-07-09T13:44:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[sglang] SGLang: Reachable Assertion via  lora_path  in LoRAManager enables remote Denial of Dervice",
+      "url": "https://github.com/advisories/GHSA-m2jr-x4gq-5rmj",
+      "date": "2026-07-09T13:43:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@enderfga/claw-orchestrator] Claw Orchestrator has inefficient regular expression complexity via validateRegex()",
+      "url": "https://github.com/advisories/GHSA-95f6-rfpg-c3w8",
+      "date": "2026-07-09T13:43:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pymonocypher] pymonocypher: Potential heap buffer overflow on nb_blocks in argon2i_32 when provided buffer is too small",
+      "url": "https://github.com/advisories/GHSA-8f95-v3jq-cj86",
+      "date": "2026-07-09T13:42:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@enderfga/claw-orchestrator] Claw Orchestrator is missing authentication for the component API Endpoint",
+      "url": "https://github.com/advisories/GHSA-q6qc-xp4q-rjq5",
+      "date": "2026-07-09T13:38:50.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[soupsieve] Soup Sieve: Regular Expression Denial of Service (ReDoS) via Selector Parser",
+      "url": "https://github.com/advisories/GHSA-836r-79rf-4m37",
+      "date": "2026-07-09T13:37:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[soupsieve] Soup Sieve has Memory Exhaustion via Large Comma-Separated Selector Lists",
+      "url": "https://github.com/advisories/GHSA-2wc2-fm75-p42x",
+      "date": "2026-07-09T13:37:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[phantom-audio] Phantom: Arbitrary file write and decode-bomb DoS via unconfined MCP tool paths",
+      "url": "https://github.com/advisories/GHSA-52vm-mxx8-f227",
+      "date": "2026-07-09T13:37:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pyload-ng] pyLoad: Unbounded Memory Growth Leading to DoS and Potential DDoS in EventManager",
+      "url": "https://github.com/advisories/GHSA-c2f9-4mc8-j656",
+      "date": "2026-07-09T13:35:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyload-ng] pyLoad: SSRF guard bypass via IPv6 6to4/NAT64 transition wrappers of internal IPs",
+      "url": "https://github.com/advisories/GHSA-m5x5-28jr-gpjj",
+      "date": "2026-07-09T13:35:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[serena-agent] Serena: Unauthenticated Flask dashboard on fixed port enables DNS rebinding → memory poisoning → RCE",
       "url": "https://github.com/advisories/GHSA-37h2-6p4f-mp3q",
@@ -63,83 +140,6 @@
       "date": "2026-07-08T17:41:32.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[AstrBot] AstrBot: Manipulation of astr_main_agent's session_id parameter leads to authorization bypass",
-      "url": "https://github.com/advisories/GHSA-r6vm-4xwg-w69h",
-      "date": "2026-07-07T23:47:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow: Authenticated users can bypass the `is_safe_url` check",
-      "url": "https://github.com/advisories/GHSA-6hcw-qqr8-pjj8",
-      "date": "2026-07-07T23:47:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow: Incomplete redaction allowlist exposes secrets in Connection `extra`  to read-permitted users",
-      "url": "https://github.com/advisories/GHSA-2883-wwh7-x57v",
-      "date": "2026-07-07T23:47:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[weblate] Weblate SSRF: outbound URL guard misses some private ranges",
-      "url": "https://github.com/advisories/GHSA-vmfc-9982-2m45",
-      "date": "2026-07-07T23:46:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Flask-Security-Too] Flask-Security-Too: WebAuthn reauthentication freshness bypass via cross-user assertion",
-      "url": "https://github.com/advisories/GHSA-f66q-9rf6-8795",
-      "date": "2026-07-07T23:43:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lollms] LoLLMs is vulnerable to Improper Access Control through weak secret key",
-      "url": "https://github.com/advisories/GHSA-9296-v3fr-j92j",
-      "date": "2026-07-07T23:41:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[ha-mcp] ha-mcp: Add-on settings and policy routes are reachable without authentication at the bare root path",
-      "url": "https://github.com/advisories/GHSA-q855-8rh5-jfgq",
-      "date": "2026-07-07T23:41:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[aiosmtplib] aiosmtplib vulnerable to SMTP command injection via CR/LF in sender/recipient address",
-      "url": "https://github.com/advisories/GHSA-v3q9-hj7j-63hq",
-      "date": "2026-07-07T23:40:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] axios's shouldBypassProxy does not recognize IPv4-mapped IPv6 addresses, allowing NO_PROXY bypass (incomplete fix for CVE-2025-62718)",
-      "url": "https://github.com/advisories/GHSA-pjwm-pj3p-43mv",
-      "date": "2026-07-07T21:16:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@better-auth/scim] @better-auth/scim: Account/provider takeover via missing owner binding on non-org SCIM providers",
-      "url": "https://github.com/advisories/GHSA-j8v8-g9cx-5qf4",
-      "date": "2026-07-07T20:57:06.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@better-auth/scim] Better Auth: Stale sessions persist after user deletion across admin, anonymous, and SCIM flows",
-      "url": "https://github.com/advisories/GHSA-2vg6-77g8-24mp",
-      "date": "2026-07-07T20:56:46.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
