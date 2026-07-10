@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-07-10T17:52:18.498Z",
+  "fetchedAt": "2026-07-10T19:43:06.121Z",
   "entries": [
+    {
+      "title": "[mcp-atlassian] MCP Atlassian: DNS-rebinding TOCTOU bypass of the SSRF fix (CVE-2026-27826)",
+      "url": "https://github.com/advisories/GHSA-489g-7rxv-6c8q",
+      "date": "2026-07-10T18:01:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[code-index-mcp] Code Index MCP is vulnerable to Uncontrolled Resource Consumption",
+      "url": "https://github.com/advisories/GHSA-647r-72hf-4vmh",
+      "date": "2026-07-10T17:16:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@wonderwhy-er/desktop-commander] DesktopCommanderMCP is vulnerable to SSRF",
+      "url": "https://github.com/advisories/GHSA-5xx3-j724-wmx5",
+      "date": "2026-07-10T17:15:48.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@wonderwhy-er/desktop-commander] DesktopCommanderMCP is vulnerable to Uncontrolled Resource Consumption",
+      "url": "https://github.com/advisories/GHSA-r87g-78mx-3wg4",
+      "date": "2026-07-10T17:15:13.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[tarteaucitronjs] tarteaucitron: data-cookie attribute can be used to delete arbitrary cookies",
       "url": "https://github.com/advisories/GHSA-jxj7-g6gm-49j7",
@@ -110,34 +138,6 @@
       "title": "[apache-airflow] Apache Airflow Vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
       "url": "https://github.com/advisories/GHSA-33g2-gx67-c2h3",
       "date": "2026-07-09T20:55:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow has a Link Following issue",
-      "url": "https://github.com/advisories/GHSA-89cj-xrpx-j79m",
-      "date": "2026-07-09T20:53:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow has a Missing Authorization issue",
-      "url": "https://github.com/advisories/GHSA-x2x7-p37c-43cr",
-      "date": "2026-07-09T20:53:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[prefect] Prefect has an Authentication Middleware Bypass when URL paths are appended with 'health' or 'ready'",
-      "url": "https://github.com/advisories/GHSA-c635-393c-hcx2",
-      "date": "2026-07-09T20:53:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow has a Sensitive Cookie in HTTPS Session Without 'Secure' Attribute",
-      "url": "https://github.com/advisories/GHSA-95v7-h9j5-gvjr",
-      "date": "2026-07-09T20:53:10.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
