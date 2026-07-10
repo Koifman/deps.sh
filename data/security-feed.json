@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-10T21:12:44.973Z",
+  "fetchedAt": "2026-07-10T23:04:20.731Z",
   "entries": [
+    {
+      "title": "[clauster] Clauster: Non-loopback deployments can serve the dashboard unauthenticated when auth.enabled is unset",
+      "url": "https://github.com/advisories/GHSA-h4g2-xfmw-q2c9",
+      "date": "2026-07-10T20:37:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[mcp-atlassian] mcp-atlassian: Arbitrary file read via missing path validation in confluence_upload_attachment",
       "url": "https://github.com/advisories/GHSA-g5r6-gv6m-f5jv",
@@ -133,13 +140,6 @@
       "date": "2026-07-09T21:10:29.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[pypdf] pypdf: Possible infinite loop when processing threads/articles in writer",
-      "url": "https://github.com/advisories/GHSA-g9xf-7f8q-9mcj",
-      "date": "2026-07-09T21:09:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
