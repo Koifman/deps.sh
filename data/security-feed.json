@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-07-09T22:36:47.345Z",
+  "fetchedAt": "2026-07-10T00:11:55.283Z",
   "entries": [
+    {
+      "title": "[jupyter-server] Jupyter Server vulnerable to Path Traversal via incorrect root directory boundary check in _get_os_path()",
+      "url": "https://github.com/advisories/GHSA-gf7q-q4j7-hp7c",
+      "date": "2026-07-09T22:06:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow has no certificate validation on SMTP STARTTLS connections",
+      "url": "https://github.com/advisories/GHSA-799x-qp47-8qwq",
+      "date": "2026-07-09T21:11:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[hermes-agent] hermes-agent has an Injection issue",
       "url": "https://github.com/advisories/GHSA-mv8x-fg99-32mf",
@@ -126,20 +140,6 @@
       "date": "2026-07-09T13:44:52.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[metagpt]  FoundationAgents MetaGPT: Deserialization through flawed argument mapping via Message.check_instruct_content()",
-      "url": "https://github.com/advisories/GHSA-3c3g-7hwg-9qmr",
-      "date": "2026-07-09T13:44:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[sglang] SGLang: Reachable Assertion via  lora_path  in LoRAManager enables remote Denial of Dervice",
-      "url": "https://github.com/advisories/GHSA-m2jr-x4gq-5rmj",
-      "date": "2026-07-09T13:43:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }
