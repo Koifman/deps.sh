@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-07-10T19:43:06.121Z",
+  "fetchedAt": "2026-07-10T21:12:44.973Z",
   "entries": [
+    {
+      "title": "[mcp-atlassian] mcp-atlassian: Arbitrary file read via missing path validation in confluence_upload_attachment",
+      "url": "https://github.com/advisories/GHSA-g5r6-gv6m-f5jv",
+      "date": "2026-07-10T19:34:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mcp-atlassian] mcp-atlassian: Arbitrary server-side file read via attachment upload",
+      "url": "https://github.com/advisories/GHSA-wm45-qh3g-v83f",
+      "date": "2026-07-10T19:34:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[safeinstall-cli] SafeInstall agent guard shell parsing can miss raw package execution",
+      "url": "https://github.com/advisories/GHSA-xrmc-c5cg-rv7x",
+      "date": "2026-07-10T19:34:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[BabelDOC] BabelDOC: Arbitrary Code Execution via CMap Pickle Deserialization in babeldoc/pdfminer/cmapdb.py",
+      "url": "https://github.com/advisories/GHSA-m8gf-v64p-gfmg",
+      "date": "2026-07-10T19:32:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mlflow] MLflow: Environment variable injection in AI Gateway secrets enables server-side credential exfiltration",
+      "url": "https://github.com/advisories/GHSA-g35p-px32-whv6",
+      "date": "2026-07-10T19:31:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[credsweeper] CredSweeper: Recursive archive size-limit bypass in deep scanner allows crafted compressed inputs to exhaust resources",
+      "url": "https://github.com/advisories/GHSA-9mqm-qcwf-5qhg",
+      "date": "2026-07-10T19:25:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[mcp-atlassian] MCP Atlassian: DNS-rebinding TOCTOU bypass of the SSRF fix (CVE-2026-27826)",
       "url": "https://github.com/advisories/GHSA-489g-7rxv-6c8q",
@@ -96,48 +138,6 @@
       "title": "[pypdf] pypdf: Possible infinite loop when processing threads/articles in writer",
       "url": "https://github.com/advisories/GHSA-g9xf-7f8q-9mcj",
       "date": "2026-07-09T21:09:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow has an Authorization Bypass Through User-Controlled Key",
-      "url": "https://github.com/advisories/GHSA-qphr-3mvq-v466",
-      "date": "2026-07-09T21:03:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow has a Deserialization of Untrusted Data vulnerability",
-      "url": "https://github.com/advisories/GHSA-wr76-29cr-67w8",
-      "date": "2026-07-09T21:03:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
-      "url": "https://github.com/advisories/GHSA-cg3x-89rc-x9mw",
-      "date": "2026-07-09T21:02:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow Vulnerable to Deserialization of Untrusted Data",
-      "url": "https://github.com/advisories/GHSA-2r5m-76wx-56gx",
-      "date": "2026-07-09T21:00:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow has an Incorrect Authorization issue",
-      "url": "https://github.com/advisories/GHSA-x5wm-j6wh-2834",
-      "date": "2026-07-09T21:00:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow Vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
-      "url": "https://github.com/advisories/GHSA-33g2-gx67-c2h3",
-      "date": "2026-07-09T20:55:11.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
