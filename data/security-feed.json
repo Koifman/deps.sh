@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-07-10T00:11:55.283Z",
+  "fetchedAt": "2026-07-10T04:58:51.111Z",
   "entries": [
+    {
+      "title": "[mistune]  Mistune: Potential DoS via quadratic-time parsing in parse_link_text",
+      "url": "https://github.com/advisories/GHSA-qcq2-496w-v96p",
+      "date": "2026-07-09T23:52:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[psd-tools] psd-tools vulnerable to arbitrary file write via smart-object filename",
+      "url": "https://github.com/advisories/GHSA-2rmg-vrx8-9j2f",
+      "date": "2026-07-09T23:20:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[py_rattler] Rattler vulnerable to package cache path traversal via conda package build string",
+      "url": "https://github.com/advisories/GHSA-h672-p7h7-97v9",
+      "date": "2026-07-09T23:20:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[jupyter-server] Jupyter Server vulnerable to Path Traversal via incorrect root directory boundary check in _get_os_path()",
       "url": "https://github.com/advisories/GHSA-gf7q-q4j7-hp7c",
@@ -119,27 +140,6 @@
       "date": "2026-07-09T20:51:57.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow has an Improper Authorization issue",
-      "url": "https://github.com/advisories/GHSA-gprj-xvq8-w53q",
-      "date": "2026-07-09T20:50:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[axios] axios's shouldBypassProxy does not recognize IPv4-mapped IPv6 addresses, allowing NO_PROXY bypass (incomplete fix for CVE-2025-62718)",
-      "url": "https://github.com/advisories/GHSA-pjwm-pj3p-43mv",
-      "date": "2026-07-09T15:32:13.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@jsonbored/gittensory-mcp] Gittensory: Missing contributor-scoped access control on profile endpoint and MCP tool leaks miner financial data",
-      "url": "https://github.com/advisories/GHSA-382c-vx95-w3p5",
-      "date": "2026-07-09T13:44:52.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
