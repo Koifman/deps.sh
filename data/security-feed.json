@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-07-10T15:35:20.083Z",
+  "fetchedAt": "2026-07-10T17:52:18.498Z",
   "entries": [
+    {
+      "title": "[tarteaucitronjs] tarteaucitron: data-cookie attribute can be used to delete arbitrary cookies",
+      "url": "https://github.com/advisories/GHSA-jxj7-g6gm-49j7",
+      "date": "2026-07-10T16:05:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@libp2p/gossipsub] libp2p: CPU DoS via oversized IHAVE and IWANT control message arrays",
+      "url": "https://github.com/advisories/GHSA-cwc9-cp4j-mcvv",
+      "date": "2026-07-10T16:04:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[morgan] morgan vulnerable to Log Forging via unneutralized control characters in :remote-user",
+      "url": "https://github.com/advisories/GHSA-4vj7-5mj6-jm8m",
+      "date": "2026-07-10T14:32:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[mistune]  Mistune: Potential DoS via quadratic-time parsing in parse_link_text",
       "url": "https://github.com/advisories/GHSA-qcq2-496w-v96p",
@@ -119,27 +140,6 @@
       "date": "2026-07-09T20:53:10.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow vulnerable to Improper Neutralization of Special Elements Used in a Template Engine",
-      "url": "https://github.com/advisories/GHSA-c85c-g9wv-pph2",
-      "date": "2026-07-09T20:52:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[mlflow] MLflow: Any authenticated user can enumerate all gateway secrets, endpoints, and model definitions",
-      "url": "https://github.com/advisories/GHSA-r5m9-wm49-959f",
-      "date": "2026-07-09T20:52:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow Vulnerable to Authorization Bypass Through User-Controlled Key",
-      "url": "https://github.com/advisories/GHSA-mxq5-f9c5-w4p5",
-      "date": "2026-07-09T20:51:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
