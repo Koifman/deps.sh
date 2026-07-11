@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-07-10T23:07:12.034Z",
-  "count": 105,
+  "scannedAt": "2026-07-11T03:28:29.292Z",
+  "count": 106,
   "packages": [
     {
       "name": "xmldom",
@@ -73,15 +73,6 @@
       "level": "MODERATE",
       "previousOwner": "intelligibabble",
       "currentOwner": "ljharb"
-    },
-    {
-      "name": "appium",
-      "version": "3.5.2",
-      "ecosystem": "npm",
-      "score": 43,
-      "level": "MODERATE",
-      "previousOwner": "admc",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "terser",
@@ -244,6 +235,15 @@
       "level": "MODERATE",
       "previousOwner": "isaacs",
       "currentOwner": "geoffreybooth"
+    },
+    {
+      "name": "@stitches/react",
+      "version": "1.2.8",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "peduarte",
+      "currentOwner": "hadihallak"
     },
     {
       "name": "@appium/support",
@@ -606,8 +606,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "postcss-focus-visible",
-      "version": "11.0.0",
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -615,8 +615,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
+      "name": "postcss-focus-visible",
+      "version": "11.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -669,21 +669,21 @@
       "currentOwner": "notaphplover"
     },
     {
-      "name": "@appium/logger",
-      "version": "2.0.9",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@hey-api/codegen-core",
       "version": "0.9.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "mrlubos",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/logger",
+      "version": "2.0.9",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -696,21 +696,21 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.1.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "cropperjs",
       "version": "2.1.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "fengyuanchen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/tsconfig",
+      "version": "1.1.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -757,6 +757,15 @@
       "level": "MODERATE",
       "previousOwner": "nev21",
       "currentOwner": "nevware21bot"
+    },
+    {
+      "name": "@bugsnag/js",
+      "version": "8.10.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bengourley",
+      "currentOwner": "sb-jigneshr"
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
@@ -858,15 +867,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@fortawesome/react-fontawesome",
-      "version": "3.4.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "supercodepoet",
-      "currentOwner": "lordofbacon"
-    },
-    {
       "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.139.0",
       "ecosystem": "npm",
@@ -874,6 +874,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@fortawesome/react-fontawesome",
+      "version": "3.4.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "supercodepoet",
+      "currentOwner": "lordofbacon"
     },
     {
       "name": "@oxfmt/binding-linux-x64-musl",
@@ -930,7 +939,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-x64",
+      "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
@@ -939,7 +948,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
