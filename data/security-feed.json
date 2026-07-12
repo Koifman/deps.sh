@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-07-11T23:03:20.711Z",
+  "fetchedAt": "2026-07-12T03:38:02.242Z",
   "entries": [
+    {
+      "title": "[daphne] daphne: WebSocket handshake header smuggling through autobahn splitlines() mishandling of non-standard line separators",
+      "url": "https://github.com/advisories/GHSA-xh68-hfp5-5x5m",
+      "date": "2026-07-11T22:53:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[daphne] daphne: Unauthenticated attackers can cause excessive memory consumption by sending arbitrarily large WebSocket messages/frames",
+      "url": "https://github.com/advisories/GHSA-rrc9-mx66-ffcm",
+      "date": "2026-07-11T22:53:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[clauster] Clauster: Non-loopback deployments can serve the dashboard unauthenticated when auth.enabled is unset",
       "url": "https://github.com/advisories/GHSA-h4g2-xfmw-q2c9",
@@ -126,20 +140,6 @@
       "date": "2026-07-09T22:06:00.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow has no certificate validation on SMTP STARTTLS connections",
-      "url": "https://github.com/advisories/GHSA-799x-qp47-8qwq",
-      "date": "2026-07-09T21:11:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hermes-agent] hermes-agent has an Injection issue",
-      "url": "https://github.com/advisories/GHSA-mv8x-fg99-32mf",
-      "date": "2026-07-09T21:10:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }
