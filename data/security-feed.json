@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-07-12T06:40:56.648Z",
+  "fetchedAt": "2026-07-12T09:07:48.006Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0206: rustybuzz is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0206.html",
+      "date": "2026-07-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[daphne] daphne: WebSocket handshake header smuggling through autobahn splitlines() mishandling of non-standard line separators",
       "url": "https://github.com/advisories/GHSA-xh68-hfp5-5x5m",
@@ -131,13 +137,6 @@
       "title": "[py_rattler] Rattler vulnerable to package cache path traversal via conda package build string",
       "url": "https://github.com/advisories/GHSA-h672-p7h7-97v9",
       "date": "2026-07-09T23:20:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jupyter-server] Jupyter Server vulnerable to Path Traversal via incorrect root directory boundary check in _get_os_path()",
-      "url": "https://github.com/advisories/GHSA-gf7q-q4j7-hp7c",
-      "date": "2026-07-09T22:06:00.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
