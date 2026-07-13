@@ -1,6 +1,118 @@
 {
-  "fetchedAt": "2026-07-13T18:00:20.747Z",
+  "fetchedAt": "2026-07-13T20:19:03.212Z",
   "entries": [
+    {
+      "title": "[DIRAC] DIRAC: SQL injection and lack of access control in PilotManager service",
+      "url": "https://github.com/advisories/GHSA-7xw9-549r-8jrc",
+      "date": "2026-07-13T18:38:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[DIRAC] DIRAC: SQL injection and lack of access control in PilotManager service",
+      "url": "https://github.com/advisories/GHSA-7xw9-549r-8jrc",
+      "date": "2026-07-13T18:38:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[DIRAC] DIRAC: SQL injection and lack of access control in PilotManager service",
+      "url": "https://github.com/advisories/GHSA-7xw9-549r-8jrc",
+      "date": "2026-07-13T18:38:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[DIRAC] DIRAC: Pilot code downloaded over unverified HTTPS connection",
+      "url": "https://github.com/advisories/GHSA-vg99-gr89-qhw9",
+      "date": "2026-07-13T18:37:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[DIRAC] DIRAC: Pilot code downloaded over unverified HTTPS connection",
+      "url": "https://github.com/advisories/GHSA-vg99-gr89-qhw9",
+      "date": "2026-07-13T18:37:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[DIRAC] DIRAC: Pilot code downloaded over unverified HTTPS connection",
+      "url": "https://github.com/advisories/GHSA-vg99-gr89-qhw9",
+      "date": "2026-07-13T18:37:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[DIRAC] DIRAC is vulnerable to RCE in FileCatalog DatasetManager via SQL injection + eval",
+      "url": "https://github.com/advisories/GHSA-m4m7-4cw8-62j6",
+      "date": "2026-07-13T18:37:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[DIRAC] DIRAC is vulnerable to RCE in FileCatalog DatasetManager via SQL injection + eval",
+      "url": "https://github.com/advisories/GHSA-m4m7-4cw8-62j6",
+      "date": "2026-07-13T18:37:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[DIRAC] DIRAC is vulnerable to RCE in FileCatalog DatasetManager via SQL injection + eval",
+      "url": "https://github.com/advisories/GHSA-m4m7-4cw8-62j6",
+      "date": "2026-07-13T18:37:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[jupyter-server] jupyter-server is vulnerable to CORS origin validation bypass when the `allow_origin_pat` configuration is used",
+      "url": "https://github.com/advisories/GHSA-v42x-x7jp-845h",
+      "date": "2026-07-13T17:46:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[django] Django fails to prevent reuse of a partially-initialized connection after a failed `STARTTLS` handshake",
+      "url": "https://github.com/advisories/GHSA-mm6v-q8q9-pgcf",
+      "date": "2026-07-13T17:26:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[django] Django fails to prevent reuse of a partially-initialized connection after a failed `STARTTLS` handshake",
+      "url": "https://github.com/advisories/GHSA-mm6v-q8q9-pgcf",
+      "date": "2026-07-13T17:26:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[transformers] huggingface/transformers: Arbitrary Code Execution During Model Initialization in the LightGlue Model Loading Path",
+      "url": "https://github.com/advisories/GHSA-fgcw-684q-jj6r",
+      "date": "2026-07-13T17:25:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[DIRAC] DIRAC is vulnerable to RCE in RequestManager due to eval on untrusted input",
+      "url": "https://github.com/advisories/GHSA-9jpv-c7p4-997x",
+      "date": "2026-07-13T17:20:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[DIRAC] DIRAC is vulnerable to RCE in RequestManager due to eval on untrusted input",
+      "url": "https://github.com/advisories/GHSA-9jpv-c7p4-997x",
+      "date": "2026-07-13T17:20:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[DIRAC] DIRAC is vulnerable to RCE in RequestManager due to eval on untrusted input",
+      "url": "https://github.com/advisories/GHSA-9jpv-c7p4-997x",
+      "date": "2026-07-13T17:20:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[geonode] GeoNode: Stored XSS to full account takeover",
       "url": "https://github.com/advisories/GHSA-rwcv-whm8-fmxm",
@@ -25,118 +137,6 @@
       "title": "[daphne] daphne: Unauthenticated attackers can cause excessive memory consumption by sending arbitrarily large WebSocket messages/frames",
       "url": "https://github.com/advisories/GHSA-rrc9-mx66-ffcm",
       "date": "2026-07-11T22:53:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[clauster] Clauster: Non-loopback deployments can serve the dashboard unauthenticated when auth.enabled is unset",
-      "url": "https://github.com/advisories/GHSA-h4g2-xfmw-q2c9",
-      "date": "2026-07-10T20:37:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mcp-atlassian] mcp-atlassian: Arbitrary file read via missing path validation in confluence_upload_attachment",
-      "url": "https://github.com/advisories/GHSA-g5r6-gv6m-f5jv",
-      "date": "2026-07-10T19:34:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mcp-atlassian] mcp-atlassian: Arbitrary server-side file read via attachment upload",
-      "url": "https://github.com/advisories/GHSA-wm45-qh3g-v83f",
-      "date": "2026-07-10T19:34:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[safeinstall-cli] SafeInstall agent guard shell parsing can miss raw package execution",
-      "url": "https://github.com/advisories/GHSA-xrmc-c5cg-rv7x",
-      "date": "2026-07-10T19:34:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[BabelDOC] BabelDOC: Arbitrary Code Execution via CMap Pickle Deserialization in babeldoc/pdfminer/cmapdb.py",
-      "url": "https://github.com/advisories/GHSA-m8gf-v64p-gfmg",
-      "date": "2026-07-10T19:32:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mlflow] MLflow: Environment variable injection in AI Gateway secrets enables server-side credential exfiltration",
-      "url": "https://github.com/advisories/GHSA-g35p-px32-whv6",
-      "date": "2026-07-10T19:31:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[credsweeper] CredSweeper: Recursive archive size-limit bypass in deep scanner allows crafted compressed inputs to exhaust resources",
-      "url": "https://github.com/advisories/GHSA-9mqm-qcwf-5qhg",
-      "date": "2026-07-10T19:25:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp-atlassian] MCP Atlassian: DNS-rebinding TOCTOU bypass of the SSRF fix (CVE-2026-27826)",
-      "url": "https://github.com/advisories/GHSA-489g-7rxv-6c8q",
-      "date": "2026-07-10T18:01:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[code-index-mcp] Code Index MCP is vulnerable to Uncontrolled Resource Consumption",
-      "url": "https://github.com/advisories/GHSA-647r-72hf-4vmh",
-      "date": "2026-07-10T17:16:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@wonderwhy-er/desktop-commander] DesktopCommanderMCP is vulnerable to SSRF",
-      "url": "https://github.com/advisories/GHSA-5xx3-j724-wmx5",
-      "date": "2026-07-10T17:15:48.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@wonderwhy-er/desktop-commander] DesktopCommanderMCP is vulnerable to Uncontrolled Resource Consumption",
-      "url": "https://github.com/advisories/GHSA-r87g-78mx-3wg4",
-      "date": "2026-07-10T17:15:13.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[tarteaucitronjs] tarteaucitron: data-cookie attribute can be used to delete arbitrary cookies",
-      "url": "https://github.com/advisories/GHSA-jxj7-g6gm-49j7",
-      "date": "2026-07-10T16:05:02.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@libp2p/gossipsub] libp2p: CPU DoS via oversized IHAVE and IWANT control message arrays",
-      "url": "https://github.com/advisories/GHSA-cwc9-cp4j-mcvv",
-      "date": "2026-07-10T16:04:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[morgan] morgan vulnerable to Log Forging via unneutralized control characters in :remote-user",
-      "url": "https://github.com/advisories/GHSA-4vj7-5mj6-jm8m",
-      "date": "2026-07-10T14:32:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mistune]  Mistune: Potential DoS via quadratic-time parsing in parse_link_text",
-      "url": "https://github.com/advisories/GHSA-qcq2-496w-v96p",
-      "date": "2026-07-09T23:52:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[psd-tools] psd-tools vulnerable to arbitrary file write via smart-object filename",
-      "url": "https://github.com/advisories/GHSA-2rmg-vrx8-9j2f",
-      "date": "2026-07-09T23:20:48.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
