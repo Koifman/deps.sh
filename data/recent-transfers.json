@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-07-13T20:21:59.255Z",
-  "count": 106,
+  "scannedAt": "2026-07-13T22:04:16.692Z",
+  "count": 107,
   "packages": [
     {
       "name": "xmldom",
@@ -912,7 +912,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
+      "name": "oxc-minify",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
@@ -921,7 +921,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
+      "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
@@ -949,6 +949,15 @@
     },
     {
       "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.139.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-win32-x64-msvc",
       "version": "0.139.0",
       "ecosystem": "npm",
       "score": 20,
