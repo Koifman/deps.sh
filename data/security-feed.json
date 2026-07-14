@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-07-14T20:17:59.296Z",
+  "fetchedAt": "2026-07-14T22:04:24.853Z",
   "entries": [
+    {
+      "title": "[@keystone-6/core] Keystone: GraphQL API Endpoint Lacks Query Depth Limits",
+      "url": "https://github.com/advisories/GHSA-45jq-c8xm-jfw9",
+      "date": "2026-07-14T20:53:55.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[ms-swift] ms-swift: Image Cache Hash Collision via Missing Dimension Metadata",
+      "url": "https://github.com/advisories/GHSA-prfw-69r3-wqxf",
+      "date": "2026-07-14T20:47:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[netlicensing-mcp] NetLicensing-MCP: Unauthenticated Use of Server-Side NetLicensing API Key in HTTP Mode",
+      "url": "https://github.com/advisories/GHSA-x9vc-9ffq-p3gj",
+      "date": "2026-07-14T20:47:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n-mcp] n8n-MCP: Incorrect authorization can expose default-scope workflow version backups in multi-tenant HTTP mode",
+      "url": "https://github.com/advisories/GHSA-2cf7-hpwf-47h9",
+      "date": "2026-07-14T20:26:41.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[tidgi] TidGi Desktop Remote Code Execution via Malicious TiddlyWiki Repository Import — Tiddler Startup Module Auto-Execution",
       "url": "https://github.com/advisories/GHSA-9hc2-hjx8-q6pv",
@@ -112,34 +140,6 @@
       "date": "2026-07-14T18:49:47.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[@fedify/vocab-runtime] Fedify has an incomplete SSRF mitigation after GHSA-p9cg-vqcc-grcx: validatePublicUrl allows special-use IPv4 ranges",
-      "url": "https://github.com/advisories/GHSA-xw9q-2mv6-9fr8",
-      "date": "2026-07-14T18:15:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@fedify/vocab-runtime] Fedify has an incomplete SSRF mitigation after GHSA-p9cg-vqcc-grcx: validatePublicUrl allows special-use IPv4 ranges",
-      "url": "https://github.com/advisories/GHSA-xw9q-2mv6-9fr8",
-      "date": "2026-07-14T18:15:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@fedify/vocab-runtime] Fedify has an incomplete SSRF mitigation after GHSA-p9cg-vqcc-grcx: validatePublicUrl allows special-use IPv4 ranges",
-      "url": "https://github.com/advisories/GHSA-xw9q-2mv6-9fr8",
-      "date": "2026-07-14T18:15:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@fedify/fedify] Fedify has an incomplete SSRF mitigation after GHSA-p9cg-vqcc-grcx: validatePublicUrl allows special-use IPv4 ranges",
-      "url": "https://github.com/advisories/GHSA-xw9q-2mv6-9fr8",
-      "date": "2026-07-14T18:15:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
