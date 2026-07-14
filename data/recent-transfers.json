@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-07-14T16:23:10.793Z",
+  "scannedAt": "2026-07-14T18:12:03.803Z",
   "count": 108,
   "packages": [
     {
@@ -723,15 +723,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.1.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@lingui/message-utils",
       "version": "6.5.0",
       "ecosystem": "npm",
@@ -741,12 +732,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "redux-saga",
-      "version": "1.5.0",
+      "name": "@appium/tsconfig",
+      "version": "1.1.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "yelouafi",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -768,6 +759,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "redux-saga",
+      "version": "1.5.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "yelouafi",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@nevware21/ts-async",
       "version": "0.6.1",
       "ecosystem": "npm",
@@ -786,21 +786,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@speed-highlight/core",
-      "version": "1.2.17",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matubu",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-parser/binding-linux-x64-musl",
       "version": "0.140.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@speed-highlight/core",
+      "version": "1.2.17",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matubu",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -858,8 +858,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
-      "version": "0.140.0",
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.74.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -867,8 +867,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.74.0",
+      "name": "oxc-transform",
+      "version": "0.140.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -885,15 +885,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.59.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@fortawesome/react-fontawesome",
       "version": "3.4.0",
       "ecosystem": "npm",
@@ -901,6 +892,15 @@
       "level": "LOW",
       "previousOwner": "supercodepoet",
       "currentOwner": "lordofbacon"
+    },
+    {
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.59.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxc-transform/binding-linux-x64-musl",
