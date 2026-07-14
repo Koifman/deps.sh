@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-07-14T11:39:40.991Z",
+  "scannedAt": "2026-07-14T14:03:44.014Z",
   "count": 108,
   "packages": [
     {
@@ -147,15 +147,6 @@
       "currentOwner": "phated"
     },
     {
-      "name": "is-expression",
-      "version": "4.0.0",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "timothygu",
-      "currentOwner": "forbeslindesay"
-    },
-    {
       "name": "eslint-config-airbnb",
       "version": "19.0.4",
       "ecosystem": "npm",
@@ -163,6 +154,15 @@
       "level": "MODERATE",
       "previousOwner": "jitl",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "is-expression",
+      "version": "4.0.0",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "timothygu",
+      "currentOwner": "forbeslindesay"
     },
     {
       "name": "array-initial",
@@ -580,7 +580,7 @@
     },
     {
       "name": "@supabase/storage-js",
-      "version": "2.110.4",
+      "version": "2.110.5",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -598,7 +598,7 @@
     },
     {
       "name": "@supabase/supabase-js",
-      "version": "2.110.4",
+      "version": "2.110.5",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -607,7 +607,7 @@
     },
     {
       "name": "@supabase/realtime-js",
-      "version": "2.110.4",
+      "version": "2.110.5",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -732,21 +732,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "redux-saga",
-      "version": "1.5.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "yelouafi",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@lingui/message-utils",
       "version": "6.5.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "andrii.bodnar",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "redux-saga",
+      "version": "1.5.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "yelouafi",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -775,15 +775,6 @@
       "level": "MODERATE",
       "previousOwner": "nev21",
       "currentOwner": "nevware21bot"
-    },
-    {
-      "name": "@bugsnag/js",
-      "version": "8.10.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "bengourley",
-      "currentOwner": "sb-jigneshr"
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
@@ -967,6 +958,15 @@
     },
     {
       "name": "@oxc-parser/binding-win32-x64-msvc",
+      "version": "0.140.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.140.0",
       "ecosystem": "npm",
       "score": 20,
