@@ -1,144 +1,145 @@
 {
-  "fetchedAt": "2026-07-14T18:09:30.452Z",
+  "fetchedAt": "2026-07-14T20:17:59.296Z",
   "entries": [
     {
-      "title": "[app-store-server-library] Apple App Store Server Python Library: SignedDataVerifier accepts stale OCSP GOOD responses and can bypass certificate revocation checks",
-      "url": "https://github.com/advisories/GHSA-8f6j-263m-g72x",
-      "date": "2026-07-13T23:49:14.000Z",
+      "title": "[tidgi] TidGi Desktop Remote Code Execution via Malicious TiddlyWiki Repository Import — Tiddler Startup Module Auto-Execution",
+      "url": "https://github.com/advisories/GHSA-9hc2-hjx8-q6pv",
+      "date": "2026-07-14T19:52:43.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[ironic] OpenStack Ironic allows file overwrite via directory traversal during deployment with a crafted ISO image",
+      "url": "https://github.com/advisories/GHSA-9v62-qx4c-44x5",
+      "date": "2026-07-14T19:50:44.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[json-repair] json_repair: Circular JSON Schema `$ref` causes unbounded CPU DoS",
-      "url": "https://github.com/advisories/GHSA-xf7x-x43h-rpqh",
-      "date": "2026-07-13T23:41:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[DIRAC] DIRAC: SQL injection and lack of access control in PilotManager service",
-      "url": "https://github.com/advisories/GHSA-7xw9-549r-8jrc",
-      "date": "2026-07-13T18:38:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[DIRAC] DIRAC: SQL injection and lack of access control in PilotManager service",
-      "url": "https://github.com/advisories/GHSA-7xw9-549r-8jrc",
-      "date": "2026-07-13T18:38:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[DIRAC] DIRAC: SQL injection and lack of access control in PilotManager service",
-      "url": "https://github.com/advisories/GHSA-7xw9-549r-8jrc",
-      "date": "2026-07-13T18:38:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[DIRAC] DIRAC: Pilot code downloaded over unverified HTTPS connection",
-      "url": "https://github.com/advisories/GHSA-vg99-gr89-qhw9",
-      "date": "2026-07-13T18:37:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[DIRAC] DIRAC: Pilot code downloaded over unverified HTTPS connection",
-      "url": "https://github.com/advisories/GHSA-vg99-gr89-qhw9",
-      "date": "2026-07-13T18:37:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[DIRAC] DIRAC: Pilot code downloaded over unverified HTTPS connection",
-      "url": "https://github.com/advisories/GHSA-vg99-gr89-qhw9",
-      "date": "2026-07-13T18:37:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[DIRAC] DIRAC is vulnerable to RCE in FileCatalog DatasetManager via SQL injection + eval",
-      "url": "https://github.com/advisories/GHSA-m4m7-4cw8-62j6",
-      "date": "2026-07-13T18:37:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[DIRAC] DIRAC is vulnerable to RCE in FileCatalog DatasetManager via SQL injection + eval",
-      "url": "https://github.com/advisories/GHSA-m4m7-4cw8-62j6",
-      "date": "2026-07-13T18:37:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[DIRAC] DIRAC is vulnerable to RCE in FileCatalog DatasetManager via SQL injection + eval",
-      "url": "https://github.com/advisories/GHSA-m4m7-4cw8-62j6",
-      "date": "2026-07-13T18:37:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[jupyter-server] jupyter-server is vulnerable to CORS origin validation bypass when the `allow_origin_pat` configuration is used",
-      "url": "https://github.com/advisories/GHSA-v42x-x7jp-845h",
-      "date": "2026-07-13T17:46:19.000Z",
+      "title": "[ironic] OpenStack Ironic allows file overwrite via directory traversal during deployment with a crafted ISO image",
+      "url": "https://github.com/advisories/GHSA-9v62-qx4c-44x5",
+      "date": "2026-07-14T19:50:44.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[django] Django fails to prevent reuse of a partially-initialized connection after a failed `STARTTLS` handshake",
-      "url": "https://github.com/advisories/GHSA-mm6v-q8q9-pgcf",
-      "date": "2026-07-13T17:26:40.000Z",
+      "title": "[ironic] OpenStack Ironic allows file overwrite via directory traversal during deployment with a crafted ISO image",
+      "url": "https://github.com/advisories/GHSA-9v62-qx4c-44x5",
+      "date": "2026-07-14T19:50:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ironic] OpenStack Ironic allows file overwrite via directory traversal during deployment with a crafted ISO image",
+      "url": "https://github.com/advisories/GHSA-9v62-qx4c-44x5",
+      "date": "2026-07-14T19:50:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mistral] OpenStack Mistral allows Arbitrary Remote Code Execution when the API is exposed",
+      "url": "https://github.com/advisories/GHSA-9hfw-w3f4-c4p8",
+      "date": "2026-07-14T19:45:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[mistral] OpenStack Mistral allows Arbitrary Remote Code Execution when the API is exposed",
+      "url": "https://github.com/advisories/GHSA-9hfw-w3f4-c4p8",
+      "date": "2026-07-14T19:45:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[mistral] OpenStack Mistral allows Arbitrary Remote Code Execution when the API is exposed",
+      "url": "https://github.com/advisories/GHSA-9hfw-w3f4-c4p8",
+      "date": "2026-07-14T19:45:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@feathersjs/commons] Prototype pollution in @feathersjs/commons _.merge via JSON-parsed __proto__",
+      "url": "https://github.com/advisories/GHSA-28xv-ph75-77wh",
+      "date": "2026-07-14T19:40:06.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[gradio] Gradio: Audio cache key ignores metadata when saving numpy audio outputs",
+      "url": "https://github.com/advisories/GHSA-6655-8ph2-63j3",
+      "date": "2026-07-14T19:38:41.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
     },
     {
-      "title": "[django] Django fails to prevent reuse of a partially-initialized connection after a failed `STARTTLS` handshake",
-      "url": "https://github.com/advisories/GHSA-mm6v-q8q9-pgcf",
-      "date": "2026-07-13T17:26:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[transformers] huggingface/transformers: Arbitrary Code Execution During Model Initialization in the LightGlue Model Loading Path",
-      "url": "https://github.com/advisories/GHSA-fgcw-684q-jj6r",
-      "date": "2026-07-13T17:25:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[DIRAC] DIRAC is vulnerable to RCE in RequestManager due to eval on untrusted input",
-      "url": "https://github.com/advisories/GHSA-9jpv-c7p4-997x",
-      "date": "2026-07-13T17:20:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[DIRAC] DIRAC is vulnerable to RCE in RequestManager due to eval on untrusted input",
-      "url": "https://github.com/advisories/GHSA-9jpv-c7p4-997x",
-      "date": "2026-07-13T17:20:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[DIRAC] DIRAC is vulnerable to RCE in RequestManager due to eval on untrusted input",
-      "url": "https://github.com/advisories/GHSA-9jpv-c7p4-997x",
-      "date": "2026-07-13T17:20:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[geonode] GeoNode: Stored XSS to full account takeover",
-      "url": "https://github.com/advisories/GHSA-rwcv-whm8-fmxm",
-      "date": "2026-07-13T16:44:54.000Z",
+      "title": "[ironic] OpenStack Ironic allows Boot Script Injection",
+      "url": "https://github.com/advisories/GHSA-jrh2-f5jc-xpgr",
+      "date": "2026-07-14T19:35:22.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0206: rustybuzz is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0206.html",
-      "date": "2026-07-12T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[ironic] OpenStack Ironic allows Boot Script Injection",
+      "url": "https://github.com/advisories/GHSA-jrh2-f5jc-xpgr",
+      "date": "2026-07-14T19:35:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ironic] OpenStack Ironic allows Boot Script Injection",
+      "url": "https://github.com/advisories/GHSA-jrh2-f5jc-xpgr",
+      "date": "2026-07-14T19:35:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ironic] OpenStack Ironic allows Boot Script Injection",
+      "url": "https://github.com/advisories/GHSA-jrh2-f5jc-xpgr",
+      "date": "2026-07-14T19:35:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n-mcp] n8n-MCP: Cross-tenant access to workflow version backups in multi-tenant HTTP deployments",
+      "url": "https://github.com/advisories/GHSA-j6r7-6fhx-77wx",
+      "date": "2026-07-14T19:07:15.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[mlrun] mlrun: DataFrame hash collisions can cause dataset artifact path conflicts and silent data corruption",
+      "url": "https://github.com/advisories/GHSA-phx2-3w66-h4pw",
+      "date": "2026-07-14T18:49:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@fedify/vocab-runtime] Fedify has an incomplete SSRF mitigation after GHSA-p9cg-vqcc-grcx: validatePublicUrl allows special-use IPv4 ranges",
+      "url": "https://github.com/advisories/GHSA-xw9q-2mv6-9fr8",
+      "date": "2026-07-14T18:15:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@fedify/vocab-runtime] Fedify has an incomplete SSRF mitigation after GHSA-p9cg-vqcc-grcx: validatePublicUrl allows special-use IPv4 ranges",
+      "url": "https://github.com/advisories/GHSA-xw9q-2mv6-9fr8",
+      "date": "2026-07-14T18:15:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@fedify/vocab-runtime] Fedify has an incomplete SSRF mitigation after GHSA-p9cg-vqcc-grcx: validatePublicUrl allows special-use IPv4 ranges",
+      "url": "https://github.com/advisories/GHSA-xw9q-2mv6-9fr8",
+      "date": "2026-07-14T18:15:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@fedify/fedify] Fedify has an incomplete SSRF mitigation after GHSA-p9cg-vqcc-grcx: validatePublicUrl allows special-use IPv4 ranges",
+      "url": "https://github.com/advisories/GHSA-xw9q-2mv6-9fr8",
+      "date": "2026-07-14T18:15:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
