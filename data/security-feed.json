@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-07-13T23:57:57.254Z",
+  "fetchedAt": "2026-07-14T03:22:18.829Z",
   "entries": [
+    {
+      "title": "[app-store-server-library] Apple App Store Server Python Library: SignedDataVerifier accepts stale OCSP GOOD responses and can bypass certificate revocation checks",
+      "url": "https://github.com/advisories/GHSA-8f6j-263m-g72x",
+      "date": "2026-07-13T23:49:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[json-repair] json_repair: Circular JSON Schema `$ref` causes unbounded CPU DoS",
+      "url": "https://github.com/advisories/GHSA-xf7x-x43h-rpqh",
+      "date": "2026-07-13T23:41:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[DIRAC] DIRAC: SQL injection and lack of access control in PilotManager service",
       "url": "https://github.com/advisories/GHSA-7xw9-549r-8jrc",
@@ -125,20 +139,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0206.html",
       "date": "2026-07-12T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[daphne] daphne: WebSocket handshake header smuggling through autobahn splitlines() mishandling of non-standard line separators",
-      "url": "https://github.com/advisories/GHSA-xh68-hfp5-5x5m",
-      "date": "2026-07-11T22:53:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[daphne] daphne: Unauthenticated attackers can cause excessive memory consumption by sending arbitrarily large WebSocket messages/frames",
-      "url": "https://github.com/advisories/GHSA-rrc9-mx66-ffcm",
-      "date": "2026-07-11T22:53:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
