@@ -1,6 +1,97 @@
 {
-  "fetchedAt": "2026-07-15T21:07:33.073Z",
+  "fetchedAt": "2026-07-15T23:03:08.580Z",
   "entries": [
+    {
+      "title": "[django-haystack] django-haystack: Remote Code Execution via `eval()` in Elasticsearch Result Deserialization",
+      "url": "https://github.com/advisories/GHSA-r3hx-x5rh-p9vv",
+      "date": "2026-07-15T22:42:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[neutron] OpenStack Neutron: Neutron port RBAC policy bypass allows project managers to set trusted device owners on shared networks",
+      "url": "https://github.com/advisories/GHSA-qmc5-gv6v-8p22",
+      "date": "2026-07-15T22:40:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[oslo.messaging] OpenStack oslo.messaging does not verify RabbitMQ broker hostname during TLS handshake",
+      "url": "https://github.com/advisories/GHSA-76qh-xr7q-h39m",
+      "date": "2026-07-15T22:30:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[lmcache] LMCache: 16-bit multimodal hash collision can poison KV cache entries",
+      "url": "https://github.com/advisories/GHSA-3hh9-752g-5g22",
+      "date": "2026-07-15T22:10:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[websocket-driver] websocket-driver: Resource limit bypass via message compression",
+      "url": "https://github.com/advisories/GHSA-mp7j-qc5w-4988",
+      "date": "2026-07-15T22:08:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[websocket-driver] websocket-driver: Message corruption via abuse of protocol length headers",
+      "url": "https://github.com/advisories/GHSA-xv26-6w52-cph6",
+      "date": "2026-07-15T22:07:25.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[cyberdrop-dl-patched] Pixeldrain API key shared with unverified thirdparty sites",
+      "url": "https://github.com/advisories/GHSA-f5pf-q7c7-m3vv",
+      "date": "2026-07-15T22:00:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[tensorzero] TensorZero Gateway: Arbitrary file read and SSRF in internal object storage endpoint",
+      "url": "https://github.com/advisories/GHSA-824w-x939-6cmc",
+      "date": "2026-07-15T21:59:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fiftyone] FiftyOne App server uses wildcard CORS (Access-Control-Allow-Origin: *), enabling cross-origin reads of local server data",
+      "url": "https://github.com/advisories/GHSA-q78p-hj9h-5466",
+      "date": "2026-07-15T21:57:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[obsidian-local-rest-api] obsidian-local-rest-api: Authenticated path traversal via URL-encoded %2F in /vault/{path} — arbitrary host file read/write/delete",
+      "url": "https://github.com/advisories/GHSA-62gx-5q78-wrvx",
+      "date": "2026-07-15T21:56:46.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nodemailer] Nodemailer’s addressparser is vulnerable to DoS caused by recursive calls",
+      "url": "https://github.com/advisories/GHSA-rcmh-qjqh-p98v",
+      "date": "2026-07-15T21:55:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[streamlit] Streamlit @st.cache_data hash collision via fixed sampling seed and PIL P-mode palette omission",
+      "url": "https://github.com/advisories/GHSA-vqwp-45wm-r9r5",
+      "date": "2026-07-15T21:49:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability through `mce:protected` comments",
+      "url": "https://github.com/advisories/GHSA-v98h-vmpc-fpqv",
+      "date": "2026-07-15T21:07:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[gptcache] GPTCache: File and image cache keys collide because BufferedReader.peek() only reads the buffered prefix",
       "url": "https://github.com/advisories/GHSA-xfqj-4cr9-9gr5",
@@ -49,97 +140,6 @@
       "date": "2026-07-14T20:47:51.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[netlicensing-mcp] NetLicensing-MCP: Unauthenticated Use of Server-Side NetLicensing API Key in HTTP Mode",
-      "url": "https://github.com/advisories/GHSA-x9vc-9ffq-p3gj",
-      "date": "2026-07-14T20:47:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n-mcp] n8n-MCP: Incorrect authorization can expose default-scope workflow version backups in multi-tenant HTTP mode",
-      "url": "https://github.com/advisories/GHSA-2cf7-hpwf-47h9",
-      "date": "2026-07-14T20:26:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[tidgi] TidGi Desktop Remote Code Execution via Malicious TiddlyWiki Repository Import — Tiddler Startup Module Auto-Execution",
-      "url": "https://github.com/advisories/GHSA-9hc2-hjx8-q6pv",
-      "date": "2026-07-14T19:52:43.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic allows file overwrite via directory traversal during deployment with a crafted ISO image",
-      "url": "https://github.com/advisories/GHSA-9v62-qx4c-44x5",
-      "date": "2026-07-14T19:50:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic allows file overwrite via directory traversal during deployment with a crafted ISO image",
-      "url": "https://github.com/advisories/GHSA-9v62-qx4c-44x5",
-      "date": "2026-07-14T19:50:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic allows file overwrite via directory traversal during deployment with a crafted ISO image",
-      "url": "https://github.com/advisories/GHSA-9v62-qx4c-44x5",
-      "date": "2026-07-14T19:50:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic allows file overwrite via directory traversal during deployment with a crafted ISO image",
-      "url": "https://github.com/advisories/GHSA-9v62-qx4c-44x5",
-      "date": "2026-07-14T19:50:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mistral] OpenStack Mistral allows Arbitrary Remote Code Execution when the API is exposed",
-      "url": "https://github.com/advisories/GHSA-9hfw-w3f4-c4p8",
-      "date": "2026-07-14T19:45:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[mistral] OpenStack Mistral allows Arbitrary Remote Code Execution when the API is exposed",
-      "url": "https://github.com/advisories/GHSA-9hfw-w3f4-c4p8",
-      "date": "2026-07-14T19:45:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[mistral] OpenStack Mistral allows Arbitrary Remote Code Execution when the API is exposed",
-      "url": "https://github.com/advisories/GHSA-9hfw-w3f4-c4p8",
-      "date": "2026-07-14T19:45:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@feathersjs/commons] Prototype pollution in @feathersjs/commons _.merge via JSON-parsed __proto__",
-      "url": "https://github.com/advisories/GHSA-28xv-ph75-77wh",
-      "date": "2026-07-14T19:40:06.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[gradio] Gradio: Audio cache key ignores metadata when saving numpy audio outputs",
-      "url": "https://github.com/advisories/GHSA-6655-8ph2-63j3",
-      "date": "2026-07-14T19:38:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic allows Boot Script Injection",
-      "url": "https://github.com/advisories/GHSA-jrh2-f5jc-xpgr",
-      "date": "2026-07-14T19:35:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
