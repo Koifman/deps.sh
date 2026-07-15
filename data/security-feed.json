@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-07-15T17:24:00.561Z",
+  "fetchedAt": "2026-07-15T19:22:09.545Z",
   "entries": [
+    {
+      "title": "[@modelcontextprotocol/sdk] Anthropic's MCP TypeScript SDK has a ReDoS vulnerability",
+      "url": "https://github.com/advisories/GHSA-8r9q-7v3j-jr4g",
+      "date": "2026-07-15T18:32:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mlflow] MLflow: Deterministic sampling in dataset digest enables predictable collisions",
+      "url": "https://github.com/advisories/GHSA-5qmp-p3c4-72qj",
+      "date": "2026-07-15T17:51:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[langbot] LangBot: Authenticated RCE Via MCP Configuration",
+      "url": "https://github.com/advisories/GHSA-3pvh-63gf-j9mw",
+      "date": "2026-07-15T17:39:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[garminconnect] garminconnect Has Insecure Permission Assignment for Garmin OAuth Token Store",
+      "url": "https://github.com/advisories/GHSA-wjhr-76vg-2hvc",
+      "date": "2026-07-15T17:33:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[@keystone-6/core] Keystone: GraphQL API Endpoint Lacks Query Depth Limits",
       "url": "https://github.com/advisories/GHSA-45jq-c8xm-jfw9",
@@ -112,34 +140,6 @@
       "date": "2026-07-14T19:35:22.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic allows Boot Script Injection",
-      "url": "https://github.com/advisories/GHSA-jrh2-f5jc-xpgr",
-      "date": "2026-07-14T19:35:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic allows Boot Script Injection",
-      "url": "https://github.com/advisories/GHSA-jrh2-f5jc-xpgr",
-      "date": "2026-07-14T19:35:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n-mcp] n8n-MCP: Cross-tenant access to workflow version backups in multi-tenant HTTP deployments",
-      "url": "https://github.com/advisories/GHSA-j6r7-6fhx-77wx",
-      "date": "2026-07-14T19:07:15.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[mlrun] mlrun: DataFrame hash collisions can cause dataset artifact path conflicts and silent data corruption",
-      "url": "https://github.com/advisories/GHSA-phx2-3w66-h4pw",
-      "date": "2026-07-14T18:49:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }
