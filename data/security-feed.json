@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-15T19:22:09.545Z",
+  "fetchedAt": "2026-07-15T21:07:33.073Z",
   "entries": [
+    {
+      "title": "[gptcache] GPTCache: File and image cache keys collide because BufferedReader.peek() only reads the buffered prefix",
+      "url": "https://github.com/advisories/GHSA-xfqj-4cr9-9gr5",
+      "date": "2026-07-15T18:55:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[@modelcontextprotocol/sdk] Anthropic's MCP TypeScript SDK has a ReDoS vulnerability",
       "url": "https://github.com/advisories/GHSA-8r9q-7v3j-jr4g",
@@ -126,13 +133,6 @@
       "date": "2026-07-14T19:38:41.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic allows Boot Script Injection",
-      "url": "https://github.com/advisories/GHSA-jrh2-f5jc-xpgr",
-      "date": "2026-07-14T19:35:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     },
     {
       "title": "[ironic] OpenStack Ironic allows Boot Script Injection",
