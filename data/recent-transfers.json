@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-07-16T18:14:28.009Z",
-  "count": 105,
+  "scannedAt": "2026-07-16T20:08:49.295Z",
+  "count": 106,
   "packages": [
     {
       "name": "xmldom",
@@ -220,6 +220,15 @@
     },
     {
       "name": "@stitches/core",
+      "version": "1.2.8",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "peduarte",
+      "currentOwner": "hadihallak"
+    },
+    {
+      "name": "@stitches/react",
       "version": "1.2.8",
       "ecosystem": "npm",
       "score": 35,
@@ -489,21 +498,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript-eslint/parser",
-      "version": "8.64.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jameshenry",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "espree",
       "version": "11.2.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "nzakas",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "version": "8.64.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jameshenry",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -786,15 +795,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-gnu",
-      "version": "1.74.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@typescript/native-preview-linux-x64",
       "version": "7.0.0-dev.20260707.2",
       "ecosystem": "npm",
@@ -802,6 +802,15 @@
       "level": "LOW",
       "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@oxlint/binding-linux-x64-gnu",
+      "version": "1.74.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxfmt/binding-linux-x64-gnu",
