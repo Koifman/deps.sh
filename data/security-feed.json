@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-07-15T23:03:08.580Z",
+  "fetchedAt": "2026-07-16T03:21:17.459Z",
   "entries": [
+    {
+      "title": "[infinistore] bytedance InfiniStore: Denial of Service via Non-Cryptographic Hashing in InfiniStore KV Map",
+      "url": "https://github.com/advisories/GHSA-2vrg-7rqv-prf9",
+      "date": "2026-07-15T23:37:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[ironic] OpenStack Ironic: Crafted JSON String to Certain Endpoints on the API or JSON-RPC Service May Result in Service Crash",
+      "url": "https://github.com/advisories/GHSA-q3g8-rjrx-59ph",
+      "date": "2026-07-15T23:30:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@andrea9293/mcp-documentation-server] @andrea9293/mcp-documentation-server: Web UI API binds to all interfaces without authentication by default",
+      "url": "https://github.com/advisories/GHSA-6f5r-5672-72j7",
+      "date": "2026-07-15T23:26:58.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[systeminformation] systeminformation: OS command injection in networkInterfaces() via interfaces(5) source-directive path on Linux",
+      "url": "https://github.com/advisories/GHSA-5xpp-75jx-m839",
+      "date": "2026-07-15T23:09:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dd-trace] dd-trace-js: Improper parsing of W3C baggage headers may lead to DoS",
+      "url": "https://github.com/advisories/GHSA-wxqq-gcq8-c443",
+      "date": "2026-07-15T22:58:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ddtrace] dd-trace-py: Improper parsing of W3C baggage headers may lead to DoS",
+      "url": "https://github.com/advisories/GHSA-mw54-j2v2-42hr",
+      "date": "2026-07-15T22:55:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[django-haystack] django-haystack: Remote Code Execution via `eval()` in Elasticsearch Result Deserialization",
       "url": "https://github.com/advisories/GHSA-r3hx-x5rh-p9vv",
@@ -96,48 +138,6 @@
       "title": "[gptcache] GPTCache: File and image cache keys collide because BufferedReader.peek() only reads the buffered prefix",
       "url": "https://github.com/advisories/GHSA-xfqj-4cr9-9gr5",
       "date": "2026-07-15T18:55:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@modelcontextprotocol/sdk] Anthropic's MCP TypeScript SDK has a ReDoS vulnerability",
-      "url": "https://github.com/advisories/GHSA-8r9q-7v3j-jr4g",
-      "date": "2026-07-15T18:32:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mlflow] MLflow: Deterministic sampling in dataset digest enables predictable collisions",
-      "url": "https://github.com/advisories/GHSA-5qmp-p3c4-72qj",
-      "date": "2026-07-15T17:51:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[langbot] LangBot: Authenticated RCE Via MCP Configuration",
-      "url": "https://github.com/advisories/GHSA-3pvh-63gf-j9mw",
-      "date": "2026-07-15T17:39:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[garminconnect] garminconnect Has Insecure Permission Assignment for Garmin OAuth Token Store",
-      "url": "https://github.com/advisories/GHSA-wjhr-76vg-2hvc",
-      "date": "2026-07-15T17:33:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@keystone-6/core] Keystone: GraphQL API Endpoint Lacks Query Depth Limits",
-      "url": "https://github.com/advisories/GHSA-45jq-c8xm-jfw9",
-      "date": "2026-07-14T20:53:55.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[ms-swift] ms-swift: Image Cache Hash Collision via Missing Dimension Metadata",
-      "url": "https://github.com/advisories/GHSA-prfw-69r3-wqxf",
-      "date": "2026-07-14T20:47:51.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
     }
