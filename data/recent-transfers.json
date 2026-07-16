@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-07-16T09:22:57.188Z",
-  "count": 105,
+  "scannedAt": "2026-07-16T11:48:19.079Z",
+  "count": 104,
   "packages": [
     {
       "name": "xmldom",
@@ -45,15 +45,6 @@
       "score": 50,
       "level": "HIGH",
       "previousOwner": "ericf",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "tinymce",
-      "version": "8.8.0",
-      "ecosystem": "npm",
-      "score": 50,
-      "level": "HIGH",
-      "previousOwner": "spocke",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -453,6 +444,15 @@
       "currentOwner": "balearica"
     },
     {
+      "name": "@assistant-ui/react",
+      "version": "0.14.26",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "yonom",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@redux-saga/core",
       "version": "1.5.0",
       "ecosystem": "npm",
@@ -468,15 +468,6 @@
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@assistant-ui/react",
-      "version": "0.14.26",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "yonom",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -732,6 +723,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@vimeo/player",
+      "version": "2.30.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bdougherty",
+      "currentOwner": "vimeo-npmbot"
+    },
+    {
       "name": "@nevware21/ts-async",
       "version": "0.6.1",
       "ecosystem": "npm",
@@ -739,15 +739,6 @@
       "level": "MODERATE",
       "previousOwner": "nev21",
       "currentOwner": "nevware21bot"
-    },
-    {
-      "name": "@lottiefiles/dotlottie-react",
-      "version": "0.19.9",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
@@ -786,15 +777,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/native-preview-linux-x64",
-      "version": "7.0.0-dev.20260707.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@oxlint/binding-linux-x64-gnu",
       "version": "1.74.0",
       "ecosystem": "npm",
@@ -802,6 +784,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/native-preview-linux-x64",
+      "version": "7.0.0-dev.20260707.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@oxfmt/binding-linux-x64-gnu",
@@ -831,8 +822,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.74.0",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "version": "0.140.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -840,8 +831,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
-      "version": "0.140.0",
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.74.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -865,6 +856,15 @@
       "level": "LOW",
       "previousOwner": "supercodepoet",
       "currentOwner": "lordofbacon"
+    },
+    {
+      "name": "@typescript/typescript-linux-x64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@oxfmt/binding-linux-x64-musl",
@@ -937,15 +937,6 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@typescript/typescript-linux-x64",
-      "version": "7.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
     }
   ]
 }
