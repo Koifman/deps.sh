@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-07-16T03:23:41.722Z",
+  "scannedAt": "2026-07-16T06:27:41.401Z",
   "count": 105,
   "packages": [
     {
@@ -229,15 +229,6 @@
     },
     {
       "name": "@stitches/core",
-      "version": "1.2.8",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "peduarte",
-      "currentOwner": "hadihallak"
-    },
-    {
-      "name": "@stitches/react",
       "version": "1.2.8",
       "ecosystem": "npm",
       "score": 35,
@@ -525,15 +516,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "typescript-eslint",
-      "version": "8.64.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jameshenry",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "string.prototype.trimend",
       "version": "1.0.10",
       "ecosystem": "npm",
@@ -541,6 +523,15 @@
       "level": "MODERATE",
       "previousOwner": "khaledelansari",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "typescript-eslint",
+      "version": "8.64.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jameshenry",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "style-to-js",
@@ -615,15 +606,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "openid-client",
-      "version": "6.8.4",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "panva",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@azure/core-lro",
       "version": "3.4.0",
       "ecosystem": "npm",
@@ -631,6 +613,15 @@
       "level": "MODERATE",
       "previousOwner": "azure-sdk",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "openid-client",
+      "version": "6.8.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "panva",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "oxfmt",
@@ -741,15 +732,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lottiefiles/dotlottie-react",
-      "version": "0.19.9",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@nevware21/ts-async",
       "version": "0.6.1",
       "ecosystem": "npm",
@@ -757,6 +739,15 @@
       "level": "MODERATE",
       "previousOwner": "nev21",
       "currentOwner": "nevware21bot"
+    },
+    {
+      "name": "@lottiefiles/dotlottie-react",
+      "version": "0.19.9",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
@@ -921,7 +912,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-arm64",
+      "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.140.0",
       "ecosystem": "npm",
       "score": 20,
@@ -930,7 +921,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-x64",
+      "name": "@oxc-parser/binding-darwin-arm64",
       "version": "0.140.0",
       "ecosystem": "npm",
       "score": 20,
@@ -946,6 +937,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/typescript-linux-x64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     }
   ]
 }
