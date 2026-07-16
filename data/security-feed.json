@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-07-16T20:06:04.773Z",
+  "fetchedAt": "2026-07-16T22:08:36.135Z",
   "entries": [
+    {
+      "title": "[nltk] Natural Language Toolkit (NLTK): URL-Encoded Path Traversal in nltk.data.load() Allows Arbitrary Local File Read",
+      "url": "https://github.com/advisories/GHSA-p4gq-832x-fm9v",
+      "date": "2026-07-16T21:28:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mcp] MCP Python SDK: WebSocket server transport does not support Host/Origin validation",
+      "url": "https://github.com/advisories/GHSA-vj7q-gjh5-988w",
+      "date": "2026-07-16T20:14:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mcp] MCP Python SDK: HTTP transports serve session requests without verifying the authenticated principal",
+      "url": "https://github.com/advisories/GHSA-jpw9-pfvf-9f58",
+      "date": "2026-07-16T19:58:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mcp] MCP Python SDK: Experimental task handlers allow any client to access and cancel other clients' tasks",
+      "url": "https://github.com/advisories/GHSA-hvrp-rf83-w775",
+      "date": "2026-07-16T19:56:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[ansible-core] ansible-core: Argument injection in ansible-galaxy role install leads to arbitrary code execution",
       "url": "https://github.com/advisories/GHSA-w8p5-mx5w-cpqj",
@@ -111,34 +139,6 @@
       "url": "https://github.com/advisories/GHSA-mp7j-qc5w-4988",
       "date": "2026-07-15T22:08:18.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[websocket-driver] websocket-driver: Message corruption via abuse of protocol length headers",
-      "url": "https://github.com/advisories/GHSA-xv26-6w52-cph6",
-      "date": "2026-07-15T22:07:25.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[cyberdrop-dl-patched] Pixeldrain API key shared with unverified thirdparty sites",
-      "url": "https://github.com/advisories/GHSA-f5pf-q7c7-m3vv",
-      "date": "2026-07-15T22:00:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[tensorzero] TensorZero Gateway: Arbitrary file read and SSRF in internal object storage endpoint",
-      "url": "https://github.com/advisories/GHSA-824w-x939-6cmc",
-      "date": "2026-07-15T21:59:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fiftyone] FiftyOne App server uses wildcard CORS (Access-Control-Allow-Origin: *), enabling cross-origin reads of local server data",
-      "url": "https://github.com/advisories/GHSA-q78p-hj9h-5466",
-      "date": "2026-07-15T21:57:29.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
