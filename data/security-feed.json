@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-07-17T20:10:44.535Z",
+  "fetchedAt": "2026-07-17T21:59:03.031Z",
   "entries": [
+    {
+      "title": "[@tak-ps/cloudtak] CloudTAK: Authenticated full-read SSRF in the /api/esri* routes — user-controlled URL fetched with no IP-classification guard",
+      "url": "https://github.com/advisories/GHSA-r95q-fp26-h3hc",
+      "date": "2026-07-17T21:35:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pocketsphinx] PocketSphinx: Buffer overflows in language and acoustic model loading code",
+      "url": "https://github.com/advisories/GHSA-56r5-2p2f-7cxp",
+      "date": "2026-07-17T21:19:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[proot-distro] PRoot-Distro has Path Traversal in proot-distro copy — Arbitrary Read, Write, and Persistent Code Execution Outside Container Rootfs",
+      "url": "https://github.com/advisories/GHSA-mfr4-mq8w-vmg6",
+      "date": "2026-07-17T20:25:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[exifreader] ExifReader HEIC/AVIF ISO-BMFF parser throws uncaught RangeError on truncated boxes",
+      "url": "https://github.com/advisories/GHSA-g77h-45rf-hcx4",
+      "date": "2026-07-17T20:19:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[Flask-Reuploaded] Flask-Reuploaded: Extension-denylist bypass via case-folding asymmetry in name-override path (incomplete-fix variant of CVE-2026-27641)",
+      "url": "https://github.com/advisories/GHSA-937x-gpqr-72gg",
+      "date": "2026-07-17T20:11:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[@prompty/core] Prompty: Arbitrary code execution via JavaScript frontmatter in TypeScript loader",
       "url": "https://github.com/advisories/GHSA-c4gh-rv8h-q9vw",
@@ -9,17 +44,17 @@
       "severity": "HIGH"
     },
     {
-      "title": "[@prompty/core] Prompty: Arbitrary file read via file reference expansion",
-      "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
-      "date": "2026-07-17T19:46:06.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
       "title": "[prompty] Prompty: Arbitrary file read via file reference expansion",
       "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
       "date": "2026-07-17T19:46:06.000Z",
       "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@prompty/core] Prompty: Arbitrary file read via file reference expansion",
+      "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
+      "date": "2026-07-17T19:46:06.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
@@ -105,41 +140,6 @@
       "date": "2026-07-17T18:22:41.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[vllm] vLLM: Speech-to-text upload size limit is enforced after full UploadFile read",
-      "url": "https://github.com/advisories/GHSA-v82g-2437-67m2",
-      "date": "2026-07-17T17:16:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vllm] vLLM: ReDoS via structured_outputs.regex compiled without timeout in xgrammar and outlines backends",
-      "url": "https://github.com/advisories/GHSA-rwxx-mrjm-wc2m",
-      "date": "2026-07-17T17:10:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vllm] vLLM has Remote DoS via Invalid Recovered Token Reinjection",
-      "url": "https://github.com/advisories/GHSA-8wr5-jm2h-8r4f",
-      "date": "2026-07-17T17:08:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[torch] PyTorch is vulnerable to memory corruption through its torch.jit.script function",
-      "url": "https://github.com/advisories/GHSA-rrmf-rvhw-rf47",
-      "date": "2026-07-17T17:05:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[sanic-cors] sanic-cors contains an improper regular expression in the try_match() function",
-      "url": "https://github.com/advisories/GHSA-94jw-hqvj-vw74",
-      "date": "2026-07-17T17:05:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
