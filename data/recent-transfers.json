@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-07-17T00:06:29.985Z",
+  "scannedAt": "2026-07-17T04:15:57.575Z",
   "count": 106,
   "packages": [
     {
@@ -45,6 +45,15 @@
       "score": 50,
       "level": "HIGH",
       "previousOwner": "ericf",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tinymce",
+      "version": "8.8.0",
+      "ecosystem": "npm",
+      "score": 50,
+      "level": "HIGH",
+      "previousOwner": "spocke",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -643,7 +652,7 @@
     },
     {
       "name": "inversify",
-      "version": "8.2.0",
+      "version": "8.2.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -940,15 +949,6 @@
     },
     {
       "name": "@oxc-parser/binding-darwin-x64",
-      "version": "0.140.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.140.0",
       "ecosystem": "npm",
       "score": 20,
