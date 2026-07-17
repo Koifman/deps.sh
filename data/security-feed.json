@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-07-17T21:59:03.031Z",
+  "fetchedAt": "2026-07-17T23:00:18.076Z",
   "entries": [
+    {
+      "title": "[adm-zip] adm-zip: Crafted ZIP file triggers 4GB memory allocation",
+      "url": "https://github.com/advisories/GHSA-xcpc-8h2w-3j85",
+      "date": "2026-07-17T21:50:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[angular] Angular's deprecated package has a Cross-Site Scripting issue",
+      "url": "https://github.com/advisories/GHSA-7x27-g8rg-x87w",
+      "date": "2026-07-17T21:47:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@tak-ps/cloudtak] CloudTAK: Authenticated full-read SSRF in the /api/esri* routes — user-controlled URL fetched with no IP-classification guard",
       "url": "https://github.com/advisories/GHSA-r95q-fp26-h3hc",
@@ -44,17 +58,17 @@
       "severity": "HIGH"
     },
     {
-      "title": "[prompty] Prompty: Arbitrary file read via file reference expansion",
-      "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
-      "date": "2026-07-17T19:46:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
       "title": "[@prompty/core] Prompty: Arbitrary file read via file reference expansion",
       "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
       "date": "2026-07-17T19:46:06.000Z",
       "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[prompty] Prompty: Arbitrary file read via file reference expansion",
+      "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
+      "date": "2026-07-17T19:46:06.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
@@ -126,20 +140,6 @@
       "date": "2026-07-17T18:36:00.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[ws] Denial of Service in ws",
-      "url": "https://github.com/advisories/GHSA-5v72-xg48-5rpm",
-      "date": "2026-07-17T18:28:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[node-git-server] Unauthorized File Access in node-git-server",
-      "url": "https://github.com/advisories/GHSA-cv3v-7846-6pxm",
-      "date": "2026-07-17T18:22:41.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
