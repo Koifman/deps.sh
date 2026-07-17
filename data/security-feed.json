@@ -1,6 +1,42 @@
 {
-  "fetchedAt": "2026-07-17T10:05:37.163Z",
+  "fetchedAt": "2026-07-17T12:15:26.178Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0208: Vulnerability in libcrux-sha3",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0208.html",
+      "date": "2026-07-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0207: Vulnerability in libcrux-sha3",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0207.html",
+      "date": "2026-07-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0209: Vulnerability in libcrux-aesgcm",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0209.html",
+      "date": "2026-07-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0211: Vulnerability in libcrux-aesgcm",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0211.html",
+      "date": "2026-07-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0210: libcrux-aesgcm is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0210.html",
+      "date": "2026-07-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0212: Vulnerability in libcrux-secrets",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0212.html",
+      "date": "2026-07-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[nltk] Natural Language Toolkit (NLTK): URL-Encoded Path Traversal in nltk.data.load() Allows Arbitrary Local File Read",
       "url": "https://github.com/advisories/GHSA-p4gq-832x-fm9v",
@@ -98,48 +134,6 @@
       "date": "2026-07-15T22:58:53.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[ddtrace] dd-trace-py: Improper parsing of W3C baggage headers may lead to DoS",
-      "url": "https://github.com/advisories/GHSA-mw54-j2v2-42hr",
-      "date": "2026-07-15T22:55:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[django-haystack] django-haystack: Remote Code Execution via `eval()` in Elasticsearch Result Deserialization",
-      "url": "https://github.com/advisories/GHSA-r3hx-x5rh-p9vv",
-      "date": "2026-07-15T22:42:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[neutron] OpenStack Neutron: Neutron port RBAC policy bypass allows project managers to set trusted device owners on shared networks",
-      "url": "https://github.com/advisories/GHSA-qmc5-gv6v-8p22",
-      "date": "2026-07-15T22:40:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[oslo.messaging] OpenStack oslo.messaging does not verify RabbitMQ broker hostname during TLS handshake",
-      "url": "https://github.com/advisories/GHSA-76qh-xr7q-h39m",
-      "date": "2026-07-15T22:30:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lmcache] LMCache: 16-bit multimodal hash collision can poison KV cache entries",
-      "url": "https://github.com/advisories/GHSA-3hh9-752g-5g22",
-      "date": "2026-07-15T22:10:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[websocket-driver] websocket-driver: Resource limit bypass via message compression",
-      "url": "https://github.com/advisories/GHSA-mp7j-qc5w-4988",
-      "date": "2026-07-15T22:08:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
