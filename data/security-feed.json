@@ -1,6 +1,111 @@
 {
-  "fetchedAt": "2026-07-17T18:11:06.267Z",
+  "fetchedAt": "2026-07-17T20:10:44.535Z",
   "entries": [
+    {
+      "title": "[@prompty/core] Prompty: Arbitrary code execution via JavaScript frontmatter in TypeScript loader",
+      "url": "https://github.com/advisories/GHSA-c4gh-rv8h-q9vw",
+      "date": "2026-07-17T19:53:37.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@prompty/core] Prompty: Arbitrary file read via file reference expansion",
+      "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
+      "date": "2026-07-17T19:46:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[prompty] Prompty: Arbitrary file read via file reference expansion",
+      "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
+      "date": "2026-07-17T19:46:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mcp-memory-keeper] mcp-memory-keeper: Arbitrary local file read in context_import via unvalidated filePath",
+      "url": "https://github.com/advisories/GHSA-f7wf-v2vw-mpcx",
+      "date": "2026-07-17T19:23:08.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@tak-ps/cloudtak] TAK-PS-Stats Web UI: Authenticated full-read SSRF in CloudTAK basemap import (PUT /api/basemap) — no IP-classification guard",
+      "url": "https://github.com/advisories/GHSA-vqrw-qphh-p34v",
+      "date": "2026-07-17T19:02:37.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[meta-ads-mcp] meta-ads-mcp: X-Pipeboard-Token Header Auth Bypass Reuses Operator Meta Token",
+      "url": "https://github.com/advisories/GHSA-2v2f-mvfg-ph56",
+      "date": "2026-07-17T18:48:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[meta-ads-mcp] meta-ads-mcp: Server-Side Request Forgery (SSRF) in `upload_ad_image` via Unrestricted `image_url` Fetch",
+      "url": "https://github.com/advisories/GHSA-45gf-fjxp-cjpq",
+      "date": "2026-07-17T18:47:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sh] sh _uid does not drop supplementary groups (incomplete privilege drop)",
+      "url": "https://github.com/advisories/GHSA-q38v-wp89-2w55",
+      "date": "2026-07-17T18:41:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[plone.restapi] plone.restapi: Stored XSS by spoofing mime type",
+      "url": "https://github.com/advisories/GHSA-8rqh-vxpr-x77p",
+      "date": "2026-07-17T18:36:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[plone.restapi] plone.restapi: Stored XSS by spoofing mime type",
+      "url": "https://github.com/advisories/GHSA-8rqh-vxpr-x77p",
+      "date": "2026-07-17T18:36:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[plone.app.textfield] plone.app.textfield: Stored XSS by spoofing mime type",
+      "url": "https://github.com/advisories/GHSA-4r4f-gg25-rmg5",
+      "date": "2026-07-17T18:36:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[plone.app.textfield] plone.app.textfield: Stored XSS by spoofing mime type",
+      "url": "https://github.com/advisories/GHSA-4r4f-gg25-rmg5",
+      "date": "2026-07-17T18:36:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[plone.app.textfield] plone.app.textfield: Stored XSS by spoofing mime type",
+      "url": "https://github.com/advisories/GHSA-4r4f-gg25-rmg5",
+      "date": "2026-07-17T18:36:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ws] Denial of Service in ws",
+      "url": "https://github.com/advisories/GHSA-5v72-xg48-5rpm",
+      "date": "2026-07-17T18:28:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[node-git-server] Unauthorized File Access in node-git-server",
+      "url": "https://github.com/advisories/GHSA-cv3v-7846-6pxm",
+      "date": "2026-07-17T18:22:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[vllm] vLLM: Speech-to-text upload size limit is enforced after full UploadFile read",
       "url": "https://github.com/advisories/GHSA-v82g-2437-67m2",
@@ -35,105 +140,6 @@
       "date": "2026-07-17T17:05:31.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[claude-mem] claude-mem: The computeObservationContentHash Function is Vulnerable to Hash Collision",
-      "url": "https://github.com/advisories/GHSA-5gvr-v6qv-h5mm",
-      "date": "2026-07-17T16:53:30.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[vllm] vLLM: Processing differential in multi-channel audio downmixing enables hidden-input/moderation bypass for audio models",
-      "url": "https://github.com/advisories/GHSA-6c4r-fmh3-7rh8",
-      "date": "2026-07-17T16:52:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vllm] vLLM: temperature=NaN and temperature=Infinity bypass validation and propagate to GPU kernels",
-      "url": "https://github.com/advisories/GHSA-7h4p-rffg-7823",
-      "date": "2026-07-17T16:40:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vllm] vLLM: OOM Denial of Service via Audio Decompression Bomb",
-      "url": "https://github.com/advisories/GHSA-6pr9-rp53-2pmc",
-      "date": "2026-07-17T16:39:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vllm] vLLM: image EXIF Rotation & PNG tRNS Transparency Not Normalized, Causing Mismatch Between Model Input and Expectations",
-      "url": "https://github.com/advisories/GHSA-8jr5-v98p-w75m",
-      "date": "2026-07-17T16:38:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vllm] vLLM: GGUF dequantize kernel int truncation exposes uninitialized GPU memory in multi-tenant serving",
-      "url": "https://github.com/advisories/GHSA-5jv2-g5wq-cmr4",
-      "date": "2026-07-17T16:20:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0208: Vulnerability in libcrux-sha3",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0208.html",
-      "date": "2026-07-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0207: Vulnerability in libcrux-sha3",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0207.html",
-      "date": "2026-07-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0209: Vulnerability in libcrux-aesgcm",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0209.html",
-      "date": "2026-07-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0211: Vulnerability in libcrux-aesgcm",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0211.html",
-      "date": "2026-07-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0210: libcrux-aesgcm is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0210.html",
-      "date": "2026-07-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0212: Vulnerability in libcrux-secrets",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0212.html",
-      "date": "2026-07-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[nltk] Natural Language Toolkit (NLTK): URL-Encoded Path Traversal in nltk.data.load() Allows Arbitrary Local File Read",
-      "url": "https://github.com/advisories/GHSA-p4gq-832x-fm9v",
-      "date": "2026-07-16T21:28:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mcp] MCP Python SDK: WebSocket server transport does not support Host/Origin validation",
-      "url": "https://github.com/advisories/GHSA-vj7q-gjh5-988w",
-      "date": "2026-07-16T20:14:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mcp] MCP Python SDK: HTTP transports serve session requests without verifying the authenticated principal",
-      "url": "https://github.com/advisories/GHSA-jpw9-pfvf-9f58",
-      "date": "2026-07-16T19:58:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
