@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-07-18T06:13:27.217Z",
-  "count": 105,
+  "scannedAt": "2026-07-18T08:54:57.215Z",
+  "count": 107,
   "packages": [
     {
       "name": "xmldom",
@@ -45,6 +45,15 @@
       "score": 50,
       "level": "HIGH",
       "previousOwner": "ericf",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "tinymce",
+      "version": "8.8.0",
+      "ecosystem": "npm",
+      "score": 50,
+      "level": "HIGH",
+      "previousOwner": "spocke",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -220,6 +229,15 @@
     },
     {
       "name": "@stitches/core",
+      "version": "1.2.8",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "peduarte",
+      "currentOwner": "hadihallak"
+    },
+    {
+      "name": "@stitches/react",
       "version": "1.2.8",
       "ecosystem": "npm",
       "score": 35,
@@ -507,15 +525,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "typescript-eslint",
-      "version": "8.64.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jameshenry",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "string.prototype.trimend",
       "version": "1.0.10",
       "ecosystem": "npm",
@@ -523,6 +532,15 @@
       "level": "MODERATE",
       "previousOwner": "khaledelansari",
       "currentOwner": "ljharb"
+    },
+    {
+      "name": "typescript-eslint",
+      "version": "8.64.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jameshenry",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "style-to-js",
@@ -552,7 +570,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/supabase-js",
+      "name": "@supabase/storage-js",
       "version": "2.110.7",
       "ecosystem": "npm",
       "score": 22,
@@ -561,7 +579,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/storage-js",
+      "name": "@supabase/supabase-js",
       "version": "2.110.7",
       "ecosystem": "npm",
       "score": 22,
@@ -723,13 +741,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lottiefiles/dotlottie-react",
-      "version": "0.19.10",
+      "name": "@nevware21/ts-async",
+      "version": "0.6.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "jawish",
-      "currentOwner": "GitHub Actions"
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "@vimeo/player",
@@ -741,13 +759,13 @@
       "currentOwner": "vimeo-npmbot"
     },
     {
-      "name": "@nevware21/ts-async",
-      "version": "0.6.1",
+      "name": "@lottiefiles/dotlottie-react",
+      "version": "0.19.10",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
+      "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
