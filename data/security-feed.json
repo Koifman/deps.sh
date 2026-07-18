@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-17T23:00:18.076Z",
+  "fetchedAt": "2026-07-18T03:13:16.545Z",
   "entries": [
+    {
+      "title": "[@andrea9293/mcp-documentation-server] @andrea9293/mcp-documentation-server: Web UI API binds to all interfaces without authentication by default",
+      "url": "https://github.com/advisories/GHSA-6f5r-5672-72j7",
+      "date": "2026-07-18T00:35:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[adm-zip] adm-zip: Crafted ZIP file triggers 4GB memory allocation",
       "url": "https://github.com/advisories/GHSA-xcpc-8h2w-3j85",
@@ -117,13 +124,6 @@
       "title": "[plone.restapi] plone.restapi: Stored XSS by spoofing mime type",
       "url": "https://github.com/advisories/GHSA-8rqh-vxpr-x77p",
       "date": "2026-07-17T18:36:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[plone.app.textfield] plone.app.textfield: Stored XSS by spoofing mime type",
-      "url": "https://github.com/advisories/GHSA-4r4f-gg25-rmg5",
-      "date": "2026-07-17T18:36:00.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
