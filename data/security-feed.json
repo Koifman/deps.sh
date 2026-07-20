@@ -1,6 +1,90 @@
 {
-  "fetchedAt": "2026-07-20T18:58:02.808Z",
+  "fetchedAt": "2026-07-20T20:35:59.406Z",
   "entries": [
+    {
+      "title": "[vllm] vLLM denial of service via prompt embeds on M-RoPE models",
+      "url": "https://github.com/advisories/GHSA-33cg-gxv8-3p8g",
+      "date": "2026-07-20T19:13:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pillow-heif] pillow-heif: Integer Overflow in Encode Path Buffer Validation Leads to Heap Out-of-Bounds Read",
+      "url": "https://github.com/advisories/GHSA-5gjj-6r7v-ph3x",
+      "date": "2026-07-20T19:08:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pi-heif] pillow-heif: Integer Overflow in Encode Path Buffer Validation Leads to Heap Out-of-Bounds Read",
+      "url": "https://github.com/advisories/GHSA-5gjj-6r7v-ph3x",
+      "date": "2026-07-20T19:08:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[changedetection.io] changedetection.io is vulnerable to unauthenticated static path traversal",
+      "url": "https://github.com/advisories/GHSA-9jj8-v89v-xjvw",
+      "date": "2026-07-20T19:06:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[tornado] Tornado: Quadratic DoS via Crafted Multipart Parameters",
+      "url": "https://github.com/advisories/GHSA-jhmp-mqwm-3gq8",
+      "date": "2026-07-20T18:57:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tornado] Tornado: Quadratic DoS via Repeated Header Coalescing",
+      "url": "https://github.com/advisories/GHSA-c98p-7wgm-6p64",
+      "date": "2026-07-20T18:57:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tornado] Tornado vulnerable to Header Injection and XSS via reason argument",
+      "url": "https://github.com/advisories/GHSA-pr2v-jx2c-wg9f",
+      "date": "2026-07-20T18:55:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: Excessive recursion in formDataToJSON can cause denial of service",
+      "url": "https://github.com/advisories/GHSA-42h9-826w-cgv3",
+      "date": "2026-07-20T17:59:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: Excessive recursion in formDataToJSON can cause denial of service",
+      "url": "https://github.com/advisories/GHSA-42h9-826w-cgv3",
+      "date": "2026-07-20T17:59:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: Prototype pollution auth subfields can inject Basic auth",
+      "url": "https://github.com/advisories/GHSA-xj6q-8x83-jv6g",
+      "date": "2026-07-20T17:51:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: Deep formToJSON Key Recursion Can Cause Denial of Service",
+      "url": "https://github.com/advisories/GHSA-pmv8-rq9r-6j72",
+      "date": "2026-07-20T17:48:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[axios] Axios: Deep formToJSON Key Recursion Can Cause Denial of Service",
+      "url": "https://github.com/advisories/GHSA-pmv8-rq9r-6j72",
+      "date": "2026-07-20T17:48:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[vllm] vLLM: incomplete CVE-2026-22778 fix leaks PIL repr addresses via Anthropic router",
       "url": "https://github.com/advisories/GHSA-hgg8-fqqc-vfmw",
@@ -55,90 +139,6 @@
       "url": "https://github.com/advisories/GHSA-g77h-45rf-hcx4",
       "date": "2026-07-17T20:19:40.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Flask-Reuploaded] Flask-Reuploaded: Extension-denylist bypass via case-folding asymmetry in name-override path (incomplete-fix variant of CVE-2026-27641)",
-      "url": "https://github.com/advisories/GHSA-937x-gpqr-72gg",
-      "date": "2026-07-17T20:11:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@prompty/core] Prompty: Arbitrary code execution via JavaScript frontmatter in TypeScript loader",
-      "url": "https://github.com/advisories/GHSA-c4gh-rv8h-q9vw",
-      "date": "2026-07-17T19:53:37.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@prompty/core] Prompty: Arbitrary file read via file reference expansion",
-      "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
-      "date": "2026-07-17T19:46:06.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[prompty] Prompty: Arbitrary file read via file reference expansion",
-      "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
-      "date": "2026-07-17T19:46:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mcp-memory-keeper] mcp-memory-keeper: Arbitrary local file read in context_import via unvalidated filePath",
-      "url": "https://github.com/advisories/GHSA-f7wf-v2vw-mpcx",
-      "date": "2026-07-17T19:23:08.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@tak-ps/cloudtak] TAK-PS-Stats Web UI: Authenticated full-read SSRF in CloudTAK basemap import (PUT /api/basemap) — no IP-classification guard",
-      "url": "https://github.com/advisories/GHSA-vqrw-qphh-p34v",
-      "date": "2026-07-17T19:02:37.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[meta-ads-mcp] meta-ads-mcp: X-Pipeboard-Token Header Auth Bypass Reuses Operator Meta Token",
-      "url": "https://github.com/advisories/GHSA-2v2f-mvfg-ph56",
-      "date": "2026-07-17T18:48:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[meta-ads-mcp] meta-ads-mcp: Server-Side Request Forgery (SSRF) in `upload_ad_image` via Unrestricted `image_url` Fetch",
-      "url": "https://github.com/advisories/GHSA-45gf-fjxp-cjpq",
-      "date": "2026-07-17T18:47:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sh] sh _uid does not drop supplementary groups (incomplete privilege drop)",
-      "url": "https://github.com/advisories/GHSA-q38v-wp89-2w55",
-      "date": "2026-07-17T18:41:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[plone.restapi] plone.restapi: Stored XSS by spoofing mime type",
-      "url": "https://github.com/advisories/GHSA-8rqh-vxpr-x77p",
-      "date": "2026-07-17T18:36:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[plone.restapi] plone.restapi: Stored XSS by spoofing mime type",
-      "url": "https://github.com/advisories/GHSA-8rqh-vxpr-x77p",
-      "date": "2026-07-17T18:36:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[plone.app.textfield] plone.app.textfield: Stored XSS by spoofing mime type",
-      "url": "https://github.com/advisories/GHSA-4r4f-gg25-rmg5",
-      "date": "2026-07-17T18:36:00.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
