@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-20T11:51:34.756Z",
+  "fetchedAt": "2026-07-20T14:23:18.368Z",
   "entries": [
+    {
+      "title": "[vllm] vLLM: incomplete CVE-2026-22778 fix leaks PIL repr addresses via Anthropic router",
+      "url": "https://github.com/advisories/GHSA-hgg8-fqqc-vfmw",
+      "date": "2026-07-20T13:36:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@andrea9293/mcp-documentation-server] @andrea9293/mcp-documentation-server: Web UI API binds to all interfaces without authentication by default",
       "url": "https://github.com/advisories/GHSA-6f5r-5672-72j7",
@@ -65,17 +72,17 @@
       "severity": "HIGH"
     },
     {
-      "title": "[prompty] Prompty: Arbitrary file read via file reference expansion",
-      "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
-      "date": "2026-07-17T19:46:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
       "title": "[@prompty/core] Prompty: Arbitrary file read via file reference expansion",
       "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
       "date": "2026-07-17T19:46:06.000Z",
       "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[prompty] Prompty: Arbitrary file read via file reference expansion",
+      "url": "https://github.com/advisories/GHSA-wxhm-2mq7-7697",
+      "date": "2026-07-17T19:46:06.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
@@ -124,13 +131,6 @@
       "title": "[plone.restapi] plone.restapi: Stored XSS by spoofing mime type",
       "url": "https://github.com/advisories/GHSA-8rqh-vxpr-x77p",
       "date": "2026-07-17T18:36:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[plone.app.textfield] plone.app.textfield: Stored XSS by spoofing mime type",
-      "url": "https://github.com/advisories/GHSA-4r4f-gg25-rmg5",
-      "date": "2026-07-17T18:36:00.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
