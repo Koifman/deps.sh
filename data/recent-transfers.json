@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-07-21T15:11:34.016Z",
-  "count": 109,
+  "scannedAt": "2026-07-21T17:39:12.853Z",
+  "count": 110,
   "packages": [
     {
       "name": "xmldom",
@@ -562,7 +562,7 @@
     },
     {
       "name": "oxc-parser",
-      "version": "0.140.0",
+      "version": "0.141.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -571,7 +571,7 @@
     },
     {
       "name": "@supabase/supabase-js",
-      "version": "2.110.7",
+      "version": "2.110.8",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -580,7 +580,7 @@
     },
     {
       "name": "@supabase/storage-js",
-      "version": "2.110.7",
+      "version": "2.110.8",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -589,7 +589,7 @@
     },
     {
       "name": "@supabase/realtime-js",
-      "version": "2.110.7",
+      "version": "2.110.8",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -714,24 +714,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.1.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "redux-saga",
-      "version": "1.5.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "yelouafi",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@nevware21/ts-async",
       "version": "0.6.1",
       "ecosystem": "npm",
@@ -750,8 +732,26 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@appium/tsconfig",
+      "version": "1.1.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "redux-saga",
+      "version": "1.5.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "yelouafi",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@lottiefiles/dotlottie-react",
-      "version": "0.19.10",
+      "version": "0.19.11",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -769,7 +769,7 @@
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
-      "version": "0.140.0",
+      "version": "0.141.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -778,7 +778,7 @@
     },
     {
       "name": "@oxc-parser/binding-linux-x64-musl",
-      "version": "0.140.0",
+      "version": "0.141.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -850,16 +850,7 @@
     },
     {
       "name": "@oxc-transform/binding-linux-x64-gnu",
-      "version": "0.140.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "oxc-transform",
-      "version": "0.140.0",
+      "version": "0.141.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -876,8 +867,17 @@
       "currentOwner": "microsoft1es"
     },
     {
+      "name": "oxc-transform",
+      "version": "0.141.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@oxc-parser/binding-linux-arm64-gnu",
-      "version": "0.140.0",
+      "version": "0.141.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -895,7 +895,16 @@
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-musl",
-      "version": "0.140.0",
+      "version": "0.141.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.141.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -912,8 +921,8 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.140.0",
+      "name": "oxc-minify",
+      "version": "0.141.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -921,8 +930,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.140.0",
+      "name": "@oxc-parser/binding-darwin-arm64",
+      "version": "0.141.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -931,7 +940,7 @@
     },
     {
       "name": "@lottiefiles/dotlottie-web",
-      "version": "0.78.0",
+      "version": "0.78.1",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -939,17 +948,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-arm64",
-      "version": "0.140.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.140.0",
+      "version": "0.141.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -967,7 +967,7 @@
     },
     {
       "name": "@oxc-parser/binding-win32-x64-msvc",
-      "version": "0.140.0",
+      "version": "0.141.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -976,7 +976,16 @@
     },
     {
       "name": "@oxc-parser/binding-win32-arm64-msvc",
-      "version": "0.140.0",
+      "version": "0.141.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-darwin-x64",
+      "version": "0.141.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",

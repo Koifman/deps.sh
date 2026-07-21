@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-21T15:08:40.971Z",
+  "fetchedAt": "2026-07-21T17:36:18.095Z",
   "entries": [
+    {
+      "title": "[nova] OpenStack Nova: Nova scheduler hint injection bypasses Placement resource claims and scheduling constraints",
+      "url": "https://github.com/advisories/GHSA-mfg3-p6m3-gjgr",
+      "date": "2026-07-21T15:04:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[astro] Astro: composable `astro/hono` pipeline bypasses `security.checkOrigin` when `middleware()` is absent or misordered",
       "url": "https://github.com/advisories/GHSA-8mv7-9c27-98vc",
@@ -131,13 +138,6 @@
       "title": "[axios] Axios form serializer maxDepth bypass via {} metatoken",
       "url": "https://github.com/advisories/GHSA-hcpx-6fm6-wx23",
       "date": "2026-07-20T22:38:04.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Axios: Nested axios option objects can consume polluted prototype values",
-      "url": "https://github.com/advisories/GHSA-7q8q-rj6j-mhjq",
-      "date": "2026-07-20T22:37:33.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
