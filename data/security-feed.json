@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-07-21T19:41:32.864Z",
+  "fetchedAt": "2026-07-21T21:18:06.914Z",
   "entries": [
     {
-      "title": "[nova] OpenStack Nova: Nova scheduler hint injection bypasses Placement resource claims and scheduling constraints",
-      "url": "https://github.com/advisories/GHSA-mfg3-p6m3-gjgr",
-      "date": "2026-07-21T15:04:07.000Z",
+      "title": "[GitPython] GitPython: command injection via unguarded Git options in `Repo.archive()`, `git.ls_remote()`, and arbitrary file overwrite via `Repo.iter_commits()` / `Repo.blame()`",
+      "url": "https://github.com/advisories/GHSA-956x-8gvw-wg5v",
+      "date": "2026-07-21T20:10:06.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     },
     {
-      "title": "[astro] Astro: composable `astro/hono` pipeline bypasses `security.checkOrigin` when `middleware()` is absent or misordered",
-      "url": "https://github.com/advisories/GHSA-8mv7-9c27-98vc",
-      "date": "2026-07-20T23:26:28.000Z",
+      "title": "[GitPython] GitPython: Command Injection via git long-option prefix abbreviation bypass of CVE-2026-42215 blocklist",
+      "url": "https://github.com/advisories/GHSA-2f96-g7mh-g2hx",
+      "date": "2026-07-21T19:43:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[GitPython] GitPython unsafe clone option gate bypass through joined short options",
+      "url": "https://github.com/advisories/GHSA-v396-v7q4-x2qj",
+      "date": "2026-07-21T19:43:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[svgo] SVGO removeScripts plugin leaves some executable scripts intact",
+      "url": "https://github.com/advisories/GHSA-2p49-hgcm-8545",
+      "date": "2026-07-21T19:42:05.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     },
     {
-      "title": "[@astrojs/netlify] @astrojs/netlify generates an overly-broad Netlify Image CDN allowlist because remotePatterns.pathname metacharacters are not escaped",
-      "url": "https://github.com/advisories/GHSA-hp3v-mfqw-h74c",
-      "date": "2026-07-20T23:24:35.000Z",
+      "title": "[svgo] SVGO removeScripts plugin leaves some executable scripts intact",
+      "url": "https://github.com/advisories/GHSA-2p49-hgcm-8545",
+      "date": "2026-07-21T19:42:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[svgo] SVGO removeScripts plugin leaves some executable scripts intact",
+      "url": "https://github.com/advisories/GHSA-2p49-hgcm-8545",
+      "date": "2026-07-21T19:42:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dompurify] DOMPurify: `CUSTOM_ELEMENT_HANDLING` bypasses `afterSanitizeElements` for allowed custom elements.",
+      "url": "https://github.com/advisories/GHSA-c2j3-45gr-mqc4",
+      "date": "2026-07-21T19:41:08.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[body-parser] body-parser vulnerable to denial of service when invalid limit value silently disables size enforcement",
-      "url": "https://github.com/advisories/GHSA-v422-hmwv-36x6",
-      "date": "2026-07-20T23:23:28.000Z",
+      "title": "[@vitest/browser] @vitest/browser: Browser Mode provider commands bypass the file-access permission gate",
+      "url": "https://github.com/advisories/GHSA-p63j-vcc4-9vmv",
+      "date": "2026-07-21T19:36:13.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[body-parser] body-parser vulnerable to denial of service when invalid limit value silently disables size enforcement",
-      "url": "https://github.com/advisories/GHSA-v422-hmwv-36x6",
-      "date": "2026-07-20T23:23:28.000Z",
+      "title": "[@vitest/browser] @vitest/browser: Browser Mode provider commands bypass the file-access permission gate",
+      "url": "https://github.com/advisories/GHSA-p63j-vcc4-9vmv",
+      "date": "2026-07-21T19:36:13.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[@astrojs/node] @astrojs/node: Backslash-prefixed paths not recognized as internal by trailing-slash redirect",
-      "url": "https://github.com/advisories/GHSA-r557-wffq-wvrc",
-      "date": "2026-07-20T23:22:22.000Z",
+      "title": "[@vitest/browser] @vitest/browser: Browser Mode provider commands bypass the file-access permission gate",
+      "url": "https://github.com/advisories/GHSA-p63j-vcc4-9vmv",
+      "date": "2026-07-21T19:36:13.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[astro] Astro: XSS via unescaped spread attribute names in renderHTMLElement (incomplete fix for CVE-2026-54298)",
-      "url": "https://github.com/advisories/GHSA-f48w-9m4c-m7f5",
-      "date": "2026-07-20T23:22:00.000Z",
+      "title": "[@sigstore/oci] Credential confusion in @sigstore/oci can leak registry credentials to an attacker-controlled registry",
+      "url": "https://github.com/advisories/GHSA-pf56-329r-95rw",
+      "date": "2026-07-21T19:34:05.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[@astrojs/rss] @astrojs/rss: XML Injection via Unescaped RSS Feed Fields",
-      "url": "https://github.com/advisories/GHSA-8j5q-mfj2-5q9q",
-      "date": "2026-07-20T23:21:48.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[astro] Astro: Cross-site scripting via unescaped transition:* directive values on hydrated islands",
-      "url": "https://github.com/advisories/GHSA-7pw4-f3q4-r2p2",
-      "date": "2026-07-20T23:21:03.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[pillow] Pillow: Controlled heap out-of-bounds write in Pillow `ImageCmsTransform.apply()` via output mode mismatch",
-      "url": "https://github.com/advisories/GHSA-9hw9-ch79-4vh6",
-      "date": "2026-07-20T23:19:01.000Z",
+      "title": "[pyasn1] pyasn1: Uncontrolled resource consumption when converting decoded REAL values",
+      "url": "https://github.com/advisories/GHSA-hm4w-wwcw-mr6r",
+      "date": "2026-07-21T19:11:22.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[pillow] Pillow JPEG2000 tiled decode retains a growing scratch buffer and can be used for denial of service",
-      "url": "https://github.com/advisories/GHSA-vjc4-5qp5-m44j",
-      "date": "2026-07-20T23:18:33.000Z",
+      "title": "[pyasn1] pyasn1: Quadratic complexity in OBJECT IDENTIFIER and RELATIVE-OID processing allows denial of service",
+      "url": "https://github.com/advisories/GHSA-8ppf-4f7h-5ppj",
+      "date": "2026-07-21T19:11:04.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[pillow] Pillow EpsImagePlugin negative %%BeginBinary byte count causes infinite loop denial of service",
-      "url": "https://github.com/advisories/GHSA-pg7v-jwj7-p798",
-      "date": "2026-07-20T23:11:52.000Z",
+      "title": "[pyssn1] pyasn1 BER/CER/DER decoder denial of service via unbounded long-form tag IDs",
+      "url": "https://github.com/advisories/GHSA-m4p7-r5rc-7g4j",
+      "date": "2026-07-21T19:10:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[setuptools] setuptools: MANIFEST.in exclusion bypass in sdist via Unicode normalization collision (NFC/NFD) on macOS APFS/HFS+",
+      "url": "https://github.com/advisories/GHSA-h35f-9h28-mq5c",
+      "date": "2026-07-21T19:09:21.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[Pillow] Pillow: Decompression Bomb DoS via PdfParser.PdfStream.decode()",
-      "url": "https://github.com/advisories/GHSA-jjj6-mw9f-p565",
-      "date": "2026-07-20T23:11:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Pillow] Pillow: Heap out-of-bounds write `Image.paste()` / `Image.crop()` via signed coordinate overflow",
-      "url": "https://github.com/advisories/GHSA-6r8x-57c9-28j4",
-      "date": "2026-07-20T23:09:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Pillow] Pillow TGA RLE encoder can serialize up to ~57 KB of adjacent heap data into generated images",
-      "url": "https://github.com/advisories/GHSA-fj7v-r99m-22gq",
-      "date": "2026-07-20T23:09:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Pillow] Pillow: Heap out-of-bounds write in `ImageFilter.RankFilter` via integer overflow in `ImagingExpand`",
-      "url": "https://github.com/advisories/GHSA-xj96-63gp-2gmr",
-      "date": "2026-07-20T23:08:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Axios Node HTTP adapter can use an inherited proxy after interceptor config cloning",
-      "url": "https://github.com/advisories/GHSA-gcfj-64vw-6mp9",
-      "date": "2026-07-20T22:40:09.000Z",
+      "title": "[@opentelemetry/propagator-jaeger] OpenTelemetry JavaScript: Denial of service in `JaegerPropagator` via unhandled exception on a malformed header",
+      "url": "https://github.com/advisories/GHSA-45rx-2jwx-cxfr",
+      "date": "2026-07-21T19:07:29.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[axios] Axios Node HTTP adapter can use an inherited proxy after interceptor config cloning",
-      "url": "https://github.com/advisories/GHSA-gcfj-64vw-6mp9",
-      "date": "2026-07-20T22:40:09.000Z",
+      "title": "[linkify-it] linkify-it: Quadratic-complexity DoS via the `mailto:` validator scan-loop on attacker text",
+      "url": "https://github.com/advisories/GHSA-v245-v573-v5vm",
+      "date": "2026-07-21T19:06:10.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[axios] Axios form serializer maxDepth bypass via {} metatoken",
-      "url": "https://github.com/advisories/GHSA-hcpx-6fm6-wx23",
-      "date": "2026-07-20T22:38:04.000Z",
+      "title": "[aws-cdk-lib] aws-cdk-lib: OS Command Injection in NodejsFunction Docker Bundling",
+      "url": "https://github.com/advisories/GHSA-vcrf-j523-4mrf",
+      "date": "2026-07-21T19:04:52.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     },
     {
-      "title": "[axios] Axios form serializer maxDepth bypass via {} metatoken",
-      "url": "https://github.com/advisories/GHSA-hcpx-6fm6-wx23",
-      "date": "2026-07-20T22:38:04.000Z",
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via failed IDN canonicalization",
+      "url": "https://github.com/advisories/GHSA-4c8g-83qw-93j6",
+      "date": "2026-07-21T19:03:12.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via failed IDN canonicalization",
+      "url": "https://github.com/advisories/GHSA-4c8g-83qw-93j6",
+      "date": "2026-07-21T19:03:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
