@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-07-21T21:18:06.914Z",
+  "fetchedAt": "2026-07-21T23:03:05.978Z",
   "entries": [
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via literal backslash authority delimiter",
+      "url": "https://github.com/advisories/GHSA-v2hh-gcrm-f6hx",
+      "date": "2026-07-21T22:08:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via literal backslash authority delimiter",
+      "url": "https://github.com/advisories/GHSA-v2hh-gcrm-f6hx",
+      "date": "2026-07-21T22:08:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via literal backslash authority delimiter",
+      "url": "https://github.com/advisories/GHSA-v2hh-gcrm-f6hx",
+      "date": "2026-07-21T22:08:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sharp] sharp inherited vulnerabilities in libvips: CVE-2026-33327, CVE-2026-33328, CVE-2026-35590, CVE-2026-35591",
+      "url": "https://github.com/advisories/GHSA-f88m-g3jw-g9cj",
+      "date": "2026-07-21T22:07:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser: Repeated DOCTYPE declarations reset entity expansion limits",
+      "url": "https://github.com/advisories/GHSA-8r6m-32jq-jx6q",
+      "date": "2026-07-21T22:06:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[gitpython] GitPython: Environment-variable exfiltration via os.path.expandvars() on Repo.clone_from() URL",
+      "url": "https://github.com/advisories/GHSA-rwj8-pgh3-r573",
+      "date": "2026-07-21T22:06:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hono/node-server] Node.js Adapter for Hono: Unauthenticated memory-leak DoS via aborted WebSocket handshake",
+      "url": "https://github.com/advisories/GHSA-9mqv-5hh9-4cgg",
+      "date": "2026-07-21T22:04:28.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[typeorm]  TypeORM: migration:generate template-literal code injection",
+      "url": "https://github.com/advisories/GHSA-2rp8-mm9q-fp49",
+      "date": "2026-07-21T21:59:24.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[typeorm]  TypeORM: migration:generate template-literal code injection",
+      "url": "https://github.com/advisories/GHSA-2rp8-mm9q-fp49",
+      "date": "2026-07-21T21:59:24.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[GitPython] GitPython: command injection via unguarded Git options in `Repo.archive()`, `git.ls_remote()`, and arbitrary file overwrite via `Repo.iter_commits()` / `Repo.blame()`",
       "url": "https://github.com/advisories/GHSA-956x-8gvw-wg5v",
@@ -77,69 +140,6 @@
       "date": "2026-07-21T19:34:05.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[pyasn1] pyasn1: Uncontrolled resource consumption when converting decoded REAL values",
-      "url": "https://github.com/advisories/GHSA-hm4w-wwcw-mr6r",
-      "date": "2026-07-21T19:11:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyasn1] pyasn1: Quadratic complexity in OBJECT IDENTIFIER and RELATIVE-OID processing allows denial of service",
-      "url": "https://github.com/advisories/GHSA-8ppf-4f7h-5ppj",
-      "date": "2026-07-21T19:11:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyssn1] pyasn1 BER/CER/DER decoder denial of service via unbounded long-form tag IDs",
-      "url": "https://github.com/advisories/GHSA-m4p7-r5rc-7g4j",
-      "date": "2026-07-21T19:10:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[setuptools] setuptools: MANIFEST.in exclusion bypass in sdist via Unicode normalization collision (NFC/NFD) on macOS APFS/HFS+",
-      "url": "https://github.com/advisories/GHSA-h35f-9h28-mq5c",
-      "date": "2026-07-21T19:09:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@opentelemetry/propagator-jaeger] OpenTelemetry JavaScript: Denial of service in `JaegerPropagator` via unhandled exception on a malformed header",
-      "url": "https://github.com/advisories/GHSA-45rx-2jwx-cxfr",
-      "date": "2026-07-21T19:07:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[linkify-it] linkify-it: Quadratic-complexity DoS via the `mailto:` validator scan-loop on attacker text",
-      "url": "https://github.com/advisories/GHSA-v245-v573-v5vm",
-      "date": "2026-07-21T19:06:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[aws-cdk-lib] aws-cdk-lib: OS Command Injection in NodejsFunction Docker Bundling",
-      "url": "https://github.com/advisories/GHSA-vcrf-j523-4mrf",
-      "date": "2026-07-21T19:04:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via failed IDN canonicalization",
-      "url": "https://github.com/advisories/GHSA-4c8g-83qw-93j6",
-      "date": "2026-07-21T19:03:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via failed IDN canonicalization",
-      "url": "https://github.com/advisories/GHSA-4c8g-83qw-93j6",
-      "date": "2026-07-21T19:03:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
