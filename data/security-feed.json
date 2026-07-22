@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-22T14:11:45.967Z",
+  "fetchedAt": "2026-07-22T16:25:10.926Z",
   "entries": [
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via failed IDN canonicalization",
+      "url": "https://github.com/advisories/GHSA-4c8g-83qw-93j6",
+      "date": "2026-07-22T12:32:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0213: Vulnerability in ammonia",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0213.html",
@@ -118,13 +125,6 @@
       "date": "2026-07-21T19:41:08.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[@vitest/browser] @vitest/browser: Browser Mode provider commands bypass the file-access permission gate",
-      "url": "https://github.com/advisories/GHSA-p63j-vcc4-9vmv",
-      "date": "2026-07-21T19:36:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     },
     {
       "title": "[@vitest/browser] @vitest/browser: Browser Mode provider commands bypass the file-access permission gate",
