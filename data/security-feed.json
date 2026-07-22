@@ -1,10 +1,115 @@
 {
-  "fetchedAt": "2026-07-22T16:25:10.926Z",
+  "fetchedAt": "2026-07-22T18:13:55.557Z",
   "entries": [
     {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via failed IDN canonicalization",
-      "url": "https://github.com/advisories/GHSA-4c8g-83qw-93j6",
-      "date": "2026-07-22T12:32:14.000Z",
+      "title": "[n8n] Duplicate Advisory: Google Service Account Private Key Exposed in JWT Header",
+      "url": "https://github.com/advisories/GHSA-mhvh-gwhr-76pw",
+      "date": "2026-07-22T17:59:49.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Stored DOM XSS via Resource Locator `cachedResultUrl`",
+      "url": "https://github.com/advisories/GHSA-9wcp-9r3j-383q",
+      "date": "2026-07-22T17:59:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Stored DOM XSS via Resource Locator `cachedResultUrl`",
+      "url": "https://github.com/advisories/GHSA-9wcp-9r3j-383q",
+      "date": "2026-07-22T17:59:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Stored DOM XSS via Resource Locator `cachedResultUrl`",
+      "url": "https://github.com/advisories/GHSA-9wcp-9r3j-383q",
+      "date": "2026-07-22T17:59:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] Duplicate Advisory: Stored DOM XSS via Resource Locator `cachedResultUrl`",
+      "url": "https://github.com/advisories/GHSA-h5xr-fqvj-253p",
+      "date": "2026-07-22T17:58:50.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: DOM-Based XSS via Unsandboxed iframe srcdoc in HTML Preview",
+      "url": "https://github.com/advisories/GHSA-p3rg-hrf9-w9gj",
+      "date": "2026-07-22T17:58:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: DOM-Based XSS via Unsandboxed iframe srcdoc in HTML Preview",
+      "url": "https://github.com/advisories/GHSA-p3rg-hrf9-w9gj",
+      "date": "2026-07-22T17:58:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: DOM-Based XSS via Unsandboxed iframe srcdoc in HTML Preview",
+      "url": "https://github.com/advisories/GHSA-p3rg-hrf9-w9gj",
+      "date": "2026-07-22T17:58:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Race Condition in Git Clone Node Allows Authenticated Users to Achieve Remote Code Execution",
+      "url": "https://github.com/advisories/GHSA-g3r5-9h93-4j2c",
+      "date": "2026-07-22T17:56:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Race Condition in Git Clone Node Allows Authenticated Users to Achieve Remote Code Execution",
+      "url": "https://github.com/advisories/GHSA-g3r5-9h93-4j2c",
+      "date": "2026-07-22T17:56:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Race Condition in Git Clone Node Allows Authenticated Users to Achieve Remote Code Execution",
+      "url": "https://github.com/advisories/GHSA-g3r5-9h93-4j2c",
+      "date": "2026-07-22T17:56:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: AI Agents Project Viewer Privilege Escalation via run_node_tool",
+      "url": "https://github.com/advisories/GHSA-x5vx-c2c8-m3w9",
+      "date": "2026-07-22T17:55:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: AI Agents Project Viewer Privilege Escalation via run_node_tool",
+      "url": "https://github.com/advisories/GHSA-x5vx-c2c8-m3w9",
+      "date": "2026-07-22T17:55:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] Duplicate Advisory: DOM-Based XSS via Unsandboxed iframe srcdoc in HTML Preview",
+      "url": "https://github.com/advisories/GHSA-vhcw-f978-xjjg",
+      "date": "2026-07-22T17:55:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] Duplicate Advisory: Race Condition in Git Clone Node Allows Authenticated Users to Achieve Remote Code Execution",
+      "url": "https://github.com/advisories/GHSA-725q-c4vp-q4cg",
+      "date": "2026-07-22T17:54:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] Duplicate Advisory:  AI Agents Project Viewer Privilege Escalation via run_node_tool",
+      "url": "https://github.com/advisories/GHSA-w46p-w7w2-fr9g",
+      "date": "2026-07-22T17:54:32.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
@@ -34,111 +139,6 @@
       "date": "2026-07-21T22:08:29.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[sharp] sharp inherited vulnerabilities in libvips: CVE-2026-33327, CVE-2026-33328, CVE-2026-35590, CVE-2026-35591",
-      "url": "https://github.com/advisories/GHSA-f88m-g3jw-g9cj",
-      "date": "2026-07-21T22:07:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-xml-parser] fast-xml-parser: Repeated DOCTYPE declarations reset entity expansion limits",
-      "url": "https://github.com/advisories/GHSA-8r6m-32jq-jx6q",
-      "date": "2026-07-21T22:06:38.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[gitpython] GitPython: Environment-variable exfiltration via os.path.expandvars() on Repo.clone_from() URL",
-      "url": "https://github.com/advisories/GHSA-rwj8-pgh3-r573",
-      "date": "2026-07-21T22:06:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@hono/node-server] Node.js Adapter for Hono: Unauthenticated memory-leak DoS via aborted WebSocket handshake",
-      "url": "https://github.com/advisories/GHSA-9mqv-5hh9-4cgg",
-      "date": "2026-07-21T22:04:28.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[typeorm]  TypeORM: migration:generate template-literal code injection",
-      "url": "https://github.com/advisories/GHSA-2rp8-mm9q-fp49",
-      "date": "2026-07-21T21:59:24.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[typeorm]  TypeORM: migration:generate template-literal code injection",
-      "url": "https://github.com/advisories/GHSA-2rp8-mm9q-fp49",
-      "date": "2026-07-21T21:59:24.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[GitPython] GitPython: command injection via unguarded Git options in `Repo.archive()`, `git.ls_remote()`, and arbitrary file overwrite via `Repo.iter_commits()` / `Repo.blame()`",
-      "url": "https://github.com/advisories/GHSA-956x-8gvw-wg5v",
-      "date": "2026-07-21T20:10:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[GitPython] GitPython: Command Injection via git long-option prefix abbreviation bypass of CVE-2026-42215 blocklist",
-      "url": "https://github.com/advisories/GHSA-2f96-g7mh-g2hx",
-      "date": "2026-07-21T19:43:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[GitPython] GitPython unsafe clone option gate bypass through joined short options",
-      "url": "https://github.com/advisories/GHSA-v396-v7q4-x2qj",
-      "date": "2026-07-21T19:43:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[svgo] SVGO removeScripts plugin leaves some executable scripts intact",
-      "url": "https://github.com/advisories/GHSA-2p49-hgcm-8545",
-      "date": "2026-07-21T19:42:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[svgo] SVGO removeScripts plugin leaves some executable scripts intact",
-      "url": "https://github.com/advisories/GHSA-2p49-hgcm-8545",
-      "date": "2026-07-21T19:42:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[svgo] SVGO removeScripts plugin leaves some executable scripts intact",
-      "url": "https://github.com/advisories/GHSA-2p49-hgcm-8545",
-      "date": "2026-07-21T19:42:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dompurify] DOMPurify: `CUSTOM_ELEMENT_HANDLING` bypasses `afterSanitizeElements` for allowed custom elements.",
-      "url": "https://github.com/advisories/GHSA-c2j3-45gr-mqc4",
-      "date": "2026-07-21T19:41:08.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@vitest/browser] @vitest/browser: Browser Mode provider commands bypass the file-access permission gate",
-      "url": "https://github.com/advisories/GHSA-p63j-vcc4-9vmv",
-      "date": "2026-07-21T19:36:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@vitest/browser] @vitest/browser: Browser Mode provider commands bypass the file-access permission gate",
-      "url": "https://github.com/advisories/GHSA-p63j-vcc4-9vmv",
-      "date": "2026-07-21T19:36:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
