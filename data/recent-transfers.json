@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-07-22T11:56:21.148Z",
-  "count": 105,
+  "scannedAt": "2026-07-22T14:14:34.267Z",
+  "count": 104,
   "packages": [
     {
       "name": "xmldom",
@@ -336,8 +336,8 @@
       "currentOwner": "wooorm"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.0",
+      "name": "css-blank-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 27,
       "level": "MODERATE",
@@ -345,8 +345,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.1",
+      "name": "css-has-pseudo",
+      "version": "8.0.0",
       "ecosystem": "npm",
       "score": 27,
       "level": "MODERATE",
@@ -858,15 +858,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.60.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@fortawesome/react-fontawesome",
       "version": "3.5.0",
       "ecosystem": "npm",
@@ -874,6 +865,15 @@
       "level": "LOW",
       "previousOwner": "supercodepoet",
       "currentOwner": "lordofbacon"
+    },
+    {
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.60.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "oxc-minify",
@@ -921,15 +921,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.141.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.141.0",
       "ecosystem": "npm",
@@ -939,8 +930,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-arm64-gnu",
-      "version": "1.75.0",
+      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.141.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
