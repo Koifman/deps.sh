@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-07-22T06:36:01.541Z",
+  "fetchedAt": "2026-07-22T09:31:26.343Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0213: Vulnerability in ammonia",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0213.html",
+      "date": "2026-07-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[fast-uri] fast-uri vulnerable to host confusion via literal backslash authority delimiter",
       "url": "https://github.com/advisories/GHSA-v2hh-gcrm-f6hx",
@@ -131,13 +137,6 @@
       "title": "[@vitest/browser] @vitest/browser: Browser Mode provider commands bypass the file-access permission gate",
       "url": "https://github.com/advisories/GHSA-p63j-vcc4-9vmv",
       "date": "2026-07-21T19:36:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@sigstore/oci] Credential confusion in @sigstore/oci can leak registry credentials to an attacker-controlled registry",
-      "url": "https://github.com/advisories/GHSA-pf56-329r-95rw",
-      "date": "2026-07-21T19:34:05.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     }
