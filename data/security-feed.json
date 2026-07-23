@@ -1,7 +1,77 @@
 {
-  "fetchedAt": "2026-07-23T12:43:43.117Z",
+  "fetchedAt": "2026-07-23T15:15:53.989Z",
   "entries": [
     {
+      "title": "[next-auth] Auth.js: Configuration errors can cause existence-based auth checks to fail open (auth object populated with an error)",
+      "url": "https://github.com/advisories/GHSA-8fpg-xm3f-6cx3",
+      "date": "2026-07-23T14:52:26.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[next-auth] Auth.js: getToken() throws an uncaught exception on malformed Bearer authorization headers",
+      "url": "https://github.com/advisories/GHSA-xmf8-cvqr-rfgj",
+      "date": "2026-07-23T14:43:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[next-auth] Auth.js: getToken() throws an uncaught exception on malformed Bearer authorization headers",
+      "url": "https://github.com/advisories/GHSA-xmf8-cvqr-rfgj",
+      "date": "2026-07-23T14:43:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@auth/core] Auth.js: getToken() throws an uncaught exception on malformed Bearer authorization headers",
+      "url": "https://github.com/advisories/GHSA-xmf8-cvqr-rfgj",
+      "date": "2026-07-23T14:43:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[next-auth] Auth.js: Email normalizer validates the address before Unicode normalization, allowing a homoglyph @ bypass",
+      "url": "https://github.com/advisories/GHSA-7rqj-j65f-68wh",
+      "date": "2026-07-23T14:40:15.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[next-auth] Auth.js: Email normalizer validates the address before Unicode normalization, allowing a homoglyph @ bypass",
+      "url": "https://github.com/advisories/GHSA-7rqj-j65f-68wh",
+      "date": "2026-07-23T14:40:15.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@auth/core] Auth.js: Email normalizer validates the address before Unicode normalization, allowing a homoglyph @ bypass",
+      "url": "https://github.com/advisories/GHSA-7rqj-j65f-68wh",
+      "date": "2026-07-23T14:40:15.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[next-auth] Auth.js: OAuth state, nonce, and PKCE check cookies are not bound to the provider that created them",
+      "url": "https://github.com/advisories/GHSA-x445-f3h2-j279",
+      "date": "2026-07-23T14:31:53.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next-auth] Auth.js: OAuth state, nonce, and PKCE check cookies are not bound to the provider that created them",
+      "url": "https://github.com/advisories/GHSA-x445-f3h2-j279",
+      "date": "2026-07-23T14:31:53.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@auth/core] Auth.js: OAuth state, nonce, and PKCE check cookies are not bound to the provider that created them",
+      "url": "https://github.com/advisories/GHSA-x445-f3h2-j279",
+      "date": "2026-07-23T14:31:53.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
       "title": "[n8n] n8n: Snowflake Node executeQuery Operation Allows SQL Injection via Unparameterized Expression Interpolation",
       "url": "https://github.com/advisories/GHSA-652q-gvq3-74qv",
       "date": "2026-07-22T23:20:25.000Z",
@@ -69,76 +139,6 @@
       "url": "https://github.com/advisories/GHSA-pppj-hq3g-57pj",
       "date": "2026-07-22T23:16:21.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jupyterlab] JupyterLab: Cross-site scripting (XSS) via crafted settings file (`overrides.json`)",
-      "url": "https://github.com/advisories/GHSA-pppj-hq3g-57pj",
-      "date": "2026-07-22T23:16:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jupyterlab] JupyterLab: Image viewer allows XSS when opening malicious image in new browser tab",
-      "url": "https://github.com/advisories/GHSA-gx64-gj6p-pc4c",
-      "date": "2026-07-22T23:14:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jupyterlab] JupyterLab: Image viewer allows XSS when opening malicious image in new browser tab",
-      "url": "https://github.com/advisories/GHSA-gx64-gj6p-pc4c",
-      "date": "2026-07-22T23:14:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jupyterlab] JupyterLab: PyPI extension blocklist package-name canonicalization bypass",
-      "url": "https://github.com/advisories/GHSA-89vp-jrxv-24w8",
-      "date": "2026-07-22T23:14:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jupyterlab] JupyterLab: PyPI extension blocklist package-name canonicalization bypass",
-      "url": "https://github.com/advisories/GHSA-89vp-jrxv-24w8",
-      "date": "2026-07-22T23:14:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jupyterlab] JupyterLab PluginManager lock-rule enforcement bypass",
-      "url": "https://github.com/advisories/GHSA-h5v5-8746-g7mm",
-      "date": "2026-07-22T23:13:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jupyterlab] JupyterLab PluginManager lock-rule enforcement bypass",
-      "url": "https://github.com/advisories/GHSA-h5v5-8746-g7mm",
-      "date": "2026-07-22T23:13:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jupyterlab] JupyterLab: Allowlist/blocklist check in `PyPIExtensionManager.install()` not enforced for direct callers (missing `await`)",
-      "url": "https://github.com/advisories/GHSA-whvh-wf3x-g77j",
-      "date": "2026-07-22T23:12:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[jupyterlab] JupyterLab: Allowlist/blocklist check in `PyPIExtensionManager.install()` not enforced for direct callers (missing `await`)",
-      "url": "https://github.com/advisories/GHSA-whvh-wf3x-g77j",
-      "date": "2026-07-22T23:12:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[next] Next.js: Server-Side Request Forgery in Server Actions on custom servers",
-      "url": "https://github.com/advisories/GHSA-89xv-2m56-2m9x",
-      "date": "2026-07-22T23:09:50.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
