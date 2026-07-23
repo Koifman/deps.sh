@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-07-23T17:38:03.625Z",
+  "fetchedAt": "2026-07-23T19:36:03.593Z",
   "entries": [
+    {
+      "title": "[pypdf] pypdf: Possible infinite loop for not terminated inline images (ASCII85 and ASCIIHex filter)",
+      "url": "https://github.com/advisories/GHSA-g867-7843-wf8q",
+      "date": "2026-07-23T16:37:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pypdf] pypdf: Possible infinite loop for not terminated inline images",
+      "url": "https://github.com/advisories/GHSA-5xf7-4p34-54qr",
+      "date": "2026-07-23T16:36:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[pypdf] pypdf: Possible long runtimes for repeated malformed cross-reference entries",
       "url": "https://github.com/advisories/GHSA-55h5-xmcq-c37v",
@@ -124,20 +138,6 @@
       "title": "[n8n] n8n: PostgresTrigger Node SQL Injection Allows Authenticated Users to Execute Arbitrary SQL on Connected PostgreSQL Instances",
       "url": "https://github.com/advisories/GHSA-jqwr-vx3p-r266",
       "date": "2026-07-22T23:20:05.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: PostgresTrigger Node SQL Injection Allows Authenticated Users to Execute Arbitrary SQL on Connected PostgreSQL Instances",
-      "url": "https://github.com/advisories/GHSA-jqwr-vx3p-r266",
-      "date": "2026-07-22T23:20:05.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Cross-Tenant Module-Cache Poisoning in the JS Task Runner",
-      "url": "https://github.com/advisories/GHSA-9cmh-xcqm-5hqr",
-      "date": "2026-07-22T23:18:41.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
