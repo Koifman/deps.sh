@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-07-23T15:15:53.989Z",
+  "fetchedAt": "2026-07-23T17:38:03.625Z",
   "entries": [
+    {
+      "title": "[pypdf] pypdf: Possible long runtimes for repeated malformed cross-reference entries",
+      "url": "https://github.com/advisories/GHSA-55h5-xmcq-c37v",
+      "date": "2026-07-23T15:07:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pypdf] pypdf: Possible large memory usage for wrong image dimensions",
+      "url": "https://github.com/advisories/GHSA-5qjq-93h5-hrgp",
+      "date": "2026-07-23T15:06:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[postcss] PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments",
+      "url": "https://github.com/advisories/GHSA-6g55-p6wh-862q",
+      "date": "2026-07-23T15:06:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[next-auth] Auth.js: Configuration errors can cause existence-based auth checks to fail open (auth object populated with an error)",
       "url": "https://github.com/advisories/GHSA-8fpg-xm3f-6cx3",
@@ -119,27 +140,6 @@
       "date": "2026-07-22T23:18:41.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Cross-Tenant Module-Cache Poisoning in the JS Task Runner",
-      "url": "https://github.com/advisories/GHSA-9cmh-xcqm-5hqr",
-      "date": "2026-07-22T23:18:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Cross-Tenant Module-Cache Poisoning in the JS Task Runner",
-      "url": "https://github.com/advisories/GHSA-9cmh-xcqm-5hqr",
-      "date": "2026-07-22T23:18:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jupyterlab] JupyterLab: Cross-site scripting (XSS) via crafted settings file (`overrides.json`)",
-      "url": "https://github.com/advisories/GHSA-pppj-hq3g-57pj",
-      "date": "2026-07-22T23:16:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
