@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-07-23T19:36:03.593Z",
+  "fetchedAt": "2026-07-23T21:12:26.590Z",
   "entries": [
+    {
+      "title": "[react-router] React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass)",
+      "url": "https://github.com/advisories/GHSA-wrjc-x8rr-h8h6",
+      "date": "2026-07-23T19:38:29.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[react-router] React Router: Open redirect leading to XSS",
+      "url": "https://github.com/advisories/GHSA-jjmj-jmhj-qwj2",
+      "date": "2026-07-23T19:36:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[react-router-dom] React Router: Open redirect leading to XSS",
+      "url": "https://github.com/advisories/GHSA-jjmj-jmhj-qwj2",
+      "date": "2026-07-23T19:36:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[react-router] React Router: RSCErrorHandler Missing Protocol Validation (XSS)",
+      "url": "https://github.com/advisories/GHSA-h8fp-f39c-q6mh",
+      "date": "2026-07-23T19:35:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[react-router] React Router: Arbitrary Constructor Injection via deserializeErrors() in React Router SSR Hydration",
+      "url": "https://github.com/advisories/GHSA-337j-9hxr-rhxg",
+      "date": "2026-07-23T19:34:16.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[find-my-way] find-my-way: DDoS with HTTP2",
+      "url": "https://github.com/advisories/GHSA-c96f-x56v-gq3h",
+      "date": "2026-07-23T19:33:15.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[pypdf] pypdf: Possible infinite loop for not terminated inline images (ASCII85 and ASCIIHex filter)",
       "url": "https://github.com/advisories/GHSA-g867-7843-wf8q",
@@ -96,48 +138,6 @@
       "title": "[next-auth] Auth.js: OAuth state, nonce, and PKCE check cookies are not bound to the provider that created them",
       "url": "https://github.com/advisories/GHSA-x445-f3h2-j279",
       "date": "2026-07-23T14:31:53.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@auth/core] Auth.js: OAuth state, nonce, and PKCE check cookies are not bound to the provider that created them",
-      "url": "https://github.com/advisories/GHSA-x445-f3h2-j279",
-      "date": "2026-07-23T14:31:53.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Snowflake Node executeQuery Operation Allows SQL Injection via Unparameterized Expression Interpolation",
-      "url": "https://github.com/advisories/GHSA-652q-gvq3-74qv",
-      "date": "2026-07-22T23:20:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Snowflake Node executeQuery Operation Allows SQL Injection via Unparameterized Expression Interpolation",
-      "url": "https://github.com/advisories/GHSA-652q-gvq3-74qv",
-      "date": "2026-07-22T23:20:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Snowflake Node executeQuery Operation Allows SQL Injection via Unparameterized Expression Interpolation",
-      "url": "https://github.com/advisories/GHSA-652q-gvq3-74qv",
-      "date": "2026-07-22T23:20:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: PostgresTrigger Node SQL Injection Allows Authenticated Users to Execute Arbitrary SQL on Connected PostgreSQL Instances",
-      "url": "https://github.com/advisories/GHSA-jqwr-vx3p-r266",
-      "date": "2026-07-22T23:20:05.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: PostgresTrigger Node SQL Injection Allows Authenticated Users to Execute Arbitrary SQL on Connected PostgreSQL Instances",
-      "url": "https://github.com/advisories/GHSA-jqwr-vx3p-r266",
-      "date": "2026-07-22T23:20:05.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
