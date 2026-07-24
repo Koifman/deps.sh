@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-07-24T13:59:57.199Z",
+  "fetchedAt": "2026-07-24T15:39:14.152Z",
   "entries": [
+    {
+      "title": "[react-router] React Router: Unauthenticated Denial of Service via Inefficient Route Matching",
+      "url": "https://github.com/advisories/GHSA-chx6-hx7r-mcp5",
+      "date": "2026-07-24T14:06:58.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[liquidjs] LiquidJS: `pop` filter bypasses `memoryLimit` accounting that its array-filter siblings enforce",
+      "url": "https://github.com/advisories/GHSA-g357-x5c3-c72p",
+      "date": "2026-07-24T14:05:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[builder-util-runtime] electron-updater: Cross-origin redirect leaks `PRIVATE-TOKEN` and mixed-case `Authorization` credentials in `builder-util-runtime`",
+      "url": "https://github.com/advisories/GHSA-p2f4-r6v6-j797",
+      "date": "2026-07-24T14:03:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[app-builder-lib] electron-updater: Uncontrolled search path elements within `AppImage` built by `app-builder-lib`",
+      "url": "https://github.com/advisories/GHSA-7g7r-gx96-252g",
+      "date": "2026-07-24T14:00:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[react-router] React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass)",
       "url": "https://github.com/advisories/GHSA-wrjc-x8rr-h8h6",
@@ -112,34 +140,6 @@
       "date": "2026-07-23T14:40:15.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[next-auth] Auth.js: Email normalizer validates the address before Unicode normalization, allowing a homoglyph @ bypass",
-      "url": "https://github.com/advisories/GHSA-7rqj-j65f-68wh",
-      "date": "2026-07-23T14:40:15.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@auth/core] Auth.js: Email normalizer validates the address before Unicode normalization, allowing a homoglyph @ bypass",
-      "url": "https://github.com/advisories/GHSA-7rqj-j65f-68wh",
-      "date": "2026-07-23T14:40:15.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[next-auth] Auth.js: OAuth state, nonce, and PKCE check cookies are not bound to the provider that created them",
-      "url": "https://github.com/advisories/GHSA-x445-f3h2-j279",
-      "date": "2026-07-23T14:31:53.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next-auth] Auth.js: OAuth state, nonce, and PKCE check cookies are not bound to the provider that created them",
-      "url": "https://github.com/advisories/GHSA-x445-f3h2-j279",
-      "date": "2026-07-23T14:31:53.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
