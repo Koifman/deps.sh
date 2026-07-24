@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-07-24T17:43:57.078Z",
+  "fetchedAt": "2026-07-24T19:39:51.422Z",
   "entries": [
     {
-      "title": "[react-router] React Router: Unauthenticated Denial of Service via Inefficient Route Matching",
-      "url": "https://github.com/advisories/GHSA-chx6-hx7r-mcp5",
-      "date": "2026-07-24T14:06:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[liquidjs] LiquidJS: `pop` filter bypasses `memoryLimit` accounting that its array-filter siblings enforce",
-      "url": "https://github.com/advisories/GHSA-g357-x5c3-c72p",
-      "date": "2026-07-24T14:05:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[builder-util-runtime] electron-updater: Cross-origin redirect leaks `PRIVATE-TOKEN` and mixed-case `Authorization` credentials in `builder-util-runtime`",
-      "url": "https://github.com/advisories/GHSA-p2f4-r6v6-j797",
-      "date": "2026-07-24T14:03:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[app-builder-lib] electron-updater: Uncontrolled search path elements within `AppImage` built by `app-builder-lib`",
-      "url": "https://github.com/advisories/GHSA-7g7r-gx96-252g",
-      "date": "2026-07-24T14:00:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-router] React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass)",
-      "url": "https://github.com/advisories/GHSA-wrjc-x8rr-h8h6",
-      "date": "2026-07-23T19:38:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[react-router] React Router: Open redirect leading to XSS",
-      "url": "https://github.com/advisories/GHSA-jjmj-jmhj-qwj2",
-      "date": "2026-07-23T19:36:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[react-router-dom] React Router: Open redirect leading to XSS",
-      "url": "https://github.com/advisories/GHSA-jjmj-jmhj-qwj2",
-      "date": "2026-07-23T19:36:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[react-router] React Router: RSCErrorHandler Missing Protocol Validation (XSS)",
-      "url": "https://github.com/advisories/GHSA-h8fp-f39c-q6mh",
-      "date": "2026-07-23T19:35:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[react-router] React Router: Arbitrary Constructor Injection via deserializeErrors() in React Router SSR Hydration",
-      "url": "https://github.com/advisories/GHSA-337j-9hxr-rhxg",
-      "date": "2026-07-23T19:34:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[find-my-way] find-my-way: DDoS with HTTP2",
-      "url": "https://github.com/advisories/GHSA-c96f-x56v-gq3h",
-      "date": "2026-07-23T19:33:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pypdf] pypdf: Possible infinite loop for not terminated inline images (ASCII85 and ASCIIHex filter)",
-      "url": "https://github.com/advisories/GHSA-g867-7843-wf8q",
-      "date": "2026-07-23T16:37:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pypdf] pypdf: Possible infinite loop for not terminated inline images",
-      "url": "https://github.com/advisories/GHSA-5xf7-4p34-54qr",
-      "date": "2026-07-23T16:36:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pypdf] pypdf: Possible long runtimes for repeated malformed cross-reference entries",
-      "url": "https://github.com/advisories/GHSA-55h5-xmcq-c37v",
-      "date": "2026-07-23T15:07:34.000Z",
+      "title": "[open-webui] Open WebUI: /api/v1/channels/{id}/members exposes full user model including sensitive credentials",
+      "url": "https://github.com/advisories/GHSA-gh7p-78x6-jw6m",
+      "date": "2026-07-24T17:04:56.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[pypdf] pypdf: Possible large memory usage for wrong image dimensions",
-      "url": "https://github.com/advisories/GHSA-5qjq-93h5-hrgp",
-      "date": "2026-07-23T15:06:59.000Z",
+      "title": "[open-webui] Open WebUI: Private channel messages can be disclosed through cross-channel thread parent_id binding",
+      "url": "https://github.com/advisories/GHSA-73x5-h92w-xc2j",
+      "date": "2026-07-24T17:04:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Cross-user model-list exposure via static cache key in get_all_models (aiocache key= vs key_builder= misuse)",
+      "url": "https://github.com/advisories/GHSA-3wp3-xxj9-5jqq",
+      "date": "2026-07-24T17:03:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Upload `metadata.knowledge_id` bypasses the knowledge-base write-access check (read-only users can add files to KB)",
+      "url": "https://github.com/advisories/GHSA-7r7x-gjvr-448g",
+      "date": "2026-07-24T17:02:15.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[postcss] PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments",
-      "url": "https://github.com/advisories/GHSA-6g55-p6wh-862q",
-      "date": "2026-07-23T15:06:17.000Z",
+      "title": "[open-webui] Open WebUI: Cross-user code-interpreter and tool execution via unvalidated Socket.IO event-caller session_id",
+      "url": "https://github.com/advisories/GHSA-74h3-cxq7-vc5q",
+      "date": "2026-07-24T17:01:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Cross-channel message overwrite via chat completion API (single-model and multimodel message_ids)",
+      "url": "https://github.com/advisories/GHSA-x2ff-v5v8-m75m",
+      "date": "2026-07-24T17:01:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Realtime endpoints accept Redis-revoked JWTs after signout/backchannel logout",
+      "url": "https://github.com/advisories/GHSA-855v-hq7w-jmjw",
+      "date": "2026-07-24T17:00:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Unauthenticated WebSocket Access to Collaborative Document Handlers (ydoc:awareness:update, ydoc:document:leave)",
+      "url": "https://github.com/advisories/GHSA-gmfw-g93r-vg53",
+      "date": "2026-07-24T16:59:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[open-webui] Open WebUI: POST /api/v1/images/edit bypasses the global image-edit switch and the per-user image-generation permission",
+      "url": "https://github.com/advisories/GHSA-rqj7-6wrp-6g2g",
+      "date": "2026-07-24T16:58:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: ReDoS in skill-mention regexes causes whole-instance DoS on default config",
+      "url": "https://github.com/advisories/GHSA-ffpj-xv5c-p3gw",
+      "date": "2026-07-24T16:55:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Scheduled automations continue after pending-user deactivation and stored model ACL revocation",
+      "url": "https://github.com/advisories/GHSA-mvx4-532p-xfm9",
+      "date": "2026-07-24T16:55:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Account enumeration via observable login timing discrepancy",
+      "url": "https://github.com/advisories/GHSA-7rw5-9f7q-xj36",
+      "date": "2026-07-24T16:55:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Stored web worker XSS via Pyodide",
+      "url": "https://github.com/advisories/GHSA-4r2p-27mh-5m22",
+      "date": "2026-07-24T16:54:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@anthropic-ai/claude-code] Claude Code: Sandbox Escape via Git Worktree Path Confusion Allows Unsandboxed Code Execution",
+      "url": "https://github.com/advisories/GHSA-7835-87q9-rgvv",
+      "date": "2026-07-24T16:54:12.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[next-auth] Auth.js: Configuration errors can cause existence-based auth checks to fail open (auth object populated with an error)",
-      "url": "https://github.com/advisories/GHSA-8fpg-xm3f-6cx3",
-      "date": "2026-07-23T14:52:26.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[next-auth] Auth.js: getToken() throws an uncaught exception on malformed Bearer authorization headers",
-      "url": "https://github.com/advisories/GHSA-xmf8-cvqr-rfgj",
-      "date": "2026-07-23T14:43:44.000Z",
+      "title": "[js-yaml] js-yaml: Exponential parsing time in flow collections leads to denial of service",
+      "url": "https://github.com/advisories/GHSA-pm4m-ph32-ghv5",
+      "date": "2026-07-24T16:47:37.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[next-auth] Auth.js: getToken() throws an uncaught exception on malformed Bearer authorization headers",
-      "url": "https://github.com/advisories/GHSA-xmf8-cvqr-rfgj",
-      "date": "2026-07-23T14:43:44.000Z",
+      "title": "[react-router] React Router: RSC Mode CSRF Bypass Allows Action Execution Before 400 Response",
+      "url": "https://github.com/advisories/GHSA-qwww-vcr4-c8h2",
+      "date": "2026-07-24T16:44:43.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@auth/core] Auth.js: getToken() throws an uncaught exception on malformed Bearer authorization headers",
-      "url": "https://github.com/advisories/GHSA-xmf8-cvqr-rfgj",
-      "date": "2026-07-23T14:43:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[aws-cdk.aws-codebuild] AWS CDK CodeBuild S3 Log Encryption Boolean Inversion",
+      "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
+      "date": "2026-07-24T16:44:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
     },
     {
-      "title": "[next-auth] Auth.js: Email normalizer validates the address before Unicode normalization, allowing a homoglyph @ bypass",
-      "url": "https://github.com/advisories/GHSA-7rqj-j65f-68wh",
-      "date": "2026-07-23T14:40:15.000Z",
+      "title": "[aws-cdk-lib] AWS CDK CodeBuild S3 Log Encryption Boolean Inversion",
+      "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
+      "date": "2026-07-24T16:44:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@aws-cdk/aws-codebuild] AWS CDK CodeBuild S3 Log Encryption Boolean Inversion",
+      "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
+      "date": "2026-07-24T16:44:21.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "LOW"
+    },
+    {
+      "title": "[aws-cdk-lib] AWS CDK CodeBuild S3 Log Encryption Boolean Inversion",
+      "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
+      "date": "2026-07-24T16:44:21.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
     }
   ]
 }
