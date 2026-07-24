@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-24T19:39:51.422Z",
+  "fetchedAt": "2026-07-24T21:12:09.962Z",
   "entries": [
     {
       "title": "[open-webui] Open WebUI: /api/v1/channels/{id}/members exposes full user model including sensitive credentials",
@@ -114,20 +114,6 @@
       "severity": "HIGH"
     },
     {
-      "title": "[aws-cdk.aws-codebuild] AWS CDK CodeBuild S3 Log Encryption Boolean Inversion",
-      "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
-      "date": "2026-07-24T16:44:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[aws-cdk-lib] AWS CDK CodeBuild S3 Log Encryption Boolean Inversion",
-      "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
-      "date": "2026-07-24T16:44:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
       "title": "[@aws-cdk/aws-codebuild] AWS CDK CodeBuild S3 Log Encryption Boolean Inversion",
       "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
       "date": "2026-07-24T16:44:21.000Z",
@@ -139,6 +125,20 @@
       "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
       "date": "2026-07-24T16:44:21.000Z",
       "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[aws-cdk.aws-codebuild] AWS CDK CodeBuild S3 Log Encryption Boolean Inversion",
+      "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
+      "date": "2026-07-24T16:44:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[aws-cdk-lib] AWS CDK CodeBuild S3 Log Encryption Boolean Inversion",
+      "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
+      "date": "2026-07-24T16:44:21.000Z",
+      "ecosystem": "pypi",
       "severity": "LOW"
     }
   ]
