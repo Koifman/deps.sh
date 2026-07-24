@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-07-24T21:12:09.962Z",
+  "fetchedAt": "2026-07-24T23:08:20.452Z",
   "entries": [
     {
-      "title": "[open-webui] Open WebUI: /api/v1/channels/{id}/members exposes full user model including sensitive credentials",
-      "url": "https://github.com/advisories/GHSA-gh7p-78x6-jw6m",
-      "date": "2026-07-24T17:04:56.000Z",
-      "ecosystem": "pypi",
+      "title": "[@frontmcp/adapters] FrontMCP: Server-Side Request Forgery (SSRF) in the OpenAPI adapter spec-change poller",
+      "url": "https://github.com/advisories/GHSA-8q49-2h5h-434x",
+      "date": "2026-07-24T22:40:00.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[open-webui] Open WebUI: Private channel messages can be disclosed through cross-channel thread parent_id binding",
-      "url": "https://github.com/advisories/GHSA-73x5-h92w-xc2j",
-      "date": "2026-07-24T17:04:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Cross-user model-list exposure via static cache key in get_all_models (aiocache key= vs key_builder= misuse)",
-      "url": "https://github.com/advisories/GHSA-3wp3-xxj9-5jqq",
-      "date": "2026-07-24T17:03:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Upload `metadata.knowledge_id` bypasses the knowledge-base write-access check (read-only users can add files to KB)",
-      "url": "https://github.com/advisories/GHSA-7r7x-gjvr-448g",
-      "date": "2026-07-24T17:02:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Cross-user code-interpreter and tool execution via unvalidated Socket.IO event-caller session_id",
-      "url": "https://github.com/advisories/GHSA-74h3-cxq7-vc5q",
-      "date": "2026-07-24T17:01:54.000Z",
+      "title": "[bedrock-agentcore] AWS Bedrock AgentCore: Improper neutralization of argument delimiters in the Python SDK install_packages()",
+      "url": "https://github.com/advisories/GHSA-j6g5-3hh3-pgw8",
+      "date": "2026-07-24T22:38:57.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[open-webui] Open WebUI: Cross-channel message overwrite via chat completion API (single-model and multimodel message_ids)",
-      "url": "https://github.com/advisories/GHSA-x2ff-v5v8-m75m",
-      "date": "2026-07-24T17:01:08.000Z",
+      "title": "[libp2p] libp2p: yamux connection DoS via oversized data frame",
+      "url": "https://github.com/advisories/GHSA-hmj8-5xmh-5573",
+      "date": "2026-07-24T22:37:17.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[open-webui] Open WebUI: Realtime endpoints accept Redis-revoked JWTs after signout/backchannel logout",
-      "url": "https://github.com/advisories/GHSA-855v-hq7w-jmjw",
-      "date": "2026-07-24T17:00:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Unauthenticated WebSocket Access to Collaborative Document Handlers (ydoc:awareness:update, ydoc:document:leave)",
-      "url": "https://github.com/advisories/GHSA-gmfw-g93r-vg53",
-      "date": "2026-07-24T16:59:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[open-webui] Open WebUI: POST /api/v1/images/edit bypasses the global image-edit switch and the per-user image-generation permission",
-      "url": "https://github.com/advisories/GHSA-rqj7-6wrp-6g2g",
-      "date": "2026-07-24T16:58:48.000Z",
-      "ecosystem": "pypi",
+      "title": "[quasar] Quasar: Prototype pollution in the extend() utility",
+      "url": "https://github.com/advisories/GHSA-3r53-75j5-3g7j",
+      "date": "2026-07-24T22:36:47.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[open-webui] Open WebUI: ReDoS in skill-mention regexes causes whole-instance DoS on default config",
-      "url": "https://github.com/advisories/GHSA-ffpj-xv5c-p3gw",
-      "date": "2026-07-24T16:55:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Scheduled automations continue after pending-user deactivation and stored model ACL revocation",
-      "url": "https://github.com/advisories/GHSA-mvx4-532p-xfm9",
-      "date": "2026-07-24T16:55:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Account enumeration via observable login timing discrepancy",
-      "url": "https://github.com/advisories/GHSA-7rw5-9f7q-xj36",
-      "date": "2026-07-24T16:55:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Stored web worker XSS via Pyodide",
-      "url": "https://github.com/advisories/GHSA-4r2p-27mh-5m22",
-      "date": "2026-07-24T16:54:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@anthropic-ai/claude-code] Claude Code: Sandbox Escape via Git Worktree Path Confusion Allows Unsandboxed Code Execution",
-      "url": "https://github.com/advisories/GHSA-7835-87q9-rgvv",
-      "date": "2026-07-24T16:54:12.000Z",
+      "title": "[shescape] Shescape: Quadratic-time denial of service in the flag-protection",
+      "url": "https://github.com/advisories/GHSA-gm3r-q2wp-hw87",
+      "date": "2026-07-24T22:35:09.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[js-yaml] js-yaml: Exponential parsing time in flow collections leads to denial of service",
-      "url": "https://github.com/advisories/GHSA-pm4m-ph32-ghv5",
-      "date": "2026-07-24T16:47:37.000Z",
+      "title": "[shescape] Shescape: Quadratic-time denial of service in the flag-protection",
+      "url": "https://github.com/advisories/GHSA-gm3r-q2wp-hw87",
+      "date": "2026-07-24T22:35:09.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[react-router] React Router: RSC Mode CSRF Bypass Allows Action Execution Before 400 Response",
-      "url": "https://github.com/advisories/GHSA-qwww-vcr4-c8h2",
-      "date": "2026-07-24T16:44:43.000Z",
+      "title": "[shescape] Shescape: Home-directory disclosure in assignment context on Unix with Dash",
+      "url": "https://github.com/advisories/GHSA-q53c-4prm-w95q",
+      "date": "2026-07-24T22:34:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[shescape] Shescape: Home-directory disclosure in assignment context on Unix with Dash",
+      "url": "https://github.com/advisories/GHSA-q53c-4prm-w95q",
+      "date": "2026-07-24T22:34:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[shescape] Shescape: Shell injection via unescaped parentheses on Windows with CMD",
+      "url": "https://github.com/advisories/GHSA-w4hw-qcx7-56pr",
+      "date": "2026-07-24T22:34:24.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[shescape] Shescape: Shell injection via unescaped parentheses on Windows with CMD",
+      "url": "https://github.com/advisories/GHSA-w4hw-qcx7-56pr",
+      "date": "2026-07-24T22:34:24.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[shescape] Shescape: Path disclosure on Unix with Zsh",
+      "url": "https://github.com/advisories/GHSA-6v4m-fw66-8r4x",
+      "date": "2026-07-24T22:33:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[shescape] Shescape: Path disclosure on Unix with Zsh",
+      "url": "https://github.com/advisories/GHSA-6v4m-fw66-8r4x",
+      "date": "2026-07-24T22:33:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[awslabs.aws-api-mcp-server] AWS API MCP Server Security Policy Bypass via Startup Initialization Failure",
+      "url": "https://github.com/advisories/GHSA-29w2-fq35-v728",
+      "date": "2026-07-24T22:33:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[brace-expansion] brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
+      "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
+      "date": "2026-07-24T21:53:15.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@aws-cdk/aws-codebuild] AWS CDK CodeBuild S3 Log Encryption Boolean Inversion",
-      "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
-      "date": "2026-07-24T16:44:21.000Z",
+      "title": "[sm-crypto] sm-crypto: Predictable SM2 key generation in Node.js: default RNG uses Math.random + wall clock",
+      "url": "https://github.com/advisories/GHSA-vh45-f885-3848",
+      "date": "2026-07-24T21:50:46.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[aws-cdk-lib] AWS CDK CodeBuild S3 Log Encryption Boolean Inversion",
-      "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
-      "date": "2026-07-24T16:44:21.000Z",
+      "title": "[vantage6] vantage6: Algorithm developer can edit another developer's algorithm that is pending / under review",
+      "url": "https://github.com/advisories/GHSA-47w6-gwp4-w6vc",
+      "date": "2026-07-24T21:49:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase: SSRF via bare fetch() in uploadUrl during AI table generation",
+      "url": "https://github.com/advisories/GHSA-hfhx-w8p8-4hc7",
+      "date": "2026-07-24T21:47:55.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "MODERATE"
     },
     {
-      "title": "[aws-cdk.aws-codebuild] AWS CDK CodeBuild S3 Log Encryption Boolean Inversion",
-      "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
-      "date": "2026-07-24T16:44:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
+      "title": "[@anephenix/hub] @anephenix/hub: Unauthenticated WebSocket RPC Waiter Resource Exhaustion",
+      "url": "https://github.com/advisories/GHSA-g5vv-q72c-7j78",
+      "date": "2026-07-24T21:47:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "[aws-cdk-lib] AWS CDK CodeBuild S3 Log Encryption Boolean Inversion",
-      "url": "https://github.com/advisories/GHSA-464c-974j-9xm6",
-      "date": "2026-07-24T16:44:21.000Z",
+      "title": "[GitPython] GitPython: Environment-variable exfiltration via Repo.create_remote() / Remote.add() URL (incomplete fix of GHSA-rwj8-pgh3-r573)",
+      "url": "https://github.com/advisories/GHSA-94p4-4cq8-9g67",
+      "date": "2026-07-24T21:45:20.000Z",
       "ecosystem": "pypi",
-      "severity": "LOW"
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase: SSRF via DNS rebinding in the REST datasource integration",
+      "url": "https://github.com/advisories/GHSA-v42f-v8xc-j435",
+      "date": "2026-07-24T21:44:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
