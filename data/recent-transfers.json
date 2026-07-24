@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-07-23T23:06:16.318Z",
+  "scannedAt": "2026-07-24T03:30:47.808Z",
   "count": 106,
   "packages": [
     {
@@ -643,7 +643,7 @@
     },
     {
       "name": "inversify",
-      "version": "8.2.2",
+      "version": "8.2.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -696,6 +696,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "cropperjs",
+      "version": "2.1.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "fengyuanchen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@appium/tsconfig",
       "version": "1.1.2",
       "ecosystem": "npm",
@@ -714,13 +723,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "cropperjs",
-      "version": "2.1.1",
+      "name": "@nevware21/ts-async",
+      "version": "0.6.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "fengyuanchen",
-      "currentOwner": "GitHub Actions"
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "@lingui/message-utils",
@@ -730,15 +739,6 @@
       "level": "MODERATE",
       "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@nevware21/ts-async",
-      "version": "0.6.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
     },
     {
       "name": "@vimeo/player",
@@ -804,21 +804,21 @@
       "currentOwner": "microsoft1es"
     },
     {
+      "name": "meriyah",
+      "version": "7.2.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "meriyah",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@oxfmt/binding-linux-x64-gnu",
       "version": "0.60.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "meriyah",
-      "version": "7.1.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "meriyah",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -921,7 +921,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-x64",
+      "name": "@oxc-parser/binding-darwin-arm64",
       "version": "0.141.0",
       "ecosystem": "npm",
       "score": 20,
@@ -930,7 +930,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-arm64",
+      "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.141.0",
       "ecosystem": "npm",
       "score": 20,
