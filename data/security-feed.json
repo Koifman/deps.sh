@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-07-27T15:47:43.355Z",
+  "fetchedAt": "2026-07-27T17:48:28.408Z",
   "entries": [
+    {
+      "title": "[@steipete/summarize-core] @steipete/summarize is Vulnerable to Disk Exhaustion via Crafted Media Responses",
+      "url": "https://github.com/advisories/GHSA-q9xm-f36c-xm3q",
+      "date": "2026-07-27T16:06:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nanobot-ai] Nanobot contains a server-side request forgery vulnerability in the web_fetch tool",
+      "url": "https://github.com/advisories/GHSA-434r-7c99-hwf3",
+      "date": "2026-07-27T16:02:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0216: Vulnerability in nostr",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0216.html",
@@ -125,20 +139,6 @@
       "date": "2026-07-24T21:47:55.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@anephenix/hub] @anephenix/hub: Unauthenticated WebSocket RPC Waiter Resource Exhaustion",
-      "url": "https://github.com/advisories/GHSA-g5vv-q72c-7j78",
-      "date": "2026-07-24T21:47:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[GitPython] GitPython: Environment-variable exfiltration via Repo.create_remote() / Remote.add() URL (incomplete fix of GHSA-rwj8-pgh3-r573)",
-      "url": "https://github.com/advisories/GHSA-94p4-4cq8-9g67",
-      "date": "2026-07-24T21:45:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
