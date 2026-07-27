@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-07-27T12:31:54.355Z",
+  "fetchedAt": "2026-07-27T15:47:43.355Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0216: Vulnerability in nostr",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0216.html",
+      "date": "2026-07-27T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@frontmcp/adapters] FrontMCP: Server-Side Request Forgery (SSRF) in the OpenAPI adapter spec-change poller",
       "url": "https://github.com/advisories/GHSA-8q49-2h5h-434x",
@@ -132,13 +138,6 @@
       "url": "https://github.com/advisories/GHSA-94p4-4cq8-9g67",
       "date": "2026-07-24T21:45:20.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase: SSRF via DNS rebinding in the REST datasource integration",
-      "url": "https://github.com/advisories/GHSA-v42f-v8xc-j435",
-      "date": "2026-07-24T21:44:30.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
