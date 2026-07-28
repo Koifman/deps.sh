@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-07-28T19:42:17.332Z",
+  "fetchedAt": "2026-07-28T21:13:54.165Z",
   "entries": [
+    {
+      "title": "[deepsearcher] zilliztech deep-searcher has an Incorrect Privilege Assignment issue",
+      "url": "https://github.com/advisories/GHSA-43px-gpwc-q84v",
+      "date": "2026-07-28T20:54:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@nocobase/plugin-collection-sql] NocoBase: Sensitive Data Exposure via SQL Blacklist Bypass",
+      "url": "https://github.com/advisories/GHSA-v8vm-cqh8-q87q",
+      "date": "2026-07-28T20:53:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@nocobase/plugin-collection-sql] NocoBase: Sensitive Data Exposure via SQL Blacklist Bypass",
+      "url": "https://github.com/advisories/GHSA-v8vm-cqh8-q87q",
+      "date": "2026-07-28T20:53:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@nocobase/plugin-collection-sql] NocoBase: Sensitive Data Exposure via SQL Blacklist Bypass",
+      "url": "https://github.com/advisories/GHSA-v8vm-cqh8-q87q",
+      "date": "2026-07-28T20:53:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hermes-agent] hermes-agent has an Injection issue",
+      "url": "https://github.com/advisories/GHSA-33qv-c5qm-799v",
+      "date": "2026-07-28T19:57:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[hermes-agent] hermes-agent has an Uncontrolled Resource Consumption issue",
+      "url": "https://github.com/advisories/GHSA-pmqc-57g8-c22c",
+      "date": "2026-07-28T19:46:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[hermes-agent] hermes-agent has an Injection issue",
       "url": "https://github.com/advisories/GHSA-xq8w-9jvx-gm3v",
@@ -95,48 +137,6 @@
       "date": "2026-07-24T22:37:17.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[quasar] Quasar: Prototype pollution in the extend() utility",
-      "url": "https://github.com/advisories/GHSA-3r53-75j5-3g7j",
-      "date": "2026-07-24T22:36:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[shescape] Shescape: Quadratic-time denial of service in the flag-protection",
-      "url": "https://github.com/advisories/GHSA-gm3r-q2wp-hw87",
-      "date": "2026-07-24T22:35:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[shescape] Shescape: Quadratic-time denial of service in the flag-protection",
-      "url": "https://github.com/advisories/GHSA-gm3r-q2wp-hw87",
-      "date": "2026-07-24T22:35:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[shescape] Shescape: Home-directory disclosure in assignment context on Unix with Dash",
-      "url": "https://github.com/advisories/GHSA-q53c-4prm-w95q",
-      "date": "2026-07-24T22:34:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[shescape] Shescape: Home-directory disclosure in assignment context on Unix with Dash",
-      "url": "https://github.com/advisories/GHSA-q53c-4prm-w95q",
-      "date": "2026-07-24T22:34:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[shescape] Shescape: Shell injection via unescaped parentheses on Windows with CMD",
-      "url": "https://github.com/advisories/GHSA-w4hw-qcx7-56pr",
-      "date": "2026-07-24T22:34:24.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
