@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-07-28T12:02:03.551Z",
+  "fetchedAt": "2026-07-28T15:26:04.993Z",
   "entries": [
+    {
+      "title": "[@novu/application-generic] @novu/application-generic: `validateUrlSsrf` permits CGNAT (100.64.0.0/10) destinations — affects Workflow HTTP request step + Webhook filter condition",
+      "url": "https://github.com/advisories/GHSA-vg6v-j97m-h5xq",
+      "date": "2026-07-28T14:59:24.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@wakaru/cli] @wakaru/cli arbitrary file write during bundle unpack",
+      "url": "https://github.com/advisories/GHSA-7wpj-vvmv-pgm8",
+      "date": "2026-07-28T14:44:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@steipete/summarize-core] @steipete/summarize is Vulnerable to Disk Exhaustion via Crafted Media Responses",
       "url": "https://github.com/advisories/GHSA-q9xm-f36c-xm3q",
@@ -125,20 +139,6 @@
       "date": "2026-07-24T21:50:46.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[vantage6] vantage6: Algorithm developer can edit another developer's algorithm that is pending / under review",
-      "url": "https://github.com/advisories/GHSA-47w6-gwp4-w6vc",
-      "date": "2026-07-24T21:49:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase: SSRF via bare fetch() in uploadUrl during AI table generation",
-      "url": "https://github.com/advisories/GHSA-hfhx-w8p8-4hc7",
-      "date": "2026-07-24T21:47:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
