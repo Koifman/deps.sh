@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-07-28T15:26:04.993Z",
+  "fetchedAt": "2026-07-28T17:40:55.638Z",
   "entries": [
+    {
+      "title": "[pytonapi] pytonapi has a Webhook Custom Path Authentication Bypass",
+      "url": "https://github.com/advisories/GHSA-3fcr-jvgp-7f58",
+      "date": "2026-07-28T17:09:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[qti-neon] QTINeon has unauthenticated relay-to-host amplification via unbounded RECONNECT_REQUEST forwarding",
+      "url": "https://github.com/advisories/GHSA-85rg-p3fr-xc2f",
+      "date": "2026-07-28T16:36:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[qti-neon] QTINeon has unauthenticated relay-to-host amplification via unbounded RECONNECT_REQUEST forwarding",
+      "url": "https://github.com/advisories/GHSA-85rg-p3fr-xc2f",
+      "date": "2026-07-28T16:36:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@novu/application-generic] @novu/application-generic: `validateUrlSsrf` permits CGNAT (100.64.0.0/10) destinations — affects Workflow HTTP request step + Webhook filter condition",
       "url": "https://github.com/advisories/GHSA-vg6v-j97m-h5xq",
@@ -118,27 +139,6 @@
       "date": "2026-07-24T22:33:38.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[awslabs.aws-api-mcp-server] AWS API MCP Server Security Policy Bypass via Startup Initialization Failure",
-      "url": "https://github.com/advisories/GHSA-29w2-fq35-v728",
-      "date": "2026-07-24T22:33:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[brace-expansion] brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
-      "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
-      "date": "2026-07-24T21:53:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sm-crypto] sm-crypto: Predictable SM2 key generation in Node.js: default RNG uses Math.random + wall clock",
-      "url": "https://github.com/advisories/GHSA-vh45-f885-3848",
-      "date": "2026-07-24T21:50:46.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
