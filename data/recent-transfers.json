@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-07-28T21:16:37.178Z",
+  "scannedAt": "2026-07-28T23:09:43.721Z",
   "count": 108,
   "packages": [
     {
@@ -253,6 +253,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "well-known-symbols",
+      "version": "4.1.0",
+      "ecosystem": "npm",
+      "score": 32,
+      "level": "MODERATE",
+      "previousOwner": "novemberborn",
+      "currentOwner": "ljharb"
     },
     {
       "name": "tslib",
@@ -642,15 +651,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "inversify",
-      "version": "8.2.3",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "remojansen",
-      "currentOwner": "notaphplover"
-    },
-    {
       "name": "@appium/types",
       "version": "1.6.0",
       "ecosystem": "npm",
@@ -667,6 +667,15 @@
       "level": "MODERATE",
       "previousOwner": "mrlubos",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "inversify",
+      "version": "8.2.3",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "remojansen",
+      "currentOwner": "notaphplover"
     },
     {
       "name": "@microsoft/dynamicproto-js",
@@ -739,15 +748,6 @@
       "level": "MODERATE",
       "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@nevware21/ts-async",
-      "version": "0.6.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
@@ -831,8 +831,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.76.0",
+      "name": "oxc-transform",
+      "version": "0.142.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -840,8 +840,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
-      "version": "0.142.0",
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.76.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -894,15 +894,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
-      "version": "0.142.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@lottiefiles/dotlottie-web",
       "version": "0.78.2",
       "ecosystem": "npm",
@@ -921,7 +912,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.142.0",
       "ecosystem": "npm",
       "score": 20,
@@ -930,7 +921,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
+      "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.142.0",
       "ecosystem": "npm",
       "score": 20,
@@ -941,6 +932,15 @@
     {
       "name": "@oxlint/binding-linux-arm64-gnu",
       "version": "1.76.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.142.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",

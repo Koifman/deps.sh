@@ -1,6 +1,104 @@
 {
-  "fetchedAt": "2026-07-28T21:13:54.165Z",
+  "fetchedAt": "2026-07-28T23:07:07.183Z",
   "entries": [
+    {
+      "title": "[style-dictionary] Style Dictionary - Prototype Pollution in convertTokenData utility function",
+      "url": "https://github.com/advisories/GHSA-vj5c-m527-mpff",
+      "date": "2026-07-28T22:23:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hypequery/clickhouse] @hypequery/clickhouse has SQL Injection in parameter escaping that allows arbitrary SQL execution",
+      "url": "https://github.com/advisories/GHSA-6wcc-39rp-hh9p",
+      "date": "2026-07-28T22:19:24.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[datamodel-code-generator] `datamodel-code-generator` vulnerable to code injection via unescaped carriage return in `--extra-template-data` `comment` field",
+      "url": "https://github.com/advisories/GHSA-wjv6-jcfj-mf9r",
+      "date": "2026-07-28T21:50:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to arbitrary local file read via JSON-Schema `$ref` (`file://` and `../` traversal), bypassing `--no-allow-remote-refs`",
+      "url": "https://github.com/advisories/GHSA-8359-h9fx-j6v9",
+      "date": "2026-07-28T21:49:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[datamodel-code-generator] `datamodel-code-generator` vulnerable to code injection in via attacker-controlled `default_factory` schema field",
+      "url": "https://github.com/advisories/GHSA-386q-5hp3-95m9",
+      "date": "2026-07-28T21:48:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to SSRF protection bypass via DNS rebinding",
+      "url": "https://github.com/advisories/GHSA-vx7x-vcc2-c44g",
+      "date": "2026-07-28T21:45:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[datamodel-code-generator] `datamodel-code-generator` vulnerable to code execution on import via unescaped `validators` entries in --extra-template-data",
+      "url": "https://github.com/advisories/GHSA-8m8r-38jm-f355",
+      "date": "2026-07-28T21:44:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to SSRF via JSON-Schema `$ref` to HTTP URL (silent by default)",
+      "url": "https://github.com/advisories/GHSA-954p-556p-r752",
+      "date": "2026-07-28T21:42:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to code injection via `x-python-import` / `customTypePath` in generated import statements",
+      "url": "https://github.com/advisories/GHSA-5578-w22f-pfx9",
+      "date": "2026-07-28T21:40:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[datamodel-code-generator] `datamodel-code-generator` vulnerable to code injection via unescaped carriage return in GraphQL Union description",
+      "url": "https://github.com/advisories/GHSA-j884-q54q-mmx3",
+      "date": "2026-07-28T21:35:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[datamodel-code-generator] `datamodel-code-generator` vulnerable to code execution on import via `x-python-type` JSON-Schema extension in datamodel-code-generator",
+      "url": "https://github.com/advisories/GHSA-m34r-v34r-rf9q",
+      "date": "2026-07-28T21:34:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[datamodel-code-generator] datamodel-code-generator: Authorization / request headers leaked to cross-origin redirect target when fetching remote schemas",
+      "url": "https://github.com/advisories/GHSA-r5vv-ff45-prp2",
+      "date": "2026-07-28T21:32:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to SSRF via --url: no host/IP validation, follows redirects",
+      "url": "https://github.com/advisories/GHSA-rfr2-mq9m-x2qx",
+      "date": "2026-07-28T21:30:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to arbitrary local file read via XSD `schemaLocation` (`xs:include`/`xs:import`) path traversal, with no remote-ref gate",
+      "url": "https://github.com/advisories/GHSA-442q-2j6p-642g",
+      "date": "2026-07-28T21:26:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[deepsearcher] zilliztech deep-searcher has an Incorrect Privilege Assignment issue",
       "url": "https://github.com/advisories/GHSA-43px-gpwc-q84v",
@@ -42,101 +140,6 @@
       "date": "2026-07-28T19:46:03.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[hermes-agent] hermes-agent has an Injection issue",
-      "url": "https://github.com/advisories/GHSA-xq8w-9jvx-gm3v",
-      "date": "2026-07-28T17:27:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pytonapi] pytonapi has a Webhook Custom Path Authentication Bypass",
-      "url": "https://github.com/advisories/GHSA-3fcr-jvgp-7f58",
-      "date": "2026-07-28T17:09:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[qti-neon] QTINeon has unauthenticated relay-to-host amplification via unbounded RECONNECT_REQUEST forwarding",
-      "url": "https://github.com/advisories/GHSA-85rg-p3fr-xc2f",
-      "date": "2026-07-28T16:36:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[qti-neon] QTINeon has unauthenticated relay-to-host amplification via unbounded RECONNECT_REQUEST forwarding",
-      "url": "https://github.com/advisories/GHSA-85rg-p3fr-xc2f",
-      "date": "2026-07-28T16:36:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@novu/application-generic] @novu/application-generic: `validateUrlSsrf` permits CGNAT (100.64.0.0/10) destinations — affects Workflow HTTP request step + Webhook filter condition",
-      "url": "https://github.com/advisories/GHSA-vg6v-j97m-h5xq",
-      "date": "2026-07-28T14:59:24.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@wakaru/cli] @wakaru/cli arbitrary file write during bundle unpack",
-      "url": "https://github.com/advisories/GHSA-7wpj-vvmv-pgm8",
-      "date": "2026-07-28T14:44:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0217: Vulnerability in tract-nnef",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0217.html",
-      "date": "2026-07-28T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0218: Unsoundness in enum-map",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0218.html",
-      "date": "2026-07-28T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[@steipete/summarize-core] @steipete/summarize is Vulnerable to Disk Exhaustion via Crafted Media Responses",
-      "url": "https://github.com/advisories/GHSA-q9xm-f36c-xm3q",
-      "date": "2026-07-27T16:06:58.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nanobot-ai] Nanobot contains a server-side request forgery vulnerability in the web_fetch tool",
-      "url": "https://github.com/advisories/GHSA-434r-7c99-hwf3",
-      "date": "2026-07-27T16:02:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0216: Vulnerability in nostr",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0216.html",
-      "date": "2026-07-27T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[@frontmcp/adapters] FrontMCP: Server-Side Request Forgery (SSRF) in the OpenAPI adapter spec-change poller",
-      "url": "https://github.com/advisories/GHSA-8q49-2h5h-434x",
-      "date": "2026-07-24T22:40:00.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[bedrock-agentcore] AWS Bedrock AgentCore: Improper neutralization of argument delimiters in the Python SDK install_packages()",
-      "url": "https://github.com/advisories/GHSA-j6g5-3hh3-pgw8",
-      "date": "2026-07-24T22:38:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[libp2p] libp2p: yamux connection DoS via oversized data frame",
-      "url": "https://github.com/advisories/GHSA-hmj8-5xmh-5573",
-      "date": "2026-07-24T22:37:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
