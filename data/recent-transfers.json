@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-07-29T17:24:26.112Z",
+  "scannedAt": "2026-07-29T19:36:28.039Z",
   "count": 104,
   "packages": [
     {
@@ -154,15 +154,6 @@
       "level": "MODERATE",
       "previousOwner": "jitl",
       "currentOwner": "ljharb"
-    },
-    {
-      "name": "array-initial",
-      "version": "1.1.0",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "jonschlinkert",
-      "currentOwner": "phated"
     },
     {
       "name": "is-plain-object",
@@ -732,6 +723,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@nevware21/ts-async",
+      "version": "0.6.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
+    },
+    {
       "name": "@oxc-parser/binding-linux-x64-gnu",
       "version": "0.142.0",
       "ecosystem": "npm",
@@ -876,15 +876,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.142.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-transform/binding-linux-x64-musl",
       "version": "0.142.0",
       "ecosystem": "npm",
@@ -894,7 +885,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-arm64",
+      "name": "oxc-minify",
       "version": "0.142.0",
       "ecosystem": "npm",
       "score": 20,
@@ -904,6 +895,15 @@
     },
     {
       "name": "@oxc-parser/binding-darwin-x64",
+      "version": "0.142.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-darwin-arm64",
       "version": "0.142.0",
       "ecosystem": "npm",
       "score": 20,
