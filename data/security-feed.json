@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-07-29T12:06:37.198Z",
+  "fetchedAt": "2026-07-29T15:11:48.395Z",
   "entries": [
+    {
+      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to code injection via unescaped OpenAPI path strings in generated method bodies",
+      "url": "https://github.com/advisories/GHSA-w284-33mx-6g9v",
+      "date": "2026-07-29T14:35:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to code injection via unescaped enum string values",
+      "url": "https://github.com/advisories/GHSA-5f94-x226-ccpm",
+      "date": "2026-07-29T14:33:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in axios http-client template",
+      "url": "https://github.com/advisories/GHSA-38c3-wv3c-v3xj",
+      "date": "2026-07-29T14:31:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to Server-Side Request Forgery via spec `$ref`",
+      "url": "https://github.com/advisories/GHSA-x36r-4347-pm5x",
+      "date": "2026-07-29T14:29:02.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in fetch http-client template",
+      "url": "https://github.com/advisories/GHSA-hqj5-cw9f-rx67",
+      "date": "2026-07-29T14:26:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to authorization-token exfiltration via spec `$ref`",
+      "url": "https://github.com/advisories/GHSA-h754-fxp7-88wx",
+      "date": "2026-07-29T14:22:46.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0219: Vulnerability in nostr",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0219.html",
@@ -97,48 +139,6 @@
       "date": "2026-07-28T21:30:19.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to arbitrary local file read via XSD `schemaLocation` (`xs:include`/`xs:import`) path traversal, with no remote-ref gate",
-      "url": "https://github.com/advisories/GHSA-442q-2j6p-642g",
-      "date": "2026-07-28T21:26:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[deepsearcher] zilliztech deep-searcher has an Incorrect Privilege Assignment issue",
-      "url": "https://github.com/advisories/GHSA-43px-gpwc-q84v",
-      "date": "2026-07-28T20:54:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@nocobase/plugin-collection-sql] NocoBase: Sensitive Data Exposure via SQL Blacklist Bypass",
-      "url": "https://github.com/advisories/GHSA-v8vm-cqh8-q87q",
-      "date": "2026-07-28T20:53:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@nocobase/plugin-collection-sql] NocoBase: Sensitive Data Exposure via SQL Blacklist Bypass",
-      "url": "https://github.com/advisories/GHSA-v8vm-cqh8-q87q",
-      "date": "2026-07-28T20:53:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@nocobase/plugin-collection-sql] NocoBase: Sensitive Data Exposure via SQL Blacklist Bypass",
-      "url": "https://github.com/advisories/GHSA-v8vm-cqh8-q87q",
-      "date": "2026-07-28T20:53:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hermes-agent] hermes-agent has an Injection issue",
-      "url": "https://github.com/advisories/GHSA-33qv-c5qm-799v",
-      "date": "2026-07-28T19:57:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }
