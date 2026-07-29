@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-07-29T21:06:06.202Z",
-  "count": 103,
+  "scannedAt": "2026-07-29T23:06:15.731Z",
+  "count": 104,
   "packages": [
     {
       "name": "xmldom",
@@ -55,6 +55,15 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "enzyme",
+      "version": "3.11.0",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "intelligibabble",
+      "currentOwner": "ljharb"
     },
     {
       "name": "terser",
@@ -246,15 +255,6 @@
       "currentOwner": "typescript-bot"
     },
     {
-      "name": "embla-carousel",
-      "version": "8.6.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "davidcetinkaya",
-      "currentOwner": "davidjerleke"
-    },
-    {
       "name": "regexpu-core",
       "version": "6.4.0",
       "ecosystem": "npm",
@@ -262,6 +262,15 @@
       "level": "MODERATE",
       "previousOwner": "mathias",
       "currentOwner": "google-wombot"
+    },
+    {
+      "name": "embla-carousel",
+      "version": "8.6.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "davidcetinkaya",
+      "currentOwner": "davidjerleke"
     },
     {
       "name": "oxlint",
@@ -408,6 +417,24 @@
       "currentOwner": "balearica"
     },
     {
+      "name": "@redux-saga/core",
+      "version": "1.5.1",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "andarist",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/base-driver",
+      "version": "10.7.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "cron-schedule",
       "version": "6.0.0",
       "ecosystem": "npm",
@@ -417,21 +444,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@assistant-ui/react",
-      "version": "0.15.1",
+      "name": "@babel/parser",
+      "version": "8.0.4",
       "ecosystem": "npm",
-      "score": 25,
+      "score": 22,
       "level": "MODERATE",
-      "previousOwner": "yonom",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@redux-saga/core",
-      "version": "1.5.1",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "andarist",
+      "previousOwner": "hzoo",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -442,15 +460,6 @@
       "level": "MODERATE",
       "previousOwner": "radubrehar",
       "currentOwner": "ljharb"
-    },
-    {
-      "name": "@babel/parser",
-      "version": "8.0.4",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "hzoo",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "espree",
@@ -588,8 +597,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.2",
+      "name": "css-has-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -597,8 +606,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.1",
+      "name": "css-blank-pseudo",
+      "version": "8.0.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -840,15 +849,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@fortawesome/react-fontawesome",
-      "version": "3.5.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "supercodepoet",
-      "currentOwner": "lordofbacon"
-    },
-    {
       "name": "@oxfmt/binding-linux-x64-musl",
       "version": "0.61.0",
       "ecosystem": "npm",
@@ -856,6 +856,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@fortawesome/react-fontawesome",
+      "version": "3.5.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "supercodepoet",
+      "currentOwner": "lordofbacon"
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-musl",
@@ -876,15 +885,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-x64",
-      "version": "0.142.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "oxc-minify",
       "version": "0.142.0",
       "ecosystem": "npm",
@@ -894,7 +894,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-arm64",
+      "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.142.0",
       "ecosystem": "npm",
       "score": 20,
@@ -909,6 +909,15 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-darwin-arm64",
+      "version": "0.142.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
