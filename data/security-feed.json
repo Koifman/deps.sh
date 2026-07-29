@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-07-29T15:11:48.395Z",
+  "fetchedAt": "2026-07-29T17:21:35.035Z",
   "entries": [
+    {
+      "title": "[proot-distro] proot-distro has a Container Isolation Bypass via Crafted Restore Archive",
+      "url": "https://github.com/advisories/GHSA-7h3g-4w2f-fj2f",
+      "date": "2026-07-29T16:42:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[proot-distro] `proot-distro install` has a Symlink Escape (Arbitrary Host File Write) via Malicious Tar Archive",
+      "url": "https://github.com/advisories/GHSA-9xq3-3fqg-4vg7",
+      "date": "2026-07-29T16:32:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[matrix-commander] olm dependency deprecation: CVE-2022-39255 and CVE-2024-45193",
+      "url": "https://github.com/advisories/GHSA-wchh-9x6h-7f6p",
+      "date": "2026-07-29T16:11:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@aws/agentcore] AgentCore CLI Bedrock Agent Import Vulnerable to Code Injection via Improper Triple-Quote Escaping",
+      "url": "https://github.com/advisories/GHSA-m4x6-gwgp-4pm7",
+      "date": "2026-07-29T16:10:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@aws/agentcore] AgentCore CLI Bedrock Agent Import Vulnerable to Code Injection via Improper Triple-Quote Escaping",
+      "url": "https://github.com/advisories/GHSA-m4x6-gwgp-4pm7",
+      "date": "2026-07-29T16:10:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@aws/agentcore] AgentCore CLI Bedrock Agent Import Vulnerable to Code Injection via Improper Triple-Quote Escaping",
+      "url": "https://github.com/advisories/GHSA-m4x6-gwgp-4pm7",
+      "date": "2026-07-29T16:10:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[decompress] decompress: Arbitrary File Write via Archive Extraction (Zip Slip)",
+      "url": "https://github.com/advisories/GHSA-h39j-r5qq-r9mm",
+      "date": "2026-07-29T15:51:55.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@dynatrace-oss/dynatrace-mcp-server] @dynatrace-oss/dynatrace-mcp-server's create_dynatrace_notebook missing the human-approval gate",
+      "url": "https://github.com/advisories/GHSA-pc2w-4mq8-32qw",
+      "date": "2026-07-29T15:36:20.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[penelope-shell-handler] Penelope unsafe tar extraction allows arbitrary local file write via crafted session archive",
+      "url": "https://github.com/advisories/GHSA-f42x-p2mx-hm8r",
+      "date": "2026-07-29T15:34:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to code injection via unescaped OpenAPI path strings in generated method bodies",
       "url": "https://github.com/advisories/GHSA-w284-33mx-6g9v",
@@ -50,6 +113,12 @@
       "ecosystem": "cargo"
     },
     {
+      "title": "RUSTSEC-2026-0216: Vulnerability in nostr",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0216.html",
+      "date": "2026-07-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
       "title": "[style-dictionary] Style Dictionary - Prototype Pollution in convertTokenData utility function",
       "url": "https://github.com/advisories/GHSA-vj5c-m527-mpff",
       "date": "2026-07-28T22:23:05.000Z",
@@ -67,76 +136,6 @@
       "title": "[datamodel-code-generator] `datamodel-code-generator` vulnerable to code injection via unescaped carriage return in `--extra-template-data` `comment` field",
       "url": "https://github.com/advisories/GHSA-wjv6-jcfj-mf9r",
       "date": "2026-07-28T21:50:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to arbitrary local file read via JSON-Schema `$ref` (`file://` and `../` traversal), bypassing `--no-allow-remote-refs`",
-      "url": "https://github.com/advisories/GHSA-8359-h9fx-j6v9",
-      "date": "2026-07-28T21:49:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[datamodel-code-generator] `datamodel-code-generator` vulnerable to code injection in via attacker-controlled `default_factory` schema field",
-      "url": "https://github.com/advisories/GHSA-386q-5hp3-95m9",
-      "date": "2026-07-28T21:48:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to SSRF protection bypass via DNS rebinding",
-      "url": "https://github.com/advisories/GHSA-vx7x-vcc2-c44g",
-      "date": "2026-07-28T21:45:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[datamodel-code-generator] `datamodel-code-generator` vulnerable to code execution on import via unescaped `validators` entries in --extra-template-data",
-      "url": "https://github.com/advisories/GHSA-8m8r-38jm-f355",
-      "date": "2026-07-28T21:44:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to SSRF via JSON-Schema `$ref` to HTTP URL (silent by default)",
-      "url": "https://github.com/advisories/GHSA-954p-556p-r752",
-      "date": "2026-07-28T21:42:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to code injection via `x-python-import` / `customTypePath` in generated import statements",
-      "url": "https://github.com/advisories/GHSA-5578-w22f-pfx9",
-      "date": "2026-07-28T21:40:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[datamodel-code-generator] `datamodel-code-generator` vulnerable to code injection via unescaped carriage return in GraphQL Union description",
-      "url": "https://github.com/advisories/GHSA-j884-q54q-mmx3",
-      "date": "2026-07-28T21:35:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[datamodel-code-generator] `datamodel-code-generator` vulnerable to code execution on import via `x-python-type` JSON-Schema extension in datamodel-code-generator",
-      "url": "https://github.com/advisories/GHSA-m34r-v34r-rf9q",
-      "date": "2026-07-28T21:34:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[datamodel-code-generator] datamodel-code-generator: Authorization / request headers leaked to cross-origin redirect target when fetching remote schemas",
-      "url": "https://github.com/advisories/GHSA-r5vv-ff45-prp2",
-      "date": "2026-07-28T21:32:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[datamodel-code-generator] datamodel-code-generator vulnerable to SSRF via --url: no host/IP validation, follows redirects",
-      "url": "https://github.com/advisories/GHSA-rfr2-mq9m-x2qx",
-      "date": "2026-07-28T21:30:19.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }

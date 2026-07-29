@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-07-29T15:14:27.247Z",
+  "scannedAt": "2026-07-29T17:24:26.112Z",
   "count": 104,
   "packages": [
     {
@@ -444,6 +444,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "cron-schedule",
+      "version": "6.0.0",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "p4sca1",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "hasown",
       "version": "2.0.4",
       "ecosystem": "npm",
@@ -651,15 +660,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@microsoft/dynamicproto-js",
-      "version": "2.0.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "microsoft",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@appium/types",
       "version": "1.6.0",
       "ecosystem": "npm",
@@ -669,21 +669,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@microsoft/dynamicproto-js",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "microsoft",
+      "currentOwner": "microsoft1es"
+    },
+    {
       "name": "@appium/logger",
       "version": "2.0.10",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@lingui/message-utils",
-      "version": "6.6.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -723,12 +723,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lottiefiles/dotlottie-react",
-      "version": "0.19.12",
+      "name": "@lingui/message-utils",
+      "version": "6.6.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "jawish",
+      "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -795,21 +795,21 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.61.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "meriyah",
       "version": "7.3.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "meriyah",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxfmt/binding-linux-x64-gnu",
+      "version": "0.61.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -867,24 +867,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.142.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-parser/binding-darwin-arm64",
-      "version": "0.142.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.142.0",
       "ecosystem": "npm",
@@ -894,7 +876,25 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "oxc-minify",
+      "version": "0.142.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.142.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-darwin-arm64",
       "version": "0.142.0",
       "ecosystem": "npm",
       "score": 20,
