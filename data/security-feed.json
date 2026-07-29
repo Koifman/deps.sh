@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-07-29T06:38:07.554Z",
+  "fetchedAt": "2026-07-29T09:42:50.021Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0219: Vulnerability in nostr",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0219.html",
+      "date": "2026-07-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[style-dictionary] Style Dictionary - Prototype Pollution in convertTokenData utility function",
       "url": "https://github.com/advisories/GHSA-vj5c-m527-mpff",
@@ -133,13 +139,6 @@
       "date": "2026-07-28T19:57:21.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[hermes-agent] hermes-agent has an Uncontrolled Resource Consumption issue",
-      "url": "https://github.com/advisories/GHSA-pmqc-57g8-c22c",
-      "date": "2026-07-28T19:46:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
