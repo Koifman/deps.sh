@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-07-29T19:36:28.039Z",
-  "count": 104,
+  "scannedAt": "2026-07-29T21:06:06.202Z",
+  "count": 103,
   "packages": [
     {
       "name": "xmldom",
@@ -55,15 +55,6 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "enzyme",
-      "version": "3.11.0",
-      "ecosystem": "npm",
-      "score": 43,
-      "level": "MODERATE",
-      "previousOwner": "intelligibabble",
-      "currentOwner": "ljharb"
     },
     {
       "name": "terser",
@@ -255,15 +246,6 @@
       "currentOwner": "typescript-bot"
     },
     {
-      "name": "regexpu-core",
-      "version": "6.4.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "mathias",
-      "currentOwner": "google-wombot"
-    },
-    {
       "name": "embla-carousel",
       "version": "8.6.0",
       "ecosystem": "npm",
@@ -271,6 +253,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "regexpu-core",
+      "version": "6.4.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "mathias",
+      "currentOwner": "google-wombot"
     },
     {
       "name": "oxlint",
@@ -417,30 +408,30 @@
       "currentOwner": "balearica"
     },
     {
-      "name": "@redux-saga/core",
-      "version": "1.5.1",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "andarist",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@appium/base-driver",
-      "version": "10.7.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "cron-schedule",
       "version": "6.0.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "p4sca1",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@assistant-ui/react",
+      "version": "0.15.1",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "yonom",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@redux-saga/core",
+      "version": "1.5.1",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "andarist",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -885,7 +876,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
+      "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.142.0",
       "ecosystem": "npm",
       "score": 20,
@@ -894,7 +885,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-x64",
+      "name": "oxc-minify",
       "version": "0.142.0",
       "ecosystem": "npm",
       "score": 20,
