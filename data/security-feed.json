@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-07-30T18:21:58.990Z",
+  "fetchedAt": "2026-07-30T20:18:46.992Z",
   "entries": [
+    {
+      "title": "[degit] degit has a Command Injection issue",
+      "url": "https://github.com/advisories/GHSA-77c7-pq4r-6mcq",
+      "date": "2026-07-30T18:35:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[degit] degit has a Command Injection issue",
+      "url": "https://github.com/advisories/GHSA-77c7-pq4r-6mcq",
+      "date": "2026-07-30T18:35:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[dssrf] dssrf has an SSRF bypass with remove_at_symbol_in_string",
       "url": "https://github.com/advisories/GHSA-cg4g-m8jx-vjv2",
@@ -56,6 +70,12 @@
       "date": "2026-07-30T14:46:13.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
+    },
+    {
+      "title": "RUSTSEC-2026-0220: Vulnerability in ruint",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0220.html",
+      "date": "2026-07-30T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
       "title": "[mathlive] mathlive's Lack of Escaping of HTML allows for XSS",
@@ -119,27 +139,6 @@
       "date": "2026-07-29T15:36:20.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
-    },
-    {
-      "title": "[penelope-shell-handler] Penelope unsafe tar extraction allows arbitrary local file write via crafted session archive",
-      "url": "https://github.com/advisories/GHSA-f42x-p2mx-hm8r",
-      "date": "2026-07-29T15:34:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to code injection via unescaped OpenAPI path strings in generated method bodies",
-      "url": "https://github.com/advisories/GHSA-w284-33mx-6g9v",
-      "date": "2026-07-29T14:35:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to code injection via unescaped enum string values",
-      "url": "https://github.com/advisories/GHSA-5f94-x226-ccpm",
-      "date": "2026-07-29T14:33:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
