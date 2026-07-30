@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-07-30T16:41:02.531Z",
+  "fetchedAt": "2026-07-30T18:21:58.990Z",
   "entries": [
+    {
+      "title": "[dssrf] dssrf has an SSRF bypass with remove_at_symbol_in_string",
+      "url": "https://github.com/advisories/GHSA-cg4g-m8jx-vjv2",
+      "date": "2026-07-30T16:26:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[flyto-core] Flyto2 Core: Guarded HTTP modules follow redirects into internal space without per-hop SSRF revalidation",
       "url": "https://github.com/advisories/GHSA-c9hr-64h3-gxpc",
@@ -131,13 +138,6 @@
       "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to code injection via unescaped enum string values",
       "url": "https://github.com/advisories/GHSA-5f94-x226-ccpm",
       "date": "2026-07-29T14:33:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[swagger-typescript-api] swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in axios http-client template",
-      "url": "https://github.com/advisories/GHSA-38c3-wv3c-v3xj",
-      "date": "2026-07-29T14:31:17.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
