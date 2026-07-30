@@ -1,24 +1,38 @@
 {
-  "fetchedAt": "2026-07-30T20:18:46.992Z",
+  "fetchedAt": "2026-07-30T22:12:46.204Z",
   "entries": [
-    {
-      "title": "[degit] degit has a Command Injection issue",
-      "url": "https://github.com/advisories/GHSA-77c7-pq4r-6mcq",
-      "date": "2026-07-30T18:35:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[degit] degit has a Command Injection issue",
-      "url": "https://github.com/advisories/GHSA-77c7-pq4r-6mcq",
-      "date": "2026-07-30T18:35:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
     {
       "title": "[dssrf] dssrf has an SSRF bypass with remove_at_symbol_in_string",
       "url": "https://github.com/advisories/GHSA-cg4g-m8jx-vjv2",
-      "date": "2026-07-30T16:26:54.000Z",
+      "date": "2026-07-30T21:23:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@aws-amplify/codegen-ui-react] AWS Amplify Studio UI Component Properties Has an Input Validation Issue",
+      "url": "https://github.com/advisories/GHSA-hf3j-86p7-mfw8",
+      "date": "2026-07-30T20:57:25.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[d3-color] d3-color vulnerable to ReDoS",
+      "url": "https://github.com/advisories/GHSA-36jr-mh4h-2g58",
+      "date": "2026-07-30T20:37:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[degit] degit has a Command Injection issue",
+      "url": "https://github.com/advisories/GHSA-77c7-pq4r-6mcq",
+      "date": "2026-07-30T18:35:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[degit] degit has a Command Injection issue",
+      "url": "https://github.com/advisories/GHSA-77c7-pq4r-6mcq",
+      "date": "2026-07-30T18:35:52.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
@@ -125,20 +139,6 @@
       "date": "2026-07-29T16:10:49.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[decompress] decompress: Arbitrary File Write via Archive Extraction (Zip Slip)",
-      "url": "https://github.com/advisories/GHSA-h39j-r5qq-r9mm",
-      "date": "2026-07-29T15:51:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@dynatrace-oss/dynatrace-mcp-server] @dynatrace-oss/dynatrace-mcp-server's create_dynatrace_notebook missing the human-approval gate",
-      "url": "https://github.com/advisories/GHSA-pc2w-4mq8-32qw",
-      "date": "2026-07-29T15:36:20.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
