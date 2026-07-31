@@ -1,6 +1,97 @@
 {
-  "fetchedAt": "2026-07-31T20:23:26.792Z",
+  "fetchedAt": "2026-07-31T22:10:32.372Z",
   "entries": [
+    {
+      "title": "[@apostrophecms/seo] @apostrophecms/seo Vulnerable to Stored XSS via Unsanitized Google Analytics / GTM ID Injected into Script Tag",
+      "url": "https://github.com/advisories/GHSA-wf43-fpp3-cf65",
+      "date": "2026-07-31T21:53:57.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[apostrophe] @apostrophecms/file pretty-URL Vulnerable to Unauthenticated SSRF via Host header",
+      "url": "https://github.com/advisories/GHSA-34pj-2622-jvxq",
+      "date": "2026-07-31T21:51:42.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[apostrophe] Apostrophe has Server-Side Prototype Pollution in apos.util.set via patch operators that leads to process-wide authorization bypass",
+      "url": "https://github.com/advisories/GHSA-6h5j-32cf-4253",
+      "date": "2026-07-31T21:49:26.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[sanitize-html] sanitize-html has incomplete URI scheme validation in that allows javascript: URIs through action, formaction, data, poster, and background attributes",
+      "url": "https://github.com/advisories/GHSA-vccv-cmxp-4j9h",
+      "date": "2026-07-31T21:43:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@nocobase/plugin-notification-in-app-message] NocoBase: SQL injection in /api/myInAppChannels:list filter to PG-superuser RCE",
+      "url": "https://github.com/advisories/GHSA-p849-8hwh-84j9",
+      "date": "2026-07-31T19:45:02.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[brace-expansion] brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
+      "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
+      "date": "2026-07-31T19:37:57.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[brace-expansion] brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
+      "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
+      "date": "2026-07-31T19:37:57.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[brace-expansion] brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
+      "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
+      "date": "2026-07-31T19:37:57.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[brace-expansion] brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
+      "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
+      "date": "2026-07-31T19:37:57.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jodit] Jodit has cross-site scripting (XSS) via <script> nested in SVG that bypasses clean-html sanitization",
+      "url": "https://github.com/advisories/GHSA-45qg-252v-3f7p",
+      "date": "2026-07-31T19:15:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[jodit] Jodit Editor: Mutation XSS in jodit clean-html via a MathML/style rawtext carrier",
+      "url": "https://github.com/advisories/GHSA-rxcw-mc6f-6hr3",
+      "date": "2026-07-31T19:12:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jodit] Jodit has prototype pollution via Jodit.configure() / ConfigMerge",
+      "url": "https://github.com/advisories/GHSA-5957-5c94-3v7w",
+      "date": "2026-07-31T19:10:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[jodit] Jodit has incomplete javascript: scheme normalization in sanitizeHTMLElement href check that allows link XSS",
+      "url": "https://github.com/advisories/GHSA-j839-gqq4-gf9j",
+      "date": "2026-07-31T19:08:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[thumbor] Thumbor has path traversal via post-validation URL decoding bypass in file_loader",
       "url": "https://github.com/advisories/GHSA-cj54-hpcc-gj6h",
@@ -49,97 +140,6 @@
       "date": "2026-07-31T17:49:10.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[hashi-vault-js] hashi-vault-js has a path traversal and query parameter injection",
-      "url": "https://github.com/advisories/GHSA-g956-2f74-rmv7",
-      "date": "2026-07-31T17:03:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dssrf] dssrf: any users using 1.1.1.1 DNS is impacted by SSRF",
-      "url": "https://github.com/advisories/GHSA-5846-7qm3-r52j",
-      "date": "2026-07-31T16:58:43.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[re2] re2: Out-of-bounds heap read in `exec`/`test`/`match` via attacker-influenced `lastIndex` on a non-ASCII subject → uncatchable process crash (DoS)",
-      "url": "https://github.com/advisories/GHSA-ff84-5f28-78qj",
-      "date": "2026-07-31T16:53:16.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[re2] re2: Global `String.prototype.match` with an empty-matchable pattern never advances → infinite loop with unbounded native memory growth (DoS)",
-      "url": "https://github.com/advisories/GHSA-6hxr-mr5r-9836",
-      "date": "2026-07-31T16:53:11.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] Natural Language Toolkit (NLTK): DNS-rebinding SSRF filter bypass in nltk.pathsec.urlopen (nltk.download / nltk.data.load) defeats ENFORCE mode",
-      "url": "https://github.com/advisories/GHSA-qvv7-cg9c-w4x3",
-      "date": "2026-07-31T16:51:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Natural Language Toolkit (NLTK): ReDoS in NLTK ReviewsCorpusReader FEATURES regex",
-      "url": "https://github.com/advisories/GHSA-fg7f-2386-8897",
-      "date": "2026-07-31T16:51:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Natural Language Toolkit (NLTK): Path Traversal in NKJPCorpusReader leads to Arbitrary File Read and bypasses the nltk.pathsec sandbox (ENFORCE=True)",
-      "url": "https://github.com/advisories/GHSA-6hm5-jgcp-p838",
-      "date": "2026-07-31T16:50:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Natural Language Toolkit (NLTK) has path traversal in FramenetCorpusReader.frame() that allows arbitrary XML file read, bypassing the nltk.pathsec sandbox (ENFORCE=True)",
-      "url": "https://github.com/advisories/GHSA-xh95-f55m-82fw",
-      "date": "2026-07-31T16:50:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nx] `nx graph` dev server permissive CORS policy",
-      "url": "https://github.com/advisories/GHSA-g2r8-wvmj-jf5w",
-      "date": "2026-07-31T16:50:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nx] `nx graph` dev server permissive CORS policy",
-      "url": "https://github.com/advisories/GHSA-g2r8-wvmj-jf5w",
-      "date": "2026-07-31T16:50:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[awxkit] awxkit has a path traversal vulnerability",
-      "url": "https://github.com/advisories/GHSA-g29c-rgq6-gxgj",
-      "date": "2026-07-31T16:39:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow-providers-samba] Apache Airflow has a Path Traversal issue",
-      "url": "https://github.com/advisories/GHSA-f6vj-48fm-hmvx",
-      "date": "2026-07-31T16:37:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[onionshare-cli] OnionShare follows symlinks in shared directories, allowing unintended disclosure of local files",
-      "url": "https://github.com/advisories/GHSA-22p9-r2f5-22mf",
-      "date": "2026-07-31T16:32:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
