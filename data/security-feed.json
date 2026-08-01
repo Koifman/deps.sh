@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-07-31T22:10:32.372Z",
+  "fetchedAt": "2026-08-01T00:05:44.000Z",
   "entries": [
+    {
+      "title": "[gemini-bridge] gemini-bridge vulnerable to arbitrary local file read via consult_gemini_with_files inline mode",
+      "url": "https://github.com/advisories/GHSA-c5px-58j2-7fqp",
+      "date": "2026-07-31T22:31:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[PyJWT] PyJWKClient: missing scheme allowlist enables CVE-2024-21643-class SSRF + token forgery via file://, ftp://, data: schemes",
+      "url": "https://github.com/advisories/GHSA-993g-76c3-p5m4",
+      "date": "2026-07-31T22:13:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyjwt] PyJWKClient unbounded JWKS endpoint requests via attacker-controlled kid values (DoS)",
+      "url": "https://github.com/advisories/GHSA-fhv5-28vv-h8m8",
+      "date": "2026-07-31T22:13:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[monai] MONAI: Unsafe functions lead to pickle deserialization rce",
+      "url": "https://github.com/advisories/GHSA-89gg-p5r5-q6r4",
+      "date": "2026-07-31T22:01:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pyasn1] pyasn1 BER/CER/DER decoder denial of service via unbounded long-form tag IDs",
+      "url": "https://github.com/advisories/GHSA-m4p7-r5rc-7g4j",
+      "date": "2026-07-31T21:55:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[@apostrophecms/seo] @apostrophecms/seo Vulnerable to Stored XSS via Unsanitized Google Analytics / GTM ID Injected into Script Tag",
       "url": "https://github.com/advisories/GHSA-wf43-fpp3-cf65",
@@ -104,41 +139,6 @@
       "url": "https://github.com/advisories/GHSA-phj3-59pf-cp83",
       "date": "2026-07-31T19:00:45.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[thumbor] Thumbor has Regex Denial of Service (ReDoS) in `convolution` filter",
-      "url": "https://github.com/advisories/GHSA-5vjc-7cxw-4w6j",
-      "date": "2026-07-31T18:58:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[thumbor] Thumbor convolution filter allows divide-by-zero in C extension leading to remote DoS",
-      "url": "https://github.com/advisories/GHSA-cqjp-jf4r-h5q9",
-      "date": "2026-07-31T18:54:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[thumbor] Thumbor has HMAC validation bypass via multiple .replace() calls when removing URL signature",
-      "url": "https://github.com/advisories/GHSA-mw3h-qjxj-6xg9",
-      "date": "2026-07-31T18:51:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[thumbor] Thumbor treats ALLOWED_SOURCES string patterns as unescaped regex, allowing hostname bypass via wildcard dot",
-      "url": "https://github.com/advisories/GHSA-6x26-6r6f-m537",
-      "date": "2026-07-31T18:36:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@phun-ky/defaults-deep] @phun-ky/defaults-deep Has a Prototype Pollution issue via Unsafe Recursive Property Merging",
-      "url": "https://github.com/advisories/GHSA-mj3g-7xcc-x4vh",
-      "date": "2026-07-31T17:49:10.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
