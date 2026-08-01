@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-08-01T10:05:12.030Z",
+  "fetchedAt": "2026-08-01T12:05:30.675Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0219: Vulnerability in nostr",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0219.html",
+      "date": "2026-08-01T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0216: Vulnerability in nostr",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0216.html",
+      "date": "2026-08-01T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[gemini-bridge] gemini-bridge vulnerable to arbitrary local file read via consult_gemini_with_files inline mode",
       "url": "https://github.com/advisories/GHSA-c5px-58j2-7fqp",
@@ -126,20 +138,6 @@
       "date": "2026-07-31T19:08:21.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[thumbor] Thumbor has path traversal via post-validation URL decoding bypass in file_loader",
-      "url": "https://github.com/advisories/GHSA-cj54-hpcc-gj6h",
-      "date": "2026-07-31T19:03:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[thumbor] Thumbor proportion filter allows unbounded post-transform resize leading to remote DoS",
-      "url": "https://github.com/advisories/GHSA-phj3-59pf-cp83",
-      "date": "2026-07-31T19:00:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
