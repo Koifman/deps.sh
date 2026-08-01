@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-01T12:08:21.806Z",
+  "scannedAt": "2026-08-01T14:39:58.788Z",
   "count": 105,
   "packages": [
     {
@@ -742,7 +742,7 @@
     },
     {
       "name": "@speed-highlight/core",
-      "version": "1.2.18",
+      "version": "1.2.19",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -777,15 +777,6 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "@typescript/native-preview-linux-x64",
-      "version": "7.0.0-dev.20260707.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "meriyah",
       "version": "7.3.0",
       "ecosystem": "npm",
@@ -793,6 +784,15 @@
       "level": "LOW",
       "previousOwner": "meriyah",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/native-preview-linux-x64",
+      "version": "7.0.0-dev.20260707.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@oxfmt/binding-linux-x64-gnu",
@@ -885,7 +885,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-arm64",
+      "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.142.0",
       "ecosystem": "npm",
       "score": 20,
@@ -894,7 +894,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-x64",
+      "name": "@oxc-parser/binding-darwin-arm64",
       "version": "0.142.0",
       "ecosystem": "npm",
       "score": 20,
