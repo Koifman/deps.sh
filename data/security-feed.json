@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-08-01T14:37:19.842Z",
+  "fetchedAt": "2026-08-01T16:05:51.263Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0224: Vulnerability in nostr-relay-pool",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0224.html",
+      "date": "2026-08-01T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0219: Vulnerability in nostr",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0219.html",
@@ -129,13 +135,6 @@
       "title": "[jodit] Jodit has prototype pollution via Jodit.configure() / ConfigMerge",
       "url": "https://github.com/advisories/GHSA-5957-5c94-3v7w",
       "date": "2026-07-31T19:10:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jodit] Jodit has incomplete javascript: scheme normalization in sanitizeHTMLElement href check that allows link XSS",
-      "url": "https://github.com/advisories/GHSA-j839-gqq4-gf9j",
-      "date": "2026-07-31T19:08:21.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
