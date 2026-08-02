@@ -1,6 +1,54 @@
 {
-  "fetchedAt": "2026-08-02T16:06:05.088Z",
+  "fetchedAt": "2026-08-02T18:04:02.920Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0226: Vulnerability in nostr",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0226.html",
+      "date": "2026-08-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0229: Vulnerability in nostr",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0229.html",
+      "date": "2026-08-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0228: Vulnerability in nostr",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0228.html",
+      "date": "2026-08-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0230: Vulnerability in nostr",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0230.html",
+      "date": "2026-08-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0225: Vulnerability in nostr",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0225.html",
+      "date": "2026-08-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0227: Vulnerability in nostr",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0227.html",
+      "date": "2026-08-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0231: Vulnerability in nostr-relay-pool",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0231.html",
+      "date": "2026-08-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0232: Vulnerability in nostr-relay-pool",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0232.html",
+      "date": "2026-08-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0224: Vulnerability in nostr-relay-pool",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0224.html",
@@ -79,62 +127,6 @@
       "title": "[sanitize-html] sanitize-html has incomplete URI scheme validation in that allows javascript: URIs through action, formaction, data, poster, and background attributes",
       "url": "https://github.com/advisories/GHSA-vccv-cmxp-4j9h",
       "date": "2026-07-31T21:43:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@nocobase/plugin-notification-in-app-message] NocoBase: SQL injection in /api/myInAppChannels:list filter to PG-superuser RCE",
-      "url": "https://github.com/advisories/GHSA-p849-8hwh-84j9",
-      "date": "2026-07-31T19:45:02.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[brace-expansion] brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
-      "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
-      "date": "2026-07-31T19:37:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[brace-expansion] brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
-      "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
-      "date": "2026-07-31T19:37:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[brace-expansion] brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
-      "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
-      "date": "2026-07-31T19:37:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[brace-expansion] brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
-      "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
-      "date": "2026-07-31T19:37:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jodit] Jodit has cross-site scripting (XSS) via <script> nested in SVG that bypasses clean-html sanitization",
-      "url": "https://github.com/advisories/GHSA-45qg-252v-3f7p",
-      "date": "2026-07-31T19:15:58.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jodit] Jodit Editor: Mutation XSS in jodit clean-html via a MathML/style rawtext carrier",
-      "url": "https://github.com/advisories/GHSA-rxcw-mc6f-6hr3",
-      "date": "2026-07-31T19:12:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jodit] Jodit has prototype pollution via Jodit.configure() / ConfigMerge",
-      "url": "https://github.com/advisories/GHSA-5957-5c94-3v7w",
-      "date": "2026-07-31T19:10:17.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
