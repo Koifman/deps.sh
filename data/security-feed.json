@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-08-03T21:11:45.590Z",
+  "fetchedAt": "2026-08-03T23:09:59.583Z",
   "entries": [
+    {
+      "title": "[cryptography] python-cryptography verifier accepts wildcard DNS names allowing escape from permittedSubtrees",
+      "url": "https://github.com/advisories/GHSA-m2h6-j472-rp4c",
+      "date": "2026-08-03T21:26:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[cryptography] python-cryptography: Duplicate self-signed intermediates can cause exponential path-building",
+      "url": "https://github.com/advisories/GHSA-jwv3-5hgf-82ww",
+      "date": "2026-08-03T21:26:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[cryptography] cryptography: PKCS#7 EnvelopedData decryption exposes a Bleichenbacher oracle through distinguishable errors and timing",
+      "url": "https://github.com/advisories/GHSA-g6cj-pr64-35w5",
+      "date": "2026-08-03T21:18:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[aiohttp] AIOHTTP: Out-of-bounds heap read in C HTTP response parser error path (malformed chunked response)",
       "url": "https://github.com/advisories/GHSA-cq5v-8q36-5273",
@@ -51,17 +72,17 @@
       "severity": "CRITICAL"
     },
     {
-      "title": "[hono] Hono: ReDoS in CORS middleware via Access-Control-Request-Headers",
-      "url": "https://github.com/advisories/GHSA-8j4g-w8fx-2239",
-      "date": "2026-08-03T20:23:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
       "title": "[GitPython] GitPython: Arbitrary file truncation via git rev-list --output argument injection in unguarded Commit.count",
       "url": "https://github.com/advisories/GHSA-p538-c434-8v24",
       "date": "2026-08-03T20:23:59.000Z",
       "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[hono] Hono: ReDoS in CORS middleware via Access-Control-Request-Headers",
+      "url": "https://github.com/advisories/GHSA-8j4g-w8fx-2239",
+      "date": "2026-08-03T20:23:59.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
@@ -117,27 +138,6 @@
       "title": "[undici] undici vulnerable to CRLF Injection via blob-like body 'type' property",
       "url": "https://github.com/advisories/GHSA-m8rv-5g2x-5cg5",
       "date": "2026-08-03T19:33:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[undici] undici vulnerable to cross-user information disclosure via whitespace around equals in Cache-Control directives",
-      "url": "https://github.com/advisories/GHSA-jr45-8vmc-qm54",
-      "date": "2026-08-03T19:32:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[undici] undici vulnerable to cross-user information disclosure via whitespace around equals in Cache-Control directives",
-      "url": "https://github.com/advisories/GHSA-jr45-8vmc-qm54",
-      "date": "2026-08-03T19:32:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[undici] undici vulnerable to cookie attribute injection via unsanitized domain and unparsed setCookie fields",
-      "url": "https://github.com/advisories/GHSA-v3r7-h72x-cjcm",
-      "date": "2026-08-03T19:30:53.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
