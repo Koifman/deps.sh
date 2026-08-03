@@ -1,134 +1,145 @@
 {
-  "fetchedAt": "2026-08-03T15:47:37.971Z",
+  "fetchedAt": "2026-08-03T17:57:26.452Z",
   "entries": [
     {
-      "title": "RUSTSEC-2026-0226: Vulnerability in nostr",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0226.html",
-      "date": "2026-08-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0229: Vulnerability in nostr",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0229.html",
-      "date": "2026-08-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0228: Vulnerability in nostr",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0228.html",
-      "date": "2026-08-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0230: Vulnerability in nostr",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0230.html",
-      "date": "2026-08-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0225: Vulnerability in nostr",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0225.html",
-      "date": "2026-08-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0227: Vulnerability in nostr",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0227.html",
-      "date": "2026-08-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0231: Vulnerability in nostr-relay-pool",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0231.html",
-      "date": "2026-08-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0232: Vulnerability in nostr-relay-pool",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0232.html",
-      "date": "2026-08-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0224: Vulnerability in nostr-relay-pool",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0224.html",
-      "date": "2026-08-01T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0219: Vulnerability in nostr",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0219.html",
-      "date": "2026-08-01T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0216: Vulnerability in nostr",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0216.html",
-      "date": "2026-08-01T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[gemini-bridge] gemini-bridge vulnerable to arbitrary local file read via consult_gemini_with_files inline mode",
-      "url": "https://github.com/advisories/GHSA-c5px-58j2-7fqp",
-      "date": "2026-07-31T22:31:21.000Z",
-      "ecosystem": "pypi",
+      "title": "[postcss] PostCSS: incomplete fix of GHSA-6g55-p6wh-862q — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset",
+      "url": "https://github.com/advisories/GHSA-fxqj-rqcc-2cmp",
+      "date": "2026-08-03T17:11:40.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[PyJWT] PyJWKClient: missing scheme allowlist enables CVE-2024-21643-class SSRF + token forgery via file://, ftp://, data: schemes",
-      "url": "https://github.com/advisories/GHSA-993g-76c3-p5m4",
-      "date": "2026-07-31T22:13:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyjwt] PyJWKClient unbounded JWKS endpoint requests via attacker-controlled kid values (DoS)",
-      "url": "https://github.com/advisories/GHSA-fhv5-28vv-h8m8",
-      "date": "2026-07-31T22:13:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[monai] MONAI: Unsafe functions lead to pickle deserialization rce",
-      "url": "https://github.com/advisories/GHSA-89gg-p5r5-q6r4",
-      "date": "2026-07-31T22:01:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyasn1] pyasn1 BER/CER/DER decoder denial of service via unbounded long-form tag IDs",
-      "url": "https://github.com/advisories/GHSA-m4p7-r5rc-7g4j",
-      "date": "2026-07-31T21:55:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@apostrophecms/seo] @apostrophecms/seo Vulnerable to Stored XSS via Unsanitized Google Analytics / GTM ID Injected into Script Tag",
-      "url": "https://github.com/advisories/GHSA-wf43-fpp3-cf65",
-      "date": "2026-07-31T21:53:57.000Z",
+      "title": "[brace-expansion] brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
+      "url": "https://github.com/advisories/GHSA-rgw5-rvv9-x895",
+      "date": "2026-08-03T16:35:32.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[apostrophe] @apostrophecms/file pretty-URL Vulnerable to Unauthenticated SSRF via Host header",
-      "url": "https://github.com/advisories/GHSA-34pj-2622-jvxq",
-      "date": "2026-07-31T21:51:42.000Z",
+      "title": "[brace-expansion] brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
+      "url": "https://github.com/advisories/GHSA-rgw5-rvv9-x895",
+      "date": "2026-08-03T16:35:32.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "HIGH"
     },
     {
-      "title": "[apostrophe] Apostrophe has Server-Side Prototype Pollution in apos.util.set via patch operators that leads to process-wide authorization bypass",
-      "url": "https://github.com/advisories/GHSA-6h5j-32cf-4253",
-      "date": "2026-07-31T21:49:26.000Z",
+      "title": "[brace-expansion] brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
+      "url": "https://github.com/advisories/GHSA-rgw5-rvv9-x895",
+      "date": "2026-08-03T16:35:32.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "HIGH"
     },
     {
-      "title": "[sanitize-html] sanitize-html has incomplete URI scheme validation in that allows javascript: URIs through action, formaction, data, poster, and background attributes",
-      "url": "https://github.com/advisories/GHSA-vccv-cmxp-4j9h",
-      "date": "2026-07-31T21:43:56.000Z",
+      "title": "[brace-expansion] brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
+      "url": "https://github.com/advisories/GHSA-rgw5-rvv9-x895",
+      "date": "2026-08-03T16:35:32.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/core] Angular i18n: Cross-Site Scripting (XSS) via event-handler attributes",
+      "url": "https://github.com/advisories/GHSA-jj27-h5hq-8x99",
+      "date": "2026-08-03T16:23:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/core] Angular i18n: Cross-Site Scripting (XSS) via event-handler attributes",
+      "url": "https://github.com/advisories/GHSA-jj27-h5hq-8x99",
+      "date": "2026-08-03T16:23:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/core] Angular i18n: Cross-Site Scripting (XSS) via event-handler attributes",
+      "url": "https://github.com/advisories/GHSA-jj27-h5hq-8x99",
+      "date": "2026-08-03T16:23:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/core] Angular i18n: Cross-Site Scripting (XSS) via event-handler attributes",
+      "url": "https://github.com/advisories/GHSA-jj27-h5hq-8x99",
+      "date": "2026-08-03T16:23:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/compiler] Angular i18n: Cross-Site Scripting (XSS) via event-handler attributes",
+      "url": "https://github.com/advisories/GHSA-jj27-h5hq-8x99",
+      "date": "2026-08-03T16:23:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/compiler] Angular i18n: Cross-Site Scripting (XSS) via event-handler attributes",
+      "url": "https://github.com/advisories/GHSA-jj27-h5hq-8x99",
+      "date": "2026-08-03T16:23:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/compiler] Angular i18n: Cross-Site Scripting (XSS) via event-handler attributes",
+      "url": "https://github.com/advisories/GHSA-jj27-h5hq-8x99",
+      "date": "2026-08-03T16:23:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/compiler] Angular i18n: Cross-Site Scripting (XSS) via event-handler attributes",
+      "url": "https://github.com/advisories/GHSA-jj27-h5hq-8x99",
+      "date": "2026-08-03T16:23:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/platform-server] Angular SSR: Missing Fallback Raw-Content Serialization Escaping leads to Cross-Site Scripting (XSS)",
+      "url": "https://github.com/advisories/GHSA-vpx6-8pjr-4g3v",
+      "date": "2026-08-03T16:14:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/platform-server] Angular SSR: Missing Fallback Raw-Content Serialization Escaping leads to Cross-Site Scripting (XSS)",
+      "url": "https://github.com/advisories/GHSA-vpx6-8pjr-4g3v",
+      "date": "2026-08-03T16:14:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/platform-server] Angular SSR: Missing Fallback Raw-Content Serialization Escaping leads to Cross-Site Scripting (XSS)",
+      "url": "https://github.com/advisories/GHSA-vpx6-8pjr-4g3v",
+      "date": "2026-08-03T16:14:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/platform-server] Angular SSR: Missing Fallback Raw-Content Serialization Escaping leads to Cross-Site Scripting (XSS)",
+      "url": "https://github.com/advisories/GHSA-vpx6-8pjr-4g3v",
+      "date": "2026-08-03T16:14:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/common] Angular: Cache-Key Ambiguity in HttpTransferCache Leading to Cross-Request Response Reuse and State Poisoning",
+      "url": "https://github.com/advisories/GHSA-jhpw-976m-542j",
+      "date": "2026-08-03T15:59:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/common] Angular: Cache-Key Ambiguity in HttpTransferCache Leading to Cross-Request Response Reuse and State Poisoning",
+      "url": "https://github.com/advisories/GHSA-jhpw-976m-542j",
+      "date": "2026-08-03T15:59:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/common] Angular: Cache-Key Ambiguity in HttpTransferCache Leading to Cross-Request Response Reuse and State Poisoning",
+      "url": "https://github.com/advisories/GHSA-jhpw-976m-542j",
+      "date": "2026-08-03T15:59:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
