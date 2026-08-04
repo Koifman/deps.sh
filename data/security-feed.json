@@ -1,6 +1,104 @@
 {
-  "fetchedAt": "2026-08-04T19:46:47.217Z",
+  "fetchedAt": "2026-08-04T21:19:05.140Z",
   "entries": [
+    {
+      "title": "[open-webui] Open WebUI: Same-origin XSS to account takeover via terminal file-preview iframe hardcoding allow-same-origin",
+      "url": "https://github.com/advisories/GHSA-3xpf-xq7r-v8c5",
+      "date": "2026-08-04T20:02:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Any authenticated user can reach internal services and cloud metadata via NAT64-encoded URLs",
+      "url": "https://github.com/advisories/GHSA-8x5v-cpv7-8jjp",
+      "date": "2026-08-04T19:59:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Users denied the image-generation permission can still generate images via chat completions",
+      "url": "https://github.com/advisories/GHSA-g423-grf7-98rv",
+      "date": "2026-08-04T19:57:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Client-side SSRF via unrestricted external resource loading in Vega/Vega-Lite chart rendering",
+      "url": "https://github.com/advisories/GHSA-rffm-9q57-q649",
+      "date": "2026-08-04T19:54:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Any authenticated user can cancel another user's chat generation via the chat delete endpoint",
+      "url": "https://github.com/advisories/GHSA-3vf6-64vr-3g56",
+      "date": "2026-08-04T19:54:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Account takeover via OAuth token exchange accepting tokens issued to any client",
+      "url": "https://github.com/advisories/GHSA-rq84-p6rr-vf89",
+      "date": "2026-08-04T19:52:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Any member with write access to a standard channel can edit or delete other members' messages",
+      "url": "https://github.com/advisories/GHSA-mj5r-jf49-m3w7",
+      "date": "2026-08-04T19:45:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: SSRF into internal services via unvalidated sub-resource requests in the Playwright web loader",
+      "url": "https://github.com/advisories/GHSA-w2rx-84hp-gg95",
+      "date": "2026-08-04T19:40:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise: Unauthenticated OAuth2 token refresh endpoint returns access tokens — enables token theft for any connected service",
+      "url": "https://github.com/advisories/GHSA-qgvm-j2hm-6m38",
+      "date": "2026-08-04T19:37:38.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise-components] Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
+      "url": "https://github.com/advisories/GHSA-5xvg-pmgg-3mxr",
+      "date": "2026-08-04T19:29:28.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
+      "url": "https://github.com/advisories/GHSA-5xvg-pmgg-3mxr",
+      "date": "2026-08-04T19:29:28.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] Flowise: Broken Access Control in Stripe Subscription Endpoints Allows Cross-Tenant Billing Manipulation",
+      "url": "https://github.com/advisories/GHSA-gmmw-qg98-6j6p",
+      "date": "2026-08-04T19:24:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise: Unauthenticated Credential Abuse via Text-to-Speech Endpoint Allows Unauthorized Use of Private Chatflow TTS Credentials",
+      "url": "https://github.com/advisories/GHSA-8gj2-2cvc-6xx7",
+      "date": "2026-08-04T19:19:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[flowise] Flowise: Missing Authorization on Execution Update Endpoint",
+      "url": "https://github.com/advisories/GHSA-fm2f-4339-4p2f",
+      "date": "2026-08-04T19:18:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[flowise] Flowise: Cross-Workspace OAuth2 Credential Metadata Leak",
       "url": "https://github.com/advisories/GHSA-wch5-xp77-fxg4",
@@ -30,20 +128,6 @@
       "severity": "HIGH"
     },
     {
-      "title": "[flowise] Flowise: Remote Code Execution Vulnerability in CSVAgent",
-      "url": "https://github.com/advisories/GHSA-x6vm-w76m-8j7g",
-      "date": "2026-08-04T17:47:31.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[flowise-components] Flowise: Remote Code Execution Vulnerability in CSVAgent",
-      "url": "https://github.com/advisories/GHSA-x6vm-w76m-8j7g",
-      "date": "2026-08-04T17:47:31.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
       "title": "[flowise-components] Flowise: RCE via CSVAgent csvFile data URI base64 segment is interpolated into Python source without validation",
       "url": "https://github.com/advisories/GHSA-4j8x-x6v7-w9rq",
       "date": "2026-08-04T17:43:49.000Z",
@@ -56,90 +140,6 @@
       "date": "2026-08-04T17:43:49.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[flowise] Flowise: Authenticated arbitrary file write in the `S3 Directory` document loader via unsanitized S3 object keys",
-      "url": "https://github.com/advisories/GHSA-88pr-878c-24wf",
-      "date": "2026-08-04T17:43:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise-components] Flowise: Authenticated arbitrary file write in the `S3 Directory` document loader via unsanitized S3 object keys",
-      "url": "https://github.com/advisories/GHSA-88pr-878c-24wf",
-      "date": "2026-08-04T17:43:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: RBAC Bypass Leading to Unauthorized Workspace Variables Disclosure",
-      "url": "https://github.com/advisories/GHSA-8r8h-6vcc-xhrv",
-      "date": "2026-08-04T17:43:37.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise-components] Flowise: Pyodide validator Unicode homoglyph bypass leads to RCE",
-      "url": "https://github.com/advisories/GHSA-52fh-8v99-63c2",
-      "date": "2026-08-04T17:31:10.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[flowise] Flowise: Pyodide validator Unicode homoglyph bypass leads to RCE",
-      "url": "https://github.com/advisories/GHSA-52fh-8v99-63c2",
-      "date": "2026-08-04T17:31:10.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[flowise-components] Flowise: CVE-2025-8943 Patch Bypass: npm_config_yes bypasses MCP environment variable blocklist (Unauthenticated RCE)",
-      "url": "https://github.com/advisories/GHSA-xc48-889x-5qmw",
-      "date": "2026-08-04T17:09:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: CVE-2025-8943 Patch Bypass: npm_config_yes bypasses MCP environment variable blocklist (Unauthenticated RCE)",
-      "url": "https://github.com/advisories/GHSA-xc48-889x-5qmw",
-      "date": "2026-08-04T17:09:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: `DELETE /api/v1/chatflows/:id` does not validate resource type, allowing `agentflows:delete` and `chatflows:delete` to delete each other’s flow type",
-      "url": "https://github.com/advisories/GHSA-p5w8-m249-4r4v",
-      "date": "2026-08-04T16:50:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise-components] Flowise RCE via SQLite Record Manager Node",
-      "url": "https://github.com/advisories/GHSA-x3hf-7cj6-3r4m",
-      "date": "2026-08-04T16:05:12.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[flowise] Flowise RCE via SQLite Record Manager Node",
-      "url": "https://github.com/advisories/GHSA-x3hf-7cj6-3r4m",
-      "date": "2026-08-04T16:05:12.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[flowise] Flowise: Unauthenticated Property Injection into Flow Execution Context via Ungated `overrideConfig` Spread in Prediction API",
-      "url": "https://github.com/advisories/GHSA-6vh2-wg4h-4vwj",
-      "date": "2026-08-04T15:56:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Flowise: SSRF Protection Bypass via IPv4-Mapped IPv6 Addresses",
-      "url": "https://github.com/advisories/GHSA-c6xh-wv4j-ppv5",
-      "date": "2026-08-04T15:51:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
