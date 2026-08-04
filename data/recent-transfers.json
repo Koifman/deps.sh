@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-04T03:25:03.231Z",
+  "scannedAt": "2026-08-04T06:36:38.032Z",
   "count": 105,
   "packages": [
     {
@@ -534,15 +534,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/logger",
-      "version": "1.4.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "azure-sdk",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@supabase/storage-js",
       "version": "2.112.0",
       "ecosystem": "npm",
@@ -550,6 +541,15 @@
       "level": "MODERATE",
       "previousOwner": "kiwicopple",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@azure/logger",
+      "version": "1.4.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "azure-sdk",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@formatjs/ecma402-abstract",
@@ -723,15 +723,6 @@
       "currentOwner": "sb-jigneshr"
     },
     {
-      "name": "@lingui/message-utils",
-      "version": "6.6.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "andrii.bodnar",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-parser/binding-linux-x64-gnu",
       "version": "0.143.0",
       "ecosystem": "npm",
@@ -867,15 +858,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.143.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@fortawesome/react-fontawesome",
       "version": "3.5.0",
       "ecosystem": "npm",
@@ -883,6 +865,15 @@
       "level": "LOW",
       "previousOwner": "supercodepoet",
       "currentOwner": "lordofbacon"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.143.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "oxc-minify",
@@ -923,6 +914,15 @@
     {
       "name": "@oxlint/binding-linux-arm64-gnu",
       "version": "1.77.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-darwin-x64",
+      "version": "0.143.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
