@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-08-04T15:31:41.338Z",
-  "count": 104,
+  "scannedAt": "2026-08-04T17:58:35.049Z",
+  "count": 105,
   "packages": [
     {
       "name": "xmldom",
@@ -55,6 +55,15 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "enzyme",
+      "version": "3.11.0",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "intelligibabble",
+      "currentOwner": "ljharb"
     },
     {
       "name": "terser",
@@ -174,15 +183,6 @@
       "currentOwner": "housseindjirdeh"
     },
     {
-      "name": "mark.js",
-      "version": "8.11.1",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "lukasoppermann",
-      "currentOwner": "julmot"
-    },
-    {
       "name": "cloudevents",
       "version": "10.0.0",
       "ecosystem": "npm",
@@ -190,6 +190,15 @@
       "level": "MODERATE",
       "previousOwner": "tjanczuk",
       "currentOwner": "lholmquist"
+    },
+    {
+      "name": "mark.js",
+      "version": "8.11.1",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "lukasoppermann",
+      "currentOwner": "julmot"
     },
     {
       "name": "coffeescript",
@@ -606,15 +615,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.3.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "inversify",
       "version": "8.2.3",
       "ecosystem": "npm",
@@ -622,6 +622,15 @@
       "level": "MODERATE",
       "previousOwner": "remojansen",
       "currentOwner": "notaphplover"
+    },
+    {
+      "name": "@appium/schema",
+      "version": "1.3.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@appium/types",
@@ -687,30 +696,21 @@
       "currentOwner": "vimeo-npmbot"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "redux-saga",
-      "version": "1.5.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "yelouafi",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@lingui/message-utils",
       "version": "6.6.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "andrii.bodnar",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/tsconfig",
+      "version": "1.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -732,15 +732,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@speed-highlight/core",
-      "version": "1.2.23",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matubu",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "oauth4webapi",
       "version": "3.8.6",
       "ecosystem": "npm",
@@ -756,6 +747,15 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@speed-highlight/core",
+      "version": "1.2.23",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matubu",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -936,6 +936,15 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@astrojs/compiler-binding",
+      "version": "0.3.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matthewp",
       "currentOwner": "GitHub Actions"
     }
   ]

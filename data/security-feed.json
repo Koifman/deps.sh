@@ -1,6 +1,111 @@
 {
-  "fetchedAt": "2026-08-04T15:28:33.420Z",
+  "fetchedAt": "2026-08-04T17:55:39.410Z",
   "entries": [
+    {
+      "title": "[flowise] Flowise: Unauthenticated Property Injection into Flow Execution Context via Ungated `overrideConfig` Spread in Prediction API",
+      "url": "https://github.com/advisories/GHSA-6vh2-wg4h-4vwj",
+      "date": "2026-08-04T15:56:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise: SSRF Protection Bypass via IPv4-Mapped IPv6 Addresses",
+      "url": "https://github.com/advisories/GHSA-c6xh-wv4j-ppv5",
+      "date": "2026-08-04T15:51:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Remote Code Execution Vulnerability in CSVAgent",
+      "url": "https://github.com/advisories/GHSA-x6vm-w76m-8j7g",
+      "date": "2026-08-04T15:46:25.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise-components] Remote Code Execution Vulnerability in CSVAgent",
+      "url": "https://github.com/advisories/GHSA-x6vm-w76m-8j7g",
+      "date": "2026-08-04T15:46:25.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise-components] Flowise: CSV Agent Remote Code Execution via Pyodide Code Injection — Root Shell Verified",
+      "url": "https://github.com/advisories/GHSA-vmv7-4m6c-3cg5",
+      "date": "2026-08-04T15:41:24.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] Flowise: CSV Agent Remote Code Execution via Pyodide Code Injection — Root Shell Verified",
+      "url": "https://github.com/advisories/GHSA-vmv7-4m6c-3cg5",
+      "date": "2026-08-04T15:41:24.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise-components] Flowise: RCE via NodeVM Sandbox Escape in executeJavaScriptCode() nodeVMOptions Override",
+      "url": "https://github.com/advisories/GHSA-3769-jgqc-cxm7",
+      "date": "2026-08-04T15:29:14.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] Flowise: RCE via NodeVM Sandbox Escape in executeJavaScriptCode() nodeVMOptions Override",
+      "url": "https://github.com/advisories/GHSA-3769-jgqc-cxm7",
+      "date": "2026-08-04T15:29:14.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise-components] Flowise Sandbox Escape to RCE",
+      "url": "https://github.com/advisories/GHSA-wg86-r78f-74mp",
+      "date": "2026-08-04T15:13:36.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] Flowise Sandbox Escape to RCE",
+      "url": "https://github.com/advisories/GHSA-wg86-r78f-74mp",
+      "date": "2026-08-04T15:13:36.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] Flowise: Missing authorization on `/api/v1/files` allows low-privileged API keys to list and delete files across workspaces within the same organization",
+      "url": "https://github.com/advisories/GHSA-wp74-f5hh-5f3r",
+      "date": "2026-08-04T14:54:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise-components] Flowise RCE via TypeORM DataSource",
+      "url": "https://github.com/advisories/GHSA-g32j-mmxr-gfq5",
+      "date": "2026-08-04T14:28:04.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] Flowise RCE via TypeORM DataSource",
+      "url": "https://github.com/advisories/GHSA-g32j-mmxr-gfq5",
+      "date": "2026-08-04T14:28:04.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] Flowise: Unauthenticated OAuth2 Refresh Enables Non-Blind SSRF and Secret Exfiltration",
+      "url": "https://github.com/advisories/GHSA-r745-8hwv-h473",
+      "date": "2026-08-04T14:20:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Flowise: IDOR vulnerability exists at the GET /api/v1/organization/customer-default-source endpoint",
+      "url": "https://github.com/advisories/GHSA-2364-jh4q-m9vm",
+      "date": "2026-08-04T14:16:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0233: Vulnerability in rkyv",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0233.html",
@@ -32,111 +137,6 @@
       "date": "2026-08-03T21:26:50.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[cryptography] cryptography: PKCS#7 EnvelopedData decryption exposes a Bleichenbacher oracle through distinguishable errors and timing",
-      "url": "https://github.com/advisories/GHSA-g6cj-pr64-35w5",
-      "date": "2026-08-03T21:18:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP: Out-of-bounds heap read in C HTTP response parser error path (malformed chunked response)",
-      "url": "https://github.com/advisories/GHSA-cq5v-8q36-5273",
-      "date": "2026-08-03T20:51:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jsonata] jsonata: Malicious inputs to \"$toMillis\" function can cause resource exhaustion",
-      "url": "https://github.com/advisories/GHSA-86vw-mfpg-wwv9",
-      "date": "2026-08-03T20:49:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jsonata] jsonata: Malicious inputs to \"$toMillis\" function can cause resource exhaustion",
-      "url": "https://github.com/advisories/GHSA-86vw-mfpg-wwv9",
-      "date": "2026-08-03T20:49:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP: HTTP request smuggling via WebSocket upgrade",
-      "url": "https://github.com/advisories/GHSA-mfx4-hv73-q22v",
-      "date": "2026-08-03T20:47:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP: WebSocket client accepts compressed frames without negotiated permessage-deflate",
-      "url": "https://github.com/advisories/GHSA-mq44-7p77-q5h7",
-      "date": "2026-08-03T20:40:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[black] Black: Arbitrary file writes from unsanitized user input in cache file name",
-      "url": "https://github.com/advisories/GHSA-3936-cmfr-pm3m",
-      "date": "2026-08-03T20:35:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sequelize] Sequelize: SQL Injection (Oracle DB)",
-      "url": "https://github.com/advisories/GHSA-v8fg-2rw7-q452",
-      "date": "2026-08-03T20:29:52.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[GitPython] GitPython: Arbitrary file truncation via git rev-list --output argument injection in unguarded Commit.count",
-      "url": "https://github.com/advisories/GHSA-p538-c434-8v24",
-      "date": "2026-08-03T20:23:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hono] Hono: ReDoS in CORS middleware via Access-Control-Request-Headers",
-      "url": "https://github.com/advisories/GHSA-8j4g-w8fx-2239",
-      "date": "2026-08-03T20:23:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[GitPython] GitPython: Incomplete unsafe_git_archive_options denylist omits --add-file / --add-virtual-file, enabling arbitrary file read via Repo.archive()",
-      "url": "https://github.com/advisories/GHSA-539m-9xh6-q6rr",
-      "date": "2026-08-03T20:14:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[GitPython] GitPython: Unguarded git option forwarding in IndexFile.checkout() and TagReference.create() enables arbitrary file overwrite and arbitrary file read",
-      "url": "https://github.com/advisories/GHSA-3f7w-8rr8-f37f",
-      "date": "2026-08-03T20:09:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ip-address] ip-address: Address4 decodes leading-zero octets as decimal while resolvers decode them as octal, allowing SSRF and trust-boundary bypass",
-      "url": "https://github.com/advisories/GHSA-mwp4-54f8-5fhr",
-      "date": "2026-08-03T19:59:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ip-address] ip-address: a CIDR suffix on the parsed address suppresses special-use classification and can bypass SSRF and trust-boundary checks",
-      "url": "https://github.com/advisories/GHSA-4xrf-jv44-h6hh",
-      "date": "2026-08-03T19:59:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ip-address] ip-address: misclassification of IPv4-mapped/NAT64 IPv6 addresses can bypass SSRF and trust-boundary checks",
-      "url": "https://github.com/advisories/GHSA-22jq-vg5j-6vgg",
-      "date": "2026-08-03T19:52:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
