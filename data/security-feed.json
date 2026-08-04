@@ -1,6 +1,24 @@
 {
-  "fetchedAt": "2026-08-04T06:33:39.650Z",
+  "fetchedAt": "2026-08-04T09:42:17.407Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0233: Vulnerability in rkyv",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0233.html",
+      "date": "2026-08-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0235: Vulnerability in rkyv",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0235.html",
+      "date": "2026-08-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0234: Vulnerability in rkyv",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0234.html",
+      "date": "2026-08-04T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[cryptography] python-cryptography verifier accepts wildcard DNS names allowing escape from permittedSubtrees",
       "url": "https://github.com/advisories/GHSA-m2h6-j472-rp4c",
@@ -117,27 +135,6 @@
       "title": "[ip-address] ip-address: misclassification of IPv4-mapped/NAT64 IPv6 addresses can bypass SSRF and trust-boundary checks",
       "url": "https://github.com/advisories/GHSA-22jq-vg5j-6vgg",
       "date": "2026-08-03T19:52:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[undici] undici vulnerable to CRLF Injection via blob-like body 'type' property",
-      "url": "https://github.com/advisories/GHSA-m8rv-5g2x-5cg5",
-      "date": "2026-08-03T19:33:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[undici] undici vulnerable to CRLF Injection via blob-like body 'type' property",
-      "url": "https://github.com/advisories/GHSA-m8rv-5g2x-5cg5",
-      "date": "2026-08-03T19:33:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[undici] undici vulnerable to CRLF Injection via blob-like body 'type' property",
-      "url": "https://github.com/advisories/GHSA-m8rv-5g2x-5cg5",
-      "date": "2026-08-03T19:33:56.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
