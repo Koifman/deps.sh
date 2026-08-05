@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-05T17:50:39.230Z",
+  "scannedAt": "2026-08-05T19:47:32.031Z",
   "count": 105,
   "packages": [
     {
@@ -156,15 +156,6 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "array-initial",
-      "version": "1.1.0",
-      "ecosystem": "npm",
-      "score": 37,
-      "level": "MODERATE",
-      "previousOwner": "jonschlinkert",
-      "currentOwner": "phated"
-    },
-    {
       "name": "is-plain-object",
       "version": "5.0.0",
       "ecosystem": "npm",
@@ -217,6 +208,15 @@
       "level": "MODERATE",
       "previousOwner": "isaacs",
       "currentOwner": "geoffreybooth"
+    },
+    {
+      "name": "@stitches/core",
+      "version": "1.2.8",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "peduarte",
+      "currentOwner": "hadihallak"
     },
     {
       "name": "@appium/support",
@@ -417,30 +417,21 @@
       "currentOwner": "balearica"
     },
     {
-      "name": "@appium/base-driver",
-      "version": "10.7.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@redux-saga/core",
-      "version": "1.5.1",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "andarist",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "cron-schedule",
       "version": "6.0.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "p4sca1",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@appium/base-driver",
+      "version": "10.7.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -705,21 +696,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lingui/message-utils",
-      "version": "6.6.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "andrii.bodnar",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "cropperjs",
       "version": "2.1.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "fengyuanchen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@lingui/message-utils",
+      "version": "6.6.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -858,7 +849,7 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "@oxc-parser/binding-darwin-arm64",
+      "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.143.0",
       "ecosystem": "npm",
       "score": 20,
@@ -867,7 +858,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
+      "name": "@oxc-parser/binding-darwin-arm64",
       "version": "0.143.0",
       "ecosystem": "npm",
       "score": 20,
@@ -940,6 +931,15 @@
     },
     {
       "name": "@oxc-parser/binding-linux-arm-gnueabihf",
+      "version": "0.143.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-freebsd-x64",
       "version": "0.143.0",
       "ecosystem": "npm",
       "score": 20,
