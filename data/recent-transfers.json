@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-08-05T21:21:48.022Z",
-  "count": 104,
+  "scannedAt": "2026-08-05T23:10:27.696Z",
+  "count": 105,
   "packages": [
     {
       "name": "xmldom",
@@ -55,6 +55,15 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "enzyme",
+      "version": "3.11.0",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "intelligibabble",
+      "currentOwner": "ljharb"
     },
     {
       "name": "terser",
@@ -246,15 +255,6 @@
       "currentOwner": "typescript-bot"
     },
     {
-      "name": "embla-carousel",
-      "version": "8.6.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "davidcetinkaya",
-      "currentOwner": "davidjerleke"
-    },
-    {
       "name": "regexpu-core",
       "version": "6.4.0",
       "ecosystem": "npm",
@@ -262,6 +262,15 @@
       "level": "MODERATE",
       "previousOwner": "mathias",
       "currentOwner": "google-wombot"
+    },
+    {
+      "name": "embla-carousel",
+      "version": "8.6.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "davidcetinkaya",
+      "currentOwner": "davidjerleke"
     },
     {
       "name": "oxlint",
@@ -408,6 +417,15 @@
       "currentOwner": "balearica"
     },
     {
+      "name": "@appium/base-driver",
+      "version": "10.7.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "cron-schedule",
       "version": "6.0.0",
       "ecosystem": "npm",
@@ -417,12 +435,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/base-driver",
-      "version": "10.7.2",
+      "name": "@redux-saga/core",
+      "version": "1.5.1",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
-      "previousOwner": "jlipps",
+      "previousOwner": "andarist",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -858,7 +876,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-x64",
+      "name": "oxc-minify",
       "version": "0.143.0",
       "ecosystem": "npm",
       "score": 20,
@@ -867,7 +885,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
+      "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.143.0",
       "ecosystem": "npm",
       "score": 20,
@@ -922,15 +940,6 @@
     },
     {
       "name": "@oxc-parser/binding-linux-arm-gnueabihf",
-      "version": "0.143.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-parser/binding-freebsd-x64",
       "version": "0.143.0",
       "ecosystem": "npm",
       "score": 20,
