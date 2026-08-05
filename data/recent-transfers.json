@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-08-05T15:22:42.891Z",
-  "count": 106,
+  "scannedAt": "2026-08-05T17:50:39.230Z",
+  "count": 105,
   "packages": [
     {
       "name": "xmldom",
@@ -444,6 +444,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@babel/parser",
+      "version": "8.0.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "hzoo",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "hasown",
       "version": "2.0.4",
       "ecosystem": "npm",
@@ -459,15 +468,6 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "nzakas",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@babel/parser",
-      "version": "8.0.4",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "hzoo",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -597,8 +597,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.2",
+      "name": "css-has-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -606,8 +606,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.1",
+      "name": "css-blank-pseudo",
+      "version": "8.0.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -840,15 +840,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@fortawesome/react-fontawesome",
-      "version": "3.5.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "supercodepoet",
-      "currentOwner": "lordofbacon"
-    },
-    {
       "name": "@oxfmt/binding-linux-x64-musl",
       "version": "0.62.0",
       "ecosystem": "npm",
@@ -856,6 +847,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@fortawesome/react-fontawesome",
+      "version": "3.5.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "supercodepoet",
+      "currentOwner": "lordofbacon"
     },
     {
       "name": "@oxc-parser/binding-darwin-arm64",
@@ -912,15 +912,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@astrojs/compiler-binding",
-      "version": "0.3.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matthewp",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@lottiefiles/dotlottie-web",
       "version": "0.78.2",
       "ecosystem": "npm",
@@ -939,16 +930,16 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm-gnueabihf",
-      "version": "0.143.0",
+      "name": "@astrojs/compiler-binding",
+      "version": "0.3.2",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "boshen",
+      "previousOwner": "matthewp",
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-freebsd-x64",
+      "name": "@oxc-parser/binding-linux-arm-gnueabihf",
       "version": "0.143.0",
       "ecosystem": "npm",
       "score": 20,
