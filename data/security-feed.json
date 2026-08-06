@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-06T12:06:36.358Z",
+  "fetchedAt": "2026-08-06T15:19:48.205Z",
   "entries": [
+    {
+      "title": "[aiosend] aiosend: Deserialization of request body before signature verification (Pre-auth DoS) in webhook handler",
+      "url": "https://github.com/advisories/GHSA-7m8f-hgjq-8gc9",
+      "date": "2026-08-06T14:38:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0236: Vulnerability in viperjs",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0236.html",
@@ -116,13 +123,6 @@
       "title": "[electron] Electron: Sandboxed iframes can launch external protocol handlers",
       "url": "https://github.com/advisories/GHSA-p2rr-rvmm-c5fp",
       "date": "2026-08-05T17:56:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: DevTools embedder handler executes arbitrary files via shell open",
-      "url": "https://github.com/advisories/GHSA-f2r8-jv7c-xqmp",
-      "date": "2026-08-05T17:49:15.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },

@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-06T12:09:33.115Z",
+  "scannedAt": "2026-08-06T15:22:36.923Z",
   "count": 107,
   "packages": [
     {
@@ -345,6 +345,15 @@
       "currentOwner": "romainmenke"
     },
     {
+      "name": "resedit",
+      "version": "3.0.2",
+      "ecosystem": "npm",
+      "score": 27,
+      "level": "MODERATE",
+      "previousOwner": "jet2jet",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "editions",
       "version": "6.22.0",
       "ecosystem": "npm",
@@ -535,7 +544,7 @@
     },
     {
       "name": "@supabase/storage-js",
-      "version": "2.112.1",
+      "version": "2.112.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -544,7 +553,7 @@
     },
     {
       "name": "@supabase/supabase-js",
-      "version": "2.112.1",
+      "version": "2.112.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -553,7 +562,7 @@
     },
     {
       "name": "@supabase/realtime-js",
-      "version": "2.112.1",
+      "version": "2.112.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -622,15 +631,6 @@
       "level": "MODERATE",
       "previousOwner": "jonathantneal",
       "currentOwner": "romainmenke"
-    },
-    {
-      "name": "resedit",
-      "version": "3.0.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jet2jet",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "inversify",
@@ -813,8 +813,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
-      "version": "0.143.0",
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.77.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -822,8 +822,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.77.0",
+      "name": "oxc-transform",
+      "version": "0.143.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -948,15 +948,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-win32-x64-msvc",
-      "version": "0.143.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@typescript/typescript-linux-arm64",
       "version": "7.0.2",
       "ecosystem": "npm",
@@ -964,6 +955,15 @@
       "level": "LOW",
       "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@oxc-parser/binding-win32-x64-msvc",
+      "version": "0.143.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }
