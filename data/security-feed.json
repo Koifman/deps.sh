@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-08-07T16:04:49.350Z",
+  "fetchedAt": "2026-08-07T17:52:52.615Z",
   "entries": [
+    {
+      "title": "[@astrojs/vercel] Astro: Unauthenticated path override in the @astrojs/vercel ISR function",
+      "url": "https://github.com/advisories/GHSA-x27w-589x-frm2",
+      "date": "2026-08-07T16:58:55.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@sveltejs/kit] SvelteKit: ReDoS (O(n^2)) in content negotiation — unauthenticated DoS via the Accept header",
+      "url": "https://github.com/advisories/GHSA-29g2-3rmr-qm68",
+      "date": "2026-08-07T16:50:04.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nuxt] Nuxt dev server discloses project root and workspace UUID via the Chrome DevTools workspace endpoint",
+      "url": "https://github.com/advisories/GHSA-7c4v-fwgw-9rf7",
+      "date": "2026-08-07T16:45:24.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nuxt] Nuxt dev server discloses project root and workspace UUID via the Chrome DevTools workspace endpoint",
+      "url": "https://github.com/advisories/GHSA-7c4v-fwgw-9rf7",
+      "date": "2026-08-07T16:45:24.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[GitPython] GitPython: Unsafe git option guard bypass via split_single_char_options=False short-option token smuggling enables command execution",
+      "url": "https://github.com/advisories/GHSA-wvpp-8hx9-p66j",
+      "date": "2026-08-07T15:49:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[GitPython] GitPython: git-config OPTION-name injection via =/#/whitespace bypasses name validator, enabling forged core.sshCommand/hooksPath (RCE)",
+      "url": "https://github.com/advisories/GHSA-jm78-9fvv-mhgr",
+      "date": "2026-08-07T15:46:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[GitPython] GitPython: Arbitrary Git Repository Creation Outside the Working Tree via Unvalidated .gitmodules Submodule Name in GitPython",
+      "url": "https://github.com/advisories/GHSA-hmq2-w58f-27jc",
+      "date": "2026-08-07T15:45:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[GitPython] GitPython: Arbitrary file read via --pathspec-from-file in IndexFile.remove() and Head.checkout()",
+      "url": "https://github.com/advisories/GHSA-hh9p-6wh2-4mfc",
+      "date": "2026-08-07T15:43:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[GitPython] GitPython: Unguarded git option forwarding in Repo.init enables arbitrary command execution via --template clone hooks",
       "url": "https://github.com/advisories/GHSA-9rj7-rf2p-w77r",
@@ -80,62 +136,6 @@
     },
     {
       "title": "[nx] Nx: Zip-Slip in the self-hosted remote cache",
-      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
-      "date": "2026-08-06T20:10:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nx/powerpack-shared-fs-cache] Nx: Zip-Slip in the self-hosted remote cache",
-      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
-      "date": "2026-08-06T20:10:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nx/powerpack-azure-cache] Nx: Zip-Slip in the self-hosted remote cache",
-      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
-      "date": "2026-08-06T20:10:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nx/powerpack-gcs-cache] Nx: Zip-Slip in the self-hosted remote cache",
-      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
-      "date": "2026-08-06T20:10:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nx/powerpack-s3-cache] Nx: Zip-Slip in the self-hosted remote cache",
-      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
-      "date": "2026-08-06T20:10:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nx/shared-fs-cache] Nx: Zip-Slip in the self-hosted remote cache",
-      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
-      "date": "2026-08-06T20:10:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nx/azure-cache] Nx: Zip-Slip in the self-hosted remote cache",
-      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
-      "date": "2026-08-06T20:10:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nx/gcs-cache] Nx: Zip-Slip in the self-hosted remote cache",
-      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
-      "date": "2026-08-06T20:10:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nx/s3-cache] Nx: Zip-Slip in the self-hosted remote cache",
       "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
       "date": "2026-08-06T20:10:04.000Z",
       "ecosystem": "npm",
