@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-07T09:09:46.873Z",
+  "scannedAt": "2026-08-07T11:01:17.350Z",
   "count": 108,
   "packages": [
     {
@@ -678,8 +678,8 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.2.0",
+      "name": "@appium/logger",
+      "version": "2.0.10",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -687,8 +687,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/logger",
-      "version": "2.0.10",
+      "name": "@appium/tsconfig",
+      "version": "1.2.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -714,15 +714,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@nevware21/ts-async",
-      "version": "0.6.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
-    },
-    {
       "name": "@lingui/message-utils",
       "version": "6.6.0",
       "ecosystem": "npm",
@@ -730,6 +721,15 @@
       "level": "MODERATE",
       "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@nevware21/ts-async",
+      "version": "0.6.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "@vimeo/player",
@@ -903,7 +903,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
+      "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.143.0",
       "ecosystem": "npm",
       "score": 20,
@@ -912,7 +912,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-x64",
+      "name": "@oxc-transform/binding-linux-x64-musl",
       "version": "0.143.0",
       "ecosystem": "npm",
       "score": 20,
@@ -957,15 +957,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-win32-x64-msvc",
-      "version": "0.143.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@typescript/typescript-linux-arm64",
       "version": "7.0.2",
       "ecosystem": "npm",
@@ -973,6 +964,15 @@
       "level": "LOW",
       "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@oxc-parser/binding-win32-x64-msvc",
+      "version": "0.143.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }
