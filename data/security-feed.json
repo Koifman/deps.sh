@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-08-07T15:00:11.125Z",
+  "fetchedAt": "2026-08-07T16:04:49.350Z",
   "entries": [
+    {
+      "title": "[GitPython] GitPython: Unguarded git option forwarding in Repo.init enables arbitrary command execution via --template clone hooks",
+      "url": "https://github.com/advisories/GHSA-9rj7-rf2p-w77r",
+      "date": "2026-08-07T15:36:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[GitPython] GitPython: Unguarded git read-tree option forwarding in IndexFile.from_tree/reset/merge_tree enables arbitrary file overwrite",
+      "url": "https://github.com/advisories/GHSA-4gmw-gg2m-w46p",
+      "date": "2026-08-07T15:34:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dompurify] DOMPurify: IN_PLACE hook removal leaves a detached subtree executable, causing XSS",
+      "url": "https://github.com/advisories/GHSA-55q2-fjhq-7xh7",
+      "date": "2026-08-07T15:30:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[h2] h2: Duplicate Host header could facilitate request smuggling",
       "url": "https://github.com/advisories/GHSA-6hr6-w5qg-qmwg",
@@ -119,27 +140,6 @@
       "date": "2026-08-06T20:10:04.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[nx] Nx: Zip-Slip in the self-hosted remote cache",
-      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
-      "date": "2026-08-06T20:10:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mermaid] Mermaid radar diagrams are vulnerable to DoS",
-      "url": "https://github.com/advisories/GHSA-rhh3-jpg6-66xh",
-      "date": "2026-08-06T20:01:08.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mermaid] Mermaid configuration APIs allow prototype pollution",
-      "url": "https://github.com/advisories/GHSA-c4c3-pg64-4m4v",
-      "date": "2026-08-06T19:59:11.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
