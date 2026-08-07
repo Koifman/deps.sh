@@ -1,144 +1,145 @@
 {
-  "fetchedAt": "2026-08-06T15:19:48.205Z",
+  "fetchedAt": "2026-08-07T00:08:30.051Z",
   "entries": [
     {
-      "title": "[aiosend] aiosend: Deserialization of request body before signature verification (Pre-auth DoS) in webhook handler",
-      "url": "https://github.com/advisories/GHSA-7m8f-hgjq-8gc9",
-      "date": "2026-08-06T14:38:22.000Z",
+      "title": "[h2] h2: Duplicate Host header could facilitate request smuggling",
+      "url": "https://github.com/advisories/GHSA-6hr6-w5qg-qmwg",
+      "date": "2026-08-06T21:53:43.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0236: Vulnerability in viperjs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0236.html",
-      "date": "2026-08-06T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[nuxt] Nuxt: Unauthenticated CPU exhaustion parsing and hashing the Nuxt island endpoint body before hash validation",
-      "url": "https://github.com/advisories/GHSA-9pgf-384g-p7mv",
-      "date": "2026-08-05T21:43:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nuxt] Nuxt: Unauthenticated CPU exhaustion parsing and hashing the Nuxt island endpoint body before hash validation",
-      "url": "https://github.com/advisories/GHSA-9pgf-384g-p7mv",
-      "date": "2026-08-05T21:43:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nuxt] Nuxt: Server-Side Remote Code Execution via Runtime Template Injection in Nuxt Server Island Props",
-      "url": "https://github.com/advisories/GHSA-9473-5f9j-94wq",
-      "date": "2026-08-05T21:29:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nuxt] Nuxt: Server-Side Remote Code Execution via Runtime Template Injection in Nuxt Server Island Props",
-      "url": "https://github.com/advisories/GHSA-9473-5f9j-94wq",
-      "date": "2026-08-05T21:29:56.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@nuxt/devtools] Unauthenticated Nuxt DevTools RPC allows arbitrary command execution on the developer's host",
-      "url": "https://github.com/advisories/GHSA-279x-mwfv-vcqv",
-      "date": "2026-08-05T21:27:39.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[nuxt] Nuxt: Unauthorized Component Instantiation via Server Island Props",
-      "url": "https://github.com/advisories/GHSA-48hr-524c-v5w3",
-      "date": "2026-08-05T21:21:34.000Z",
+      "title": "[re2] node-re2: Out-of-bounds heap read in `replace`/`split` via a `Buffer` ending in a truncated multi-byte UTF-8 character → adjacent heap memory disclosed to JavaScript",
+      "url": "https://github.com/advisories/GHSA-j4r3-hg7j-8chg",
+      "date": "2026-08-06T21:26:16.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[nuxt] Nuxt: Unauthorized Component Instantiation via Server Island Props",
-      "url": "https://github.com/advisories/GHSA-48hr-524c-v5w3",
-      "date": "2026-08-05T21:21:34.000Z",
+      "title": "[re2] node-re2: String.prototype.replace(re2, template) aborts the Node process (uncatchable ToLocalChecked on empty MaybeLocal) when the result exceeds V8's max string length",
+      "url": "https://github.com/advisories/GHSA-8hcv-x26h-mcgp",
+      "date": "2026-08-06T21:19:37.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[nuxt] Nuxt runtime payload cache discloses another user's SSR data across users and to unauthenticated clients",
-      "url": "https://github.com/advisories/GHSA-wm8w-6qjm-cv43",
-      "date": "2026-08-05T21:14:34.000Z",
+      "title": "[ngx-extended-pdf-viewer] ngx-extended-pdf-viewer bundles a version of pdf.js vulnerable to CVE-2026-16633",
+      "url": "https://github.com/advisories/GHSA-w9hm-4m3m-fxmm",
+      "date": "2026-08-06T21:14:01.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[nuxt] Nuxt route rules silently dropped for mixed-case paths, bypassing appMiddleware auth gates (incomplete fix for CVE-2026-53721)",
-      "url": "https://github.com/advisories/GHSA-hxvh-4h3w-prp9",
-      "date": "2026-08-05T21:05:19.000Z",
+      "title": "[pdfjs-dist] PDF.js: Arbitrary JavaScript execution upon opening a malicious PDF",
+      "url": "https://github.com/advisories/GHSA-hq66-cqwq-w95j",
+      "date": "2026-08-06T21:12:27.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[nuxt] Nuxt route rules silently dropped for mixed-case paths, bypassing appMiddleware auth gates (incomplete fix for CVE-2026-53721)",
-      "url": "https://github.com/advisories/GHSA-hxvh-4h3w-prp9",
-      "date": "2026-08-05T21:05:19.000Z",
+      "title": "[js-yaml] JS-YAML: Quadratic CPU consumption in !!omap resolution (3.x and 4.x) — CVE-2026-59870 fix not backported",
+      "url": "https://github.com/advisories/GHSA-5p4m-2wfm-xmqj",
+      "date": "2026-08-06T20:27:32.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[nuxt] Nuxt: Unauthenticated out-of-memory crash via unbounded v-for expansion in island rendering",
-      "url": "https://github.com/advisories/GHSA-hxcr-hm88-mpq6",
-      "date": "2026-08-05T20:59:08.000Z",
+      "title": "[js-yaml] JS-YAML: Quadratic CPU consumption in !!omap resolution (3.x and 4.x) — CVE-2026-59870 fix not backported",
+      "url": "https://github.com/advisories/GHSA-5p4m-2wfm-xmqj",
+      "date": "2026-08-06T20:27:32.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[nuxt] Nuxt: Unauthenticated out-of-memory crash via unbounded v-for expansion in island rendering",
-      "url": "https://github.com/advisories/GHSA-hxcr-hm88-mpq6",
-      "date": "2026-08-05T20:59:08.000Z",
+      "title": "[awscli] AWS CLI: Disabled SSH host key verification in Amazon AWS CLI EMR helper commands",
+      "url": "https://github.com/advisories/GHSA-hqvf-45jj-mccq",
+      "date": "2026-08-06T20:15:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nx] Nx: Zip-Slip in the self-hosted remote cache",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "date": "2026-08-06T20:10:04.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[electron] Electron: Sandboxed iframes can launch external protocol handlers",
-      "url": "https://github.com/advisories/GHSA-p2rr-rvmm-c5fp",
-      "date": "2026-08-05T17:56:51.000Z",
+      "title": "[@nx/powerpack-shared-fs-cache] Nx: Zip-Slip in the self-hosted remote cache",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "date": "2026-08-06T20:10:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nx/powerpack-azure-cache] Nx: Zip-Slip in the self-hosted remote cache",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "date": "2026-08-06T20:10:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nx/powerpack-gcs-cache] Nx: Zip-Slip in the self-hosted remote cache",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "date": "2026-08-06T20:10:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nx/powerpack-s3-cache] Nx: Zip-Slip in the self-hosted remote cache",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "date": "2026-08-06T20:10:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nx/shared-fs-cache] Nx: Zip-Slip in the self-hosted remote cache",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "date": "2026-08-06T20:10:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nx/azure-cache] Nx: Zip-Slip in the self-hosted remote cache",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "date": "2026-08-06T20:10:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nx/gcs-cache] Nx: Zip-Slip in the self-hosted remote cache",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "date": "2026-08-06T20:10:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nx/s3-cache] Nx: Zip-Slip in the self-hosted remote cache",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "date": "2026-08-06T20:10:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nx] Nx: Zip-Slip in the self-hosted remote cache",
+      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
+      "date": "2026-08-06T20:10:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mermaid] Mermaid radar diagrams are vulnerable to DoS",
+      "url": "https://github.com/advisories/GHSA-rhh3-jpg6-66xh",
+      "date": "2026-08-06T20:01:08.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[electron] Electron: Sandboxed iframes can launch external protocol handlers",
-      "url": "https://github.com/advisories/GHSA-p2rr-rvmm-c5fp",
-      "date": "2026-08-05T17:56:51.000Z",
+      "title": "[mermaid] Mermaid configuration APIs allow prototype pollution",
+      "url": "https://github.com/advisories/GHSA-c4c3-pg64-4m4v",
+      "date": "2026-08-06T19:59:11.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: Sandboxed iframes can launch external protocol handlers",
-      "url": "https://github.com/advisories/GHSA-p2rr-rvmm-c5fp",
-      "date": "2026-08-05T17:56:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: Sandboxed iframes can launch external protocol handlers",
-      "url": "https://github.com/advisories/GHSA-p2rr-rvmm-c5fp",
-      "date": "2026-08-05T17:56:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: DevTools embedder handler executes arbitrary files via shell open",
-      "url": "https://github.com/advisories/GHSA-f2r8-jv7c-xqmp",
-      "date": "2026-08-05T17:49:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: DevTools embedder handler executes arbitrary files via shell open",
-      "url": "https://github.com/advisories/GHSA-f2r8-jv7c-xqmp",
-      "date": "2026-08-05T17:49:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "LOW"
     }
   ]
 }
