@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-08-07T17:52:52.615Z",
+  "fetchedAt": "2026-08-07T19:05:51.622Z",
   "entries": [
+    {
+      "title": "[hono] Hono: Algorithmic Complexity DoS in Language Middleware",
+      "url": "https://github.com/advisories/GHSA-54fx-42gc-7vw4",
+      "date": "2026-08-07T18:36:33.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pymdown-extensions] pymdown-extensions: exponential-backtracking ReDoS in caret, tilde, betterem, and magiclink inline processors",
+      "url": "https://github.com/advisories/GHSA-gm37-52c6-37mw",
+      "date": "2026-08-07T18:26:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-router] React Router: RSC Mode CSRF Bypass Allows Action Execution Before 400 Response",
+      "url": "https://github.com/advisories/GHSA-qwww-vcr4-c8h2",
+      "date": "2026-08-07T18:16:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-router] React Router: RSC Mode CSRF Bypass Allows Action Execution Before 400 Response",
+      "url": "https://github.com/advisories/GHSA-qwww-vcr4-c8h2",
+      "date": "2026-08-07T18:16:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jsii-diff] jsii-diff: Command Injection via npm: package argument",
+      "url": "https://github.com/advisories/GHSA-wcx4-wpfv-mc5c",
+      "date": "2026-08-07T18:15:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jsii-diff] Duplicate Advisory: Command Injection in jsii-diff via npm: package argument",
+      "url": "https://github.com/advisories/GHSA-h738-vh6g-q8gh",
+      "date": "2026-08-07T18:15:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Duplicate Advisory: Axios: Prototype pollution auth subfields can inject Basic auth",
+      "url": "https://github.com/advisories/GHSA-38gx-cfqf-f652",
+      "date": "2026-08-07T17:51:36.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@astrojs/vercel] Astro: Unauthenticated path override in the @astrojs/vercel ISR function",
       "url": "https://github.com/advisories/GHSA-x27w-589x-frm2",
@@ -91,55 +140,6 @@
       "date": "2026-08-06T21:26:16.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[re2] node-re2: String.prototype.replace(re2, template) aborts the Node process (uncatchable ToLocalChecked on empty MaybeLocal) when the result exceeds V8's max string length",
-      "url": "https://github.com/advisories/GHSA-8hcv-x26h-mcgp",
-      "date": "2026-08-06T21:19:37.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ngx-extended-pdf-viewer] ngx-extended-pdf-viewer bundles a version of pdf.js vulnerable to CVE-2026-16633",
-      "url": "https://github.com/advisories/GHSA-w9hm-4m3m-fxmm",
-      "date": "2026-08-06T21:14:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pdfjs-dist] PDF.js: Arbitrary JavaScript execution upon opening a malicious PDF",
-      "url": "https://github.com/advisories/GHSA-hq66-cqwq-w95j",
-      "date": "2026-08-06T21:12:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[js-yaml] JS-YAML: Quadratic CPU consumption in !!omap resolution (3.x and 4.x) — CVE-2026-59870 fix not backported",
-      "url": "https://github.com/advisories/GHSA-5p4m-2wfm-xmqj",
-      "date": "2026-08-06T20:27:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[js-yaml] JS-YAML: Quadratic CPU consumption in !!omap resolution (3.x and 4.x) — CVE-2026-59870 fix not backported",
-      "url": "https://github.com/advisories/GHSA-5p4m-2wfm-xmqj",
-      "date": "2026-08-06T20:27:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[awscli] AWS CLI: Disabled SSH host key verification in Amazon AWS CLI EMR helper commands",
-      "url": "https://github.com/advisories/GHSA-hqvf-45jj-mccq",
-      "date": "2026-08-06T20:15:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nx] Nx: Zip-Slip in the self-hosted remote cache",
-      "url": "https://github.com/advisories/GHSA-vp3h-ghgh-jr7g",
-      "date": "2026-08-06T20:10:04.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
