@@ -1,143 +1,143 @@
 {
-  "fetchedAt": "2026-08-07T20:49:24.690Z",
+  "fetchedAt": "2026-08-07T21:46:50.534Z",
   "entries": [
     {
-      "title": "[keras] Keras: DiskIOStore permits path traversal through crafted layer names",
-      "url": "https://github.com/advisories/GHSA-gh82-f9x8-5frx",
-      "date": "2026-08-07T20:13:30.000Z",
+      "title": "[showdown] showdown metadata title handling allows cross-site scripting",
+      "url": "https://github.com/advisories/GHSA-cr32-g25g-vxjj",
+      "date": "2026-08-07T21:05:39.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[showdown] showdown allows stored cross-site scripting through table header ID injection",
+      "url": "https://github.com/advisories/GHSA-22g5-r2x5-97cx",
+      "date": "2026-08-07T21:03:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[image-size] image-size: ICNS parser allows denial of service through an infinite loop",
+      "url": "https://github.com/advisories/GHSA-w3rx-r6r6-pgpr",
+      "date": "2026-08-07T20:55:24.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[image-size] image-size: JXL and HEIF parsers allow denial of service through infinite loops",
+      "url": "https://github.com/advisories/GHSA-5p2g-fcmc-qvqq",
+      "date": "2026-08-07T20:54:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nanoid] nanoid: non-secure generators can loop indefinitely with negative size",
+      "url": "https://github.com/advisories/GHSA-28wg-ghj8-5hjv",
+      "date": "2026-08-07T20:53:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nanoid] nanoid: non-secure generators can loop indefinitely with negative size",
+      "url": "https://github.com/advisories/GHSA-28wg-ghj8-5hjv",
+      "date": "2026-08-07T20:53:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nanoid] nanoid: custom generators can loop indefinitely when size is zero",
+      "url": "https://github.com/advisories/GHSA-2v37-7h3g-55p8",
+      "date": "2026-08-07T20:50:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nanoid] nanoid: custom generators can loop indefinitely when size is zero",
+      "url": "https://github.com/advisories/GHSA-2v37-7h3g-55p8",
+      "date": "2026-08-07T20:50:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[keras] Keras: HDF5 links can disclose local file contents",
+      "url": "https://github.com/advisories/GHSA-m8wh-29wm-52mv",
+      "date": "2026-08-07T20:35:49.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[keras] Keras: DiskIOStore permits path traversal through crafted layer names",
-      "url": "https://github.com/advisories/GHSA-gh82-f9x8-5frx",
-      "date": "2026-08-07T20:13:30.000Z",
+      "title": "[keras] Keras: HDF5 links can disclose local file contents",
+      "url": "https://github.com/advisories/GHSA-m8wh-29wm-52mv",
+      "date": "2026-08-07T20:35:49.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[keras] Keras archive extraction utilities allow path traversal and arbitrary file writes",
-      "url": "https://github.com/advisories/GHSA-hqp4-2352-xf5r",
-      "date": "2026-08-07T20:09:26.000Z",
+      "title": "[keras] Keras: TorchModuleWrapper can deserialize unsafe PyTorch pickle data",
+      "url": "https://github.com/advisories/GHSA-v2w2-w228-c444",
+      "date": "2026-08-07T20:33:50.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[django] Django: signed cookies are vulnerable to salt namespace collisions",
-      "url": "https://github.com/advisories/GHSA-h7pc-vwp9-298g",
-      "date": "2026-08-07T20:04:30.000Z",
+      "title": "[keras] Keras: TorchModuleWrapper can deserialize unsafe PyTorch pickle data",
+      "url": "https://github.com/advisories/GHSA-v2w2-w228-c444",
+      "date": "2026-08-07T20:33:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[keras] Keras: tar extraction permits symlink-based path traversal",
+      "url": "https://github.com/advisories/GHSA-58hv-7753-xmfq",
+      "date": "2026-08-07T20:32:13.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
     },
     {
-      "title": "[django] Django: signed cookies are vulnerable to salt namespace collisions",
-      "url": "https://github.com/advisories/GHSA-h7pc-vwp9-298g",
-      "date": "2026-08-07T20:04:30.000Z",
+      "title": "[keras] Keras: tar extraction permits symlink-based path traversal",
+      "url": "https://github.com/advisories/GHSA-58hv-7753-xmfq",
+      "date": "2026-08-07T20:32:13.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
     },
     {
-      "title": "[django] Django: UpdateCacheMiddleware may disclose cached responses due to case-sensitive Cache-Control handling",
-      "url": "https://github.com/advisories/GHSA-8cjm-8mp7-r2xf",
-      "date": "2026-08-07T20:04:00.000Z",
+      "title": "[keras] Keras: Lambda deserialization can bypass safe mode and execute code",
+      "url": "https://github.com/advisories/GHSA-5gwj-m78q-7pq3",
+      "date": "2026-08-07T20:30:43.000Z",
       "ecosystem": "pypi",
-      "severity": "LOW"
+      "severity": "HIGH"
     },
     {
-      "title": "[django] Django: UpdateCacheMiddleware may disclose cached responses due to case-sensitive Cache-Control handling",
-      "url": "https://github.com/advisories/GHSA-8cjm-8mp7-r2xf",
-      "date": "2026-08-07T20:04:00.000Z",
+      "title": "[keras] Keras: Lambda deserialization can bypass safe mode and execute code",
+      "url": "https://github.com/advisories/GHSA-5gwj-m78q-7pq3",
+      "date": "2026-08-07T20:30:43.000Z",
       "ecosystem": "pypi",
-      "severity": "LOW"
+      "severity": "HIGH"
     },
     {
-      "title": "[django]  Django: GDALRaster may over-read heap memory when constructed from bytes",
-      "url": "https://github.com/advisories/GHSA-crhf-3pfg-w68w",
-      "date": "2026-08-07T20:01:07.000Z",
+      "title": "[keras] Keras: HDF5 virtual datasets can disclose local files",
+      "url": "https://github.com/advisories/GHSA-26c4-7vv6-867j",
+      "date": "2026-08-07T20:28:59.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[django]  Django: GDALRaster may over-read heap memory when constructed from bytes",
-      "url": "https://github.com/advisories/GHSA-crhf-3pfg-w68w",
-      "date": "2026-08-07T20:01:07.000Z",
+      "title": "[keras] Keras: HDF5 virtual datasets can disclose local files",
+      "url": "https://github.com/advisories/GHSA-26c4-7vv6-867j",
+      "date": "2026-08-07T20:28:59.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[django] Django: cache middleware may expose private responses when unrelated request cookies are present",
-      "url": "https://github.com/advisories/GHSA-3h9f-r86x-qvjx",
-      "date": "2026-08-07T20:00:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[django] Django: cache middleware may expose private responses when unrelated request cookies are present",
-      "url": "https://github.com/advisories/GHSA-3h9f-r86x-qvjx",
-      "date": "2026-08-07T20:00:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[django] Django: DomainNameValidator permits newline characters that may enable HTTP header injection",
-      "url": "https://github.com/advisories/GHSA-8qcx-xf44-272x",
-      "date": "2026-08-07T20:00:50.000Z",
+      "title": "[keras] Keras: DiskIOStore permits path traversal through crafted layer names",
+      "url": "https://github.com/advisories/GHSA-gh82-f9x8-5frx",
+      "date": "2026-08-07T20:13:30.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[django] Django: DomainNameValidator permits newline characters that may enable HTTP header injection",
-      "url": "https://github.com/advisories/GHSA-8qcx-xf44-272x",
-      "date": "2026-08-07T20:00:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[django] Django: has_vary_header may expose cached responses when Vary values contain whitespace",
-      "url": "https://github.com/advisories/GHSA-923m-gv2p-w5qp",
-      "date": "2026-08-07T19:56:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[django] Django: has_vary_header may expose cached responses when Vary values contain whitespace",
-      "url": "https://github.com/advisories/GHSA-923m-gv2p-w5qp",
-      "date": "2026-08-07T19:56:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[django] Django: UpdateCacheMiddleware may disclose private cached responses by omitting Authorization from Vary",
-      "url": "https://github.com/advisories/GHSA-qpc8-7fxc-cm4p",
-      "date": "2026-08-07T19:55:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[django] Django: UpdateCacheMiddleware may disclose private cached responses by omitting Authorization from Vary",
-      "url": "https://github.com/advisories/GHSA-qpc8-7fxc-cm4p",
-      "date": "2026-08-07T19:55:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[pypdf] pypdf: Possible large memory usage for large /ToUnicode streams",
-      "url": "https://github.com/advisories/GHSA-fp3f-mc75-235c",
-      "date": "2026-08-07T19:29:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[neutron] OpenStack Neutron Improper Input Validation vulnerability",
-      "url": "https://github.com/advisories/GHSA-wf44-4mgj-rwvx",
-      "date": "2026-08-07T18:57:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pypdf] pypdf: Possible long runtimes/large memory usage for large CID font width ranges",
-      "url": "https://github.com/advisories/GHSA-fwg2-594c-jp42",
-      "date": "2026-08-07T18:54:00.000Z",
+      "title": "[keras] Keras: DiskIOStore permits path traversal through crafted layer names",
+      "url": "https://github.com/advisories/GHSA-gh82-f9x8-5frx",
+      "date": "2026-08-07T20:13:30.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
