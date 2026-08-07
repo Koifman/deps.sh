@@ -1,144 +1,144 @@
 {
-  "fetchedAt": "2026-08-07T19:05:51.622Z",
+  "fetchedAt": "2026-08-07T20:49:24.690Z",
   "entries": [
     {
-      "title": "[hono] Hono: Algorithmic Complexity DoS in Language Middleware",
-      "url": "https://github.com/advisories/GHSA-54fx-42gc-7vw4",
-      "date": "2026-08-07T18:36:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pymdown-extensions] pymdown-extensions: exponential-backtracking ReDoS in caret, tilde, betterem, and magiclink inline processors",
-      "url": "https://github.com/advisories/GHSA-gm37-52c6-37mw",
-      "date": "2026-08-07T18:26:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-router] React Router: RSC Mode CSRF Bypass Allows Action Execution Before 400 Response",
-      "url": "https://github.com/advisories/GHSA-qwww-vcr4-c8h2",
-      "date": "2026-08-07T18:16:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-router] React Router: RSC Mode CSRF Bypass Allows Action Execution Before 400 Response",
-      "url": "https://github.com/advisories/GHSA-qwww-vcr4-c8h2",
-      "date": "2026-08-07T18:16:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jsii-diff] jsii-diff: Command Injection via npm: package argument",
-      "url": "https://github.com/advisories/GHSA-wcx4-wpfv-mc5c",
-      "date": "2026-08-07T18:15:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jsii-diff] Duplicate Advisory: Command Injection in jsii-diff via npm: package argument",
-      "url": "https://github.com/advisories/GHSA-h738-vh6g-q8gh",
-      "date": "2026-08-07T18:15:41.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[axios] Duplicate Advisory: Axios: Prototype pollution auth subfields can inject Basic auth",
-      "url": "https://github.com/advisories/GHSA-38gx-cfqf-f652",
-      "date": "2026-08-07T17:51:36.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@astrojs/vercel] Astro: Unauthenticated path override in the @astrojs/vercel ISR function",
-      "url": "https://github.com/advisories/GHSA-x27w-589x-frm2",
-      "date": "2026-08-07T16:58:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@sveltejs/kit] SvelteKit: ReDoS (O(n^2)) in content negotiation — unauthenticated DoS via the Accept header",
-      "url": "https://github.com/advisories/GHSA-29g2-3rmr-qm68",
-      "date": "2026-08-07T16:50:04.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nuxt] Nuxt dev server discloses project root and workspace UUID via the Chrome DevTools workspace endpoint",
-      "url": "https://github.com/advisories/GHSA-7c4v-fwgw-9rf7",
-      "date": "2026-08-07T16:45:24.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nuxt] Nuxt dev server discloses project root and workspace UUID via the Chrome DevTools workspace endpoint",
-      "url": "https://github.com/advisories/GHSA-7c4v-fwgw-9rf7",
-      "date": "2026-08-07T16:45:24.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[GitPython] GitPython: Unsafe git option guard bypass via split_single_char_options=False short-option token smuggling enables command execution",
-      "url": "https://github.com/advisories/GHSA-wvpp-8hx9-p66j",
-      "date": "2026-08-07T15:49:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[GitPython] GitPython: git-config OPTION-name injection via =/#/whitespace bypasses name validator, enabling forged core.sshCommand/hooksPath (RCE)",
-      "url": "https://github.com/advisories/GHSA-jm78-9fvv-mhgr",
-      "date": "2026-08-07T15:46:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[GitPython] GitPython: Arbitrary Git Repository Creation Outside the Working Tree via Unvalidated .gitmodules Submodule Name in GitPython",
-      "url": "https://github.com/advisories/GHSA-hmq2-w58f-27jc",
-      "date": "2026-08-07T15:45:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[GitPython] GitPython: Arbitrary file read via --pathspec-from-file in IndexFile.remove() and Head.checkout()",
-      "url": "https://github.com/advisories/GHSA-hh9p-6wh2-4mfc",
-      "date": "2026-08-07T15:43:57.000Z",
+      "title": "[keras] Keras: DiskIOStore permits path traversal through crafted layer names",
+      "url": "https://github.com/advisories/GHSA-gh82-f9x8-5frx",
+      "date": "2026-08-07T20:13:30.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[GitPython] GitPython: Unguarded git option forwarding in Repo.init enables arbitrary command execution via --template clone hooks",
-      "url": "https://github.com/advisories/GHSA-9rj7-rf2p-w77r",
-      "date": "2026-08-07T15:36:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[GitPython] GitPython: Unguarded git read-tree option forwarding in IndexFile.from_tree/reset/merge_tree enables arbitrary file overwrite",
-      "url": "https://github.com/advisories/GHSA-4gmw-gg2m-w46p",
-      "date": "2026-08-07T15:34:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[dompurify] DOMPurify: IN_PLACE hook removal leaves a detached subtree executable, causing XSS",
-      "url": "https://github.com/advisories/GHSA-55q2-fjhq-7xh7",
-      "date": "2026-08-07T15:30:48.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[h2] h2: Duplicate Host header could facilitate request smuggling",
-      "url": "https://github.com/advisories/GHSA-6hr6-w5qg-qmwg",
-      "date": "2026-08-06T21:53:43.000Z",
+      "title": "[keras] Keras: DiskIOStore permits path traversal through crafted layer names",
+      "url": "https://github.com/advisories/GHSA-gh82-f9x8-5frx",
+      "date": "2026-08-07T20:13:30.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[re2] node-re2: Out-of-bounds heap read in `replace`/`split` via a `Buffer` ending in a truncated multi-byte UTF-8 character → adjacent heap memory disclosed to JavaScript",
-      "url": "https://github.com/advisories/GHSA-j4r3-hg7j-8chg",
-      "date": "2026-08-06T21:26:16.000Z",
-      "ecosystem": "npm",
+      "title": "[keras] Keras archive extraction utilities allow path traversal and arbitrary file writes",
+      "url": "https://github.com/advisories/GHSA-hqp4-2352-xf5r",
+      "date": "2026-08-07T20:09:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[django] Django: signed cookies are vulnerable to salt namespace collisions",
+      "url": "https://github.com/advisories/GHSA-h7pc-vwp9-298g",
+      "date": "2026-08-07T20:04:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[django] Django: signed cookies are vulnerable to salt namespace collisions",
+      "url": "https://github.com/advisories/GHSA-h7pc-vwp9-298g",
+      "date": "2026-08-07T20:04:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[django] Django: UpdateCacheMiddleware may disclose cached responses due to case-sensitive Cache-Control handling",
+      "url": "https://github.com/advisories/GHSA-8cjm-8mp7-r2xf",
+      "date": "2026-08-07T20:04:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[django] Django: UpdateCacheMiddleware may disclose cached responses due to case-sensitive Cache-Control handling",
+      "url": "https://github.com/advisories/GHSA-8cjm-8mp7-r2xf",
+      "date": "2026-08-07T20:04:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[django]  Django: GDALRaster may over-read heap memory when constructed from bytes",
+      "url": "https://github.com/advisories/GHSA-crhf-3pfg-w68w",
+      "date": "2026-08-07T20:01:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[django]  Django: GDALRaster may over-read heap memory when constructed from bytes",
+      "url": "https://github.com/advisories/GHSA-crhf-3pfg-w68w",
+      "date": "2026-08-07T20:01:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[django] Django: cache middleware may expose private responses when unrelated request cookies are present",
+      "url": "https://github.com/advisories/GHSA-3h9f-r86x-qvjx",
+      "date": "2026-08-07T20:00:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[django] Django: cache middleware may expose private responses when unrelated request cookies are present",
+      "url": "https://github.com/advisories/GHSA-3h9f-r86x-qvjx",
+      "date": "2026-08-07T20:00:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[django] Django: DomainNameValidator permits newline characters that may enable HTTP header injection",
+      "url": "https://github.com/advisories/GHSA-8qcx-xf44-272x",
+      "date": "2026-08-07T20:00:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[django] Django: DomainNameValidator permits newline characters that may enable HTTP header injection",
+      "url": "https://github.com/advisories/GHSA-8qcx-xf44-272x",
+      "date": "2026-08-07T20:00:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[django] Django: has_vary_header may expose cached responses when Vary values contain whitespace",
+      "url": "https://github.com/advisories/GHSA-923m-gv2p-w5qp",
+      "date": "2026-08-07T19:56:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[django] Django: has_vary_header may expose cached responses when Vary values contain whitespace",
+      "url": "https://github.com/advisories/GHSA-923m-gv2p-w5qp",
+      "date": "2026-08-07T19:56:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[django] Django: UpdateCacheMiddleware may disclose private cached responses by omitting Authorization from Vary",
+      "url": "https://github.com/advisories/GHSA-qpc8-7fxc-cm4p",
+      "date": "2026-08-07T19:55:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[django] Django: UpdateCacheMiddleware may disclose private cached responses by omitting Authorization from Vary",
+      "url": "https://github.com/advisories/GHSA-qpc8-7fxc-cm4p",
+      "date": "2026-08-07T19:55:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[pypdf] pypdf: Possible large memory usage for large /ToUnicode streams",
+      "url": "https://github.com/advisories/GHSA-fp3f-mc75-235c",
+      "date": "2026-08-07T19:29:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[neutron] OpenStack Neutron Improper Input Validation vulnerability",
+      "url": "https://github.com/advisories/GHSA-wf44-4mgj-rwvx",
+      "date": "2026-08-07T18:57:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pypdf] pypdf: Possible long runtimes/large memory usage for large CID font width ranges",
+      "url": "https://github.com/advisories/GHSA-fwg2-594c-jp42",
+      "date": "2026-08-07T18:54:00.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
