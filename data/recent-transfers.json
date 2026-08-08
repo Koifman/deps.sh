@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-08T08:53:39.676Z",
+  "scannedAt": "2026-08-08T09:46:59.284Z",
   "count": 108,
   "packages": [
     {
@@ -454,7 +454,7 @@
     },
     {
       "name": "@assistant-ui/react",
-      "version": "0.15.10",
+      "version": "0.15.11",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -534,15 +534,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/abort-controller",
-      "version": "2.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "azure-sdk",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@supabase/storage-js",
       "version": "2.112.2",
       "ecosystem": "npm",
@@ -550,6 +541,15 @@
       "level": "MODERATE",
       "previousOwner": "kiwicopple",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@azure/abort-controller",
+      "version": "2.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "azure-sdk",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@supabase/supabase-js",
@@ -957,15 +957,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/typescript-linux-arm64",
-      "version": "7.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@oxc-parser/binding-win32-x64-msvc",
       "version": "0.143.0",
       "ecosystem": "npm",
@@ -973,6 +964,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/typescript-linux-arm64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     }
   ]
 }
