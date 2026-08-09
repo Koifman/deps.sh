@@ -1,9 +1,15 @@
 {
-  "fetchedAt": "2026-08-09T13:04:52.028Z",
+  "fetchedAt": "2026-08-09T14:41:04.379Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0237: nostr-relay-builder is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0237.html",
+      "date": "2026-08-09T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0244: Unsoundness in gettext-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0244.html",
       "date": "2026-08-09T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -126,13 +132,6 @@
       "date": "2026-08-07T20:33:50.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[keras] Keras: tar extraction permits symlink-based path traversal",
-      "url": "https://github.com/advisories/GHSA-58hv-7753-xmfq",
-      "date": "2026-08-07T20:32:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }
