@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-08-09T11:35:33.881Z",
+  "fetchedAt": "2026-08-09T13:04:52.028Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0237: nostr-relay-builder is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0237.html",
+      "date": "2026-08-09T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0238: Vulnerability in dcrypt-algorithms",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0238.html",
+      "date": "2026-08-09T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0239: Vulnerability in dcrypt-symmetric",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0239.html",
+      "date": "2026-08-09T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0240: Vulnerability in dcrypt-sign",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0240.html",
+      "date": "2026-08-09T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0241: nostr-keyring is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0241.html",
+      "date": "2026-08-09T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0242: Vulnerability in dcrypt-api",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0242.html",
+      "date": "2026-08-09T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0243: nostr-relay-pool is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0243.html",
+      "date": "2026-08-09T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[showdown] showdown metadata title handling allows cross-site scripting",
       "url": "https://github.com/advisories/GHSA-cr32-g25g-vxjj",
@@ -91,55 +133,6 @@
       "date": "2026-08-07T20:32:13.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[keras] Keras: tar extraction permits symlink-based path traversal",
-      "url": "https://github.com/advisories/GHSA-58hv-7753-xmfq",
-      "date": "2026-08-07T20:32:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[keras] Keras: Lambda deserialization can bypass safe mode and execute code",
-      "url": "https://github.com/advisories/GHSA-5gwj-m78q-7pq3",
-      "date": "2026-08-07T20:30:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[keras] Keras: Lambda deserialization can bypass safe mode and execute code",
-      "url": "https://github.com/advisories/GHSA-5gwj-m78q-7pq3",
-      "date": "2026-08-07T20:30:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[keras] Keras: HDF5 virtual datasets can disclose local files",
-      "url": "https://github.com/advisories/GHSA-26c4-7vv6-867j",
-      "date": "2026-08-07T20:28:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[keras] Keras: HDF5 virtual datasets can disclose local files",
-      "url": "https://github.com/advisories/GHSA-26c4-7vv6-867j",
-      "date": "2026-08-07T20:28:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[keras] Keras: DiskIOStore permits path traversal through crafted layer names",
-      "url": "https://github.com/advisories/GHSA-gh82-f9x8-5frx",
-      "date": "2026-08-07T20:13:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[keras] Keras: DiskIOStore permits path traversal through crafted layer names",
-      "url": "https://github.com/advisories/GHSA-gh82-f9x8-5frx",
-      "date": "2026-08-07T20:13:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
