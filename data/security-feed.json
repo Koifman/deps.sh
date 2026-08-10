@@ -1,9 +1,50 @@
 {
-  "fetchedAt": "2026-08-10T15:05:49.534Z",
+  "fetchedAt": "2026-08-10T16:59:46.438Z",
   "entries": [
+    {
+      "title": "[flyto-core] Flyto2 Core: Unauthenticated flyto-verification /run: callback_url SSRF and internal runner-secret exfiltration",
+      "url": "https://github.com/advisories/GHSA-jx74-cqjv-2c67",
+      "date": "2026-08-10T15:00:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to path traversal via percent-encoded dot segments",
+      "url": "https://github.com/advisories/GHSA-q3j6-qgpj-74h6",
+      "date": "2026-08-10T14:46:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to path traversal via percent-encoded dot segments",
+      "url": "https://github.com/advisories/GHSA-q3j6-qgpj-74h6",
+      "date": "2026-08-10T14:46:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via percent-encoded authority delimiters",
+      "url": "https://github.com/advisories/GHSA-v39h-62p7-jpjc",
+      "date": "2026-08-10T14:43:43.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via percent-encoded authority delimiters",
+      "url": "https://github.com/advisories/GHSA-v39h-62p7-jpjc",
+      "date": "2026-08-10T14:43:43.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0245: Vulnerability in sevenz-rust",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0245.html",
+      "date": "2026-08-10T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0246: sevenz-rust is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0246.html",
       "date": "2026-08-10T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -88,48 +129,6 @@
       "url": "https://github.com/advisories/GHSA-28wg-ghj8-5hjv",
       "date": "2026-08-07T20:53:01.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nanoid] nanoid: non-secure generators can loop indefinitely with negative size",
-      "url": "https://github.com/advisories/GHSA-28wg-ghj8-5hjv",
-      "date": "2026-08-07T20:53:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nanoid] nanoid: custom generators can loop indefinitely when size is zero",
-      "url": "https://github.com/advisories/GHSA-2v37-7h3g-55p8",
-      "date": "2026-08-07T20:50:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nanoid] nanoid: custom generators can loop indefinitely when size is zero",
-      "url": "https://github.com/advisories/GHSA-2v37-7h3g-55p8",
-      "date": "2026-08-07T20:50:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[keras] Keras: HDF5 links can disclose local file contents",
-      "url": "https://github.com/advisories/GHSA-m8wh-29wm-52mv",
-      "date": "2026-08-07T20:35:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[keras] Keras: HDF5 links can disclose local file contents",
-      "url": "https://github.com/advisories/GHSA-m8wh-29wm-52mv",
-      "date": "2026-08-07T20:35:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[keras] Keras: TorchModuleWrapper can deserialize unsafe PyTorch pickle data",
-      "url": "https://github.com/advisories/GHSA-v2w2-w228-c444",
-      "date": "2026-08-07T20:33:50.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
