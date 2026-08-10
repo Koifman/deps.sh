@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-08-10T06:15:09.919Z",
+  "fetchedAt": "2026-08-10T08:44:23.052Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0245: Vulnerability in sevenz-rust",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0245.html",
+      "date": "2026-08-10T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0237: nostr-relay-builder is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0237.html",
@@ -118,13 +124,6 @@
       "date": "2026-08-07T20:35:49.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[keras] Keras: TorchModuleWrapper can deserialize unsafe PyTorch pickle data",
-      "url": "https://github.com/advisories/GHSA-v2w2-w228-c444",
-      "date": "2026-08-07T20:33:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     },
     {
       "title": "[keras] Keras: TorchModuleWrapper can deserialize unsafe PyTorch pickle data",
