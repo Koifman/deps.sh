@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-10T10:26:12.168Z",
+  "scannedAt": "2026-08-10T11:56:11.233Z",
   "count": 107,
   "packages": [
     {
@@ -283,7 +283,7 @@
     },
     {
       "name": "oxlint",
-      "version": "1.77.0",
+      "version": "1.78.0",
       "ecosystem": "npm",
       "score": 30,
       "level": "MODERATE",
@@ -607,7 +607,7 @@
     },
     {
       "name": "oxfmt",
-      "version": "0.62.0",
+      "version": "0.63.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -633,8 +633,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "@appium/types",
-      "version": "1.6.0",
+      "name": "@appium/schema",
+      "version": "1.3.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -642,8 +642,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.3.0",
+      "name": "@appium/types",
+      "version": "1.6.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -778,7 +778,7 @@
     },
     {
       "name": "@oxlint/binding-linux-x64-gnu",
-      "version": "1.77.0",
+      "version": "1.78.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -805,7 +805,7 @@
     },
     {
       "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.62.0",
+      "version": "0.63.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -814,7 +814,7 @@
     },
     {
       "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.77.0",
+      "version": "1.78.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -850,7 +850,7 @@
     },
     {
       "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.62.0",
+      "version": "0.63.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -930,15 +930,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-arm64-gnu",
-      "version": "1.77.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@typescript/typescript-linux-arm64",
       "version": "7.0.2",
       "ecosystem": "npm",
@@ -946,6 +937,15 @@
       "level": "LOW",
       "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@oxlint/binding-linux-arm64-gnu",
+      "version": "1.78.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@lottiefiles/dotlottie-web",
