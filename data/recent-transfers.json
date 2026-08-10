@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-10T13:26:31.250Z",
+  "scannedAt": "2026-08-10T15:09:00.153Z",
   "count": 107,
   "packages": [
     {
@@ -210,15 +210,6 @@
       "currentOwner": "geoffreybooth"
     },
     {
-      "name": "@stitches/core",
-      "version": "1.2.8",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "peduarte",
-      "currentOwner": "hadihallak"
-    },
-    {
       "name": "@appium/support",
       "version": "7.2.6",
       "ecosystem": "npm",
@@ -300,15 +291,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@trivago/prettier-plugin-sort-imports",
-      "version": "6.0.2",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "ayusharma",
-      "currentOwner": "behraang"
-    },
-    {
       "name": "embla-carousel-autoplay",
       "version": "8.6.0",
       "ecosystem": "npm",
@@ -316,6 +298,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "@trivago/prettier-plugin-sort-imports",
+      "version": "6.0.2",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "ayusharma",
+      "currentOwner": "behraang"
     },
     {
       "name": "eslint",
@@ -570,15 +561,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/logger",
-      "version": "1.4.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "azure-sdk",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@formatjs/ecma402-abstract",
       "version": "3.2.0",
       "ecosystem": "npm",
@@ -586,6 +568,15 @@
       "level": "MODERATE",
       "previousOwner": "longlho",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@azure/logger",
+      "version": "1.4.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "azure-sdk",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@azure/core-lro",
@@ -633,15 +624,6 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.3.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/types",
       "version": "1.6.0",
       "ecosystem": "npm",
@@ -651,12 +633,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@hey-api/codegen-core",
-      "version": "0.9.1",
+      "name": "@appium/schema",
+      "version": "1.3.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "mrlubos",
+      "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -669,13 +651,13 @@
       "currentOwner": "notaphplover"
     },
     {
-      "name": "@microsoft/dynamicproto-js",
-      "version": "2.0.5",
+      "name": "@hey-api/codegen-core",
+      "version": "0.9.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "microsoft",
-      "currentOwner": "microsoft1es"
+      "previousOwner": "mrlubos",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@appium/logger",
@@ -685,6 +667,15 @@
       "level": "MODERATE",
       "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@microsoft/dynamicproto-js",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "microsoft",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@appium/tsconfig",
@@ -930,15 +921,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/typescript-linux-arm64",
-      "version": "7.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@oxlint/binding-linux-arm64-gnu",
       "version": "1.78.0",
       "ecosystem": "npm",
@@ -963,6 +945,24 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/typescript-linux-arm64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@astrojs/compiler-binding-linux-x64-gnu",
+      "version": "0.3.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matthewp",
       "currentOwner": "GitHub Actions"
     }
   ]
