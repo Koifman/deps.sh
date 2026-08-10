@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-08-10T20:54:50.800Z",
-  "count": 108,
+  "scannedAt": "2026-08-10T21:52:15.421Z",
+  "count": 107,
   "packages": [
     {
       "name": "xmldom",
@@ -822,8 +822,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.78.0",
+      "name": "oxc-transform",
+      "version": "0.144.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -831,8 +831,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
-      "version": "0.144.0",
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.78.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -903,15 +903,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@fortawesome/react-fontawesome",
-      "version": "3.5.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "supercodepoet",
-      "currentOwner": "lordofbacon"
-    },
-    {
       "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.144.0",
       "ecosystem": "npm",
@@ -919,6 +910,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@fortawesome/react-fontawesome",
+      "version": "3.5.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "supercodepoet",
+      "currentOwner": "lordofbacon"
     },
     {
       "name": "@oxlint/binding-linux-arm64-gnu",
@@ -963,15 +963,6 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "matthewp",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-parser/binding-darwin-x64",
-      "version": "0.144.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     }
   ]
