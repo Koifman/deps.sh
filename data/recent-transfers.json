@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-08-11T11:52:55.501Z",
-  "count": 106,
+  "scannedAt": "2026-08-11T13:22:57.526Z",
+  "count": 107,
   "packages": [
     {
       "name": "xmldom",
@@ -156,6 +156,15 @@
       "currentOwner": "ljharb"
     },
     {
+      "name": "array-initial",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "jonschlinkert",
+      "currentOwner": "phated"
+    },
+    {
       "name": "is-plain-object",
       "version": "5.0.0",
       "ecosystem": "npm",
@@ -183,15 +192,6 @@
       "currentOwner": "housseindjirdeh"
     },
     {
-      "name": "mark.js",
-      "version": "8.11.1",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "lukasoppermann",
-      "currentOwner": "julmot"
-    },
-    {
       "name": "cloudevents",
       "version": "10.0.0",
       "ecosystem": "npm",
@@ -199,6 +199,15 @@
       "level": "MODERATE",
       "previousOwner": "tjanczuk",
       "currentOwner": "lholmquist"
+    },
+    {
+      "name": "mark.js",
+      "version": "8.11.1",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "lukasoppermann",
+      "currentOwner": "julmot"
     },
     {
       "name": "coffeescript",
@@ -318,15 +327,6 @@
       "currentOwner": "eslintbot"
     },
     {
-      "name": "remark-mdx",
-      "version": "3.1.1",
-      "ecosystem": "npm",
-      "score": 27,
-      "level": "MODERATE",
-      "previousOwner": "johno",
-      "currentOwner": "wooorm"
-    },
-    {
       "name": "postcss-focus-visible",
       "version": "11.0.0",
       "ecosystem": "npm",
@@ -334,6 +334,15 @@
       "level": "MODERATE",
       "previousOwner": "jonathantneal",
       "currentOwner": "romainmenke"
+    },
+    {
+      "name": "remark-mdx",
+      "version": "3.1.1",
+      "ecosystem": "npm",
+      "score": 27,
+      "level": "MODERATE",
+      "previousOwner": "johno",
+      "currentOwner": "wooorm"
     },
     {
       "name": "resedit",
@@ -561,15 +570,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/logger",
-      "version": "1.4.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "azure-sdk",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@azure/core-lro",
       "version": "3.4.0",
       "ecosystem": "npm",
@@ -586,6 +586,15 @@
       "level": "MODERATE",
       "previousOwner": "panva",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@azure/logger",
+      "version": "1.4.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "azure-sdk",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "oxfmt",
@@ -751,7 +760,7 @@
     },
     {
       "name": "oauth4webapi",
-      "version": "3.8.6",
+      "version": "3.8.7",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -921,21 +930,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@astrojs/compiler-binding-linux-x64-gnu",
-      "version": "0.4.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matthewp",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.144.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@astrojs/compiler-binding-linux-x64-gnu",
+      "version": "0.4.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matthewp",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -948,13 +957,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/typescript-linux-arm64",
-      "version": "7.0.2",
+      "name": "@yuku-toolchain/types",
+      "version": "0.8.4",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
+      "previousOwner": "arshadyaseen",
+      "currentOwner": "GitHub Actions"
     }
   ]
 }
