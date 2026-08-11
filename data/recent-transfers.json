@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-08-11T07:23:17.717Z",
-  "count": 106,
+  "scannedAt": "2026-08-11T09:08:36.397Z",
+  "count": 107,
   "packages": [
     {
       "name": "xmldom",
@@ -156,6 +156,15 @@
       "currentOwner": "ljharb"
     },
     {
+      "name": "array-initial",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "score": 37,
+      "level": "MODERATE",
+      "previousOwner": "jonschlinkert",
+      "currentOwner": "phated"
+    },
+    {
       "name": "is-plain-object",
       "version": "5.0.0",
       "ecosystem": "npm",
@@ -183,15 +192,6 @@
       "currentOwner": "housseindjirdeh"
     },
     {
-      "name": "mark.js",
-      "version": "8.11.1",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "lukasoppermann",
-      "currentOwner": "julmot"
-    },
-    {
       "name": "cloudevents",
       "version": "10.0.0",
       "ecosystem": "npm",
@@ -199,6 +199,15 @@
       "level": "MODERATE",
       "previousOwner": "tjanczuk",
       "currentOwner": "lholmquist"
+    },
+    {
+      "name": "mark.js",
+      "version": "8.11.1",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "lukasoppermann",
+      "currentOwner": "julmot"
     },
     {
       "name": "coffeescript",
@@ -526,7 +535,7 @@
     },
     {
       "name": "@supabase/storage-js",
-      "version": "2.112.2",
+      "version": "2.112.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -535,7 +544,7 @@
     },
     {
       "name": "@supabase/realtime-js",
-      "version": "2.112.2",
+      "version": "2.112.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -544,7 +553,7 @@
     },
     {
       "name": "@supabase/supabase-js",
-      "version": "2.112.2",
+      "version": "2.112.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -561,8 +570,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/logger",
-      "version": "1.4.0",
+      "name": "@azure/core-lro",
+      "version": "3.4.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -570,8 +579,8 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "@azure/core-lro",
-      "version": "3.4.0",
+      "name": "@azure/logger",
+      "version": "1.4.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -712,6 +721,15 @@
       "level": "MODERATE",
       "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@vimeo/player",
+      "version": "2.30.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "bdougherty",
+      "currentOwner": "vimeo-npmbot"
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
@@ -946,15 +964,6 @@
       "level": "LOW",
       "previousOwner": "matthewp",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@typescript/typescript-linux-arm64",
-      "version": "7.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
     }
   ]
 }
