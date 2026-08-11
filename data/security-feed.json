@@ -1,6 +1,24 @@
 {
-  "fetchedAt": "2026-08-11T09:05:59.063Z",
+  "fetchedAt": "2026-08-11T10:55:52.834Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0252: Unsoundness in orx-split-vec",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0252.html",
+      "date": "2026-08-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2025-0168: Vulnerability in zip",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0168.html",
+      "date": "2026-08-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2025-0169: Unsoundness in stainless_ffmpeg",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0169.html",
+      "date": "2026-08-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[flyto-core] Flyto2 Core: Unauthenticated flyto-verification /run: callback_url SSRF and internal runner-secret exfiltration",
       "url": "https://github.com/advisories/GHSA-jx74-cqjv-2c67",
@@ -105,24 +123,6 @@
     {
       "title": "RUSTSEC-2026-0239: Vulnerability in dcrypt-symmetric",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0239.html",
-      "date": "2026-08-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0240: Vulnerability in dcrypt-sign",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0240.html",
-      "date": "2026-08-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0241: nostr-keyring is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0241.html",
-      "date": "2026-08-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0244: Unsoundness in gettext-rs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0244.html",
       "date": "2026-08-09T12:00:00+00:00",
       "ecosystem": "cargo"
     }
