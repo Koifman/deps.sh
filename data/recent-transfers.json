@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-11T13:22:57.526Z",
+  "scannedAt": "2026-08-11T15:07:46.580Z",
   "count": 107,
   "packages": [
     {
@@ -327,15 +327,6 @@
       "currentOwner": "eslintbot"
     },
     {
-      "name": "postcss-focus-visible",
-      "version": "11.0.0",
-      "ecosystem": "npm",
-      "score": 27,
-      "level": "MODERATE",
-      "previousOwner": "jonathantneal",
-      "currentOwner": "romainmenke"
-    },
-    {
       "name": "remark-mdx",
       "version": "3.1.1",
       "ecosystem": "npm",
@@ -343,6 +334,15 @@
       "level": "MODERATE",
       "previousOwner": "johno",
       "currentOwner": "wooorm"
+    },
+    {
+      "name": "postcss-focus-visible",
+      "version": "11.0.0",
+      "ecosystem": "npm",
+      "score": 27,
+      "level": "MODERATE",
+      "previousOwner": "jonathantneal",
+      "currentOwner": "romainmenke"
     },
     {
       "name": "resedit",
@@ -507,21 +507,21 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "style-to-js",
-      "version": "2.0.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "remarkablemark",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "oxc-parser",
       "version": "0.144.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "style-to-js",
+      "version": "2.0.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "remarkablemark",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -580,7 +580,7 @@
     },
     {
       "name": "openid-client",
-      "version": "6.8.4",
+      "version": "6.8.5",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -678,24 +678,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "redux-saga",
-      "version": "1.5.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "yelouafi",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "cropperjs",
       "version": "2.1.1",
       "ecosystem": "npm",
@@ -714,6 +696,24 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@appium/tsconfig",
+      "version": "1.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "redux-saga",
+      "version": "1.5.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "yelouafi",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@vimeo/player",
       "version": "2.30.4",
       "ecosystem": "npm",
@@ -721,6 +721,15 @@
       "level": "MODERATE",
       "previousOwner": "bdougherty",
       "currentOwner": "vimeo-npmbot"
+    },
+    {
+      "name": "@nevware21/ts-async",
+      "version": "0.6.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "@oxc-parser/binding-linux-x64-gnu",
@@ -741,15 +750,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@speed-highlight/core",
-      "version": "1.2.24",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matubu",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@typescript/typescript-linux-x64",
       "version": "7.0.2",
       "ecosystem": "npm",
@@ -757,6 +757,15 @@
       "level": "LOW",
       "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@speed-highlight/core",
+      "version": "1.2.24",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matubu",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "oauth4webapi",
@@ -804,8 +813,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
-      "version": "0.144.0",
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.78.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -813,8 +822,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.78.0",
+      "name": "oxc-transform",
+      "version": "0.144.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -936,15 +945,6 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@astrojs/compiler-binding-linux-x64-gnu",
-      "version": "0.4.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matthewp",
       "currentOwner": "GitHub Actions"
     },
     {
