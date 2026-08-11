@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-11T21:58:19.838Z",
+  "scannedAt": "2026-08-11T22:54:24.821Z",
   "count": 106,
   "packages": [
     {
@@ -579,15 +579,6 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "openid-client",
-      "version": "6.8.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "panva",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@azure/logger",
       "version": "1.4.0",
       "ecosystem": "npm",
@@ -595,6 +586,15 @@
       "level": "MODERATE",
       "previousOwner": "azure-sdk",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "openid-client",
+      "version": "6.8.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "panva",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "oxfmt",
@@ -786,15 +786,6 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "meriyah",
-      "version": "7.3.1",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "meriyah",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxfmt/binding-linux-x64-gnu",
       "version": "0.63.0",
       "ecosystem": "npm",
@@ -804,8 +795,17 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.78.0",
+      "name": "meriyah",
+      "version": "7.3.1",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "meriyah",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "oxc-transform",
+      "version": "0.144.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -813,8 +813,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
-      "version": "0.144.0",
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.78.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -903,21 +903,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.144.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@lottiefiles/dotlottie-web",
       "version": "0.79.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.144.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
