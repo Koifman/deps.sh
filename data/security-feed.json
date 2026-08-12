@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-12T17:02:52.566Z",
+  "fetchedAt": "2026-08-12T19:10:38.679Z",
   "entries": [
+    {
+      "title": "[@hono/node-server] Node.js Adapter for Hono: Path traversal in `serve-static` on Windows via encoded backslash (`%5C`)",
+      "url": "https://github.com/advisories/GHSA-frvp-7c67-39w9",
+      "date": "2026-08-12T18:26:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@hono/node-server] Node.js Adapter for Hono: Path traversal in `serve-static` on Windows via encoded backslash (`%5C`)",
+      "url": "https://github.com/advisories/GHSA-frvp-7c67-39w9",
+      "date": "2026-08-12T18:26:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[compliance-trestle] compliance-trestle has an URLSecurityValidator SSRF allowlist bypass via IPv4-mapped IPv6 and 0.0.0.0",
       "url": "https://github.com/advisories/GHSA-h47f-gmjp-m7rr",
@@ -112,18 +126,6 @@
     {
       "title": "RUSTSEC-2023-0126: Unsoundness in im",
       "url": "https://rustsec.org/advisories/RUSTSEC-2023-0126.html",
-      "date": "2026-08-10T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0248: im is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0248.html",
-      "date": "2026-08-10T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0249: smartstring is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0249.html",
       "date": "2026-08-10T12:00:00+00:00",
       "ecosystem": "cargo"
     }
