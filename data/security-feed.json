@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-12T22:49:45.938Z",
+  "fetchedAt": "2026-08-12T23:49:54.434Z",
   "entries": [
+    {
+      "title": "[ansible-jailexec] Ansible FreeBSD Jail Connection Plugin: Jail escape via symlink following in put_file (host-side root mv)",
+      "url": "https://github.com/advisories/GHSA-cxgv-hp74-jj7r",
+      "date": "2026-08-12T23:21:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[tablib] tablib: Stored XSS in the HTML export via unescaped dataset title",
       "url": "https://github.com/advisories/GHSA-gqgw-jghv-mxwx",
@@ -124,13 +131,6 @@
       "date": "2026-08-10T15:00:02.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to path traversal via percent-encoded dot segments",
-      "url": "https://github.com/advisories/GHSA-q3j6-qgpj-74h6",
-      "date": "2026-08-10T14:46:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
