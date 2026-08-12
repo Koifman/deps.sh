@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-08-12T19:10:38.679Z",
+  "fetchedAt": "2026-08-12T20:53:43.913Z",
   "entries": [
+    {
+      "title": "[tablib] tablib: Stored XSS in the HTML export via unescaped dataset title",
+      "url": "https://github.com/advisories/GHSA-gqgw-jghv-mxwx",
+      "date": "2026-08-12T19:32:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk] NLTK vulnerable to Eval Injection via collocations CLI arguments",
+      "url": "https://github.com/advisories/GHSA-848c-c2cx-j7qx",
+      "date": "2026-08-12T19:30:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mcp-server-kubernetes] mcp-server-kubernetes argument injection can expose Kubernetes cluster credentials",
+      "url": "https://github.com/advisories/GHSA-wmg3-h8mf-wgvr",
+      "date": "2026-08-12T19:26:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[apache-airflow] apache-airflow DAG source authorization bypass exposes co-located DAG source",
+      "url": "https://github.com/advisories/GHSA-4fh7-7jx4-8f6c",
+      "date": "2026-08-12T19:23:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[stata-mcp] MCP-for-Stata: Stata Command Injection via Unsanitized `package` in `ado_package_install`",
+      "url": "https://github.com/advisories/GHSA-49m4-vp58-wgc9",
+      "date": "2026-08-12T19:23:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[extract-zip] extract-zip unvalidated symlink path traversal",
+      "url": "https://github.com/advisories/GHSA-jmr9-qjv8-65gv",
+      "date": "2026-08-12T19:22:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@hono/node-server] Node.js Adapter for Hono: Path traversal in `serve-static` on Windows via encoded backslash (`%5C`)",
       "url": "https://github.com/advisories/GHSA-frvp-7c67-39w9",
@@ -89,45 +131,6 @@
       "date": "2026-08-10T14:46:29.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to path traversal via percent-encoded dot segments",
-      "url": "https://github.com/advisories/GHSA-q3j6-qgpj-74h6",
-      "date": "2026-08-10T14:46:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via percent-encoded authority delimiters",
-      "url": "https://github.com/advisories/GHSA-v39h-62p7-jpjc",
-      "date": "2026-08-10T14:43:43.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via percent-encoded authority delimiters",
-      "url": "https://github.com/advisories/GHSA-v39h-62p7-jpjc",
-      "date": "2026-08-10T14:43:43.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2025-0167: Unsoundness in bitmaps",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0167.html",
-      "date": "2026-08-10T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0247: bitmaps is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0247.html",
-      "date": "2026-08-10T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2023-0126: Unsoundness in im",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0126.html",
-      "date": "2026-08-10T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
