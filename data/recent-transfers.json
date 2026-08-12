@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-08-12T02:32:42.918Z",
-  "count": 106,
+  "scannedAt": "2026-08-12T04:55:30.064Z",
+  "count": 107,
   "packages": [
     {
       "name": "xmldom",
@@ -426,21 +426,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@assistant-ui/react",
-      "version": "0.15.13",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "yonom",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@redux-saga/core",
       "version": "1.5.1",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "andarist",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@assistant-ui/react",
+      "version": "0.15.13",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "yonom",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -498,21 +498,21 @@
       "currentOwner": "ljharb"
     },
     {
-      "name": "oxc-parser",
-      "version": "0.144.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "style-to-js",
       "version": "2.0.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "remarkablemark",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "oxc-parser",
+      "version": "0.144.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -669,21 +669,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "cropperjs",
-      "version": "2.1.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "fengyuanchen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@lingui/message-utils",
       "version": "6.6.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "andrii.bodnar",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "cropperjs",
+      "version": "2.1.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "fengyuanchen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -912,15 +912,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-win32-x64-msvc",
-      "version": "0.144.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.144.0",
       "ecosystem": "npm",
@@ -939,6 +930,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@oxc-parser/binding-win32-x64-msvc",
+      "version": "0.144.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@astrojs/compiler-binding",
       "version": "0.4.0",
       "ecosystem": "npm",
@@ -949,12 +949,21 @@
     },
     {
       "name": "@yuku-toolchain/types",
-      "version": "0.8.4",
+      "version": "0.8.5",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "arshadyaseen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/typescript-linux-arm64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     }
   ]
 }
