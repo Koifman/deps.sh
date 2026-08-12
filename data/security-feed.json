@@ -1,6 +1,30 @@
 {
-  "fetchedAt": "2026-08-12T10:13:35.286Z",
+  "fetchedAt": "2026-08-12T11:52:58.930Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0254: Unsoundness in sp-sized-chunks",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0254.html",
+      "date": "2026-08-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0257: Vulnerability in webbrowser",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0257.html",
+      "date": "2026-08-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0255: Unsoundness in sized-chunks",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0255.html",
+      "date": "2026-08-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0256: Unsoundness in circular-buffer",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0256.html",
+      "date": "2026-08-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2025-0170: Unsoundness in hugepage-rs",
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0170.html",
@@ -100,30 +124,6 @@
       "title": "RUSTSEC-2026-0250: im-rc is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0250.html",
       "date": "2026-08-10T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0251: sized-chunks is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0251.html",
-      "date": "2026-08-10T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0245: Vulnerability in sevenz-rust",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0245.html",
-      "date": "2026-08-10T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0246: sevenz-rust is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0246.html",
-      "date": "2026-08-10T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0237: nostr-relay-builder is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0237.html",
-      "date": "2026-08-09T12:00:00+00:00",
       "ecosystem": "cargo"
     }
   ]
