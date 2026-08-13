@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-08-13T15:06:27.313Z",
-  "count": 106,
+  "scannedAt": "2026-08-13T17:05:29.795Z",
+  "count": 107,
   "packages": [
     {
       "name": "xmldom",
@@ -208,6 +208,15 @@
       "level": "MODERATE",
       "previousOwner": "isaacs",
       "currentOwner": "geoffreybooth"
+    },
+    {
+      "name": "@stitches/core",
+      "version": "1.2.8",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "peduarte",
+      "currentOwner": "hadihallak"
     },
     {
       "name": "@appium/support",
@@ -552,15 +561,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@formatjs/ecma402-abstract",
-      "version": "3.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "longlho",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@azure/logger",
       "version": "1.4.0",
       "ecosystem": "npm",
@@ -568,6 +568,15 @@
       "level": "MODERATE",
       "previousOwner": "azure-sdk",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@formatjs/ecma402-abstract",
+      "version": "3.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "longlho",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@azure/core-lro",
@@ -931,7 +940,7 @@
     },
     {
       "name": "@lottiefiles/dotlottie-web",
-      "version": "0.79.0",
+      "version": "0.79.1",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
