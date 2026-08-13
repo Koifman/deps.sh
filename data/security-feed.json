@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-13T13:26:19.153Z",
+  "fetchedAt": "2026-08-13T15:03:47.131Z",
   "entries": [
+    {
+      "title": "[ep_etherpad-lite] ep_etherpad-lite: Import/export uses Math.random() for temp file paths; predictable paths on shared /tmp enable symlink-based file overwrite",
+      "url": "https://github.com/advisories/GHSA-2jwf-f4xq-f24h",
+      "date": "2026-08-13T14:11:08.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ep_etherpad-lite] ep_etherpad-lite: Cache-poisoning Cross-site Scripting and Open Redirect via x-proxy-path Header",
+      "url": "https://github.com/advisories/GHSA-fjgc-3mj7-8rg8",
+      "date": "2026-08-13T13:46:08.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[ansible-jailexec] Ansible FreeBSD Jail Connection Plugin: Jail escape via symlink following in put_file (host-side root mv)",
       "url": "https://github.com/advisories/GHSA-cxgv-hp74-jj7r",
@@ -118,19 +132,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0253.html",
       "date": "2026-08-11T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2025-0169: Unsoundness in stainless_ffmpeg",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0169.html",
-      "date": "2026-08-11T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[flyto-core] Flyto2 Core: Unauthenticated flyto-verification /run: callback_url SSRF and internal runner-secret exfiltration",
-      "url": "https://github.com/advisories/GHSA-jx74-cqjv-2c67",
-      "date": "2026-08-10T15:00:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
