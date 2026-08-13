@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-08-13T17:02:24.397Z",
+  "fetchedAt": "2026-08-13T19:11:29.331Z",
   "entries": [
+    {
+      "title": "[vllm] vLLM: Completion prompt lists fan out into unbounded engine requests",
+      "url": "https://github.com/advisories/GHSA-87x5-vmc3-756j",
+      "date": "2026-08-13T18:40:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[homeassistant] Home Assistant Core vulnerable to Path Traversal via backup upload during onboarding",
+      "url": "https://github.com/advisories/GHSA-5hxg-r395-fqxx",
+      "date": "2026-08-13T18:37:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@genql/cli] Genql: inject arbitrary JavaScript or TypeScript via a GraphQL schema",
+      "url": "https://github.com/advisories/GHSA-w757-xvvv-vgfw",
+      "date": "2026-08-13T18:29:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mlflow] MLflow: trace API endpoints lack proper authorization validators",
+      "url": "https://github.com/advisories/GHSA-2cm6-r77w-6g96",
+      "date": "2026-08-13T18:27:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[libp2p] libp2p: yamux connection DoS via oversized data frame",
+      "url": "https://github.com/advisories/GHSA-hmj8-5xmh-5573",
+      "date": "2026-08-13T17:43:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[pnpm] pnpm: Repository-controlled configDependencies can select a pacquet native install engine",
       "url": "https://github.com/advisories/GHSA-gj8w-mvpf-x27x",
@@ -104,41 +139,6 @@
       "url": "https://github.com/advisories/GHSA-2jwf-f4xq-f24h",
       "date": "2026-08-13T14:11:08.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ep_etherpad-lite] ep_etherpad-lite: Cache-poisoning Cross-site Scripting and Open Redirect via x-proxy-path Header",
-      "url": "https://github.com/advisories/GHSA-fjgc-3mj7-8rg8",
-      "date": "2026-08-13T13:46:08.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[tablib] tablib: Stored XSS in the HTML export via unescaped dataset title",
-      "url": "https://github.com/advisories/GHSA-gqgw-jghv-mxwx",
-      "date": "2026-08-12T19:32:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] NLTK vulnerable to Eval Injection via collocations CLI arguments",
-      "url": "https://github.com/advisories/GHSA-848c-c2cx-j7qx",
-      "date": "2026-08-12T19:30:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mcp-server-kubernetes] mcp-server-kubernetes argument injection can expose Kubernetes cluster credentials",
-      "url": "https://github.com/advisories/GHSA-wmg3-h8mf-wgvr",
-      "date": "2026-08-12T19:26:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[apache-airflow] apache-airflow DAG source authorization bypass exposes co-located DAG source",
-      "url": "https://github.com/advisories/GHSA-4fh7-7jx4-8f6c",
-      "date": "2026-08-12T19:23:54.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
