@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-08-13T20:51:45.234Z",
+  "fetchedAt": "2026-08-13T21:53:14.246Z",
   "entries": [
+    {
+      "title": "[@trigger.dev/core] Trigger.dev: Prototype pollution via run metadata operations → process-wide cross-tenant DoS",
+      "url": "https://github.com/advisories/GHSA-p28v-f755-9qrg",
+      "date": "2026-08-13T20:54:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nltk] nltk: Arbitrary File Read via Path Traversal in nltk.data.load() through Percent-Encoded Sequences",
+      "url": "https://github.com/advisories/GHSA-m42h-3232-vpv3",
+      "date": "2026-08-13T20:45:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nltk] Duplicate Advisory: Arbitrary File Read via Path Traversal in nltk.data.load() through Percent-Encoded Sequences",
+      "url": "https://github.com/advisories/GHSA-q5h6-fcf5-49g9",
+      "date": "2026-08-13T20:44:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[vllm] vLLM: Completion prompt lists fan out into unbounded engine requests",
       "url": "https://github.com/advisories/GHSA-87x5-vmc3-756j",
@@ -118,27 +139,6 @@
       "url": "https://github.com/advisories/GHSA-h7p7-w5gc-xj3w",
       "date": "2026-08-13T14:16:27.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hashi-vault-js] hashi-vault-js: Vault token and secret values exposed in thrown errors",
-      "url": "https://github.com/advisories/GHSA-5pq8-3ffp-7w5m",
-      "date": "2026-08-13T14:14:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ep_etherpad-lite] ep_etherpad-lite: Device-to-device author-token transfer endpoint is replayable, never expires, and exposes the cleartext author token",
-      "url": "https://github.com/advisories/GHSA-vqfp-p66c-xrp9",
-      "date": "2026-08-13T14:13:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ep_etherpad-lite] ep_etherpad-lite: Import/export uses Math.random() for temp file paths; predictable paths on shared /tmp enable symlink-based file overwrite",
-      "url": "https://github.com/advisories/GHSA-2jwf-f4xq-f24h",
-      "date": "2026-08-13T14:11:08.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
