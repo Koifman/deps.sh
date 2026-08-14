@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-08-14T19:02:35.271Z",
+  "fetchedAt": "2026-08-14T20:36:32.565Z",
   "entries": [
+    {
+      "title": "[mcp-contextforge-gateway] ContextForge: DNS TOCTOU race condition causes SSRF protection bypass (`/admin/gateways/test`)",
+      "url": "https://github.com/advisories/GHSA-9hgc-g3w5-67cm",
+      "date": "2026-08-14T19:49:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@budibase/server] Budibase: SSRF in Automation Steps - Webhook, Zapier, N8N, Slack, Discord Bypass IP Blacklist",
+      "url": "https://github.com/advisories/GHSA-5fpj-28rv-84r7",
+      "date": "2026-08-14T19:18:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nuxt] Nuxt: Reflected XSS in `<NuxtLink>` via unsanitised `javascript:` or `data:` URL",
+      "url": "https://github.com/advisories/GHSA-934w-87qh-qr26",
+      "date": "2026-08-14T18:45:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nuxt] Nuxt: URL-handling weaknesses in `navigateTo` and `reloadNuxtApp`: SSR open redirect, client-side script execution via the `open` option, and protocol-relative bypass in `reloadNuxtApp`",
+      "url": "https://github.com/advisories/GHSA-c9cv-mq2m-ppp3",
+      "date": "2026-08-14T18:43:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@trigger.dev/core] Trigger.dev: Prototype pollution via run metadata operations → process-wide cross-tenant DoS",
       "url": "https://github.com/advisories/GHSA-p28v-f755-9qrg",
@@ -112,34 +140,6 @@
       "date": "2026-08-13T14:17:14.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[pydantic-ai] Pydantic AI: Unvalidated UploadedFile references in UI adapters allow server-side file access using the application's credentials",
-      "url": "https://github.com/advisories/GHSA-h7p7-w5gc-xj3w",
-      "date": "2026-08-13T14:16:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pydantic-ai] Pydantic AI: Unvalidated UploadedFile references in UI adapters allow server-side file access using the application's credentials",
-      "url": "https://github.com/advisories/GHSA-h7p7-w5gc-xj3w",
-      "date": "2026-08-13T14:16:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pydantic-ai-slim] Pydantic AI: Unvalidated UploadedFile references in UI adapters allow server-side file access using the application's credentials",
-      "url": "https://github.com/advisories/GHSA-h7p7-w5gc-xj3w",
-      "date": "2026-08-13T14:16:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pydantic-ai-slim] Pydantic AI: Unvalidated UploadedFile references in UI adapters allow server-side file access using the application's credentials",
-      "url": "https://github.com/advisories/GHSA-h7p7-w5gc-xj3w",
-      "date": "2026-08-13T14:16:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
