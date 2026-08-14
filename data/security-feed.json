@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-14T21:30:55.639Z",
+  "fetchedAt": "2026-08-14T22:30:03.061Z",
   "entries": [
+    {
+      "title": "[@ooples/token-optimizer-mcp] Token Optimizer MCP: Unauthenticated Path Traversal in Dashboard Session Log API Endpoints",
+      "url": "https://github.com/advisories/GHSA-76pc-mqxp-3rq5",
+      "date": "2026-08-14T21:43:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@ooples/token-optimizer-mcp] Token Optimizer MCP: OS command injection in smart_user via username in get-user-info",
+      "url": "https://github.com/advisories/GHSA-49mq-fc6q-3h46",
+      "date": "2026-08-14T21:42:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[mcp-contextforge-gateway] ContextForge: DNS TOCTOU race condition causes SSRF protection bypass (`/admin/gateways/test`)",
       "url": "https://github.com/advisories/GHSA-9hgc-g3w5-67cm",
@@ -103,20 +117,6 @@
       "title": "[nanoid] nanoid: custom generators can loop indefinitely when size is zero",
       "url": "https://github.com/advisories/GHSA-2v37-7h3g-55p8",
       "date": "2026-08-13T15:43:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via percent-encoded authority delimiters",
-      "url": "https://github.com/advisories/GHSA-v39h-62p7-jpjc",
-      "date": "2026-08-13T15:33:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via percent-encoded authority delimiters",
-      "url": "https://github.com/advisories/GHSA-v39h-62p7-jpjc",
-      "date": "2026-08-13T15:33:52.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
