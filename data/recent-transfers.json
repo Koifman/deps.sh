@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-16T05:36:15.318Z",
+  "scannedAt": "2026-08-16T06:53:47.058Z",
   "count": 106,
   "packages": [
     {
@@ -543,7 +543,7 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "@supabase/realtime-js",
+      "name": "@supabase/supabase-js",
       "version": "2.112.3",
       "ecosystem": "npm",
       "score": 22,
@@ -552,7 +552,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/supabase-js",
+      "name": "@supabase/realtime-js",
       "version": "2.112.3",
       "ecosystem": "npm",
       "score": 22,
@@ -795,8 +795,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
-      "version": "0.144.0",
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.78.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -804,8 +804,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.78.0",
+      "name": "oxc-transform",
+      "version": "0.144.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -894,7 +894,16 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
+      "name": "@typescript/typescript-linux-arm64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.144.0",
       "ecosystem": "npm",
       "score": 20,
@@ -903,7 +912,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "name": "@oxc-transform/binding-linux-x64-musl",
       "version": "0.144.0",
       "ecosystem": "npm",
       "score": 20,
@@ -937,15 +946,6 @@
       "level": "LOW",
       "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@typescript/typescript-linux-arm64",
-      "version": "7.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
     },
     {
       "name": "@yuku-toolchain/types",
