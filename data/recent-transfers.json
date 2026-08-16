@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-16T19:28:08.976Z",
+  "scannedAt": "2026-08-16T20:32:26.813Z",
   "count": 107,
   "packages": [
     {
@@ -768,15 +768,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/native-preview-linux-x64",
-      "version": "7.0.0-dev.20260707.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "meriyah",
       "version": "7.3.1",
       "ecosystem": "npm",
@@ -784,6 +775,15 @@
       "level": "LOW",
       "previousOwner": "meriyah",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/native-preview-linux-x64",
+      "version": "7.0.0-dev.20260707.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@oxfmt/binding-linux-x64-gnu",
@@ -858,7 +858,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
+      "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.144.0",
       "ecosystem": "npm",
       "score": 20,
@@ -867,7 +867,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
+      "name": "oxc-minify",
       "version": "0.144.0",
       "ecosystem": "npm",
       "score": 20,
