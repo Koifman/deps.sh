@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-08-17T21:31:27.505Z",
+  "fetchedAt": "2026-08-17T22:30:28.245Z",
   "entries": [
+    {
+      "title": "[mlflow] MLflow: CreateModelVersion source validation does not check READ permission on referenced run_id",
+      "url": "https://github.com/advisories/GHSA-gqch-g4w5-7qcw",
+      "date": "2026-08-17T21:59:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mlflow] MLflow: LogInputs endpoint bypasses per-run UPDATE authorization in basic-auth",
+      "url": "https://github.com/advisories/GHSA-3p64-6gvh-82v5",
+      "date": "2026-08-17T21:59:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mlflow] MLflow: Unauthenticated full-read SSRF in webhook delivery: _validate_webhook_url bypassed via unvalidated HTTP redirects (and DNS rebinding)",
+      "url": "https://github.com/advisories/GHSA-7gwp-5pfp-969j",
+      "date": "2026-08-17T21:58:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[9router] 9Router: Authenticated Server-Side Request Forgery (SSRF) via OIDC Provider Test Endpoint",
+      "url": "https://github.com/advisories/GHSA-8g4w-4ffg-8vgx",
+      "date": "2026-08-17T21:58:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[chrome-devtools-mcp] chrome-devtools-mcp: validatePath() does not canonicalize symlinks before enforcing roots",
+      "url": "https://github.com/advisories/GHSA-8qf9-62x2-82pp",
+      "date": "2026-08-17T21:56:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sglang] SGLang is Vulnerable to DoS via the data_hash Function",
+      "url": "https://github.com/advisories/GHSA-jrcc-j37m-v8fg",
+      "date": "2026-08-17T21:52:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[atomic-agents-stack] atomic-agents-stack: Parallel helper/delegate batch reserves $0 for models absent from the pricing table, bypassing the cost-cap fan-out guard",
+      "url": "https://github.com/advisories/GHSA-j659-8xh6-5pq5",
+      "date": "2026-08-17T21:50:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[atomic-agents-stack] atomic-agents-stack: HTTP MCP catalog accepts cleartext http and spawns catalog-supplied commands (MITM to RCE)",
+      "url": "https://github.com/advisories/GHSA-xhcr-cqfr-m3hv",
+      "date": "2026-08-17T21:49:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[sqlparse] sqlparse: Inefficient Regex Handling of Dollar-Quoted SQL Literals Leads to ReDoS (Denial of Service)",
       "url": "https://github.com/advisories/GHSA-prg7-hcfm-mfcr",
@@ -83,62 +139,6 @@
       "url": "https://github.com/advisories/GHSA-59fj-m2j6-hcxh",
       "date": "2026-08-17T17:20:38.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[glances] Glances: Incomplete fix of CVE-2026-32608: action-template sanitizer is bypassed by nested stat values (process 'cmdline') → OS command injection",
-      "url": "https://github.com/advisories/GHSA-73wf-9vmv-5pv9",
-      "date": "2026-08-17T17:20:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sqlparse] sqlparse: Generated Python and PHP snippets allow SQL string breakout through unescaped backslashes",
-      "url": "https://github.com/advisories/GHSA-3496-9g83-7v6x",
-      "date": "2026-08-17T17:20:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[glances] Glances: REST API CORS Credentials Guard Uses Exact-Match Instead of Membership Test — Bypassed by Any Multi-Origin Allowlist Containing the Wildcard",
-      "url": "https://github.com/advisories/GHSA-fp27-88fp-2phg",
-      "date": "2026-08-17T17:04:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[glances] Glances has a command injection bypass of action-template sanitizer via cross-field shell-operator reconstruction",
-      "url": "https://github.com/advisories/GHSA-qcpp-8x79-hhp3",
-      "date": "2026-08-17T16:36:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@medplum/core] Medplum: Improper Validation of Redirect URI in External Auth Callback allows Authorization Code Leakage",
-      "url": "https://github.com/advisories/GHSA-m44r-7c5h-m6mj",
-      "date": "2026-08-17T13:36:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[deepmerge-ts] DeepmergeTS has stack exhaustion when merging recursive object graphs",
-      "url": "https://github.com/advisories/GHSA-ggr8-5vv4-36mx",
-      "date": "2026-08-17T13:32:14.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@ooples/token-optimizer-mcp] Token Optimizer MCP: Unauthenticated Path Traversal in Dashboard Session Log API Endpoints",
-      "url": "https://github.com/advisories/GHSA-76pc-mqxp-3rq5",
-      "date": "2026-08-14T21:43:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@ooples/token-optimizer-mcp] Token Optimizer MCP: OS command injection in smart_user via username in get-user-info",
-      "url": "https://github.com/advisories/GHSA-49mq-fc6q-3h46",
-      "date": "2026-08-14T21:42:06.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
