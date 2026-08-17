@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-17T13:45:18.442Z",
+  "fetchedAt": "2026-08-17T14:34:45.135Z",
   "entries": [
+    {
+      "title": "[@medplum/core] Medplum: Improper Validation of Redirect URI in External Auth Callback allows Authorization Code Leakage",
+      "url": "https://github.com/advisories/GHSA-m44r-7c5h-m6mj",
+      "date": "2026-08-17T13:36:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[deepmerge-ts] DeepmergeTS has stack exhaustion when merging recursive object graphs",
+      "url": "https://github.com/advisories/GHSA-ggr8-5vv4-36mx",
+      "date": "2026-08-17T13:32:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@ooples/token-optimizer-mcp] Token Optimizer MCP: Unauthenticated Path Traversal in Dashboard Session Log API Endpoints",
       "url": "https://github.com/advisories/GHSA-76pc-mqxp-3rq5",
@@ -126,20 +140,6 @@
       "date": "2026-08-13T14:18:43.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[nuxt] Duplicate Advisory: Nuxt dev server discloses project root and workspace UUID via the Chrome DevTools workspace endpoint",
-      "url": "https://github.com/advisories/GHSA-4jjw-pwvw-q6w3",
-      "date": "2026-08-13T14:18:03.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[atomic-agents-stack] atomic-agents-stack: Dashboard HTTP server path traversal allows arbitrary file read",
-      "url": "https://github.com/advisories/GHSA-rm43-82j9-r4mj",
-      "date": "2026-08-13T14:17:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
