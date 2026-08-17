@@ -1,6 +1,118 @@
 {
-  "fetchedAt": "2026-08-17T17:32:36.643Z",
+  "fetchedAt": "2026-08-17T18:48:41.715Z",
   "entries": [
+    {
+      "title": "[sqlparse] sqlparse: Inefficient Regex Handling of Dollar-Quoted SQL Literals Leads to ReDoS (Denial of Service)",
+      "url": "https://github.com/advisories/GHSA-prg7-hcfm-mfcr",
+      "date": "2026-08-17T17:49:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sqlparse] sqlparse: TokenList.__init__ materializes O(subtree) value per group, causing CPU DoS before depth/token caps trigger",
+      "url": "https://github.com/advisories/GHSA-pwgv-4x5q-6m9f",
+      "date": "2026-08-17T17:49:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ep_etherpad-lite] Etherpad has stored XSS in HTML export via unescaped attribute-pool values",
+      "url": "https://github.com/advisories/GHSA-2jp7-wwpg-3p9w",
+      "date": "2026-08-17T17:49:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ep_etherpad-lite] Etherpad addressed weak token RNG, login timing, plugin path handling, API request handling",
+      "url": "https://github.com/advisories/GHSA-92hr-gmr6-h8cp",
+      "date": "2026-08-17T17:49:22.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vm2] vm2: Sandbox Breakout Using Dangerous Host Proto Mutators",
+      "url": "https://github.com/advisories/GHSA-cfcw-xp6x-25gj",
+      "date": "2026-08-17T17:49:06.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vm2] vm2 has Memory Exhaustion DoS via bufferAllocLimit Bypass",
+      "url": "https://github.com/advisories/GHSA-v836-6xw4-9cx3",
+      "date": "2026-08-17T17:32:58.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vm2] vm2: NodeVM `builtin: ['*']` exposes `os` and `dns` — process-wide observability reads AND writes that hijack the host (sibling class of GHSA-9g8x-92q2-p28f)",
+      "url": "https://github.com/advisories/GHSA-m5w8-4gq2-6f8x",
+      "date": "2026-08-17T17:32:48.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vm2] VM2 has Missing Error.cause Sanitization that Enables Sandbox Escape to RCE",
+      "url": "https://github.com/advisories/GHSA-m283-3h24-438v",
+      "date": "2026-08-17T17:32:35.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vm2] vm2's bufferAllocLimit cap bypassed by Buffer.concat and Buffer.from arrayLike",
+      "url": "https://github.com/advisories/GHSA-gmc2-2x9w-cgh9",
+      "date": "2026-08-17T17:32:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sqlparse] sqlparse: Quadratic O(n²) DoS in group_comments",
+      "url": "https://github.com/advisories/GHSA-f2ff-p2ww-7p4p",
+      "date": "2026-08-17T17:21:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[glances] Glances: as_dict_secure() Value-Level Bypass Leaks Credentials in URL Values via /api/4/config",
+      "url": "https://github.com/advisories/GHSA-4h34-v6r8-mmjc",
+      "date": "2026-08-17T17:20:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[glances] Glances: `--disable-config-exec` does not cover on-alert action commands (incomplete fix of CVE-2026-53925)",
+      "url": "https://github.com/advisories/GHSA-59fj-m2j6-hcxh",
+      "date": "2026-08-17T17:20:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[glances] Glances: Incomplete fix of CVE-2026-32608: action-template sanitizer is bypassed by nested stat values (process 'cmdline') → OS command injection",
+      "url": "https://github.com/advisories/GHSA-73wf-9vmv-5pv9",
+      "date": "2026-08-17T17:20:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sqlparse] sqlparse: Generated Python and PHP snippets allow SQL string breakout through unescaped backslashes",
+      "url": "https://github.com/advisories/GHSA-3496-9g83-7v6x",
+      "date": "2026-08-17T17:20:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[glances] Glances: REST API CORS Credentials Guard Uses Exact-Match Instead of Membership Test — Bypassed by Any Multi-Origin Allowlist Containing the Wildcard",
+      "url": "https://github.com/advisories/GHSA-fp27-88fp-2phg",
+      "date": "2026-08-17T17:04:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[glances] Glances has a command injection bypass of action-template sanitizer via cross-field shell-operator reconstruction",
+      "url": "https://github.com/advisories/GHSA-qcpp-8x79-hhp3",
+      "date": "2026-08-17T16:36:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[@medplum/core] Medplum: Improper Validation of Redirect URI in External Auth Callback allows Authorization Code Leakage",
       "url": "https://github.com/advisories/GHSA-m44r-7c5h-m6mj",
@@ -28,118 +140,6 @@
       "date": "2026-08-14T21:42:06.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[mcp-contextforge-gateway] ContextForge: DNS TOCTOU race condition causes SSRF protection bypass (`/admin/gateways/test`)",
-      "url": "https://github.com/advisories/GHSA-9hgc-g3w5-67cm",
-      "date": "2026-08-14T19:49:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@budibase/server] Budibase: SSRF in Automation Steps - Webhook, Zapier, N8N, Slack, Discord Bypass IP Blacklist",
-      "url": "https://github.com/advisories/GHSA-5fpj-28rv-84r7",
-      "date": "2026-08-14T19:18:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nuxt] Nuxt: Reflected XSS in `<NuxtLink>` via unsanitised `javascript:` or `data:` URL",
-      "url": "https://github.com/advisories/GHSA-934w-87qh-qr26",
-      "date": "2026-08-14T18:45:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nuxt] Nuxt: URL-handling weaknesses in `navigateTo` and `reloadNuxtApp`: SSR open redirect, client-side script execution via the `open` option, and protocol-relative bypass in `reloadNuxtApp`",
-      "url": "https://github.com/advisories/GHSA-c9cv-mq2m-ppp3",
-      "date": "2026-08-14T18:43:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@trigger.dev/core] Trigger.dev: Prototype pollution via run metadata operations → process-wide cross-tenant DoS",
-      "url": "https://github.com/advisories/GHSA-p28v-f755-9qrg",
-      "date": "2026-08-13T20:54:13.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] nltk: Arbitrary File Read via Path Traversal in nltk.data.load() through Percent-Encoded Sequences",
-      "url": "https://github.com/advisories/GHSA-m42h-3232-vpv3",
-      "date": "2026-08-13T20:45:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: Arbitrary File Read via Path Traversal in nltk.data.load() through Percent-Encoded Sequences",
-      "url": "https://github.com/advisories/GHSA-q5h6-fcf5-49g9",
-      "date": "2026-08-13T20:44:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vllm] vLLM: Completion prompt lists fan out into unbounded engine requests",
-      "url": "https://github.com/advisories/GHSA-87x5-vmc3-756j",
-      "date": "2026-08-13T18:40:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[homeassistant] Home Assistant Core vulnerable to Path Traversal via backup upload during onboarding",
-      "url": "https://github.com/advisories/GHSA-5hxg-r395-fqxx",
-      "date": "2026-08-13T18:37:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@genql/cli] Genql: inject arbitrary JavaScript or TypeScript via a GraphQL schema",
-      "url": "https://github.com/advisories/GHSA-w757-xvvv-vgfw",
-      "date": "2026-08-13T18:29:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mlflow] MLflow: trace API endpoints lack proper authorization validators",
-      "url": "https://github.com/advisories/GHSA-2cm6-r77w-6g96",
-      "date": "2026-08-13T18:27:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[libp2p] libp2p: yamux connection DoS via oversized data frame",
-      "url": "https://github.com/advisories/GHSA-hmj8-5xmh-5573",
-      "date": "2026-08-13T17:43:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pnpm] pnpm: Repository-controlled configDependencies can select a pacquet native install engine",
-      "url": "https://github.com/advisories/GHSA-gj8w-mvpf-x27x",
-      "date": "2026-08-13T16:06:33.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ansible-jailexec] Ansible FreeBSD Jail Connection Plugin: Jail escape via symlink following in put_file (host-side root mv)",
-      "url": "https://github.com/advisories/GHSA-cxgv-hp74-jj7r",
-      "date": "2026-08-13T15:58:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nanoid] nanoid: custom generators can loop indefinitely when size is zero",
-      "url": "https://github.com/advisories/GHSA-2v37-7h3g-55p8",
-      "date": "2026-08-13T15:43:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[decompress] decompress allows arbitrary hardlink creation during archive extraction",
-      "url": "https://github.com/advisories/GHSA-jwp9-9v96-94mx",
-      "date": "2026-08-13T14:18:43.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
