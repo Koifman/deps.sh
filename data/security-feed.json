@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T19:32:01.713Z",
+  "fetchedAt": "2026-08-18T20:31:05.977Z",
   "entries": [
+    {
+      "title": "[meshcentral] MeshCentral has unsanitized data fields",
+      "url": "https://github.com/advisories/GHSA-c7hr-448w-65px",
+      "date": "2026-08-18T20:09:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[mobsf] MobSF Vulnerable to Arbitrary File Read via Path Traversal in ZIP Uploads",
       "url": "https://github.com/advisories/GHSA-8j49-mmcx-4mp5",
@@ -37,13 +44,6 @@
       "severity": "MODERATE"
     },
     {
-      "title": "[@geolens/sdk] GeoLens: Cross-dataset authorization bypass discloses private dataset metadata, schema, sample values, table rows, and raster/vector tile data",
-      "url": "https://github.com/advisories/GHSA-p23g-mvhj-jh3j",
-      "date": "2026-08-18T18:00:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
       "title": "[geolens] GeoLens: Cross-dataset authorization bypass discloses private dataset metadata, schema, sample values, table rows, and raster/vector tile data",
       "url": "https://github.com/advisories/GHSA-p23g-mvhj-jh3j",
       "date": "2026-08-18T18:00:09.000Z",
@@ -55,6 +55,13 @@
       "url": "https://github.com/advisories/GHSA-p23g-mvhj-jh3j",
       "date": "2026-08-18T18:00:09.000Z",
       "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@geolens/sdk] GeoLens: Cross-dataset authorization bypass discloses private dataset metadata, schema, sample values, table rows, and raster/vector tile data",
+      "url": "https://github.com/advisories/GHSA-p23g-mvhj-jh3j",
+      "date": "2026-08-18T18:00:09.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
@@ -132,13 +139,6 @@
       "date": "2026-08-17T21:59:12.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[mlflow] MLflow: LogInputs endpoint bypasses per-run UPDATE authorization in basic-auth",
-      "url": "https://github.com/advisories/GHSA-3p64-6gvh-82v5",
-      "date": "2026-08-17T21:59:01.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
