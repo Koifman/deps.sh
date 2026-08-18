@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-18T10:38:23.797Z",
+  "scannedAt": "2026-08-18T11:33:58.201Z",
   "count": 108,
   "packages": [
     {
@@ -561,8 +561,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/logger",
-      "version": "1.4.0",
+      "name": "@azure/core-lro",
+      "version": "3.4.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -570,8 +570,8 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "@azure/core-lro",
-      "version": "3.4.0",
+      "name": "@azure/logger",
+      "version": "1.4.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -642,21 +642,21 @@
       "currentOwner": "notaphplover"
     },
     {
-      "name": "@hey-api/codegen-core",
-      "version": "0.9.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "mrlubos",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@appium/logger",
       "version": "2.0.10",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@hey-api/codegen-core",
+      "version": "0.9.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "mrlubos",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -921,15 +921,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/typescript-linux-arm64",
-      "version": "7.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@astrojs/compiler-binding-linux-x64-gnu",
       "version": "0.4.0",
       "ecosystem": "npm",
@@ -946,6 +937,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/typescript-linux-arm64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@lottiefiles/dotlottie-web",
