@@ -1,6 +1,111 @@
 {
-  "fetchedAt": "2026-08-18T20:31:05.977Z",
+  "fetchedAt": "2026-08-18T21:29:43.731Z",
   "entries": [
+    {
+      "title": "[lemur] Lemur: Any user can revoke arbitrary certificates at the CA by uploading a duplicate record and revoking it",
+      "url": "https://github.com/advisories/GHSA-pxmc-2ffp-8j67",
+      "date": "2026-08-18T20:51:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[lemur] Lemur: Missing authorization check on POST /certificates/<id>/export for plugins with requires_key = False",
+      "url": "https://github.com/advisories/GHSA-4h97-p9wq-chqj",
+      "date": "2026-08-18T20:51:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lemur] Lemur: Sub-CA creation never checks `AuthorityPermission` on the parent authority",
+      "url": "https://github.com/advisories/GHSA-g7p5-89mh-248h",
+      "date": "2026-08-18T20:51:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lemur] Lemur: Unchecked `replaces[]` lets any user silence notifications and hijack auto-rotation for arbitrary certificates",
+      "url": "https://github.com/advisories/GHSA-cfh6-pv5c-38jv",
+      "date": "2026-08-18T20:51:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[lemur] Lemur: Authenticated low-privilege users can read plaintext destination credentials (SFTP password / private-key passphrase) via the destinations API",
+      "url": "https://github.com/advisories/GHSA-6c8m-q6g9-vrw3",
+      "date": "2026-08-18T20:51:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[lemur] Lemur: Incomplete fix for GHSA-v2wp-frmc-5q3v -- ACME authority update endpoint allows non-admin to replace `acme_url` with internal IP, bypassing allowlist",
+      "url": "https://github.com/advisories/GHSA-v5rc-cpwc-cfpr",
+      "date": "2026-08-18T20:51:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[lemur] Lemur: SSRF protection in certificate revocation checking bypassable via HTTP redirects and DNS rebinding (incomplete fix for GHSA-54vg-pfh7-jq95)",
+      "url": "https://github.com/advisories/GHSA-f3qq-49m6-rw8f",
+      "date": "2026-08-18T20:51:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lemur] Lemur: Server-Side Request Forgery via the ACME client following server-controlled URLs",
+      "url": "https://github.com/advisories/GHSA-xpmj-wjcp-6pww",
+      "date": "2026-08-18T20:51:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[devpi-server] devpi-server may leak database contents",
+      "url": "https://github.com/advisories/GHSA-m5pq-69xg-vcq3",
+      "date": "2026-08-18T20:41:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[monai] MONAI: Unsafe deserialization in NumpyReader allows arbitrary code execution via malicious .npy files",
+      "url": "https://github.com/advisories/GHSA-wg9g-w2j2-8pgr",
+      "date": "2026-08-18T20:22:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[MONAI] MONAI vulnerable to OS command injection",
+      "url": "https://github.com/advisories/GHSA-rghg-q7wp-9767",
+      "date": "2026-08-18T20:22:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[monai] Incomplete Fix in MONAI: algo_from_pickle() pickle.loads() RCE still present in v1.5.2 despite GHSA-89gg-p5r5-q6r4 claiming      patch",
+      "url": "https://github.com/advisories/GHSA-qxq5-qhx6-94qw",
+      "date": "2026-08-18T20:22:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vllm] vLLM is vulnerable to an Out-of-Memory (OOM) Denial of Service (DoS) attack due to unbounded frame count processing in the `VideoMediaIO.load_base64()` method",
+      "url": "https://github.com/advisories/GHSA-wcwg-c5fc-9vrc",
+      "date": "2026-08-18T20:16:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[surfio] surfio has an out-of-bounds read",
+      "url": "https://github.com/advisories/GHSA-rcr2-hggw-43wm",
+      "date": "2026-08-18T20:12:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[resdata] resdata has Classic Buffer Overflow, Improper Validation of Array Index, NULL Pointer Dereference and Out-of-bounds Read",
+      "url": "https://github.com/advisories/GHSA-pr85-w493-9w3x",
+      "date": "2026-08-18T20:11:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[meshcentral] MeshCentral has unsanitized data fields",
       "url": "https://github.com/advisories/GHSA-c7hr-448w-65px",
@@ -35,110 +140,6 @@
       "date": "2026-08-18T18:00:49.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[magicmirror] MagicMirror socket payload secret placeholder expansion can disclose SECRET_* environment variables",
-      "url": "https://github.com/advisories/GHSA-q4gh-4ffp-5cg8",
-      "date": "2026-08-18T18:00:19.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[geolens] GeoLens: Cross-dataset authorization bypass discloses private dataset metadata, schema, sample values, table rows, and raster/vector tile data",
-      "url": "https://github.com/advisories/GHSA-p23g-mvhj-jh3j",
-      "date": "2026-08-18T18:00:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[geolens-cli] GeoLens: Cross-dataset authorization bypass discloses private dataset metadata, schema, sample values, table rows, and raster/vector tile data",
-      "url": "https://github.com/advisories/GHSA-p23g-mvhj-jh3j",
-      "date": "2026-08-18T18:00:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@geolens/sdk] GeoLens: Cross-dataset authorization bypass discloses private dataset metadata, schema, sample values, table rows, and raster/vector tile data",
-      "url": "https://github.com/advisories/GHSA-p23g-mvhj-jh3j",
-      "date": "2026-08-18T18:00:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[magicmirror] MagicMirror: ssrf calendar .js",
-      "url": "https://github.com/advisories/GHSA-w6x9-28jw-hq7j",
-      "date": "2026-08-18T17:26:53.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[magicmirror] MagicMirror newsfeed Socket.IO notification allows blind server-side request forgery",
-      "url": "https://github.com/advisories/GHSA-998g-7v5w-cr7g",
-      "date": "2026-08-18T17:26:48.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[magicmirror] MagicMirror Socket.IO module namespaces bypass configured IP whitelist and allow unauthenticated server-side actions",
-      "url": "https://github.com/advisories/GHSA-w26r-fwg8-rcp3",
-      "date": "2026-08-18T17:26:43.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@rhinostone/swig-django] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
-      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
-      "date": "2026-08-18T16:31:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@rhinostone/swig-jinja2] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
-      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
-      "date": "2026-08-18T16:31:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@rhinostone/swig-twig] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
-      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
-      "date": "2026-08-18T16:31:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@rhinostone/swig-core] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
-      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
-      "date": "2026-08-18T16:31:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@rhinostone/swig] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
-      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
-      "date": "2026-08-18T16:31:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[copyparty] Copyparty vulnerable to file/dirkey confusion",
-      "url": "https://github.com/advisories/GHSA-x5pq-m9p8-f4vx",
-      "date": "2026-08-18T15:02:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0258: Vulnerability in h2",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0258.html",
-      "date": "2026-08-18T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[mlflow] MLflow: CreateModelVersion source validation does not check READ permission on referenced run_id",
-      "url": "https://github.com/advisories/GHSA-gqch-g4w5-7qcw",
-      "date": "2026-08-17T21:59:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
