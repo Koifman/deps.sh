@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-18T06:57:14.186Z",
+  "scannedAt": "2026-08-18T07:46:18.529Z",
   "count": 108,
   "packages": [
     {
@@ -291,15 +291,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@trivago/prettier-plugin-sort-imports",
-      "version": "6.0.2",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "ayusharma",
-      "currentOwner": "behraang"
-    },
-    {
       "name": "embla-carousel-autoplay",
       "version": "8.6.0",
       "ecosystem": "npm",
@@ -307,6 +298,15 @@
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
       "currentOwner": "davidjerleke"
+    },
+    {
+      "name": "@trivago/prettier-plugin-sort-imports",
+      "version": "6.0.2",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "ayusharma",
+      "currentOwner": "behraang"
     },
     {
       "name": "eslint",
@@ -418,7 +418,7 @@
     },
     {
       "name": "@assistant-ui/react",
-      "version": "0.15.14",
+      "version": "0.15.15",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -534,7 +534,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/realtime-js",
+      "name": "@supabase/storage-js",
       "version": "2.112.3",
       "ecosystem": "npm",
       "score": 22,
@@ -543,7 +543,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/storage-js",
+      "name": "@supabase/realtime-js",
       "version": "2.112.3",
       "ecosystem": "npm",
       "score": 22,
@@ -804,8 +804,8 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.78.0",
+      "name": "oxc-transform",
+      "version": "0.144.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -813,8 +813,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
-      "version": "0.144.0",
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.78.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -885,15 +885,6 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "@typescript/typescript-linux-arm64",
-      "version": "7.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@yuku-toolchain/types",
       "version": "0.9.0",
       "ecosystem": "npm",
@@ -928,6 +919,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/typescript-linux-arm64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@astrojs/compiler-binding-linux-x64-gnu",
