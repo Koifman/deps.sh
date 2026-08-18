@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-08-18T16:38:18.130Z",
+  "fetchedAt": "2026-08-18T17:33:27.165Z",
   "entries": [
+    {
+      "title": "[@rhinostone/swig-django] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
+      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
+      "date": "2026-08-18T16:31:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@rhinostone/swig-jinja2] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
+      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
+      "date": "2026-08-18T16:31:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@rhinostone/swig-twig] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
+      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
+      "date": "2026-08-18T16:31:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@rhinostone/swig-core] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
+      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
+      "date": "2026-08-18T16:31:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@rhinostone/swig] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
+      "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
+      "date": "2026-08-18T16:31:19.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[copyparty] Copyparty vulnerable to file/dirkey confusion",
       "url": "https://github.com/advisories/GHSA-x5pq-m9p8-f4vx",
@@ -104,41 +139,6 @@
       "date": "2026-08-17T17:49:06.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2 has Memory Exhaustion DoS via bufferAllocLimit Bypass",
-      "url": "https://github.com/advisories/GHSA-v836-6xw4-9cx3",
-      "date": "2026-08-17T17:32:58.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vm2] vm2: NodeVM `builtin: ['*']` exposes `os` and `dns` — process-wide observability reads AND writes that hijack the host (sibling class of GHSA-9g8x-92q2-p28f)",
-      "url": "https://github.com/advisories/GHSA-m5w8-4gq2-6f8x",
-      "date": "2026-08-17T17:32:48.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] VM2 has Missing Error.cause Sanitization that Enables Sandbox Escape to RCE",
-      "url": "https://github.com/advisories/GHSA-m283-3h24-438v",
-      "date": "2026-08-17T17:32:35.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2's bufferAllocLimit cap bypassed by Buffer.concat and Buffer.from arrayLike",
-      "url": "https://github.com/advisories/GHSA-gmc2-2x9w-cgh9",
-      "date": "2026-08-17T17:32:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sqlparse] sqlparse: Quadratic O(n²) DoS in group_comments",
-      "url": "https://github.com/advisories/GHSA-f2ff-p2ww-7p4p",
-      "date": "2026-08-17T17:21:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
