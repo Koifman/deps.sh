@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T14:39:44.681Z",
+  "fetchedAt": "2026-08-18T15:37:35.317Z",
   "entries": [
+    {
+      "title": "[copyparty] Copyparty vulnerable to file/dirkey confusion",
+      "url": "https://github.com/advisories/GHSA-x5pq-m9p8-f4vx",
+      "date": "2026-08-18T15:02:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0258: Vulnerability in h2",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0258.html",
@@ -132,13 +139,6 @@
       "date": "2026-08-17T17:21:02.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[glances] Glances: as_dict_secure() Value-Level Bypass Leaks Credentials in URL Values via /api/4/config",
-      "url": "https://github.com/advisories/GHSA-4h34-v6r8-mmjc",
-      "date": "2026-08-17T17:20:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
