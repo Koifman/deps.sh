@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-08-18T07:43:56.579Z",
+  "fetchedAt": "2026-08-18T08:45:08.391Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0258: Vulnerability in h2",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0258.html",
+      "date": "2026-08-18T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[mlflow] MLflow: CreateModelVersion source validation does not check READ permission on referenced run_id",
       "url": "https://github.com/advisories/GHSA-gqch-g4w5-7qcw",
@@ -133,13 +139,6 @@
       "date": "2026-08-17T17:20:50.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[glances] Glances: `--disable-config-exec` does not cover on-alert action commands (incomplete fix of CVE-2026-53925)",
-      "url": "https://github.com/advisories/GHSA-59fj-m2j6-hcxh",
-      "date": "2026-08-17T17:20:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
