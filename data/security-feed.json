@@ -1,6 +1,83 @@
 {
-  "fetchedAt": "2026-08-18T17:33:27.165Z",
+  "fetchedAt": "2026-08-18T18:48:04.040Z",
   "entries": [
+    {
+      "title": "[mobsf] MobSF Vulnerable to Arbitrary File Read via Path Traversal in ZIP Uploads",
+      "url": "https://github.com/advisories/GHSA-8j49-mmcx-4mp5",
+      "date": "2026-08-18T18:01:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mobsf] MobSF's CSRF checks not enforced after Django migration",
+      "url": "https://github.com/advisories/GHSA-3p54-567p-2wpr",
+      "date": "2026-08-18T18:01:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mobsf] MobSF has SSRF port restriction bypass in assetlinks_check",
+      "url": "https://github.com/advisories/GHSA-95px-34x5-p37h",
+      "date": "2026-08-18T18:01:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[mobsf] MobSF Vulnerable to Zip Bomb Denial of Service via Per-File Size Limit Bypass in ZIP/APK Extraction",
+      "url": "https://github.com/advisories/GHSA-x768-8642-mmq9",
+      "date": "2026-08-18T18:00:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[magicmirror] MagicMirror socket payload secret placeholder expansion can disclose SECRET_* environment variables",
+      "url": "https://github.com/advisories/GHSA-q4gh-4ffp-5cg8",
+      "date": "2026-08-18T18:00:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@geolens/sdk] GeoLens: Cross-dataset authorization bypass discloses private dataset metadata, schema, sample values, table rows, and raster/vector tile data",
+      "url": "https://github.com/advisories/GHSA-p23g-mvhj-jh3j",
+      "date": "2026-08-18T18:00:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[geolens] GeoLens: Cross-dataset authorization bypass discloses private dataset metadata, schema, sample values, table rows, and raster/vector tile data",
+      "url": "https://github.com/advisories/GHSA-p23g-mvhj-jh3j",
+      "date": "2026-08-18T18:00:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[geolens-cli] GeoLens: Cross-dataset authorization bypass discloses private dataset metadata, schema, sample values, table rows, and raster/vector tile data",
+      "url": "https://github.com/advisories/GHSA-p23g-mvhj-jh3j",
+      "date": "2026-08-18T18:00:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[magicmirror] MagicMirror: ssrf calendar .js",
+      "url": "https://github.com/advisories/GHSA-w6x9-28jw-hq7j",
+      "date": "2026-08-18T17:26:53.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[magicmirror] MagicMirror newsfeed Socket.IO notification allows blind server-side request forgery",
+      "url": "https://github.com/advisories/GHSA-998g-7v5w-cr7g",
+      "date": "2026-08-18T17:26:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[magicmirror] MagicMirror Socket.IO module namespaces bypass configured IP whitelist and allow unauthenticated server-side actions",
+      "url": "https://github.com/advisories/GHSA-w26r-fwg8-rcp3",
+      "date": "2026-08-18T17:26:43.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[@rhinostone/swig-django] @rhinostone/swig: arbitrary local file read via include/extends path traversal",
       "url": "https://github.com/advisories/GHSA-2mf3-mr2r-r4vf",
@@ -62,83 +139,6 @@
       "date": "2026-08-17T21:59:01.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[mlflow] MLflow: Unauthenticated full-read SSRF in webhook delivery: _validate_webhook_url bypassed via unvalidated HTTP redirects (and DNS rebinding)",
-      "url": "https://github.com/advisories/GHSA-7gwp-5pfp-969j",
-      "date": "2026-08-17T21:58:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[9router] 9Router: Authenticated Server-Side Request Forgery (SSRF) via OIDC Provider Test Endpoint",
-      "url": "https://github.com/advisories/GHSA-8g4w-4ffg-8vgx",
-      "date": "2026-08-17T21:58:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[chrome-devtools-mcp] chrome-devtools-mcp: validatePath() does not canonicalize symlinks before enforcing roots",
-      "url": "https://github.com/advisories/GHSA-8qf9-62x2-82pp",
-      "date": "2026-08-17T21:56:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sglang] SGLang is Vulnerable to DoS via the data_hash Function",
-      "url": "https://github.com/advisories/GHSA-jrcc-j37m-v8fg",
-      "date": "2026-08-17T21:52:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[atomic-agents-stack] atomic-agents-stack: Parallel helper/delegate batch reserves $0 for models absent from the pricing table, bypassing the cost-cap fan-out guard",
-      "url": "https://github.com/advisories/GHSA-j659-8xh6-5pq5",
-      "date": "2026-08-17T21:50:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[atomic-agents-stack] atomic-agents-stack: HTTP MCP catalog accepts cleartext http and spawns catalog-supplied commands (MITM to RCE)",
-      "url": "https://github.com/advisories/GHSA-xhcr-cqfr-m3hv",
-      "date": "2026-08-17T21:49:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sqlparse] sqlparse: Inefficient Regex Handling of Dollar-Quoted SQL Literals Leads to ReDoS (Denial of Service)",
-      "url": "https://github.com/advisories/GHSA-prg7-hcfm-mfcr",
-      "date": "2026-08-17T17:49:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sqlparse] sqlparse: TokenList.__init__ materializes O(subtree) value per group, causing CPU DoS before depth/token caps trigger",
-      "url": "https://github.com/advisories/GHSA-pwgv-4x5q-6m9f",
-      "date": "2026-08-17T17:49:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ep_etherpad-lite] Etherpad has stored XSS in HTML export via unescaped attribute-pool values",
-      "url": "https://github.com/advisories/GHSA-2jp7-wwpg-3p9w",
-      "date": "2026-08-17T17:49:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ep_etherpad-lite] Etherpad addressed weak token RNG, login timing, plugin path handling, API request handling",
-      "url": "https://github.com/advisories/GHSA-92hr-gmr6-h8cp",
-      "date": "2026-08-17T17:49:22.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vm2] vm2: Sandbox Breakout Using Dangerous Host Proto Mutators",
-      "url": "https://github.com/advisories/GHSA-cfcw-xp6x-25gj",
-      "date": "2026-08-17T17:49:06.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
