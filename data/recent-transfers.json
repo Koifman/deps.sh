@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-18T21:32:35.730Z",
+  "scannedAt": "2026-08-18T22:33:29.698Z",
   "count": 107,
   "packages": [
     {
@@ -462,15 +462,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "hasown",
-      "version": "2.0.4",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "radubrehar",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "espree",
       "version": "11.2.0",
       "ecosystem": "npm",
@@ -478,6 +469,15 @@
       "level": "MODERATE",
       "previousOwner": "nzakas",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "hasown",
+      "version": "2.0.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "radubrehar",
+      "currentOwner": "ljharb"
     },
     {
       "name": "@typescript-eslint/parser",
@@ -660,15 +660,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@microsoft/dynamicproto-js",
-      "version": "2.0.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "microsoft",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@hey-api/codegen-core",
       "version": "0.9.1",
       "ecosystem": "npm",
@@ -676,6 +667,15 @@
       "level": "MODERATE",
       "previousOwner": "mrlubos",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@microsoft/dynamicproto-js",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "microsoft",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "cropperjs",
@@ -813,7 +813,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-gnu",
+      "name": "oxc-transform",
       "version": "0.145.0",
       "ecosystem": "npm",
       "score": 20,
@@ -822,7 +822,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.145.0",
       "ecosystem": "npm",
       "score": 20,
@@ -912,8 +912,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
-      "version": "0.145.0",
+      "name": "@oxlint/binding-linux-arm64-gnu",
+      "version": "1.79.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -921,8 +921,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-arm64-gnu",
-      "version": "1.79.0",
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.145.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",

@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-18T21:29:43.731Z",
+  "fetchedAt": "2026-08-18T22:30:21.302Z",
   "entries": [
+    {
+      "title": "[linuxfabrik-lib] linuxfabrik-lib: Arbitrary root file read via live --test argument (lib.lftest) across sudoers-whitelisted plugins (LPE)",
+      "url": "https://github.com/advisories/GHSA-rh9c-rqvg-f7pr",
+      "date": "2026-08-18T21:19:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[lemur] Lemur: Any user can revoke arbitrary certificates at the CA by uploading a duplicate record and revoking it",
       "url": "https://github.com/advisories/GHSA-pxmc-2ffp-8j67",
@@ -133,13 +140,6 @@
       "date": "2026-08-18T18:01:04.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[mobsf] MobSF Vulnerable to Zip Bomb Denial of Service via Per-File Size Limit Bypass in ZIP/APK Extraction",
-      "url": "https://github.com/advisories/GHSA-x768-8642-mmq9",
-      "date": "2026-08-18T18:00:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
