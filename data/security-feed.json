@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-08-19T21:31:25.375Z",
+  "fetchedAt": "2026-08-19T22:30:55.934Z",
   "entries": [
+    {
+      "title": "[@tinacms/cli] Tina: Cross-origin `POST /media/upload/*` requests can write arbitrary files into the Tina dev server media root",
+      "url": "https://github.com/advisories/GHSA-rgr9-r7mj-mf6x",
+      "date": "2026-08-19T21:56:37.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next-tinacms-cloudinary] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
+      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
+      "date": "2026-08-19T21:56:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next-tinacms-azure] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
+      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
+      "date": "2026-08-19T21:56:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next-tinacms-dos] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
+      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
+      "date": "2026-08-19T21:56:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next-tinacms-s3] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
+      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
+      "date": "2026-08-19T21:56:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[@logto/tunnel] logto-tunnel serves files outside --experience-path via path traversal",
       "url": "https://github.com/advisories/GHSA-rxjr-6c9q-h67x",
@@ -105,41 +140,6 @@
       "date": "2026-08-18T21:19:01.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[lemur] Lemur: Any user can revoke arbitrary certificates at the CA by uploading a duplicate record and revoking it",
-      "url": "https://github.com/advisories/GHSA-pxmc-2ffp-8j67",
-      "date": "2026-08-18T20:51:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lemur] Lemur: Missing authorization check on POST /certificates/<id>/export for plugins with requires_key = False",
-      "url": "https://github.com/advisories/GHSA-4h97-p9wq-chqj",
-      "date": "2026-08-18T20:51:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lemur] Lemur: Sub-CA creation never checks `AuthorityPermission` on the parent authority",
-      "url": "https://github.com/advisories/GHSA-g7p5-89mh-248h",
-      "date": "2026-08-18T20:51:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lemur] Lemur: Unchecked `replaces[]` lets any user silence notifications and hijack auto-rotation for arbitrary certificates",
-      "url": "https://github.com/advisories/GHSA-cfh6-pv5c-38jv",
-      "date": "2026-08-18T20:51:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lemur] Lemur: Authenticated low-privilege users can read plaintext destination credentials (SFTP password / private-key passphrase) via the destinations API",
-      "url": "https://github.com/advisories/GHSA-6c8m-q6g9-vrw3",
-      "date": "2026-08-18T20:51:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
