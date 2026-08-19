@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-19T22:33:27.362Z",
+  "scannedAt": "2026-08-19T23:31:12.967Z",
   "count": 123,
   "packages": [
     {
@@ -55,15 +55,6 @@
       "level": "HIGH",
       "previousOwner": "ericf",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "enzyme",
-      "version": "3.11.0",
-      "ecosystem": "npm",
-      "score": 43,
-      "level": "MODERATE",
-      "previousOwner": "intelligibabble",
-      "currentOwner": "ljharb"
     },
     {
       "name": "terser",
@@ -199,6 +190,15 @@
       "level": "MODERATE",
       "previousOwner": "lukasoppermann",
       "currentOwner": "julmot"
+    },
+    {
+      "name": "coffeescript",
+      "version": "2.7.0",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "isaacs",
+      "currentOwner": "geoffreybooth"
     },
     {
       "name": "@appium/support",
@@ -435,15 +435,6 @@
       "currentOwner": "balearica"
     },
     {
-      "name": "@appium/base-driver",
-      "version": "10.7.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@assistant-ui/react",
       "version": "0.15.15",
       "ecosystem": "npm",
@@ -453,12 +444,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@redux-saga/core",
-      "version": "1.5.1",
+      "name": "@appium/base-driver",
+      "version": "10.7.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
-      "previousOwner": "andarist",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "cron-schedule",
+      "version": "6.0.0",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "p4sca1",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -552,15 +552,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/select",
-      "version": "5.2.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@inquirer/checkbox",
       "version": "5.2.2",
       "ecosystem": "npm",
@@ -579,8 +570,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/expand",
-      "version": "5.1.2",
+      "name": "@inquirer/select",
+      "version": "5.2.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -599,6 +590,15 @@
     {
       "name": "@inquirer/rawlist",
       "version": "5.3.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "sboudrias",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@inquirer/expand",
+      "version": "5.1.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -813,15 +813,6 @@
       "currentOwner": "vimeo-npmbot"
     },
     {
-      "name": "yuku-codegen",
-      "version": "0.9.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "arshadyaseen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "redux-saga",
       "version": "1.5.1",
       "ecosystem": "npm",
@@ -831,12 +822,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lingui/message-utils",
-      "version": "6.6.0",
+      "name": "yuku-codegen",
+      "version": "0.9.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "andrii.bodnar",
+      "previousOwner": "arshadyaseen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1002,15 +993,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.146.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@yuku-toolchain/types",
       "version": "0.9.0",
       "ecosystem": "npm",
@@ -1026,6 +1008,15 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "matthewp",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "oxc-minify",
+      "version": "0.146.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1102,6 +1093,15 @@
     },
     {
       "name": "@oxc-parser/binding-linux-arm-gnueabihf",
+      "version": "0.146.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-freebsd-x64",
       "version": "0.146.0",
       "ecosystem": "npm",
       "score": 20,
