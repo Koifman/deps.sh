@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-19T20:35:12.995Z",
+  "fetchedAt": "2026-08-19T21:31:25.375Z",
   "entries": [
+    {
+      "title": "[@logto/tunnel] logto-tunnel serves files outside --experience-path via path traversal",
+      "url": "https://github.com/advisories/GHSA-rxjr-6c9q-h67x",
+      "date": "2026-08-19T20:24:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[mcp-searxng] SearXNG Basic Authentication Credentials Exposed Through MCP Logs and JSON-RPC Error Responses",
       "url": "https://github.com/advisories/GHSA-hjwh-xvfw-qrwj",
@@ -131,13 +138,6 @@
       "title": "[lemur] Lemur: Authenticated low-privilege users can read plaintext destination credentials (SFTP password / private-key passphrase) via the destinations API",
       "url": "https://github.com/advisories/GHSA-6c8m-q6g9-vrw3",
       "date": "2026-08-18T20:51:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lemur] Lemur: Incomplete fix for GHSA-v2wp-frmc-5q3v -- ACME authority update endpoint allows non-admin to replace `acme_url` with internal IP, bypassing allowlist",
-      "url": "https://github.com/advisories/GHSA-v5rc-cpwc-cfpr",
-      "date": "2026-08-18T20:51:23.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
