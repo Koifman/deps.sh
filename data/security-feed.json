@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-08-19T19:31:10.690Z",
+  "fetchedAt": "2026-08-19T20:35:12.995Z",
   "entries": [
+    {
+      "title": "[mcp-searxng] SearXNG Basic Authentication Credentials Exposed Through MCP Logs and JSON-RPC Error Responses",
+      "url": "https://github.com/advisories/GHSA-hjwh-xvfw-qrwj",
+      "date": "2026-08-19T19:32:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp-searxng] SearXNG MCP Server: Additional hardened-mode SSRF bypasses",
+      "url": "https://github.com/advisories/GHSA-wppf-h75h-6pm6",
+      "date": "2026-08-19T19:23:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp-searxng] SearXNG MCP Server is Vulnerable to SSRF in web_url_read: the internal-address guard is disabled by default (MCP_HTTP_HARDEN off)",
+      "url": "https://github.com/advisories/GHSA-q87f-qc2r-2gw4",
+      "date": "2026-08-19T19:23:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[geolens] GeoLens's authorization and cache-scope flaws disclose private dataset data and metadata to unauthorized users (fixed in 1.2.4)",
+      "url": "https://github.com/advisories/GHSA-p77j-g7h5-r2vw",
+      "date": "2026-08-19T19:23:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[document-merge-service] Document Merge Service vulnerable to RCE via SSTI (xlsx tempaltes)",
+      "url": "https://github.com/advisories/GHSA-w47q-945m-q9pc",
+      "date": "2026-08-19T19:17:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@contentful/mcp-tools] Contentful MCP Server: export_space/import_space tools pass LLM-controlled `host`/`proxy` args to CMA client, redirecting server PAT to attacker-controlled endpoint",
+      "url": "https://github.com/advisories/GHSA-2xhg-73j7-rrgx",
+      "date": "2026-08-19T19:17:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@contentful/mcp-server] Contentful MCP Server: export_space/import_space tools pass LLM-controlled `host`/`proxy` args to CMA client, redirecting server PAT to attacker-controlled endpoint",
+      "url": "https://github.com/advisories/GHSA-2xhg-73j7-rrgx",
+      "date": "2026-08-19T19:17:01.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[copier] Copier has a trust-prefix bypass via path traversal that runs tasks unprompted",
+      "url": "https://github.com/advisories/GHSA-9gmc-jqmh-3rvm",
+      "date": "2026-08-19T19:16:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[claude-faf-mcp] claude-faf-mcp has an arbitrary local file read/write via unconfined `path` argument in FAF tools",
       "url": "https://github.com/advisories/GHSA-rr55-jp92-8wp2",
@@ -84,62 +140,6 @@
       "date": "2026-08-18T20:51:23.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[lemur] Lemur: SSRF protection in certificate revocation checking bypassable via HTTP redirects and DNS rebinding (incomplete fix for GHSA-54vg-pfh7-jq95)",
-      "url": "https://github.com/advisories/GHSA-f3qq-49m6-rw8f",
-      "date": "2026-08-18T20:51:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lemur] Lemur: Server-Side Request Forgery via the ACME client following server-controlled URLs",
-      "url": "https://github.com/advisories/GHSA-xpmj-wjcp-6pww",
-      "date": "2026-08-18T20:51:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[devpi-server] devpi-server may leak database contents",
-      "url": "https://github.com/advisories/GHSA-m5pq-69xg-vcq3",
-      "date": "2026-08-18T20:41:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[monai] MONAI: Unsafe deserialization in NumpyReader allows arbitrary code execution via malicious .npy files",
-      "url": "https://github.com/advisories/GHSA-wg9g-w2j2-8pgr",
-      "date": "2026-08-18T20:22:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[MONAI] MONAI vulnerable to OS command injection",
-      "url": "https://github.com/advisories/GHSA-rghg-q7wp-9767",
-      "date": "2026-08-18T20:22:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[monai] Incomplete Fix in MONAI: algo_from_pickle() pickle.loads() RCE still present in v1.5.2 despite GHSA-89gg-p5r5-q6r4 claiming      patch",
-      "url": "https://github.com/advisories/GHSA-qxq5-qhx6-94qw",
-      "date": "2026-08-18T20:22:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vllm] vLLM is vulnerable to an Out-of-Memory (OOM) Denial of Service (DoS) attack due to unbounded frame count processing in the `VideoMediaIO.load_base64()` method",
-      "url": "https://github.com/advisories/GHSA-wcwg-c5fc-9vrc",
-      "date": "2026-08-18T20:16:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[surfio] surfio has an out-of-bounds read",
-      "url": "https://github.com/advisories/GHSA-rcr2-hggw-43wm",
-      "date": "2026-08-18T20:12:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
