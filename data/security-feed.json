@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-08-19T18:43:51.300Z",
+  "fetchedAt": "2026-08-19T19:31:10.690Z",
   "entries": [
+    {
+      "title": "[claude-faf-mcp] claude-faf-mcp has an arbitrary local file read/write via unconfined `path` argument in FAF tools",
+      "url": "https://github.com/advisories/GHSA-rr55-jp92-8wp2",
+      "date": "2026-08-19T19:15:25.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[faf-mcp] faf-mcp has an arbitrary local file read/write via unconfined `path` argument in FAF tools",
+      "url": "https://github.com/advisories/GHSA-j4r7-8ph4-43g3",
+      "date": "2026-08-19T19:15:15.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[grok-faf-mcp] grok-faf-mcp has an arbitrary local file read via unconfined `path` argument in FAF tools",
+      "url": "https://github.com/advisories/GHSA-cc2g-gq8c-r332",
+      "date": "2026-08-19T19:15:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langgraph-api] langgraph-api: Incomplete assistant authorization in LangGraph Server run creation",
+      "url": "https://github.com/advisories/GHSA-jfj5-wrj9-63x4",
+      "date": "2026-08-19T18:56:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langgraph-api] langgraph-api: Relative webhook targets in LangGraph Server can reach in-process routes without authentication",
+      "url": "https://github.com/advisories/GHSA-2c9q-c2q9-qgqv",
+      "date": "2026-08-19T18:55:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[linuxfabrik-lib] linuxfabrik-lib: Arbitrary root file read via live --test argument (lib.lftest) across sudoers-whitelisted plugins (LPE)",
       "url": "https://github.com/advisories/GHSA-rh9c-rqvg-f7pr",
@@ -105,41 +140,6 @@
       "date": "2026-08-18T20:12:56.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[resdata] resdata has Classic Buffer Overflow, Improper Validation of Array Index, NULL Pointer Dereference and Out-of-bounds Read",
-      "url": "https://github.com/advisories/GHSA-pr85-w493-9w3x",
-      "date": "2026-08-18T20:11:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[meshcentral] MeshCentral has unsanitized data fields",
-      "url": "https://github.com/advisories/GHSA-c7hr-448w-65px",
-      "date": "2026-08-18T20:09:36.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mobsf] MobSF Vulnerable to Arbitrary File Read via Path Traversal in ZIP Uploads",
-      "url": "https://github.com/advisories/GHSA-8j49-mmcx-4mp5",
-      "date": "2026-08-18T18:01:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mobsf] MobSF's CSRF checks not enforced after Django migration",
-      "url": "https://github.com/advisories/GHSA-3p54-567p-2wpr",
-      "date": "2026-08-18T18:01:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mobsf] MobSF has SSRF port restriction bypass in assetlinks_check",
-      "url": "https://github.com/advisories/GHSA-95px-34x5-p37h",
-      "date": "2026-08-18T18:01:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }
