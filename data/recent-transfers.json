@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-19T01:44:47.879Z",
+  "scannedAt": "2026-08-19T03:06:30.570Z",
   "count": 107,
   "packages": [
     {
@@ -282,15 +282,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "embla-carousel-autoplay",
-      "version": "8.6.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "davidcetinkaya",
-      "currentOwner": "davidjerleke"
-    },
-    {
       "name": "@trivago/prettier-plugin-sort-imports",
       "version": "6.0.2",
       "ecosystem": "npm",
@@ -298,6 +289,15 @@
       "level": "MODERATE",
       "previousOwner": "ayusharma",
       "currentOwner": "behraang"
+    },
+    {
+      "name": "embla-carousel-autoplay",
+      "version": "8.6.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "davidcetinkaya",
+      "currentOwner": "davidjerleke"
     },
     {
       "name": "eslint",
@@ -615,8 +615,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "@appium/types",
-      "version": "1.6.0",
+      "name": "@appium/schema",
+      "version": "1.3.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -624,8 +624,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.3.0",
+      "name": "@appium/types",
+      "version": "1.6.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -642,15 +642,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "inversify",
-      "version": "8.2.3",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "remojansen",
-      "currentOwner": "notaphplover"
-    },
-    {
       "name": "@microsoft/dynamicproto-js",
       "version": "2.0.5",
       "ecosystem": "npm",
@@ -658,6 +649,15 @@
       "level": "MODERATE",
       "previousOwner": "microsoft",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "inversify",
+      "version": "8.2.3",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "remojansen",
+      "currentOwner": "notaphplover"
     },
     {
       "name": "@hey-api/codegen-core",
@@ -813,8 +813,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.79.0",
+      "name": "oxc-transform",
+      "version": "0.145.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -822,8 +822,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform",
-      "version": "0.145.0",
+      "name": "@oxlint/binding-linux-x64-musl",
+      "version": "1.79.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -876,21 +876,21 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "@yuku-toolchain/types",
-      "version": "0.9.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "arshadyaseen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.145.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@yuku-toolchain/types",
+      "version": "0.9.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "arshadyaseen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -903,8 +903,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
-      "version": "0.145.0",
+      "name": "@oxlint/binding-linux-arm64-gnu",
+      "version": "1.79.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -912,8 +912,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-arm64-gnu",
-      "version": "1.79.0",
+      "name": "@oxc-parser/binding-linux-arm64-musl",
+      "version": "0.145.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
