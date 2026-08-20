@@ -1,136 +1,144 @@
 {
-  "fetchedAt": "2026-08-20T18:49:53.229Z",
+  "fetchedAt": "2026-08-20T19:36:15.405Z",
   "entries": [
     {
-      "title": "[langgraph-store-mongodb] LangChain MongoDB has NoSQL Operator Injection in MongoDBSaver.list() leading to cross-tenant data exposure",
-      "url": "https://github.com/advisories/GHSA-533j-2v4q-mw5h",
-      "date": "2026-08-20T17:29:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langgraph-checkpoint-mongodb] LangChain MongoDB has NoSQL Operator Injection in MongoDBSaver.list() leading to cross-tenant data exposure",
-      "url": "https://github.com/advisories/GHSA-533j-2v4q-mw5h",
-      "date": "2026-08-20T17:29:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[asteval] asteval has a Sandbox Escape via BaseException Subclasses",
-      "url": "https://github.com/advisories/GHSA-89v8-rhwq-hf77",
-      "date": "2026-08-20T17:28:53.000Z",
+      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
+      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
+      "date": "2026-08-20T18:45:30.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[asteval] asteval Sandbox Escape: arbitrary native memory read/write via numpy ctypes in default asteval Interpreter",
-      "url": "https://github.com/advisories/GHSA-9w56-46f6-3qhx",
-      "date": "2026-08-20T17:26:53.000Z",
+      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
+      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
+      "date": "2026-08-20T18:45:30.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0259: Vulnerability in arone",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0259.html",
-      "date": "2026-08-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0260: arrayref contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0260.html",
-      "date": "2026-08-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0261: Vulnerability in aronenao",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0261.html",
-      "date": "2026-08-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0262: append-only-vec contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0262.html",
-      "date": "2026-08-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0263: Vulnerability in tinymember",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0263.html",
-      "date": "2026-08-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0264: proc-macro-en contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0264.html",
-      "date": "2026-08-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0265: proc-macro1 contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0265.html",
-      "date": "2026-08-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0266: internment contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0266.html",
-      "date": "2026-08-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[@tinacms/cli] Tina: Cross-origin `POST /media/upload/*` requests can write arbitrary files into the Tina dev server media root",
-      "url": "https://github.com/advisories/GHSA-rgr9-r7mj-mf6x",
-      "date": "2026-08-19T21:56:37.000Z",
-      "ecosystem": "npm",
+      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
+      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
+      "date": "2026-08-20T18:45:30.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[next-tinacms-cloudinary] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
-      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
-      "date": "2026-08-19T21:56:30.000Z",
-      "ecosystem": "npm",
+      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
+      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
+      "date": "2026-08-20T18:45:30.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[next-tinacms-azure] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
-      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
-      "date": "2026-08-19T21:56:30.000Z",
-      "ecosystem": "npm",
+      "title": "[wagtail] Wagtail: Improper permission handling when copying snippets",
+      "url": "https://github.com/advisories/GHSA-x5cx-w6p2-mxf2",
+      "date": "2026-08-20T18:45:24.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[next-tinacms-dos] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
-      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
-      "date": "2026-08-19T21:56:30.000Z",
-      "ecosystem": "npm",
+      "title": "[wagtail] Wagtail: Improper permission handling when copying snippets",
+      "url": "https://github.com/advisories/GHSA-x5cx-w6p2-mxf2",
+      "date": "2026-08-20T18:45:24.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[next-tinacms-s3] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
-      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
-      "date": "2026-08-19T21:56:30.000Z",
-      "ecosystem": "npm",
+      "title": "[wagtail] Wagtail: Improper permission handling when copying snippets",
+      "url": "https://github.com/advisories/GHSA-x5cx-w6p2-mxf2",
+      "date": "2026-08-20T18:45:24.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[@logto/tunnel] logto-tunnel serves files outside --experience-path via path traversal",
-      "url": "https://github.com/advisories/GHSA-rxjr-6c9q-h67x",
-      "date": "2026-08-19T20:24:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mcp-searxng] SearXNG Basic Authentication Credentials Exposed Through MCP Logs and JSON-RPC Error Responses",
-      "url": "https://github.com/advisories/GHSA-hjwh-xvfw-qrwj",
-      "date": "2026-08-19T19:32:47.000Z",
-      "ecosystem": "npm",
+      "title": "[wagtail] Wagtail: Improper permission handling when copying snippets",
+      "url": "https://github.com/advisories/GHSA-x5cx-w6p2-mxf2",
+      "date": "2026-08-20T18:45:24.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[mcp-searxng] SearXNG MCP Server: Additional hardened-mode SSRF bypasses",
-      "url": "https://github.com/advisories/GHSA-wppf-h75h-6pm6",
-      "date": "2026-08-19T19:23:17.000Z",
-      "ecosystem": "npm",
+      "title": "[wagtail] Wagtail: Improper restriction handling on descendant collections in Documents and Images API",
+      "url": "https://github.com/advisories/GHSA-c2xx-cjmh-9q8f",
+      "date": "2026-08-20T18:45:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail: Improper restriction handling on descendant collections in Documents and Images API",
+      "url": "https://github.com/advisories/GHSA-c2xx-cjmh-9q8f",
+      "date": "2026-08-20T18:45:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail: Improper restriction handling on descendant collections in Documents and Images API",
+      "url": "https://github.com/advisories/GHSA-c2xx-cjmh-9q8f",
+      "date": "2026-08-20T18:45:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail: Improper restriction handling on descendant collections in Documents and Images API",
+      "url": "https://github.com/advisories/GHSA-c2xx-cjmh-9q8f",
+      "date": "2026-08-20T18:45:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
+      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
+      "date": "2026-08-20T18:45:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
+      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
+      "date": "2026-08-20T18:45:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
+      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
+      "date": "2026-08-20T18:45:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
+      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
+      "date": "2026-08-20T18:45:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[django-cms] django CMS: Missing authorization in `render_object_structure` discloses non-PageContent placeholder structure to low-privileged staff",
+      "url": "https://github.com/advisories/GHSA-8qj2-c6q4-f399",
+      "date": "2026-08-20T18:42:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[django-cms] django CMS: Broken access control in page *Duplicate* allows reading the content of any page (cross-site / restriction bypass)",
+      "url": "https://github.com/advisories/GHSA-6x92-6vx4-5fwr",
+      "date": "2026-08-20T18:42:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[django-cms] django CMS: Stored XSS in edit-mode plugin exception rendering",
+      "url": "https://github.com/advisories/GHSA-hvq6-2r72-p2x7",
+      "date": "2026-08-20T18:42:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail: Improper restriction handling on Pages admin API",
+      "url": "https://github.com/advisories/GHSA-3vrh-m9w7-v94f",
+      "date": "2026-08-20T18:42:29.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
