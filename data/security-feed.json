@@ -1,7 +1,42 @@
 {
-  "fetchedAt": "2026-08-20T19:36:15.405Z",
+  "fetchedAt": "2026-08-20T20:35:45.612Z",
   "entries": [
     {
+      "title": "[gettext-converter] gettext-converter: Prototype pollution in js2i18next() via crafted translation keys",
+      "url": "https://github.com/advisories/GHSA-f4jp-rw7w-ccwg",
+      "date": "2026-08-20T20:11:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
+      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
+      "date": "2026-08-20T19:50:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
+      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
+      "date": "2026-08-20T19:50:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
+      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
+      "date": "2026-08-20T19:50:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
+      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
+      "date": "2026-08-20T19:50:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
       "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
       "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
       "date": "2026-08-20T18:45:30.000Z",
@@ -84,34 +119,6 @@
       "date": "2026-08-20T18:45:15.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
-      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
-      "date": "2026-08-20T18:45:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
-      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
-      "date": "2026-08-20T18:45:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
-      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
-      "date": "2026-08-20T18:45:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
-      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
-      "date": "2026-08-20T18:45:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     },
     {
       "title": "[django-cms] django CMS: Missing authorization in `render_object_structure` discloses non-PageContent placeholder structure to low-privileged staff",
@@ -131,13 +138,6 @@
       "title": "[django-cms] django CMS: Stored XSS in edit-mode plugin exception rendering",
       "url": "https://github.com/advisories/GHSA-hvq6-2r72-p2x7",
       "date": "2026-08-20T18:42:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Improper restriction handling on Pages admin API",
-      "url": "https://github.com/advisories/GHSA-3vrh-m9w7-v94f",
-      "date": "2026-08-20T18:42:29.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
