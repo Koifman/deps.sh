@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-08-20T17:35:36.121Z",
+  "fetchedAt": "2026-08-20T18:49:53.229Z",
   "entries": [
+    {
+      "title": "[langgraph-store-mongodb] LangChain MongoDB has NoSQL Operator Injection in MongoDBSaver.list() leading to cross-tenant data exposure",
+      "url": "https://github.com/advisories/GHSA-533j-2v4q-mw5h",
+      "date": "2026-08-20T17:29:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[langgraph-checkpoint-mongodb] LangChain MongoDB has NoSQL Operator Injection in MongoDBSaver.list() leading to cross-tenant data exposure",
+      "url": "https://github.com/advisories/GHSA-533j-2v4q-mw5h",
+      "date": "2026-08-20T17:29:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[asteval] asteval has a Sandbox Escape via BaseException Subclasses",
+      "url": "https://github.com/advisories/GHSA-89v8-rhwq-hf77",
+      "date": "2026-08-20T17:28:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[asteval] asteval Sandbox Escape: arbitrary native memory read/write via numpy ctypes in default asteval Interpreter",
+      "url": "https://github.com/advisories/GHSA-9w56-46f6-3qhx",
+      "date": "2026-08-20T17:26:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0259: Vulnerability in arone",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0259.html",
@@ -104,34 +132,6 @@
       "date": "2026-08-19T19:23:17.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp-searxng] SearXNG MCP Server is Vulnerable to SSRF in web_url_read: the internal-address guard is disabled by default (MCP_HTTP_HARDEN off)",
-      "url": "https://github.com/advisories/GHSA-q87f-qc2r-2gw4",
-      "date": "2026-08-19T19:23:12.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[geolens] GeoLens's authorization and cache-scope flaws disclose private dataset data and metadata to unauthorized users (fixed in 1.2.4)",
-      "url": "https://github.com/advisories/GHSA-p77j-g7h5-r2vw",
-      "date": "2026-08-19T19:23:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[document-merge-service] Document Merge Service vulnerable to RCE via SSTI (xlsx tempaltes)",
-      "url": "https://github.com/advisories/GHSA-w47q-945m-q9pc",
-      "date": "2026-08-19T19:17:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@contentful/mcp-tools] Contentful MCP Server: export_space/import_space tools pass LLM-controlled `host`/`proxy` args to CMA client, redirecting server PAT to attacker-controlled endpoint",
-      "url": "https://github.com/advisories/GHSA-2xhg-73j7-rrgx",
-      "date": "2026-08-19T19:17:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
