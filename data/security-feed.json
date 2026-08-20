@@ -1,6 +1,54 @@
 {
-  "fetchedAt": "2026-08-20T15:39:21.975Z",
+  "fetchedAt": "2026-08-20T16:41:13.785Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0259: Vulnerability in arone",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0259.html",
+      "date": "2026-08-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0260: arrayref contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0260.html",
+      "date": "2026-08-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0261: Vulnerability in aronenao",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0261.html",
+      "date": "2026-08-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0262: append-only-vec contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0262.html",
+      "date": "2026-08-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0263: Vulnerability in tinymember",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0263.html",
+      "date": "2026-08-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0264: proc-macro-en contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0264.html",
+      "date": "2026-08-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0265: proc-macro1 contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0265.html",
+      "date": "2026-08-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0266: internment contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0266.html",
+      "date": "2026-08-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@tinacms/cli] Tina: Cross-origin `POST /media/upload/*` requests can write arbitrary files into the Tina dev server media root",
       "url": "https://github.com/advisories/GHSA-rgr9-r7mj-mf6x",
@@ -84,62 +132,6 @@
       "date": "2026-08-19T19:17:01.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@contentful/mcp-server] Contentful MCP Server: export_space/import_space tools pass LLM-controlled `host`/`proxy` args to CMA client, redirecting server PAT to attacker-controlled endpoint",
-      "url": "https://github.com/advisories/GHSA-2xhg-73j7-rrgx",
-      "date": "2026-08-19T19:17:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[copier] Copier has a trust-prefix bypass via path traversal that runs tasks unprompted",
-      "url": "https://github.com/advisories/GHSA-9gmc-jqmh-3rvm",
-      "date": "2026-08-19T19:16:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[claude-faf-mcp] claude-faf-mcp has an arbitrary local file read/write via unconfined `path` argument in FAF tools",
-      "url": "https://github.com/advisories/GHSA-rr55-jp92-8wp2",
-      "date": "2026-08-19T19:15:25.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[faf-mcp] faf-mcp has an arbitrary local file read/write via unconfined `path` argument in FAF tools",
-      "url": "https://github.com/advisories/GHSA-j4r7-8ph4-43g3",
-      "date": "2026-08-19T19:15:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[grok-faf-mcp] grok-faf-mcp has an arbitrary local file read via unconfined `path` argument in FAF tools",
-      "url": "https://github.com/advisories/GHSA-cc2g-gq8c-r332",
-      "date": "2026-08-19T19:15:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[langgraph-api] langgraph-api: Incomplete assistant authorization in LangGraph Server run creation",
-      "url": "https://github.com/advisories/GHSA-jfj5-wrj9-63x4",
-      "date": "2026-08-19T18:56:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langgraph-api] langgraph-api: Relative webhook targets in LangGraph Server can reach in-process routes without authentication",
-      "url": "https://github.com/advisories/GHSA-2c9q-c2q9-qgqv",
-      "date": "2026-08-19T18:55:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[linuxfabrik-lib] linuxfabrik-lib: Arbitrary root file read via live --test argument (lib.lftest) across sudoers-whitelisted plugins (LPE)",
-      "url": "https://github.com/advisories/GHSA-rh9c-rqvg-f7pr",
-      "date": "2026-08-18T21:19:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
