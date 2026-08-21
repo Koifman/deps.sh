@@ -1,6 +1,90 @@
 {
-  "fetchedAt": "2026-08-21T18:46:39.667Z",
+  "fetchedAt": "2026-08-21T19:29:54.699Z",
   "entries": [
+    {
+      "title": "[unleash-server] Unleash: Global Mustache.escape override disables HTML escaping process-wide, enabling Slack/Teams link-injection via unrestricted username",
+      "url": "https://github.com/advisories/GHSA-w4mq-xh27-6xpx",
+      "date": "2026-08-21T19:14:52.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[unleash-server] Unleash: Addon webhook URL is dialed server-side with no internal-address filtering, enabling SSRF to internal services / cloud metadata and exfiltration of configured request headers",
+      "url": "https://github.com/advisories/GHSA-5vf6-jrqr-78fj",
+      "date": "2026-08-21T19:14:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[unleash-server] Unleash: Addon webhook URL is dialed server-side with no internal-address filtering, enabling SSRF to internal services / cloud metadata and exfiltration of configured request headers",
+      "url": "https://github.com/advisories/GHSA-5vf6-jrqr-78fj",
+      "date": "2026-08-21T19:14:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[unleash-server] Unleash: Addon webhook URL is dialed server-side with no internal-address filtering, enabling SSRF to internal services / cloud metadata and exfiltration of configured request headers",
+      "url": "https://github.com/advisories/GHSA-5vf6-jrqr-78fj",
+      "date": "2026-08-21T19:14:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[unleash-server] Unleash: Unauthenticated single-request DoS via OpenAPI validation error formatter",
+      "url": "https://github.com/advisories/GHSA-r5pq-6chh-j3xp",
+      "date": "2026-08-21T19:14:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[unleash-server] Unleash: Unauthenticated single-request DoS via OpenAPI validation error formatter",
+      "url": "https://github.com/advisories/GHSA-r5pq-6chh-j3xp",
+      "date": "2026-08-21T19:14:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[unleash-server] Unleash: Unauthenticated single-request DoS via OpenAPI validation error formatter",
+      "url": "https://github.com/advisories/GHSA-r5pq-6chh-j3xp",
+      "date": "2026-08-21T19:14:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@tinacms/cli] Tina: Cross-origin `POST /media/upload/*` requests can write arbitrary files into the Tina dev server media root",
+      "url": "https://github.com/advisories/GHSA-rgr9-r7mj-mf6x",
+      "date": "2026-08-21T18:31:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next-tinacms-cloudinary] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
+      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
+      "date": "2026-08-21T18:31:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next-tinacms-azure] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
+      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
+      "date": "2026-08-21T18:31:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next-tinacms-dos] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
+      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
+      "date": "2026-08-21T18:31:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[next-tinacms-s3] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
+      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
+      "date": "2026-08-21T18:31:06.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0259: Vulnerability in arone",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0259.html",
@@ -48,90 +132,6 @@
       "url": "https://github.com/advisories/GHSA-f4jp-rw7w-ccwg",
       "date": "2026-08-20T20:11:15.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
-      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
-      "date": "2026-08-20T19:50:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
-      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
-      "date": "2026-08-20T19:50:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
-      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
-      "date": "2026-08-20T19:50:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[wagtail] Wagtail: Identification of documents by SHA1 hash",
-      "url": "https://github.com/advisories/GHSA-92hv-j533-69wc",
-      "date": "2026-08-20T19:50:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
-      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
-      "date": "2026-08-20T18:45:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
-      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
-      "date": "2026-08-20T18:45:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
-      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
-      "date": "2026-08-20T18:45:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
-      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
-      "date": "2026-08-20T18:45:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Improper permission handling when copying snippets",
-      "url": "https://github.com/advisories/GHSA-x5cx-w6p2-mxf2",
-      "date": "2026-08-20T18:45:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Improper permission handling when copying snippets",
-      "url": "https://github.com/advisories/GHSA-x5cx-w6p2-mxf2",
-      "date": "2026-08-20T18:45:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Improper permission handling when copying snippets",
-      "url": "https://github.com/advisories/GHSA-x5cx-w6p2-mxf2",
-      "date": "2026-08-20T18:45:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Improper permission handling when copying snippets",
-      "url": "https://github.com/advisories/GHSA-x5cx-w6p2-mxf2",
-      "date": "2026-08-20T18:45:24.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     }
   ]
