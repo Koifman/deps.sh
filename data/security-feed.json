@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-08-21T05:37:47.870Z",
+  "fetchedAt": "2026-08-21T06:57:10.498Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0259: Vulnerability in arone",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0259.html",
+      "date": "2026-08-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0260: arrayref contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0260.html",
+      "date": "2026-08-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0261: Vulnerability in aronenao",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0261.html",
+      "date": "2026-08-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0262: append-only-vec contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0262.html",
+      "date": "2026-08-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0264: proc-macro-en contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0264.html",
+      "date": "2026-08-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0265: proc-macro1 contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0265.html",
+      "date": "2026-08-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0266: internment contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0266.html",
+      "date": "2026-08-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[gettext-converter] gettext-converter: Prototype pollution in js2i18next() via crafted translation keys",
       "url": "https://github.com/advisories/GHSA-f4jp-rw7w-ccwg",
@@ -89,55 +131,6 @@
       "title": "[wagtail] Wagtail: Improper permission handling when copying snippets",
       "url": "https://github.com/advisories/GHSA-x5cx-w6p2-mxf2",
       "date": "2026-08-20T18:45:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Improper restriction handling on descendant collections in Documents and Images API",
-      "url": "https://github.com/advisories/GHSA-c2xx-cjmh-9q8f",
-      "date": "2026-08-20T18:45:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Improper restriction handling on descendant collections in Documents and Images API",
-      "url": "https://github.com/advisories/GHSA-c2xx-cjmh-9q8f",
-      "date": "2026-08-20T18:45:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Improper restriction handling on descendant collections in Documents and Images API",
-      "url": "https://github.com/advisories/GHSA-c2xx-cjmh-9q8f",
-      "date": "2026-08-20T18:45:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wagtail] Wagtail: Improper restriction handling on descendant collections in Documents and Images API",
-      "url": "https://github.com/advisories/GHSA-c2xx-cjmh-9q8f",
-      "date": "2026-08-20T18:45:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[django-cms] django CMS: Missing authorization in `render_object_structure` discloses non-PageContent placeholder structure to low-privileged staff",
-      "url": "https://github.com/advisories/GHSA-8qj2-c6q4-f399",
-      "date": "2026-08-20T18:42:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[django-cms] django CMS: Broken access control in page *Duplicate* allows reading the content of any page (cross-site / restriction bypass)",
-      "url": "https://github.com/advisories/GHSA-6x92-6vx4-5fwr",
-      "date": "2026-08-20T18:42:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[django-cms] django CMS: Stored XSS in edit-mode plugin exception rendering",
-      "url": "https://github.com/advisories/GHSA-hvq6-2r72-p2x7",
-      "date": "2026-08-20T18:42:39.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
