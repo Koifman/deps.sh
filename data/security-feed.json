@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-08-21T20:31:58.875Z",
+  "fetchedAt": "2026-08-21T21:30:19.684Z",
   "entries": [
+    {
+      "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
+      "url": "https://github.com/advisories/GHSA-66mm-25pp-rfff",
+      "date": "2026-08-21T21:04:20.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
+      "url": "https://github.com/advisories/GHSA-66mm-25pp-rfff",
+      "date": "2026-08-21T21:04:20.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
+      "url": "https://github.com/advisories/GHSA-2943-5xfg-gq5f",
+      "date": "2026-08-21T20:58:02.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
+      "url": "https://github.com/advisories/GHSA-2943-5xfg-gq5f",
+      "date": "2026-08-21T20:58:02.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[hydra-core] Hydra: hydra.utils.instantiate with untrusted config can lead to code execution",
+      "url": "https://github.com/advisories/GHSA-2cp2-2r3c-7p7r",
+      "date": "2026-08-21T20:57:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jsonata] JSONata: Arbitrary Code Execution via crafted JSONata expressions",
+      "url": "https://github.com/advisories/GHSA-8gq3-vp5j-2grp",
+      "date": "2026-08-21T20:57:09.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[jsonata] JSONata: Arbitrary Code Execution via crafted JSONata expressions",
+      "url": "https://github.com/advisories/GHSA-8gq3-vp5j-2grp",
+      "date": "2026-08-21T20:57:09.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[xinference] Xinference vulnerable to remote code execution via unsafe `eval()` in Llama3 tool-call parsing",
+      "url": "https://github.com/advisories/GHSA-x2rj-828p-hx9m",
+      "date": "2026-08-21T20:56:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@keystone-6/core] Keystone vulnerable to `graphql.maxTake` bypass with negative `take`",
+      "url": "https://github.com/advisories/GHSA-cqmq-8755-7xvh",
+      "date": "2026-08-21T20:55:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[defuddle] Defuddle vulnerable to XSS via unescaped attribute interpolation in site extractors",
+      "url": "https://github.com/advisories/GHSA-jg4p-g6xj-4qmf",
+      "date": "2026-08-21T20:54:57.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[unleash-server] Unleash: Global Mustache.escape override disables HTML escaping process-wide, enabling Slack/Teams link-injection via unrestricted username",
       "url": "https://github.com/advisories/GHSA-w4mq-xh27-6xpx",
@@ -51,41 +121,6 @@
       "severity": "HIGH"
     },
     {
-      "title": "[@tinacms/cli] Tina: Cross-origin `POST /media/upload/*` requests can write arbitrary files into the Tina dev server media root",
-      "url": "https://github.com/advisories/GHSA-rgr9-r7mj-mf6x",
-      "date": "2026-08-21T18:31:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next-tinacms-cloudinary] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
-      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
-      "date": "2026-08-21T18:31:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next-tinacms-azure] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
-      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
-      "date": "2026-08-21T18:31:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next-tinacms-dos] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
-      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
-      "date": "2026-08-21T18:31:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next-tinacms-s3] Tina: Broken Access Control: arbitrary bucket-key write/delete in `next-tinacms-s3` (and sibling production media adapters)",
-      "url": "https://github.com/advisories/GHSA-8mq9-5fw2-5rm4",
-      "date": "2026-08-21T18:31:06.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
       "title": "RUSTSEC-2026-0259: Vulnerability in arone",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0259.html",
       "date": "2026-08-21T12:00:00+00:00",
@@ -102,37 +137,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0261.html",
       "date": "2026-08-21T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0262: append-only-vec contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0262.html",
-      "date": "2026-08-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0264: proc-macro-en contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0264.html",
-      "date": "2026-08-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0265: proc-macro1 contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0265.html",
-      "date": "2026-08-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0266: internment contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0266.html",
-      "date": "2026-08-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[gettext-converter] gettext-converter: Prototype pollution in js2i18next() via crafted translation keys",
-      "url": "https://github.com/advisories/GHSA-f4jp-rw7w-ccwg",
-      "date": "2026-08-20T20:11:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
