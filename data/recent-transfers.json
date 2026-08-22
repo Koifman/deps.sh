@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-08-22T18:41:13.360Z",
-  "count": 124,
+  "scannedAt": "2026-08-22T19:30:00.066Z",
+  "count": 125,
   "packages": [
     {
       "name": "xmldom",
@@ -54,6 +54,15 @@
       "score": 50,
       "level": "HIGH",
       "previousOwner": "ericf",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "appium",
+      "version": "3.6.0",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "admc",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1020,15 +1029,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@yuku-toolchain/types",
-      "version": "0.9.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "arshadyaseen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@typescript/typescript-linux-arm64",
       "version": "7.0.2",
       "ecosystem": "npm",
@@ -1036,6 +1036,15 @@
       "level": "LOW",
       "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@yuku-toolchain/types",
+      "version": "0.9.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "arshadyaseen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@astrojs/compiler-binding",
