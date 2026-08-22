@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-08-22T09:35:46.354Z",
-  "count": 124,
+  "scannedAt": "2026-08-22T10:32:48.967Z",
+  "count": 125,
   "packages": [
     {
       "name": "xmldom",
@@ -54,6 +54,15 @@
       "score": 50,
       "level": "HIGH",
       "previousOwner": "ericf",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "appium",
+      "version": "3.6.0",
+      "ecosystem": "npm",
+      "score": 43,
+      "level": "MODERATE",
+      "previousOwner": "admc",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -246,21 +255,21 @@
       "currentOwner": "google-wombot"
     },
     {
-      "name": "embla-carousel-reactive-utils",
-      "version": "8.6.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "davidjerleke",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "embla-carousel",
       "version": "8.6.0",
       "ecosystem": "npm",
       "score": 30,
       "level": "MODERATE",
       "previousOwner": "davidcetinkaya",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "embla-carousel-reactive-utils",
+      "version": "8.6.0",
+      "ecosystem": "npm",
+      "score": 30,
+      "level": "MODERATE",
+      "previousOwner": "davidjerleke",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -813,6 +822,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "yuku-codegen",
+      "version": "0.9.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "arshadyaseen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "redux-saga",
       "version": "1.5.1",
       "ecosystem": "npm",
@@ -822,7 +840,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "yuku-codegen",
+      "name": "yuku-parser",
       "version": "0.9.0",
       "ecosystem": "npm",
       "score": 22,
@@ -837,15 +855,6 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "andrii.bodnar",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "yuku-parser",
-      "version": "0.9.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "arshadyaseen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1020,15 +1029,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/typescript-linux-arm64",
-      "version": "7.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@yuku-toolchain/types",
       "version": "0.9.0",
       "ecosystem": "npm",
@@ -1036,6 +1036,15 @@
       "level": "LOW",
       "previousOwner": "arshadyaseen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/typescript-linux-arm64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@astrojs/compiler-binding",
