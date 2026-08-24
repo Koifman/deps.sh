@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-24T20:37:50.030Z",
+  "fetchedAt": "2026-08-24T21:35:31.051Z",
   "entries": [
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Slack and Zalo webhook secrets could remain active after secrets.reload",
+      "url": "https://github.com/advisories/GHSA-p68j-q8j9-jwf5",
+      "date": "2026-08-24T21:06:00.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[django-cms] django CMS: Page cache ignores plugin-declared Vary headers (disclosure & poisoning)",
       "url": "https://github.com/advisories/GHSA-fwjf-m4qw-9f2x",
@@ -133,13 +140,6 @@
       "date": "2026-08-21T19:14:47.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[unleash-server] Unleash: Unauthenticated single-request DoS via OpenAPI validation error formatter",
-      "url": "https://github.com/advisories/GHSA-r5pq-6chh-j3xp",
-      "date": "2026-08-21T19:14:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }

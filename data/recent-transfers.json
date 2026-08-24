@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-08-24T20:41:36.091Z",
-  "count": 125,
+  "scannedAt": "2026-08-24T21:38:18.250Z",
+  "count": 126,
   "packages": [
     {
       "name": "xmldom",
@@ -211,7 +211,7 @@
     },
     {
       "name": "@appium/support",
-      "version": "7.2.6",
+      "version": "7.2.7",
       "ecosystem": "npm",
       "score": 33,
       "level": "MODERATE",
@@ -463,7 +463,7 @@
     },
     {
       "name": "@appium/base-driver",
-      "version": "10.7.2",
+      "version": "10.8.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -588,8 +588,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/external-editor",
-      "version": "3.0.4",
+      "name": "@inquirer/editor",
+      "version": "5.3.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -597,8 +597,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/editor",
-      "version": "5.3.0",
+      "name": "@inquirer/external-editor",
+      "version": "3.0.4",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -615,26 +615,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/checkbox",
-      "version": "5.2.2",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@inquirer/search",
       "version": "4.3.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@inquirer/password",
-      "version": "5.1.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -660,12 +642,30 @@
       "currentOwner": "microsoft1es"
     },
     {
+      "name": "@inquirer/checkbox",
+      "version": "5.2.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "sboudrias",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@supabase/supabase-js",
       "version": "2.112.4",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "kiwicopple",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@inquirer/password",
+      "version": "5.1.2",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "sboudrias",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -751,7 +751,7 @@
     },
     {
       "name": "@appium/types",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -787,7 +787,7 @@
     },
     {
       "name": "@appium/logger",
-      "version": "2.0.10",
+      "version": "2.0.11",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -823,7 +823,7 @@
     },
     {
       "name": "@appium/tsconfig",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -856,6 +856,15 @@
       "level": "MODERATE",
       "previousOwner": "yelouafi",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@nevware21/ts-async",
+      "version": "0.6.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "is-plain-object",
@@ -1074,15 +1083,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@astrojs/compiler-binding",
-      "version": "0.4.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matthewp",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxlint/binding-linux-arm64-gnu",
       "version": "1.80.0",
       "ecosystem": "npm",
@@ -1110,12 +1110,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-x64",
-      "version": "0.147.0",
+      "name": "@astrojs/compiler-binding",
+      "version": "0.4.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "boshen",
+      "previousOwner": "matthewp",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1125,6 +1125,15 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-darwin-x64",
+      "version": "0.147.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     }
   ]
