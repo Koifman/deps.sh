@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-08-24T19:34:44.473Z",
+  "fetchedAt": "2026-08-24T20:37:50.030Z",
   "entries": [
+    {
+      "title": "[django-cms] django CMS: Page cache ignores plugin-declared Vary headers (disclosure & poisoning)",
+      "url": "https://github.com/advisories/GHSA-fwjf-m4qw-9f2x",
+      "date": "2026-08-24T20:09:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[django-cms] django CMS: Plugin move endpoint allows cyclic reparenting (DoS)",
+      "url": "https://github.com/advisories/GHSA-8jj7-4v57-frf5",
+      "date": "2026-08-24T20:09:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[chromadb] ChromaDB has a code injection vulnerability",
+      "url": "https://github.com/advisories/GHSA-36p7-vc44-83pf",
+      "date": "2026-08-24T20:03:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[chromadb] ChromaDB's SimpleRBACAuthorizationProvider doesn't check which tenant, database, or collection a permission applies to",
+      "url": "https://github.com/advisories/GHSA-xph7-9rjv-w5fr",
+      "date": "2026-08-24T20:00:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[chromadb] ChromaDB allows any authenticated users to arbitrarily read, write, update, or delete data in any tenant's collection",
+      "url": "https://github.com/advisories/GHSA-2wm9-hf6c-p5cr",
+      "date": "2026-08-24T19:57:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
       "url": "https://github.com/advisories/GHSA-66mm-25pp-rfff",
@@ -105,38 +140,6 @@
       "date": "2026-08-21T19:14:39.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[unleash-server] Unleash: Unauthenticated single-request DoS via OpenAPI validation error formatter",
-      "url": "https://github.com/advisories/GHSA-r5pq-6chh-j3xp",
-      "date": "2026-08-21T19:14:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[unleash-server] Unleash: Unauthenticated single-request DoS via OpenAPI validation error formatter",
-      "url": "https://github.com/advisories/GHSA-r5pq-6chh-j3xp",
-      "date": "2026-08-21T19:14:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0259: Vulnerability in arone",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0259.html",
-      "date": "2026-08-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0260: arrayref contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0260.html",
-      "date": "2026-08-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0261: Vulnerability in aronenao",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0261.html",
-      "date": "2026-08-21T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
