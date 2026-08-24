@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-24T22:35:47.164Z",
+  "scannedAt": "2026-08-24T23:30:10.426Z",
   "count": 126,
   "packages": [
     {
@@ -615,8 +615,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/external-editor",
-      "version": "3.0.4",
+      "name": "@inquirer/search",
+      "version": "4.3.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -624,8 +624,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/search",
-      "version": "4.3.0",
+      "name": "@inquirer/external-editor",
+      "version": "3.0.4",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -1029,15 +1029,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/typescript-linux-arm64",
-      "version": "7.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@yuku-toolchain/types",
       "version": "0.9.1",
       "ecosystem": "npm",
@@ -1045,6 +1036,15 @@
       "level": "LOW",
       "previousOwner": "arshadyaseen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/typescript-linux-arm64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-musl",
@@ -1119,21 +1119,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@astrojs/compiler-binding",
-      "version": "0.4.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matthewp",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@lottiefiles/dotlottie-web",
       "version": "0.79.2",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@astrojs/compiler-binding",
+      "version": "0.4.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matthewp",
       "currentOwner": "GitHub Actions"
     }
   ]
