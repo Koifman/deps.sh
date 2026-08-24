@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-08-24T07:13:23.211Z",
+  "scannedAt": "2026-08-24T08:58:19.633Z",
   "count": 126,
   "packages": [
     {
@@ -759,8 +759,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "@appium/types",
-      "version": "1.6.0",
+      "name": "@appium/schema",
+      "version": "1.3.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -768,8 +768,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.3.0",
+      "name": "@appium/types",
+      "version": "1.6.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -813,21 +813,21 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "cropperjs",
-      "version": "2.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "fengyuanchen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "yuku-codegen",
       "version": "0.9.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "arshadyaseen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "cropperjs",
+      "version": "2.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "fengyuanchen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1038,15 +1038,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@yuku-toolchain/types",
-      "version": "0.9.1",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "arshadyaseen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@typescript/typescript-linux-arm64",
       "version": "7.0.2",
       "ecosystem": "npm",
@@ -1054,6 +1045,15 @@
       "level": "LOW",
       "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@yuku-toolchain/types",
+      "version": "0.9.1",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "arshadyaseen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "oxc-minify",
@@ -1074,7 +1074,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-win32-x64-msvc",
+      "name": "@oxc-transform/binding-linux-x64-musl",
       "version": "0.146.0",
       "ecosystem": "npm",
       "score": 20,
@@ -1083,7 +1083,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
+      "name": "@oxc-parser/binding-win32-x64-msvc",
       "version": "0.146.0",
       "ecosystem": "npm",
       "score": 20,
