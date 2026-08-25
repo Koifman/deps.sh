@@ -1,6 +1,118 @@
 {
-  "fetchedAt": "2026-08-25T14:55:32.235Z",
+  "fetchedAt": "2026-08-25T15:50:48.497Z",
   "entries": [
+    {
+      "title": "[qwed-mcp] qwed-mcp has Unsafe SymPy `parse_expr()` Remote Code Execution via Unsanitized Math Expression Input",
+      "url": "https://github.com/advisories/GHSA-mw6r-2hvm-4rp2",
+      "date": "2026-08-25T15:26:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI has a Browser Server WebSocket origin validation bypass via unanchored regex (patch bypass of CVE-2026-40289 / GHSA-8x8f-54wf-vv92)",
+      "url": "https://github.com/advisories/GHSA-6g6r-q6gw-w8fg",
+      "date": "2026-08-25T15:22:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI: Origin-validation bypass (startswith prefix match) enables unauthenticated cross-site request forgery against the PraisonAI MCP HTTP server",
+      "url": "https://github.com/advisories/GHSA-pvph-5j39-v8qc",
+      "date": "2026-08-25T15:18:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI: Authentication fail-open in Recipe server allows unauthenticated access when API key or JWT auth is configured without a secret",
+      "url": "https://github.com/advisories/GHSA-gfq8-hmph-9gjv",
+      "date": "2026-08-25T15:15:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI: [Auth Bypass] PraisonAI async Jobs API (`/api/v1/runs`) has no authentication — unauthenticated job execution, result theft, cancel and delete",
+      "url": "https://github.com/advisories/GHSA-2jgc-f764-c5r2",
+      "date": "2026-08-25T15:14:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonaiagents] praisonaiagents vulnerable to arbitrary file write via unsanitized `user_id` in `FileMemory.__init__()` — path traversal to any writable location",
+      "url": "https://github.com/advisories/GHSA-gxmw-5f7x-6g22",
+      "date": "2026-08-25T15:09:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI: `--api-key` flag on `praisonai serve` is not properly enforced",
+      "url": "https://github.com/advisories/GHSA-pvxx-r596-f5qj",
+      "date": "2026-08-25T15:06:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI vulnerable to Server-Side Request Forgery via DNS rebinding bypass in webhook_url validation",
+      "url": "https://github.com/advisories/GHSA-hmfx-4v44-9qw9",
+      "date": "2026-08-25T15:02:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI: Webhook SSRF via DNS fail-open in `JobSubmitRequest.validate_webhook_url()` — bypass of CVE-2026-40114",
+      "url": "https://github.com/advisories/GHSA-rg5q-pp8p-f7jm",
+      "date": "2026-08-25T14:59:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI: [Auth Bypass] `praisonai serve agents --api-key` is silently ignored — agent-invocation routes (`POST /agents`, `POST /agents/{agent_name}`) run unauthenticated",
+      "url": "https://github.com/advisories/GHSA-r7v3-x45f-g7hp",
+      "date": "2026-08-25T14:57:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI: [Path Traversal] agent tools escape the configured workspace via symlinks",
+      "url": "https://github.com/advisories/GHSA-ch89-h4r2-c8f8",
+      "date": "2026-08-25T14:54:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonaiagents] praisonaiagents: ast_grep_rewrite rewrites arbitrary files without the @require_approval gate enforced on every sibling mutation tool",
+      "url": "https://github.com/advisories/GHSA-cfxv-8fw8-rwpv",
+      "date": "2026-08-25T14:46:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[praisonaiagents] praisonaiagents vulnerable to SSRF in web_crawl tool via redirect-following and DNS rebinding (validate-then-fetch gap)",
+      "url": "https://github.com/advisories/GHSA-vg6p-v9vm-6fgj",
+      "date": "2026-08-25T14:43:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI serve agents --api-key is ignored, allowing unauthenticated remote agent execution",
+      "url": "https://github.com/advisories/GHSA-7ww9-85pg-cv4x",
+      "date": "2026-08-25T14:42:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonaiagents] praisonaiagents has an SSRF protection bypass in `spider_tools._host_is_blocked()` via DNS-resolved hostnames (`127.0.0.1.nip.io`)",
+      "url": "https://github.com/advisories/GHSA-x44h-65qv-cw74",
+      "date": "2026-08-25T14:38:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI MCP HTTP server has unauthenticated unbounded session accumulation (memory exhaustion; session TTL never enforced)",
+      "url": "https://github.com/advisories/GHSA-wv94-5qcp-6m36",
+      "date": "2026-08-25T14:34:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[praisonaiagents] praisonaiagents: AgentServer declares auth_token but never enforces it on any route",
       "url": "https://github.com/advisories/GHSA-7g3p-92qq-8wvh",
@@ -28,117 +140,6 @@
       "date": "2026-08-25T14:15:28.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[praisonaiagents] PraisonAI workflow include bypasses tools.py autoload opt-in and executes included recipe code",
-      "url": "https://github.com/advisories/GHSA-hxmv-c4g6-5fqc",
-      "date": "2026-08-25T14:15:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonaiagents] praisonaiagents web_crawl vulnerable to SSRF via redirect-following",
-      "url": "https://github.com/advisories/GHSA-5r34-2g38-6569",
-      "date": "2026-08-25T14:05:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Slack and Zalo webhook secrets could remain active after secrets.reload",
-      "url": "https://github.com/advisories/GHSA-p68j-q8j9-jwf5",
-      "date": "2026-08-24T21:06:00.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[django-cms] django CMS: Page cache ignores plugin-declared Vary headers (disclosure & poisoning)",
-      "url": "https://github.com/advisories/GHSA-fwjf-m4qw-9f2x",
-      "date": "2026-08-24T20:09:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[django-cms] django CMS: Plugin move endpoint allows cyclic reparenting (DoS)",
-      "url": "https://github.com/advisories/GHSA-8jj7-4v57-frf5",
-      "date": "2026-08-24T20:09:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[chromadb] ChromaDB has a code injection vulnerability",
-      "url": "https://github.com/advisories/GHSA-36p7-vc44-83pf",
-      "date": "2026-08-24T20:03:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[chromadb] ChromaDB's SimpleRBACAuthorizationProvider doesn't check which tenant, database, or collection a permission applies to",
-      "url": "https://github.com/advisories/GHSA-xph7-9rjv-w5fr",
-      "date": "2026-08-24T20:00:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[chromadb] ChromaDB allows any authenticated users to arbitrarily read, write, update, or delete data in any tenant's collection",
-      "url": "https://github.com/advisories/GHSA-2wm9-hf6c-p5cr",
-      "date": "2026-08-24T19:57:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0267: Unsoundness in stable-vec",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0267.html",
-      "date": "2026-08-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
-      "url": "https://github.com/advisories/GHSA-66mm-25pp-rfff",
-      "date": "2026-08-21T21:04:20.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
-      "url": "https://github.com/advisories/GHSA-66mm-25pp-rfff",
-      "date": "2026-08-21T21:04:20.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
-      "url": "https://github.com/advisories/GHSA-2943-5xfg-gq5f",
-      "date": "2026-08-21T20:58:02.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
-      "url": "https://github.com/advisories/GHSA-2943-5xfg-gq5f",
-      "date": "2026-08-21T20:58:02.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[hydra-core] Hydra: hydra.utils.instantiate with untrusted config can lead to code execution",
-      "url": "https://github.com/advisories/GHSA-2cp2-2r3c-7p7r",
-      "date": "2026-08-21T20:57:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jsonata] JSONata: Arbitrary Code Execution via crafted JSONata expressions",
-      "url": "https://github.com/advisories/GHSA-8gq3-vp5j-2grp",
-      "date": "2026-08-21T20:57:09.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[jsonata] JSONata: Arbitrary Code Execution via crafted JSONata expressions",
-      "url": "https://github.com/advisories/GHSA-8gq3-vp5j-2grp",
-      "date": "2026-08-21T20:57:09.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
