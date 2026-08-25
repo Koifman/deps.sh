@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-08-25T17:36:22.751Z",
+  "fetchedAt": "2026-08-25T18:48:25.691Z",
   "entries": [
+    {
+      "title": "[mediasoup] mediasoup: SCTP state cookie lacks cryptographic authentication, enabling unauthorized association establishment (RFC 9260 violation)",
+      "url": "https://github.com/advisories/GHSA-p7x2-g5cq-fhmq",
+      "date": "2026-08-25T18:17:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[utcp-websocket] utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
+      "url": "https://github.com/advisories/GHSA-ppx3-28rw-8fpf",
+      "date": "2026-08-25T18:09:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[utcp-gql] utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
+      "url": "https://github.com/advisories/GHSA-ppx3-28rw-8fpf",
+      "date": "2026-08-25T18:09:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[utcp-gql] Duplicate Advisory: utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
+      "url": "https://github.com/advisories/GHSA-vg9f-q4xh-62r4",
+      "date": "2026-08-25T18:09:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[mcp-contextforge-gateway] mcp-contextforge-gateway has Server-Side Template Injection (SSTI) leading to Remote Code Execution in `PromptService._render_template` via unsandboxed Jinja2 Environment",
+      "url": "https://github.com/advisories/GHSA-vwf3-4xxj-qg6h",
+      "date": "2026-08-25T17:42:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[reachy-mini] reachy_mini Allows Unrestricted Upload of File with Dangerous Type",
+      "url": "https://github.com/advisories/GHSA-m2pc-3q4q-w6jr",
+      "date": "2026-08-25T17:38:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[justhtml] Duplicate Advisory: Uncontrolled recursion DoS in JustHTML() via deeply nested HTML",
       "url": "https://github.com/advisories/GHSA-892m-gcq8-2468",
@@ -96,48 +138,6 @@
       "title": "[djust] djust authentication bypass: a login_required / on_mount LiveView mount redirect does not close the WebSocket, allowing an unauthenticated client to dispatch event-handler calls",
       "url": "https://github.com/advisories/GHSA-xx4j-w367-7247",
       "date": "2026-08-25T16:06:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nextcloud-mcp-server] nextcloud-mcp-server: Unauthenticated `POST /webhooks/nextcloud` allows arbitrary vector data deletion when `WEBHOOK_SECRET` is unset ( default )",
-      "url": "https://github.com/advisories/GHSA-8vh3-g2qg-2h2c",
-      "date": "2026-08-25T16:04:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[pickem] pickem vulnerable to terminal escape-sequence injection via unsanitized item text",
-      "url": "https://github.com/advisories/GHSA-8qx3-8gm5-9cj2",
-      "date": "2026-08-25T15:59:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[utcp-http] utcp-http has an OAuth2 `tokenUrl` Trust Boundary Bypass in OpenAPI Conversion",
-      "url": "https://github.com/advisories/GHSA-8cp3-qxj6-px34",
-      "date": "2026-08-25T15:57:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[utcp-websocket] utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
-      "url": "https://github.com/advisories/GHSA-ppx3-28rw-8fpf",
-      "date": "2026-08-25T15:52:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[utcp-gql] utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
-      "url": "https://github.com/advisories/GHSA-ppx3-28rw-8fpf",
-      "date": "2026-08-25T15:52:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[utcp-http] utcp-http SSRF: HTTP tool invocation follows redirects without re-validating the target",
-      "url": "https://github.com/advisories/GHSA-9qhg-99ww-9mqc",
-      "date": "2026-08-25T15:48:53.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
