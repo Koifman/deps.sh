@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-08-25T13:57:56.663Z",
+  "fetchedAt": "2026-08-25T14:55:32.235Z",
   "entries": [
+    {
+      "title": "[praisonaiagents] praisonaiagents: AgentServer declares auth_token but never enforces it on any route",
+      "url": "https://github.com/advisories/GHSA-7g3p-92qq-8wvh",
+      "date": "2026-08-25T14:31:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI has an origin validation bypass in MCP HTTP Stream transport that allows browser-mediated unauthenticated tool execution on local MCP server",
+      "url": "https://github.com/advisories/GHSA-wj6g-v78p-6fx3",
+      "date": "2026-08-25T14:26:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[praisonaiagents] praisonaiagents has a `web_crawl` SSRF protection bypass via unchecked redirect targets",
+      "url": "https://github.com/advisories/GHSA-8hjw-25cg-g52h",
+      "date": "2026-08-25T14:18:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] PraisonAI workflow include bypasses tools.py autoload opt-in and executes included recipe code",
+      "url": "https://github.com/advisories/GHSA-hxmv-c4g6-5fqc",
+      "date": "2026-08-25T14:15:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonaiagents] PraisonAI workflow include bypasses tools.py autoload opt-in and executes included recipe code",
+      "url": "https://github.com/advisories/GHSA-hxmv-c4g6-5fqc",
+      "date": "2026-08-25T14:15:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonaiagents] praisonaiagents web_crawl vulnerable to SSRF via redirect-following",
+      "url": "https://github.com/advisories/GHSA-5r34-2g38-6569",
+      "date": "2026-08-25T14:05:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[openclaw] Duplicate Advisory: OpenClaw: Slack and Zalo webhook secrets could remain active after secrets.reload",
       "url": "https://github.com/advisories/GHSA-p68j-q8j9-jwf5",
@@ -97,48 +139,6 @@
       "date": "2026-08-21T20:57:09.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[xinference] Xinference vulnerable to remote code execution via unsafe `eval()` in Llama3 tool-call parsing",
-      "url": "https://github.com/advisories/GHSA-x2rj-828p-hx9m",
-      "date": "2026-08-21T20:56:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@keystone-6/core] Keystone vulnerable to `graphql.maxTake` bypass with negative `take`",
-      "url": "https://github.com/advisories/GHSA-cqmq-8755-7xvh",
-      "date": "2026-08-21T20:55:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[defuddle] Defuddle vulnerable to XSS via unescaped attribute interpolation in site extractors",
-      "url": "https://github.com/advisories/GHSA-jg4p-g6xj-4qmf",
-      "date": "2026-08-21T20:54:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[unleash-server] Unleash: Global Mustache.escape override disables HTML escaping process-wide, enabling Slack/Teams link-injection via unrestricted username",
-      "url": "https://github.com/advisories/GHSA-w4mq-xh27-6xpx",
-      "date": "2026-08-21T19:14:52.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[unleash-server] Unleash: Addon webhook URL is dialed server-side with no internal-address filtering, enabling SSRF to internal services / cloud metadata and exfiltration of configured request headers",
-      "url": "https://github.com/advisories/GHSA-5vf6-jrqr-78fj",
-      "date": "2026-08-21T19:14:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[unleash-server] Unleash: Addon webhook URL is dialed server-side with no internal-address filtering, enabling SSRF to internal services / cloud metadata and exfiltration of configured request headers",
-      "url": "https://github.com/advisories/GHSA-5vf6-jrqr-78fj",
-      "date": "2026-08-21T19:14:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
