@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-08-25T15:50:48.497Z",
+  "fetchedAt": "2026-08-25T16:45:11.120Z",
   "entries": [
+    {
+      "title": "[urllib] urllib's cross-origin redirects preserve credential-bearing request headers, leading to potential credential leakage",
+      "url": "https://github.com/advisories/GHSA-hq3h-g68c-hp78",
+      "date": "2026-08-25T16:19:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[urllib] urllib's cross-origin redirects preserve credential-bearing request headers, leading to potential credential leakage",
+      "url": "https://github.com/advisories/GHSA-hq3h-g68c-hp78",
+      "date": "2026-08-25T16:19:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[djust] djust authentication bypass: a login_required / on_mount LiveView mount redirect does not close the WebSocket, allowing an unauthenticated client to dispatch event-handler calls",
+      "url": "https://github.com/advisories/GHSA-xx4j-w367-7247",
+      "date": "2026-08-25T16:06:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nextcloud-mcp-server] nextcloud-mcp-server: Unauthenticated `POST /webhooks/nextcloud` allows arbitrary vector data deletion when `WEBHOOK_SECRET` is unset ( default )",
+      "url": "https://github.com/advisories/GHSA-8vh3-g2qg-2h2c",
+      "date": "2026-08-25T16:04:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[pickem] pickem vulnerable to terminal escape-sequence injection via unsanitized item text",
+      "url": "https://github.com/advisories/GHSA-8qx3-8gm5-9cj2",
+      "date": "2026-08-25T15:59:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[utcp-http] utcp-http has an OAuth2 `tokenUrl` Trust Boundary Bypass in OpenAPI Conversion",
+      "url": "https://github.com/advisories/GHSA-8cp3-qxj6-px34",
+      "date": "2026-08-25T15:57:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[utcp-websocket] utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
+      "url": "https://github.com/advisories/GHSA-ppx3-28rw-8fpf",
+      "date": "2026-08-25T15:52:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[utcp-gql] utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
+      "url": "https://github.com/advisories/GHSA-ppx3-28rw-8fpf",
+      "date": "2026-08-25T15:52:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[utcp-http] utcp-http SSRF: HTTP tool invocation follows redirects without re-validating the target",
+      "url": "https://github.com/advisories/GHSA-9qhg-99ww-9mqc",
+      "date": "2026-08-25T15:48:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[qwed-mcp] qwed-mcp has Unsafe SymPy `parse_expr()` Remote Code Execution via Unsanitized Math Expression Input",
       "url": "https://github.com/advisories/GHSA-mw6r-2hvm-4rp2",
@@ -75,69 +138,6 @@
       "title": "[PraisonAI] PraisonAI: [Path Traversal] agent tools escape the configured workspace via symlinks",
       "url": "https://github.com/advisories/GHSA-ch89-h4r2-c8f8",
       "date": "2026-08-25T14:54:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonaiagents] praisonaiagents: ast_grep_rewrite rewrites arbitrary files without the @require_approval gate enforced on every sibling mutation tool",
-      "url": "https://github.com/advisories/GHSA-cfxv-8fw8-rwpv",
-      "date": "2026-08-25T14:46:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[praisonaiagents] praisonaiagents vulnerable to SSRF in web_crawl tool via redirect-following and DNS rebinding (validate-then-fetch gap)",
-      "url": "https://github.com/advisories/GHSA-vg6p-v9vm-6fgj",
-      "date": "2026-08-25T14:43:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI serve agents --api-key is ignored, allowing unauthenticated remote agent execution",
-      "url": "https://github.com/advisories/GHSA-7ww9-85pg-cv4x",
-      "date": "2026-08-25T14:42:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonaiagents] praisonaiagents has an SSRF protection bypass in `spider_tools._host_is_blocked()` via DNS-resolved hostnames (`127.0.0.1.nip.io`)",
-      "url": "https://github.com/advisories/GHSA-x44h-65qv-cw74",
-      "date": "2026-08-25T14:38:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI MCP HTTP server has unauthenticated unbounded session accumulation (memory exhaustion; session TTL never enforced)",
-      "url": "https://github.com/advisories/GHSA-wv94-5qcp-6m36",
-      "date": "2026-08-25T14:34:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[praisonaiagents] praisonaiagents: AgentServer declares auth_token but never enforces it on any route",
-      "url": "https://github.com/advisories/GHSA-7g3p-92qq-8wvh",
-      "date": "2026-08-25T14:31:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI has an origin validation bypass in MCP HTTP Stream transport that allows browser-mediated unauthenticated tool execution on local MCP server",
-      "url": "https://github.com/advisories/GHSA-wj6g-v78p-6fx3",
-      "date": "2026-08-25T14:26:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[praisonaiagents] praisonaiagents has a `web_crawl` SSRF protection bypass via unchecked redirect targets",
-      "url": "https://github.com/advisories/GHSA-8hjw-25cg-g52h",
-      "date": "2026-08-25T14:18:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] PraisonAI workflow include bypasses tools.py autoload opt-in and executes included recipe code",
-      "url": "https://github.com/advisories/GHSA-hxmv-c4g6-5fqc",
-      "date": "2026-08-25T14:15:28.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
