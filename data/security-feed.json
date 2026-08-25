@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-25T01:40:56.222Z",
+  "fetchedAt": "2026-08-25T03:05:19.025Z",
   "entries": [
     {
       "title": "[openclaw] Duplicate Advisory: OpenClaw: Slack and Zalo webhook secrets could remain active after secrets.reload",
@@ -42,6 +42,12 @@
       "date": "2026-08-24T19:57:43.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
+    },
+    {
+      "title": "RUSTSEC-2026-0267: Unsoundness in stable-vec",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0267.html",
+      "date": "2026-08-24T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
       "title": "[jsonata] JSONata vulnerable to Arbitrary Code Execution via crafted JSONata expressions",
@@ -117,13 +123,6 @@
       "title": "[unleash-server] Unleash: Global Mustache.escape override disables HTML escaping process-wide, enabling Slack/Teams link-injection via unrestricted username",
       "url": "https://github.com/advisories/GHSA-w4mq-xh27-6xpx",
       "date": "2026-08-21T19:14:52.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[unleash-server] Unleash: Addon webhook URL is dialed server-side with no internal-address filtering, enabling SSRF to internal services / cloud metadata and exfiltration of configured request headers",
-      "url": "https://github.com/advisories/GHSA-5vf6-jrqr-78fj",
-      "date": "2026-08-21T19:14:47.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
