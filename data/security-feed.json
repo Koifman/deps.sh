@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-08-25T18:48:25.691Z",
+  "fetchedAt": "2026-08-25T19:36:58.728Z",
   "entries": [
+    {
+      "title": "[chainlit] Chainlist has SSRF via MCP SSE and streamable-http transports that allows unauthenticated internal network access",
+      "url": "https://github.com/advisories/GHSA-hvfh-5mj3-5f3j",
+      "date": "2026-08-25T19:21:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[chainlit] Chainlit has command injection via MCP stdio transport that allows unauthenticated remote code execution",
+      "url": "https://github.com/advisories/GHSA-w3fx-mc44-mf6j",
+      "date": "2026-08-25T19:19:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@arikusi/deepseek-mcp-server] @arikusi/deepseek-mcp-server: Missing Authentication on Self-Hosted HTTP MCP Endpoint",
+      "url": "https://github.com/advisories/GHSA-72f3-6w86-7rv3",
+      "date": "2026-08-25T18:38:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@arikusi/deepseek-mcp-server] @arikusi/deepseek-mcp-server has an Authorization Bypass Through User-Controlled Key",
+      "url": "https://github.com/advisories/GHSA-fh3r-g96v-f578",
+      "date": "2026-08-25T18:37:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sublinear-time-solver] consciousness-explorer / sublinear-time-solver MCP export_state has an arbitrary file write",
+      "url": "https://github.com/advisories/GHSA-xc9g-j69q-37xw",
+      "date": "2026-08-25T18:35:33.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[consciousness-explorer] consciousness-explorer / sublinear-time-solver MCP export_state has an arbitrary file write",
+      "url": "https://github.com/advisories/GHSA-xc9g-j69q-37xw",
+      "date": "2026-08-25T18:35:33.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[whistle] Whistle vulnerable to path traversal",
+      "url": "https://github.com/advisories/GHSA-3vfr-4gwf-qxfp",
+      "date": "2026-08-25T18:32:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[eml_parser] eml_parser vulnerable to DoS via deeply nested parens in Received headers",
+      "url": "https://github.com/advisories/GHSA-g7gc-gmgp-wgqg",
+      "date": "2026-08-25T18:27:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[eml_parser] eml_parser has parser DoS via deeply nested parentheses in e-mail headers",
+      "url": "https://github.com/advisories/GHSA-m66c-fw79-6359",
+      "date": "2026-08-25T18:25:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[eml_parser] eml_parser has a URL extraction bypass via HTML entities in URLs",
+      "url": "https://github.com/advisories/GHSA-fxgq-9m89-cxj9",
+      "date": "2026-08-25T18:23:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[mediasoup] mediasoup: SCTP state cookie lacks cryptographic authentication, enabling unauthorized association establishment (RFC 9260 violation)",
       "url": "https://github.com/advisories/GHSA-p7x2-g5cq-fhmq",
@@ -69,76 +139,6 @@
       "url": "https://github.com/advisories/GHSA-gwcq-453v-2frr",
       "date": "2026-08-25T16:38:42.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic can return unredacted sensitive information when applying a PATCH to update fields in volume properties",
-      "url": "https://github.com/advisories/GHSA-j4cw-mcg2-2q78",
-      "date": "2026-08-25T16:34:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic can return unredacted sensitive information when applying a PATCH to update fields in volume properties",
-      "url": "https://github.com/advisories/GHSA-j4cw-mcg2-2q78",
-      "date": "2026-08-25T16:34:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic can return unredacted sensitive information when applying a PATCH to update fields in volume properties",
-      "url": "https://github.com/advisories/GHSA-j4cw-mcg2-2q78",
-      "date": "2026-08-25T16:34:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ironic] OpenStack Ironic can return unredacted sensitive information when applying a PATCH to update fields in volume properties",
-      "url": "https://github.com/advisories/GHSA-j4cw-mcg2-2q78",
-      "date": "2026-08-25T16:34:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@platejs/media] Plate: Media embed provider metadata can bypass URL sanitization and execute iframe JavaScript",
-      "url": "https://github.com/advisories/GHSA-qj6x-xx2h-8hvv",
-      "date": "2026-08-25T16:29:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[browse-mcp] browse-mcp has an arbitrary file write via unconfined download and state paths",
-      "url": "https://github.com/advisories/GHSA-m9mq-7m7q-xc6p",
-      "date": "2026-08-25T16:28:33.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[qwed] qwed Vulnerable to Authenticated Remote Code Execution via Unsafe SymPy `parse_expr()`",
-      "url": "https://github.com/advisories/GHSA-q27q-98j4-9pfv",
-      "date": "2026-08-25T16:25:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[urllib] urllib's cross-origin redirects preserve credential-bearing request headers, leading to potential credential leakage",
-      "url": "https://github.com/advisories/GHSA-hq3h-g68c-hp78",
-      "date": "2026-08-25T16:19:34.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[urllib] urllib's cross-origin redirects preserve credential-bearing request headers, leading to potential credential leakage",
-      "url": "https://github.com/advisories/GHSA-hq3h-g68c-hp78",
-      "date": "2026-08-25T16:19:34.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[djust] djust authentication bypass: a login_required / on_mount LiveView mount redirect does not close the WebSocket, allowing an unauthenticated client to dispatch event-handler calls",
-      "url": "https://github.com/advisories/GHSA-xx4j-w367-7247",
-      "date": "2026-08-25T16:06:33.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
