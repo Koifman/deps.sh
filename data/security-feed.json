@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-25T20:35:49.248Z",
+  "fetchedAt": "2026-08-25T21:34:39.887Z",
   "entries": [
+    {
+      "title": "[@intlify/vue-i18n-core] Vue I18n Allows Prototype Pollution in `handleFlatJson`",
+      "url": "https://github.com/advisories/GHSA-p2ph-7g93-hw3m",
+      "date": "2026-08-25T20:44:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[jupyterhub] JupyterHub has Unauthenticated Denial of Service via Unbounded Username Logging on Failed Login",
       "url": "https://github.com/advisories/GHSA-p43p-whwx-q52h",
@@ -133,13 +140,6 @@
       "date": "2026-08-25T16:39:53.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: PowerShell encoded-command aliases could miss exec allowlist checks",
-      "url": "https://github.com/advisories/GHSA-ffhm-8fwq-7q27",
-      "date": "2026-08-25T16:39:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
