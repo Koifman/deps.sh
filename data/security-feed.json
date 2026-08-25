@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-08-25T19:36:58.728Z",
+  "fetchedAt": "2026-08-25T20:35:49.248Z",
   "entries": [
+    {
+      "title": "[jupyterhub] JupyterHub has Unauthenticated Denial of Service via Unbounded Username Logging on Failed Login",
+      "url": "https://github.com/advisories/GHSA-p43p-whwx-q52h",
+      "date": "2026-08-25T19:29:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[icalendar] icalendar has Algorithmic Complexity in Equality",
+      "url": "https://github.com/advisories/GHSA-cv84-9p8j-fj68",
+      "date": "2026-08-25T19:27:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[chainlit] Chainlist has SSRF via MCP SSE and streamable-http transports that allows unauthenticated internal network access",
       "url": "https://github.com/advisories/GHSA-hvfh-5mj3-5f3j",
@@ -86,13 +100,6 @@
       "severity": "MODERATE"
     },
     {
-      "title": "[utcp-gql] utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
-      "url": "https://github.com/advisories/GHSA-ppx3-28rw-8fpf",
-      "date": "2026-08-25T18:09:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
       "title": "[utcp-gql] Duplicate Advisory: utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
       "url": "https://github.com/advisories/GHSA-vg9f-q4xh-62r4",
       "date": "2026-08-25T18:09:17.000Z",
@@ -131,13 +138,6 @@
       "title": "[openclaw] Duplicate Advisory: OpenClaw: PowerShell encoded-command aliases could miss exec allowlist checks",
       "url": "https://github.com/advisories/GHSA-ffhm-8fwq-7q27",
       "date": "2026-08-25T16:39:18.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw's POSIX node system.run safe-bin allowlist could be widened by shell expansion",
-      "url": "https://github.com/advisories/GHSA-gwcq-453v-2frr",
-      "date": "2026-08-25T16:38:42.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
