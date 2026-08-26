@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-08-26T14:50:53.971Z",
+  "fetchedAt": "2026-08-26T16:22:45.578Z",
   "entries": [
+    {
+      "title": "[asyncssh] asyncssh has SCP Path Traversal to Arbitrary File Write",
+      "url": "https://github.com/advisories/GHSA-2wxc-x7rj-hg8f",
+      "date": "2026-08-26T15:34:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[asyncssh] asyncssh has an incomplete fix for CVE-2026-45309 — AuthorizedKeysFile %u still escapes the intended directory via a leading ~ (and weakly via ${ENV}) username substitution",
+      "url": "https://github.com/advisories/GHSA-qr67-gv47-xwwh",
+      "date": "2026-08-26T15:32:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[senaite.core] senaite.core Vulnerable to Eval Injection and Missing Authorization",
+      "url": "https://github.com/advisories/GHSA-jrw6-7x4q-w25j",
+      "date": "2026-08-26T15:28:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[suneditor] SunEditor Embed Plugin has DOM XSS via External Script Element After Iframe Embed",
+      "url": "https://github.com/advisories/GHSA-w93q-cq9w-58p7",
+      "date": "2026-08-26T15:26:24.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[youtransfer] YouTransfer has an issue in the sendmail transport integration that allows arbitrary code execution",
+      "url": "https://github.com/advisories/GHSA-68mc-h6h8-79wj",
+      "date": "2026-08-26T15:04:19.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[openwisp-ipam] OpenWISP IPAM has broken object-level authorization: ExportSubnetView lets a member of one organization export another organization's subnet and all its IP addresses",
+      "url": "https://github.com/advisories/GHSA-x287-5c68-36wp",
+      "date": "2026-08-26T14:38:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pantheon-agents] Trojanized pantheon-agents 0.6.1 and 0.6.2 on PyPI ship a credential stealer (supply-chain account compromise)",
+      "url": "https://github.com/advisories/GHSA-93qj-5q5v-3c2h",
+      "date": "2026-08-26T14:36:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[@logtape/syslog] @logtape/syslog: syslog log injection via unescaped control characters and unvalidated SD-NAME keys",
       "url": "https://github.com/advisories/GHSA-8h6h-x5pq-56fq",
@@ -91,55 +140,6 @@
       "date": "2026-08-25T18:37:28.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[sublinear-time-solver] consciousness-explorer / sublinear-time-solver MCP export_state has an arbitrary file write",
-      "url": "https://github.com/advisories/GHSA-xc9g-j69q-37xw",
-      "date": "2026-08-25T18:35:33.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[consciousness-explorer] consciousness-explorer / sublinear-time-solver MCP export_state has an arbitrary file write",
-      "url": "https://github.com/advisories/GHSA-xc9g-j69q-37xw",
-      "date": "2026-08-25T18:35:33.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[whistle] Whistle vulnerable to path traversal",
-      "url": "https://github.com/advisories/GHSA-3vfr-4gwf-qxfp",
-      "date": "2026-08-25T18:32:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[eml_parser] eml_parser vulnerable to DoS via deeply nested parens in Received headers",
-      "url": "https://github.com/advisories/GHSA-g7gc-gmgp-wgqg",
-      "date": "2026-08-25T18:27:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[eml_parser] eml_parser has parser DoS via deeply nested parentheses in e-mail headers",
-      "url": "https://github.com/advisories/GHSA-m66c-fw79-6359",
-      "date": "2026-08-25T18:25:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[eml_parser] eml_parser has a URL extraction bypass via HTML entities in URLs",
-      "url": "https://github.com/advisories/GHSA-fxgq-9m89-cxj9",
-      "date": "2026-08-25T18:23:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mediasoup] mediasoup: SCTP state cookie lacks cryptographic authentication, enabling unauthorized association establishment (RFC 9260 violation)",
-      "url": "https://github.com/advisories/GHSA-p7x2-g5cq-fhmq",
-      "date": "2026-08-25T18:17:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
