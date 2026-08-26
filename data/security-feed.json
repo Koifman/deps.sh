@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-08-26T13:04:50.876Z",
+  "fetchedAt": "2026-08-26T14:50:53.971Z",
   "entries": [
+    {
+      "title": "[@logtape/syslog] @logtape/syslog: syslog log injection via unescaped control characters and unvalidated SD-NAME keys",
+      "url": "https://github.com/advisories/GHSA-8h6h-x5pq-56fq",
+      "date": "2026-08-26T14:28:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@logtape/syslog] @logtape/syslog: syslog log injection via unescaped control characters and unvalidated SD-NAME keys",
+      "url": "https://github.com/advisories/GHSA-8h6h-x5pq-56fq",
+      "date": "2026-08-26T14:28:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@logtape/syslog] @logtape/syslog: syslog log injection via unescaped control characters and unvalidated SD-NAME keys",
+      "url": "https://github.com/advisories/GHSA-8h6h-x5pq-56fq",
+      "date": "2026-08-26T14:28:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[kas] kas Persistently Disables SSH Host Key Checking",
+      "url": "https://github.com/advisories/GHSA-mv8m-v9v6-5f94",
+      "date": "2026-08-26T14:18:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[starlette-admin] Starlette-Admin's unvalidated `order_by` parameter allows ordering by hidden columns (info-exposure oracle) and HTTP 500 DoS",
+      "url": "https://github.com/advisories/GHSA-6753-gr46-6wpr",
+      "date": "2026-08-26T14:14:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@budibase/server] Budibase authenticated arbitrary S3 signed upload URL issuance via `/api/attachments/:datasourceId/url`",
+      "url": "https://github.com/advisories/GHSA-6x9p-4r67-5gjx",
+      "date": "2026-08-26T14:07:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@intlify/vue-i18n-core] Vue I18n Allows Prototype Pollution in `handleFlatJson`",
       "url": "https://github.com/advisories/GHSA-p2ph-7g93-hw3m",
@@ -96,48 +138,6 @@
       "title": "[mediasoup] mediasoup: SCTP state cookie lacks cryptographic authentication, enabling unauthorized association establishment (RFC 9260 violation)",
       "url": "https://github.com/advisories/GHSA-p7x2-g5cq-fhmq",
       "date": "2026-08-25T18:17:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[utcp-websocket] utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
-      "url": "https://github.com/advisories/GHSA-ppx3-28rw-8fpf",
-      "date": "2026-08-25T18:09:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[utcp-gql] Duplicate Advisory: utcp-gql SSRF: CVE-2026-44661 fix not applied to the GraphQL and WebSocket plugins",
-      "url": "https://github.com/advisories/GHSA-vg9f-q4xh-62r4",
-      "date": "2026-08-25T18:09:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[mcp-contextforge-gateway] mcp-contextforge-gateway has Server-Side Template Injection (SSTI) leading to Remote Code Execution in `PromptService._render_template` via unsandboxed Jinja2 Environment",
-      "url": "https://github.com/advisories/GHSA-vwf3-4xxj-qg6h",
-      "date": "2026-08-25T17:42:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[reachy-mini] reachy_mini Allows Unrestricted Upload of File with Dangerous Type",
-      "url": "https://github.com/advisories/GHSA-m2pc-3q4q-w6jr",
-      "date": "2026-08-25T17:38:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[justhtml] Duplicate Advisory: Uncontrolled recursion DoS in JustHTML() via deeply nested HTML",
-      "url": "https://github.com/advisories/GHSA-892m-gcq8-2468",
-      "date": "2026-08-25T16:40:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Node pairing reconnection could confuse approval scope state",
-      "url": "https://github.com/advisories/GHSA-c85p-9pvr-f7f5",
-      "date": "2026-08-25T16:39:53.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
