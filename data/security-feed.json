@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-28T04:10:04.047Z",
+  "fetchedAt": "2026-08-28T17:17:24.668Z",
   "entries": [
+    {
+      "title": "[aiosmtplib] aiosmtplib: STARTTLS response injection",
+      "url": "https://github.com/advisories/GHSA-vxj7-4xrp-5vr4",
+      "date": "2026-08-27T23:32:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[webob] WebOb: Open redirect in Location header normalization via leading C0 control / space characters",
       "url": "https://github.com/advisories/GHSA-6hx8-3wjj-gr8g",
@@ -131,13 +138,6 @@
       "title": "[@budibase/server] Budibase authenticated arbitrary S3 signed upload URL issuance via `/api/attachments/:datasourceId/url`",
       "url": "https://github.com/advisories/GHSA-6x9p-4r67-5gjx",
       "date": "2026-08-26T14:07:28.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@intlify/vue-i18n-core] Vue I18n Allows Prototype Pollution in `handleFlatJson`",
-      "url": "https://github.com/advisories/GHSA-p2ph-7g93-hw3m",
-      "date": "2026-08-25T20:44:03.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
