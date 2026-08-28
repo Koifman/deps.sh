@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-08-27T19:46:14.480Z",
+  "fetchedAt": "2026-08-28T04:10:04.047Z",
   "entries": [
+    {
+      "title": "[webob] WebOb: Open redirect in Location header normalization via leading C0 control / space characters",
+      "url": "https://github.com/advisories/GHSA-6hx8-3wjj-gr8g",
+      "date": "2026-08-27T22:10:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: QQBot streaming command could mutate config without explicit allowFrom",
+      "url": "https://github.com/advisories/GHSA-r27j-fxmq-rg2q",
+      "date": "2026-08-27T21:56:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[node-opcua] node-opcua: Unbounded nonce cache enables unauthenticated heap exhaustion DoS",
+      "url": "https://github.com/advisories/GHSA-6wvw-vrw4-363w",
+      "date": "2026-08-27T19:04:43.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[libreoffice-convert] libreoffice-convert vulnerable to path traversal / arbitrary file write",
+      "url": "https://github.com/advisories/GHSA-gmxc-r82q-347r",
+      "date": "2026-08-27T17:23:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n-nodes-sqlite3] n8n-nodes-sqlite3 vulnerable to path traversal via user-controlled database file path (db_path parameter)",
+      "url": "https://github.com/advisories/GHSA-q7m3-rhxg-7vxr",
+      "date": "2026-08-27T17:06:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pacote] pacote is vulnerable to Denial of Service (DoS) via the addGitSha function",
+      "url": "https://github.com/advisories/GHSA-w4pp-8pjf-rmxw",
+      "date": "2026-08-27T16:39:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[asyncssh] asyncssh has SCP Path Traversal to Arbitrary File Write",
       "url": "https://github.com/advisories/GHSA-2wxc-x7rj-hg8f",
@@ -96,48 +138,6 @@
       "title": "[@intlify/vue-i18n-core] Vue I18n Allows Prototype Pollution in `handleFlatJson`",
       "url": "https://github.com/advisories/GHSA-p2ph-7g93-hw3m",
       "date": "2026-08-25T20:44:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jupyterhub] JupyterHub has Unauthenticated Denial of Service via Unbounded Username Logging on Failed Login",
-      "url": "https://github.com/advisories/GHSA-p43p-whwx-q52h",
-      "date": "2026-08-25T19:29:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[icalendar] icalendar has Algorithmic Complexity in Equality",
-      "url": "https://github.com/advisories/GHSA-cv84-9p8j-fj68",
-      "date": "2026-08-25T19:27:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[chainlit] Chainlist has SSRF via MCP SSE and streamable-http transports that allows unauthenticated internal network access",
-      "url": "https://github.com/advisories/GHSA-hvfh-5mj3-5f3j",
-      "date": "2026-08-25T19:21:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[chainlit] Chainlit has command injection via MCP stdio transport that allows unauthenticated remote code execution",
-      "url": "https://github.com/advisories/GHSA-w3fx-mc44-mf6j",
-      "date": "2026-08-25T19:19:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@arikusi/deepseek-mcp-server] @arikusi/deepseek-mcp-server: Missing Authentication on Self-Hosted HTTP MCP Endpoint",
-      "url": "https://github.com/advisories/GHSA-72f3-6w86-7rv3",
-      "date": "2026-08-25T18:38:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@arikusi/deepseek-mcp-server] @arikusi/deepseek-mcp-server has an Authorization Bypass Through User-Controlled Key",
-      "url": "https://github.com/advisories/GHSA-fh3r-g96v-f578",
-      "date": "2026-08-25T18:37:28.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
