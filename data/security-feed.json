@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-08-29T01:40:33.543Z",
+  "fetchedAt": "2026-08-29T08:54:30.776Z",
   "entries": [
+    {
+      "title": "[mariadb] MariaDB has  possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
+      "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
+      "date": "2026-08-28T22:53:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mariadb] MariaDB has  possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
+      "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
+      "date": "2026-08-28T22:53:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mariadb] MariaDB has  possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
+      "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
+      "date": "2026-08-28T22:53:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mariadb] MariaDB has  possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
+      "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
+      "date": "2026-08-28T22:53:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[RestrictedPython] RestrictedPython guard hooks can be shadowed via positional-only arguments",
+      "url": "https://github.com/advisories/GHSA-ffg3-p8fm-mjx2",
+      "date": "2026-08-28T22:51:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mariadb] MariaDB has Cleartext Transmission of Sensitive Information and Insufficiently Protected Credentials",
+      "url": "https://github.com/advisories/GHSA-42r5-vhpq-m858",
+      "date": "2026-08-28T22:04:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mariadb] MariaDB has Cleartext Transmission of Sensitive Information and Insufficiently Protected Credentials",
+      "url": "https://github.com/advisories/GHSA-42r5-vhpq-m858",
+      "date": "2026-08-28T22:04:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mariadb] MariaDB has Cleartext Transmission of Sensitive Information and Insufficiently Protected Credentials",
+      "url": "https://github.com/advisories/GHSA-42r5-vhpq-m858",
+      "date": "2026-08-28T22:04:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mariadb] MariaDB has Cleartext Transmission of Sensitive Information and Insufficiently Protected Credentials",
+      "url": "https://github.com/advisories/GHSA-42r5-vhpq-m858",
+      "date": "2026-08-28T22:04:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[aiir] AIIR verification and policy gates could report success without enforcing the control (fail-open)",
       "url": "https://github.com/advisories/GHSA-73p9-6hrp-8qhr",
@@ -77,69 +140,6 @@
       "date": "2026-08-28T18:41:35.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[plone.app.portlets] plone.app.portlets vulnerable to denial of service via RSS feed portlet",
-      "url": "https://github.com/advisories/GHSA-x5g3-w747-2h8q",
-      "date": "2026-08-28T18:41:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[plone.app.portlets] plone.app.portlets vulnerable to denial of service via RSS feed portlet",
-      "url": "https://github.com/advisories/GHSA-x5g3-w747-2h8q",
-      "date": "2026-08-28T18:41:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[9router] 9router: Unauthenticated `/v1` proxy access via `Host`-header spoofing → open AI relay + SSRF",
-      "url": "https://github.com/advisories/GHSA-86m2-fcxq-5q7c",
-      "date": "2026-08-28T18:34:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[9router] 9router: Unauthenticated LLM proxy access via /codex rewrite authorization bypass",
-      "url": "https://github.com/advisories/GHSA-8gmq-j984-vp4r",
-      "date": "2026-08-28T18:32:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[piccolo-admin] piccolo-admin has a privilege escalation issue - admin to superuser via session-token disclosure in GET /api/tables/sessions/.",
-      "url": "https://github.com/advisories/GHSA-2gh4-jmwq-rr8w",
-      "date": "2026-08-28T18:14:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[WsgiDAV] WsgiDAV MySQL provider has a blind SQL injection",
-      "url": "https://github.com/advisories/GHSA-p6gw-4frg-j7jw",
-      "date": "2026-08-28T18:12:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[compliance-trestle] Trestle has Server-Side Template Injection (SSTI) via Recursive Template Re-evaluation of Untrusted Data",
-      "url": "https://github.com/advisories/GHSA-jw39-3688-r4rx",
-      "date": "2026-08-28T16:15:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[compliance-trestle] Trestle has Server-Side Template Injection (SSTI) via Recursive Template Re-evaluation of Untrusted Data",
-      "url": "https://github.com/advisories/GHSA-jw39-3688-r4rx",
-      "date": "2026-08-28T16:15:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: Same-host trusted-proxy deployments could accept local forged identity headers",
-      "url": "https://github.com/advisories/GHSA-3qg8-hq7j-jj33",
-      "date": "2026-08-28T15:55:43.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
