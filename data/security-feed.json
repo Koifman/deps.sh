@@ -1,143 +1,143 @@
 {
-  "fetchedAt": "2026-08-28T17:17:24.668Z",
+  "fetchedAt": "2026-08-29T01:40:33.543Z",
   "entries": [
     {
-      "title": "[aiosmtplib] aiosmtplib: STARTTLS response injection",
-      "url": "https://github.com/advisories/GHSA-vxj7-4xrp-5vr4",
-      "date": "2026-08-27T23:32:23.000Z",
+      "title": "[aiir] AIIR verification and policy gates could report success without enforcing the control (fail-open)",
+      "url": "https://github.com/advisories/GHSA-73p9-6hrp-8qhr",
+      "date": "2026-08-28T19:20:33.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[webob] WebOb: Open redirect in Location header normalization via leading C0 control / space characters",
-      "url": "https://github.com/advisories/GHSA-6hx8-3wjj-gr8g",
-      "date": "2026-08-27T22:10:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[openclaw] Duplicate Advisory: OpenClaw: QQBot streaming command could mutate config without explicit allowFrom",
-      "url": "https://github.com/advisories/GHSA-r27j-fxmq-rg2q",
-      "date": "2026-08-27T21:56:56.000Z",
+      "title": "[mariadb] MariaDB's connector leaks the cleartext password to an MitM despite `ssl: true`",
+      "url": "https://github.com/advisories/GHSA-cqhc-2h57-wpxf",
+      "date": "2026-08-28T19:03:39.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[node-opcua] node-opcua: Unbounded nonce cache enables unauthenticated heap exhaustion DoS",
-      "url": "https://github.com/advisories/GHSA-6wvw-vrw4-363w",
-      "date": "2026-08-27T19:04:43.000Z",
+      "title": "[mariadb] MariaDB's connector leaks the cleartext password to an MitM despite `ssl: true`",
+      "url": "https://github.com/advisories/GHSA-cqhc-2h57-wpxf",
+      "date": "2026-08-28T19:03:39.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[libreoffice-convert] libreoffice-convert vulnerable to path traversal / arbitrary file write",
-      "url": "https://github.com/advisories/GHSA-gmxc-r82q-347r",
-      "date": "2026-08-27T17:23:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n-nodes-sqlite3] n8n-nodes-sqlite3 vulnerable to path traversal via user-controlled database file path (db_path parameter)",
-      "url": "https://github.com/advisories/GHSA-q7m3-rhxg-7vxr",
-      "date": "2026-08-27T17:06:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pacote] pacote is vulnerable to Denial of Service (DoS) via the addGitSha function",
-      "url": "https://github.com/advisories/GHSA-w4pp-8pjf-rmxw",
-      "date": "2026-08-27T16:39:42.000Z",
+      "title": "[mariadb] MariaDB's connector leaks the cleartext password to an MitM despite `ssl: true`",
+      "url": "https://github.com/advisories/GHSA-cqhc-2h57-wpxf",
+      "date": "2026-08-28T19:03:39.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[asyncssh] asyncssh has SCP Path Traversal to Arbitrary File Write",
-      "url": "https://github.com/advisories/GHSA-2wxc-x7rj-hg8f",
-      "date": "2026-08-26T15:34:23.000Z",
-      "ecosystem": "pypi",
+      "title": "[mariadb] MariaDB's connector leaks the cleartext password to an MitM despite `ssl: true`",
+      "url": "https://github.com/advisories/GHSA-cqhc-2h57-wpxf",
+      "date": "2026-08-28T19:03:39.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[asyncssh] asyncssh has an incomplete fix for CVE-2026-45309 — AuthorizedKeysFile %u still escapes the intended directory via a leading ~ (and weakly via ${ENV}) username substitution",
-      "url": "https://github.com/advisories/GHSA-qr67-gv47-xwwh",
-      "date": "2026-08-26T15:32:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[senaite.core] senaite.core Vulnerable to Eval Injection and Missing Authorization",
-      "url": "https://github.com/advisories/GHSA-jrw6-7x4q-w25j",
-      "date": "2026-08-26T15:28:48.000Z",
+      "title": "[plone.app.event] plone.app.event vulnerable to denial of service via iCalendar import",
+      "url": "https://github.com/advisories/GHSA-r82h-mqw3-fc56",
+      "date": "2026-08-28T18:59:43.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "[suneditor] SunEditor Embed Plugin has DOM XSS via External Script Element After Iframe Embed",
-      "url": "https://github.com/advisories/GHSA-w93q-cq9w-58p7",
-      "date": "2026-08-26T15:26:24.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[youtransfer] YouTransfer has an issue in the sendmail transport integration that allows arbitrary code execution",
-      "url": "https://github.com/advisories/GHSA-68mc-h6h8-79wj",
-      "date": "2026-08-26T15:04:19.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[openwisp-ipam] OpenWISP IPAM has broken object-level authorization: ExportSubnetView lets a member of one organization export another organization's subnet and all its IP addresses",
-      "url": "https://github.com/advisories/GHSA-x287-5c68-36wp",
-      "date": "2026-08-26T14:38:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pantheon-agents] Trojanized pantheon-agents 0.6.1 and 0.6.2 on PyPI ship a credential stealer (supply-chain account compromise)",
-      "url": "https://github.com/advisories/GHSA-93qj-5q5v-3c2h",
-      "date": "2026-08-26T14:36:46.000Z",
+      "title": "[plone.app.event] plone.app.event vulnerable to denial of service via iCalendar import",
+      "url": "https://github.com/advisories/GHSA-r82h-mqw3-fc56",
+      "date": "2026-08-28T18:59:43.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "[@logtape/syslog] @logtape/syslog: syslog log injection via unescaped control characters and unvalidated SD-NAME keys",
-      "url": "https://github.com/advisories/GHSA-8h6h-x5pq-56fq",
-      "date": "2026-08-26T14:28:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@logtape/syslog] @logtape/syslog: syslog log injection via unescaped control characters and unvalidated SD-NAME keys",
-      "url": "https://github.com/advisories/GHSA-8h6h-x5pq-56fq",
-      "date": "2026-08-26T14:28:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@logtape/syslog] @logtape/syslog: syslog log injection via unescaped control characters and unvalidated SD-NAME keys",
-      "url": "https://github.com/advisories/GHSA-8h6h-x5pq-56fq",
-      "date": "2026-08-26T14:28:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[kas] kas Persistently Disables SSH Host Key Checking",
-      "url": "https://github.com/advisories/GHSA-mv8m-v9v6-5f94",
-      "date": "2026-08-26T14:18:25.000Z",
+      "title": "[Weblate] Weblate has IDOR in GroupViewSet that allows authenticated project manager to gain unauthorized read access to any private project",
+      "url": "https://github.com/advisories/GHSA-2q2q-jr9g-v9rf",
+      "date": "2026-08-28T18:47:30.000Z",
       "ecosystem": "pypi",
-      "severity": "LOW"
+      "severity": "HIGH"
     },
     {
-      "title": "[starlette-admin] Starlette-Admin's unvalidated `order_by` parameter allows ordering by hidden columns (info-exposure oracle) and HTTP 500 DoS",
-      "url": "https://github.com/advisories/GHSA-6753-gr46-6wpr",
-      "date": "2026-08-26T14:14:37.000Z",
+      "title": "[weblate] Private Weblate projects vulnerable to observable object existence disclosure via globally scoped object lookups",
+      "url": "https://github.com/advisories/GHSA-2p9g-x3cv-5hh4",
+      "date": "2026-08-28T18:46:55.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[@budibase/server] Budibase authenticated arbitrary S3 signed upload URL issuance via `/api/attachments/:datasourceId/url`",
-      "url": "https://github.com/advisories/GHSA-6x9p-4r67-5gjx",
-      "date": "2026-08-26T14:07:28.000Z",
+      "title": "[Protego] Protego has exponential backtracking ReDoS in robots.txt URL wildcard matching",
+      "url": "https://github.com/advisories/GHSA-wjmf-p669-5m5p",
+      "date": "2026-08-28T18:43:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[plone.app.portlets] plone.app.portlets vulnerable to denial of service via RSS feed portlet",
+      "url": "https://github.com/advisories/GHSA-x5g3-w747-2h8q",
+      "date": "2026-08-28T18:41:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[plone.app.portlets] plone.app.portlets vulnerable to denial of service via RSS feed portlet",
+      "url": "https://github.com/advisories/GHSA-x5g3-w747-2h8q",
+      "date": "2026-08-28T18:41:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[plone.app.portlets] plone.app.portlets vulnerable to denial of service via RSS feed portlet",
+      "url": "https://github.com/advisories/GHSA-x5g3-w747-2h8q",
+      "date": "2026-08-28T18:41:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[9router] 9router: Unauthenticated `/v1` proxy access via `Host`-header spoofing → open AI relay + SSRF",
+      "url": "https://github.com/advisories/GHSA-86m2-fcxq-5q7c",
+      "date": "2026-08-28T18:34:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[9router] 9router: Unauthenticated LLM proxy access via /codex rewrite authorization bypass",
+      "url": "https://github.com/advisories/GHSA-8gmq-j984-vp4r",
+      "date": "2026-08-28T18:32:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[piccolo-admin] piccolo-admin has a privilege escalation issue - admin to superuser via session-token disclosure in GET /api/tables/sessions/.",
+      "url": "https://github.com/advisories/GHSA-2gh4-jmwq-rr8w",
+      "date": "2026-08-28T18:14:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[WsgiDAV] WsgiDAV MySQL provider has a blind SQL injection",
+      "url": "https://github.com/advisories/GHSA-p6gw-4frg-j7jw",
+      "date": "2026-08-28T18:12:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[compliance-trestle] Trestle has Server-Side Template Injection (SSTI) via Recursive Template Re-evaluation of Untrusted Data",
+      "url": "https://github.com/advisories/GHSA-jw39-3688-r4rx",
+      "date": "2026-08-28T16:15:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[compliance-trestle] Trestle has Server-Side Template Injection (SSTI) via Recursive Template Re-evaluation of Untrusted Data",
+      "url": "https://github.com/advisories/GHSA-jw39-3688-r4rx",
+      "date": "2026-08-28T16:15:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] Duplicate Advisory: OpenClaw: Same-host trusted-proxy deployments could accept local forged identity headers",
+      "url": "https://github.com/advisories/GHSA-3qg8-hq7j-jj33",
+      "date": "2026-08-28T15:55:43.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
