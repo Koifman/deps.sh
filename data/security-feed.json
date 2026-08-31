@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-08-31T05:08:54.538Z",
+  "fetchedAt": "2026-08-31T13:23:55.298Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0269: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0269.html",
+      "date": "2026-08-31T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0268: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0268.html",
+      "date": "2026-08-31T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0272: Unsoundness in stack_dst",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0272.html",
+      "date": "2026-08-31T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2025-0172: zip-extract is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0172.html",
+      "date": "2026-08-31T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0270: sp-sized-chunks is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0270.html",
+      "date": "2026-08-31T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0271: Vulnerability in suppaftp",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0271.html",
+      "date": "2026-08-31T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2025-0171: Unsoundness in mod3d-base",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0171.html",
+      "date": "2026-08-31T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[mariadb] MariaDB has  possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
       "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
@@ -91,55 +133,6 @@
       "date": "2026-08-28T19:03:39.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[mariadb] MariaDB's connector leaks the cleartext password to an MitM despite `ssl: true`",
-      "url": "https://github.com/advisories/GHSA-cqhc-2h57-wpxf",
-      "date": "2026-08-28T19:03:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[plone.app.event] plone.app.event vulnerable to denial of service via iCalendar import",
-      "url": "https://github.com/advisories/GHSA-r82h-mqw3-fc56",
-      "date": "2026-08-28T18:59:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[plone.app.event] plone.app.event vulnerable to denial of service via iCalendar import",
-      "url": "https://github.com/advisories/GHSA-r82h-mqw3-fc56",
-      "date": "2026-08-28T18:59:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[Weblate] Weblate has IDOR in GroupViewSet that allows authenticated project manager to gain unauthorized read access to any private project",
-      "url": "https://github.com/advisories/GHSA-2q2q-jr9g-v9rf",
-      "date": "2026-08-28T18:47:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[weblate] Private Weblate projects vulnerable to observable object existence disclosure via globally scoped object lookups",
-      "url": "https://github.com/advisories/GHSA-2p9g-x3cv-5hh4",
-      "date": "2026-08-28T18:46:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Protego] Protego has exponential backtracking ReDoS in robots.txt URL wildcard matching",
-      "url": "https://github.com/advisories/GHSA-wjmf-p669-5m5p",
-      "date": "2026-08-28T18:43:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[plone.app.portlets] plone.app.portlets vulnerable to denial of service via RSS feed portlet",
-      "url": "https://github.com/advisories/GHSA-x5g3-w747-2h8q",
-      "date": "2026-08-28T18:41:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
