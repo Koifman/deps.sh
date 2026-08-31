@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-08-31T13:23:55.298Z",
+  "fetchedAt": "2026-08-31T19:54:48.416Z",
   "entries": [
+    {
+      "title": "[lmdeploy] lmdeploy: Hardcoded trust_remote_code=True is an implicit unsafe remote-code load path with no user opt-out",
+      "url": "https://github.com/advisories/GHSA-9xq9-36w5-q796",
+      "date": "2026-08-31T14:33:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0269: Vulnerability in wasmtime",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0269.html",
@@ -112,13 +119,6 @@
       "date": "2026-08-28T19:20:33.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[mariadb] MariaDB's connector leaks the cleartext password to an MitM despite `ssl: true`",
-      "url": "https://github.com/advisories/GHSA-cqhc-2h57-wpxf",
-      "date": "2026-08-28T19:03:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     },
     {
       "title": "[mariadb] MariaDB's connector leaks the cleartext password to an MitM despite `ssl: true`",
