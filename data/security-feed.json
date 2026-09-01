@@ -1,136 +1,145 @@
 {
-  "fetchedAt": "2026-09-01T18:18:57.868Z",
+  "fetchedAt": "2026-09-01T21:41:01.268Z",
   "entries": [
     {
-      "title": "RUSTSEC-2026-0274: Vulnerability in rtrb",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0274.html",
-      "date": "2026-09-01T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[pypdf] pypdf: Possible long runtimes/large memory usage when retrieving outlines",
+      "url": "https://github.com/advisories/GHSA-23w6-3w8w-8484",
+      "date": "2026-09-01T21:28:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0273: Vulnerability in manzana",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0273.html",
-      "date": "2026-09-01T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[pypdf] pypdf: Possible long runtimes/large memory usage when extracting XForm objects",
+      "url": "https://github.com/advisories/GHSA-763m-79hh-57f2",
+      "date": "2026-09-01T21:27:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "[mlflow] MLFlow Creates a Temporary File With Insecure Permissions",
-      "url": "https://github.com/advisories/GHSA-f2m9-wcf4-cwwx",
-      "date": "2026-09-01T01:05:37.000Z",
+      "title": "[@sap/approuter] SAP Approuter has an Information Disclosure vulnerability",
+      "url": "https://github.com/advisories/GHSA-vhh6-v828-x62f",
+      "date": "2026-09-01T21:21:23.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@sap/approuter] SAP Approuter Vulnerable to HTTP Request Smuggling",
+      "url": "https://github.com/advisories/GHSA-8m85-wqg7-c529",
+      "date": "2026-09-01T21:21:22.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[sqlparse] sqlparse: Reindentation of tuple lists causes near-cap quadratic CPU consumption",
+      "url": "https://github.com/advisories/GHSA-cfqr-cjx5-5jcm",
+      "date": "2026-09-01T21:21:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@sap/approuter] SAP Approuter has an Open Redirect vulnerability",
+      "url": "https://github.com/advisories/GHSA-44p5-3m5g-vfhj",
+      "date": "2026-09-01T21:21:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pypdf] pypdf: Possible infinite loop for TreeObject.insert_child",
+      "url": "https://github.com/advisories/GHSA-jp53-mhqp-8xcg",
+      "date": "2026-09-01T21:21:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sanitize-html] ApostropheCMS: Stored XSS via SVG SMIL URI-list scheme-policy bypass",
+      "url": "https://github.com/advisories/GHSA-g8qq-57p8-ggw5",
+      "date": "2026-09-01T21:21:20.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apache-airflow] Apache Airflow Vulnerable to Deserialization of Untrusted Data",
+      "url": "https://github.com/advisories/GHSA-2r5m-76wx-56gx",
+      "date": "2026-09-01T21:04:56.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[snowflake-connector-python] Snowflake Connector for Python improperly verifies TLS hostnames",
-      "url": "https://github.com/advisories/GHSA-5cc2-282f-jjq2",
-      "date": "2026-08-31T22:35:15.000Z",
+      "title": "[nltk] NLTK: JVM argument injection bypass via per-call options in the NLTK Stanford wrappers (incomplete fix of CVE-2026-12841)",
+      "url": "https://github.com/advisories/GHSA-m4rf-3fr8-xwx3",
+      "date": "2026-09-01T20:38:23.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "[snowflake-connector-python] Snowflake Connector for Python improperly verifies TLS hostnames",
-      "url": "https://github.com/advisories/GHSA-5cc2-282f-jjq2",
-      "date": "2026-08-31T22:35:15.000Z",
+      "title": "[nltk] Duplicate Advisory: JVM argument injection bypass via per-call options in the NLTK Stanford wrappers (incomplete fix of CVE-2026-12841)",
+      "url": "https://github.com/advisories/GHSA-3h2g-j4wp-7qqq",
+      "date": "2026-09-01T20:38:13.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "[jsondiffpatch]  jsondiffpatch patch APIs are vulnerable to prototype pollution",
-      "url": "https://github.com/advisories/GHSA-j4fx-xxwh-2485",
-      "date": "2026-08-31T22:10:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[decode-uri-component] decode-uri-component: Denial of service via exponential decoding of malformed percent-encoded input",
-      "url": "https://github.com/advisories/GHSA-vcc3-ghjq-m6fr",
-      "date": "2026-08-31T22:10:21.000Z",
-      "ecosystem": "npm",
+      "title": "[nltk] Duplicate Advisory: NLTK: Missing Post-Download Integrity Verification Allows Malicious Package Injection",
+      "url": "https://github.com/advisories/GHSA-pv39-qrfq-g8gc",
+      "date": "2026-09-01T20:30:35.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[engine.io] Socket.IO: Engine.IO WebTransport SID DoS",
-      "url": "https://github.com/advisories/GHSA-gr94-w7qr-f4j3",
-      "date": "2026-08-31T21:28:13.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@hono/oauth-providers] @hono/oauth-providers: OAuth state check fails open on omitted state, enabling login CSRF and forced account linking",
-      "url": "https://github.com/advisories/GHSA-fm3f-ch8h-qw8q",
-      "date": "2026-08-31T20:30:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Duplicate Advisory: Axios: Deep formToJSON Key Recursion Can Cause Denial of Service",
-      "url": "https://github.com/advisories/GHSA-4ww2-rjh2-xpv9",
-      "date": "2026-08-31T20:02:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[axios] Duplicate Advisory: Axios: Prototype pollution gadgets can alter axios request construction",
-      "url": "https://github.com/advisories/GHSA-f2r5-pqh9-r8f8",
-      "date": "2026-08-31T19:51:22.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mlflow]  MLflow AI Gateway permits SSRF through an unvalidated api_base",
-      "url": "https://github.com/advisories/GHSA-h7x2-h6g9-p789",
-      "date": "2026-08-31T19:48:16.000Z",
+      "title": "[nltk] NLTK: Uncontrolled search path when invoking the Graphviz 'dot' binary",
+      "url": "https://github.com/advisories/GHSA-6hwm-xvph-95vm",
+      "date": "2026-09-01T20:27:21.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[lmdeploy] lmdeploy: Hardcoded trust_remote_code=True is an implicit unsafe remote-code load path with no user opt-out",
-      "url": "https://github.com/advisories/GHSA-9xq9-36w5-q796",
-      "date": "2026-08-31T14:33:47.000Z",
+      "title": "[nltk] Duplicate Advisory: Uncontrolled search path when invoking the Graphviz 'dot' binary (CWE-426/CWE-427)",
+      "url": "https://github.com/advisories/GHSA-54xp-3ww7-6wjg",
+      "date": "2026-09-01T20:25:23.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0269: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0269.html",
-      "date": "2026-08-31T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[keras] Keras model loading is vulnerable to denial of service through HDF5 shape bombs",
+      "url": "https://github.com/advisories/GHSA-74m6-m3xx-3vmj",
+      "date": "2026-09-01T20:22:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0268: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0268.html",
-      "date": "2026-08-31T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[tornado] tornado: multipart split() creates huge temp list before max_parts check -> memory amplification DoS (httputil.py:34)",
+      "url": "https://github.com/advisories/GHSA-8423-8fgw-73vq",
+      "date": "2026-09-01T20:17:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0272: Unsoundness in stack_dst",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0272.html",
-      "date": "2026-08-31T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[tornado] Tornado: Incomplete fix for CVE-2026-35536: cookie attribute injection re-opened via the legacy case-insensitive `**kwargs` path in `set_cookie`",
+      "url": "https://github.com/advisories/GHSA-wwv5-g3v4-889x",
+      "date": "2026-09-01T20:17:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
     },
     {
-      "title": "RUSTSEC-2025-0172: zip-extract is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0172.html",
-      "date": "2026-08-31T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[djangorestframework] Django REST framework: Potential bypass of Django `DATA_UPLOAD_MAX_MEMORY_SIZE` when parsing oversized JSON and urlencoded request bodies via DRF `request.data`",
+      "url": "https://github.com/advisories/GHSA-2m8g-3cmr-wg3w",
+      "date": "2026-09-01T19:24:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0270: sp-sized-chunks is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0270.html",
-      "date": "2026-08-31T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[djangorestframework] Django REST framework: AdminRenderer may disclose GET-protected data when rendering invalid write requests",
+      "url": "https://github.com/advisories/GHSA-g47c-3xmw-q6m2",
+      "date": "2026-09-01T19:24:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0271: Vulnerability in suppaftp",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0271.html",
-      "date": "2026-08-31T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2025-0171: Unsoundness in mod3d-base",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0171.html",
-      "date": "2026-08-31T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[nanoid] nanoid: Integer Overflow or Wraparound",
+      "url": "https://github.com/advisories/GHSA-xwg4-73v4-xw9w",
+      "date": "2026-09-01T19:23:46.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
