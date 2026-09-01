@@ -1,6 +1,25 @@
 {
-  "fetchedAt": "2026-09-01T04:45:16.937Z",
+  "fetchedAt": "2026-09-01T09:53:18.090Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0274: Vulnerability in rtrb",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0274.html",
+      "date": "2026-09-01T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0273: Vulnerability in manzana",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0273.html",
+      "date": "2026-09-01T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "[mlflow] MLFlow Creates a Temporary File With Insecure Permissions",
+      "url": "https://github.com/advisories/GHSA-f2m9-wcf4-cwwx",
+      "date": "2026-09-01T01:05:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[snowflake-connector-python] Snowflake Connector for Python improperly verifies TLS hostnames",
       "url": "https://github.com/advisories/GHSA-5cc2-282f-jjq2",
@@ -112,27 +131,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2025-0171.html",
       "date": "2026-08-31T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[mariadb] MariaDB has  possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
-      "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
-      "date": "2026-08-28T22:53:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mariadb] MariaDB has  possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
-      "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
-      "date": "2026-08-28T22:53:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mariadb] MariaDB has  possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
-      "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
-      "date": "2026-08-28T22:53:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
