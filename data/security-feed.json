@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-08-31T23:42:09.826Z",
+  "fetchedAt": "2026-09-01T04:45:16.937Z",
   "entries": [
+    {
+      "title": "[snowflake-connector-python] Snowflake Connector for Python improperly verifies TLS hostnames",
+      "url": "https://github.com/advisories/GHSA-5cc2-282f-jjq2",
+      "date": "2026-08-31T22:35:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[snowflake-connector-python] Snowflake Connector for Python improperly verifies TLS hostnames",
+      "url": "https://github.com/advisories/GHSA-5cc2-282f-jjq2",
+      "date": "2026-08-31T22:35:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[jsondiffpatch]  jsondiffpatch patch APIs are vulnerable to prototype pollution",
+      "url": "https://github.com/advisories/GHSA-j4fx-xxwh-2485",
+      "date": "2026-08-31T22:10:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[decode-uri-component] decode-uri-component: Denial of service via exponential decoding of malformed percent-encoded input",
+      "url": "https://github.com/advisories/GHSA-vcc3-ghjq-m6fr",
+      "date": "2026-08-31T22:10:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[engine.io] Socket.IO: Engine.IO WebTransport SID DoS",
+      "url": "https://github.com/advisories/GHSA-gr94-w7qr-f4j3",
+      "date": "2026-08-31T21:28:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@hono/oauth-providers] @hono/oauth-providers: OAuth state check fails open on omitted state, enabling login CSRF and forced account linking",
       "url": "https://github.com/advisories/GHSA-fm3f-ch8h-qw8q",
@@ -96,41 +131,6 @@
       "title": "[mariadb] MariaDB has  possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
       "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
       "date": "2026-08-28T22:53:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mariadb] MariaDB has  possible SQL injection in Buffer parameter escaping under big5/gbk/sjis/cp932/gb18030 client charsets",
-      "url": "https://github.com/advisories/GHSA-g5xc-5w98-jfvm",
-      "date": "2026-08-28T22:53:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[RestrictedPython] RestrictedPython guard hooks can be shadowed via positional-only arguments",
-      "url": "https://github.com/advisories/GHSA-ffg3-p8fm-mjx2",
-      "date": "2026-08-28T22:51:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mariadb] MariaDB has Cleartext Transmission of Sensitive Information and Insufficiently Protected Credentials",
-      "url": "https://github.com/advisories/GHSA-42r5-vhpq-m858",
-      "date": "2026-08-28T22:04:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mariadb] MariaDB has Cleartext Transmission of Sensitive Information and Insufficiently Protected Credentials",
-      "url": "https://github.com/advisories/GHSA-42r5-vhpq-m858",
-      "date": "2026-08-28T22:04:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mariadb] MariaDB has Cleartext Transmission of Sensitive Information and Insufficiently Protected Credentials",
-      "url": "https://github.com/advisories/GHSA-42r5-vhpq-m858",
-      "date": "2026-08-28T22:04:54.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
