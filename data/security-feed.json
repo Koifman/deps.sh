@@ -1,6 +1,24 @@
 {
-  "fetchedAt": "2026-09-02T04:15:00.352Z",
+  "fetchedAt": "2026-09-02T09:24:52.221Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0278: Vulnerability in zbus_polkit",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0278.html",
+      "date": "2026-09-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0276: Vulnerability in apimock",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0276.html",
+      "date": "2026-09-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0277: Vulnerability in apimock-server",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0277.html",
+      "date": "2026-09-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[pypdf] pypdf: Possible long runtimes/large memory usage when retrieving outlines",
       "url": "https://github.com/advisories/GHSA-23w6-3w8w-8484",
@@ -119,27 +137,6 @@
       "date": "2026-09-01T20:17:24.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[djangorestframework] Django REST framework: Potential bypass of Django `DATA_UPLOAD_MAX_MEMORY_SIZE` when parsing oversized JSON and urlencoded request bodies via DRF `request.data`",
-      "url": "https://github.com/advisories/GHSA-2m8g-3cmr-wg3w",
-      "date": "2026-09-01T19:24:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[djangorestframework] Django REST framework: AdminRenderer may disclose GET-protected data when rendering invalid write requests",
-      "url": "https://github.com/advisories/GHSA-g47c-3xmw-q6m2",
-      "date": "2026-09-01T19:24:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nanoid] nanoid: Integer Overflow or Wraparound",
-      "url": "https://github.com/advisories/GHSA-xwg4-73v4-xw9w",
-      "date": "2026-09-01T19:23:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
