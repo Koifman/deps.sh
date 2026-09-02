@@ -1,142 +1,145 @@
 {
-  "fetchedAt": "2026-09-02T14:16:05.936Z",
+  "fetchedAt": "2026-09-02T18:31:15.929Z",
   "entries": [
     {
-      "title": "RUSTSEC-2026-0278: Vulnerability in zbus_polkit",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0278.html",
-      "date": "2026-09-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0276: Vulnerability in apimock",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0276.html",
-      "date": "2026-09-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0277: Vulnerability in apimock-server",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0277.html",
-      "date": "2026-09-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[pypdf] pypdf: Possible long runtimes/large memory usage when retrieving outlines",
-      "url": "https://github.com/advisories/GHSA-23w6-3w8w-8484",
-      "date": "2026-09-01T21:28:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pypdf] pypdf: Possible long runtimes/large memory usage when extracting XForm objects",
-      "url": "https://github.com/advisories/GHSA-763m-79hh-57f2",
-      "date": "2026-09-01T21:27:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@sap/approuter] SAP Approuter has an Information Disclosure vulnerability",
-      "url": "https://github.com/advisories/GHSA-vhh6-v828-x62f",
-      "date": "2026-09-01T21:21:23.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sqlparse] sqlparse: Reindentation of tuple lists causes near-cap quadratic CPU consumption",
-      "url": "https://github.com/advisories/GHSA-cfqr-cjx5-5jcm",
-      "date": "2026-09-01T21:21:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@sap/approuter] SAP Approuter Vulnerable to HTTP Request Smuggling",
-      "url": "https://github.com/advisories/GHSA-8m85-wqg7-c529",
-      "date": "2026-09-01T21:21:22.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[pypdf] pypdf: Possible infinite loop for TreeObject.insert_child",
-      "url": "https://github.com/advisories/GHSA-jp53-mhqp-8xcg",
-      "date": "2026-09-01T21:21:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@sap/approuter] SAP Approuter has an Open Redirect vulnerability",
-      "url": "https://github.com/advisories/GHSA-44p5-3m5g-vfhj",
-      "date": "2026-09-01T21:21:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sanitize-html] ApostropheCMS: Stored XSS via SVG SMIL URI-list scheme-policy bypass",
-      "url": "https://github.com/advisories/GHSA-g8qq-57p8-ggw5",
-      "date": "2026-09-01T21:21:20.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow Vulnerable to Deserialization of Untrusted Data",
-      "url": "https://github.com/advisories/GHSA-2r5m-76wx-56gx",
-      "date": "2026-09-01T21:04:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] NLTK: JVM argument injection bypass via per-call options in the NLTK Stanford wrappers (incomplete fix of CVE-2026-12841)",
-      "url": "https://github.com/advisories/GHSA-m4rf-3fr8-xwx3",
-      "date": "2026-09-01T20:38:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: JVM argument injection bypass via per-call options in the NLTK Stanford wrappers (incomplete fix of CVE-2026-12841)",
-      "url": "https://github.com/advisories/GHSA-3h2g-j4wp-7qqq",
-      "date": "2026-09-01T20:38:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: NLTK: Missing Post-Download Integrity Verification Allows Malicious Package Injection",
-      "url": "https://github.com/advisories/GHSA-pv39-qrfq-g8gc",
-      "date": "2026-09-01T20:30:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] NLTK: Uncontrolled search path when invoking the Graphviz 'dot' binary",
-      "url": "https://github.com/advisories/GHSA-6hwm-xvph-95vm",
-      "date": "2026-09-01T20:27:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: Uncontrolled search path when invoking the Graphviz 'dot' binary (CWE-426/CWE-427)",
-      "url": "https://github.com/advisories/GHSA-54xp-3ww7-6wjg",
-      "date": "2026-09-01T20:25:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[keras] Keras model loading is vulnerable to denial of service through HDF5 shape bombs",
-      "url": "https://github.com/advisories/GHSA-74m6-m3xx-3vmj",
-      "date": "2026-09-01T20:22:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[tornado] tornado: multipart split() creates huge temp list before max_parts check -> memory amplification DoS (httputil.py:34)",
-      "url": "https://github.com/advisories/GHSA-8423-8fgw-73vq",
-      "date": "2026-09-01T20:17:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[tornado] Tornado: Incomplete fix for CVE-2026-35536: cookie attribute injection re-opened via the legacy case-insensitive `**kwargs` path in `set_cookie`",
-      "url": "https://github.com/advisories/GHSA-wwv5-g3v4-889x",
-      "date": "2026-09-01T20:17:24.000Z",
+      "title": "[nltk] NLTK CrubadanCorpusReader path traversal allows arbitrary file disclosure",
+      "url": "https://github.com/advisories/GHSA-cv22-g7mw-8v73",
+      "date": "2026-09-02T15:32:29.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
+    },
+    {
+      "title": "[mysql2] MySQL2: Unbounded zlib inflate in compressed MySQL protocol handler allows decompression-bomb DoS",
+      "url": "https://github.com/advisories/GHSA-rgwj-5xj2-c3m3",
+      "date": "2026-09-02T15:28:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp-contextforge-gateway] mcp-contextforge-gateway has RestrictedPython sandbox bypass via getattr builtin in python_sandbox_server",
+      "url": "https://github.com/advisories/GHSA-xm98-3vcf-fph7",
+      "date": "2026-09-02T15:28:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[nltk] NLTK AllowlistUnpickler dotted-name validation bypass allows remote code execution",
+      "url": "https://github.com/advisories/GHSA-5gh2-94qg-qppq",
+      "date": "2026-09-02T15:18:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[xmldom] xmldom: XML fragment injection via invalid EntityReference.nodeName during requireWellFormed serialization",
+      "url": "https://github.com/advisories/GHSA-6gmq-8vp8-gcm6",
+      "date": "2026-09-02T15:18:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@xmldom/xmldom] xmldom: XML fragment injection via invalid EntityReference.nodeName during requireWellFormed serialization",
+      "url": "https://github.com/advisories/GHSA-6gmq-8vp8-gcm6",
+      "date": "2026-09-02T15:18:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@xmldom/xmldom] xmldom: XML fragment injection via invalid EntityReference.nodeName during requireWellFormed serialization",
+      "url": "https://github.com/advisories/GHSA-6gmq-8vp8-gcm6",
+      "date": "2026-09-02T15:18:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk]  NLTK TweetTokenizer vulnerable to denial of service through catastrophic regex backtracking",
+      "url": "https://github.com/advisories/GHSA-qx2g-xrx7-vfh8",
+      "date": "2026-09-02T15:16:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mistune] Mistune: Denial of Service — RecursionError via Excessive Emphasis Markers in Markdown",
+      "url": "https://github.com/advisories/GHSA-6m44-fpc8-c3rq",
+      "date": "2026-09-02T15:14:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fastify] fastify vulnerable to X-Forwarded-* spoofing under trustProxy hop-count",
+      "url": "https://github.com/advisories/GHSA-3m5p-2c4r-xxw2",
+      "date": "2026-09-02T15:14:08.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fastify] fastify vulnerable to schema validation bypass via root primitive coercion mismatch",
+      "url": "https://github.com/advisories/GHSA-w2qp-rph6-63g4",
+      "date": "2026-09-02T15:13:24.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apostrophe] ApostropheCMS: 2nd-order prototype pollution via PATCH leading to single-request persistent DoS",
+      "url": "https://github.com/advisories/GHSA-vmg4-6gfg-83qx",
+      "date": "2026-09-02T15:12:42.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@apostrophecms/import-export] ApostropheCMS: Arbitrary file read via import-export attachment-name path traversal",
+      "url": "https://github.com/advisories/GHSA-79qf-vqgc-7xx3",
+      "date": "2026-09-02T14:55:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[orval] Orval: Generation-time SSRF + remote/local file inclusion via unrestricted $ref",
+      "url": "https://github.com/advisories/GHSA-cxq5-97v7-87j8",
+      "date": "2026-09-02T14:54:50.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[orval] Orval: Import-time RCE via query-parameter default -> zod module-level template literal",
+      "url": "https://github.com/advisories/GHSA-p4cg-3328-rvfg",
+      "date": "2026-09-02T14:53:16.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[orval] Orval: Import-time RCE via schema property name -> computed-property-key injection in the zod client",
+      "url": "https://github.com/advisories/GHSA-6mr6-jvcr-2f25",
+      "date": "2026-09-02T14:52:58.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@aborruso/ckan-mcp-server] CKAN MCP Server: MQA server allowlist bypass via unanchored regex (`isValidMqaServer`)",
+      "url": "https://github.com/advisories/GHSA-83x6-42hr-jc76",
+      "date": "2026-09-02T14:52:22.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk] Duplicate Advisory: Pl196xCorpusReader has quadratic ReDoS on malformed TEI blocks",
+      "url": "https://github.com/advisories/GHSA-3m7f-6hxv-6796",
+      "date": "2026-09-02T14:49:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk] Duplicate Advisory: ReDoS in nltk.tgrep via unvalidated user-supplied regular expressions",
+      "url": "https://github.com/advisories/GHSA-vf76-f5cp-9846",
+      "date": "2026-09-02T14:49:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nltk] Duplicate Advisory: Corpus readers follow symlinks outside trusted roots despite pathsec enforcement",
+      "url": "https://github.com/advisories/GHSA-w5q8-6jpp-4246",
+      "date": "2026-09-02T14:49:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     }
   ]
 }
