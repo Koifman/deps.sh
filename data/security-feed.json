@@ -1,6 +1,132 @@
 {
-  "fetchedAt": "2026-09-02T18:31:15.929Z",
+  "fetchedAt": "2026-09-02T21:42:02.528Z",
   "entries": [
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via skipped IDN canonicalization on scheme-relative references",
+      "url": "https://github.com/advisories/GHSA-5jgf-p345-68v8",
+      "date": "2026-09-02T15:44:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via skipped IDN canonicalization on scheme-relative references",
+      "url": "https://github.com/advisories/GHSA-5jgf-p345-68v8",
+      "date": "2026-09-02T15:44:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via skipped IDN canonicalization on scheme-relative references",
+      "url": "https://github.com/advisories/GHSA-5jgf-p345-68v8",
+      "date": "2026-09-02T15:44:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to server-side request forgery via malformed IPv6 normalization",
+      "url": "https://github.com/advisories/GHSA-f65p-4m7j-42xc",
+      "date": "2026-09-02T15:43:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to server-side request forgery via malformed IPv6 normalization",
+      "url": "https://github.com/advisories/GHSA-f65p-4m7j-42xc",
+      "date": "2026-09-02T15:43:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to server-side request forgery via malformed IPv6 normalization",
+      "url": "https://github.com/advisories/GHSA-f65p-4m7j-42xc",
+      "date": "2026-09-02T15:43:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to server-side request forgery via repeated hostname percent-decoding",
+      "url": "https://github.com/advisories/GHSA-fph4-wmhf-6fwf",
+      "date": "2026-09-02T15:42:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to server-side request forgery via repeated hostname percent-decoding",
+      "url": "https://github.com/advisories/GHSA-fph4-wmhf-6fwf",
+      "date": "2026-09-02T15:42:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to server-side request forgery via repeated hostname percent-decoding",
+      "url": "https://github.com/advisories/GHSA-fph4-wmhf-6fwf",
+      "date": "2026-09-02T15:42:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via percent-encoded scheme normalization",
+      "url": "https://github.com/advisories/GHSA-jqff-g426-hqxp",
+      "date": "2026-09-02T15:41:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via percent-encoded scheme normalization",
+      "url": "https://github.com/advisories/GHSA-jqff-g426-hqxp",
+      "date": "2026-09-02T15:41:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via percent-encoded scheme normalization",
+      "url": "https://github.com/advisories/GHSA-jqff-g426-hqxp",
+      "date": "2026-09-02T15:41:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nltk] NLTK: Default ENFORCE=False Disables All pathsec Security Controls",
+      "url": "https://github.com/advisories/GHSA-p3m8-78j2-g5p3",
+      "date": "2026-09-02T15:40:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nltk] Duplicate Advisory: [CWE-1188] Default ENFORCE=False Disables All pathsec Security Controls",
+      "url": "https://github.com/advisories/GHSA-8vh5-mgjj-w6hg",
+      "date": "2026-09-02T15:40:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nltk] NLTK: SSRF Fail-Open in validate_network_url() via DNS Resolution Failure",
+      "url": "https://github.com/advisories/GHSA-3gqm-fcw5-w839",
+      "date": "2026-09-02T15:39:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk] Duplicate Advisory: nltk: SSRF Fail-Open in validate_network_url() via DNS Resolution Failure",
+      "url": "https://github.com/advisories/GHSA-qg9p-xrhj-435m",
+      "date": "2026-09-02T15:38:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk] Natural Language Toolkit (NLTK) has unbounded recursion in JSONTaggedDecoder.decode_obj() may cause DoS",
+      "url": "https://github.com/advisories/GHSA-rf74-v2fm-23pw",
+      "date": "2026-09-02T15:33:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk] Duplicate Advisory: Natural Language Toolkit (NLTK) has unbounded recursion in JSONTaggedDecoder.decode_obj() may cause DoS",
+      "url": "https://github.com/advisories/GHSA-cv2g-m8rr-888c",
+      "date": "2026-09-02T15:33:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[nltk] NLTK CrubadanCorpusReader path traversal allows arbitrary file disclosure",
       "url": "https://github.com/advisories/GHSA-cv22-g7mw-8v73",
@@ -14,132 +140,6 @@
       "date": "2026-09-02T15:28:47.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp-contextforge-gateway] mcp-contextforge-gateway has RestrictedPython sandbox bypass via getattr builtin in python_sandbox_server",
-      "url": "https://github.com/advisories/GHSA-xm98-3vcf-fph7",
-      "date": "2026-09-02T15:28:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[nltk] NLTK AllowlistUnpickler dotted-name validation bypass allows remote code execution",
-      "url": "https://github.com/advisories/GHSA-5gh2-94qg-qppq",
-      "date": "2026-09-02T15:18:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[xmldom] xmldom: XML fragment injection via invalid EntityReference.nodeName during requireWellFormed serialization",
-      "url": "https://github.com/advisories/GHSA-6gmq-8vp8-gcm6",
-      "date": "2026-09-02T15:18:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@xmldom/xmldom] xmldom: XML fragment injection via invalid EntityReference.nodeName during requireWellFormed serialization",
-      "url": "https://github.com/advisories/GHSA-6gmq-8vp8-gcm6",
-      "date": "2026-09-02T15:18:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@xmldom/xmldom] xmldom: XML fragment injection via invalid EntityReference.nodeName during requireWellFormed serialization",
-      "url": "https://github.com/advisories/GHSA-6gmq-8vp8-gcm6",
-      "date": "2026-09-02T15:18:21.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk]  NLTK TweetTokenizer vulnerable to denial of service through catastrophic regex backtracking",
-      "url": "https://github.com/advisories/GHSA-qx2g-xrx7-vfh8",
-      "date": "2026-09-02T15:16:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mistune] Mistune: Denial of Service — RecursionError via Excessive Emphasis Markers in Markdown",
-      "url": "https://github.com/advisories/GHSA-6m44-fpc8-c3rq",
-      "date": "2026-09-02T15:14:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fastify] fastify vulnerable to X-Forwarded-* spoofing under trustProxy hop-count",
-      "url": "https://github.com/advisories/GHSA-3m5p-2c4r-xxw2",
-      "date": "2026-09-02T15:14:08.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fastify] fastify vulnerable to schema validation bypass via root primitive coercion mismatch",
-      "url": "https://github.com/advisories/GHSA-w2qp-rph6-63g4",
-      "date": "2026-09-02T15:13:24.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apostrophe] ApostropheCMS: 2nd-order prototype pollution via PATCH leading to single-request persistent DoS",
-      "url": "https://github.com/advisories/GHSA-vmg4-6gfg-83qx",
-      "date": "2026-09-02T15:12:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@apostrophecms/import-export] ApostropheCMS: Arbitrary file read via import-export attachment-name path traversal",
-      "url": "https://github.com/advisories/GHSA-79qf-vqgc-7xx3",
-      "date": "2026-09-02T14:55:48.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[orval] Orval: Generation-time SSRF + remote/local file inclusion via unrestricted $ref",
-      "url": "https://github.com/advisories/GHSA-cxq5-97v7-87j8",
-      "date": "2026-09-02T14:54:50.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[orval] Orval: Import-time RCE via query-parameter default -> zod module-level template literal",
-      "url": "https://github.com/advisories/GHSA-p4cg-3328-rvfg",
-      "date": "2026-09-02T14:53:16.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[orval] Orval: Import-time RCE via schema property name -> computed-property-key injection in the zod client",
-      "url": "https://github.com/advisories/GHSA-6mr6-jvcr-2f25",
-      "date": "2026-09-02T14:52:58.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@aborruso/ckan-mcp-server] CKAN MCP Server: MQA server allowlist bypass via unanchored regex (`isValidMqaServer`)",
-      "url": "https://github.com/advisories/GHSA-83x6-42hr-jc76",
-      "date": "2026-09-02T14:52:22.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: Pl196xCorpusReader has quadratic ReDoS on malformed TEI blocks",
-      "url": "https://github.com/advisories/GHSA-3m7f-6hxv-6796",
-      "date": "2026-09-02T14:49:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: ReDoS in nltk.tgrep via unvalidated user-supplied regular expressions",
-      "url": "https://github.com/advisories/GHSA-vf76-f5cp-9846",
-      "date": "2026-09-02T14:49:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: Corpus readers follow symlinks outside trusted roots despite pathsec enforcement",
-      "url": "https://github.com/advisories/GHSA-w5q8-6jpp-4246",
-      "date": "2026-09-02T14:49:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
