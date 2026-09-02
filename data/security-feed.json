@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-02T09:24:52.221Z",
+  "fetchedAt": "2026-09-02T14:16:05.936Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0278: Vulnerability in zbus_polkit",
@@ -41,6 +41,13 @@
       "severity": "HIGH"
     },
     {
+      "title": "[sqlparse] sqlparse: Reindentation of tuple lists causes near-cap quadratic CPU consumption",
+      "url": "https://github.com/advisories/GHSA-cfqr-cjx5-5jcm",
+      "date": "2026-09-01T21:21:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
       "title": "[@sap/approuter] SAP Approuter Vulnerable to HTTP Request Smuggling",
       "url": "https://github.com/advisories/GHSA-8m85-wqg7-c529",
       "date": "2026-09-01T21:21:22.000Z",
@@ -48,9 +55,9 @@
       "severity": "CRITICAL"
     },
     {
-      "title": "[sqlparse] sqlparse: Reindentation of tuple lists causes near-cap quadratic CPU consumption",
-      "url": "https://github.com/advisories/GHSA-cfqr-cjx5-5jcm",
-      "date": "2026-09-01T21:21:22.000Z",
+      "title": "[pypdf] pypdf: Possible infinite loop for TreeObject.insert_child",
+      "url": "https://github.com/advisories/GHSA-jp53-mhqp-8xcg",
+      "date": "2026-09-01T21:21:21.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
@@ -60,13 +67,6 @@
       "date": "2026-09-01T21:21:21.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[pypdf] pypdf: Possible infinite loop for TreeObject.insert_child",
-      "url": "https://github.com/advisories/GHSA-jp53-mhqp-8xcg",
-      "date": "2026-09-01T21:21:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     },
     {
       "title": "[sanitize-html] ApostropheCMS: Stored XSS via SVG SMIL URI-list scheme-policy bypass",
