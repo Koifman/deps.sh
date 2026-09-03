@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-09-03T18:27:43.938Z",
+  "fetchedAt": "2026-09-03T21:37:08.111Z",
   "entries": [
     {
-      "title": "[orval] Orval: Import-time RCE via header parameter name -> computed-property-key injection in the zod client",
-      "url": "https://github.com/advisories/GHSA-6437-gxhq-pqv8",
-      "date": "2026-09-03T18:08:32.000Z",
+      "title": "[siyuan] Duplicate Advisory: SiYuan: Cross-boundary content disclosure via getBacklinkDoc/getBackmentionDoc (publish mode): reader-reachable rendered DOM of publish-forbidden docs; sibling list endpoints are filtered",
+      "url": "https://github.com/advisories/GHSA-2mmh-4rf8-7xg6",
+      "date": "2026-09-03T21:21:12.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[liquidjs] LiquidJS has an infinite loop vulnerability in its `strip_html` filter",
-      "url": "https://github.com/advisories/GHSA-m7fp-h3p4-hr49",
-      "date": "2026-09-03T17:45:28.000Z",
+      "title": "[toml] toml-node: Uncontrolled Recursion",
+      "url": "https://github.com/advisories/GHSA-82x6-q7mm-w9cf",
+      "date": "2026-09-03T20:56:14.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@openclaw/feishu] OpenClaw Feishu permission tools could ignore per-account disablement",
-      "url": "https://github.com/advisories/GHSA-w8wf-3qvj-6xqf",
-      "date": "2026-09-03T17:33:20.000Z",
+      "title": "[toml] toml-node: Prototype Pollution Leads to `Object.prototype` Corruption via `__proto__` Key-Path Desynchronization",
+      "url": "https://github.com/advisories/GHSA-v5mp-jgw5-2x6j",
+      "date": "2026-09-03T20:55:34.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@openclaw/feishu] OpenClaw Feishu tools could ignore per-account disablement",
-      "url": "https://github.com/advisories/GHSA-2q7j-2vhx-56g8",
-      "date": "2026-09-03T17:30:56.000Z",
+      "title": "[phoenix] Phoenix: Presence keys colliding with `Object.prototype` members break existence checks",
+      "url": "https://github.com/advisories/GHSA-63mc-hw7g-86rr",
+      "date": "2026-09-03T20:30:34.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "MODERATE"
     },
     {
-      "title": "[unstructured] unstructured: Server-Side Request Forgery in the URL-based partitioning",
-      "url": "https://github.com/advisories/GHSA-4mvj-m6j5-pmf7",
-      "date": "2026-09-03T17:02:48.000Z",
+      "title": "[phoenix] Phoenix: Presence keys colliding with `Object.prototype` members break existence checks",
+      "url": "https://github.com/advisories/GHSA-63mc-hw7g-86rr",
+      "date": "2026-09-03T20:30:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[phoenix] Phoenix: Presence keys colliding with `Object.prototype` members break existence checks",
+      "url": "https://github.com/advisories/GHSA-63mc-hw7g-86rr",
+      "date": "2026-09-03T20:30:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[phoenix] Phoenix: Presence keys colliding with `Object.prototype` members break existence checks",
+      "url": "https://github.com/advisories/GHSA-63mc-hw7g-86rr",
+      "date": "2026-09-03T20:30:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[stream-json] stream-json: pick/ignore/filter/replace filters are O(depth²) on nested input — small crafted JSON blocks the event loop for seconds→minutes (DoS)",
+      "url": "https://github.com/advisories/GHSA-528h-pc64-c93x",
+      "date": "2026-09-03T20:27:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[cognee] Cognee allows non-superusers to overwrite global LLM configuration",
+      "url": "https://github.com/advisories/GHSA-49f7-whx5-4256",
+      "date": "2026-09-03T20:10:22.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "[immutable] Immutable: Hash-collision algorithmic complexity denial of service in Immutable.Map/Set",
-      "url": "https://github.com/advisories/GHSA-xvcm-6775-5m9r",
-      "date": "2026-09-03T16:38:03.000Z",
+      "title": "[sanitize-html] ApostropheCMS: Mutation-XSS / allowedTags bypass via literal `</textarea/>` solidus close",
+      "url": "https://github.com/advisories/GHSA-jxwj-j7wr-gfrw",
+      "date": "2026-09-03T20:07:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apostrophe] ApostropheCMS: Missing destination-parent authorization in page `move()` allows a low-privileged editor to move and re-rank pages inside a restricted subtree",
+      "url": "https://github.com/advisories/GHSA-wr5r-wqp2-x4fh",
+      "date": "2026-09-03T20:05:10.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mkdocs-material] Material for MkDocs: DOM XSS in search suggestions via query parameter",
+      "url": "https://github.com/advisories/GHSA-xvg9-69gf-fjrf",
+      "date": "2026-09-03T19:52:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@toon-format/toon] TOON: Prototype pollution when decoding untrusted TOON input",
+      "url": "https://github.com/advisories/GHSA-p95v-992w-h6c3",
+      "date": "2026-09-03T19:52:09.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[immutable] Immutable: Hash-collision algorithmic complexity denial of service in Immutable.Map/Set",
-      "url": "https://github.com/advisories/GHSA-xvcm-6775-5m9r",
-      "date": "2026-09-03T16:38:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fflate] fflate unzipSync can enter an infinite loop when parsing malformed ZIP64 archives",
-      "url": "https://github.com/advisories/GHSA-px8p-9vwx-vf98",
-      "date": "2026-09-03T14:58:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fflate] fflate unzipSync can enter an infinite loop when parsing malformed ZIP64 archives",
-      "url": "https://github.com/advisories/GHSA-px8p-9vwx-vf98",
-      "date": "2026-09-03T14:58:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fflate] fflate unzipSync can enter an infinite loop when parsing malformed ZIP64 archives",
-      "url": "https://github.com/advisories/GHSA-px8p-9vwx-vf98",
-      "date": "2026-09-03T14:58:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fflate] fflate unzipSync can enter an infinite loop when parsing malformed ZIP64 archives",
-      "url": "https://github.com/advisories/GHSA-px8p-9vwx-vf98",
-      "date": "2026-09-03T14:58:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fflate] fflate unzipSync can enter an infinite loop when parsing malformed ZIP64 archives",
-      "url": "https://github.com/advisories/GHSA-px8p-9vwx-vf98",
-      "date": "2026-09-03T14:58:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@aborruso/ckan-mcp-server] CKAN MCP Server: Cache-key canonicalization collision enables cache confusion / poisoning",
-      "url": "https://github.com/advisories/GHSA-78x9-fhhx-v2g6",
-      "date": "2026-09-03T14:49:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@aborruso/ckan-mcp-server] CKAN MCP Server: Information disclosure via verbose error reflection",
-      "url": "https://github.com/advisories/GHSA-6f9w-9hf2-5rg3",
-      "date": "2026-09-03T14:49:11.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[scrapy] Scrapy: S3DownloadHandler sends signed S3 requests over plaintext HTTP by default",
-      "url": "https://github.com/advisories/GHSA-76g3-c3x4-crvx",
-      "date": "2026-09-02T22:50:45.000Z",
+      "title": "[lightning]  PyTorch Lightning allows arbitrary code execution through checkpoint _instantiator hyperparameters",
+      "url": "https://github.com/advisories/GHSA-qqmf-gpg7-g8gw",
+      "date": "2026-09-03T19:51:20.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[@dicebear/initials] DiceBear: SVG injection via the unescaped rotate option in @dicebear/core (and fontSize/fontWeight in @dicebear/initials)",
-      "url": "https://github.com/advisories/GHSA-gcr2-9v8m-gq45",
-      "date": "2026-09-02T22:44:26.000Z",
+      "title": "[claude-code-templates] Claude Code Templates: Unauthenticated OS command injection (RCE) in Claude Code Studio server (--studio)",
+      "url": "https://github.com/advisories/GHSA-79wm-x847-7cvg",
+      "date": "2026-09-03T19:50:48.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     },
     {
-      "title": "[@dicebear/core] DiceBear: SVG injection via the unescaped rotate option in @dicebear/core (and fontSize/fontWeight in @dicebear/initials)",
-      "url": "https://github.com/advisories/GHSA-gcr2-9v8m-gq45",
-      "date": "2026-09-02T22:44:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[omnigent] Omnigent Guardrail policy bypass: shell-command parser fails open in policies/builtins/_shell.py",
-      "url": "https://github.com/advisories/GHSA-7mqg-cx4g-x2rf",
-      "date": "2026-09-02T22:40:09.000Z",
+      "title": "[snowflake-sqlalchemy] Snowflake SQLAlchemy affected by SQL injection and local file disclosure vulnerabilities",
+      "url": "https://github.com/advisories/GHSA-8g6f-qw9x-4q6q",
+      "date": "2026-09-03T19:49:45.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[@platejs/docx-io] Plate: SSRF with response disclosure in DOCX image embedding",
-      "url": "https://github.com/advisories/GHSA-4q39-2jhr-7qx8",
-      "date": "2026-09-02T22:14:55.000Z",
-      "ecosystem": "npm",
+      "title": "[crewai-tools] crewai-tools SSRF redirect bypass exposes internal services",
+      "url": "https://github.com/advisories/GHSA-mr4r-hcgx-8p4h",
+      "date": "2026-09-03T19:44:32.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[omnigent] Omnigent: Unvalidated os_env.cwd in agent bundle yields arbitrary host filesystem access on runners without OMNIGENT_RUNNER_WORKSPACE",
-      "url": "https://github.com/advisories/GHSA-p8rw-8qj3-hf33",
-      "date": "2026-09-02T22:00:56.000Z",
+      "title": "[pyod] PyOD persistence.load deserializes untrusted artifacts before validation",
+      "url": "https://github.com/advisories/GHSA-997v-r4v7-9f3g",
+      "date": "2026-09-03T19:19:19.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[orval] Orval: RCE via OpenAPI path -> unescaped request-URL template literal (backtick breakout)",
+      "url": "https://github.com/advisories/GHSA-fg9p-mrxr-hvq7",
+      "date": "2026-09-03T19:17:34.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[orval] Orval: RCE via servers[].url -> unescaped request-URL template literal (with getBaseUrlFromSpecification)",
+      "url": "https://github.com/advisories/GHSA-88f2-fpv8-89q2",
+      "date": "2026-09-03T19:06:53.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
     }
   ]
 }
