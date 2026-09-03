@@ -1,6 +1,104 @@
 {
-  "fetchedAt": "2026-09-03T14:19:38.723Z",
+  "fetchedAt": "2026-09-03T18:27:43.938Z",
   "entries": [
+    {
+      "title": "[orval] Orval: Import-time RCE via header parameter name -> computed-property-key injection in the zod client",
+      "url": "https://github.com/advisories/GHSA-6437-gxhq-pqv8",
+      "date": "2026-09-03T18:08:32.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[liquidjs] LiquidJS has an infinite loop vulnerability in its `strip_html` filter",
+      "url": "https://github.com/advisories/GHSA-m7fp-h3p4-hr49",
+      "date": "2026-09-03T17:45:28.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@openclaw/feishu] OpenClaw Feishu permission tools could ignore per-account disablement",
+      "url": "https://github.com/advisories/GHSA-w8wf-3qvj-6xqf",
+      "date": "2026-09-03T17:33:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@openclaw/feishu] OpenClaw Feishu tools could ignore per-account disablement",
+      "url": "https://github.com/advisories/GHSA-2q7j-2vhx-56g8",
+      "date": "2026-09-03T17:30:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[unstructured] unstructured: Server-Side Request Forgery in the URL-based partitioning",
+      "url": "https://github.com/advisories/GHSA-4mvj-m6j5-pmf7",
+      "date": "2026-09-03T17:02:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[immutable] Immutable: Hash-collision algorithmic complexity denial of service in Immutable.Map/Set",
+      "url": "https://github.com/advisories/GHSA-xvcm-6775-5m9r",
+      "date": "2026-09-03T16:38:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[immutable] Immutable: Hash-collision algorithmic complexity denial of service in Immutable.Map/Set",
+      "url": "https://github.com/advisories/GHSA-xvcm-6775-5m9r",
+      "date": "2026-09-03T16:38:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fflate] fflate unzipSync can enter an infinite loop when parsing malformed ZIP64 archives",
+      "url": "https://github.com/advisories/GHSA-px8p-9vwx-vf98",
+      "date": "2026-09-03T14:58:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fflate] fflate unzipSync can enter an infinite loop when parsing malformed ZIP64 archives",
+      "url": "https://github.com/advisories/GHSA-px8p-9vwx-vf98",
+      "date": "2026-09-03T14:58:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fflate] fflate unzipSync can enter an infinite loop when parsing malformed ZIP64 archives",
+      "url": "https://github.com/advisories/GHSA-px8p-9vwx-vf98",
+      "date": "2026-09-03T14:58:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fflate] fflate unzipSync can enter an infinite loop when parsing malformed ZIP64 archives",
+      "url": "https://github.com/advisories/GHSA-px8p-9vwx-vf98",
+      "date": "2026-09-03T14:58:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fflate] fflate unzipSync can enter an infinite loop when parsing malformed ZIP64 archives",
+      "url": "https://github.com/advisories/GHSA-px8p-9vwx-vf98",
+      "date": "2026-09-03T14:58:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@aborruso/ckan-mcp-server] CKAN MCP Server: Cache-key canonicalization collision enables cache confusion / poisoning",
+      "url": "https://github.com/advisories/GHSA-78x9-fhhx-v2g6",
+      "date": "2026-09-03T14:49:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@aborruso/ckan-mcp-server] CKAN MCP Server: Information disclosure via verbose error reflection",
+      "url": "https://github.com/advisories/GHSA-6f9w-9hf2-5rg3",
+      "date": "2026-09-03T14:49:11.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[scrapy] Scrapy: S3DownloadHandler sends signed S3 requests over plaintext HTTP by default",
       "url": "https://github.com/advisories/GHSA-76g3-c3x4-crvx",
@@ -41,104 +139,6 @@
       "url": "https://github.com/advisories/GHSA-p8rw-8qj3-hf33",
       "date": "2026-09-02T22:00:56.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[omnigent] Omnigent: Shared Agent Bundle Overwrite Leads to Authenticated Runner RCE",
-      "url": "https://github.com/advisories/GHSA-jrrm-9hc7-2v3h",
-      "date": "2026-09-02T21:55:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[omnigent] Omnigent: Uploaded Agent Bundle Allows Authenticated Runner RCE via Python Callable Tools",
-      "url": "https://github.com/advisories/GHSA-756x-9hf6-q4h4",
-      "date": "2026-09-02T21:54:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[link-preview-js] link-preview-js DNS Rebinding SSRF Bypass / Incomplete Fix for CVE-2026-43897",
-      "url": "https://github.com/advisories/GHSA-cpjf-6666-r8fx",
-      "date": "2026-09-02T21:30:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Withdrawn Advisory: Open WebUI Access Control",
-      "url": "https://github.com/advisories/GHSA-cfvq-fj53-j2c7",
-      "date": "2026-09-02T20:49:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Withdrawn Advisory: Open WebUI JWT Key Handler",
-      "url": "https://github.com/advisories/GHSA-2rf6-9rc8-rqch",
-      "date": "2026-09-02T20:49:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[open-webui] Withdrawn Advisory: Open WebUI/ZDI-CAN-28259",
-      "url": "https://github.com/advisories/GHSA-vh96-p962-544h",
-      "date": "2026-09-02T20:48:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via skipped IDN canonicalization on scheme-relative references",
-      "url": "https://github.com/advisories/GHSA-5jgf-p345-68v8",
-      "date": "2026-09-02T15:44:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via skipped IDN canonicalization on scheme-relative references",
-      "url": "https://github.com/advisories/GHSA-5jgf-p345-68v8",
-      "date": "2026-09-02T15:44:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via skipped IDN canonicalization on scheme-relative references",
-      "url": "https://github.com/advisories/GHSA-5jgf-p345-68v8",
-      "date": "2026-09-02T15:44:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to server-side request forgery via malformed IPv6 normalization",
-      "url": "https://github.com/advisories/GHSA-f65p-4m7j-42xc",
-      "date": "2026-09-02T15:43:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to server-side request forgery via malformed IPv6 normalization",
-      "url": "https://github.com/advisories/GHSA-f65p-4m7j-42xc",
-      "date": "2026-09-02T15:43:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to server-side request forgery via malformed IPv6 normalization",
-      "url": "https://github.com/advisories/GHSA-f65p-4m7j-42xc",
-      "date": "2026-09-02T15:43:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to server-side request forgery via repeated hostname percent-decoding",
-      "url": "https://github.com/advisories/GHSA-fph4-wmhf-6fwf",
-      "date": "2026-09-02T15:42:41.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to server-side request forgery via repeated hostname percent-decoding",
-      "url": "https://github.com/advisories/GHSA-fph4-wmhf-6fwf",
-      "date": "2026-09-02T15:42:41.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
