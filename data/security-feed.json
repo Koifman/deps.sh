@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-09-04T18:14:22.804Z",
+  "fetchedAt": "2026-09-04T21:20:04.647Z",
   "entries": [
     {
-      "title": "[siyuan] Duplicate Advisory: SiYuan: Cross-boundary content disclosure via getBacklinkDoc/getBackmentionDoc (publish mode): reader-reachable rendered DOM of publish-forbidden docs; sibling list endpoints are filtered",
-      "url": "https://github.com/advisories/GHSA-2mmh-4rf8-7xg6",
-      "date": "2026-09-03T21:21:12.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[toml] toml-node: Uncontrolled Recursion",
-      "url": "https://github.com/advisories/GHSA-82x6-q7mm-w9cf",
-      "date": "2026-09-03T20:56:14.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[toml] toml-node: Prototype Pollution Leads to `Object.prototype` Corruption via `__proto__` Key-Path Desynchronization",
-      "url": "https://github.com/advisories/GHSA-v5mp-jgw5-2x6j",
-      "date": "2026-09-03T20:55:34.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[phoenix] Phoenix: Presence keys colliding with `Object.prototype` members break existence checks",
-      "url": "https://github.com/advisories/GHSA-63mc-hw7g-86rr",
-      "date": "2026-09-03T20:30:34.000Z",
+      "title": "[danger] danger allows local OS command injection through crafted file paths",
+      "url": "https://github.com/advisories/GHSA-3x93-p86w-5jvh",
+      "date": "2026-09-04T20:51:19.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[phoenix] Phoenix: Presence keys colliding with `Object.prototype` members break existence checks",
-      "url": "https://github.com/advisories/GHSA-63mc-hw7g-86rr",
-      "date": "2026-09-03T20:30:34.000Z",
-      "ecosystem": "npm",
+      "title": "[apache-airflow] Apache Airflow exposes deferred trigger kwargs in task-instance API responses",
+      "url": "https://github.com/advisories/GHSA-22hf-vx2v-gjff",
+      "date": "2026-09-04T19:28:50.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[phoenix] Phoenix: Presence keys colliding with `Object.prototype` members break existence checks",
-      "url": "https://github.com/advisories/GHSA-63mc-hw7g-86rr",
-      "date": "2026-09-03T20:30:34.000Z",
-      "ecosystem": "npm",
+      "title": "[apache-airflow] Apache Airflow exposes sensitive JSON Variable values through the Bulk Variables API",
+      "url": "https://github.com/advisories/GHSA-563f-2439-rmq4",
+      "date": "2026-09-04T19:25:32.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[phoenix] Phoenix: Presence keys colliding with `Object.prototype` members break existence checks",
-      "url": "https://github.com/advisories/GHSA-63mc-hw7g-86rr",
-      "date": "2026-09-03T20:30:34.000Z",
-      "ecosystem": "npm",
+      "title": "[apache-airflow] Apache Airflow exposes secrets backend credentials through the Config API",
+      "url": "https://github.com/advisories/GHSA-9933-5rrp-mfwx",
+      "date": "2026-09-04T19:24:55.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[stream-json] stream-json: pick/ignore/filter/replace filters are O(depth²) on nested input — small crafted JSON blocks the event loop for seconds→minutes (DoS)",
-      "url": "https://github.com/advisories/GHSA-528h-pc64-c93x",
-      "date": "2026-09-03T20:27:54.000Z",
-      "ecosystem": "npm",
+      "title": "[apache-airflow] Apache Airflow exposes unreadable DAG identifiers in the scheduling dependencies graph",
+      "url": "https://github.com/advisories/GHSA-3322-mjxh-9mp5",
+      "date": "2026-09-04T19:24:10.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[cognee] Cognee allows non-superusers to overwrite global LLM configuration",
-      "url": "https://github.com/advisories/GHSA-49f7-whx5-4256",
-      "date": "2026-09-03T20:10:22.000Z",
+      "title": "[apache-airflow] Apache Airflow allows code execution through unsafe serialized DAG deserialization",
+      "url": "https://github.com/advisories/GHSA-2943-9672-r45w",
+      "date": "2026-09-04T19:23:04.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "[sanitize-html] ApostropheCMS: Mutation-XSS / allowedTags bypass via literal `</textarea/>` solidus close",
-      "url": "https://github.com/advisories/GHSA-jxwj-j7wr-gfrw",
-      "date": "2026-09-03T20:07:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apostrophe] ApostropheCMS: Missing destination-parent authorization in page `move()` allows a low-privileged editor to move and re-rank pages inside a restricted subtree",
-      "url": "https://github.com/advisories/GHSA-wr5r-wqp2-x4fh",
-      "date": "2026-09-03T20:05:10.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mkdocs-material] Material for MkDocs: DOM XSS in search suggestions via query parameter",
-      "url": "https://github.com/advisories/GHSA-xvg9-69gf-fjrf",
-      "date": "2026-09-03T19:52:34.000Z",
+      "title": "[apache-airflow-providers-google] Apache Airflow Google provider allows path traversal through GCS object names",
+      "url": "https://github.com/advisories/GHSA-v3mh-27qj-w836",
+      "date": "2026-09-04T19:22:14.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     },
     {
-      "title": "[@toon-format/toon] TOON: Prototype pollution when decoding untrusted TOON input",
-      "url": "https://github.com/advisories/GHSA-p95v-992w-h6c3",
-      "date": "2026-09-03T19:52:09.000Z",
+      "title": "[apache-airflow-providers-ftp] Apache Airflow FTP provider: FTP Provider does not protect FTPS data channel (missing PROT_P)",
+      "url": "https://github.com/advisories/GHSA-fgch-86x8-fv43",
+      "date": "2026-09-04T18:48:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[codewhale] CodeWhale: Project config `allow_shell` override enables arbitrary shell command execution via cloned repository",
+      "url": "https://github.com/advisories/GHSA-gx45-xrj5-g6c4",
+      "date": "2026-09-04T18:14:10.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[lightning]  PyTorch Lightning allows arbitrary code execution through checkpoint _instantiator hyperparameters",
-      "url": "https://github.com/advisories/GHSA-qqmf-gpg7-g8gw",
-      "date": "2026-09-03T19:51:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[claude-code-templates] Claude Code Templates: Unauthenticated OS command injection (RCE) in Claude Code Studio server (--studio)",
-      "url": "https://github.com/advisories/GHSA-79wm-x847-7cvg",
-      "date": "2026-09-03T19:50:48.000Z",
+      "title": "[deepseek-tui] CodeWhale: Project config `allow_shell` override enables arbitrary shell command execution via cloned repository",
+      "url": "https://github.com/advisories/GHSA-gx45-xrj5-g6c4",
+      "date": "2026-09-04T18:14:10.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[snowflake-sqlalchemy] Snowflake SQLAlchemy affected by SQL injection and local file disclosure vulnerabilities",
-      "url": "https://github.com/advisories/GHSA-8g6f-qw9x-4q6q",
-      "date": "2026-09-03T19:49:45.000Z",
-      "ecosystem": "pypi",
+      "title": "[codewhale] CodeWhale: rlm_eval auto-approves arbitrary Python execution, bypassing the user's approval policy (RCE)",
+      "url": "https://github.com/advisories/GHSA-wrj3-vj8c-784f",
+      "date": "2026-09-04T18:12:16.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[crewai-tools] crewai-tools SSRF redirect bypass exposes internal services",
-      "url": "https://github.com/advisories/GHSA-mr4r-hcgx-8p4h",
-      "date": "2026-09-03T19:44:32.000Z",
-      "ecosystem": "pypi",
+      "title": "[deepseek-tui] CodeWhale: rlm_eval auto-approves arbitrary Python execution, bypassing the user's approval policy (RCE)",
+      "url": "https://github.com/advisories/GHSA-wrj3-vj8c-784f",
+      "date": "2026-09-04T18:12:16.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[pyod] PyOD persistence.load deserializes untrusted artifacts before validation",
-      "url": "https://github.com/advisories/GHSA-997v-r4v7-9f3g",
-      "date": "2026-09-03T19:19:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "title": "[codewhale] CodeWhale: Argument Injection in `git_blame` Tool Allows Arbitrary File Read Without Approval",
+      "url": "https://github.com/advisories/GHSA-c6mw-8xh8-gpq6",
+      "date": "2026-09-04T18:11:46.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "[orval] Orval: RCE via OpenAPI path -> unescaped request-URL template literal (backtick breakout)",
-      "url": "https://github.com/advisories/GHSA-fg9p-mrxr-hvq7",
-      "date": "2026-09-03T19:17:34.000Z",
+      "title": "[deepseek-tui] CodeWhale: Argument Injection in `git_blame` Tool Allows Arbitrary File Read Without Approval",
+      "url": "https://github.com/advisories/GHSA-c6mw-8xh8-gpq6",
+      "date": "2026-09-04T18:11:46.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[codewhale] CodeWhale: SSRF‌ bypass - TOCTOU on DNS failure for DNS pinning",
+      "url": "https://github.com/advisories/GHSA-6v2g-fpxh-pmmh",
+      "date": "2026-09-04T18:05:13.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[orval] Orval: RCE via servers[].url -> unescaped request-URL template literal (with getBaseUrlFromSpecification)",
-      "url": "https://github.com/advisories/GHSA-88f2-fpv8-89q2",
-      "date": "2026-09-03T19:06:53.000Z",
+      "title": "[deepseek-tui] CodeWhale: SSRF‌ bypass - TOCTOU on DNS failure for DNS pinning",
+      "url": "https://github.com/advisories/GHSA-6v2g-fpxh-pmmh",
+      "date": "2026-09-04T18:05:13.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
+    },
+    {
+      "title": "[codewhale] CodeWhale: js_execution leaks parent environment to model context via missing env scrub",
+      "url": "https://github.com/advisories/GHSA-h539-c7r8-3xq4",
+      "date": "2026-09-04T18:03:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[deepseek-tui] CodeWhale: js_execution leaks parent environment to model context via missing env scrub",
+      "url": "https://github.com/advisories/GHSA-h539-c7r8-3xq4",
+      "date": "2026-09-04T18:03:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[codewhale] CodeWhale: Argument Injection in `git_show` Tool Allows Arbitrary File Write Without Approval",
+      "url": "https://github.com/advisories/GHSA-7j5w-7r7x-9v27",
+      "date": "2026-09-04T18:02:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[deepseek-tui] CodeWhale: Argument Injection in `git_show` Tool Allows Arbitrary File Write Without Approval",
+      "url": "https://github.com/advisories/GHSA-7j5w-7r7x-9v27",
+      "date": "2026-09-04T18:02:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
