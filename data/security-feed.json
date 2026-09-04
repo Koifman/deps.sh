@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-09-04T21:20:04.647Z",
+  "fetchedAt": "2026-09-04T23:53:11.342Z",
   "entries": [
+    {
+      "title": "[@typespec/spector] TypeSpec: Unauthenticated Remote Shutdown of Spector Mock Server via POST /.admin/stop",
+      "url": "https://github.com/advisories/GHSA-7q9c-hpx7-9cwm",
+      "date": "2026-09-04T21:43:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vllm]  vLLM: Incomplete CVE-2025-62164 remediation can be bypassed by concurrent prompt parts",
+      "url": "https://github.com/advisories/GHSA-pr7f-p5mw-fc87",
+      "date": "2026-09-04T21:39:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM: ReDoS via structured_outputs.regex in the lm-format-enforcer backend (no compile timeout) — missed sibling of GHSA-rwxx-mrjm-wc2m",
+      "url": "https://github.com/advisories/GHSA-48jh-3gj7-fg8v",
+      "date": "2026-09-04T21:37:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM: Unauthenticated Internal Path and Username Disclosure via Validation Error Messages",
+      "url": "https://github.com/advisories/GHSA-hwrm-c4cx-rf4j",
+      "date": "2026-09-04T21:36:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM: Derender endpoints decode caller-supplied GenerateResponse token IDs without output bounds",
+      "url": "https://github.com/advisories/GHSA-8737-qx52-hjff",
+      "date": "2026-09-04T21:32:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[cryptography] python-cryptography: Duplicate self-signed intermediates can cause exponential path-building",
+      "url": "https://github.com/advisories/GHSA-jwv3-5hgf-82ww",
+      "date": "2026-09-04T21:19:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@jupyterlab/git] jupyterlab-git extension: Stored XSS leading to RCE",
+      "url": "https://github.com/advisories/GHSA-f962-v9hr-pfg5",
+      "date": "2026-09-04T21:16:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[danger] danger allows local OS command injection through crafted file paths",
       "url": "https://github.com/advisories/GHSA-3x93-p86w-5jvh",
@@ -89,55 +138,6 @@
       "title": "[codewhale] CodeWhale: Argument Injection in `git_blame` Tool Allows Arbitrary File Read Without Approval",
       "url": "https://github.com/advisories/GHSA-c6mw-8xh8-gpq6",
       "date": "2026-09-04T18:11:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[deepseek-tui] CodeWhale: Argument Injection in `git_blame` Tool Allows Arbitrary File Read Without Approval",
-      "url": "https://github.com/advisories/GHSA-c6mw-8xh8-gpq6",
-      "date": "2026-09-04T18:11:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[codewhale] CodeWhale: SSRF‌ bypass - TOCTOU on DNS failure for DNS pinning",
-      "url": "https://github.com/advisories/GHSA-6v2g-fpxh-pmmh",
-      "date": "2026-09-04T18:05:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[deepseek-tui] CodeWhale: SSRF‌ bypass - TOCTOU on DNS failure for DNS pinning",
-      "url": "https://github.com/advisories/GHSA-6v2g-fpxh-pmmh",
-      "date": "2026-09-04T18:05:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[codewhale] CodeWhale: js_execution leaks parent environment to model context via missing env scrub",
-      "url": "https://github.com/advisories/GHSA-h539-c7r8-3xq4",
-      "date": "2026-09-04T18:03:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[deepseek-tui] CodeWhale: js_execution leaks parent environment to model context via missing env scrub",
-      "url": "https://github.com/advisories/GHSA-h539-c7r8-3xq4",
-      "date": "2026-09-04T18:03:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[codewhale] CodeWhale: Argument Injection in `git_show` Tool Allows Arbitrary File Write Without Approval",
-      "url": "https://github.com/advisories/GHSA-7j5w-7r7x-9v27",
-      "date": "2026-09-04T18:02:38.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[deepseek-tui] CodeWhale: Argument Injection in `git_show` Tool Allows Arbitrary File Write Without Approval",
-      "url": "https://github.com/advisories/GHSA-7j5w-7r7x-9v27",
-      "date": "2026-09-04T18:02:38.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
