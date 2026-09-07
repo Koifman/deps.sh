@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-09-07T10:04:59.110Z",
+  "fetchedAt": "2026-09-07T16:21:39.921Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0279: Vulnerability in rojo",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0279.html",
+      "date": "2026-09-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@typespec/spector] TypeSpec: Unauthenticated Remote Shutdown of Spector Mock Server via POST /.admin/stop",
       "url": "https://github.com/advisories/GHSA-7q9c-hpx7-9cwm",
@@ -131,13 +137,6 @@
       "title": "[deepseek-tui] CodeWhale: rlm_eval auto-approves arbitrary Python execution, bypassing the user's approval policy (RCE)",
       "url": "https://github.com/advisories/GHSA-wrj3-vj8c-784f",
       "date": "2026-09-04T18:12:16.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[codewhale] CodeWhale: Argument Injection in `git_blame` Tool Allows Arbitrary File Read Without Approval",
-      "url": "https://github.com/advisories/GHSA-c6mw-8xh8-gpq6",
-      "date": "2026-09-04T18:11:46.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
