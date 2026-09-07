@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-09-07T16:21:39.921Z",
+  "fetchedAt": "2026-09-07T20:26:21.896Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0280: greentic-setup-dev contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0280.html",
+      "date": "2026-09-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0281: greentic-setup contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0281.html",
+      "date": "2026-09-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0279: Vulnerability in rojo",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0279.html",
@@ -123,20 +135,6 @@
       "title": "[deepseek-tui] CodeWhale: Project config `allow_shell` override enables arbitrary shell command execution via cloned repository",
       "url": "https://github.com/advisories/GHSA-gx45-xrj5-g6c4",
       "date": "2026-09-04T18:14:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[codewhale] CodeWhale: rlm_eval auto-approves arbitrary Python execution, bypassing the user's approval policy (RCE)",
-      "url": "https://github.com/advisories/GHSA-wrj3-vj8c-784f",
-      "date": "2026-09-04T18:12:16.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[deepseek-tui] CodeWhale: rlm_eval auto-approves arbitrary Python execution, bypassing the user's approval policy (RCE)",
-      "url": "https://github.com/advisories/GHSA-wrj3-vj8c-784f",
-      "date": "2026-09-04T18:12:16.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
