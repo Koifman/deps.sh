@@ -1,142 +1,145 @@
 {
-  "fetchedAt": "2026-09-08T18:27:59.150Z",
+  "fetchedAt": "2026-09-08T21:44:53.387Z",
   "entries": [
     {
-      "title": "[gitpython] Duplicate Advisory: GitPython: Environment-variable exfiltration via os.path.expandvars() on Repo.clone_from() URL",
-      "url": "https://github.com/advisories/GHSA-m4f3-g4cq-hqrx",
-      "date": "2026-09-08T15:34:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] NLTK: Missing Post-Download Integrity Verification Allows Malicious Package Injection",
-      "url": "https://github.com/advisories/GHSA-5wp5-5229-5g6q",
-      "date": "2026-09-08T15:27:56.000Z",
+      "title": "[accelerate] Accelerate path traversal and denial of service via sharded checkpoint weight_map entries",
+      "url": "https://github.com/advisories/GHSA-4j2p-28q2-5m79",
+      "date": "2026-09-08T18:46:24.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[nltk] NLTK: StreamBackedCorpusView Bypasses pathsec.ENFORCE - Arbitrary Local File Read",
-      "url": "https://github.com/advisories/GHSA-x5ph-mj9p-rfr8",
-      "date": "2026-09-08T15:27:36.000Z",
+      "title": "[GitPython] GitPython: clone_from()/clone() omit --separate-git-dir from unsafe_git_clone_options, enabling arbitrary git-directory creation outside the destination",
+      "url": "https://github.com/advisories/GHSA-8mcc-hrx5-hvxc",
+      "date": "2026-09-08T18:41:55.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[nltk] NLTK: FileSystemPathPointer.open() sandbox check is dead code — arbitrary file read via file:// protocol",
-      "url": "https://github.com/advisories/GHSA-72r2-7mfr-5xr9",
-      "date": "2026-09-08T15:27:12.000Z",
+      "title": "[gitpython] Duplicate Advisory: clone_from()/clone() omit --separate-git-dir from unsafe_git_clone_options, enabling arbitrary git-directory creation outside the destination",
+      "url": "https://github.com/advisories/GHSA-7r39-6q8m-qw68",
+      "date": "2026-09-08T18:41:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[GitPython] GitPython: Incomplete unsafe_git_revision_options denylist omits --contents/-S, enabling arbitrary file read via Repo.blame()",
+      "url": "https://github.com/advisories/GHSA-5xxx-qhh7-9287",
+      "date": "2026-09-08T18:41:32.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[nltk] NLTK: Symlink escape in CorpusReader allows arbitrary local file read outside the corpus root",
-      "url": "https://github.com/advisories/GHSA-r6gq-whwq-mvg9",
-      "date": "2026-09-08T15:26:51.000Z",
+      "title": "[gitpython] Duplicate Advisory: GitPython: Incomplete unsafe_git_revision_options denylist omits --contents/-S, enabling arbitrary file read via Repo.blame()",
+      "url": "https://github.com/advisories/GHSA-89ff-m8wv-p99r",
+      "date": "2026-09-08T18:41:22.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[react-router-dom] React Router: Open redirect leading to XSS",
-      "url": "https://github.com/advisories/GHSA-jjmj-jmhj-qwj2",
-      "date": "2026-09-08T15:09:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[gitpython] Duplicate Advisory: GitPython: command injection via unguarded Git options in `Repo.archive()`, `git.ls_remote()`, and arbitrary file overwrite via `Repo.iter_commits()` / `Repo.blame()`",
-      "url": "https://github.com/advisories/GHSA-4vpg-pfj8-m33q",
-      "date": "2026-09-08T15:08:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[gitpython]  Duplicate Advisory: GitPython unsafe clone option gate bypass through joined short options",
-      "url": "https://github.com/advisories/GHSA-cw2r-r7mw-j3hc",
-      "date": "2026-09-08T15:08:26.000Z",
+      "title": "[GitPython] GitPython: Dormant multi-line git-config values are corrupted into live injected directives (e.g. core.hooksPath) on any unrelated GitConfigParser write, enabling RCE",
+      "url": "https://github.com/advisories/GHSA-284h-m62q-gf8w",
+      "date": "2026-09-08T18:39:42.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "RUSTSEC-2026-0279: Vulnerability in rojo",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0279.html",
-      "date": "2026-09-08T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0280: greentic-setup-dev contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0280.html",
-      "date": "2026-09-07T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0281: greentic-setup contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0281.html",
-      "date": "2026-09-07T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[@typespec/spector] TypeSpec: Unauthenticated Remote Shutdown of Spector Mock Server via POST /.admin/stop",
-      "url": "https://github.com/advisories/GHSA-7q9c-hpx7-9cwm",
-      "date": "2026-09-04T21:43:16.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vllm]  vLLM: Incomplete CVE-2025-62164 remediation can be bypassed by concurrent prompt parts",
-      "url": "https://github.com/advisories/GHSA-pr7f-p5mw-fc87",
-      "date": "2026-09-04T21:39:05.000Z",
+      "title": "[GitPython] Duplicate Advisory: Dormant multi-line git-config values are corrupted into live injected directives (e.g. core.hooksPath) on any unrelated GitConfigParser write, enabling RCE",
+      "url": "https://github.com/advisories/GHSA-9557-234j-7rv9",
+      "date": "2026-09-08T18:39:18.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[vllm] vLLM: ReDoS via structured_outputs.regex in the lm-format-enforcer backend (no compile timeout) — missed sibling of GHSA-rwxx-mrjm-wc2m",
-      "url": "https://github.com/advisories/GHSA-48jh-3gj7-fg8v",
-      "date": "2026-09-04T21:37:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vllm] vLLM: Unauthenticated Internal Path and Username Disclosure via Validation Error Messages",
-      "url": "https://github.com/advisories/GHSA-hwrm-c4cx-rf4j",
-      "date": "2026-09-04T21:36:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vllm] vLLM: Derender endpoints decode caller-supplied GenerateResponse token IDs without output bounds",
-      "url": "https://github.com/advisories/GHSA-8737-qx52-hjff",
-      "date": "2026-09-04T21:32:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[cryptography] python-cryptography: Duplicate self-signed intermediates can cause exponential path-building",
-      "url": "https://github.com/advisories/GHSA-jwv3-5hgf-82ww",
-      "date": "2026-09-04T21:19:51.000Z",
+      "title": "[GitPython] GitPython: Arbitrary local file content disclosure via [include] directive in untrusted .gitmodules (SubmoduleConfigParser never disables merge_includes)",
+      "url": "https://github.com/advisories/GHSA-7833-fr7j-v32q",
+      "date": "2026-09-08T18:38:53.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[@jupyterlab/git] jupyterlab-git extension: Stored XSS leading to RCE",
-      "url": "https://github.com/advisories/GHSA-f962-v9hr-pfg5",
-      "date": "2026-09-04T21:16:44.000Z",
+      "title": "[gitpython] Duplicate Advisory: Arbitrary local file content disclosure via [include] directive in untrusted .gitmodules (SubmoduleConfigParser never disables merge_includes)",
+      "url": "https://github.com/advisories/GHSA-crmc-f4m7-33fj",
+      "date": "2026-09-08T18:18:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[liquidjs] LiquidJS: Uncontrolled Resource Consumption in `join` filter allows template authors to bypass `memoryLimit` and crash the process",
+      "url": "https://github.com/advisories/GHSA-4r6h-5v86-94p3",
+      "date": "2026-09-08T18:10:36.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[danger] danger allows local OS command injection through crafted file paths",
-      "url": "https://github.com/advisories/GHSA-3x93-p86w-5jvh",
-      "date": "2026-09-04T20:51:19.000Z",
+      "title": "[prowler-cloud] Prowler: Stored XSS in HTML reports through unescaped cloud resource tags",
+      "url": "https://github.com/advisories/GHSA-c2jg-2778-ggm4",
+      "date": "2026-09-08T18:09:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[prowler] Prowler: Stored XSS in HTML reports through unescaped cloud resource tags",
+      "url": "https://github.com/advisories/GHSA-c2jg-2778-ggm4",
+      "date": "2026-09-08T18:09:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[csv-parse] node-csv: Prototype replacement still reachable via columns path",
+      "url": "https://github.com/advisories/GHSA-8cw4-87c7-c6xx",
+      "date": "2026-09-08T18:01:41.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[apache-airflow] Apache Airflow exposes deferred trigger kwargs in task-instance API responses",
-      "url": "https://github.com/advisories/GHSA-22hf-vx2v-gjff",
-      "date": "2026-09-04T19:28:50.000Z",
-      "ecosystem": "pypi",
+      "title": "[@swc/html] SWC HTML minifier may allow script element breakout when minifying embedded JSON",
+      "url": "https://github.com/advisories/GHSA-5qr2-v392-m9g8",
+      "date": "2026-09-08T17:58:02.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[jsonata] jsonata: Function Binding Prototype Pollution via hasOwnProperty Override",
+      "url": "https://github.com/advisories/GHSA-663r-x48j-fg8p",
+      "date": "2026-09-08T17:36:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[jsonata] jsonata: Function Binding Prototype Pollution via hasOwnProperty Override",
+      "url": "https://github.com/advisories/GHSA-663r-x48j-fg8p",
+      "date": "2026-09-08T17:36:21.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[gitpython] Duplicate Advisory: GitPython: Command Injection via git long-option prefix abbreviation bypass of CVE-2026-42215 blocklist",
+      "url": "https://github.com/advisories/GHSA-6r2r-ww24-7h52",
+      "date": "2026-09-08T17:17:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[axios] Duplicate Advisory: Axios form serializer maxDepth bypass via {} metatoken",
+      "url": "https://github.com/advisories/GHSA-3mcp-22mf-vrw3",
+      "date": "2026-09-08T17:16:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk] NLTK: Corpus Reader Sandbox Bypass",
+      "url": "https://github.com/advisories/GHSA-3gq4-3j92-5w49",
+      "date": "2026-09-08T16:57:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nltk] NLTK: Corpus readers follow symlinks outside trusted roots despite pathsec enforcement",
+      "url": "https://github.com/advisories/GHSA-p4rw-rvv2-7xwr",
+      "date": "2026-09-08T16:55:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     }
   ]
 }
