@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-09-08T14:19:58.645Z",
+  "fetchedAt": "2026-09-08T18:27:59.150Z",
   "entries": [
+    {
+      "title": "[gitpython] Duplicate Advisory: GitPython: Environment-variable exfiltration via os.path.expandvars() on Repo.clone_from() URL",
+      "url": "https://github.com/advisories/GHSA-m4f3-g4cq-hqrx",
+      "date": "2026-09-08T15:34:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nltk] NLTK: Missing Post-Download Integrity Verification Allows Malicious Package Injection",
+      "url": "https://github.com/advisories/GHSA-5wp5-5229-5g6q",
+      "date": "2026-09-08T15:27:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk] NLTK: StreamBackedCorpusView Bypasses pathsec.ENFORCE - Arbitrary Local File Read",
+      "url": "https://github.com/advisories/GHSA-x5ph-mj9p-rfr8",
+      "date": "2026-09-08T15:27:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nltk] NLTK: FileSystemPathPointer.open() sandbox check is dead code — arbitrary file read via file:// protocol",
+      "url": "https://github.com/advisories/GHSA-72r2-7mfr-5xr9",
+      "date": "2026-09-08T15:27:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk] NLTK: Symlink escape in CorpusReader allows arbitrary local file read outside the corpus root",
+      "url": "https://github.com/advisories/GHSA-r6gq-whwq-mvg9",
+      "date": "2026-09-08T15:26:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-router-dom] React Router: Open redirect leading to XSS",
+      "url": "https://github.com/advisories/GHSA-jjmj-jmhj-qwj2",
+      "date": "2026-09-08T15:09:29.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[gitpython] Duplicate Advisory: GitPython: command injection via unguarded Git options in `Repo.archive()`, `git.ls_remote()`, and arbitrary file overwrite via `Repo.iter_commits()` / `Repo.blame()`",
+      "url": "https://github.com/advisories/GHSA-4vpg-pfj8-m33q",
+      "date": "2026-09-08T15:08:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[gitpython]  Duplicate Advisory: GitPython unsafe clone option gate bypass through joined short options",
+      "url": "https://github.com/advisories/GHSA-cw2r-r7mw-j3hc",
+      "date": "2026-09-08T15:08:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0279: Vulnerability in rojo",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0279.html",
@@ -81,62 +137,6 @@
       "date": "2026-09-04T19:28:50.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow exposes sensitive JSON Variable values through the Bulk Variables API",
-      "url": "https://github.com/advisories/GHSA-563f-2439-rmq4",
-      "date": "2026-09-04T19:25:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow exposes secrets backend credentials through the Config API",
-      "url": "https://github.com/advisories/GHSA-9933-5rrp-mfwx",
-      "date": "2026-09-04T19:24:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow exposes unreadable DAG identifiers in the scheduling dependencies graph",
-      "url": "https://github.com/advisories/GHSA-3322-mjxh-9mp5",
-      "date": "2026-09-04T19:24:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow allows code execution through unsafe serialized DAG deserialization",
-      "url": "https://github.com/advisories/GHSA-2943-9672-r45w",
-      "date": "2026-09-04T19:23:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[apache-airflow-providers-google] Apache Airflow Google provider allows path traversal through GCS object names",
-      "url": "https://github.com/advisories/GHSA-v3mh-27qj-w836",
-      "date": "2026-09-04T19:22:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow-providers-ftp] Apache Airflow FTP provider: FTP Provider does not protect FTPS data channel (missing PROT_P)",
-      "url": "https://github.com/advisories/GHSA-fgch-86x8-fv43",
-      "date": "2026-09-04T18:48:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[codewhale] CodeWhale: Project config `allow_shell` override enables arbitrary shell command execution via cloned repository",
-      "url": "https://github.com/advisories/GHSA-gx45-xrj5-g6c4",
-      "date": "2026-09-04T18:14:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[deepseek-tui] CodeWhale: Project config `allow_shell` override enables arbitrary shell command execution via cloned repository",
-      "url": "https://github.com/advisories/GHSA-gx45-xrj5-g6c4",
-      "date": "2026-09-04T18:14:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
