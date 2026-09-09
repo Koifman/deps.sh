@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-09-09T04:31:05.287Z",
+  "fetchedAt": "2026-09-09T09:32:46.900Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0273: Vulnerability in manzana",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0273.html",
+      "date": "2026-09-09T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[n8n] n8n: Agent Workflow Tool Bypasses Sub-Workflow Caller Policy",
       "url": "https://github.com/advisories/GHSA-7hgx-277f-7vmg",
@@ -131,13 +137,6 @@
       "title": "[js-yaml] js-yaml: maxTotalMergeKeys does not limit CPU use for empty merge sources",
       "url": "https://github.com/advisories/GHSA-2883-xcg3-v3hh",
       "date": "2026-09-08T21:24:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@tiptap/core] Tiptap: Quadratic ReDoS in block and inline Markdown attribute parsing",
-      "url": "https://github.com/advisories/GHSA-j95f-988m-3j2f",
-      "date": "2026-09-08T21:24:11.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
