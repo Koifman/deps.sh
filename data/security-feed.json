@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-09-09T14:21:03.155Z",
+  "fetchedAt": "2026-09-09T18:27:22.957Z",
   "entries": [
+    {
+      "title": "[smol-toml] smol-toml: Denial of Service via malformed TOML documents",
+      "url": "https://github.com/advisories/GHSA-7w5x-hrqm-74c2",
+      "date": "2026-09-09T18:07:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[weasyprint] weasyprint Has Server-Side Request Forgery (SSRF)",
+      "url": "https://github.com/advisories/GHSA-jf6q-chmf-3h3v",
+      "date": "2026-09-09T18:06:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[sqladmin] SQLAdmin: Unvalidated sortBy parameter in `ModelView` bypasses `column_sortable_list`",
+      "url": "https://github.com/advisories/GHSA-ccg5-9c8w-xh6v",
+      "date": "2026-09-09T18:02:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[githacker] GitHacker: Path traversal in ref/hash parsing enables existence oracle and hex-fragment exfiltration via malicious .git server",
+      "url": "https://github.com/advisories/GHSA-hr3m-4qwq-3mgc",
+      "date": "2026-09-09T18:00:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nltk] Duplicate Advisory: NLTK: Missing Post-Download Integrity Verification Allows Malicious Package Injection",
+      "url": "https://github.com/advisories/GHSA-gf32-cmjh-8m9v",
+      "date": "2026-09-09T16:33:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0282: Vulnerability in aligned_box",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0282.html",
@@ -103,41 +138,6 @@
       "date": "2026-09-08T21:28:26.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[winml-cli] Windows ML CLI: CORS misconfig enables localhost RCE",
-      "url": "https://github.com/advisories/GHSA-96p9-rh4f-92cf",
-      "date": "2026-09-08T21:28:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[astro] Astro: Remote code execution through AVIF image optimization",
-      "url": "https://github.com/advisories/GHSA-26w7-cxv4-gfx2",
-      "date": "2026-09-08T21:26:18.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[astro] Astro: Authorization bypass from missing path-segment boundary check when stripping the configured base",
-      "url": "https://github.com/advisories/GHSA-376h-93r7-7g6f",
-      "date": "2026-09-08T21:26:04.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sharp] sharp: Vulnerabilities in libheif: GHSA-g89c-p67h-r497 and GHSA-2jg2-4ch7-h545",
-      "url": "https://github.com/advisories/GHSA-rgj7-g3m4-5g8c",
-      "date": "2026-09-08T21:25:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[js-yaml] js-yaml: maxTotalMergeKeys does not limit CPU use for empty merge sources",
-      "url": "https://github.com/advisories/GHSA-2883-xcg3-v3hh",
-      "date": "2026-09-08T21:24:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
