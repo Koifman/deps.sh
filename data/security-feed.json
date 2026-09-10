@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-09-10T00:00:45.284Z",
+  "fetchedAt": "2026-09-10T05:46:04.387Z",
   "entries": [
+    {
+      "title": "[open-webui] Open WebUI: Any authenticated user can hang the server via message deletion in a cyclic chat tree",
+      "url": "https://github.com/advisories/GHSA-3cgp-3cqx-j8w2",
+      "date": "2026-09-09T23:54:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Server-side fetches reach blocked and internal hosts via unvalidated HTTP redirect targets",
+      "url": "https://github.com/advisories/GHSA-5x7x-4c3c-qf5w",
+      "date": "2026-09-09T23:54:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Any authenticated user can hang the server via a cyclic chat message history",
+      "url": "https://github.com/advisories/GHSA-jqhh-cjmq-vmv6",
+      "date": "2026-09-09T23:54:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@openhop/server] @openhop/server: Path Traversal in Flow ID File Operations",
+      "url": "https://github.com/advisories/GHSA-g72f-jw3w-mgh7",
+      "date": "2026-09-09T23:52:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[esphome-device-builder] ESPHome Device Builder Dashboard: Unauthenticated dashboard access via the HA add-on ingress site bound to all interfaces",
+      "url": "https://github.com/advisories/GHSA-vv4j-m4vr-f3g6",
+      "date": "2026-09-09T23:51:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nuxt] Duplicate Advisory: Cross-site scripting via <NoScript> slot content in Nuxt's head components",
+      "url": "https://github.com/advisories/GHSA-xppm-jmw6-fhmf",
+      "date": "2026-09-09T23:50:36.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[nuxt] Duplicate Advisory: Cross-site scripting via <NoScript> slot content in Nuxt's head components",
+      "url": "https://github.com/advisories/GHSA-xppm-jmw6-fhmf",
+      "date": "2026-09-09T23:50:36.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[functype-mcp-server] functype-mcp-server: MCP `set_functype_version` Package Alias RCE via Unsanitized pnpm install + Dynamic Import",
+      "url": "https://github.com/advisories/GHSA-wcjj-9m6g-2fr2",
+      "date": "2026-09-09T23:49:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@yeger/turbo-graph] @yeger/turbo-graph: Unauthenticated Network-Exposed Task Execution via /api/run",
+      "url": "https://github.com/advisories/GHSA-2r5q-h53f-9rp3",
+      "date": "2026-09-09T23:47:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nuxt-ollama] Nuxt Ollama: Public Runtime Config Exposes Ollama API Key to Browser Clients",
+      "url": "https://github.com/advisories/GHSA-fxg7-897c-57mp",
+      "date": "2026-09-09T23:47:46.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[smol-toml] smol-toml: Denial of Service via malformed TOML documents",
       "url": "https://github.com/advisories/GHSA-7w5x-hrqm-74c2",
@@ -66,76 +136,6 @@
       "title": "[nodemailer] Nodemailer: IDN/Punycode domain allow-list bypass leads to email delivery to an attacker-controlled domain",
       "url": "https://github.com/advisories/GHSA-wmmp-3585-3rmp",
       "date": "2026-09-08T21:33:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nodemailer] Nodemailer: Quadratic (O(n²)) time complexity in addressparser allows remote denial of service via a crafted address list",
-      "url": "https://github.com/advisories/GHSA-2x7j-588g-ccc2",
-      "date": "2026-09-08T21:33:19.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nodemailer] Nodemailer: Recipient-domain validation bypass via RFC 5322 comment mis-parsing leads to email delivery to an attacker-controlled domain",
-      "url": "https://github.com/advisories/GHSA-cc9r-2j5m-2m83",
-      "date": "2026-09-08T21:32:53.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[litellm] LiteLLM vulnerable to server-side template injection in the /prompts/test endpoint",
-      "url": "https://github.com/advisories/GHSA-6wvf-77m9-58rm",
-      "date": "2026-09-08T21:31:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@typespec/compiler] OpenAPI3 version value escapes `emitterOutputDir` and overwrites YAML/JSON outside the output tree",
-      "url": "https://github.com/advisories/GHSA-2q42-4q24-7rgv",
-      "date": "2026-09-08T21:31:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@typespec/openapi3] OpenAPI3 version value escapes `emitterOutputDir` and overwrites YAML/JSON outside the output tree",
-      "url": "https://github.com/advisories/GHSA-2q42-4q24-7rgv",
-      "date": "2026-09-08T21:31:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[multer] multer vulnerable to Denial of Service via crafted multipart field names",
-      "url": "https://github.com/advisories/GHSA-wc9g-mqfw-jrwm",
-      "date": "2026-09-08T21:30:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[multer] multer vulnerable to Denial of Service via file descriptor leak on aborted uploads",
-      "url": "https://github.com/advisories/GHSA-qfvm-cv95-jqjf",
-      "date": "2026-09-08T21:29:51.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[multer] multer vulnerable to file size limit bypass via async fileFilter race condition",
-      "url": "https://github.com/advisories/GHSA-qvfw-j98x-7q72",
-      "date": "2026-09-08T21:29:43.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[multer] multer vulnerable to Denial of Service via oversized array index in field names",
-      "url": "https://github.com/advisories/GHSA-535w-7cp7-47q4",
-      "date": "2026-09-08T21:28:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[morgan] morgan vulnerable to Log Forging via unescaped Unicode line separators",
-      "url": "https://github.com/advisories/GHSA-jxfw-x594-9x9m",
-      "date": "2026-09-08T21:28:26.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
