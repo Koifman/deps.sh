@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-09-10T19:30:28.997Z",
+  "fetchedAt": "2026-09-10T22:24:30.819Z",
   "entries": [
     {
-      "title": "[n8n] n8n: Domain-Restriction Bypass via Unguarded Model-Search Endpoint in OpenAI Chat Model Node",
-      "url": "https://github.com/advisories/GHSA-34ff-336r-5q23",
-      "date": "2026-09-10T15:12:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Domain-Restriction Bypass via Unguarded Model-Search Endpoint in OpenAI Chat Model Node",
-      "url": "https://github.com/advisories/GHSA-34ff-336r-5q23",
-      "date": "2026-09-10T15:12:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Domain-Restriction Bypass via Unguarded Model-Search Endpoint in OpenAI Chat Model Node",
-      "url": "https://github.com/advisories/GHSA-34ff-336r-5q23",
-      "date": "2026-09-10T15:12:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Regular Expression Denial of Service in the Default Blocked-File-Pattern Match via a Git Node Clone Path",
-      "url": "https://github.com/advisories/GHSA-j535-v25q-vx3q",
-      "date": "2026-09-10T15:12:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Regular Expression Denial of Service in the Default Blocked-File-Pattern Match via a Git Node Clone Path",
-      "url": "https://github.com/advisories/GHSA-j535-v25q-vx3q",
-      "date": "2026-09-10T15:12:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Regular Expression Denial of Service in the Default Blocked-File-Pattern Match via a Git Node Clone Path",
-      "url": "https://github.com/advisories/GHSA-j535-v25q-vx3q",
-      "date": "2026-09-10T15:12:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Unauthenticated Persistent Storage Exhaustion via OAuth Dynamic Client Registration Endpoint",
-      "url": "https://github.com/advisories/GHSA-hh89-3r9w-qj3j",
-      "date": "2026-09-10T15:11:31.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Unauthenticated Persistent Storage Exhaustion via OAuth Dynamic Client Registration Endpoint",
-      "url": "https://github.com/advisories/GHSA-hh89-3r9w-qj3j",
-      "date": "2026-09-10T15:11:31.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Expression Sandbox Escape via Class-Field Sanitizer Rebinding Can Lead to Code Execution",
-      "url": "https://github.com/advisories/GHSA-hw8v-xxg5-vvvx",
-      "date": "2026-09-10T15:11:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Expression Sandbox Escape via Class-Field Sanitizer Rebinding Can Lead to Code Execution",
-      "url": "https://github.com/advisories/GHSA-hw8v-xxg5-vvvx",
-      "date": "2026-09-10T15:11:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[n8n] n8n: Expression Sandbox Escape via Class-Field Sanitizer Rebinding Can Lead to Code Execution",
-      "url": "https://github.com/advisories/GHSA-hw8v-xxg5-vvvx",
-      "date": "2026-09-10T15:11:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Inaccessible knowledge bases are exposed through the built-in knowledge tool on most vector backends",
-      "url": "https://github.com/advisories/GHSA-pcvc-8vrv-8q6w",
-      "date": "2026-09-10T15:10:42.000Z",
+      "title": "[open-webui] Open WebUI: A user's session cookies are sent to tool servers configured for bearer authentication",
+      "url": "https://github.com/advisories/GHSA-p78m-89r6-pgf7",
+      "date": "2026-09-10T21:23:45.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[open-webui] Open WebUI: Channel members can overwrite another member's message via the chat completions endpoint",
-      "url": "https://github.com/advisories/GHSA-fmqh-xp37-5hr8",
-      "date": "2026-09-10T15:10:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Same-origin XSS to account takeover via terminal port-preview iframe hardcoding allow-same-origin",
-      "url": "https://github.com/advisories/GHSA-jmc6-2wr8-h3wj",
-      "date": "2026-09-10T15:10:20.000Z",
+      "title": "[open-webui] Open WebUI: Sign-in as another user via wildcard characters in the OAuth subject claim on SQLite",
+      "url": "https://github.com/advisories/GHSA-wpmr-8h3q-fwj7",
+      "date": "2026-09-10T21:23:26.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[open-webui] Open WebUI: SSRF into internal services via DNS rebinding in the Playwright web loader",
-      "url": "https://github.com/advisories/GHSA-4v28-j6q3-5m4r",
-      "date": "2026-09-10T15:10:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Any authenticated user can inject chats into another user's folder via chat completions",
-      "url": "https://github.com/advisories/GHSA-3pf7-q2g3-wj28",
-      "date": "2026-09-10T15:10:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Non-admin users can delete admin-owned external knowledge connections via knowledge base deletion",
-      "url": "https://github.com/advisories/GHSA-2724-6cpj-gf3v",
-      "date": "2026-09-10T15:09:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Any authenticated user can reach the Azure platform channel via server-side web fetch",
-      "url": "https://github.com/advisories/GHSA-34r3-9m95-vq73",
-      "date": "2026-09-10T15:09:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Users denied by the OAuth domain allowlist or role policy can still sign in via token exchange",
-      "url": "https://github.com/advisories/GHSA-4qg5-cxx4-g927",
-      "date": "2026-09-10T15:09:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@eigenpal/docx-editor-react] @eigenpal/docx-editor-react: CSS injection and print-time XSS via unescaped embedded font-family name",
-      "url": "https://github.com/advisories/GHSA-x7m8-jrm8-hpvx",
-      "date": "2026-09-10T15:06:17.000Z",
+      "title": "[omniroute]  OmniRoute ACP Custom-Agent Remote Code Execution (RCE)",
+      "url": "https://github.com/advisories/GHSA-hf57-cqmx-p4gr",
+      "date": "2026-09-10T21:22:13.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[n8n] n8n: Per-Resource OAuth Consent Bypass via Unbound Refresh Token Resource Substitution",
+      "url": "https://github.com/advisories/GHSA-cw9w-vv67-hf73",
+      "date": "2026-09-10T21:21:49.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Per-Resource OAuth Consent Bypass via Unbound Refresh Token Resource Substitution",
+      "url": "https://github.com/advisories/GHSA-cw9w-vv67-hf73",
+      "date": "2026-09-10T21:21:49.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Instance AI Credential Setup Accepts Unvalidated Probe URL from Fetched Content",
+      "url": "https://github.com/advisories/GHSA-q5wm-mgqx-fv2f",
+      "date": "2026-09-10T21:18:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Instance AI Credential Setup Accepts Unvalidated Probe URL from Fetched Content",
+      "url": "https://github.com/advisories/GHSA-q5wm-mgqx-fv2f",
+      "date": "2026-09-10T21:18:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Git Node branch.<name>.remote Config Key Bypasses Sandbox Path Restriction, Enabling Local Git Repository Read",
+      "url": "https://github.com/advisories/GHSA-qgpw-8g46-w95v",
+      "date": "2026-09-10T21:16:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Git Node branch.<name>.remote Config Key Bypasses Sandbox Path Restriction, Enabling Local Git Repository Read",
+      "url": "https://github.com/advisories/GHSA-qgpw-8g46-w95v",
+      "date": "2026-09-10T21:16:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Git Node branch.<name>.remote Config Key Bypasses Sandbox Path Restriction, Enabling Local Git Repository Read",
+      "url": "https://github.com/advisories/GHSA-qgpw-8g46-w95v",
+      "date": "2026-09-10T21:16:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Cross-Tenant Project-Member PII Disclosure via Missing Per-Project Scope Check on Role Assignment Endpoints",
+      "url": "https://github.com/advisories/GHSA-cqr2-h44g-v75v",
+      "date": "2026-09-10T21:13:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Cross-Tenant Project-Member PII Disclosure via Missing Per-Project Scope Check on Role Assignment Endpoints",
+      "url": "https://github.com/advisories/GHSA-cqr2-h44g-v75v",
+      "date": "2026-09-10T21:13:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Log Streaming Event Destinations Decrypt Generic-Auth Credentials Without Ownership Check",
+      "url": "https://github.com/advisories/GHSA-pq6c-vh67-xpm3",
+      "date": "2026-09-10T21:07:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Log Streaming Event Destinations Decrypt Generic-Auth Credentials Without Ownership Check",
+      "url": "https://github.com/advisories/GHSA-pq6c-vh67-xpm3",
+      "date": "2026-09-10T21:07:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Log Streaming Event Destinations Decrypt Generic-Auth Credentials Without Ownership Check",
+      "url": "https://github.com/advisories/GHSA-pq6c-vh67-xpm3",
+      "date": "2026-09-10T21:07:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Disabled OIDC SSO Endpoints Remain Active and Issue Valid Sessions",
+      "url": "https://github.com/advisories/GHSA-pf83-w3f9-8m37",
+      "date": "2026-09-10T21:07:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Disabled OIDC SSO Endpoints Remain Active and Issue Valid Sessions",
+      "url": "https://github.com/advisories/GHSA-pf83-w3f9-8m37",
+      "date": "2026-09-10T21:07:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: Disabled OIDC SSO Endpoints Remain Active and Issue Valid Sessions",
+      "url": "https://github.com/advisories/GHSA-pf83-w3f9-8m37",
+      "date": "2026-09-10T21:07:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: GitHub Trigger 422 Reuse Path Skips Webhook Secret Storage, Causing Signature Verification to Fail-Open",
+      "url": "https://github.com/advisories/GHSA-5m98-cgcr-xx3q",
+      "date": "2026-09-10T21:06:37.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[n8n] n8n: GitHub Trigger 422 Reuse Path Skips Webhook Secret Storage, Causing Signature Verification to Fail-Open",
+      "url": "https://github.com/advisories/GHSA-5m98-cgcr-xx3q",
+      "date": "2026-09-10T21:06:37.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     }
   ]
 }
