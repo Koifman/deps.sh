@@ -1,143 +1,145 @@
 {
-  "fetchedAt": "2026-09-10T16:14:37.810Z",
+  "fetchedAt": "2026-09-10T19:30:28.997Z",
   "entries": [
     {
-      "title": "[open-webui] Open WebUI: Any authenticated user can hang the server via message deletion in a cyclic chat tree",
-      "url": "https://github.com/advisories/GHSA-3cgp-3cqx-j8w2",
-      "date": "2026-09-09T23:54:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Server-side fetches reach blocked and internal hosts via unvalidated HTTP redirect targets",
-      "url": "https://github.com/advisories/GHSA-5x7x-4c3c-qf5w",
-      "date": "2026-09-09T23:54:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Any authenticated user can hang the server via a cyclic chat message history",
-      "url": "https://github.com/advisories/GHSA-jqhh-cjmq-vmv6",
-      "date": "2026-09-09T23:54:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@openhop/server] @openhop/server: Path Traversal in Flow ID File Operations",
-      "url": "https://github.com/advisories/GHSA-g72f-jw3w-mgh7",
-      "date": "2026-09-09T23:52:02.000Z",
+      "title": "[n8n] n8n: Domain-Restriction Bypass via Unguarded Model-Search Endpoint in OpenAI Chat Model Node",
+      "url": "https://github.com/advisories/GHSA-34ff-336r-5q23",
+      "date": "2026-09-10T15:12:15.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[esphome-device-builder] ESPHome Device Builder Dashboard: Unauthenticated dashboard access via the HA add-on ingress site bound to all interfaces",
-      "url": "https://github.com/advisories/GHSA-vv4j-m4vr-f3g6",
-      "date": "2026-09-09T23:51:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nuxt] Duplicate Advisory: Cross-site scripting via <NoScript> slot content in Nuxt's head components",
-      "url": "https://github.com/advisories/GHSA-xppm-jmw6-fhmf",
-      "date": "2026-09-09T23:50:36.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[nuxt] Duplicate Advisory: Cross-site scripting via <NoScript> slot content in Nuxt's head components",
-      "url": "https://github.com/advisories/GHSA-xppm-jmw6-fhmf",
-      "date": "2026-09-09T23:50:36.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[functype-mcp-server] functype-mcp-server: MCP `set_functype_version` Package Alias RCE via Unsanitized pnpm install + Dynamic Import",
-      "url": "https://github.com/advisories/GHSA-wcjj-9m6g-2fr2",
-      "date": "2026-09-09T23:49:21.000Z",
+      "title": "[n8n] n8n: Domain-Restriction Bypass via Unguarded Model-Search Endpoint in OpenAI Chat Model Node",
+      "url": "https://github.com/advisories/GHSA-34ff-336r-5q23",
+      "date": "2026-09-10T15:12:15.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@yeger/turbo-graph] @yeger/turbo-graph: Unauthenticated Network-Exposed Task Execution via /api/run",
-      "url": "https://github.com/advisories/GHSA-2r5q-h53f-9rp3",
-      "date": "2026-09-09T23:47:56.000Z",
+      "title": "[n8n] n8n: Domain-Restriction Bypass via Unguarded Model-Search Endpoint in OpenAI Chat Model Node",
+      "url": "https://github.com/advisories/GHSA-34ff-336r-5q23",
+      "date": "2026-09-10T15:12:15.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[nuxt-ollama] Nuxt Ollama: Public Runtime Config Exposes Ollama API Key to Browser Clients",
-      "url": "https://github.com/advisories/GHSA-fxg7-897c-57mp",
-      "date": "2026-09-09T23:47:46.000Z",
+      "title": "[n8n] n8n: Regular Expression Denial of Service in the Default Blocked-File-Pattern Match via a Git Node Clone Path",
+      "url": "https://github.com/advisories/GHSA-j535-v25q-vx3q",
+      "date": "2026-09-10T15:12:01.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[smol-toml] smol-toml: Denial of Service via malformed TOML documents",
-      "url": "https://github.com/advisories/GHSA-7w5x-hrqm-74c2",
-      "date": "2026-09-09T18:07:14.000Z",
+      "title": "[n8n] n8n: Regular Expression Denial of Service in the Default Blocked-File-Pattern Match via a Git Node Clone Path",
+      "url": "https://github.com/advisories/GHSA-j535-v25q-vx3q",
+      "date": "2026-09-10T15:12:01.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[weasyprint] weasyprint Has Server-Side Request Forgery (SSRF)",
-      "url": "https://github.com/advisories/GHSA-jf6q-chmf-3h3v",
-      "date": "2026-09-09T18:06:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sqladmin] SQLAdmin: Unvalidated sortBy parameter in `ModelView` bypasses `column_sortable_list`",
-      "url": "https://github.com/advisories/GHSA-ccg5-9c8w-xh6v",
-      "date": "2026-09-09T18:02:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[githacker] GitHacker: Path traversal in ref/hash parsing enables existence oracle and hex-fragment exfiltration via malicious .git server",
-      "url": "https://github.com/advisories/GHSA-hr3m-4qwq-3mgc",
-      "date": "2026-09-09T18:00:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: NLTK: Missing Post-Download Integrity Verification Allows Malicious Package Injection",
-      "url": "https://github.com/advisories/GHSA-gf32-cmjh-8m9v",
-      "date": "2026-09-09T16:33:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0282: Vulnerability in aligned_box",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0282.html",
-      "date": "2026-09-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0273: Vulnerability in manzana",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0273.html",
-      "date": "2026-09-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[n8n] n8n: Agent Workflow Tool Bypasses Sub-Workflow Caller Policy",
-      "url": "https://github.com/advisories/GHSA-7hgx-277f-7vmg",
-      "date": "2026-09-08T21:33:48.000Z",
+      "title": "[n8n] n8n: Regular Expression Denial of Service in the Default Blocked-File-Pattern Match via a Git Node Clone Path",
+      "url": "https://github.com/advisories/GHSA-j535-v25q-vx3q",
+      "date": "2026-09-10T15:12:01.000Z",
       "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Unauthenticated Persistent Storage Exhaustion via OAuth Dynamic Client Registration Endpoint",
+      "url": "https://github.com/advisories/GHSA-hh89-3r9w-qj3j",
+      "date": "2026-09-10T15:11:31.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Unauthenticated Persistent Storage Exhaustion via OAuth Dynamic Client Registration Endpoint",
+      "url": "https://github.com/advisories/GHSA-hh89-3r9w-qj3j",
+      "date": "2026-09-10T15:11:31.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Expression Sandbox Escape via Class-Field Sanitizer Rebinding Can Lead to Code Execution",
+      "url": "https://github.com/advisories/GHSA-hw8v-xxg5-vvvx",
+      "date": "2026-09-10T15:11:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Expression Sandbox Escape via Class-Field Sanitizer Rebinding Can Lead to Code Execution",
+      "url": "https://github.com/advisories/GHSA-hw8v-xxg5-vvvx",
+      "date": "2026-09-10T15:11:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[n8n] n8n: Expression Sandbox Escape via Class-Field Sanitizer Rebinding Can Lead to Code Execution",
+      "url": "https://github.com/advisories/GHSA-hw8v-xxg5-vvvx",
+      "date": "2026-09-10T15:11:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Inaccessible knowledge bases are exposed through the built-in knowledge tool on most vector backends",
+      "url": "https://github.com/advisories/GHSA-pcvc-8vrv-8q6w",
+      "date": "2026-09-10T15:10:42.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[n8n] n8n: Agent Workflow Tool Bypasses Sub-Workflow Caller Policy",
-      "url": "https://github.com/advisories/GHSA-7hgx-277f-7vmg",
-      "date": "2026-09-08T21:33:48.000Z",
-      "ecosystem": "npm",
+      "title": "[open-webui] Open WebUI: Channel members can overwrite another member's message via the chat completions endpoint",
+      "url": "https://github.com/advisories/GHSA-fmqh-xp37-5hr8",
+      "date": "2026-09-10T15:10:30.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[nodemailer] Nodemailer: IDN/Punycode domain allow-list bypass leads to email delivery to an attacker-controlled domain",
-      "url": "https://github.com/advisories/GHSA-wmmp-3585-3rmp",
-      "date": "2026-09-08T21:33:33.000Z",
-      "ecosystem": "npm",
+      "title": "[open-webui] Open WebUI: Same-origin XSS to account takeover via terminal port-preview iframe hardcoding allow-same-origin",
+      "url": "https://github.com/advisories/GHSA-jmc6-2wr8-h3wj",
+      "date": "2026-09-10T15:10:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: SSRF into internal services via DNS rebinding in the Playwright web loader",
+      "url": "https://github.com/advisories/GHSA-4v28-j6q3-5m4r",
+      "date": "2026-09-10T15:10:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Any authenticated user can inject chats into another user's folder via chat completions",
+      "url": "https://github.com/advisories/GHSA-3pf7-q2g3-wj28",
+      "date": "2026-09-10T15:10:05.000Z",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Non-admin users can delete admin-owned external knowledge connections via knowledge base deletion",
+      "url": "https://github.com/advisories/GHSA-2724-6cpj-gf3v",
+      "date": "2026-09-10T15:09:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Any authenticated user can reach the Azure platform channel via server-side web fetch",
+      "url": "https://github.com/advisories/GHSA-34r3-9m95-vq73",
+      "date": "2026-09-10T15:09:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Users denied by the OAuth domain allowlist or role policy can still sign in via token exchange",
+      "url": "https://github.com/advisories/GHSA-4qg5-cxx4-g927",
+      "date": "2026-09-10T15:09:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@eigenpal/docx-editor-react] @eigenpal/docx-editor-react: CSS injection and print-time XSS via unescaped embedded font-family name",
+      "url": "https://github.com/advisories/GHSA-x7m8-jrm8-hpvx",
+      "date": "2026-09-10T15:06:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
