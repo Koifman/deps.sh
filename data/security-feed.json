@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-11T16:18:25.953Z",
+  "fetchedAt": "2026-09-11T19:30:49.471Z",
   "entries": [
+    {
+      "title": "[vllm] Duplicate Advisory: vLLM Vulnerable to Regular Expression Denial of Service",
+      "url": "https://github.com/advisories/GHSA-vfm7-4h43-gp6m",
+      "date": "2026-09-11T15:45:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[open-webui] Open WebUI: Users denied by the OAuth role policy can still sign in via token exchange",
       "url": "https://github.com/advisories/GHSA-wvm9-9g5j-623f",
@@ -117,13 +124,6 @@
       "title": "[n8n] n8n: Instance AI Credential Setup Accepts Unvalidated Probe URL from Fetched Content",
       "url": "https://github.com/advisories/GHSA-q5wm-mgqx-fv2f",
       "date": "2026-09-10T21:18:48.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Git Node branch.<name>.remote Config Key Bypasses Sandbox Path Restriction, Enabling Local Git Repository Read",
-      "url": "https://github.com/advisories/GHSA-qgpw-8g46-w95v",
-      "date": "2026-09-10T21:16:38.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
