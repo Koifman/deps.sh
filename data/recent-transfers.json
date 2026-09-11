@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-11T05:48:39.994Z",
+  "scannedAt": "2026-09-11T11:05:47.675Z",
   "count": 127,
   "packages": [
     {
@@ -606,15 +606,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/abort-controller",
-      "version": "2.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "azure-sdk",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@inquirer/number",
       "version": "4.2.3",
       "ecosystem": "npm",
@@ -622,6 +613,15 @@
       "level": "MODERATE",
       "previousOwner": "sboudrias",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@azure/abort-controller",
+      "version": "2.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "azure-sdk",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@supabase/storage-js",
@@ -733,7 +733,7 @@
     },
     {
       "name": "yuku-parser",
-      "version": "0.10.0",
+      "version": "0.10.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -760,7 +760,16 @@
     },
     {
       "name": "yuku-ast",
-      "version": "0.10.0",
+      "version": "0.10.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "arshadyaseen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "yuku-codegen",
+      "version": "0.10.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -774,15 +783,6 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "yuku-codegen",
-      "version": "0.10.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "arshadyaseen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1003,7 +1003,7 @@
     },
     {
       "name": "@yuku-toolchain/types",
-      "version": "0.10.0",
+      "version": "0.10.1",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
