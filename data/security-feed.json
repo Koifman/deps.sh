@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-09-10T22:24:30.819Z",
+  "fetchedAt": "2026-09-11T00:54:13.291Z",
   "entries": [
+    {
+      "title": "[open-webui] Open WebUI: Users denied by the OAuth role policy can still sign in via token exchange",
+      "url": "https://github.com/advisories/GHSA-wvm9-9g5j-623f",
+      "date": "2026-09-10T23:04:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Unauthenticated requests can stall the server via uncached OIDC fetches in back-channel logout",
+      "url": "https://github.com/advisories/GHSA-3g9q-v48f-hh9w",
+      "date": "2026-09-10T22:45:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Any authenticated user can suppress calendar alerts instance-wide via a non-numeric alert value",
+      "url": "https://github.com/advisories/GHSA-v39v-59xw-j98g",
+      "date": "2026-09-10T22:42:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Any authenticated user can start a non-terminating request via a folder parent cycle",
+      "url": "https://github.com/advisories/GHSA-8r35-5x5r-hv74",
+      "date": "2026-09-10T22:42:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI: Admin demoted through SSO role sync keeps read and write access to all users' notes",
+      "url": "https://github.com/advisories/GHSA-wjwr-xfp9-r66p",
+      "date": "2026-09-10T22:41:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@jhb.software/payload-alt-text-plugin] @jhb.software/payload-alt-text-plugin: Alt Text Endpoint Authorization Bypass via Payload Local API `overrideAccess` Omission",
+      "url": "https://github.com/advisories/GHSA-4qpv-39hg-f7fx",
+      "date": "2026-09-10T22:39:14.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[litellm] LiteLLM: SSO Debug Flow Has Improper Authentication",
+      "url": "https://github.com/advisories/GHSA-j37q-q7p9-vpwm",
+      "date": "2026-09-10T22:34:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@argos-ci/core] @argos-ci/core: CI Branch Name OS Command Injection",
+      "url": "https://github.com/advisories/GHSA-4x45-gxvp-6283",
+      "date": "2026-09-10T22:34:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[litellm] LiteLLM: Admin Key Handler Has Improper Authorization",
+      "url": "https://github.com/advisories/GHSA-6qr3-3g89-m4jj",
+      "date": "2026-09-10T22:32:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[litellm] LiteLLM: MCP Proxy Has Improper Authentication",
+      "url": "https://github.com/advisories/GHSA-4jcj-7x88-m979",
+      "date": "2026-09-10T22:32:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[open-webui] Open WebUI: A user's session cookies are sent to tool servers configured for bearer authentication",
       "url": "https://github.com/advisories/GHSA-p78m-89r6-pgf7",
@@ -68,76 +138,6 @@
       "title": "[n8n] n8n: Git Node branch.<name>.remote Config Key Bypasses Sandbox Path Restriction, Enabling Local Git Repository Read",
       "url": "https://github.com/advisories/GHSA-qgpw-8g46-w95v",
       "date": "2026-09-10T21:16:38.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Cross-Tenant Project-Member PII Disclosure via Missing Per-Project Scope Check on Role Assignment Endpoints",
-      "url": "https://github.com/advisories/GHSA-cqr2-h44g-v75v",
-      "date": "2026-09-10T21:13:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Cross-Tenant Project-Member PII Disclosure via Missing Per-Project Scope Check on Role Assignment Endpoints",
-      "url": "https://github.com/advisories/GHSA-cqr2-h44g-v75v",
-      "date": "2026-09-10T21:13:25.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Log Streaming Event Destinations Decrypt Generic-Auth Credentials Without Ownership Check",
-      "url": "https://github.com/advisories/GHSA-pq6c-vh67-xpm3",
-      "date": "2026-09-10T21:07:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Log Streaming Event Destinations Decrypt Generic-Auth Credentials Without Ownership Check",
-      "url": "https://github.com/advisories/GHSA-pq6c-vh67-xpm3",
-      "date": "2026-09-10T21:07:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Log Streaming Event Destinations Decrypt Generic-Auth Credentials Without Ownership Check",
-      "url": "https://github.com/advisories/GHSA-pq6c-vh67-xpm3",
-      "date": "2026-09-10T21:07:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Disabled OIDC SSO Endpoints Remain Active and Issue Valid Sessions",
-      "url": "https://github.com/advisories/GHSA-pf83-w3f9-8m37",
-      "date": "2026-09-10T21:07:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Disabled OIDC SSO Endpoints Remain Active and Issue Valid Sessions",
-      "url": "https://github.com/advisories/GHSA-pf83-w3f9-8m37",
-      "date": "2026-09-10T21:07:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: Disabled OIDC SSO Endpoints Remain Active and Issue Valid Sessions",
-      "url": "https://github.com/advisories/GHSA-pf83-w3f9-8m37",
-      "date": "2026-09-10T21:07:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: GitHub Trigger 422 Reuse Path Skips Webhook Secret Storage, Causing Signature Verification to Fail-Open",
-      "url": "https://github.com/advisories/GHSA-5m98-cgcr-xx3q",
-      "date": "2026-09-10T21:06:37.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[n8n] n8n: GitHub Trigger 422 Reuse Path Skips Webhook Secret Storage, Causing Signature Verification to Fail-Open",
-      "url": "https://github.com/advisories/GHSA-5m98-cgcr-xx3q",
-      "date": "2026-09-10T21:06:37.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
