@@ -1,16 +1,7 @@
 {
-  "scannedAt": "2026-09-12T22:11:02.448Z",
+  "scannedAt": "2026-09-13T00:49:19.869Z",
   "count": 128,
   "packages": [
-    {
-      "name": "xmldom",
-      "version": "0.6.0",
-      "ecosystem": "npm",
-      "score": 65,
-      "level": "HIGH",
-      "previousOwner": "jindw",
-      "currentOwner": "karfau"
-    },
     {
       "name": "canvg",
       "version": "4.0.3",
@@ -82,6 +73,15 @@
       "level": "MODERATE",
       "previousOwner": "bhouston",
       "currentOwner": "mrdoob"
+    },
+    {
+      "name": "@nevware21/ts-utils",
+      "version": "0.16.0",
+      "ecosystem": "npm",
+      "score": 40,
+      "level": "MODERATE",
+      "previousOwner": "nev21",
+      "currentOwner": "nevware21bot"
     },
     {
       "name": "esquery",
@@ -552,7 +552,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/checkbox",
+      "name": "@inquirer/select",
       "version": "5.2.5",
       "ecosystem": "npm",
       "score": 22,
@@ -561,7 +561,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/select",
+      "name": "@inquirer/checkbox",
       "version": "5.2.5",
       "ecosystem": "npm",
       "score": 22,
