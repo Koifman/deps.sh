@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-09-13T19:16:24.650Z",
+  "fetchedAt": "2026-09-13T22:17:50.464Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0283: clear_on_drop is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0283.html",
+      "date": "2026-09-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[yayson] yayson: Prototype pollution in Store/LegacyStore deserialization",
       "url": "https://github.com/advisories/GHSA-325j-mg25-8q58",
@@ -133,13 +139,6 @@
       "date": "2026-09-10T23:04:57.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Unauthenticated requests can stall the server via uncached OIDC fetches in back-channel logout",
-      "url": "https://github.com/advisories/GHSA-3g9q-v48f-hh9w",
-      "date": "2026-09-10T22:45:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
