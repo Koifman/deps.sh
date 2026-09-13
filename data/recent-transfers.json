@@ -1,7 +1,16 @@
 {
-  "scannedAt": "2026-09-13T05:56:13.777Z",
+  "scannedAt": "2026-09-13T11:36:55.651Z",
   "count": 128,
   "packages": [
+    {
+      "name": "xmldom",
+      "version": "0.6.0",
+      "ecosystem": "npm",
+      "score": 65,
+      "level": "HIGH",
+      "previousOwner": "jindw",
+      "currentOwner": "karfau"
+    },
     {
       "name": "canvg",
       "version": "4.0.3",
@@ -73,15 +82,6 @@
       "level": "MODERATE",
       "previousOwner": "bhouston",
       "currentOwner": "mrdoob"
-    },
-    {
-      "name": "@nevware21/ts-utils",
-      "version": "0.16.0",
-      "ecosystem": "npm",
-      "score": 40,
-      "level": "MODERATE",
-      "previousOwner": "nev21",
-      "currentOwner": "nevware21bot"
     },
     {
       "name": "esquery",
@@ -543,6 +543,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@inquirer/checkbox",
+      "version": "5.2.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "sboudrias",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@inquirer/editor",
       "version": "5.3.3",
       "ecosystem": "npm",
@@ -553,15 +562,6 @@
     },
     {
       "name": "@inquirer/select",
-      "version": "5.2.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@inquirer/checkbox",
       "version": "5.2.5",
       "ecosystem": "npm",
       "score": 22,
@@ -750,15 +750,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "yuku-ast",
-      "version": "0.10.1",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "arshadyaseen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "yuku-codegen",
       "version": "0.10.1",
       "ecosystem": "npm",
@@ -774,6 +765,15 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "mrlubos",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "yuku-ast",
+      "version": "0.10.1",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "arshadyaseen",
       "currentOwner": "GitHub Actions"
     },
     {
