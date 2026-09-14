@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-09-14T19:12:09.527Z",
+  "fetchedAt": "2026-09-14T23:02:10.639Z",
   "entries": [
+    {
+      "title": "[litellm] BerriAI litellm: UI User Enumeration leads to System-Wide Information Disclosure",
+      "url": "https://github.com/advisories/GHSA-m2v5-74w2-qhcj",
+      "date": "2026-09-14T18:11:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[litellm] BerriAI litellm has SSRF via Unvalidated spec_path URL in MCP OpenAPI Spec Loader",
+      "url": "https://github.com/advisories/GHSA-c693-x898-5g4h",
+      "date": "2026-09-14T18:11:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[litellm] BerriAI litellm has Security Feature Bypass in BannedKeywords and AzureContentSafety Guardrails via call_type Mismatch on Async Endpoints",
+      "url": "https://github.com/advisories/GHSA-p897-vf7j-f5h8",
+      "date": "2026-09-14T18:11:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[esphome-device-builder] ESPHome Device Builder: Renamed auth env vars silently disable dashboard authentication on upgrade",
+      "url": "https://github.com/advisories/GHSA-rrxg-g2pf-6hh4",
+      "date": "2026-09-14T18:08:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[crawl4ai] Crawl4AI: authentication bypass vulnerability due to a hardcoded default JWT signing key in the Docker API server",
+      "url": "https://github.com/advisories/GHSA-8qrg-7j2f-rf2h",
+      "date": "2026-09-14T17:19:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[litellm] BerriAI litellm: SSO Login Does Not Invalidate Previous UI Session Tokens",
+      "url": "https://github.com/advisories/GHSA-w2mh-qq9q-453x",
+      "date": "2026-09-14T17:19:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[flowise] Duplicate Advisory: Flowise OverrideConfig security vulnerability",
+      "url": "https://github.com/advisories/GHSA-5w6g-rc45-wvv9",
+      "date": "2026-09-14T17:15:21.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0284: Unsoundness in lockfree",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0284.html",
@@ -88,55 +137,6 @@
       "date": "2026-09-11T21:38:25.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[mysql-mcp-server] MySQL MCP Server: Missing Origin/Host Validation in SSE Transport Enables Unauthenticated SQL Execution (DNS Rebinding / Direct Exposure)",
-      "url": "https://github.com/advisories/GHSA-rqfv-2mw9-78g2",
-      "date": "2026-09-11T20:36:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan missing detection when calling pytorch function torch.utils._config_module.load_config",
-      "url": "https://github.com/advisories/GHSA-qvp4-q2p5-22gg",
-      "date": "2026-09-11T19:36:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan missing detection when calling built-in python library function timeit.timeit()",
-      "url": "https://github.com/advisories/GHSA-fh2f-24rh-r2vq",
-      "date": "2026-09-11T19:27:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan is missing detection when calling built-in python idlelib.pyshell.ModifiedInterpreter.runcommand",
-      "url": "https://github.com/advisories/GHSA-8mc5-7w9m-fqv6",
-      "date": "2026-09-11T19:25:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan is missing detection when calling built-in Python cProfile.runctx",
-      "url": "https://github.com/advisories/GHSA-fcqg-3mwf-cfcf",
-      "date": "2026-09-11T19:20:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vllm] vLLM introduced enhanced protection for CVE-2025-62164",
-      "url": "https://github.com/advisories/GHSA-mcmc-2m55-j8jj",
-      "date": "2026-09-11T19:19:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vllm] Duplicate Advisory: vLLM introduced enhanced protection for CVE-2025-62164",
-      "url": "https://github.com/advisories/GHSA-78fp-cf4h-g36p",
-      "date": "2026-09-11T19:18:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
