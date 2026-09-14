@@ -1,9 +1,15 @@
 {
-  "fetchedAt": "2026-09-14T13:49:42.076Z",
+  "fetchedAt": "2026-09-14T19:12:09.527Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0284: Unsoundness in lockfree",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0284.html",
+      "date": "2026-09-14T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0285: Vulnerability in rustls",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0285.html",
       "date": "2026-09-14T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -131,13 +137,6 @@
       "date": "2026-09-11T19:18:43.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[vllm] Duplicate Advisory: vLLM Vulnerable to Regular Expression Denial of Service",
-      "url": "https://github.com/advisories/GHSA-vfm7-4h43-gp6m",
-      "date": "2026-09-11T15:45:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
