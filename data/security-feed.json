@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-09-14T06:00:16.673Z",
+  "fetchedAt": "2026-09-14T13:49:42.076Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0284: Unsoundness in lockfree",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0284.html",
+      "date": "2026-09-14T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0283: clear_on_drop is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0283.html",
@@ -130,13 +136,6 @@
       "title": "[vllm] Duplicate Advisory: vLLM Vulnerable to Regular Expression Denial of Service",
       "url": "https://github.com/advisories/GHSA-vfm7-4h43-gp6m",
       "date": "2026-09-11T15:45:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI: Users denied by the OAuth role policy can still sign in via token exchange",
-      "url": "https://github.com/advisories/GHSA-wvm9-9g5j-623f",
-      "date": "2026-09-10T23:04:57.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
