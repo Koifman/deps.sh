@@ -1,16 +1,7 @@
 {
-  "scannedAt": "2026-09-14T00:55:25.463Z",
-  "count": 128,
+  "scannedAt": "2026-09-14T06:03:04.694Z",
+  "count": 127,
   "packages": [
-    {
-      "name": "xmldom",
-      "version": "0.6.0",
-      "ecosystem": "npm",
-      "score": 65,
-      "level": "HIGH",
-      "previousOwner": "jindw",
-      "currentOwner": "karfau"
-    },
     {
       "name": "canvg",
       "version": "4.0.3",
@@ -543,8 +534,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/checkbox",
-      "version": "5.2.5",
+      "name": "@inquirer/editor",
+      "version": "5.3.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -552,8 +543,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/editor",
-      "version": "5.3.3",
+      "name": "@inquirer/checkbox",
+      "version": "5.2.5",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -570,8 +561,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/input",
-      "version": "5.1.6",
+      "name": "@inquirer/password",
+      "version": "5.2.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -579,8 +570,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/password",
-      "version": "5.2.2",
+      "name": "@inquirer/input",
+      "version": "5.1.6",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -1083,6 +1074,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@oxc-transform/binding-linux-x64-musl",
+      "version": "0.149.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@oxlint/binding-linux-arm64-gnu",
       "version": "1.82.0",
       "ecosystem": "npm",
@@ -1092,7 +1092,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-musl",
+      "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.149.0",
       "ecosystem": "npm",
       "score": 20,
@@ -1110,7 +1110,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-x64",
+      "name": "@oxc-parser/binding-win32-arm64-msvc",
       "version": "0.149.0",
       "ecosystem": "npm",
       "score": 20,
@@ -1120,15 +1120,6 @@
     },
     {
       "name": "oxc-minify",
-      "version": "0.149.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxc-parser/binding-win32-arm64-msvc",
       "version": "0.149.0",
       "ecosystem": "npm",
       "score": 20,
