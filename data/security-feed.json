@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-09-16T13:22:25.828Z",
+  "fetchedAt": "2026-09-16T18:05:16.660Z",
   "entries": [
+    {
+      "title": "[node-opcua] node-opcua: TCP Socket Leak (FIN-WAIT-2) via keepalive reconnection cycle - Resource Exhaustion",
+      "url": "https://github.com/advisories/GHSA-r2pf-9cw4-5j65",
+      "date": "2026-09-16T16:19:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[node-opcua-client] node-opcua: TCP Socket Leak (FIN-WAIT-2) via keepalive reconnection cycle - Resource Exhaustion",
+      "url": "https://github.com/advisories/GHSA-r2pf-9cw4-5j65",
+      "date": "2026-09-16T16:19:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[node-opcua-transport] node-opcua: TCP Socket Leak (FIN-WAIT-2) via keepalive reconnection cycle - Resource Exhaustion",
+      "url": "https://github.com/advisories/GHSA-r2pf-9cw4-5j65",
+      "date": "2026-09-16T16:19:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[djust] djust has Cross-Site Request Forgery on the Server-Sent-Events transport: a cross-origin page can drive a victim-authenticated SSE session",
+      "url": "https://github.com/advisories/GHSA-pg97-jvmf-qfvc",
+      "date": "2026-09-16T15:45:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[lmdeploy] LMdeploy has Remote Code Execution by Pickle Deserialization via zmq_rpc.call_and_response() in InterLM/lmdeploy",
+      "url": "https://github.com/advisories/GHSA-5h8j-6crg-7rmw",
+      "date": "2026-09-16T15:34:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[djust] djust: Multi-tenant isolation fails open on the WebSocket/SSE path, disclosing other tenants' data",
+      "url": "https://github.com/advisories/GHSA-3492-cvg7-9mr2",
+      "date": "2026-09-16T15:32:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[djust] djust: Client mass-assignment of arbitrary view attributes via the default dj-model update_model handler",
+      "url": "https://github.com/advisories/GHSA-cc7c-9jff-58wj",
+      "date": "2026-09-16T13:55:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[djust] djust's observability endpoints are network-exposed: the localhost gate is an opt-in middleware the docs omit, and the views enforce only DEBUG",
+      "url": "https://github.com/advisories/GHSA-8g2f-g3gq-5rjv",
+      "date": "2026-09-16T13:49:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@zereight/mcp-gitlab] @zereight/mcp-gitlab: Unauthenticated arbitrary file read via `upload_markdown` enables PAT exfiltration and full account takeover",
+      "url": "https://github.com/advisories/GHSA-cv3r-c5h8-f4g5",
+      "date": "2026-09-16T13:48:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[@zereight/mcp-gitlab] @zereight/mcp-gitlab Vulnerable to Server-Side Request Forgery",
       "url": "https://github.com/advisories/GHSA-2h44-8472-frjj",
@@ -76,67 +139,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0284.html",
       "date": "2026-09-14T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0285: Vulnerability in rustls",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0285.html",
-      "date": "2026-09-14T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0283: clear_on_drop is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0283.html",
-      "date": "2026-09-13T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[yayson] yayson: Prototype pollution in Store/LegacyStore deserialization",
-      "url": "https://github.com/advisories/GHSA-325j-mg25-8q58",
-      "date": "2026-09-11T22:11:40.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[doris-mcp-server] Apache Doris MCP Server is vulnerable to SQL Injection via metadata query path",
-      "url": "https://github.com/advisories/GHSA-pqrj-4gwg-h5f7",
-      "date": "2026-09-11T22:06:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@mockoon/cli] @Mockoon/commons-server: Unauthenticated admin API + wildcard CORS allows mock-state hijack and secret theft",
-      "url": "https://github.com/advisories/GHSA-rqx4-3f6q-3x2v",
-      "date": "2026-09-11T22:04:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@mockoon/commons-server] @Mockoon/commons-server: Unauthenticated admin API + wildcard CORS allows mock-state hijack and secret theft",
-      "url": "https://github.com/advisories/GHSA-rqx4-3f6q-3x2v",
-      "date": "2026-09-11T22:04:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@mockoon/cli] @Mockoon/commons-server: Path traversal in templated `filePath` lets a request escape the served directory (prefix-only base check)",
-      "url": "https://github.com/advisories/GHSA-8wqc-v2q8-vff2",
-      "date": "2026-09-11T22:04:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@mockoon/commons-server] @Mockoon/commons-server: Path traversal in templated `filePath` lets a request escape the served directory (prefix-only base check)",
-      "url": "https://github.com/advisories/GHSA-8wqc-v2q8-vff2",
-      "date": "2026-09-11T22:04:34.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[frontmcp] FrontMCP and mcp-from-openapi have bypass of OpenAPI external $ref SSRF fix",
-      "url": "https://github.com/advisories/GHSA-65h7-9wrw-629c",
-      "date": "2026-09-11T22:02:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
