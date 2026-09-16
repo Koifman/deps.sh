@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-09-15T22:03:00.795Z",
+  "fetchedAt": "2026-09-16T01:15:27.343Z",
   "entries": [
+    {
+      "title": "[@zereight/mcp-gitlab] @zereight/mcp-gitlab Vulnerable to Server-Side Request Forgery",
+      "url": "https://github.com/advisories/GHSA-2h44-8472-frjj",
+      "date": "2026-09-15T20:57:29.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@zereight/mcp-gitlab] @zereight/mcp-gitlab: DNS rebinding reaches local Streamable HTTP MCP transport",
+      "url": "https://github.com/advisories/GHSA-vmp7-252j-cwp7",
+      "date": "2026-09-15T20:54:56.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@zereight/mcp-gitlab] @zereight/mcp-gitlab has multiple safety-control bypasses: execute_graphql read-only + allow-list bypass, unauthenticated transports, session-exhaustion DoS",
+      "url": "https://github.com/advisories/GHSA-5648-rgj9-v224",
+      "date": "2026-09-15T20:48:23.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[litellm] BerriAI litellm: UI User Enumeration leads to System-Wide Information Disclosure",
       "url": "https://github.com/advisories/GHSA-m2v5-74w2-qhcj",
@@ -116,27 +137,6 @@
       "date": "2026-09-11T22:02:09.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@frontmcp/adapters] FrontMCP and mcp-from-openapi have bypass of OpenAPI external $ref SSRF fix",
-      "url": "https://github.com/advisories/GHSA-65h7-9wrw-629c",
-      "date": "2026-09-11T22:02:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mcp-from-openapi] FrontMCP and mcp-from-openapi have bypass of OpenAPI external $ref SSRF fix",
-      "url": "https://github.com/advisories/GHSA-65h7-9wrw-629c",
-      "date": "2026-09-11T22:02:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[prowler-cloud] Prowler: SAML Domain Claiming Enables Cross-Tenant Account Takeover",
-      "url": "https://github.com/advisories/GHSA-h8m9-jgf8-vwvp",
-      "date": "2026-09-11T21:38:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
