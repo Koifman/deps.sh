@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-09-16T18:05:16.660Z",
+  "fetchedAt": "2026-09-16T22:00:45.838Z",
   "entries": [
+    {
+      "title": "[@jhb.software/payload-alt-text-plugin] @jhb.software/payload-alt-text-plugin: Alt Text Endpoint Authorization Bypass via Payload Local API `overrideAccess` Omission",
+      "url": "https://github.com/advisories/GHSA-4qpv-39hg-f7fx",
+      "date": "2026-09-16T18:56:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[immutable] Immutable.js `List` 32-bit trie overflow → unrecoverable DoS",
+      "url": "https://github.com/advisories/GHSA-v56q-mh7h-f735",
+      "date": "2026-09-16T18:47:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[immutable] Immutable.js `List` 32-bit trie overflow → unrecoverable DoS",
+      "url": "https://github.com/advisories/GHSA-v56q-mh7h-f735",
+      "date": "2026-09-16T18:47:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[node-opcua] node-opcua: TCP Socket Leak (FIN-WAIT-2) via keepalive reconnection cycle - Resource Exhaustion",
       "url": "https://github.com/advisories/GHSA-r2pf-9cw4-5j65",
@@ -119,26 +140,6 @@
       "date": "2026-09-14T17:19:37.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[litellm] BerriAI litellm: SSO Login Does Not Invalidate Previous UI Session Tokens",
-      "url": "https://github.com/advisories/GHSA-w2mh-qq9q-453x",
-      "date": "2026-09-14T17:19:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[flowise] Duplicate Advisory: Flowise OverrideConfig security vulnerability",
-      "url": "https://github.com/advisories/GHSA-5w6g-rc45-wvv9",
-      "date": "2026-09-14T17:15:21.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0284: Unsoundness in lockfree",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0284.html",
-      "date": "2026-09-14T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
