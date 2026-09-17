@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-17T13:21:24.879Z",
+  "scannedAt": "2026-09-17T18:08:14.425Z",
   "count": 127,
   "packages": [
     {
@@ -147,6 +147,15 @@
       "currentOwner": "ljharb"
     },
     {
+      "name": "regexpu-core",
+      "version": "6.4.0",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "mathias",
+      "currentOwner": "google-wombot"
+    },
+    {
       "name": "babylon",
       "version": "6.18.0",
       "ecosystem": "npm",
@@ -244,15 +253,6 @@
       "level": "MODERATE",
       "previousOwner": "kmanion",
       "currentOwner": "typescript-bot"
-    },
-    {
-      "name": "regexpu-core",
-      "version": "6.4.0",
-      "ecosystem": "npm",
-      "score": 30,
-      "level": "MODERATE",
-      "previousOwner": "mathias",
-      "currentOwner": "google-wombot"
     },
     {
       "name": "embla-carousel-reactive-utils",
@@ -597,8 +597,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/number",
-      "version": "4.2.3",
+      "name": "@inquirer/editor",
+      "version": "5.3.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -606,8 +606,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/editor",
-      "version": "5.3.3",
+      "name": "@inquirer/number",
+      "version": "4.2.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -1065,21 +1065,21 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "@astrojs/compiler-binding-linux-x64-gnu",
-      "version": "0.4.1",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matthewp",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxlint/binding-linux-arm64-gnu",
       "version": "1.83.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@astrojs/compiler-binding-linux-x64-gnu",
+      "version": "0.4.1",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matthewp",
       "currentOwner": "GitHub Actions"
     },
     {
