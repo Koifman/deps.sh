@@ -1,6 +1,104 @@
 {
-  "fetchedAt": "2026-09-17T18:05:30.834Z",
+  "fetchedAt": "2026-09-17T22:02:05.512Z",
   "entries": [
+    {
+      "title": "[soupsieve] Soup Sieve: Polynomial-time ReDoS (O(n²)) in the `IDENTIFIER` / `VALUE` selector sub-patterns",
+      "url": "https://github.com/advisories/GHSA-gjv8-xp57-g29c",
+      "date": "2026-09-17T20:33:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[soupsieve] Soup Sieve: Polynomial-time ReDoS (O(n²)) in the whitespace/comment trimming regex `RE_WS_END` (triggers on VALID selectors)",
+      "url": "https://github.com/advisories/GHSA-j934-xhv5-fg8f",
+      "date": "2026-09-17T20:32:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@platejs/core] @platejs/core HTML deserialization can trigger browser behavior during parsing",
+      "url": "https://github.com/advisories/GHSA-qrfj-mgw8-j9c6",
+      "date": "2026-09-17T20:32:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@platejs/core] @platejs/core HTML deserialization can trigger browser behavior during parsing",
+      "url": "https://github.com/advisories/GHSA-qrfj-mgw8-j9c6",
+      "date": "2026-09-17T20:32:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[djust] djust: A template binding inherits a context safety grant it never earned (XSS)",
+      "url": "https://github.com/advisories/GHSA-xjw9-38cr-6372",
+      "date": "2026-09-17T20:31:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[djust] djust: Six template-layer defects emit attacker-controlled markup unescaped (XSS)",
+      "url": "https://github.com/advisories/GHSA-9395-2g46-rj3f",
+      "date": "2026-09-17T20:31:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[jupyter_server] Jupyter Server: 5xx request logging leaks token-bearing Referer header values",
+      "url": "https://github.com/advisories/GHSA-c3mw-737p-c7g2",
+      "date": "2026-09-17T20:28:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[devalue] Svelte devalue: DoS via malformed input",
+      "url": "https://github.com/advisories/GHSA-9rgm-9g3h-6x36",
+      "date": "2026-09-17T20:28:22.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vyper] incorrect order of evaluation of side effects for some builtins",
+      "url": "https://github.com/advisories/GHSA-4hg4-9mf5-wxxq",
+      "date": "2026-09-17T19:24:17.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@sap/cds-mtxs] @sap/cds-mtx: Credential disclosure in multitenant applications using SAP Cloud Application Programming Model (CAP)",
+      "url": "https://github.com/advisories/GHSA-955m-rr6m-2f9v",
+      "date": "2026-09-17T19:05:40.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@sap/cds-mtxs] @sap/cds-mtx: Credential disclosure in multitenant applications using SAP Cloud Application Programming Model (CAP)",
+      "url": "https://github.com/advisories/GHSA-955m-rr6m-2f9v",
+      "date": "2026-09-17T19:05:40.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@sap/cds-mtxs] @sap/cds-mtx: Credential disclosure in multitenant applications using SAP Cloud Application Programming Model (CAP)",
+      "url": "https://github.com/advisories/GHSA-955m-rr6m-2f9v",
+      "date": "2026-09-17T19:05:40.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@sap/cds-mtxs] @sap/cds-mtx: Credential disclosure in multitenant applications using SAP Cloud Application Programming Model (CAP)",
+      "url": "https://github.com/advisories/GHSA-955m-rr6m-2f9v",
+      "date": "2026-09-17T19:05:40.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@libp2p/peer-store] libp2p: PeerStore accepts attacker-signed PeerRecords for a victim peer ID and stores certified attacker addresses",
+      "url": "https://github.com/advisories/GHSA-vrf4-mx87-p53w",
+      "date": "2026-09-17T18:01:39.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@libp2p/gossipsub] libp2p: Gossipsub StrictSign accepts attacker-signed messages as a victim RSA peer ID",
       "url": "https://github.com/advisories/GHSA-c3gv-825q-fvmp",
@@ -40,104 +138,6 @@
       "title": "[exifreader] ExifReader: DoS via Crafted HEIC/AVIF iloc Box - Memory Exhaustion",
       "url": "https://github.com/advisories/GHSA-pj96-35fp-cfcc",
       "date": "2026-09-17T16:30:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sanic] sanic chunked trailer request smuggling allows hidden second request execution",
-      "url": "https://github.com/advisories/GHSA-wmj6-g64g-j7q5",
-      "date": "2026-09-17T14:59:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[sanic] sanic chunked trailer request smuggling allows hidden second request execution",
-      "url": "https://github.com/advisories/GHSA-wmj6-g64g-j7q5",
-      "date": "2026-09-17T14:59:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[next-tinacms-azure] Tina: [Broken Access Control] letting any TinaCloud user authorize against any self-hosted site",
-      "url": "https://github.com/advisories/GHSA-g74q-6g2f-874x",
-      "date": "2026-09-17T14:59:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@tinacms/auth] Tina: [Broken Access Control] letting any TinaCloud user authorize against any self-hosted site",
-      "url": "https://github.com/advisories/GHSA-g74q-6g2f-874x",
-      "date": "2026-09-17T14:59:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@redocly/cli] Redocly CLI: Path traversal when using `split` command",
-      "url": "https://github.com/advisories/GHSA-657c-g7qc-r9j2",
-      "date": "2026-09-17T14:58:52.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@redocly/cli] Redocly CLI: Path traversal when using `split` command",
-      "url": "https://github.com/advisories/GHSA-657c-g7qc-r9j2",
-      "date": "2026-09-17T14:58:52.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[asyncssh] AsyncSSH: asyncio event-loop freeze via SSH maximum packet size = 0 in SSH_MSG_CHANNEL_OPEN / OPEN_CONFIRMATION",
-      "url": "https://github.com/advisories/GHSA-rw4j-r22c-9gc3",
-      "date": "2026-09-17T14:53:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@orpc/server] oRPC: Vary Header Injection in CORS Plugin leading to potential Cache/CORS Bypass",
-      "url": "https://github.com/advisories/GHSA-j9v4-rhgr-4m5f",
-      "date": "2026-09-17T14:52:41.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[litellm] LiteLLM Proxy has server-side request forgery via the `user_config` request parameter",
-      "url": "https://github.com/advisories/GHSA-hx8v-g79f-8w5f",
-      "date": "2026-09-17T14:51:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@cyclonedx/cyclonedx-npm] @cyclonedx/cyclonedx-npm: Shell Injection via Unsanitized --workspace Argument on Windows",
-      "url": "https://github.com/advisories/GHSA-q69g-4hcv-6jg4",
-      "date": "2026-09-17T14:50:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@vendure/core] Vendure affected by external-authentication account takeover: external login linked to a pre-existing account by email without verification",
-      "url": "https://github.com/advisories/GHSA-6j36-r6pr-59x4",
-      "date": "2026-09-17T14:50:24.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@vendure/core] Vendure: Shop API list queries can return non-public entities when filterOperator is OR",
-      "url": "https://github.com/advisories/GHSA-xf65-r35x-wmmv",
-      "date": "2026-09-17T14:50:04.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vendure/core] Vendure: Unauthenticated ReDoS via `regex` filter on SQLite backends",
-      "url": "https://github.com/advisories/GHSA-jgm3-qmp2-c4p7",
-      "date": "2026-09-17T14:49:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@vendure/dashboard] Vendure has stored XSS in the Admin Dashboard via unsafe HTML-stripping (innerHTML) of entity descriptions",
-      "url": "https://github.com/advisories/GHSA-xhq9-whgq-49j5",
-      "date": "2026-09-17T14:49:36.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
