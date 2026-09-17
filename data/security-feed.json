@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-09-17T07:29:20.101Z",
+  "fetchedAt": "2026-09-17T13:18:27.585Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0286: Vulnerability in cryptoki",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0286.html",
+      "date": "2026-09-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@nuxtjs/mdc] @nuxtjs/mdc's URL sanitizer misses SVG xlink:href and data:text/html, allowing XSS from untrusted markdown at the default configuration",
       "url": "https://github.com/advisories/GHSA-mxm6-v9r6-r94c",
@@ -131,13 +137,6 @@
       "title": "[djust] djust: Multi-tenant isolation fails open on the WebSocket/SSE path, disclosing other tenants' data",
       "url": "https://github.com/advisories/GHSA-3492-cvg7-9mr2",
       "date": "2026-09-16T15:32:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[djust] djust: Client mass-assignment of arbitrary view attributes via the default dj-model update_model handler",
-      "url": "https://github.com/advisories/GHSA-cc7c-9jff-58wj",
-      "date": "2026-09-16T13:55:49.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
