@@ -1,6 +1,30 @@
 {
-  "fetchedAt": "2026-09-18T07:18:08.092Z",
+  "fetchedAt": "2026-09-18T12:52:46.868Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0288: Vulnerability in cosmian_kyber",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0288.html",
+      "date": "2026-09-18T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0287: cosmian_kyber is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0287.html",
+      "date": "2026-09-18T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0290: Vulnerability in pqc_kyber",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0290.html",
+      "date": "2026-09-18T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0289: pqc_kyber is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0289.html",
+      "date": "2026-09-18T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[soupsieve] Soup Sieve: Polynomial-time ReDoS (O(n²)) in the `IDENTIFIER` / `VALUE` selector sub-patterns",
       "url": "https://github.com/advisories/GHSA-gjv8-xp57-g29c",
@@ -112,34 +136,6 @@
       "date": "2026-09-17T17:17:41.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@tak-ps/cloudtak] TAK-PS-Stats Web UI: Authenticated full-read SSRF in CloudTAK basemap import (PUT /api/basemap) — no IP-classification guard",
-      "url": "https://github.com/advisories/GHSA-vqrw-qphh-p34v",
-      "date": "2026-09-17T17:03:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[AccessControl] Zope AccessControl vulnerable to information disclosure through Python string `format` and `format_map` functions",
-      "url": "https://github.com/advisories/GHSA-pq59-9fq7-m886",
-      "date": "2026-09-17T16:30:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[RestrictedPython] RestrictedPython vulnerable to sandbox escape via string.Formatter field resolution",
-      "url": "https://github.com/advisories/GHSA-hp3v-5vw7-fx9w",
-      "date": "2026-09-17T16:30:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[exifreader] ExifReader: DoS via Crafted HEIC/AVIF iloc Box - Memory Exhaustion",
-      "url": "https://github.com/advisories/GHSA-pj96-35fp-cfcc",
-      "date": "2026-09-17T16:30:01.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
