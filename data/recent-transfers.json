@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-18T12:55:21.404Z",
+  "scannedAt": "2026-09-18T17:04:00.463Z",
   "count": 127,
   "packages": [
     {
@@ -192,13 +192,13 @@
       "currentOwner": "lholmquist"
     },
     {
-      "name": "@azure/monitor-opentelemetry-exporter",
-      "version": "1.0.0-beta.32",
+      "name": "coffeescript",
+      "version": "2.7.0",
       "ecosystem": "npm",
       "score": 35,
       "level": "MODERATE",
-      "previousOwner": "azure-sdk",
-      "currentOwner": "microsoft1es"
+      "previousOwner": "isaacs",
+      "currentOwner": "geoffreybooth"
     },
     {
       "name": "@appium/support",
@@ -399,21 +399,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/native-preview",
-      "version": "7.0.0-dev.20260707.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@azure/storage-blob",
       "version": "12.33.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "christopheranderson",
+      "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@typescript/native-preview",
+      "version": "7.0.0-dev.20260707.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
     },
     {
@@ -463,7 +463,7 @@
     },
     {
       "name": "@assistant-ui/react",
-      "version": "0.15.20",
+      "version": "0.15.21",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -472,7 +472,7 @@
     },
     {
       "name": "@babel/parser",
-      "version": "8.0.5",
+      "version": "7.29.9",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -705,8 +705,8 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.1",
+      "name": "css-blank-pseudo",
+      "version": "8.0.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -714,8 +714,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.2",
+      "name": "css-has-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -1056,15 +1056,6 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "@fortawesome/react-fontawesome",
-      "version": "3.5.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "supercodepoet",
-      "currentOwner": "lordofbacon"
-    },
-    {
       "name": "@astrojs/compiler-binding-linux-x64-gnu",
       "version": "0.4.1",
       "ecosystem": "npm",
@@ -1072,6 +1063,15 @@
       "level": "LOW",
       "previousOwner": "matthewp",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@fortawesome/react-fontawesome",
+      "version": "3.5.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "supercodepoet",
+      "currentOwner": "lordofbacon"
     },
     {
       "name": "@oxlint/binding-linux-arm64-gnu",

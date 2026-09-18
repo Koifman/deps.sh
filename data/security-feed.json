@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-18T12:52:46.868Z",
+  "fetchedAt": "2026-09-18T17:01:01.643Z",
   "entries": [
+    {
+      "title": "[paella-core] Opencast: Stored XSS in Paella player via WebVTT/DFXP caption cue text",
+      "url": "https://github.com/advisories/GHSA-m6c8-jcw2-5r25",
+      "date": "2026-09-18T13:12:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0288: Vulnerability in cosmian_kyber",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0288.html",
@@ -129,13 +136,6 @@
       "date": "2026-09-17T17:29:33.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[vllm] vLLM: Request-selected PyNvVideoCodec GPU decode bypasses static VRAM reservation",
-      "url": "https://github.com/advisories/GHSA-8pw2-6jv3-mj5j",
-      "date": "2026-09-17T17:17:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
