@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-18T17:04:00.463Z",
+  "scannedAt": "2026-09-18T20:49:03.051Z",
   "count": 127,
   "packages": [
     {
@@ -319,7 +319,7 @@
     },
     {
       "name": "eslint",
-      "version": "10.10.0",
+      "version": "10.11.0",
       "ecosystem": "npm",
       "score": 28,
       "level": "MODERATE",
@@ -957,15 +957,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/native-preview-linux-x64",
-      "version": "7.0.0-dev.20260707.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@oxlint/binding-linux-x64-musl",
       "version": "1.83.0",
       "ecosystem": "npm",
@@ -973,6 +964,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/native-preview-linux-x64",
+      "version": "7.0.0-dev.20260707.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "oxc-transform",

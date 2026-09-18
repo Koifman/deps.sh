@@ -1,6 +1,83 @@
 {
-  "fetchedAt": "2026-09-18T17:01:01.643Z",
+  "fetchedAt": "2026-09-18T20:46:02.461Z",
   "entries": [
+    {
+      "title": "[mnemosyne-memory] Mnemosyne has JWT signature verification bypass sync server that allows authentication bypass",
+      "url": "https://github.com/advisories/GHSA-xcw4-53cc-hv32",
+      "date": "2026-09-18T17:54:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[msdoc-viewer] File Viewer: DOM XSS via unsafe hyperlink schemes in the legacy DOC renderer",
+      "url": "https://github.com/advisories/GHSA-3753-m2x2-q623",
+      "date": "2026-09-18T17:19:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@file-viewer/doc] File Viewer: DOM XSS via unsafe hyperlink schemes in the legacy DOC renderer",
+      "url": "https://github.com/advisories/GHSA-3753-m2x2-q623",
+      "date": "2026-09-18T17:19:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[adm-zip] adm-zip: Uncontrolled memory allocation via the declared uncompressed size (DoS)",
+      "url": "https://github.com/advisories/GHSA-7q85-xj36-vmfc",
+      "date": "2026-09-18T17:18:03.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[md-editor-v3] md-editor-v3: XSS via fenced-code language rendering bypass",
+      "url": "https://github.com/advisories/GHSA-3rm2-h79c-8qw6",
+      "date": "2026-09-18T17:17:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[anyio] AnyIO run_process/open_process ignores extra_groups and can retain parent supplementary groups",
+      "url": "https://github.com/advisories/GHSA-3w57-8xmc-8v26",
+      "date": "2026-09-18T17:17:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[anyio] AnyIO: TLSStream IDNA 2003 host name encoding enables potential TLS certificate spoofing",
+      "url": "https://github.com/advisories/GHSA-82r6-8w77-94w6",
+      "date": "2026-09-18T17:17:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[anyio] AnyIO process-pool workers can block indefinitely on undrained stderr",
+      "url": "https://github.com/advisories/GHSA-5p39-cfhj-2xmp",
+      "date": "2026-09-18T17:17:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lmdeploy] LMDeploy has an SSRF bypass",
+      "url": "https://github.com/advisories/GHSA-39wr-7q6h-cf68",
+      "date": "2026-09-18T17:14:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[lmdeploy] LMDeploy vulnerable to arbitrary code execution via eval() of untrusted quant_dtype in model config loading",
+      "url": "https://github.com/advisories/GHSA-3hmm-rh5q-gwwr",
+      "date": "2026-09-18T17:04:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[lmdeploy] LMDeploy has Remote Code Execution by Pickle Deserialization via handle_zmq_recv in lmdeploy/lmdeploy/pytorch/disagg/conn/engine_conn.py",
+      "url": "https://github.com/advisories/GHSA-2vh9-42vm-xmv2",
+      "date": "2026-09-18T17:03:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[paella-core] Opencast: Stored XSS in Paella player via WebVTT/DFXP caption cue text",
       "url": "https://github.com/advisories/GHSA-m6c8-jcw2-5r25",
@@ -59,83 +136,6 @@
       "date": "2026-09-17T20:32:51.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[djust] djust: A template binding inherits a context safety grant it never earned (XSS)",
-      "url": "https://github.com/advisories/GHSA-xjw9-38cr-6372",
-      "date": "2026-09-17T20:31:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[djust] djust: Six template-layer defects emit attacker-controlled markup unescaped (XSS)",
-      "url": "https://github.com/advisories/GHSA-9395-2g46-rj3f",
-      "date": "2026-09-17T20:31:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[jupyter_server] Jupyter Server: 5xx request logging leaks token-bearing Referer header values",
-      "url": "https://github.com/advisories/GHSA-c3mw-737p-c7g2",
-      "date": "2026-09-17T20:28:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[devalue] Svelte devalue: DoS via malformed input",
-      "url": "https://github.com/advisories/GHSA-9rgm-9g3h-6x36",
-      "date": "2026-09-17T20:28:22.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vyper] incorrect order of evaluation of side effects for some builtins",
-      "url": "https://github.com/advisories/GHSA-4hg4-9mf5-wxxq",
-      "date": "2026-09-17T19:24:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@sap/cds-mtxs] @sap/cds-mtx: Credential disclosure in multitenant applications using SAP Cloud Application Programming Model (CAP)",
-      "url": "https://github.com/advisories/GHSA-955m-rr6m-2f9v",
-      "date": "2026-09-17T19:05:40.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@sap/cds-mtxs] @sap/cds-mtx: Credential disclosure in multitenant applications using SAP Cloud Application Programming Model (CAP)",
-      "url": "https://github.com/advisories/GHSA-955m-rr6m-2f9v",
-      "date": "2026-09-17T19:05:40.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@sap/cds-mtxs] @sap/cds-mtx: Credential disclosure in multitenant applications using SAP Cloud Application Programming Model (CAP)",
-      "url": "https://github.com/advisories/GHSA-955m-rr6m-2f9v",
-      "date": "2026-09-17T19:05:40.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@sap/cds-mtxs] @sap/cds-mtx: Credential disclosure in multitenant applications using SAP Cloud Application Programming Model (CAP)",
-      "url": "https://github.com/advisories/GHSA-955m-rr6m-2f9v",
-      "date": "2026-09-17T19:05:40.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@libp2p/peer-store] libp2p: PeerStore accepts attacker-signed PeerRecords for a victim peer ID and stores certified attacker addresses",
-      "url": "https://github.com/advisories/GHSA-vrf4-mx87-p53w",
-      "date": "2026-09-17T18:01:39.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@libp2p/gossipsub] libp2p: Gossipsub StrictSign accepts attacker-signed messages as a victim RSA peer ID",
-      "url": "https://github.com/advisories/GHSA-c3gv-825q-fvmp",
-      "date": "2026-09-17T17:29:33.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
