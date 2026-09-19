@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-19T13:52:15.243Z",
+  "scannedAt": "2026-09-19T17:10:26.706Z",
   "count": 127,
   "packages": [
     {
@@ -174,15 +174,6 @@
       "currentOwner": "housseindjirdeh"
     },
     {
-      "name": "cloudevents",
-      "version": "10.0.0",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "tjanczuk",
-      "currentOwner": "lholmquist"
-    },
-    {
       "name": "mark.js",
       "version": "8.11.1",
       "ecosystem": "npm",
@@ -190,6 +181,15 @@
       "level": "MODERATE",
       "previousOwner": "lukasoppermann",
       "currentOwner": "julmot"
+    },
+    {
+      "name": "cloudevents",
+      "version": "10.0.0",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "tjanczuk",
+      "currentOwner": "lholmquist"
     },
     {
       "name": "@azure/monitor-opentelemetry-exporter",
@@ -507,15 +507,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "string.prototype.trimend",
-      "version": "1.0.10",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "khaledelansari",
-      "currentOwner": "ljharb"
-    },
-    {
       "name": "typescript-eslint",
       "version": "8.70.0",
       "ecosystem": "npm",
@@ -523,6 +514,15 @@
       "level": "MODERATE",
       "previousOwner": "jameshenry",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "string.prototype.trimend",
+      "version": "1.0.10",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "khaledelansari",
+      "currentOwner": "ljharb"
     },
     {
       "name": "@inquirer/confirm",
@@ -714,8 +714,8 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.2",
+      "name": "css-has-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -723,8 +723,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.1",
+      "name": "css-blank-pseudo",
+      "version": "8.0.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -804,15 +804,6 @@
       "currentOwner": "notaphplover"
     },
     {
-      "name": "@microsoft/dynamicproto-js",
-      "version": "2.0.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "microsoft",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@appium/logger",
       "version": "2.0.11",
       "ecosystem": "npm",
@@ -820,6 +811,15 @@
       "level": "MODERATE",
       "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@microsoft/dynamicproto-js",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "microsoft",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@appium/tsconfig",
@@ -1011,21 +1011,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@astrojs/compiler-binding",
-      "version": "0.4.1",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matthewp",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxfmt/binding-linux-x64-musl",
       "version": "0.68.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@astrojs/compiler-binding",
+      "version": "0.4.1",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matthewp",
       "currentOwner": "GitHub Actions"
     },
     {
