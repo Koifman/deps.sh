@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-20T18:41:52.808Z",
+  "scannedAt": "2026-09-20T21:26:00.384Z",
   "count": 127,
   "packages": [
     {
@@ -174,15 +174,6 @@
       "currentOwner": "housseindjirdeh"
     },
     {
-      "name": "cloudevents",
-      "version": "10.0.0",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "tjanczuk",
-      "currentOwner": "lholmquist"
-    },
-    {
       "name": "mark.js",
       "version": "8.11.1",
       "ecosystem": "npm",
@@ -190,6 +181,15 @@
       "level": "MODERATE",
       "previousOwner": "lukasoppermann",
       "currentOwner": "julmot"
+    },
+    {
+      "name": "cloudevents",
+      "version": "10.0.0",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "tjanczuk",
+      "currentOwner": "lholmquist"
     },
     {
       "name": "@azure/monitor-opentelemetry-exporter",
@@ -597,8 +597,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/expand",
-      "version": "5.1.5",
+      "name": "@inquirer/rawlist",
+      "version": "5.3.5",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -606,8 +606,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/rawlist",
-      "version": "5.3.5",
+      "name": "@inquirer/expand",
+      "version": "5.1.5",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -984,21 +984,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@yuku-toolchain/types",
-      "version": "0.10.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "arshadyaseen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-transform/binding-linux-x64-gnu",
       "version": "0.150.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@yuku-toolchain/types",
+      "version": "0.10.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "arshadyaseen",
       "currentOwner": "GitHub Actions"
     },
     {
