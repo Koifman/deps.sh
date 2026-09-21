@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-21T00:04:07.327Z",
+  "fetchedAt": "2026-09-21T06:05:07.242Z",
   "entries": [
+    {
+      "title": "[lmdeploy] LMDeploy has Remote Code Execution by Pickle Deserialization via handle_zmq_recv in lmdeploy/lmdeploy/pytorch/disagg/conn/engine_conn.py",
+      "url": "https://github.com/advisories/GHSA-2vh9-42vm-xmv2",
+      "date": "2026-09-21T04:50:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[mnemosyne-memory] Mnemosyne has JWT signature verification bypass sync server that allows authentication bypass",
       "url": "https://github.com/advisories/GHSA-xcw4-53cc-hv32",
@@ -70,13 +77,6 @@
       "date": "2026-09-18T17:04:04.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[lmdeploy] LMDeploy has Remote Code Execution by Pickle Deserialization via handle_zmq_recv in lmdeploy/lmdeploy/pytorch/disagg/conn/engine_conn.py",
-      "url": "https://github.com/advisories/GHSA-2vh9-42vm-xmv2",
-      "date": "2026-09-18T17:03:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     },
     {
       "title": "[paella-core] Opencast: Stored XSS in Paella player via WebVTT/DFXP caption cue text",

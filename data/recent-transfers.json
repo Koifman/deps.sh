@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-21T00:07:08.157Z",
+  "scannedAt": "2026-09-21T06:07:44.646Z",
   "count": 127,
   "packages": [
     {
@@ -561,7 +561,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/select",
+      "name": "@inquirer/checkbox",
       "version": "5.2.5",
       "ecosystem": "npm",
       "score": 22,
@@ -570,7 +570,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/checkbox",
+      "name": "@inquirer/select",
       "version": "5.2.5",
       "ecosystem": "npm",
       "score": 22,
@@ -597,6 +597,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@inquirer/editor",
+      "version": "5.3.3",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "sboudrias",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@inquirer/rawlist",
       "version": "5.3.5",
       "ecosystem": "npm",
@@ -608,15 +617,6 @@
     {
       "name": "@inquirer/expand",
       "version": "5.1.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@inquirer/editor",
-      "version": "5.3.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
