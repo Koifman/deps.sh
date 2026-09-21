@@ -1,6 +1,25 @@
 {
-  "fetchedAt": "2026-09-21T13:51:32.199Z",
+  "fetchedAt": "2026-09-21T19:14:06.113Z",
   "entries": [
+    {
+      "title": "[lmdeploy] LMDeploy has Remote Code Execution by Pickle Deserialization via handle_zmq_recv in lmdeploy/lmdeploy/pytorch/disagg/conn/engine_conn.py",
+      "url": "https://github.com/advisories/GHSA-2vh9-42vm-xmv2",
+      "date": "2026-09-21T16:20:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "RUSTSEC-2026-0296: unzip is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0296.html",
+      "date": "2026-09-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0297: Vulnerability in unzip",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0297.html",
+      "date": "2026-09-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0293: Vulnerability in ringbuf",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0293.html",
@@ -30,13 +49,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0295.html",
       "date": "2026-09-21T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[lmdeploy] LMDeploy has Remote Code Execution by Pickle Deserialization via handle_zmq_recv in lmdeploy/lmdeploy/pytorch/disagg/conn/engine_conn.py",
-      "url": "https://github.com/advisories/GHSA-2vh9-42vm-xmv2",
-      "date": "2026-09-21T04:50:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     },
     {
       "title": "[mnemosyne-memory] Mnemosyne has JWT signature verification bypass sync server that allows authentication bypass",
@@ -118,18 +130,6 @@
     {
       "title": "RUSTSEC-2026-0288: Vulnerability in cosmian_kyber",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0288.html",
-      "date": "2026-09-18T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0287: cosmian_kyber is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0287.html",
-      "date": "2026-09-18T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0290: Vulnerability in pqc_kyber",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0290.html",
       "date": "2026-09-18T12:00:00+00:00",
       "ecosystem": "cargo"
     }

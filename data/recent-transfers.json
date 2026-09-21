@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-21T13:54:30.272Z",
+  "scannedAt": "2026-09-21T19:16:48.392Z",
   "count": 127,
   "packages": [
     {
@@ -283,7 +283,7 @@
     },
     {
       "name": "oxlint",
-      "version": "1.84.0",
+      "version": "1.85.0",
       "ecosystem": "npm",
       "score": 30,
       "level": "MODERATE",
@@ -373,7 +373,7 @@
     },
     {
       "name": "@typescript-eslint/typescript-estree",
-      "version": "8.70.0",
+      "version": "8.70.1",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -408,21 +408,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/native-preview",
-      "version": "7.0.0-dev.20260707.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@azure/storage-blob",
       "version": "12.33.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "christopheranderson",
+      "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@typescript/native-preview",
+      "version": "7.0.0-dev.20260707.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
     },
     {
@@ -499,7 +499,7 @@
     },
     {
       "name": "@typescript-eslint/parser",
-      "version": "8.70.0",
+      "version": "8.70.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -517,7 +517,7 @@
     },
     {
       "name": "typescript-eslint",
-      "version": "8.70.0",
+      "version": "8.70.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -697,7 +697,7 @@
     },
     {
       "name": "oxfmt",
-      "version": "0.69.0",
+      "version": "0.70.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -714,8 +714,8 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "css-blank-pseudo",
-      "version": "8.0.2",
+      "name": "css-has-pseudo",
+      "version": "8.0.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -723,8 +723,8 @@
       "currentOwner": "romainmenke"
     },
     {
-      "name": "css-has-pseudo",
-      "version": "8.0.1",
+      "name": "css-blank-pseudo",
+      "version": "8.0.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -804,15 +804,6 @@
       "currentOwner": "notaphplover"
     },
     {
-      "name": "@microsoft/dynamicproto-js",
-      "version": "2.0.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "microsoft",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@appium/logger",
       "version": "2.0.11",
       "ecosystem": "npm",
@@ -820,6 +811,15 @@
       "level": "MODERATE",
       "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@microsoft/dynamicproto-js",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "microsoft",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@appium/tsconfig",
@@ -922,7 +922,7 @@
     },
     {
       "name": "@oxlint/binding-linux-x64-gnu",
-      "version": "1.84.0",
+      "version": "1.85.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -949,7 +949,7 @@
     },
     {
       "name": "@oxfmt/binding-linux-x64-gnu",
-      "version": "0.69.0",
+      "version": "0.70.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -958,7 +958,7 @@
     },
     {
       "name": "@oxlint/binding-linux-x64-musl",
-      "version": "1.84.0",
+      "version": "1.85.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -1011,21 +1011,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.70.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@astrojs/compiler-binding",
       "version": "0.4.1",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "matthewp",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.69.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1057,7 +1057,7 @@
     },
     {
       "name": "@astrojs/compiler-binding-linux-x64-gnu",
-      "version": "0.4.1",
+      "version": "0.5.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -1075,7 +1075,7 @@
     },
     {
       "name": "@oxlint/binding-linux-arm64-gnu",
-      "version": "1.84.0",
+      "version": "1.85.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
