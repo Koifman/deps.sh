@@ -1,6 +1,36 @@
 {
-  "fetchedAt": "2026-09-21T06:05:07.242Z",
+  "fetchedAt": "2026-09-21T13:51:32.199Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0293: Vulnerability in ringbuf",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0293.html",
+      "date": "2026-09-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0291: Vulnerability in owned-alloc",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0291.html",
+      "date": "2026-09-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0292: Vulnerability in imbl-sized-chunks",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0292.html",
+      "date": "2026-09-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0294: Unsoundness in iceoryx2-bb-container",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0294.html",
+      "date": "2026-09-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0295: Vulnerability in z3",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0295.html",
+      "date": "2026-09-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[lmdeploy] LMDeploy has Remote Code Execution by Pickle Deserialization via handle_zmq_recv in lmdeploy/lmdeploy/pytorch/disagg/conn/engine_conn.py",
       "url": "https://github.com/advisories/GHSA-2vh9-42vm-xmv2",
@@ -102,40 +132,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0290.html",
       "date": "2026-09-18T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0289: pqc_kyber is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0289.html",
-      "date": "2026-09-18T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[soupsieve] Soup Sieve: Polynomial-time ReDoS (O(n²)) in the `IDENTIFIER` / `VALUE` selector sub-patterns",
-      "url": "https://github.com/advisories/GHSA-gjv8-xp57-g29c",
-      "date": "2026-09-17T20:33:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[soupsieve] Soup Sieve: Polynomial-time ReDoS (O(n²)) in the whitespace/comment trimming regex `RE_WS_END` (triggers on VALID selectors)",
-      "url": "https://github.com/advisories/GHSA-j934-xhv5-fg8f",
-      "date": "2026-09-17T20:32:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@platejs/core] @platejs/core HTML deserialization can trigger browser behavior during parsing",
-      "url": "https://github.com/advisories/GHSA-qrfj-mgw8-j9c6",
-      "date": "2026-09-17T20:32:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@platejs/core] @platejs/core HTML deserialization can trigger browser behavior during parsing",
-      "url": "https://github.com/advisories/GHSA-qrfj-mgw8-j9c6",
-      "date": "2026-09-17T20:32:51.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
