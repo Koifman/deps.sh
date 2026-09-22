@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-09-22T18:42:13.545Z",
+  "fetchedAt": "2026-09-22T21:56:43.209Z",
   "entries": [
+    {
+      "title": "[9router] 9Router has a Login Brute-Force Lockout Bypass via Spoofable X-9r-Real-Ip Header",
+      "url": "https://github.com/advisories/GHSA-32gc-64m7-hj7v",
+      "date": "2026-09-22T16:34:20.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[9router] 9Router has an Authentication Bypass in Public LLM API via Spoofable X-9r-Real-Ip Header",
+      "url": "https://github.com/advisories/GHSA-5mj8-gf6m-fhw8",
+      "date": "2026-09-22T16:34:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@aborruso/ckan-mcp-server] @aborruso/ckan-mcp-server has SSRF via DNS-name → internal IP — incomplete fix of CVE-2026-53509",
       "url": "https://github.com/advisories/GHSA-798p-78g2-v556",
@@ -57,14 +71,32 @@
       "ecosystem": "cargo"
     },
     {
-      "title": "RUSTSEC-2026-0299: owned-alloc is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0299.html",
+      "title": "RUSTSEC-2026-0300: Vulnerability in skiplist",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0300.html",
       "date": "2026-09-22T12:00:00+00:00",
       "ecosystem": "cargo"
     },
     {
-      "title": "RUSTSEC-2026-0300: Vulnerability in skiplist",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0300.html",
+      "title": "RUSTSEC-2026-0303: stack-graphs is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0303.html",
+      "date": "2026-09-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0302: Unsoundness in stack-graphs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0302.html",
+      "date": "2026-09-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0301: Vulnerability in stack_collections",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0301.html",
+      "date": "2026-09-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0299: owned-alloc is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0299.html",
       "date": "2026-09-22T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -88,36 +120,6 @@
       "date": "2026-09-21T16:20:07.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0296: unzip is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0296.html",
-      "date": "2026-09-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0297: Vulnerability in unzip",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0297.html",
-      "date": "2026-09-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0293: Vulnerability in ringbuf",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0293.html",
-      "date": "2026-09-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0291: Vulnerability in owned-alloc",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0291.html",
-      "date": "2026-09-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0292: Vulnerability in imbl-sized-chunks",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0292.html",
-      "date": "2026-09-21T12:00:00+00:00",
-      "ecosystem": "cargo"
     },
     {
       "title": "RUSTSEC-2026-0294: Unsoundness in iceoryx2-bb-container",
