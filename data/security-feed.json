@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-09-22T14:36:30.793Z",
+  "fetchedAt": "2026-09-22T18:42:13.545Z",
   "entries": [
+    {
+      "title": "[@aborruso/ckan-mcp-server] @aborruso/ckan-mcp-server has SSRF via DNS-name → internal IP — incomplete fix of CVE-2026-53509",
+      "url": "https://github.com/advisories/GHSA-798p-78g2-v556",
+      "date": "2026-09-22T14:51:26.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@sync-in/server] Sync-in Server has Username/Login Enumeration via Timing Side-Channel on POST /api/auth/login (incomplete fix of the prior timing-attack advisory)",
+      "url": "https://github.com/advisories/GHSA-29hq-23m2-2j47",
+      "date": "2026-09-22T14:49:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@sync-in/server] Sync-in Server has a ReDoS via Unsanitized Regex in Sync Diff `pathFilters`",
+      "url": "https://github.com/advisories/GHSA-jx63-h26r-8cph",
+      "date": "2026-09-22T14:47:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@sync-in/server] Sync-in Server has a complete 2FA Bypass via `POST /api/auth/token`",
+      "url": "https://github.com/advisories/GHSA-92cr-jxw4-5wjg",
+      "date": "2026-09-22T14:46:32.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@sync-in/server] @sync-in/server vulnerable to TOTP Brute-Force via `POST /api/app/sync/register`",
+      "url": "https://github.com/advisories/GHSA-274f-6w77-8qm9",
+      "date": "2026-09-22T14:44:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@roomi-fields/notebooklm-mcp] @roomi-fields/notebooklm-mcp has a path traversal in vault.batch tool that allows arbitrary file write outside intended vault directory",
+      "url": "https://github.com/advisories/GHSA-jjhp-8crj-mppq",
+      "date": "2026-09-22T14:43:27.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[expr-eval] expr-eval vulnerable to Code Execution",
+      "url": "https://github.com/advisories/GHSA-q9v2-7m5w-4693",
+      "date": "2026-09-22T14:40:56.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0298: Vulnerability in unicycle",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0298.html",
@@ -81,55 +130,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0295.html",
       "date": "2026-09-21T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[mnemosyne-memory] Mnemosyne has JWT signature verification bypass sync server that allows authentication bypass",
-      "url": "https://github.com/advisories/GHSA-xcw4-53cc-hv32",
-      "date": "2026-09-18T17:54:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[msdoc-viewer] File Viewer: DOM XSS via unsafe hyperlink schemes in the legacy DOC renderer",
-      "url": "https://github.com/advisories/GHSA-3753-m2x2-q623",
-      "date": "2026-09-18T17:19:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@file-viewer/doc] File Viewer: DOM XSS via unsafe hyperlink schemes in the legacy DOC renderer",
-      "url": "https://github.com/advisories/GHSA-3753-m2x2-q623",
-      "date": "2026-09-18T17:19:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[adm-zip] adm-zip: Uncontrolled memory allocation via the declared uncompressed size (DoS)",
-      "url": "https://github.com/advisories/GHSA-7q85-xj36-vmfc",
-      "date": "2026-09-18T17:18:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[md-editor-v3] md-editor-v3: XSS via fenced-code language rendering bypass",
-      "url": "https://github.com/advisories/GHSA-3rm2-h79c-8qw6",
-      "date": "2026-09-18T17:17:38.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[anyio] AnyIO run_process/open_process ignores extra_groups and can retain parent supplementary groups",
-      "url": "https://github.com/advisories/GHSA-3w57-8xmc-8v26",
-      "date": "2026-09-18T17:17:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[anyio] AnyIO: TLSStream IDNA 2003 host name encoding enables potential TLS certificate spoofing",
-      "url": "https://github.com/advisories/GHSA-82r6-8w77-94w6",
-      "date": "2026-09-18T17:17:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
