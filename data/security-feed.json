@@ -1,6 +1,31 @@
 {
-  "fetchedAt": "2026-09-22T04:30:02.641Z",
+  "fetchedAt": "2026-09-22T09:47:44.269Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0298: Vulnerability in unicycle",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0298.html",
+      "date": "2026-09-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0299: owned-alloc is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0299.html",
+      "date": "2026-09-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0300: Vulnerability in skiplist",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0300.html",
+      "date": "2026-09-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "[RestrictedPython] RestrictedPython vulnerable to sandbox escape via string.Formatter field resolution",
+      "url": "https://github.com/advisories/GHSA-hp3v-5vw7-fx9w",
+      "date": "2026-09-22T04:20:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[chainlit] Chainlit contains a session hijacking vulnerability",
       "url": "https://github.com/advisories/GHSA-c39v-8hrw-h448",
@@ -105,34 +130,6 @@
       "date": "2026-09-18T17:17:19.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[anyio] AnyIO process-pool workers can block indefinitely on undrained stderr",
-      "url": "https://github.com/advisories/GHSA-5p39-cfhj-2xmp",
-      "date": "2026-09-18T17:17:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lmdeploy] LMDeploy has an SSRF bypass",
-      "url": "https://github.com/advisories/GHSA-39wr-7q6h-cf68",
-      "date": "2026-09-18T17:14:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lmdeploy] LMDeploy vulnerable to arbitrary code execution via eval() of untrusted quant_dtype in model config loading",
-      "url": "https://github.com/advisories/GHSA-3hmm-rh5q-gwwr",
-      "date": "2026-09-18T17:04:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[paella-core] Opencast: Stored XSS in Paella player via WebVTT/DFXP caption cue text",
-      "url": "https://github.com/advisories/GHSA-m6c8-jcw2-5r25",
-      "date": "2026-09-18T13:12:03.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
