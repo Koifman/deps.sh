@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-09-21T23:08:36.092Z",
+  "fetchedAt": "2026-09-22T04:30:02.641Z",
   "entries": [
+    {
+      "title": "[chainlit] Chainlit contains a session hijacking vulnerability",
+      "url": "https://github.com/advisories/GHSA-c39v-8hrw-h448",
+      "date": "2026-09-21T22:21:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[lmdeploy] LMDeploy has Remote Code Execution by Pickle Deserialization via handle_zmq_recv in lmdeploy/lmdeploy/pytorch/disagg/conn/engine_conn.py",
       "url": "https://github.com/advisories/GHSA-2vh9-42vm-xmv2",
@@ -126,12 +133,6 @@
       "date": "2026-09-18T13:12:03.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0288: Vulnerability in cosmian_kyber",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0288.html",
-      "date": "2026-09-18T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
