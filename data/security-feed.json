@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-09-23T05:45:59.504Z",
+  "fetchedAt": "2026-09-23T11:18:22.527Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0304: Vulnerability in connectrpc",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0304.html",
+      "date": "2026-09-23T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0305: Vulnerability in librsvg",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0305.html",
+      "date": "2026-09-23T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[homeassistant] Home Assistant: XSS in Statistics Graph Card",
       "url": "https://github.com/advisories/GHSA-wx4m-69m9-gx3m",
@@ -124,20 +136,6 @@
       "title": "[mcp-atlassian] MCP Atlassian: Arbitrary server-local file upload to Jira/Confluence attachments via unrestricted file_path parameters",
       "url": "https://github.com/advisories/GHSA-f6pj-qv47-g96w",
       "date": "2026-09-22T20:36:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mcp-atlassian] [mcp-atlassian] Authentication bypass in HTTP transport: AtlassianOpaqueTokenVerifier accepts any non-empty token",
-      "url": "https://github.com/advisories/GHSA-wrhw-j3f9-8vc6",
-      "date": "2026-09-22T20:36:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[mcp-atlassian] MCP Atlassian: SSRF Protection Bypass",
-      "url": "https://github.com/advisories/GHSA-hgcf-4mq8-5266",
-      "date": "2026-09-22T20:36:23.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
