@@ -1,137 +1,145 @@
 {
-  "fetchedAt": "2026-09-22T21:56:43.209Z",
+  "fetchedAt": "2026-09-23T00:17:15.724Z",
   "entries": [
     {
-      "title": "[9router] 9Router has a Login Brute-Force Lockout Bypass via Spoofable X-9r-Real-Ip Header",
-      "url": "https://github.com/advisories/GHSA-32gc-64m7-hj7v",
-      "date": "2026-09-22T16:34:20.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[9router] 9Router has an Authentication Bypass in Public LLM API via Spoofable X-9r-Real-Ip Header",
-      "url": "https://github.com/advisories/GHSA-5mj8-gf6m-fhw8",
-      "date": "2026-09-22T16:34:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@aborruso/ckan-mcp-server] @aborruso/ckan-mcp-server has SSRF via DNS-name → internal IP — incomplete fix of CVE-2026-53509",
-      "url": "https://github.com/advisories/GHSA-798p-78g2-v556",
-      "date": "2026-09-22T14:51:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@sync-in/server] Sync-in Server has Username/Login Enumeration via Timing Side-Channel on POST /api/auth/login (incomplete fix of the prior timing-attack advisory)",
-      "url": "https://github.com/advisories/GHSA-29hq-23m2-2j47",
-      "date": "2026-09-22T14:49:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@sync-in/server] Sync-in Server has a ReDoS via Unsanitized Regex in Sync Diff `pathFilters`",
-      "url": "https://github.com/advisories/GHSA-jx63-h26r-8cph",
-      "date": "2026-09-22T14:47:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@sync-in/server] Sync-in Server has a complete 2FA Bypass via `POST /api/auth/token`",
-      "url": "https://github.com/advisories/GHSA-92cr-jxw4-5wjg",
-      "date": "2026-09-22T14:46:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@sync-in/server] @sync-in/server vulnerable to TOTP Brute-Force via `POST /api/app/sync/register`",
-      "url": "https://github.com/advisories/GHSA-274f-6w77-8qm9",
-      "date": "2026-09-22T14:44:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@roomi-fields/notebooklm-mcp] @roomi-fields/notebooklm-mcp has a path traversal in vault.batch tool that allows arbitrary file write outside intended vault directory",
-      "url": "https://github.com/advisories/GHSA-jjhp-8crj-mppq",
-      "date": "2026-09-22T14:43:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[expr-eval] expr-eval vulnerable to Code Execution",
-      "url": "https://github.com/advisories/GHSA-q9v2-7m5w-4693",
-      "date": "2026-09-22T14:40:56.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0298: Vulnerability in unicycle",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0298.html",
-      "date": "2026-09-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0300: Vulnerability in skiplist",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0300.html",
-      "date": "2026-09-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0303: stack-graphs is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0303.html",
-      "date": "2026-09-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0302: Unsoundness in stack-graphs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0302.html",
-      "date": "2026-09-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0301: Vulnerability in stack_collections",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0301.html",
-      "date": "2026-09-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0299: owned-alloc is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0299.html",
-      "date": "2026-09-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[RestrictedPython] RestrictedPython vulnerable to sandbox escape via string.Formatter field resolution",
-      "url": "https://github.com/advisories/GHSA-hp3v-5vw7-fx9w",
-      "date": "2026-09-22T04:20:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[chainlit] Chainlit contains a session hijacking vulnerability",
-      "url": "https://github.com/advisories/GHSA-c39v-8hrw-h448",
-      "date": "2026-09-21T22:21:36.000Z",
+      "title": "[homeassistant] Home Assistant: XSS in Statistics Graph Card",
+      "url": "https://github.com/advisories/GHSA-wx4m-69m9-gx3m",
+      "date": "2026-09-22T20:40:58.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "[lmdeploy] LMDeploy has Remote Code Execution by Pickle Deserialization via handle_zmq_recv in lmdeploy/lmdeploy/pytorch/disagg/conn/engine_conn.py",
-      "url": "https://github.com/advisories/GHSA-2vh9-42vm-xmv2",
-      "date": "2026-09-21T16:20:07.000Z",
+      "title": "[homeassistant] Home Assistant: mDNS Server-Side Request Forgery",
+      "url": "https://github.com/advisories/GHSA-4ghv-53cq-7wp3",
+      "date": "2026-09-22T20:40:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lightrag-hku] lightrag-hku: Stored Cross-Site Scripting (XSS) in the LightRAG WebUI chat/answer renderer via ingested content",
+      "url": "https://github.com/advisories/GHSA-xpjq-3w4w-w5wr",
+      "date": "2026-09-22T20:40:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lightrag-hku] lightrag-hku: SSRF via IPv6-transition address bypass (NAT64, IPv4-compatible, 6to4) of the native-markdown image-download guard",
+      "url": "https://github.com/advisories/GHSA-vv3m-f8x4-7377",
+      "date": "2026-09-22T20:40:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[lightrag-hku] lightrag-hku: No Rate Limiting on /login Endpoint Allows Brute-Force Attacks",
+      "url": "https://github.com/advisories/GHSA-frch-4w6v-q5xx",
+      "date": "2026-09-22T20:40:23.000Z",
       "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "RUSTSEC-2026-0294: Unsoundness in iceoryx2-bb-container",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0294.html",
-      "date": "2026-09-21T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[lightrag-hku] lightrag-hku: Plaintext Passwords Compared Without Constant-Time Function",
+      "url": "https://github.com/advisories/GHSA-c759-cx9p-mrwq",
+      "date": "2026-09-22T20:40:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0295: Vulnerability in z3",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0295.html",
-      "date": "2026-09-21T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[lightrag-hku] lightrag-hku: Sensitive Information Exposure Through Raw Exception Messages in API Error Responses",
+      "url": "https://github.com/advisories/GHSA-hrmj-7rvj-4hg8",
+      "date": "2026-09-22T20:37:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nautobot] Nautobot: Authorization bypass in approval workflow REST API allows self-approval and unauthorized activation of scheduled jobs",
+      "url": "https://github.com/advisories/GHSA-q4c5-2j6f-r476",
+      "date": "2026-09-22T20:37:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nautobot] Nautobot: Stored cross-site scripting (XSS) in object create/edit form help text",
+      "url": "https://github.com/advisories/GHSA-56v6-2fhr-wxgq",
+      "date": "2026-09-22T20:37:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nautobot] Nautobot: Stored cross-site scripting (XSS) in object create/edit form help text",
+      "url": "https://github.com/advisories/GHSA-56v6-2fhr-wxgq",
+      "date": "2026-09-22T20:37:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[crossbar] Autobahn Python permessage-deflate bypasses maxMessagePayloadSize after inflation",
+      "url": "https://github.com/advisories/GHSA-hxp9-w8x3-p566",
+      "date": "2026-09-22T20:37:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[autobahn] Autobahn Python permessage-deflate bypasses maxMessagePayloadSize after inflation",
+      "url": "https://github.com/advisories/GHSA-hxp9-w8x3-p566",
+      "date": "2026-09-22T20:37:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[unleash-server] Unleash: Missing await on permission check + cross-project IDOR in admin API",
+      "url": "https://github.com/advisories/GHSA-72h8-wp98-7hch",
+      "date": "2026-09-22T20:36:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[unleash-server] Unleash: A project member can reorder activation strategies belonging to any other project / environment (cross-project integrity write), bypassing project RBAC and the audit log",
+      "url": "https://github.com/advisories/GHSA-5ffh-6f9q-5hhr",
+      "date": "2026-09-22T20:36:41.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp-atlassian] MCP Atlassian: Arbitrary file read/exfiltration via upload_attachment missing validate_safe_path()",
+      "url": "https://github.com/advisories/GHSA-93xw-j965-9mx3",
+      "date": "2026-09-22T20:36:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mcp-atlassian] MCP Atlassian: OAuth fallback token storage writes plaintext access and refresh tokens with group-readable permissions",
+      "url": "https://github.com/advisories/GHSA-g5xv-mhgm-v5f6",
+      "date": "2026-09-22T20:36:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp-atlassian] MCP Atlassian:  Incomplete fix for GHSA-7r34-79r5-rcc9: redirect-based SSRF via unhooked requests session in Jira user-permission lookup",
+      "url": "https://github.com/advisories/GHSA-v9m3-wfh8-5646",
+      "date": "2026-09-22T20:36:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp-atlassian] MCP Atlassian: Arbitrary server-local file upload to Jira/Confluence attachments via unrestricted file_path parameters",
+      "url": "https://github.com/advisories/GHSA-f6pj-qv47-g96w",
+      "date": "2026-09-22T20:36:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mcp-atlassian] [mcp-atlassian] Authentication bypass in HTTP transport: AtlassianOpaqueTokenVerifier accepts any non-empty token",
+      "url": "https://github.com/advisories/GHSA-wrhw-j3f9-8vc6",
+      "date": "2026-09-22T20:36:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[mcp-atlassian] MCP Atlassian: SSRF Protection Bypass",
+      "url": "https://github.com/advisories/GHSA-hgcf-4mq8-5266",
+      "date": "2026-09-22T20:36:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     }
   ]
 }
