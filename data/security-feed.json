@@ -1,142 +1,145 @@
 {
-  "fetchedAt": "2026-09-23T20:07:24.254Z",
+  "fetchedAt": "2026-09-23T23:32:50.951Z",
   "entries": [
     {
-      "title": "[zapros] Zapros has an Unbounded Content-Encoding decompression chain that allows denial of service",
-      "url": "https://github.com/advisories/GHSA-5vjj-2r48-q622",
-      "date": "2026-09-23T13:58:36.000Z",
+      "title": "[elysia] elysia has Inefficient Algorithmic Complexity and Interpretation Conflict",
+      "url": "https://github.com/advisories/GHSA-9643-4qgh-g8mx",
+      "date": "2026-09-23T21:54:51.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@fecommunity/reactpress] ReactPress has SQL injection via dynamic column names in TypeORM query builders",
+      "url": "https://github.com/advisories/GHSA-wmw4-mw6x-6vfm",
+      "date": "2026-09-23T21:52:00.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[plone.app.contenttypes] plone.app.contenttypes has a Denial of Service in File Upload due to excessive filename length",
+      "url": "https://github.com/advisories/GHSA-8pcw-h6w9-h46g",
+      "date": "2026-09-23T21:49:52.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[zapros] Zapros: Streaming decoders ignored the requested chunk size, allowing a single compressed response chunk to allocate unbounded memory (decompression bomb)",
-      "url": "https://github.com/advisories/GHSA-6cp7-3m3c-5x5c",
-      "date": "2026-09-23T13:57:50.000Z",
+      "title": "[plone.app.contenttypes] plone.app.contenttypes has a Denial of Service in File Upload due to excessive filename length",
+      "url": "https://github.com/advisories/GHSA-8pcw-h6w9-h46g",
+      "date": "2026-09-23T21:49:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[plone.app.contenttypes] plone.app.contenttypes has a Denial of Service in File Upload due to excessive filename length",
+      "url": "https://github.com/advisories/GHSA-8pcw-h6w9-h46g",
+      "date": "2026-09-23T21:49:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[plone.app.dexterity] plone.app.dexterity has a Denial of Service due to excessive title or description length",
+      "url": "https://github.com/advisories/GHSA-5426-92w4-wvhv",
+      "date": "2026-09-23T21:48:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[plone.app.dexterity] plone.app.dexterity has a Denial of Service due to excessive title or description length",
+      "url": "https://github.com/advisories/GHSA-5426-92w4-wvhv",
+      "date": "2026-09-23T21:48:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[plone.app.dexterity] plone.app.dexterity has a Denial of Service due to excessive title or description length",
+      "url": "https://github.com/advisories/GHSA-5426-92w4-wvhv",
+      "date": "2026-09-23T21:48:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[picklescan] Duplicate Advisory: PickleScan has multiple stdlib modules with direct RCE not in blocklist",
+      "url": "https://github.com/advisories/GHSA-g7vj-qw6x-g3p8",
+      "date": "2026-09-23T21:26:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[nuxt] Duplicate Advisory: Nuxt dev server vite-node IPC socket is world-connectable on Linux",
+      "url": "https://github.com/advisories/GHSA-2x6f-57hp-86fx",
+      "date": "2026-09-23T21:25:47.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[flowise] Duplicate Advisory: Flowise Execute Flow function has an SSRF vulnerability",
+      "url": "https://github.com/advisories/GHSA-w4hm-rrxg-pxcf",
+      "date": "2026-09-23T21:24:53.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@openc3/vue-common] OpenC3 COSMOS: Stored, cross-user XSS via Telemetry screen BUTTON widget",
+      "url": "https://github.com/advisories/GHSA-gvf2-2rh5-mpgf",
+      "date": "2026-09-23T21:24:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mesop] Mesop: Unauthenticated ANSI Escape Sequence Injection in CSP Reporting Endpoint",
+      "url": "https://github.com/advisories/GHSA-g7f6-rxc4-qhph",
+      "date": "2026-09-23T19:01:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[picklescan] Duplicate Advisory: Picklescan has a missing detection when calling built-in python profile.Profile.runctx",
+      "url": "https://github.com/advisories/GHSA-mg57-j93w-g3c7",
+      "date": "2026-09-23T18:16:00.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[plone.app.portlets] plone.app.portlets Vulnerable to Remote Code Execution via TALES Injection",
-      "url": "https://github.com/advisories/GHSA-rr49-f9g6-c9r5",
-      "date": "2026-09-23T13:55:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[plone.app.portlets] plone.app.portlets Vulnerable to Remote Code Execution via TALES Injection",
-      "url": "https://github.com/advisories/GHSA-rr49-f9g6-c9r5",
-      "date": "2026-09-23T13:55:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[plone.app.portlets] plone.app.portlets Vulnerable to Remote Code Execution via TALES Injection",
-      "url": "https://github.com/advisories/GHSA-rr49-f9g6-c9r5",
-      "date": "2026-09-23T13:55:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0305: Vulnerability in librsvg",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0305.html",
-      "date": "2026-09-23T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0306: Unsoundness in faster-hex",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0306.html",
-      "date": "2026-09-23T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0304: Vulnerability in connectrpc",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0304.html",
-      "date": "2026-09-23T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[homeassistant] Home Assistant: XSS in Statistics Graph Card",
-      "url": "https://github.com/advisories/GHSA-wx4m-69m9-gx3m",
-      "date": "2026-09-22T20:40:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[homeassistant] Home Assistant: mDNS Server-Side Request Forgery",
-      "url": "https://github.com/advisories/GHSA-4ghv-53cq-7wp3",
-      "date": "2026-09-22T20:40:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lightrag-hku] lightrag-hku: Stored Cross-Site Scripting (XSS) in the LightRAG WebUI chat/answer renderer via ingested content",
-      "url": "https://github.com/advisories/GHSA-xpjq-3w4w-w5wr",
-      "date": "2026-09-22T20:40:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lightrag-hku] lightrag-hku: SSRF via IPv6-transition address bypass (NAT64, IPv4-compatible, 6to4) of the native-markdown image-download guard",
-      "url": "https://github.com/advisories/GHSA-vv3m-f8x4-7377",
-      "date": "2026-09-22T20:40:26.000Z",
+      "title": "[picklescan] Duplicate Advisory: Picklescan is vulnerable to RCE through missing detection when calling numpy.f2py.crackfortran.myeval",
+      "url": "https://github.com/advisories/GHSA-x36p-c636-788x",
+      "date": "2026-09-23T18:15:31.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[lightrag-hku] lightrag-hku: No Rate Limiting on /login Endpoint Allows Brute-Force Attacks",
-      "url": "https://github.com/advisories/GHSA-frch-4w6v-q5xx",
-      "date": "2026-09-22T20:40:23.000Z",
+      "title": "[picklescan] Duplicate Advisory: Picklescan missing detection when calling pytorch function torch.jit.unsupported_tensor_ops.execWrapper",
+      "url": "https://github.com/advisories/GHSA-q8qp-8jq6-78mc",
+      "date": "2026-09-23T18:14:33.000Z",
       "ecosystem": "pypi",
-      "severity": "CRITICAL"
+      "severity": "HIGH"
     },
     {
-      "title": "[lightrag-hku] lightrag-hku: Plaintext Passwords Compared Without Constant-Time Function",
-      "url": "https://github.com/advisories/GHSA-c759-cx9p-mrwq",
-      "date": "2026-09-22T20:40:20.000Z",
+      "title": "[picklescan] Duplicate Advisory: Picklescan has a missing detection when calling built-in python idlelib.autocomplete.AutoComplete.fetch_completions",
+      "url": "https://github.com/advisories/GHSA-gq8p-2329-gh3x",
+      "date": "2026-09-23T18:13:30.000Z",
       "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[9router] 9router: Mass assignment in PATCH /api/settings allows authenticated authorization downgrade",
+      "url": "https://github.com/advisories/GHSA-vmjq-hvgq-2wv4",
+      "date": "2026-09-23T18:12:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[9router] 9router: Kiro region injection allows authenticated SSRF with Authorization header forwarding",
+      "url": "https://github.com/advisories/GHSA-6mwv-4mrm-5p3m",
+      "date": "2026-09-23T18:12:32.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[lightrag-hku] lightrag-hku: Sensitive Information Exposure Through Raw Exception Messages in API Error Responses",
-      "url": "https://github.com/advisories/GHSA-hrmj-7rvj-4hg8",
-      "date": "2026-09-22T20:37:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nautobot] Nautobot: Authorization bypass in approval workflow REST API allows self-approval and unauthorized activation of scheduled jobs",
-      "url": "https://github.com/advisories/GHSA-q4c5-2j6f-r476",
-      "date": "2026-09-22T20:37:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nautobot] Nautobot: Stored cross-site scripting (XSS) in object create/edit form help text",
-      "url": "https://github.com/advisories/GHSA-56v6-2fhr-wxgq",
-      "date": "2026-09-22T20:37:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nautobot] Nautobot: Stored cross-site scripting (XSS) in object create/edit form help text",
-      "url": "https://github.com/advisories/GHSA-56v6-2fhr-wxgq",
-      "date": "2026-09-22T20:37:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[crossbar] Autobahn Python permessage-deflate bypasses maxMessagePayloadSize after inflation",
-      "url": "https://github.com/advisories/GHSA-hxp9-w8x3-p566",
-      "date": "2026-09-22T20:37:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[autobahn] Autobahn Python permessage-deflate bypasses maxMessagePayloadSize after inflation",
-      "url": "https://github.com/advisories/GHSA-hxp9-w8x3-p566",
-      "date": "2026-09-22T20:37:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "title": "[9router] 9router: Image prefetch DNS rebinding allows SSRF to internal services",
+      "url": "https://github.com/advisories/GHSA-cmhj-wh2f-9cgx",
+      "date": "2026-09-23T18:12:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
