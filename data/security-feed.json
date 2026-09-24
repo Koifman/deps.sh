@@ -1,142 +1,144 @@
 {
-  "fetchedAt": "2026-09-24T18:58:19.982Z",
+  "fetchedAt": "2026-09-24T22:15:07.928Z",
   "entries": [
     {
-      "title": "[lightning]  PyTorch Lightning allows arbitrary code execution through checkpoint _instantiator hyperparameters",
-      "url": "https://github.com/advisories/GHSA-qqmf-gpg7-g8gw",
-      "date": "2026-09-24T15:39:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[streamlink] Streamlink: HTTPSession follows HTTP redirects into file:// URLs, reading local files",
-      "url": "https://github.com/advisories/GHSA-vf2x-4v53-pm7v",
-      "date": "2026-09-24T14:58:05.000Z",
+      "title": "[social-auth-core] social-auth-core has a Session Fixation issue",
+      "url": "https://github.com/advisories/GHSA-vqg6-3fw6-j9jg",
+      "date": "2026-09-24T19:58:15.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[suneditor] SunEditor: Critical XSS vulnerability - sanitizer bypass",
-      "url": "https://github.com/advisories/GHSA-6rf4-v2fh-m6p4",
-      "date": "2026-09-24T14:57:55.000Z",
+      "title": "[social-auth-core] social-auth-core: VK App backend accepts unsigned callback data when auth_key is missing",
+      "url": "https://github.com/advisories/GHSA-3c93-f73f-qc9h",
+      "date": "2026-09-24T19:57:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[social-auth-core] social-auth-core has Login CSRF via Missing State Parameter in LoginRadius Backend",
+      "url": "https://github.com/advisories/GHSA-x7qq-23vw-7pfg",
+      "date": "2026-09-24T19:56:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[social-auth-core] social-auth-core Vulnerable to Account Takeover via Identity Binding Flaw in Vend Backend",
+      "url": "https://github.com/advisories/GHSA-fp7w-m676-w7gc",
+      "date": "2026-09-24T19:55:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[social-auth-core] social-auth-core has an Improper Authentication issue",
+      "url": "https://github.com/advisories/GHSA-vq6g-g6c7-5f2j",
+      "date": "2026-09-24T19:54:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[compliance-trestle] Trestle is vulnerable to arbitrary file write via path traversal in author generate commands (Incomplete fix of CVE-2026-46345)",
+      "url": "https://github.com/advisories/GHSA-r4vp-3vw6-r2x5",
+      "date": "2026-09-24T19:52:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[compliance-trestle] Trestle is vulnerable to arbitrary file write via path traversal in author generate commands (Incomplete fix of CVE-2026-46345)",
+      "url": "https://github.com/advisories/GHSA-r4vp-3vw6-r2x5",
+      "date": "2026-09-24T19:52:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[compliance-trestle] Trestle SSTI in Jinja2 include tags allows arbitrary code execution (Incomplete fix of CVE-2026-46439)",
+      "url": "https://github.com/advisories/GHSA-mr95-65j8-9mxp",
+      "date": "2026-09-24T19:50:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[compliance-trestle] Trestle SSTI in Jinja2 include tags allows arbitrary code execution (Incomplete fix of CVE-2026-46439)",
+      "url": "https://github.com/advisories/GHSA-mr95-65j8-9mxp",
+      "date": "2026-09-24T19:50:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[cline] Cline: Cross-Origin WebSocket Hijacking in Cline Hub Dashboard (`/browser` endpoint)",
+      "url": "https://github.com/advisories/GHSA-3cj3-hqcr-g934",
+      "date": "2026-09-24T19:48:35.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[hpack] hpack: Unbounded variable integer decoding can cause run-away computation on malformed input",
+      "url": "https://github.com/advisories/GHSA-8v8h-hg4w-mvq2",
+      "date": "2026-09-24T19:43:27.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@rsdoctor/rspack-plugin] @rsdoctor/rspack-plugin has Unauthenticated HTTP API that Exposes Project Source Code and Build Metadata",
+      "url": "https://github.com/advisories/GHSA-jmg2-rcxh-w8q3",
+      "date": "2026-09-24T19:42:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@bytebase/dbhub] @bytebase/dbhub's read-only mode does not prevent database writes",
+      "url": "https://github.com/advisories/GHSA-mwwr-p57h-56pf",
+      "date": "2026-09-24T19:38:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@bytebase/dbhub] DBHub HTTP transport DNS rebinding allows unauthenticated browser-origin SQL execution",
+      "url": "https://github.com/advisories/GHSA-fm8p-53ww-hf6w",
+      "date": "2026-09-24T19:36:58.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[langflow] Langflow: Logout button does not clear session",
-      "url": "https://github.com/advisories/GHSA-7hw8-6q6r-4276",
-      "date": "2026-09-24T14:57:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[psd-tools] Potential buffer overflow in psd-tools",
-      "url": "https://github.com/advisories/GHSA-22jr-vc7j-g762",
-      "date": "2026-09-24T14:55:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[cryptography] python-cryptography verifier accepts wildcard DNS names allowing escape from permittedSubtrees",
-      "url": "https://github.com/advisories/GHSA-m2h6-j472-rp4c",
-      "date": "2026-09-24T14:54:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[socket.io] socket.io has an unhandled 'error' event",
-      "url": "https://github.com/advisories/GHSA-25hc-qcg6-38wj",
-      "date": "2026-09-24T14:45:27.000Z",
+      "title": "[xhtml-purifier] xhtml-purifier has HTML attribute-injection (sanitizer bypass) that leads to XSS",
+      "url": "https://github.com/advisories/GHSA-j8r4-32c5-33rc",
+      "date": "2026-09-24T19:33:25.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[scrapy] Incorrect Authorization and Exposure of Sensitive Information to an Unauthorized Actor in scrapy",
-      "url": "https://github.com/advisories/GHSA-cjvr-mfj7-j4j8",
-      "date": "2026-09-24T14:44:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[systeminformation] Command Injection via Unsanitized `locate` Output in `versions()` — systeminformation",
-      "url": "https://github.com/advisories/GHSA-5vv4-hvf7-2h46",
-      "date": "2026-09-24T14:41:16.000Z",
+      "title": "[@bsv/wallet-toolbox-mobile] `@bsv/wallet-toolbox` / `-client` / `-mobile` don't verify storage-supplied recipient output scripts against caller-requested outputs in createAction",
+      "url": "https://github.com/advisories/GHSA-36f9-7rg5-cpf8",
+      "date": "2026-09-24T19:32:03.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[GitPython] GitPython: Environment-variable exfiltration via os.path.expandvars() on Repo.clone_from() URL",
-      "url": "https://github.com/advisories/GHSA-rwj8-pgh3-r573",
-      "date": "2026-09-24T14:40:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[GitPython] GitPython: Environment-variable exfiltration via Repo.create_remote() / Remote.add() URL (incomplete fix of GHSA-rwj8-pgh3-r573)",
-      "url": "https://github.com/advisories/GHSA-94p4-4cq8-9g67",
-      "date": "2026-09-24T14:39:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[cryptography] python-cryptography: Duplicate self-signed intermediates can cause exponential path-building",
-      "url": "https://github.com/advisories/GHSA-jwv3-5hgf-82ww",
-      "date": "2026-09-24T14:35:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0308: Unsoundness in salsa",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0308.html",
-      "date": "2026-09-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0307: Vulnerability in uncbv",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0307.html",
-      "date": "2026-09-24T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[elysia] elysia has Inefficient Algorithmic Complexity and Interpretation Conflict",
-      "url": "https://github.com/advisories/GHSA-9643-4qgh-g8mx",
-      "date": "2026-09-23T21:54:51.000Z",
+      "title": "[@bsv/wallet-toolbox-client] `@bsv/wallet-toolbox` / `-client` / `-mobile` don't verify storage-supplied recipient output scripts against caller-requested outputs in createAction",
+      "url": "https://github.com/advisories/GHSA-36f9-7rg5-cpf8",
+      "date": "2026-09-24T19:32:03.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@fecommunity/reactpress] ReactPress has SQL injection via dynamic column names in TypeORM query builders",
-      "url": "https://github.com/advisories/GHSA-wmw4-mw6x-6vfm",
-      "date": "2026-09-23T21:52:00.000Z",
+      "title": "[@bsv/wallet-toolbox] `@bsv/wallet-toolbox` / `-client` / `-mobile` don't verify storage-supplied recipient output scripts against caller-requested outputs in createAction",
+      "url": "https://github.com/advisories/GHSA-36f9-7rg5-cpf8",
+      "date": "2026-09-24T19:32:03.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[plone.app.contenttypes] plone.app.contenttypes has a Denial of Service in File Upload due to excessive filename length",
-      "url": "https://github.com/advisories/GHSA-8pcw-h6w9-h46g",
-      "date": "2026-09-23T21:49:52.000Z",
+      "title": "[langchain-nvidia-ai-endpoints] langchain-nvidia-ai-endpoints has local file disclosure through VLM image inputs",
+      "url": "https://github.com/advisories/GHSA-g28h-2cmm-rj9x",
+      "date": "2026-09-24T19:25:37.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     },
     {
-      "title": "[plone.app.contenttypes] plone.app.contenttypes has a Denial of Service in File Upload due to excessive filename length",
-      "url": "https://github.com/advisories/GHSA-8pcw-h6w9-h46g",
-      "date": "2026-09-23T21:49:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[plone.app.contenttypes] plone.app.contenttypes has a Denial of Service in File Upload due to excessive filename length",
-      "url": "https://github.com/advisories/GHSA-8pcw-h6w9-h46g",
-      "date": "2026-09-23T21:49:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[plone.app.dexterity] plone.app.dexterity has a Denial of Service due to excessive title or description length",
-      "url": "https://github.com/advisories/GHSA-5426-92w4-wvhv",
-      "date": "2026-09-23T21:48:24.000Z",
-      "ecosystem": "pypi",
+      "title": "[cyberchef] CyberChef: Prototype pollution in Series Chart operation",
+      "url": "https://github.com/advisories/GHSA-fx6f-382r-j72c",
+      "date": "2026-09-24T19:24:31.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
