@@ -1,6 +1,90 @@
 {
-  "fetchedAt": "2026-09-24T14:50:23.826Z",
+  "fetchedAt": "2026-09-24T18:58:19.982Z",
   "entries": [
+    {
+      "title": "[lightning]  PyTorch Lightning allows arbitrary code execution through checkpoint _instantiator hyperparameters",
+      "url": "https://github.com/advisories/GHSA-qqmf-gpg7-g8gw",
+      "date": "2026-09-24T15:39:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[streamlink] Streamlink: HTTPSession follows HTTP redirects into file:// URLs, reading local files",
+      "url": "https://github.com/advisories/GHSA-vf2x-4v53-pm7v",
+      "date": "2026-09-24T14:58:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[suneditor] SunEditor: Critical XSS vulnerability - sanitizer bypass",
+      "url": "https://github.com/advisories/GHSA-6rf4-v2fh-m6p4",
+      "date": "2026-09-24T14:57:55.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[langflow] Langflow: Logout button does not clear session",
+      "url": "https://github.com/advisories/GHSA-7hw8-6q6r-4276",
+      "date": "2026-09-24T14:57:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[psd-tools] Potential buffer overflow in psd-tools",
+      "url": "https://github.com/advisories/GHSA-22jr-vc7j-g762",
+      "date": "2026-09-24T14:55:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[cryptography] python-cryptography verifier accepts wildcard DNS names allowing escape from permittedSubtrees",
+      "url": "https://github.com/advisories/GHSA-m2h6-j472-rp4c",
+      "date": "2026-09-24T14:54:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[socket.io] socket.io has an unhandled 'error' event",
+      "url": "https://github.com/advisories/GHSA-25hc-qcg6-38wj",
+      "date": "2026-09-24T14:45:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[scrapy] Incorrect Authorization and Exposure of Sensitive Information to an Unauthorized Actor in scrapy",
+      "url": "https://github.com/advisories/GHSA-cjvr-mfj7-j4j8",
+      "date": "2026-09-24T14:44:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[systeminformation] Command Injection via Unsanitized `locate` Output in `versions()` — systeminformation",
+      "url": "https://github.com/advisories/GHSA-5vv4-hvf7-2h46",
+      "date": "2026-09-24T14:41:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[GitPython] GitPython: Environment-variable exfiltration via os.path.expandvars() on Repo.clone_from() URL",
+      "url": "https://github.com/advisories/GHSA-rwj8-pgh3-r573",
+      "date": "2026-09-24T14:40:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[GitPython] GitPython: Environment-variable exfiltration via Repo.create_remote() / Remote.add() URL (incomplete fix of GHSA-rwj8-pgh3-r573)",
+      "url": "https://github.com/advisories/GHSA-94p4-4cq8-9g67",
+      "date": "2026-09-24T14:39:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[cryptography] python-cryptography: Duplicate self-signed intermediates can cause exponential path-building",
+      "url": "https://github.com/advisories/GHSA-jwv3-5hgf-82ww",
+      "date": "2026-09-24T14:35:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0308: Unsoundness in salsa",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0308.html",
@@ -54,90 +138,6 @@
       "date": "2026-09-23T21:48:24.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[plone.app.dexterity] plone.app.dexterity has a Denial of Service due to excessive title or description length",
-      "url": "https://github.com/advisories/GHSA-5426-92w4-wvhv",
-      "date": "2026-09-23T21:48:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[plone.app.dexterity] plone.app.dexterity has a Denial of Service due to excessive title or description length",
-      "url": "https://github.com/advisories/GHSA-5426-92w4-wvhv",
-      "date": "2026-09-23T21:48:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: PickleScan has multiple stdlib modules with direct RCE not in blocklist",
-      "url": "https://github.com/advisories/GHSA-g7vj-qw6x-g3p8",
-      "date": "2026-09-23T21:26:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[nuxt] Duplicate Advisory: Nuxt dev server vite-node IPC socket is world-connectable on Linux",
-      "url": "https://github.com/advisories/GHSA-2x6f-57hp-86fx",
-      "date": "2026-09-23T21:25:47.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[flowise] Duplicate Advisory: Flowise Execute Flow function has an SSRF vulnerability",
-      "url": "https://github.com/advisories/GHSA-w4hm-rrxg-pxcf",
-      "date": "2026-09-23T21:24:53.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@openc3/vue-common] OpenC3 COSMOS: Stored, cross-user XSS via Telemetry screen BUTTON widget",
-      "url": "https://github.com/advisories/GHSA-gvf2-2rh5-mpgf",
-      "date": "2026-09-23T21:24:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mesop] Mesop: Unauthenticated ANSI Escape Sequence Injection in CSP Reporting Endpoint",
-      "url": "https://github.com/advisories/GHSA-g7f6-rxc4-qhph",
-      "date": "2026-09-23T19:01:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan has a missing detection when calling built-in python profile.Profile.runctx",
-      "url": "https://github.com/advisories/GHSA-mg57-j93w-g3c7",
-      "date": "2026-09-23T18:16:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan is vulnerable to RCE through missing detection when calling numpy.f2py.crackfortran.myeval",
-      "url": "https://github.com/advisories/GHSA-x36p-c636-788x",
-      "date": "2026-09-23T18:15:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan missing detection when calling pytorch function torch.jit.unsupported_tensor_ops.execWrapper",
-      "url": "https://github.com/advisories/GHSA-q8qp-8jq6-78mc",
-      "date": "2026-09-23T18:14:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory: Picklescan has a missing detection when calling built-in python idlelib.autocomplete.AutoComplete.fetch_completions",
-      "url": "https://github.com/advisories/GHSA-gq8p-2329-gh3x",
-      "date": "2026-09-23T18:13:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[9router] 9router: Mass assignment in PATCH /api/settings allows authenticated authorization downgrade",
-      "url": "https://github.com/advisories/GHSA-vmjq-hvgq-2wv4",
-      "date": "2026-09-23T18:12:34.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
