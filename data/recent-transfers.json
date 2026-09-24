@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-09-24T04:26:19.178Z",
-  "count": 127,
+  "scannedAt": "2026-09-24T09:53:15.920Z",
+  "count": 128,
   "packages": [
     {
       "name": "xmldom",
@@ -804,8 +804,8 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "@appium/tsconfig",
-      "version": "1.2.1",
+      "name": "@appium/logger",
+      "version": "2.0.11",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -813,8 +813,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/logger",
-      "version": "2.0.11",
+      "name": "@appium/tsconfig",
+      "version": "1.2.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -1038,7 +1038,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
+      "name": "@oxc-parser/binding-darwin-arm64",
       "version": "0.151.0",
       "ecosystem": "npm",
       "score": 20,
@@ -1047,7 +1047,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-arm64",
+      "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.151.0",
       "ecosystem": "npm",
       "score": 20,
@@ -1134,6 +1134,15 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-android-arm64",
+      "version": "0.151.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
