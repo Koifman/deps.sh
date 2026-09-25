@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-09-25T13:33:43.051Z",
+  "fetchedAt": "2026-09-25T18:26:17.577Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0309: Unsoundness in bun_collections",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0309.html",
+      "date": "2026-09-25T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0310: Vulnerability in domain",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0310.html",
+      "date": "2026-09-25T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[social-auth-core] social-auth-core has a Session Fixation issue",
       "url": "https://github.com/advisories/GHSA-vqg6-3fw6-j9jg",
@@ -126,20 +138,6 @@
       "date": "2026-09-24T19:32:03.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[langchain-nvidia-ai-endpoints] langchain-nvidia-ai-endpoints has local file disclosure through VLM image inputs",
-      "url": "https://github.com/advisories/GHSA-g28h-2cmm-rj9x",
-      "date": "2026-09-24T19:25:37.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[cyberchef] CyberChef: Prototype pollution in Series Chart operation",
-      "url": "https://github.com/advisories/GHSA-fx6f-382r-j72c",
-      "date": "2026-09-24T19:24:31.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
