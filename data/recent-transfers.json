@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-09-26T12:59:03.064Z",
-  "count": 127,
+  "scannedAt": "2026-09-26T17:04:33.744Z",
+  "count": 128,
   "packages": [
     {
       "name": "xmldom",
@@ -570,8 +570,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/search",
-      "version": "4.3.3",
+      "name": "@inquirer/password",
+      "version": "5.2.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -579,8 +579,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/password",
-      "version": "5.2.2",
+      "name": "@inquirer/search",
+      "version": "4.3.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -993,7 +993,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-transform/binding-linux-x64-gnu",
+      "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.151.0",
       "ecosystem": "npm",
       "score": 20,
@@ -1002,7 +1002,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-gnu",
+      "name": "@oxc-transform/binding-linux-x64-gnu",
       "version": "0.151.0",
       "ecosystem": "npm",
       "score": 20,
@@ -1038,6 +1038,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@astrojs/compiler-binding-linux-x64-gnu",
+      "version": "0.5.1",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matthewp",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@oxc-parser/binding-linux-arm64-musl",
       "version": "0.151.0",
       "ecosystem": "npm",
@@ -1054,15 +1063,6 @@
       "level": "LOW",
       "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
-    },
-    {
-      "name": "@astrojs/compiler-binding-linux-x64-gnu",
-      "version": "0.5.1",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matthewp",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxlint/binding-linux-arm64-gnu",
@@ -1101,7 +1101,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
+      "name": "@oxc-parser/binding-win32-x64-msvc",
       "version": "0.151.0",
       "ecosystem": "npm",
       "score": 20,
@@ -1110,7 +1110,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-win32-x64-msvc",
+      "name": "oxc-minify",
       "version": "0.151.0",
       "ecosystem": "npm",
       "score": 20,
@@ -1138,6 +1138,15 @@
     },
     {
       "name": "@oxc-parser/binding-win32-arm64-msvc",
+      "version": "0.151.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-android-arm64",
       "version": "0.151.0",
       "ecosystem": "npm",
       "score": 20,
