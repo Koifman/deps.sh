@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-09-25T22:10:02.316Z",
+  "fetchedAt": "2026-09-26T01:23:42.302Z",
   "entries": [
+    {
+      "title": "[scbe-aethermoore] SCBE-AETHERMOORE Unauthenticated AetherBrowser Ops API Exposes Operator Email Digests",
+      "url": "https://github.com/advisories/GHSA-q986-4x7x-gx39",
+      "date": "2026-09-25T21:48:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[khoj] khoj has an unauthenticated path traversal in /home/ endpoint that allows file read from server filesystem",
+      "url": "https://github.com/advisories/GHSA-62mm-xwmv-crhg",
+      "date": "2026-09-25T21:38:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[knowns] Knowns Unrestricted Path Traversal leading to out-of-bounds arbitrary .md file read, write, and deletion in MCP Docs + Memory Tools",
+      "url": "https://github.com/advisories/GHSA-9gfj-28hw-jchp",
+      "date": "2026-09-25T19:32:06.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@openzeppelin/confidential-contracts] OpenZeppelin Confidential Contracts `VestingWalletConfidential`: a malicious ERC-7984 token is able to extract private data from the vesting wallet",
+      "url": "https://github.com/advisories/GHSA-29h2-jr22-frmh",
+      "date": "2026-09-25T19:31:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@openzeppelin/confidential-contracts] OpenZeppelin Confidential Contracts `VestingWalletConfidential`: a malicious ERC-7984 token is able to extract private data from the vesting wallet",
+      "url": "https://github.com/advisories/GHSA-29h2-jr22-frmh",
+      "date": "2026-09-25T19:31:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@openzeppelin/confidential-contracts] OpenZeppelin Confidential Contracts `VestingWalletConfidential`: a malicious ERC-7984 token is able to extract private data from the vesting wallet",
+      "url": "https://github.com/advisories/GHSA-29h2-jr22-frmh",
+      "date": "2026-09-25T19:31:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@vendure/core] Vendure: Unauthenticated ReDoS via `regex` filter on SQLite backends",
       "url": "https://github.com/advisories/GHSA-jgm3-qmp2-c4p7",
@@ -96,48 +138,6 @@
       "date": "2026-09-24T19:50:29.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[compliance-trestle] Trestle SSTI in Jinja2 include tags allows arbitrary code execution (Incomplete fix of CVE-2026-46439)",
-      "url": "https://github.com/advisories/GHSA-mr95-65j8-9mxp",
-      "date": "2026-09-24T19:50:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[cline] Cline: Cross-Origin WebSocket Hijacking in Cline Hub Dashboard (`/browser` endpoint)",
-      "url": "https://github.com/advisories/GHSA-3cj3-hqcr-g934",
-      "date": "2026-09-24T19:48:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[hpack] hpack: Unbounded variable integer decoding can cause run-away computation on malformed input",
-      "url": "https://github.com/advisories/GHSA-8v8h-hg4w-mvq2",
-      "date": "2026-09-24T19:43:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@rsdoctor/rspack-plugin] @rsdoctor/rspack-plugin has Unauthenticated HTTP API that Exposes Project Source Code and Build Metadata",
-      "url": "https://github.com/advisories/GHSA-jmg2-rcxh-w8q3",
-      "date": "2026-09-24T19:42:13.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@bytebase/dbhub] @bytebase/dbhub's read-only mode does not prevent database writes",
-      "url": "https://github.com/advisories/GHSA-mwwr-p57h-56pf",
-      "date": "2026-09-24T19:38:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@bytebase/dbhub] DBHub HTTP transport DNS rebinding allows unauthenticated browser-origin SQL execution",
-      "url": "https://github.com/advisories/GHSA-fm8p-53ww-hf6w",
-      "date": "2026-09-24T19:36:58.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
