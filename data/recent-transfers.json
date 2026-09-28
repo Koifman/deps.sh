@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-09-28T01:34:38.953Z",
+  "scannedAt": "2026-09-28T08:36:21.096Z",
   "count": 128,
   "packages": [
     {
@@ -381,8 +381,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/prompts",
-      "version": "8.7.2",
+      "name": "inquirer",
+      "version": "14.2.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -390,8 +390,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "inquirer",
-      "version": "14.2.2",
+      "name": "@inquirer/prompts",
+      "version": "8.7.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -579,15 +579,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/rawlist",
-      "version": "5.3.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@inquirer/password",
       "version": "5.2.2",
       "ecosystem": "npm",
@@ -597,8 +588,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/number",
-      "version": "4.2.3",
+      "name": "@inquirer/rawlist",
+      "version": "5.3.5",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -608,6 +599,15 @@
     {
       "name": "@inquirer/expand",
       "version": "5.1.5",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "sboudrias",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@inquirer/number",
+      "version": "4.2.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -678,15 +678,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "openid-client",
-      "version": "6.8.8",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "panva",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@azure/logger",
       "version": "1.4.0",
       "ecosystem": "npm",
@@ -694,6 +685,15 @@
       "level": "MODERATE",
       "previousOwner": "azure-sdk",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "openid-client",
+      "version": "6.8.8",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "panva",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@azure/core-lro",
@@ -768,8 +768,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/types",
-      "version": "1.7.1",
+      "name": "@appium/schema",
+      "version": "1.3.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -777,8 +777,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@appium/schema",
-      "version": "1.3.0",
+      "name": "@appium/types",
+      "version": "1.7.1",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -1101,7 +1101,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-win32-x64-msvc",
+      "name": "oxc-minify",
       "version": "0.151.0",
       "ecosystem": "npm",
       "score": 20,
@@ -1110,7 +1110,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-minify",
+      "name": "@oxc-parser/binding-win32-x64-msvc",
       "version": "0.151.0",
       "ecosystem": "npm",
       "score": 20,
