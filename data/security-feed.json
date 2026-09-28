@@ -1,6 +1,32 @@
 {
-  "fetchedAt": "2026-09-28T08:33:20.431Z",
+  "fetchedAt": "2026-09-28T17:33:40.539Z",
   "entries": [
+    {
+      "title": "[scim-patch] scim-patch: Mutation of Inherited Built-in Method Objects",
+      "url": "https://github.com/advisories/GHSA-2mhw-wcx5-v3xj",
+      "date": "2026-09-28T14:01:17.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[code-ollama] code-ollama: `grep_search` Command Injection via Unescaped `$()` Shell Substitution (CWE-78)",
+      "url": "https://github.com/advisories/GHSA-456v-xq2p-r4cj",
+      "date": "2026-09-28T13:59:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "RUSTSEC-2026-0312: Vulnerability in x509-validator",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0312.html",
+      "date": "2026-09-28T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0311: Vulnerability in latex-rust",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0311.html",
+      "date": "2026-09-28T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[scbe-aethermoore] SCBE-AETHERMOORE Unauthenticated AetherBrowser Ops API Exposes Operator Email Digests",
       "url": "https://github.com/advisories/GHSA-q986-4x7x-gx39",
@@ -110,34 +136,6 @@
       "date": "2026-09-24T19:55:59.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[social-auth-core] social-auth-core has an Improper Authentication issue",
-      "url": "https://github.com/advisories/GHSA-vq6g-g6c7-5f2j",
-      "date": "2026-09-24T19:54:49.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[compliance-trestle] Trestle is vulnerable to arbitrary file write via path traversal in author generate commands (Incomplete fix of CVE-2026-46345)",
-      "url": "https://github.com/advisories/GHSA-r4vp-3vw6-r2x5",
-      "date": "2026-09-24T19:52:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[compliance-trestle] Trestle is vulnerable to arbitrary file write via path traversal in author generate commands (Incomplete fix of CVE-2026-46345)",
-      "url": "https://github.com/advisories/GHSA-r4vp-3vw6-r2x5",
-      "date": "2026-09-24T19:52:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[compliance-trestle] Trestle SSTI in Jinja2 include tags allows arbitrary code execution (Incomplete fix of CVE-2026-46439)",
-      "url": "https://github.com/advisories/GHSA-mr95-65j8-9mxp",
-      "date": "2026-09-24T19:50:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
