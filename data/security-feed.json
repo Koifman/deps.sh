@@ -1,141 +1,145 @@
 {
-  "fetchedAt": "2026-09-28T17:33:40.539Z",
+  "fetchedAt": "2026-09-28T23:08:51.132Z",
   "entries": [
     {
-      "title": "[scim-patch] scim-patch: Mutation of Inherited Built-in Method Objects",
-      "url": "https://github.com/advisories/GHSA-2mhw-wcx5-v3xj",
-      "date": "2026-09-28T14:01:17.000Z",
+      "title": "[nodemailer] Nodemailer: Process-global DNS cache reuses TLS `servername` across transports, enabling cross-tenant SMTP credential disclosure",
+      "url": "https://github.com/advisories/GHSA-6vj9-mwq6-2f5v",
+      "date": "2026-09-28T21:57:00.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[code-ollama] code-ollama: `grep_search` Command Injection via Unescaped `$()` Shell Substitution (CWE-78)",
-      "url": "https://github.com/advisories/GHSA-456v-xq2p-r4cj",
-      "date": "2026-09-28T13:59:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0312: Vulnerability in x509-validator",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0312.html",
-      "date": "2026-09-28T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0311: Vulnerability in latex-rust",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0311.html",
-      "date": "2026-09-28T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[scbe-aethermoore] SCBE-AETHERMOORE Unauthenticated AetherBrowser Ops API Exposes Operator Email Digests",
-      "url": "https://github.com/advisories/GHSA-q986-4x7x-gx39",
-      "date": "2026-09-25T21:48:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[khoj] khoj has an unauthenticated path traversal in /home/ endpoint that allows file read from server filesystem",
-      "url": "https://github.com/advisories/GHSA-62mm-xwmv-crhg",
-      "date": "2026-09-25T21:38:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[knowns] Knowns Unrestricted Path Traversal leading to out-of-bounds arbitrary .md file read, write, and deletion in MCP Docs + Memory Tools",
-      "url": "https://github.com/advisories/GHSA-9gfj-28hw-jchp",
-      "date": "2026-09-25T19:32:06.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@openzeppelin/confidential-contracts] OpenZeppelin Confidential Contracts `VestingWalletConfidential`: a malicious ERC-7984 token is able to extract private data from the vesting wallet",
-      "url": "https://github.com/advisories/GHSA-29h2-jr22-frmh",
-      "date": "2026-09-25T19:31:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@openzeppelin/confidential-contracts] OpenZeppelin Confidential Contracts `VestingWalletConfidential`: a malicious ERC-7984 token is able to extract private data from the vesting wallet",
-      "url": "https://github.com/advisories/GHSA-29h2-jr22-frmh",
-      "date": "2026-09-25T19:31:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@openzeppelin/confidential-contracts] OpenZeppelin Confidential Contracts `VestingWalletConfidential`: a malicious ERC-7984 token is able to extract private data from the vesting wallet",
-      "url": "https://github.com/advisories/GHSA-29h2-jr22-frmh",
-      "date": "2026-09-25T19:31:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@vendure/core] Vendure: Unauthenticated ReDoS via `regex` filter on SQLite backends",
-      "url": "https://github.com/advisories/GHSA-jgm3-qmp2-c4p7",
-      "date": "2026-09-25T17:31:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[knowns] Duplicate Advisory: Knowns Unrestricted Path Traversal leading to out-of-bounds arbitrary .md file read, write, and deletion in MCP Docs + Memory Tools",
-      "url": "https://github.com/advisories/GHSA-qjrq-cvv4-3g9w",
-      "date": "2026-09-25T17:25:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[knowns] Duplicate Advisory: Knowns Sandbox Escape: Unauthenticated Header Injection Grants AI Agent Unrestricted Access to Host Filesystem",
-      "url": "https://github.com/advisories/GHSA-w47m-jpv2-qfw5",
-      "date": "2026-09-25T17:11:38.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[parse-server] Parse Server's GraphQL WebSocket endpoint bypasses security middleware",
-      "url": "https://github.com/advisories/GHSA-p2x3-8689-cwpg",
-      "date": "2026-09-25T14:19:33.000Z",
+      "title": "[undici] undici vulnerable to Denial of Service via unhandled error in WebSocket permessage-deflate decompression",
+      "url": "https://github.com/advisories/GHSA-3wwx-pv8p-q78v",
+      "date": "2026-09-28T21:42:38.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0309: Unsoundness in bun_collections",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0309.html",
-      "date": "2026-09-25T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0310: Vulnerability in domain",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0310.html",
-      "date": "2026-09-25T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[social-auth-core] social-auth-core has a Session Fixation issue",
-      "url": "https://github.com/advisories/GHSA-vqg6-3fw6-j9jg",
-      "date": "2026-09-24T19:58:15.000Z",
-      "ecosystem": "pypi",
+      "title": "[undici] undici vulnerable to Denial of Service via unhandled error in WebSocket permessage-deflate decompression",
+      "url": "https://github.com/advisories/GHSA-3wwx-pv8p-q78v",
+      "date": "2026-09-28T21:42:38.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[social-auth-core] social-auth-core: VK App backend accepts unsigned callback data when auth_key is missing",
-      "url": "https://github.com/advisories/GHSA-3c93-f73f-qc9h",
-      "date": "2026-09-24T19:57:25.000Z",
-      "ecosystem": "pypi",
+      "title": "[undici] undici vulnerable to Denial of Service via unhandled error in WebSocket permessage-deflate decompression",
+      "url": "https://github.com/advisories/GHSA-3wwx-pv8p-q78v",
+      "date": "2026-09-28T21:42:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[multer] multer vulnerable to Denial of Service via orphaned disk writes on aborted uploads",
+      "url": "https://github.com/advisories/GHSA-3pph-fpjx-jg34",
+      "date": "2026-09-28T21:34:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[morgan] morgan vulnerable to Log Injection via unescaped double quote in quoted log fields",
+      "url": "https://github.com/advisories/GHSA-9f6g-j8ch-79g4",
+      "date": "2026-09-28T21:33:10.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/platform-server] Angular SSR: Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE",
+      "url": "https://github.com/advisories/GHSA-f67j-2jqw-jpq7",
+      "date": "2026-09-28T21:31:22.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[social-auth-core] social-auth-core has Login CSRF via Missing State Parameter in LoginRadius Backend",
-      "url": "https://github.com/advisories/GHSA-x7qq-23vw-7pfg",
-      "date": "2026-09-24T19:56:39.000Z",
-      "ecosystem": "pypi",
+      "title": "[@angular/platform-server] Angular SSR: Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE",
+      "url": "https://github.com/advisories/GHSA-f67j-2jqw-jpq7",
+      "date": "2026-09-28T21:31:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/platform-server] Angular SSR: Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE",
+      "url": "https://github.com/advisories/GHSA-f67j-2jqw-jpq7",
+      "date": "2026-09-28T21:31:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/platform-server] Angular SSR: Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE",
+      "url": "https://github.com/advisories/GHSA-f67j-2jqw-jpq7",
+      "date": "2026-09-28T21:31:22.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to authority injection via an unvalidated port in serialize",
+      "url": "https://github.com/advisories/GHSA-qw65-cvwx-89v3",
+      "date": "2026-09-28T21:24:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to authority injection via an unvalidated port in serialize",
+      "url": "https://github.com/advisories/GHSA-qw65-cvwx-89v3",
+      "date": "2026-09-28T21:24:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to authority injection via an unvalidated port in serialize",
+      "url": "https://github.com/advisories/GHSA-qw65-cvwx-89v3",
+      "date": "2026-09-28T21:24:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via an unclosed bracket in the URI authority",
+      "url": "https://github.com/advisories/GHSA-58mr-gqgx-xq4g",
+      "date": "2026-09-28T21:23:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via an unclosed bracket in the URI authority",
+      "url": "https://github.com/advisories/GHSA-58mr-gqgx-xq4g",
+      "date": "2026-09-28T21:23:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fast-uri] fast-uri vulnerable to host confusion via an unclosed bracket in the URI authority",
+      "url": "https://github.com/advisories/GHSA-58mr-gqgx-xq4g",
+      "date": "2026-09-28T21:23:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ip-address] ip-address: Address6.isLinkLocal() recognizes fe80::/64 rather than fe80::/10, allowing SSRF and trust-boundary bypass to on-link hosts",
+      "url": "https://github.com/advisories/GHSA-rpw4-54j3-4h4q",
+      "date": "2026-09-28T20:43:57.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[social-auth-core] social-auth-core Vulnerable to Account Takeover via Identity Binding Flaw in Vend Backend",
-      "url": "https://github.com/advisories/GHSA-fp7w-m676-w7gc",
-      "date": "2026-09-24T19:55:59.000Z",
-      "ecosystem": "pypi",
+      "title": "[ip-address] ip-address: no classifier recognizes the NAT64 local-use range 64:ff9b:1::/48, allowing SSRF and trust-boundary bypass",
+      "url": "https://github.com/advisories/GHSA-2vr4-cq9g-pvrc",
+      "date": "2026-09-28T20:43:07.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/platform-server] Angular SSR: XSS via Unescaped Processing Instruction (<?...?>) Nodes in Fallback Raw-Content Elements",
+      "url": "https://github.com/advisories/GHSA-j3r3-mxqp-r2p4",
+      "date": "2026-09-28T20:40:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/platform-server] Angular SSR: XSS via Unescaped Processing Instruction (<?...?>) Nodes in Fallback Raw-Content Elements",
+      "url": "https://github.com/advisories/GHSA-j3r3-mxqp-r2p4",
+      "date": "2026-09-28T20:40:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
