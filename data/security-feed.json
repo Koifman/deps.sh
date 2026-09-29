@@ -1,6 +1,30 @@
 {
-  "fetchedAt": "2026-09-29T05:25:31.208Z",
+  "fetchedAt": "2026-09-29T12:35:57.913Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0313: Vulnerability in wasmtime-wasi-http",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0313.html",
+      "date": "2026-09-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0314: Vulnerability in wasmtime-wasi",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0314.html",
+      "date": "2026-09-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0316: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0316.html",
+      "date": "2026-09-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0315: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0315.html",
+      "date": "2026-09-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0305: Vulnerability in librsvg",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0305.html",
@@ -109,34 +133,6 @@
       "title": "[fast-uri] fast-uri vulnerable to host confusion via an unclosed bracket in the URI authority",
       "url": "https://github.com/advisories/GHSA-58mr-gqgx-xq4g",
       "date": "2026-09-28T21:23:36.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via an unclosed bracket in the URI authority",
-      "url": "https://github.com/advisories/GHSA-58mr-gqgx-xq4g",
-      "date": "2026-09-28T21:23:36.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ip-address] ip-address: Address6.isLinkLocal() recognizes fe80::/64 rather than fe80::/10, allowing SSRF and trust-boundary bypass to on-link hosts",
-      "url": "https://github.com/advisories/GHSA-rpw4-54j3-4h4q",
-      "date": "2026-09-28T20:43:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ip-address] ip-address: no classifier recognizes the NAT64 local-use range 64:ff9b:1::/48, allowing SSRF and trust-boundary bypass",
-      "url": "https://github.com/advisories/GHSA-2vr4-cq9g-pvrc",
-      "date": "2026-09-28T20:43:07.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/platform-server] Angular SSR: XSS via Unescaped Processing Instruction (<?...?>) Nodes in Fallback Raw-Content Elements",
-      "url": "https://github.com/advisories/GHSA-j3r3-mxqp-r2p4",
-      "date": "2026-09-28T20:40:09.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
