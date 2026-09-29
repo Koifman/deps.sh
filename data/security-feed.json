@@ -1,138 +1,143 @@
 {
-  "fetchedAt": "2026-09-29T18:32:49.241Z",
+  "fetchedAt": "2026-09-29T22:54:21.331Z",
   "entries": [
     {
-      "title": "RUSTSEC-2026-0313: Vulnerability in wasmtime-wasi-http",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0313.html",
-      "date": "2026-09-29T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[adm-zip] adm-zip: Decompression-bomb protection (fix for CVE-2026-39244) can be bypassed by declaring uncompressed size as 0",
+      "url": "https://github.com/advisories/GHSA-rcw4-f5rp-g42v",
+      "date": "2026-09-29T18:25:21.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0314: Vulnerability in wasmtime-wasi",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0314.html",
-      "date": "2026-09-29T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0316: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0316.html",
-      "date": "2026-09-29T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0315: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0315.html",
-      "date": "2026-09-29T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0305: Vulnerability in librsvg",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0305.html",
-      "date": "2026-09-29T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[nodemailer] Nodemailer: Process-global DNS cache reuses TLS `servername` across transports, enabling cross-tenant SMTP credential disclosure",
-      "url": "https://github.com/advisories/GHSA-6vj9-mwq6-2f5v",
-      "date": "2026-09-28T21:57:00.000Z",
+      "title": "[nodemailer] Nodemailer: Nested structured recipient arrays bypass the parser depth limit and cause stack exhaustion DoS",
+      "url": "https://github.com/advisories/GHSA-8vvx-rff5-p5rq",
+      "date": "2026-09-29T18:25:05.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[undici] undici vulnerable to Denial of Service via unhandled error in WebSocket permessage-deflate decompression",
-      "url": "https://github.com/advisories/GHSA-3wwx-pv8p-q78v",
-      "date": "2026-09-28T21:42:38.000Z",
+      "title": "[adm-zip] adm-zip extraction preserves SUID/SGID bits from untrusted ZIPs -> local privilege escalation",
+      "url": "https://github.com/advisories/GHSA-j5f4-cc29-5x44",
+      "date": "2026-09-29T18:25:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PyJWT] PyJWT: Malformed RSA JWK aborts parsing of an entire JWK Set",
+      "url": "https://github.com/advisories/GHSA-w6j9-cwv2-h6wq",
+      "date": "2026-09-29T18:23:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[undici] undici vulnerable to Denial of Service via orphaned RetryHandler response body",
+      "url": "https://github.com/advisories/GHSA-pmjh-fq2x-6v4x",
+      "date": "2026-09-29T18:22:35.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[undici] undici vulnerable to Denial of Service via unhandled error in WebSocket permessage-deflate decompression",
-      "url": "https://github.com/advisories/GHSA-3wwx-pv8p-q78v",
-      "date": "2026-09-28T21:42:38.000Z",
+      "title": "[undici] undici vulnerable to Denial of Service via orphaned RetryHandler response body",
+      "url": "https://github.com/advisories/GHSA-pmjh-fq2x-6v4x",
+      "date": "2026-09-29T18:22:35.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[undici] undici vulnerable to Denial of Service via unhandled error in WebSocket permessage-deflate decompression",
-      "url": "https://github.com/advisories/GHSA-3wwx-pv8p-q78v",
-      "date": "2026-09-28T21:42:38.000Z",
+      "title": "[undici] undici vulnerable to downstream response splitting via retry interceptor",
+      "url": "https://github.com/advisories/GHSA-r53p-7pc4-xj5r",
+      "date": "2026-09-29T18:22:08.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[undici] undici vulnerable to downstream response splitting via retry interceptor",
+      "url": "https://github.com/advisories/GHSA-r53p-7pc4-xj5r",
+      "date": "2026-09-29T18:22:08.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[undici] undici vulnerable to downstream response splitting via retry interceptor",
+      "url": "https://github.com/advisories/GHSA-r53p-7pc4-xj5r",
+      "date": "2026-09-29T18:22:08.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[undici] undici vulnerable to Denial of Service via unrequested WebSocket subprotocol",
+      "url": "https://github.com/advisories/GHSA-rfgv-xxqx-mfg5",
+      "date": "2026-09-29T18:21:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[undici] undici vulnerable to Denial of Service via unrequested WebSocket subprotocol",
+      "url": "https://github.com/advisories/GHSA-rfgv-xxqx-mfg5",
+      "date": "2026-09-29T18:21:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[undici] undici vulnerable to Denial of Service via unrequested WebSocket subprotocol",
+      "url": "https://github.com/advisories/GHSA-rfgv-xxqx-mfg5",
+      "date": "2026-09-29T18:21:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[undici] undici vulnerable to Denial of Service via unbounded decompression of compressed responses",
+      "url": "https://github.com/advisories/GHSA-3xpg-4rpp-hhhm",
+      "date": "2026-09-29T18:20:38.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[multer] multer vulnerable to Denial of Service via orphaned disk writes on aborted uploads",
-      "url": "https://github.com/advisories/GHSA-3pph-fpjx-jg34",
-      "date": "2026-09-28T21:34:59.000Z",
+      "title": "[undici] undici vulnerable to Denial of Service via unbounded decompression of compressed responses",
+      "url": "https://github.com/advisories/GHSA-3xpg-4rpp-hhhm",
+      "date": "2026-09-29T18:20:38.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[morgan] morgan vulnerable to Log Injection via unescaped double quote in quoted log fields",
-      "url": "https://github.com/advisories/GHSA-9f6g-j8ch-79g4",
-      "date": "2026-09-28T21:33:10.000Z",
+      "title": "[undici] undici vulnerable to cross-user cookie disclosure via Set-Cookie caching in shared caches",
+      "url": "https://github.com/advisories/GHSA-2jfj-6hjv-fm6j",
+      "date": "2026-09-29T18:19:59.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@angular/platform-server] Angular SSR: Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE",
-      "url": "https://github.com/advisories/GHSA-f67j-2jqw-jpq7",
-      "date": "2026-09-28T21:31:22.000Z",
+      "title": "[undici] undici vulnerable to cross-user cookie disclosure via Set-Cookie caching in shared caches",
+      "url": "https://github.com/advisories/GHSA-2jfj-6hjv-fm6j",
+      "date": "2026-09-29T18:19:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[undici] undici vulnerable to response truncation via oversized chunked responses in the dump interceptor",
+      "url": "https://github.com/advisories/GHSA-2gqq-gqf2-x968",
+      "date": "2026-09-29T18:18:52.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[undici] undici vulnerable to response truncation via oversized chunked responses in the dump interceptor",
+      "url": "https://github.com/advisories/GHSA-2gqq-gqf2-x968",
+      "date": "2026-09-29T18:18:52.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[undici] undici vulnerable to TLS certificate validation bypass via dropped connect options in BalancedPool",
+      "url": "https://github.com/advisories/GHSA-w293-vg96-wgc3",
+      "date": "2026-09-29T18:17:16.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@angular/platform-server] Angular SSR: Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE",
-      "url": "https://github.com/advisories/GHSA-f67j-2jqw-jpq7",
-      "date": "2026-09-28T21:31:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/platform-server] Angular SSR: Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE",
-      "url": "https://github.com/advisories/GHSA-f67j-2jqw-jpq7",
-      "date": "2026-09-28T21:31:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/platform-server] Angular SSR: Denial of Service (DoS) via Infinite Loop on Malformed DOCTYPE",
-      "url": "https://github.com/advisories/GHSA-f67j-2jqw-jpq7",
-      "date": "2026-09-28T21:31:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to authority injection via an unvalidated port in serialize",
-      "url": "https://github.com/advisories/GHSA-qw65-cvwx-89v3",
-      "date": "2026-09-28T21:24:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to authority injection via an unvalidated port in serialize",
-      "url": "https://github.com/advisories/GHSA-qw65-cvwx-89v3",
-      "date": "2026-09-28T21:24:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to authority injection via an unvalidated port in serialize",
-      "url": "https://github.com/advisories/GHSA-qw65-cvwx-89v3",
-      "date": "2026-09-28T21:24:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via an unclosed bracket in the URI authority",
-      "url": "https://github.com/advisories/GHSA-58mr-gqgx-xq4g",
-      "date": "2026-09-28T21:23:36.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-uri] fast-uri vulnerable to host confusion via an unclosed bracket in the URI authority",
-      "url": "https://github.com/advisories/GHSA-58mr-gqgx-xq4g",
-      "date": "2026-09-28T21:23:36.000Z",
+      "title": "[undici] undici vulnerable to TLS certificate validation bypass via dropped connect options in BalancedPool",
+      "url": "https://github.com/advisories/GHSA-w293-vg96-wgc3",
+      "date": "2026-09-29T18:17:16.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
