@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-09-28T23:08:51.132Z",
+  "fetchedAt": "2026-09-29T05:25:31.208Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0305: Vulnerability in librsvg",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0305.html",
+      "date": "2026-09-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[nodemailer] Nodemailer: Process-global DNS cache reuses TLS `servername` across transports, enabling cross-tenant SMTP credential disclosure",
       "url": "https://github.com/advisories/GHSA-6vj9-mwq6-2f5v",
@@ -126,13 +132,6 @@
       "date": "2026-09-28T20:43:07.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/platform-server] Angular SSR: XSS via Unescaped Processing Instruction (<?...?>) Nodes in Fallback Raw-Content Elements",
-      "url": "https://github.com/advisories/GHSA-j3r3-mxqp-r2p4",
-      "date": "2026-09-28T20:40:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     },
     {
       "title": "[@angular/platform-server] Angular SSR: XSS via Unescaped Processing Instruction (<?...?>) Nodes in Fallback Raw-Content Elements",
