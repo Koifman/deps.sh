@@ -1,144 +1,144 @@
 {
-  "fetchedAt": "2026-10-01T00:27:21.425Z",
+  "fetchedAt": "2026-10-01T07:05:52.335Z",
   "entries": [
     {
-      "title": "[litellm] LiteLLM: Authenticated SSRF and provider-credential exfiltration via unvalidated request-body routing parameters",
-      "url": "https://github.com/advisories/GHSA-3cv6-jpf6-8222",
-      "date": "2026-09-30T21:11:28.000Z",
+      "title": "[virtualenv] virtualenv: Downloaded seed wheels (pip/setuptools) are not integrity-checked before use",
+      "url": "https://github.com/advisories/GHSA-94p9-xgh2-xp45",
+      "date": "2026-09-30T23:54:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[virtualenv] virtualenv writes prompt values into pyvenv.cfg without sanitizing line boundaries, allowing configuration injection",
+      "url": "https://github.com/advisories/GHSA-9h9j-4vrj-gf7g",
+      "date": "2026-09-30T23:53:59.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[litellm] LiteLLM: Authenticated SSRF and provider-credential exfiltration via unvalidated request-body routing parameters",
-      "url": "https://github.com/advisories/GHSA-3cv6-jpf6-8222",
-      "date": "2026-09-30T21:11:28.000Z",
+      "title": "[fastify] fastify vulnerable to Denial of Service via unhandled exception on HTTP/2 trailer responses",
+      "url": "https://github.com/advisories/GHSA-4mh8-r7rc-xpvc",
+      "date": "2026-09-30T23:53:45.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[PyJWT] PyJWT.decode() reintroduces options-dict mutation, enabling silent claim-verification bypass on dict reuse",
+      "url": "https://github.com/advisories/GHSA-gvp8-978c-rx2q",
+      "date": "2026-09-30T23:53:18.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[litellm] LiteLLM: Authenticated SSRF and provider-credential exfiltration via unvalidated request-body routing parameters",
-      "url": "https://github.com/advisories/GHSA-3cv6-jpf6-8222",
-      "date": "2026-09-30T21:11:28.000Z",
+      "title": "[tornado] Tornado: Unbounded query-string argument count allows event-loop-stalling DoS",
+      "url": "https://github.com/advisories/GHSA-3hv7-mjh2-fv65",
+      "date": "2026-09-30T23:49:26.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[litellm] LiteLLM: Authenticated SSRF and provider-credential exfiltration via unvalidated request-body routing parameters",
-      "url": "https://github.com/advisories/GHSA-3cv6-jpf6-8222",
-      "date": "2026-09-30T21:11:28.000Z",
+      "title": "[tornado] tornado: CurlAsyncHTTPClient enforces no response-size limit — decompression bomb drives unbounded memory accumulation to OOM",
+      "url": "https://github.com/advisories/GHSA-chx6-46f5-w4vp",
+      "date": "2026-09-30T23:49:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[tornado] Tornado: StaticFileHandler follows symlinks outside static root (path traversal)",
+      "url": "https://github.com/advisories/GHSA-c2m8-h5v5-343r",
+      "date": "2026-09-30T23:48:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[GitPython] GitPython submodule update path traversal can write outside the repository",
+      "url": "https://github.com/advisories/GHSA-59cr-6r3x-644w",
+      "date": "2026-09-30T23:47:14.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[litellm] LiteLLM: Authenticated SSRF and provider-credential exfiltration via unvalidated request-body routing parameters",
-      "url": "https://github.com/advisories/GHSA-3cv6-jpf6-8222",
-      "date": "2026-09-30T21:11:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[litellm] LiteLLM: Authenticated SSRF and provider-credential exfiltration via unvalidated request-body routing parameters",
-      "url": "https://github.com/advisories/GHSA-3cv6-jpf6-8222",
-      "date": "2026-09-30T21:11:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[litellm] LiteLLM: Authenticated SSRF and provider-credential exfiltration via unvalidated request-body routing parameters",
-      "url": "https://github.com/advisories/GHSA-3cv6-jpf6-8222",
-      "date": "2026-09-30T21:11:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[litellm] LiteLLM: Authenticated SSRF and provider-credential exfiltration via unvalidated request-body routing parameters",
-      "url": "https://github.com/advisories/GHSA-3cv6-jpf6-8222",
-      "date": "2026-09-30T21:11:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[litellm] LiteLLM: Authenticated SSRF and provider-credential exfiltration via unvalidated request-body routing parameters",
-      "url": "https://github.com/advisories/GHSA-3cv6-jpf6-8222",
-      "date": "2026-09-30T21:11:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[django] Django GeoDjango vulnerable to denial of service through deeply nested geometry collections",
-      "url": "https://github.com/advisories/GHSA-q238-5cxm-5c9h",
-      "date": "2026-09-30T20:19:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[django] Django GeoDjango vulnerable to denial of service through deeply nested geometry collections",
-      "url": "https://github.com/advisories/GHSA-q238-5cxm-5c9h",
-      "date": "2026-09-30T20:19:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[django] Django GeoDjango vulnerable to denial of service through deeply nested geometry collections",
-      "url": "https://github.com/advisories/GHSA-q238-5cxm-5c9h",
-      "date": "2026-09-30T20:19:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[PyJWT] PyJWT: Unauthenticated RecursionError DoS in pre-verification payload parse (PyJWKClient.get_signing_key_from_jwt / verify_signature=False)",
-      "url": "https://github.com/advisories/GHSA-42vr-xj54-vc7v",
-      "date": "2026-09-30T15:41:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/router] Angular Server-Side Rendering (SSR): Denial of Service via Numeric URL Matrix Parameters",
-      "url": "https://github.com/advisories/GHSA-ff3f-86qr-9cv3",
-      "date": "2026-09-30T15:40:48.000Z",
+      "title": "[h3] Duplicate Advisory: H3: Unbounded Chunked Cookie Count in Session Cleanup Loop may Lead to Denial of Service",
+      "url": "https://github.com/advisories/GHSA-fg72-q65g-wm5w",
+      "date": "2026-09-30T23:46:36.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@angular/router] Angular Server-Side Rendering (SSR): Denial of Service via Numeric URL Matrix Parameters",
-      "url": "https://github.com/advisories/GHSA-ff3f-86qr-9cv3",
-      "date": "2026-09-30T15:40:48.000Z",
+      "title": "[hono] hono/jsx renders plain strings unescaped in boundary components, leading to XSS",
+      "url": "https://github.com/advisories/GHSA-hxh3-vqpv-xpqv",
+      "date": "2026-09-30T23:46:17.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "MODERATE"
     },
     {
-      "title": "[@angular/router] Angular Server-Side Rendering (SSR): Denial of Service via Numeric URL Matrix Parameters",
-      "url": "https://github.com/advisories/GHSA-ff3f-86qr-9cv3",
-      "date": "2026-09-30T15:40:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/router] Angular Server-Side Rendering (SSR): Denial of Service via Numeric URL Matrix Parameters",
-      "url": "https://github.com/advisories/GHSA-ff3f-86qr-9cv3",
-      "date": "2026-09-30T15:40:48.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[serialize-javascript] Serialize JavaScript: Cross-site scripting (XSS) via unescaped </script> in serialized function bodies",
-      "url": "https://github.com/advisories/GHSA-gfhx-hw2g-v5hg",
-      "date": "2026-09-30T15:40:06.000Z",
+      "title": "[hono] Duplicate Advisory: hono/jsx renders plain strings unescaped in boundary components, leading to XSS",
+      "url": "https://github.com/advisories/GHSA-6623-4q32-82v8",
+      "date": "2026-09-30T23:46:02.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[dompurify] DOMPurify: IN_PLACE: node-removing afterSanitize hook leaves detached subtree event handlers armed, causing DOM XSS",
-      "url": "https://github.com/advisories/GHSA-p98j-92pf-mc4p",
-      "date": "2026-09-30T15:37:59.000Z",
+      "title": "[fastify] fastify vulnerable to request body replacement via an async validation result collision",
+      "url": "https://github.com/advisories/GHSA-667r-xxjv-c9mm",
+      "date": "2026-09-30T23:45:46.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "HIGH"
     },
     {
-      "title": "[@grpc/grpc-js] @grpc/grpc-js: In certain configurations, getAuthContext can return unauthorized certificates as though they were authorized",
-      "url": "https://github.com/advisories/GHSA-m9gg-hp2v-232j",
-      "date": "2026-09-30T15:35:57.000Z",
+      "title": "[fastify] fastify vulnerable to authentication bypass via malformed URLs reaching encapsulated not-found handlers",
+      "url": "https://github.com/advisories/GHSA-p68q-wchp-6fh7",
+      "date": "2026-09-30T23:45:35.000Z",
       "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fastify] fastify vulnerable to request validation bypass via skipped boolean false schemas",
+      "url": "https://github.com/advisories/GHSA-hwr6-493r-vm6h",
+      "date": "2026-09-30T23:44:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[fastify] fastify vulnerable to header validation bypass via incomplete schema case normalization",
+      "url": "https://github.com/advisories/GHSA-9q9j-q6p8-xq58",
+      "date": "2026-09-30T23:44:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[transformers] Hugging Face Transformers downloads custom generation code before trust consent",
+      "url": "https://github.com/advisories/GHSA-x9r9-c232-4q39",
+      "date": "2026-09-30T23:40:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@astrojs/netlify] Astro: Netlify Image CDN allowlist bypass enables SSRF",
+      "url": "https://github.com/advisories/GHSA-4233-jc72-56c5",
+      "date": "2026-09-30T23:40:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@astrojs/node] Astro: Malformed port in the Host header can crash the Node adapter",
+      "url": "https://github.com/advisories/GHSA-qh8j-hqjv-7m4x",
+      "date": "2026-09-30T23:29:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[GitPython] GitPython: Denial of Service via catastrophic backtracking (ReDoS) in Actor.name_email_regex — commit author/committer field parsing",
+      "url": "https://github.com/advisories/GHSA-g5vv-9gxw-82hx",
+      "date": "2026-09-30T23:29:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[gitpython] Duplicate Advisory: Denial of Service via catastrophic backtracking (ReDoS) in Actor.name_email_regex — commit author/committer field parsing",
+      "url": "https://github.com/advisories/GHSA-qpf5-3wfw-fh7q",
+      "date": "2026-09-30T23:29:04.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
