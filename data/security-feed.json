@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-10-01T07:05:52.335Z",
+  "fetchedAt": "2026-10-01T15:20:07.209Z",
   "entries": [
+    {
+      "title": "[basic-ftp] basic-ftp: Quadratic-time CPU denial of service in Client.list() Unix directory-listing parser (RE_LINE backtracking)",
+      "url": "https://github.com/advisories/GHSA-c475-qrg2-pj4r",
+      "date": "2026-10-01T14:42:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "RUSTSEC-2026-0317: Vulnerability in sheets-diff",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0317.html",
+      "date": "2026-10-01T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[virtualenv] virtualenv: Downloaded seed wheels (pip/setuptools) are not integrity-checked before use",
       "url": "https://github.com/advisories/GHSA-94p9-xgh2-xp45",
@@ -125,20 +138,6 @@
       "url": "https://github.com/advisories/GHSA-qh8j-hqjv-7m4x",
       "date": "2026-09-30T23:29:41.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[GitPython] GitPython: Denial of Service via catastrophic backtracking (ReDoS) in Actor.name_email_regex — commit author/committer field parsing",
-      "url": "https://github.com/advisories/GHSA-g5vv-9gxw-82hx",
-      "date": "2026-09-30T23:29:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[gitpython] Duplicate Advisory: Denial of Service via catastrophic backtracking (ReDoS) in Actor.name_email_regex — commit author/committer field parsing",
-      "url": "https://github.com/advisories/GHSA-qpf5-3wfw-fh7q",
-      "date": "2026-09-30T23:29:04.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
