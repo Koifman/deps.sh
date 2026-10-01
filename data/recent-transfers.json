@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-10-01T15:23:01.184Z",
-  "count": 128,
+  "scannedAt": "2026-10-01T20:59:43.169Z",
+  "count": 127,
   "packages": [
     {
       "name": "xmldom",
@@ -54,15 +54,6 @@
       "score": 50,
       "level": "HIGH",
       "previousOwner": "ericf",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "appium",
-      "version": "3.8.0",
-      "ecosystem": "npm",
-      "score": 43,
-      "level": "MODERATE",
-      "previousOwner": "admc",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -372,15 +363,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "regexpu-core",
-      "version": "6.5.2",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "mathias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@inquirer/core",
       "version": "12.0.3",
       "ecosystem": "npm",
@@ -390,8 +372,17 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/prompts",
-      "version": "8.7.2",
+      "name": "regexpu-core",
+      "version": "6.5.2",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "mathias",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "inquirer",
+      "version": "14.2.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -399,8 +390,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "inquirer",
-      "version": "14.2.2",
+      "name": "@inquirer/prompts",
+      "version": "8.7.2",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -588,8 +579,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/expand",
-      "version": "5.1.5",
+      "name": "@inquirer/search",
+      "version": "4.3.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -597,8 +588,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/search",
-      "version": "4.3.3",
+      "name": "@inquirer/expand",
+      "version": "5.1.5",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -742,7 +733,7 @@
     },
     {
       "name": "yuku-codegen",
-      "version": "0.14.0",
+      "version": "0.15.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -751,7 +742,7 @@
     },
     {
       "name": "yuku-parser",
-      "version": "0.14.0",
+      "version": "0.15.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -760,7 +751,7 @@
     },
     {
       "name": "yuku-ast",
-      "version": "0.14.0",
+      "version": "0.15.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -831,15 +822,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lingui/message-utils",
-      "version": "6.9.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "andrii.bodnar",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "cropperjs",
       "version": "2.2.0",
       "ecosystem": "npm",
@@ -849,12 +831,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "redux-saga",
-      "version": "1.5.1",
+      "name": "@lingui/message-utils",
+      "version": "6.9.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "yelouafi",
+      "previousOwner": "andrii.bodnar",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -912,6 +894,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@typescript/typescript-linux-x64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
+    },
+    {
       "name": "@speed-highlight/core",
       "version": "2.1.0",
       "ecosystem": "npm",
@@ -928,15 +919,6 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@typescript/typescript-linux-x64",
-      "version": "7.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
     },
     {
       "name": "oauth4webapi",
@@ -994,7 +976,7 @@
     },
     {
       "name": "@yuku-toolchain/types",
-      "version": "0.14.0",
+      "version": "0.15.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -1047,13 +1029,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-darwin-arm64",
-      "version": "0.152.0",
+      "name": "@typescript/typescript-linux-arm64",
+      "version": "7.0.2",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@oxlint/binding-linux-arm64-gnu",
@@ -1065,13 +1047,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/typescript-linux-arm64",
-      "version": "7.0.2",
+      "name": "@oxc-parser/binding-darwin-arm64",
+      "version": "0.152.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-musl",
@@ -1146,8 +1128,17 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-arm64-musl",
-      "version": "1.86.0",
+      "name": "@oxc-parser/binding-win32-arm64-msvc",
+      "version": "0.152.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxfmt/binding-linux-arm64-gnu",
+      "version": "0.71.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
