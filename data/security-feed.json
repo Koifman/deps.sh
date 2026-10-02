@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-10-02T13:45:08.116Z",
+  "fetchedAt": "2026-10-02T19:07:22.604Z",
   "entries": [
+    {
+      "title": "[nltk] NLTK Stanford wrapper classes execute untrusted JAR files without verification",
+      "url": "https://github.com/advisories/GHSA-9r6g-266r-89x4",
+      "date": "2026-10-02T18:30:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[gradio]  Gradio FileExplorer preprocess path traversal allows files outside root_dir to reach callbacks",
+      "url": "https://github.com/advisories/GHSA-j36p-7w88-g82j",
+      "date": "2026-10-02T18:29:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[hono] Duplicate Advisory: Hono vulnerable to Vary Header Injection leading to potential CORS Bypass",
+      "url": "https://github.com/advisories/GHSA-cw3j-28qq-x3xh",
+      "date": "2026-10-02T18:28:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[deeptutor] DeepTutor missing MCP tool authorization allows non-admin users to invoke unrestricted tools",
+      "url": "https://github.com/advisories/GHSA-jg88-rvpc-qvxj",
+      "date": "2026-10-02T18:27:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mlflow] MLflow: Unauthenticated full-read SSRF in webhook delivery: _validate_webhook_url bypassed via unvalidated HTTP redirects (and DNS rebinding)",
+      "url": "https://github.com/advisories/GHSA-7gwp-5pfp-969j",
+      "date": "2026-10-02T18:21:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0319: anymap2 is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0319.html",
@@ -104,41 +139,6 @@
       "date": "2026-10-01T15:36:34.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[vm2] vm2: NodeVM node:-prefixed negative builtin deny bypass exposes child_process",
-      "url": "https://github.com/advisories/GHSA-8686-vhfx-7r3j",
-      "date": "2026-10-01T15:36:01.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] Duplicate Advisory: vm2: NodeVM node:-prefixed negative builtin deny bypass exposes child_process",
-      "url": "https://github.com/advisories/GHSA-28q4-xrqh-9479",
-      "date": "2026-10-01T15:35:49.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2: vm.freeze()/vm.readonly() bypass via accessor descriptor",
-      "url": "https://github.com/advisories/GHSA-633r-hq9m-c4ff",
-      "date": "2026-10-01T15:35:26.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vm2] Duplicate Advisory: vm2: vm.freeze()/vm.readonly() bypass via accessor descriptor",
-      "url": "https://github.com/advisories/GHSA-9f3g-34x8-92jc",
-      "date": "2026-10-01T15:35:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vm2] vm2: NodeVM nesting guard accepts array-shaped require and permits host RCE",
-      "url": "https://github.com/advisories/GHSA-8hr7-r645-pc6w",
-      "date": "2026-10-01T15:35:00.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
