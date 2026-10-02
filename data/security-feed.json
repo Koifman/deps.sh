@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-10-02T06:53:42.584Z",
+  "fetchedAt": "2026-10-02T13:45:08.116Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0319: anymap2 is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0319.html",
+      "date": "2026-10-02T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[node-forge] node-forge RSA PKCS#1 v1.5 signature verification accepts extra nested DigestAlgorithm elements",
       "url": "https://github.com/advisories/GHSA-86w9-cpqp-85rv",
@@ -131,13 +137,6 @@
       "title": "[vm2] vm2: NodeVM nesting guard accepts array-shaped require and permits host RCE",
       "url": "https://github.com/advisories/GHSA-8hr7-r645-pc6w",
       "date": "2026-10-01T15:35:00.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] Duplicate Advisory: NodeVM nesting guard accepts array-shaped require and permits host RCE",
-      "url": "https://github.com/advisories/GHSA-9fxx-mv6c-j5xp",
-      "date": "2026-10-01T15:32:42.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     }
