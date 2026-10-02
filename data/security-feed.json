@@ -1,6 +1,132 @@
 {
-  "fetchedAt": "2026-10-02T19:07:22.604Z",
+  "fetchedAt": "2026-10-02T23:40:31.278Z",
   "entries": [
+    {
+      "title": "[figlet] figlet is vulnerable to denial of service via unbounded loop when whitespaceBreak is used with a small width",
+      "url": "https://github.com/advisories/GHSA-62ch-8vmq-8xm7",
+      "date": "2026-10-02T22:39:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[trigger.dev] Trigger.dev: V1 coordinator default-secret unauth Socket.IO",
+      "url": "https://github.com/advisories/GHSA-gg6r-gp4c-89hp",
+      "date": "2026-10-02T22:39:02.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[gpt-researcher] GPT Researcher MCP STDIO configuration allows remote command execution",
+      "url": "https://github.com/advisories/GHSA-8j86-h8gg-797p",
+      "date": "2026-10-02T22:38:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[llama-index-vector-stores-duckdb] LlamaIndex DuckDBVectorStore vulnerable to SQL injection through ref_doc_id",
+      "url": "https://github.com/advisories/GHSA-6mcc-q3mg-3qg6",
+      "date": "2026-10-02T22:38:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[geopy] geopy: Regular Expression Denial of Service (ReDoS) in geopy.Point",
+      "url": "https://github.com/advisories/GHSA-mhvh-fq92-pfmr",
+      "date": "2026-10-02T22:38:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[http-cache-semantics] http-cache-semantics max-stale handling can disclose cross-user cached responses",
+      "url": "https://github.com/advisories/GHSA-ch52-4w7c-c8xp",
+      "date": "2026-10-02T22:36:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[braces] braces vulnerable to stack-exhaustion denial of service through deeply nested patterns",
+      "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+      "date": "2026-10-02T22:36:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[hono] Duplicate Advisory: Hono vulnerable to Prototype Pollution possible through __proto__ key allowed in parseBody({ dot: true })",
+      "url": "https://github.com/advisories/GHSA-3wcj-gjvf-fvch",
+      "date": "2026-10-02T22:36:00.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[trigger.dev] Trigger.dev: Blind SSRF via alert-channel webhook",
+      "url": "https://github.com/advisories/GHSA-q567-cr4x-96w4",
+      "date": "2026-10-02T22:35:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[trigger.dev] Trigger.dev: Missing Authentication in Run Replay Action Allows Cross-Organization Task Execution (IDOR)",
+      "url": "https://github.com/advisories/GHSA-pp95-gc86-jq6q",
+      "date": "2026-10-02T22:35:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sagemaker] SageMaker Python SDK replaced eval() with safe parser in JumpStart search functionality",
+      "url": "https://github.com/advisories/GHSA-5r2p-pjr8-7fh7",
+      "date": "2026-10-02T20:12:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[trigger.dev] Trigger.dev: Server-side request forgery via unvalidated webhook alert-channel URL",
+      "url": "https://github.com/advisories/GHSA-xxv7-2vv3-h682",
+      "date": "2026-10-02T19:31:34.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[trigger.dev] Trigger.dev: Run replay injects a task run into an attacker-chosen environment (cross-tenant write)",
+      "url": "https://github.com/advisories/GHSA-qxpp-qjg8-x4jv",
+      "date": "2026-10-02T19:31:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dulwich] Dulwich: Arbitrary File Write (RCE) on Windows via Unvalidated Drive Letters in Tree Paths",
+      "url": "https://github.com/advisories/GHSA-8mcx-5rqc-vhmf",
+      "date": "2026-10-02T19:14:22.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dulwich] Dulwich: Infinite Loop Denial of Service (DoS) in Packfile Object Resolution",
+      "url": "https://github.com/advisories/GHSA-35mr-4567-66vg",
+      "date": "2026-10-02T18:54:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[dulwich] Dulwich: Symlink write-through in checkout(paths=[]) via raw os.open bypasses all symlink protections",
+      "url": "https://github.com/advisories/GHSA-8w8g-wq8h-fq33",
+      "date": "2026-10-02T18:53:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dulwich] Dulwich: Symlink directory traversal in filter-branch index_filter via cross-commit state persistence",
+      "url": "https://github.com/advisories/GHSA-5fqc-mrg8-w798",
+      "date": "2026-10-02T18:53:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[dulwich] Dulwich: Symlink directory traversal in stash pop allows arbitrary file write via intermediate directory symlinks",
+      "url": "https://github.com/advisories/GHSA-cm62-gvxx-vmxx",
+      "date": "2026-10-02T18:52:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[nltk] NLTK Stanford wrapper classes execute untrusted JAR files without verification",
       "url": "https://github.com/advisories/GHSA-9r6g-266r-89x4",
@@ -13,131 +139,6 @@
       "url": "https://github.com/advisories/GHSA-j36p-7w88-g82j",
       "date": "2026-10-02T18:29:49.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[hono] Duplicate Advisory: Hono vulnerable to Vary Header Injection leading to potential CORS Bypass",
-      "url": "https://github.com/advisories/GHSA-cw3j-28qq-x3xh",
-      "date": "2026-10-02T18:28:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[deeptutor] DeepTutor missing MCP tool authorization allows non-admin users to invoke unrestricted tools",
-      "url": "https://github.com/advisories/GHSA-jg88-rvpc-qvxj",
-      "date": "2026-10-02T18:27:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mlflow] MLflow: Unauthenticated full-read SSRF in webhook delivery: _validate_webhook_url bypassed via unvalidated HTTP redirects (and DNS rebinding)",
-      "url": "https://github.com/advisories/GHSA-7gwp-5pfp-969j",
-      "date": "2026-10-02T18:21:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0319: anymap2 is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0319.html",
-      "date": "2026-10-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[node-forge] node-forge RSA PKCS#1 v1.5 signature verification accepts extra nested DigestAlgorithm elements",
-      "url": "https://github.com/advisories/GHSA-86w9-cpqp-85rv",
-      "date": "2026-10-01T21:09:10.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[react-dev-utils]  react-dev-utils openBrowser permits command injection on macOS",
-      "url": "https://github.com/advisories/GHSA-g9g6-gvq9-j4vp",
-      "date": "2026-10-01T21:08:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vm2] vm2: Incomplete nodejs.* symbol filtering lets sandbox override host WebStream state checks",
-      "url": "https://github.com/advisories/GHSA-jf8q-945g-9q4c",
-      "date": "2026-10-01T15:42:17.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[vm2] Duplicate Advisory: Incomplete nodejs.* symbol filtering lets sandbox override host WebStream state checks",
-      "url": "https://github.com/advisories/GHSA-hmpr-c9rf-qcrf",
-      "date": "2026-10-01T15:41:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vm2] vm2: NodeVM builtin allowlist bypass via node:test.run() execArgv allows sandbox escape",
-      "url": "https://github.com/advisories/GHSA-qhwx-74w5-xhxq",
-      "date": "2026-10-01T15:41:32.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] Duplicate Advisory: NodeVM builtin allowlist bypass via node:test.run() execArgv allows sandbox escape",
-      "url": "https://github.com/advisories/GHSA-wqg3-r97q-73xm",
-      "date": "2026-10-01T15:41:06.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2 CLI provides no sandbox isolation - host-realm require() is reachable from sandboxed scripts",
-      "url": "https://github.com/advisories/GHSA-jxxv-8r27-vm4p",
-      "date": "2026-10-01T15:40:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vm2] Duplicate Advisory: vm2 CLI provides no sandbox isolation - host-realm require() is reachable from sandboxed scripts",
-      "url": "https://github.com/advisories/GHSA-hc6q-4vvg-jf79",
-      "date": "2026-10-01T15:39:30.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2 exposes host HTTPS credentials and TLS traffic through globalAgent",
-      "url": "https://github.com/advisories/GHSA-h85j-hv3c-qfgq",
-      "date": "2026-10-01T15:39:28.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] Duplicate Advisory: vm2 exposes host HTTPS credentials and TLS traffic through globalAgent",
-      "url": "https://github.com/advisories/GHSA-5843-9mh5-hhgw",
-      "date": "2026-10-01T15:38:06.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2 Custom Module Resolver Can Bypass the External Package Allowlist by Loading a Colliding Host Package",
-      "url": "https://github.com/advisories/GHSA-c48m-32m9-vx93",
-      "date": "2026-10-01T15:37:20.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] Duplicate Advisory: vm2 Custom Module Resolver Can Bypass the External Package Allowlist by Loading a Colliding Host Package",
-      "url": "https://github.com/advisories/GHSA-6fvh-fgmg-3x7v",
-      "date": "2026-10-01T15:37:01.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2: NodeVM builtin denylist bypass via fs/promises despite -fs, allowing host filesystem writes",
-      "url": "https://github.com/advisories/GHSA-6rh5-qq4q-97xh",
-      "date": "2026-10-01T15:36:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vm2] Duplicate Advisory: vm2: NodeVM builtin denylist bypass via fs/promises despite -fs, allowing host filesystem writes",
-      "url": "https://github.com/advisories/GHSA-7c3p-84r8-h79q",
-      "date": "2026-10-01T15:36:34.000Z",
-      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
