@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-10-01T20:56:49.437Z",
+  "fetchedAt": "2026-10-02T00:39:42.759Z",
   "entries": [
+    {
+      "title": "[node-forge] node-forge RSA PKCS#1 v1.5 signature verification accepts extra nested DigestAlgorithm elements",
+      "url": "https://github.com/advisories/GHSA-86w9-cpqp-85rv",
+      "date": "2026-10-01T21:09:10.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[react-dev-utils]  react-dev-utils openBrowser permits command injection on macOS",
+      "url": "https://github.com/advisories/GHSA-g9g6-gvq9-j4vp",
+      "date": "2026-10-01T21:08:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[vm2] vm2: Incomplete nodejs.* symbol filtering lets sandbox override host WebStream state checks",
       "url": "https://github.com/advisories/GHSA-jf8q-945g-9q4c",
@@ -124,20 +138,6 @@
       "title": "[vm2] Duplicate Advisory: NodeVM nesting guard accepts array-shaped require and permits host RCE",
       "url": "https://github.com/advisories/GHSA-9fxx-mv6c-j5xp",
       "date": "2026-10-01T15:32:42.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] vm2: GHSA-m283-3h24-438v fix bypass leads to host RCE via call/apply indirection",
-      "url": "https://github.com/advisories/GHSA-647f-g98j-qq25",
-      "date": "2026-10-01T15:32:11.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] Duplicate Advisory: vm2: GHSA-m283-3h24-438v fix bypass leads to host RCE via call/apply indirection",
-      "url": "https://github.com/advisories/GHSA-3f84-vwv5-r42g",
-      "date": "2026-10-01T15:30:02.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     }
