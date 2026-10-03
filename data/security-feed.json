@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-10-03T04:58:50.740Z",
+  "fetchedAt": "2026-10-03T10:20:15.072Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2024-0448: Unsoundness in rutie",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2024-0448.html",
+      "date": "2026-10-03T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0328: Vulnerability in decompress",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0328.html",
+      "date": "2026-10-03T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[probe-image-size] probe-image-size: Quadratic-time Denial of Service in the SVG Parser",
       "url": "https://github.com/advisories/GHSA-gjj5-9665-rwrc",
@@ -126,20 +138,6 @@
       "date": "2026-10-02T23:09:22.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[headroom-ai] Headroom vulnerable to Cross-Site WebSocket Hijacking (CSWSH)",
-      "url": "https://github.com/advisories/GHSA-h46j-26q3-rggf",
-      "date": "2026-10-02T23:09:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@a2ui/web_core] @a2ui/web_core: `openUrl` permits `javascript:` URI execution via agent-supplied button actions",
-      "url": "https://github.com/advisories/GHSA-72qq-p3r5-f7wq",
-      "date": "2026-10-02T22:55:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
