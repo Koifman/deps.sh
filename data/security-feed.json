@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-10-06T00:42:54.284Z",
+  "fetchedAt": "2026-10-06T07:25:42.335Z",
   "entries": [
     {
-      "title": "[@graphql-tools/executor-legacy-ws] GraphQL Tools: TLS Certificate Validation Disabled in Legacy GraphQL WebSocket Executor",
-      "url": "https://github.com/advisories/GHSA-6fw5-9hq8-w87g",
-      "date": "2026-10-05T22:56:58.000Z",
+      "title": "[docling-slim] Docling: `enable_local_fetch` is not enforced in HTML browser-rendering mode",
+      "url": "https://github.com/advisories/GHSA-q43m-vhcp-mhvm",
+      "date": "2026-10-06T00:02:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[docling] Docling: `enable_local_fetch` is not enforced in HTML browser-rendering mode",
+      "url": "https://github.com/advisories/GHSA-q43m-vhcp-mhvm",
+      "date": "2026-10-06T00:02:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM: Mirrored multimodal IPC caches desync after a rejected request — a later request reusing the same media hash trips a receiver assertion in the engine core",
+      "url": "https://github.com/advisories/GHSA-ph3r-5jfg-f84f",
+      "date": "2026-10-06T00:02:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM: Harmony tool continuations drop `cache_salt` — restoring a cross-tenant prefix-cache membership oracle",
+      "url": "https://github.com/advisories/GHSA-935w-9g4m-p28p",
+      "date": "2026-10-06T00:02:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[Werkzeug] Werkzeug safe_join() allows Windows special device names",
+      "url": "https://github.com/advisories/GHSA-g6x2-hccm-hh4m",
+      "date": "2026-10-05T23:48:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@simple-git/argv-parser] simple-git: `VISUAL` editor environment variable is omitted from unsafe editor detection",
+      "url": "https://github.com/advisories/GHSA-v5rq-49vh-5v5c",
+      "date": "2026-10-05T23:48:22.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[simple-git] simple-git unsafe-operation guard does not block trailer command configuration",
+      "url": "https://github.com/advisories/GHSA-x6jw-m9v5-85vh",
+      "date": "2026-10-05T23:48:14.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[simple-git] simple-git allows command execution through unblocked Git configuration includes",
+      "url": "https://github.com/advisories/GHSA-g4wm-2vf7-vfgr",
+      "date": "2026-10-05T23:48:06.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@graphql-tools/utils] GraphQL Tools has prototype pollution in well-established utility function `mergeDeep`",
-      "url": "https://github.com/advisories/GHSA-7mx3-vvmw-hjmv",
-      "date": "2026-10-05T22:56:48.000Z",
+      "title": "[simple-git] simple-git: unsafe-operations plugin bypass via git long-option abbreviation (--receive-p/--exe) -> command execution (residual of CVE-2026-28291)",
+      "url": "https://github.com/advisories/GHSA-858h-whjf-mvg5",
+      "date": "2026-10-05T23:47:59.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[snowflake-sdk] Snowflake drivers writes sensitive information to logs",
-      "url": "https://github.com/advisories/GHSA-qqj6-54q6-cxv6",
-      "date": "2026-10-05T22:55:48.000Z",
+      "title": "[sprintf-js] sprintf-js vulnerable to denial of service through unbounded precision specifiers",
+      "url": "https://github.com/advisories/GHSA-hp3w-g68c-fv3c",
+      "date": "2026-10-05T23:47:35.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[snowflake-connector-python] Snowflake drivers writes sensitive information to logs",
-      "url": "https://github.com/advisories/GHSA-qqj6-54q6-cxv6",
-      "date": "2026-10-05T22:55:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[snowflake-sdk] Duplicate Advisory: Sensitive information written to logs by Snowflake drivers",
-      "url": "https://github.com/advisories/GHSA-5cwm-p7pj-gqp2",
-      "date": "2026-10-05T22:55:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[python-jose] python-jose algorithm confusion guard bypassed by DER-encoded public keys",
-      "url": "https://github.com/advisories/GHSA-3qf3-8w2g-rqmx",
-      "date": "2026-10-05T22:55:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[postcss-selector-parser] PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
-      "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
-      "date": "2026-10-05T22:53:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR: Path Traversal to Sibling Directories in CommonEngine on Windows",
-      "url": "https://github.com/advisories/GHSA-7g7c-h8rr-7p6q",
-      "date": "2026-10-05T22:53:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR: Path Traversal to Sibling Directories in CommonEngine on Windows",
-      "url": "https://github.com/advisories/GHSA-7g7c-h8rr-7p6q",
-      "date": "2026-10-05T22:53:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR: Path Traversal to Sibling Directories in CommonEngine on Windows",
-      "url": "https://github.com/advisories/GHSA-7g7c-h8rr-7p6q",
-      "date": "2026-10-05T22:53:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@angular/ssr] Angular SSR: Path Traversal to Sibling Directories in CommonEngine on Windows",
-      "url": "https://github.com/advisories/GHSA-7g7c-h8rr-7p6q",
-      "date": "2026-10-05T22:53:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyspark] Apache Spark History Server allows stored cross-site scripting through unescaped application names",
-      "url": "https://github.com/advisories/GHSA-9437-39hj-3c93",
-      "date": "2026-10-05T22:53:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fsspec] fsspec: Server-Side Template Injection in ReferenceFileSystem leads to Remote Code Execution",
-      "url": "https://github.com/advisories/GHSA-27vj-qcqg-25rc",
-      "date": "2026-10-05T22:53:23.000Z",
+      "title": "[pymongo] PyMongo: PYTHON-5996 Heap out-of-bounds write via signed size overflow in BSON document encoding",
+      "url": "https://github.com/advisories/GHSA-v4x9-3549-crwv",
+      "date": "2026-10-05T23:47:11.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[@capacitor/ios] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
-      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
-      "date": "2026-10-05T22:53:12.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "title": "[pymongo] PyMongo: PYTHON-5986 Host injection in PyMongo connection string parsing via percent-encoded delimiters",
+      "url": "https://github.com/advisories/GHSA-vp6j-j7w5-5xjj",
+      "date": "2026-10-05T23:47:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     },
     {
-      "title": "[@capacitor/android] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
-      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
-      "date": "2026-10-05T22:53:12.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "title": "[pymongo] PyMongo: PYTHON-5990 Forced Unix domain socket connection via a .sock KMS endpoint in client-side field level encryption",
+      "url": "https://github.com/advisories/GHSA-qx36-8mw2-4r3x",
+      "date": "2026-10-05T23:46:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "[@capacitor/ios] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
-      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
-      "date": "2026-10-05T22:53:12.000Z",
+      "title": "[@socket.io/cluster-engine] Socket.IO: Prototype Pollution via Unsafe Client Session Lookup",
+      "url": "https://github.com/advisories/GHSA-wfpm-5gcm-94cg",
+      "date": "2026-10-05T23:44:22.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "HIGH"
     },
     {
-      "title": "[@capacitor/android] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
-      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
-      "date": "2026-10-05T22:53:12.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "title": "[PyJWT] PyJWT accepts inconsistent OKP x/d JWKs, causing public/private key identity confusion",
+      "url": "https://github.com/advisories/GHSA-x33g-cr3x-6449",
+      "date": "2026-10-05T23:44:05.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "[@capacitor/ios] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
-      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
-      "date": "2026-10-05T22:53:12.000Z",
+      "title": "[dompurify] DOMPurify: IN_PLACE returns a force-removed rawtext root whose text carries attacker markup — pure HTML reparse executes",
+      "url": "https://github.com/advisories/GHSA-6688-9rhm-gjv2",
+      "date": "2026-10-05T23:43:54.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "LOW"
     },
     {
-      "title": "[@capacitor/android] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
-      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
-      "date": "2026-10-05T22:53:12.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "title": "[vllm] vLLM: Qwen2-VL / Qwen3-VL video samplers bound on request-controlled max_frames, which the num_frames ceiling does not reach",
+      "url": "https://github.com/advisories/GHSA-x6mc-67gf-chw4",
+      "date": "2026-10-05T23:43:00.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "[@capacitor/ios] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
-      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
-      "date": "2026-10-05T22:53:12.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "title": "[vllm] vLLM: GLMGA video sampling permits request-driven CPU and memory exhaustion",
+      "url": "https://github.com/advisories/GHSA-58v5-2m8f-94pr",
+      "date": "2026-10-05T23:42:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM: Scale-out disaggregated multimodal transport trusts caller-supplied features",
+      "url": "https://github.com/advisories/GHSA-ph72-cqr5-qpp7",
+      "date": "2026-10-05T23:42:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[vllm] vLLM: Structured-output request errors escape the request boundary and terminate the shared EngineCore — engine-fatal denial of service (3 sites)",
+      "url": "https://github.com/advisories/GHSA-85xf-c7hm-whqw",
+      "date": "2026-10-05T23:42:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     }
   ]
 }
