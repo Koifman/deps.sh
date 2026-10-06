@@ -1,144 +1,144 @@
 {
-  "fetchedAt": "2026-10-06T14:58:30.732Z",
+  "fetchedAt": "2026-10-06T20:10:09.875Z",
   "entries": [
     {
-      "title": "[docling-slim] Docling: `enable_local_fetch` is not enforced in HTML browser-rendering mode",
-      "url": "https://github.com/advisories/GHSA-q43m-vhcp-mhvm",
-      "date": "2026-10-06T00:02:28.000Z",
-      "ecosystem": "pypi",
+      "title": "[payload] Payload: ReDoS in Multipart Content-Type Validation",
+      "url": "https://github.com/advisories/GHSA-2g7p-5934-q4w7",
+      "date": "2026-10-06T16:18:27.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[payload] Payload: ReDoS in Multipart Content-Type Validation",
+      "url": "https://github.com/advisories/GHSA-2g7p-5934-q4w7",
+      "date": "2026-10-06T16:18:27.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[payload] Payload vulnerable to API key disclosure through ordinary document reads",
+      "url": "https://github.com/advisories/GHSA-238x-w2j9-gwwr",
+      "date": "2026-10-06T16:18:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[payload] Payload vulnerable to API key disclosure through ordinary document reads",
+      "url": "https://github.com/advisories/GHSA-238x-w2j9-gwwr",
+      "date": "2026-10-06T16:18:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@payloadcms/plugin-ecommerce] Payload Ecommerce has an order confirmation validation issue",
+      "url": "https://github.com/advisories/GHSA-8r29-2mp2-pmrw",
+      "date": "2026-10-06T16:17:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@payloadcms/plugin-ecommerce] Payload Ecommerce has an order confirmation validation issue",
+      "url": "https://github.com/advisories/GHSA-8r29-2mp2-pmrw",
+      "date": "2026-10-06T16:17:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[payload] Payload relationship-query authorization bypass",
+      "url": "https://github.com/advisories/GHSA-7c34-32v3-j575",
+      "date": "2026-10-06T16:17:35.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[docling] Docling: `enable_local_fetch` is not enforced in HTML browser-rendering mode",
-      "url": "https://github.com/advisories/GHSA-q43m-vhcp-mhvm",
-      "date": "2026-10-06T00:02:28.000Z",
-      "ecosystem": "pypi",
+      "title": "[payload] Payload relationship-query authorization bypass",
+      "url": "https://github.com/advisories/GHSA-7c34-32v3-j575",
+      "date": "2026-10-06T16:17:35.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[vllm] vLLM: Mirrored multimodal IPC caches desync after a rejected request — a later request reusing the same media hash trips a receiver assertion in the engine core",
-      "url": "https://github.com/advisories/GHSA-ph3r-5jfg-f84f",
-      "date": "2026-10-06T00:02:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "title": "[payload] Payload: Token refresh and password reset responses may expose restricted user fields",
+      "url": "https://github.com/advisories/GHSA-xgv3-crq2-6f69",
+      "date": "2026-10-06T16:17:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "[vllm] vLLM: Harmony tool continuations drop `cache_salt` — restoring a cross-tenant prefix-cache membership oracle",
-      "url": "https://github.com/advisories/GHSA-935w-9g4m-p28p",
-      "date": "2026-10-06T00:02:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
+      "title": "[payload] Payload: Token refresh and password reset responses may expose restricted user fields",
+      "url": "https://github.com/advisories/GHSA-xgv3-crq2-6f69",
+      "date": "2026-10-06T16:17:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "[Werkzeug] Werkzeug safe_join() allows Windows special device names",
-      "url": "https://github.com/advisories/GHSA-g6x2-hccm-hh4m",
-      "date": "2026-10-05T23:48:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@simple-git/argv-parser] simple-git: `VISUAL` editor environment variable is omitted from unsafe editor detection",
-      "url": "https://github.com/advisories/GHSA-v5rq-49vh-5v5c",
-      "date": "2026-10-05T23:48:22.000Z",
+      "title": "[payload] Payload: Field access control bypass on auth collections",
+      "url": "https://github.com/advisories/GHSA-vc4h-q48j-5hcx",
+      "date": "2026-10-06T16:17:25.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[simple-git] simple-git unsafe-operation guard does not block trailer command configuration",
-      "url": "https://github.com/advisories/GHSA-x6jw-m9v5-85vh",
-      "date": "2026-10-05T23:48:14.000Z",
+      "title": "[payload] Payload: Field access control bypass on auth collections",
+      "url": "https://github.com/advisories/GHSA-vc4h-q48j-5hcx",
+      "date": "2026-10-06T16:17:25.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[simple-git] simple-git allows command execution through unblocked Git configuration includes",
-      "url": "https://github.com/advisories/GHSA-g4wm-2vf7-vfgr",
-      "date": "2026-10-05T23:48:06.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[simple-git] simple-git: unsafe-operations plugin bypass via git long-option abbreviation (--receive-p/--exe) -> command execution (residual of CVE-2026-28291)",
-      "url": "https://github.com/advisories/GHSA-858h-whjf-mvg5",
-      "date": "2026-10-05T23:47:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sprintf-js] sprintf-js vulnerable to denial of service through unbounded precision specifiers",
-      "url": "https://github.com/advisories/GHSA-hp3w-g68c-fv3c",
-      "date": "2026-10-05T23:47:35.000Z",
+      "title": "[@payloadcms/plugin-stripe] Payload: Insufficient Access Control in Stripe REST Proxy",
+      "url": "https://github.com/advisories/GHSA-r9v2-gg2j-22q5",
+      "date": "2026-10-06T16:09:48.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[pymongo] PyMongo: PYTHON-5996 Heap out-of-bounds write via signed size overflow in BSON document encoding",
-      "url": "https://github.com/advisories/GHSA-v4x9-3549-crwv",
-      "date": "2026-10-05T23:47:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pymongo] PyMongo: PYTHON-5986 Host injection in PyMongo connection string parsing via percent-encoded delimiters",
-      "url": "https://github.com/advisories/GHSA-vp6j-j7w5-5xjj",
-      "date": "2026-10-05T23:47:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pymongo] PyMongo: PYTHON-5990 Forced Unix domain socket connection via a .sock KMS endpoint in client-side field level encryption",
-      "url": "https://github.com/advisories/GHSA-qx36-8mw2-4r3x",
-      "date": "2026-10-05T23:46:54.000Z",
-      "ecosystem": "pypi",
+      "title": "[@payloadcms/plugin-stripe] Payload: Insufficient Access Control in Stripe REST Proxy",
+      "url": "https://github.com/advisories/GHSA-r9v2-gg2j-22q5",
+      "date": "2026-10-06T16:09:48.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@socket.io/cluster-engine] Socket.IO: Prototype Pollution via Unsafe Client Session Lookup",
-      "url": "https://github.com/advisories/GHSA-wfpm-5gcm-94cg",
-      "date": "2026-10-05T23:44:22.000Z",
+      "title": "[@payloadcms/plugin-mcp] Payload: Improper access control for MCP API keys",
+      "url": "https://github.com/advisories/GHSA-2q76-m6w6-qgc6",
+      "date": "2026-10-06T16:09:33.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[PyJWT] PyJWT accepts inconsistent OKP x/d JWKs, causing public/private key identity confusion",
-      "url": "https://github.com/advisories/GHSA-x33g-cr3x-6449",
-      "date": "2026-10-05T23:44:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[dompurify] DOMPurify: IN_PLACE returns a force-removed rawtext root whose text carries attacker markup — pure HTML reparse executes",
-      "url": "https://github.com/advisories/GHSA-6688-9rhm-gjv2",
-      "date": "2026-10-05T23:43:54.000Z",
+      "title": "[@payloadcms/plugin-import-export] Payload: Prototype pollution in Payload Import Export plugin",
+      "url": "https://github.com/advisories/GHSA-qf28-8hc6-vwrp",
+      "date": "2026-10-06T16:09:24.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[vllm] vLLM: Qwen2-VL / Qwen3-VL video samplers bound on request-controlled max_frames, which the num_frames ceiling does not reach",
-      "url": "https://github.com/advisories/GHSA-x6mc-67gf-chw4",
-      "date": "2026-10-05T23:43:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "title": "[@payloadcms/plugin-import-export] Payload: Prototype pollution in Payload Import Export plugin",
+      "url": "https://github.com/advisories/GHSA-qf28-8hc6-vwrp",
+      "date": "2026-10-06T16:09:24.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
     },
     {
-      "title": "[vllm] vLLM: GLMGA video sampling permits request-driven CPU and memory exhaustion",
-      "url": "https://github.com/advisories/GHSA-58v5-2m8f-94pr",
-      "date": "2026-10-05T23:42:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "title": "[payload] Payload: SQL Injection in SQLite and Postgres",
+      "url": "https://github.com/advisories/GHSA-v49j-62m6-pgrr",
+      "date": "2026-10-06T16:09:18.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
     },
     {
-      "title": "[vllm] vLLM: Scale-out disaggregated multimodal transport trusts caller-supplied features",
-      "url": "https://github.com/advisories/GHSA-ph72-cqr5-qpp7",
-      "date": "2026-10-05T23:42:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "title": "[payload] Payload: SQL Injection in SQLite and Postgres",
+      "url": "https://github.com/advisories/GHSA-v49j-62m6-pgrr",
+      "date": "2026-10-06T16:09:18.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
     },
     {
-      "title": "[vllm] vLLM: Structured-output request errors escape the request boundary and terminate the shared EngineCore — engine-fatal denial of service (3 sites)",
-      "url": "https://github.com/advisories/GHSA-85xf-c7hm-whqw",
-      "date": "2026-10-05T23:42:45.000Z",
-      "ecosystem": "pypi",
+      "title": "[@payloadcms/next] Payload: Untrusted redirect URL parameter exploit",
+      "url": "https://github.com/advisories/GHSA-w84c-53h3-mc2g",
+      "date": "2026-10-06T16:09:14.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
