@@ -1,143 +1,145 @@
 {
-  "fetchedAt": "2026-10-05T18:15:27.196Z",
+  "fetchedAt": "2026-10-06T00:42:54.284Z",
   "entries": [
     {
-      "title": "RUSTSEC-2024-0448: Unsoundness in rutie",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2024-0448.html",
-      "date": "2026-10-03T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0328: Vulnerability in decompress",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0328.html",
-      "date": "2026-10-03T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[probe-image-size] probe-image-size: Quadratic-time Denial of Service in the SVG Parser",
-      "url": "https://github.com/advisories/GHSA-gjj5-9665-rwrc",
-      "date": "2026-10-02T23:18:02.000Z",
+      "title": "[@graphql-tools/executor-legacy-ws] GraphQL Tools: TLS Certificate Validation Disabled in Legacy GraphQL WebSocket Executor",
+      "url": "https://github.com/advisories/GHSA-6fw5-9hq8-w87g",
+      "date": "2026-10-05T22:56:58.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@fastify/busboy] @fastify/busboy vulnerable to Denial of Service via oversized multipart boundary",
-      "url": "https://github.com/advisories/GHSA-xjh9-v7x6-24jw",
-      "date": "2026-10-02T23:17:29.000Z",
+      "title": "[@graphql-tools/utils] GraphQL Tools has prototype pollution in well-established utility function `mergeDeep`",
+      "url": "https://github.com/advisories/GHSA-7mx3-vvmw-hjmv",
+      "date": "2026-10-05T22:56:48.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[apache-airflow] Apache Airflow missing team context permits cross-team Dag actions and XCom reads",
-      "url": "https://github.com/advisories/GHSA-5247-m8w9-2v4m",
-      "date": "2026-10-02T23:17:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@fastify/busboy] @fastify/busboy vulnerable to Denial of Service via prototype-named multipart part header",
-      "url": "https://github.com/advisories/GHSA-x8mw-p69m-v3mx",
-      "date": "2026-10-02T23:17:27.000Z",
+      "title": "[snowflake-sdk] Snowflake drivers writes sensitive information to logs",
+      "url": "https://github.com/advisories/GHSA-qqj6-54q6-cxv6",
+      "date": "2026-10-05T22:55:48.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "MODERATE"
     },
     {
-      "title": "[apache-airflow] Apache Airflow scheduler unsafely deserializes human-in-the-loop task next_kwargs",
-      "url": "https://github.com/advisories/GHSA-q4c3-7575-55j2",
-      "date": "2026-10-02T23:15:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow Task SDK Callback deserialization can import arbitrary modules in the scheduler",
-      "url": "https://github.com/advisories/GHSA-2qjv-p2gc-mjg2",
-      "date": "2026-10-02T23:15:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow environment-variable secrets backend permits cross-team credential use",
-      "url": "https://github.com/advisories/GHSA-75mg-c62r-v95g",
-      "date": "2026-10-02T23:15:12.000Z",
+      "title": "[snowflake-connector-python] Snowflake drivers writes sensitive information to logs",
+      "url": "https://github.com/advisories/GHSA-qqj6-54q6-cxv6",
+      "date": "2026-10-05T22:55:48.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[apache-airflow] Apache Airflow Task SDK fails to mask list-shaped JSON Variables",
-      "url": "https://github.com/advisories/GHSA-f3c2-j7g8-vpp8",
-      "date": "2026-10-02T23:14:57.000Z",
+      "title": "[snowflake-sdk] Duplicate Advisory: Sensitive information written to logs by Snowflake drivers",
+      "url": "https://github.com/advisories/GHSA-5cwm-p7pj-gqp2",
+      "date": "2026-10-05T22:55:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[python-jose] python-jose algorithm confusion guard bypassed by DER-encoded public keys",
+      "url": "https://github.com/advisories/GHSA-3qf3-8w2g-rqmx",
+      "date": "2026-10-05T22:55:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[postcss-selector-parser] PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
+      "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+      "date": "2026-10-05T22:53:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR: Path Traversal to Sibling Directories in CommonEngine on Windows",
+      "url": "https://github.com/advisories/GHSA-7g7c-h8rr-7p6q",
+      "date": "2026-10-05T22:53:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR: Path Traversal to Sibling Directories in CommonEngine on Windows",
+      "url": "https://github.com/advisories/GHSA-7g7c-h8rr-7p6q",
+      "date": "2026-10-05T22:53:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR: Path Traversal to Sibling Directories in CommonEngine on Windows",
+      "url": "https://github.com/advisories/GHSA-7g7c-h8rr-7p6q",
+      "date": "2026-10-05T22:53:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/ssr] Angular SSR: Path Traversal to Sibling Directories in CommonEngine on Windows",
+      "url": "https://github.com/advisories/GHSA-7g7c-h8rr-7p6q",
+      "date": "2026-10-05T22:53:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyspark] Apache Spark History Server allows stored cross-site scripting through unescaped application names",
+      "url": "https://github.com/advisories/GHSA-9437-39hj-3c93",
+      "date": "2026-10-05T22:53:38.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[apache-airflow] Apache Airflow bulk endpoints log Variable and Connection secrets in cleartext",
-      "url": "https://github.com/advisories/GHSA-cjv4-7hp2-2x9h",
-      "date": "2026-10-02T23:14:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow Backfill API parser discrepancy permits cross-DAG authorization bypass",
-      "url": "https://github.com/advisories/GHSA-j4jc-cq9h-xrhr",
-      "date": "2026-10-02T23:14:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow Variables UI fails to mask sensitive values in deeply nested iterables",
-      "url": "https://github.com/advisories/GHSA-g4qj-5vxv-wggf",
-      "date": "2026-10-02T23:13:29.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow exposes dict-valued var.json secrets in Rendered Templates",
-      "url": "https://github.com/advisories/GHSA-f643-3rc2-j27w",
-      "date": "2026-10-02T23:13:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow Config API exposes team-scoped sensitive configuration values",
-      "url": "https://github.com/advisories/GHSA-c56v-8w4g-3mfm",
-      "date": "2026-10-02T23:13:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow XCom API permits unsafe deserialization through JSON string literals",
-      "url": "https://github.com/advisories/GHSA-fcmm-42r9-mmmm",
-      "date": "2026-10-02T23:12:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow exception-node deserialization permits arbitrary callable execution",
-      "url": "https://github.com/advisories/GHSA-8prw-8m6x-8w6f",
-      "date": "2026-10-02T23:12:36.000Z",
+      "title": "[fsspec] fsspec: Server-Side Template Injection in ReferenceFileSystem leads to Remote Code Execution",
+      "url": "https://github.com/advisories/GHSA-27vj-qcqg-25rc",
+      "date": "2026-10-05T22:53:23.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[apache-airflow-providers-yandex] Apache Airflow Yandex Lockbox backend allows cross-team secret disclosure",
-      "url": "https://github.com/advisories/GHSA-qmrf-jrpr-rjx6",
-      "date": "2026-10-02T23:11:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "title": "[@capacitor/ios] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
+      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
+      "date": "2026-10-05T22:53:12.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
     },
     {
-      "title": "[nltk] NLTK network URL validation permits SSRF to RFC 6598 shared-address-space hosts",
-      "url": "https://github.com/advisories/GHSA-2jhm-w3mp-jcwr",
-      "date": "2026-10-02T23:11:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
+      "title": "[@capacitor/android] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
+      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
+      "date": "2026-10-05T22:53:12.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
     },
     {
-      "title": "[nltk] NLTK downloader allows cross-package resource and model poisoning",
-      "url": "https://github.com/advisories/GHSA-ffj6-66c4-86gw",
-      "date": "2026-10-02T23:09:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "title": "[@capacitor/ios] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
+      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
+      "date": "2026-10-05T22:53:12.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@capacitor/android] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
+      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
+      "date": "2026-10-05T22:53:12.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@capacitor/ios] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
+      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
+      "date": "2026-10-05T22:53:12.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@capacitor/android] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
+      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
+      "date": "2026-10-05T22:53:12.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@capacitor/ios] Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
+      "url": "https://github.com/advisories/GHSA-rvm3-566m-v7fv",
+      "date": "2026-10-05T22:53:12.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
     }
   ]
 }
