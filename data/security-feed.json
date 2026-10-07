@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-10-06T20:10:09.875Z",
+  "fetchedAt": "2026-10-07T00:32:57.750Z",
   "entries": [
+    {
+      "title": "[knowns] knowns OS Command Injection via Insecure LSP Binary Path Config in .knowns/config.json",
+      "url": "https://github.com/advisories/GHSA-mc52-mwq4-vfx3",
+      "date": "2026-10-06T18:58:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[knowns] Duplicate Advisory: knowns vulnerable to command injection",
+      "url": "https://github.com/advisories/GHSA-6ph4-r249-58p2",
+      "date": "2026-10-06T18:57:57.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mlflow] MLflow allows unauthorized access to multipart upload endpoints when the `--serve-artifacts` mode is enabled",
+      "url": "https://github.com/advisories/GHSA-8c7q-86fq-vvmh",
+      "date": "2026-10-06T18:43:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[payload] Payload didn't enforce field-level password update restrictions",
+      "url": "https://github.com/advisories/GHSA-fx49-4h83-wjv9",
+      "date": "2026-10-06T16:21:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[payload] Payload didn't enforce field-level password update restrictions",
+      "url": "https://github.com/advisories/GHSA-fx49-4h83-wjv9",
+      "date": "2026-10-06T16:21:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[payload] Payload: ReDoS in Multipart Content-Type Validation",
       "url": "https://github.com/advisories/GHSA-2g7p-5934-q4w7",
@@ -105,41 +140,6 @@
       "date": "2026-10-06T16:09:33.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@payloadcms/plugin-import-export] Payload: Prototype pollution in Payload Import Export plugin",
-      "url": "https://github.com/advisories/GHSA-qf28-8hc6-vwrp",
-      "date": "2026-10-06T16:09:24.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@payloadcms/plugin-import-export] Payload: Prototype pollution in Payload Import Export plugin",
-      "url": "https://github.com/advisories/GHSA-qf28-8hc6-vwrp",
-      "date": "2026-10-06T16:09:24.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[payload] Payload: SQL Injection in SQLite and Postgres",
-      "url": "https://github.com/advisories/GHSA-v49j-62m6-pgrr",
-      "date": "2026-10-06T16:09:18.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[payload] Payload: SQL Injection in SQLite and Postgres",
-      "url": "https://github.com/advisories/GHSA-v49j-62m6-pgrr",
-      "date": "2026-10-06T16:09:18.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@payloadcms/next] Payload: Untrusted redirect URL parameter exploit",
-      "url": "https://github.com/advisories/GHSA-w84c-53h3-mc2g",
-      "date": "2026-10-06T16:09:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
