@@ -1,6 +1,107 @@
 {
-  "fetchedAt": "2026-10-07T07:04:46.298Z",
+  "fetchedAt": "2026-10-07T15:26:42.416Z",
   "entries": [
+    {
+      "title": "[praisonai-platform] PraisonAI: Platform members can delete owner issue dependencies through member-owned related issues",
+      "url": "https://github.com/advisories/GHSA-mxmx-rh57-jx58",
+      "date": "2026-10-07T14:28:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[praisonai] PraisonAI: AgentMail webhook mode accepts forged unsigned message.received events and invokes agents",
+      "url": "https://github.com/advisories/GHSA-7c92-x8vg-4258",
+      "date": "2026-10-07T14:07:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai] PraisonAI: AgentMail webhook lacks signature verification, allowing unauthenticated message injection and sender spoofing",
+      "url": "https://github.com/advisories/GHSA-qj9c-59p6-8cgx",
+      "date": "2026-10-07T14:06:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai] Duplicate Advisory: PraisonAI: AgentMail webhook lacks signature verification, allowing unauthenticated message injection and sender spoofing",
+      "url": "https://github.com/advisories/GHSA-4mp6-8448-9vgv",
+      "date": "2026-10-07T14:06:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[praisonai] Duplicate Advisory: PraisonAI: AgentMail webhook mode accepts forged unsigned message.received events and invokes agents",
+      "url": "https://github.com/advisories/GHSA-m64w-vfg6-36ph",
+      "date": "2026-10-07T14:06:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@actual-app/sync-server] Actual Sync Server: CORS Proxy GitHub API Allowlist Prefix Bypass Leaks Private Repositories Through the Server GitHub Token",
+      "url": "https://github.com/advisories/GHSA-m62c-5q34-f3cf",
+      "date": "2026-10-07T14:00:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[wger] wger: Cross-User Data Corruption via Missing Ownership Check on WorkoutLog.slot_entry",
+      "url": "https://github.com/advisories/GHSA-rjpf-7pf5-q54x",
+      "date": "2026-10-07T13:59:18.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wger] wger: Trainer Privilege Escalation - Improper Privilege Management",
+      "url": "https://github.com/advisories/GHSA-x249-cx55-2h87",
+      "date": "2026-10-07T13:59:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[wger] wger: API credentials remain valid after logout/password change",
+      "url": "https://github.com/advisories/GHSA-v3x9-6gg8-c2c9",
+      "date": "2026-10-07T13:59:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wger] wger: trainer_login accepts GET - CSRF bypass enables forced session rebinding",
+      "url": "https://github.com/advisories/GHSA-xf64-4pmc-h8qf",
+      "date": "2026-10-07T13:45:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wger] wger: cross-tenant admin notes/contracts leak via gym=None bypass (5 views)",
+      "url": "https://github.com/advisories/GHSA-c72h-82w6-rqfp",
+      "date": "2026-10-07T13:33:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "RUSTSEC-2026-0332: Unsoundness in wasapi",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0332.html",
+      "date": "2026-10-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0329: Vulnerability in libcrux-hmac-drbg",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0329.html",
+      "date": "2026-10-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0330: Vulnerability in libcrux-kem",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0330.html",
+      "date": "2026-10-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0331: Vulnerability in libcrux-kem",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0331.html",
+      "date": "2026-10-07T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[knowns] knowns OS Command Injection via Insecure LSP Binary Path Config in .knowns/config.json",
       "url": "https://github.com/advisories/GHSA-mc52-mwq4-vfx3",
@@ -33,111 +134,6 @@
       "title": "[payload] Payload didn't enforce field-level password update restrictions",
       "url": "https://github.com/advisories/GHSA-fx49-4h83-wjv9",
       "date": "2026-10-06T16:21:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[payload] Payload: ReDoS in Multipart Content-Type Validation",
-      "url": "https://github.com/advisories/GHSA-2g7p-5934-q4w7",
-      "date": "2026-10-06T16:18:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[payload] Payload: ReDoS in Multipart Content-Type Validation",
-      "url": "https://github.com/advisories/GHSA-2g7p-5934-q4w7",
-      "date": "2026-10-06T16:18:27.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[payload] Payload vulnerable to API key disclosure through ordinary document reads",
-      "url": "https://github.com/advisories/GHSA-238x-w2j9-gwwr",
-      "date": "2026-10-06T16:18:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[payload] Payload vulnerable to API key disclosure through ordinary document reads",
-      "url": "https://github.com/advisories/GHSA-238x-w2j9-gwwr",
-      "date": "2026-10-06T16:18:17.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@payloadcms/plugin-ecommerce] Payload Ecommerce has an order confirmation validation issue",
-      "url": "https://github.com/advisories/GHSA-8r29-2mp2-pmrw",
-      "date": "2026-10-06T16:17:55.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@payloadcms/plugin-ecommerce] Payload Ecommerce has an order confirmation validation issue",
-      "url": "https://github.com/advisories/GHSA-8r29-2mp2-pmrw",
-      "date": "2026-10-06T16:17:55.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[payload] Payload relationship-query authorization bypass",
-      "url": "https://github.com/advisories/GHSA-7c34-32v3-j575",
-      "date": "2026-10-06T16:17:35.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[payload] Payload relationship-query authorization bypass",
-      "url": "https://github.com/advisories/GHSA-7c34-32v3-j575",
-      "date": "2026-10-06T16:17:35.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[payload] Payload: Token refresh and password reset responses may expose restricted user fields",
-      "url": "https://github.com/advisories/GHSA-xgv3-crq2-6f69",
-      "date": "2026-10-06T16:17:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[payload] Payload: Token refresh and password reset responses may expose restricted user fields",
-      "url": "https://github.com/advisories/GHSA-xgv3-crq2-6f69",
-      "date": "2026-10-06T16:17:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[payload] Payload: Field access control bypass on auth collections",
-      "url": "https://github.com/advisories/GHSA-vc4h-q48j-5hcx",
-      "date": "2026-10-06T16:17:25.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[payload] Payload: Field access control bypass on auth collections",
-      "url": "https://github.com/advisories/GHSA-vc4h-q48j-5hcx",
-      "date": "2026-10-06T16:17:25.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@payloadcms/plugin-stripe] Payload: Insufficient Access Control in Stripe REST Proxy",
-      "url": "https://github.com/advisories/GHSA-r9v2-gg2j-22q5",
-      "date": "2026-10-06T16:09:48.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@payloadcms/plugin-stripe] Payload: Insufficient Access Control in Stripe REST Proxy",
-      "url": "https://github.com/advisories/GHSA-r9v2-gg2j-22q5",
-      "date": "2026-10-06T16:09:48.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@payloadcms/plugin-mcp] Payload: Improper access control for MCP API keys",
-      "url": "https://github.com/advisories/GHSA-2q76-m6w6-qgc6",
-      "date": "2026-10-06T16:09:33.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
