@@ -1,141 +1,145 @@
 {
-  "fetchedAt": "2026-10-07T15:26:42.416Z",
+  "fetchedAt": "2026-10-07T21:10:36.700Z",
   "entries": [
     {
-      "title": "[praisonai-platform] PraisonAI: Platform members can delete owner issue dependencies through member-owned related issues",
-      "url": "https://github.com/advisories/GHSA-mxmx-rh57-jx58",
-      "date": "2026-10-07T14:28:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[praisonai] PraisonAI: AgentMail webhook mode accepts forged unsigned message.received events and invokes agents",
-      "url": "https://github.com/advisories/GHSA-7c92-x8vg-4258",
-      "date": "2026-10-07T14:07:11.000Z",
+      "title": "[WeasyPrint] WeasyPrint: EPS images reach the Ghostscript interpreter resulting in RCE",
+      "url": "https://github.com/advisories/GHSA-r543-q48m-4c9j",
+      "date": "2026-10-07T18:05:51.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[praisonai] PraisonAI: AgentMail webhook lacks signature verification, allowing unauthenticated message injection and sender spoofing",
-      "url": "https://github.com/advisories/GHSA-qj9c-59p6-8cgx",
-      "date": "2026-10-07T14:06:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai] Duplicate Advisory: PraisonAI: AgentMail webhook lacks signature verification, allowing unauthenticated message injection and sender spoofing",
-      "url": "https://github.com/advisories/GHSA-4mp6-8448-9vgv",
-      "date": "2026-10-07T14:06:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[praisonai] Duplicate Advisory: PraisonAI: AgentMail webhook mode accepts forged unsigned message.received events and invokes agents",
-      "url": "https://github.com/advisories/GHSA-m64w-vfg6-36ph",
-      "date": "2026-10-07T14:06:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@actual-app/sync-server] Actual Sync Server: CORS Proxy GitHub API Allowlist Prefix Bypass Leaks Private Repositories Through the Server GitHub Token",
-      "url": "https://github.com/advisories/GHSA-m62c-5q34-f3cf",
-      "date": "2026-10-07T14:00:47.000Z",
+      "title": "[ghost] Ghost: Authorization Issue Allowed Author Role to Delete any Post",
+      "url": "https://github.com/advisories/GHSA-x3mg-q38v-m562",
+      "date": "2026-10-07T18:05:33.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[wger] wger: Cross-User Data Corruption via Missing Ownership Check on WorkoutLog.slot_entry",
-      "url": "https://github.com/advisories/GHSA-rjpf-7pf5-q54x",
-      "date": "2026-10-07T13:59:18.000Z",
-      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[wger] wger: Trainer Privilege Escalation - Improper Privilege Management",
-      "url": "https://github.com/advisories/GHSA-x249-cx55-2h87",
-      "date": "2026-10-07T13:59:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[wger] wger: API credentials remain valid after logout/password change",
-      "url": "https://github.com/advisories/GHSA-v3x9-6gg8-c2c9",
-      "date": "2026-10-07T13:59:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wger] wger: trainer_login accepts GET - CSRF bypass enables forced session rebinding",
-      "url": "https://github.com/advisories/GHSA-xf64-4pmc-h8qf",
-      "date": "2026-10-07T13:45:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[wger] wger: cross-tenant admin notes/contracts leak via gym=None bypass (5 views)",
-      "url": "https://github.com/advisories/GHSA-c72h-82w6-rqfp",
-      "date": "2026-10-07T13:33:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0332: Unsoundness in wasapi",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0332.html",
-      "date": "2026-10-07T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0329: Vulnerability in libcrux-hmac-drbg",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0329.html",
-      "date": "2026-10-07T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0330: Vulnerability in libcrux-kem",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0330.html",
-      "date": "2026-10-07T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0331: Vulnerability in libcrux-kem",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0331.html",
-      "date": "2026-10-07T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[knowns] knowns OS Command Injection via Insecure LSP Binary Path Config in .knowns/config.json",
-      "url": "https://github.com/advisories/GHSA-mc52-mwq4-vfx3",
-      "date": "2026-10-06T18:58:40.000Z",
+      "title": "[vm2] vm2 contains a sandbox escape vulnerability",
+      "url": "https://github.com/advisories/GHSA-pq68-rvw4-xp4r",
+      "date": "2026-10-07T18:05:01.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[knowns] Duplicate Advisory: knowns vulnerable to command injection",
-      "url": "https://github.com/advisories/GHSA-6ph4-r249-58p2",
-      "date": "2026-10-06T18:57:57.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mlflow] MLflow allows unauthorized access to multipart upload endpoints when the `--serve-artifacts` mode is enabled",
-      "url": "https://github.com/advisories/GHSA-8c7q-86fq-vvmh",
-      "date": "2026-10-06T18:43:57.000Z",
-      "ecosystem": "pypi",
       "severity": "CRITICAL"
     },
     {
-      "title": "[payload] Payload didn't enforce field-level password update restrictions",
-      "url": "https://github.com/advisories/GHSA-fx49-4h83-wjv9",
-      "date": "2026-10-06T16:21:53.000Z",
+      "title": "[vm2] Duplicate Advisory: vm2 contains a sandbox escape vulnerability",
+      "url": "https://github.com/advisories/GHSA-9hxx-m5g2-2q3h",
+      "date": "2026-10-07T18:04:52.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[hydra-core] Hydra logging configuration permits unsafe callable resolution",
+      "url": "https://github.com/advisories/GHSA-c3wx-c55w-pxjq",
+      "date": "2026-10-07T18:03:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[hydra-core] Hydra logging configuration permits unsafe callable resolution",
+      "url": "https://github.com/advisories/GHSA-c3wx-c55w-pxjq",
+      "date": "2026-10-07T18:03:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[hydra-core] Hydra instantiate target blacklist bypasses permit code execution",
+      "url": "https://github.com/advisories/GHSA-rqx7-p7vv-w7hr",
+      "date": "2026-10-07T18:03:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[hydra-core] Hydra instantiate target blacklist bypasses permit code execution",
+      "url": "https://github.com/advisories/GHSA-rqx7-p7vv-w7hr",
+      "date": "2026-10-07T18:03:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@insumermodel/mppx-token-gate] mppx-condition-gate: Free-access path grants on a self-declared wallet without proving control",
+      "url": "https://github.com/advisories/GHSA-jg6q-3qfh-r9f8",
+      "date": "2026-10-07T18:03:45.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[payload] Payload didn't enforce field-level password update restrictions",
-      "url": "https://github.com/advisories/GHSA-fx49-4h83-wjv9",
-      "date": "2026-10-06T16:21:53.000Z",
+      "title": "[@insumermodel/mppx-condition-gate] mppx-condition-gate: Free-access path grants on a self-declared wallet without proving control",
+      "url": "https://github.com/advisories/GHSA-jg6q-3qfh-r9f8",
+      "date": "2026-10-07T18:03:45.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
+    },
+    {
+      "title": "[@backstage/plugin-techdocs-node] Backstage: Remote code execution via crafted markdown_extensions in TechDocs mkdocs.yml",
+      "url": "https://github.com/advisories/GHSA-4488-j8vj-vqqv",
+      "date": "2026-10-07T18:03:25.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@backstage/plugin-techdocs-node] Backstage: Improper validation of TechDocs MkDocs configuration",
+      "url": "https://github.com/advisories/GHSA-qmw3-745m-w99g",
+      "date": "2026-10-07T18:03:15.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@backstage/plugin-scaffolder-backend-module-confluence-to-markdown] Backstage: Improper input validation in Confluence to Markdown scaffolder module",
+      "url": "https://github.com/advisories/GHSA-75qf-886x-5xf2",
+      "date": "2026-10-07T18:03:10.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@backstage/plugin-scaffolder-backend-module-confluence-to-markdown] Backstage: Improper repository path validation in a Scaffolder backend module",
+      "url": "https://github.com/advisories/GHSA-2cmg-v53w-8xfp",
+      "date": "2026-10-07T18:03:00.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@backstage/plugin-search-backend-module-elasticsearch] Backstage has incorrect authorization in search engine permission filtering",
+      "url": "https://github.com/advisories/GHSA-9325-vq29-gp3v",
+      "date": "2026-10-07T18:02:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@backstage/plugin-search-backend] Backstage has incorrect authorization in search engine permission filtering",
+      "url": "https://github.com/advisories/GHSA-9325-vq29-gp3v",
+      "date": "2026-10-07T18:02:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@backstage/plugin-kubernetes-backend] Backstage: Improper entity validation in deprecated Kubernetes services endpoint",
+      "url": "https://github.com/advisories/GHSA-r9ph-3637-55px",
+      "date": "2026-10-07T18:02:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@backstage/plugin-kubernetes-backend] Backstage has a sensitive information disclosure in Kubernetes resource queries",
+      "url": "https://github.com/advisories/GHSA-p795-mqf2-36mf",
+      "date": "2026-10-07T18:02:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@backstage/plugin-scaffolder-backend-module-bitbucket-server] Backstage's scaffolder credential handling may allow unintended GitHub authentication fallback",
+      "url": "https://github.com/advisories/GHSA-29gx-h2m3-xw44",
+      "date": "2026-10-07T18:01:55.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@backstage/plugin-scaffolder-backend-module-bitbucket-cloud] Backstage's scaffolder credential handling may allow unintended GitHub authentication fallback",
+      "url": "https://github.com/advisories/GHSA-29gx-h2m3-xw44",
+      "date": "2026-10-07T18:01:55.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     }
   ]
 }
