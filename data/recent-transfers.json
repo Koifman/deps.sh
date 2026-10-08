@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-10-08T16:22:31.214Z",
+  "scannedAt": "2026-10-08T22:00:03.908Z",
   "count": 128,
   "packages": [
     {
@@ -597,8 +597,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/rawlist",
-      "version": "5.3.6",
+      "name": "@inquirer/editor",
+      "version": "5.3.4",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -606,8 +606,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/editor",
-      "version": "5.3.4",
+      "name": "@inquirer/rawlist",
+      "version": "5.3.6",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -984,6 +984,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@oxfmt/binding-linux-x64-musl",
+      "version": "0.72.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@oxc-parser/binding-linux-arm64-gnu",
       "version": "0.153.0",
       "ecosystem": "npm",
@@ -999,15 +1008,6 @@
       "score": 20,
       "level": "LOW",
       "previousOwner": "arshadyaseen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@oxfmt/binding-linux-x64-musl",
-      "version": "0.72.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1038,8 +1038,8 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "@oxlint/binding-linux-arm64-gnu",
-      "version": "1.87.0",
+      "name": "@oxc-parser/binding-linux-arm64-musl",
+      "version": "0.153.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -1047,8 +1047,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-arm64-musl",
-      "version": "0.153.0",
+      "name": "@oxlint/binding-linux-arm64-gnu",
+      "version": "1.87.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
