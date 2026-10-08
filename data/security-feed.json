@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-10-08T08:45:10.630Z",
+  "fetchedAt": "2026-10-08T16:19:29.322Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0333: Vulnerability in noyalib",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0333.html",
+      "date": "2026-10-08T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[PraisonAI] PraisonAI: Prompt Injection Defense Bypassed for HIGH-Level Threats",
       "url": "https://github.com/advisories/GHSA-fj8f-m44g-c479",
@@ -129,13 +135,6 @@
     },
     {
       "title": "[docling-slim] Docling imports plugin entry points before the allow_external_plugins check",
-      "url": "https://github.com/advisories/GHSA-9jxx-vjrv-h2rq",
-      "date": "2026-10-07T20:40:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[docling] Docling imports plugin entry points before the allow_external_plugins check",
       "url": "https://github.com/advisories/GHSA-9jxx-vjrv-h2rq",
       "date": "2026-10-07T20:40:57.000Z",
       "ecosystem": "pypi",
