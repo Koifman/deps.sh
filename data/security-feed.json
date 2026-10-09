@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-10-09T01:59:38.198Z",
+  "fetchedAt": "2026-10-09T08:54:32.267Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0334: Vulnerability in bip322",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0334.html",
+      "date": "2026-10-09T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[fast-jwt] fast-jwt: Verifier cache accepts expired JWTs without iat.",
       "url": "https://github.com/advisories/GHSA-x937-hj6v-793p",
@@ -131,13 +137,6 @@
       "title": "[praisonai] PraisonAI: Shell command allowlist bypass via find -exec built-in action",
       "url": "https://github.com/advisories/GHSA-cv3g-hj65-pcfh",
       "date": "2026-10-08T22:00:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] Duplicate Advisory: PraisonAI: Shell command allowlist bypass via find -exec built-in action",
-      "url": "https://github.com/advisories/GHSA-wrw8-384c-cg76",
-      "date": "2026-10-08T22:00:51.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
