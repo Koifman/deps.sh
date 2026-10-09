@@ -1,6 +1,83 @@
 {
-  "fetchedAt": "2026-10-09T16:03:24.785Z",
+  "fetchedAt": "2026-10-09T21:33:01.612Z",
   "entries": [
+    {
+      "title": "[pyload-ng] pyload-ng: getUserData/get_userdata exposed at Perms.ANY allow any authenticated account to brute-force the administrator password",
+      "url": "https://github.com/advisories/GHSA-68w4-83fh-f2w8",
+      "date": "2026-10-09T17:09:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pyload-ng] pyLoad: Rate-Limit Bypass and Audit-Log Spoofing via Trusted Client-Controlled `X-Forwarded-For` Header",
+      "url": "https://github.com/advisories/GHSA-9q47-3cm2-2rp8",
+      "date": "2026-10-09T17:09:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyload-ng] pyLoad: Privilege revocation and password change through the REST API do not invalidate the user's session",
+      "url": "https://github.com/advisories/GHSA-jq7h-wrvp-3rgx",
+      "date": "2026-10-09T17:09:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pyload-ng] pyLoad: Api.set_user_permission never invalidates the target's session",
+      "url": "https://github.com/advisories/GHSA-889w-m37p-88m5",
+      "date": "2026-10-09T17:09:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pyload-ng] pyLoad WindowsPhoneNotify addon: non-admin SETTINGS user triggers SSRF via unguarded http.client notification host",
+      "url": "https://github.com/advisories/GHSA-p3pr-8f3m-4qp8",
+      "date": "2026-10-09T17:09:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyload-ng] pyLoad: Tar extraction creates device nodes and FIFOs (member types not filtered; tarfile extractall without filter=)",
+      "url": "https://github.com/advisories/GHSA-fr26-jjhm-638c",
+      "date": "2026-10-09T17:08:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pyload-ng] pyLoad has an authentication bypass in API key validation (check_apikey cache)",
+      "url": "https://github.com/advisories/GHSA-r44w-v6gf-x3p6",
+      "date": "2026-10-09T16:43:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pyload-ng] pyLoad: Unauthenticated access to /web/<path:filename> bypasses authentication on sensitive templates and leaks internal error details via exception attribute typo",
+      "url": "https://github.com/advisories/GHSA-j92p-c242-7hfx",
+      "date": "2026-10-09T16:40:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pyload-ng] pyLoad: Lack of Input Size Validation Leads to Denial of Service (DoS) and Process Termination",
+      "url": "https://github.com/advisories/GHSA-vq8p-m3wm-gv5f",
+      "date": "2026-10-09T16:26:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[strawberry-graphql] Strawberry legacy graphql-ws retains naturally completed subscription slots",
+      "url": "https://github.com/advisories/GHSA-m952-2w3f-6r8h",
+      "date": "2026-10-09T14:07:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[strawberry-graphql] Strawberry GraphQL: Synchronous permission checks can treat an awaitable authorization result as truthy",
+      "url": "https://github.com/advisories/GHSA-pfvf-fwfp-25mp",
+      "date": "2026-10-09T14:07:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0334: Vulnerability in bip322",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0334.html",
@@ -62,83 +139,6 @@
       "date": "2026-10-08T22:09:07.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@adonisjs/http-server] AdonisJS: Unencoded route parameters can produce open redirects",
-      "url": "https://github.com/advisories/GHSA-2m6q-8v3h-jqww",
-      "date": "2026-10-08T22:09:07.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fast-jwt] fast-jwt: createVerifier accepts unsigned JWTs when key is '' or null and algorithms is explicitly set",
-      "url": "https://github.com/advisories/GHSA-8wpc-h4q6-8fxv",
-      "date": "2026-10-08T22:02:13.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-jwt] fast-jwt: Incomplete patch of CVE-2026-34950: Non-whitespace key-prefix re-enables RSA→HS256 algorithm confusion",
-      "url": "https://github.com/advisories/GHSA-ww5h-9m49-7xx4",
-      "date": "2026-10-08T22:02:08.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[fast-jwt] fast-jwt clockTolerance: Infinity silently bypasses both exp and nbf validation (and persists in the verifier cache)",
-      "url": "https://github.com/advisories/GHSA-687g-22h4-j4w4",
-      "date": "2026-10-08T22:02:03.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[fast-jwt] fast-jwt : Silent claim-validator bypass when JWT payload is a JSON array",
-      "url": "https://github.com/advisories/GHSA-5hjw-83fp-phq9",
-      "date": "2026-10-08T22:01:59.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[fast-jwt] fast-jwt treats raw public JWK JSON as an HMAC secret, enabling HS256 token forgery",
-      "url": "https://github.com/advisories/GHSA-g3jj-5cmm-3hxx",
-      "date": "2026-10-08T22:01:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai] PraisonAI: AgentOS defaults to network-exposed no-auth mode, allowing unauthenticated agent invocation and instruction disclosure",
-      "url": "https://github.com/advisories/GHSA-6wjp-v33h-5cvq",
-      "date": "2026-10-08T22:01:31.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai] Duplicate Advisory: PraisonAI: AgentOS defaults to network-exposed no-auth mode, allowing unauthenticated agent invocation and instruction disclosure",
-      "url": "https://github.com/advisories/GHSA-g3pq-3vvx-36w6",
-      "date": "2026-10-08T22:01:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai-platform] PraisonAI: Platform member PATCH routes allow owner resource rewrites and project lead reassignment delete bypass",
-      "url": "https://github.com/advisories/GHSA-c78w-2q4r-68r7",
-      "date": "2026-10-08T22:01:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai-platform] Duplicate Advisory: PraisonAI: Platform member PATCH routes allow owner resource rewrites and project lead reassignment delete bypass",
-      "url": "https://github.com/advisories/GHSA-f996-h3c6-gcwg",
-      "date": "2026-10-08T22:01:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai] PraisonAI: Shell command allowlist bypass via find -exec built-in action",
-      "url": "https://github.com/advisories/GHSA-cv3g-hj65-pcfh",
-      "date": "2026-10-08T22:00:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
