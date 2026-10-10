@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-10-10T01:40:58.469Z",
+  "scannedAt": "2026-10-10T08:24:02.547Z",
   "count": 129,
   "packages": [
     {
@@ -777,15 +777,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "inversify",
-      "version": "8.2.3",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "remojansen",
-      "currentOwner": "notaphplover"
-    },
-    {
       "name": "@appium/logger",
       "version": "2.0.12",
       "ecosystem": "npm",
@@ -793,6 +784,15 @@
       "level": "MODERATE",
       "previousOwner": "jlipps",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "inversify",
+      "version": "8.2.3",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "remojansen",
+      "currentOwner": "notaphplover"
     },
     {
       "name": "@appium/tsconfig",
@@ -1020,15 +1020,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@astrojs/compiler-binding-linux-x64-gnu",
-      "version": "0.5.1",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matthewp",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@typescript/typescript-linux-arm64",
       "version": "7.0.2",
       "ecosystem": "npm",
@@ -1036,6 +1027,15 @@
       "level": "LOW",
       "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@astrojs/compiler-binding-linux-x64-gnu",
+      "version": "0.5.1",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matthewp",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-musl",
@@ -1128,21 +1128,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.153.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@astrojs/compiler-binding-linux-x64-musl",
       "version": "0.5.1",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "matthewp",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.153.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
