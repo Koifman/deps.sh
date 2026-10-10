@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-10-09T21:33:01.612Z",
+  "fetchedAt": "2026-10-10T01:38:07.160Z",
   "entries": [
+    {
+      "title": "[@tinacms/cli] Tina: Code injection via unescaped Git branch name in generated client source",
+      "url": "https://github.com/advisories/GHSA-pwhx-cvv3-qj5c",
+      "date": "2026-10-09T20:56:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@tinacms/app] TinaCMS admin preview iframe loads an attacker-controlled origin from the URL fragment",
+      "url": "https://github.com/advisories/GHSA-x34j-47hf-4xg7",
+      "date": "2026-10-09T20:56:50.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[tinacms] TinaCMS admin preview iframe loads an attacker-controlled origin from the URL fragment",
+      "url": "https://github.com/advisories/GHSA-x34j-47hf-4xg7",
+      "date": "2026-10-09T20:56:50.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tinacms/web-components] @tinacms/web-components: `tina-markdown` writes rich-text link URLs into `href` without scheme validation, allowing stored XSS",
+      "url": "https://github.com/advisories/GHSA-c42q-qvc3-j6vg",
+      "date": "2026-10-09T20:56:46.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[shiny] Shiny for Python has path traversal in bookmark restore",
+      "url": "https://github.com/advisories/GHSA-47c3-hpmg-7j6p",
+      "date": "2026-10-09T20:56:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[pacioli-guard] pacioli: A submit consent marker licensed cancellation of caller-named pre-existing documents",
+      "url": "https://github.com/advisories/GHSA-3hj7-6vmj-h8v4",
+      "date": "2026-10-09T20:42:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[pyload-ng] pyload-ng: getUserData/get_userdata exposed at Perms.ANY allow any authenticated account to brute-force the administrator password",
       "url": "https://github.com/advisories/GHSA-68w4-83fh-f2w8",
@@ -96,48 +138,6 @@
       "url": "https://github.com/advisories/GHSA-556j-vv39-8rqv",
       "date": "2026-10-08T22:10:07.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[banks] Banks: User-controlled prompt input can be parsed as privileged chat messages",
-      "url": "https://github.com/advisories/GHSA-hmq2-7hp6-7crh",
-      "date": "2026-10-08T22:10:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[indico] Indico: Incomplete Server-Side Request Forgery (SSRF) check",
-      "url": "https://github.com/advisories/GHSA-2v95-h47v-g4x9",
-      "date": "2026-10-08T22:09:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[indico] Indico: Missing access check in legacy session export API",
-      "url": "https://github.com/advisories/GHSA-6p4f-j8j6-463q",
-      "date": "2026-10-08T22:09:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[indico] Indico: Cross-Site-Scripting in minutes editor",
-      "url": "https://github.com/advisories/GHSA-cw24-x4mj-fw3q",
-      "date": "2026-10-08T22:09:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[indico] Indico: Cross-Site-Scripting in link fields",
-      "url": "https://github.com/advisories/GHSA-c4wc-ggrj-jg9v",
-      "date": "2026-10-08T22:09:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@adonisjs/http-server] AdonisJS: Unencoded route parameters can produce open redirects",
-      "url": "https://github.com/advisories/GHSA-2m6q-8v3h-jqww",
-      "date": "2026-10-08T22:09:07.000Z",
-      "ecosystem": "npm",
       "severity": "MODERATE"
     }
   ]
