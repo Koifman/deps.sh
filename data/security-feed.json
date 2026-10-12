@@ -1,6 +1,79 @@
 {
-  "fetchedAt": "2026-10-12T08:59:39.995Z",
+  "fetchedAt": "2026-10-12T18:55:54.867Z",
   "entries": [
+    {
+      "title": "[handlebars] Handlebars: JavaScript Injection via Own Property Check Bypass",
+      "url": "https://github.com/advisories/GHSA-p8wg-vrv2-v86f",
+      "date": "2026-10-12T14:33:17.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "RUSTSEC-2021-0157: Vulnerability in ammonia",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2021-0157.html",
+      "date": "2026-10-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2024-0449: unsafe-libyaml is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2024-0449.html",
+      "date": "2026-10-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0337: Vulnerability in ic-cipher",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0337.html",
+      "date": "2026-10-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0341: Vulnerability in quinn-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0341.html",
+      "date": "2026-10-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0343: Vulnerability in quinn-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0343.html",
+      "date": "2026-10-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0339: Vulnerability in quinn-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0339.html",
+      "date": "2026-10-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0342: Vulnerability in quinn-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0342.html",
+      "date": "2026-10-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0340: Vulnerability in quinn-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0340.html",
+      "date": "2026-10-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0338: Vulnerability in quinn-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0338.html",
+      "date": "2026-10-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0335: Vulnerability in mykey",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0335.html",
+      "date": "2026-10-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0336: Vulnerability in mykey",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0336.html",
+      "date": "2026-10-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@tinacms/cli] Tina: Code injection via unescaped Git branch name in generated client source",
       "url": "https://github.com/advisories/GHSA-pwhx-cvv3-qj5c",
@@ -54,89 +127,6 @@
       "title": "[pyload-ng] pyLoad: Rate-Limit Bypass and Audit-Log Spoofing via Trusted Client-Controlled `X-Forwarded-For` Header",
       "url": "https://github.com/advisories/GHSA-9q47-3cm2-2rp8",
       "date": "2026-10-09T17:09:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyload-ng] pyLoad: Privilege revocation and password change through the REST API do not invalidate the user's session",
-      "url": "https://github.com/advisories/GHSA-jq7h-wrvp-3rgx",
-      "date": "2026-10-09T17:09:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyload-ng] pyLoad: Api.set_user_permission never invalidates the target's session",
-      "url": "https://github.com/advisories/GHSA-889w-m37p-88m5",
-      "date": "2026-10-09T17:09:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyload-ng] pyLoad WindowsPhoneNotify addon: non-admin SETTINGS user triggers SSRF via unguarded http.client notification host",
-      "url": "https://github.com/advisories/GHSA-p3pr-8f3m-4qp8",
-      "date": "2026-10-09T17:09:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyload-ng] pyLoad: Tar extraction creates device nodes and FIFOs (member types not filtered; tarfile extractall without filter=)",
-      "url": "https://github.com/advisories/GHSA-fr26-jjhm-638c",
-      "date": "2026-10-09T17:08:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyload-ng] pyLoad has an authentication bypass in API key validation (check_apikey cache)",
-      "url": "https://github.com/advisories/GHSA-r44w-v6gf-x3p6",
-      "date": "2026-10-09T16:43:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pyload-ng] pyLoad: Unauthenticated access to /web/<path:filename> bypasses authentication on sensitive templates and leaks internal error details via exception attribute typo",
-      "url": "https://github.com/advisories/GHSA-j92p-c242-7hfx",
-      "date": "2026-10-09T16:40:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[pyload-ng] pyLoad: Lack of Input Size Validation Leads to Denial of Service (DoS) and Process Termination",
-      "url": "https://github.com/advisories/GHSA-vq8p-m3wm-gv5f",
-      "date": "2026-10-09T16:26:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[strawberry-graphql] Strawberry legacy graphql-ws retains naturally completed subscription slots",
-      "url": "https://github.com/advisories/GHSA-m952-2w3f-6r8h",
-      "date": "2026-10-09T14:07:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[strawberry-graphql] Strawberry GraphQL: Synchronous permission checks can treat an awaitable authorization result as truthy",
-      "url": "https://github.com/advisories/GHSA-pfvf-fwfp-25mp",
-      "date": "2026-10-09T14:07:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0334: Vulnerability in bip322",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0334.html",
-      "date": "2026-10-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[fast-jwt] fast-jwt: Verifier cache accepts expired JWTs without iat.",
-      "url": "https://github.com/advisories/GHSA-x937-hj6v-793p",
-      "date": "2026-10-08T22:10:36.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[banks] Banks: Symlink traversal and arbitrary file disclosure/overwrite in DirectoryPromptRegistry",
-      "url": "https://github.com/advisories/GHSA-556j-vv39-8rqv",
-      "date": "2026-10-08T22:10:07.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
