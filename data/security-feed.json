@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-10-13T01:13:54.954Z",
+  "fetchedAt": "2026-10-13T09:14:18.882Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2021-0158: Vulnerability in ammonia",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2021-0158.html",
+      "date": "2026-10-13T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[handlebars] Handlebars: JavaScript Injection via Own Property Check Bypass",
       "url": "https://github.com/advisories/GHSA-p8wg-vrv2-v86f",
@@ -122,13 +128,6 @@
       "date": "2026-10-09T17:09:16.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[pyload-ng] pyLoad: Rate-Limit Bypass and Audit-Log Spoofing via Trusted Client-Controlled `X-Forwarded-For` Header",
-      "url": "https://github.com/advisories/GHSA-9q47-3cm2-2rp8",
-      "date": "2026-10-09T17:09:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
