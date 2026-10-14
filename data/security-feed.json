@@ -1,6 +1,30 @@
 {
-  "fetchedAt": "2026-10-14T07:24:55.182Z",
+  "fetchedAt": "2026-10-14T13:33:27.046Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0347: Vulnerability in rustls",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0347.html",
+      "date": "2026-10-14T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0348: Vulnerability in rustls",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0348.html",
+      "date": "2026-10-14T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0349: Vulnerability in rustls",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0349.html",
+      "date": "2026-10-14T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0346: Vulnerability in rustls",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0346.html",
+      "date": "2026-10-14T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2021-0158: Vulnerability in ammonia",
       "url": "https://rustsec.org/advisories/RUSTSEC-2021-0158.html",
@@ -98,34 +122,6 @@
       "date": "2026-10-09T20:56:53.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@tinacms/app] TinaCMS admin preview iframe loads an attacker-controlled origin from the URL fragment",
-      "url": "https://github.com/advisories/GHSA-x34j-47hf-4xg7",
-      "date": "2026-10-09T20:56:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[tinacms] TinaCMS admin preview iframe loads an attacker-controlled origin from the URL fragment",
-      "url": "https://github.com/advisories/GHSA-x34j-47hf-4xg7",
-      "date": "2026-10-09T20:56:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@tinacms/web-components] @tinacms/web-components: `tina-markdown` writes rich-text link URLs into `href` without scheme validation, allowing stored XSS",
-      "url": "https://github.com/advisories/GHSA-c42q-qvc3-j6vg",
-      "date": "2026-10-09T20:56:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[shiny] Shiny for Python has path traversal in bookmark restore",
-      "url": "https://github.com/advisories/GHSA-47c3-hpmg-7j6p",
-      "date": "2026-10-09T20:56:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
