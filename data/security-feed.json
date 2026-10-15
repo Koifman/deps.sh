@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-14T22:10:42.714Z",
+  "fetchedAt": "2026-10-15T01:21:25.036Z",
   "entries": [
+    {
+      "title": "[bbot] BBOT's Symlink guard bypass in unarchive module allows planting symlinks during extraction",
+      "url": "https://github.com/advisories/GHSA-xpf3-p7gm-7756",
+      "date": "2026-10-14T19:34:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[apprise] Apprise forwards configured auth headers across cross-origin HTTP redirects",
       "url": "https://github.com/advisories/GHSA-856c-92hv-3vxx",
@@ -113,12 +120,6 @@
     {
       "title": "RUSTSEC-2026-0349: Vulnerability in rustls",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0349.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0346: Vulnerability in rustls",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0346.html",
       "date": "2026-10-14T12:00:00+00:00",
       "ecosystem": "cargo"
     }
