@@ -1,128 +1,145 @@
 {
-  "fetchedAt": "2026-10-15T18:09:50.556Z",
+  "fetchedAt": "2026-10-15T22:05:17.734Z",
   "entries": [
     {
-      "title": "[Twisted] Twisted: IMAP wildcardToRegexp() ReDoS",
-      "url": "https://github.com/advisories/GHSA-8pqf-f4m5-798g",
-      "date": "2026-10-15T14:02:10.000Z",
+      "title": "[@tanstack/vue-start] TanStack Router: Unauthenticated reflected XSS in TanStack Start server-function responses",
+      "url": "https://github.com/advisories/GHSA-qx66-fv34-fjm8",
+      "date": "2026-10-15T20:22:22.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/solid-start] TanStack Router: Unauthenticated reflected XSS in TanStack Start server-function responses",
+      "url": "https://github.com/advisories/GHSA-qx66-fv34-fjm8",
+      "date": "2026-10-15T20:22:22.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/react-start] TanStack Router: Unauthenticated reflected XSS in TanStack Start server-function responses",
+      "url": "https://github.com/advisories/GHSA-qx66-fv34-fjm8",
+      "date": "2026-10-15T20:22:22.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@tanstack/start-server-core] TanStack Router: Unauthenticated reflected XSS in TanStack Start server-function responses",
+      "url": "https://github.com/advisories/GHSA-qx66-fv34-fjm8",
+      "date": "2026-10-15T20:22:22.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[pipecat-ai] Pipecat: Public exposure of Pipecat’s development runner can allow unauthenticated bot session creation",
+      "url": "https://github.com/advisories/GHSA-hqm2-cfx2-2vgh",
+      "date": "2026-10-15T20:22:20.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[bbot] BBOT's Symlink guard bypass in unarchive module allows planting symlinks during extraction",
-      "url": "https://github.com/advisories/GHSA-xpf3-p7gm-7756",
-      "date": "2026-10-14T19:34:31.000Z",
+      "title": "[jupyterlite-core] JupyterLab: Command link trust prompt in JupyterLab can trust a document other than the one clicked",
+      "url": "https://github.com/advisories/GHSA-jwrc-gm9j-263p",
+      "date": "2026-10-15T20:22:14.000Z",
       "ecosystem": "pypi",
-      "severity": "LOW"
+      "severity": "MODERATE"
     },
     {
-      "title": "[apprise] Apprise forwards configured auth headers across cross-origin HTTP redirects",
-      "url": "https://github.com/advisories/GHSA-856c-92hv-3vxx",
-      "date": "2026-10-14T18:38:08.000Z",
+      "title": "[notebook] JupyterLab: Command link trust prompt in JupyterLab can trust a document other than the one clicked",
+      "url": "https://github.com/advisories/GHSA-jwrc-gm9j-263p",
+      "date": "2026-10-15T20:22:14.000Z",
       "ecosystem": "pypi",
-      "severity": "LOW"
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0351: Vulnerability in wasmtime-wasi-http",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0351.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[jupyterlab] JupyterLab: Command link trust prompt in JupyterLab can trust a document other than the one clicked",
+      "url": "https://github.com/advisories/GHSA-jwrc-gm9j-263p",
+      "date": "2026-10-15T20:22:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0350: Vulnerability in wasmtime-wasi-http",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0350.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[jupyterlab] JupyterLab: Command link trust prompt in JupyterLab can trust a document other than the one clicked",
+      "url": "https://github.com/advisories/GHSA-jwrc-gm9j-263p",
+      "date": "2026-10-15T20:22:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0352: Vulnerability in wasmtime-wasi",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0352.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[@anthropic-ai/claude-code] Claude Code: Plugin Hash Pin Bypass Allows Bypass of Hash Pinning",
+      "url": "https://github.com/advisories/GHSA-pq7j-f95f-qfcv",
+      "date": "2026-10-15T20:22:08.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0358: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0358.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[@qwik.dev/core] Qwik: Crashing any Qwik Server via Resource thenable",
+      "url": "https://github.com/advisories/GHSA-x586-xvc8-g7q6",
+      "date": "2026-10-15T20:22:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0361: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0361.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[@builder.io/qwik] Qwik: Crashing any Qwik Server via Resource thenable",
+      "url": "https://github.com/advisories/GHSA-x586-xvc8-g7q6",
+      "date": "2026-10-15T20:22:02.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0364: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0364.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[@backstage/backend-defaults] Backstage: Improper access control in backend action invocation",
+      "url": "https://github.com/advisories/GHSA-3xr5-8w6c-p5gw",
+      "date": "2026-10-15T20:21:56.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0362: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0362.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[@appium/support] Appium: Symlink based Zip Slip in @appium/support ZIP extraction",
+      "url": "https://github.com/advisories/GHSA-qfxx-c367-67f8",
+      "date": "2026-10-15T20:18:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0353: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0353.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[tinytag] tinytag: Infinite loop when parsing certain M4A files containing invalid atoms",
+      "url": "https://github.com/advisories/GHSA-24cc-9352-h2pg",
+      "date": "2026-10-15T20:16:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0359: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0359.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[copyparty] copyparty FTP: upload outside defined volumes (limited path traversal)",
+      "url": "https://github.com/advisories/GHSA-phv8-wgjp-g4p9",
+      "date": "2026-10-15T20:16:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0360: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0360.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[unstructured] unstructured: Stored XSS via unescaped HTML generation",
+      "url": "https://github.com/advisories/GHSA-v5mq-3xhg-98m9",
+      "date": "2026-10-15T20:16:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0363: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0363.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[nuxt-og-image] Nuxt OG Image cache poisoning through derivable cache keys on unsigned dynamic image routes",
+      "url": "https://github.com/advisories/GHSA-2x6f-rp82-ppmj",
+      "date": "2026-10-15T20:15:30.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0356: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0356.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[@opennextjs/cloudflare] OpenNext Cloudflare: Cache interception can bypass middleware protection for encoded paths",
+      "url": "https://github.com/advisories/GHSA-2vc4-c4r6-p6v6",
+      "date": "2026-10-15T20:15:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0357: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0357.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0355: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0355.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0354: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0354.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0347: Vulnerability in rustls",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0347.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0348: Vulnerability in rustls",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0348.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[mcp] MCP Python SDK: Unbounded Session Accumulation in StreamableHTTP Transport Enables Resource Exhaustion",
+      "url": "https://github.com/advisories/GHSA-84m7-p3x7-pcfv",
+      "date": "2026-10-15T20:13:14.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     }
   ]
 }

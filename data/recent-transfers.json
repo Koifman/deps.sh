@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-10-15T18:12:57.292Z",
+  "scannedAt": "2026-10-15T22:08:27.492Z",
   "count": 130,
   "packages": [
     {
@@ -73,6 +73,15 @@
       "level": "MODERATE",
       "previousOwner": "danielruf",
       "currentOwner": "sibiraj-s"
+    },
+    {
+      "name": "@appium/support",
+      "version": "7.2.8",
+      "ecosystem": "npm",
+      "score": 38,
+      "level": "MODERATE",
+      "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "esquery",
@@ -190,15 +199,6 @@
       "level": "MODERATE",
       "previousOwner": "isaacs",
       "currentOwner": "geoffreybooth"
-    },
-    {
-      "name": "@appium/support",
-      "version": "7.2.8",
-      "ecosystem": "npm",
-      "score": 33,
-      "level": "MODERATE",
-      "previousOwner": "jlipps",
-      "currentOwner": "GitHub Actions"
     },
     {
       "name": "is-array-buffer",
@@ -454,7 +454,7 @@
     },
     {
       "name": "@assistant-ui/react",
-      "version": "0.15.28",
+      "version": "0.15.29",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -894,21 +894,21 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "@oxlint/binding-linux-x64-gnu",
-      "version": "1.88.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@speed-highlight/core",
       "version": "2.1.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "matubu",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxlint/binding-linux-x64-gnu",
+      "version": "1.88.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1110,8 +1110,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
-      "version": "0.154.0",
+      "name": "@oxfmt/binding-linux-arm64-gnu",
+      "version": "0.73.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -1119,8 +1119,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-arm64-gnu",
-      "version": "0.73.0",
+      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.154.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
