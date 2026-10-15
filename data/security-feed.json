@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-15T13:16:57.840Z",
+  "fetchedAt": "2026-10-15T18:09:50.556Z",
   "entries": [
+    {
+      "title": "[Twisted] Twisted: IMAP wildcardToRegexp() ReDoS",
+      "url": "https://github.com/advisories/GHSA-8pqf-f4m5-798g",
+      "date": "2026-10-15T14:02:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[bbot] BBOT's Symlink guard bypass in unarchive module allows planting symlinks during extraction",
       "url": "https://github.com/advisories/GHSA-xpf3-p7gm-7756",
@@ -114,12 +121,6 @@
     {
       "title": "RUSTSEC-2026-0348: Vulnerability in rustls",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0348.html",
-      "date": "2026-10-14T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0349: Vulnerability in rustls",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0349.html",
       "date": "2026-10-14T12:00:00+00:00",
       "ecosystem": "cargo"
     }

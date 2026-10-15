@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-10-15T13:20:15.425Z",
-  "count": 129,
+  "scannedAt": "2026-10-15T18:12:57.292Z",
+  "count": 130,
   "packages": [
     {
       "name": "canvg",
@@ -181,6 +181,15 @@
       "level": "MODERATE",
       "previousOwner": "azure-sdk",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "coffeescript",
+      "version": "2.7.0",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "isaacs",
+      "currentOwner": "geoffreybooth"
     },
     {
       "name": "@appium/support",
@@ -543,8 +552,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/checkbox",
-      "version": "5.2.6",
+      "name": "@inquirer/editor",
+      "version": "5.3.4",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -552,8 +561,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/editor",
-      "version": "5.3.4",
+      "name": "@inquirer/checkbox",
+      "version": "5.2.6",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -633,13 +642,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/storage-js",
-      "version": "2.118.0",
+      "name": "@azure/abort-controller",
+      "version": "2.2.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "kiwicopple",
-      "currentOwner": "GitHub Actions"
+      "previousOwner": "azure-sdk",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@supabase/supabase-js",
@@ -651,13 +660,13 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/abort-controller",
-      "version": "2.2.0",
+      "name": "@supabase/storage-js",
+      "version": "2.118.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "azure-sdk",
-      "currentOwner": "microsoft1es"
+      "previousOwner": "kiwicopple",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@azure/logger",
@@ -849,21 +858,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/ansi",
-      "version": "2.0.9",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "regenerate",
       "version": "1.5.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "mathias",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@inquirer/ansi",
+      "version": "2.0.9",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "sboudrias",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -885,21 +894,21 @@
       "currentOwner": "microsoft1es"
     },
     {
-      "name": "@speed-highlight/core",
-      "version": "2.1.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matubu",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxlint/binding-linux-x64-gnu",
       "version": "1.88.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@speed-highlight/core",
+      "version": "2.1.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matubu",
       "currentOwner": "GitHub Actions"
     },
     {
