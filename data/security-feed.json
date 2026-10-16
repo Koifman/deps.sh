@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-10-16T17:17:19.671Z",
+  "fetchedAt": "2026-10-16T20:51:24.328Z",
   "entries": [
+    {
+      "title": "[lmcache] LMCache: Remote code execution via unsafe deserialization in multiprocess mode transport",
+      "url": "https://github.com/advisories/GHSA-w5f2-9q9c-ff4h",
+      "date": "2026-10-16T20:09:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[lmcache] Duplicate Advisory: Remote code execution via unsafe deserialization in multiprocess mode transport",
+      "url": "https://github.com/advisories/GHSA-vv44-hjm2-qw2f",
+      "date": "2026-10-16T20:08:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[claude-agent-sdk] Claude Agent SDK: Argument Injection via resume Option Allows Arbitrary Command Execution",
+      "url": "https://github.com/advisories/GHSA-h4mw-j7qp-8mwm",
+      "date": "2026-10-16T19:44:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@aborruso/ckan-mcp-server] ckan-mcp-server: DataStore Table UI resource does not validate postMessage origin (in) and posts to targetOrigin \"*\" (out)",
+      "url": "https://github.com/advisories/GHSA-vqff-r82h-9crc",
+      "date": "2026-10-16T19:24:46.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[ClickMigrate] ClickMigrate has Path Traversal in \"revision -m\" argument",
+      "url": "https://github.com/advisories/GHSA-vgf9-9mxx-hq54",
+      "date": "2026-10-16T19:17:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
     {
       "title": "[@tanstack/vue-start] TanStack Router: Unauthenticated reflected XSS in TanStack Start server-function responses",
       "url": "https://github.com/advisories/GHSA-qx66-fv34-fjm8",
@@ -103,41 +138,6 @@
       "title": "[tinytag] tinytag: Infinite loop when parsing certain M4A files containing invalid atoms",
       "url": "https://github.com/advisories/GHSA-24cc-9352-h2pg",
       "date": "2026-10-15T20:16:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[copyparty] copyparty FTP: upload outside defined volumes (limited path traversal)",
-      "url": "https://github.com/advisories/GHSA-phv8-wgjp-g4p9",
-      "date": "2026-10-15T20:16:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[unstructured] unstructured: Stored XSS via unescaped HTML generation",
-      "url": "https://github.com/advisories/GHSA-v5mq-3xhg-98m9",
-      "date": "2026-10-15T20:16:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nuxt-og-image] Nuxt OG Image cache poisoning through derivable cache keys on unsigned dynamic image routes",
-      "url": "https://github.com/advisories/GHSA-2x6f-rp82-ppmj",
-      "date": "2026-10-15T20:15:30.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@opennextjs/cloudflare] OpenNext Cloudflare: Cache interception can bypass middleware protection for encoded paths",
-      "url": "https://github.com/advisories/GHSA-2vc4-c4r6-p6v6",
-      "date": "2026-10-15T20:15:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mcp] MCP Python SDK: Unbounded Session Accumulation in StreamableHTTP Transport Enables Resource Exhaustion",
-      "url": "https://github.com/advisories/GHSA-84m7-p3x7-pcfv",
-      "date": "2026-10-15T20:13:14.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
