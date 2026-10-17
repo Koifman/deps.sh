@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-10-17T09:10:58.852Z",
+  "scannedAt": "2026-10-17T13:36:41.473Z",
   "count": 130,
   "packages": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "name": "pdfmake",
-      "version": "0.3.11",
+      "version": "0.3.12",
       "ecosystem": "npm",
       "score": 52,
       "level": "HIGH",
@@ -525,15 +525,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/editor",
-      "version": "5.3.4",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@inquirer/external-editor",
       "version": "3.0.6",
       "ecosystem": "npm",
@@ -549,6 +540,15 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "remarkablemark",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@inquirer/editor",
+      "version": "5.3.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "sboudrias",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -606,15 +606,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/abort-controller",
-      "version": "2.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "azure-sdk",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@inquirer/number",
       "version": "4.2.4",
       "ecosystem": "npm",
@@ -631,6 +622,15 @@
       "level": "MODERATE",
       "previousOwner": "sboudrias",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@azure/abort-controller",
+      "version": "2.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "azure-sdk",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@supabase/realtime-js",
@@ -1101,15 +1101,6 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.154.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@astrojs/compiler-binding-linux-x64-musl",
       "version": "0.5.2",
       "ecosystem": "npm",
@@ -1119,7 +1110,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-win32-arm64-msvc",
+      "name": "oxc-minify",
       "version": "0.154.0",
       "ecosystem": "npm",
       "score": 20,
@@ -1139,6 +1130,15 @@
     {
       "name": "@oxlint/binding-linux-arm64-musl",
       "version": "1.88.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-win32-arm64-msvc",
+      "version": "0.154.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
