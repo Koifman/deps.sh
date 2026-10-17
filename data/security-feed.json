@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-17T04:01:24.950Z",
+  "fetchedAt": "2026-10-17T09:08:06.085Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0365: Vulnerability in negentropy",
@@ -30,6 +30,13 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0368.html",
       "date": "2026-10-17T12:00:00+00:00",
       "ecosystem": "cargo"
+    },
+    {
+      "title": "[devalue] devalue: Custom ArrayBuffer revivers can bypass typed-array allocation validation",
+      "url": "https://github.com/advisories/GHSA-r9w8-h9r3-54w4",
+      "date": "2026-10-17T05:04:12.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
       "title": "[lmcache] LMCache: Remote code execution via unsafe deserialization in multiprocess mode transport",
@@ -128,13 +135,6 @@
       "date": "2026-10-15T20:22:14.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@anthropic-ai/claude-code] Claude Code: Plugin Hash Pin Bypass Allows Bypass of Hash Pinning",
-      "url": "https://github.com/advisories/GHSA-pq7j-f95f-qfcv",
-      "date": "2026-10-15T20:22:08.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
