@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-10-17T16:59:47.895Z",
+  "scannedAt": "2026-10-17T19:15:23.869Z",
   "count": 130,
   "packages": [
     {
@@ -1119,8 +1119,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-win32-arm64-msvc",
-      "version": "0.154.0",
+      "name": "@oxlint/binding-linux-arm64-musl",
+      "version": "1.88.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -1128,8 +1128,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxlint/binding-linux-arm64-musl",
-      "version": "1.88.0",
+      "name": "@oxc-parser/binding-win32-arm64-msvc",
+      "version": "0.154.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -1155,15 +1155,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/typescript-darwin-arm64",
-      "version": "7.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@lottiefiles/dotlottie-web",
       "version": "0.81.0",
       "ecosystem": "npm",
@@ -1171,6 +1162,15 @@
       "level": "LOW",
       "previousOwner": "jawish",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/typescript-darwin-arm64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     }
   ]
 }
