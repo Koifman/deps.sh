@@ -1,9 +1,21 @@
 {
-  "fetchedAt": "2026-10-17T13:33:59.397Z",
+  "fetchedAt": "2026-10-17T16:57:00.468Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0373: Vulnerability in ammonia",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0373.html",
+      "date": "2026-10-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0365: Vulnerability in negentropy",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0365.html",
+      "date": "2026-10-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0370: zvariant is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0370.html",
       "date": "2026-10-17T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -28,6 +40,18 @@
     {
       "title": "RUSTSEC-2026-0368: Vulnerability in zip",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0368.html",
+      "date": "2026-10-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0371: zbus_names is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0371.html",
+      "date": "2026-10-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0372: zvariant_derive is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0372.html",
       "date": "2026-10-17T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -105,34 +129,6 @@
       "title": "[pipecat-ai] Pipecat: Public exposure of Pipecat’s development runner can allow unauthenticated bot session creation",
       "url": "https://github.com/advisories/GHSA-hqm2-cfx2-2vgh",
       "date": "2026-10-15T20:22:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jupyterlite-core] JupyterLab: Command link trust prompt in JupyterLab can trust a document other than the one clicked",
-      "url": "https://github.com/advisories/GHSA-jwrc-gm9j-263p",
-      "date": "2026-10-15T20:22:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[notebook] JupyterLab: Command link trust prompt in JupyterLab can trust a document other than the one clicked",
-      "url": "https://github.com/advisories/GHSA-jwrc-gm9j-263p",
-      "date": "2026-10-15T20:22:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jupyterlab] JupyterLab: Command link trust prompt in JupyterLab can trust a document other than the one clicked",
-      "url": "https://github.com/advisories/GHSA-jwrc-gm9j-263p",
-      "date": "2026-10-15T20:22:14.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[jupyterlab] JupyterLab: Command link trust prompt in JupyterLab can trust a document other than the one clicked",
-      "url": "https://github.com/advisories/GHSA-jwrc-gm9j-263p",
-      "date": "2026-10-15T20:22:14.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
