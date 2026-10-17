@@ -1,6 +1,36 @@
 {
-  "fetchedAt": "2026-10-16T23:24:25.381Z",
+  "fetchedAt": "2026-10-17T04:01:24.950Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0365: Vulnerability in negentropy",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0365.html",
+      "date": "2026-10-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0366: Vulnerability in pest_grammars",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0366.html",
+      "date": "2026-10-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0369: Vulnerability in zip",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0369.html",
+      "date": "2026-10-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0367: Vulnerability in zip",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0367.html",
+      "date": "2026-10-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0368: Vulnerability in zip",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0368.html",
+      "date": "2026-10-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[lmcache] LMCache: Remote code execution via unsafe deserialization in multiprocess mode transport",
       "url": "https://github.com/advisories/GHSA-w5f2-9q9c-ff4h",
@@ -105,41 +135,6 @@
       "date": "2026-10-15T20:22:08.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@qwik.dev/core] Qwik: Crashing any Qwik Server via Resource thenable",
-      "url": "https://github.com/advisories/GHSA-x586-xvc8-g7q6",
-      "date": "2026-10-15T20:22:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@builder.io/qwik] Qwik: Crashing any Qwik Server via Resource thenable",
-      "url": "https://github.com/advisories/GHSA-x586-xvc8-g7q6",
-      "date": "2026-10-15T20:22:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@backstage/backend-defaults] Backstage: Improper access control in backend action invocation",
-      "url": "https://github.com/advisories/GHSA-3xr5-8w6c-p5gw",
-      "date": "2026-10-15T20:21:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@appium/support] Appium: Symlink based Zip Slip in @appium/support ZIP extraction",
-      "url": "https://github.com/advisories/GHSA-qfxx-c367-67f8",
-      "date": "2026-10-15T20:18:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[tinytag] tinytag: Infinite loop when parsing certain M4A files containing invalid atoms",
-      "url": "https://github.com/advisories/GHSA-24cc-9352-h2pg",
-      "date": "2026-10-15T20:16:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
