@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-10-18T10:51:22.185Z",
-  "count": 131,
+  "scannedAt": "2026-10-18T14:29:18.273Z",
+  "count": 129,
   "packages": [
     {
       "name": "canvg",
@@ -181,15 +181,6 @@
       "level": "MODERATE",
       "previousOwner": "azure-sdk",
       "currentOwner": "microsoft1es"
-    },
-    {
-      "name": "coffeescript",
-      "version": "2.7.0",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "isaacs",
-      "currentOwner": "geoffreybooth"
     },
     {
       "name": "is-array-buffer",
@@ -444,21 +435,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@assistant-ui/react",
-      "version": "0.15.29",
-      "ecosystem": "npm",
-      "score": 25,
-      "level": "MODERATE",
-      "previousOwner": "yonom",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "e2b",
       "version": "2.56.0",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
       "previousOwner": "jakbuno",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@assistant-ui/react",
+      "version": "0.15.29",
+      "ecosystem": "npm",
+      "score": 25,
+      "level": "MODERATE",
+      "previousOwner": "yonom",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -534,21 +525,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/editor",
-      "version": "5.3.4",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "style-to-js",
       "version": "2.0.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "remarkablemark",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@inquirer/editor",
+      "version": "5.3.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "sboudrias",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -588,8 +579,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/search",
-      "version": "4.3.4",
+      "name": "@inquirer/expand",
+      "version": "5.1.6",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -597,8 +588,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/expand",
-      "version": "5.1.6",
+      "name": "@inquirer/search",
+      "version": "4.3.4",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -633,15 +624,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/abort-controller",
-      "version": "2.2.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "azure-sdk",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@supabase/supabase-js",
       "version": "2.118.0",
       "ecosystem": "npm",
@@ -649,6 +631,15 @@
       "level": "MODERATE",
       "previousOwner": "kiwicopple",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@azure/abort-controller",
+      "version": "2.2.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "azure-sdk",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@supabase/storage-js",
@@ -813,15 +804,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@microsoft/dynamicproto-js",
-      "version": "2.0.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "microsoft",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@lingui/message-utils",
       "version": "6.10.0",
       "ecosystem": "npm",
@@ -867,21 +849,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/ansi",
-      "version": "2.0.9",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "regenerate",
       "version": "1.5.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "mathias",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@inquirer/ansi",
+      "version": "2.0.9",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "sboudrias",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1011,15 +993,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@astrojs/compiler-binding",
-      "version": "0.5.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "matthewp",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@typescript/typescript-linux-arm64",
       "version": "7.0.2",
       "ecosystem": "npm",
@@ -1027,6 +1000,15 @@
       "level": "LOW",
       "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@astrojs/compiler-binding",
+      "version": "0.5.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matthewp",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-musl",
@@ -1101,15 +1083,6 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "oxc-minify",
-      "version": "0.154.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@astrojs/compiler-binding-linux-x64-musl",
       "version": "0.5.2",
       "ecosystem": "npm",
@@ -1119,7 +1092,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-win32-arm64-msvc",
+      "name": "oxc-minify",
       "version": "0.154.0",
       "ecosystem": "npm",
       "score": 20,
@@ -1146,7 +1119,7 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "name": "@oxc-parser/binding-win32-arm64-msvc",
       "version": "0.154.0",
       "ecosystem": "npm",
       "score": 20,
@@ -1155,12 +1128,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@lottiefiles/dotlottie-web",
-      "version": "0.81.0",
+      "name": "@oxc-minify/binding-linux-x64-gnu",
+      "version": "0.154.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "jawish",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1171,6 +1144,15 @@
       "level": "LOW",
       "previousOwner": "typescript-deploys",
       "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@lottiefiles/dotlottie-web",
+      "version": "0.81.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "jawish",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxc-parser/binding-linux-riscv64-gnu",
