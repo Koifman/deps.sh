@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-10-19T01:05:43.622Z",
+  "scannedAt": "2026-10-19T07:39:17.712Z",
   "count": 129,
   "packages": [
     {
@@ -525,6 +525,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@inquirer/editor",
+      "version": "5.3.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "sboudrias",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "style-to-js",
       "version": "2.0.2",
       "ecosystem": "npm",
@@ -534,8 +543,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/editor",
-      "version": "5.3.4",
+      "name": "@inquirer/checkbox",
+      "version": "5.2.6",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -552,8 +561,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/checkbox",
-      "version": "5.2.6",
+      "name": "@inquirer/password",
+      "version": "5.2.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -563,15 +572,6 @@
     {
       "name": "@inquirer/input",
       "version": "5.1.7",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@inquirer/password",
-      "version": "5.2.3",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -939,15 +939,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/native-preview-linux-x64",
-      "version": "7.0.0-dev.20260707.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@oxc-transform/binding-linux-x64-gnu",
       "version": "0.154.0",
       "ecosystem": "npm",
@@ -955,6 +946,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/native-preview-linux-x64",
+      "version": "7.0.0-dev.20260707.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-gnu",
@@ -993,15 +993,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/typescript-linux-arm64",
-      "version": "7.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@astrojs/compiler-binding",
       "version": "0.5.2",
       "ecosystem": "npm",
@@ -1009,6 +1000,15 @@
       "level": "LOW",
       "previousOwner": "matthewp",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/typescript-linux-arm64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@oxc-parser/binding-linux-arm64-musl",
@@ -1110,8 +1110,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxfmt/binding-linux-arm64-gnu",
-      "version": "0.73.0",
+      "name": "@oxc-parser/binding-win32-arm64-msvc",
+      "version": "0.154.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -1119,8 +1119,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-win32-arm64-msvc",
-      "version": "0.154.0",
+      "name": "@oxfmt/binding-linux-arm64-gnu",
+      "version": "0.73.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
