@@ -1,138 +1,145 @@
 {
-  "fetchedAt": "2026-10-20T16:43:55.740Z",
+  "fetchedAt": "2026-10-20T20:24:05.936Z",
   "entries": [
     {
-      "title": "[@angular/router] @angular/router: Denial of Service via Unmatched Empty-Path Outlet Route Matching in Server-Side Rendering (SSR)",
-      "url": "https://github.com/advisories/GHSA-62vg-58rm-qff7",
-      "date": "2026-10-20T14:36:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[uv] uv's bundled CA store trusts an emSign root whose intermediate CA keys are compromised",
+      "url": "https://github.com/advisories/GHSA-hq85-5cpj-mr62",
+      "date": "2026-10-20T19:37:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
     },
     {
-      "title": "[@angular/router] @angular/router: Denial of Service via Unmatched Empty-Path Outlet Route Matching in Server-Side Rendering (SSR)",
-      "url": "https://github.com/advisories/GHSA-62vg-58rm-qff7",
-      "date": "2026-10-20T14:36:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[certifi] certifi bundles emSign root CAs with compromised intermediate CA keys",
+      "url": "https://github.com/advisories/GHSA-6q48-6c7w-9gw2",
+      "date": "2026-10-20T19:35:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
     },
     {
-      "title": "[@angular/router] @angular/router: Denial of Service via Unmatched Empty-Path Outlet Route Matching in Server-Side Rendering (SSR)",
-      "url": "https://github.com/advisories/GHSA-62vg-58rm-qff7",
-      "date": "2026-10-20T14:36:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@angular/router] @angular/router: Denial of Service via Unmatched Empty-Path Outlet Route Matching in Server-Side Rendering (SSR)",
-      "url": "https://github.com/advisories/GHSA-62vg-58rm-qff7",
-      "date": "2026-10-20T14:36:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[hono] Hono: `serveStatic` decodes the request path a second time, leading to bypass of middleware on static paths",
-      "url": "https://github.com/advisories/GHSA-5r4p-p66f-jhc7",
-      "date": "2026-10-20T14:36:13.000Z",
+      "title": "[vite-plus] launch-editor: escapeCmdArgs() omits % escaping on Windows",
+      "url": "https://github.com/advisories/GHSA-698v-4r3x-3vcv",
+      "date": "2026-10-20T18:30:25.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@angular/platform-server] @angular/platform-server: Open Redirect via Protocol-Relative URLs in Server-Side Rendering (SSR)",
-      "url": "https://github.com/advisories/GHSA-w739-gvwx-grc3",
-      "date": "2026-10-20T14:35:51.000Z",
+      "title": "[vite] launch-editor: escapeCmdArgs() omits % escaping on Windows",
+      "url": "https://github.com/advisories/GHSA-698v-4r3x-3vcv",
+      "date": "2026-10-20T18:30:25.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@angular/platform-server] @angular/platform-server: Open Redirect via Protocol-Relative URLs in Server-Side Rendering (SSR)",
-      "url": "https://github.com/advisories/GHSA-w739-gvwx-grc3",
-      "date": "2026-10-20T14:35:51.000Z",
+      "title": "[vite] launch-editor: escapeCmdArgs() omits % escaping on Windows",
+      "url": "https://github.com/advisories/GHSA-698v-4r3x-3vcv",
+      "date": "2026-10-20T18:30:25.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@angular/platform-server] @angular/platform-server: Open Redirect via Protocol-Relative URLs in Server-Side Rendering (SSR)",
-      "url": "https://github.com/advisories/GHSA-w739-gvwx-grc3",
-      "date": "2026-10-20T14:35:51.000Z",
+      "title": "[vite] launch-editor: escapeCmdArgs() omits % escaping on Windows",
+      "url": "https://github.com/advisories/GHSA-698v-4r3x-3vcv",
+      "date": "2026-10-20T18:30:25.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@angular/platform-server] @angular/platform-server: Open Redirect via Protocol-Relative URLs in Server-Side Rendering (SSR)",
-      "url": "https://github.com/advisories/GHSA-w739-gvwx-grc3",
-      "date": "2026-10-20T14:35:51.000Z",
+      "title": "[vite] launch-editor: escapeCmdArgs() omits % escaping on Windows",
+      "url": "https://github.com/advisories/GHSA-698v-4r3x-3vcv",
+      "date": "2026-10-20T18:30:25.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[markdown-it] markdown-it: Quadratic complexity in smartquotes with unmatched closing quotes",
-      "url": "https://github.com/advisories/GHSA-r7fv-28h4-cvq7",
-      "date": "2026-10-20T14:34:52.000Z",
+      "title": "[vite] launch-editor: escapeCmdArgs() omits % escaping on Windows",
+      "url": "https://github.com/advisories/GHSA-698v-4r3x-3vcv",
+      "date": "2026-10-20T18:30:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[launch-editor] launch-editor: escapeCmdArgs() omits % escaping on Windows",
+      "url": "https://github.com/advisories/GHSA-698v-4r3x-3vcv",
+      "date": "2026-10-20T18:30:25.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@modelcontextprotocol/sdk] MCP TypeScript SDK: Experimental tasks were not tied to the session that created them",
+      "url": "https://github.com/advisories/GHSA-22jm-h49p-29qw",
+      "date": "2026-10-20T18:26:55.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[markdown-it] markdown-it: Quadratic complexity in smartquotes with unmatched closing quotes",
-      "url": "https://github.com/advisories/GHSA-r7fv-28h4-cvq7",
-      "date": "2026-10-20T14:34:52.000Z",
+      "title": "[@modelcontextprotocol/client] MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies",
+      "url": "https://github.com/advisories/GHSA-6prh-2h8m-c8cw",
+      "date": "2026-10-20T18:26:32.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0374: basic-toml is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0374.html",
-      "date": "2026-10-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0377: Vulnerability in wasmtime-wasi-http",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0377.html",
-      "date": "2026-10-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0375: Vulnerability in wasmtime-wasi-http",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0375.html",
-      "date": "2026-10-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0376: Vulnerability in wasmtime-wasi-http",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0376.html",
-      "date": "2026-10-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0380: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0380.html",
-      "date": "2026-10-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0379: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0379.html",
-      "date": "2026-10-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0378: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0378.html",
-      "date": "2026-10-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[json-web-token] json-web-token library is vulnerable to a JWT algorithm confusion attack",
-      "url": "https://github.com/advisories/GHSA-4xw9-cx39-r355",
-      "date": "2026-10-19T19:49:18.000Z",
+      "title": "[@modelcontextprotocol/sdk] MCP TypeScript client SDK: HTTP client transports and OAuth requests followed cross-origin redirects and re-sent custom headers and request bodies",
+      "url": "https://github.com/advisories/GHSA-6prh-2h8m-c8cw",
+      "date": "2026-10-20T18:26:32.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "MODERATE"
     },
     {
-      "title": "[@opentelemetry/auto-instrumentations-node] Prometheus exporter process crash via malformed HTTP request",
-      "url": "https://github.com/advisories/GHSA-q7rr-3cgh-j5r3",
-      "date": "2026-10-19T19:35:40.000Z",
+      "title": "[apostrophe] ApostropheCMS: The general public can access @apostrophecms/user objects via a relationship (viewRole is not applied to the general public)",
+      "url": "https://github.com/advisories/GHSA-xf6w-q65w-4f2w",
+      "date": "2026-10-20T18:26:03.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apostrophe] ApostropheCMS: Missing Authorization on Notification PATCH/DELETE Endpoints",
+      "url": "https://github.com/advisories/GHSA-vwwx-px9w-crrc",
+      "date": "2026-10-20T18:25:38.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@apostrophecms/import-export] ApostropheCMS import-export tar guard misses './..' because it is a literal '../' substring test",
+      "url": "https://github.com/advisories/GHSA-97wv-p4xx-c7mg",
+      "date": "2026-10-20T18:23:43.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[uploadfs] ApostropheCMS: Path traversal in uploadfs",
+      "url": "https://github.com/advisories/GHSA-gmfx-5g6x-rr72",
+      "date": "2026-10-20T18:22:01.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[sanitize-html] ApostropheCMS sanitize-html: SMIL animation namespace-prefix bypass allows javascript: URI injection (XSS)",
+      "url": "https://github.com/advisories/GHSA-374f-7chj-9948",
+      "date": "2026-10-20T18:21:20.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[uploadfs] ApostropheCMS uploadfs Azure backend leaks account-level SAS token into every public attachment URL (sas: true)",
+      "url": "https://github.com/advisories/GHSA-hhph-8536-gfq5",
+      "date": "2026-10-20T18:20:36.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[apostrophe] ApostropheCMS: Authenticated Object-Level Authorization Bypass in exist-in-locale Reveals Restricted Localized Draft Identifiers",
+      "url": "https://github.com/advisories/GHSA-vmxh-77cw-65j7",
+      "date": "2026-10-20T18:19:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@apostrophecms/import-export] ApostropheCMS import-export: NoSQL injection via update-key value lets a crafted import match and overwrite an unidentified document",
+      "url": "https://github.com/advisories/GHSA-jqw5-w6h3-44g6",
+      "date": "2026-10-20T18:19:20.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     }
   ]
 }
