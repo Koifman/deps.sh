@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-10-19T20:57:49.802Z",
+  "fetchedAt": "2026-10-20T00:13:21.415Z",
   "entries": [
+    {
+      "title": "[json-web-token] json-web-token library is vulnerable to a JWT algorithm confusion attack",
+      "url": "https://github.com/advisories/GHSA-4xw9-cx39-r355",
+      "date": "2026-10-19T19:49:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@opentelemetry/auto-instrumentations-node] Prometheus exporter process crash via malformed HTTP request",
+      "url": "https://github.com/advisories/GHSA-q7rr-3cgh-j5r3",
+      "date": "2026-10-19T19:35:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@opentelemetry/sdk-node] Prometheus exporter process crash via malformed HTTP request",
+      "url": "https://github.com/advisories/GHSA-q7rr-3cgh-j5r3",
+      "date": "2026-10-19T19:35:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[msgpack5] msgpack5: Truncated map32 headers throw an unexpected error",
+      "url": "https://github.com/advisories/GHSA-8f34-f56x-9xph",
+      "date": "2026-10-19T19:29:00.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[aiohttp] aiohttp server lacks an initial request/header timeout",
       "url": "https://github.com/advisories/GHSA-5wr8-gcqf-gqf3",
@@ -104,33 +132,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0371.html",
       "date": "2026-10-17T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0372: zvariant_derive is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0372.html",
-      "date": "2026-10-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[devalue] devalue: Custom ArrayBuffer revivers can bypass typed-array allocation validation",
-      "url": "https://github.com/advisories/GHSA-r9w8-h9r3-54w4",
-      "date": "2026-10-17T05:04:12.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[lmcache] LMCache: Remote code execution via unsafe deserialization in multiprocess mode transport",
-      "url": "https://github.com/advisories/GHSA-w5f2-9q9c-ff4h",
-      "date": "2026-10-16T20:09:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[lmcache] Duplicate Advisory: Remote code execution via unsafe deserialization in multiprocess mode transport",
-      "url": "https://github.com/advisories/GHSA-vv44-hjm2-qw2f",
-      "date": "2026-10-16T20:08:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
     }
   ]
 }
