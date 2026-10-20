@@ -1,6 +1,83 @@
 {
-  "fetchedAt": "2026-10-20T11:19:20.830Z",
+  "fetchedAt": "2026-10-20T16:43:55.740Z",
   "entries": [
+    {
+      "title": "[@angular/router] @angular/router: Denial of Service via Unmatched Empty-Path Outlet Route Matching in Server-Side Rendering (SSR)",
+      "url": "https://github.com/advisories/GHSA-62vg-58rm-qff7",
+      "date": "2026-10-20T14:36:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/router] @angular/router: Denial of Service via Unmatched Empty-Path Outlet Route Matching in Server-Side Rendering (SSR)",
+      "url": "https://github.com/advisories/GHSA-62vg-58rm-qff7",
+      "date": "2026-10-20T14:36:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/router] @angular/router: Denial of Service via Unmatched Empty-Path Outlet Route Matching in Server-Side Rendering (SSR)",
+      "url": "https://github.com/advisories/GHSA-62vg-58rm-qff7",
+      "date": "2026-10-20T14:36:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@angular/router] @angular/router: Denial of Service via Unmatched Empty-Path Outlet Route Matching in Server-Side Rendering (SSR)",
+      "url": "https://github.com/advisories/GHSA-62vg-58rm-qff7",
+      "date": "2026-10-20T14:36:40.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[hono] Hono: `serveStatic` decodes the request path a second time, leading to bypass of middleware on static paths",
+      "url": "https://github.com/advisories/GHSA-5r4p-p66f-jhc7",
+      "date": "2026-10-20T14:36:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/platform-server] @angular/platform-server: Open Redirect via Protocol-Relative URLs in Server-Side Rendering (SSR)",
+      "url": "https://github.com/advisories/GHSA-w739-gvwx-grc3",
+      "date": "2026-10-20T14:35:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/platform-server] @angular/platform-server: Open Redirect via Protocol-Relative URLs in Server-Side Rendering (SSR)",
+      "url": "https://github.com/advisories/GHSA-w739-gvwx-grc3",
+      "date": "2026-10-20T14:35:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/platform-server] @angular/platform-server: Open Redirect via Protocol-Relative URLs in Server-Side Rendering (SSR)",
+      "url": "https://github.com/advisories/GHSA-w739-gvwx-grc3",
+      "date": "2026-10-20T14:35:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@angular/platform-server] @angular/platform-server: Open Redirect via Protocol-Relative URLs in Server-Side Rendering (SSR)",
+      "url": "https://github.com/advisories/GHSA-w739-gvwx-grc3",
+      "date": "2026-10-20T14:35:51.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[markdown-it] markdown-it: Quadratic complexity in smartquotes with unmatched closing quotes",
+      "url": "https://github.com/advisories/GHSA-r7fv-28h4-cvq7",
+      "date": "2026-10-20T14:34:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[markdown-it] markdown-it: Quadratic complexity in smartquotes with unmatched closing quotes",
+      "url": "https://github.com/advisories/GHSA-r7fv-28h4-cvq7",
+      "date": "2026-10-20T14:34:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0374: basic-toml is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0374.html",
@@ -56,82 +133,6 @@
       "date": "2026-10-19T19:35:40.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@opentelemetry/sdk-node] Prometheus exporter process crash via malformed HTTP request",
-      "url": "https://github.com/advisories/GHSA-q7rr-3cgh-j5r3",
-      "date": "2026-10-19T19:35:40.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[msgpack5] msgpack5: Truncated map32 headers throw an unexpected error",
-      "url": "https://github.com/advisories/GHSA-8f34-f56x-9xph",
-      "date": "2026-10-19T19:29:00.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[aiohttp] aiohttp server lacks an initial request/header timeout",
-      "url": "https://github.com/advisories/GHSA-5wr8-gcqf-gqf3",
-      "date": "2026-10-19T17:08:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP: Secure attribute not enforced for shared cookie",
-      "url": "https://github.com/advisories/GHSA-494j-54xm-rwp3",
-      "date": "2026-10-19T17:07:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[aiohttp] aiohttp: Multiple instances of excessive or unbounded memory/CPU use",
-      "url": "https://github.com/advisories/GHSA-2g87-pp6c-29x5",
-      "date": "2026-10-19T17:07:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mercury] Mercury: Stored / DOM Cross-Site Scripting (XSS): mr.Markdown renders untrusted content as raw, unsanitized HTML",
-      "url": "https://github.com/advisories/GHSA-2658-85cv-9wwq",
-      "date": "2026-10-19T17:01:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mercury] Mercury: Unauthenticated Remote Code Execution in /api/terminals - access control bypass",
-      "url": "https://github.com/advisories/GHSA-f8c7-rwf9-fmgm",
-      "date": "2026-10-19T17:00:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[graphifyy] Graphify Fortran extractor: incomplete cpp #include hardening allows arbitrary host-file read/exfiltration when indexing an untrusted repo",
-      "url": "https://github.com/advisories/GHSA-pcc4-rvhr-2pr8",
-      "date": "2026-10-19T16:52:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mercury] Mercury: Unauthenticated Remote Code Execution via /api/kernels",
-      "url": "https://github.com/advisories/GHSA-rv4m-xm3f-3ccq",
-      "date": "2026-10-19T16:49:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[loopx] LoopX serve-status permissive CORS policy exposes control-plane state and private Markdown files",
-      "url": "https://github.com/advisories/GHSA-vx2m-gpq4-8j5q",
-      "date": "2026-10-19T16:11:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0373: Vulnerability in ammonia",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0373.html",
-      "date": "2026-10-17T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
