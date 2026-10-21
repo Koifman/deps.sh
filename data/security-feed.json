@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-10-21T04:20:51.865Z",
+  "fetchedAt": "2026-10-21T09:58:20.789Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0381: Vulnerability in webpki-roots",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0381.html",
+      "date": "2026-10-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0383: Vulnerability in webpki-root-certs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0383.html",
+      "date": "2026-10-21T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[Pillow] Pillow: Out-of-bounds access in _imagingmorph on a zero-width image",
       "url": "https://github.com/advisories/GHSA-58r4-6rv3-gfh8",
@@ -126,20 +138,6 @@
       "date": "2026-10-20T20:06:38.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@modelcontextprotocol/sdk] MCP TypeScript SDK: One HTTP request within the default size limit could exhaust server memory during validation",
-      "url": "https://github.com/advisories/GHSA-46jr-4wx8-v453",
-      "date": "2026-10-20T20:06:38.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[aiohttp] AIOHTTP: Absolute-form request targets can spoof Request.scheme",
-      "url": "https://github.com/advisories/GHSA-f9xw-jh8m-3mwq",
-      "date": "2026-10-20T20:01:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
