@@ -1,143 +1,145 @@
 {
-  "fetchedAt": "2026-10-21T15:05:14.054Z",
+  "fetchedAt": "2026-10-21T20:01:09.550Z",
   "entries": [
     {
-      "title": "RUSTSEC-2026-0381: Vulnerability in webpki-roots",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0381.html",
-      "date": "2026-10-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0383: Vulnerability in webpki-root-certs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0383.html",
-      "date": "2026-10-21T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[Pillow] Pillow: Out-of-bounds access in _imagingmorph on a zero-width image",
-      "url": "https://github.com/advisories/GHSA-58r4-6rv3-gfh8",
-      "date": "2026-10-20T20:56:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Pillow] Pillow: GIF seek keeps rejected size after DecompressionBombError, allowing DoS",
-      "url": "https://github.com/advisories/GHSA-65qm-jvmh-6pqg",
-      "date": "2026-10-20T20:53:38.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Pillow] Pillow: EPS load(scale) lets Ghostscript render past the decompression bomb limit",
-      "url": "https://github.com/advisories/GHSA-vx6w-vv9f-6gvg",
-      "date": "2026-10-20T20:53:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Pillow] Pillow: TiffDecode returns uninitialized memory as pixels for short JPEG strips",
-      "url": "https://github.com/advisories/GHSA-q45j-58j2-45rg",
-      "date": "2026-10-20T20:52:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Pillow] Pillow: TIFF encoder ColorMap plane-size mismatch causes a heap out-of-bounds read",
-      "url": "https://github.com/advisories/GHSA-pchr-8j38-3x4p",
-      "date": "2026-10-20T20:51:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pillow] Pillow: Unbounded recursion parsing a PDF page tree or trailer chain (incomplete fix for CVE-2026-42310)",
-      "url": "https://github.com/advisories/GHSA-p4wg-p73j-c528",
-      "date": "2026-10-20T20:50:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pillow] Pillow tiled-TIFF decoder reads past tile buffer in copy4 (Unpack.c:1290)",
-      "url": "https://github.com/advisories/GHSA-462x-pgg6-55fp",
-      "date": "2026-10-20T20:49:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[Pillow] Pillow: OOB read in TiffDecode.c tile and RGBA paths leaks heap memory into pixels",
-      "url": "https://github.com/advisories/GHSA-c6hw-5grf-ff96",
-      "date": "2026-10-20T20:42:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Pillow] Pillow: Heap buffer overflow in ImagingJpegDecode",
-      "url": "https://github.com/advisories/GHSA-8g5g-8vmr-9782",
-      "date": "2026-10-20T20:40:09.000Z",
-      "ecosystem": "pypi",
+      "title": "[@storybook/addon-mcp] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+      "date": "2026-10-21T17:23:30.000Z",
+      "ecosystem": "npm",
       "severity": "CRITICAL"
     },
     {
-      "title": "[@angular/common] @angular/common: XSRF Token Leakage via URL Parsing Discrepancy in Angular HTTP Client (Incomplete fix for CVE-2025-66035)",
-      "url": "https://github.com/advisories/GHSA-jfgx-762w-99vr",
-      "date": "2026-10-20T20:37:58.000Z",
+      "title": "[@storybook/addon-mcp] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+      "date": "2026-10-21T17:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@storybook/addon-vitest] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+      "date": "2026-10-21T17:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@storybook/addon-vitest] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+      "date": "2026-10-21T17:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@storybook/addon-vitest] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+      "date": "2026-10-21T17:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@storybook/experimental-addon-test] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+      "date": "2026-10-21T17:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@storybook/core-server] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+      "date": "2026-10-21T17:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@storybook/core] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+      "date": "2026-10-21T17:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[storybook] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+      "date": "2026-10-21T17:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[storybook] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+      "date": "2026-10-21T17:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[storybook] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+      "date": "2026-10-21T17:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[storybook] Storybook: Missing origin validation in Storybook preview allows code injection from malicious websites",
+      "url": "https://github.com/advisories/GHSA-f2ph-cmg5-wxc8",
+      "date": "2026-10-21T17:23:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[electron] Electron: HID and USB permission checks can be attributed to the wrong origin",
+      "url": "https://github.com/advisories/GHSA-fw47-9c62-h3vw",
+      "date": "2026-10-21T17:21:53.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@angular/common] @angular/common: XSRF Token Leakage via URL Parsing Discrepancy in Angular HTTP Client (Incomplete fix for CVE-2025-66035)",
-      "url": "https://github.com/advisories/GHSA-jfgx-762w-99vr",
-      "date": "2026-10-20T20:37:58.000Z",
+      "title": "[electron] Electron: HID and USB permission checks can be attributed to the wrong origin",
+      "url": "https://github.com/advisories/GHSA-fw47-9c62-h3vw",
+      "date": "2026-10-21T17:21:53.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@angular/common] @angular/common: XSRF Token Leakage via URL Parsing Discrepancy in Angular HTTP Client (Incomplete fix for CVE-2025-66035)",
-      "url": "https://github.com/advisories/GHSA-jfgx-762w-99vr",
-      "date": "2026-10-20T20:37:58.000Z",
+      "title": "[electron] Electron: HID and USB permission checks can be attributed to the wrong origin",
+      "url": "https://github.com/advisories/GHSA-fw47-9c62-h3vw",
+      "date": "2026-10-21T17:21:53.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[markdown-it] markdown-it: Quadratic-time rendering of a single multi-line link reference definition with default options (regression since 14.0)",
-      "url": "https://github.com/advisories/GHSA-gfr2-rv44-r23c",
-      "date": "2026-10-20T20:28:46.000Z",
+      "title": "[electron] Electron: HID and USB permission checks can be attributed to the wrong origin",
+      "url": "https://github.com/advisories/GHSA-fw47-9c62-h3vw",
+      "date": "2026-10-21T17:21:53.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "MODERATE"
     },
     {
-      "title": "[markdown-it] markdown-it: Quadratic-time rendering of a single multi-line link reference definition with default options (regression since 14.0)",
-      "url": "https://github.com/advisories/GHSA-gfr2-rv44-r23c",
-      "date": "2026-10-20T20:28:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[markdown-it] markdown-it: Quadratic-time denial of service in inline HTML parsing with html enabled",
-      "url": "https://github.com/advisories/GHSA-vfgh-jcmw-g37q",
-      "date": "2026-10-20T20:08:20.000Z",
-      "ecosystem": "npm",
+      "title": "[djust] djust: Arbitrary absolute-path file read in the find_handlers_for_template MCP tool",
+      "url": "https://github.com/advisories/GHSA-r57g-mc79-8hj2",
+      "date": "2026-10-21T17:21:16.000Z",
+      "ecosystem": "pypi",
       "severity": "LOW"
     },
     {
-      "title": "[markdown-it] markdown-it: Quadratic-time denial of service in inline HTML parsing with html enabled",
-      "url": "https://github.com/advisories/GHSA-vfgh-jcmw-g37q",
-      "date": "2026-10-20T20:08:20.000Z",
-      "ecosystem": "npm",
+      "title": "[djust] djust: Arbitrary absolute-path file read in the find_handlers_for_template MCP tool",
+      "url": "https://github.com/advisories/GHSA-r57g-mc79-8hj2",
+      "date": "2026-10-21T17:21:16.000Z",
+      "ecosystem": "pypi",
       "severity": "LOW"
     },
     {
-      "title": "[@modelcontextprotocol/server] MCP  TypeScript server SDK: Shared transport or server instances delivered one HTTP client's messages to another",
-      "url": "https://github.com/advisories/GHSA-jm63-cq47-j5jp",
-      "date": "2026-10-20T20:08:02.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[djust] djust: Arbitrary absolute-path file read in the find_handlers_for_template MCP tool",
+      "url": "https://github.com/advisories/GHSA-r57g-mc79-8hj2",
+      "date": "2026-10-21T17:21:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
     },
     {
-      "title": "[@modelcontextprotocol/server] MCP TypeScript SDK: One HTTP request within the default size limit could exhaust server memory during validation",
-      "url": "https://github.com/advisories/GHSA-46jr-4wx8-v453",
-      "date": "2026-10-20T20:06:38.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[djust] djust: Arbitrary absolute-path file read in the find_handlers_for_template MCP tool",
+      "url": "https://github.com/advisories/GHSA-r57g-mc79-8hj2",
+      "date": "2026-10-21T17:21:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
     }
   ]
 }
