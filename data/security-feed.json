@@ -1,6 +1,12 @@
 {
-  "fetchedAt": "2026-10-23T04:24:39.739Z",
+  "fetchedAt": "2026-10-23T09:53:09.435Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0385: Vulnerability in ctutils",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0385.html",
+      "date": "2026-10-23T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[virtualenv] virtualenv: Generated files can follow existing destination links",
       "url": "https://github.com/advisories/GHSA-558c-9hv2-4prj",
@@ -117,13 +123,6 @@
       "title": "[electron] Electron: SameSite cookie restrictions are not applied to windows opened from links",
       "url": "https://github.com/advisories/GHSA-2p8c-gr87-2676",
       "date": "2026-10-22T16:47:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: Pointer lock permission requests can be attributed to the wrong frame",
-      "url": "https://github.com/advisories/GHSA-x562-297c-g43g",
-      "date": "2026-10-22T16:47:18.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
