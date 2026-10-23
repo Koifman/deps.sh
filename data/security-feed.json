@@ -1,6 +1,34 @@
 {
-  "fetchedAt": "2026-10-23T14:51:09.022Z",
+  "fetchedAt": "2026-10-23T19:01:18.888Z",
   "entries": [
+    {
+      "title": "[obsidian-tc] obsidian-tc: Declined human-in-the-loop confirmations can permit destructive calls over HTTP",
+      "url": "https://github.com/advisories/GHSA-737x-cwfr-5vvc",
+      "date": "2026-10-23T17:30:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[obsidian-tc] obsidian-tc tokens can access arbitrary configured vaults",
+      "url": "https://github.com/advisories/GHSA-84c9-qqpq-2pq5",
+      "date": "2026-10-23T17:29:18.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[obsidian-tc] obsidian-tc: Default folder ACL is fail-open; .obsidian plugin secrets are readable by default",
+      "url": "https://github.com/advisories/GHSA-cvp8-vvgf-69q4",
+      "date": "2026-10-23T17:28:42.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[obsidian-tc] obsidian-tc : Symlink read-ACL scope bypass via lexical path checks",
+      "url": "https://github.com/advisories/GHSA-c5xx-h28h-f682",
+      "date": "2026-10-23T17:28:20.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0385: Vulnerability in ctutils",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0385.html",
@@ -108,34 +136,6 @@
       "title": "[electron] Electron: SameSite cookie restrictions are not applied to windows opened from links",
       "url": "https://github.com/advisories/GHSA-2p8c-gr87-2676",
       "date": "2026-10-22T16:47:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: SameSite cookie restrictions are not applied to windows opened from links",
-      "url": "https://github.com/advisories/GHSA-2p8c-gr87-2676",
-      "date": "2026-10-22T16:47:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: SameSite cookie restrictions are not applied to windows opened from links",
-      "url": "https://github.com/advisories/GHSA-2p8c-gr87-2676",
-      "date": "2026-10-22T16:47:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: SameSite cookie restrictions are not applied to windows opened from links",
-      "url": "https://github.com/advisories/GHSA-2p8c-gr87-2676",
-      "date": "2026-10-22T16:47:55.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electron] Electron: Pointer lock permission requests can be attributed to the wrong frame",
-      "url": "https://github.com/advisories/GHSA-x562-297c-g43g",
-      "date": "2026-10-22T16:47:18.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
