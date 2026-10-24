@@ -1,6 +1,24 @@
 {
-  "fetchedAt": "2026-10-24T01:30:29.747Z",
+  "fetchedAt": "2026-10-24T07:07:13.120Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0380: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0380.html",
+      "date": "2026-10-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0379: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0379.html",
+      "date": "2026-10-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0378: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0378.html",
+      "date": "2026-10-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[filelock] filelock: ReadWriteLock on the hard-link route deletes any directory another user renames onto its .filelock-* link directory name",
       "url": "https://github.com/advisories/GHSA-jqc4-5cvw-7w85",
@@ -117,27 +135,6 @@
       "title": "[undici] undici vulnerable to Denial of Service via unbounded memory in the EventSource parser",
       "url": "https://github.com/advisories/GHSA-4qv8-2p9j-2685",
       "date": "2026-10-23T22:13:31.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[undici] undici vulnerable to Denial of Service via unbounded memory in the EventSource parser",
-      "url": "https://github.com/advisories/GHSA-4qv8-2p9j-2685",
-      "date": "2026-10-23T22:13:31.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[undici] undici vulnerable to Subresource Integrity bypass via non-lowercase algorithm tokens",
-      "url": "https://github.com/advisories/GHSA-f72v-6w45-q472",
-      "date": "2026-10-23T22:13:18.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[undici] undici vulnerable to Subresource Integrity bypass via non-lowercase algorithm tokens",
-      "url": "https://github.com/advisories/GHSA-f72v-6w45-q472",
-      "date": "2026-10-23T22:13:18.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     }
