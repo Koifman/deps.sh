@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-10-24T19:25:01.125Z",
+  "scannedAt": "2026-10-24T22:25:32.931Z",
   "count": 132,
   "packages": [
     {
@@ -561,6 +561,15 @@
       "currentOwner": "GitHub Actions"
     },
     {
+      "name": "@inquirer/password",
+      "version": "5.2.4",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "sboudrias",
+      "currentOwner": "GitHub Actions"
+    },
+    {
       "name": "@inquirer/input",
       "version": "5.1.8",
       "ecosystem": "npm",
@@ -572,15 +581,6 @@
     {
       "name": "@inquirer/editor",
       "version": "5.3.5",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
-      "name": "@inquirer/password",
-      "version": "5.2.4",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -1083,15 +1083,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-win32-x64-msvc",
-      "version": "0.155.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-parser/binding-darwin-x64",
       "version": "0.155.0",
       "ecosystem": "npm",
@@ -1101,12 +1092,12 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@astrojs/compiler-binding-linux-x64-musl",
-      "version": "0.5.2",
+      "name": "@oxc-parser/binding-win32-x64-msvc",
+      "version": "0.155.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
-      "previousOwner": "matthewp",
+      "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1117,6 +1108,15 @@
       "level": "LOW",
       "previousOwner": "supercodepoet",
       "currentOwner": "lordofbacon"
+    },
+    {
+      "name": "@astrojs/compiler-binding-linux-x64-musl",
+      "version": "0.5.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "matthewp",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "@oxfmt/binding-linux-arm64-gnu",
