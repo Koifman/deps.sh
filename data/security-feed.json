@@ -1,143 +1,145 @@
 {
-  "fetchedAt": "2026-10-23T23:00:06.492Z",
+  "fetchedAt": "2026-10-24T01:30:29.747Z",
   "entries": [
     {
-      "title": "[Twisted] Twisted: Unauthenticated Remote Denial of Service in the Twisted IRC Server via an Unbounded Line Buffer",
-      "url": "https://github.com/advisories/GHSA-53xc-49m8-p798",
-      "date": "2026-10-23T20:45:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Twisted] Twisted: Unauthenticated Remote Denial of Service in the Twisted conch Telnet Transport via an Unbounded Subnegotiation Buffer",
-      "url": "https://github.com/advisories/GHSA-cwm5-jh59-mwxr",
-      "date": "2026-10-23T20:45:27.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Twisted] Twisted: Unauthenticated Remote Denial of Service in the Twisted words domish XML Element Stream via an Unbounded Element Tree",
-      "url": "https://github.com/advisories/GHSA-3476-c5c2-fr73",
-      "date": "2026-10-23T20:45:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Twisted] Twisted: HTTP Request Smuggling in twisted.web via a Bare CR or LF in a Header Value",
-      "url": "https://github.com/advisories/GHSA-q7qq-6mhp-9rc4",
-      "date": "2026-10-23T20:44:44.000Z",
+      "title": "[filelock] filelock: ReadWriteLock on the hard-link route deletes any directory another user renames onto its .filelock-* link directory name",
+      "url": "https://github.com/advisories/GHSA-jqc4-5cvw-7w85",
+      "date": "2026-10-23T22:28:42.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[vllm] vLLM: Forged multimodal UUID + P0/P1 processor-cache eviction drift: unauthenticated remote crash of the whole vLLM engine",
-      "url": "https://github.com/advisories/GHSA-p92p-rxj5-7p2x",
-      "date": "2026-10-23T20:43:45.000Z",
+      "title": "[filelock] filelock: ReadWriteLock on Windows acts on SQLite side files another local user places beside its database",
+      "url": "https://github.com/advisories/GHSA-9vhv-jxww-xfm5",
+      "date": "2026-10-23T22:28:20.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@sveltejs/kit] SvelteKit : XSS via untrusted cache-control header in prerendered page",
-      "url": "https://github.com/advisories/GHSA-27mw-82g8-phjj",
-      "date": "2026-10-23T20:43:31.000Z",
-      "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[vllm] Duplicate Advisory: vLLM vulnerable to remote denial of service through forged multimodal UUID cache desynchronization",
-      "url": "https://github.com/advisories/GHSA-hfwf-hgvp-4rr8",
-      "date": "2026-10-23T20:43:20.000Z",
+      "title": "[filelock] filelock: On Windows an oplock on a soft lock's marker holds SoftFileLock.acquire() past its timeout and blocks the stale break",
+      "url": "https://github.com/advisories/GHSA-567q-5qvw-pf92",
+      "date": "2026-10-23T22:27:34.000Z",
       "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@sveltejs/kit] Duplicate Advisory: SvelteKit before 3.0.0 XSS via Cache-Control Header in Prerendered Pages",
-      "url": "https://github.com/advisories/GHSA-85pr-xr59-r75h",
-      "date": "2026-10-23T20:43:08.000Z",
-      "ecosystem": "npm",
       "severity": "LOW"
     },
     {
-      "title": "[brotlicffi] Brotli: Out-of-bounds write in the Brotli decoder (\"Node2Shell\") also affects the PyPI Brotli package",
-      "url": "https://github.com/advisories/GHSA-9v8h-qqgm-4m35",
-      "date": "2026-10-23T19:08:11.000Z",
+      "title": "[virtualenv] virtualenv: Temporary app-data can leave dangling seed package links",
+      "url": "https://github.com/advisories/GHSA-4f8h-vr72-p32c",
+      "date": "2026-10-23T22:26:58.000Z",
       "ecosystem": "pypi",
-      "severity": "CRITICAL"
+      "severity": "MODERATE"
     },
     {
-      "title": "[brotli] Brotli: Out-of-bounds write in the Brotli decoder (\"Node2Shell\") also affects the PyPI Brotli package",
-      "url": "https://github.com/advisories/GHSA-9v8h-qqgm-4m35",
-      "date": "2026-10-23T19:08:11.000Z",
+      "title": "[virtualenv] virtualenv: Pip seeding with download omits wheel digest verification",
+      "url": "https://github.com/advisories/GHSA-cx28-75q4-x26q",
+      "date": "2026-10-23T22:26:05.000Z",
       "ecosystem": "pypi",
-      "severity": "CRITICAL"
+      "severity": "LOW"
     },
     {
-      "title": "[obsidian-tc] obsidian-tc: Memory-lifecycle tools overwrite unowned notes or partially commit lifecycle changes",
-      "url": "https://github.com/advisories/GHSA-r3g7-r4hr-m258",
-      "date": "2026-10-23T18:47:40.000Z",
+      "title": "[virtualenv] virtualenv: Downloaded wheel selection and caching precede verification",
+      "url": "https://github.com/advisories/GHSA-494p-63j8-28p3",
+      "date": "2026-10-23T22:25:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[virtualenv] virtualenv: Xonsh activation literals depend on the script decoding codec",
+      "url": "https://github.com/advisories/GHSA-394h-qwmc-48pf",
+      "date": "2026-10-23T22:24:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[virtualenv] virtualenv: Seeded files retain permissions from an older cache",
+      "url": "https://github.com/advisories/GHSA-fc2g-4w5p-6whm",
+      "date": "2026-10-23T22:23:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[virtualenv] virtualenv: Bash prompt values can change meaning under older compatibility modes",
+      "url": "https://github.com/advisories/GHSA-6w3r-xr62-4xcp",
+      "date": "2026-10-23T22:21:58.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[virtualenv] virtualenv: Venv configuration readback can reinterpret path boundaries",
+      "url": "https://github.com/advisories/GHSA-qmx5-4p3x-wvqf",
+      "date": "2026-10-23T22:20:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[virtualenv] virtualenv: Seed replacement does not contain metadata deletion paths",
+      "url": "https://github.com/advisories/GHSA-hhxq-47xx-j5xx",
+      "date": "2026-10-23T22:19:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@azure/msal-node] MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint",
+      "url": "https://github.com/advisories/GHSA-xcx6-jx8p-x3h5",
+      "date": "2026-10-23T22:16:45.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[obsidian-tc] obsidian-tc HTTP transport lacks Origin/DNS-rebinding protection, enabling drive-by vault access on loopback",
-      "url": "https://github.com/advisories/GHSA-pqh8-4pj7-32xx",
-      "date": "2026-10-23T18:29:05.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[obsidian-tc] obsidian-tc Bridge tools leak denied-note data via unfiltered sibling fields",
-      "url": "https://github.com/advisories/GHSA-43r2-c7g8-prc8",
-      "date": "2026-10-23T18:28:14.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[zod] Zod can exhaust memory while validating oversized constrained collections",
-      "url": "https://github.com/advisories/GHSA-mrhx-c7xc-m3w5",
-      "date": "2026-10-23T18:26:52.000Z",
+      "title": "[undici] undici vulnerable to Denial of Service via unhandled error on excessive content-encodings",
+      "url": "https://github.com/advisories/GHSA-xjj6-f33q-929c",
+      "date": "2026-10-23T22:14:32.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[obsidian-tc] obsidian-tc: Declined human-in-the-loop confirmations can permit destructive calls over HTTP",
-      "url": "https://github.com/advisories/GHSA-737x-cwfr-5vvc",
-      "date": "2026-10-23T17:30:11.000Z",
+      "title": "[undici] undici vulnerable to Denial of Service via unhandled error on excessive content-encodings",
+      "url": "https://github.com/advisories/GHSA-xjj6-f33q-929c",
+      "date": "2026-10-23T22:14:32.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[obsidian-tc] obsidian-tc tokens can access arbitrary configured vaults",
-      "url": "https://github.com/advisories/GHSA-84c9-qqpq-2pq5",
-      "date": "2026-10-23T17:29:18.000Z",
+      "title": "[undici] undici vulnerable to Denial of Service via unhandled error on excessive content-encodings",
+      "url": "https://github.com/advisories/GHSA-xjj6-f33q-929c",
+      "date": "2026-10-23T22:14:32.000Z",
       "ecosystem": "npm",
-      "severity": "CRITICAL"
+      "severity": "HIGH"
     },
     {
-      "title": "[obsidian-tc] obsidian-tc: Default folder ACL is fail-open; .obsidian plugin secrets are readable by default",
-      "url": "https://github.com/advisories/GHSA-cvp8-vvgf-69q4",
-      "date": "2026-10-23T17:28:42.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[obsidian-tc] obsidian-tc : Symlink read-ACL scope bypass via lexical path checks",
-      "url": "https://github.com/advisories/GHSA-c5xx-h28h-f682",
-      "date": "2026-10-23T17:28:20.000Z",
+      "title": "[undici] undici vulnerable to Denial of Service via unbounded memory in the EventSource parser",
+      "url": "https://github.com/advisories/GHSA-4qv8-2p9j-2685",
+      "date": "2026-10-23T22:13:31.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0385: Vulnerability in ctutils",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0385.html",
-      "date": "2026-10-23T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[undici] undici vulnerable to Denial of Service via unbounded memory in the EventSource parser",
+      "url": "https://github.com/advisories/GHSA-4qv8-2p9j-2685",
+      "date": "2026-10-23T22:13:31.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0386: Unsoundness in tokio",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0386.html",
-      "date": "2026-10-23T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[undici] undici vulnerable to Denial of Service via unbounded memory in the EventSource parser",
+      "url": "https://github.com/advisories/GHSA-4qv8-2p9j-2685",
+      "date": "2026-10-23T22:13:31.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[undici] undici vulnerable to Subresource Integrity bypass via non-lowercase algorithm tokens",
+      "url": "https://github.com/advisories/GHSA-f72v-6w45-q472",
+      "date": "2026-10-23T22:13:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[undici] undici vulnerable to Subresource Integrity bypass via non-lowercase algorithm tokens",
+      "url": "https://github.com/advisories/GHSA-f72v-6w45-q472",
+      "date": "2026-10-23T22:13:18.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     }
   ]
 }
