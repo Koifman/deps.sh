@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-10-25T05:57:08.365Z",
+  "fetchedAt": "2026-10-25T11:13:06.836Z",
   "entries": [
+    {
+      "title": "[langgraph-checkpoint-sqlite] LangGraph: Namespace labels containing `.` reach other namespaces in Postgres and SQLite stores",
+      "url": "https://github.com/advisories/GHSA-6hmw-9432-67qq",
+      "date": "2026-10-25T06:53:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[langgraph-checkpoint-postgres] LangGraph: Namespace labels containing `.` reach other namespaces in Postgres and SQLite stores",
+      "url": "https://github.com/advisories/GHSA-6hmw-9432-67qq",
+      "date": "2026-10-25T06:53:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0384: Vulnerability in tokio",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0384.html",
@@ -122,20 +136,6 @@
       "date": "2026-10-23T22:14:32.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[undici] undici vulnerable to Denial of Service via unhandled error on excessive content-encodings",
-      "url": "https://github.com/advisories/GHSA-xjj6-f33q-929c",
-      "date": "2026-10-23T22:14:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[undici] undici vulnerable to Denial of Service via unbounded memory in the EventSource parser",
-      "url": "https://github.com/advisories/GHSA-4qv8-2p9j-2685",
-      "date": "2026-10-23T22:13:31.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
