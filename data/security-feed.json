@@ -1,6 +1,24 @@
 {
-  "fetchedAt": "2026-10-26T05:55:52.098Z",
+  "fetchedAt": "2026-10-26T12:45:22.678Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0389: Vulnerability in pingora-core",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0389.html",
+      "date": "2026-10-26T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0388: Vulnerability in pingora-core",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0388.html",
+      "date": "2026-10-26T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0390: Vulnerability in pingora-proxy",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0390.html",
+      "date": "2026-10-26T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[langgraph-checkpoint-sqlite] LangGraph: Namespace labels containing `.` reach other namespaces in Postgres and SQLite stores",
       "url": "https://github.com/advisories/GHSA-6hmw-9432-67qq",
@@ -115,27 +133,6 @@
       "date": "2026-10-23T22:19:16.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[@azure/msal-node] MSAL Node authorization code flow may disclose parameters to an attacker-controlled endpoint",
-      "url": "https://github.com/advisories/GHSA-xcx6-jx8p-x3h5",
-      "date": "2026-10-23T22:16:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[undici] undici vulnerable to Denial of Service via unhandled error on excessive content-encodings",
-      "url": "https://github.com/advisories/GHSA-xjj6-f33q-929c",
-      "date": "2026-10-23T22:14:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[undici] undici vulnerable to Denial of Service via unhandled error on excessive content-encodings",
-      "url": "https://github.com/advisories/GHSA-xjj6-f33q-929c",
-      "date": "2026-10-23T22:14:32.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
