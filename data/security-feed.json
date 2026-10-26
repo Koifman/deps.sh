@@ -1,6 +1,87 @@
 {
-  "fetchedAt": "2026-10-26T12:45:22.678Z",
+  "fetchedAt": "2026-10-26T19:07:18.560Z",
   "entries": [
+    {
+      "title": "[certifi] certifi bundles emSign root CAs with compromised intermediate CA keys",
+      "url": "https://github.com/advisories/GHSA-6q48-6c7w-9gw2",
+      "date": "2026-10-26T16:02:13.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[pyload-ng] pyload-ng has a WebUI JSON permission mismatch that lets ADD/DELETE users invoke MODIFY-only actions",
+      "url": "https://github.com/advisories/GHSA-rfgh-63mg-8pwm",
+      "date": "2026-10-26T15:57:11.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI has vulnerable dependency on starlette via fastapi",
+      "url": "https://github.com/advisories/GHSA-w466-2wfc-8g58",
+      "date": "2026-10-26T15:12:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI Stored Cross-Site Scripting Vulnerability",
+      "url": "https://github.com/advisories/GHSA-5jp3-wp5v-5363",
+      "date": "2026-10-26T15:10:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] open-webui Insecure Direct Object Reference (IDOR) vulnerability",
+      "url": "https://github.com/advisories/GHSA-xcvc-5hgv-phqg",
+      "date": "2026-10-26T15:08:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
+      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
+      "date": "2026-10-26T14:47:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
+      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
+      "date": "2026-10-26T14:47:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[postcss-selector-parser] PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
+      "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+      "date": "2026-10-26T14:07:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[postcss-selector-parser] PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
+      "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+      "date": "2026-10-26T14:07:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "RUSTSEC-2026-0393: Unsoundness in zstd",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0393.html",
+      "date": "2026-10-26T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0392: Vulnerability in zstd",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0392.html",
+      "date": "2026-10-26T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0391: Vulnerability in zstd",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0391.html",
+      "date": "2026-10-26T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0389: Vulnerability in pingora-core",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0389.html",
@@ -14,125 +95,40 @@
       "ecosystem": "cargo"
     },
     {
-      "title": "RUSTSEC-2026-0390: Vulnerability in pingora-proxy",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0390.html",
+      "title": "RUSTSEC-2026-0394: Vulnerability in rustpython-vm",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0394.html",
       "date": "2026-10-26T12:00:00+00:00",
       "ecosystem": "cargo"
     },
     {
-      "title": "[langgraph-checkpoint-sqlite] LangGraph: Namespace labels containing `.` reach other namespaces in Postgres and SQLite stores",
-      "url": "https://github.com/advisories/GHSA-6hmw-9432-67qq",
-      "date": "2026-10-25T06:53:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[langgraph-checkpoint-postgres] LangGraph: Namespace labels containing `.` reach other namespaces in Postgres and SQLite stores",
-      "url": "https://github.com/advisories/GHSA-6hmw-9432-67qq",
-      "date": "2026-10-25T06:53:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0384: Vulnerability in tokio",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0384.html",
-      "date": "2026-10-24T12:00:00+00:00",
+      "title": "RUSTSEC-2026-0395: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0395.html",
+      "date": "2026-10-26T12:00:00+00:00",
       "ecosystem": "cargo"
     },
     {
-      "title": "RUSTSEC-2026-0380: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0380.html",
-      "date": "2026-10-24T12:00:00+00:00",
+      "title": "RUSTSEC-2026-0397: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0397.html",
+      "date": "2026-10-26T12:00:00+00:00",
       "ecosystem": "cargo"
     },
     {
-      "title": "RUSTSEC-2026-0379: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0379.html",
-      "date": "2026-10-24T12:00:00+00:00",
+      "title": "RUSTSEC-2026-0405: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0405.html",
+      "date": "2026-10-26T12:00:00+00:00",
       "ecosystem": "cargo"
     },
     {
-      "title": "RUSTSEC-2026-0378: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0378.html",
-      "date": "2026-10-24T12:00:00+00:00",
+      "title": "RUSTSEC-2026-0404: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0404.html",
+      "date": "2026-10-26T12:00:00+00:00",
       "ecosystem": "cargo"
     },
     {
-      "title": "[filelock] filelock: ReadWriteLock on the hard-link route deletes any directory another user renames onto its .filelock-* link directory name",
-      "url": "https://github.com/advisories/GHSA-jqc4-5cvw-7w85",
-      "date": "2026-10-23T22:28:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[filelock] filelock: ReadWriteLock on Windows acts on SQLite side files another local user places beside its database",
-      "url": "https://github.com/advisories/GHSA-9vhv-jxww-xfm5",
-      "date": "2026-10-23T22:28:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[filelock] filelock: On Windows an oplock on a soft lock's marker holds SoftFileLock.acquire() past its timeout and blocks the stale break",
-      "url": "https://github.com/advisories/GHSA-567q-5qvw-pf92",
-      "date": "2026-10-23T22:27:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[virtualenv] virtualenv: Temporary app-data can leave dangling seed package links",
-      "url": "https://github.com/advisories/GHSA-4f8h-vr72-p32c",
-      "date": "2026-10-23T22:26:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[virtualenv] virtualenv: Pip seeding with download omits wheel digest verification",
-      "url": "https://github.com/advisories/GHSA-cx28-75q4-x26q",
-      "date": "2026-10-23T22:26:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[virtualenv] virtualenv: Downloaded wheel selection and caching precede verification",
-      "url": "https://github.com/advisories/GHSA-494p-63j8-28p3",
-      "date": "2026-10-23T22:25:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[virtualenv] virtualenv: Xonsh activation literals depend on the script decoding codec",
-      "url": "https://github.com/advisories/GHSA-394h-qwmc-48pf",
-      "date": "2026-10-23T22:24:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[virtualenv] virtualenv: Seeded files retain permissions from an older cache",
-      "url": "https://github.com/advisories/GHSA-fc2g-4w5p-6whm",
-      "date": "2026-10-23T22:23:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[virtualenv] virtualenv: Bash prompt values can change meaning under older compatibility modes",
-      "url": "https://github.com/advisories/GHSA-6w3r-xr62-4xcp",
-      "date": "2026-10-23T22:21:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[virtualenv] virtualenv: Venv configuration readback can reinterpret path boundaries",
-      "url": "https://github.com/advisories/GHSA-qmx5-4p3x-wvqf",
-      "date": "2026-10-23T22:20:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[virtualenv] virtualenv: Seed replacement does not contain metadata deletion paths",
-      "url": "https://github.com/advisories/GHSA-hhxq-47xx-j5xx",
-      "date": "2026-10-23T22:19:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "title": "RUSTSEC-2026-0398: Vulnerability in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0398.html",
+      "date": "2026-10-26T12:00:00+00:00",
+      "ecosystem": "cargo"
     }
   ]
 }
