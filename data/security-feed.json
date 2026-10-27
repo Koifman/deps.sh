@@ -1,134 +1,145 @@
 {
-  "fetchedAt": "2026-10-27T16:21:14.374Z",
+  "fetchedAt": "2026-10-27T21:10:39.468Z",
   "entries": [
     {
-      "title": "RUSTSEC-2026-0413: Vulnerability in rustls-ffi",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0413.html",
-      "date": "2026-10-27T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0412: Vulnerability in cargo-nextest",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0412.html",
-      "date": "2026-10-27T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[certifi] certifi bundles emSign root CAs with compromised intermediate CA keys",
-      "url": "https://github.com/advisories/GHSA-6q48-6c7w-9gw2",
-      "date": "2026-10-26T16:02:13.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[pyload-ng] pyload-ng has a WebUI JSON permission mismatch that lets ADD/DELETE users invoke MODIFY-only actions",
-      "url": "https://github.com/advisories/GHSA-rfgh-63mg-8pwm",
-      "date": "2026-10-26T15:57:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[open-webui] Open WebUI has vulnerable dependency on starlette via fastapi",
-      "url": "https://github.com/advisories/GHSA-w466-2wfc-8g58",
-      "date": "2026-10-26T15:12:32.000Z",
+      "title": "[hydra-core] Hydra legacy target blacklist permits unsafe PyYAML loading",
+      "url": "https://github.com/advisories/GHSA-wf6j-7hvr-gr93",
+      "date": "2026-10-27T17:08:42.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[open-webui] Open WebUI Stored Cross-Site Scripting Vulnerability",
-      "url": "https://github.com/advisories/GHSA-5jp3-wp5v-5363",
-      "date": "2026-10-26T15:10:15.000Z",
+      "title": "[hydra-core] Hydra legacy target blacklist permits unsafe PyYAML loading",
+      "url": "https://github.com/advisories/GHSA-wf6j-7hvr-gr93",
+      "date": "2026-10-27T17:08:42.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "HIGH"
     },
     {
-      "title": "[open-webui] open-webui Insecure Direct Object Reference (IDOR) vulnerability",
-      "url": "https://github.com/advisories/GHSA-xcvc-5hgv-phqg",
-      "date": "2026-10-26T15:08:56.000Z",
+      "title": "[ckan] Ckan remote code execution and private information access via crafted resource ids",
+      "url": "https://github.com/advisories/GHSA-446m-hmmm-hm8m",
+      "date": "2026-10-27T16:25:45.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
-      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
-      "date": "2026-10-26T14:47:42.000Z",
+      "title": "[deepdiff] DeepDiff Class Pollution in Delta class leading to DoS, Remote Code Execution, and more",
+      "url": "https://github.com/advisories/GHSA-mw26-5g2v-hqw3",
+      "date": "2026-10-27T16:23:00.000Z",
       "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "severity": "CRITICAL"
     },
     {
-      "title": "[wagtail] Wagtail: Improper restriction handling on Page translation API endpoint",
-      "url": "https://github.com/advisories/GHSA-jm5p-837g-rv8g",
-      "date": "2026-10-26T14:47:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[postcss-selector-parser] PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
-      "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
-      "date": "2026-10-26T14:07:57.000Z",
+      "title": "[qs] qs : qs.stringify with arrayFormat 'comma' throws an uncaught TypeError on array elements carrying a non-callable own toString (DoS)",
+      "url": "https://github.com/advisories/GHSA-6pq8-jhm2-2vcw",
+      "date": "2026-10-27T16:10:58.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[postcss-selector-parser] PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
-      "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
-      "date": "2026-10-26T14:07:57.000Z",
+      "title": "[hbs] hbs: Insertion of Sensitive Information into Externally-Accessible File or Directory and Exposure of Sensitive Information to an Unauthorized Actor",
+      "url": "https://github.com/advisories/GHSA-7f5c-rpf4-86p8",
+      "date": "2026-10-27T16:09:59.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0393: Unsoundness in zstd",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0393.html",
-      "date": "2026-10-26T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[undici] undici WebSocket client vulnerable to Denial of Service via failed HTTP/2 handshake",
+      "url": "https://github.com/advisories/GHSA-qq8j-7v2v-3rwp",
+      "date": "2026-10-27T16:09:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0392: Vulnerability in zstd",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0392.html",
-      "date": "2026-10-26T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[git-diff] git-diff: OS command injection vulnerability via crafted strings to the gitDiff API",
+      "url": "https://github.com/advisories/GHSA-6wfj-92cw-88vg",
+      "date": "2026-10-27T16:09:36.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
     },
     {
-      "title": "RUSTSEC-2026-0391: Vulnerability in zstd",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0391.html",
-      "date": "2026-10-26T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[Authlib] Authlib accepts an empty HMAC key, allowing JWS/JWT signature forgery (HS256/HS384/HS512)",
+      "url": "https://github.com/advisories/GHSA-8m4g-j4wp-wgcg",
+      "date": "2026-10-27T16:09:23.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0389: Vulnerability in pingora-core",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0389.html",
-      "date": "2026-10-26T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[authlib] Authlib: Unvalidated request_uri fetch in JWT-secured authorization request (JAR) leading to SSRF",
+      "url": "https://github.com/advisories/GHSA-x4rv-c3wx-4cr8",
+      "date": "2026-10-27T15:39:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0388: Vulnerability in pingora-core",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0388.html",
-      "date": "2026-10-26T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[authlib] Authlib: ID token can disable its own nonce validation via the nonce_supported claim",
+      "url": "https://github.com/advisories/GHSA-c5mf-xmp2-59rc",
+      "date": "2026-10-27T15:39:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0394: Vulnerability in rustpython-vm",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0394.html",
-      "date": "2026-10-26T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[authlib] Authlib: Default JWT bearer grant accepts assertions for the wrong audience",
+      "url": "https://github.com/advisories/GHSA-fch4-3c6x-j4gc",
+      "date": "2026-10-27T15:39:10.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0395: Unsoundness in zstd-safe",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0395.html",
-      "date": "2026-10-26T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[authlib] Authlib: OpenID implicit grant checks raw scope instead of allowed scope before issuing ID tokens",
+      "url": "https://github.com/advisories/GHSA-q686-2qmg-hqc7",
+      "date": "2026-10-27T15:38:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0397: Unsoundness in zstd-safe",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0397.html",
-      "date": "2026-10-26T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[authlib] Authlib incomplete algorithm-confusion fix permits HMAC forgery with prefixed public keys",
+      "url": "https://github.com/advisories/GHSA-7vr2-2fgp-9w7p",
+      "date": "2026-10-27T15:38:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0405: Unsoundness in zstd-safe",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0405.html",
-      "date": "2026-10-26T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[authlib] Authlib: is_secure_transport() loopback exemption can be bypassed with a userinfo component, allowing cleartext-HTTP URLs to non-loopback hosts",
+      "url": "https://github.com/advisories/GHSA-jj7h-c3hg-m23x",
+      "date": "2026-10-27T15:37:50.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[dnspython] dnspython dns.name.from_wire_parser() excessive CPU use",
+      "url": "https://github.com/advisories/GHSA-45c3-73f7-pv4m",
+      "date": "2026-10-27T15:37:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ddtrace] Datadog dd-trace-py: ReDoS in URL query string obfuscation",
+      "url": "https://github.com/advisories/GHSA-3633-r77q-h3v3",
+      "date": "2026-10-27T15:37:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ddtrace] Datadog dd-trace-py: ReDoS in URL query string obfuscation",
+      "url": "https://github.com/advisories/GHSA-3633-r77q-h3v3",
+      "date": "2026-10-27T15:37:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ddtrace] Datadog dd-trace-py: IAST instrumentation can lead to application DOS",
+      "url": "https://github.com/advisories/GHSA-p3m5-h5v9-vqj6",
+      "date": "2026-10-27T15:37:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pymongo] MongoDB Python Driver: Out-of-bounds read in BSON decoding via a malformed Regex element",
+      "url": "https://github.com/advisories/GHSA-98qm-wvgf-w4cf",
+      "date": "2026-10-27T15:36:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     }
   ]
 }
