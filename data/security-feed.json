@@ -1,144 +1,145 @@
 {
-  "fetchedAt": "2026-10-28T15:52:38.364Z",
+  "fetchedAt": "2026-10-28T20:55:08.704Z",
   "entries": [
     {
-      "title": "RUSTSEC-2026-0414: Vulnerability in pulldown-cmark",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0414.html",
-      "date": "2026-10-28T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[deepmerge] deepmerge mergeObject() allows prototype poisoning of returned objects",
-      "url": "https://github.com/advisories/GHSA-gcqx-w48m-w2h4",
-      "date": "2026-10-27T21:34:58.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[mlflow] MLflow vulnerable to arbitrary file read on unauthenticated servers via prompt model version source",
-      "url": "https://github.com/advisories/GHSA-m65p-9j7q-6w33",
-      "date": "2026-10-27T21:26:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mlflow] MLflow CrewAI autologging records LLM provider API keys in logged trace spans",
-      "url": "https://github.com/advisories/GHSA-j7qq-vr8c-xvw3",
-      "date": "2026-10-27T21:26:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mlflow] MLflow vulnerable to remote code execution on unauthenticated servers via third-party scorer deserialization importing caller-placed artifact modules",
-      "url": "https://github.com/advisories/GHSA-26p8-2jq9-3vq9",
-      "date": "2026-10-27T21:26:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[dd-trace] dd-trace: ReDOS in URL query string obfuscation",
-      "url": "https://github.com/advisories/GHSA-x94g-w73q-hpcw",
-      "date": "2026-10-27T21:07:27.000Z",
+      "title": "[@highcharts/grid-pro] Highcharts Grid: `javascript:` URL in credits.href runs script on click",
+      "url": "https://github.com/advisories/GHSA-6hgp-fmhr-mrg4",
+      "date": "2026-10-28T19:57:51.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[dd-trace] dd-trace: ReDOS in URL query string obfuscation",
-      "url": "https://github.com/advisories/GHSA-x94g-w73q-hpcw",
-      "date": "2026-10-27T21:07:27.000Z",
+      "title": "[@highcharts/dashboards] Highcharts Grid: `javascript:` URL in credits.href runs script on click",
+      "url": "https://github.com/advisories/GHSA-6hgp-fmhr-mrg4",
+      "date": "2026-10-28T19:57:51.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` serialization",
-      "url": "https://github.com/advisories/GHSA-mf2p-h6hf-fcwm",
-      "date": "2026-10-27T21:07:13.000Z",
+      "title": "[@highcharts/grid-pro] Highcharts Grid parses pagination language options as HTML",
+      "url": "https://github.com/advisories/GHSA-r5wg-q8fc-p6w2",
+      "date": "2026-10-28T19:57:36.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` serialization",
-      "url": "https://github.com/advisories/GHSA-mf2p-h6hf-fcwm",
-      "date": "2026-10-27T21:07:13.000Z",
+      "title": "[@highcharts/grid-lite] Highcharts Grid parses pagination language options as HTML",
+      "url": "https://github.com/advisories/GHSA-r5wg-q8fc-p6w2",
+      "date": "2026-10-28T19:57:36.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[mcp] Model Context Protocol Python SDK: Server bearer-token authentication accepts tokens issued for a different resource server",
-      "url": "https://github.com/advisories/GHSA-w4fh-qvv9-3v23",
-      "date": "2026-10-27T21:07:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp] Model Context Protocol Python SDK: Server bearer-token authentication accepts tokens issued for a different resource server",
-      "url": "https://github.com/advisories/GHSA-w4fh-qvv9-3v23",
-      "date": "2026-10-27T21:07:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[opentelemetry-propagator-jaeger] OpenTelemetry Python: Unbounded memory allocation in Jaeger baggage propagation",
-      "url": "https://github.com/advisories/GHSA-f5m9-jfrj-jjj7",
-      "date": "2026-10-27T21:06:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp] Model Context Protocol Python SDK: HTTP client transports followed cross-origin redirects carrying custom headers and bodies",
-      "url": "https://github.com/advisories/GHSA-5h93-6whr-6q8j",
-      "date": "2026-10-27T21:05:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp] Model Context Protocol Python SDK: HTTP client transports followed cross-origin redirects carrying custom headers and bodies",
-      "url": "https://github.com/advisories/GHSA-5h93-6whr-6q8j",
-      "date": "2026-10-27T21:05:36.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp] Model Context Protocol Python SDK: Client fetched server-chosen $ref URLs while validating tool results against output schemas",
-      "url": "https://github.com/advisories/GHSA-rwrf-2pqf-9j8j",
-      "date": "2026-10-27T21:05:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mcp] Model Context Protocol Python SDK: Client fetched server-chosen $ref URLs while validating tool results against output schemas",
-      "url": "https://github.com/advisories/GHSA-rwrf-2pqf-9j8j",
-      "date": "2026-10-27T21:05:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@ckeditor/ckeditor5-engine] CKEditor: Cross-site scripting (XSS) in the engine package",
-      "url": "https://github.com/advisories/GHSA-v6mg-96c6-gmpq",
-      "date": "2026-10-27T21:05:13.000Z",
+      "title": "[@highcharts/dashboards] Highcharts Dashboards parses fullscreen labels as HTML",
+      "url": "https://github.com/advisories/GHSA-58g7-7f52-h92c",
+      "date": "2026-10-28T19:57:21.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "HIGH"
     },
     {
-      "title": "[ckeditor5] CKEditor: Cross-site scripting (XSS) in the engine package",
-      "url": "https://github.com/advisories/GHSA-v6mg-96c6-gmpq",
-      "date": "2026-10-27T21:05:13.000Z",
+      "title": "[@highcharts/dashboards] Highcharts Dashboards parses sidebar component labels as HTML",
+      "url": "https://github.com/advisories/GHSA-rcqf-f6h2-ccg9",
+      "date": "2026-10-28T19:56:57.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "HIGH"
     },
     {
-      "title": "[@ckeditor/ckeditor5-engine] CKEditor: Cross-site scripting (XSS) in the engine package",
-      "url": "https://github.com/advisories/GHSA-v6mg-96c6-gmpq",
-      "date": "2026-10-27T21:05:13.000Z",
+      "title": "[highcharts] Highcharts: `javascript:` URL in credits.href runs script on click",
+      "url": "https://github.com/advisories/GHSA-5793-x2q3-c3q7",
+      "date": "2026-10-28T19:56:37.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "HIGH"
     },
     {
-      "title": "[ckeditor5] CKEditor: Cross-site scripting (XSS) in the engine package",
-      "url": "https://github.com/advisories/GHSA-v6mg-96c6-gmpq",
-      "date": "2026-10-27T21:05:13.000Z",
+      "title": "[highcharts] Highcharts: `javascript:` URL in credits.href runs script on click",
+      "url": "https://github.com/advisories/GHSA-5793-x2q3-c3q7",
+      "date": "2026-10-28T19:56:37.000Z",
       "ecosystem": "npm",
-      "severity": "LOW"
+      "severity": "HIGH"
+    },
+    {
+      "title": "[highcharts] Highcharts: `javascript:` URL in credits.href runs script on click",
+      "url": "https://github.com/advisories/GHSA-5793-x2q3-c3q7",
+      "date": "2026-10-28T19:56:37.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[highcharts] Highcharts: dotted series.keys paths write to Object.prototype",
+      "url": "https://github.com/advisories/GHSA-rmqc-xvr3-v46c",
+      "date": "2026-10-28T19:56:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[highcharts] Highcharts: dotted series.keys paths write to Object.prototype",
+      "url": "https://github.com/advisories/GHSA-rmqc-xvr3-v46c",
+      "date": "2026-10-28T19:56:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[highcharts] Highcharts: dotted series.keys paths write to Object.prototype",
+      "url": "https://github.com/advisories/GHSA-rmqc-xvr3-v46c",
+      "date": "2026-10-28T19:56:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[highcharts] Highcharts: series column construction writes to Object.prototype",
+      "url": "https://github.com/advisories/GHSA-gfvx-2c2g-38wq",
+      "date": "2026-10-28T19:56:15.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[highcharts] Highcharts Core: `breadcrumbs.style` keys become SVG event-handler attributes",
+      "url": "https://github.com/advisories/GHSA-35rr-xwfh-x789",
+      "date": "2026-10-28T19:56:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[highcharts] Highcharts Core: `breadcrumbs.style` keys become SVG event-handler attributes",
+      "url": "https://github.com/advisories/GHSA-35rr-xwfh-x789",
+      "date": "2026-10-28T19:56:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[highcharts] Highcharts Core: `breadcrumbs.style` keys become SVG event-handler attributes",
+      "url": "https://github.com/advisories/GHSA-35rr-xwfh-x789",
+      "date": "2026-10-28T19:56:11.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@highcharts/dashboards] Highcharts Grid Pro: cell-renderer `attributes` map written with raw `setAttribute`",
+      "url": "https://github.com/advisories/GHSA-5ghw-9mgr-jvx2",
+      "date": "2026-10-28T19:56:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@highcharts/grid-pro] Highcharts Grid Pro: cell-renderer `attributes` map written with raw `setAttribute`",
+      "url": "https://github.com/advisories/GHSA-5ghw-9mgr-jvx2",
+      "date": "2026-10-28T19:56:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@highcharts/grid-pro] Highcharts Grid: custom icon definition objects written with raw `setAttribute` on `<path>`",
+      "url": "https://github.com/advisories/GHSA-6g3c-p4fg-xv47",
+      "date": "2026-10-28T19:55:46.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@highcharts/grid-lite] Highcharts Grid: custom icon definition objects written with raw `setAttribute` on `<path>`",
+      "url": "https://github.com/advisories/GHSA-6g3c-p4fg-xv47",
+      "date": "2026-10-28T19:55:46.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
