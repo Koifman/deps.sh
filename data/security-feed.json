@@ -1,144 +1,144 @@
 {
-  "fetchedAt": "2026-10-27T21:10:39.468Z",
+  "fetchedAt": "2026-10-28T01:05:54.600Z",
   "entries": [
     {
-      "title": "[hydra-core] Hydra legacy target blacklist permits unsafe PyYAML loading",
-      "url": "https://github.com/advisories/GHSA-wf6j-7hvr-gr93",
-      "date": "2026-10-27T17:08:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[hydra-core] Hydra legacy target blacklist permits unsafe PyYAML loading",
-      "url": "https://github.com/advisories/GHSA-wf6j-7hvr-gr93",
-      "date": "2026-10-27T17:08:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ckan] Ckan remote code execution and private information access via crafted resource ids",
-      "url": "https://github.com/advisories/GHSA-446m-hmmm-hm8m",
-      "date": "2026-10-27T16:25:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[deepdiff] DeepDiff Class Pollution in Delta class leading to DoS, Remote Code Execution, and more",
-      "url": "https://github.com/advisories/GHSA-mw26-5g2v-hqw3",
-      "date": "2026-10-27T16:23:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[qs] qs : qs.stringify with arrayFormat 'comma' throws an uncaught TypeError on array elements carrying a non-callable own toString (DoS)",
-      "url": "https://github.com/advisories/GHSA-6pq8-jhm2-2vcw",
-      "date": "2026-10-27T16:10:58.000Z",
+      "title": "[deepmerge] deepmerge mergeObject() allows prototype poisoning of returned objects",
+      "url": "https://github.com/advisories/GHSA-gcqx-w48m-w2h4",
+      "date": "2026-10-27T21:34:58.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[hbs] hbs: Insertion of Sensitive Information into Externally-Accessible File or Directory and Exposure of Sensitive Information to an Unauthorized Actor",
-      "url": "https://github.com/advisories/GHSA-7f5c-rpf4-86p8",
-      "date": "2026-10-27T16:09:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[undici] undici WebSocket client vulnerable to Denial of Service via failed HTTP/2 handshake",
-      "url": "https://github.com/advisories/GHSA-qq8j-7v2v-3rwp",
-      "date": "2026-10-27T16:09:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[git-diff] git-diff: OS command injection vulnerability via crafted strings to the gitDiff API",
-      "url": "https://github.com/advisories/GHSA-6wfj-92cw-88vg",
-      "date": "2026-10-27T16:09:36.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[Authlib] Authlib accepts an empty HMAC key, allowing JWS/JWT signature forgery (HS256/HS384/HS512)",
-      "url": "https://github.com/advisories/GHSA-8m4g-j4wp-wgcg",
-      "date": "2026-10-27T16:09:23.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[authlib] Authlib: Unvalidated request_uri fetch in JWT-secured authorization request (JAR) leading to SSRF",
-      "url": "https://github.com/advisories/GHSA-x4rv-c3wx-4cr8",
-      "date": "2026-10-27T15:39:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[authlib] Authlib: ID token can disable its own nonce validation via the nonce_supported claim",
-      "url": "https://github.com/advisories/GHSA-c5mf-xmp2-59rc",
-      "date": "2026-10-27T15:39:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[authlib] Authlib: Default JWT bearer grant accepts assertions for the wrong audience",
-      "url": "https://github.com/advisories/GHSA-fch4-3c6x-j4gc",
-      "date": "2026-10-27T15:39:10.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[authlib] Authlib: OpenID implicit grant checks raw scope instead of allowed scope before issuing ID tokens",
-      "url": "https://github.com/advisories/GHSA-q686-2qmg-hqc7",
-      "date": "2026-10-27T15:38:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[authlib] Authlib incomplete algorithm-confusion fix permits HMAC forgery with prefixed public keys",
-      "url": "https://github.com/advisories/GHSA-7vr2-2fgp-9w7p",
-      "date": "2026-10-27T15:38:50.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[authlib] Authlib: is_secure_transport() loopback exemption can be bypassed with a userinfo component, allowing cleartext-HTTP URLs to non-loopback hosts",
-      "url": "https://github.com/advisories/GHSA-jj7h-c3hg-m23x",
-      "date": "2026-10-27T15:37:50.000Z",
-      "ecosystem": "pypi",
       "severity": "LOW"
     },
     {
-      "title": "[dnspython] dnspython dns.name.from_wire_parser() excessive CPU use",
-      "url": "https://github.com/advisories/GHSA-45c3-73f7-pv4m",
-      "date": "2026-10-27T15:37:39.000Z",
+      "title": "[mlflow] MLflow vulnerable to arbitrary file read on unauthenticated servers via prompt model version source",
+      "url": "https://github.com/advisories/GHSA-m65p-9j7q-6w33",
+      "date": "2026-10-27T21:26:56.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[ddtrace] Datadog dd-trace-py: ReDoS in URL query string obfuscation",
-      "url": "https://github.com/advisories/GHSA-3633-r77q-h3v3",
-      "date": "2026-10-27T15:37:32.000Z",
+      "title": "[mlflow] MLflow CrewAI autologging records LLM provider API keys in logged trace spans",
+      "url": "https://github.com/advisories/GHSA-j7qq-vr8c-xvw3",
+      "date": "2026-10-27T21:26:40.000Z",
       "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mlflow] MLflow vulnerable to remote code execution on unauthenticated servers via third-party scorer deserialization importing caller-placed artifact modules",
+      "url": "https://github.com/advisories/GHSA-26p8-2jq9-3vq9",
+      "date": "2026-10-27T21:26:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[dd-trace] dd-trace: ReDOS in URL query string obfuscation",
+      "url": "https://github.com/advisories/GHSA-x94g-w73q-hpcw",
+      "date": "2026-10-27T21:07:27.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[ddtrace] Datadog dd-trace-py: ReDoS in URL query string obfuscation",
-      "url": "https://github.com/advisories/GHSA-3633-r77q-h3v3",
-      "date": "2026-10-27T15:37:32.000Z",
-      "ecosystem": "pypi",
+      "title": "[dd-trace] dd-trace: ReDOS in URL query string obfuscation",
+      "url": "https://github.com/advisories/GHSA-x94g-w73q-hpcw",
+      "date": "2026-10-27T21:07:27.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[ddtrace] Datadog dd-trace-py: IAST instrumentation can lead to application DOS",
-      "url": "https://github.com/advisories/GHSA-p3m5-h5v9-vqj6",
-      "date": "2026-10-27T15:37:26.000Z",
-      "ecosystem": "pypi",
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` serialization",
+      "url": "https://github.com/advisories/GHSA-mf2p-h6hf-fcwm",
+      "date": "2026-10-27T21:07:13.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[pymongo] MongoDB Python Driver: Out-of-bounds read in BSON decoding via a malformed Regex element",
-      "url": "https://github.com/advisories/GHSA-98qm-wvgf-w4cf",
-      "date": "2026-10-27T15:36:37.000Z",
+      "title": "[tinymce] TinyMCE Cross-Site Scripting (XSS) vulnerability using media plugin `data-mce-object` serialization",
+      "url": "https://github.com/advisories/GHSA-mf2p-h6hf-fcwm",
+      "date": "2026-10-27T21:07:13.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mcp] Model Context Protocol Python SDK: Server bearer-token authentication accepts tokens issued for a different resource server",
+      "url": "https://github.com/advisories/GHSA-w4fh-qvv9-3v23",
+      "date": "2026-10-27T21:07:01.000Z",
       "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp] Model Context Protocol Python SDK: Server bearer-token authentication accepts tokens issued for a different resource server",
+      "url": "https://github.com/advisories/GHSA-w4fh-qvv9-3v23",
+      "date": "2026-10-27T21:07:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[opentelemetry-propagator-jaeger] OpenTelemetry Python: Unbounded memory allocation in Jaeger baggage propagation",
+      "url": "https://github.com/advisories/GHSA-f5m9-jfrj-jjj7",
+      "date": "2026-10-27T21:06:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp] Model Context Protocol Python SDK: HTTP client transports followed cross-origin redirects carrying custom headers and bodies",
+      "url": "https://github.com/advisories/GHSA-5h93-6whr-6q8j",
+      "date": "2026-10-27T21:05:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp] Model Context Protocol Python SDK: HTTP client transports followed cross-origin redirects carrying custom headers and bodies",
+      "url": "https://github.com/advisories/GHSA-5h93-6whr-6q8j",
+      "date": "2026-10-27T21:05:36.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp] Model Context Protocol Python SDK: Client fetched server-chosen $ref URLs while validating tool results against output schemas",
+      "url": "https://github.com/advisories/GHSA-rwrf-2pqf-9j8j",
+      "date": "2026-10-27T21:05:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mcp] Model Context Protocol Python SDK: Client fetched server-chosen $ref URLs while validating tool results against output schemas",
+      "url": "https://github.com/advisories/GHSA-rwrf-2pqf-9j8j",
+      "date": "2026-10-27T21:05:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@ckeditor/ckeditor5-engine] CKEditor: Cross-site scripting (XSS) in the engine package",
+      "url": "https://github.com/advisories/GHSA-v6mg-96c6-gmpq",
+      "date": "2026-10-27T21:05:13.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[ckeditor5] CKEditor: Cross-site scripting (XSS) in the engine package",
+      "url": "https://github.com/advisories/GHSA-v6mg-96c6-gmpq",
+      "date": "2026-10-27T21:05:13.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@ckeditor/ckeditor5-engine] CKEditor: Cross-site scripting (XSS) in the engine package",
+      "url": "https://github.com/advisories/GHSA-v6mg-96c6-gmpq",
+      "date": "2026-10-27T21:05:13.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[ckeditor5] CKEditor: Cross-site scripting (XSS) in the engine package",
+      "url": "https://github.com/advisories/GHSA-v6mg-96c6-gmpq",
+      "date": "2026-10-27T21:05:13.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@ckeditor/ckeditor5-engine] CKEditor: Cross-site scripting (XSS) in the engine package",
+      "url": "https://github.com/advisories/GHSA-rh54-vffm-5fvp",
+      "date": "2026-10-27T21:05:07.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
