@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-29T00:43:30.611Z",
+  "fetchedAt": "2026-10-29T06:54:16.927Z",
   "entries": [
+    {
+      "title": "[i18next-http-backend] i18next-http-backend: Namespace value starting with / forms a protocol-relative URL when loadPath/addPath places {{ns}} right after a / (bypass of the // check added for GHSA-xvq9-wjp8-hwqf)",
+      "url": "https://github.com/advisories/GHSA-9jhj-wvmw-cfx5",
+      "date": "2026-10-29T00:27:19.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
     {
       "title": "[tornado] Tornado: Event loop blocking and excess memory use from chunked bodies with many small chunks",
       "url": "https://github.com/advisories/GHSA-r4j5-9xpp-3985",
@@ -103,14 +110,14 @@
       "title": "[mem0ai] Mem0: Cross-tenant conversation leak via unescaped delimiter collision in session-scope key (_build_session_scope)",
       "url": "https://github.com/advisories/GHSA-5324-3w58-qpp2",
       "date": "2026-10-28T21:17:08.000Z",
-      "ecosystem": "pypi",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
       "title": "[mem0ai] Mem0: Cross-tenant conversation leak via unescaped delimiter collision in session-scope key (_build_session_scope)",
       "url": "https://github.com/advisories/GHSA-5324-3w58-qpp2",
       "date": "2026-10-28T21:17:08.000Z",
-      "ecosystem": "npm",
+      "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
@@ -131,13 +138,6 @@
       "title": "[onnx] ONNX: Denial of service via unchecked expansion of packed sub-byte tensors in ONNX Python APIs",
       "url": "https://github.com/advisories/GHSA-q69g-f4f5-v8m7",
       "date": "2026-10-28T21:16:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[onnx] ONNX: Null Pointer Dereference in ScanInferenceFunction Due to Missing Required Attribute",
-      "url": "https://github.com/advisories/GHSA-m4pr-6v3c-6fgr",
-      "date": "2026-10-28T21:16:32.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     }
