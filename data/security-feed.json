@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-10-28T20:55:08.704Z",
+  "fetchedAt": "2026-10-29T00:43:30.611Z",
   "entries": [
     {
-      "title": "[@highcharts/grid-pro] Highcharts Grid: `javascript:` URL in credits.href runs script on click",
-      "url": "https://github.com/advisories/GHSA-6hgp-fmhr-mrg4",
-      "date": "2026-10-28T19:57:51.000Z",
+      "title": "[tornado] Tornado: Event loop blocking and excess memory use from chunked bodies with many small chunks",
+      "url": "https://github.com/advisories/GHSA-r4j5-9xpp-3985",
+      "date": "2026-10-28T22:43:51.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[tornado] Tornado: Open redirect in RedirectHandler via protocol-relative URLs",
+      "url": "https://github.com/advisories/GHSA-pw9p-v7r6-gx4p",
+      "date": "2026-10-28T22:43:46.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[tornado] Tornado: Quadratic CPU usage when parsing HTTP headers with line folding",
+      "url": "https://github.com/advisories/GHSA-pcg2-g6cj-q92c",
+      "date": "2026-10-28T22:43:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[systeminformation] systeminformation vulnerable to Windows command injection in services() through Unicode quotation marks",
+      "url": "https://github.com/advisories/GHSA-3f7j-7jwc-fxfj",
+      "date": "2026-10-28T22:42:50.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@highcharts/dashboards] Highcharts Grid: `javascript:` URL in credits.href runs script on click",
-      "url": "https://github.com/advisories/GHSA-6hgp-fmhr-mrg4",
-      "date": "2026-10-28T19:57:51.000Z",
+      "title": "[@backstage/plugin-catalog-backend] Backstage catalog rules can be bypassed for URL locations using encoded path segments",
+      "url": "https://github.com/advisories/GHSA-w658-mh9p-ww8f",
+      "date": "2026-10-28T22:42:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@backstage/plugin-catalog-backend] Backstage catalog rules can be bypassed for URL locations using encoded path segments",
+      "url": "https://github.com/advisories/GHSA-w658-mh9p-ww8f",
+      "date": "2026-10-28T22:42:38.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[electrum] Electrum: Malicious server can replace a just-broadcast tx and try to trick user into RBF-ing it",
+      "url": "https://github.com/advisories/GHSA-6jp4-8v48-cc5v",
+      "date": "2026-10-28T21:23:45.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@waline/vercel] Waline login accepts a non-string email as a match-all MongoDB query",
+      "url": "https://github.com/advisories/GHSA-jf75-q64q-g65r",
+      "date": "2026-10-28T21:17:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[seroval] Seroval: Code injection through a typed array's own constructor property",
+      "url": "https://github.com/advisories/GHSA-f86p-h4j2-7qgj",
+      "date": "2026-10-28T21:17:37.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[seroval] Seroval: Script injection through RegExp sources in serialized output",
+      "url": "https://github.com/advisories/GHSA-9wx9-5pv9-3349",
+      "date": "2026-10-28T21:17:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[seroval] Seroval: Script injection through RegExp sources in serialized output",
+      "url": "https://github.com/advisories/GHSA-9wx9-5pv9-3349",
+      "date": "2026-10-28T21:17:32.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[seroval] Seroval: fromJSON deserializer trusts node-supplied array length and sequence doneAt (unauthenticated event-loop DoS)",
+      "url": "https://github.com/advisories/GHSA-97r2-qh9m-474h",
+      "date": "2026-10-28T21:17:28.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@highcharts/grid-pro] Highcharts Grid parses pagination language options as HTML",
-      "url": "https://github.com/advisories/GHSA-r5wg-q8fc-p6w2",
-      "date": "2026-10-28T19:57:36.000Z",
+      "title": "[seroval] Seroval `fromJSON`/`fromCrossJSON` denial of service via unvalidated array node length",
+      "url": "https://github.com/advisories/GHSA-wp97-x4hv-qvhp",
+      "date": "2026-10-28T21:17:22.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@highcharts/grid-lite] Highcharts Grid parses pagination language options as HTML",
-      "url": "https://github.com/advisories/GHSA-r5wg-q8fc-p6w2",
-      "date": "2026-10-28T19:57:36.000Z",
+      "title": "[seroval] Seroval: Deserialization invokes attacker-chosen callables: AsyncIteratorFactoryInstance calls source.on(listener) without type check",
+      "url": "https://github.com/advisories/GHSA-7rv5-mrxv-xcr9",
+      "date": "2026-10-28T21:17:15.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     },
     {
-      "title": "[@highcharts/dashboards] Highcharts Dashboards parses fullscreen labels as HTML",
-      "url": "https://github.com/advisories/GHSA-58g7-7f52-h92c",
-      "date": "2026-10-28T19:57:21.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[mem0ai] Mem0: Cross-tenant conversation leak via unescaped delimiter collision in session-scope key (_build_session_scope)",
+      "url": "https://github.com/advisories/GHSA-5324-3w58-qpp2",
+      "date": "2026-10-28T21:17:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "[@highcharts/dashboards] Highcharts Dashboards parses sidebar component labels as HTML",
-      "url": "https://github.com/advisories/GHSA-rcqf-f6h2-ccg9",
-      "date": "2026-10-28T19:56:57.000Z",
+      "title": "[mem0ai] Mem0: Cross-tenant conversation leak via unescaped delimiter collision in session-scope key (_build_session_scope)",
+      "url": "https://github.com/advisories/GHSA-5324-3w58-qpp2",
+      "date": "2026-10-28T21:17:08.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
+      "severity": "MODERATE"
     },
     {
-      "title": "[highcharts] Highcharts: `javascript:` URL in credits.href runs script on click",
-      "url": "https://github.com/advisories/GHSA-5793-x2q3-c3q7",
-      "date": "2026-10-28T19:56:37.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[social-auth-core] Python Social Auth: OpenID Connect nonce is not bound to the browser session, so a stolen authorization code logs the attacker in as the victim",
+      "url": "https://github.com/advisories/GHSA-h2r5-x5m7-3935",
+      "date": "2026-10-28T21:16:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "[highcharts] Highcharts: `javascript:` URL in credits.href runs script on click",
-      "url": "https://github.com/advisories/GHSA-5793-x2q3-c3q7",
-      "date": "2026-10-28T19:56:37.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[onnx] ONNX: Out-of-bounds read in ConvTranspose shape inference via undersized weight rank",
+      "url": "https://github.com/advisories/GHSA-6pwm-x34p-fvj2",
+      "date": "2026-10-28T21:16:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "[highcharts] Highcharts: `javascript:` URL in credits.href runs script on click",
-      "url": "https://github.com/advisories/GHSA-5793-x2q3-c3q7",
-      "date": "2026-10-28T19:56:37.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[onnx] ONNX: Denial of service via unchecked expansion of packed sub-byte tensors in ONNX Python APIs",
+      "url": "https://github.com/advisories/GHSA-q69g-f4f5-v8m7",
+      "date": "2026-10-28T21:16:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     },
     {
-      "title": "[highcharts] Highcharts: dotted series.keys paths write to Object.prototype",
-      "url": "https://github.com/advisories/GHSA-rmqc-xvr3-v46c",
-      "date": "2026-10-28T19:56:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[highcharts] Highcharts: dotted series.keys paths write to Object.prototype",
-      "url": "https://github.com/advisories/GHSA-rmqc-xvr3-v46c",
-      "date": "2026-10-28T19:56:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[highcharts] Highcharts: dotted series.keys paths write to Object.prototype",
-      "url": "https://github.com/advisories/GHSA-rmqc-xvr3-v46c",
-      "date": "2026-10-28T19:56:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[highcharts] Highcharts: series column construction writes to Object.prototype",
-      "url": "https://github.com/advisories/GHSA-gfvx-2c2g-38wq",
-      "date": "2026-10-28T19:56:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[highcharts] Highcharts Core: `breadcrumbs.style` keys become SVG event-handler attributes",
-      "url": "https://github.com/advisories/GHSA-35rr-xwfh-x789",
-      "date": "2026-10-28T19:56:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[highcharts] Highcharts Core: `breadcrumbs.style` keys become SVG event-handler attributes",
-      "url": "https://github.com/advisories/GHSA-35rr-xwfh-x789",
-      "date": "2026-10-28T19:56:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[highcharts] Highcharts Core: `breadcrumbs.style` keys become SVG event-handler attributes",
-      "url": "https://github.com/advisories/GHSA-35rr-xwfh-x789",
-      "date": "2026-10-28T19:56:11.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@highcharts/dashboards] Highcharts Grid Pro: cell-renderer `attributes` map written with raw `setAttribute`",
-      "url": "https://github.com/advisories/GHSA-5ghw-9mgr-jvx2",
-      "date": "2026-10-28T19:56:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@highcharts/grid-pro] Highcharts Grid Pro: cell-renderer `attributes` map written with raw `setAttribute`",
-      "url": "https://github.com/advisories/GHSA-5ghw-9mgr-jvx2",
-      "date": "2026-10-28T19:56:05.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@highcharts/grid-pro] Highcharts Grid: custom icon definition objects written with raw `setAttribute` on `<path>`",
-      "url": "https://github.com/advisories/GHSA-6g3c-p4fg-xv47",
-      "date": "2026-10-28T19:55:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@highcharts/grid-lite] Highcharts Grid: custom icon definition objects written with raw `setAttribute` on `<path>`",
-      "url": "https://github.com/advisories/GHSA-6g3c-p4fg-xv47",
-      "date": "2026-10-28T19:55:46.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "[onnx] ONNX: Null Pointer Dereference in ScanInferenceFunction Due to Missing Required Attribute",
+      "url": "https://github.com/advisories/GHSA-m4pr-6v3c-6fgr",
+      "date": "2026-10-28T21:16:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
     }
   ]
 }
