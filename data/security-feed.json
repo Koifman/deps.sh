@@ -1,12 +1,126 @@
 {
-  "fetchedAt": "2026-10-29T14:03:31.693Z",
+  "fetchedAt": "2026-10-29T20:08:45.085Z",
   "entries": [
     {
-      "title": "[i18next-http-backend] i18next-http-backend: Namespace value starting with / forms a protocol-relative URL when loadPath/addPath places {{ns}} right after a / (bypass of the // check added for GHSA-xvq9-wjp8-hwqf)",
-      "url": "https://github.com/advisories/GHSA-9jhj-wvmw-cfx5",
-      "date": "2026-10-29T00:27:19.000Z",
+      "title": "[decode-uri-component] decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs",
+      "url": "https://github.com/advisories/GHSA-qr28-fpjm-wq7f",
+      "date": "2026-10-29T16:41:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[Twisted] Twisted: Unauthenticated Remote Denial of Service in the Twisted HTTP/2 Server via Rapid Stream Reset",
+      "url": "https://github.com/advisories/GHSA-vpp8-g58w-m8mp",
+      "date": "2026-10-29T16:41:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vite] Vite: `server.fs.deny` bypassed with queries",
+      "url": "https://github.com/advisories/GHSA-8g5g-mxqh-grgj",
+      "date": "2026-10-29T16:39:59.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@eeacms/volto-chatbot] @eeacms/volto-chatbot has Unauthenticated Danswer API Confused Deputy Proxy",
+      "url": "https://github.com/advisories/GHSA-w9x9-j56r-h98r",
+      "date": "2026-10-29T16:35:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@cedar-policy/cedar-wasm] Cedar: JSON template is in scope missing slot-id validation allows link panic and decision divergence",
+      "url": "https://github.com/advisories/GHSA-c33x-vcv4-vg3g",
+      "date": "2026-10-29T16:35:08.000Z",
       "ecosystem": "npm",
       "severity": "LOW"
+    },
+    {
+      "title": "[@cedar-policy/cedar-wasm] Cedar: JSON template is in scope missing slot-id validation allows link panic and decision divergence",
+      "url": "https://github.com/advisories/GHSA-c33x-vcv4-vg3g",
+      "date": "2026-10-29T16:35:08.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@sylphx/pdf-reader-mcp] @sylphx/pdf-reader-mcp: HTTP transport accepts unauthenticated requests despite a configured MCP_API_KEY",
+      "url": "https://github.com/advisories/GHSA-q344-5v34-gm84",
+      "date": "2026-10-29T16:34:38.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[praisonai] PraisonAI vulnerable to Remote Code Execution via Broken AST Sandbox",
+      "url": "https://github.com/advisories/GHSA-26mh-57q7-jfvr",
+      "date": "2026-10-29T16:34:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[PraisonAI] Duplicate Advisory: PraisonAI vulnerable to Remote Code Execution via Broken AST Sandbox",
+      "url": "https://github.com/advisories/GHSA-qh3g-555w-f82q",
+      "date": "2026-10-29T16:34:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[parse-server] Parse Server vulnerable to stored XSS via malformed Content-Type bypassing file upload extension blocklist",
+      "url": "https://github.com/advisories/GHSA-r899-h629-j84r",
+      "date": "2026-10-29T16:33:49.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] Parse Server vulnerable to stored XSS via malformed Content-Type bypassing file upload extension blocklist",
+      "url": "https://github.com/advisories/GHSA-r899-h629-j84r",
+      "date": "2026-10-29T16:33:49.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] Duplicate Advisory: Parse Server vulnerable to stored XSS via malformed Content-Type bypassing file upload extension blocklist",
+      "url": "https://github.com/advisories/GHSA-p6c5-mjgj-m4rm",
+      "date": "2026-10-29T16:33:42.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[parse-server] Duplicate Advisory: Parse Server vulnerable to stored XSS via malformed Content-Type bypassing file upload extension blocklist",
+      "url": "https://github.com/advisories/GHSA-p6c5-mjgj-m4rm",
+      "date": "2026-10-29T16:33:42.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "RUSTSEC-2026-0415: Vulnerability in juniper_hyper",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0415.html",
+      "date": "2026-10-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0417: Vulnerability in juniper",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0417.html",
+      "date": "2026-10-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0416: Vulnerability in juniper",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0416.html",
+      "date": "2026-10-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0418: Vulnerability in libz-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0418.html",
+      "date": "2026-10-29T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0419: Vulnerability in juniper_warp",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0419.html",
+      "date": "2026-10-29T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
       "title": "[tornado] Tornado: Event loop blocking and excess memory use from chunked bodies with many small chunks",
@@ -21,125 +135,6 @@
       "date": "2026-10-28T22:43:46.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
-    },
-    {
-      "title": "[tornado] Tornado: Quadratic CPU usage when parsing HTTP headers with line folding",
-      "url": "https://github.com/advisories/GHSA-pcg2-g6cj-q92c",
-      "date": "2026-10-28T22:43:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[systeminformation] systeminformation vulnerable to Windows command injection in services() through Unicode quotation marks",
-      "url": "https://github.com/advisories/GHSA-3f7j-7jwc-fxfj",
-      "date": "2026-10-28T22:42:50.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@backstage/plugin-catalog-backend] Backstage catalog rules can be bypassed for URL locations using encoded path segments",
-      "url": "https://github.com/advisories/GHSA-w658-mh9p-ww8f",
-      "date": "2026-10-28T22:42:38.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@backstage/plugin-catalog-backend] Backstage catalog rules can be bypassed for URL locations using encoded path segments",
-      "url": "https://github.com/advisories/GHSA-w658-mh9p-ww8f",
-      "date": "2026-10-28T22:42:38.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[electrum] Electrum: Malicious server can replace a just-broadcast tx and try to trick user into RBF-ing it",
-      "url": "https://github.com/advisories/GHSA-6jp4-8v48-cc5v",
-      "date": "2026-10-28T21:23:45.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@waline/vercel] Waline login accepts a non-string email as a match-all MongoDB query",
-      "url": "https://github.com/advisories/GHSA-jf75-q64q-g65r",
-      "date": "2026-10-28T21:17:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[seroval] Seroval: Code injection through a typed array's own constructor property",
-      "url": "https://github.com/advisories/GHSA-f86p-h4j2-7qgj",
-      "date": "2026-10-28T21:17:37.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[seroval] Seroval: Script injection through RegExp sources in serialized output",
-      "url": "https://github.com/advisories/GHSA-9wx9-5pv9-3349",
-      "date": "2026-10-28T21:17:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[seroval] Seroval: Script injection through RegExp sources in serialized output",
-      "url": "https://github.com/advisories/GHSA-9wx9-5pv9-3349",
-      "date": "2026-10-28T21:17:32.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[seroval] Seroval: fromJSON deserializer trusts node-supplied array length and sequence doneAt (unauthenticated event-loop DoS)",
-      "url": "https://github.com/advisories/GHSA-97r2-qh9m-474h",
-      "date": "2026-10-28T21:17:28.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[seroval] Seroval `fromJSON`/`fromCrossJSON` denial of service via unvalidated array node length",
-      "url": "https://github.com/advisories/GHSA-wp97-x4hv-qvhp",
-      "date": "2026-10-28T21:17:22.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[seroval] Seroval: Deserialization invokes attacker-chosen callables: AsyncIteratorFactoryInstance calls source.on(listener) without type check",
-      "url": "https://github.com/advisories/GHSA-7rv5-mrxv-xcr9",
-      "date": "2026-10-28T21:17:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mem0ai] Mem0: Cross-tenant conversation leak via unescaped delimiter collision in session-scope key (_build_session_scope)",
-      "url": "https://github.com/advisories/GHSA-5324-3w58-qpp2",
-      "date": "2026-10-28T21:17:08.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mem0ai] Mem0: Cross-tenant conversation leak via unescaped delimiter collision in session-scope key (_build_session_scope)",
-      "url": "https://github.com/advisories/GHSA-5324-3w58-qpp2",
-      "date": "2026-10-28T21:17:08.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[social-auth-core] Python Social Auth: OpenID Connect nonce is not bound to the browser session, so a stolen authorization code logs the attacker in as the victim",
-      "url": "https://github.com/advisories/GHSA-h2r5-x5m7-3935",
-      "date": "2026-10-28T21:16:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[onnx] ONNX: Out-of-bounds read in ConvTranspose shape inference via undersized weight rank",
-      "url": "https://github.com/advisories/GHSA-6pwm-x34p-fvj2",
-      "date": "2026-10-28T21:16:43.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[onnx] ONNX: Denial of service via unchecked expansion of packed sub-byte tensors in ONNX Python APIs",
-      "url": "https://github.com/advisories/GHSA-q69g-f4f5-v8m7",
-      "date": "2026-10-28T21:16:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
