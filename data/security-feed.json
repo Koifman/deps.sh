@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-10-30T19:13:09.005Z",
+  "fetchedAt": "2026-10-30T23:34:37.181Z",
   "entries": [
+    {
+      "title": "[suneditor] SunEditor Embed Plugin has DOM XSS via External Script Element After Iframe Embed",
+      "url": "https://github.com/advisories/GHSA-w93q-cq9w-58p7",
+      "date": "2026-10-30T16:58:55.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[graphql-scalars] graphql-scalars PhoneNumber scalar is vulnerable to regular expression denial of service",
       "url": "https://github.com/advisories/GHSA-x8rm-f576-gq67",
@@ -122,13 +129,6 @@
       "title": "[@justice8096/sagemath-mcp-server] @justice8096/sagemath-mcp-server: executes arbitrary code via the escapeShellString and sanitizeCode functions",
       "url": "https://github.com/advisories/GHSA-2vq3-mpmf-9xgr",
       "date": "2026-10-29T20:57:53.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[liquidjs] LiquidJS has Exponential Memory Amplification through its replace_first Filter $& Pattern",
-      "url": "https://github.com/advisories/GHSA-6q5m-63h6-5x4v",
-      "date": "2026-10-29T17:28:59.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
