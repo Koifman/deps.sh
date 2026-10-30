@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-10-30T13:59:00.996Z",
+  "fetchedAt": "2026-10-30T19:13:09.005Z",
   "entries": [
+    {
+      "title": "[graphql-scalars] graphql-scalars PhoneNumber scalar is vulnerable to regular expression denial of service",
+      "url": "https://github.com/advisories/GHSA-x8rm-f576-gq67",
+      "date": "2026-10-30T15:36:54.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@rog0x/mcp-docker-tools] @rog0x/mcp-docker-tools: executes arbitrary code via the handleImageList function",
+      "url": "https://github.com/advisories/GHSA-fq6x-j3g6-xx83",
+      "date": "2026-10-30T15:29:24.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[joserfc] joserfc: Compact JWS size guard allocates attacker-controlled segments before rejection",
+      "url": "https://github.com/advisories/GHSA-9pg5-8c7x-5hfx",
+      "date": "2026-10-30T14:54:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[joserfc] joserfc: Unbounded JWE General JSON `recipients` Array Leads to CPU Exhaustion (DoS) via Repeated RSA Private-Key Decryption",
+      "url": "https://github.com/advisories/GHSA-jpxq-7h8p-2q76",
+      "date": "2026-10-30T14:54:20.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nx/gradle] @nx/maven and @nx/gradle have OS command injection via nx.json plugin options",
+      "url": "https://github.com/advisories/GHSA-qm8w-vx34-5j9j",
+      "date": "2026-10-30T14:42:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nx/gradle] @nx/maven and @nx/gradle have OS command injection via nx.json plugin options",
+      "url": "https://github.com/advisories/GHSA-qm8w-vx34-5j9j",
+      "date": "2026-10-30T14:42:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nx/maven] @nx/maven and @nx/gradle have OS command injection via nx.json plugin options",
+      "url": "https://github.com/advisories/GHSA-qm8w-vx34-5j9j",
+      "date": "2026-10-30T14:42:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@nx/maven] @nx/maven and @nx/gradle have OS command injection via nx.json plugin options",
+      "url": "https://github.com/advisories/GHSA-qm8w-vx34-5j9j",
+      "date": "2026-10-30T14:42:16.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0420: Vulnerability in wasmtime-wasi",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0420.html",
@@ -74,62 +130,6 @@
       "url": "https://github.com/advisories/GHSA-6q5m-63h6-5x4v",
       "date": "2026-10-29T17:28:59.000Z",
       "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[decode-uri-component] decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs",
-      "url": "https://github.com/advisories/GHSA-qr28-fpjm-wq7f",
-      "date": "2026-10-29T16:41:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[Twisted] Twisted: Unauthenticated Remote Denial of Service in the Twisted HTTP/2 Server via Rapid Stream Reset",
-      "url": "https://github.com/advisories/GHSA-vpp8-g58w-m8mp",
-      "date": "2026-10-29T16:41:06.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vite] Vite: `server.fs.deny` bypassed with queries",
-      "url": "https://github.com/advisories/GHSA-8g5g-mxqh-grgj",
-      "date": "2026-10-29T16:39:59.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@eeacms/volto-chatbot] @eeacms/volto-chatbot has Unauthenticated Danswer API Confused Deputy Proxy",
-      "url": "https://github.com/advisories/GHSA-w9x9-j56r-h98r",
-      "date": "2026-10-29T16:35:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@cedar-policy/cedar-wasm] Cedar: JSON template is in scope missing slot-id validation allows link panic and decision divergence",
-      "url": "https://github.com/advisories/GHSA-c33x-vcv4-vg3g",
-      "date": "2026-10-29T16:35:08.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@cedar-policy/cedar-wasm] Cedar: JSON template is in scope missing slot-id validation allows link panic and decision divergence",
-      "url": "https://github.com/advisories/GHSA-c33x-vcv4-vg3g",
-      "date": "2026-10-29T16:35:08.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@sylphx/pdf-reader-mcp] @sylphx/pdf-reader-mcp: HTTP transport accepts unauthenticated requests despite a configured MCP_API_KEY",
-      "url": "https://github.com/advisories/GHSA-q344-5v34-gm84",
-      "date": "2026-10-29T16:34:38.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[praisonai] PraisonAI vulnerable to Remote Code Execution via Broken AST Sandbox",
-      "url": "https://github.com/advisories/GHSA-26mh-57q7-jfvr",
-      "date": "2026-10-29T16:34:28.000Z",
-      "ecosystem": "pypi",
       "severity": "HIGH"
     }
   ]
