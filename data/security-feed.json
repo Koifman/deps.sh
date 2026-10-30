@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-10-29T20:08:45.085Z",
+  "fetchedAt": "2026-10-30T00:44:14.503Z",
   "entries": [
+    {
+      "title": "[@rog0x/mcp-git-tools] @rog0x/mcp-git-tools executes arbitrary code via the resolveBaseBranch function",
+      "url": "https://github.com/advisories/GHSA-jwc4-922r-f2rw",
+      "date": "2026-10-29T20:58:05.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@justice8096/sagemath-mcp-server] @justice8096/sagemath-mcp-server: executes arbitrary code via the escapeShellString and sanitizeCode functions",
+      "url": "https://github.com/advisories/GHSA-2vq3-mpmf-9xgr",
+      "date": "2026-10-29T20:57:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[liquidjs] LiquidJS has Exponential Memory Amplification through its replace_first Filter $& Pattern",
+      "url": "https://github.com/advisories/GHSA-6q5m-63h6-5x4v",
+      "date": "2026-10-29T17:28:59.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[decode-uri-component] decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs",
       "url": "https://github.com/advisories/GHSA-qr28-fpjm-wq7f",
@@ -115,26 +136,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0418.html",
       "date": "2026-10-29T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0419: Vulnerability in juniper_warp",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0419.html",
-      "date": "2026-10-29T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[tornado] Tornado: Event loop blocking and excess memory use from chunked bodies with many small chunks",
-      "url": "https://github.com/advisories/GHSA-r4j5-9xpp-3985",
-      "date": "2026-10-28T22:43:51.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[tornado] Tornado: Open redirect in RedirectHandler via protocol-relative URLs",
-      "url": "https://github.com/advisories/GHSA-pw9p-v7r6-gx4p",
-      "date": "2026-10-28T22:43:46.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
     }
   ]
 }
