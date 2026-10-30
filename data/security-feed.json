@@ -1,6 +1,60 @@
 {
-  "fetchedAt": "2026-10-30T06:57:18.486Z",
+  "fetchedAt": "2026-10-30T13:59:00.996Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0420: Vulnerability in wasmtime-wasi",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0420.html",
+      "date": "2026-10-30T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0421: Vulnerability in wasmtime-wasi-http",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0421.html",
+      "date": "2026-10-30T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0424: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0424.html",
+      "date": "2026-10-30T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0423: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0423.html",
+      "date": "2026-10-30T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0422: Vulnerability in wasmtime",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0422.html",
+      "date": "2026-10-30T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0425: Vulnerability in nix-nar",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0425.html",
+      "date": "2026-10-30T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0427: Vulnerability in sn-releases",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0427.html",
+      "date": "2026-10-30T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0428: Vulnerability in orion",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0428.html",
+      "date": "2026-10-30T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0426: Vulnerability in orion",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0426.html",
+      "date": "2026-10-30T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@rog0x/mcp-git-tools] @rog0x/mcp-git-tools executes arbitrary code via the resolveBaseBranch function",
       "url": "https://github.com/advisories/GHSA-jwc4-922r-f2rw",
@@ -77,65 +131,6 @@
       "date": "2026-10-29T16:34:28.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[PraisonAI] Duplicate Advisory: PraisonAI vulnerable to Remote Code Execution via Broken AST Sandbox",
-      "url": "https://github.com/advisories/GHSA-qh3g-555w-f82q",
-      "date": "2026-10-29T16:34:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[parse-server] Parse Server vulnerable to stored XSS via malformed Content-Type bypassing file upload extension blocklist",
-      "url": "https://github.com/advisories/GHSA-r899-h629-j84r",
-      "date": "2026-10-29T16:33:49.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] Parse Server vulnerable to stored XSS via malformed Content-Type bypassing file upload extension blocklist",
-      "url": "https://github.com/advisories/GHSA-r899-h629-j84r",
-      "date": "2026-10-29T16:33:49.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] Duplicate Advisory: Parse Server vulnerable to stored XSS via malformed Content-Type bypassing file upload extension blocklist",
-      "url": "https://github.com/advisories/GHSA-p6c5-mjgj-m4rm",
-      "date": "2026-10-29T16:33:42.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[parse-server] Duplicate Advisory: Parse Server vulnerable to stored XSS via malformed Content-Type bypassing file upload extension blocklist",
-      "url": "https://github.com/advisories/GHSA-p6c5-mjgj-m4rm",
-      "date": "2026-10-29T16:33:42.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "RUSTSEC-2026-0415: Vulnerability in juniper_hyper",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0415.html",
-      "date": "2026-10-29T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0417: Vulnerability in juniper",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0417.html",
-      "date": "2026-10-29T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0416: Vulnerability in juniper",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0416.html",
-      "date": "2026-10-29T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0418: Vulnerability in libz-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0418.html",
-      "date": "2026-10-29T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
