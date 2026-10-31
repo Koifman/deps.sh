@@ -1,136 +1,145 @@
 {
-  "fetchedAt": "2026-10-30T23:34:37.181Z",
+  "fetchedAt": "2026-10-31T05:10:29.109Z",
   "entries": [
     {
-      "title": "[suneditor] SunEditor Embed Plugin has DOM XSS via External Script Element After Iframe Embed",
-      "url": "https://github.com/advisories/GHSA-w93q-cq9w-58p7",
-      "date": "2026-10-30T16:58:55.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[graphql-scalars] graphql-scalars PhoneNumber scalar is vulnerable to regular expression denial of service",
-      "url": "https://github.com/advisories/GHSA-x8rm-f576-gq67",
-      "date": "2026-10-30T15:36:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@rog0x/mcp-docker-tools] @rog0x/mcp-docker-tools: executes arbitrary code via the handleImageList function",
-      "url": "https://github.com/advisories/GHSA-fq6x-j3g6-xx83",
-      "date": "2026-10-30T15:29:24.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[joserfc] joserfc: Compact JWS size guard allocates attacker-controlled segments before rejection",
-      "url": "https://github.com/advisories/GHSA-9pg5-8c7x-5hfx",
-      "date": "2026-10-30T14:54:26.000Z",
+      "title": "[pypdf] pypdf has possible infinite loop when hitting EOF in standard xref table during trailer search",
+      "url": "https://github.com/advisories/GHSA-5849-834g-hvw5",
+      "date": "2026-10-30T23:13:17.000Z",
       "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pypdf] pypdf has possible large memory usage when parsing page tree",
+      "url": "https://github.com/advisories/GHSA-cggf-277g-3q54",
+      "date": "2026-10-30T23:13:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pypdf] pypdf has possible infinite loop when cloning dictionaries",
+      "url": "https://github.com/advisories/GHSA-mfr5-77xh-9j7h",
+      "date": "2026-10-30T23:12:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[joi] joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
+      "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
+      "date": "2026-10-30T23:10:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hapi/joi] joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
+      "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
+      "date": "2026-10-30T23:10:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[joi] joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
+      "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
+      "date": "2026-10-30T23:10:26.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[content] @hapi/content: quadratic-time parsing of Content-Disposition parameters allows denial of service",
+      "url": "https://github.com/advisories/GHSA-8494-f6mr-cjpv",
+      "date": "2026-10-30T23:10:15.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@hapi/content] @hapi/content: quadratic-time parsing of Content-Disposition parameters allows denial of service",
+      "url": "https://github.com/advisories/GHSA-8494-f6mr-cjpv",
+      "date": "2026-10-30T23:10:15.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[minimatch] minimatch has potential denial of service via globparts amplification",
+      "url": "https://github.com/advisories/GHSA-g3hv-75wg-m249",
+      "date": "2026-10-30T23:09:56.000Z",
+      "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[joserfc] joserfc: Unbounded JWE General JSON `recipients` Array Leads to CPU Exhaustion (DoS) via Repeated RSA Private-Key Decryption",
-      "url": "https://github.com/advisories/GHSA-jpxq-7h8p-2q76",
-      "date": "2026-10-30T14:54:20.000Z",
+      "title": "[glob] Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal",
+      "url": "https://github.com/advisories/GHSA-3g3m-2fjr-6pw4",
+      "date": "2026-10-30T23:09:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[Authlib] Authlib RFC 7592 examples omit registration-access-token client binding",
+      "url": "https://github.com/advisories/GHSA-c73q-w75p-j82v",
+      "date": "2026-10-30T23:09:05.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[@nx/gradle] @nx/maven and @nx/gradle have OS command injection via nx.json plugin options",
-      "url": "https://github.com/advisories/GHSA-qm8w-vx34-5j9j",
-      "date": "2026-10-30T14:42:16.000Z",
-      "ecosystem": "npm",
+      "title": "[pypdf] pypdf has possible long runtimes when retrieving page labels",
+      "url": "https://github.com/advisories/GHSA-42gh-23hr-vphw",
+      "date": "2026-10-30T23:08:56.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[@nx/gradle] @nx/maven and @nx/gradle have OS command injection via nx.json plugin options",
-      "url": "https://github.com/advisories/GHSA-qm8w-vx34-5j9j",
-      "date": "2026-10-30T14:42:16.000Z",
-      "ecosystem": "npm",
+      "title": "[pypdf] pypdf has possible large memory usage for exceptions in strict mode",
+      "url": "https://github.com/advisories/GHSA-4vqv-7265-gm2w",
+      "date": "2026-10-30T23:08:40.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[@nx/maven] @nx/maven and @nx/gradle have OS command injection via nx.json plugin options",
-      "url": "https://github.com/advisories/GHSA-qm8w-vx34-5j9j",
-      "date": "2026-10-30T14:42:16.000Z",
-      "ecosystem": "npm",
+      "title": "[pypdf] pypdf has possible long runtimes/large memory usage for encrypted PDF files",
+      "url": "https://github.com/advisories/GHSA-62m5-6wh8-28x7",
+      "date": "2026-10-30T23:08:25.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[@nx/maven] @nx/maven and @nx/gradle have OS command injection via nx.json plugin options",
-      "url": "https://github.com/advisories/GHSA-qm8w-vx34-5j9j",
-      "date": "2026-10-30T14:42:16.000Z",
-      "ecosystem": "npm",
+      "title": "[pypdf] pypdf has possible large memory usage when parsing cross-reference streams",
+      "url": "https://github.com/advisories/GHSA-x3rh-gjgm-fmqc",
+      "date": "2026-10-30T23:07:30.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0420: Vulnerability in wasmtime-wasi",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0420.html",
-      "date": "2026-10-30T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0421: Vulnerability in wasmtime-wasi-http",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0421.html",
-      "date": "2026-10-30T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0424: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0424.html",
-      "date": "2026-10-30T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0423: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0423.html",
-      "date": "2026-10-30T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0422: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0422.html",
-      "date": "2026-10-30T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0425: Vulnerability in nix-nar",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0425.html",
-      "date": "2026-10-30T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0427: Vulnerability in sn-releases",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0427.html",
-      "date": "2026-10-30T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0428: Vulnerability in orion",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0428.html",
-      "date": "2026-10-30T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0426: Vulnerability in orion",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0426.html",
-      "date": "2026-10-30T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[@rog0x/mcp-git-tools] @rog0x/mcp-git-tools executes arbitrary code via the resolveBaseBranch function",
-      "url": "https://github.com/advisories/GHSA-jwc4-922r-f2rw",
-      "date": "2026-10-29T20:58:05.000Z",
-      "ecosystem": "npm",
+      "title": "[pyasn1] pyasn1 has quadratic CPU consumption in constructed BIT STRING decoding",
+      "url": "https://github.com/advisories/GHSA-2qm8-x737-gmw5",
+      "date": "2026-10-30T23:07:05.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[@justice8096/sagemath-mcp-server] @justice8096/sagemath-mcp-server: executes arbitrary code via the escapeShellString and sanitizeCode functions",
-      "url": "https://github.com/advisories/GHSA-2vq3-mpmf-9xgr",
-      "date": "2026-10-29T20:57:53.000Z",
-      "ecosystem": "npm",
+      "title": "[pyasn1] pyasn1 has quadratic-complexity denial of service in binary REAL decoding",
+      "url": "https://github.com/advisories/GHSA-mm57-4v3p-rchx",
+      "date": "2026-10-30T23:06:48.000Z",
+      "ecosystem": "pypi",
       "severity": "HIGH"
+    },
+    {
+      "title": "[pyasn1] pyasn1 has quadratic-time denial of service in constructed string and indefinite-length ANY decoding",
+      "url": "https://github.com/advisories/GHSA-9m75-vc3g-4x39",
+      "date": "2026-10-30T23:03:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pyasn1] pyasn1 has quadratic CPU use in schemaless BER/CER/DER container decoding",
+      "url": "https://github.com/advisories/GHSA-fm9c-5rcf-2q5p",
+      "date": "2026-10-30T23:03:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[node-forge] Forge: ASN.1 OID first arc truncation in asn1.oidToDer",
+      "url": "https://github.com/advisories/GHSA-4642-5mcj-2rqw",
+      "date": "2026-10-30T23:02:44.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
     }
   ]
 }
