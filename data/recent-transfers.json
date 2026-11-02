@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-11-01T23:30:25.298Z",
+  "scannedAt": "2026-11-02T05:41:43.124Z",
   "count": 128,
   "packages": [
     {
@@ -409,7 +409,7 @@
     },
     {
       "name": "dependency-cruiser",
-      "version": "18.7.0",
+      "version": "18.7.1",
       "ecosystem": "npm",
       "score": 25,
       "level": "MODERATE",
@@ -579,21 +579,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/number",
-      "version": "4.2.6",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@supabase/storage-js",
       "version": "2.118.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "kiwicopple",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@inquirer/number",
+      "version": "4.2.6",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "sboudrias",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1083,15 +1083,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-win32-x64-msvc",
-      "version": "0.156.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@fortawesome/react-fontawesome",
       "version": "3.5.0",
       "ecosystem": "npm",
@@ -1099,6 +1090,15 @@
       "level": "LOW",
       "previousOwner": "supercodepoet",
       "currentOwner": "lordofbacon"
+    },
+    {
+      "name": "@oxc-parser/binding-win32-x64-msvc",
+      "version": "0.156.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
     },
     {
       "name": "oxc-minify",
