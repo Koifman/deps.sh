@@ -1,145 +1,125 @@
 {
-  "fetchedAt": "2026-11-02T05:38:45.120Z",
+  "fetchedAt": "2026-11-02T15:28:03.868Z",
   "entries": [
     {
-      "title": "[pypdf] pypdf has possible infinite loop when hitting EOF in standard xref table during trailer search",
-      "url": "https://github.com/advisories/GHSA-5849-834g-hvw5",
-      "date": "2026-10-30T23:13:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0432: Vulnerability in codeq",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0432.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[pypdf] pypdf has possible large memory usage when parsing page tree",
-      "url": "https://github.com/advisories/GHSA-cggf-277g-3q54",
-      "date": "2026-10-30T23:13:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0433: Vulnerability in pulldown-cmark",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0433.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[pypdf] pypdf has possible infinite loop when cloning dictionaries",
-      "url": "https://github.com/advisories/GHSA-mfr5-77xh-9j7h",
-      "date": "2026-10-30T23:12:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0429: Vulnerability in zip",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0429.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[joi] joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
-      "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
-      "date": "2026-10-30T23:10:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0434: Vulnerability in ant-releases",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0434.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[@hapi/joi] joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
-      "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
-      "date": "2026-10-30T23:10:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0430: Vulnerability in rio-vt",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0430.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[joi] joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
-      "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
-      "date": "2026-10-30T23:10:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0431: Vulnerability in evtx",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0431.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[content] @hapi/content: quadratic-time parsing of Content-Disposition parameters allows denial of service",
-      "url": "https://github.com/advisories/GHSA-8494-f6mr-cjpv",
-      "date": "2026-10-30T23:10:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0435: Vulnerability in thrift",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0435.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[@hapi/content] @hapi/content: quadratic-time parsing of Content-Disposition parameters allows denial of service",
-      "url": "https://github.com/advisories/GHSA-8494-f6mr-cjpv",
-      "date": "2026-10-30T23:10:15.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0391: Vulnerability in zstd",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0391.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[minimatch] minimatch has potential denial of service via globparts amplification",
-      "url": "https://github.com/advisories/GHSA-g3hv-75wg-m249",
-      "date": "2026-10-30T23:09:56.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
+      "title": "RUSTSEC-2026-0403: Vulnerability in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0403.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[glob] Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal",
-      "url": "https://github.com/advisories/GHSA-3g3m-2fjr-6pw4",
-      "date": "2026-10-30T23:09:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
+      "title": "RUSTSEC-2026-0395: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0395.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[Authlib] Authlib RFC 7592 examples omit registration-access-token client binding",
-      "url": "https://github.com/advisories/GHSA-c73q-w75p-j82v",
-      "date": "2026-10-30T23:09:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0399: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0399.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[pypdf] pypdf has possible long runtimes when retrieving page labels",
-      "url": "https://github.com/advisories/GHSA-42gh-23hr-vphw",
-      "date": "2026-10-30T23:08:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0401: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0401.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[pypdf] pypdf has possible large memory usage for exceptions in strict mode",
-      "url": "https://github.com/advisories/GHSA-4vqv-7265-gm2w",
-      "date": "2026-10-30T23:08:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0397: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0397.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[pypdf] pypdf has possible long runtimes/large memory usage for encrypted PDF files",
-      "url": "https://github.com/advisories/GHSA-62m5-6wh8-28x7",
-      "date": "2026-10-30T23:08:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0400: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0400.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[pypdf] pypdf has possible large memory usage when parsing cross-reference streams",
-      "url": "https://github.com/advisories/GHSA-x3rh-gjgm-fmqc",
-      "date": "2026-10-30T23:07:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0398: Vulnerability in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0398.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[pyasn1] pyasn1 has quadratic CPU consumption in constructed BIT STRING decoding",
-      "url": "https://github.com/advisories/GHSA-2qm8-x737-gmw5",
-      "date": "2026-10-30T23:07:05.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0405: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0405.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[pyasn1] pyasn1 has quadratic-complexity denial of service in binary REAL decoding",
-      "url": "https://github.com/advisories/GHSA-mm57-4v3p-rchx",
-      "date": "2026-10-30T23:06:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0402: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0402.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[pyasn1] pyasn1 has quadratic-time denial of service in constructed string and indefinite-length ANY decoding",
-      "url": "https://github.com/advisories/GHSA-9m75-vc3g-4x39",
-      "date": "2026-10-30T23:03:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0396: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0396.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[pyasn1] pyasn1 has quadratic CPU use in schemaless BER/CER/DER container decoding",
-      "url": "https://github.com/advisories/GHSA-fm9c-5rcf-2q5p",
-      "date": "2026-10-30T23:03:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
+      "title": "RUSTSEC-2026-0406: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0406.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     },
     {
-      "title": "[node-forge] Forge: ASN.1 OID first arc truncation in asn1.oidToDer",
-      "url": "https://github.com/advisories/GHSA-4642-5mcj-2rqw",
-      "date": "2026-10-30T23:02:44.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
+      "title": "RUSTSEC-2026-0404: Unsoundness in zstd-safe",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0404.html",
+      "date": "2026-11-02T12:00:00+00:00",
+      "ecosystem": "cargo"
     }
   ]
 }
