@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-02T23:23:31.909Z",
+  "fetchedAt": "2026-11-03T06:18:39.024Z",
   "entries": [
+    {
+      "title": "[apache-airflow] Apache Airflow: Authenticated users can bypass the `is_safe_url` check",
+      "url": "https://github.com/advisories/GHSA-6hcw-qqr8-pjj8",
+      "date": "2026-11-02T23:08:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nltk] NLTK: Model-artifact APIs bypass pathsec and touch files outside allowed roots",
+      "url": "https://github.com/advisories/GHSA-8mgp-746c-j5xp",
+      "date": "2026-11-02T22:06:21.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[obsidian-local-rest-api] obsidian-local-rest-api: Authenticated path traversal via URL-encoded %2F in /vault/{path} — arbitrary host file read/write/delete",
       "url": "https://github.com/advisories/GHSA-62gx-5q78-wrvx",
@@ -110,18 +124,6 @@
     {
       "title": "RUSTSEC-2026-0400: Unsoundness in zstd-safe",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0400.html",
-      "date": "2026-11-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0398: Vulnerability in zstd-safe",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0398.html",
-      "date": "2026-11-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0405: Unsoundness in zstd-safe",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0405.html",
       "date": "2026-11-02T12:00:00+00:00",
       "ecosystem": "cargo"
     }
