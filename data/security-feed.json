@@ -1,6 +1,97 @@
 {
-  "fetchedAt": "2026-11-03T14:57:09.929Z",
+  "fetchedAt": "2026-11-03T20:53:02.448Z",
   "entries": [
+    {
+      "title": "[@enspirit/elo] Elo JavaScript emitter has sandbox escape to arbitrary Node.js / browser code execution via unfiltered `.constructor` member access",
+      "url": "https://github.com/advisories/GHSA-33r5-xmm8-v6x5",
+      "date": "2026-11-03T17:53:43.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@enspirit/elo] Elo Ruby backend has Remote Code Execution via unescaped `#{...}` interpolation in emitted string literals and subtype-constraint labels",
+      "url": "https://github.com/advisories/GHSA-7w38-ggh5-v542",
+      "date": "2026-11-03T17:51:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@enspirit/elo] Elo backends have code injection via unvalidated emission of programmatic AST fields",
+      "url": "https://github.com/advisories/GHSA-x9rp-7wh3-2rj5",
+      "date": "2026-11-03T17:48:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[picklescan] Duplicate Advisory : Picklescan is missing detection when calling built-in python idlelib.pyshell.ModifiedInterpreter.runcode",
+      "url": "https://github.com/advisories/GHSA-mq7r-vm99-p7vx",
+      "date": "2026-11-03T17:37:07.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[flowise] Duplicate Advisory : Flowise allows arbitrary file write to RCE",
+      "url": "https://github.com/advisories/GHSA-c3hj-m5hq-59xw",
+      "date": "2026-11-03T17:36:50.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] Duplicate Advisory: Flowise has unsandboxed remote code execution via Custom MCP",
+      "url": "https://github.com/advisories/GHSA-q2xp-j85q-883h",
+      "date": "2026-11-03T17:36:24.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[flowise] Duplicate Advisory : Flowise has arbitrary file access due to missing chat flow id validation",
+      "url": "https://github.com/advisories/GHSA-w5r9-j49j-2m55",
+      "date": "2026-11-03T17:35:34.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[feast] Feast vulnerable to arbitrary code execution via unsafe deserialization of dill-serialized UDFs",
+      "url": "https://github.com/advisories/GHSA-gg2p-37pv-v7fq",
+      "date": "2026-11-03T16:23:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[lodash.omit] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "date": "2026-11-03T15:37:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lodash.unset] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "date": "2026-11-03T15:37:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lodash-amd] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "date": "2026-11-03T15:37:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lodash-es] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "date": "2026-11-03T15:37:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lodash] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
+      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
+      "date": "2026-11-03T15:37:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0436: Vulnerability in calamine",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0436.html",
@@ -46,90 +137,6 @@
       "title": "[@sd-jwt/decode] SD JWT JS: Tampered disclosures silently dropped instead of rejected",
       "url": "https://github.com/advisories/GHSA-f9j6-8p6x-r9j6",
       "date": "2026-11-02T17:54:41.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0432: Vulnerability in codeq",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0432.html",
-      "date": "2026-11-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0433: Vulnerability in pulldown-cmark",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0433.html",
-      "date": "2026-11-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0429: Vulnerability in zip",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0429.html",
-      "date": "2026-11-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0434: Vulnerability in ant-releases",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0434.html",
-      "date": "2026-11-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0430: Vulnerability in rio-vt",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0430.html",
-      "date": "2026-11-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0431: Vulnerability in evtx",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0431.html",
-      "date": "2026-11-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0435: Vulnerability in thrift",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0435.html",
-      "date": "2026-11-02T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[pypdf] pypdf has possible infinite loop when hitting EOF in standard xref table during trailer search",
-      "url": "https://github.com/advisories/GHSA-5849-834g-hvw5",
-      "date": "2026-10-30T23:13:17.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pypdf] pypdf has possible large memory usage when parsing page tree",
-      "url": "https://github.com/advisories/GHSA-cggf-277g-3q54",
-      "date": "2026-10-30T23:13:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pypdf] pypdf has possible infinite loop when cloning dictionaries",
-      "url": "https://github.com/advisories/GHSA-mfr5-77xh-9j7h",
-      "date": "2026-10-30T23:12:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[joi] joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
-      "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
-      "date": "2026-10-30T23:10:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@hapi/joi] joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
-      "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
-      "date": "2026-10-30T23:10:26.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[joi] joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service",
-      "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
-      "date": "2026-10-30T23:10:26.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
