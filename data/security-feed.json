@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-11-04T16:59:45.342Z",
+  "fetchedAt": "2026-11-04T22:32:55.620Z",
   "entries": [
+    {
+      "title": "[protobufjs] protobufjs has an arbitrary code execution issue",
+      "url": "https://github.com/advisories/GHSA-xq3m-2v4x-88gg",
+      "date": "2026-11-04T17:14:43.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[protobufjs] protobufjs has an arbitrary code execution issue",
+      "url": "https://github.com/advisories/GHSA-xq3m-2v4x-88gg",
+      "date": "2026-11-04T17:14:43.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@payloadcms/storage-vercel-blob] @payloadcms/storage-vercel-blob has access control bypass of uploads in Vercel Storage adapter",
+      "url": "https://github.com/advisories/GHSA-mc8m-rr6c-r5qr",
+      "date": "2026-11-04T17:00:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@payloadcms/storage-vercel-blob] @payloadcms/storage-vercel-blob has access control bypass of uploads in Vercel Storage adapter",
+      "url": "https://github.com/advisories/GHSA-mc8m-rr6c-r5qr",
+      "date": "2026-11-04T17:00:40.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[minimatch] minimatch has potential denial of service via globparts amplification",
+      "url": "https://github.com/advisories/GHSA-g3hv-75wg-m249",
+      "date": "2026-11-04T16:50:04.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[odf-kit] odf-kit: HTML injection leading to XSS in odtToHtml() and odsToHtml() via unescaped style attribute values",
+      "url": "https://github.com/advisories/GHSA-3cgg-c5pp-57h6",
+      "date": "2026-11-04T16:14:35.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "[js-toml] js-toml vulnerable to CPU exhaustion via O(n^2) BigInt construction on radix-prefixed integer literals",
       "url": "https://github.com/advisories/GHSA-wp3c-266w-4qfq",
@@ -98,48 +140,6 @@
       "date": "2026-11-03T20:29:16.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@enspirit/elo] Elo JavaScript emitter has sandbox escape to arbitrary Node.js / browser code execution via unfiltered `.constructor` member access",
-      "url": "https://github.com/advisories/GHSA-33r5-xmm8-v6x5",
-      "date": "2026-11-03T17:53:43.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@enspirit/elo] Elo Ruby backend has Remote Code Execution via unescaped `#{...}` interpolation in emitted string literals and subtype-constraint labels",
-      "url": "https://github.com/advisories/GHSA-7w38-ggh5-v542",
-      "date": "2026-11-03T17:51:30.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@enspirit/elo] Elo backends have code injection via unvalidated emission of programmatic AST fields",
-      "url": "https://github.com/advisories/GHSA-x9rp-7wh3-2rj5",
-      "date": "2026-11-03T17:48:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[picklescan] Duplicate Advisory : Picklescan is missing detection when calling built-in python idlelib.pyshell.ModifiedInterpreter.runcode",
-      "url": "https://github.com/advisories/GHSA-mq7r-vm99-p7vx",
-      "date": "2026-11-03T17:37:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flowise] Duplicate Advisory : Flowise allows arbitrary file write to RCE",
-      "url": "https://github.com/advisories/GHSA-c3hj-m5hq-59xw",
-      "date": "2026-11-03T17:36:50.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[flowise] Duplicate Advisory: Flowise has unsandboxed remote code execution via Custom MCP",
-      "url": "https://github.com/advisories/GHSA-q2xp-j85q-883h",
-      "date": "2026-11-03T17:36:24.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
