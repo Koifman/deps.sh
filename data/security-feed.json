@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-11-04T01:09:46.305Z",
+  "fetchedAt": "2026-11-04T08:54:29.899Z",
   "entries": [
+    {
+      "title": "[js-toml] js-toml vulnerable to CPU exhaustion via O(n^2) BigInt construction on radix-prefixed integer literals",
+      "url": "https://github.com/advisories/GHSA-wp3c-266w-4qfq",
+      "date": "2026-11-04T03:41:52.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[vm2] VM2 Has a Sandbox Escape Issue via SuppressedError",
+      "url": "https://github.com/advisories/GHSA-55hx-c926-fr95",
+      "date": "2026-11-04T03:29:32.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vm2] VM2 Sandbox Breakout Through __lookupGetter__",
+      "url": "https://github.com/advisories/GHSA-grj5-jjm8-h35p",
+      "date": "2026-11-04T03:28:54.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[vm2] VM2 Has Sandbox Breakout Through Inspect Function",
+      "url": "https://github.com/advisories/GHSA-v37h-5mfm-c47c",
+      "date": "2026-11-04T03:28:26.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[nltk] NLTK has a Downloader Path Traversal Vulnerability (AFO) - Arbitrary File Overwrite",
+      "url": "https://github.com/advisories/GHSA-469j-vmhf-r6v7",
+      "date": "2026-11-04T03:13:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[nltk] NLTK has a Path Traversal issue",
+      "url": "https://github.com/advisories/GHSA-68j8-pq59-fqgm",
+      "date": "2026-11-04T03:13:12.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[lodash.unset] Lodash has Prototype Pollution Vulnerability in `_.unset`, `_.omit`, and `_.pullAt` functions",
+      "url": "https://github.com/advisories/GHSA-xxjr-mmjv-4gpg",
+      "date": "2026-11-04T03:08:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lodash.omit] Lodash has Prototype Pollution Vulnerability in `_.unset`, `_.omit`, and `_.pullAt` functions",
+      "url": "https://github.com/advisories/GHSA-xxjr-mmjv-4gpg",
+      "date": "2026-11-04T03:08:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[lodash-es] Lodash has Prototype Pollution Vulnerability in `_.unset`, `_.omit`, and `_.pullAt` functions",
+      "url": "https://github.com/advisories/GHSA-xxjr-mmjv-4gpg",
+      "date": "2026-11-04T03:08:57.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[torch] PyTorch Vulnerable to Remote Code Execution via Untrusted Checkpoint Files",
+      "url": "https://github.com/advisories/GHSA-63cw-57p8-fm3p",
+      "date": "2026-11-04T03:06:49.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[open-webui] Open WebUI's API key endpoint restrictions bypassed via `x-api-key` header — full message processing on restricted endpoints",
       "url": "https://github.com/advisories/GHSA-57q6-fvp4-pqmm",
@@ -70,75 +140,6 @@
       "date": "2026-11-03T17:36:24.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[flowise] Duplicate Advisory : Flowise has arbitrary file access due to missing chat flow id validation",
-      "url": "https://github.com/advisories/GHSA-w5r9-j49j-2m55",
-      "date": "2026-11-03T17:35:34.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[feast] Feast vulnerable to arbitrary code execution via unsafe deserialization of dill-serialized UDFs",
-      "url": "https://github.com/advisories/GHSA-gg2p-37pv-v7fq",
-      "date": "2026-11-03T16:23:47.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[lodash.omit] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
-      "date": "2026-11-03T15:37:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lodash.unset] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
-      "date": "2026-11-03T15:37:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lodash-amd] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
-      "date": "2026-11-03T15:37:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lodash-es] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
-      "date": "2026-11-03T15:37:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lodash] lodash vulnerable to prototype pollution via array-path bypass in `_.unset`, `_.omit`, and `_.pullAt",
-      "url": "https://github.com/advisories/GHSA-f23m-r3pf-42rh",
-      "date": "2026-11-03T15:37:13.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0436: Vulnerability in calamine",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0436.html",
-      "date": "2026-11-03T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[apache-airflow] Apache Airflow: Authenticated users can bypass the `is_safe_url` check",
-      "url": "https://github.com/advisories/GHSA-6hcw-qqr8-pjj8",
-      "date": "2026-11-02T23:08:07.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] NLTK: Model-artifact APIs bypass pathsec and touch files outside allowed roots",
-      "url": "https://github.com/advisories/GHSA-8mgp-746c-j5xp",
-      "date": "2026-11-02T22:06:21.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
