@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-05T12:05:24.762Z",
+  "fetchedAt": "2026-11-05T20:32:59.957Z",
   "entries": [
+    {
+      "title": "[flowise] Duplicate Advisory: INVITED users auto-promoted via SSO email match (invite-token bypass)",
+      "url": "https://github.com/advisories/GHSA-mgrx-3hqw-485h",
+      "date": "2026-11-05T15:18:09.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[urwid] Duplicate Advisory: urwid: Insecure PRNG and Information Exposure in Web Display Backend",
+      "url": "https://github.com/advisories/GHSA-83x9-8wvq-rrcp",
+      "date": "2026-11-05T15:17:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0437: Vulnerability in azure_security_keyvault_certificates",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0437.html",
@@ -120,20 +134,6 @@
       "date": "2026-11-04T03:13:12.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[lodash.unset] Lodash has Prototype Pollution Vulnerability in `_.unset`, `_.omit`, and `_.pullAt` functions",
-      "url": "https://github.com/advisories/GHSA-xxjr-mmjv-4gpg",
-      "date": "2026-11-04T03:08:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[lodash.omit] Lodash has Prototype Pollution Vulnerability in `_.unset`, `_.omit`, and `_.pullAt` functions",
-      "url": "https://github.com/advisories/GHSA-xxjr-mmjv-4gpg",
-      "date": "2026-11-04T03:08:57.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
