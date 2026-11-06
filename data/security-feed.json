@@ -1,6 +1,48 @@
 {
-  "fetchedAt": "2026-11-05T20:32:59.957Z",
+  "fetchedAt": "2026-11-06T01:27:21.654Z",
   "entries": [
+    {
+      "title": "[qwc2] QGIS QWC2 Cross-Site Scripting vulnerability",
+      "url": "https://github.com/advisories/GHSA-gxp8-m5rq-3m38",
+      "date": "2026-11-05T21:07:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[oauthlib] OAuthLib: Bearer token can be retrieved as long as client knows a valid client ID for device workflow",
+      "url": "https://github.com/advisories/GHSA-3jp2-3mrg-2vxc",
+      "date": "2026-11-05T20:58:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[openclaw] OpenClaw is vulnerable to Path Traversal through path validation bypass",
+      "url": "https://github.com/advisories/GHSA-hggm-x7r9-mm7v",
+      "date": "2026-11-05T20:48:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[filecoin-pin] filecoin-pin: Unbounded DAG pinning can exhaust server resources",
+      "url": "https://github.com/advisories/GHSA-m5ph-mmg5-6w5h",
+      "date": "2026-11-05T18:07:31.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[banks] Banks: Unsafe importlib.import_module of attacker-controlled Tool.import_path in CompletionExtension allows RCE",
+      "url": "https://github.com/advisories/GHSA-64vx-6h2c-rjh7",
+      "date": "2026-11-05T17:57:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@siteboon/claude-code-ui] @siteboon/claude-code-ui is Vulnerable to Command Injection via Multiple Parameters",
+      "url": "https://github.com/advisories/GHSA-f2fc-vc88-6w7q",
+      "date": "2026-11-05T17:56:40.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "[flowise] Duplicate Advisory: INVITED users auto-promoted via SSO email match (invite-token bypass)",
       "url": "https://github.com/advisories/GHSA-mgrx-3hqw-485h",
@@ -92,48 +134,6 @@
       "date": "2026-11-04T16:14:35.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[js-toml] js-toml vulnerable to CPU exhaustion via O(n^2) BigInt construction on radix-prefixed integer literals",
-      "url": "https://github.com/advisories/GHSA-wp3c-266w-4qfq",
-      "date": "2026-11-04T03:41:52.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[vm2] VM2 Has a Sandbox Escape Issue via SuppressedError",
-      "url": "https://github.com/advisories/GHSA-55hx-c926-fr95",
-      "date": "2026-11-04T03:29:32.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] VM2 Sandbox Breakout Through __lookupGetter__",
-      "url": "https://github.com/advisories/GHSA-grj5-jjm8-h35p",
-      "date": "2026-11-04T03:28:54.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[vm2] VM2 Has Sandbox Breakout Through Inspect Function",
-      "url": "https://github.com/advisories/GHSA-v37h-5mfm-c47c",
-      "date": "2026-11-04T03:28:26.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[nltk] NLTK has a Downloader Path Traversal Vulnerability (AFO) - Arbitrary File Overwrite",
-      "url": "https://github.com/advisories/GHSA-469j-vmhf-r6v7",
-      "date": "2026-11-04T03:13:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] NLTK has a Path Traversal issue",
-      "url": "https://github.com/advisories/GHSA-68j8-pq59-fqgm",
-      "date": "2026-11-04T03:13:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
