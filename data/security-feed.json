@@ -1,6 +1,41 @@
 {
-  "fetchedAt": "2026-11-06T17:19:50.975Z",
+  "fetchedAt": "2026-11-06T22:57:02.760Z",
   "entries": [
+    {
+      "title": "[GeoNode] GeoNode has Stored XSS in Documents metadata abstract field",
+      "url": "https://github.com/advisories/GHSA-r4hm-p9f9-fj9v",
+      "date": "2026-11-06T19:50:35.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[GeoNode] GeoNode has Unrestricted File Upload",
+      "url": "https://github.com/advisories/GHSA-fqpv-mq26-pr4j",
+      "date": "2026-11-06T19:41:24.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[GeoNode] GeoNode has OS command injection via uploaded file layer name",
+      "url": "https://github.com/advisories/GHSA-9fpx-fr6j-2vh6",
+      "date": "2026-11-06T19:39:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[trapster] Trapster Community: Unauthenticated malformed DNS compression pointers crash per-packet honeypot handler",
+      "url": "https://github.com/advisories/GHSA-mxwc-wh95-pw4g",
+      "date": "2026-11-06T19:28:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[nbconvert] jupyter/nbconvert allows Cross-site Scripting (XSS) via unsanitized `text/vnd.mermaid` output in HTML exports",
+      "url": "https://github.com/advisories/GHSA-9754-6rhw-gj3h",
+      "date": "2026-11-06T17:50:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0443: Vulnerability in actix-files",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0443.html",
@@ -92,41 +127,6 @@
       "date": "2026-11-05T20:58:34.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[openclaw] OpenClaw is vulnerable to Path Traversal through path validation bypass",
-      "url": "https://github.com/advisories/GHSA-hggm-x7r9-mm7v",
-      "date": "2026-11-05T20:48:29.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[filecoin-pin] filecoin-pin: Unbounded DAG pinning can exhaust server resources",
-      "url": "https://github.com/advisories/GHSA-m5ph-mmg5-6w5h",
-      "date": "2026-11-05T18:07:31.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[banks] Banks: Unsafe importlib.import_module of attacker-controlled Tool.import_path in CompletionExtension allows RCE",
-      "url": "https://github.com/advisories/GHSA-64vx-6h2c-rjh7",
-      "date": "2026-11-05T17:57:44.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@siteboon/claude-code-ui] @siteboon/claude-code-ui is Vulnerable to Command Injection via Multiple Parameters",
-      "url": "https://github.com/advisories/GHSA-f2fc-vc88-6w7q",
-      "date": "2026-11-05T17:56:40.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[flowise] Duplicate Advisory: INVITED users auto-promoted via SSO email match (invite-token bypass)",
-      "url": "https://github.com/advisories/GHSA-mgrx-3hqw-485h",
-      "date": "2026-11-05T15:18:09.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
