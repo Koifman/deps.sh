@@ -1,6 +1,84 @@
 {
-  "fetchedAt": "2026-11-06T09:11:00.956Z",
+  "fetchedAt": "2026-11-06T17:19:50.975Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0443: Vulnerability in actix-files",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0443.html",
+      "date": "2026-11-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0444: astral-tl is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0444.html",
+      "date": "2026-11-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0447: Vulnerability in actix-web",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0447.html",
+      "date": "2026-11-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0445: Vulnerability in vodozemac",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0445.html",
+      "date": "2026-11-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0451: Vulnerability in vodozemac",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0451.html",
+      "date": "2026-11-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0452: Vulnerability in surrealkv",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0452.html",
+      "date": "2026-11-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0453: Vulnerability in surrealdb",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0453.html",
+      "date": "2026-11-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0454: Vulnerability in surrealdb-core",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0454.html",
+      "date": "2026-11-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0446: Vulnerability in actix-http",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0446.html",
+      "date": "2026-11-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0448: Vulnerability in actix-http",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0448.html",
+      "date": "2026-11-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0455: Vulnerability in actix-http",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0455.html",
+      "date": "2026-11-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0449: ocipkg is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0449.html",
+      "date": "2026-11-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0450: Vulnerability in ocipkg",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0450.html",
+      "date": "2026-11-06T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[qwc2] QGIS QWC2 Cross-Site Scripting vulnerability",
       "url": "https://github.com/advisories/GHSA-gxp8-m5rq-3m38",
@@ -49,91 +127,6 @@
       "date": "2026-11-05T15:18:09.000Z",
       "ecosystem": "npm",
       "severity": "CRITICAL"
-    },
-    {
-      "title": "[urwid] Duplicate Advisory: urwid: Insecure PRNG and Information Exposure in Web Display Backend",
-      "url": "https://github.com/advisories/GHSA-83x9-8wvq-rrcp",
-      "date": "2026-11-05T15:17:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "RUSTSEC-2026-0437: Vulnerability in azure_security_keyvault_certificates",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0437.html",
-      "date": "2026-11-05T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0438: Vulnerability in azure_security_keyvault_secrets",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0438.html",
-      "date": "2026-11-05T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0439: Vulnerability in azure_security_keyvault_keys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0439.html",
-      "date": "2026-11-05T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0440: astral-tokio-tar is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0440.html",
-      "date": "2026-11-05T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0441: pin-utils is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0441.html",
-      "date": "2026-11-05T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0442: Unsoundness in arrow-data",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0442.html",
-      "date": "2026-11-05T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[protobufjs] protobufjs has an arbitrary code execution issue",
-      "url": "https://github.com/advisories/GHSA-xq3m-2v4x-88gg",
-      "date": "2026-11-04T17:14:43.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[protobufjs] protobufjs has an arbitrary code execution issue",
-      "url": "https://github.com/advisories/GHSA-xq3m-2v4x-88gg",
-      "date": "2026-11-04T17:14:43.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@payloadcms/storage-vercel-blob] @payloadcms/storage-vercel-blob has access control bypass of uploads in Vercel Storage adapter",
-      "url": "https://github.com/advisories/GHSA-mc8m-rr6c-r5qr",
-      "date": "2026-11-04T17:00:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@payloadcms/storage-vercel-blob] @payloadcms/storage-vercel-blob has access control bypass of uploads in Vercel Storage adapter",
-      "url": "https://github.com/advisories/GHSA-mc8m-rr6c-r5qr",
-      "date": "2026-11-04T17:00:40.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[minimatch] minimatch has potential denial of service via globparts amplification",
-      "url": "https://github.com/advisories/GHSA-g3hv-75wg-m249",
-      "date": "2026-11-04T16:50:04.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[odf-kit] odf-kit: HTML injection leading to XSS in odtToHtml() and odsToHtml() via unescaped style attribute values",
-      "url": "https://github.com/advisories/GHSA-3cgg-c5pp-57h6",
-      "date": "2026-11-04T16:14:35.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
