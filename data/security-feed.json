@@ -1,6 +1,20 @@
 {
-  "fetchedAt": "2026-11-06T22:57:02.760Z",
+  "fetchedAt": "2026-11-07T02:40:14.867Z",
   "entries": [
+    {
+      "title": "[paramiko] Paramiko rsakey.py allows the SHA-1 algorithm",
+      "url": "https://github.com/advisories/GHSA-r374-rxx8-8654",
+      "date": "2026-11-07T00:21:04.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[misp-modules] misp-modules has unsafe remote resource fetching in expansion",
+      "url": "https://github.com/advisories/GHSA-fhq3-2gf3-8f3j",
+      "date": "2026-11-07T00:15:48.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "[GeoNode] GeoNode has Stored XSS in Documents metadata abstract field",
       "url": "https://github.com/advisories/GHSA-r4hm-p9f9-fj9v",
@@ -113,20 +127,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0450.html",
       "date": "2026-11-06T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "[qwc2] QGIS QWC2 Cross-Site Scripting vulnerability",
-      "url": "https://github.com/advisories/GHSA-gxp8-m5rq-3m38",
-      "date": "2026-11-05T21:07:15.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[oauthlib] OAuthLib: Bearer token can be retrieved as long as client knows a valid client ID for device workflow",
-      "url": "https://github.com/advisories/GHSA-3jp2-3mrg-2vxc",
-      "date": "2026-11-05T20:58:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
