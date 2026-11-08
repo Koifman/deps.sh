@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-11-07T20:48:13.669Z",
-  "count": 131,
+  "scannedAt": "2026-11-08T00:23:36.789Z",
+  "count": 133,
   "packages": [
     {
       "name": "canvg",
@@ -147,15 +147,6 @@
       "currentOwner": "housseindjirdeh"
     },
     {
-      "name": "babylon",
-      "version": "6.18.0",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "sebmck",
-      "currentOwner": "hzoo"
-    },
-    {
       "name": "cloudevents",
       "version": "10.0.0",
       "ecosystem": "npm",
@@ -163,6 +154,15 @@
       "level": "MODERATE",
       "previousOwner": "tjanczuk",
       "currentOwner": "lholmquist"
+    },
+    {
+      "name": "babylon",
+      "version": "6.18.0",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "sebmck",
+      "currentOwner": "hzoo"
     },
     {
       "name": "mark.js",
@@ -588,8 +588,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/number",
-      "version": "4.2.6",
+      "name": "@inquirer/expand",
+      "version": "5.1.8",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -597,8 +597,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/expand",
-      "version": "5.1.8",
+      "name": "@inquirer/number",
+      "version": "4.2.6",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -624,15 +624,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@supabase/supabase-js",
-      "version": "2.119.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "kiwicopple",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@inquirer/editor",
       "version": "5.3.6",
       "ecosystem": "npm",
@@ -642,17 +633,17 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/abort-controller",
-      "version": "2.2.0",
+      "name": "@supabase/supabase-js",
+      "version": "2.119.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
-      "previousOwner": "azure-sdk",
-      "currentOwner": "microsoft1es"
+      "previousOwner": "kiwicopple",
+      "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@azure/logger",
-      "version": "1.4.0",
+      "name": "@azure/abort-controller",
+      "version": "2.2.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -667,6 +658,15 @@
       "level": "MODERATE",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@azure/logger",
+      "version": "1.4.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "azure-sdk",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "openid-client",
@@ -759,17 +759,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "yuku-core",
-      "version": "0.19.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "arshadyaseen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "inversify",
-      "version": "8.2.4",
+      "version": "8.3.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -783,6 +774,15 @@
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "jlipps",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "yuku-core",
+      "version": "0.19.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "arshadyaseen",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1101,15 +1101,6 @@
       "currentOwner": "lordofbacon"
     },
     {
-      "name": "@oxfmt/binding-linux-arm64-gnu",
-      "version": "0.77.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "gradle-to-js",
       "version": "3.0.2",
       "ecosystem": "npm",
@@ -1130,6 +1121,15 @@
     {
       "name": "oxc-minify",
       "version": "0.157.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxfmt/binding-linux-arm64-gnu",
+      "version": "0.77.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -1174,6 +1174,24 @@
     },
     {
       "name": "@oxc-parser/binding-win32-arm64-msvc",
+      "version": "0.157.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/typescript-win32-x64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
+    },
+    {
+      "name": "@oxc-parser/binding-android-arm-eabi",
       "version": "0.157.0",
       "ecosystem": "npm",
       "score": 20,
