@@ -1,132 +1,145 @@
 {
-  "fetchedAt": "2026-11-10T00:04:51.244Z",
+  "fetchedAt": "2026-11-10T08:11:31.828Z",
   "entries": [
     {
-      "title": "RUSTSEC-2026-0463: Vulnerability in openssl",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0463.html",
-      "date": "2026-11-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0456: Vulnerability in heifer-hevc-dec",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0456.html",
-      "date": "2026-11-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0460: Vulnerability in heifer-hevc-dec",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0460.html",
-      "date": "2026-11-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0461: Vulnerability in rmcp",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0461.html",
-      "date": "2026-11-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0457: Vulnerability in rmcp",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0457.html",
-      "date": "2026-11-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0462: Vulnerability in rmcp",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0462.html",
-      "date": "2026-11-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0458: Vulnerability in heifer-isobmff",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0458.html",
-      "date": "2026-11-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0459: Vulnerability in libsqlite3-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0459.html",
-      "date": "2026-11-09T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[paramiko] Paramiko rsakey.py allows the SHA-1 algorithm",
-      "url": "https://github.com/advisories/GHSA-r374-rxx8-8654",
-      "date": "2026-11-07T00:21:04.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[misp-modules] misp-modules has unsafe remote resource fetching in expansion",
-      "url": "https://github.com/advisories/GHSA-fhq3-2gf3-8f3j",
-      "date": "2026-11-07T00:15:48.000Z",
+      "title": "[kiwitcms] Kiwi TCMS account confirmation open redirect through protocol-relative URLs",
+      "url": "https://github.com/advisories/GHSA-gcwf-c25f-p9rv",
+      "date": "2026-11-09T23:24:17.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[GeoNode] GeoNode has Stored XSS in Documents metadata abstract field",
-      "url": "https://github.com/advisories/GHSA-r4hm-p9f9-fj9v",
-      "date": "2026-11-06T19:50:35.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "title": "[@anthropic-ai/claude-code] Claude Code: TOCTOU Race in Edit Tool Allows File Writes Outside the Workspace",
+      "url": "https://github.com/advisories/GHSA-5xjx-9qx6-jcrv",
+      "date": "2026-11-09T22:42:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "[GeoNode] GeoNode has Unrestricted File Upload",
-      "url": "https://github.com/advisories/GHSA-fqpv-mq26-pr4j",
-      "date": "2026-11-06T19:41:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
+      "title": "[moleculer] Moleculer: Unauthenticated Denial of Service via negative length field in the TCP transporter packet parser",
+      "url": "https://github.com/advisories/GHSA-h89v-g948-47vp",
+      "date": "2026-11-09T22:31:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     },
     {
-      "title": "[GeoNode] GeoNode has OS command injection via uploaded file layer name",
-      "url": "https://github.com/advisories/GHSA-9fpx-fr6j-2vh6",
-      "date": "2026-11-06T19:39:39.000Z",
+      "title": "[moleculer] Moleculer: Unauthenticated Denial of Service via negative length field in the TCP transporter packet parser",
+      "url": "https://github.com/advisories/GHSA-h89v-g948-47vp",
+      "date": "2026-11-09T22:31:17.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[code-graph-rag] Code Graph RAG structural tools follow out-of-root symlinks",
+      "url": "https://github.com/advisories/GHSA-85gg-2gfq-q95m",
+      "date": "2026-11-09T22:16:42.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[trapster] Trapster Community: Unauthenticated malformed DNS compression pointers crash per-packet honeypot handler",
-      "url": "https://github.com/advisories/GHSA-mxwc-wh95-pw4g",
-      "date": "2026-11-06T19:28:52.000Z",
+      "title": "[gpustack] GPUStack: Authentication bypass via trusted loopback source (reverse-proxy TCP peer or X-GPUStack-Real-IP header) grants unauthenticated admin",
+      "url": "https://github.com/advisories/GHSA-gj9m-f8ph-pmhr",
+      "date": "2026-11-09T22:15:29.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[djust] djust: A template binding inherits a context safety grant it never earned (XSS)",
+      "url": "https://github.com/advisories/GHSA-xjw9-38cr-6372",
+      "date": "2026-11-09T22:09:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[djust] djust: A template binding inherits a context safety grant it never earned (XSS)",
+      "url": "https://github.com/advisories/GHSA-xjw9-38cr-6372",
+      "date": "2026-11-09T22:09:15.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[urwid] Urwid: handle_short_request() crashes on non-ASCII POST body (UnicodeEncodeError DoS)",
+      "url": "https://github.com/advisories/GHSA-cp25-j9x5-p5xm",
+      "date": "2026-11-09T22:05:08.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "[nbconvert] jupyter/nbconvert allows Cross-site Scripting (XSS) via unsanitized `text/vnd.mermaid` output in HTML exports",
-      "url": "https://github.com/advisories/GHSA-9754-6rhw-gj3h",
-      "date": "2026-11-06T17:50:16.000Z",
+      "title": "[fast-agent-mcp] fast-agent: `fast-agent serve` binds HTTP to 0.0.0.0 with no authentication by default; with --shell this is unauthenticated remote command execution",
+      "url": "https://github.com/advisories/GHSA-9vhv-g5hf-m7m7",
+      "date": "2026-11-09T22:01:37.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0443: Vulnerability in actix-files",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0443.html",
-      "date": "2026-11-06T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[zizmor] zizmor: Debug logging prints available GitHub credentials in cleartext",
+      "url": "https://github.com/advisories/GHSA-f42p-wjw5-97qh",
+      "date": "2026-11-09T21:56:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0444: astral-tl is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0444.html",
-      "date": "2026-11-06T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[cornac] Cornac: Path Traversal via _extract_archive() in download.py",
+      "url": "https://github.com/advisories/GHSA-rrh3-cwwj-g5mg",
+      "date": "2026-11-09T21:46:37.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0447: Vulnerability in actix-web",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0447.html",
-      "date": "2026-11-06T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[code-graph-rag] Code Graph RAG: MCP paginated read_file path traversal / arbitrary file read",
+      "url": "https://github.com/advisories/GHSA-vvr2-h2jp-838m",
+      "date": "2026-11-09T21:21:32.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0445: Vulnerability in vodozemac",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0445.html",
-      "date": "2026-11-06T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[@tsparticles/mcp-server] tsParticles: A single anonymous MCP session can monopolize HTTP mode and deny new clients",
+      "url": "https://github.com/advisories/GHSA-h7c4-q426-7jh9",
+      "date": "2026-11-09T21:14:52.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0451: Vulnerability in vodozemac",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0451.html",
-      "date": "2026-11-06T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[@tsparticles/mcp-server] tsParticles: Malformed JSON requests can terminate the @tsparticles/mcp-server HTTP process",
+      "url": "https://github.com/advisories/GHSA-4p8p-pjpq-2w7h",
+      "date": "2026-11-09T21:13:56.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@tsparticles/mcp-server] tsParticles: Unbounded HTTP Request Body Buffering in @tsparticles/mcp-server Leads to Remote DoS",
+      "url": "https://github.com/advisories/GHSA-447x-qqwf-m7xq",
+      "date": "2026-11-09T21:10:48.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[ag-psd] ag-psd: Uncontrolled Memory Allocation in PSD Layer Decoding (totalMemoryLimit bypass)",
+      "url": "https://github.com/advisories/GHSA-6w3r-6hpr-hp6p",
+      "date": "2026-11-09T21:08:29.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[isomorphic-git] isomorphic-git: Path traversal via a \"..\" tree-entry name writes files outside the working directory on clone/checkout",
+      "url": "https://github.com/advisories/GHSA-cw2g-2vwq-88w6",
+      "date": "2026-11-09T20:13:52.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[isomorphic-git] isomorphic-git: Circular symbolic references cause non-terminating resolution (DoS)",
+      "url": "https://github.com/advisories/GHSA-96wc-2m84-2cj7",
+      "date": "2026-11-09T19:58:33.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[isomorphic-git] isomorphic-git: Arbitrary file write outside of working tree via directory symlink during checkout (potential RCE)",
+      "url": "https://github.com/advisories/GHSA-9qw7-j9xw-fv9c",
+      "date": "2026-11-09T19:53:46.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
     }
   ]
 }
