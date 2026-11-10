@@ -1,144 +1,144 @@
 {
-  "fetchedAt": "2026-11-10T16:56:07.151Z",
+  "fetchedAt": "2026-11-10T22:15:29.092Z",
   "entries": [
     {
-      "title": "[@ohif/extension-dicom-pdf] OHIF Viewers: DOM-Based Cross Site Scripting (XSS) through MIME type of document",
-      "url": "https://github.com/advisories/GHSA-xwgp-w3pj-q5h3",
-      "date": "2026-11-10T15:57:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@ohif/extension-dicom-pdf] OHIF Viewers: DOM-Based Cross Site Scripting (XSS) through MIME type of document",
-      "url": "https://github.com/advisories/GHSA-xwgp-w3pj-q5h3",
-      "date": "2026-11-10T15:57:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@ohif/extension-dicom-pdf] OHIF Viewers: DOM-Based Cross Site Scripting (XSS) through MIME type of document",
-      "url": "https://github.com/advisories/GHSA-xwgp-w3pj-q5h3",
-      "date": "2026-11-10T15:57:54.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[node-forge] Forge: Certificate signature verified with the issuer's RSA signature scheme",
-      "url": "https://github.com/advisories/GHSA-9wg5-mj3p-v49q",
-      "date": "2026-11-10T15:57:49.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[node-forge] Forge: Incomplete PKCS#7 padding validation in AES/DES CBC and ECB decryption",
-      "url": "https://github.com/advisories/GHSA-2vgq-wchc-25w7",
-      "date": "2026-11-10T15:57:48.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
-    },
-    {
-      "title": "[node-forge] Forge: X.509 pathLenConstraint not enforced by verifyCertificateChain() for CA certificates without keyUsage",
-      "url": "https://github.com/advisories/GHSA-h46v-rmh6-fq4f",
-      "date": "2026-11-10T15:57:45.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[node-forge] Forge: ASN.1 resource exhaustion via BIT STRING decoding in asn1.fromDer",
-      "url": "https://github.com/advisories/GHSA-rhr8-3pm8-cq29",
-      "date": "2026-11-10T15:57:42.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[node-forge] Forge: RSA PKCS#1 v1.5 signature forgery via non-canonical DigestInfo encoding",
-      "url": "https://github.com/advisories/GHSA-6qrw-m8cv-hcxf",
-      "date": "2026-11-10T15:57:35.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[effect] Effect: Cookie attribute injection via domain, path, and name fields in @effect/platform makeCookie()",
-      "url": "https://github.com/advisories/GHSA-chp3-j5qr-2vfr",
-      "date": "2026-11-10T15:57:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@effect/platform] Effect: Cookie attribute injection via domain, path, and name fields in @effect/platform makeCookie()",
-      "url": "https://github.com/advisories/GHSA-chp3-j5qr-2vfr",
-      "date": "2026-11-10T15:57:33.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[OctoPrint] OctoPrint: Stored XSS via saved connection parameters",
-      "url": "https://github.com/advisories/GHSA-p623-mxf7-qxjm",
-      "date": "2026-11-10T15:57:30.000Z",
+      "title": "[compose-lint] compose-lint: File paths embedded in pull requests can inject CI workflow commands through command-line error messages",
+      "url": "https://github.com/advisories/GHSA-8v59-qmwv-4p6q",
+      "date": "2026-11-10T21:58:54.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
     },
     {
-      "title": "[altair-fastify-plugin] Altair: DOM-based XSS via attacker-controlled script URLs in the iframe sandbox",
-      "url": "https://github.com/advisories/GHSA-752m-7p75-49gf",
-      "date": "2026-11-10T15:57:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[altair-koa-middleware] Altair: DOM-based XSS via attacker-controlled script URLs in the iframe sandbox",
-      "url": "https://github.com/advisories/GHSA-752m-7p75-49gf",
-      "date": "2026-11-10T15:57:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[altair-express-middleware] Altair: DOM-based XSS via attacker-controlled script URLs in the iframe sandbox",
-      "url": "https://github.com/advisories/GHSA-752m-7p75-49gf",
-      "date": "2026-11-10T15:57:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[altair-static] Altair: DOM-based XSS via attacker-controlled script URLs in the iframe sandbox",
-      "url": "https://github.com/advisories/GHSA-752m-7p75-49gf",
-      "date": "2026-11-10T15:57:29.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[bitcoinjs-lib] bitcoinjs-lib: Undetected merkle node duplication in block root computation validates a forged transaction list",
-      "url": "https://github.com/advisories/GHSA-8vv3-6qpc-gpw6",
-      "date": "2026-11-10T15:57:27.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[bitcoinjs-lib] bitcoinjs-lib: Undetected merkle node duplication in block root computation validates a forged transaction list",
-      "url": "https://github.com/advisories/GHSA-8vv3-6qpc-gpw6",
-      "date": "2026-11-10T15:57:27.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[bitcoinjs-lib] bitcoinjs-lib: Undetected merkle node duplication in block root computation validates a forged transaction list",
-      "url": "https://github.com/advisories/GHSA-8vv3-6qpc-gpw6",
-      "date": "2026-11-10T15:57:27.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[compose-lint] compose-lint: Incomplete fix for GHSA-jf3h-8jvx-vcrg: a run stopped at the finding limit quotes a secret from a CI-generated `.env`",
-      "url": "https://github.com/advisories/GHSA-rm8w-w798-g545",
-      "date": "2026-11-10T15:57:23.000Z",
+      "title": "[compose-lint] compose-lint: Text in a pull request can issue CI workflow commands through JSON and SARIF output on stdout",
+      "url": "https://github.com/advisories/GHSA-hr4h-4c45-v4q4",
+      "date": "2026-11-10T21:40:51.000Z",
       "ecosystem": "pypi",
       "severity": "LOW"
     },
     {
-      "title": "[gpustack] GPUStack: Missing authorization on several cluster and resource endpoints allows cross-user access and cluster takeover",
-      "url": "https://github.com/advisories/GHSA-3hch-x692-6qj3",
-      "date": "2026-11-10T15:57:22.000Z",
-      "ecosystem": "pypi",
+      "title": "[node-forge] Forge: Ed25519 signature verification accepts small-order public keys",
+      "url": "https://github.com/advisories/GHSA-6889-vf6x-f3g5",
+      "date": "2026-11-10T21:18:23.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[node-forge] Forge: TLS client crash on an unsupported ServerHello compression method",
+      "url": "https://github.com/advisories/GHSA-w4xr-hqv8-ch44",
+      "date": "2026-11-10T21:17:15.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[node-forge] Forge: ReDoS in forge.http response header and cookie trimming",
+      "url": "https://github.com/advisories/GHSA-6cv4-p8m7-4r25",
+      "date": "2026-11-10T21:16:23.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[node-forge] Forge: TLS client crash on a handshake record received without a session",
+      "url": "https://github.com/advisories/GHSA-j8rw-jp99-435v",
+      "date": "2026-11-10T21:14:26.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser: Quadratic CPU consumption scanning unterminated stop-node tags",
+      "url": "https://github.com/advisories/GHSA-474x-hrwr-fgx4",
+      "date": "2026-11-10T21:09:45.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
+    },
+    {
+      "title": "[mongoose] Mongoose: Discriminator key values matching inherited properties (e.g. __t: 'constructor') bypass schema casting and can poison collections",
+      "url": "https://github.com/advisories/GHSA-wr5m-5jph-8m96",
+      "date": "2026-11-10T20:57:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mongoose] Mongoose: Discriminator key values matching inherited properties (e.g. __t: 'constructor') bypass schema casting and can poison collections",
+      "url": "https://github.com/advisories/GHSA-wr5m-5jph-8m96",
+      "date": "2026-11-10T20:57:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mongoose] Mongoose: Discriminator key values matching inherited properties (e.g. __t: 'constructor') bypass schema casting and can poison collections",
+      "url": "https://github.com/advisories/GHSA-wr5m-5jph-8m96",
+      "date": "2026-11-10T20:57:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mongoose] Mongoose: Discriminator key values matching inherited properties (e.g. __t: 'constructor') bypass schema casting and can poison collections",
+      "url": "https://github.com/advisories/GHSA-wr5m-5jph-8m96",
+      "date": "2026-11-10T20:57:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mongoose] Mongoose walks into inherited properties when hydrating, setting, and merging, allowing overwrites of built-in functions (denial of service) and shared schema state",
+      "url": "https://github.com/advisories/GHSA-8332-j7wj-wjw4",
+      "date": "2026-11-10T20:56:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mongoose] Mongoose walks into inherited properties when hydrating, setting, and merging, allowing overwrites of built-in functions (denial of service) and shared schema state",
+      "url": "https://github.com/advisories/GHSA-8332-j7wj-wjw4",
+      "date": "2026-11-10T20:56:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mongoose] Mongoose walks into inherited properties when hydrating, setting, and merging, allowing overwrites of built-in functions (denial of service) and shared schema state",
+      "url": "https://github.com/advisories/GHSA-8332-j7wj-wjw4",
+      "date": "2026-11-10T20:56:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mongoose] Mongoose walks into inherited properties when hydrating, setting, and merging, allowing overwrites of built-in functions (denial of service) and shared schema state",
+      "url": "https://github.com/advisories/GHSA-8332-j7wj-wjw4",
+      "date": "2026-11-10T20:56:18.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mongoose] Mongoose: Prototype pollution via Schema.prototype.virtual()",
+      "url": "https://github.com/advisories/GHSA-6972-9mcm-vhwj",
+      "date": "2026-11-10T20:46:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mongoose] Mongoose: Prototype pollution via Schema.prototype.virtual()",
+      "url": "https://github.com/advisories/GHSA-6972-9mcm-vhwj",
+      "date": "2026-11-10T20:46:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mongoose] Mongoose: Prototype pollution via Schema.prototype.virtual()",
+      "url": "https://github.com/advisories/GHSA-6972-9mcm-vhwj",
+      "date": "2026-11-10T20:46:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mongoose] Mongoose: Prototype pollution via Schema.prototype.virtual()",
+      "url": "https://github.com/advisories/GHSA-6972-9mcm-vhwj",
+      "date": "2026-11-10T20:46:34.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mongoose] Mongoose: Connection-level sanitizeFilter not applied",
+      "url": "https://github.com/advisories/GHSA-gg4r-jv3p-qx3c",
+      "date": "2026-11-10T19:56:12.000Z",
+      "ecosystem": "npm",
       "severity": "HIGH"
     }
   ]
