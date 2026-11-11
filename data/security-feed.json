@@ -1,6 +1,55 @@
 {
-  "fetchedAt": "2026-11-11T02:39:41.327Z",
+  "fetchedAt": "2026-11-11T10:38:18.791Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0480: Vulnerability in tdx_workload_attestation",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0480.html",
+      "date": "2026-11-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0481: Vulnerability in tdx_workload_attestation",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0481.html",
+      "date": "2026-11-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0482: Vulnerability in cap-primitives",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0482.html",
+      "date": "2026-11-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0483: lwd-uri-util contained malicious code",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0483.html",
+      "date": "2026-11-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0485: Vulnerability in tdx-guest",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0485.html",
+      "date": "2026-11-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0484: Vulnerability in tdx-guest",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0484.html",
+      "date": "2026-11-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0486: Unsoundness in rustix",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0486.html",
+      "date": "2026-11-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "[toml] toml-node: Prototype pollution: parsing a TOML document can write to Object.prototype",
+      "url": "https://github.com/advisories/GHSA-h895-cgqg-jf52",
+      "date": "2026-11-11T05:10:47.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@microsoft/aspire-cli-osx-arm64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
       "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
@@ -84,62 +133,6 @@
       "date": "2026-11-11T00:30:07.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[react-server-dom-webpack] React: Unauthenticated Remote Code Execution in React Server Components",
-      "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
-      "date": "2026-11-10T22:44:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[react-server-dom-webpack] React: Unauthenticated Remote Code Execution in React Server Components",
-      "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
-      "date": "2026-11-10T22:44:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[react-server-dom-webpack] React: Unauthenticated Remote Code Execution in React Server Components",
-      "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
-      "date": "2026-11-10T22:44:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[react-server-dom-webpack] React: Unauthenticated Remote Code Execution in React Server Components",
-      "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
-      "date": "2026-11-10T22:44:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[react-server-dom-turbopack] React: Unauthenticated Remote Code Execution in React Server Components",
-      "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
-      "date": "2026-11-10T22:44:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[react-server-dom-turbopack] React: Unauthenticated Remote Code Execution in React Server Components",
-      "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
-      "date": "2026-11-10T22:44:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[react-server-dom-turbopack] React: Unauthenticated Remote Code Execution in React Server Components",
-      "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
-      "date": "2026-11-10T22:44:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[react-server-dom-turbopack] React: Unauthenticated Remote Code Execution in React Server Components",
-      "url": "https://github.com/advisories/GHSA-xqc2-xf4c-x3h3",
-      "date": "2026-11-10T22:44:13.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
     }
   ]
 }
