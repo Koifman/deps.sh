@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T10:38:18.791Z",
+  "fetchedAt": "2026-11-11T18:31:32.014Z",
   "entries": [
     {
       "title": "RUSTSEC-2026-0480: Vulnerability in tdx_workload_attestation",
@@ -22,6 +22,36 @@
     {
       "title": "RUSTSEC-2026-0483: lwd-uri-util contained malicious code",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0483.html",
+      "date": "2026-11-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0490: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0490.html",
+      "date": "2026-11-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0491: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0491.html",
+      "date": "2026-11-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0489: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0489.html",
+      "date": "2026-11-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0487: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0487.html",
+      "date": "2026-11-11T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0488: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0488.html",
       "date": "2026-11-11T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -94,41 +124,6 @@
     },
     {
       "title": "[@microsoft/aspire-cli-osx-arm64] Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
-      "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
-      "date": "2026-11-11T00:30:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@microsoft/aspire-cli-osx-x64] Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
-      "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
-      "date": "2026-11-11T00:30:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@microsoft/aspire-cli-linux-musl-x64] Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
-      "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
-      "date": "2026-11-11T00:30:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@microsoft/aspire-cli-linux-arm64] Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
-      "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
-      "date": "2026-11-11T00:30:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@microsoft/aspire-cli-linux-x64] Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
-      "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
-      "date": "2026-11-11T00:30:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@microsoft/aspire-cli] Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
       "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
       "date": "2026-11-11T00:30:07.000Z",
       "ecosystem": "npm",
