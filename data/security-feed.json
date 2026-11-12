@@ -1,6 +1,114 @@
 {
-  "fetchedAt": "2026-11-12T01:25:47.091Z",
+  "fetchedAt": "2026-11-12T09:37:00.603Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2024-0450: Vulnerability in russh",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2024-0450.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0494: Vulnerability in russh",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0494.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0493: Vulnerability in russh",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0493.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0496: Vulnerability in russh",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0496.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0495: Vulnerability in russh",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0495.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0492: Vulnerability in russh",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0492.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0500: Vulnerability in bsv-rs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0500.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0497: Vulnerability in bsv-rs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0497.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0498: Vulnerability in bsv-rs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0498.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0499: Vulnerability in bsv-rs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0499.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0501: Vulnerability in bsv-rs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0501.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0502: Vulnerability in sqlcipher-src",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0502.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0503: Vulnerability in eazip",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0503.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0490: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0490.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0491: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0491.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0489: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0489.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0487: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0487.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0488: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0488.html",
+      "date": "2026-11-12T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0480: Vulnerability in tdx_workload_attestation",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0480.html",
@@ -12,122 +120,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0481.html",
       "date": "2026-11-11T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0482: Vulnerability in cap-primitives",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0482.html",
-      "date": "2026-11-11T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0483: lwd-uri-util contained malicious code",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0483.html",
-      "date": "2026-11-11T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0490: Vulnerability in hickory-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0490.html",
-      "date": "2026-11-11T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0491: Vulnerability in hickory-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0491.html",
-      "date": "2026-11-11T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0489: Vulnerability in hickory-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0489.html",
-      "date": "2026-11-11T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0487: Vulnerability in hickory-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0487.html",
-      "date": "2026-11-11T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0488: Vulnerability in hickory-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0488.html",
-      "date": "2026-11-11T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0485: Vulnerability in tdx-guest",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0485.html",
-      "date": "2026-11-11T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0484: Vulnerability in tdx-guest",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0484.html",
-      "date": "2026-11-11T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0486: Unsoundness in rustix",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0486.html",
-      "date": "2026-11-11T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[toml] toml-node: Prototype pollution: parsing a TOML document can write to Object.prototype",
-      "url": "https://github.com/advisories/GHSA-h895-cgqg-jf52",
-      "date": "2026-11-11T05:10:47.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@microsoft/aspire-cli-osx-arm64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
-      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
-      "date": "2026-11-11T00:31:25.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@microsoft/aspire-cli-osx-x64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
-      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
-      "date": "2026-11-11T00:31:25.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@microsoft/aspire-cli-linux-musl-x64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
-      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
-      "date": "2026-11-11T00:31:25.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@microsoft/aspire-cli-linux-arm64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
-      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
-      "date": "2026-11-11T00:31:25.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@microsoft/aspire-cli-linux-x64] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
-      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
-      "date": "2026-11-11T00:31:25.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@microsoft/aspire-cli] Microsoft Security Advisory CVE-2026-120792 - Aspire Information Disclosure Vulnerability",
-      "url": "https://github.com/advisories/GHSA-q6jf-24jf-m3cg",
-      "date": "2026-11-11T00:31:25.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@microsoft/aspire-cli-osx-arm64] Microsoft Security Advisory CVE-2026-120778 - Aspire Elevation of Privilege Vulnerability",
-      "url": "https://github.com/advisories/GHSA-m63f-xhvm-6mv5",
-      "date": "2026-11-11T00:30:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
