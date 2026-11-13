@@ -1,126 +1,145 @@
 {
-  "fetchedAt": "2026-11-13T00:03:21.073Z",
+  "fetchedAt": "2026-11-13T07:44:36.584Z",
   "entries": [
     {
-      "title": "[signalk-server] Signal K Server: Buffered logs exposed to unauthenticated WebSocket clients",
-      "url": "https://github.com/advisories/GHSA-7m8x-x364-m26j",
-      "date": "2026-11-12T19:14:01.000Z",
+      "title": "[rucio] Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
+      "url": "https://github.com/advisories/GHSA-x585-4vv8-2mh2",
+      "date": "2026-11-13T01:09:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[rucio] Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
+      "url": "https://github.com/advisories/GHSA-x585-4vv8-2mh2",
+      "date": "2026-11-13T01:09:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[rucio] Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
+      "url": "https://github.com/advisories/GHSA-x585-4vv8-2mh2",
+      "date": "2026-11-13T01:09:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[rucio] Rucio: Unauthenticated administrator impersonation through SSH challenge tokens",
+      "url": "https://github.com/advisories/GHSA-x585-4vv8-2mh2",
+      "date": "2026-11-13T01:09:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[soupsieve] Soup Sieve: Polynomial-time denial of service in the descendant combinator",
+      "url": "https://github.com/advisories/GHSA-mmhr-3c5m-f64f",
+      "date": "2026-11-13T00:49:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[soupsieve] Soup Sieve: General sibling combinator inside :has() matches untrusted HTML in quadratic time",
+      "url": "https://github.com/advisories/GHSA-4j63-6c4x-wfg4",
+      "date": "2026-11-13T00:45:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[Pillow] Pillow: Memory DoS in TIFF and EXIF IFD parsing via overlapping tag data",
+      "url": "https://github.com/advisories/GHSA-wqgw-9xfh-qf2g",
+      "date": "2026-11-12T23:35:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[Pillow] Pillow: Heap buffer overflow saving TIFF with libtiff when tags override image size",
+      "url": "https://github.com/advisories/GHSA-xcvg-w56q-r89m",
+      "date": "2026-11-12T23:34:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[hono] Hono: `csrf()` does not check requests sent by hyperlink auditing (`text/ping`)",
+      "url": "https://github.com/advisories/GHSA-46wx-v44x-9hh2",
+      "date": "2026-11-12T23:31:26.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2024-0450: Vulnerability in russh",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2024-0450.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[hono] Hono: `validator('form')` skips validation for `multipart/form-data` requests with extra parameters",
+      "url": "https://github.com/advisories/GHSA-4h7h-rv7c-7m2v",
+      "date": "2026-11-12T23:30:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0494: Vulnerability in russh",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0494.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[hono] Hono: `mount()` and `app.mount()` can forward a path that bypasses middleware scoped inside the mount prefix",
+      "url": "https://github.com/advisories/GHSA-4m76-xfj5-7975",
+      "date": "2026-11-12T23:24:12.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0493: Vulnerability in russh",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0493.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[hono] Hono: RegExpRouter skips wildcard middleware for some route sets and for paths with an encoded line terminator",
+      "url": "https://github.com/advisories/GHSA-h7mg-cq63-vhpq",
+      "date": "2026-11-12T23:23:31.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0496: Vulnerability in russh",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0496.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[hono] Hono: `css` helper does not escape a closing tag split between the template and an interpolated value, allowing HTML injection",
+      "url": "https://github.com/advisories/GHSA-3gg2-335m-rxc6",
+      "date": "2026-11-12T23:22:37.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
     },
     {
-      "title": "RUSTSEC-2026-0495: Vulnerability in russh",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0495.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[@grpc/grpc-js-xds] @grpc/grpc-js: safe_regex incorrectly applies partial string matching for patterns with alternation",
+      "url": "https://github.com/advisories/GHSA-r7hq-q2xm-6c5m",
+      "date": "2026-11-12T23:21:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0492: Vulnerability in russh",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0492.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[@grpc/grpc-js-xds] @grpc/grpc-js: safe_regex incorrectly applies partial string matching for patterns with alternation",
+      "url": "https://github.com/advisories/GHSA-r7hq-q2xm-6c5m",
+      "date": "2026-11-12T23:21:58.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0510: Vulnerability in vodozemac",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0510.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[@grpc/grpc-js-xds] @grpc/grpc-js: RBAC override configs in VirtualHost and Route resources are not applied",
+      "url": "https://github.com/advisories/GHSA-gg5j-6742-v827",
+      "date": "2026-11-12T22:55:48.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0500: Vulnerability in bsv-rs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0500.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[@astrojs/solid-js] Astro: Reflected XSS via unescaped slot names in @astrojs/solid-js",
+      "url": "https://github.com/advisories/GHSA-jmv2-qgxf-f995",
+      "date": "2026-11-12T22:34:45.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
     },
     {
-      "title": "RUSTSEC-2026-0497: Vulnerability in bsv-rs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0497.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[@astrojs/svelte] Astro: Reflected XSS via unescaped slot names in @astrojs/svelte",
+      "url": "https://github.com/advisories/GHSA-f4j9-crrj-867q",
+      "date": "2026-11-12T22:34:05.000Z",
+      "ecosystem": "npm",
+      "severity": "LOW"
     },
     {
-      "title": "RUSTSEC-2026-0498: Vulnerability in bsv-rs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0498.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[basic-ftp] basic-ftp: Uncaught exception crashes the Node.js process when a password (or resumed-download path) contains CR/LF",
+      "url": "https://github.com/advisories/GHSA-r4jh-29pc-gfqr",
+      "date": "2026-11-12T22:23:50.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     },
     {
-      "title": "RUSTSEC-2026-0499: Vulnerability in bsv-rs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0499.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0501: Vulnerability in bsv-rs",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0501.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0502: Vulnerability in sqlcipher-src",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0502.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0504: Vulnerability in hickory-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0504.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0505: Vulnerability in hickory-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0505.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0511: Vulnerability in hickory-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0511.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0512: Vulnerability in hickory-proto",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0512.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0514: Vulnerability in hickory-resolver",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0514.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0513: Vulnerability in hickory-resolver",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0513.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
+      "title": "[basic-ftp] basic-ftp: Uncaught TypeError in MLSD directory-listing parser via __proto__ fact name causes DoS in Client.list()",
+      "url": "https://github.com/advisories/GHSA-5pm8-86m8-9m6r",
+      "date": "2026-11-12T21:42:13.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
     }
   ]
 }
