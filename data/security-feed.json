@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-12T18:04:11.661Z",
+  "fetchedAt": "2026-11-13T00:03:21.073Z",
   "entries": [
+    {
+      "title": "[signalk-server] Signal K Server: Buffered logs exposed to unauthenticated WebSocket clients",
+      "url": "https://github.com/advisories/GHSA-7m8x-x364-m26j",
+      "date": "2026-11-12T19:14:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2024-0450: Vulnerability in russh",
       "url": "https://rustsec.org/advisories/RUSTSEC-2024-0450.html",
@@ -112,12 +119,6 @@
     {
       "title": "RUSTSEC-2026-0513: Vulnerability in hickory-resolver",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0513.html",
-      "date": "2026-11-12T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0515: Vulnerability in hickory-resolver",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0515.html",
       "date": "2026-11-12T12:00:00+00:00",
       "ecosystem": "cargo"
     }
