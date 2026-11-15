@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-11-14T21:20:21.034Z",
-  "count": 132,
+  "scannedAt": "2026-11-15T01:44:32.298Z",
+  "count": 133,
   "packages": [
     {
       "name": "canvg",
@@ -220,7 +220,7 @@
     },
     {
       "name": "fallow",
-      "version": "3.43.0",
+      "version": "3.43.1",
       "ecosystem": "npm",
       "score": 32,
       "level": "MODERATE",
@@ -507,8 +507,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/confirm",
-      "version": "6.4.0",
+      "name": "@inquirer/external-editor",
+      "version": "3.1.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -516,8 +516,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/external-editor",
-      "version": "3.1.0",
+      "name": "@inquirer/confirm",
+      "version": "6.4.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -1137,15 +1137,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@typescript/typescript-darwin-arm64",
-      "version": "7.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "typescript-deploys",
-      "currentOwner": "microsoft1es"
-    },
-    {
       "name": "@lottiefiles/dotlottie-web",
       "version": "0.83.2",
       "ecosystem": "npm",
@@ -1162,6 +1153,15 @@
       "level": "LOW",
       "previousOwner": "boshen",
       "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@typescript/typescript-darwin-arm64",
+      "version": "7.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "typescript-deploys",
+      "currentOwner": "microsoft1es"
     },
     {
       "name": "@oxc-parser/binding-openharmony-arm64",
@@ -1182,7 +1182,16 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-android-arm-eabi",
+      "name": "@oxc-parser/binding-linux-ppc64-gnu",
+      "version": "0.158.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-win32-ia32-msvc",
       "version": "0.158.0",
       "ecosystem": "npm",
       "score": 20,
