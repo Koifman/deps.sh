@@ -1,145 +1,145 @@
 {
-  "fetchedAt": "2026-11-16T20:13:39.957Z",
+  "fetchedAt": "2026-11-17T03:37:50.645Z",
   "entries": [
     {
-      "title": "[nltk] NLTK: Quadratic-time CPU denial of service in CCG lexicon parser (fromstring) on wide bracket bodies and operator chains",
-      "url": "https://github.com/advisories/GHSA-89p3-fcch-88ph",
-      "date": "2026-11-14T00:08:50.000Z",
+      "title": "[chainlit] chainlit : Chainlit allows authenticated arbitrary file reads through custom element updates",
+      "url": "https://github.com/advisories/GHSA-gm79-2pvc-wc75",
+      "date": "2026-11-16T22:36:32.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     },
     {
-      "title": "[nltk] NLTK: Quadratic-time CPU denial of service in Tree.chomsky_normal_form right-factor binarization via list.pop(0)",
-      "url": "https://github.com/advisories/GHSA-r53h-rw34-8h97",
-      "date": "2026-11-14T00:08:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: Quadratic-time CPU denial of service in Tree.chomsky_normal_form right-factor binarization via list.pop(0)",
-      "url": "https://github.com/advisories/GHSA-6665-2vj3-h76r",
-      "date": "2026-11-14T00:06:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] NLTK: Quadratic-time CPU denial of service in ConllCorpusReader SRL instance builder via nested span rescan",
-      "url": "https://github.com/advisories/GHSA-v8f3-6phw-6mh9",
-      "date": "2026-11-14T00:05:58.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: Quadratic-time CPU denial of service in ConllCorpusReader SRL instance builder via nested span rescan",
-      "url": "https://github.com/advisories/GHSA-qvhx-rvgc-jhwf",
-      "date": "2026-11-14T00:04:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] NLTK: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
-      "url": "https://github.com/advisories/GHSA-fg9w-wfp5-j933",
-      "date": "2026-11-13T23:20:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: BllipParser passes caller-supplied model paths to the bllipparser C extension with no pathsec check, enabling arbitrary read",
-      "url": "https://github.com/advisories/GHSA-f7j6-hf97-9v99",
-      "date": "2026-11-13T23:20:11.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ag-psd] ag-psd can exhaust memory when parsing crafted PSD dimensions",
-      "url": "https://github.com/advisories/GHSA-qfx6-q44v-9qqw",
-      "date": "2026-11-13T23:19:41.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: Quadratic-time CPU denial of service in NLTK CCG lexicon parser (fromstring) on wide bracket bodies and operator chains",
-      "url": "https://github.com/advisories/GHSA-jh6r-h4rx-2j3w",
-      "date": "2026-11-13T23:04:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: Path Traversal in save_maxent_params / load_maxent_params Allow Arbitrary File READ/WRITE",
-      "url": "https://github.com/advisories/GHSA-g5wx-957h-f4wj",
-      "date": "2026-11-13T21:42:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] NLTK: Quadratic CPU exhaustion in LegalitySyllableTokenizer.tokenize via unguarded onset reversal loop",
-      "url": "https://github.com/advisories/GHSA-gpwc-27cw-rh9r",
-      "date": "2026-11-13T21:16:39.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] NLTK: Quadratic CPU exhaustion in TreebankWordTokenizer.span_tokenize via list.pop(0) in quote-restore loop",
-      "url": "https://github.com/advisories/GHSA-ffr9-mgrr-wcvr",
-      "date": "2026-11-13T21:08:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: Quadratic CPU exhaustion in TreebankWordTokenizer.span_tokenize via list.pop(0) in quote-restore loop",
-      "url": "https://github.com/advisories/GHSA-rg32-vgf9-927c",
-      "date": "2026-11-13T21:07:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] NLTK: Unbounded CPU consumption in SteppingRecursiveDescentParser.parse() with ambiguous or self-embedding grammars",
-      "url": "https://github.com/advisories/GHSA-8fx7-8jr8-84rv",
-      "date": "2026-11-13T21:02:20.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: Unbounded CPU consumption in NLTK SteppingRecursiveDescentParser.parse() with ambiguous or self-embedding grammars",
-      "url": "https://github.com/advisories/GHSA-4hvg-fv5c-9936",
-      "date": "2026-11-13T20:57:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] NLTK: Symlink escape in YCOECorpusReader lets a psd/pos directory symlink read files outside the corpus root within the data sandbox",
-      "url": "https://github.com/advisories/GHSA-qg35-44qx-7vrr",
-      "date": "2026-11-13T20:55:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Duplicate Advisory: Symlink escape in YCOECorpusReader lets a psd/pos directory symlink read files outside the corpus root within the data sandbox",
-      "url": "https://github.com/advisories/GHSA-7r4r-6ppg-7ff8",
-      "date": "2026-11-13T20:54:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@sveltejs/kit] SvelteKit: adapter-node crashes with an unhandled URIError when `reroute` rewrites malformed pathnames",
-      "url": "https://github.com/advisories/GHSA-mw6w-2fmv-pvw3",
-      "date": "2026-11-13T20:51:48.000Z",
+      "title": "[directus] Directus: Share update allows reassigning user_created and role",
+      "url": "https://github.com/advisories/GHSA-7h45-q5jx-7r87",
+      "date": "2026-11-16T22:25:54.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@sveltejs/kit] SvelteKit: adapter-node crashes with an unhandled URIError when `reroute` rewrites malformed pathnames",
-      "url": "https://github.com/advisories/GHSA-mw6w-2fmv-pvw3",
-      "date": "2026-11-13T20:51:48.000Z",
+      "title": "[mail-parser] mail-parser: One hostile attachment aborts `write_attachments()` and silently drops the rest of the batch",
+      "url": "https://github.com/advisories/GHSA-8cgq-x343-p74c",
+      "date": "2026-11-16T22:23:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mail-parser] mail-parser: Uncaught `OverflowError` / `OSError` on an out-of-range `Received` date",
+      "url": "https://github.com/advisories/GHSA-xhrq-2mqv-q8wx",
+      "date": "2026-11-16T22:20:33.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mail-parser] mail-parser: Uncaught exceptions and silent header loss in mail-parser on attacker-controlled input",
+      "url": "https://github.com/advisories/GHSA-24mq-4vc6-2prf",
+      "date": "2026-11-16T22:12:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mail-parser] mail-parser: Sender IP address spoofing in get_server_ipaddress()",
+      "url": "https://github.com/advisories/GHSA-72px-j8gh-p79x",
+      "date": "2026-11-16T22:11:55.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mail-parser] mail-parser is vulnerable to polynomial ReDoS in email header parsing",
+      "url": "https://github.com/advisories/GHSA-r7w7-vpq8-c5vv",
+      "date": "2026-11-16T22:11:09.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mail-parser] mail-parser: Path Traversal vulnerability in attachment extraction",
+      "url": "https://github.com/advisories/GHSA-fr3h-cpq2-9496",
+      "date": "2026-11-16T22:10:56.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[termux-sync] termux-sync: Arbitrary file write during restore via attacker-controlled manifest source path",
+      "url": "https://github.com/advisories/GHSA-259w-wmqg-fp76",
+      "date": "2026-11-16T22:09:25.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[code-review-mcp-server] code-review-mcp-server: Command injection via unsanitized folderPath/baseBranch parameters",
+      "url": "https://github.com/advisories/GHSA-jq3q-62jc-fqq9",
+      "date": "2026-11-16T22:09:07.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[next] Next.js: Information disclosure across root params when a 'use cache' function is called through unstable_cache()",
+      "url": "https://github.com/advisories/GHSA-mfr8-8qww-v76h",
+      "date": "2026-11-16T18:51:23.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
     },
     {
-      "title": "[@sveltejs/adapter-static] SvelteKit: Prerendered paths are interpreted as regular expressions in Vercel route config generated by @sveltejs/adapter-vercel and @sveltejs/adapter-static",
-      "url": "https://github.com/advisories/GHSA-jf9x-2fg2-hx4w",
-      "date": "2026-11-13T20:43:24.000Z",
+      "title": "[nltk] NLTK dot2img runs Graphviz 'dot' without the trusted-exec chokepoint, enabling local code execution via a writable PATH element",
+      "url": "https://github.com/advisories/GHSA-7mxv-7h3q-9324",
+      "date": "2026-11-16T18:45:54.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[sentry] Sentry's improper authentication on SAML SSO process allows user identity linking",
+      "url": "https://github.com/advisories/GHSA-rcmw-7mc7-3rj7",
+      "date": "2026-11-16T16:19:02.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[lightning] PyTorch Lightning path traversal vulnerability",
+      "url": "https://github.com/advisories/GHSA-4cv3-v7pv-rfhf",
+      "date": "2026-11-16T16:13:01.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[ironic-inspector] Injection vulnerability that affects ironic-discoverd",
+      "url": "https://github.com/advisories/GHSA-x64g-wjmw-w328",
+      "date": "2026-11-16T16:10:03.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[praisonai] PraisonAI: OS Command Injection in MCPHandler.parse_mcp_command()",
+      "url": "https://github.com/advisories/GHSA-9gm9-c8mq-vq7m",
+      "date": "2026-11-16T15:58:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[ormar] ormar is vulnerable to SQL Injection through aggregate functions min() and max()",
+      "url": "https://github.com/advisories/GHSA-xxh2-68g9-8jqr",
+      "date": "2026-11-16T15:44:26.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[max] Modular Max Serve has Unsafe Deserialization vulnerability",
+      "url": "https://github.com/advisories/GHSA-7xcv-9j6c-2fmc",
+      "date": "2026-11-16T15:22:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[pytorch-lightning] Remote code execution in pytorch lightning",
+      "url": "https://github.com/advisories/GHSA-cgwc-qvrx-rf7f",
+      "date": "2026-11-16T15:15:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[@nuxt/nitro-server] Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
+      "url": "https://github.com/advisories/GHSA-hf59-9xwc-2g4p",
+      "date": "2026-11-16T15:02:23.000Z",
       "ecosystem": "npm",
-      "severity": "MODERATE"
+      "severity": "LOW"
     }
   ]
 }
