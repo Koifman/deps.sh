@@ -1,6 +1,114 @@
 {
-  "fetchedAt": "2026-11-17T03:37:50.645Z",
+  "fetchedAt": "2026-11-17T13:00:09.976Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0542: humantime is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0542.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0543: chrono is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0543.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0544: Vulnerability in libz-sys",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0544.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0546: Vulnerability in zip",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0546.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0548: Vulnerability in zip",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0548.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0545: Vulnerability in zip",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0545.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0547: Vulnerability in zip",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0547.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0549: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0549.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0551: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0551.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0550: Vulnerability in hickory-proto",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0550.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0552: Vulnerability in actix-http",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0552.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0553: Vulnerability in actix-http",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0553.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0554: Vulnerability in actix-http",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0554.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0555: chrono-tz is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0555.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0557: Vulnerability in hickory-net",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0557.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0556: Vulnerability in hickory-net",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0556.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0558: Vulnerability in hickory-net",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0558.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0559: chrono-tz-build is unmaintained",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0559.html",
+      "date": "2026-11-17T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[chainlit] chainlit : Chainlit allows authenticated arbitrary file reads through custom element updates",
       "url": "https://github.com/advisories/GHSA-gm79-2pvc-wc75",
@@ -14,132 +122,6 @@
       "date": "2026-11-16T22:25:54.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[mail-parser] mail-parser: One hostile attachment aborts `write_attachments()` and silently drops the rest of the batch",
-      "url": "https://github.com/advisories/GHSA-8cgq-x343-p74c",
-      "date": "2026-11-16T22:23:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mail-parser] mail-parser: Uncaught `OverflowError` / `OSError` on an out-of-range `Received` date",
-      "url": "https://github.com/advisories/GHSA-xhrq-2mqv-q8wx",
-      "date": "2026-11-16T22:20:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mail-parser] mail-parser: Uncaught exceptions and silent header loss in mail-parser on attacker-controlled input",
-      "url": "https://github.com/advisories/GHSA-24mq-4vc6-2prf",
-      "date": "2026-11-16T22:12:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[mail-parser] mail-parser: Sender IP address spoofing in get_server_ipaddress()",
-      "url": "https://github.com/advisories/GHSA-72px-j8gh-p79x",
-      "date": "2026-11-16T22:11:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mail-parser] mail-parser is vulnerable to polynomial ReDoS in email header parsing",
-      "url": "https://github.com/advisories/GHSA-r7w7-vpq8-c5vv",
-      "date": "2026-11-16T22:11:09.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mail-parser] mail-parser: Path Traversal vulnerability in attachment extraction",
-      "url": "https://github.com/advisories/GHSA-fr3h-cpq2-9496",
-      "date": "2026-11-16T22:10:56.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[termux-sync] termux-sync: Arbitrary file write during restore via attacker-controlled manifest source path",
-      "url": "https://github.com/advisories/GHSA-259w-wmqg-fp76",
-      "date": "2026-11-16T22:09:25.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[code-review-mcp-server] code-review-mcp-server: Command injection via unsanitized folderPath/baseBranch parameters",
-      "url": "https://github.com/advisories/GHSA-jq3q-62jc-fqq9",
-      "date": "2026-11-16T22:09:07.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[next] Next.js: Information disclosure across root params when a 'use cache' function is called through unstable_cache()",
-      "url": "https://github.com/advisories/GHSA-mfr8-8qww-v76h",
-      "date": "2026-11-16T18:51:23.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] NLTK dot2img runs Graphviz 'dot' without the trusted-exec chokepoint, enabling local code execution via a writable PATH element",
-      "url": "https://github.com/advisories/GHSA-7mxv-7h3q-9324",
-      "date": "2026-11-16T18:45:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[sentry] Sentry's improper authentication on SAML SSO process allows user identity linking",
-      "url": "https://github.com/advisories/GHSA-rcmw-7mc7-3rj7",
-      "date": "2026-11-16T16:19:02.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[lightning] PyTorch Lightning path traversal vulnerability",
-      "url": "https://github.com/advisories/GHSA-4cv3-v7pv-rfhf",
-      "date": "2026-11-16T16:13:01.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[ironic-inspector] Injection vulnerability that affects ironic-discoverd",
-      "url": "https://github.com/advisories/GHSA-x64g-wjmw-w328",
-      "date": "2026-11-16T16:10:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[praisonai] PraisonAI: OS Command Injection in MCPHandler.parse_mcp_command()",
-      "url": "https://github.com/advisories/GHSA-9gm9-c8mq-vq7m",
-      "date": "2026-11-16T15:58:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[ormar] ormar is vulnerable to SQL Injection through aggregate functions min() and max()",
-      "url": "https://github.com/advisories/GHSA-xxh2-68g9-8jqr",
-      "date": "2026-11-16T15:44:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[max] Modular Max Serve has Unsafe Deserialization vulnerability",
-      "url": "https://github.com/advisories/GHSA-7xcv-9j6c-2fmc",
-      "date": "2026-11-16T15:22:34.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[pytorch-lightning] Remote code execution in pytorch lightning",
-      "url": "https://github.com/advisories/GHSA-cgwc-qvrx-rf7f",
-      "date": "2026-11-16T15:15:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[@nuxt/nitro-server] Nuxt: Colliding island props can share one `/__nuxt_island` path (incomplete fix for CVE-2026-46342)",
-      "url": "https://github.com/advisories/GHSA-hf59-9xwc-2g4p",
-      "date": "2026-11-16T15:02:23.000Z",
-      "ecosystem": "npm",
-      "severity": "LOW"
     }
   ]
 }
