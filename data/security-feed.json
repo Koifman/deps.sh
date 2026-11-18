@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-11-17T21:42:49.078Z",
+  "fetchedAt": "2026-11-18T03:33:27.780Z",
   "entries": [
+    {
+      "title": "[fast-xml-parser] fast-xml-parser XMLBuilder: XML Comment and CDATA Injection via Unescaped Delimiters",
+      "url": "https://github.com/advisories/GHSA-gh4j-gqv2-49f6",
+      "date": "2026-11-18T00:23:52.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[fast-xml-parser] fast-xml-parser XMLBuilder: XML Comment and CDATA Injection via Unescaped Delimiters",
+      "url": "https://github.com/advisories/GHSA-gh4j-gqv2-49f6",
+      "date": "2026-11-18T00:23:52.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@libp2p/gossipsub] libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
+      "url": "https://github.com/advisories/GHSA-x2vm-cf3p-m2w8",
+      "date": "2026-11-17T21:06:20.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mobsf] Mobile Security Framework (MobSF) Allows Web Server Resource Exhaustion via ZIP of Death Attack",
+      "url": "https://github.com/advisories/GHSA-c5vg-26p8-q8cr",
+      "date": "2026-11-17T21:05:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@libp2p/crypto] libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
+      "url": "https://github.com/advisories/GHSA-rvfr-cqwq-rc4j",
+      "date": "2026-11-17T21:05:09.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[pympp] pympp allows excessive sponsored transaction fees through padded calldata",
+      "url": "https://github.com/advisories/GHSA-v858-xh7w-8jr5",
+      "date": "2026-11-17T20:04:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[arize-phoenix] Phoenix: Format String Injection in applyChatTemplate",
+      "url": "https://github.com/advisories/GHSA-gfv3-m769-5xm3",
+      "date": "2026-11-17T20:02:30.000Z",
+      "ecosystem": "pypi",
+      "severity": "CRITICAL"
+    },
+    {
+      "title": "[next] Next.js: Cache leak across root param values in nested 'use cache' functions via delayed inner stream metadata",
+      "url": "https://github.com/advisories/GHSA-vc7v-qv4w-wrv8",
+      "date": "2026-11-17T16:13:27.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[picomatch] picomatch vulnerable to ReDoS through single-branch repeated extglobs",
+      "url": "https://github.com/advisories/GHSA-fc5q-39xc-vjpf",
+      "date": "2026-11-17T15:56:44.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0542: humantime is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0542.html",
@@ -66,62 +129,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0552.html",
       "date": "2026-11-17T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0553: Vulnerability in actix-http",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0553.html",
-      "date": "2026-11-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0554: Vulnerability in actix-http",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0554.html",
-      "date": "2026-11-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0555: chrono-tz is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0555.html",
-      "date": "2026-11-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0557: Vulnerability in hickory-net",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0557.html",
-      "date": "2026-11-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0556: Vulnerability in hickory-net",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0556.html",
-      "date": "2026-11-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0558: Vulnerability in hickory-net",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0558.html",
-      "date": "2026-11-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0559: chrono-tz-build is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0559.html",
-      "date": "2026-11-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[chainlit] chainlit : Chainlit allows authenticated arbitrary file reads through custom element updates",
-      "url": "https://github.com/advisories/GHSA-gm79-2pvc-wc75",
-      "date": "2026-11-16T22:36:32.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[directus] Directus: Share update allows reassigning user_created and role",
-      "url": "https://github.com/advisories/GHSA-7h45-q5jx-7r87",
-      "date": "2026-11-16T22:25:54.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
     }
   ]
 }
