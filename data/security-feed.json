@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-11-18T12:53:53.414Z",
+  "fetchedAt": "2026-11-18T21:17:04.491Z",
   "entries": [
+    {
+      "title": "[outstatic] Outstatic: Authenticated GitHub REST proxy can send OAuth token to non-GitHub origins",
+      "url": "https://github.com/advisories/GHSA-7jvc-9xq8-frff",
+      "date": "2026-11-18T20:43:44.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@augment-vir/node] augment-virShell allows Command Injection in `grep()` via Unsanitized `searchPattern`",
+      "url": "https://github.com/advisories/GHSA-xvcc-vqjv-phqh",
+      "date": "2026-11-18T16:15:53.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[picomatch] Withdrawn Advisory: picomatch vulnerable to ReDoS through single-branch repeated extglobs",
+      "url": "https://github.com/advisories/GHSA-fc5q-39xc-vjpf",
+      "date": "2026-11-18T15:38:58.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "RUSTSEC-2026-0564: Vulnerability in lettre",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0564.html",
@@ -94,13 +115,6 @@
       "severity": "MODERATE"
     },
     {
-      "title": "[picomatch] picomatch vulnerable to ReDoS through single-branch repeated extglobs",
-      "url": "https://github.com/advisories/GHSA-fc5q-39xc-vjpf",
-      "date": "2026-11-17T15:56:44.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
       "title": "RUSTSEC-2026-0542: humantime is unmaintained",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0542.html",
       "date": "2026-11-17T12:00:00+00:00",
@@ -115,18 +129,6 @@
     {
       "title": "RUSTSEC-2026-0544: Vulnerability in libz-sys",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0544.html",
-      "date": "2026-11-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0546: Vulnerability in zip",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0546.html",
-      "date": "2026-11-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0548: Vulnerability in zip",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0548.html",
       "date": "2026-11-17T12:00:00+00:00",
       "ecosystem": "cargo"
     }
