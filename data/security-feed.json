@@ -1,6 +1,62 @@
 {
-  "fetchedAt": "2026-11-19T12:44:54.937Z",
+  "fetchedAt": "2026-11-19T21:18:19.300Z",
   "entries": [
+    {
+      "title": "[@apireno/domshell] DOMShell: domshell_eval classified as read-tier can execute side-effecting JavaScript without --allow-write",
+      "url": "https://github.com/advisories/GHSA-vg83-hcp4-5qcc",
+      "date": "2026-11-19T16:10:54.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[djangocms-moderation] djangocms-moderation: Moderation comments disclosed to non-participant staff via the admin changelist",
+      "url": "https://github.com/advisories/GHSA-pj7p-238h-76pv",
+      "date": "2026-11-19T16:09:31.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[picomatch] Withdrawn Advisory: picomatch vulnerable to ReDoS through single-branch repeated extglobs",
+      "url": "https://github.com/advisories/GHSA-fc5q-39xc-vjpf",
+      "date": "2026-11-19T16:07:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mareforma] Mareforma: Unsigned Claims Can Be Promoted to REPLICATED via Missing Signature Enforcement in Convergence Path",
+      "url": "https://github.com/advisories/GHSA-8776-qf3h-26r3",
+      "date": "2026-11-19T16:07:38.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mareforma] Mareforma: transparency_logged trusts the unsigned rekor block",
+      "url": "https://github.com/advisories/GHSA-xfq4-8hf9-5h43",
+      "date": "2026-11-19T16:05:08.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mareforma] Mareforma: invalidated claims still promote to REPLICATED",
+      "url": "https://github.com/advisories/GHSA-rgg9-956j-3378",
+      "date": "2026-11-19T16:04:44.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[mareforma] Mareforma: verify_bundle never checks a per-claim signature",
+      "url": "https://github.com/advisories/GHSA-hxh5-gp44-rc6p",
+      "date": "2026-11-19T16:03:40.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[mareforma] Mareforma: search_claims skips verify-on-read, serving forged rows",
+      "url": "https://github.com/advisories/GHSA-m29v-3g7g-9c63",
+      "date": "2026-11-19T16:00:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
     {
       "title": "RUSTSEC-2026-0581: Unsoundness in heapless",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0581.html",
@@ -72,57 +128,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0570.html",
       "date": "2026-11-19T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0572: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0572.html",
-      "date": "2026-11-19T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0571: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0571.html",
-      "date": "2026-11-19T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0568: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0568.html",
-      "date": "2026-11-19T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0566: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0566.html",
-      "date": "2026-11-19T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0573: Vulnerability in wasmtime",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0573.html",
-      "date": "2026-11-19T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[open-webui] open-webui is Vulnerable to Incorrect Access Control",
-      "url": "https://github.com/advisories/GHSA-frv8-gffc-37px",
-      "date": "2026-11-19T01:15:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[@connorbritain/mssql-mcp-server] mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
-      "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
-      "date": "2026-11-19T00:46:41.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@connorbritain/mssql-mcp-writer] mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
-      "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
-      "date": "2026-11-19T00:46:41.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
