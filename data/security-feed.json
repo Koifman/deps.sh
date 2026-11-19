@@ -1,6 +1,76 @@
 {
-  "fetchedAt": "2026-11-18T21:17:04.491Z",
+  "fetchedAt": "2026-11-19T03:05:16.775Z",
   "entries": [
+    {
+      "title": "[open-webui] open-webui is Vulnerable to Incorrect Access Control",
+      "url": "https://github.com/advisories/GHSA-frv8-gffc-37px",
+      "date": "2026-11-19T01:15:57.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[@connorbritain/mssql-mcp-server] mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
+      "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
+      "date": "2026-11-19T00:46:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@connorbritain/mssql-mcp-writer] mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
+      "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
+      "date": "2026-11-19T00:46:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@connorbritain/mssql-mcp-reader] mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
+      "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
+      "date": "2026-11-19T00:46:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@connorbritain/mssql-mcp-core] mssql-mcp-core: SQL injection in mssql-mcp write tools via unparameterized table names and WHERE clauses",
+      "url": "https://github.com/advisories/GHSA-2m9m-6cr5-9x25",
+      "date": "2026-11-19T00:46:41.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[open-webui] Open WebUI Vulnerable to Cross-Site Request Forgery (CSRF)",
+      "url": "https://github.com/advisories/GHSA-p5vx-9hj8-cf4h",
+      "date": "2026-11-19T00:31:39.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[open-webui] Open WebUI Allows Arbitrary File Reading and Deletion",
+      "url": "https://github.com/advisories/GHSA-jrhc-9qg9-4qfq",
+      "date": "2026-11-19T00:14:34.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[django-filer] django-filer: Missing per-object authorization on `discard` and `edit_redirect` version transitions",
+      "url": "https://github.com/advisories/GHSA-vf85-8ff2-3r9w",
+      "date": "2026-11-18T21:20:43.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[djangocms-versioning] djangocms-versioning: Authorization Bypass Through User-Controlled Key and Missing Authorization",
+      "url": "https://github.com/advisories/GHSA-5g9x-qwh5-33x4",
+      "date": "2026-11-18T21:19:06.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[install-artifact-from-github] install-artifact-from-github loads downloaded native artifacts without integrity verification",
+      "url": "https://github.com/advisories/GHSA-88q3-gch3-5396",
+      "date": "2026-11-18T21:17:37.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[outstatic] Outstatic: Authenticated GitHub REST proxy can send OAuth token to non-GitHub origins",
       "url": "https://github.com/advisories/GHSA-7jvc-9xq8-frff",
@@ -64,73 +134,6 @@
       "date": "2026-11-18T00:23:52.000Z",
       "ecosystem": "npm",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[fast-xml-parser] fast-xml-parser XMLBuilder: XML Comment and CDATA Injection via Unescaped Delimiters",
-      "url": "https://github.com/advisories/GHSA-gh4j-gqv2-49f6",
-      "date": "2026-11-18T00:23:52.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@libp2p/gossipsub] libp2p: gossipsub creates a permanent topics-map entry per distinct subscription with no cap in the default config",
-      "url": "https://github.com/advisories/GHSA-x2vm-cf3p-m2w8",
-      "date": "2026-11-17T21:06:20.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[mobsf] Mobile Security Framework (MobSF) Allows Web Server Resource Exhaustion via ZIP of Death Attack",
-      "url": "https://github.com/advisories/GHSA-c5vg-26p8-q8cr",
-      "date": "2026-11-17T21:05:40.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@libp2p/crypto] libp2p: ASN.1 DER decoder drives an unbounded synchronous loop on attacker-controlled length fields, stalling the Node event loop pre-auth",
-      "url": "https://github.com/advisories/GHSA-rvfr-cqwq-rc4j",
-      "date": "2026-11-17T21:05:09.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[pympp] pympp allows excessive sponsored transaction fees through padded calldata",
-      "url": "https://github.com/advisories/GHSA-v858-xh7w-8jr5",
-      "date": "2026-11-17T20:04:57.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[arize-phoenix] Phoenix: Format String Injection in applyChatTemplate",
-      "url": "https://github.com/advisories/GHSA-gfv3-m769-5xm3",
-      "date": "2026-11-17T20:02:30.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[next] Next.js: Cache leak across root param values in nested 'use cache' functions via delayed inner stream metadata",
-      "url": "https://github.com/advisories/GHSA-vc7v-qv4w-wrv8",
-      "date": "2026-11-17T16:13:27.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "RUSTSEC-2026-0542: humantime is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0542.html",
-      "date": "2026-11-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0543: chrono is unmaintained",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0543.html",
-      "date": "2026-11-17T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0544: Vulnerability in libz-sys",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0544.html",
-      "date": "2026-11-17T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
