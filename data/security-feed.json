@@ -1,6 +1,85 @@
 {
-  "fetchedAt": "2026-11-20T11:17:23.661Z",
+  "fetchedAt": "2026-11-20T19:54:18.999Z",
   "entries": [
+    {
+      "title": "[ckan] CKAN: Session Fixation in Registration View",
+      "url": "https://github.com/advisories/GHSA-6499-jgj4-2wpf",
+      "date": "2026-11-20T16:25:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[ckan] CKAN: Session Fixation in Registration View",
+      "url": "https://github.com/advisories/GHSA-6499-jgj4-2wpf",
+      "date": "2026-11-20T16:25:28.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[storyblok-backup] storyblok-backup: Stored path traversal via unsanitized Storyblok component names in backup output",
+      "url": "https://github.com/advisories/GHSA-vcx7-pfrh-mcfg",
+      "date": "2026-11-20T14:55:19.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[amqtt] aMQTT: Denial of Service (DoS) via Memory Leak in Unmanaged QoS 2 Session Handshakes",
+      "url": "https://github.com/advisories/GHSA-wcqj-wx85-c75p",
+      "date": "2026-11-20T14:54:52.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[amqtt] aMQTT: Inefficient Regular Expression Complexity and Uncontrolled Resource Consumption and Improper Input Validation",
+      "url": "https://github.com/advisories/GHSA-2hjf-7455-w946",
+      "date": "2026-11-20T14:43:42.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[js-toml] js-toml allows uncontrolled recursion in `load()` leading `RangeError` (stack exhaustion) on deeply nested input",
+      "url": "https://github.com/advisories/GHSA-3g82-77xr-68x5",
+      "date": "2026-11-20T14:40:46.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[@appium/storage-plugin] appium allows unauthenticated arbitrary file/directory deletion in @appium/storage-plugin",
+      "url": "https://github.com/advisories/GHSA-jwgx-mp9m-jwcr",
+      "date": "2026-11-20T14:34:30.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "RUSTSEC-2026-0583: Vulnerability in sad-rsa",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0583.html",
+      "date": "2026-11-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0584: Vulnerability in tokio-rate-limit",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0584.html",
+      "date": "2026-11-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0585: Vulnerability in pqcrypto-mlkem",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0585.html",
+      "date": "2026-11-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0586: Vulnerability in pqcrypto-mldsa",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0586.html",
+      "date": "2026-11-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0587: Vulnerability in wasmtime-wasi",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0587.html",
+      "date": "2026-11-20T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[ep_etherpad-lite] Etherpad: Pre-auth arbitrary file read",
       "url": "https://github.com/advisories/GHSA-mc8w-wjhw-45x5",
@@ -56,90 +135,6 @@
       "date": "2026-11-20T00:08:12.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] NLTK: ZIP package extraction follows in-root hardlinks and overwrites files outside the NLTK data root",
-      "url": "https://github.com/advisories/GHSA-wr3g-j6qj-xpgh",
-      "date": "2026-11-19T23:59:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] NLTK: AllowlistUnpickler does not deny numpy submodule-local file-I/O sinks",
-      "url": "https://github.com/advisories/GHSA-c59x-vh6j-3w8v",
-      "date": "2026-11-19T23:58:54.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] NLTK corpus-reader view methods bypass the scoped root sandbox via intermediate-directory symlinks",
-      "url": "https://github.com/advisories/GHSA-g58v-j9g9-5gfg",
-      "date": "2026-11-19T23:56:31.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] NLTK incomplete fix: additional JVM/JAR sandbox bypass through unvalidated launcher tokens in java() command arguments",
-      "url": "https://github.com/advisories/GHSA-x8q7-6c7m-52gw",
-      "date": "2026-11-19T23:55:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[nltk] NLTK: XMLCorpusView comment and CDATA parsing permits quadratic CPU denial of service",
-      "url": "https://github.com/advisories/GHSA-j8g8-j4j7-8j54",
-      "date": "2026-11-19T23:55:00.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] NLTK: Downloader cyclic collection indices cause an infinite closure walk",
-      "url": "https://github.com/advisories/GHSA-pcm8-fqjx-rvx8",
-      "date": "2026-11-19T23:54:33.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] NLTK: ARFF_Formatter Injects Weka ARFF Schema Directives via Attacker-Controlled Class Labels",
-      "url": "https://github.com/advisories/GHSA-9ffx-rrgx-mhgx",
-      "date": "2026-11-19T23:54:18.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] Natural Language Toolkit (NLTK): Uncontrolled recursion (crash DoS) in DependencyGraph.tree()/triples()",
-      "url": "https://github.com/advisories/GHSA-rh8m-wqhc-qmrf",
-      "date": "2026-11-19T23:53:42.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] Natural Language Toolkit (NLTK): Uncontrolled recursion (crash DoS) in Synset.tree()/acyclic_tree() via WordNet relation traversal",
-      "url": "https://github.com/advisories/GHSA-8846-p9w9-5frf",
-      "date": "2026-11-19T23:53:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[nltk] NLTK: Uncontrolled recursion in CCG lexicon parser causes denial of service via deeply nested category input",
-      "url": "https://github.com/advisories/GHSA-3h95-x772-4765",
-      "date": "2026-11-19T23:52:55.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] NLTK: Uncontrolled recursion in DependencyGraph traversal causes denial of service via deep dependency chains",
-      "url": "https://github.com/advisories/GHSA-xfcv-m889-fmqg",
-      "date": "2026-11-19T23:52:22.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[nltk] NLTK: Uncontrolled recursion in semantic-logic type parser causes denial of service via nested type strings",
-      "url": "https://github.com/advisories/GHSA-w3pv-xfw4-ghr7",
-      "date": "2026-11-19T23:51:48.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
