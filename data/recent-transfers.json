@@ -1,6 +1,6 @@
 {
-  "scannedAt": "2026-11-20T19:57:12.995Z",
-  "count": 130,
+  "scannedAt": "2026-11-21T01:20:55.715Z",
+  "count": 131,
   "packages": [
     {
       "name": "canvg",
@@ -147,15 +147,6 @@
       "currentOwner": "julmot"
     },
     {
-      "name": "cloudevents",
-      "version": "10.0.0",
-      "ecosystem": "npm",
-      "score": 35,
-      "level": "MODERATE",
-      "previousOwner": "tjanczuk",
-      "currentOwner": "lholmquist"
-    },
-    {
       "name": "babylon",
       "version": "6.18.0",
       "ecosystem": "npm",
@@ -163,6 +154,15 @@
       "level": "MODERATE",
       "previousOwner": "sebmck",
       "currentOwner": "hzoo"
+    },
+    {
+      "name": "cloudevents",
+      "version": "10.0.0",
+      "ecosystem": "npm",
+      "score": 35,
+      "level": "MODERATE",
+      "previousOwner": "tjanczuk",
+      "currentOwner": "lholmquist"
     },
     {
       "name": "@appium/support",
@@ -534,21 +534,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@inquirer/password",
-      "version": "5.3.0",
-      "ecosystem": "npm",
-      "score": 22,
-      "level": "MODERATE",
-      "previousOwner": "sboudrias",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@supabase/realtime-js",
       "version": "2.119.2",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
       "previousOwner": "kiwicopple",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@inquirer/password",
+      "version": "5.3.0",
+      "ecosystem": "npm",
+      "score": 22,
+      "level": "MODERATE",
+      "previousOwner": "sboudrias",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1128,21 +1128,21 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "gradle-to-js",
-      "version": "3.0.2",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "karllindmark",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "oxc-minify",
       "version": "0.159.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
       "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "gradle-to-js",
+      "version": "3.0.2",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "karllindmark",
       "currentOwner": "GitHub Actions"
     },
     {
@@ -1165,6 +1165,15 @@
     },
     {
       "name": "@oxc-parser/binding-linux-riscv64-gnu",
+      "version": "0.159.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-android-arm-eabi",
       "version": "0.159.0",
       "ecosystem": "npm",
       "score": 20,

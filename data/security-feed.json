@@ -1,6 +1,69 @@
 {
-  "fetchedAt": "2026-11-20T19:54:18.999Z",
+  "fetchedAt": "2026-11-21T01:18:12.084Z",
   "entries": [
+    {
+      "title": "[@budibase/server] Budibase: Unauthenticated global-admin & database creation via tenant-confusion bypass of the one-time init guard (`POST /api/global/users/init`)",
+      "url": "https://github.com/advisories/GHSA-25qc-m4pw-2w8r",
+      "date": "2026-11-20T23:50:04.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[@budibase/server] Budibase: Cross-privilege Stored XSS in the Budibase Builder via broken HTML-escaping in `jsonFormatter.format()` rendered through `{@html}` in the CSP-less Builder origin",
+      "url": "https://github.com/advisories/GHSA-r2q3-7m4h-63qg",
+      "date": "2026-11-20T23:49:49.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[wcmatch] wcmatch: Polynomial-time ReDoS when matching untrusted names against multi-star patterns (default flags)",
+      "url": "https://github.com/advisories/GHSA-53pm-wgxf-c6qf",
+      "date": "2026-11-20T23:49:19.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[inscriptis] Inscriptis: Quadratic memory growth from sibling <table> elements in get_text()",
+      "url": "https://github.com/advisories/GHSA-q87h-c5m7-659j",
+      "date": "2026-11-20T23:48:53.000Z",
+      "ecosystem": "pypi",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[svglib] svglib: Exponential resource consumption via nested <use> references in svg2rlg",
+      "url": "https://github.com/advisories/GHSA-555j-qj3j-c8jv",
+      "date": "2026-11-20T23:47:59.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[memtomem-stm] memtomem-stm: Concurrent LTM recovery can duplicate reconnects or reuse a cancelled transport session",
+      "url": "https://github.com/advisories/GHSA-72jh-722p-rqr3",
+      "date": "2026-11-20T23:38:16.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[memtomem-stm] memtomem-stm: Surfaced memory data can escape the Markdown compatibility boundary",
+      "url": "https://github.com/advisories/GHSA-43hx-xm7w-3mhj",
+      "date": "2026-11-20T23:37:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "LOW"
+    },
+    {
+      "title": "[ait-gui] AIT-GUI route chain allows unauthenticated Python execution in server process",
+      "url": "https://github.com/advisories/GHSA-jrjx-9jjw-747m",
+      "date": "2026-11-20T23:36:41.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
+    {
+      "title": "[aedes] Aedes has Uncaught Exception and Uncontrolled Resource Consumption",
+      "url": "https://github.com/advisories/GHSA-xxqp-5qx8-gj5q",
+      "date": "2026-11-20T23:32:36.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[ckan] CKAN: Session Fixation in Registration View",
       "url": "https://github.com/advisories/GHSA-6499-jgj4-2wpf",
@@ -73,68 +136,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0586.html",
       "date": "2026-11-20T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0587: Vulnerability in wasmtime-wasi",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0587.html",
-      "date": "2026-11-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[ep_etherpad-lite] Etherpad: Pre-auth arbitrary file read",
-      "url": "https://github.com/advisories/GHSA-mc8w-wjhw-45x5",
-      "date": "2026-11-20T00:23:46.000Z",
-      "ecosystem": "npm",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[jupyter-mcp-server] Jupyter MCP Server: Browser DNS rebinding can hijack the Jupyter backend through management routes",
-      "url": "https://github.com/advisories/GHSA-9x8x-crjq-g64h",
-      "date": "2026-11-20T00:12:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[jupyter-mcp-server] Jupyter MCP Server: Unauthenticated management routes can hijack the Jupyter backend in standalone HTTP mode",
-      "url": "https://github.com/advisories/GHSA-24pw-rf5p-mgp7",
-      "date": "2026-11-20T00:12:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flyto-core] Flyto2 Core: SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-connects without pinning)",
-      "url": "https://github.com/advisories/GHSA-6pm8-6f34-9v3g",
-      "date": "2026-11-20T00:11:26.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flyto-core] Flyto2 Core: http.paginate follows server-supplied next-page URLs (Link header / cursor) without SSRF revalidation",
-      "url": "https://github.com/advisories/GHSA-2mr3-rxrq-238c",
-      "date": "2026-11-20T00:10:15.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flyto-core] Flyto2 Core: SSRF guard validates the resolved IP but connects by hostname, allowing DNS-rebinding TOCTOU",
-      "url": "https://github.com/advisories/GHSA-pfg2-w999-497v",
-      "date": "2026-11-20T00:09:24.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[flyto-core] Flyto2 Core: Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of CVE-2026-67429)",
-      "url": "https://github.com/advisories/GHSA-p34x-fmph-9fjx",
-      "date": "2026-11-20T00:09:03.000Z",
-      "ecosystem": "pypi",
-      "severity": "CRITICAL"
-    },
-    {
-      "title": "[django-docutils] django-docutils unsafe Docutils defaults allow local file disclosure, SSRF, and stored XSS",
-      "url": "https://github.com/advisories/GHSA-86mf-q4h5-69gp",
-      "date": "2026-11-20T00:08:12.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
