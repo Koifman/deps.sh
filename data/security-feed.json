@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-21T01:18:12.084Z",
+  "fetchedAt": "2026-11-21T09:30:48.406Z",
   "entries": [
+    {
+      "title": "[@tmlmobilidade/utils] @tmlmobilidade/utils has prototype pollution in its setValueAtPath",
+      "url": "https://github.com/advisories/GHSA-cmxg-94mg-jq94",
+      "date": "2026-11-21T05:15:45.000Z",
+      "ecosystem": "npm",
+      "severity": "HIGH"
+    },
     {
       "title": "[@budibase/server] Budibase: Unauthenticated global-admin & database creation via tenant-confusion bypass of the one-time init guard (`POST /api/global/users/init`)",
       "url": "https://github.com/advisories/GHSA-25qc-m4pw-2w8r",
@@ -114,26 +121,20 @@
       "severity": "HIGH"
     },
     {
-      "title": "RUSTSEC-2026-0583: Vulnerability in sad-rsa",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0583.html",
-      "date": "2026-11-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
       "title": "RUSTSEC-2026-0584: Vulnerability in tokio-rate-limit",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0584.html",
       "date": "2026-11-20T12:00:00+00:00",
       "ecosystem": "cargo"
     },
     {
-      "title": "RUSTSEC-2026-0585: Vulnerability in pqcrypto-mlkem",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0585.html",
+      "title": "RUSTSEC-2026-0587: Vulnerability in wasmtime-wasi",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0587.html",
       "date": "2026-11-20T12:00:00+00:00",
       "ecosystem": "cargo"
     },
     {
-      "title": "RUSTSEC-2026-0586: Vulnerability in pqcrypto-mldsa",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0586.html",
+      "title": "RUSTSEC-2026-0583: Vulnerability in sad-rsa",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0583.html",
       "date": "2026-11-20T12:00:00+00:00",
       "ecosystem": "cargo"
     }
