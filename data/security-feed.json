@@ -1,6 +1,36 @@
 {
-  "fetchedAt": "2026-11-22T02:59:42.836Z",
+  "fetchedAt": "2026-11-22T11:07:10.274Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0592: Vulnerability in url",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0592.html",
+      "date": "2026-11-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0591: Security notice about secmem-proc",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0591.html",
+      "date": "2026-11-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0588: Vulnerability in ruma-identifiers-validation",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0588.html",
+      "date": "2026-11-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0589: Vulnerability in ruma-identifiers-validation",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0589.html",
+      "date": "2026-11-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0590: Vulnerability in secure-gate",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0590.html",
+      "date": "2026-11-22T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@tmlmobilidade/utils] @tmlmobilidade/utils has prototype pollution in its setValueAtPath",
       "url": "https://github.com/advisories/GHSA-cmxg-94mg-jq94",
@@ -105,38 +135,6 @@
       "date": "2026-11-20T14:43:42.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[js-toml] js-toml allows uncontrolled recursion in `load()` leading `RangeError` (stack exhaustion) on deeply nested input",
-      "url": "https://github.com/advisories/GHSA-3g82-77xr-68x5",
-      "date": "2026-11-20T14:40:46.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[@appium/storage-plugin] appium allows unauthenticated arbitrary file/directory deletion in @appium/storage-plugin",
-      "url": "https://github.com/advisories/GHSA-jwgx-mp9m-jwcr",
-      "date": "2026-11-20T14:34:30.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "RUSTSEC-2026-0584: Vulnerability in tokio-rate-limit",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0584.html",
-      "date": "2026-11-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0587: Vulnerability in wasmtime-wasi",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0587.html",
-      "date": "2026-11-20T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0583: Vulnerability in sad-rsa",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0583.html",
-      "date": "2026-11-20T12:00:00+00:00",
-      "ecosystem": "cargo"
     }
   ]
 }
