@@ -1,6 +1,18 @@
 {
-  "fetchedAt": "2026-11-23T08:50:17.301Z",
+  "fetchedAt": "2026-11-23T21:07:06.893Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0595: Unsoundness in parquet",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0595.html",
+      "date": "2026-11-23T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0594: Vulnerability in cookie",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0594.html",
+      "date": "2026-11-23T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "RUSTSEC-2026-0588: Vulnerability in ruma-identifiers-validation",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0588.html",
@@ -120,20 +132,6 @@
       "date": "2026-11-20T16:25:28.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[storyblok-backup] storyblok-backup: Stored path traversal via unsanitized Storyblok component names in backup output",
-      "url": "https://github.com/advisories/GHSA-vcx7-pfrh-mcfg",
-      "date": "2026-11-20T14:55:19.000Z",
-      "ecosystem": "npm",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[amqtt] aMQTT: Denial of Service (DoS) via Memory Leak in Unmanaged QoS 2 Session Handshakes",
-      "url": "https://github.com/advisories/GHSA-wcqj-wx85-c75p",
-      "date": "2026-11-20T14:54:52.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
