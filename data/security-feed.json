@@ -1,6 +1,24 @@
 {
-  "fetchedAt": "2026-11-24T05:50:51.360Z",
+  "fetchedAt": "2026-11-24T17:25:15.720Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0597: Unsoundness in hugepage-rs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0597.html",
+      "date": "2026-11-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0598: Unsoundness in hugepage-rs",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0598.html",
+      "date": "2026-11-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0596: Vulnerability in etherparse",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0596.html",
+      "date": "2026-11-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[isomorphic-git] isomorphic-git allows unbounded memory allocation from attacker-controlled delta target size (DoS)",
       "url": "https://github.com/advisories/GHSA-9x82-4j54-863h",
@@ -109,27 +127,6 @@
       "title": "[svglib] svglib: Exponential resource consumption via nested <use> references in svg2rlg",
       "url": "https://github.com/advisories/GHSA-555j-qj3j-c8jv",
       "date": "2026-11-20T23:47:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[memtomem-stm] memtomem-stm: Concurrent LTM recovery can duplicate reconnects or reuse a cancelled transport session",
-      "url": "https://github.com/advisories/GHSA-72jh-722p-rqr3",
-      "date": "2026-11-20T23:38:16.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[memtomem-stm] memtomem-stm: Surfaced memory data can escape the Markdown compatibility boundary",
-      "url": "https://github.com/advisories/GHSA-43hx-xm7w-3mhj",
-      "date": "2026-11-20T23:37:41.000Z",
-      "ecosystem": "pypi",
-      "severity": "LOW"
-    },
-    {
-      "title": "[ait-gui] AIT-GUI route chain allows unauthenticated Python execution in server process",
-      "url": "https://github.com/advisories/GHSA-jrjx-9jjw-747m",
-      "date": "2026-11-20T23:36:41.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
     }
