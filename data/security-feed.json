@@ -1,6 +1,27 @@
 {
-  "fetchedAt": "2026-11-23T21:07:06.893Z",
+  "fetchedAt": "2026-11-24T05:50:51.360Z",
   "entries": [
+    {
+      "title": "[isomorphic-git] isomorphic-git allows unbounded memory allocation from attacker-controlled delta target size (DoS)",
+      "url": "https://github.com/advisories/GHSA-9x82-4j54-863h",
+      "date": "2026-11-23T21:07:03.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[i18next] i18next deepExtend recurses into inherited built-ins, allowing corruption of shared built-in objects (DoS)",
+      "url": "https://github.com/advisories/GHSA-6jcc-5g8w-32mx",
+      "date": "2026-11-23T20:53:01.000Z",
+      "ecosystem": "npm",
+      "severity": "MODERATE"
+    },
+    {
+      "title": "[xo-server] Xen Orchestra: Empty-object login token",
+      "url": "https://github.com/advisories/GHSA-2r3w-c2vx-fv5g",
+      "date": "2026-11-23T17:29:30.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0595: Unsoundness in parquet",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0595.html",
@@ -111,27 +132,6 @@
       "date": "2026-11-20T23:36:41.000Z",
       "ecosystem": "pypi",
       "severity": "HIGH"
-    },
-    {
-      "title": "[aedes] Aedes has Uncaught Exception and Uncontrolled Resource Consumption",
-      "url": "https://github.com/advisories/GHSA-xxqp-5qx8-gj5q",
-      "date": "2026-11-20T23:32:36.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[ckan] CKAN: Session Fixation in Registration View",
-      "url": "https://github.com/advisories/GHSA-6499-jgj4-2wpf",
-      "date": "2026-11-20T16:25:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[ckan] CKAN: Session Fixation in Registration View",
-      "url": "https://github.com/advisories/GHSA-6499-jgj4-2wpf",
-      "date": "2026-11-20T16:25:28.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
