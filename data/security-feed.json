@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-24T17:25:15.720Z",
+  "fetchedAt": "2026-11-25T02:09:58.639Z",
   "entries": [
+    {
+      "title": "[ruflo] ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
+      "url": "https://github.com/advisories/GHSA-c4hm-4h84-2cf3",
+      "date": "2026-11-24T21:01:11.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0597: Unsoundness in hugepage-rs",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0597.html",
@@ -10,6 +17,12 @@
     {
       "title": "RUSTSEC-2026-0598: Unsoundness in hugepage-rs",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0598.html",
+      "date": "2026-11-24T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0599: Vulnerability in xmloxide",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0599.html",
       "date": "2026-11-24T12:00:00+00:00",
       "ecosystem": "cargo"
     },
@@ -115,20 +128,6 @@
       "date": "2026-11-20T23:49:19.000Z",
       "ecosystem": "pypi",
       "severity": "MODERATE"
-    },
-    {
-      "title": "[inscriptis] Inscriptis: Quadratic memory growth from sibling <table> elements in get_text()",
-      "url": "https://github.com/advisories/GHSA-q87h-c5m7-659j",
-      "date": "2026-11-20T23:48:53.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
-    },
-    {
-      "title": "[svglib] svglib: Exponential resource consumption via nested <use> references in svg2rlg",
-      "url": "https://github.com/advisories/GHSA-555j-qj3j-c8jv",
-      "date": "2026-11-20T23:47:59.000Z",
-      "ecosystem": "pypi",
-      "severity": "HIGH"
     }
   ]
 }
