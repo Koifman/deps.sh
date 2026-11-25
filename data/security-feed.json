@@ -1,6 +1,19 @@
 {
-  "fetchedAt": "2026-11-25T02:09:58.639Z",
+  "fetchedAt": "2026-11-25T12:29:29.182Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0600: Vulnerability in kube-client",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0600.html",
+      "date": "2026-11-25T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "[soapbar] soapbar: verify_envelope_bsp accepts an unauthenticated embedded certificate (signature forgery / authentication bypass)",
+      "url": "https://github.com/advisories/GHSA-859w-52fx-hcm6",
+      "date": "2026-11-24T22:41:47.000Z",
+      "ecosystem": "pypi",
+      "severity": "HIGH"
+    },
     {
       "title": "[ruflo] ruflo MCP bridge allows unauthenticated remote code execution in default Docker Compose deployments",
       "url": "https://github.com/advisories/GHSA-c4hm-4h84-2cf3",
@@ -114,20 +127,6 @@
       "date": "2026-11-20T23:50:04.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase: Cross-privilege Stored XSS in the Budibase Builder via broken HTML-escaping in `jsonFormatter.format()` rendered through `{@html}` in the CSP-less Builder origin",
-      "url": "https://github.com/advisories/GHSA-r2q3-7m4h-63qg",
-      "date": "2026-11-20T23:49:49.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[wcmatch] wcmatch: Polynomial-time ReDoS when matching untrusted names against multi-star patterns (default flags)",
-      "url": "https://github.com/advisories/GHSA-53pm-wgxf-c6qf",
-      "date": "2026-11-20T23:49:19.000Z",
-      "ecosystem": "pypi",
-      "severity": "MODERATE"
     }
   ]
 }
