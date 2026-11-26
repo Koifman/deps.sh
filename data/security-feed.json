@@ -1,6 +1,13 @@
 {
-  "fetchedAt": "2026-11-25T22:19:14.778Z",
+  "fetchedAt": "2026-11-26T04:51:22.631Z",
   "entries": [
+    {
+      "title": "[@waline/client] @waline/client vulnerable to stored XSS through unsanitized comment edit previews",
+      "url": "https://github.com/advisories/GHSA-crj3-q72p-ggqm",
+      "date": "2026-11-25T15:26:25.000Z",
+      "ecosystem": "npm",
+      "severity": "CRITICAL"
+    },
     {
       "title": "RUSTSEC-2026-0600: Vulnerability in kube-client",
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0600.html",
@@ -118,13 +125,6 @@
       "title": "[@tmlmobilidade/utils] @tmlmobilidade/utils has prototype pollution in its setValueAtPath",
       "url": "https://github.com/advisories/GHSA-cmxg-94mg-jq94",
       "date": "2026-11-21T05:15:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
-    },
-    {
-      "title": "[@budibase/server] Budibase: Unauthenticated global-admin & database creation via tenant-confusion bypass of the one-time init guard (`POST /api/global/users/init`)",
-      "url": "https://github.com/advisories/GHSA-25qc-m4pw-2w8r",
-      "date": "2026-11-20T23:50:04.000Z",
       "ecosystem": "npm",
       "severity": "HIGH"
     }
