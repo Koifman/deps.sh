@@ -1,6 +1,24 @@
 {
-  "fetchedAt": "2026-11-27T07:55:50.527Z",
+  "fetchedAt": "2026-11-27T18:02:52.343Z",
   "entries": [
+    {
+      "title": "RUSTSEC-2026-0602: Vulnerability in dryoc",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0602.html",
+      "date": "2026-11-27T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0603: Vulnerability in dryoc",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0603.html",
+      "date": "2026-11-27T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
+    {
+      "title": "RUSTSEC-2026-0601: Vulnerability in wsts",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0601.html",
+      "date": "2026-11-27T12:00:00+00:00",
+      "ecosystem": "cargo"
+    },
     {
       "title": "[@waline/client] @waline/client vulnerable to stored XSS through unsanitized comment edit previews",
       "url": "https://github.com/advisories/GHSA-crj3-q72p-ggqm",
@@ -108,25 +126,6 @@
       "url": "https://rustsec.org/advisories/RUSTSEC-2026-0590.html",
       "date": "2026-11-22T12:00:00+00:00",
       "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0591: Security notice about secmem-proc",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0591.html",
-      "date": "2026-11-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "RUSTSEC-2026-0592: Vulnerability in url",
-      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0592.html",
-      "date": "2026-11-22T12:00:00+00:00",
-      "ecosystem": "cargo"
-    },
-    {
-      "title": "[@tmlmobilidade/utils] @tmlmobilidade/utils has prototype pollution in its setValueAtPath",
-      "url": "https://github.com/advisories/GHSA-cmxg-94mg-jq94",
-      "date": "2026-11-21T05:15:45.000Z",
-      "ecosystem": "npm",
-      "severity": "HIGH"
     }
   ]
 }
