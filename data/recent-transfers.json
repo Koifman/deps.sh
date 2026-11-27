@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-11-26T23:42:29.154Z",
+  "scannedAt": "2026-11-27T07:58:35.858Z",
   "count": 130,
   "packages": [
     {
@@ -175,7 +175,7 @@
     },
     {
       "name": "@appium/support",
-      "version": "8.0.1",
+      "version": "8.0.2",
       "ecosystem": "npm",
       "score": 35,
       "level": "MODERATE",
@@ -724,7 +724,7 @@
     },
     {
       "name": "@appium/types",
-      "version": "2.0.0",
+      "version": "3.0.0",
       "ecosystem": "npm",
       "score": 22,
       "level": "MODERATE",
@@ -850,7 +850,7 @@
     },
     {
       "name": "@speed-highlight/core",
-      "version": "2.2.2",
+      "version": "2.2.3",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -1110,15 +1110,6 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "oxc-transform-react",
-      "version": "0.158.0",
-      "ecosystem": "npm",
-      "score": 20,
-      "level": "LOW",
-      "previousOwner": "boshen",
-      "currentOwner": "GitHub Actions"
-    },
-    {
       "name": "@oxc-minify/binding-linux-x64-gnu",
       "version": "0.160.0",
       "ecosystem": "npm",
@@ -1128,8 +1119,8 @@
       "currentOwner": "GitHub Actions"
     },
     {
-      "name": "@oxc-parser/binding-linux-riscv64-gnu",
-      "version": "0.160.0",
+      "name": "oxc-transform-react",
+      "version": "0.158.0",
       "ecosystem": "npm",
       "score": 20,
       "level": "LOW",
@@ -1147,6 +1138,15 @@
     },
     {
       "name": "@oxc-parser/binding-linux-ppc64-gnu",
+      "version": "0.160.0",
+      "ecosystem": "npm",
+      "score": 20,
+      "level": "LOW",
+      "previousOwner": "boshen",
+      "currentOwner": "GitHub Actions"
+    },
+    {
+      "name": "@oxc-parser/binding-linux-riscv64-gnu",
       "version": "0.160.0",
       "ecosystem": "npm",
       "score": 20,
